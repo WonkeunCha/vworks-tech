@@ -1,0 +1,162 @@
+{
+  "nav": {
+    "solutions": "Solutions",
+    "partners": "Partners",
+    "reference": "References",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "VAST Data Official Partner",
+    "headline1": "Beyond Boundaries,",
+    "headline2": "Built to Scale",
+    "sub": "Specialized HPC · AI · Storage Infrastructure for Defense, Public, and Research Institutions",
+    "cta_primary": "Explore Solutions",
+    "cta_secondary": "View References",
+    "stat1_num": "5+",
+    "stat1_label": "Defense & Public References",
+    "stat2_num": "PB",
+    "stat2_label": "Data Under Management",
+    "stat3_num": "24×7",
+    "stat3_label": "Technical Support"
+  },
+  "solutions": {
+    "section_label": "SOLUTIONS",
+    "section_title": "Solutions",
+    "section_sub": "Integrated infrastructure services spanning AI, HPC, and Storage",
+    "cards": [
+      {
+        "category": "STORAGE · CORE PARTNER",
+        "title": "VAST Data Storage",
+        "tag": "CORE",
+        "summary": "Next-gen all-flash storage that consolidates petabyte-scale unstructured data into a single unified platform.",
+        "href": "/solutions/vast-data"
+      },
+      {
+        "category": "INFRASTRUCTURE · HPC",
+        "title": "HPC Infrastructure",
+        "tag": "HPC",
+        "summary": "End-to-end HPC cluster design, deployment, and operations — specialized for defense and research institutions.",
+        "href": "/solutions/hpc"
+      },
+      {
+        "category": "AI · ML · GPU CLUSTER",
+        "title": "AI Computing",
+        "tag": "AI",
+        "summary": "End-to-end GPU cluster-based AI training and inference infrastructure, including MLOps pipeline environment setup.",
+        "href": "/solutions/ai-computing"
+      },
+      {
+        "category": "HARDWARE · OFFICIAL PARTNER",
+        "title": "Dell Server Supply",
+        "tag": "HARDWARE",
+        "summary": "As an official Dell Technologies partner, we supply the full PowerEdge lineup with public procurement and enterprise-tailored configurations.",
+        "href": "/solutions/dell-server"
+      },
+      {
+        "category": "SECURITY · DEFENSE SPECIALIZED",
+        "title": "Security Architecture",
+        "tag": "SECURITY",
+        "summary": "Specialized service for designing and implementing network separation and inter-network security architectures compliant with DAPA ISMS standards.",
+        "href": "/solutions/security"
+      },
+      {
+        "category": "TECHNICAL SUPPORT · MAINTENANCE",
+        "title": "Technical Support",
+        "tag": "SUPPORT",
+        "summary": "Responsibility that doesn't end at deployment — rapid on-site response in Busan-Ulsan-Gyeongnam and 24×7 remote monitoring.",
+        "href": "/solutions/support"
+      }
+    ]
+  },
+  "reference": {
+    "section_label": "REFERENCE",
+    "section_title": "References",
+    "section_sub": "Implementation cases across Defense, Public, and Private sectors",
+    "view_all": "View All References",
+    "cases": [
+      {
+        "client": "Republic of Korea Navy",
+        "title": "Ocean Numerical Model HPC Cluster",
+        "tags": ["HPC", "Defense"],
+        "slug": "navy-ocean-hpc"
+      },
+      {
+        "client": "Republic of Korea Navy",
+        "title": "NAIMS-II HPC Cluster",
+        "tags": ["HPC", "Defense"],
+        "slug": "navy-naims-hpc"
+      },
+      {
+        "client": "Korea Hydro & Nuclear Power",
+        "title": "Inter-Network Solution Integrated Maintenance",
+        "tags": ["Security", "Network"],
+        "slug": "khnp-network"
+      },
+      {
+        "client": "STX Engine",
+        "title": "AI Server Infrastructure",
+        "tags": ["AI", "GPU"],
+        "slug": "stx-ai-server"
+      }
+    ]
+  },
+  "partners": {
+    "section_label": "PARTNERS",
+    "section_title": "Partners",
+    "section_sub": "Delivering optimal solutions through official partnerships with world-class technology companies"
+  },
+  "about_section": {
+    "section_label": "ABOUT",
+    "section_title": "About Us",
+    "body": "VWorks Technologies is an integrated infrastructure specialist for defense, public, and research institutions. As an official VAST Data and Dell Technologies partner, we deliver end-to-end infrastructure solutions that safely process petabyte-scale data.",
+    "founded": "Founded",
+    "founded_year": "2021",
+    "location": "HQ",
+    "location_val": "Busan, Korea",
+    "lab": "Tech Lab",
+    "lab_val": "Daegu, Korea",
+    "learn_more": "Learn More"
+  },
+  "contact_section": {
+    "section_label": "CONTACT",
+    "section_title": "Get in Touch",
+    "section_sub": "Let's talk about your project",
+    "go": "Go to Contact"
+  },
+  "footer": {
+    "tagline": "Beyond Boundaries, Built to Scale",
+    "company": "VWorks Technologies Co., Ltd.",
+    "reg": "Reg. No: 184-87-01929",
+    "ceo": "CEO: Cha Won Keun",
+    "hq": "3604, 26, Centum 3-ro, Haeundae-gu, Busan",
+    "lab": "Tech Lab: 203, 1130, Dalgubeol-daero, Dalseo-gu, Daegu",
+    "tel": "051-747-6428",
+    "email": "aiden@vworks.tech",
+    "privacy": "Privacy Policy",
+    "copyright": "© 2025 VWorks Technologies. All rights reserved."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "sub": "Project inquiries, quotes, technical consultations — reach out anytime.",
+    "name": "Name",
+    "company": "Company",
+    "email": "Email",
+    "phone": "Phone",
+    "type": "Inquiry Type",
+    "message": "Message",
+    "submit": "Send Inquiry",
+    "sending": "Sending...",
+    "success": "Your inquiry has been received. We'll get back to you within 1-2 business days.",
+    "error": "Failed to send. Please contact us directly via email.",
+    "types": [
+      "VAST Data Storage",
+      "HPC Infrastructure",
+      "AI Computing",
+      "Dell Server Supply",
+      "Security Architecture",
+      "Technical Support / Maintenance",
+      "Other"
+    ]
+  }
+}

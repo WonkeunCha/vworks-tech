@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg: #050d1a;
+    --surface: #0a1628;
+    --surface2: #0e1e35;
+    --navy: #0f2a4a;
+    --navy-mid: #1a3a5c;
+    --navy-light: #1f4a75;
+    --teal: #00C9B1;
+    --teal-dim: rgba(0, 201, 177, 0.09);
+    --teal-glow: rgba(0, 201, 177, 0.28);
+    --cyan: #38D9F5;
+    --white: #e8f1ff;
+    --text: rgba(200, 220, 255, 0.78);
+    --muted: #5a7a9a;
+    --border: rgba(31, 74, 117, 0.55);
+    --border-t: rgba(0, 201, 177, 0.2);
+    --green: #4ade80;
+    --amber: #fbbf24;
+    --purple: #a78bfa;
+    --red: #f87171;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--white);
+    font-family: "Noto Sans KR", "Share Tech Mono", sans-serif;
+    line-height: 1.7;
+    overflow-x: hidden;
+  }
+
+  /* Grid background */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(31, 74, 117, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(31, 74, 117, 0.05) 1px, transparent 1px);
+    background-size: 48px 48px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  ::selection {
+    background: var(--teal-dim);
+    color: var(--teal);
+  }
+}
+
+@layer utilities {
+  .mono {
+    font-family: "Share Tech Mono", monospace;
+  }
+
+  .display {
+    font-family: "Bebas Neue", sans-serif;
+  }
+
+  .text-teal { color: var(--teal); }
+  .text-cyan { color: var(--cyan); }
+  .text-muted { color: var(--muted); }
+  .text-body { color: var(--text); }
+
+  .bg-surface { background-color: var(--surface); }
+  .bg-surface2 { background-color: var(--surface2); }
+  .bg-navy { background-color: var(--navy); }
+
+  .border-default { border-color: var(--border); }
+  .border-teal { border-color: var(--border-t); }
+
+  .glow-teal {
+    box-shadow: 0 0 20px var(--teal-glow);
+  }
+
+  .teal-gradient {
+    background: linear-gradient(135deg, var(--teal), var(--cyan));
+  }
+}
+
+/* ── Scroll Reveal Animation ── */
+.reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
