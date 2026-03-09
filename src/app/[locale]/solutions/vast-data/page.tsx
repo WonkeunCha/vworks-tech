@@ -509,7 +509,7 @@ export default function VastDataPage() {
                 </div>
               ))}
             </div>
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 5, marginTop: 14, paddingTop: 14, borderTop: "1px solid var(--border)" }}>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 5, marginTop: 14, paddingTop: 14, borderTop: "1px solid var(--border)" }}>
               {c.stats.map((s, i) => (
                 <div key={i} style={{ textAlign: "center", padding: "9px 4px" }}>
                   <div style={{ ...S.display, fontSize: 22, color: "var(--teal)", lineHeight: 1 }}>{s.num}</div>
@@ -522,11 +522,11 @@ export default function VastDataPage() {
       </section>
 
       {/* ── WHAT IS VAST ── */}
-      <section className="reveal" style={{ padding: "96px 32px", position: "relative", zIndex: 1 }}>
+      <section className="reveal" style={{ padding: "clamp(40px,6vw,96px) clamp(16px,4vw,32px)", position: "relative", zIndex: 1 }}>
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
           <div style={S.label}>{c.whatLabel}</div>
           <h2 style={S.h2}>{c.whatTitle.split("\n").map((l, i) => <span key={i}>{l}{i === 0 && <br />}</span>)}</h2>
-          <div className="two-col" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 56, marginTop: 44, alignItems: "start" }}>
+          <div className="two-col" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 56, marginTop: 44, alignItems: "start" }}>
             <div>
               <p style={S.body}>{c.whatBody1}</p>
               <p style={S.body}>{c.whatBody2}</p>
@@ -553,13 +553,13 @@ export default function VastDataPage() {
       </section>
 
       {/* ── PLATFORM COMPONENTS ── */}
-      <section id="platform" className="reveal" style={{ padding: "96px 32px", background: "linear-gradient(180deg,transparent,rgba(15,42,74,0.12),transparent)", position: "relative", zIndex: 1 }}>
+      <section id="platform" className="reveal" style={{ padding: "clamp(40px,6vw,96px) clamp(16px,4vw,32px)", background: "linear-gradient(180deg,transparent,rgba(15,42,74,0.12),transparent)", position: "relative", zIndex: 1 }}>
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
           <div style={S.label}>{c.platformLabel}</div>
           <h2 style={S.h2}>{c.platformTitle.split("\n").map((l, i) => <span key={i}>{l}{i === 0 && <br />}</span>)}</h2>
           <p style={{ ...S.sub, marginBottom: 48 }}>{c.platformSub}</p>
 
-          <div className="comp-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 2 }}>
+          <div className="comp-grid" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 2 }}>
             {c.components.map((comp) => (
               <div key={comp.name} className="comp-card" style={{ padding: "34px 30px", background: "var(--surface)", border: "1px solid var(--border)", borderRadius: 2, position: "relative", overflow: "hidden" }}>
                 <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: 2, background: `linear-gradient(90deg,${comp.color},transparent)` }} />
@@ -585,7 +585,7 @@ export default function VastDataPage() {
       </section>
 
       {/* ── USE CASES ── */}
-      <section className="reveal" style={{ padding: "96px 32px", position: "relative", zIndex: 1 }}>
+      <section className="reveal" style={{ padding: "clamp(40px,6vw,96px) clamp(16px,4vw,32px)", position: "relative", zIndex: 1 }}>
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
           <div style={S.label}>{c.usecaseLabel}</div>
           <h2 style={S.h2}>{c.usecaseTitle}</h2>
@@ -614,7 +614,7 @@ export default function VastDataPage() {
 
           {/* panel */}
           {c.usecases.map((uc, i) => (
-            <div key={i} className="use-panel-grid" style={{ display: activeTab === i ? "grid" : "none", gridTemplateColumns: "1fr 1fr", gap: 48, padding: 40, background: "var(--surface)", border: "1px solid var(--border)" }}>
+            <div key={i} className="use-panel-grid" style={{ display: activeTab === i ? "grid" : "none", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 48, padding: 40, background: "var(--surface)", border: "1px solid var(--border)" }}>
               <div>
                 <h3 style={{ ...S.display, fontSize: 34, lineHeight: 1.1, marginBottom: 12 }}>
                   {uc.title.split("\n").map((l, j) => <span key={j}>{l}{j === 0 && <br />}</span>)}
@@ -628,7 +628,7 @@ export default function VastDataPage() {
                   ))}
                 </div>
               </div>
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8, alignContent: "start" }}>
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 8, alignContent: "start" }}>
                 {uc.metrics.map((m, j) => (
                   <div key={j} style={{ padding: "20px", background: "var(--surface2)", border: "1px solid var(--border)", textAlign: "center" }}>
                     <div style={{ ...S.display, fontSize: 34, lineHeight: 1, marginBottom: 4, color: m.color }}>{m.num}</div>
@@ -642,13 +642,13 @@ export default function VastDataPage() {
       </section>
 
       {/* ── WHY VWORKS ── */}
-      <section className="reveal" style={{ padding: "96px 32px", position: "relative", zIndex: 1 }}>
+      <section className="reveal" style={{ padding: "clamp(40px,6vw,96px) clamp(16px,4vw,32px)", position: "relative", zIndex: 1 }}>
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
           <div style={S.label}>{c.whyLabel}</div>
           <h2 style={S.h2}>{c.whyTitle.split("\n").map((l, i) => <span key={i}>{l}{i === 0 && <br />}</span>)}</h2>
 
           {/* 5 cards — 3+2 layout */}
-          <div className="why-grid" style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 2, marginTop: 48 }}>
+          <div className="why-grid" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 2, marginTop: 48 }}>
             {c.whyCards.map((card) => (
               <div key={card.num} className="why-card" style={{ padding: "30px 24px", background: "var(--surface)", border: "1px solid var(--border)", borderRadius: 2, position: "relative", overflow: "hidden", transition: "border-color .2s" }}>
                 <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: 2, background: "linear-gradient(90deg,var(--teal),transparent)" }} />
@@ -684,7 +684,7 @@ export default function VastDataPage() {
           </h2>
           <p style={{ fontSize: 15, color: "var(--muted)", fontWeight: 300, marginBottom: 36, lineHeight: 1.7 }}>{c.ctaDesc}</p>
 
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 2, maxWidth: 460, margin: "0 auto 32px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 2, maxWidth: 460, margin: "0 auto 32px" }}>
             <div style={{ padding: "15px 18px", background: "var(--surface)", border: "1px solid var(--border)" }}>
               <div style={{ ...S.mono, fontSize: 8.5, letterSpacing: "0.15em", color: "var(--teal)", marginBottom: 6 }}>PHONE</div>
               <div style={{ fontSize: 13, color: "var(--text)", fontWeight: 300 }}>051-747-6428</div>

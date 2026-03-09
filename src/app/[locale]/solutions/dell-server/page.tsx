@@ -387,7 +387,7 @@ export default function DellServerPage() {
           <div style={{ background: 'var(--s1)', border: '1px solid var(--db)', borderRadius: 3, padding: 28, position: 'relative', overflow: 'hidden' }}>
             <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 2, background: 'linear-gradient(90deg,var(--dell),var(--d2))' }} />
             <div style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 9, letterSpacing: '.2em', color: 'var(--dell)' }}>공급 제품 현황 (2025 기준)</div>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 2, marginTop: 16 }}>
+            <div style={{ display: 'grid', gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 2, marginTop: 16 }}>
               {[
                 { n: '16G', l: '최신 세대\n2023~현재', s: 'iDRAC10 · DDR5' },
                 { n: '15G', l: '이전 현행\n2021~2023', s: 'iDRAC9 · DDR4/5' },
@@ -617,7 +617,7 @@ export default function DellServerPage() {
           <p style={{ fontSize: 15, color: 'var(--mu)', fontWeight: 300, marginBottom: 28, lineHeight: 1.7 }}>
             15G/16G 중 어떤 모델이 최적인지, VWorks 엔지니어가 워크로드 분석 후 추천드립니다.
           </p>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 2, maxWidth: 360, margin: '0 auto 24px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 2, maxWidth: 360, margin: '0 auto 24px' }}>
             <div style={{ padding: 14, background: 'var(--s1)', border: '1px solid var(--br)' }}>
               <div style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 8.5, letterSpacing: '.15em', color: 'var(--dell)', marginBottom: 5 }}>PHONE</div>
               <div style={{ fontSize: 13, color: 'var(--t)', fontWeight: 300 }}>051-747-6428</div>
