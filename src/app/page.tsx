@@ -1,5 +1,9 @@
-import { redirect } from "next/navigation";
+"use client";
+import { useEffect } from "react";
 
 export default function RootPage() {
-  redirect("/ko");
+  useEffect(() => {
+    window.location.replace("/vworks-tech/ko/");
+  }, []);
+  return null;
 }
