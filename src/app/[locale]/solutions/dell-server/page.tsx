@@ -310,13 +310,27 @@ export default function DellServerPage() {
     <>
       <style>{`
         :root{--dell:#007DB8;--d2:#0097C4;--d3:rgba(0,125,184,.09);--db:rgba(0,125,184,.28);--teal:#00C9B1;--amber:#fbbf24;--green:#4ade80;--purple:#a78bfa;--cyan:#38D9F5;--s1:#0a1628;--s2:#0e1e35;--br:rgba(31,74,117,.5);--w:#e8f1ff;--t:rgba(200,220,255,.76);--mu:#5a7a9a}
+
+        /* ── 기본(PC) ── */
         .section{padding:0 40px 80px;position:relative;z-index:1}
         .section-inner{max-width:1240px;margin:0 auto}
         .section-label{font-family:'Share Tech Mono',monospace;font-size:9px;letter-spacing:.3em;color:var(--dell);margin-bottom:10px;text-transform:uppercase}
-        .section-title{font-family:'Bebas Neue',sans-serif;font-size:clamp(36px,4.5vw,56px);letter-spacing:.02em;line-height:1.05;margin-bottom:12px;color:var(--w)}
+        .section-title{font-family:'Bebas Neue',sans-serif;font-size:clamp(32px,4.5vw,56px);letter-spacing:.02em;line-height:1.05;margin-bottom:12px;color:var(--w)}
         .section-sub{font-size:13.5px;color:var(--mu);max-width:640px;font-weight:300;margin-bottom:24px;line-height:1.8}
         .reveal{opacity:0;transform:translateY(20px);transition:opacity .6s,transform .6s}
         .reveal.visible{opacity:1;transform:none}
+
+        /* ── Hero ── */
+        .hero-section{position:relative;padding:88px 40px 56px;border-bottom:1px solid var(--br);overflow:hidden;background:radial-gradient(ellipse 75% 65% at 20% 50%,rgba(0,125,184,.07) 0%,transparent 60%)}
+        .hero-inner{max-width:1240px;margin:0 auto;display:grid;grid-template-columns:1fr 420px;gap:56px;align-items:start}
+        .hero-badges{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:6px}
+        .hero-badge{display:inline-flex;align-items:center;font-family:'Share Tech Mono',monospace;font-size:8.5px;letter-spacing:.15em;padding:5px 12px;border-radius:2px;line-height:1.4}
+        .hero-title{font-family:'Bebas Neue',sans-serif;font-size:clamp(40px,7vw,80px);letter-spacing:.02em;line-height:.92;margin:18px 0 6px;background:linear-gradient(135deg,var(--dell),var(--d2));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+        .hero-sub{font-size:clamp(18px,3.5vw,38px);color:var(--t);font-weight:300;margin-bottom:18px;line-height:1.2}
+        .hero-desc{font-size:15px;color:var(--t);font-weight:300;line-height:1.85;max-width:520px;margin-bottom:28px}
+        .hero-cta-row{display:flex;gap:9px;flex-wrap:wrap}
+
+        /* ── 제품 그리드 ── */
         .product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px}
         .product-card{border:1px solid;border-radius:2px;overflow:hidden;transition:border-color .2s;display:flex;flex-direction:column}
         .card-top{padding:22px 20px 16px;flex:1}
@@ -325,76 +339,131 @@ export default function DellServerPage() {
         .card-sub{font-family:'Share Tech Mono',monospace;font-size:9px;letter-spacing:.1em;color:var(--mu);margin-bottom:10px}
         .card-desc{font-size:12.5px;color:var(--t);font-weight:300;line-height:1.75}
         .card-specs{padding:14px 20px;background:var(--s2);border-top:1px solid var(--br)}
-        .spec-row{display:flex;justify-content:space-between;align-items:flex-start;padding:5px 0;border-bottom:1px solid rgba(31,74,117,.25);font-size:11px;gap:8px}
+        .spec-row{display:flex;justify-content:space-between;align-items:flex-start;padding:5px 0;border-bottom:1px solid rgba(31,74,117,.25);gap:8px}
         .spec-row:last-child{border-bottom:none}
         .spec-key{color:var(--mu);font-family:'Share Tech Mono',monospace;font-size:8.5px;letter-spacing:.08em;white-space:nowrap;flex-shrink:0}
         .spec-val{color:var(--t);text-align:right;font-size:11px;line-height:1.4}
         .card-tags{padding:10px 20px;display:flex;flex-wrap:wrap;gap:4px;border-top:1px solid var(--br)}
         .tag{font-family:'Share Tech Mono',monospace;font-size:8.5px;letter-spacing:.1em;padding:3px 9px;border-radius:2px;border:1px solid}
+
+        /* ── 탭 ── */
         .tabs-row{display:flex;gap:2px;flex-wrap:wrap;margin-bottom:2px}
-        .tab-btn{padding:10px 20px;background:var(--s1);border:1px solid var(--br);font-family:'Share Tech Mono',monospace;font-size:9.5px;letter-spacing:.12em;cursor:pointer;transition:all .2s;color:var(--mu);border-radius:2px}
+        .tab-btn{padding:10px 20px;background:var(--s1);border:1px solid var(--br);font-family:'Share Tech Mono',monospace;font-size:9.5px;letter-spacing:.12em;cursor:pointer;transition:all .2s;color:var(--mu);border-radius:2px;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
         .tab-btn.active,.tab-btn:hover{background:var(--d3);border-color:var(--db);color:var(--dell)}
+
+        /* ── Gen 구분선 ── */
         .gen-divider{max-width:1240px;margin:0 auto;padding:56px 20px 20px;display:flex;align-items:center;gap:16px}
         .gen-line{flex:1;height:1px;background:var(--br)}
-        .gen-label{font-family:'Share Tech Mono',monospace;font-size:10px;letter-spacing:.2em;padding:7px 18px;border:1px solid;border-radius:2px;white-space:nowrap}
+        .gen-label{font-family:'Share Tech Mono',monospace;font-size:10px;letter-spacing:.15em;padding:7px 18px;border:1px solid;border-radius:2px}
+
+        /* ── 비교표 ── */
         .cmp-table{width:100%;border-collapse:collapse;font-size:12px;min-width:900px}
         .cmp-table th{background:var(--s2);padding:11px 14px;font-family:'Share Tech Mono',monospace;font-size:8.5px;letter-spacing:.12em;color:var(--dell);border:1px solid var(--br);text-align:left;white-space:nowrap}
         .cmp-table td{padding:9px 14px;border:1px solid var(--br);color:var(--t);font-weight:300;vertical-align:top;line-height:1.45}
         .cmp-table tr:nth-child(even) td{background:rgba(10,22,40,.5)}
         .cmp-table td:first-child{font-weight:500;white-space:nowrap}
+
+        /* ── 스펙시트·WHY 그리드 ── */
         .sheet-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px}
         .sheet-card{background:var(--s1);border:1px solid var(--br);border-radius:2px;padding:20px 18px;position:relative;overflow:hidden;transition:border-color .2s;display:flex;flex-direction:column}
         .sheet-card:hover{border-color:var(--db)}
         .why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-top:32px}
         .why-card{padding:24px 20px;background:var(--s1);border:1px solid var(--br);border-radius:2px;position:relative;overflow:hidden;transition:border-color .2s}
         .why-card:hover{border-color:var(--db)}
-        @media(max-width:1100px){.product-grid{grid-template-columns:1fr 1fr}.sheet-grid{grid-template-columns:1fr 1fr}.why-grid{grid-template-columns:1fr 1fr}}
-        @media(max-width:620px){.product-grid,.sheet-grid,.why-grid{grid-template-columns:1fr}}
-      
 
-.hero-section{}
-@media(max-width:768px){
-  .hero-section{padding:80px 16px 60px!important}
-  .section{padding:0 16px 60px!important}
-  .product-grid{grid-template-columns:1fr!important}
-  .sheet-grid{grid-template-columns:1fr!important}
-  .why-grid{grid-template-columns:1fr!important}
-  .section-title{font-size:clamp(20px,6vw,32px)!important}
-  .section-sub{font-size:13px!important}
-  .card-name{font-size:clamp(18px,5vw,24px)!important}
-  .card-desc{font-size:12px!important}
-  .card-top{padding:14px!important}
-  .card-specs{padding:10px 14px!important}
-  .spec-row{font-size:11px!important;flex-wrap:wrap}
-  .spec-key{min-width:60px}
-}`}</style>
+        /* ── 네이밍 가이드 ── */
+        .naming-box{background:var(--s1);border:1px solid var(--br);border-radius:2px;padding:24px 32px;position:relative;overflow:hidden;display:flex;gap:32px;flex-wrap:wrap;align-items:flex-start}
+        .naming-chips{display:flex;gap:10px;flex-wrap:wrap;flex:1}
+        .naming-chip{padding:10px 14px;background:var(--s2);border:1px solid var(--br);min-width:110px;border-radius:2px}
+
+        /* ── 태블릿 (≤1100px) ── */
+        @media(max-width:1100px){
+          .product-grid{grid-template-columns:1fr 1fr}
+          .sheet-grid{grid-template-columns:1fr 1fr}
+          .why-grid{grid-template-columns:1fr 1fr}
+          .hero-inner{grid-template-columns:1fr;gap:32px}
+          .hero-stat-panel{max-width:480px}
+        }
+
+        /* ── 모바일 (≤768px) ── */
+        @media(max-width:768px){
+          .hero-section{padding:80px 16px 48px}
+          .hero-inner{grid-template-columns:1fr;gap:24px}
+          .hero-title{font-size:clamp(36px,10vw,56px);margin:12px 0 4px}
+          .hero-sub{font-size:clamp(16px,5vw,24px);margin-bottom:12px}
+          .hero-desc{font-size:13.5px;margin-bottom:20px}
+          .hero-badge{font-size:8px;letter-spacing:.1em;padding:4px 10px}
+          .hero-cta-row{flex-direction:column;gap:8px}
+          .hero-cta-row a{text-align:center;justify-content:center;width:100%;box-sizing:border-box}
+
+          .section{padding:0 16px 56px}
+          .section-title{font-size:clamp(26px,7vw,40px)}
+          .section-sub{font-size:13px;margin-bottom:18px}
+
+          .product-grid{grid-template-columns:1fr}
+          .sheet-grid{grid-template-columns:1fr 1fr}
+          .why-grid{grid-template-columns:1fr 1fr}
+
+          .card-top{padding:16px 14px 12px}
+          .card-name{font-size:26px}
+          .card-desc{font-size:12px}
+          .card-specs{padding:10px 14px}
+          .card-tags{padding:8px 14px}
+          .spec-key{font-size:8px}
+          .spec-val{font-size:10.5px}
+
+          .tabs-row{gap:4px}
+          .tab-btn{padding:11px 14px;font-size:9px;letter-spacing:.08em;flex:1;min-width:calc(50% - 4px);text-align:center}
+
+          .gen-divider{padding:36px 0 16px;gap:10px}
+          .gen-label{font-size:9px;letter-spacing:.1em;padding:6px 12px;text-align:center;line-height:1.5}
+
+          .naming-box{padding:18px 16px;gap:16px;flex-direction:column}
+          .naming-chips{gap:6px}
+          .naming-chip{min-width:80px;padding:8px 10px}
+
+          .why-grid{grid-template-columns:1fr 1fr}
+          .why-card{padding:18px 14px}
+        }
+
+        /* ── 소형 모바일 (≤480px) ── */
+        @media(max-width:480px){
+          .hero-section{padding:76px 14px 40px}
+          .hero-title{font-size:clamp(32px,11vw,48px)}
+          .hero-sub{font-size:clamp(15px,5.5vw,22px)}
+          .section{padding:0 14px 44px}
+          .section-title{font-size:clamp(24px,8vw,36px)}
+
+          .product-grid,.sheet-grid,.why-grid{grid-template-columns:1fr}
+          .tab-btn{min-width:100%;flex:none}
+          .naming-chips{flex-direction:column}
+          .naming-chip{min-width:unset;width:100%}
+
+          .gen-label{font-size:8.5px;letter-spacing:.06em}
+          .cmp-table{font-size:11px}
+          .cmp-table th{padding:8px 10px;font-size:7.5px}
+          .cmp-table td{padding:7px 10px}
+        }
+      `}</style>
 
       {/* ── HERO ── */}
-      <section className="hero-section" style={{
-          position: 'relative',
-          padding: "20px 72px",
-          borderBottom: '1px solid var(--br)',
-          overflow: 'hidden',
-          background: 'radial-gradient(ellipse 75% 65% at 20% 50%, rgba(0,125,184,.07) 0%, transparent 60%)',
-        }}
-      >
-        <div style={{ maxWidth: 1240, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 420px', gap: 56, alignItems: 'start' }}>
+      <section className="hero-section">
+        <div className="hero-inner">
           <div>
-            <div style={{ display: 'flex', gap: 7, flexWrap: 'wrap', marginBottom: 6 }}>
-              <span style={{ display: 'inline-flex', alignItems: 'center', fontFamily: "'Share Tech Mono',monospace", fontSize: 8.5, letterSpacing: '.18em', padding: '5px 13px', borderRadius: 2, color: 'var(--dell)', background: 'var(--d3)', border: '1px solid var(--db)' }}>● Dell Technologies 공식 파트너</span>
-              <span style={{ display: 'inline-flex', alignItems: 'center', fontFamily: "'Share Tech Mono',monospace", fontSize: 8.5, letterSpacing: '.18em', padding: '5px 13px', borderRadius: 2, color: 'var(--teal)', background: 'rgba(0,201,177,.08)', border: '1px solid rgba(0,201,177,.2)' }}>● 15G · 16G 현행 제품만</span>
-              <span style={{ display: 'inline-flex', alignItems: 'center', fontFamily: "'Share Tech Mono',monospace", fontSize: 8.5, letterSpacing: '.18em', padding: '5px 13px', borderRadius: 2, color: 'var(--amber)', background: 'rgba(251,191,36,.07)', border: '1px solid rgba(251,191,36,.25)' }}>● Intel Xeon 4/5세대 · AMD EPYC 4/5세대</span>
+            <div className="hero-badges">
+              <span className="hero-badge" style={{ color: 'var(--dell)', background: 'var(--d3)', border: '1px solid var(--db)' }}>● Dell Technologies 공식 파트너</span>
+              <span className="hero-badge" style={{ color: 'var(--teal)', background: 'rgba(0,201,177,.08)', border: '1px solid rgba(0,201,177,.2)' }}>● 15G · 16G 현행 제품만</span>
+              <span className="hero-badge" style={{ color: 'var(--amber)', background: 'rgba(251,191,36,.07)', border: '1px solid rgba(251,191,36,.25)' }}>● Intel Xeon 4/5세대 · AMD EPYC 4/5세대</span>
             </div>
-            <h1 style={{ fontFamily: "'Bebas Neue',sans-serif", fontSize: "clamp(24px, 6vw, 80px)", letterSpacing: '.02em', lineHeight: .92, margin: '18px 0 6px', background: 'linear-gradient(135deg,var(--dell),var(--d2))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-              Dell PowerEdge
-            </h1>
-            <div style={{ fontSize: "clamp(24px, 3vw, 38px)", color: 'var(--t)', fontWeight: 300, marginBottom: 18 }}>15세대 · 16세대 서버 라인업</div>
-            <p style={{ fontSize: 15, color: 'var(--t)', fontWeight: 300, lineHeight: 1.85, maxWidth: 520, marginBottom: 28 }}>
+            <h1 className="hero-title">Dell PowerEdge</h1>
+            <div className="hero-sub">15세대 · 16세대 서버 라인업</div>
+            <p className="hero-desc">
               2021년 이후 출시된 현행 PowerEdge 제품군. 15G(iDRAC9) · 16G(iDRAC10) 기준
               Intel Xeon 4세대·5세대, AMD EPYC 4세대·5세대 전 제품군을 VWorks를 통해 공급·구축합니다.
             </p>
-            <div style={{ display: 'flex', gap: 9, flexWrap: 'wrap' }}>
+            <div className="hero-cta-row">
               <Link href="/ko/contact" style={{ display: 'inline-flex', alignItems: 'center', background: 'linear-gradient(135deg,var(--dell),var(--d2))', color: '#fff', fontSize: 14, fontWeight: 500, padding: '13px 28px', borderRadius: 2, textDecoration: 'none' }}>
+                Dell 서버 견적 문의하기 →
               </Link>
             </div>
           </div>
@@ -402,7 +471,7 @@ export default function DellServerPage() {
           <div style={{ background: 'var(--s1)', border: '1px solid var(--db)', borderRadius: 3, padding: 28, position: 'relative', overflow: 'hidden' }}>
             <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 2, background: 'linear-gradient(90deg,var(--dell),var(--d2))' }} />
             <div style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 9, letterSpacing: '.2em', color: 'var(--dell)' }}>공급 제품 현황 (2025 기준)</div>
-            <div style={{ display: 'grid', gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 2, marginTop: 16 }}>
+            <div style={{ display: 'grid', gridTemplateColumns: "repeat(2,1fr)", gap: 2, marginTop: 16 }}>
               {[
                 { n: '16G', l: '최신 세대\n2023~현재', s: 'iDRAC10 · DDR5' },
                 { n: '15G', l: '이전 현행\n2021~2023', s: 'iDRAC9 · DDR4/5' },
@@ -436,7 +505,7 @@ export default function DellServerPage() {
       {/* ── 네이밍 가이드 ── */}
       <section className="section reveal" style={{ paddingTop: 44, paddingBottom: 44 }}>
         <div className="section-inner">
-          <div style={{ background: 'var(--s1)', border: '1px solid var(--br)', borderRadius: 2, padding: '24px 32px', position: 'relative', overflow: 'hidden', display: 'flex', gap: 32, flexWrap: 'wrap', alignItems: 'flex-start' }}>
+          <div className="naming-box">
             <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 2, background: 'linear-gradient(90deg,var(--dell),var(--d2))' }} />
             <div>
               <div style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 9, letterSpacing: '.2em', color: 'var(--dell)', marginBottom: 10 }}>제품명 읽는 법 · PowerEdge R7625</div>
@@ -448,7 +517,7 @@ export default function DellServerPage() {
                 <span style={{ color: 'var(--green)' }}>5</span>
               </div>
             </div>
-            <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', flex: 1 }}>
+            <div className="naming-chips">
               {[
                 { c: 'var(--dell)', k: 'R', label: '폼팩터', v: 'R=Rack\nT=Tower' },
                 { c: '#0097C4', k: '7', label: '클래스', v: '6~9: 미드·하이\n1~5: 엔트리' },
@@ -456,13 +525,13 @@ export default function DellServerPage() {
                 { c: 'var(--amber)', k: '2', label: '소켓 수', v: '1=1소켓\n2=2소켓' },
                 { c: 'var(--green)', k: '5', label: 'CPU 제조사', v: '0=Intel\n5=AMD' },
               ].map((item) => (
-                <div key={item.k} style={{ padding: '10px 14px', background: 'var(--s2)', border: '1px solid var(--br)', minWidth: 110, borderRadius: 2 }}>
+                <div key={item.k} className="naming-chip">
                   <div style={{ fontFamily: "'Bebas Neue',sans-serif", fontSize: 20, color: item.c }}>{item.k}</div>
                   <div style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 8, letterSpacing: '.1em', color: 'var(--mu)' }}>{item.label}</div>
                   <div style={{ fontSize: 11, color: 'var(--t)', marginTop: 4, lineHeight: 1.5, whiteSpace: 'pre-line' }}>{item.v}</div>
                 </div>
               ))}
-              <div style={{ padding: '10px 14px', background: 'rgba(0,201,177,.07)', border: '1px solid rgba(0,201,177,.2)', flex: 1, minWidth: 200, borderRadius: 2 }}>
+              <div style={{ padding: '10px 14px', background: 'rgba(0,201,177,.07)', border: '1px solid rgba(0,201,177,.2)', flex: 1, minWidth: 180, borderRadius: 2 }}>
                 <div style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 8, letterSpacing: '.1em', color: 'var(--teal)', marginBottom: 6 }}>R7625 = ?</div>
                 <div style={{ fontSize: 12.5, color: 'var(--t)', fontWeight: 300, lineHeight: 1.7 }}>
                   Rack · 하이엔드 · <strong style={{ color: 'var(--teal)' }}>16세대</strong> · 2소켓 · <strong style={{ color: 'var(--amber)' }}>AMD</strong><br />
@@ -632,7 +701,7 @@ export default function DellServerPage() {
           <p style={{ fontSize: 15, color: 'var(--mu)', fontWeight: 300, marginBottom: 28, lineHeight: 1.7 }}>
             15G/16G 중 어떤 모델이 최적인지, VWorks 엔지니어가 워크로드 분석 후 추천드립니다.
           </p>
-          <div style={{ display: 'grid', gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 2, maxWidth: 360, margin: '0 auto 24px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: "1fr 1fr", gap: 2, maxWidth: 360, margin: '0 auto 24px' }}>
             <div style={{ padding: 14, background: 'var(--s1)', border: '1px solid var(--br)' }}>
               <div style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 8.5, letterSpacing: '.15em', color: 'var(--dell)', marginBottom: 5 }}>PHONE</div>
               <div style={{ fontSize: 13, color: 'var(--t)', fontWeight: 300 }}>051-747-6428</div>
