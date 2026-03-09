@@ -1,14 +1,14 @@
 "use client";
 
-import { useTranslations, useLocale } from "next-intl";
+
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import Image from "next/image";
 
 export default function Navbar() {
-  const t = useTranslations("nav");
-  const locale = useLocale();
+  
+  
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -19,14 +19,14 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const otherLocale = locale === "ko" ? "en" : "ko";
-  const switchHref = pathname.replace(`/${locale}`, `/${otherLocale}`);
+  
+  
 
   const navLinks = [
-    { href: `/${locale}/solutions`, label: t("solutions") },
-    { href: `/${locale}/partners`, label: t("partners") },
-    { href: `/${locale}/reference`, label: t("reference") },
-    { href: `/${locale}/about`, label: t("about") },
+    { href: `/ko/solutions`, label: t("solutions") },
+    { href: `/ko/partners`, label: t("partners") },
+    { href: `/ko/reference`, label: t("reference") },
+    { href: `/ko/about`, label: t("about") },
   ];
 
   return (
@@ -48,7 +48,7 @@ export default function Navbar() {
     >
       <div style={{ maxWidth: 1200, margin: "0 auto", padding: "0 32px", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
         {/* LOGO */}
-        <Link href={`/${locale}`} style={{ display: "flex", alignItems: "center", textDecoration: "none" }}>
+        <Link href={`/ko`} style={{ display: "flex", alignItems: "center", textDecoration: "none" }}>
           <Image
             src="/logo-white.png"
             alt="VWorks Technologies"
@@ -83,7 +83,7 @@ export default function Navbar() {
 
           {/* LANG SWITCHER */}
           <Link
-            href={switchHref}
+            href="/en"
             style={{
               fontFamily: "'Share Tech Mono', monospace",
               fontSize: 11,
@@ -97,12 +97,12 @@ export default function Navbar() {
               transition: "all 0.2s",
             }}
           >
-            {otherLocale.toUpperCase()}
+            "EN"
           </Link>
 
           {/* CTA */}
           <Link
-            href={`/${locale}/contact`}
+            href={`/ko/contact`}
             style={{
               fontFamily: "'Noto Sans KR', sans-serif",
               fontSize: 13,
@@ -116,7 +116,7 @@ export default function Navbar() {
               transition: "opacity 0.2s",
             }}
           >
-            {t("contact")}
+            "문의하기"
           </Link>
         </div>
 
@@ -180,7 +180,7 @@ export default function Navbar() {
           ))}
           <div style={{ display: "flex", gap: 12, marginTop: 12 }}>
             <Link
-              href={switchHref}
+              href="/en"
               onClick={() => setMobileOpen(false)}
               style={{
                 fontFamily: "'Share Tech Mono', monospace",
@@ -192,10 +192,10 @@ export default function Navbar() {
                 borderRadius: 2,
               }}
             >
-              {otherLocale.toUpperCase()}
+              "EN"
             </Link>
             <Link
-              href={`/${locale}/contact`}
+              href={`/ko/contact`}
               onClick={() => setMobileOpen(false)}
               style={{
                 flex: 1,
@@ -210,7 +210,7 @@ export default function Navbar() {
                 textAlign: "center",
               }}
             >
-              {t("contact")}
+              "문의하기"
             </Link>
           </div>
         </div>

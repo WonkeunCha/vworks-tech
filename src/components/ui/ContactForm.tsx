@@ -1,15 +1,11 @@
 "use client";
 
-import { useTranslations } from "next-intl";
 import { useState } from "react";
 
-export default function ContactForm() {
-  const t = useTranslations("contact");
-  const types = t.raw("types") as string[];
+const TYPES = ["VAST Data 스토리지", "HPC 인프라", "AI 컴퓨팅", "Dell 서버 공급", "보안 아키텍처", "기술지원/유지보수", "기타 문의"];
 
-  const [form, setForm] = useState({
-    name: "", company: "", email: "", phone: "", type: "", message: "",
-  });
+export default function ContactForm() {
+  const [form, setForm] = useState({ name: "", company: "", email: "", phone: "", message: "" });
   const [selectedType, setSelectedType] = useState("");
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
 
@@ -24,7 +20,7 @@ export default function ContactForm() {
       });
       if (!res.ok) throw new Error();
       setStatus("success");
-      setForm({ name: "", company: "", email: "", phone: "", type: "", message: "" });
+      setForm({ name: "", company: "", email: "", phone: "", message: "" });
       setSelectedType("");
     } catch {
       setStatus("error");
@@ -33,197 +29,82 @@ export default function ContactForm() {
 
   if (status === "success") {
     return (
-      <div style={{
-        textAlign: "center",
-        padding: "80px 32px",
-        background: "var(--surface)",
-        border: "1px solid var(--border-t)",
-        borderRadius: 2,
-      }}>
+      <div style={{ textAlign: "center", padding: "80px 32px", background: "var(--surface)", border: "1px solid var(--border-t)", borderRadius: 2 }}>
         <div style={{ fontSize: 48, marginBottom: 16 }}>✅</div>
-        <div style={{
-          fontFamily: "'Bebas Neue', sans-serif",
-          fontSize: 32,
-          color: "var(--teal)",
-          marginBottom: 12,
-        }}>
-          SUBMITTED
-        </div>
-        <p style={{ fontSize: 14, color: "var(--text)", fontWeight: 300 }}>{t("success")}</p>
+        <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 32, color: "var(--teal)", marginBottom: 12 }}>SUBMITTED</div>
+        <p style={{ fontSize: 14, color: "var(--text)", fontWeight: 300 }}>문의가 접수되었습니다. 1~2 영업일 내로 연락드리겠습니다.</p>
       </div>
     );
   }
 
   const inputStyle: React.CSSProperties = {
-    width: "100%",
-    background: "var(--surface2)",
-    border: "1px solid var(--border)",
-    borderRadius: 2,
-    padding: "12px 16px",
-    color: "var(--white)",
-    fontFamily: "'Noto Sans KR', sans-serif",
-    fontSize: 14,
-    fontWeight: 300,
-    outline: "none",
-    transition: "border-color 0.2s",
+    width: "100%", background: "var(--surface2)", border: "1px solid var(--border)", borderRadius: 2,
+    padding: "12px 16px", color: "var(--white)", fontFamily: "'Noto Sans KR', sans-serif",
+    fontSize: 14, fontWeight: 300, outline: "none", transition: "border-color 0.2s",
   };
 
   return (
     <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-      {/* NAME + COMPANY */}
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
         <div>
-          <label style={{ display: "block", fontFamily: "'Share Tech Mono', monospace", fontSize: 10, letterSpacing: "0.15em", color: "var(--teal)", marginBottom: 8 }}>
-            {t("name")} *
-          </label>
-          <input
-            required
-            value={form.name}
-            onChange={(e) => setForm({ ...form, name: e.target.value })}
-            style={inputStyle}
-            placeholder={locale === "ko" ? "홍길동" : "John Doe"}
-            onFocus={(e) => (e.target.style.borderColor = "var(--border-t)")}
-            onBlur={(e) => (e.target.style.borderColor = "var(--border)")}
-          />
+          <label style={{ display: "block", fontFamily: "'Share Tech Mono', monospace", fontSize: 10, letterSpacing: "0.15em", color: "var(--teal)", marginBottom: 8 }}>성함 *</label>
+          <input required value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} style={inputStyle} placeholder="홍길동"
+            onFocus={(e) => (e.target.style.borderColor = "var(--border-t)")} onBlur={(e) => (e.target.style.borderColor = "var(--border)")} />
         </div>
         <div>
-          <label style={{ display: "block", fontFamily: "'Share Tech Mono', monospace", fontSize: 10, letterSpacing: "0.15em", color: "var(--teal)", marginBottom: 8 }}>
-            {t("company")}
-          </label>
-          <input
-            value={form.company}
-            onChange={(e) => setForm({ ...form, company: e.target.value })}
-            style={inputStyle}
-            onFocus={(e) => (e.target.style.borderColor = "var(--border-t)")}
-            onBlur={(e) => (e.target.style.borderColor = "var(--border)")}
-          />
+          <label style={{ display: "block", fontFamily: "'Share Tech Mono', monospace", fontSize: 10, letterSpacing: "0.15em", color: "var(--teal)", marginBottom: 8 }}>회사명</label>
+          <input value={form.company} onChange={(e) => setForm({ ...form, company: e.target.value })} style={inputStyle}
+            onFocus={(e) => (e.target.style.borderColor = "var(--border-t)")} onBlur={(e) => (e.target.style.borderColor = "var(--border)")} />
         </div>
       </div>
 
-      {/* EMAIL + PHONE */}
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
         <div>
-          <label style={{ display: "block", fontFamily: "'Share Tech Mono', monospace", fontSize: 10, letterSpacing: "0.15em", color: "var(--teal)", marginBottom: 8 }}>
-            {t("email")} *
-          </label>
-          <input
-            required
-            type="email"
-            value={form.email}
-            onChange={(e) => setForm({ ...form, email: e.target.value })}
-            style={inputStyle}
-            onFocus={(e) => (e.target.style.borderColor = "var(--border-t)")}
-            onBlur={(e) => (e.target.style.borderColor = "var(--border)")}
-          />
+          <label style={{ display: "block", fontFamily: "'Share Tech Mono', monospace", fontSize: 10, letterSpacing: "0.15em", color: "var(--teal)", marginBottom: 8 }}>이메일 *</label>
+          <input required type="email" value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} style={inputStyle}
+            onFocus={(e) => (e.target.style.borderColor = "var(--border-t)")} onBlur={(e) => (e.target.style.borderColor = "var(--border)")} />
         </div>
         <div>
-          <label style={{ display: "block", fontFamily: "'Share Tech Mono', monospace", fontSize: 10, letterSpacing: "0.15em", color: "var(--teal)", marginBottom: 8 }}>
-            {t("phone")}
-          </label>
-          <input
-            type="tel"
-            value={form.phone}
-            onChange={(e) => setForm({ ...form, phone: e.target.value })}
-            style={inputStyle}
-            onFocus={(e) => (e.target.style.borderColor = "var(--border-t)")}
-            onBlur={(e) => (e.target.style.borderColor = "var(--border)")}
-          />
+          <label style={{ display: "block", fontFamily: "'Share Tech Mono', monospace", fontSize: 10, letterSpacing: "0.15em", color: "var(--teal)", marginBottom: 8 }}>연락처</label>
+          <input type="tel" value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} style={inputStyle}
+            onFocus={(e) => (e.target.style.borderColor = "var(--border-t)")} onBlur={(e) => (e.target.style.borderColor = "var(--border)")} />
         </div>
       </div>
 
-      {/* INQUIRY TYPE CHIPS */}
       <div>
-        <label style={{ display: "block", fontFamily: "'Share Tech Mono', monospace", fontSize: 10, letterSpacing: "0.15em", color: "var(--teal)", marginBottom: 12 }}>
-          {t("type")}
-        </label>
+        <label style={{ display: "block", fontFamily: "'Share Tech Mono', monospace", fontSize: 10, letterSpacing: "0.15em", color: "var(--teal)", marginBottom: 12 }}>문의 유형</label>
         <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
-          {types.map((type) => (
-            <button
-              key={type}
-              type="button"
-              onClick={() => setSelectedType(type === selectedType ? "" : type)}
-              style={{
-                fontFamily: "'Noto Sans KR', sans-serif",
-                fontSize: 12,
-                fontWeight: 400,
-                padding: "7px 14px",
-                border: selectedType === type ? "1px solid var(--teal)" : "1px solid var(--border)",
-                borderRadius: 2,
+          {TYPES.map((type) => (
+            <button key={type} type="button" onClick={() => setSelectedType(type === selectedType ? "" : type)}
+              style={{ fontFamily: "'Noto Sans KR', sans-serif", fontSize: 12, fontWeight: 400, padding: "7px 14px",
+                border: selectedType === type ? "1px solid var(--teal)" : "1px solid var(--border)", borderRadius: 2,
                 background: selectedType === type ? "var(--teal-dim)" : "transparent",
-                color: selectedType === type ? "var(--teal)" : "var(--muted)",
-                cursor: "pointer",
-                transition: "all 0.15s",
-              }}
-            >
+                color: selectedType === type ? "var(--teal)" : "var(--muted)", cursor: "pointer" }}>
               {type}
             </button>
           ))}
         </div>
       </div>
 
-      {/* MESSAGE */}
       <div>
-        <label style={{ display: "block", fontFamily: "'Share Tech Mono', monospace", fontSize: 10, letterSpacing: "0.15em", color: "var(--teal)", marginBottom: 8 }}>
-          {t("message")} *
-        </label>
-        <textarea
-          required
-          value={form.message}
-          onChange={(e) => setForm({ ...form, message: e.target.value })}
-          rows={6}
+        <label style={{ display: "block", fontFamily: "'Share Tech Mono', monospace", fontSize: 10, letterSpacing: "0.15em", color: "var(--teal)", marginBottom: 8 }}>문의 내용 *</label>
+        <textarea required value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} rows={6}
           style={{ ...inputStyle, resize: "vertical" }}
-          onFocus={(e) => (e.target.style.borderColor = "var(--border-t)")}
-          onBlur={(e) => (e.target.style.borderColor = "var(--border)")}
-        />
+          onFocus={(e) => (e.target.style.borderColor = "var(--border-t)")} onBlur={(e) => (e.target.style.borderColor = "var(--border)")} />
       </div>
 
-      {/* ERROR */}
       {status === "error" && (
-        <div style={{
-          padding: "12px 16px",
-          background: "rgba(248,113,113,0.08)",
-          border: "1px solid rgba(248,113,113,0.2)",
-          borderRadius: 2,
-          fontSize: 13,
-          color: "var(--red)",
-        }}>
-          {t("error")}
+        <div style={{ padding: "12px 16px", background: "rgba(248,113,113,0.08)", border: "1px solid rgba(248,113,113,0.2)", borderRadius: 2, fontSize: 13, color: "var(--red)" }}>
+          전송에 실패했습니다. 직접 이메일로 연락해 주세요: aiden@vworks.tech
         </div>
       )}
 
-      {/* SUBMIT */}
-      <button
-        type="submit"
-        disabled={status === "sending"}
-        style={{
-          padding: "14px 32px",
-          background: status === "sending" ? "var(--navy-mid)" : "linear-gradient(135deg, var(--teal), var(--cyan))",
-          border: "none",
-          borderRadius: 2,
-          color: "var(--bg)",
-          fontFamily: "'Noto Sans KR', sans-serif",
-          fontSize: 15,
-          fontWeight: 500,
-          cursor: status === "sending" ? "not-allowed" : "pointer",
-          transition: "opacity 0.2s",
-          alignSelf: "flex-start",
-        }}
-      >
-        {status === "sending" ? t("sending") : t("submit")}
+      <button type="submit" disabled={status === "sending"}
+        style={{ padding: "14px 32px", background: status === "sending" ? "var(--navy-mid)" : "linear-gradient(135deg, var(--teal), var(--cyan))",
+          border: "none", borderRadius: 2, color: "var(--bg)", fontFamily: "'Noto Sans KR', sans-serif",
+          fontSize: 15, fontWeight: 500, cursor: status === "sending" ? "not-allowed" : "pointer", alignSelf: "flex-start" }}>
+        {status === "sending" ? "전송 중..." : "문의 전송"}
       </button>
-
-      <style>{`
-        @media (max-width: 640px) {
-          form > div[style*="grid-template-columns: 1fr 1fr"] {
-            grid-template-columns: 1fr !important;
-          }
-        }
-      `}</style>
     </form>
   );
 }
-
-// locale을 직접 넣기 위한 wrapper
-const locale = typeof window !== "undefined"
-  ? document.documentElement.lang
-  : "ko";

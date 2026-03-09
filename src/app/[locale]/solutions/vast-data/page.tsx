@@ -1,6 +1,6 @@
 "use client";
 
-import { useLocale } from "next-intl";
+
 import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
@@ -367,8 +367,8 @@ const content = {
 
 /* ─── 컴포넌트 ────────────────────────────── */
 export default function VastDataPage() {
-  const locale = useLocale() as "ko" | "en";
-  const c = content[locale] ?? content.ko;
+  
+  const c = content["ko"];
   const [activeTab, setActiveTab] = useState(0);
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
@@ -458,9 +458,9 @@ export default function VastDataPage() {
           <div>
             {/* breadcrumb */}
             <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 20, ...S.mono, fontSize: 10, letterSpacing: "0.14em", color: "var(--muted)" }}>
-              <Link href={`/${locale}`} style={{ color: "var(--muted)", textDecoration: "none" }}>홈</Link>
+              <Link href={`/ko`} style={{ color: "var(--muted)", textDecoration: "none" }}>홈</Link>
               <span style={{ opacity: 0.4 }}>›</span>
-              <Link href={`/${locale}/solutions`} style={{ color: "var(--muted)", textDecoration: "none" }}>솔루션</Link>
+              <Link href={`/ko/solutions`} style={{ color: "var(--muted)", textDecoration: "none" }}>솔루션</Link>
               <span style={{ opacity: 0.4 }}>›</span>
               <span style={{ color: "var(--teal)" }}>VAST Data</span>
             </div>
@@ -495,7 +495,7 @@ export default function VastDataPage() {
             <p style={{ ...S.body, fontSize: 15, marginBottom: 32, maxWidth: 520 }}>{c.heroSub}</p>
 
             <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
-              <Link href={`/${locale}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "linear-gradient(135deg,var(--teal),var(--cyan))", color: "var(--bg)", fontSize: 14, fontWeight: 500, padding: "13px 28px", borderRadius: 2, textDecoration: "none", fontFamily: "'Noto Sans KR',sans-serif" }}>
+              <Link href={`/ko/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "linear-gradient(135deg,var(--teal),var(--cyan))", color: "var(--bg)", fontSize: 14, fontWeight: 500, padding: "13px 28px", borderRadius: 2, textDecoration: "none", fontFamily: "'Noto Sans KR',sans-serif" }}>
                 {c.ctaPrimary}
               </Link>
               <a href="#platform" style={{ display: "inline-flex", alignItems: "center", border: "1px solid rgba(0,201,177,0.2)", color: "var(--teal)", fontSize: 14, padding: "13px 28px", borderRadius: 2, textDecoration: "none", fontFamily: "'Noto Sans KR',sans-serif" }}>
@@ -709,7 +709,7 @@ export default function VastDataPage() {
           </div>
 
           <Link
-            href={`/${locale}/contact`}
+            href={`/ko/contact`}
             style={{ display: "inline-flex", alignItems: "center", background: "linear-gradient(135deg,var(--teal),var(--cyan))", color: "var(--bg)", fontSize: 16, fontWeight: 500, padding: "15px 48px", borderRadius: 2, textDecoration: "none", fontFamily: "'Noto Sans KR',sans-serif" }}
           >
             {c.ctaBtn}
