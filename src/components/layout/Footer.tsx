@@ -95,7 +95,7 @@ export default function Footer() {
               </div>
               <div style={{ display: "flex", gap: 10, fontSize: 12, color: "var(--muted)", lineHeight: 1.6, alignItems: "flex-start" }}>
                 <span style={{ minWidth: 16 }}>🏢</span>
-                <span style={{ fontWeight: 300 }}>부산광역시 해운대구<br />센텀3로 26, 3604호</span>
+                <span style={{ fontWeight: 300 }}>부산광역시 해운대구<br />구남로 21번길 33, 3층</span>
               </div>
               <div style={{ display: "flex", gap: 10, fontSize: 12, color: "var(--muted)", lineHeight: 1.6, alignItems: "flex-start" }}>
                 <span style={{ minWidth: 16 }}>🔬</span>

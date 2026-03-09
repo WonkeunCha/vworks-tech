@@ -351,6 +351,11 @@ export default function DellServerPage() {
         @media(max-width:1100px){.product-grid{grid-template-columns:1fr 1fr}.sheet-grid{grid-template-columns:1fr 1fr}.why-grid{grid-template-columns:1fr 1fr}}
         @media(max-width:620px){.product-grid,.sheet-grid,.why-grid{grid-template-columns:1fr}}
       
+
+.hero-section{padding-left:clamp(16px,4vw,40px)!important;padding-right:clamp(16px,4vw,40px)!important}
+@media(max-width:768px){
+  .hero-section{padding-top:80px!important;padding-left:16px!important;padding-right:16px!important}
+}
 @media(max-width:768px){
   .section{padding:0 16px 60px!important}
   .product-grid{grid-template-columns:1fr!important}
@@ -365,10 +370,9 @@ export default function DellServerPage() {
 }`}</style>
 
       {/* ── HERO ── */}
-      <section
-        style={{
+      <section className="hero-section" style={{
           position: 'relative',
-          padding: '138px 40px 72px',
+          padding: "clamp(80px,12vw,138px) clamp(16px,4vw,clamp(16px,4vw,40px)) 72px",
           borderBottom: '1px solid var(--br)',
           overflow: 'hidden',
           background: 'radial-gradient(ellipse 75% 65% at 20% 50%, rgba(0,125,184,.07) 0%, transparent 60%)',
@@ -391,7 +395,6 @@ export default function DellServerPage() {
             </p>
             <div style={{ display: 'flex', gap: 9, flexWrap: 'wrap' }}>
               <Link href="/ko/contact" style={{ display: 'inline-flex', alignItems: 'center', background: 'linear-gradient(135deg,var(--dell),var(--d2))', color: '#fff', fontSize: 14, fontWeight: 500, padding: '13px 28px', borderRadius: 2, textDecoration: 'none' }}>
-                도입 상담 신청 →
               </Link>
             </div>
           </div>
@@ -622,7 +625,7 @@ export default function DellServerPage() {
       </section>
 
       {/* ── CTA ── */}
-      <section style={{ padding: '72px 40px 110px', textAlign: 'center', position: 'relative', zIndex: 1 }}>
+      <section style={{ padding: '72px clamp(16px,4vw,40px) 110px', textAlign: 'center', position: 'relative', zIndex: 1 }}>
         <div style={{ maxWidth: 600, margin: '0 auto' }}>
           <div className="section-label" style={{ justifyContent: 'center', display: 'flex' }}>Dell 서버 도입 문의</div>
           <h2 style={{ fontFamily: "'Bebas Neue',sans-serif", fontSize: "clamp(24px, 6vw, 72px)", letterSpacing: '.02em', lineHeight: 1, marginBottom: 14 }}>지금 바로<br />견적을 받아보세요</h2>

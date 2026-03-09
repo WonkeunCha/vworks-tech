@@ -29,7 +29,7 @@ export default function Navbar() {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "bg-[#050d1a]/95 backdrop-blur-md border-b border-[#1a2d4a]" : "bg-transparent"}`}>
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
         <Link href="/ko/">
-          <Image src="/vworks-tech/logo-wide.png" alt="VWorks Technologies" width={160} height={28} style={{ objectFit:"contain", height:"auto", maxHeight:28 }} priority />
+          <Image src="/vworks-tech/logo-wide.png" alt="VWorks Technologies" width={160} height={28} style={{ objectFit:"contain", height:"auto", maxHeight: 32 }} priority />
         </Link>
 
         {/* 데스크탑 */}
