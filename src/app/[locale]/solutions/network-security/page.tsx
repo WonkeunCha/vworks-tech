@@ -102,8 +102,6 @@ export default function NetworkSecurityPage() {
           <Link href="/">
           </Link>
           <div className="hidden md:flex items-center gap-2 font-mono text-[11px] text-[#5a7a9a]">
-            <span className="opacity-40">›</span>
-            <span className="opacity-40">›</span>
             <span className="text-[#00C9B1]">보안 솔루션</span>
           </div>
         </div>

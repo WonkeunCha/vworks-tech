@@ -453,12 +453,9 @@ export default function VastDataPage() {
         <div className="hero-grid" style={{ position: "relative", zIndex: 1, maxWidth: 1200, margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 400px", gap: 56, alignItems: "center" }}>
           {/* LEFT */}
           <div>
-            {/* breadcrumb */}
             <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 20, ...S.mono, fontSize: 10, letterSpacing: "0.14em", color: "var(--muted)" }}>
               <Link href={`/${'ko'}`} style={{ color: "var(--muted)", textDecoration: "none" }}>홈</Link>
-              <span style={{ opacity: 0.4 }}>›</span>
               <Link href={`/${'ko'}/solutions`} style={{ color: "var(--muted)", textDecoration: "none" }}>솔루션</Link>
-              <span style={{ opacity: 0.4 }}>›</span>
               <span style={{ color: "var(--teal)" }}>VAST Data</span>
             </div>
 
