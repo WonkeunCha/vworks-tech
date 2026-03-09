@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @layer base {
   :root {
@@ -41,7 +43,6 @@
     overflow-x: hidden;
   }
 
-  /* Grid background */
   body::before {
     content: "";
     position: fixed;
@@ -61,36 +62,21 @@
 }
 
 @layer utilities {
-  .mono {
-    font-family: "Share Tech Mono", monospace;
-  }
-
-  .display {
-    font-family: "Bebas Neue", sans-serif;
-  }
-
+  .mono { font-family: "Share Tech Mono", monospace; }
+  .display { font-family: "Bebas Neue", sans-serif; }
   .text-teal { color: var(--teal); }
   .text-cyan { color: var(--cyan); }
   .text-muted { color: var(--muted); }
   .text-body { color: var(--text); }
-
   .bg-surface { background-color: var(--surface); }
   .bg-surface2 { background-color: var(--surface2); }
   .bg-navy { background-color: var(--navy); }
-
   .border-default { border-color: var(--border); }
   .border-teal { border-color: var(--border-t); }
-
-  .glow-teal {
-    box-shadow: 0 0 20px var(--teal-glow);
-  }
-
-  .teal-gradient {
-    background: linear-gradient(135deg, var(--teal), var(--cyan));
-  }
+  .glow-teal { box-shadow: 0 0 20px var(--teal-glow); }
+  .teal-gradient { background: linear-gradient(135deg, var(--teal), var(--cyan)); }
 }
 
-/* ── Scroll Reveal Animation ── */
 .reveal {
   opacity: 0;
   transform: translateY(22px);
