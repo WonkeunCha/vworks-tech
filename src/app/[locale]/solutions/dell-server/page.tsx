@@ -369,10 +369,10 @@ export default function DellServerPage() {
               <span style={{ display: 'inline-flex', alignItems: 'center', fontFamily: "'Share Tech Mono',monospace", fontSize: 8.5, letterSpacing: '.18em', padding: '5px 13px', borderRadius: 2, color: 'var(--teal)', background: 'rgba(0,201,177,.08)', border: '1px solid rgba(0,201,177,.2)' }}>● 15G · 16G 현행 제품만</span>
               <span style={{ display: 'inline-flex', alignItems: 'center', fontFamily: "'Share Tech Mono',monospace", fontSize: 8.5, letterSpacing: '.18em', padding: '5px 13px', borderRadius: 2, color: 'var(--amber)', background: 'rgba(251,191,36,.07)', border: '1px solid rgba(251,191,36,.25)' }}>● Intel Xeon 4/5세대 · AMD EPYC 4/5세대</span>
             </div>
-            <h1 style={{ fontFamily: "'Bebas Neue',sans-serif", fontSize: 'clamp(52px,6vw,80px)', letterSpacing: '.02em', lineHeight: .92, margin: '18px 0 6px', background: 'linear-gradient(135deg,var(--dell),var(--d2))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
+            <h1 style={{ fontFamily: "'Bebas Neue',sans-serif", fontSize: "clamp(24px, 6vw, 80px)", letterSpacing: '.02em', lineHeight: .92, margin: '18px 0 6px', background: 'linear-gradient(135deg,var(--dell),var(--d2))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
               Dell PowerEdge
             </h1>
-            <div style={{ fontSize: 'clamp(24px,3vw,38px)', color: 'var(--t)', fontWeight: 300, marginBottom: 18 }}>15세대 · 16세대 서버 라인업</div>
+            <div style={{ fontSize: "clamp(24px, 3vw, 38px)", color: 'var(--t)', fontWeight: 300, marginBottom: 18 }}>15세대 · 16세대 서버 라인업</div>
             <p style={{ fontSize: 15, color: 'var(--t)', fontWeight: 300, lineHeight: 1.85, maxWidth: 520, marginBottom: 28 }}>
               2021년 이후 출시된 현행 PowerEdge 제품군. 15G(iDRAC9) · 16G(iDRAC10) 기준
               Intel Xeon 4세대·5세대, AMD EPYC 4세대·5세대 전 제품군을 VWorks를 통해 공급·구축합니다.
@@ -613,7 +613,7 @@ export default function DellServerPage() {
       <section style={{ padding: '72px 40px 110px', textAlign: 'center', position: 'relative', zIndex: 1 }}>
         <div style={{ maxWidth: 600, margin: '0 auto' }}>
           <div className="section-label" style={{ justifyContent: 'center', display: 'flex' }}>Dell 서버 도입 문의</div>
-          <h2 style={{ fontFamily: "'Bebas Neue',sans-serif", fontSize: 'clamp(48px,6vw,72px)', letterSpacing: '.02em', lineHeight: 1, marginBottom: 14 }}>지금 바로<br />견적을 받아보세요</h2>
+          <h2 style={{ fontFamily: "'Bebas Neue',sans-serif", fontSize: "clamp(24px, 6vw, 72px)", letterSpacing: '.02em', lineHeight: 1, marginBottom: 14 }}>지금 바로<br />견적을 받아보세요</h2>
           <p style={{ fontSize: 15, color: 'var(--mu)', fontWeight: 300, marginBottom: 28, lineHeight: 1.7 }}>
             15G/16G 중 어떤 모델이 최적인지, VWorks 엔지니어가 워크로드 분석 후 추천드립니다.
           </p>

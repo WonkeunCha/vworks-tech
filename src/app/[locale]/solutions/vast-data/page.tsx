@@ -416,7 +416,7 @@ export default function VastDataPage() {
 
   const S = {
     label: { fontFamily: "'Share Tech Mono',monospace", fontSize: 9, letterSpacing: "0.3em", color: "var(--teal)", marginBottom: 12 } as React.CSSProperties,
-    h2: { fontFamily: "'Bebas Neue',sans-serif", fontSize: "clamp(36px,5vw,58px)", letterSpacing: "0.02em", lineHeight: 1.05, marginBottom: 14 } as React.CSSProperties,
+    h2: { fontFamily: "'Bebas Neue',sans-serif", fontSize: "clamp(20px, 5vw, 58px)", letterSpacing: "0.02em", lineHeight: 1.05, marginBottom: 14 } as React.CSSProperties,
     sub: { fontSize: 14, color: "var(--muted)", fontWeight: 300, maxWidth: 560 } as React.CSSProperties,
     body: { fontSize: 14, color: "var(--text)", fontWeight: 300, lineHeight: 1.95, marginBottom: 18 } as React.CSSProperties,
     mono: { fontFamily: "'Share Tech Mono',monospace" } as React.CSSProperties,
@@ -479,12 +479,12 @@ export default function VastDataPage() {
                 style={{ objectFit: "contain", objectPosition: "left", height: "auto", marginBottom: 16 }}
                 priority
               />
-              <h1 style={{ ...S.display, fontSize: "clamp(52px,7vw,86px)", letterSpacing: "0.02em", lineHeight: 0.92 }}>
+              <h1 style={{ ...S.display, fontSize: "clamp(24px, 7vw, 86px)", letterSpacing: "0.02em", lineHeight: 0.92 }}>
                 <span style={{ background: "linear-gradient(135deg,var(--teal),var(--cyan))", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>
                   {c.heroTitle2}
                 </span>
                 <br />
-                <span style={{ fontSize: "clamp(28px,3.5vw,46px)", color: "var(--text)", fontWeight: 300, fontFamily: "'Noto Sans KR',sans-serif", letterSpacing: "0em" }}>
+                <span style={{ fontSize: "clamp(18px, 3.5vw, 46px)", color: "var(--text)", fontWeight: 300, fontFamily: "'Noto Sans KR',sans-serif", letterSpacing: "0em" }}>
                   {c.heroTitle1}
                 </span>
               </h1>
@@ -690,7 +690,7 @@ export default function VastDataPage() {
       <section className="reveal" style={{ padding: "80px 32px 120px", textAlign: "center", position: "relative", zIndex: 1 }}>
         <div style={{ maxWidth: 640, margin: "0 auto" }}>
           <div style={S.label}>{c.ctaLabel}</div>
-          <h2 style={{ ...S.display, fontSize: "clamp(44px,6vw,70px)", letterSpacing: "0.02em", lineHeight: 1, marginBottom: 16 }}>
+          <h2 style={{ ...S.display, fontSize: "clamp(24px, 6vw, 70px)", letterSpacing: "0.02em", lineHeight: 1, marginBottom: 16 }}>
             {c.ctaTitle.split("\n").map((l, i) => <span key={i}>{l}{i === 0 && <br />}</span>)}
           </h2>
           <p style={{ fontSize: 15, color: "var(--muted)", fontWeight: 300, marginBottom: 36, lineHeight: 1.7 }}>{c.ctaDesc}</p>

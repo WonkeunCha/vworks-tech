@@ -24,7 +24,7 @@ function ContactCTA() {
         </div>
         <h2 style={{
           fontFamily: "'Bebas Neue', sans-serif",
-          fontSize: "clamp(40px, 5vw, 64px)",
+          fontSize: "clamp(20px, 5vw, 64px)",
           letterSpacing: "0.02em",
           lineHeight: 1,
           marginBottom: 16,
