@@ -1,4 +1,5 @@
-﻿import type { Metadata } from "next";
+﻿@'
+import type { Metadata } from "next";
 import { Noto_Sans_KR } from "next/font/google";
 import "@/styles/globals.css";
 
@@ -26,3 +27,4 @@ export default function RootLayout({
     </html>
   );
 }
+'@ | Out-File -FilePath "src\app\layout.tsx" -Encoding UTF8
