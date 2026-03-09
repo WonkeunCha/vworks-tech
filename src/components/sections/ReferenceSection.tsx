@@ -19,7 +19,7 @@ export default function ReferenceSection() {
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", marginBottom: 64, flexWrap: "wrap", gap: 24 }}>
           <div>
             <div style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: 10, letterSpacing: "0.3em", color: "var(--teal)", marginBottom: 12 }}>REFERENCE</div>
-            <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "clamp(40px, 5vw, 64px)", letterSpacing: "0.02em", lineHeight: 1, marginBottom: 12 }}>구축 레퍼런스</h2>
+            <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "clamp(20px, 5vw, 64px)", letterSpacing: "0.02em", lineHeight: 1, marginBottom: 12 }}>구축 레퍼런스</h2>
             <p style={{ fontSize: 15, color: "var(--muted)", fontWeight: 300 }}>국방·공공·민간 분야 실제 구축 사례</p>
           </div>
           <Link href="/ko/reference" style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: 12, letterSpacing: "0.1em", color: "var(--teal)", textDecoration: "none", display: "flex", alignItems: "center", gap: 8, border: "1px solid var(--border-t)", padding: "10px 20px", borderRadius: 2 }}>

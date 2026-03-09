@@ -72,7 +72,7 @@ export default function HeroSection() {
           VAST Data 공식 파트너
         </div>
 
-        <h1 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "clamp(52px, 8vw, 96px)", letterSpacing: "0.02em", lineHeight: 0.95, marginBottom: 24 }}>
+        <h1 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "clamp(28px, 8vw, 96px)", letterSpacing: "0.02em", lineHeight: 0.95, marginBottom: 24 }}>
           <span style={{ display: "block" }}>데이터의 속도로,</span>
           <span style={{ display: "block", background: "linear-gradient(135deg, var(--teal) 0%, var(--cyan) 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>
             비즈니스의 미래로
