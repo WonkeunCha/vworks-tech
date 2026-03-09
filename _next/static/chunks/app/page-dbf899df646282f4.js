@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[974],{3792:(e,n,r)=>{"use strict";r.r(n),r.d(n,{default:()=>t});var s=r(2115);function t(){return(0,s.useEffect)(()=>{window.location.replace("/vworks-tech/ko/")},[]),null}},9430:(e,n,r)=>{Promise.resolve().then(r.bind(r,3792))}},e=>{var n=n=>e(e.s=n);e.O(0,[441,684,358],()=>n(9430)),_N_E=e.O()}]);
