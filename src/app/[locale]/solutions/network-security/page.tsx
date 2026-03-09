@@ -98,7 +98,7 @@ export default function NetworkSecurityPage() {
 
       {/* ── NAV ── */}
       {/* ── HERO ── */}
-      <section className="relative pt-24 pb-20 px-4 md:px-10 border-b border-[rgba(31,74,117,.5)] overflow-hidden">
+      <section className="relative pt-24 pb-20 px-4 md:px-4 md:px-10 border-b border-[rgba(31,74,117,.5)] overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_70%_at_30%_50%,rgba(0,201,177,.05)_0%,transparent_65%)]" />
         <div className="relative z-10 max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-14 items-center">
           <div>
@@ -143,7 +143,7 @@ export default function NetworkSecurityPage() {
       </section>
 
       {/* ── 구분선 01 ── */}
-      <div id="ionenet" className="max-w-6xl mx-auto px-4 md:px-10 py-12 flex items-center gap-5 reveal opacity-0 translate-y-5 transition-all duration-500">
+      <div id="ionenet" className="max-w-6xl mx-auto px-4 md:px-4 md:px-10 py-12 flex items-center gap-5 reveal opacity-0 translate-y-5 transition-all duration-500">
         <div className="flex-1 h-px bg-[rgba(31,74,117,.5)]" />
         <span className="font-mono text-[10px] tracking-[.2em] text-[#00C9B1] px-5 py-2 border border-[rgba(0,201,177,.2)] bg-[#0a1628] whitespace-nowrap">
           01 · 휴네시온 i-oneNet 망연계 솔루션
@@ -152,7 +152,7 @@ export default function NetworkSecurityPage() {
       </div>
 
       {/* ── 제품 탭 ── */}
-      <section className="px-4 md:px-10 pb-20 reveal opacity-0 translate-y-5 transition-all duration-500">
+      <section className="px-4 md:px-4 md:px-10 pb-20 reveal opacity-0 translate-y-5 transition-all duration-500">
         <div className="max-w-6xl mx-auto">
           <div className="font-mono text-[9px] tracking-[.3em] text-[#00C9B1] mb-3">제품 라인업</div>
           <h2 className="font-['Bebas_Neue'] text-[52px] tracking-wide leading-none mb-3">환경에 따른 최적 제품 선택</h2>
@@ -180,7 +180,7 @@ export default function NetworkSecurityPage() {
 
           {/* 탭 콘텐츠 */}
           <div className="grid grid-cols-1 grid-cols-1 lg:grid-cols-[1fr_340px] bg-[#0a1628] border border-[rgba(31,74,117,.5)]">
-            <div className="p-4 md:p-10 border-r-0 lg:border-r border-[rgba(31,74,117,.5)]">
+            <div className="p-4 md:p-4 md:p-10 border-r-0 lg:border-r border-[rgba(31,74,117,.5)]">
               <span className="font-mono text-[9px] tracking-[.18em] px-3 py-1 rounded-sm"
                 style={{ color: prod.color, background: prod.bg, border: `1px solid ${prod.border}` }}>
                 {prod.tier}
@@ -231,7 +231,7 @@ export default function NetworkSecurityPage() {
       </section>
 
       {/* ── 구분선 02 ── */}
-      <div id="cds" className="max-w-6xl mx-auto px-4 md:px-10 py-12 flex items-center gap-5 reveal opacity-0 translate-y-5 transition-all duration-500">
+      <div id="cds" className="max-w-6xl mx-auto px-4 md:px-4 md:px-10 py-12 flex items-center gap-5 reveal opacity-0 translate-y-5 transition-all duration-500">
         <div className="flex-1 h-px bg-[rgba(31,74,117,.5)]" />
         <span className="font-mono text-[10px] tracking-[.2em] text-[#fbbf24] px-5 py-2 border border-[rgba(251,191,36,.3)] bg-[#0a1628] whitespace-nowrap">
           02 · 씨크랩 KCDS-Guard 1000 — 국방 특화 CDS
@@ -240,7 +240,7 @@ export default function NetworkSecurityPage() {
       </div>
 
       {/* ── KCDS-Guard ── */}
-      <section className="px-4 md:px-10 pb-20 reveal opacity-0 translate-y-5 transition-all duration-500">
+      <section className="px-4 md:px-4 md:px-10 pb-20 reveal opacity-0 translate-y-5 transition-all duration-500">
         <div className="max-w-6xl mx-auto">
           <div className="font-mono text-[9px] tracking-[.3em] text-[#fbbf24] mb-3">국방 특화 보안통제장비</div>
           <h2 className="font-['Bebas_Neue'] text-[52px] tracking-wide leading-none mb-4">
@@ -288,7 +288,7 @@ export default function NetworkSecurityPage() {
 
           {/* 6대 핵심 기능 */}
           <div className="font-mono text-[9px] tracking-[.2em] text-[#00C9B1] mb-4">KCDS-Guard 1000 핵심 기능</div>
-          <div className="grid grid-cols-2 lg:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[2px] mb-10">
+          <div className="grid grid-cols-2 lg:grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2px] mb-10">
             {[
               { icon: '🔐', title: '전용 보안통제 모듈', desc: '국가보안기술연구소 이전 통제모듈 CHIP 탑재. 전용 H/W 기반 암호키 생성·관리.' },
               { icon: '🔑', title: 'SUD 키 관리', desc: 'Secure USB Device를 통한 키 발급. 전용 API를 통해서만 접근 가능하여 키 탈취 원천 차단.' },
@@ -308,7 +308,7 @@ export default function NetworkSecurityPage() {
 
           {/* 레퍼런스 */}
           <div className="font-mono text-[9px] tracking-[.2em] text-[#00C9B1] mb-4">KCDS 구축 레퍼런스 (국방/공공 13개 기관)</div>
-          <div className="grid grid-cols-3 lg:grid-cols-6 gap-[2px] mb-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-cols-6 gap-[2px] mb-6">
             {['🏛 국방부', '⚔️ 육군본부', '⚓ 해군', '✈️ 공군작전사령부', '🔬 국방과학연구소', '🏥 국군의무사령부', '📡 국군지휘통신사령부', '💻 국방전산정보원', '✈️ 공군29전대', '🎖 논산훈련소', '💰 국군재정관리단', '🔐 국가보안기술연구소'].map((r) => (
               <div key={r} className="text-[11px] text-[rgba(200,220,255,.76)] font-light p-2 bg-[#0e1e35] border border-[rgba(31,74,117,.5)] text-center leading-[1.4]">{r}</div>
             ))}
@@ -330,7 +330,7 @@ export default function NetworkSecurityPage() {
       </section>
 
       {/* ── CTA ── */}
-      <section className="px-4 md:px-10 py-20 text-center reveal opacity-0 translate-y-5 transition-all duration-500">
+      <section className="px-4 md:px-4 md:px-10 py-20 text-center reveal opacity-0 translate-y-5 transition-all duration-500">
         <div className="max-w-xl mx-auto">
           <div className="font-mono text-[9px] tracking-[.3em] text-[#00C9B1] mb-4">보안 솔루션 도입 문의</div>
           <h2 className="font-['Bebas_Neue'] text-[64px] tracking-wide leading-none mb-4">지금 바로<br />환경 분석을 시작하세요</h2>

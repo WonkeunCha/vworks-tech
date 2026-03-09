@@ -350,7 +350,19 @@ export default function DellServerPage() {
         .why-card:hover{border-color:var(--db)}
         @media(max-width:1100px){.product-grid{grid-template-columns:1fr 1fr}.sheet-grid{grid-template-columns:1fr 1fr}.why-grid{grid-template-columns:1fr 1fr}}
         @media(max-width:620px){.product-grid,.sheet-grid,.why-grid{grid-template-columns:1fr}}
-      `}</style>
+      
+@media(max-width:768px){
+  .section{padding:0 16px 60px!important}
+  .product-grid{grid-template-columns:1fr!important}
+  .section-title{font-size:clamp(22px,7vw,36px)!important}
+  .section-sub{font-size:13px!important}
+  .card-name{font-size:clamp(18px,6vw,26px)!important}
+  .card-desc{font-size:12px!important}
+  .card-top{padding:14px 14px 10px!important}
+  .card-specs{padding:10px 14px!important}
+  .spec-row{font-size:11px!important}
+  .hero-title,.section-title{word-break:keep-all}
+}`}</style>
 
       {/* ── HERO ── */}
       <section
