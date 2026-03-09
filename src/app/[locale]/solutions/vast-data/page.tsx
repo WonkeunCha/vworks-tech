@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
 
@@ -471,14 +470,7 @@ export default function VastDataPage() {
 
             {/* logo image + subtitle */}
             <div style={{ marginBottom: 24 }}>
-              <Image
-                src="/logo-white.png"
-                alt="VWorks Technologies"
-                width={160}
-                height={64}
-                style={{ objectFit: "contain", objectPosition: "left", height: "auto", marginBottom: 16 }}
-                priority
-              />
+              
               <h1 style={{ ...S.display, fontSize: "clamp(24px, 7vw, 86px)", letterSpacing: "0.02em", lineHeight: 0.92 }}>
                 <span style={{ background: "linear-gradient(135deg,var(--teal),var(--cyan))", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>
                   {c.heroTitle2}
