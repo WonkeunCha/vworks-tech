@@ -352,8 +352,9 @@ export default function DellServerPage() {
         @media(max-width:620px){.product-grid,.sheet-grid,.why-grid{grid-template-columns:1fr}}
       
 
-.hero-section{padding-left:clamp(16px,4vw,40px)!important;padding-right:clamp(16px,4vw,40px)!important}
+.hero-section{}
 @media(max-width:768px){
+  .hero-section{padding:80px 16px 60px!important}
   .section{padding:0 16px 60px!important}
   .product-grid{grid-template-columns:1fr!important}
   .sheet-grid{grid-template-columns:1fr!important}
@@ -371,7 +372,7 @@ export default function DellServerPage() {
       {/* ── HERO ── */}
       <section className="hero-section" style={{
           position: 'relative',
-          padding: "clamp(80px,12vw,138px) clamp(16px,4vw,clamp(16px,4vw,40px)) 72px",
+          padding: "20px 72px",
           borderBottom: '1px solid var(--br)',
           overflow: 'hidden',
           background: 'radial-gradient(ellipse 75% 65% at 20% 50%, rgba(0,125,184,.07) 0%, transparent 60%)',
