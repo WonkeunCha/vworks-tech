@@ -1,6 +1,10 @@
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
+export function generateStaticParams() {
+  return [{ locale: "ko" }];
+}
+
 export default function LocaleLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
