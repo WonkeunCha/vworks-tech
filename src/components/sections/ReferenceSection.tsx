@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { useState, useEffect } from "react";
 
 const CASES = [
   { client: "대한민국 해군", title: "해양수치모델 HPC 클러스터 구축", tags: ["HPC", "국방"], slug: "navy-ocean-hpc" },
@@ -13,14 +14,23 @@ const TAG_COLORS: Record<string, string> = {
 };
 
 export default function ReferenceSection() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const update = () => setIsMobile(window.innerWidth < 768);
+    update();
+    window.addEventListener("resize", update);
+    return () => window.removeEventListener("resize", update);
+  }, []);
+
   return (
-    <section style={{ padding: "120px 32px", background: "linear-gradient(180deg, transparent, rgba(15,42,74,0.2), transparent)" }}>
+    <section style={{ padding: "clamp(60px,8vw,120px) clamp(16px,4vw,32px)", background: "linear-gradient(180deg, transparent, rgba(15,42,74,0.2), transparent)" }}>
       <div style={{ maxWidth: 1200, margin: "0 auto" }}>
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", marginBottom: 64, flexWrap: "wrap", gap: 24 }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", marginBottom: 48, flexWrap: "wrap", gap: 24 }}>
           <div>
-            <div style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: 10, letterSpacing: "0.3em", color: "var(--teal)", marginBottom: 12 }}>REFERENCE</div>
-            <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "clamp(20px, 5vw, 64px)", letterSpacing: "0.02em", lineHeight: 1, marginBottom: 12 }}>구축 레퍼런스</h2>
-            <p style={{ fontSize: 15, color: "var(--muted)", fontWeight: 300 }}>국방·공공·민간 분야 실제 구축 사례</p>
+            <div style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: 11, letterSpacing: "0.3em", color: "var(--teal)", marginBottom: 12 }}>REFERENCE</div>
+            <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "clamp(28px, 5vw, 64px)", letterSpacing: "0.02em", lineHeight: 1, marginBottom: 12 }}>구축 레퍼런스</h2>
+            <p style={{ fontSize: 14, color: "var(--muted)", fontWeight: 300 }}>국방·공공·민간 분야 실제 구축 사례</p>
           </div>
           <Link href="/ko/reference" style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: 12, letterSpacing: "0.1em", color: "var(--teal)", textDecoration: "none", display: "flex", alignItems: "center", gap: 8, border: "1px solid var(--border-t)", padding: "10px 20px", borderRadius: 2 }}>
             전체 레퍼런스 보기 →
@@ -28,21 +38,57 @@ export default function ReferenceSection() {
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 2 }}>
           {CASES.map((c, i) => (
-            <div key={i} style={{ display: "grid", gridTemplateColumns: "64px 180px 1fr auto", alignItems: "center", gap: 24, padding: "24px 28px", background: "var(--surface)", border: "1px solid var(--border)" }}>
-              <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 32, color: "rgba(0,201,177,0.25)", lineHeight: 1 }}>{String(i + 1).padStart(2, "0")}</div>
-              <div>
-                <div style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: 10, letterSpacing: "0.15em", color: "var(--muted)", marginBottom: 4 }}>CLIENT</div>
-                <div style={{ fontSize: 13, color: "var(--text)", fontWeight: 400 }}>{c.client}</div>
-              </div>
-              <div style={{ fontFamily: "'Noto Sans KR', sans-serif", fontSize: 16, color: "var(--white)", fontWeight: 400 }}>{c.title}</div>
-              <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                <div style={{ display: "flex", gap: 6 }}>
-                  {c.tags.map((tag, ti) => (
-                    <span key={ti} style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: 9, letterSpacing: "0.1em", padding: "3px 8px", borderRadius: 1, color: TAG_COLORS[tag] ?? "var(--muted)", border: "1px solid var(--border)", background: "transparent" }}>{tag}</span>
-                  ))}
+            <div
+              key={i}
+              style={{
+                padding: "20px 24px",
+                background: "var(--surface)",
+                border: "1px solid var(--border)",
+              }}
+            >
+              {isMobile ? (
+                /* 모바일: 2행 레이아웃 */
+                <div>
+                  <div style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 12 }}>
+                    <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 28, color: "rgba(0,201,177,0.3)", lineHeight: 1, minWidth: 40 }}>
+                      {String(i + 1).padStart(2, "0")}
+                    </div>
+                    <div>
+                      <div style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: 9, letterSpacing: "0.15em", color: "var(--muted)", marginBottom: 2 }}>CLIENT</div>
+                      <div style={{ fontSize: 12, color: "var(--text)" }}>{c.client}</div>
+                    </div>
+                  </div>
+                  <div style={{ fontSize: 15, color: "var(--white)", fontWeight: 400, marginBottom: 12, lineHeight: 1.5, wordBreak: "keep-all" }}>{c.title}</div>
+                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+                    <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+                      {c.tags.map((tag, ti) => (
+                        <span key={ti} style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: 9, letterSpacing: "0.1em", padding: "3px 8px", color: TAG_COLORS[tag] ?? "var(--muted)", border: "1px solid var(--border)", background: "transparent" }}>{tag}</span>
+                      ))}
+                    </div>
+                    <span style={{ color: "var(--teal)", fontSize: 18 }}>→</span>
+                  </div>
                 </div>
-                <span style={{ color: "var(--teal)", fontSize: 18, marginLeft: 8 }}>→</span>
-              </div>
+              ) : (
+                /* 데스크탑: 4열 그리드 */
+                <div style={{ display: "grid", gridTemplateColumns: "64px 180px 1fr auto", alignItems: "center", gap: 24 }}>
+                  <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 32, color: "rgba(0,201,177,0.25)", lineHeight: 1 }}>
+                    {String(i + 1).padStart(2, "0")}
+                  </div>
+                  <div>
+                    <div style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: 10, letterSpacing: "0.15em", color: "var(--muted)", marginBottom: 4 }}>CLIENT</div>
+                    <div style={{ fontSize: 13, color: "var(--text)", fontWeight: 400 }}>{c.client}</div>
+                  </div>
+                  <div style={{ fontFamily: "'Noto Sans KR', sans-serif", fontSize: 16, color: "var(--white)", fontWeight: 400 }}>{c.title}</div>
+                  <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                    <div style={{ display: "flex", gap: 6 }}>
+                      {c.tags.map((tag, ti) => (
+                        <span key={ti} style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: 9, letterSpacing: "0.1em", padding: "3px 8px", color: TAG_COLORS[tag] ?? "var(--muted)", border: "1px solid var(--border)", background: "transparent" }}>{tag}</span>
+                      ))}
+                    </div>
+                    <span style={{ color: "var(--teal)", fontSize: 18, marginLeft: 8 }}>→</span>
+                  </div>
+                </div>
+              )}
             </div>
           ))}
         </div>
