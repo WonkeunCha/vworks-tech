@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 
 const SYSTEMS = [
@@ -83,11 +82,8 @@ export default function HpeCrayPage() {
       {/* ── NAV ── */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[rgba(5,13,26,.92)] backdrop-blur-md border-b border-[rgba(31,74,117,.5)] px-10 py-4 flex items-center justify-between">
         <div className="flex items-center gap-5">
-          <Link href="/"><Image src="/logo-white.png" alt="VWorks" width={110} height={44} /></Link>
           <div className="hidden md:flex items-center gap-2 font-mono text-[11px] text-[#5a7a9a]">
-            <Link href="/" className="hover:text-[#00C9B1]">홈</Link>
             <span className="opacity-40">›</span>
-            <Link href="/solutions" className="hover:text-[#00C9B1]">솔루션</Link>
             <span className="opacity-40">›</span>
             <span style={{ color: '#01A982' }}>HPE Cray 슈퍼컴퓨팅</span>
           </div>
