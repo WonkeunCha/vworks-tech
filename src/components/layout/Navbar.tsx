@@ -23,10 +23,10 @@ export default function Navbar() {
   
 
   const navLinks = [
-    { href: `/ko/solutions`, label: t("solutions") },
-    { href: `/ko/partners`, label: t("partners") },
-    { href: `/ko/reference`, label: t("reference") },
-    { href: `/ko/about`, label: t("about") },
+    { href: `/ko/solutions`, label: "솔루션" },
+    { href: `/ko/partners`, label: "파트너십" },
+    { href: `/ko/reference`, label: "구축 레퍼런스" },
+    { href: `/ko/about`, label: "회사 소개" },
   ];
 
   return (
