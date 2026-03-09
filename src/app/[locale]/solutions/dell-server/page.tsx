@@ -334,7 +334,7 @@ export default function DellServerPage() {
         .tabs-row{display:flex;gap:2px;flex-wrap:wrap;margin-bottom:2px}
         .tab-btn{padding:10px 20px;background:var(--s1);border:1px solid var(--br);font-family:'Share Tech Mono',monospace;font-size:9.5px;letter-spacing:.12em;cursor:pointer;transition:all .2s;color:var(--mu);border-radius:2px}
         .tab-btn.active,.tab-btn:hover{background:var(--d3);border-color:var(--db);color:var(--dell)}
-        .gen-divider{max-width:1240px;margin:0 auto;padding:56px 40px 20px;display:flex;align-items:center;gap:16px}
+        .gen-divider{max-width:1240px;margin:0 auto;padding:56px 20px 20px;display:flex;align-items:center;gap:16px}
         .gen-line{flex:1;height:1px;background:var(--br)}
         .gen-label{font-family:'Share Tech Mono',monospace;font-size:10px;letter-spacing:.2em;padding:7px 18px;border:1px solid;border-radius:2px;white-space:nowrap}
         .cmp-table{width:100%;border-collapse:collapse;font-size:12px;min-width:900px}
@@ -354,19 +354,18 @@ export default function DellServerPage() {
 
 .hero-section{padding-left:clamp(16px,4vw,40px)!important;padding-right:clamp(16px,4vw,40px)!important}
 @media(max-width:768px){
-  .hero-section{padding-top:80px!important;padding-left:16px!important;padding-right:16px!important}
-}
-@media(max-width:768px){
   .section{padding:0 16px 60px!important}
   .product-grid{grid-template-columns:1fr!important}
-  .section-title{font-size:clamp(22px,7vw,36px)!important}
+  .sheet-grid{grid-template-columns:1fr!important}
+  .why-grid{grid-template-columns:1fr!important}
+  .section-title{font-size:clamp(20px,6vw,32px)!important}
   .section-sub{font-size:13px!important}
-  .card-name{font-size:clamp(18px,6vw,26px)!important}
+  .card-name{font-size:clamp(18px,5vw,24px)!important}
   .card-desc{font-size:12px!important}
-  .card-top{padding:14px 14px 10px!important}
+  .card-top{padding:14px!important}
   .card-specs{padding:10px 14px!important}
-  .spec-row{font-size:11px!important}
-  .hero-title,.section-title{word-break:keep-all}
+  .spec-row{font-size:11px!important;flex-wrap:wrap}
+  .spec-key{min-width:60px}
 }`}</style>
 
       {/* ── HERO ── */}
