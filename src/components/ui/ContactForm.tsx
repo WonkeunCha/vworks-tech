@@ -1,10 +1,10 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+
 import { useState } from "react";
 
 export default function ContactForm() {
-  const t = useTranslations("contact");
+  
   const types = t.raw("types") as string[];
 
   const [form, setForm] = useState({
@@ -49,7 +49,7 @@ export default function ContactForm() {
         }}>
           SUBMITTED
         </div>
-        <p style={{ fontSize: 14, color: "var(--text)", fontWeight: 300 }}>{t("success")}</p>
+        <p style={{ fontSize: 14, color: "var(--text)", fontWeight: 300 }}>{"문의가 성공적으로 접수되었습니다. 1~2 영업일 내 연락드리겠습니다."}</p>
       </div>
     );
   }
@@ -74,7 +74,7 @@ export default function ContactForm() {
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
         <div>
           <label style={{ display: "block", fontFamily: "'Share Tech Mono', monospace", fontSize: 10, letterSpacing: "0.15em", color: "var(--teal)", marginBottom: 8 }}>
-            {t("name")} *
+            {"이름"} *
           </label>
           <input
             required
@@ -88,7 +88,7 @@ export default function ContactForm() {
         </div>
         <div>
           <label style={{ display: "block", fontFamily: "'Share Tech Mono', monospace", fontSize: 10, letterSpacing: "0.15em", color: "var(--teal)", marginBottom: 8 }}>
-            {t("company")}
+            {"회사명"}
           </label>
           <input
             value={form.company}
@@ -104,7 +104,7 @@ export default function ContactForm() {
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
         <div>
           <label style={{ display: "block", fontFamily: "'Share Tech Mono', monospace", fontSize: 10, letterSpacing: "0.15em", color: "var(--teal)", marginBottom: 8 }}>
-            {t("email")} *
+            {"이메일"} *
           </label>
           <input
             required
@@ -118,7 +118,7 @@ export default function ContactForm() {
         </div>
         <div>
           <label style={{ display: "block", fontFamily: "'Share Tech Mono', monospace", fontSize: 10, letterSpacing: "0.15em", color: "var(--teal)", marginBottom: 8 }}>
-            {t("phone")}
+            {"연락처"}
           </label>
           <input
             type="tel"
@@ -134,7 +134,7 @@ export default function ContactForm() {
       {/* INQUIRY TYPE CHIPS */}
       <div>
         <label style={{ display: "block", fontFamily: "'Share Tech Mono', monospace", fontSize: 10, letterSpacing: "0.15em", color: "var(--teal)", marginBottom: 12 }}>
-          {t("type")}
+          {"문의 유형"}
         </label>
         <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
           {types.map((type) => (
@@ -164,7 +164,7 @@ export default function ContactForm() {
       {/* MESSAGE */}
       <div>
         <label style={{ display: "block", fontFamily: "'Share Tech Mono', monospace", fontSize: 10, letterSpacing: "0.15em", color: "var(--teal)", marginBottom: 8 }}>
-          {t("message")} *
+          {"문의 내용"} *
         </label>
         <textarea
           required
@@ -187,7 +187,7 @@ export default function ContactForm() {
           fontSize: 13,
           color: "var(--red)",
         }}>
-          {t("error")}
+          {"전송 중 오류가 발생했습니다. 다시 시도해주세요."}
         </div>
       )}
 

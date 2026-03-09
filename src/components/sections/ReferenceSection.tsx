@@ -1,9 +1,9 @@
-import { useTranslations, useLocale } from "next-intl";
+
 import Link from "next/link";
 
 export default function ReferenceSection() {
-  const t = useTranslations("reference");
-  const locale = useLocale();
+  
+  
   const cases = t.raw("cases") as Array<{
     client: string;
     title: string;
@@ -40,7 +40,7 @@ export default function ReferenceSection() {
               color: "var(--teal)",
               marginBottom: 12,
             }}>
-              {t("section_label")}
+              {"레퍼런스"}
             </div>
             <h2 style={{
               fontFamily: "'Bebas Neue', sans-serif",
@@ -49,14 +49,14 @@ export default function ReferenceSection() {
               lineHeight: 1,
               marginBottom: 12,
             }}>
-              {t("section_title")}
+              {"구축 레퍼런스"}
             </h2>
             <p style={{ fontSize: 15, color: "var(--muted)", fontWeight: 300 }}>
-              {t("section_sub")}
+              {"국방·공공·민간 분야 핵심 인프라 구축 경험"}
             </p>
           </div>
           <Link
-            href={`/${locale}/reference`}
+            href={'/reference'}
             style={{
               fontFamily: "'Share Tech Mono', monospace",
               fontSize: 12,
@@ -72,7 +72,7 @@ export default function ReferenceSection() {
               transition: "background 0.2s",
             }}
           >
-            {t("view_all")} →
+            {"전체 레퍼런스 보기"} →
           </Link>
         </div>
 
@@ -81,7 +81,7 @@ export default function ReferenceSection() {
           {cases.map((c, i) => (
             <Link
               key={i}
-              href={`/${locale}/reference/${c.slug}`}
+              href={'/reference/${c.slug}'}
               style={{
                 display: "grid",
                 gridTemplateColumns: "64px 180px 1fr auto",
