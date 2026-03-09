@@ -1,4 +1,4 @@
-
+import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
 
 const TAG_COLORS: Record<string, { color: string; bg: string; border: string }> = {
@@ -11,8 +11,8 @@ const TAG_COLORS: Record<string, { color: string; bg: string; border: string }> 
 };
 
 export default function SolutionsSection() {
-  
-  
+  const t = useTranslations("solutions");
+  const locale = useLocale();
   const cards = t.raw("cards") as Array<{
     category: string;
     title: string;
@@ -32,7 +32,7 @@ export default function SolutionsSection() {
           color: "var(--teal)",
           marginBottom: 12,
         }}>
-          {"솔루션"}
+          {t("section_label")}
         </div>
         <h2 style={{
           fontFamily: "'Bebas Neue', sans-serif",
@@ -41,10 +41,10 @@ export default function SolutionsSection() {
           lineHeight: 1,
           marginBottom: 16,
         }}>
-          {"핵심 솔루션 포트폴리오"}
+          {t("section_title")}
         </h2>
         <p style={{ fontSize: 15, color: "var(--muted)", fontWeight: 300 }}>
-          {"데이터 인프라부터 보안까지, VWorks가 공급·구축·유지보수합니다."}
+          {t("section_sub")}
         </p>
       </div>
 

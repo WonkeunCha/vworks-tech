@@ -1,4 +1,4 @@
-
+import { useTranslations } from "next-intl";
 
 const PARTNERS = [
   {
@@ -28,7 +28,7 @@ const PARTNERS = [
 ];
 
 export default function PartnersSection() {
-  
+  const t = useTranslations("partners");
 
   return (
     <section style={{ padding: "120px 32px" }}>
@@ -42,7 +42,7 @@ export default function PartnersSection() {
             color: "var(--teal)",
             marginBottom: 12,
           }}>
-            {"파트너"}
+            {t("section_label")}
           </div>
           <h2 style={{
             fontFamily: "'Bebas Neue', sans-serif",
@@ -51,10 +51,10 @@ export default function PartnersSection() {
             lineHeight: 1,
             marginBottom: 16,
           }}>
-            {"공식 파트너십"}
+            {t("section_title")}
           </h2>
           <p style={{ fontSize: 15, color: "var(--muted)", fontWeight: 300, maxWidth: 600, margin: "0 auto" }}>
-            {"글로벌 기술 파트너사와의 공식 파트너십을 기반으로 최고의 솔루션을 제공합니다."}
+            {t("section_sub")}
           </p>
         </div>
 

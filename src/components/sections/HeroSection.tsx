@@ -1,12 +1,12 @@
 "use client";
 
-
+import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
 import { useEffect, useRef } from "react";
 
 export default function HeroSection() {
-  
-  
+  const t = useTranslations("hero");
+  const locale = useLocale();
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const mouseRef = useRef({ x: 0, y: 0 });
 
@@ -218,7 +218,7 @@ export default function HeroSection() {
           animation: "fadeUp 0.6s 0.3s ease both",
         }}>
           <Link
-            href={'/solutions'}
+            href={`/${locale}/solutions`}
             style={{
               display: "inline-flex",
               alignItems: "center",
@@ -234,7 +234,7 @@ export default function HeroSection() {
               transition: "opacity 0.2s, transform 0.2s",
             }}
           >
-            {'솔루션 보기'}
+            {t("cta_primary")}
             <span style={{ fontSize: 18 }}>→</span>
           </Link>
           <Link
@@ -254,7 +254,7 @@ export default function HeroSection() {
               transition: "border-color 0.2s",
             }}
           >
-            {'도입 문의'}
+            {t("cta_secondary")}
           </Link>
         </div>
 

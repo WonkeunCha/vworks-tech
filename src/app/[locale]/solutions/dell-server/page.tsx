@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 
 /* ── 16G Intel Rack ─────────────────────────────────────── */
@@ -307,7 +307,7 @@ export default function DellServerPage() {
   }, []);
 
   return (
-    <>
+    <React.Fragment>
       <style>{`
         :root{--dell:#007DB8;--d2:#0097C4;--d3:rgba(0,125,184,.09);--db:rgba(0,125,184,.28);--teal:#00C9B1;--amber:#fbbf24;--green:#4ade80;--purple:#a78bfa;--cyan:#38D9F5;--s1:#0a1628;--s2:#0e1e35;--br:rgba(31,74,117,.5);--w:#e8f1ff;--t:rgba(200,220,255,.76);--mu:#5a7a9a}
         .section{padding:0 40px 80px;position:relative;z-index:1}
@@ -635,6 +635,6 @@ export default function DellServerPage() {
           </div>
         </div>
       </section>
-    </>
+    </React.Fragment>
   );
 }
