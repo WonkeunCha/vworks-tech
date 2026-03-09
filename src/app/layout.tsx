@@ -1,14 +1,28 @@
-import Navbar from "@/components/layout/Navbar";
-import Footer from "@/components/layout/Footer";
+﻿import type { Metadata } from "next";
+import { Noto_Sans_KR } from "next/font/google";
+import "@/styles/globals.css";
 
-export default function LocaleLayout({ children }: { children: React.ReactNode }) {
+const notoSansKR = Noto_Sans_KR({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "700"],
+  variable: "--font-noto-sans-kr",
+});
+
+export const metadata: Metadata = {
+  title: "VWorks Technologies",
+  description: "데이터의 속도로, 비즈니스의 미래로",
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <>
-      <Navbar />
-      <main style={{ position: "relative", zIndex: 1 }}>
+    <html lang="ko" className={notoSansKR.variable}>
+      <body className={notoSansKR.className}>
         {children}
-      </main>
-      <Footer />
-    </>
+      </body>
+    </html>
   );
 }
