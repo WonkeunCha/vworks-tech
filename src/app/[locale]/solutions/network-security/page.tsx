@@ -98,7 +98,7 @@ export default function NetworkSecurityPage() {
 
       {/* ── NAV ── */}
       {/* ── HERO ── */}
-      <section className="relative pt-24 pb-20 px-4 md:px-4 md:px-10 border-b border-[rgba(31,74,117,.5)] overflow-hidden">
+      <section className="relative pt-20 pb-12 px-4 md:px-10 border-b border-[rgba(31,74,117,.5)] overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_70%_at_30%_50%,rgba(0,201,177,.05)_0%,transparent_65%)]" />
         <div className="relative z-10 max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-14 items-center">
           <div>
@@ -106,16 +106,16 @@ export default function NetworkSecurityPage() {
               <span className="font-mono text-[9px] tracking-[.18em] px-3 py-1 rounded-sm text-[#4ade80] bg-[rgba(74,222,128,.07)] border border-[rgba(74,222,128,.2)]">● 휴네시온 공식 총판 파트너</span>
               <span className="font-mono text-[9px] tracking-[.18em] px-3 py-1 rounded-sm text-[#00C9B1] bg-[rgba(0,201,177,.08)] border border-[rgba(0,201,177,.2)]">● 씨크랩 공식 총판 파트너</span>
             </div>
-            <h1 className="font-['Bebas_Neue'] text-[72px] leading-[.92] tracking-wide mb-5">
+            <h1 className="font-['Bebas_Neue'] text-[40px] md:text-[56px] lg:text-[72px] leading-[.92] tracking-wide mb-5">
               <span className="bg-gradient-to-r from-[#4ade80] to-[#00C9B1] bg-clip-text text-transparent">보안 솔루션</span>
               <br />
-              <span className="text-[42px] text-[rgba(200,220,255,.76)] font-['Noto_Sans_KR'] font-light tracking-normal">망연계 · CDS 전문 공급</span>
+              <span className="text-[22px] md:text-[32px] lg:text-[42px] text-[rgba(200,220,255,.76)] font-['Noto_Sans_KR'] font-light tracking-normal">망연계 · CDS 전문 공급</span>
             </h1>
             <p className="text-[15px] text-[rgba(200,220,255,.76)] font-light leading-[1.85] mb-8 max-w-xl">
               국내 1위 망연계 솔루션 i-oneNet(휴네시온)과 국방 특화 CDS KCDS-Guard(씨크랩)를 공식 총판으로 공급·구축합니다.
             </p>
             <div className="flex flex-wrap gap-3">
-              <Link href="/contact" className="bg-gradient-to-r from-[#4ade80] to-[#00C9B1] text-[#050d1a] text-[14px] font-medium px-7 py-3 rounded-sm">도입 상담 신청 →</Link>
+              <Link href="/ko/contact/" className="bg-gradient-to-r from-[#4ade80] to-[#00C9B1] text-[#050d1a] text-[14px] font-medium px-7 py-3 rounded-sm">도입 상담 신청 →</Link>
               <a href="#ionenet" className="border border-[rgba(74,222,128,.3)] text-[#4ade80] text-[14px] px-7 py-3 rounded-sm">망연계 솔루션</a>
               <a href="#cds" className="border border-[rgba(251,191,36,.3)] text-[#fbbf24] text-[14px] px-7 py-3 rounded-sm">KCDS-Guard CDS</a>
             </div>
@@ -143,19 +143,19 @@ export default function NetworkSecurityPage() {
       </section>
 
       {/* ── 구분선 01 ── */}
-      <div id="ionenet" className="max-w-6xl mx-auto px-4 md:px-4 md:px-10 py-12 flex items-center gap-5 reveal opacity-0 translate-y-5 transition-all duration-500">
+      <div id="ionenet" className="max-w-6xl mx-auto px-4 md:px-10 py-12 flex items-center gap-5 reveal opacity-0 translate-y-5 transition-all duration-500">
         <div className="flex-1 h-px bg-[rgba(31,74,117,.5)]" />
-        <span className="font-mono text-[10px] tracking-[.2em] text-[#00C9B1] px-5 py-2 border border-[rgba(0,201,177,.2)] bg-[#0a1628] whitespace-nowrap">
+        <span className="font-mono text-[10px] tracking-[.2em] text-[#00C9B1] px-5 py-2 border border-[rgba(0,201,177,.2)] bg-[#0a1628] whitespace-normal md:whitespace-nowrap">
           01 · 휴네시온 i-oneNet 망연계 솔루션
         </span>
         <div className="flex-1 h-px bg-[rgba(31,74,117,.5)]" />
       </div>
 
       {/* ── 제품 탭 ── */}
-      <section className="px-4 md:px-4 md:px-10 pb-20 reveal opacity-0 translate-y-5 transition-all duration-500">
+      <section className="px-4 md:px-10 pb-20 reveal opacity-0 translate-y-5 transition-all duration-500">
         <div className="max-w-6xl mx-auto">
           <div className="font-mono text-[9px] tracking-[.3em] text-[#00C9B1] mb-3">제품 라인업</div>
-          <h2 className="font-['Bebas_Neue'] text-[52px] tracking-wide leading-none mb-3">환경에 따른 최적 제품 선택</h2>
+          <h2 className="font-['Bebas_Neue'] text-[36px] md:text-[44px] lg:text-[52px] tracking-wide leading-none mb-3">환경에 따른 최적 제품 선택</h2>
           <p className="text-[14px] text-[#5a7a9a] font-light mb-10">VWorks는 고객 환경 분석 후 최적의 i-oneNet 제품을 선정·구축합니다</p>
 
           {/* 탭 버튼 */}
@@ -213,7 +213,7 @@ export default function NetworkSecurityPage() {
                 <p className="text-[12px] text-[rgba(200,220,255,.76)] font-light leading-[1.7] mb-4">
                   환경 분석 → 제품 선정 → 설계 → 구축 → 유지보수까지 전 과정을 VWorks가 책임집니다.
                 </p>
-                <Link href="/contact"
+                <Link href="/ko/contact/"
                   className="flex justify-center py-2.5 rounded-sm text-[13px] font-medium text-[#050d1a]"
                   style={{ background: `linear-gradient(135deg, ${prod.color}, #38D9F5)` }}>
                   {prod.name} 도입 문의 →
@@ -231,19 +231,19 @@ export default function NetworkSecurityPage() {
       </section>
 
       {/* ── 구분선 02 ── */}
-      <div id="cds" className="max-w-6xl mx-auto px-4 md:px-4 md:px-10 py-12 flex items-center gap-5 reveal opacity-0 translate-y-5 transition-all duration-500">
+      <div id="cds" className="max-w-6xl mx-auto px-4 md:px-10 py-12 flex items-center gap-5 reveal opacity-0 translate-y-5 transition-all duration-500">
         <div className="flex-1 h-px bg-[rgba(31,74,117,.5)]" />
-        <span className="font-mono text-[10px] tracking-[.2em] text-[#fbbf24] px-5 py-2 border border-[rgba(251,191,36,.3)] bg-[#0a1628] whitespace-nowrap">
+        <span className="font-mono text-[10px] tracking-[.2em] text-[#fbbf24] px-5 py-2 border border-[rgba(251,191,36,.3)] bg-[#0a1628] whitespace-normal md:whitespace-nowrap">
           02 · 씨크랩 KCDS-Guard 1000 — 국방 특화 CDS
         </span>
         <div className="flex-1 h-px bg-[rgba(31,74,117,.5)]" />
       </div>
 
       {/* ── KCDS-Guard ── */}
-      <section className="px-4 md:px-4 md:px-10 pb-20 reveal opacity-0 translate-y-5 transition-all duration-500">
+      <section className="px-4 md:px-10 pb-20 reveal opacity-0 translate-y-5 transition-all duration-500">
         <div className="max-w-6xl mx-auto">
           <div className="font-mono text-[9px] tracking-[.3em] text-[#fbbf24] mb-3">국방 특화 보안통제장비</div>
-          <h2 className="font-['Bebas_Neue'] text-[52px] tracking-wide leading-none mb-4">
+          <h2 className="font-['Bebas_Neue'] text-[36px] md:text-[44px] lg:text-[52px] tracking-wide leading-none mb-4">
             KCDS-Guard 1000<br />
             <span className="text-[32px] text-[rgba(200,220,255,.76)] font-['Noto_Sans_KR'] font-light tracking-normal">Cross Domain Solution</span>
           </h2>
@@ -263,7 +263,7 @@ export default function NetworkSecurityPage() {
           </div>
 
           {/* 직접연동 vs CDS */}
-          <div className="grid grid-cols-1 lg:grid-cols-1 md:grid-cols-2 gap-[2px] mb-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-[2px] mb-10">
             <div className="p-7 bg-[rgba(248,113,113,.05)] border border-[rgba(248,113,113,.18)] rounded-sm relative overflow-hidden">
               <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#f87171] to-transparent" />
               <div className="font-['Bebas_Neue'] text-[20px] tracking-wide text-[#f87171] mb-2">직접연동 (사용 불가)</div>
@@ -288,7 +288,7 @@ export default function NetworkSecurityPage() {
 
           {/* 6대 핵심 기능 */}
           <div className="font-mono text-[9px] tracking-[.2em] text-[#00C9B1] mb-4">KCDS-Guard 1000 핵심 기능</div>
-          <div className="grid grid-cols-2 lg:grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2px] mb-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[2px] mb-10">
             {[
               { icon: '🔐', title: '전용 보안통제 모듈', desc: '국가보안기술연구소 이전 통제모듈 CHIP 탑재. 전용 H/W 기반 암호키 생성·관리.' },
               { icon: '🔑', title: 'SUD 키 관리', desc: 'Secure USB Device를 통한 키 발급. 전용 API를 통해서만 접근 가능하여 키 탈취 원천 차단.' },
@@ -308,7 +308,7 @@ export default function NetworkSecurityPage() {
 
           {/* 레퍼런스 */}
           <div className="font-mono text-[9px] tracking-[.2em] text-[#00C9B1] mb-4">KCDS 구축 레퍼런스 (국방/공공 13개 기관)</div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-cols-6 gap-[2px] mb-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-[2px] mb-6">
             {['🏛 국방부', '⚔️ 육군본부', '⚓ 해군', '✈️ 공군작전사령부', '🔬 국방과학연구소', '🏥 국군의무사령부', '📡 국군지휘통신사령부', '💻 국방전산정보원', '✈️ 공군29전대', '🎖 논산훈련소', '💰 국군재정관리단', '🔐 국가보안기술연구소'].map((r) => (
               <div key={r} className="text-[11px] text-[rgba(200,220,255,.76)] font-light p-2 bg-[#0e1e35] border border-[rgba(31,74,117,.5)] text-center leading-[1.4]">{r}</div>
             ))}
@@ -330,10 +330,10 @@ export default function NetworkSecurityPage() {
       </section>
 
       {/* ── CTA ── */}
-      <section className="px-4 md:px-4 md:px-10 py-20 text-center reveal opacity-0 translate-y-5 transition-all duration-500">
+      <section className="px-4 md:px-10 py-20 text-center reveal opacity-0 translate-y-5 transition-all duration-500">
         <div className="max-w-xl mx-auto">
           <div className="font-mono text-[9px] tracking-[.3em] text-[#00C9B1] mb-4">보안 솔루션 도입 문의</div>
-          <h2 className="font-['Bebas_Neue'] text-[64px] tracking-wide leading-none mb-4">지금 바로<br />환경 분석을 시작하세요</h2>
+          <h2 className="font-['Bebas_Neue'] text-[40px] md:text-[52px] lg:text-[64px] tracking-wide leading-none mb-4">지금 바로<br />환경 분석을 시작하세요</h2>
           <p className="text-[15px] text-[#5a7a9a] font-light leading-[1.7] mb-8">
             현재 망구성 환경, 도입 목적, 예산 규모를 알려주시면 최적의 솔루션을 제안드립니다.
           </p>
@@ -347,7 +347,7 @@ export default function NetworkSecurityPage() {
               <div className="text-[13px] text-[rgba(200,220,255,.76)] font-light">aiden@vworks.tech</div>
             </div>
           </div>
-          <Link href="/contact"
+          <Link href="/ko/contact/"
             className="inline-flex items-center bg-gradient-to-r from-[#4ade80] to-[#00C9B1] text-[#050d1a] text-[16px] font-medium px-12 py-4 rounded-sm">
             보안 솔루션 문의하기 →
           </Link>
