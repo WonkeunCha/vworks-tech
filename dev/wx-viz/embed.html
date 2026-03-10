@@ -368,8 +368,7 @@ h1{font-family:'Exo 2',sans-serif;font-size:clamp(36px,5.5vw,66px);font-weight:7
 
 /* ── GLOBAL CANVAS BG ─────────────────────────────────────── */
 #global-canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;}
-body>*:not(#global-canvas){position:relative;z-index:1;}
-/* modal은 fixed 유지 (canvas 규칙에 덮어쓰이지 않도록) */
+/* modal은 fixed 유지 - canvas 규칙에 덮어쓰이지 않도록 */
 #modal{position:fixed!important;z-index:9999!important;}
 
 /* ── MOBILE OPTIMIZATION ─────────────────────────────────── */
