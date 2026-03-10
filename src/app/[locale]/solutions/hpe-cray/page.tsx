@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useEffect } from 'react';
 import Link from 'next/link';
@@ -81,7 +81,7 @@ export default function HpeCrayPage() {
 
       {/* ── NAV ── */}
       {/* ── HERO ── */}
-      <section className="relative pt-24 pb-20 px-4 md:px-4 md:px-10 border-b border-[rgba(31,74,117,.5)] overflow-hidden">
+      <section className="relative pt-20 pb-12 px-4 md:px-10 border-b border-[rgba(31,74,117,.5)] overflow-hidden">
         <div className="absolute inset-0" style={{ background: 'radial-gradient(ellipse 90% 80% at 20% 50%,rgba(1,169,130,.06) 0%,transparent 60%)' }} />
         <div className="relative z-10 max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_400px] gap-14 items-center">
           <div>
@@ -90,16 +90,16 @@ export default function HpeCrayPage() {
               <span className="font-mono text-[9px] tracking-[.18em] px-3 py-1 rounded-sm text-[#00C9B1] bg-[rgba(0,201,177,.08)] border border-[rgba(0,201,177,.2)]">TOP500 #1~#3 플랫폼</span>
               <span className="font-mono text-[9px] tracking-[.18em] px-3 py-1 rounded-sm text-[#fbbf24] bg-[rgba(251,191,36,.07)] border border-[rgba(251,191,36,.25)]">El Capitan · Frontier 기반</span>
             </div>
-            <h1 className="font-['Bebas_Neue'] text-[72px] leading-[.92] tracking-wide mb-5">
+            <h1 className="font-['Bebas_Neue'] text-[40px] md:text-[56px] lg:text-[72px] leading-[.92] tracking-wide mb-5">
               <span style={{ background: 'linear-gradient(135deg,#01A982,#00C9B1)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>HPE Cray</span>
               <br />
-              <span className="text-[44px] text-[rgba(200,220,255,.76)] font-['Noto_Sans_KR'] font-light tracking-normal">슈퍼컴퓨팅 시스템</span>
+              <span className="text-[22px] md:text-[32px] lg:text-[44px] text-[rgba(200,220,255,.76)] font-['Noto_Sans_KR'] font-light tracking-normal">슈퍼컴퓨팅 시스템</span>
             </h1>
             <p className="text-[15px] text-[rgba(200,220,255,.76)] font-light leading-[1.85] mb-8 max-w-xl">
               세계 No.1 슈퍼컴퓨터 플랫폼. TOP500 상위 10개 중 7개가 HPE Cray EX 기반. 엑사스케일 성능의 HPC 인프라를 국방·연구·기상·AI 분야에 구축합니다.
             </p>
             <div className="flex flex-wrap gap-3">
-              <Link href="/contact" className="text-[#050d1a] text-[14px] font-medium px-7 py-3 rounded-sm" style={{ background: 'linear-gradient(135deg,#01A982,#00C9B1)' }}>도입 상담 신청 →</Link>
+              <Link href="/ko/contact/" className="text-[#050d1a] text-[14px] font-medium px-7 py-3 rounded-sm" style={{ background: 'linear-gradient(135deg,#01A982,#00C9B1)' }}>도입 상담 신청 →</Link>
               <a href="#systems" className="border text-[14px] px-7 py-3 rounded-sm" style={{ borderColor: 'rgba(1,169,130,.3)', color: '#01A982' }}>시스템 라인업</a>
               <a href="#architecture" className="border text-[14px] px-7 py-3 rounded-sm border-[rgba(0,201,177,.2)] text-[#00C9B1]">아키텍처 보기</a>
             </div>
@@ -108,7 +108,7 @@ export default function HpeCrayPage() {
           <div className="bg-[#0a1628] rounded-sm p-6 relative overflow-hidden" style={{ border: '1px solid rgba(1,169,130,.3)' }}>
             <div className="absolute top-0 left-0 right-0 h-[2px]" style={{ background: 'linear-gradient(90deg,#01A982,#00C9B1)' }} />
             <div className="font-mono text-[9px] tracking-[.2em] mb-4" style={{ color: '#01A982' }}>HPE Cray 글로벌 현황 (2025)</div>
-            <div className="grid grid-cols-1 md:grid-cols-1 md:grid-cols-2 gap-[2px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-[2px]">
               {[
                 { n: 'TOP\n1·2·3', l: 'TOP500 세계 순위', s: '2025년 6월 기준' },
                 { n: '7/10', l: 'TOP10 중 Cray EX', s: 'Nov 2024 TOP500' },
@@ -135,11 +135,11 @@ export default function HpeCrayPage() {
       </section>
 
       {/* ── TOP500 배너 ── */}
-      <section className="px-4 md:px-4 md:px-10 py-12 reveal opacity-0 translate-y-5 transition-all duration-500">
+      <section className="px-4 md:px-10 py-12 reveal opacity-0 translate-y-5 transition-all duration-500">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-wrap items-center gap-8 p-7 rounded-sm" style={{ background: 'linear-gradient(135deg,rgba(1,169,130,.08),rgba(0,201,177,.05))', border: '1px solid rgba(1,169,130,.3)' }}>
             <div>
-              <div className="font-['Bebas_Neue'] text-[52px] leading-none" style={{ color: '#01A982' }}>El Capitan</div>
+              <div className="font-['Bebas_Neue'] text-[36px] md:text-[44px] lg:text-[52px] leading-none" style={{ color: '#01A982' }}>El Capitan</div>
               <div className="font-mono text-[9px] tracking-[.15em] mt-1" style={{ color: '#01A982' }}>세계 #1 슈퍼컴퓨터 · Lawrence Livermore National Laboratory</div>
             </div>
             <div className="flex-1 min-w-[200px]">
@@ -147,7 +147,7 @@ export default function HpeCrayPage() {
             </div>
             <div className="flex flex-wrap gap-2">
               {[['#1 El Capitan (USA)', '#01A982', 'rgba(1,169,130,.1)', 'rgba(1,169,130,.3)'], ['#2 Frontier (USA)', '#38D9F5', 'rgba(56,217,245,.07)', 'rgba(56,217,245,.2)'], ['#3 LUMI (EU)', '#00C9B1', 'rgba(0,201,177,.08)', 'rgba(0,201,177,.2)']].map(([t, c, bg, b]) => (
-                <span key={t} className="font-mono text-[9px] px-3 py-1 rounded-sm whitespace-nowrap"
+                <span key={t} className="font-mono text-[9px] px-3 py-1 rounded-sm whitespace-normal md:whitespace-nowrap"
                   style={{ color: c, background: bg, border: `1px solid ${b}` }}>{t}</span>
               ))}
             </div>
@@ -156,12 +156,12 @@ export default function HpeCrayPage() {
       </section>
 
       {/* ── 시스템 라인업 ── */}
-      <section id="systems" className="px-4 md:px-4 md:px-10 pb-20 reveal opacity-0 translate-y-5 transition-all duration-500">
+      <section id="systems" className="px-4 md:px-10 pb-20 reveal opacity-0 translate-y-5 transition-all duration-500">
         <div className="max-w-6xl mx-auto">
           <div className="font-mono text-[9px] tracking-[.3em] mb-3" style={{ color: '#01A982' }}>시스템 라인업</div>
-          <h2 className="font-['Bebas_Neue'] text-[52px] tracking-wide leading-none mb-10">규모와 목적에 따른<br />최적 시스템 선택</h2>
+          <h2 className="font-['Bebas_Neue'] text-[36px] md:text-[44px] lg:text-[52px] tracking-wide leading-none mb-10">규모와 목적에 따른<br />최적 시스템 선택</h2>
 
-          <div className="grid grid-cols-1 lg:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-1 md:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2px]">
+          <div className="grid grid-cols-1 lg:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2px]">
             {SYSTEMS.map((s) => (
               <div key={s.name} className="bg-[#0a1628] border border-[rgba(31,74,117,.5)] rounded-sm overflow-hidden transition-colors hover:border-[rgba(1,169,130,.3)]">
                 <div className="p-6 relative overflow-hidden">
@@ -199,7 +199,7 @@ export default function HpeCrayPage() {
                 HPC 슈퍼컴퓨터의 초고속 I/O 요구사항에 특화된 병렬 스토리지 시스템. 동일한 성능을 대안 제품 대비 현저히 적은 드라이브 수로 달성. Lustre 파일시스템 기반, HPE Cray 시스템과 완벽 통합.
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[2px] min-w-[300px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[2px] min-w-[300px]">
               {[['Lustre', '파일시스템'], ['수 TB/s', '집계 대역폭'], ['AI-Tier', '인텔리전트 계층'], ['NVMe', '고속 플래시 지원']].map(([n, l]) => (
                 <div key={l} className="bg-[#0e1e35] border border-[rgba(31,74,117,.5)] p-3 text-center">
                   <div className="font-['Bebas_Neue'] text-[20px] text-[#a78bfa] leading-none">{n}</div>
@@ -212,10 +212,10 @@ export default function HpeCrayPage() {
       </section>
 
       {/* ── 아키텍처 ── */}
-      <section id="architecture" className="px-4 md:px-4 md:px-10 pb-20 reveal opacity-0 translate-y-5 transition-all duration-500" style={{ background: 'linear-gradient(180deg,transparent,rgba(1,169,130,.03),transparent)' }}>
+      <section id="architecture" className="px-4 md:px-10 pb-20 reveal opacity-0 translate-y-5 transition-all duration-500" style={{ background: 'linear-gradient(180deg,transparent,rgba(1,169,130,.03),transparent)' }}>
         <div className="max-w-6xl mx-auto">
           <div className="font-mono text-[9px] tracking-[.3em] mb-3" style={{ color: '#01A982' }}>기술 아키텍처</div>
-          <h2 className="font-['Bebas_Neue'] text-[52px] tracking-wide leading-none mb-10">엔드투엔드<br />슈퍼컴퓨팅 스택</h2>
+          <h2 className="font-['Bebas_Neue'] text-[36px] md:text-[44px] lg:text-[52px] tracking-wide leading-none mb-10">엔드투엔드<br />슈퍼컴퓨팅 스택</h2>
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-10">
             {/* 레이어 다이어그램 */}
             <div className="bg-[#0a1628] border border-[rgba(31,74,117,.5)] rounded-sm p-7 relative overflow-hidden">
@@ -255,14 +255,14 @@ export default function HpeCrayPage() {
       </section>
 
       {/* ── Slingshot ── */}
-      <section className="px-4 md:px-4 md:px-10 pb-20 reveal opacity-0 translate-y-5 transition-all duration-500">
+      <section className="px-4 md:px-10 pb-20 reveal opacity-0 translate-y-5 transition-all duration-500">
         <div className="max-w-6xl mx-auto">
           <div className="font-mono text-[9px] tracking-[.3em] text-[#38D9F5] mb-3">HPE Slingshot 인터커넥트</div>
-          <h2 className="font-['Bebas_Neue'] text-[52px] tracking-wide leading-none mb-4">슈퍼컴퓨터급<br />네트워크 패브릭</h2>
+          <h2 className="font-['Bebas_Neue'] text-[36px] md:text-[44px] lg:text-[52px] tracking-wide leading-none mb-4">슈퍼컴퓨터급<br />네트워크 패브릭</h2>
           <p className="text-[14px] text-[rgba(200,220,255,.76)] font-light leading-[1.9] max-w-xl mb-10">
             HPE 전용 실리콘 기반 Slingshot NIC·스위치. 표준 Ethernet 기반이라 기존 데이터센터와 직접 연결 가능한 유일한 HPC 인터커넥트.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-1 md:grid-cols-2 lg:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-1 md:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2px]">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2px]">
             {SLINGSHOT.map((s) => (
               <div key={s.label} className="p-5 bg-[#0a1628] border border-[rgba(31,74,117,.5)] rounded-sm relative overflow-hidden">
                 <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#38D9F5] to-transparent" />
@@ -282,11 +282,11 @@ export default function HpeCrayPage() {
       </section>
 
       {/* ── 적용 분야 + 레퍼런스 ── */}
-      <section className="px-4 md:px-4 md:px-10 pb-20 reveal opacity-0 translate-y-5 transition-all duration-500">
+      <section className="px-4 md:px-10 pb-20 reveal opacity-0 translate-y-5 transition-all duration-500">
         <div className="max-w-6xl mx-auto">
           <div className="font-mono text-[9px] tracking-[.3em] mb-3" style={{ color: '#01A982' }}>적용 분야</div>
-          <h2 className="font-['Bebas_Neue'] text-[52px] tracking-wide leading-none mb-10">국방·연구·기상·AI<br />모든 고성능 워크로드</h2>
-          <div className="grid grid-cols-1 md:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[2px] mb-6">
+          <h2 className="font-['Bebas_Neue'] text-[36px] md:text-[44px] lg:text-[52px] tracking-wide leading-none mb-10">국방·연구·기상·AI<br />모든 고성능 워크로드</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[2px] mb-6">
             {[
               { icon: '🛡️', title: '국방·안보 HPC', desc: '핵 시뮬레이션, 탄도 분석, 전자전, 암호해독, 군사 작전 시뮬레이션. El Capitan이 NNSA 핵무기 분석에 사용 중.' },
               { icon: '🌊', title: '기상·해양·기후', desc: '수치기상예보(NWP), 해양수치모델, 기후변화 시뮬레이션. VWorks 해군 해양수치모델 HPC 구축 레퍼런스 보유.' },
@@ -314,7 +314,7 @@ export default function HpeCrayPage() {
             </div>
             <div className="flex flex-col gap-2">
               {['해군 레퍼런스 #1', '해군 레퍼런스 #2 NAIMS-II'].map((t) => (
-                <span key={t} className="font-mono text-[9px] px-3 py-1 rounded-sm whitespace-nowrap"
+                <span key={t} className="font-mono text-[9px] px-3 py-1 rounded-sm whitespace-normal md:whitespace-nowrap"
                   style={{ color: '#01A982', background: 'rgba(1,169,130,.07)', border: '1px solid rgba(1,169,130,.2)' }}>{t}</span>
               ))}
             </div>
@@ -323,11 +323,11 @@ export default function HpeCrayPage() {
       </section>
 
       {/* ── WHY VWORKS ── */}
-      <section className="px-4 md:px-4 md:px-10 pb-20 reveal opacity-0 translate-y-5 transition-all duration-500">
+      <section className="px-4 md:px-10 pb-20 reveal opacity-0 translate-y-5 transition-all duration-500">
         <div className="max-w-6xl mx-auto">
           <div className="font-mono text-[9px] tracking-[.3em] mb-3" style={{ color: '#01A982' }}>왜 VWorks인가</div>
-          <h2 className="font-['Bebas_Neue'] text-[52px] tracking-wide leading-none mb-10">HPE Cray 시스템,<br />VWorks를 선택해야 하는 이유</h2>
-          <div className="grid grid-cols-1 md:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[2px]">
+          <h2 className="font-['Bebas_Neue'] text-[36px] md:text-[44px] lg:text-[52px] tracking-wide leading-none mb-10">HPE Cray 시스템,<br />VWorks를 선택해야 하는 이유</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[2px]">
             {[
               { n: '01', t: '해군 HPC 구축 2건', d: '해양수치모델 HPC + NAIMS-II HPC. 국방·안보 등급 HPC 구축 전문 엔지니어 보유.' },
               { n: '02', t: 'HPE 공식 파트너', d: '하드웨어 공급부터 소프트웨어 스택 설치·운영까지 원스톱 서비스.' },
@@ -346,14 +346,14 @@ export default function HpeCrayPage() {
       </section>
 
       {/* ── CTA ── */}
-      <section className="px-4 md:px-4 md:px-10 py-20 text-center reveal opacity-0 translate-y-5 transition-all duration-500">
+      <section className="px-4 md:px-10 py-20 text-center reveal opacity-0 translate-y-5 transition-all duration-500">
         <div className="max-w-xl mx-auto">
           <div className="font-mono text-[9px] tracking-[.3em] mb-4" style={{ color: '#01A982' }}>HPE Cray 시스템 도입 문의</div>
-          <h2 className="font-['Bebas_Neue'] text-[64px] tracking-wide leading-none mb-4">지금 바로<br />성능 분석을 시작하세요</h2>
+          <h2 className="font-['Bebas_Neue'] text-[40px] md:text-[52px] lg:text-[64px] tracking-wide leading-none mb-4">지금 바로<br />성능 분석을 시작하세요</h2>
           <p className="text-[15px] text-[#5a7a9a] font-light leading-[1.7] mb-8">
             워크로드 유형, 노드 규모, 예산, 냉각·전력 환경을 공유해 주시면 최적의 Cray 시스템 구성을 제안드립니다.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-1 md:grid-cols-2 gap-[2px] max-w-sm mx-auto mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-[2px] max-w-sm mx-auto mb-8">
             <div className="bg-[#0a1628] border border-[rgba(31,74,117,.5)] p-4">
               <div className="font-mono text-[8.5px] tracking-[.15em] mb-1" style={{ color: '#01A982' }}>PHONE</div>
               <div className="text-[13px] text-[rgba(200,220,255,.76)] font-light">051-747-6428</div>
@@ -363,7 +363,7 @@ export default function HpeCrayPage() {
               <div className="text-[13px] text-[rgba(200,220,255,.76)] font-light">aiden@vworks.tech</div>
             </div>
           </div>
-          <Link href="/contact"
+          <Link href="/ko/contact/"
             className="inline-flex items-center text-[#050d1a] text-[16px] font-medium px-12 py-4 rounded-sm"
             style={{ background: 'linear-gradient(135deg,#01A982,#00C9B1)' }}>
             HPE Cray 시스템 문의하기 →
