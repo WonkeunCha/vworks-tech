@@ -369,6 +369,100 @@ h1{font-family:'Exo 2',sans-serif;font-size:clamp(36px,5.5vw,66px);font-weight:7
 /* ── GLOBAL CANVAS BG ─────────────────────────────────────── */
 #global-canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;}
 body>*:not(#global-canvas){position:relative;z-index:1;}
+/* modal은 fixed 유지 (canvas 규칙에 덮어쓰이지 않도록) */
+#modal{position:fixed!important;z-index:9999!important;}
+
+/* ── MOBILE OPTIMIZATION ─────────────────────────────────── */
+@media(max-width:768px){
+  #hero{padding:60px 16px 40px;min-height:auto}
+  h1{font-size:clamp(28px,9vw,44px)!important;line-height:1.15}
+  .hero-sub{font-size:13px;margin:12px auto 24px;padding:0 4px}
+  .btns{flex-direction:column;align-items:center;gap:10px;margin-bottom:36px}
+  .btn-p,.btn-s{width:100%;max-width:300px;justify-content:center;padding:12px 20px}
+  .stats{flex-wrap:wrap;border-radius:12px}
+  .stat{flex:0 0 33.33%;min-width:0;padding:14px 8px;border-bottom:1px solid var(--border)}
+  .stat:nth-child(4),.stat:nth-child(5){flex:0 0 50%;border-bottom:none}
+  .stat-n{font-size:20px}
+  .badge{font-size:10px;padding:5px 12px;margin-bottom:20px}
+  /* demo */
+  #demo{padding:36px 16px 28px}
+  .demo-preview-img{aspect-ratio:16/10}
+  .play-btn{width:64px;height:64px;font-size:22px}
+  .dp-badges{display:none}
+  .dp-live{top:12px;right:12px;font-size:10px;padding:4px 8px}
+  .dp-layerbar{padding:10px 12px 12px;gap:5px;overflow-x:auto;flex-wrap:nowrap}
+  .dp-litem{font-size:10px;padding:3px 7px;white-space:nowrap;flex-shrink:0}
+  /* sections */
+  .sec-hd{padding:0 12px}
+  .sec-t{font-size:clamp(20px,6vw,30px)!important}
+  .sec-d{font-size:13px;padding:0 4px}
+  #features{padding:36px 16px}
+  .feat-grid{gap:12px}
+  .feat-card{padding:20px}
+  .feat-ic{width:40px;height:40px;font-size:17px;margin-bottom:12px}
+  .feat-t{font-size:14px}
+  .feat-d{font-size:12px}
+  #models{padding:36px 16px}
+  .models-grid{margin-top:28px;gap:12px}
+  .model-card{padding:20px}
+  .model-badge{font-size:18px;margin-bottom:10px}
+  .model-name{font-size:12px}
+  .model-desc{font-size:11px}
+  /* modal mobile */
+  #modal{align-items:flex-start}
+  .modal-box{
+    width:100vw;
+    height:100vh;
+    height:100dvh;
+    max-width:100vw;
+    border-radius:0;
+    border:none;
+    border-top:2px solid rgba(0,201,177,.3);
+    transform:translateY(100%) !important;
+  }
+  #modal.open .modal-box{transform:translateY(0) !important;opacity:1}
+  #p-lp{display:none}
+  #p-lp.open{width:0}
+  #p-sb{width:0;overflow:hidden;padding:0;border:none}
+  #p-ic{display:none}
+  #p-ltag{display:none}
+  #p-leg{left:8px!important;bottom:68px;padding:6px 10px}
+  .leg-bar{width:130px}
+  /* 모바일 레이어 탭바 */
+  #mobile-layer-bar{
+    display:flex;
+    position:absolute;bottom:0;left:0;right:0;z-index:30;
+    background:rgba(5,8,16,.97);border-top:1px solid rgba(255,255,255,.08);
+    overflow-x:auto;gap:0;
+    -webkit-overflow-scrolling:touch;scrollbar-width:none;
+    padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  #mobile-layer-bar::-webkit-scrollbar{display:none}
+  .mb-li{
+    flex-shrink:0;padding:8px 12px;
+    display:flex;flex-direction:column;align-items:center;gap:3px;
+    cursor:pointer;border-right:1px solid rgba(255,255,255,.05);
+    transition:.15s;min-width:56px;
+  }
+  .mb-li.on{background:rgba(0,201,177,.1);border-bottom:2px solid var(--teal)}
+  .mb-li .mb-ic{font-size:16px}
+  .mb-li .mb-lbl{font-size:9px;color:var(--muted);white-space:nowrap}
+  .mb-li.on .mb-lbl{color:var(--teal)}
+  /* timeline 모바일 */
+  #p-tl{height:52px;padding:0 10px 8px}
+  .pb{width:24px;height:24px;font-size:9px}
+  .tl-lbl{font-size:9px;min-width:44px}
+  .tl-tks .tk{font-size:7px}
+}
+@media(max-width:480px){
+  .stat{flex:0 0 50%}
+  .stat:nth-child(4){flex:0 0 50%;border-bottom:none}
+  .stat:nth-child(5){flex:0 0 100%;border-bottom:none;border-top:1px solid var(--border)}
+  .stat:nth-child(3){border-bottom:1px solid var(--border)}
+  .hero-sub br{display:none}
+}
+/* 모바일 layer bar 기본 숨김 (데스크톱) */
+#mobile-layer-bar{display:none}
 </style></head><body>
 <canvas id="global-canvas"></canvas>
 
@@ -418,7 +512,7 @@ body>*:not(#global-canvas){position:relative;z-index:1;}
       <!-- 플레이 버튼 -->
       <div class="demo-play">
         <div class="play-btn">▶</div>
-        <div class="play-label">클릭하여 플랫폼 체험</div>
+        <div class="play-label" id="play-label-txt">클릭하여 플랫폼 체험</div>
       </div>
 
       <!-- LIVE 뱃지 -->
@@ -533,6 +627,18 @@ body>*:not(#global-canvas){position:relative;z-index:1;}
         </div>
         <div class="tl-lbl" style="text-align:right;min-width:24px">+72h</div>
       </div>
+
+      <!-- 모바일 레이어 탭바 -->
+      <div id="mobile-layer-bar">
+        <div class="mb-li on" data-l="current"><div class="mb-ic">🔄</div><div class="mb-lbl">해류</div></div>
+        <div class="mb-li" data-l="wave"><div class="mb-ic">🌊</div><div class="mb-lbl">파고</div></div>
+        <div class="mb-li" data-l="wind"><div class="mb-ic">🌬️</div><div class="mb-lbl">바람</div></div>
+        <div class="mb-li" data-l="temp"><div class="mb-ic">🌡️</div><div class="mb-lbl">기온</div></div>
+        <div class="mb-li" data-l="sst"><div class="mb-ic">🌡</div><div class="mb-lbl">SST</div></div>
+        <div class="mb-li" data-l="rain"><div class="mb-ic">🌧️</div><div class="mb-lbl">강수</div></div>
+        <div class="mb-li" data-l="pressure"><div class="mb-ic">🌀</div><div class="mb-lbl">기압</div></div>
+        <div class="mb-li" data-l="air"><div class="mb-ic">😷</div><div class="mb-lbl">미세먼지</div></div>
+      </div>
     </div>
 
   </div>
@@ -610,6 +716,8 @@ var LY={
 var cur="current", slPct=35, playing=false, playIv=null, modalOpen=false;
 
 // ── MODAL ──────────────────────────────────────────────────────
+var isMobile = ('ontouchstart' in window || navigator.maxTouchPoints > 0);
+
 window.openModal = function(){
   if(modalOpen) return;
   modalOpen=true;
@@ -713,6 +821,16 @@ setInterval(function(){
   var dd=["N","NNE","NE","ENE","E","ESE","SE","SSE","S","SSW","SW","WSW","W","WNW","NW","NNW"];
   document.getElementById("p-idir").textContent=dd[Math.floor(Math.random()*16)]+" "+Math.floor(Math.random()*360)+"°";
 },3500);
+
+
+// ── MOBILE LAYER TABBAR ──────────────────────────────────
+document.querySelectorAll(".mb-li").forEach(function(el){
+  el.addEventListener("click",function(){
+    document.querySelectorAll(".mb-li").forEach(function(e){e.classList.remove("on");});
+    el.classList.add("on");
+    switchLayer(el.getAttribute("data-l"));
+  });
+});
 
 // ── SCROLL ANIMATIONS ──────────────────────────────────────────
 var io=new IntersectionObserver(function(entries){
