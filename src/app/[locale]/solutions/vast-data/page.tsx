@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
@@ -447,17 +447,13 @@ export default function VastDataPage() {
 
       {/* ── HERO ── */}
       <section style={{ position: "relative", paddingTop: 130, paddingBottom: 80, paddingLeft: 32, paddingRight: 32, overflow: "hidden", borderBottom: "1px solid rgba(31,74,117,0.4)" }}>
+      <AnimatedHeroBg variant="teal" />
         <div style={{ position: "absolute", inset: 0, background: "radial-gradient(ellipse 70% 60% at 70% 40%,rgba(0,201,177,0.06) 0%,transparent 65%)" }} />
         <canvas ref={canvasRef} style={{ position: "absolute", inset: 0, opacity: 0.35, pointerEvents: "none" }} />
 
         <div className="hero-grid" style={{ position: "relative", zIndex: 1, maxWidth: 1200, margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 400px", gap: 56, alignItems: "center" }}>
           {/* LEFT */}
           <div>
-            <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 20, ...S.mono, fontSize: 10, letterSpacing: "0.14em", color: "var(--muted)" }}>
-              <Link href={`/${'ko'}`} style={{ color: "var(--muted)", textDecoration: "none" }}>홈</Link>
-              <Link href={`/${'ko'}/solutions`} style={{ color: "var(--muted)", textDecoration: "none" }}>솔루션</Link>
-              <span style={{ color: "var(--teal)" }}>VAST Data</span>
-            </div>
 
             {/* badges */}
             <div style={{ display: "flex", gap: 8, marginBottom: 20, flexWrap: "wrap" }}>
@@ -523,6 +519,7 @@ export default function VastDataPage() {
 
       {/* ── WHAT IS VAST ── */}
       <section className="reveal" style={{ padding: "clamp(40px,6vw,96px) clamp(16px,4vw,32px)", position: "relative", zIndex: 1 }}>
+      <AnimatedHeroBg variant="teal" />
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
           <div style={S.label}>{c.whatLabel}</div>
           <h2 style={S.h2}>{c.whatTitle.split("\n").map((l, i) => <span key={i}>{l}{i === 0 && <br />}</span>)}</h2>
@@ -554,6 +551,7 @@ export default function VastDataPage() {
 
       {/* ── PLATFORM COMPONENTS ── */}
       <section id="platform" className="reveal" style={{ padding: "clamp(40px,6vw,96px) clamp(16px,4vw,32px)", background: "linear-gradient(180deg,transparent,rgba(15,42,74,0.12),transparent)", position: "relative", zIndex: 1 }}>
+      <AnimatedHeroBg variant="teal" />
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
           <div style={S.label}>{c.platformLabel}</div>
           <h2 style={S.h2}>{c.platformTitle.split("\n").map((l, i) => <span key={i}>{l}{i === 0 && <br />}</span>)}</h2>
@@ -586,6 +584,7 @@ export default function VastDataPage() {
 
       {/* ── USE CASES ── */}
       <section className="reveal" style={{ padding: "clamp(40px,6vw,96px) clamp(16px,4vw,32px)", position: "relative", zIndex: 1 }}>
+      <AnimatedHeroBg variant="teal" />
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
           <div style={S.label}>{c.usecaseLabel}</div>
           <h2 style={S.h2}>{c.usecaseTitle}</h2>
@@ -643,6 +642,7 @@ export default function VastDataPage() {
 
       {/* ── WHY VWORKS ── */}
       <section className="reveal" style={{ padding: "clamp(40px,6vw,96px) clamp(16px,4vw,32px)", position: "relative", zIndex: 1 }}>
+      <AnimatedHeroBg variant="teal" />
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
           <div style={S.label}>{c.whyLabel}</div>
           <h2 style={S.h2}>{c.whyTitle.split("\n").map((l, i) => <span key={i}>{l}{i === 0 && <br />}</span>)}</h2>
@@ -677,6 +677,7 @@ export default function VastDataPage() {
 
       {/* ── CTA ── */}
       <section className="reveal" style={{ padding: "80px 32px 120px", textAlign: "center", position: "relative", zIndex: 1 }}>
+      <AnimatedHeroBg variant="teal" />
         <div style={{ maxWidth: 640, margin: "0 auto" }}>
           <div style={S.label}>{c.ctaLabel}</div>
           <h2 style={{ ...S.display, fontSize: "clamp(24px, 6vw, 70px)", letterSpacing: "0.02em", lineHeight: 1, marginBottom: 16 }}>

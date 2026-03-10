@@ -1,4 +1,5 @@
-'use client';
+﻿'use client';
+import AnimatedHeroBg from '@/components/AnimatedHeroBg';
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';

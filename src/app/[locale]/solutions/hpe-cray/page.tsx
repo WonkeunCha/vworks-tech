@@ -1,4 +1,5 @@
 ﻿'use client';
+import AnimatedHeroBg from '@/components/AnimatedHeroBg';
 
 import { useEffect } from 'react';
 import Link from 'next/link';
@@ -82,6 +83,7 @@ export default function HpeCrayPage() {
       {/* ── NAV ── */}
       {/* ── HERO ── */}
       <section className="relative pt-20 pb-12 px-4 md:px-10 border-b border-[rgba(31,74,117,.5)] overflow-hidden">
+      <AnimatedHeroBg variant="blue" />
         <div className="absolute inset-0" style={{ background: 'radial-gradient(ellipse 90% 80% at 20% 50%,rgba(1,169,130,.06) 0%,transparent 60%)' }} />
         <div className="relative z-10 max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_400px] gap-14 items-center">
           <div>

@@ -1,4 +1,5 @@
-'use client';
+﻿'use client';
+import AnimatedHeroBg from '@/components/AnimatedHeroBg';
 
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
@@ -99,6 +100,7 @@ export default function NetworkSecurityPage() {
       {/* ── NAV ── */}
       {/* ── HERO ── */}
       <section className="relative pt-20 pb-12 px-4 md:px-10 border-b border-[rgba(31,74,117,.5)] overflow-hidden">
+      <AnimatedHeroBg variant="teal" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_70%_at_30%_50%,rgba(0,201,177,.05)_0%,transparent_65%)]" />
         <div className="relative z-10 max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-14 items-center">
           <div>
