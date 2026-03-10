@@ -369,38 +369,91 @@ export default function VastDataPage() {
   const [activeTab, setActiveTab] = useState(0);
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
-  /* hero 캔버스 애니메이션 */
+  /* hero 캔버스 — Mesh Gradient Orb 애니메이션 */
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
-    let T = 0, raf: number;
+    let raf: number;
+
+    // Orb 정의: [초기 x비율, 초기 y비율, 반경비율, 속도x, 속도y, r, g, b, opacity]
+    type Orb = { x: number; y: number; vx: number; vy: number; r: number; cr: number; cg: number; cb: number; op: number };
+    const orbs: Orb[] = [
+      { x: 0.7,  y: 0.3,  vx:  0.35, vy:  0.20, r: 0.55, cr:   0, cg: 201, cb: 177, op: 0.22 },
+      { x: 0.2,  y: 0.6,  vx: -0.28, vy: -0.18, r: 0.50, cr:  56, cg: 217, cb: 245, op: 0.16 },
+      { x: 0.5,  y: 0.9,  vx:  0.22, vy: -0.25, r: 0.45, cr:   0, cg: 120, cb: 140, op: 0.18 },
+      { x: 0.85, y: 0.7,  vx: -0.30, vy:  0.22, r: 0.40, cr:   0, cg: 201, cb: 177, op: 0.14 },
+      { x: 0.1,  y: 0.2,  vx:  0.18, vy:  0.30, r: 0.38, cr:  20, cg:  80, cb: 180, op: 0.12 },
+    ];
+
     const resize = () => {
-      canvas.width = canvas.parentElement?.offsetWidth ?? window.innerWidth;
-      canvas.height = canvas.parentElement?.offsetHeight ?? 500;
+      canvas.width  = canvas.parentElement?.offsetWidth  ?? window.innerWidth;
+      canvas.height = canvas.parentElement?.offsetHeight ?? 540;
+      // x, y를 pixel 좌표로 초기화 (첫 resize 시)
     };
     resize();
-    window.addEventListener("resize", resize);
+
+    // pixel 좌표로 변환
+    const pOrbs = orbs.map(o => ({
+      x: o.x * canvas.width, y: o.y * canvas.height,
+      vx: o.vx, vy: o.vy,
+      r: Math.min(canvas.width, canvas.height) * o.r,
+      cr: o.cr, cg: o.cg, cb: o.cb, op: o.op,
+    }));
+
+    const handleResize = () => {
+      const W = canvas.parentElement?.offsetWidth  ?? window.innerWidth;
+      const H = canvas.parentElement?.offsetHeight ?? 540;
+      canvas.width  = W;
+      canvas.height = H;
+      pOrbs.forEach((o, i) => {
+        o.r = Math.min(W, H) * orbs[i].r;
+      });
+    };
+    window.addEventListener("resize", handleResize);
+
     const loop = () => {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      T += 0.005;
-      const cols = Math.ceil(canvas.width / 68) + 1;
-      const rows = Math.ceil(canvas.height / 68) + 1;
-      for (let i = 0; i < cols; i++) {
-        for (let j = 0; j < rows; j++) {
-          const w = Math.sin(i * 0.3 + T) * Math.cos(j * 0.25 + T * 0.7) * 7;
-          const a = 0.06 + Math.abs(w) * 0.012;
-          ctx.beginPath();
-          ctx.arc(i * 68, j * 68 + w, 1.3, 0, Math.PI * 2);
-          ctx.fillStyle = `rgba(0,201,177,${Math.min(a, 0.28)})`;
-          ctx.fill();
-        }
+      const W = canvas.width, H = canvas.height;
+      ctx.clearRect(0, 0, W, H);
+
+      // 배경
+      ctx.fillStyle = "#050d1a";
+      ctx.fillRect(0, 0, W, H);
+
+      // Orb 그리기
+      for (const o of pOrbs) {
+        const grad = ctx.createRadialGradient(o.x, o.y, 0, o.x, o.y, o.r);
+        grad.addColorStop(0,   `rgba(${o.cr},${o.cg},${o.cb},${o.op})`);
+        grad.addColorStop(0.45,`rgba(${o.cr},${o.cg},${o.cb},${o.op * 0.4})`);
+        grad.addColorStop(1,   `rgba(${o.cr},${o.cg},${o.cb},0)`);
+        ctx.fillStyle = grad;
+        ctx.beginPath();
+        ctx.arc(o.x, o.y, o.r, 0, Math.PI * 2);
+        ctx.fill();
+
+        // 이동
+        o.x += o.vx;
+        o.y += o.vy;
+        if (o.x < -o.r * 0.3) o.vx =  Math.abs(o.vx);
+        if (o.x > W + o.r * 0.3) o.vx = -Math.abs(o.vx);
+        if (o.y < -o.r * 0.3) o.vy =  Math.abs(o.vy);
+        if (o.y > H + o.r * 0.3) o.vy = -Math.abs(o.vy);
       }
+
+      // 상하 depth overlay
+      const ov = ctx.createLinearGradient(0, 0, 0, H);
+      ov.addColorStop(0,   "rgba(5,13,26,0.45)");
+      ov.addColorStop(0.35,"rgba(5,13,26,0)");
+      ov.addColorStop(1,   "rgba(5,13,26,0.55)");
+      ctx.fillStyle = ov;
+      ctx.fillRect(0, 0, W, H);
+
       raf = requestAnimationFrame(loop);
     };
     loop();
-    return () => { window.removeEventListener("resize", resize); cancelAnimationFrame(raf); };
+
+    return () => { window.removeEventListener("resize", handleResize); cancelAnimationFrame(raf); };
   }, []);
 
   /* 스크롤 reveal */
@@ -447,9 +500,8 @@ export default function VastDataPage() {
 
       {/* ── HERO ── */}
       <section style={{ position: "relative", paddingTop: 130, paddingBottom: 80, paddingLeft: 32, paddingRight: 32, overflow: "hidden", borderBottom: "1px solid rgba(31,74,117,0.4)" }}>
-      <AnimatedHeroBg variant="teal" />
         <div style={{ position: "absolute", inset: 0, background: "radial-gradient(ellipse 70% 60% at 70% 40%,rgba(0,201,177,0.06) 0%,transparent 65%)" }} />
-        <canvas ref={canvasRef} style={{ position: "absolute", inset: 0, opacity: 0.35, pointerEvents: "none" }} />
+        <canvas ref={canvasRef} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", pointerEvents: "none" }} />
 
         <div className="hero-grid" style={{ position: "relative", zIndex: 1, maxWidth: 1200, margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 400px", gap: 56, alignItems: "center" }}>
           {/* LEFT */}
@@ -519,7 +571,6 @@ export default function VastDataPage() {
 
       {/* ── WHAT IS VAST ── */}
       <section className="reveal" style={{ padding: "clamp(40px,6vw,96px) clamp(16px,4vw,32px)", position: "relative", zIndex: 1 }}>
-      <AnimatedHeroBg variant="teal" />
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
           <div style={S.label}>{c.whatLabel}</div>
           <h2 style={S.h2}>{c.whatTitle.split("\n").map((l, i) => <span key={i}>{l}{i === 0 && <br />}</span>)}</h2>
@@ -551,7 +602,6 @@ export default function VastDataPage() {
 
       {/* ── PLATFORM COMPONENTS ── */}
       <section id="platform" className="reveal" style={{ padding: "clamp(40px,6vw,96px) clamp(16px,4vw,32px)", background: "linear-gradient(180deg,transparent,rgba(15,42,74,0.12),transparent)", position: "relative", zIndex: 1 }}>
-      <AnimatedHeroBg variant="teal" />
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
           <div style={S.label}>{c.platformLabel}</div>
           <h2 style={S.h2}>{c.platformTitle.split("\n").map((l, i) => <span key={i}>{l}{i === 0 && <br />}</span>)}</h2>
@@ -584,7 +634,6 @@ export default function VastDataPage() {
 
       {/* ── USE CASES ── */}
       <section className="reveal" style={{ padding: "clamp(40px,6vw,96px) clamp(16px,4vw,32px)", position: "relative", zIndex: 1 }}>
-      <AnimatedHeroBg variant="teal" />
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
           <div style={S.label}>{c.usecaseLabel}</div>
           <h2 style={S.h2}>{c.usecaseTitle}</h2>
@@ -642,7 +691,6 @@ export default function VastDataPage() {
 
       {/* ── WHY VWORKS ── */}
       <section className="reveal" style={{ padding: "clamp(40px,6vw,96px) clamp(16px,4vw,32px)", position: "relative", zIndex: 1 }}>
-      <AnimatedHeroBg variant="teal" />
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
           <div style={S.label}>{c.whyLabel}</div>
           <h2 style={S.h2}>{c.whyTitle.split("\n").map((l, i) => <span key={i}>{l}{i === 0 && <br />}</span>)}</h2>
@@ -677,7 +725,6 @@ export default function VastDataPage() {
 
       {/* ── CTA ── */}
       <section className="reveal" style={{ padding: "80px 32px 120px", textAlign: "center", position: "relative", zIndex: 1 }}>
-      <AnimatedHeroBg variant="teal" />
         <div style={{ maxWidth: 640, margin: "0 auto" }}>
           <div style={S.label}>{c.ctaLabel}</div>
           <h2 style={{ ...S.display, fontSize: "clamp(24px, 6vw, 70px)", letterSpacing: "0.02em", lineHeight: 1, marginBottom: 16 }}>
