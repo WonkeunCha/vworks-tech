@@ -3,7 +3,7 @@
 export default function WxVizPage() {
   return (
     <iframe
-      src="/dev/wx-viz/embed.html"
+      src="/vworks-tech/dev/wx-viz/embed.html"
       style={{
         display: 'block',
         width: '100%',
