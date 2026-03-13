@@ -1,6 +1,7 @@
 'use client';
 
-import { useSearchParams, Suspense } from 'next/navigation';
+import { useSearchParams } from 'next/navigation';
+import { Suspense } from 'react';
 import ContactFormEmailJS from '@/components/ui/ContactFormEmailJS';
 
 function ContactContent() {
