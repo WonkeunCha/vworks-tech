@@ -1,4 +1,6 @@
 'use client';
+import { usePathname } from 'next/navigation';
+
 
 import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
@@ -18,6 +20,7 @@ const DEV = [
 ];
 
 export default function Navbar() {
+  const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [solOpen, setSolOpen] = useState(false);
@@ -48,7 +51,7 @@ export default function Navbar() {
         <nav className="hidden md:flex items-center gap-8">
           {/* 솔루션 드롭다운 */}
           <div className="relative" onMouseEnter={openSol} onMouseLeave={closeSol}>
-            <button className="flex items-center gap-1 text-sm hover:text-white transition-colors py-5">
+            <button className={`flex items-center gap-1 text-sm hover:text-white transition-colors py-5${pathname?.startsWith('/ko/solutions') ? ' text-white' : ''}`}>
               솔루션
               <svg className={`w-3 h-3 transition-transform ${solOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
@@ -73,7 +76,7 @@ export default function Navbar() {
 
           {/* Development 드롭다운 */}
           <div className="relative" onMouseEnter={openDev} onMouseLeave={closeDev}>
-            <button className="flex items-center gap-1 text-sm hover:text-white transition-colors py-5">
+            <button className={`flex items-center gap-1 text-sm hover:text-white transition-colors py-5${pathname?.startsWith('/ko/dev') ? ' text-white' : ''}`}>
               Development
               <svg className={`w-3 h-3 transition-transform ${devOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
@@ -101,9 +104,9 @@ export default function Navbar() {
             )}
           </div>
 
-          <Link href="/ko/partners/" className="text-sm text-[#8899bb] hover:text-white">파트너</Link>
-          <Link href="/ko/reference/" className="text-sm text-[#8899bb] hover:text-white">레퍼런스</Link>
-          <Link href="/ko/about/" className="text-sm text-[#8899bb] hover:text-white">회사소개</Link>
+          <Link href="/ko/partners/" className={`text-sm hover:text-white ${pathname?.startsWith('/ko/partners') ? 'text-white font-semibold' : 'text-[#8899bb]'}`}>파트너</Link>
+          <Link href="/ko/reference/" className={`text-sm hover:text-white ${pathname?.startsWith('/ko/reference') ? 'text-white font-semibold' : 'text-[#8899bb]'}`}>레퍼런스</Link>
+          <Link href="/ko/about/" className={`text-sm hover:text-white ${pathname?.startsWith('/ko/about') ? 'text-white font-semibold' : 'text-[#8899bb]'}`}>회사소개</Link>
           <Link href="/ko/contact/" className="text-sm bg-teal-500 hover:bg-teal-400 text-[#000d1a] font-bold px-4 py-2 rounded-lg transition-colors">문의하기</Link>
         </nav>
 
