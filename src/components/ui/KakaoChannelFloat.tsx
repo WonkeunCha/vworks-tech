@@ -25,7 +25,7 @@ export default function KakaoChannelFloat() {
   }, [visible, tooltip]);
 
   const handleClick = () => {
-    window.open("https://pf.kakao.com/_vworkstech/chat", "_blank");
+    window.open("http://pf.kakao.com/_bxlxkxhn/chat", "_blank");
   };
 
   return (
