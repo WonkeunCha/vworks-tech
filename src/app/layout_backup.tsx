@@ -18,5 +18,11 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return children as any;
+  return (
+    <html lang="ko" className={notoSansKR.variable}>
+      <body className={notoSansKR.className}>
+        {children}
+      </body>
+    </html>
+  );
 }

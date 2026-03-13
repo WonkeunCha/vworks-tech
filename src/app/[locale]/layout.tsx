@@ -4,6 +4,7 @@ import "@/styles/globals.css";
 import Navbar from "@/components/layout/Navbar";
 import EventPopup from '@/components/ui/EventPopup';
 import Footer from "@/components/layout/Footer";
+import KakaoChannelFloat from "@/components/ui/KakaoChannelFloat";
 
 type Props = {
   children: React.ReactNode;
@@ -85,6 +86,7 @@ export default async function LocaleLayout({ children, params }: Props) {
           <Footer />
         
       <EventPopup />
+      <KakaoChannelFloat />
       </body>
     </html>
   );
