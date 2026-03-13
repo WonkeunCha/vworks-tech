@@ -75,7 +75,7 @@ export default function Navbar() {
             alt="VWorks Technologies"
             width={180}
             height={40}
-            className="h-9 w-auto max-w-[200px] object-contain"
+            className="h-9 w-auto max-w-[260px] object-contain"
             priority
           />
         </Link>
