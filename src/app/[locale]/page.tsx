@@ -195,7 +195,7 @@ const WHY = [
 
 export default function HomePage() {
   return (
-    <div className="bg-[#020a1a] text-white overflow-x-hidden">
+    <div className="text-white overflow-x-hidden">
 
 
       {/* ══════════════════════════════
@@ -206,8 +206,8 @@ export default function HomePage() {
           슬로건 섹션 — 최상단
       ══════════════════════════════ */}
       <section className="relative min-h-screen flex items-center justify-center">
-        <div className="absolute inset-0 bg-[#020a1a]" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_70%_70%_at_50%_50%,rgba(0,180,140,0.07),transparent)]" />
+        <HeroBg />
+        
         {/* 수평선 배경 */}
         <div className="absolute inset-0 opacity-[0.035]"
           style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.5) 1px,transparent 1px)', backgroundSize: '100% 80px' }} />
