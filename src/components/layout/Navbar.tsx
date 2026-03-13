@@ -71,7 +71,7 @@ export default function Navbar() {
         {/* 로고 */}
         <Link href="/ko/" className="flex items-center flex-shrink-0">
           <Image
-            src="/images/vworks_wide.png"
+            src="/logo-wide.png"
             alt="VWorks Technologies"
             width={180}
             height={40}
