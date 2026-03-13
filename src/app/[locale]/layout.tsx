@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import "@/styles/globals.css";
 import Navbar from "@/components/layout/Navbar";
+import EventPopup from '@/components/ui/EventPopup';
 import Footer from "@/components/layout/Footer";
 
 type Props = {
@@ -83,6 +84,7 @@ export default async function LocaleLayout({ children, params }: Props) {
           </main>
           <Footer />
         
+      <EventPopup />
       </body>
     </html>
   );
