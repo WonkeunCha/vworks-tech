@@ -20,19 +20,19 @@ function ContactCTA() {
           color: "var(--teal)",
           marginBottom: 16,
         }}>
-          {"section_label"}
+          CONTACT US
         </div>
         <h2 style={{
           fontFamily: "'Bebas Neue', sans-serif",
-          fontSize: "clamp(20px, 5vw, 64px)",
+          fontSize: "clamp(20px,5vw,64px)",
           letterSpacing: "0.02em",
           lineHeight: 1,
           marginBottom: 16,
         }}>
-          {"section_title"}
+          프로젝트를 시작할 준비가 됐나요?
         </h2>
         <p style={{ fontSize: 16, color: "var(--muted)", fontWeight: 300, marginBottom: 40 }}>
-          {"section_sub"}
+          HPC·AI·스토리지 인프라 도입부터 운영까지, VWorks가 함께합니다.
         </p>
         <Link
           href={`/${locale}/contact`}
@@ -50,7 +50,7 @@ function ContactCTA() {
             borderRadius: 2,
           }}
         >
-          {"go"} →
+          문의하기 →
         </Link>
       </div>
     </section>
