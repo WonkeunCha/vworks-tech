@@ -115,7 +115,7 @@ function Counter({ target, suffix }: { target: number; suffix: string }) {
     requestAnimationFrame(tick);
   }, [visible, target]);
   return (
-    <span ref={ref} style={{ fontFamily: "'Exo 2', sans-serif", fontWeight: 900 }}>
+    <span ref={ref} style={{ fontFamily: "'Exo 2', sans-serif", fontWeight: 600 }}>
       {count.toLocaleString()}{suffix}
     </span>
   );
@@ -292,7 +292,7 @@ export default function AboutPage() {
             ABOUT VWORKS
           </div>
           <h1 style={{
-            fontFamily: "'Exo 2', sans-serif", fontWeight: 900, lineHeight: 1.08,
+            fontFamily: "'Exo 2', sans-serif", fontWeight: 600, lineHeight: 1.08,
             fontSize: "clamp(42px, 7vw, 86px)", color: "#fff", marginBottom: 20,
           }}>
             HPC · AI를 아우르는<br />
@@ -306,7 +306,7 @@ export default function AboutPage() {
             style={{
               display: "inline-flex", alignItems: "center", gap: 8,
               background: "linear-gradient(135deg,#00C9B1,#0085FF)",
-              color: "#030810", fontWeight: 900, fontSize: 14,
+              color: "#030810", fontWeight: 600, fontSize: 14,
               padding: "14px 36px", borderRadius: 12, textDecoration: "none",
             }}
           >
@@ -320,7 +320,7 @@ export default function AboutPage() {
         <div style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: 11, letterSpacing: ".15em", color: "#00C9B1", marginBottom: 16, textTransform: "uppercase" as const }}>
           FULL-STACK INFRASTRUCTURE
         </div>
-        <h2 style={{ fontFamily: "'Exo 2',sans-serif", fontWeight: 900, fontSize: "clamp(28px,5vw,52px)", color: "#fff", marginBottom: 16, lineHeight: 1.1 }}>
+        <h2 style={{ fontFamily: "'Exo 2',sans-serif", fontWeight: 600, fontSize: "clamp(28px,5vw,52px)", color: "#fff", marginBottom: 16, lineHeight: 1.1 }}>
           VWorks가 커버하는<br />모든 기술 영역
         </h2>
         <p style={{ color: "rgba(212,223,240,0.45)", fontSize: 15, lineHeight: 1.9, maxWidth: 560, marginBottom: 64 }}>
@@ -354,7 +354,7 @@ export default function AboutPage() {
           <div style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: 11, letterSpacing: ".15em", color: "#00C9B1", marginBottom: 16 }}>
             CORE IDENTITY
           </div>
-          <h2 style={{ fontFamily: "'Exo 2',sans-serif", fontWeight: 900, fontSize: "clamp(28px,5vw,52px)", color: "#fff", marginBottom: 16, lineHeight: 1.1 }}>
+          <h2 style={{ fontFamily: "'Exo 2',sans-serif", fontWeight: 600, fontSize: "clamp(28px,5vw,52px)", color: "#fff", marginBottom: 16, lineHeight: 1.1 }}>
             고객과의 약속
           </h2>
           <p style={{ color: "rgba(212,223,240,0.45)", fontSize: 15, lineHeight: 1.9, maxWidth: 480, margin: "0 auto" }}>
@@ -375,7 +375,7 @@ export default function AboutPage() {
         <div style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: 11, letterSpacing: ".15em", color: "#00C9B1", marginBottom: 12 }}>
           BRAND IDENTITY
         </div>
-        <h2 style={{ fontFamily: "'Exo 2',sans-serif", fontWeight: 900, fontSize: "clamp(24px,4vw,40px)", color: "#fff", marginBottom: 52 }}>
+        <h2 style={{ fontFamily: "'Exo 2',sans-serif", fontWeight: 600, fontSize: "clamp(24px,4vw,40px)", color: "#fff", marginBottom: 52 }}>
           VWorks CI
         </h2>
         {/* 컬러 팔레트 */}
