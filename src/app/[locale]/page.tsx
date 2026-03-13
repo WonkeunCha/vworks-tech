@@ -1,14 +1,14 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useCallback, RefObject } from 'react';
 import Link from 'next/link';
 
 function ParticleCanvas() {
-  const canvasRef = useRef(null);
+  const canvasRef = useRef<HTMLCanvasElement>(null);
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
-    const ctx = canvas.getContext('2d');
+    const ctx = canvas.getContext('2d')!;
     let animId;
     const resize = () => { canvas.width = window.innerWidth; canvas.height = window.innerHeight; };
     resize();
@@ -69,9 +69,9 @@ function TypeWriter() {
   return React.createElement('span', { className: 'text-teal-400' }, text, React.createElement('span', { className: 'animate-pulse' }, '|'));
 }
 
-function Counter({ to, suffix }) {
+function Counter({ to, suffix }: { to: number; suffix: string }) {
   const [val, setVal] = useState(0);
-  const ref = useRef(null);
+  const ref = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const obs = new IntersectionObserver(([e]) => {
       if (e.isIntersecting) {
