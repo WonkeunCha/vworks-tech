@@ -1,16 +1,15 @@
 'use client';
+
 import { usePathname } from 'next/navigation';
-
-
 import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
 const SOL = [
   { href: '/ko/solutions/vast-data/', label: 'VAST Data 스토리지', badge: 'STORAGE', color: 'text-teal-400' },
-  { href: '/ko/solutions/hpe-cray/', label: 'HPE Cray 슈퍼컴퓨팅', badge: 'HPC', color: 'text-blue-400' },
+  { href: '/ko/solutions/hpe-cray/', label: 'HPE Cray 슈퍼컴퓨터', badge: 'HPC', color: 'text-blue-400' },
   { href: '/ko/solutions/dell-server/', label: 'Dell PowerEdge 서버', badge: 'SERVER', color: 'text-orange-400' },
-  { href: '/ko/solutions/network-security/', label: '보안 솔루션', badge: 'SECURITY', color: 'text-cyan-400' },
+  { href: '/ko/solutions/network-security/', label: '보안 아키텍처', badge: 'SECURITY', color: 'text-cyan-400' },
 ];
 
 const DEV = [
@@ -28,120 +27,247 @@ export default function Navbar() {
   const solTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const devTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
+  const isSol = pathname?.startsWith('/ko/solutions') ?? false;
+  const isDev = pathname?.startsWith('/ko/dev') ?? false;
+
   useEffect(() => {
-    const fn = () => setScrolled(window.scrollY > 20);
-    fn();
-    window.addEventListener('scroll', fn);
-    return () => window.removeEventListener('scroll', fn);
+    const onScroll = () => setScrolled(window.scrollY > 10);
+    window.addEventListener('scroll', onScroll);
+    return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  const openSol = () => { if (solTimer.current) clearTimeout(solTimer.current); setSolOpen(true); };
-  const closeSol = () => { solTimer.current = setTimeout(() => setSolOpen(false), 250); };
-  const openDev = () => { if (devTimer.current) clearTimeout(devTimer.current); setDevOpen(true); };
-  const closeDev = () => { devTimer.current = setTimeout(() => setDevOpen(false), 250); };
+  // 솔루션 드롭다운 호버 핸들러
+  const solEnter = () => {
+    if (solTimer.current) clearTimeout(solTimer.current);
+    setSolOpen(true);
+  };
+  const solLeave = () => {
+    solTimer.current = setTimeout(() => setSolOpen(false), 150);
+  };
+
+  // 개발 드롭다운 호버 핸들러
+  const devEnter = () => {
+    if (devTimer.current) clearTimeout(devTimer.current);
+    setDevOpen(true);
+  };
+  const devLeave = () => {
+    devTimer.current = setTimeout(() => setDevOpen(false), 150);
+  };
+
+  const navBase = `text-sm transition-colors py-5 flex items-center gap-1`;
+  const activeClass = `text-white font-semibold`;
+  const inactiveClass = `text-[#8899bb] hover:text-white`;
+  const linkActiveClass = `text-sm transition-colors text-white font-semibold`;
+  const linkInactiveClass = `text-sm transition-colors text-[#8899bb] hover:text-white`;
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-[#050d1a]/95 backdrop-blur-md border-b border-[#1a2d4a]' : 'bg-transparent'}`}>
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        scrolled ? 'bg-[#000d1a]/95 backdrop-blur-md border-b border-white/5 shadow-lg shadow-black/20' : 'bg-transparent'
+      }`}
+    >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
-        <Link href="/ko/">
-          <Image src="/logo-wide.png" alt="VWorks Technologies" width={240} height={42} style={{ objectFit: 'contain', height: 'auto', maxHeight: 42 }} priority />
+
+        {/* 로고 */}
+        <Link href="/ko/" className="flex items-center flex-shrink-0">
+          <Image
+            src="/images/vworks_wide.png"
+            alt="VWorks Technologies"
+            width={180}
+            height={40}
+            className="h-9 w-auto object-contain"
+            priority
+          />
         </Link>
 
-        {/* 데스크탑 */}
+        {/* 데스크탑 네비게이션 */}
         <nav className="hidden md:flex items-center gap-8">
+
           {/* 솔루션 드롭다운 */}
-          <div className="relative" onMouseEnter={openSol} onMouseLeave={closeSol}>
-            <button className={`flex items-center gap-1 text-sm hover:text-white transition-colors py-5${pathname?.startsWith('/ko/solutions') ? ' text-white' : ''}`}>
+          <div className="relative" onMouseEnter={solEnter} onMouseLeave={solLeave}>
+            <button className={`${navBase} ${isSol ? activeClass : inactiveClass}`}>
               솔루션
-              <svg className={`w-3 h-3 transition-transform ${solOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <svg
+                className={`w-3 h-3 transition-transform duration-200 ${solOpen ? 'rotate-180' : ''}`}
+                fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}
+              >
                 <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
               </svg>
             </button>
             {solOpen && (
-              <div className="absolute top-full left-1/2 -translate-x-1/2 w-64 bg-[#0a0f28] border border-[#1a2d4a] rounded-xl shadow-2xl overflow-hidden">
-                <div className="p-2">
-                  {SOL.map((s) => (
-                    <Link key={s.href} href={s.href} className="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-[#1a2d4a] transition-colors group" onClick={() => setSolOpen(false)}>
-                      <span className={`text-xs font-bold ${s.color}`}>{s.badge}</span>
-                      <span className="text-sm text-[#8899bb] group-hover:text-white">{s.label}</span>
+              <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2 w-64 z-50">
+                <div className="bg-[#0a1828] border border-white/10 rounded-xl shadow-2xl shadow-black/50 overflow-hidden">
+                  {SOL.map(item => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      onClick={() => setSolOpen(false)}
+                      className={`flex items-center gap-3 px-4 py-3 hover:bg-white/5 transition-colors group ${
+                        pathname === item.href ? 'bg-white/5' : ''
+                      }`}
+                    >
+                      <span className={`text-xs font-bold px-1.5 py-0.5 rounded bg-white/10 ${item.color} flex-shrink-0`}>
+                        {item.badge}
+                      </span>
+                      <span className={`text-sm ${pathname === item.href ? 'text-white font-medium' : 'text-[#c8d8e8] group-hover:text-white'}`}>
+                        {item.label}
+                      </span>
                     </Link>
                   ))}
-                </div>
-                <div className="border-t border-[#1a2d4a] mt-2 pt-2">
-                  <Link href="/ko/solutions/" className="flex items-center justify-center py-2 text-xs text-teal-400 hover:text-teal-300" onClick={() => setSolOpen(false)}>전체 솔루션 보기 →</Link>
                 </div>
               </div>
             )}
           </div>
 
           {/* Development 드롭다운 */}
-          <div className="relative" onMouseEnter={openDev} onMouseLeave={closeDev}>
-            <button className={`flex items-center gap-1 text-sm hover:text-white transition-colors py-5${pathname?.startsWith('/ko/dev') ? ' text-white' : ''}`}>
+          <div className="relative" onMouseEnter={devEnter} onMouseLeave={devLeave}>
+            <button className={`${navBase} ${isDev ? activeClass : inactiveClass}`}>
               Development
-              <svg className={`w-3 h-3 transition-transform ${devOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <svg
+                className={`w-3 h-3 transition-transform duration-200 ${devOpen ? 'rotate-180' : ''}`}
+                fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}
+              >
                 <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
               </svg>
             </button>
             {devOpen && (
-              <div className="absolute top-full left-1/2 -translate-x-1/2 w-60 bg-[#0a0f28] border border-[#1a2d4a] rounded-xl shadow-2xl overflow-hidden">
-                <div className="p-2">
-                  {DEV.map((d) =>
-                    d.disabled ? (
-                      <div key={d.href} className="flex items-center gap-3 px-4 py-3 rounded-lg opacity-40 cursor-not-allowed">
-                        <span className={`text-xs font-bold ${d.color}`}>{d.badge}</span>
-                        <span className="text-sm text-[#8899bb]">{d.label}</span>
-                        <span className="ml-auto text-[10px] text-gray-500 border border-gray-600 rounded px-1">개발중</span>
+              <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2 w-56 z-50">
+                <div className="bg-[#0a1828] border border-white/10 rounded-xl shadow-2xl shadow-black/50 overflow-hidden">
+                  {DEV.map(item => (
+                    item.disabled ? (
+                      <div
+                        key={item.href}
+                        className="flex items-center gap-3 px-4 py-3 opacity-40 cursor-not-allowed"
+                      >
+                        <span className={`text-xs font-bold px-1.5 py-0.5 rounded bg-white/10 ${item.color} flex-shrink-0`}>
+                          {item.badge}
+                        </span>
+                        <span className="text-sm text-[#8899bb]">{item.label}</span>
+                        <span className="text-xs text-[#8899bb] ml-auto">준비중</span>
                       </div>
                     ) : (
-                      <Link key={d.href} href={d.href} className="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-[#1a2d4a] transition-colors group" onClick={() => setDevOpen(false)}>
-                        <span className={`text-xs font-bold ${d.color}`}>{d.badge}</span>
-                        <span className="text-sm text-[#8899bb] group-hover:text-white">{d.label}</span>
+                      <Link
+                        key={item.href}
+                        href={item.href}
+                        onClick={() => setDevOpen(false)}
+                        className={`flex items-center gap-3 px-4 py-3 hover:bg-white/5 transition-colors group ${
+                          pathname === item.href ? 'bg-white/5' : ''
+                        }`}
+                      >
+                        <span className={`text-xs font-bold px-1.5 py-0.5 rounded bg-white/10 ${item.color} flex-shrink-0`}>
+                          {item.badge}
+                        </span>
+                        <span className={`text-sm ${pathname === item.href ? 'text-white font-medium' : 'text-[#c8d8e8] group-hover:text-white'}`}>
+                          {item.label}
+                        </span>
                       </Link>
                     )
-                  )}
+                  ))}
                 </div>
               </div>
             )}
           </div>
 
-          <Link href="/ko/partners/" className={`text-sm hover:text-white ${pathname?.startsWith('/ko/partners') ? 'text-white font-semibold' : 'text-[#8899bb]'}`}>파트너</Link>
-          <Link href="/ko/reference/" className={`text-sm hover:text-white ${pathname?.startsWith('/ko/reference') ? 'text-white font-semibold' : 'text-[#8899bb]'}`}>레퍼런스</Link>
-          <Link href="/ko/about/" className={`text-sm hover:text-white ${pathname?.startsWith('/ko/about') ? 'text-white font-semibold' : 'text-[#8899bb]'}`}>회사소개</Link>
-          <Link href="/ko/contact/" className="text-sm bg-teal-500 hover:bg-teal-400 text-[#000d1a] font-bold px-4 py-2 rounded-lg transition-colors">문의하기</Link>
+          {/* 일반 링크들 */}
+          <Link href="/ko/partners/" className={pathname?.startsWith('/ko/partners') ? linkActiveClass : linkInactiveClass}>파트너</Link>
+          <Link href="/ko/reference/" className={pathname?.startsWith('/ko/reference') ? linkActiveClass : linkInactiveClass}>레퍼런스</Link>
+          <Link href="/ko/about/" className={pathname?.startsWith('/ko/about') ? linkActiveClass : linkInactiveClass}>회사소개</Link>
+
+          {/* 문의하기 버튼 */}
+          <Link
+            href="/ko/contact/"
+            className="text-sm bg-teal-500 hover:bg-teal-400 text-[#000d1a] font-bold px-4 py-2 rounded-lg transition-colors"
+          >
+            문의하기
+          </Link>
         </nav>
 
-        {/* 모바일 메뉴 버튼 */}
-        <button className="md:hidden text-[#8899bb] p-2" onClick={() => setMobileOpen(!mobileOpen)}>
-          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-            {mobileOpen
-              ? <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-              : <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />}
-          </svg>
+        {/* 모바일 햄버거 */}
+        <button
+          className="md:hidden text-white/70 hover:text-white p-2"
+          onClick={() => setMobileOpen(!mobileOpen)}
+          aria-label="메뉴"
+        >
+          {mobileOpen ? (
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          ) : (
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          )}
         </button>
       </div>
 
       {/* 모바일 메뉴 */}
       {mobileOpen && (
-        <div className="md:hidden bg-[#0a0f28] border-t border-[#1a2d4a] px-6 py-4">
-          <p className="text-xs text-[#4a6080] font-bold uppercase mb-2">솔루션</p>
-          {SOL.map((s) => (
-            <Link key={s.href} href={s.href} className="block py-3 text-sm text-[#8899bb] hover:text-white border-b border-[#1a2d4a]/50" onClick={() => setMobileOpen(false)}>{s.label}</Link>
-          ))}
-          <p className="text-xs text-[#4a6080] font-bold uppercase mt-4 mb-2">Development</p>
-          {DEV.map((d) =>
-            d.disabled ? (
-              <div key={d.href} className="flex items-center justify-between py-3 text-sm text-[#8899bb]/40 border-b border-[#1a2d4a]/50">
-                <span>{d.label}</span>
-                <span className="text-[10px] text-gray-600 border border-gray-700 rounded px-1">개발중</span>
-              </div>
-            ) : (
-              <Link key={d.href} href={d.href} className="block py-3 text-sm text-[#8899bb] hover:text-white border-b border-[#1a2d4a]/50" onClick={() => setMobileOpen(false)}>{d.label}</Link>
-            )
-          )}
-          <Link href="/ko/partners/" className="block py-3 text-sm text-[#8899bb] hover:text-white border-b border-[#1a2d4a]/50" onClick={() => setMobileOpen(false)}>파트너</Link>
-          <Link href="/ko/reference/" className="block py-3 text-sm text-[#8899bb] hover:text-white border-b border-[#1a2d4a]/50" onClick={() => setMobileOpen(false)}>레퍼런스</Link>
-          <Link href="/ko/about/" className="block py-3 text-sm text-[#8899bb] hover:text-white border-b border-[#1a2d4a]/50" onClick={() => setMobileOpen(false)}>회사소개</Link>
-          <Link href="/ko/contact/" className="block mt-4 text-center text-sm bg-teal-500 text-[#000d1a] font-bold px-4 py-3 rounded-lg" onClick={() => setMobileOpen(false)}>문의하기</Link>
+        <div className="md:hidden bg-[#000d1a]/98 backdrop-blur-md border-t border-white/5">
+          <div className="px-6 py-4 space-y-1">
+            <p className="text-xs text-[#8899bb] uppercase tracking-widest px-2 py-2">솔루션</p>
+            {SOL.map(item => (
+              <Link
+                key={item.href}
+                href={item.href}
+                onClick={() => setMobileOpen(false)}
+                className={`flex items-center gap-3 px-2 py-2.5 rounded-lg transition-colors ${
+                  pathname === item.href ? 'text-white bg-white/5' : 'text-[#c8d8e8] hover:text-white hover:bg-white/5'
+                }`}
+              >
+                <span className={`text-xs font-bold px-1.5 py-0.5 rounded bg-white/10 ${item.color}`}>{item.badge}</span>
+                {item.label}
+              </Link>
+            ))}
+
+            <p className="text-xs text-[#8899bb] uppercase tracking-widest px-2 py-2 pt-4">Development</p>
+            {DEV.map(item => (
+              item.disabled ? (
+                <div key={item.href} className="flex items-center gap-3 px-2 py-2.5 opacity-40 cursor-not-allowed">
+                  <span className={`text-xs font-bold px-1.5 py-0.5 rounded bg-white/10 ${item.color}`}>{item.badge}</span>
+                  <span className="text-[#8899bb] text-sm">{item.label}</span>
+                  <span className="text-xs text-[#8899bb] ml-auto">준비중</span>
+                </div>
+              ) : (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => setMobileOpen(false)}
+                  className={`flex items-center gap-3 px-2 py-2.5 rounded-lg transition-colors ${
+                    pathname === item.href ? 'text-white bg-white/5' : 'text-[#c8d8e8] hover:text-white hover:bg-white/5'
+                  }`}
+                >
+                  <span className={`text-xs font-bold px-1.5 py-0.5 rounded bg-white/10 ${item.color}`}>{item.badge}</span>
+                  {item.label}
+                </Link>
+              )
+            ))}
+
+            <div className="border-t border-white/5 pt-4 mt-4 space-y-1">
+              {[
+                { href: '/ko/partners/', label: '파트너' },
+                { href: '/ko/reference/', label: '레퍼런스' },
+                { href: '/ko/about/', label: '회사소개' },
+              ].map(item => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => setMobileOpen(false)}
+                  className={`block px-2 py-2.5 rounded-lg text-sm transition-colors ${
+                    pathname?.startsWith(item.href.slice(0,-1)) ? 'text-white font-semibold' : 'text-[#8899bb] hover:text-white'
+                  }`}
+                >
+                  {item.label}
+                </Link>
+              ))}
+              <Link
+                href="/ko/contact/"
+                onClick={() => setMobileOpen(false)}
+                className="block mt-3 text-center px-4 py-3 bg-teal-500 hover:bg-teal-400 text-[#000d1a] font-bold rounded-lg transition-colors text-sm"
+              >
+                문의하기
+              </Link>
+            </div>
+          </div>
         </div>
       )}
     </header>
