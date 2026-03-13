@@ -254,38 +254,6 @@ export default function HomePage() {
       </section>
 
 
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-[#020a1a]" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_-10%,rgba(0,180,140,0.12),transparent)]" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_40%_40%_at_80%_60%,rgba(14,165,233,0.07),transparent)]" />
-        <HeroBg />
-        <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.3) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.3) 1px,transparent 1px)', backgroundSize: '60px 60px' }} />
-        <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-teal-500/30 bg-teal-500/5 mb-8 text-xs text-teal-300 tracking-widest uppercase">
-            <span className="w-1.5 h-1.5 rounded-full bg-teal-400 animate-pulse" />
-            VWORKS TECHNOLOGIES · VAST Data 공인 파트너
-          </div>
-          <h1 className="text-5xl md:text-7xl font-black leading-[1.05] tracking-tight mb-4">
-            <span className="block text-white/90">HPC · AI · 스토리지</span>
-            <span className="block mt-2 min-h-[1.2em]"><TypeWriter /></span>
-            <span className="block text-white/90 text-4xl md:text-5xl font-light mt-2">전문 인프라 기업</span>
-          </h1>
-          <p className="text-[#8899bb] text-lg md:text-xl mt-8 mb-12 max-w-2xl mx-auto leading-relaxed">
-            국방·공공·연구기관 특화 HPC·AI·스토리지 인프라<br />설계부터 운영까지 VWorks Technologies가 함께합니다
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Link href="/ko/solutions/" className="group px-8 py-4 bg-teal-500 hover:bg-teal-400 text-[#020c18] font-bold rounded-xl transition-all duration-200 text-sm tracking-wide flex items-center gap-2">
-              솔루션 알아보기
-              <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" /></svg>
-            </Link>
-            <Link href="/ko/contact/" className="px-8 py-4 border border-white/20 hover:border-teal-500/60 text-white/80 hover:text-white rounded-xl transition-all duration-200 text-sm tracking-wide">도입 문의하기</Link>
-          </div>
-          <div className="mt-20 flex flex-col items-center gap-2 text-white/20 text-xs">
-            <span>SCROLL</span>
-            <div className="w-px h-8 bg-gradient-to-b from-white/20 to-transparent animate-pulse" />
-          </div>
-        </div>
-      </section>
 
       <section className="border-y border-white/10 bg-[#020a1a]">
         <div className="max-w-5xl mx-auto px-6 py-10 grid grid-cols-2 md:grid-cols-4 gap-8">
