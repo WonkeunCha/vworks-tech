@@ -3,54 +3,79 @@
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 
-function ParticleCanvas() {
+function HeroBg() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
+
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
     let animId: number;
-    const resize = () => { canvas.width = window.innerWidth; canvas.height = window.innerHeight; };
+    let t = 0;
+
+    const resize = () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    };
     resize();
     window.addEventListener('resize', resize);
-    type Node = { x: number; y: number; vx: number; vy: number; r: number; hex: string; alpha: number; };
-    const nodes: Node[] = Array.from({ length: 80 }, () => ({
-      x: Math.random() * canvas.width, y: Math.random() * canvas.height,
-      vx: (Math.random() - 0.5) * 0.4, vy: (Math.random() - 0.5) * 0.4,
-      r: Math.random() * 1.5 + 0.5,
-      hex: Math.random() > 0.7 ? '00d4aa' : Math.random() > 0.5 ? '0ea5e9' : 'ffffff',
-      alpha: Math.random() * 0.6 + 0.2,
-    }));
+
+    // 오브(빛나는 구체) 정의
+    const orbs = [
+      { x: 0.15, y: 0.3,  r: 0.55, color: [0,   80,  200], speed: 0.0003 },
+      { x: 0.75, y: 0.2,  r: 0.45, color: [0,   140, 255], speed: 0.0005 },
+      { x: 0.5,  y: 0.85, r: 0.4,  color: [0,   60,  160], speed: 0.0004 },
+      { x: 0.85, y: 0.65, r: 0.35, color: [0,   200, 180], speed: 0.0006 },
+    ];
+
     const draw = () => {
+      t++;
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      for (let i = 0; i < nodes.length; i++) {
-        for (let j = i + 1; j < nodes.length; j++) {
-          const dx = nodes[i].x - nodes[j].x, dy = nodes[i].y - nodes[j].y;
-          const dist = Math.sqrt(dx * dx + dy * dy);
-          if (dist < 140) {
-            ctx.beginPath();
-            ctx.strokeStyle = `rgba(0,212,170,${0.08 * (1 - dist / 140)})`;
-            ctx.lineWidth = 0.5;
-            ctx.moveTo(nodes[i].x, nodes[i].y);
-            ctx.lineTo(nodes[j].x, nodes[j].y);
-            ctx.stroke();
-          }
+
+      // 베이스 배경: 딥 네이비
+      ctx.fillStyle = '#020a1a';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      // 각 오브 렌더링
+      orbs.forEach((orb, i) => {
+        const px = (orb.x + Math.sin(t * orb.speed + i) * 0.08) * canvas.width;
+        const py = (orb.y + Math.cos(t * orb.speed * 0.7 + i) * 0.06) * canvas.height;
+        const radius = orb.r * Math.min(canvas.width, canvas.height);
+
+        const grad = ctx.createRadialGradient(px, py, 0, px, py, radius);
+        grad.addColorStop(0,   `rgba(${orb.color[0]},${orb.color[1]},${orb.color[2]},0.28)`);
+        grad.addColorStop(0.4, `rgba(${orb.color[0]},${orb.color[1]},${orb.color[2]},0.10)`);
+        grad.addColorStop(1,   `rgba(${orb.color[0]},${orb.color[1]},${orb.color[2]},0)`);
+
+        ctx.fillStyle = grad;
+        ctx.beginPath();
+        ctx.arc(px, py, radius, 0, Math.PI * 2);
+        ctx.fill();
+      });
+
+      // 미세 노이즈 도트
+      if (t % 3 === 0) {
+        for (let i = 0; i < 6; i++) {
+          const dx = Math.random() * canvas.width;
+          const dy = Math.random() * canvas.height;
+          ctx.beginPath();
+          ctx.arc(dx, dy, Math.random() * 0.8, 0, Math.PI * 2);
+          ctx.fillStyle = `rgba(100,200,255,${Math.random() * 0.15})`;
+          ctx.fill();
         }
       }
-      nodes.forEach(n => {
-        const r = parseInt(n.hex.slice(0, 2), 16), g = parseInt(n.hex.slice(2, 4), 16), b = parseInt(n.hex.slice(4, 6), 16);
-        ctx.beginPath(); ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(${r},${g},${b},${n.alpha})`; ctx.fill();
-        n.x += n.vx; n.y += n.vy;
-        if (n.x < 0 || n.x > canvas.width) n.vx *= -1;
-        if (n.y < 0 || n.y > canvas.height) n.vy *= -1;
-      });
+
       animId = requestAnimationFrame(draw);
     };
     draw();
-    return () => { cancelAnimationFrame(animId); window.removeEventListener('resize', resize); };
+
+    return () => {
+      cancelAnimationFrame(animId);
+      window.removeEventListener('resize', resize);
+    };
   }, []);
+
   return <canvas ref={canvasRef} className="absolute inset-0 w-full h-full" />;
 }
 
@@ -114,14 +139,18 @@ const WHY = [
 
 export default function HomePage() {
   return (
-    <div className="bg-[#020c18] text-white overflow-x-hidden">
+    <div className="bg-[#020a1a] text-white overflow-x-hidden">
 
 
       {/* ══════════════════════════════
           슬로건 섹션 — 최상단
       ══════════════════════════════ */}
+
+      {/* ══════════════════════════════
+          슬로건 섹션 — 최상단
+      ══════════════════════════════ */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-[#020c18]" />
+        <div className="absolute inset-0 bg-[#020a1a]" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_70%_70%_at_50%_50%,rgba(0,180,140,0.07),transparent)]" />
         {/* 수평선 배경 */}
         <div className="absolute inset-0 opacity-[0.035]"
@@ -180,15 +209,74 @@ export default function HomePage() {
       </section>
 
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-[#020c18]" />
+        <div className="absolute inset-0 bg-[#020a1a]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_70%_70%_at_50%_50%,rgba(0,180,140,0.07),transparent)]" />
+        {/* 수평선 배경 */}
+        <div className="absolute inset-0 opacity-[0.035]"
+          style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.5) 1px,transparent 1px)', backgroundSize: '100% 80px' }} />
+
+        <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
+          {/* 회사 뱃지 */}
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-white/[0.04] mb-14 text-xs text-[#8899bb] tracking-[0.2em] uppercase">
+            VWorks Technologies
+          </div>
+
+          {/* 메인 슬로건 */}
+          <h1 className="font-black leading-[1.1] tracking-tight mb-0">
+            <span className="block text-5xl md:text-7xl lg:text-[5.5rem] text-white mb-3">
+              데이터의 속도로,
+            </span>
+            <span className="block text-5xl md:text-7xl lg:text-[5.5rem] bg-gradient-to-r from-teal-400 via-cyan-300 to-blue-400 bg-clip-text text-transparent pb-2">
+              비즈니스의 미래로
+            </span>
+          </h1>
+
+          {/* 구분선 */}
+          <div className="flex items-center justify-center gap-4 my-10">
+            <div className="w-16 h-px bg-gradient-to-r from-transparent to-teal-500/50" />
+            <div className="w-2 h-2 rounded-full bg-teal-400/80" />
+            <div className="w-16 h-px bg-gradient-to-l from-transparent to-teal-500/50" />
+          </div>
+
+          {/* 부제 */}
+          <p className="text-[#8899bb] text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-14">
+            수치모델 가시화부터 네트워크, 서버, 보안, 소프트웨어 개발까지<br className="hidden sm:block" />
+            IT 인프라 전 주기를 단일 파트너로 해결합니다
+          </p>
+
+          {/* CTA 버튼 */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <a href="/ko/solutions/"
+              className="group px-8 py-4 bg-teal-500 hover:bg-teal-400 text-[#020c18] font-bold rounded-xl transition-all duration-200 text-sm tracking-wide inline-flex items-center gap-2">
+              솔루션 알아보기
+              <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a href="/ko/contact/"
+              className="px-8 py-4 border border-white/20 hover:border-teal-500/50 text-white/70 hover:text-white rounded-xl transition-all duration-200 text-sm tracking-wide">
+              도입 문의하기
+            </a>
+          </div>
+
+          {/* 스크롤 인디케이터 */}
+          <div className="mt-20 flex flex-col items-center gap-2 text-white/20 text-[11px] tracking-widest">
+            <span>SCROLL</span>
+            <div className="w-px h-8 bg-gradient-to-b from-white/20 to-transparent" />
+          </div>
+        </div>
+      </section>
+
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 bg-[#020a1a]" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_-10%,rgba(0,180,140,0.12),transparent)]" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_40%_40%_at_80%_60%,rgba(14,165,233,0.07),transparent)]" />
-        <ParticleCanvas />
+        <HeroBg />
         <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.3) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.3) 1px,transparent 1px)', backgroundSize: '60px 60px' }} />
         <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-teal-500/30 bg-teal-500/5 mb-8 text-xs text-teal-300 tracking-widest uppercase">
             <span className="w-1.5 h-1.5 rounded-full bg-teal-400 animate-pulse" />
-            VAST Data 공식 총판 · Dell Technologies 파트너
+            VWORKS TECHNOLOGIES · VAST Data 공인 파트너
           </div>
           <h1 className="text-5xl md:text-7xl font-black leading-[1.05] tracking-tight mb-4">
             <span className="block text-white/90">HPC · AI · 스토리지</span>
