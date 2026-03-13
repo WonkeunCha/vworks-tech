@@ -116,6 +116,69 @@ export default function HomePage() {
   return (
     <div className="bg-[#020c18] text-white overflow-x-hidden">
 
+
+      {/* ══════════════════════════════
+          슬로건 섹션 — 최상단
+      ══════════════════════════════ */}
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 bg-[#020c18]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_70%_70%_at_50%_50%,rgba(0,180,140,0.07),transparent)]" />
+        {/* 수평선 배경 */}
+        <div className="absolute inset-0 opacity-[0.035]"
+          style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.5) 1px,transparent 1px)', backgroundSize: '100% 80px' }} />
+
+        <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
+          {/* 회사 뱃지 */}
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-white/[0.04] mb-14 text-xs text-[#8899bb] tracking-[0.2em] uppercase">
+            VWorks Technologies
+          </div>
+
+          {/* 메인 슬로건 */}
+          <h1 className="font-black leading-[1.1] tracking-tight mb-0">
+            <span className="block text-5xl md:text-7xl lg:text-[5.5rem] text-white mb-3">
+              데이터의 속도로,
+            </span>
+            <span className="block text-5xl md:text-7xl lg:text-[5.5rem] bg-gradient-to-r from-teal-400 via-cyan-300 to-blue-400 bg-clip-text text-transparent pb-2">
+              비즈니스의 미래로
+            </span>
+          </h1>
+
+          {/* 구분선 */}
+          <div className="flex items-center justify-center gap-4 my-10">
+            <div className="w-16 h-px bg-gradient-to-r from-transparent to-teal-500/50" />
+            <div className="w-2 h-2 rounded-full bg-teal-400/80" />
+            <div className="w-16 h-px bg-gradient-to-l from-transparent to-teal-500/50" />
+          </div>
+
+          {/* 부제 */}
+          <p className="text-[#8899bb] text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-14">
+            수치모델 가시화부터 네트워크, 서버, 보안, 소프트웨어 개발까지<br className="hidden sm:block" />
+            IT 인프라 전 주기를 단일 파트너로 해결합니다
+          </p>
+
+          {/* CTA 버튼 */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <a href="/ko/solutions/"
+              className="group px-8 py-4 bg-teal-500 hover:bg-teal-400 text-[#020c18] font-bold rounded-xl transition-all duration-200 text-sm tracking-wide inline-flex items-center gap-2">
+              솔루션 알아보기
+              <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a href="/ko/contact/"
+              className="px-8 py-4 border border-white/20 hover:border-teal-500/50 text-white/70 hover:text-white rounded-xl transition-all duration-200 text-sm tracking-wide">
+              도입 문의하기
+            </a>
+          </div>
+
+          {/* 스크롤 인디케이터 */}
+          <div className="mt-20 flex flex-col items-center gap-2 text-white/20 text-[11px] tracking-widest">
+            <span>SCROLL</span>
+            <div className="w-px h-8 bg-gradient-to-b from-white/20 to-transparent" />
+          </div>
+        </div>
+      </section>
+
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-[#020c18]" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_-10%,rgba(0,180,140,0.12),transparent)]" />
