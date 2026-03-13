@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState, useCallback, RefObject } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 
 function ParticleCanvas() {
@@ -8,12 +8,14 @@ function ParticleCanvas() {
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
-    const ctx = canvas.getContext('2d')!;
-    let animId;
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return;
+    let animId: number;
     const resize = () => { canvas.width = window.innerWidth; canvas.height = window.innerHeight; };
     resize();
     window.addEventListener('resize', resize);
-    const nodes = Array.from({ length: 80 }, () => ({
+    type Node = { x: number; y: number; vx: number; vy: number; r: number; hex: string; alpha: number; };
+    const nodes: Node[] = Array.from({ length: 80 }, () => ({
       x: Math.random() * canvas.width, y: Math.random() * canvas.height,
       vx: (Math.random() - 0.5) * 0.4, vy: (Math.random() - 0.5) * 0.4,
       r: Math.random() * 1.5 + 0.5,
@@ -25,10 +27,10 @@ function ParticleCanvas() {
       for (let i = 0; i < nodes.length; i++) {
         for (let j = i + 1; j < nodes.length; j++) {
           const dx = nodes[i].x - nodes[j].x, dy = nodes[i].y - nodes[j].y;
-          const dist = Math.sqrt(dx*dx + dy*dy);
+          const dist = Math.sqrt(dx * dx + dy * dy);
           if (dist < 140) {
             ctx.beginPath();
-            ctx.strokeStyle = `rgba(0,212,170,${0.08*(1-dist/140)})`;
+            ctx.strokeStyle = `rgba(0,212,170,${0.08 * (1 - dist / 140)})`;
             ctx.lineWidth = 0.5;
             ctx.moveTo(nodes[i].x, nodes[i].y);
             ctx.lineTo(nodes[j].x, nodes[j].y);
@@ -37,8 +39,8 @@ function ParticleCanvas() {
         }
       }
       nodes.forEach(n => {
-        const r = parseInt(n.hex.slice(0,2),16), g = parseInt(n.hex.slice(2,4),16), b = parseInt(n.hex.slice(4,6),16);
-        ctx.beginPath(); ctx.arc(n.x, n.y, n.r, 0, Math.PI*2);
+        const r = parseInt(n.hex.slice(0, 2), 16), g = parseInt(n.hex.slice(2, 4), 16), b = parseInt(n.hex.slice(4, 6), 16);
+        ctx.beginPath(); ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2);
         ctx.fillStyle = `rgba(${r},${g},${b},${n.alpha})`; ctx.fill();
         n.x += n.vx; n.y += n.vy;
         if (n.x < 0 || n.x > canvas.width) n.vx *= -1;
@@ -49,24 +51,25 @@ function ParticleCanvas() {
     draw();
     return () => { cancelAnimationFrame(animId); window.removeEventListener('resize', resize); };
   }, []);
-  return React.createElement('canvas', { ref: canvasRef, className: 'absolute inset-0 w-full h-full' });
+  return <canvas ref={canvasRef} className="absolute inset-0 w-full h-full" />;
 }
 
-const HEADLINES = ['AI 컴퓨팅 인프라','HPC 클러스터 구축','VAST Data 스토리지','국방·공공 특화 솔루션','24×7 기술지원 서비스'];
+const HEADLINES = ['AI 컴퓨팅 인프라', 'HPC 클러스터 구축', 'VAST Data 스토리지', '국방·공공 특화 솔루션', '24×7 기술지원 서비스'];
+
 function TypeWriter() {
   const [idx, setIdx] = useState(0);
   const [text, setText] = useState('');
   const [deleting, setDeleting] = useState(false);
   useEffect(() => {
     const target = HEADLINES[idx];
-    let t;
-    if (!deleting && text.length < target.length) t = setTimeout(() => setText(target.slice(0, text.length+1)), 60);
+    let t: ReturnType<typeof setTimeout>;
+    if (!deleting && text.length < target.length) t = setTimeout(() => setText(target.slice(0, text.length + 1)), 60);
     else if (!deleting && text.length === target.length) t = setTimeout(() => setDeleting(true), 2200);
-    else if (deleting && text.length > 0) t = setTimeout(() => setText(text.slice(0,-1)), 30);
-    else { setDeleting(false); setIdx((idx+1) % HEADLINES.length); }
+    else if (deleting && text.length > 0) t = setTimeout(() => setText(text.slice(0, -1)), 30);
+    else { setDeleting(false); setIdx((idx + 1) % HEADLINES.length); }
     return () => clearTimeout(t);
   }, [text, deleting, idx]);
-  return React.createElement('span', { className: 'text-teal-400' }, text, React.createElement('span', { className: 'animate-pulse' }, '|'));
+  return <span className="text-teal-400">{text}<span className="animate-pulse">|</span></span>;
 }
 
 function Counter({ to, suffix }: { to: number; suffix: string }) {
@@ -75,15 +78,15 @@ function Counter({ to, suffix }: { to: number; suffix: string }) {
   useEffect(() => {
     const obs = new IntersectionObserver(([e]) => {
       if (e.isIntersecting) {
-        let s = 0; const step = to/50;
-        const timer = setInterval(() => { s+=step; if(s>=to){setVal(to);clearInterval(timer);}else setVal(Math.floor(s)); }, 30);
+        let s = 0; const step = to / 50;
+        const timer = setInterval(() => { s += step; if (s >= to) { setVal(to); clearInterval(timer); } else setVal(Math.floor(s)); }, 30);
         obs.disconnect();
       }
     }, { threshold: 0.3 });
     if (ref.current) obs.observe(ref.current);
     return () => obs.disconnect();
   }, [to]);
-  return React.createElement('div', { ref }, val + suffix);
+  return <div ref={ref}>{val}{suffix}</div>;
 }
 
 const PILLARS = [
@@ -91,10 +94,28 @@ const PILLARS = [
   { icon: '🗄', label: 'VAST Data 스토리지', desc: 'PB급 비정형 데이터를\n단일 네임스페이스로 통합\nVAST Data 국내 공식 총판', color: 'from-teal-500/10 to-emerald-500/5', border: 'border-teal-500/30', accent: 'text-teal-400', href: '/ko/solutions/vast-data/' },
   { icon: '🛡', label: '보안 · 망연계', desc: '방위사업 ISMS 기준\n망분리·망연계 보안 아키텍처\n설계 및 구축 전문', color: 'from-violet-500/10 to-purple-500/5', border: 'border-violet-500/30', accent: 'text-violet-400', href: '/ko/solutions/network-security/' },
 ];
+const REFS = [
+  { client: '대한민국 해군', tag: 'HPC', project: '해양수치모델 HPC 클러스터 구축' },
+  { client: '대한민국 해군', tag: 'HPC', project: 'NAIMS-II HPC 클러스터 구축' },
+  { client: '한국수력원자력', tag: '보안', project: '망연계 솔루션 통합 유지보수' },
+  { client: 'STX엔진', tag: 'AI·GPU', project: 'AI 서버 인프라 구축' },
+];
+const STATS = [
+  { to: 5, suffix: '+', label: '국방·공공 레퍼런스' },
+  { to: 3, suffix: ' PB+', label: '관리 데이터 규모' },
+  { to: 24, suffix: '×7', label: '기술지원 서비스' },
+  { to: 4, suffix: '년+', label: '운영 경력' },
+];
+const WHY = [
+  { icon: '🔐', title: '방위사업 특화 경험', desc: '해군 NAIMS-II, 해양수치모델 HPC 등 실전 국방 프로젝트 수행' },
+  { icon: '🤝', title: '글로벌 공식 파트너', desc: 'VAST Data 국내 총판 · Dell Technologies 공식 파트너' },
+  { icon: '🔧', title: '설계부터 운영까지', desc: '아키텍처 설계 → 구축 → 24×7 기술지원의 원스톱 서비스' },
+];
 
 export default function HomePage() {
   return (
     <div className="bg-[#020c18] text-white overflow-x-hidden">
+
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-[#020c18]" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_-10%,rgba(0,180,140,0.12),transparent)]" />
@@ -130,7 +151,7 @@ export default function HomePage() {
 
       <section className="border-y border-white/5 bg-white/[0.02]">
         <div className="max-w-5xl mx-auto px-6 py-10 grid grid-cols-2 md:grid-cols-4 gap-8">
-          {[{to:5,suffix:'+',label:'국방·공공 레퍼런스'},{to:3,suffix:' PB+',label:'관리 데이터 규모'},{to:24,suffix:'×7',label:'기술지원 서비스'},{to:4,suffix:'년+',label:'운영 경력'}].map(s=>(
+          {STATS.map(s => (
             <div key={s.label} className="text-center">
               <div className="text-3xl md:text-4xl font-black text-teal-400"><Counter to={s.to} suffix={s.suffix} /></div>
               <div className="text-xs text-[#8899bb] mt-1 tracking-wide">{s.label}</div>
@@ -147,8 +168,8 @@ export default function HomePage() {
             <p className="text-[#8899bb] mt-4 text-lg max-w-xl mx-auto">HPC·AI·보안 인프라의 전 영역을 단일 파트너로</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
-            {PILLARS.map((p,i) => (
-              <Link key={p.label} href={p.href} className={`group relative p-8 rounded-2xl border ${p.border} bg-gradient-to-br ${p.color} hover:border-opacity-60 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-black/40 block`}>
+            {PILLARS.map(p => (
+              <Link key={p.label} href={p.href} className={`group relative p-8 rounded-2xl border ${p.border} bg-gradient-to-br ${p.color} transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-black/40 block`}>
                 <div className="text-4xl mb-5">{p.icon}</div>
                 <h3 className={`text-xl font-bold ${p.accent} mb-3`}>{p.label}</h3>
                 <p className="text-[#8899bb] text-sm leading-relaxed whitespace-pre-line">{p.desc}</p>
@@ -169,7 +190,7 @@ export default function HomePage() {
               <p className="text-teal-400 text-xs tracking-[0.3em] uppercase mb-4">Why VWorks</p>
               <h2 className="text-4xl font-black leading-tight mb-8">국방·공공 인프라<br /><span className="text-teal-400">전문성</span>이 다릅니다</h2>
               <div className="space-y-6">
-                {[{icon:'🔐',title:'방위사업 특화 경험',desc:'해군 NAIMS-II, 해양수치모델 HPC 등 실전 국방 프로젝트 수행'},{icon:'🤝',title:'글로벌 공식 파트너',desc:'VAST Data 국내 총판 · Dell Technologies 공식 파트너'},{icon:'🔧',title:'설계부터 운영까지',desc:'아키텍처 설계 → 구축 → 24×7 기술지원의 원스톱 서비스'}].map(item=>(
+                {WHY.map(item => (
                   <div key={item.title} className="flex gap-4">
                     <div className="text-2xl flex-shrink-0 mt-0.5">{item.icon}</div>
                     <div>
@@ -182,7 +203,7 @@ export default function HomePage() {
             </div>
             <div className="space-y-3">
               <p className="text-xs text-[#8899bb] tracking-widest uppercase mb-5">구축 레퍼런스</p>
-              {[{client:'대한민국 해군',tag:'HPC',project:'해양수치모델 HPC 클러스터 구축'},{client:'대한민국 해군',tag:'HPC',project:'NAIMS-II HPC 클러스터 구축'},{client:'한국수력원자력',tag:'보안',project:'망연계 솔루션 통합 유지보수'},{client:'STX엔진',tag:'AI·GPU',project:'AI 서버 인프라 구축'}].map((r,i)=>(
+              {REFS.map((r, i) => (
                 <div key={i} className="flex items-center gap-4 p-4 rounded-xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.04] transition-colors">
                   <div className="text-xs font-bold text-teal-400 bg-teal-500/10 px-2 py-1 rounded-md flex-shrink-0 min-w-[52px] text-center">{r.tag}</div>
                   <div>
@@ -192,7 +213,8 @@ export default function HomePage() {
                 </div>
               ))}
               <Link href="/ko/reference/" className="flex items-center gap-1 text-xs text-teal-400 hover:text-teal-300 mt-4 transition-colors">
-                전체 레퍼런스 보기 <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+                전체 레퍼런스 보기
+                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
               </Link>
             </div>
           </div>
@@ -203,7 +225,7 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto text-center">
           <p className="text-xs text-[#8899bb] tracking-[0.3em] uppercase mb-10">Official Partners</p>
           <div className="flex flex-wrap justify-center items-center gap-12">
-            {['VAST Data','Dell Technologies','HPE Cray','씨플랫폼','필라테크'].map(p=>(
+            {['VAST Data', 'Dell Technologies', 'HPE Cray', '씨플랫폼', '필라테크'].map(p => (
               <span key={p} className="text-[#8899bb] hover:text-white transition-colors text-sm font-medium tracking-wide">{p}</span>
             ))}
           </div>
@@ -222,6 +244,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
     </div>
   );
 }
