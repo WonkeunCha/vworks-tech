@@ -68,7 +68,7 @@ function ContactContent() {
                 {[
                   { icon: '📞', label: '대표전화', val: '051-747-6428' },
                   { icon: '✉️', label: 'Email', val: 'aiden@vworks.tech' },
-                  { icon: '🏢', label: '본사', val: '부산 해운대구 센텀3로 26' },
+                  { icon: '🏢', label: '본사', val: '부산광역시 해운대구 구남로 21번길 33, 3층' },
                   { icon: '🔬', label: '기술연구소', val: '대구 달서구 달구벌대로 1130' },
                 ].map((item, i) => (
                   <div key={i} style={{ display: 'flex', gap: 12 }}>

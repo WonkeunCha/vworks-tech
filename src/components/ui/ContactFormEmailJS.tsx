@@ -3,7 +3,7 @@
 import { useState } from 'react';
 
 const EMAILJS_SERVICE_ID = 'service_x5qus0h';
-const EMAILJS_TEMPLATE_ID = 'eckks89';
+const EMAILJS_TEMPLATE_ID = 'template_b9o6ede';
 const EMAILJS_PUBLIC_KEY = '17r0XFH17PjAC674T';
 
 const TYPES = [
