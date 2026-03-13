@@ -11,8 +11,9 @@ function HeroBg() {
     if (!canvas) return;
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
+
     let animId: number;
-    let t = 0;
+    let mouse = { x: -9999, y: -9999 };
 
     const resize = () => {
       canvas.width = window.innerWidth;
@@ -21,48 +22,102 @@ function HeroBg() {
     resize();
     window.addEventListener('resize', resize);
 
-    // 오브(빛나는 구체) 정의
-    const orbs = [
-      { x: 0.15, y: 0.3,  r: 0.55, color: [0,   80,  200], speed: 0.0003 },
-      { x: 0.75, y: 0.2,  r: 0.45, color: [0,   140, 255], speed: 0.0005 },
-      { x: 0.5,  y: 0.85, r: 0.4,  color: [0,   60,  160], speed: 0.0004 },
-      { x: 0.85, y: 0.65, r: 0.35, color: [0,   200, 180], speed: 0.0006 },
-    ];
+    const onMouseMove = (e: MouseEvent) => {
+      mouse.x = e.clientX;
+      mouse.y = e.clientY;
+    };
+    window.addEventListener('mousemove', onMouseMove);
+
+    // 파티클 정의
+    const COUNT = 110;
+    type P = { x: number; y: number; vx: number; vy: number; r: number; baseAlpha: number };
+    const particles: P[] = Array.from({ length: COUNT }, () => ({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      vx: (Math.random() - 0.5) * 0.35,
+      vy: (Math.random() - 0.5) * 0.35,
+      r: Math.random() * 1.8 + 0.6,
+      baseAlpha: Math.random() * 0.4 + 0.2,
+    }));
 
     const draw = () => {
-      t++;
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-      // 베이스 배경: 딥 네이비
+      // 배경: 딥 네이비 + 블루 오브
       ctx.fillStyle = '#020a1a';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-      // 각 오브 렌더링
-      orbs.forEach((orb, i) => {
-        const px = (orb.x + Math.sin(t * orb.speed + i) * 0.08) * canvas.width;
-        const py = (orb.y + Math.cos(t * orb.speed * 0.7 + i) * 0.06) * canvas.height;
-        const radius = orb.r * Math.min(canvas.width, canvas.height);
+      // 마우스 주변 빛나는 오브
+      const g = ctx.createRadialGradient(mouse.x, mouse.y, 0, mouse.x, mouse.y, 280);
+      g.addColorStop(0, 'rgba(0,180,220,0.10)');
+      g.addColorStop(1, 'rgba(0,100,200,0)');
+      ctx.fillStyle = g;
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-        const grad = ctx.createRadialGradient(px, py, 0, px, py, radius);
-        grad.addColorStop(0,   `rgba(${orb.color[0]},${orb.color[1]},${orb.color[2]},0.28)`);
-        grad.addColorStop(0.4, `rgba(${orb.color[0]},${orb.color[1]},${orb.color[2]},0.10)`);
-        grad.addColorStop(1,   `rgba(${orb.color[0]},${orb.color[1]},${orb.color[2]},0)`);
+      // 고정 배경 오브 (왼쪽 위 + 오른쪽)
+      const orbL = ctx.createRadialGradient(canvas.width * 0.1, canvas.height * 0.3, 0, canvas.width * 0.1, canvas.height * 0.3, canvas.width * 0.45);
+      orbL.addColorStop(0, 'rgba(0,60,180,0.18)');
+      orbL.addColorStop(1, 'rgba(0,0,0,0)');
+      ctx.fillStyle = orbL;
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-        ctx.fillStyle = grad;
+      const orbR = ctx.createRadialGradient(canvas.width * 0.85, canvas.height * 0.6, 0, canvas.width * 0.85, canvas.height * 0.6, canvas.width * 0.35);
+      orbR.addColorStop(0, 'rgba(0,160,200,0.12)');
+      orbR.addColorStop(1, 'rgba(0,0,0,0)');
+      ctx.fillStyle = orbR;
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      // 파티클 업데이트 + 렌더
+      for (const p of particles) {
+        // 마우스 반발
+        const dx = p.x - mouse.x;
+        const dy = p.y - mouse.y;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist < 120) {
+          const force = (120 - dist) / 120;
+          p.vx += (dx / dist) * force * 0.6;
+          p.vy += (dy / dist) * force * 0.6;
+        }
+
+        // 속도 감쇠
+        p.vx *= 0.97;
+        p.vy *= 0.97;
+
+        p.x += p.vx;
+        p.y += p.vy;
+
+        // 경계 반사
+        if (p.x < 0) { p.x = 0; p.vx *= -1; }
+        if (p.x > canvas.width) { p.x = canvas.width; p.vx *= -1; }
+        if (p.y < 0) { p.y = 0; p.vy *= -1; }
+        if (p.y > canvas.height) { p.y = canvas.height; p.vy *= -1; }
+
+        // 마우스 거리에 따라 밝기 증가
+        const brightBoost = dist < 200 ? (1 - dist / 200) * 0.5 : 0;
+        const alpha = Math.min(1, p.baseAlpha + brightBoost);
+
         ctx.beginPath();
-        ctx.arc(px, py, radius, 0, Math.PI * 2);
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(100,220,255,${alpha})`;
         ctx.fill();
-      });
+      }
 
-      // 미세 노이즈 도트
-      if (t % 3 === 0) {
-        for (let i = 0; i < 6; i++) {
-          const dx = Math.random() * canvas.width;
-          const dy = Math.random() * canvas.height;
-          ctx.beginPath();
-          ctx.arc(dx, dy, Math.random() * 0.8, 0, Math.PI * 2);
-          ctx.fillStyle = `rgba(100,200,255,${Math.random() * 0.15})`;
-          ctx.fill();
+      // 파티클 간 연결선 (가까운 것만)
+      const LINK_DIST = 130;
+      for (let a = 0; a < particles.length; a++) {
+        for (let b = a + 1; b < particles.length; b++) {
+          const dx = particles[a].x - particles[b].x;
+          const dy = particles[a].y - particles[b].y;
+          const d = Math.sqrt(dx * dx + dy * dy);
+          if (d < LINK_DIST) {
+            const alpha = (1 - d / LINK_DIST) * 0.18;
+            ctx.beginPath();
+            ctx.moveTo(particles[a].x, particles[a].y);
+            ctx.lineTo(particles[b].x, particles[b].y);
+            ctx.strokeStyle = `rgba(80,200,255,${alpha})`;
+            ctx.lineWidth = 0.6;
+            ctx.stroke();
+          }
         }
       }
 
@@ -73,6 +128,7 @@ function HeroBg() {
     return () => {
       cancelAnimationFrame(animId);
       window.removeEventListener('resize', resize);
+      window.removeEventListener('mousemove', onMouseMove);
     };
   }, []);
 
