@@ -63,7 +63,7 @@ export default function WxVizPage() {
       {/* 바탕 — 클릭 시 이전 페이지(기상해양 가시화)로 돌아감 */}
       <div
         className="wx-bg"
-        onClick={() => window.history.back()}
+        onClick={() => window.location.href='/ko/dev/wx-viz/'}
         aria-label="이전 페이지로 돌아가기"
       >
         <span className="wx-hint">← 탭하면 이전 페이지로 돌아갑니다</span>
