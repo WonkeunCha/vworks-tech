@@ -132,7 +132,7 @@ function HeroBg() {
     };
   }, []);
 
-  return <canvas ref={canvasRef} className="fixed inset-0 w-full h-full" style={{zIndex: -1}} />;
+  return <canvas ref={canvasRef} className="absolute inset-0 w-full h-full" />;
 }
 
 const HEADLINES = ['AI 컴퓨팅 인프라', 'HPC 클러스터 구축', 'VAST Data 스토리지', '국방·공공 특화 솔루션', '24×7 기술지원 서비스'];
@@ -195,7 +195,7 @@ const WHY = [
 
 export default function HomePage() {
   return (
-    <div className="text-white overflow-x-hidden">
+    <div className="bg-[#020a1a] text-white overflow-x-hidden">
 
 
       {/* ══════════════════════════════
@@ -206,6 +206,7 @@ export default function HomePage() {
           슬로건 섹션 — 최상단
       ══════════════════════════════ */}
       <section className="relative min-h-screen flex items-center justify-center">
+        <div className="absolute inset-0 bg-[#020a1a]" />
         <HeroBg />
         
         {/* 수평선 배경 */}
