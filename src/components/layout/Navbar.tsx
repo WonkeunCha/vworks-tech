@@ -12,8 +12,9 @@ const SOL = [
 ];
 
 const DEV = [
-  { href: '/ko/dev/cubrid/', label: 'CUBRID DB', badge: 'DB', color: 'text-purple-400' },
-  { href: '/ko/dev/wx-viz/', label: 'WX Viz', badge: 'VIZ', color: 'text-blue-400' },
+  { href: '/ko/dev/cubrid/', label: 'CUBRID DB', badge: 'DB', color: 'text-purple-400', disabled: false },
+  { href: '/ko/dev/wx-viz/', label: '기상해양 가시화', badge: 'VIZ', color: 'text-blue-400', disabled: false },
+  { href: '#', label: 'HPC 모니터링', badge: 'HPC', color: 'text-gray-500', disabled: true },
 ];
 
 export default function Navbar() {
@@ -79,14 +80,22 @@ export default function Navbar() {
               </svg>
             </button>
             {devOpen && (
-              <div className="absolute top-full left-1/2 -translate-x-1/2 w-56 bg-[#0a0f28] border border-[#1a2d4a] rounded-xl shadow-2xl overflow-hidden">
+              <div className="absolute top-full left-1/2 -translate-x-1/2 w-60 bg-[#0a0f28] border border-[#1a2d4a] rounded-xl shadow-2xl overflow-hidden">
                 <div className="p-2">
-                  {DEV.map((d) => (
-                    <Link key={d.href} href={d.href} className="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-[#1a2d4a] transition-colors group" onClick={() => setDevOpen(false)}>
-                      <span className={`text-xs font-bold ${d.color}`}>{d.badge}</span>
-                      <span className="text-sm text-[#8899bb] group-hover:text-white">{d.label}</span>
-                    </Link>
-                  ))}
+                  {DEV.map((d) =>
+                    d.disabled ? (
+                      <div key={d.href} className="flex items-center gap-3 px-4 py-3 rounded-lg opacity-40 cursor-not-allowed">
+                        <span className={`text-xs font-bold ${d.color}`}>{d.badge}</span>
+                        <span className="text-sm text-[#8899bb]">{d.label}</span>
+                        <span className="ml-auto text-[10px] text-gray-500 border border-gray-600 rounded px-1">개발중</span>
+                      </div>
+                    ) : (
+                      <Link key={d.href} href={d.href} className="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-[#1a2d4a] transition-colors group" onClick={() => setDevOpen(false)}>
+                        <span className={`text-xs font-bold ${d.color}`}>{d.badge}</span>
+                        <span className="text-sm text-[#8899bb] group-hover:text-white">{d.label}</span>
+                      </Link>
+                    )
+                  )}
                 </div>
               </div>
             )}
@@ -116,9 +125,16 @@ export default function Navbar() {
             <Link key={s.href} href={s.href} className="block py-3 text-sm text-[#8899bb] hover:text-white border-b border-[#1a2d4a]/50" onClick={() => setMobileOpen(false)}>{s.label}</Link>
           ))}
           <p className="text-xs text-[#4a6080] font-bold uppercase mt-4 mb-2">Development</p>
-          {DEV.map((d) => (
-            <Link key={d.href} href={d.href} className="block py-3 text-sm text-[#8899bb] hover:text-white border-b border-[#1a2d4a]/50" onClick={() => setMobileOpen(false)}>{d.label}</Link>
-          ))}
+          {DEV.map((d) =>
+            d.disabled ? (
+              <div key={d.href} className="flex items-center justify-between py-3 text-sm text-[#8899bb]/40 border-b border-[#1a2d4a]/50">
+                <span>{d.label}</span>
+                <span className="text-[10px] text-gray-600 border border-gray-700 rounded px-1">개발중</span>
+              </div>
+            ) : (
+              <Link key={d.href} href={d.href} className="block py-3 text-sm text-[#8899bb] hover:text-white border-b border-[#1a2d4a]/50" onClick={() => setMobileOpen(false)}>{d.label}</Link>
+            )
+          )}
           <Link href="/ko/partners/" className="block py-3 text-sm text-[#8899bb] hover:text-white border-b border-[#1a2d4a]/50" onClick={() => setMobileOpen(false)}>파트너</Link>
           <Link href="/ko/reference/" className="block py-3 text-sm text-[#8899bb] hover:text-white border-b border-[#1a2d4a]/50" onClick={() => setMobileOpen(false)}>레퍼런스</Link>
           <Link href="/ko/about/" className="block py-3 text-sm text-[#8899bb] hover:text-white border-b border-[#1a2d4a]/50" onClick={() => setMobileOpen(false)}>회사소개</Link>
