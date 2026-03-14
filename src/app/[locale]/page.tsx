@@ -220,11 +220,11 @@ export default function HomePage() {
           </div>
 
           {/* 메인 슬로건 */}
-          <h1 className="font-black leading-[1.1] tracking-tight mb-0">
-            <span className="block text-5xl md:text-7xl lg:text-[5.5rem] text-white mb-3">
+          <h1 className="font-bold leading-[1.1] tracking-tight mb-0">
+            <span className="block text-4xl md:text-6xl lg:text-[4.5rem] text-white mb-3">
               데이터의 속도로.
             </span>
-            <span className="block text-5xl md:text-7xl lg:text-[5.5rem] bg-gradient-to-r from-teal-400 via-cyan-300 to-blue-400 bg-clip-text text-transparent pb-2">
+            <span className="block text-4xl md:text-6xl lg:text-[4.5rem] bg-gradient-to-r from-teal-400 via-cyan-300 to-blue-400 bg-clip-text text-transparent pb-2">
               비즈니스의 미래로
             </span>
           </h1>
@@ -260,7 +260,7 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto px-6 py-10 grid grid-cols-2 md:grid-cols-4 gap-8">
           {STATS.map(s => (
             <div key={s.label} className="text-center">
-              <div className="text-3xl md:text-4xl font-black text-teal-400"><Counter to={s.to} suffix={s.suffix} /></div>
+              <div className="text-3xl md:text-4xl font-bold text-teal-400"><Counter to={s.to} suffix={s.suffix} /></div>
               <div className="text-xs text-[#8899bb] mt-1 tracking-wide">{s.label}</div>
             </div>
           ))}
@@ -271,7 +271,7 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto">
           <div className="mb-16 text-center">
             <p className="text-teal-400 text-xs tracking-[0.3em] uppercase mb-4">Core Business</p>
-            <h2 className="text-4xl md:text-5xl font-black text-white">3대 핵심 사업 영역</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-white">3대 핵심 사업 영역</h2>
             <p className="text-[#8899bb] mt-4 text-lg max-w-xl mx-auto">HPC·AI·보안 인프라의 전 영역을 단일 파트너로</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
@@ -295,7 +295,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
               <p className="text-teal-400 text-xs tracking-[0.3em] uppercase mb-4">Why VWorks</p>
-              <h2 className="text-4xl font-black leading-tight mb-8">국방·공공 인프라<br /><span className="text-teal-400">전문성</span>이 다릅니다</h2>
+              <h2 className="text-4xl font-bold leading-tight mb-8">국방·공공 인프라<br /><span className="text-teal-400">전문성</span>이 다릅니다</h2>
               <div className="space-y-6">
                 {WHY.map(item => (
                   <div key={item.title} className="flex gap-4">
@@ -357,7 +357,7 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-br from-teal-500/5 via-transparent to-blue-500/5" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_60%_at_50%_50%,rgba(0,212,170,0.05),transparent)]" />
         <div className="relative max-w-3xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-black mb-6">프로젝트를 시작할<br /><span className="text-teal-400">준비가 됐나요?</span></h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">프로젝트를 시작할<br /><span className="text-teal-400">준비가 됐나요?</span></h2>
           <p className="text-[#8899bb] text-lg mb-12 leading-relaxed">HPC·AI·스토리지 인프라 도입부터 운영까지<br />VWorks Technologies 전문가와 상담해 보세요</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/ko/contact/" className="px-10 py-4 bg-teal-500 hover:bg-teal-400 text-[#020c18] font-bold rounded-xl transition-all duration-200 text-sm tracking-wide">무료 기술 상담 신청</Link>
