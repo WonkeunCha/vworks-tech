@@ -66,10 +66,19 @@ export default function NewsClient({ posts }: { posts: any[] }) {
               return (
                 <div key={post.id} onClick={() => setSelected(post)}
                   style={{ cursor: 'pointer', background: '#0a1628', border: '1px solid rgba(31,74,117,.5)', borderRadius: 4, overflow: 'hidden' }}>
-                  <div style={{ aspectRatio: '16/9', background: '#0e1e35', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
+                  <div style={{ aspectRatio: '16/9', background: '#0a1628', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden', padding: 24 }}>
                     {thumb
                       ? <img src={thumb as string} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-                      : <span style={{ fontFamily: 'monospace', fontSize: 10, color: '#1f4a75' }}>{post.source ?? 'VWORKS'}</span>
+                      : <img
+                          src={
+                            post.source === 'Dell' ? 'https://upload.wikimedia.org/wikipedia/commons/8/82/Dell_Logo.png' :
+                            post.source === 'HPE' ? 'https://upload.wikimedia.org/wikipedia/commons/4/46/Hewlett_Packard_Enterprise_logo.svg' :
+                            post.source === 'VAST Data' ? 'https://www.vastdata.com/favicon.ico' :
+                            '/logo-wide.png'
+                          }
+                          alt={post.source ?? 'VWorks'}
+                          style={{ width: '70%', maxWidth: 180, maxHeight: 80, objectFit: 'contain', opacity: 0.9, filter: 'brightness(0) invert(1)' }}
+                        />
                     }
                   </div>
                   <div style={{ padding: '16px 20px' }}>
