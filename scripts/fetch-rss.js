@@ -149,25 +149,27 @@ async function fetchHPEContent(url) {
   }
 }
 
-// HPE 뉴스룸 블로그 포스트 목록 수집 (sitemap 활용)
+// HPE 뉴스룸 블로그 포스트 목록 수집 (뉴스룸 페이지 직접 파싱)
 async function fetchHPENewsroom() {
   try {
-    const sitemapUrl = 'https://www.hpe.com/sitemap.xml';
-    const xml = await httpGet(sitemapUrl);
-    const urlRe = /<loc>(https:\/\/www\.hpe\.com\/us\/en\/newsroom\/blog-post\/2026\/[^<]+)<\/loc>/g;
-    const lastmodRe = /<lastmod>([^<]+)<\/lastmod>/g;
-    const urls = []; let m;
-    while ((m = urlRe.exec(xml)) !== null) urls.push(m[1]);
-    const dates = []; let d;
-    while ((d = lastmodRe.exec(xml)) !== null) dates.push(d[1]);
-    return urls.map((url, i) => ({
-      title: url.split('/blog-post/2026/')[1]?.replace(/\d{2}\//, '')?.replace(/-/g, ' ')?.replace('.html', '') ?? '',
-      link: url,
-      pubDate: dates[i] ?? '2026-01-01',
-      description: '',
-    })).filter(i => i.link);
+    const html = await httpGet('https://www.hpe.com/us/en/newsroom.html');
+    // URL 패턴에서 블로그 포스트 추출 (URL에 연/월 날짜 포함)
+    const urlRe = /https:\/\/www\.hpe\.com\/us\/en\/newsroom\/blog-post\/(2026)\/(\d{2})\/([^"'\s><]+\.html)/g;
+    const seen = new Set();
+    const items = [];
+    let m;
+    while ((m = urlRe.exec(html)) !== null) {
+      const url = `https://www.hpe.com/us/en/newsroom/blog-post/${m[1]}/${m[2]}/${m[3]}`;
+      if (seen.has(url)) continue;
+      seen.add(url);
+      const slug = m[3].replace('.html', '').replace(/-/g, ' ');
+      const pubDate = `${m[1]}-${m[2]}-01`;
+      items.push({ title: slug, link: url, pubDate, description: '' });
+    }
+    console.log(`  HPE 뉴스룸 블로그 ${items.length}개 발견`);
+    return items;
   } catch (e) {
-    console.error(`  HPE 뉴스룸 sitemap 실패: ${e.message}`);
+    console.error(`  HPE 뉴스룸 파싱 실패: ${e.message}`);
     return [];
   }
 }
@@ -383,7 +385,7 @@ async function main() {
   // 보안뉴스 — 한국어 (번역 없이 바로 저장)
   try {
     console.log('📡 보안뉴스 RSS 수집');
-    const xml = await httpGet('https://www.boannews.com/custom/news_rss.asp');
+    const xml = await httpGet('https://www.boannews.com/media/news_rss.xml');
     const rawItems = parseXML(xml);
     console.log(`  수집: ${rawItems.length}개`);
     const filtered = rawItems.filter(item => {
