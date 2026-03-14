@@ -1,6 +1,7 @@
 const fs = require('fs');
 const https = require('https');
 const http = require('http');
+const iconv = require('iconv-lite');
 
 
 
@@ -57,12 +58,7 @@ function httpGetWithEncoding(url, redirects = 0) {
         const buf = Buffer.concat(chunks);
         // EUC-KR / CP949 계열이면 iconv로, 아니면 utf-8
         if (charset.includes('euc-kr') || charset.includes('cp949') || charset.includes('euc_kr')) {
-          try {
-            const iconv = require('iconv-lite');
-            resolve(iconv.decode(buf, 'euc-kr'));
-          } catch {
-            resolve(buf.toString('utf-8'));
-          }
+          resolve(iconv.decode(buf, 'euc-kr'));
         } else {
           resolve(buf.toString('utf-8'));
         }
