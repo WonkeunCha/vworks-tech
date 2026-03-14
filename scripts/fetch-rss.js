@@ -71,7 +71,9 @@ function parseXML(xml) {
     const b = m[1];
     const title = extractTag(b, 'title');
     const link = extractTag(b, 'link') || extractTag(b, 'guid');
-    const pubDate = extractTag(b, 'pubDate') || extractTag(b, 'dc:date');
+    // dc:date는 콜론 때문에 별도 처리
+    const pubDate = extractTag(b, 'pubDate') ||
+      (b.match(/<dc:date>([\s\S]*?)<\/dc:date>/i)?.[1]?.trim() ?? '');
     const desc = extractTag(b, 'description') || extractTag(b, 'summary');
     if (title && link) items.push({ title, link, pubDate, description: desc });
   }
