@@ -31,7 +31,7 @@ export default function Footer() {
               style={{ objectFit: "contain", height: "auto", marginBottom: 20 }}
             />
             <p style={{
-              fontFamily: "'Share Tech Mono', monospace",
+              fontFamily: "'Pretendard', sans-serif"
               fontSize: 11,
               letterSpacing: "0.15em",
               color: "var(--teal)",
