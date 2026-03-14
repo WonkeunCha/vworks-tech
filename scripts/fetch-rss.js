@@ -320,9 +320,19 @@ async function main() {
       .sort((a, b) => b.date.localeCompare(a.date))
       .slice(0, 100),
   };
-  const jsonStr = JSON.stringify(result, null, 2);
-  // BOM 없이 UTF-8로 저장
-  fs.writeFileSync(DATA_FILE, Buffer.from(jsonStr, 'utf8'));
+  // ensure_ascii=false 효과 — 한글을 이스케이프 없이 그대로 저장
+  const jsonStr = JSON.stringify(result, null, 2)
+    .replace(/\\u([0-9a-fA-F]{4})/g, (_, hex) => {
+      const code = parseInt(hex, 16);
+      // 한글(AC00-D7A3), 한글 자모(1100-11FF, 3130-318F) 범위만 디코딩
+      if ((code >= 0xAC00 && code <= 0xD7A3) ||
+          (code >= 0x1100 && code <= 0x11FF) ||
+          (code >= 0x3130 && code <= 0x318F)) {
+        return String.fromCharCode(code);
+      }
+      return `\\u${hex}`;
+    });
+  fs.writeFileSync(DATA_FILE, jsonStr, 'utf-8');
 }
 
 main().catch(console.error);
