@@ -11,6 +11,7 @@ export async function getNotionDB(dbId: string) {
       method: 'POST',
       headers: HEADERS,
       body: JSON.stringify({
+  filter: { property: '상태', select: { equals: '게시중' } },
   sorts: [{ property: '게시일', direction: 'descending' }],
 }),
       next: { revalidate: 3600 },
