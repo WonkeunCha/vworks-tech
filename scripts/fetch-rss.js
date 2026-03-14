@@ -32,15 +32,18 @@ function httpGet(url, redirects = 0) {
 // HTML 태그 및 엔티티 제거
 function stripHTML(html) {
   return html
-    .replace(/<[^>]*>/g, ' ')          // HTML 태그 제거
+    .replace(/<[^>]*>/g, ' ')
     .replace(/&amp;/g, '&')
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'")
     .replace(/&nbsp;/g, ' ')
-    .replace(/&#\d+;/g, '')            // 숫자 엔티티 제거 (특수문자)
-    .replace(/&[a-zA-Z]+;/g, '')       // 나머지 엔티티 제거
+    .replace(/&#8209;/g, '-')          // non-breaking hyphen → 일반 하이픈
+    .replace(/&#8211;/g, '-')          // en dash
+    .replace(/&#8212;/g, '-')          // em dash
+    .replace(/&#\d+;/g, '')            // 나머지 숫자 엔티티
+    .replace(/&[a-zA-Z]+;/g, '')
     .replace(/\s+/g, ' ')
     .trim();
 }
@@ -287,20 +290,23 @@ async function main() {
   } catch (e) { console.error(`HPE 실패: ${e.message}`); }
 
   try {
-    console.log('📡 VAST Data Contentful 수집');
-    const space = '2f3meiv6rg5s';
-    const token = 'tJVsuAvJJ1F2q4EHxUdXq-D9CWsUkTtPHmATM-swZzY';
-    const raw = await httpGet(`https://cdn.contentful.com/spaces/${space}/entries?content_type=article&limit=20&order=-sys.createdAt&access_token=${token}`);
-    const data = JSON.parse(raw);
-    const items = (data.items ?? []).map(item => {
-      const f = item.fields ?? {};
-      return {
-        title: f.title ?? '',
-        link: f.slug ? `https://www.vastdata.com/blog/${f.slug}` : '',
-        pubDate: f.publishedAt ?? item.sys?.createdAt ?? '',
-        description: (f.excerpt ?? f.summary ?? '').replace(/<[^>]*>/g, '').slice(0, 200),
-      };
-    }).filter(i => i.title && i.link);
+    console.log('📡 VAST Data 블로그 RSS 수집');
+    // Contentful API 대신 VAST 블로그 sitemap에서 최신 글 직접 수집
+    const sitemapXml = await httpGet('https://www.vastdata.com/blog-sitemap.xml');
+    const urlRe = /<loc>(https:\/\/www\.vastdata\.com\/blog\/[^<]+)<\/loc>/g;
+    const lastmodRe = /<lastmod>([^<]+)<\/lastmod>/g;
+    const urls = []; let m;
+    while ((m = urlRe.exec(sitemapXml)) !== null) urls.push(m[1]);
+    const dates = []; let d;
+    while ((d = lastmodRe.exec(sitemapXml)) !== null) dates.push(d[1]);
+
+    const items = urls.map((url, i) => ({
+      title: url.split('/blog/')[1]?.replace(/-/g, ' ') ?? '',
+      link: url,
+      pubDate: dates[i] ?? '',
+      description: '',
+    })).filter(i => i.link && i.pubDate);
+
     console.log(`  수집: ${items.length}개`);
     await processItems(items, 'VAST Data', '스토리지', fetchedUrls, newItems);
   } catch (e) { console.error(`VAST 실패: ${e.message}`); }
