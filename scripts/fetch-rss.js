@@ -269,8 +269,17 @@ async function main() {
     ? JSON.parse(fs.readFileSync(DATA_FILE, 'utf-8'))
     : { items: [], fetchedUrls: [] };
 
-  // 기존 항목 유지 (새 뉴스만 추가)
-  const fetchedUrls = new Set(existing.fetchedUrls ?? []);
+  // HPE, Dell 한글 깨짐 수정을 위해 재번역, VAST는 유지
+  const fetchedUrls = new Set(
+    (existing.fetchedUrls ?? []).filter(url =>
+      !url.includes('investors.hpe.com') &&
+      !url.includes('dell.com')
+    )
+  );
+  // HPE, Dell 기존 아이템 제거 (재번역)
+  existing.items = (existing.items ?? []).filter(i =>
+    i.source !== 'HPE' && i.source !== 'Dell'
+  );
   const newItems = [];
 
   try {
@@ -292,7 +301,7 @@ async function main() {
   try {
     console.log('📡 VAST Data 블로그 RSS 수집');
     // Contentful API 대신 VAST 블로그 sitemap에서 최신 글 직접 수집
-    const sitemapXml = await httpGet('https://www.vastdata.com/blog-sitemap.xml');
+    const sitemapXml = await httpGet('https://www.vastdata.com/sitemap.xml');
     const urlRe = /<loc>(https:\/\/www\.vastdata\.com\/blog\/[^<]+)<\/loc>/g;
     const lastmodRe = /<lastmod>([^<]+)<\/lastmod>/g;
     const urls = []; let m;
