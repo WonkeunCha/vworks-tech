@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -26,6 +29,11 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_NOTICE_DB_ID: a1cd5926332c486ca01678469ce3f206
+          NOTION_FAQ_DB_ID: 9735aec6c5ab4cfdb11ac2af387599f4
+          NOTION_NEWS_DB_ID: c826ccb460104e67931146b9a243db59
 
       - name: Override index.html with apex redirect
         run: |
