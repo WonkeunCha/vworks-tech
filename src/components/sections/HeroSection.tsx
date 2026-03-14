@@ -72,7 +72,7 @@ export default function HeroSection() {
           VAST Data 공식 파트너
         </div>
 
-        <h1 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "clamp(28px, 8vw, 96px)", letterSpacing: "0.02em", lineHeight: 0.95, marginBottom: 24 }}>
+        <h1 style={{ fontFamily: "'Pretendard', sans-serif", fontSize: "clamp(28px, 8vw, 96px)", letterSpacing: "0.02em", lineHeight: 0.95, marginBottom: 24 }}>
           <span style={{ display: "block" }}>데이터의 속도로,</span>
           <span style={{ display: "block", background: "linear-gradient(135deg, var(--teal) 0%, var(--cyan) 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>
             비즈니스의 미래로
@@ -99,7 +99,7 @@ export default function HeroSection() {
             { num: "24×7", label: "기술지원 서비스" },
           ].map((stat, i) => (
             <div key={i}>
-              <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 40, letterSpacing: "0.03em", color: "var(--teal)", lineHeight: 1, marginBottom: 4 }}>{stat.num}</div>
+              <div style={{ fontFamily: "'Pretendard', sans-serif", fontSize: 40, letterSpacing: "0.03em", color: "var(--teal)", lineHeight: 1, marginBottom: 4 }}>{stat.num}</div>
               <div style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: 10, letterSpacing: "0.15em", color: "var(--muted)" }}>{stat.label}</div>
             </div>
           ))}

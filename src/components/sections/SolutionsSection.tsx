@@ -39,7 +39,7 @@ export default function SolutionsSection() {
     <section style={{ padding: "80px 24px", maxWidth: 1200, margin: "0 auto" }}>
       <div style={{ marginBottom: 48 }}>
         <div style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: 12, letterSpacing: "0.3em", color: "var(--teal)", marginBottom: 12 }}>SOLUTIONS</div>
-        <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "clamp(32px, 6vw, 64px)", letterSpacing: "0.02em", lineHeight: 1, marginBottom: 16 }}>솔루션</h2>
+        <h2 style={{ fontFamily: "'Pretendard', sans-serif", fontSize: "clamp(32px, 6vw, 64px)", letterSpacing: "0.02em", lineHeight: 1, marginBottom: 16 }}>솔루션</h2>
         <p style={{ fontSize: 14, color: "var(--muted)", fontWeight: 300 }}>AI·HPC·스토리지 전 영역을 아우르는 통합 인프라 서비스</p>
       </div>
       <div style={{ display: "grid", gridTemplateColumns: `repeat(${cols}, 1fr)`, gap: 2 }}>
@@ -65,7 +65,7 @@ export default function SolutionsSection() {
                 <span style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: 10, color: "var(--muted)", letterSpacing: "0.15em", lineHeight: 1.4 }}>{card.category}</span>
                 <span style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: 10, color: tc.color, border: `1px solid ${tc.border}`, background: tc.bg, padding: "2px 8px", whiteSpace: "nowrap" }}>{card.tag}</span>
               </div>
-              <h3 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "clamp(22px, 3vw, 36px)", letterSpacing: "0.02em", lineHeight: 1.1, color: "var(--text)", marginBottom: 12 }}>{card.title}</h3>
+              <h3 style={{ fontFamily: "'Pretendard', sans-serif", fontSize: "clamp(22px, 3vw, 36px)", letterSpacing: "0.02em", lineHeight: 1.1, color: "var(--text)", marginBottom: 12 }}>{card.title}</h3>
               <p style={{ fontSize: 13, color: "var(--muted)", lineHeight: 1.7, fontWeight: 300, marginBottom: 20 }}>{card.summary}</p>
               <span style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: 11, color: tc.color, letterSpacing: "0.1em", display: "flex", alignItems: "center", gap: 6 }}>
                 LEARN MORE <span style={{ fontSize: 14 }}>→</span>

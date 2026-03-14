@@ -468,11 +468,11 @@ export default function VastDataPage() {
 
   const S = {
     label: { fontFamily: "'Share Tech Mono',monospace", fontSize: 9, letterSpacing: "0.3em", color: "var(--teal)", marginBottom: 12 } as React.CSSProperties,
-    h2: { fontFamily: "'Bebas Neue',sans-serif", fontSize: "clamp(20px, 5vw, 58px)", letterSpacing: "0.02em", lineHeight: 1.05, marginBottom: 14 } as React.CSSProperties,
+    h2: { fontFamily: "'Pretendard',sans-serif", fontSize: "clamp(20px, 5vw, 58px)", letterSpacing: "0.02em", lineHeight: 1.05, marginBottom: 14 } as React.CSSProperties,
     sub: { fontSize: 14, color: "var(--muted)", fontWeight: 300, maxWidth: 560 } as React.CSSProperties,
     body: { fontSize: 14, color: "var(--text)", fontWeight: 300, lineHeight: 1.95, marginBottom: 18 } as React.CSSProperties,
     mono: { fontFamily: "'Share Tech Mono',monospace" } as React.CSSProperties,
-    display: { fontFamily: "'Bebas Neue',sans-serif" } as React.CSSProperties,
+    display: { fontFamily: "'Pretendard',sans-serif" } as React.CSSProperties,
   };
 
   return (

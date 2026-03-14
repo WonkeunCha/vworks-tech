@@ -31,7 +31,7 @@ export default function ContactForm() {
     return (
       <div style={{ textAlign: "center", padding: "80px 32px", background: "var(--surface)", border: "1px solid var(--border-t)", borderRadius: 2 }}>
         <div style={{ fontSize: 48, marginBottom: 16 }}>✅</div>
-        <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 32, color: "var(--teal)", marginBottom: 12 }}>SUBMITTED</div>
+        <div style={{ fontFamily: "'Pretendard', sans-serif", fontSize: 32, color: "var(--teal)", marginBottom: 12 }}>SUBMITTED</div>
         <p style={{ fontSize: 14, color: "var(--text)", fontWeight: 300 }}>문의가 접수되었습니다. 1~2 영업일 내로 연락드리겠습니다.</p>
       </div>
     );

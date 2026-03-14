@@ -45,7 +45,7 @@ export default function PartnersSection() {
             "PARTNERS"
           </div>
           <h2 style={{
-            fontFamily: "'Bebas Neue', sans-serif",
+            fontFamily: "'Pretendard', sans-serif",
             fontSize: "clamp(40px, 5vw, 64px)",
             letterSpacing: "0.02em",
             lineHeight: 1,
@@ -101,7 +101,7 @@ export default function PartnersSection() {
               </div>
 
               <div style={{
-                fontFamily: "'Bebas Neue', sans-serif",
+                fontFamily: "'Pretendard', sans-serif",
                 fontSize: 20,
                 letterSpacing: "0.03em",
                 color: "var(--white)",

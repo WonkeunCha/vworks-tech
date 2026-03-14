@@ -29,7 +29,7 @@ function ContactContent() {
             CONTACT
           </div>
           <h1 style={{
-            fontFamily: "'Bebas Neue', sans-serif",
+            fontFamily: "'Pretendard', sans-serif",
             fontSize: 'clamp(48px, 6vw, 80px)',
             letterSpacing: '0.02em',
             lineHeight: 0.95,

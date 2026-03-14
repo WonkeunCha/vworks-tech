@@ -316,7 +316,7 @@ export default function DellServerPage() {
         .section{padding:0 40px 80px;position:relative;z-index:1}
         .section-inner{max-width:1240px;margin:0 auto}
         .section-label{font-family:'Share Tech Mono',monospace;font-size:9px;letter-spacing:.3em;color:var(--dell);margin-bottom:10px;text-transform:uppercase}
-        .section-title{font-family:'Bebas Neue',sans-serif;font-size:clamp(32px,4.5vw,56px);letter-spacing:.02em;line-height:1.05;margin-bottom:12px;color:var(--w)}
+        .section-title{font-family:'Pretendard',sans-serif;font-size:clamp(32px,4.5vw,56px);letter-spacing:.02em;line-height:1.05;margin-bottom:12px;color:var(--w)}
         .section-sub{font-size:13.5px;color:var(--mu);max-width:640px;font-weight:300;margin-bottom:24px;line-height:1.8}
         .reveal{opacity:0;transform:translateY(20px);transition:opacity .6s,transform .6s}
         .reveal.visible{opacity:1;transform:none}
@@ -326,7 +326,7 @@ export default function DellServerPage() {
         .hero-inner{max-width:1240px;margin:0 auto;display:grid;grid-template-columns:1fr 420px;gap:56px;align-items:start}
         .hero-badges{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:6px}
         .hero-badge{display:inline-flex;align-items:center;font-family:'Share Tech Mono',monospace;font-size:8.5px;letter-spacing:.15em;padding:5px 12px;border-radius:2px;line-height:1.4}
-        .hero-title{font-family:'Bebas Neue',sans-serif;font-size:clamp(40px,7vw,80px);letter-spacing:.02em;line-height:.92;margin:18px 0 6px;background:linear-gradient(135deg,var(--dell),var(--d2));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+        .hero-title{font-family:'Pretendard',sans-serif;font-size:clamp(40px,7vw,80px);letter-spacing:.02em;line-height:.92;margin:18px 0 6px;background:linear-gradient(135deg,var(--dell),var(--d2));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
         .hero-sub{font-size:clamp(18px,3.5vw,38px);color:var(--t);font-weight:300;margin-bottom:18px;line-height:1.2}
         .hero-desc{font-size:15px;color:var(--t);font-weight:300;line-height:1.85;max-width:520px;margin-bottom:28px}
         .hero-cta-row{display:flex;gap:9px;flex-wrap:wrap}
@@ -336,7 +336,7 @@ export default function DellServerPage() {
         .product-card{border:1px solid;border-radius:2px;overflow:hidden;transition:border-color .2s;display:flex;flex-direction:column}
         .card-top{padding:22px 20px 16px;flex:1}
         .card-tier{font-family:'Share Tech Mono',monospace;font-size:8px;letter-spacing:.2em;margin-bottom:6px}
-        .card-name{font-family:'Bebas Neue',sans-serif;font-size:30px;letter-spacing:.03em;line-height:1;margin-bottom:4px}
+        .card-name{font-family:'Pretendard',sans-serif;font-size:30px;letter-spacing:.03em;line-height:1;margin-bottom:4px}
         .card-sub{font-family:'Share Tech Mono',monospace;font-size:9px;letter-spacing:.1em;color:var(--mu);margin-bottom:10px}
         .card-desc{font-size:12.5px;color:var(--t);font-weight:300;line-height:1.75}
         .card-specs{padding:14px 20px;background:var(--s2);border-top:1px solid var(--br)}
@@ -480,7 +480,7 @@ export default function DellServerPage() {
                 { n: 'PCIe5', l: '16G 기본 적용\nGen5 인터페이스', s: 'NVMe E3.S 지원' },
               ].map((s) => (
                 <div key={s.n} style={{ padding: '14px 12px', background: 'var(--s2)', border: '1px solid var(--br)', textAlign: 'center' }}>
-                  <div style={{ fontFamily: "'Bebas Neue',sans-serif", fontSize: 28, color: 'var(--dell)', lineHeight: 1 }}>{s.n}</div>
+                  <div style={{ fontFamily: "'Pretendard',sans-serif", fontSize: 28, color: 'var(--dell)', lineHeight: 1 }}>{s.n}</div>
                   <div style={{ fontSize: 11, color: 'var(--t)', lineHeight: 1.4, margin: '5px 0 4px', whiteSpace: 'pre-line' }}>{s.l}</div>
                   <div style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 8, color: 'var(--mu)', letterSpacing: '.08em' }}>{s.s}</div>
                 </div>
@@ -494,7 +494,7 @@ export default function DellServerPage() {
                 { gen: '15G', c: 'var(--teal)', bg: 'rgba(0,201,177,.07)', bd: 'rgba(0,201,177,.2)', desc: 'R×5×× / R×4×× / R350 / R250 / T550 / T350' },
               ].map((g) => (
                 <div key={g.gen} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '6px 10px', background: g.bg, border: `1px solid ${g.bd}`, borderRadius: 2, marginBottom: 4 }}>
-                  <span style={{ fontFamily: "'Bebas Neue',sans-serif", fontSize: 15, color: g.c, letterSpacing: '.08em' }}>{g.gen}</span>
+                  <span style={{ fontFamily: "'Pretendard',sans-serif", fontSize: 15, color: g.c, letterSpacing: '.08em' }}>{g.gen}</span>
                   <span style={{ fontSize: 11, color: 'var(--t)', fontWeight: 300 }}>{g.desc}</span>
                 </div>
               ))}
@@ -510,7 +510,7 @@ export default function DellServerPage() {
             <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 2, background: 'linear-gradient(90deg,var(--dell),var(--d2))' }} />
             <div>
               <div style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 9, letterSpacing: '.2em', color: 'var(--dell)', marginBottom: 10 }}>제품명 읽는 법 · PowerEdge R7625</div>
-              <div style={{ fontFamily: "'Bebas Neue',sans-serif", fontSize: 44, letterSpacing: '.1em', lineHeight: 1 }}>
+              <div style={{ fontFamily: "'Pretendard',sans-serif", fontSize: 44, letterSpacing: '.1em', lineHeight: 1 }}>
                 <span style={{ color: 'var(--dell)' }}>R</span>
                 <span style={{ color: '#0097C4' }}>7</span>
                 <span style={{ color: 'var(--teal)' }}>6</span>
@@ -527,7 +527,7 @@ export default function DellServerPage() {
                 { c: 'var(--green)', k: '5', label: 'CPU 제조사', v: '0=Intel\n5=AMD' },
               ].map((item) => (
                 <div key={item.k} className="naming-chip">
-                  <div style={{ fontFamily: "'Bebas Neue',sans-serif", fontSize: 20, color: item.c }}>{item.k}</div>
+                  <div style={{ fontFamily: "'Pretendard',sans-serif", fontSize: 20, color: item.c }}>{item.k}</div>
                   <div style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 8, letterSpacing: '.1em', color: 'var(--mu)' }}>{item.label}</div>
                   <div style={{ fontSize: 11, color: 'var(--t)', marginTop: 4, lineHeight: 1.5, whiteSpace: 'pre-line' }}>{item.v}</div>
                 </div>
@@ -648,7 +648,7 @@ export default function DellServerPage() {
               <div key={s.model} className="sheet-card" style={{ borderColor: `${s.color}33` }}>
                 <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 2, background: `linear-gradient(90deg,${s.color},transparent)` }} />
                 <div style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 8, letterSpacing: '.15em', color: s.color, marginBottom: 6 }}>{s.label}</div>
-                <div style={{ fontFamily: "'Bebas Neue',sans-serif", fontSize: 22, color: s.color, lineHeight: 1, marginBottom: 5 }}>{s.model}</div>
+                <div style={{ fontFamily: "'Pretendard',sans-serif", fontSize: 22, color: s.color, lineHeight: 1, marginBottom: 5 }}>{s.model}</div>
                 <div style={{ fontSize: 11.5, color: 'var(--t)', fontWeight: 300, lineHeight: 1.6, flex: 1 }}>{s.desc}</div>
                 <a
                   href={s.href}
@@ -667,7 +667,7 @@ export default function DellServerPage() {
             <div style={{ fontSize: 26 }}>📋</div>
             <div style={{ flex: 1 }}>
               <div style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 9, letterSpacing: '.18em', color: 'var(--dell)', marginBottom: 5 }}>스펙시트 직접 요청 · 공식 견적서 발급</div>
-              <div style={{ fontFamily: "'Bebas Neue',sans-serif", fontSize: 22, letterSpacing: '.03em', marginBottom: 3 }}>특정 모델 스펙시트가 필요하신가요?</div>
+              <div style={{ fontFamily: "'Pretendard',sans-serif", fontSize: 22, letterSpacing: '.03em', marginBottom: 3 }}>특정 모델 스펙시트가 필요하신가요?</div>
               <div style={{ fontSize: 12.5, color: 'var(--t)', fontWeight: 300 }}>모델명 또는 워크로드를 알려주시면 VWorks 전문 엔지니어가 공식 스펙시트와 맞춤 견적을 제공드립니다.</div>
             </div>
             <Link href="/ko/contact" style={{ display: 'inline-flex', alignItems: 'center', background: 'linear-gradient(135deg,var(--dell),var(--d2))', color: '#fff', fontSize: 13, fontWeight: 500, padding: '11px 22px', borderRadius: 2, textDecoration: 'none' }}>
@@ -685,8 +685,8 @@ export default function DellServerPage() {
           <div className="why-grid">
             {WHY.map((w) => (
               <div key={w.n} className="why-card" style={{ borderTop: '2px solid var(--dell)' }}>
-                <div style={{ fontFamily: "'Bebas Neue',sans-serif", fontSize: 40, color: 'rgba(0,125,184,.1)', lineHeight: 1, marginBottom: 8 }}>{w.n}</div>
-                <div style={{ fontFamily: "'Bebas Neue',sans-serif", fontSize: 18, letterSpacing: '.02em', marginBottom: 8, lineHeight: 1.2 }}>{w.title}</div>
+                <div style={{ fontFamily: "'Pretendard',sans-serif", fontSize: 40, color: 'rgba(0,125,184,.1)', lineHeight: 1, marginBottom: 8 }}>{w.n}</div>
+                <div style={{ fontFamily: "'Pretendard',sans-serif", fontSize: 18, letterSpacing: '.02em', marginBottom: 8, lineHeight: 1.2 }}>{w.title}</div>
                 <div style={{ fontSize: 12, color: 'var(--mu)', fontWeight: 300, lineHeight: 1.8 }}>{w.desc}</div>
               </div>
             ))}
@@ -698,7 +698,7 @@ export default function DellServerPage() {
       <section style={{ padding: '72px clamp(16px,4vw,40px) 110px', textAlign: 'center', position: 'relative', zIndex: 1 }}>
         <div style={{ maxWidth: 600, margin: '0 auto' }}>
           <div className="section-label" style={{ justifyContent: 'center', display: 'flex' }}>Dell 서버 도입 문의</div>
-          <h2 style={{ fontFamily: "'Bebas Neue',sans-serif", fontSize: "clamp(24px, 6vw, 72px)", letterSpacing: '.02em', lineHeight: 1, marginBottom: 14 }}>지금 바로<br />견적을 받아보세요</h2>
+          <h2 style={{ fontFamily: "'Pretendard',sans-serif", fontSize: "clamp(24px, 6vw, 72px)", letterSpacing: '.02em', lineHeight: 1, marginBottom: 14 }}>지금 바로<br />견적을 받아보세요</h2>
           <p style={{ fontSize: 15, color: 'var(--mu)', fontWeight: 300, marginBottom: 28, lineHeight: 1.7 }}>
             15G/16G 중 어떤 모델이 최적인지, VWorks 엔지니어가 워크로드 분석 후 추천드립니다.
           </p>

@@ -27,7 +27,7 @@ export async function POST(req: NextRequest) {
 <body style="background:#050d1a;color:#e8f1ff;font-family:'Noto Sans KR',sans-serif;padding:40px;max-width:600px;margin:0 auto;">
   <div style="border:1px solid rgba(0,201,177,0.2);border-radius:4px;overflow:hidden;">
     <div style="background:linear-gradient(135deg,#0f2a4a,#1a3a5c);padding:24px;border-bottom:1px solid rgba(31,74,117,0.55);">
-      <h1 style="font-family:'Bebas Neue',sans-serif;font-size:28px;letter-spacing:0.04em;color:#00C9B1;margin:0;">NEW INQUIRY</h1>
+      <h1 style="font-family:'Pretendard',sans-serif;font-size:28px;letter-spacing:0.04em;color:#00C9B1;margin:0;">NEW INQUIRY</h1>
       <p style="font-family:monospace;font-size:11px;letter-spacing:0.15em;color:#5a7a9a;margin:4px 0 0;">VWorks Technologies — Contact Form</p>
     </div>
     <div style="padding:32px;">
@@ -64,7 +64,7 @@ export async function POST(req: NextRequest) {
 <body style="background:#050d1a;color:#e8f1ff;font-family:'Noto Sans KR',sans-serif;padding:40px;max-width:600px;margin:0 auto;">
   <div style="border:1px solid rgba(0,201,177,0.2);border-radius:4px;overflow:hidden;">
     <div style="background:linear-gradient(135deg,#0f2a4a,#1a3a5c);padding:24px;border-bottom:1px solid rgba(31,74,117,0.55);">
-      <h1 style="font-family:'Bebas Neue',sans-serif;font-size:24px;letter-spacing:0.04em;color:#00C9B1;margin:0;">문의가 접수되었습니다</h1>
+      <h1 style="font-family:'Pretendard',sans-serif;font-size:24px;letter-spacing:0.04em;color:#00C9B1;margin:0;">문의가 접수되었습니다</h1>
       <p style="font-size:12px;color:#5a7a9a;margin:4px 0 0;">VWorks Technologies</p>
     </div>
     <div style="padding:32px;">

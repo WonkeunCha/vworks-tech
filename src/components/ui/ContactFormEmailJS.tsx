@@ -96,7 +96,7 @@ export default function ContactFormEmailJS({ from }: { from?: string }) {
       }}>
         <div style={{ fontSize: 48, marginBottom: 16 }}>✅</div>
         <div style={{
-          fontFamily: "'Bebas Neue', sans-serif",
+          fontFamily: "'Pretendard', sans-serif",
           fontSize: 32,
           color: 'var(--teal)',
           marginBottom: 12,

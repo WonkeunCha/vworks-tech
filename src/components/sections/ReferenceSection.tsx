@@ -29,7 +29,7 @@ export default function ReferenceSection() {
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", marginBottom: 48, flexWrap: "wrap", gap: 24 }}>
           <div>
             <div style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: 11, letterSpacing: "0.3em", color: "var(--teal)", marginBottom: 12 }}>REFERENCE</div>
-            <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "clamp(28px, 5vw, 64px)", letterSpacing: "0.02em", lineHeight: 1, marginBottom: 12 }}>구축 레퍼런스</h2>
+            <h2 style={{ fontFamily: "'Pretendard', sans-serif", fontSize: "clamp(28px, 5vw, 64px)", letterSpacing: "0.02em", lineHeight: 1, marginBottom: 12 }}>구축 레퍼런스</h2>
             <p style={{ fontSize: 14, color: "var(--muted)", fontWeight: 300 }}>국방·공공·민간 분야 실제 구축 사례</p>
           </div>
           <Link href="/ko/reference" style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: 12, letterSpacing: "0.1em", color: "var(--teal)", textDecoration: "none", display: "flex", alignItems: "center", gap: 8, border: "1px solid var(--border-t)", padding: "10px 20px", borderRadius: 2 }}>
@@ -50,7 +50,7 @@ export default function ReferenceSection() {
                 /* 모바일: 2행 레이아웃 */
                 <div>
                   <div style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 12 }}>
-                    <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 28, color: "rgba(0,201,177,0.3)", lineHeight: 1, minWidth: 40 }}>
+                    <div style={{ fontFamily: "'Pretendard', sans-serif", fontSize: 28, color: "rgba(0,201,177,0.3)", lineHeight: 1, minWidth: 40 }}>
                       {String(i + 1).padStart(2, "0")}
                     </div>
                     <div>
@@ -71,7 +71,7 @@ export default function ReferenceSection() {
               ) : (
                 /* 데스크탑: 4열 그리드 */
                 <div style={{ display: "grid", gridTemplateColumns: "64px 180px 1fr auto", alignItems: "center", gap: 24 }}>
-                  <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 32, color: "rgba(0,201,177,0.25)", lineHeight: 1 }}>
+                  <div style={{ fontFamily: "'Pretendard', sans-serif", fontSize: 32, color: "rgba(0,201,177,0.25)", lineHeight: 1 }}>
                     {String(i + 1).padStart(2, "0")}
                   </div>
                   <div>
