@@ -1,22 +1,72 @@
 const Parser = require('rss-parser');
 const fs = require('fs');
-
-const RSS_FEEDS = [
-  { url: 'https://investors.hpe.com/rss/news', source: 'HPE', category: 'HPC·서버' },
-  { url: 'https://www.dell.com/en-us/blog/feed/', source: 'Dell', category: '서버' },
-  // VAST Data — 공식 블로그 RSS 미제공, PR Newswire 통해 수집
-  { url: 'https://www.prnewswire.com/rss/news-releases-list.rss?company=vast-data', source: 'VAST Data', category: '스토리지' },
-];
+const https = require('https');
 
 const DATA_FILE = 'src/data/news-auto.json';
 const FILTER_FROM = new Date('2026-01-01T00:00:00Z');
 
-// XML 파싱 오류 허용 옵션
-const parserOptions = {
+// Dell — media:content type 속성 무시하도록 커스텀 파서
+const dellParser = new Parser({
   timeout: 15000,
-  customFields: { item: ['description', 'summary'] },
-  xml2js: { strict: false, trim: true },
-};
+  customFields: {
+    item: [
+      ['media:content', 'media', { keepArray: false }],
+      ['content:encoded', 'contentEncoded'],
+    ]
+  },
+  xml2js: { strict: false },
+});
+
+// HPE — 커스텀 XML 직접 fetch
+async function fetchHPE() {
+  return new Promise((resolve, reject) => {
+    https.get('https://investors.hpe.com/rss/news', (res) => {
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => {
+        const items = [];
+        const regex = /<item>([\s\S]*?)<\/item>/g;
+        let match;
+        while ((match = regex.exec(data)) !== null) {
+          const block = match[1];
+          const title = (block.match(/<title><!\[CDATA\[(.*?)\]\]><\/title>/) ||
+                         block.match(/<title>(.*?)<\/title>/))?.[1]?.trim() ?? '';
+          const link  = (block.match(/<link>(.*?)<\/link>/) ||
+                         block.match(/<guid[^>]*>(.*?)<\/guid>/))?.[1]?.trim() ?? '';
+          const pubDate = block.match(/<pubDate>(.*?)<\/pubDate>/)?.[1]?.trim() ?? '';
+          const description = (block.match(/<description><!\[CDATA\[([\s\S]*?)\]\]><\/description>/) ||
+                               block.match(/<description>([\s\S]*?)<\/description>/))?.[1]?.trim() ?? '';
+          if (title && link) items.push({ title, link, pubDate, contentSnippet: description });
+        }
+        resolve(items);
+      });
+    }).on('error', reject).setTimeout(15000, () => reject(new Error('timeout')));
+  });
+}
+
+// VAST Data — 공식 블로그 직접 fetch (WordPress JSON API)
+async function fetchVAST() {
+  return new Promise((resolve, reject) => {
+    https.get('https://www.vastdata.com/wp-json/wp/v2/posts?per_page=20&orderby=date&order=desc', (res) => {
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => {
+        try {
+          const posts = JSON.parse(data);
+          const items = posts.map(p => ({
+            title: p.title?.rendered?.replace(/<[^>]*>/g, '') ?? '',
+            link: p.link ?? '',
+            pubDate: p.date ?? '',
+            contentSnippet: p.excerpt?.rendered?.replace(/<[^>]*>/g, '').trim() ?? '',
+          }));
+          resolve(items);
+        } catch (e) {
+          resolve([]); // JSON 실패 시 빈 배열
+        }
+      });
+    }).on('error', () => resolve([])).setTimeout(15000, () => resolve([]));
+  });
+}
 
 async function translateWithClaude(title, summary) {
   const res = await fetch('https://api.anthropic.com/v1/messages', {
@@ -48,24 +98,47 @@ Format: {"title":"한글제목","summary":"한글요약 2문장"}`,
   return JSON.parse(match[0]);
 }
 
-async function tryParseRSS(parser, url) {
-  try {
-    return await parser.parseURL(url);
-  } catch (e) {
-    console.log(`  기본 파싱 실패, 관대한 모드로 재시도: ${e.message}`);
-    // 관대한 파서로 재시도
-    const lenientParser = new Parser({
-      timeout: 15000,
-      xml2js: { strict: false, trim: true, normalize: true },
-    });
-    return await lenientParser.parseURL(url);
+async function processItems(items, source, category, fetchedUrls, newItems) {
+  const filtered = items.filter(item => {
+    const dateStr = item.pubDate ?? item.isoDate ?? item.date ?? '';
+    if (!dateStr) return false;
+    return new Date(dateStr) >= FILTER_FROM;
+  }).slice(0, 20);
+
+  console.log(`  → 2026년 이후: ${filtered.length}개`);
+
+  for (const item of filtered) {
+    const link = item.link ?? item.guid ?? '';
+    if (!link || fetchedUrls.has(link)) continue;
+
+    console.log(`  번역: ${item.title}`);
+    try {
+      const translated = await translateWithClaude(
+        item.title ?? '',
+        item.contentSnippet ?? item.summary ?? item.description ?? ''
+      );
+      const dateStr = item.pubDate ?? item.isoDate ?? item.date ?? new Date().toISOString();
+      newItems.push({
+        id: Buffer.from(link).toString('base64').slice(0, 16),
+        title: translated.title,
+        summary: translated.summary,
+        category,
+        source,
+        sourceUrl: link,
+        date: new Date(dateStr).toISOString().slice(0, 10),
+      });
+      fetchedUrls.add(link);
+      console.log(`  ✅ ${translated.title}`);
+      await new Promise(r => setTimeout(r, 500));
+    } catch (e) {
+      console.error(`  ❌ 번역 실패: ${e.message}`);
+      fetchedUrls.add(link);
+    }
   }
 }
 
 async function main() {
-  if (!fs.existsSync('src/data')) {
-    fs.mkdirSync('src/data', { recursive: true });
-  }
+  if (!fs.existsSync('src/data')) fs.mkdirSync('src/data', { recursive: true });
 
   const existing = fs.existsSync(DATA_FILE)
     ? JSON.parse(fs.readFileSync(DATA_FILE, 'utf-8'))
@@ -73,52 +146,27 @@ async function main() {
 
   const fetchedUrls = new Set(existing.fetchedUrls ?? []);
   const newItems = [];
-  const parser = new Parser(parserOptions);
 
-  for (const feed of RSS_FEEDS) {
-    try {
-      console.log(`📡 RSS 수집: ${feed.source} (${feed.url})`);
-      const parsed = await tryParseRSS(parser, feed.url);
+  // 1. Dell RSS
+  try {
+    console.log('📡 RSS 수집: Dell');
+    const parsed = await dellParser.parseURL('https://www.dell.com/en-us/blog/feed/');
+    await processItems(parsed.items ?? [], 'Dell', '서버', fetchedUrls, newItems);
+  } catch (e) { console.error(`Dell 실패: ${e.message}`); }
 
-      const filtered = (parsed.items ?? [])
-        .slice(0, 50)
-        .filter(item => {
-          if (!item.pubDate && !item.isoDate) return false;
-          const date = new Date(item.pubDate ?? item.isoDate);
-          return date >= FILTER_FROM;
-        });
+  // 2. HPE 커스텀 XML
+  try {
+    console.log('📡 RSS 수집: HPE');
+    const items = await fetchHPE();
+    await processItems(items, 'HPE', 'HPC·서버', fetchedUrls, newItems);
+  } catch (e) { console.error(`HPE 실패: ${e.message}`); }
 
-      console.log(`  → 2026년 이후 게시글: ${filtered.length}개`);
-
-      for (const item of filtered) {
-        const link = item.link ?? item.guid;
-        if (!link || fetchedUrls.has(link)) continue;
-
-        const rawSummary = item.contentSnippet ?? item.summary ?? item.description ?? item.title ?? '';
-        console.log(`  번역 중: ${item.title}`);
-        try {
-          const translated = await translateWithClaude(item.title ?? '', rawSummary);
-          newItems.push({
-            id: Buffer.from(link).toString('base64').slice(0, 16),
-            title: translated.title,
-            summary: translated.summary,
-            category: feed.category,
-            source: feed.source,
-            sourceUrl: link,
-            date: new Date(item.pubDate ?? item.isoDate).toISOString().slice(0, 10),
-          });
-          fetchedUrls.add(link);
-          console.log(`  ✅ ${translated.title}`);
-          await new Promise(r => setTimeout(r, 500));
-        } catch (e) {
-          console.error(`  ❌ 번역 실패: ${e.message}`);
-          fetchedUrls.add(link);
-        }
-      }
-    } catch (e) {
-      console.error(`RSS 수집 실패: ${feed.source} — ${e.message}`);
-    }
-  }
+  // 3. VAST Data WordPress API
+  try {
+    console.log('📡 RSS 수집: VAST Data');
+    const items = await fetchVAST();
+    await processItems(items, 'VAST Data', '스토리지', fetchedUrls, newItems);
+  } catch (e) { console.error(`VAST Data 실패: ${e.message}`); }
 
   console.log(`\n총 ${newItems.length}개 새 뉴스 추가`);
   const result = {
