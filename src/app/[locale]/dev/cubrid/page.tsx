@@ -225,7 +225,7 @@ export default function CubridPage() {
 
           <h1
             className="font-bold leading-tight mb-5 tracking-tight"
-            style={{ fontFamily: "'Exo 2',sans-serif", fontSize: "clamp(36px,6vw,68px)" }}
+            style={{ fontFamily: "'Pretendard',sans-serif", fontSize: "clamp(36px,6vw,68px)" }}
           >
             <span className="text-white">Enterprise Open Source</span>
             <br />
@@ -278,7 +278,7 @@ export default function CubridPage() {
               style={{ background: "rgba(0,133,255,0.08)", border: "1px solid rgba(0,133,255,0.2)", color: BLUE }}>
               ABOUT CUBRID
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4" style={{ fontFamily: "'Exo 2',sans-serif" }}>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4" style={{ fontFamily: "'Pretendard',sans-serif" }}>
               국산 RDBMS의 표준<br />CUBRID란 무엇인가
             </h2>
             <p className="text-base max-w-2xl mx-auto" style={{ color: MUTED }}>
@@ -332,7 +332,7 @@ export default function CubridPage() {
               style={{ background: "rgba(0,133,255,0.08)", border: "1px solid rgba(0,133,255,0.2)", color: BLUE }}>
               PLATFORM FEATURES
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4" style={{ fontFamily: "'Exo 2',sans-serif" }}>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4" style={{ fontFamily: "'Pretendard',sans-serif" }}>
               CUBRID 핵심 기능
             </h2>
             <p className="text-base" style={{ color: MUTED }}>엔터프라이즈 DBMS에 요구되는 모든 기능을 오픈소스로</p>
@@ -366,7 +366,7 @@ export default function CubridPage() {
               style={{ background: "rgba(0,133,255,0.08)", border: "1px solid rgba(0,133,255,0.2)", color: BLUE }}>
               ORACLE → CUBRID MIGRATION
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4" style={{ fontFamily: "'Exo 2',sans-serif" }}>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4" style={{ fontFamily: "'Pretendard',sans-serif" }}>
               Oracle에서 CUBRID로<br />안전하고 빠른 전환
             </h2>
             <p className="text-base max-w-2xl mx-auto" style={{ color: MUTED }}>
@@ -440,7 +440,7 @@ export default function CubridPage() {
               style={{ background: "rgba(0,133,255,0.08)", border: "1px solid rgba(0,133,255,0.2)", color: BLUE }}>
               TECHNICAL SUPPORT
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4" style={{ fontFamily: "'Exo 2',sans-serif" }}>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4" style={{ fontFamily: "'Pretendard',sans-serif" }}>
               VWorks CUBRID 기술지원
             </h2>
             <p className="text-base" style={{ color: MUTED }}>도입 규모와 운영 환경에 맞는 최적의 지원 플랜을 제공합니다</p>
@@ -500,7 +500,7 @@ export default function CubridPage() {
               style={{ background: "rgba(0,133,255,0.08)", border: "1px solid rgba(0,133,255,0.2)", color: BLUE }}>
               USE CASES
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4" style={{ fontFamily: "'Exo 2',sans-serif" }}>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4" style={{ fontFamily: "'Pretendard',sans-serif" }}>
               산업별 도입 사례
             </h2>
           </div>
@@ -543,7 +543,7 @@ export default function CubridPage() {
               style={{ background: "rgba(0,133,255,0.15)", border: "1px solid rgba(0,133,255,0.3)", color: BLUE }}>
               DB
             </div>
-            <h2 className="text-2xl md:text-3xl font-bold text-white mb-3" style={{ fontFamily: "'Exo 2',sans-serif" }}>
+            <h2 className="text-2xl md:text-3xl font-bold text-white mb-3" style={{ fontFamily: "'Pretendard',sans-serif" }}>
               CUBRID 도입을 검토하고 계신가요?
             </h2>
             <p className="text-sm mb-6" style={{ color: MUTED }}>

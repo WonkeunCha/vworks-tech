@@ -38,7 +38,7 @@
   body {
     background-color: var(--bg);
     color: var(--white);
-    font-family: "Noto Sans KR", "Share Tech Mono", sans-serif;
+    font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
     line-height: 1.7;
     overflow-x: hidden;
   }

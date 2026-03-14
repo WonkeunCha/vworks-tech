@@ -185,7 +185,7 @@ export default function PartnersPage() {
           </div>
           <h1
             className="font-bold leading-tight mb-5 text-white"
-            style={{ fontFamily: "'Exo 2', sans-serif", fontSize: "clamp(36px,6vw,64px)" }}
+            style={{ fontFamily: "'Pretendard', sans-serif", fontSize: "clamp(36px,6vw,64px)" }}
           >
             VWorks 파트너 생태계
           </h1>
@@ -290,7 +290,7 @@ export default function PartnersPage() {
               <circle cx="0" cy="0" r="52" fill="#050d1a" stroke="rgba(0,201,177,0.4)" strokeWidth="2" />
               <circle cx="0" cy="0" r="44" fill="rgba(0,201,177,0.06)" />
               <text textAnchor="middle" y="-6" fill="#00C9B1"
-                fontSize="13" fontWeight="900" fontFamily="'Exo 2', sans-serif">
+                fontSize="13" fontWeight="900" fontFamily="'Pretendard', sans-serif">
                 VWorks
               </text>
               <text textAnchor="middle" y="9" fill="rgba(212,223,240,0.5)"
@@ -410,7 +410,7 @@ export default function PartnersPage() {
             >
               ALL PARTNERS
             </div>
-            <h2 className="text-3xl font-bold text-white" style={{ fontFamily: "'Exo 2',sans-serif" }}>
+            <h2 className="text-3xl font-bold text-white" style={{ fontFamily: "'Pretendard',sans-serif" }}>
               13개 전문 파트너사
             </h2>
           </div>
@@ -481,7 +481,7 @@ export default function PartnersPage() {
             >
               NET
             </div>
-            <h2 className="text-2xl md:text-3xl font-bold text-white mb-3" style={{ fontFamily: "'Exo 2',sans-serif" }}>
+            <h2 className="text-2xl md:text-3xl font-bold text-white mb-3" style={{ fontFamily: "'Pretendard',sans-serif" }}>
               파트너십 문의
             </h2>
             <p className="text-sm mb-6" style={{ color: "rgba(212,223,240,0.45)" }}>
