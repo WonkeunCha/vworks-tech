@@ -56,6 +56,7 @@ export default function Footer() {
                 { href: "/ko/solutions/vast-data/", label: "VAST Data 스토리지" },
                 { href: "/ko/solutions/hpe-cray/", label: "HPE Cray 슈퍼컴퓨팅" },
                 { href: "/ko/solutions/dell-server/", label: "Dell PowerEdge 서버" },
+                { href: "/ko/solutions/hpe-server/", label: "HPE ProLiant 서버" },
                 { href: "/ko/solutions/network-security/", label: "보안 솔루션" },
               ].map((item) => (
                 <li key={item.href}>
