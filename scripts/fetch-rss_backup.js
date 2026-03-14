@@ -33,7 +33,7 @@ function httpGet(url, redirects = 0) {
   });
 }
 
-// Content-Type 헤더 + XML 선언 + 도메인 기반 인코딩 자동 감지 후 디코딩
+// Content-Type 헤더에서 인코딩 자동 감지 후 디코딩
 function httpGetWithEncoding(url, redirects = 0) {
   return new Promise((resolve, reject) => {
     if (redirects > 5) return reject(new Error('too many redirects'));
@@ -47,31 +47,17 @@ function httpGetWithEncoding(url, redirects = 0) {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
         return httpGetWithEncoding(res.headers.location, redirects + 1).then(resolve).catch(reject);
       }
+      // Content-Type에서 charset 추출
+      const contentType = res.headers['content-type'] || '';
+      const charsetMatch = contentType.match(/charset=([^\s;]+)/i);
+      const charset = charsetMatch?.[1]?.toLowerCase() || 'utf-8';
+
       const chunks = [];
       res.on('data', chunk => chunks.push(Buffer.from(chunk)));
       res.on('end', () => {
         const buf = Buffer.concat(chunks);
-
-        // 1단계: Content-Type 헤더에서 charset 추출
-        const contentType = res.headers['content-type'] || '';
-        const charsetMatch = contentType.match(/charset=([^\s;]+)/i);
-        let charset = charsetMatch?.[1]?.toLowerCase() || '';
-
-        // 2단계: 헤더에 charset이 없으면 XML 선언(<?xml encoding="..."?>)에서 추출
-        if (!charset) {
-          const head = buf.slice(0, 200).toString('binary');
-          const xmlEnc = head.match(/encoding\s*=\s*["']([^"']+)["']/i);
-          if (xmlEnc) charset = xmlEnc[1].toLowerCase();
-        }
-
-        // 3단계: 그래도 없으면 도메인 기반 추정 (boannews.com 등 EUC-KR 사이트)
-        if (!charset) {
-          const isKoreanLegacySite = /boannews\.com|etnews\.com|zdnet\.co\.kr|dt\.co\.kr/i.test(url);
-          charset = isKoreanLegacySite ? 'euc-kr' : 'utf-8';
-        }
-
         // EUC-KR / CP949 계열이면 iconv로, 아니면 utf-8
-        if (charset.includes('euc-kr') || charset.includes('cp949') || charset.includes('euc_kr') || charset.includes('ks_c_5601')) {
+        if (charset.includes('euc-kr') || charset.includes('cp949') || charset.includes('euc_kr')) {
           resolve(iconv.decode(buf, 'euc-kr'));
         } else {
           resolve(buf.toString('utf-8'));

@@ -151,14 +151,11 @@ export default function NewsClient({ posts }: { posts: any[] }) {
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '16px 20px', background: '#0e1e35', borderRadius: 8, border: '1px solid rgba(31,74,117,.4)' }}>
                   <span style={{ fontSize: 13, color: '#5a7a9a', flex: 1 }}>
-                    {selected.source === '보안뉴스'
-                      ? <>이 뉴스는 <strong style={{ color: '#2dd4bf' }}>{selected.source}</strong>에서 자동으로 수집된 콘텐츠입니다.</>
-                      : <>이 뉴스는 <strong style={{ color: '#2dd4bf' }}>{selected.source}</strong> 공식 블로그에서 자동으로 수집·번역된 콘텐츠입니다.</>
-                    }
+                    이 뉴스는 <strong style={{ color: '#2dd4bf' }}>{selected.source}</strong> 공식 블로그에서 자동으로 수집·번역된 콘텐츠입니다.
                   </span>
                   <a href={selected.sourceUrl} target="_blank" rel="noopener noreferrer"
                     style={{ display: 'inline-flex', alignItems: 'center', gap: 6, padding: '10px 20px', background: 'rgba(45,212,191,.15)', border: '1px solid rgba(45,212,191,.4)', borderRadius: 6, color: '#2dd4bf', fontSize: 13, textDecoration: 'none', whiteSpace: 'nowrap', fontWeight: 500 }}>
-                    {selected.source === '보안뉴스' ? '원문 기사 보기 →' : '영문 원문 보기 →'}
+                    영문 원문 보기 →
                   </a>
                 </div>
               </div>
