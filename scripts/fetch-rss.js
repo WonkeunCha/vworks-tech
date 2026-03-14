@@ -151,30 +151,7 @@ async function fetchHPEContent(url) {
   }
 }
 
-// HPE 뉴스룸 블로그 포스트 목록 수집 (뉴스룸 페이지 직접 파싱)
-async function fetchHPENewsroom() {
-  try {
-    const html = await httpGet('https://www.hpe.com/us/en/newsroom.html');
-    // URL 패턴에서 블로그 포스트 추출 (URL에 연/월 날짜 포함)
-    const urlRe = /https:\/\/www\.hpe\.com\/us\/en\/newsroom\/blog-post\/(2026)\/(\d{2})\/([^"'\s><]+\.html)/g;
-    const seen = new Set();
-    const items = [];
-    let m;
-    while ((m = urlRe.exec(html)) !== null) {
-      const url = `https://www.hpe.com/us/en/newsroom/blog-post/${m[1]}/${m[2]}/${m[3]}`;
-      if (seen.has(url)) continue;
-      seen.add(url);
-      const slug = m[3].replace('.html', '').replace(/-/g, ' ');
-      const pubDate = `${m[1]}-${m[2]}-01`;
-      items.push({ title: slug, link: url, pubDate, description: '' });
-    }
-    console.log(`  HPE 뉴스룸 블로그 ${items.length}개 발견`);
-    return items;
-  } catch (e) {
-    console.error(`  HPE 뉴스룸 파싱 실패: ${e.message}`);
-    return [];
-  }
-}
+
 
 // 보안 뉴스 본문 추출 (SecurityWeek, BleepingComputer)
 async function fetchSecurityContent(url) {
@@ -333,19 +310,11 @@ async function main() {
     await processItems(items, 'Dell', '서버', fetchedUrls, newItems);
   } catch (e) { console.error(`Dell 실패: ${e.message}`); }
 
-  // HPE 투자자 뉴스 (보도자료)
+  // HPE 뉴스룸 공식 RSS (블로그 포스트 + 보도자료 통합 30개)
   try {
-    console.log('📡 HPE 투자자 뉴스 수집');
-    const xml = await httpGet('https://investors.hpe.com/rss/news');
+    console.log('📡 HPE 뉴스룸 RSS 수집');
+    const xml = await httpGet('https://www.hpe.com/us/en/newsroom/rss.xml');
     const items = parseXML(xml);
-    console.log(`  수집: ${items.length}개`);
-    await processItems(items, 'HPE', 'HPC·서버', fetchedUrls, newItems);
-  } catch (e) { console.error(`HPE 투자자 실패: ${e.message}`); }
-
-  // HPE 뉴스룸 블로그 포스트
-  try {
-    console.log('📡 HPE 뉴스룸 블로그 수집');
-    const items = await fetchHPENewsroom();
     console.log(`  수집: ${items.length}개`);
     await processItems(items, 'HPE', 'HPC·서버', fetchedUrls, newItems);
   } catch (e) { console.error(`HPE 뉴스룸 실패: ${e.message}`); }
