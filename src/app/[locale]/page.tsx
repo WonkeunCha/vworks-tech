@@ -332,9 +332,22 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto text-center">
           <p className="text-xs text-[#8899bb] tracking-[0.3em] uppercase mb-10">Official Partners</p>
           <div className="flex flex-wrap justify-center items-center gap-12">
-            {['VAST Data', 'Dell Technologies', 'HPE Cray', '씨플랫폼', '필라테크'].map(p => (
-              <span key={p} className="text-[#8899bb] hover:text-white transition-colors text-sm font-medium tracking-wide">{p}</span>
-            ))}
+         {[
+  { name: 'VAST Data',          href: 'https://www.vastdata.com' },
+  { name: 'Dell Technologies',  href: 'https://www.dell.com/ko-kr' },
+  { name: 'HPE',                href: 'https://www.hpe.com/kr/ko/home.html' },
+  { name: '씨플랫폼',            href: 'https://www.cplatform.net' },
+  { name: '필라테크',             href: 'https://www.pilatech.co.kr' },
+].map(p => (
+  <a key={p.name} href={p.href} target="_blank" rel="noopener noreferrer"
+    className="text-[#8899bb] hover:text-white transition-colors text-sm font-medium tracking-wide">
+    {p.name}
+  </a>
+))}
+
+
+
+
           </div>
         </div>
       </section>
