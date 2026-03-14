@@ -43,7 +43,7 @@ function ContactContent() {
         </div>
 
         {/* GRID */}
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 400px', gap: 64, alignItems: 'start' }}>
+        <div className="contact-grid">
 
           {/* FORM */}
           <ContactFormEmailJS from={from} />
@@ -122,9 +122,19 @@ function ContactContent() {
       </div>
 
       <style>{`
+        .contact-grid {
+          display: grid;
+          grid-template-columns: 1fr 400px;
+          gap: 64px;
+          align-items: start;
+        }
         @media (max-width: 768px) {
-          div[style*="gridTemplateColumns: 1fr 400px"] {
-            grid-template-columns: 1fr !important;
+          .contact-grid {
+            grid-template-columns: 1fr;
+            gap: 40px;
+          }
+          div[style*="paddingTop: 100"] > div {
+            padding: 40px 20px !important;
           }
         }
       `}</style>
