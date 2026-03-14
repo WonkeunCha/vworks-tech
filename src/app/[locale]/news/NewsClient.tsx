@@ -78,6 +78,9 @@ export default function NewsClient({ posts }: { posts: any[] }) {
                             src={
                               post.source === 'Dell' ? 'https://upload.wikimedia.org/wikipedia/commons/8/82/Dell_Logo.png' :
                               post.source === 'VAST Data' ? 'https://www.vastdata.com/favicon.ico' :
+                              post.source === 'SecurityWeek' ? 'https://www.securityweek.com/favicon.ico' :
+                              post.source === 'BleepingComputer' ? 'https://www.bleepingcomputer.com/favicon.ico' :
+                              post.source === '보안뉴스' ? 'https://www.boannews.com/favicon.ico' :
                               '/logo-wide.png'
                             }
                             alt={post.source ?? 'VWorks'}
