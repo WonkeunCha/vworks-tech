@@ -216,7 +216,7 @@ export default function HomePage() {
         <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
           {/* 회사 뱃지 */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-white/[0.04] mb-14 text-xs text-[#8899bb] tracking-[0.2em] uppercase">
-            VWORKS TECHNOLOGIES · VAST Data 공인 파트너
+            VWORKS TECHNOLOGIES 
           </div>
 
           {/* 메인 슬로건 */}
