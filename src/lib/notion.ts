@@ -5,13 +5,13 @@ const HEADERS = {
   'Content-Type': 'application/json',
 };
 
-export async function getNotionDB(dbId: string) {
+export async function getNotionDB(dbId: string, sortProperty = '게시일') {
   const res = await fetch(`https://api.notion.com/v1/databases/${dbId}/query`, {
     method: 'POST',
     headers: HEADERS,
     body: JSON.stringify({
       filter: { property: '상태', select: { equals: '게시중' } },
-      sorts: [{ property: '순서', direction: 'ascending' }],
+      sorts: [{ property: sortProperty, direction: sortProperty === '순서' ? 'ascending' : 'descending' }],
     }),
     next: { revalidate: 3600 },
   });

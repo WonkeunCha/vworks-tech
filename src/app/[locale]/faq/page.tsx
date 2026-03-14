@@ -5,7 +5,7 @@ export const revalidate = 3600;
 export default async function FaqPage() {
   let faqs: any[] = [];
   try {
-    faqs = await getNotionDB(process.env.NOTION_FAQ_DB_ID!);
+    faqs = await getNotionDB(process.env.NOTION_FAQ_DB_ID!, '순서');
   } catch (e) { console.error(e); }
 
   const categories = ['전체', ...Array.from(new Set(faqs.map(f => getProp(f, '카테고리')).filter(Boolean)))];
