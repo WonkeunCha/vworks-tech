@@ -279,7 +279,7 @@ async function main() {
     console.log('📡 VAST Data Contentful 수집');
     const space = '2f3meiv6rg5s';
     const token = 'tJVsuAvJJ1F2q4EHxUdXq-D9CWsUkTtPHmATM-swZzY';
-    const raw = await httpGet(`https://cdn.contentful.com/spaces/${space}/entries?content_type=blogPost&limit=20&order=-sys.createdAt&access_token=${token}`);
+    const raw = await httpGet(`https://cdn.contentful.com/spaces/${space}/entries?content_type=article&limit=20&order=-sys.createdAt&access_token=${token}`);
     const data = JSON.parse(raw);
     const items = (data.items ?? []).map(item => {
       const f = item.fields ?? {};
