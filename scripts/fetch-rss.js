@@ -1,90 +1,116 @@
 const fs = require('fs');
 const https = require('https');
+const http = require('http');
 
 const DATA_FILE = 'src/data/news-auto.json';
 const FILTER_FROM = new Date('2026-01-01T00:00:00Z');
 
-// 범용 HTTP GET (텍스트 반환)
-function httpGet(url) {
+function httpGet(url, redirects = 0) {
   return new Promise((resolve, reject) => {
-    const req = https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0' } }, (res) => {
-      // 리다이렉트 처리
+    if (redirects > 5) return reject(new Error('too many redirects'));
+    const lib = url.startsWith('https') ? https : http;
+    const req = lib.get(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (compatible; Googlebot/2.1)',
+        'Accept': 'text/html,application/xhtml+xml,application/xml,*/*',
+        'Accept-Language': 'en-US,en;q=0.9',
+      }
+    }, (res) => {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-        return httpGet(res.headers.location).then(resolve).catch(reject);
+        return httpGet(res.headers.location, redirects + 1).then(resolve).catch(reject);
       }
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => resolve(data));
     });
     req.on('error', reject);
-    req.setTimeout(15000, () => { req.destroy(); reject(new Error('timeout')); });
+    req.setTimeout(20000, () => { req.destroy(); reject(new Error('timeout')); });
   });
 }
 
-// XML 태그 추출 헬퍼
 function extractTag(xml, tag) {
-  const re = new RegExp(`<${tag}[^>]*>(?:<!\\[CDATA\\[)?([\\s\\S]*?)(?:\\]\\]>)?<\\/${tag}>`, 'i');
-  return xml.match(re)?.[1]?.trim() ?? '';
+  const patterns = [
+    new RegExp(`<${tag}[^>]*><!\\[CDATA\\[([\\s\\S]*?)\\]\\]><\\/${tag}>`, 'i'),
+    new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, 'i'),
+  ];
+  for (const re of patterns) {
+    const m = xml.match(re);
+    if (m) return m[1].replace(/<[^>]*>/g, '').trim();
+  }
+  return '';
 }
 
-// RSS/Atom XML → items 파싱
 function parseXML(xml) {
   const items = [];
   const itemRe = /<item>([\s\S]*?)<\/item>/g;
   let m;
   while ((m = itemRe.exec(xml)) !== null) {
-    const block = m[1];
-    const title = extractTag(block, 'title');
-    const link  = extractTag(block, 'link') || extractTag(block, 'guid');
-    const pubDate = extractTag(block, 'pubDate') || extractTag(block, 'date');
-    const desc = extractTag(block, 'description') || extractTag(block, 'summary') || extractTag(block, 'content:encoded');
-    if (title && link) items.push({ title, link, pubDate, contentSnippet: desc.replace(/<[^>]*>/g, '').slice(0, 400) });
+    const b = m[1];
+    const title = extractTag(b, 'title');
+    const link = extractTag(b, 'link') || extractTag(b, 'guid');
+    const pubDate = extractTag(b, 'pubDate') || extractTag(b, 'dc:date') || extractTag(b, 'date');
+    const desc = extractTag(b, 'description') || extractTag(b, 'summary');
+    if (title && link) items.push({ title, link, pubDate, contentSnippet: desc.slice(0, 400) });
   }
   return items;
 }
 
-// Dell
+// Dell — curl 방식 직접 fetch
 async function fetchDell() {
   const xml = await httpGet('https://www.dell.com/en-us/blog/feed/');
-  return parseXML(xml);
+  const items = parseXML(xml);
+  console.log(`  XML 길이: ${xml.length}, 파싱된 아이템: ${items.length}`);
+  return items;
 }
 
-// HPE
+// HPE — investors RSS
 async function fetchHPE() {
   const xml = await httpGet('https://investors.hpe.com/rss/news');
-  return parseXML(xml);
+  const items = parseXML(xml);
+  console.log(`  XML 길이: ${xml.length}, 파싱된 아이템: ${items.length}`);
+  return items;
 }
 
-// VAST Data — Contentful API (날짜 필드 확인)
+// VAST Data — Contentful (content_type 탐색)
 async function fetchVAST() {
-  try {
-    const space = '2f3meiv6rg5s';
-    const token = 'tJVsuAvJJ1F2q4EHxUdXq-D9CWsUkTtPHmATM-swZzY';
-    const url = `https://cdn.contentful.com/spaces/${space}/entries?content_type=blogPost&limit=5&access_token=${token}`;
-    const raw = await httpGet(url);
-    const data = JSON.parse(raw);
+  const space = '2f3meiv6rg5s';
+  const token = 'tJVsuAvJJ1F2q4EHxUdXq-D9CWsUkTtPHmATM-swZzY';
 
-    // 첫 아이템 필드 확인
-    if (data.items && data.items.length > 0) {
-      const fields = Object.keys(data.items[0].fields ?? {});
-      const sys = Object.keys(data.items[0].sys ?? {});
-      console.log('  VAST Contentful 필드:', fields.join(', '));
-      console.log('  VAST Contentful sys:', sys.join(', '));
+  // content_type 목록 먼저 확인
+  try {
+    const typesRaw = await httpGet(`https://cdn.contentful.com/spaces/${space}/content_types?access_token=${token}`);
+    const types = JSON.parse(typesRaw);
+    const typeIds = (types.items ?? []).map(t => t.sys.id);
+    console.log(`  Contentful content types: ${typeIds.join(', ')}`);
+
+    // 블로그 관련 type 찾기
+    const blogType = typeIds.find(t => t.toLowerCase().includes('blog') || t.toLowerCase().includes('post') || t.toLowerCase().includes('article'));
+    if (!blogType) {
+      console.log('  블로그 타입 없음, 첫 번째 타입 시도:', typeIds[0]);
+    }
+    const useType = blogType ?? typeIds[0];
+    if (!useType) return [];
+
+    const raw = await httpGet(`https://cdn.contentful.com/spaces/${space}/entries?content_type=${useType}&limit=20&order=-sys.createdAt&access_token=${token}`);
+    const data = JSON.parse(raw);
+    console.log(`  ${useType} 타입 아이템: ${data.items?.length ?? 0}개`);
+    if (data.items?.length > 0) {
+      console.log('  필드:', Object.keys(data.items[0].fields ?? {}).join(', '));
     }
 
     return (data.items ?? []).map(item => {
       const f = item.fields ?? {};
-      // 날짜 필드 순서대로 시도
-      const dateStr = f.publishedAt ?? f.date ?? f.publicationDate ?? f.createdAt ?? item.sys?.createdAt ?? '';
+      const dateStr = f.publishedAt ?? f.date ?? f.publicationDate ?? f.publishDate ?? item.sys?.createdAt ?? '';
+      const slug = f.slug ?? f.url ?? '';
       return {
-        title: f.title ?? f.name ?? '',
-        link: `https://www.vastdata.com/blog/${f.slug ?? ''}`,
+        title: f.title ?? f.name ?? f.heading ?? '',
+        link: slug ? `https://www.vastdata.com/blog/${slug}` : '',
         pubDate: dateStr,
-        contentSnippet: (f.excerpt ?? f.summary ?? f.body ?? '').replace(/<[^>]*>/g, '').slice(0, 400),
+        contentSnippet: (f.excerpt ?? f.summary ?? f.description ?? f.body ?? '').toString().replace(/<[^>]*>/g, '').slice(0, 400),
       };
-    });
+    }).filter(i => i.title && i.link);
   } catch (e) {
-    console.error(`VAST Contentful 실패: ${e.message}`);
+    console.error(`  VAST Contentful 오류: ${e.message}`);
     return [];
   }
 }
@@ -128,7 +154,7 @@ Format: {"title":"한글제목","summary":"한글요약 2문장"}`,
       });
     });
     req.on('error', reject);
-    req.setTimeout(30000, () => { req.destroy(); reject(new Error('timeout')); });
+    req.setTimeout(30000, () => { req.destroy(); reject(new Error('API timeout')); });
     req.write(body);
     req.end();
   });
@@ -137,14 +163,17 @@ Format: {"title":"한글제목","summary":"한글요약 2문장"}`,
 async function processItems(items, source, category, fetchedUrls, newItems) {
   const filtered = items.filter(item => {
     if (!item.pubDate) return false;
-    return new Date(item.pubDate) >= FILTER_FROM;
+    try { return new Date(item.pubDate) >= FILTER_FROM; } catch { return false; }
   }).slice(0, 20);
 
   console.log(`  → 2026년 이후: ${filtered.length}개`);
 
   for (const item of filtered) {
     const link = item.link ?? '';
-    if (!link || fetchedUrls.has(link)) continue;
+    if (!link || fetchedUrls.has(link)) {
+      if (link) console.log(`  건너뜀(중복): ${item.title}`);
+      continue;
+    }
 
     console.log(`  번역: ${item.title}`);
     try {
@@ -163,7 +192,7 @@ async function processItems(items, source, category, fetchedUrls, newItems) {
       await new Promise(r => setTimeout(r, 500));
     } catch (e) {
       console.error(`  ❌ ${e.message}`);
-      fetchedUrls.add(link);
+      // 번역 실패 시 URL 등록 안 함 → 다음에 재시도
     }
   }
 }
@@ -175,7 +204,10 @@ async function main() {
     ? JSON.parse(fs.readFileSync(DATA_FILE, 'utf-8'))
     : { items: [], fetchedUrls: [] };
 
-  const fetchedUrls = new Set(existing.fetchedUrls ?? []);
+  // HPE 이전 실패 URL 초기화 (크레딧 부족으로 등록된 것)
+  const fetchedUrls = new Set(
+    (existing.fetchedUrls ?? []).filter(url => !url.includes('investors.hpe.com'))
+  );
   const newItems = [];
 
   try {
