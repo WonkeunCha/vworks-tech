@@ -2,6 +2,9 @@ import Link from 'next/link';
 import { getNotionPageMeta, getNotionBlocks, getProp } from '@/lib/notion';
 
 export const revalidate = 3600;
+export async function generateStaticParams() {
+  return [];
+}
 
 function renderBlock(block: any) {
   const { type, id } = block;
