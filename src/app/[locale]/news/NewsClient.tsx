@@ -71,8 +71,8 @@ export default function NewsClient({ posts }: { posts: any[] }) {
                       ? <img src={thumb as string} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                       : post.source === 'HPE'
                         ? <svg viewBox="0 0 140 50" style={{ width: '65%', maxWidth: 160 }} xmlns="http://www.w3.org/2000/svg">
-                            <rect x="1" y="1" width="138" height="48" rx="3" fill="none" stroke="#01A982" strokeWidth="2.5"/>
-                            <text x="70" y="33" textAnchor="middle" fontFamily="'Arial Black', Arial, sans-serif" fontWeight="900" fontSize="26" fill="#01A982" letterSpacing="2">HPE</text>
+                            <rect x="1" y="1" width="138" height="48" rx="3" fill="none" stroke="rgba(255,255,255,0.8)" strokeWidth="2.5"/>
+                            <text x="70" y="33" textAnchor="middle" fontFamily="'Arial Black', Arial, sans-serif" fontWeight="900" fontSize="26" fill="rgba(255,255,255,0.9)" letterSpacing="2">HPE</text>
                           </svg>
                         : <img
                             src={

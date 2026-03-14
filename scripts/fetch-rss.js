@@ -200,11 +200,11 @@ async function translateWithClaude(title, content, source) {
         'content-length': Buffer.byteLength(body),
       },
     }, (res) => {
-      let data = '';
-      res.on('data', chunk => data += chunk);
+      const chunks = [];
+      res.on('data', chunk => chunks.push(chunk));
       res.on('end', () => {
         try {
-          const json = JSON.parse(data);
+          const json = JSON.parse(Buffer.concat(chunks).toString('utf-8'));
           if (json.error) return reject(new Error(json.error.message));
           const text = json.content[0].text.trim();
           const match = text.match(/\{[\s\S]*\}/);
