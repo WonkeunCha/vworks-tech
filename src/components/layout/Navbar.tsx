@@ -8,6 +8,7 @@ import Link from 'next/link';
 const SOL = [
   { href: '/ko/solutions/vast-data/', label: 'VAST Data 스토리지', badge: 'STORAGE', color: 'text-teal-400' },
   { href: '/ko/solutions/hpe-cray/', label: 'HPE Cray 슈퍼컴퓨터', badge: 'HPC', color: 'text-blue-400' },
+  { href: '/ko/solutions/hpe-server/', label: 'HPE ProLiant · Synergy', badge: 'SERVER', color: 'text-sky-400' },
   { href: '/ko/solutions/dell-server/', label: 'Dell PowerEdge 서버', badge: 'SERVER', color: 'text-orange-400' },
   { href: '/ko/solutions/network-security/', label: '보안 아키텍처', badge: 'SECURITY', color: 'text-cyan-400' },
 ];
