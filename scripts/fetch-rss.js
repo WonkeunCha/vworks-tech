@@ -107,7 +107,7 @@ async function fetchVASTContent(url) {
       const idx = text.indexOf(marker, startIdx + 200);
       if (idx !== -1 && idx < endIdx) endIdx = idx;
     }
-    return text.slice(startIdx, endIdx).slice(0, 3000);
+    return text.slice(startIdx, endIdx).slice(0, 5000);
   } catch (e) {
     console.error(`  VAST 본문 fetch 실패: ${e.message}`);
     return '';
@@ -255,8 +255,8 @@ async function main() {
     ? JSON.parse(fs.readFileSync(DATA_FILE, 'utf-8'))
     : { items: [], fetchedUrls: [] };
 
-  // 기존 항목 초기화 (원문 번역 재적용을 위해)
-  const fetchedUrls = new Set();
+  // 기존 항목 유지 (새 뉴스만 추가)
+  const fetchedUrls = new Set(existing.fetchedUrls ?? []);
   const newItems = [];
 
   try {
@@ -297,7 +297,9 @@ async function main() {
   console.log(`\n총 ${newItems.length}개 새 뉴스 추가`);
   const result = {
     fetchedUrls: [...fetchedUrls],
-    items: newItems.sort((a, b) => b.date.localeCompare(a.date)).slice(0, 100),
+    items: [...newItems, ...(existing.items ?? [])]
+      .sort((a, b) => b.date.localeCompare(a.date))
+      .slice(0, 100),
   };
   fs.writeFileSync(DATA_FILE, JSON.stringify(result, null, 2), 'utf-8');
 }
