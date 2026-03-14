@@ -5,67 +5,79 @@ const https = require('https');
 const DATA_FILE = 'src/data/news-auto.json';
 const FILTER_FROM = new Date('2026-01-01T00:00:00Z');
 
-// Dell — media:content type 속성 무시하도록 커스텀 파서
-const dellParser = new Parser({
-  timeout: 15000,
-  customFields: {
-    item: [
-      ['media:content', 'media', { keepArray: false }],
-      ['content:encoded', 'contentEncoded'],
-    ]
-  },
-  xml2js: { strict: false },
-});
+// VAST Data — Contentful API (소스코드에서 발견된 키 사용)
+const CONTENTFUL_SPACE = '2f3meiv6rg5s';
+const CONTENTFUL_TOKEN = 'tJVsuAvJJ1F2q4EHxUdXq-D9CWsUkTtPHmATM-swZzY';
 
-// HPE — 커스텀 XML 직접 fetch
-async function fetchHPE() {
+async function fetchJSON(url) {
   return new Promise((resolve, reject) => {
-    https.get('https://investors.hpe.com/rss/news', (res) => {
+    https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0' } }, (res) => {
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
-        const items = [];
-        const regex = /<item>([\s\S]*?)<\/item>/g;
-        let match;
-        while ((match = regex.exec(data)) !== null) {
-          const block = match[1];
-          const title = (block.match(/<title><!\[CDATA\[(.*?)\]\]><\/title>/) ||
-                         block.match(/<title>(.*?)<\/title>/))?.[1]?.trim() ?? '';
-          const link  = (block.match(/<link>(.*?)<\/link>/) ||
-                         block.match(/<guid[^>]*>(.*?)<\/guid>/))?.[1]?.trim() ?? '';
-          const pubDate = block.match(/<pubDate>(.*?)<\/pubDate>/)?.[1]?.trim() ?? '';
-          const description = (block.match(/<description><!\[CDATA\[([\s\S]*?)\]\]><\/description>/) ||
-                               block.match(/<description>([\s\S]*?)<\/description>/))?.[1]?.trim() ?? '';
-          if (title && link) items.push({ title, link, pubDate, contentSnippet: description });
-        }
-        resolve(items);
+        try { resolve(JSON.parse(data)); }
+        catch (e) { reject(new Error('JSON parse error')); }
       });
     }).on('error', reject).setTimeout(15000, () => reject(new Error('timeout')));
   });
 }
 
-// VAST Data — 공식 블로그 직접 fetch (WordPress JSON API)
-async function fetchVAST() {
-  return new Promise((resolve, reject) => {
-    https.get('https://www.vastdata.com/wp-json/wp/v2/posts?per_page=20&orderby=date&order=desc', (res) => {
-      let data = '';
-      res.on('data', chunk => data += chunk);
-      res.on('end', () => {
-        try {
-          const posts = JSON.parse(data);
-          const items = posts.map(p => ({
-            title: p.title?.rendered?.replace(/<[^>]*>/g, '') ?? '',
-            link: p.link ?? '',
-            pubDate: p.date ?? '',
-            contentSnippet: p.excerpt?.rendered?.replace(/<[^>]*>/g, '').trim() ?? '',
-          }));
-          resolve(items);
-        } catch (e) {
-          resolve([]); // JSON 실패 시 빈 배열
-        }
-      });
-    }).on('error', () => resolve([])).setTimeout(15000, () => resolve([]));
+// Dell — strict:false 파서
+async function fetchDell() {
+  const parser = new Parser({
+    timeout: 15000,
+    xml2js: { strict: false, normalize: true, normalizeWhitespace: true },
   });
+  const parsed = await parser.parseURL('https://www.dell.com/en-us/blog/feed/');
+  return (parsed.items ?? []).map(item => ({
+    title: item.title ?? '',
+    link: item.link ?? item.guid ?? '',
+    pubDate: item.pubDate ?? item.isoDate ?? '',
+    contentSnippet: item.contentsnippet ?? item.description ?? '',
+  }));
+}
+
+// HPE — 정규식 직접 파싱
+async function fetchHPE() {
+  return new Promise((resolve, reject) => {
+    https.get('https://investors.hpe.com/rss/news',
+      { headers: { 'User-Agent': 'Mozilla/5.0' } },
+      (res) => {
+        let data = '';
+        res.on('data', chunk => data += chunk);
+        res.on('end', () => {
+          const items = [];
+          const regex = /<item>([\s\S]*?)<\/item>/g;
+          let match;
+          while ((match = regex.exec(data)) !== null) {
+            const b = match[1];
+            const title = (b.match(/<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/title>/))?.[1]?.trim() ?? '';
+            const link  = (b.match(/<link>(.*?)<\/link>/) || b.match(/<guid[^>]*>(.*?)<\/guid>/))?.[1]?.trim() ?? '';
+            const pubDate = b.match(/<pubDate>(.*?)<\/pubDate>/)?.[1]?.trim() ?? '';
+            const desc = (b.match(/<description>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/description>/))?.[1]?.trim() ?? '';
+            if (title && link) items.push({ title, link, pubDate, contentSnippet: desc });
+          }
+          resolve(items);
+        });
+      }).on('error', reject).setTimeout(15000, () => reject(new Error('timeout')));
+  });
+}
+
+// VAST Data — Contentful API
+async function fetchVAST() {
+  try {
+    const url = `https://cdn.contentful.com/spaces/${CONTENTFUL_SPACE}/entries?content_type=blogPost&order=-fields.publishedAt&limit=20&access_token=${CONTENTFUL_TOKEN}`;
+    const data = await fetchJSON(url);
+    return (data.items ?? []).map(item => ({
+      title: item.fields?.title ?? '',
+      link: `https://www.vastdata.com/blog/${item.fields?.slug ?? ''}`,
+      pubDate: item.fields?.publishedAt ?? item.sys?.createdAt ?? '',
+      contentSnippet: item.fields?.excerpt ?? item.fields?.description ?? '',
+    }));
+  } catch (e) {
+    console.error(`VAST Contentful 실패: ${e.message}`);
+    return [];
+  }
 }
 
 async function translateWithClaude(title, summary) {
@@ -100,7 +112,7 @@ Format: {"title":"한글제목","summary":"한글요약 2문장"}`,
 
 async function processItems(items, source, category, fetchedUrls, newItems) {
   const filtered = items.filter(item => {
-    const dateStr = item.pubDate ?? item.isoDate ?? item.date ?? '';
+    const dateStr = item.pubDate ?? '';
     if (!dateStr) return false;
     return new Date(dateStr) >= FILTER_FROM;
   }).slice(0, 20);
@@ -108,16 +120,15 @@ async function processItems(items, source, category, fetchedUrls, newItems) {
   console.log(`  → 2026년 이후: ${filtered.length}개`);
 
   for (const item of filtered) {
-    const link = item.link ?? item.guid ?? '';
-    if (!link || fetchedUrls.has(link)) continue;
+    const link = item.link ?? '';
+    if (!link || fetchedUrls.has(link)) {
+      if (link) console.log(`  건너뜀(중복): ${item.title}`);
+      continue;
+    }
 
     console.log(`  번역: ${item.title}`);
     try {
-      const translated = await translateWithClaude(
-        item.title ?? '',
-        item.contentSnippet ?? item.summary ?? item.description ?? ''
-      );
-      const dateStr = item.pubDate ?? item.isoDate ?? item.date ?? new Date().toISOString();
+      const translated = await translateWithClaude(item.title, item.contentSnippet ?? '');
       newItems.push({
         id: Buffer.from(link).toString('base64').slice(0, 16),
         title: translated.title,
@@ -125,7 +136,7 @@ async function processItems(items, source, category, fetchedUrls, newItems) {
         category,
         source,
         sourceUrl: link,
-        date: new Date(dateStr).toISOString().slice(0, 10),
+        date: new Date(item.pubDate).toISOString().slice(0, 10),
       });
       fetchedUrls.add(link);
       console.log(`  ✅ ${translated.title}`);
@@ -147,23 +158,23 @@ async function main() {
   const fetchedUrls = new Set(existing.fetchedUrls ?? []);
   const newItems = [];
 
-  // 1. Dell RSS
+  // 1. Dell
   try {
-    console.log('📡 RSS 수집: Dell');
-    const parsed = await dellParser.parseURL('https://www.dell.com/en-us/blog/feed/');
-    await processItems(parsed.items ?? [], 'Dell', '서버', fetchedUrls, newItems);
+    console.log('📡 Dell RSS 수집');
+    const items = await fetchDell();
+    await processItems(items, 'Dell', '서버', fetchedUrls, newItems);
   } catch (e) { console.error(`Dell 실패: ${e.message}`); }
 
-  // 2. HPE 커스텀 XML
+  // 2. HPE
   try {
-    console.log('📡 RSS 수집: HPE');
+    console.log('📡 HPE RSS 수집');
     const items = await fetchHPE();
     await processItems(items, 'HPE', 'HPC·서버', fetchedUrls, newItems);
   } catch (e) { console.error(`HPE 실패: ${e.message}`); }
 
-  // 3. VAST Data WordPress API
+  // 3. VAST Data
   try {
-    console.log('📡 RSS 수집: VAST Data');
+    console.log('📡 VAST Data Contentful 수집');
     const items = await fetchVAST();
     await processItems(items, 'VAST Data', '스토리지', fetchedUrls, newItems);
   } catch (e) { console.error(`VAST Data 실패: ${e.message}`); }
