@@ -2,13 +2,21 @@ const Parser = require('rss-parser');
 const fs = require('fs');
 
 const RSS_FEEDS = [
-  { url: 'https://vastdata.com/blog/feed', source: 'VAST Data', category: '스토리지' },
+  // VAST Data — 공식 RSS 없음, 프레스 릴리즈 페이지 대신 사용
+  { url: 'https://www.vastdata.com/rss.xml', source: 'VAST Data', category: '스토리지' },
   { url: 'https://www.hpe.com/h41271/rss.aspx?section=pressreleases&cc=us&ll=en', source: 'HPE', category: 'HPC·서버' },
   { url: 'https://www.dell.com/en-us/blog/feed/', source: 'Dell', category: '서버' },
 ];
 
 const DATA_FILE = 'src/data/news-auto.json';
 const FILTER_FROM = new Date('2026-01-01T00:00:00Z');
+
+// XML 파싱 오류 허용 옵션
+const parserOptions = {
+  timeout: 15000,
+  customFields: { item: ['description', 'summary'] },
+  xml2js: { strict: false, trim: true },
+};
 
 async function translateWithClaude(title, summary) {
   const res = await fetch('https://api.anthropic.com/v1/messages', {
@@ -23,22 +31,35 @@ async function translateWithClaude(title, summary) {
       max_tokens: 300,
       messages: [{
         role: 'user',
-        content: `Translate this IT news to Korean. Reply ONLY with valid JSON, no markdown, no explanation.
+        content: `Translate this IT news to Korean. Reply ONLY with valid JSON, no markdown.
 
 Title: ${title}
-Summary: ${summary.slice(0, 300)}
+Summary: ${String(summary).replace(/<[^>]*>/g, '').slice(0, 300)}
 
-Required format: {"title":"한글제목","summary":"한글요약 2문장"}`,
+Format: {"title":"한글제목","summary":"한글요약 2문장"}`,
       }],
     }),
   });
   const data = await res.json();
   if (data.error) throw new Error(data.error.message);
   const text = data.content[0].text.trim();
-  // JSON만 추출
   const match = text.match(/\{[\s\S]*\}/);
-  if (!match) throw new Error('JSON not found in response');
+  if (!match) throw new Error('JSON not found');
   return JSON.parse(match[0]);
+}
+
+async function tryParseRSS(parser, url) {
+  try {
+    return await parser.parseURL(url);
+  } catch (e) {
+    console.log(`  기본 파싱 실패, 관대한 모드로 재시도: ${e.message}`);
+    // 관대한 파서로 재시도
+    const lenientParser = new Parser({
+      timeout: 15000,
+      xml2js: { strict: false, trim: true, normalize: true },
+    });
+    return await lenientParser.parseURL(url);
+  }
 }
 
 async function main() {
@@ -52,51 +73,46 @@ async function main() {
 
   const fetchedUrls = new Set(existing.fetchedUrls ?? []);
   const newItems = [];
-  const parser = new Parser({ timeout: 10000 });
+  const parser = new Parser(parserOptions);
 
   for (const feed of RSS_FEEDS) {
     try {
-      console.log(`📡 RSS 수집: ${feed.source}`);
-      const parsed = await parser.parseURL(feed.url);
+      console.log(`📡 RSS 수집: ${feed.source} (${feed.url})`);
+      const parsed = await tryParseRSS(parser, feed.url);
 
-      const filtered = parsed.items
+      const filtered = (parsed.items ?? [])
         .slice(0, 50)
         .filter(item => {
-          if (!item.pubDate) return false;
-          return new Date(item.pubDate) >= FILTER_FROM;
+          if (!item.pubDate && !item.isoDate) return false;
+          const date = new Date(item.pubDate ?? item.isoDate);
+          return date >= FILTER_FROM;
         });
 
       console.log(`  → 2026년 이후 게시글: ${filtered.length}개`);
 
       for (const item of filtered) {
-        if (!item.link || fetchedUrls.has(item.link)) {
-          console.log(`  건너뜀 (중복): ${item.title}`);
-          continue;
-        }
+        const link = item.link ?? item.guid;
+        if (!link || fetchedUrls.has(link)) continue;
 
+        const rawSummary = item.contentSnippet ?? item.summary ?? item.description ?? item.title ?? '';
         console.log(`  번역 중: ${item.title}`);
         try {
-          const translated = await translateWithClaude(
-            item.title ?? '',
-            item.contentSnippet ?? item.summary ?? item.title ?? ''
-          );
-
+          const translated = await translateWithClaude(item.title ?? '', rawSummary);
           newItems.push({
-            id: Buffer.from(item.link).toString('base64').slice(0, 16),
+            id: Buffer.from(link).toString('base64').slice(0, 16),
             title: translated.title,
             summary: translated.summary,
             category: feed.category,
             source: feed.source,
-            sourceUrl: item.link,
-            date: new Date(item.pubDate).toISOString().slice(0, 10),
+            sourceUrl: link,
+            date: new Date(item.pubDate ?? item.isoDate).toISOString().slice(0, 10),
           });
-          fetchedUrls.add(item.link);
-          console.log(`  ✅ 완료: ${translated.title}`);
+          fetchedUrls.add(link);
+          console.log(`  ✅ ${translated.title}`);
           await new Promise(r => setTimeout(r, 500));
         } catch (e) {
-          console.error(`  ❌ 번역 실패: ${item.title} — ${e.message}`);
-          // 실패해도 URL은 기록해서 재시도 방지
-          fetchedUrls.add(item.link);
+          console.error(`  ❌ 번역 실패: ${e.message}`);
+          fetchedUrls.add(link);
         }
       }
     } catch (e) {
@@ -105,14 +121,11 @@ async function main() {
   }
 
   console.log(`\n총 ${newItems.length}개 새 뉴스 추가`);
-
-  const allItems = [...newItems, ...(existing.items ?? [])]
-    .sort((a, b) => b.date.localeCompare(a.date))
-    .slice(0, 100);
-
   const result = {
     fetchedUrls: [...fetchedUrls],
-    items: allItems,
+    items: [...newItems, ...(existing.items ?? [])]
+      .sort((a, b) => b.date.localeCompare(a.date))
+      .slice(0, 100),
   };
   fs.writeFileSync(DATA_FILE, JSON.stringify(result, null, 2), 'utf-8');
 }
