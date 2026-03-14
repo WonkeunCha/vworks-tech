@@ -38,7 +38,17 @@ export default async function FaqPage() {
                   </summary>
                   {answer && (
                     <div style={{ marginTop: 16, paddingTop: 16, borderTop: '1px solid rgba(31,74,117,.3)' }}>
-                      <p style={{ fontSize: 14, color: 'rgba(200,220,255,.76)', fontWeight: 300, lineHeight: 1.9 }}>{answer}</p>
+                      <div style={{ fontSize: 14, color: 'rgba(200,220,255,.76)', fontWeight: 300, lineHeight: 1.9 }}>
+                  {answer.split('\n').map((line: string, i: number) =>
+                    line.trim() === ''
+                      ? <br key={i} />
+                      : line.startsWith('•') || line.startsWith('-')
+                        ? <div key={i} style={{ paddingLeft: 16, marginBottom: 4 }}>{line}</div>
+                        : line.match(/^[①-⑳]|^\d+\./)
+                          ? <div key={i} style={{ paddingLeft: 16, marginBottom: 6, color: '#2dd4bf', fontWeight: 500 }}>{line}</div>
+                          : <div key={i} style={{ marginBottom: line === '' ? 0 : 4 }}>{line}</div>
+                  )}
+                </div>
                     </div>
                   )}
                 </details>

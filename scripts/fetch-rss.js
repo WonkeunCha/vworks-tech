@@ -1,6 +1,7 @@
 const fs = require('fs');
 const https = require('https');
 const http = require('http');
+const iconv = require('iconv-lite');
 
 const DATA_FILE = 'src/data/news-auto.json';
 const FILTER_FROM = new Date('2026-01-01T00:00:00Z');
@@ -29,13 +30,10 @@ function httpGet(url, redirects = 0) {
     req.setTimeout(20000, () => { req.destroy(); reject(new Error('timeout')); });
   });
 }
-// EUC-KR → UTF-8 변환 (보안뉴스 등 한국 사이트용)
+// EUC-KR → UTF-8 변환 (iconv-lite 사용 — 가장 안정적)
 function decodeEucKr(buffer) {
   try {
-    // Node.js 18+에서는 util.TextDecoder 또는 전역 TextDecoder 사용
-    const { TextDecoder } = require('util');
-    const decoder = new TextDecoder('euc-kr');
-    return decoder.decode(buffer);
+    return iconv.decode(buffer, 'euc-kr');
   } catch (e) {
     return buffer.toString('utf-8');
   }
