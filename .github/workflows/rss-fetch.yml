@@ -25,10 +25,11 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
-      - name: 변경사항 커밋
+      - name: 변경사항 커밋 및 배포 트리거
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull origin main --rebase
           git add src/data/news-auto.json
           git diff --staged --quiet || git commit -m "feat: RSS 뉴스 자동 업데이트 $(date '+%Y-%m-%d')"
           git push

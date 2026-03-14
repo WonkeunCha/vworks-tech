@@ -110,11 +110,20 @@ export default function NewsClient({ posts }: { posts: any[] }) {
             {/* RSS 자동수집 뉴스는 요약 + 원문 링크 */}
             {selected.isAuto ? (
               <div>
-                <p style={{ fontSize: 15, color: 'rgba(200,220,255,.82)', lineHeight: 1.9, marginBottom: 32 }}>{selected.summary}</p>
-                <a href={selected.sourceUrl} target="_blank" rel="noopener noreferrer"
-                  style={{ display: 'inline-flex', alignItems: 'center', gap: 6, padding: '10px 20px', background: 'rgba(45,212,191,.1)', border: '1px solid rgba(45,212,191,.4)', borderRadius: 6, color: '#2dd4bf', fontSize: 13, textDecoration: 'none' }}>
-                  원문 보기 ({selected.source}) →
-                </a>
+                <div style={{ background: 'rgba(45,212,191,.05)', border: '1px solid rgba(45,212,191,.15)', borderRadius: 8, padding: '24px 28px', marginBottom: 32 }}>
+                  <p style={{ fontSize: 16, color: 'rgba(220,235,255,.9)', lineHeight: 2, margin: 0, fontWeight: 300 }}>
+                    {selected.summary}
+                  </p>
+                </div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '16px 20px', background: '#0e1e35', borderRadius: 8, border: '1px solid rgba(31,74,117,.4)' }}>
+                  <span style={{ fontSize: 13, color: '#5a7a9a', flex: 1 }}>
+                    이 뉴스는 <strong style={{ color: '#2dd4bf' }}>{selected.source}</strong> 공식 블로그에서 자동으로 수집·번역된 콘텐츠입니다.
+                  </span>
+                  <a href={selected.sourceUrl} target="_blank" rel="noopener noreferrer"
+                    style={{ display: 'inline-flex', alignItems: 'center', gap: 6, padding: '10px 20px', background: 'rgba(45,212,191,.15)', border: '1px solid rgba(45,212,191,.4)', borderRadius: 6, color: '#2dd4bf', fontSize: 13, textDecoration: 'none', whiteSpace: 'nowrap', fontWeight: 500 }}>
+                    영문 원문 보기 →
+                  </a>
+                </div>
               </div>
             ) : (
               <article>{(selected.blocks ?? []).map(renderBlock)}</article>
