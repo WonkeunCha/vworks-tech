@@ -18,6 +18,11 @@ const DEV = [
   { href: '/ko/dev/wx-viz/', label: '기상해양 가시화', badge: 'VIZ', color: 'text-blue-400', disabled: false },
   { href: '#', label: 'HPC 모니터링', badge: 'HPC', color: 'text-gray-500', disabled: true },
 ];
+const COM = [
+  { href: '/ko/notice/', label: '공지사항', badge: 'NEWS', color: 'text-teal-400' },
+  { href: '/ko/faq/',    label: 'FAQ',      badge: 'FAQ',  color: 'text-cyan-400' },
+  { href: '/ko/news/',   label: '뉴스/소식', badge: 'BLOG', color: 'text-blue-400' },
+];
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -25,10 +30,14 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [solOpen, setSolOpen] = useState(false);
   const [devOpen, setDevOpen] = useState(false);
+  const [comOpen, setComOpen] = useState(false);
   const solTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const devTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const comTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
 
   const isSol = pathname?.startsWith('/ko/solutions') ?? false;
+  const isCom = pathname?.startsWith('/ko/notice') || pathname?.startsWith('/ko/faq') || pathname?.startsWith('/ko/news') || false;
   const isDev = pathname?.startsWith('/ko/dev') ?? false;
 
   useEffect(() => {
@@ -51,9 +60,11 @@ export default function Navbar() {
     if (devTimer.current) clearTimeout(devTimer.current);
     setDevOpen(true);
   };
-  const devLeave = () => {
+ const devLeave = () => {
     devTimer.current = setTimeout(() => setDevOpen(false), 150);
   };
+  const comEnter = () => { if (comTimer.current) clearTimeout(comTimer.current); setComOpen(true); };
+  const comLeave = () => { comTimer.current = setTimeout(() => setComOpen(false), 150); };
 
   const navBase = `text-sm transition-colors py-5 flex items-center gap-1`;
   const activeClass = `text-white font-semibold`;
@@ -170,6 +181,31 @@ export default function Navbar() {
           </div>
 
           {/* 일반 링크들 */}
+          {/* 커뮤니티 드롭다운 */}
+<div className="relative" onMouseEnter={comEnter} onMouseLeave={comLeave}>
+  <button className={`${navBase} ${isCom ? activeClass : inactiveClass}`}>
+    커뮤니티
+    <svg className={`w-3 h-3 transition-transform duration-200 ${comOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </button>
+  {comOpen && (
+    <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2 w-48 z-50">
+      <div className="bg-[#0a1828] border border-white/10 rounded-xl shadow-2xl shadow-black/50 overflow-hidden">
+        {COM.map(item => (
+          <Link key={item.href} href={item.href} onClick={() => setComOpen(false)}
+            className={`flex items-center gap-3 px-4 py-3 hover:bg-white/5 transition-colors group ${pathname === item.href ? 'bg-white/5' : ''}`}>
+            <span className={`text-xs font-bold px-1.5 py-0.5 rounded bg-white/10 ${item.color} flex-shrink-0`}>{item.badge}</span>
+            <span className={`text-sm ${pathname === item.href ? 'text-white font-medium' : 'text-[#c8d8e8] group-hover:text-white'}`}>{item.label}</span>
+          </Link>
+        ))}
+      </div>
+    </div>
+  )}
+</div>
+
+
+
           <Link href="/ko/partners/" className={pathname?.startsWith('/ko/partners') ? linkActiveClass : linkInactiveClass}>파트너</Link>
           <Link href="/ko/reference/" className={pathname?.startsWith('/ko/reference') ? linkActiveClass : linkInactiveClass}>레퍼런스</Link>
           <Link href="/ko/about/" className={pathname?.startsWith('/ko/about') ? linkActiveClass : linkInactiveClass}>회사소개</Link>
@@ -242,6 +278,16 @@ export default function Navbar() {
                 </Link>
               )
             ))}
+
+            <p className="text-xs text-[#8899bb] uppercase tracking-widest px-2 py-2 pt-4">커뮤니티</p>
+{COM.map(item => (
+  <Link key={item.href} href={item.href} onClick={() => setMobileOpen(false)}
+    className={`flex items-center gap-3 px-2 py-2.5 rounded-lg transition-colors ${pathname?.startsWith(item.href.slice(0,-1)) ? 'text-white bg-white/5' : 'text-[#c8d8e8] hover:text-white hover:bg-white/5'}`}>
+    <span className={`text-xs font-bold px-1.5 py-0.5 rounded bg-white/10 ${item.color}`}>{item.badge}</span>
+    {item.label}
+  </Link>
+))}
+
 
             <div className="border-t border-white/5 pt-4 mt-4 space-y-1">
               {[
