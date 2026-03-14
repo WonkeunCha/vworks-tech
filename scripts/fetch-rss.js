@@ -30,38 +30,7 @@ function httpGet(url, redirects = 0) {
     req.setTimeout(20000, () => { req.destroy(); reject(new Error('timeout')); });
   });
 }
-// EUC-KR → UTF-8 변환 (iconv-lite 사용 — 가장 안정적)
-function decodeEucKr(buffer) {
-  try {
-    return iconv.decode(buffer, 'euc-kr');
-  } catch (e) {
-    return buffer.toString('utf-8');
-  }
-}
 
-// EUC-KR 인코딩 사이트용 HTTP GET
-function httpGetEucKr(url, redirects = 0) {
-  return new Promise((resolve, reject) => {
-    if (redirects > 5) return reject(new Error('too many redirects'));
-    const lib = url.startsWith('https') ? https : http;
-    const req = lib.get(url, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; Googlebot/2.1)',
-        'Accept': 'text/html,application/xhtml+xml,*/*',
-        'Accept-Charset': 'euc-kr,utf-8',
-      }
-    }, (res) => {
-      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-        return httpGetEucKr(res.headers.location, redirects + 1).then(resolve).catch(reject);
-      }
-      const chunks = [];
-      res.on('data', chunk => chunks.push(Buffer.from(chunk)));
-      res.on('end', () => resolve(decodeEucKr(Buffer.concat(chunks))));
-    });
-    req.on('error', reject);
-    req.setTimeout(20000, () => { req.destroy(); reject(new Error('timeout')); });
-  });
-}
 // HTML 태그 및 엔티티 제거
 function stripHTML(html) {
   return html
@@ -388,7 +357,7 @@ async function main() {
   // 보안뉴스 — 한국어 (번역 없이 바로 저장)
   try {
     console.log('📡 보안뉴스 RSS 수집');
-    const xml = await httpGetEucKr('https://www.boannews.com/media/news_rss.xml');
+    const xml = await httpGet('https://www.boannews.com/media/news_rss.xml');
     const rawItems = parseXML(xml);
     console.log(`  수집: ${rawItems.length}개`);
     const filtered = rawItems.filter(item => {

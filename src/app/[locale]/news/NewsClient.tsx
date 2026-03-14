@@ -74,18 +74,26 @@ export default function NewsClient({ posts }: { posts: any[] }) {
                             <rect x="1" y="1" width="138" height="48" rx="3" fill="none" stroke="rgba(255,255,255,0.8)" strokeWidth="2.5"/>
                             <text x="70" y="33" textAnchor="middle" fontFamily="'Arial Black', Arial, sans-serif" fontWeight="900" fontSize="26" fill="rgba(255,255,255,0.9)" letterSpacing="2">HPE</text>
                           </svg>
-                        : <img
-                            src={
-                              post.source === 'Dell' ? 'https://upload.wikimedia.org/wikipedia/commons/8/82/Dell_Logo.png' :
-                              post.source === 'VAST Data' ? 'https://www.vastdata.com/favicon.ico' :
-                              post.source === 'SecurityWeek' ? 'https://www.securityweek.com/wp-content/uploads/2022/04/SecurityWeek-Small-Dark@2x.png' :
-                              post.source === 'BleepingComputer' ? 'https://www.bleepstatic.com/images/site/logo.png' :
-                              post.source === '보안뉴스' ? 'https://www.boannews.com/pds/main/default_ci.gif' :
-                              '/logo-wide.png'
-                            }
-                            alt={post.source ?? 'VWorks'}
-                            style={{ width: '70%', maxWidth: 180, maxHeight: 80, objectFit: 'contain', opacity: 0.9, filter: 'brightness(0) invert(1)' }}
-                          />
+                        : post.source === '보안뉴스'
+                          ? <svg viewBox="0 0 160 50" style={{ width: '70%', maxWidth: 180 }} xmlns="http://www.w3.org/2000/svg">
+                              <rect x="1" y="1" width="158" height="48" rx="4" fill="none" stroke="rgba(255,255,255,0.6)" strokeWidth="1.5"/>
+                              <text x="80" y="22" textAnchor="middle" fontFamily="'Malgun Gothic', sans-serif" fontSize="13" fill="rgba(255,255,255,0.9)" fontWeight="700">보안뉴스</text>
+                              <text x="80" y="38" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="9" fill="rgba(255,255,255,0.5)" letterSpacing="1">SECURITY NEWS</text>
+                            </svg>
+                          : post.source === 'SecurityWeek'
+                          ? <svg viewBox="0 0 200 50" style={{ width: '75%', maxWidth: 200 }} xmlns="http://www.w3.org/2000/svg">
+                              <text x="100" y="33" textAnchor="middle" fontFamily="'Arial Black', Arial, sans-serif" fontSize="18" fill="rgba(255,255,255,0.9)" fontWeight="900" letterSpacing="-0.5">SecurityWeek</text>
+                            </svg>
+                          : <img
+                              src={
+                                post.source === 'Dell' ? 'https://upload.wikimedia.org/wikipedia/commons/8/82/Dell_Logo.png' :
+                                post.source === 'VAST Data' ? 'https://www.vastdata.com/favicon.ico' :
+                                post.source === 'BleepingComputer' ? 'https://www.bleepstatic.com/images/site/logo.png' :
+                                '/logo-wide.png'
+                              }
+                              alt={post.source ?? 'VWorks'}
+                              style={{ width: '70%', maxWidth: 180, maxHeight: 80, objectFit: 'contain', opacity: 0.9, filter: 'brightness(0) invert(1)' }}
+                            />
                     }
                   </div>
                   <div style={{ padding: '16px 20px' }}>
