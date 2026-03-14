@@ -59,7 +59,7 @@ export default function NewsClient({ posts }: { posts: any[] }) {
             <path d="M12 7v6l4 2" stroke="#2dd4bf" strokeWidth="1.5" strokeLinecap="round"/>
           </svg>
           <p style={{ fontSize: 12, color: '#5a7a9a', fontWeight: 300, lineHeight: 1.8, margin: 0 }}>
-            이 페이지의 뉴스는 <span style={{ color: '#2dd4bf', fontWeight: 500 }}>AI(Haiku 모델)</span>가 Dell · HPE · VAST Data · SecurityWeek · BleepingComputer · 보안뉴스 등 주요 채널에서 자동 수집·번역하여 매일 자정 갱신됩니다.
+            이 페이지의 뉴스는 <span style={{ color: '#2dd4bf', fontWeight: 500 }}>AI</span>가 Dell · HPE · VAST Data · SecurityWeek · BleepingComputer · 보안뉴스 등 주요 채널에서 자동 수집·번역하여 매일 자정 갱신됩니다.
             <span style={{ color: 'rgba(200,220,255,.6)' }}> 자주 방문하셔서 최신 IT·보안 동향을 확인해보세요. 😊</span>
           </p>
         </div>
