@@ -1,7 +1,7 @@
 const fs = require('fs');
 const https = require('https');
 const http = require('http');
-const iconv = require('iconv-lite');
+
 
 const DATA_FILE = 'src/data/news-auto.json';
 const FILTER_FROM = new Date('2026-01-01T00:00:00Z');
@@ -44,7 +44,16 @@ function stripHTML(html) {
     .replace(/&#8209;/g, '-')
     .replace(/&#8211;/g, '-')
     .replace(/&#8212;/g, '-')
-    .replace(/&#\d+;/g, '')
+    .replace(/&#([0-9]+);/g, (_, code) => {
+      const n = parseInt(code, 10);
+      // 한글 범위(AC00-D7A3), 한글자모(1100-11FF, 3130-318F)는 보존
+      if ((n >= 0xAC00 && n <= 0xD7A3) ||
+          (n >= 0x1100 && n <= 0x11FF) ||
+          (n >= 0x3130 && n <= 0x318F)) {
+        return String.fromCharCode(n);
+      }
+      return '';
+    })
     .replace(/&[a-zA-Z]+;/g, '')
     .replace(/\s+/g, ' ')
     .trim();
