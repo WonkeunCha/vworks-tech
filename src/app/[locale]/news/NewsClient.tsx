@@ -78,9 +78,9 @@ export default function NewsClient({ posts }: { posts: any[] }) {
                             src={
                               post.source === 'Dell' ? 'https://upload.wikimedia.org/wikipedia/commons/8/82/Dell_Logo.png' :
                               post.source === 'VAST Data' ? 'https://www.vastdata.com/favicon.ico' :
-                              post.source === 'SecurityWeek' ? 'https://www.securityweek.com/favicon.ico' :
+                              post.source === 'SecurityWeek' ? 'https://www.securityweek.com/wp-content/uploads/2022/04/SecurityWeek-Small-Dark@2x.png' :
                               post.source === 'BleepingComputer' ? 'https://www.bleepstatic.com/images/site/logo.png' :
-                              post.source === '보안뉴스' ? 'https://www.boannews.com/favicon.ico' :
+                              post.source === '보안뉴스' ? 'https://www.boannews.com/pds/main/default_ci.gif' :
                               '/logo-wide.png'
                             }
                             alt={post.source ?? 'VWorks'}
