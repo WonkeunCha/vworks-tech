@@ -8,7 +8,7 @@ const RSS_FEEDS = [
 ];
 
 const DATA_FILE = 'src/data/news-auto.json';
-const FILTER_FROM = new Date('2026-01-01T00:00:00Z'); // 2026년 이후만 수집
+const FILTER_FROM = new Date('2026-01-01T00:00:00Z');
 
 async function translateWithClaude(title, summary) {
   const res = await fetch('https://api.anthropic.com/v1/messages', {
@@ -19,23 +19,26 @@ async function translateWithClaude(title, summary) {
       'content-type': 'application/json',
     },
     body: JSON.stringify({
-      model: 'claude-sonnet-4-6',
-      max_tokens: 500,
+      model: 'claude-haiku-4-5-20251001',
+      max_tokens: 300,
       messages: [{
         role: 'user',
-        content: `다음 IT 뉴스를 자연스러운 한국어로 번역해주세요. JSON 형식으로만 응답하세요. 마크다운 코드블록 없이 순수 JSON만 출력하세요.
+        content: `Translate this IT news to Korean. Reply ONLY with valid JSON, no markdown, no explanation.
 
-제목: ${title}
-내용: ${summary}
+Title: ${title}
+Summary: ${summary.slice(0, 300)}
 
-응답 형식:
-{"title": "한글 제목", "summary": "한글 요약 2~3문장"}`,
+Required format: {"title":"한글제목","summary":"한글요약 2문장"}`,
       }],
     }),
   });
   const data = await res.json();
+  if (data.error) throw new Error(data.error.message);
   const text = data.content[0].text.trim();
-  return JSON.parse(text);
+  // JSON만 추출
+  const match = text.match(/\{[\s\S]*\}/);
+  if (!match) throw new Error('JSON not found in response');
+  return JSON.parse(match[0]);
 }
 
 async function main() {
@@ -56,19 +59,20 @@ async function main() {
       console.log(`📡 RSS 수집: ${feed.source}`);
       const parsed = await parser.parseURL(feed.url);
 
-      // 2026년 이후 글만 필터링 (최대 50개까지 확인)
       const filtered = parsed.items
         .slice(0, 50)
         .filter(item => {
           if (!item.pubDate) return false;
-          const pubDate = new Date(item.pubDate);
-          return pubDate >= FILTER_FROM;
+          return new Date(item.pubDate) >= FILTER_FROM;
         });
 
       console.log(`  → 2026년 이후 게시글: ${filtered.length}개`);
 
       for (const item of filtered) {
-        if (!item.link || fetchedUrls.has(item.link)) continue;
+        if (!item.link || fetchedUrls.has(item.link)) {
+          console.log(`  건너뜀 (중복): ${item.title}`);
+          continue;
+        }
 
         console.log(`  번역 중: ${item.title}`);
         try {
@@ -87,31 +91,30 @@ async function main() {
             date: new Date(item.pubDate).toISOString().slice(0, 10),
           });
           fetchedUrls.add(item.link);
-          await new Promise(r => setTimeout(r, 1000));
+          console.log(`  ✅ 완료: ${translated.title}`);
+          await new Promise(r => setTimeout(r, 500));
         } catch (e) {
-          console.error(`  번역 실패: ${item.title}`, e.message);
+          console.error(`  ❌ 번역 실패: ${item.title} — ${e.message}`);
+          // 실패해도 URL은 기록해서 재시도 방지
+          fetchedUrls.add(item.link);
         }
       }
     } catch (e) {
-      console.error(`RSS 수집 실패: ${feed.source}`, e.message);
+      console.error(`RSS 수집 실패: ${feed.source} — ${e.message}`);
     }
   }
 
-  if (newItems.length > 0) {
-    // 날짜 최신순 정렬
-    const allItems = [...newItems, ...(existing.items ?? [])]
-      .sort((a, b) => b.date.localeCompare(a.date))
-      .slice(0, 100);
+  console.log(`\n총 ${newItems.length}개 새 뉴스 추가`);
 
-    const result = {
-      fetchedUrls: [...fetchedUrls],
-      items: allItems,
-    };
-    fs.writeFileSync(DATA_FILE, JSON.stringify(result, null, 2), 'utf-8');
-    console.log(`✅ ${newItems.length}개 새 뉴스 추가됨`);
-  } else {
-    console.log('새 뉴스 없음 (2026년 이후 신규 게시글 없음)');
-  }
+  const allItems = [...newItems, ...(existing.items ?? [])]
+    .sort((a, b) => b.date.localeCompare(a.date))
+    .slice(0, 100);
+
+  const result = {
+    fetchedUrls: [...fetchedUrls],
+    items: allItems,
+  };
+  fs.writeFileSync(DATA_FILE, JSON.stringify(result, null, 2), 'utf-8');
 }
 
 main().catch(console.error);
