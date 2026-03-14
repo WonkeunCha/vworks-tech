@@ -8,6 +8,7 @@ const RSS_FEEDS = [
 ];
 
 const DATA_FILE = 'src/data/news-auto.json';
+const FILTER_FROM = new Date('2026-01-01T00:00:00Z'); // 2026년 이후만 수집
 
 async function translateWithClaude(title, summary) {
   const res = await fetch('https://api.anthropic.com/v1/messages', {
@@ -55,7 +56,18 @@ async function main() {
       console.log(`📡 RSS 수집: ${feed.source}`);
       const parsed = await parser.parseURL(feed.url);
 
-      for (const item of parsed.items.slice(0, 5)) {
+      // 2026년 이후 글만 필터링 (최대 50개까지 확인)
+      const filtered = parsed.items
+        .slice(0, 50)
+        .filter(item => {
+          if (!item.pubDate) return false;
+          const pubDate = new Date(item.pubDate);
+          return pubDate >= FILTER_FROM;
+        });
+
+      console.log(`  → 2026년 이후 게시글: ${filtered.length}개`);
+
+      for (const item of filtered) {
         if (!item.link || fetchedUrls.has(item.link)) continue;
 
         console.log(`  번역 중: ${item.title}`);
@@ -72,13 +84,9 @@ async function main() {
             category: feed.category,
             source: feed.source,
             sourceUrl: item.link,
-            date: item.pubDate
-              ? new Date(item.pubDate).toISOString().slice(0, 10)
-              : new Date().toISOString().slice(0, 10),
+            date: new Date(item.pubDate).toISOString().slice(0, 10),
           });
           fetchedUrls.add(item.link);
-
-          // API 과부하 방지
           await new Promise(r => setTimeout(r, 1000));
         } catch (e) {
           console.error(`  번역 실패: ${item.title}`, e.message);
@@ -90,14 +98,19 @@ async function main() {
   }
 
   if (newItems.length > 0) {
+    // 날짜 최신순 정렬
+    const allItems = [...newItems, ...(existing.items ?? [])]
+      .sort((a, b) => b.date.localeCompare(a.date))
+      .slice(0, 100);
+
     const result = {
       fetchedUrls: [...fetchedUrls],
-      items: [...newItems, ...(existing.items ?? [])].slice(0, 100),
+      items: allItems,
     };
     fs.writeFileSync(DATA_FILE, JSON.stringify(result, null, 2), 'utf-8');
     console.log(`✅ ${newItems.length}개 새 뉴스 추가됨`);
   } else {
-    console.log('새 뉴스 없음');
+    console.log('새 뉴스 없음 (2026년 이후 신규 게시글 없음)');
   }
 }
 
