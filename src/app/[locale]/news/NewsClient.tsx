@@ -52,7 +52,17 @@ export default function NewsClient({ posts }: { posts: any[] }) {
     <main style={{ minHeight: '100vh', background: '#050d1a', color: '#e8f1ff', paddingTop: 96, paddingBottom: 80, paddingLeft: 'clamp(16px,4vw,48px)', paddingRight: 'clamp(16px,4vw,48px)', fontFamily: "'Pretendard', sans-serif" }}>
       <div style={{ maxWidth: 1100, margin: '0 auto' }}>
         <p style={{ fontFamily: 'monospace', fontSize: 9, letterSpacing: '0.3em', color: '#2dd4bf', marginBottom: 12 }}>NEWS</p>
-        <h1 style={{ fontSize: 'clamp(32px,5vw,52px)', fontWeight: 700, marginBottom: 48, lineHeight: 1 }}>뉴스 / 소식</h1>
+        <h1 style={{ fontSize: 'clamp(32px,5vw,52px)', fontWeight: 700, marginBottom: 16, lineHeight: 1 }}>뉴스 / 소식</h1>
+        <div style={{ display: 'flex', alignItems: 'flex-start', gap: 10, marginBottom: 40, padding: '14px 18px', background: 'rgba(45,212,191,.05)', border: '1px solid rgba(45,212,191,.15)', borderRadius: 6 }}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: 0, marginTop: 2 }}>
+            <circle cx="12" cy="12" r="10" stroke="#2dd4bf" strokeWidth="1.5"/>
+            <path d="M12 7v6l4 2" stroke="#2dd4bf" strokeWidth="1.5" strokeLinecap="round"/>
+          </svg>
+          <p style={{ fontSize: 12, color: '#5a7a9a', fontWeight: 300, lineHeight: 1.8, margin: 0 }}>
+            이 페이지의 뉴스는 <span style={{ color: '#2dd4bf', fontWeight: 500 }}>Claude AI (Haiku 모델)</span>이 Dell · HPE · VAST Data · SecurityWeek · BleepingComputer · 보안뉴스 등 주요 채널에서 자동 수집·번역하여 매일 자정 갱신됩니다.
+            <span style={{ color: 'rgba(200,220,255,.6)' }}> 자주 방문하셔서 최신 IT·보안 동향을 확인해보세요. 😊</span>
+          </p>
+        </div>
         {posts.length === 0 ? (
           <p style={{ color: '#5a7a9a', fontSize: 14 }}>등록된 뉴스가 없습니다.</p>
         ) : (
