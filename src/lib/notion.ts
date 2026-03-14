@@ -6,23 +6,17 @@ const HEADERS = {
 };
 
 export async function getNotionDB(dbId: string) {
-  try {
-    const res = await fetch(`https://api.notion.com/v1/databases/${dbId}/query`, {
-      method: 'POST',
-      headers: HEADERS,
-      body: JSON.stringify({
-  filter: { property: '상태', select: { equals: '게시중' } },
-  sorts: [{ property: '게시일', direction: 'descending' }],
-}),
-      next: { revalidate: 3600 },
-    });
-    const data = await res.json();
-    console.log('Notion API response:', JSON.stringify(data).slice(0, 500));
-    return data.results ?? [];
-  } catch (e) {
-    console.error('Notion API error:', e);
-    return [];
-  }
+  const res = await fetch(`https://api.notion.com/v1/databases/${dbId}/query`, {
+    method: 'POST',
+    headers: HEADERS,
+    body: JSON.stringify({
+      filter: { property: '상태', select: { equals: '게시중' } },
+      sorts: [{ property: '게시일', direction: 'descending' }],
+    }),
+    next: { revalidate: 3600 },
+  });
+  const data = await res.json();
+  return data.results ?? [];
 }
 
 export async function getNotionBlocks(pageId: string) {
