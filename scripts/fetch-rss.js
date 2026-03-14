@@ -2,10 +2,10 @@ const Parser = require('rss-parser');
 const fs = require('fs');
 
 const RSS_FEEDS = [
-  // VAST Data — 공식 RSS 없음, 프레스 릴리즈 페이지 대신 사용
-  { url: 'https://www.vastdata.com/rss.xml', source: 'VAST Data', category: '스토리지' },
-  { url: 'https://www.hpe.com/h41271/rss.aspx?section=pressreleases&cc=us&ll=en', source: 'HPE', category: 'HPC·서버' },
+  { url: 'https://investors.hpe.com/rss/news', source: 'HPE', category: 'HPC·서버' },
   { url: 'https://www.dell.com/en-us/blog/feed/', source: 'Dell', category: '서버' },
+  // VAST Data — 공식 블로그 RSS 미제공, PR Newswire 통해 수집
+  { url: 'https://www.prnewswire.com/rss/news-releases-list.rss?company=vast-data', source: 'VAST Data', category: '스토리지' },
 ];
 
 const DATA_FILE = 'src/data/news-auto.json';
