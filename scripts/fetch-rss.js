@@ -29,9 +29,20 @@ function httpGet(url, redirects = 0) {
   });
 }
 
-// HTML 태그 제거
+// HTML 태그 및 엔티티 제거
 function stripHTML(html) {
-  return html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+  return html
+    .replace(/<[^>]*>/g, ' ')          // HTML 태그 제거
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&#\d+;/g, '')            // 숫자 엔티티 제거 (특수문자)
+    .replace(/&[a-zA-Z]+;/g, '')       // 나머지 엔티티 제거
+    .replace(/\s+/g, ' ')
+    .trim();
 }
 
 // XML 태그 추출
