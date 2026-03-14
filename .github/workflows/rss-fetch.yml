@@ -29,7 +29,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/news-auto.json
+          git stash
           git pull origin main --rebase
+          git stash pop
           git add src/data/news-auto.json
           git diff --staged --quiet || git commit -m "feat: RSS 뉴스 자동 업데이트 $(date '+%Y-%m-%d')"
           git push
