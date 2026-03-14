@@ -24,6 +24,7 @@ const COM = [
   { href: '/ko/faq/',    label: 'FAQ',      badge: 'FAQ',  color: 'text-cyan-400' },
   { href: '/ko/news/',   label: '뉴스/소식', badge: 'BLOG', color: 'text-blue-400' },
 ];
+
 function GroupwareIcon() {
   return (
     <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -67,29 +68,15 @@ export default function Navbar() {
   const linkInactiveClass = `text-sm transition-colors text-[#8899bb] hover:text-white`;
 
   return (
-    <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-[#000d1a]/95 backdrop-blur-md border-b border-white/5 shadow-lg shadow-black/20' : 'bg-transparent'
-      }`}
-    >
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-[#000d1a]/95 backdrop-blur-md border-b border-white/5 shadow-lg shadow-black/20' : 'bg-transparent'}`}>
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
 
-        {/* 로고 */}
         <Link href="/ko/" className="flex items-center flex-shrink-0">
-          <Image
-            src="/logo-wide.png"
-            alt="VWorks Technologies"
-            width={180}
-            height={40}
-            className="h-9 w-auto max-w-[260px] object-contain"
-            priority
-          />
+          <Image src="/logo-wide.png" alt="VWorks Technologies" width={180} height={40} className="h-9 w-auto max-w-[260px] object-contain" priority />
         </Link>
 
-        {/* 데스크탑 네비게이션 */}
         <nav className="hidden md:flex items-center gap-8">
 
-          {/* 솔루션 드롭다운 */}
           <div className="relative" onMouseEnter={solEnter} onMouseLeave={solLeave}>
             <button className={`${navBase} ${isSol ? activeClass : inactiveClass}`}>
               솔루션
@@ -101,8 +88,7 @@ export default function Navbar() {
               <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2 w-64 z-50">
                 <div className="bg-[#0a1828] border border-white/10 rounded-xl shadow-2xl shadow-black/50 overflow-hidden">
                   {SOL.map(item => (
-                    <Link key={item.href} href={item.href} onClick={() => setSolOpen(false)}
-                      className={`flex items-center gap-3 px-4 py-3 hover:bg-white/5 transition-colors group ${pathname === item.href ? 'bg-white/5' : ''}`}>
+                    <Link key={item.href} href={item.href} onClick={() => setSolOpen(false)} className={`flex items-center gap-3 px-4 py-3 hover:bg-white/5 transition-colors group ${pathname === item.href ? 'bg-white/5' : ''}`}>
                       <span className={`text-xs font-bold px-1.5 py-0.5 rounded bg-white/10 ${item.color} flex-shrink-0`}>{item.badge}</span>
                       <span className={`text-sm ${pathname === item.href ? 'text-white font-medium' : 'text-[#c8d8e8] group-hover:text-white'}`}>{item.label}</span>
                     </Link>
@@ -112,7 +98,6 @@ export default function Navbar() {
             )}
           </div>
 
-          {/* Development 드롭다운 */}
           <div className="relative" onMouseEnter={devEnter} onMouseLeave={devLeave}>
             <button className={`${navBase} ${isDev ? activeClass : inactiveClass}`}>
               Development
@@ -131,8 +116,7 @@ export default function Navbar() {
                         <span className="text-xs text-[#8899bb] ml-auto">준비중</span>
                       </div>
                     ) : (
-                      <Link key={item.href} href={item.href} onClick={() => setDevOpen(false)}
-                        className={`flex items-center gap-3 px-4 py-3 hover:bg-white/5 transition-colors group ${pathname === item.href ? 'bg-white/5' : ''}`}>
+                      <Link key={item.href} href={item.href} onClick={() => setDevOpen(false)} className={`flex items-center gap-3 px-4 py-3 hover:bg-white/5 transition-colors group ${pathname === item.href ? 'bg-white/5' : ''}`}>
                         <span className={`text-xs font-bold px-1.5 py-0.5 rounded bg-white/10 ${item.color} flex-shrink-0`}>{item.badge}</span>
                         <span className={`text-sm ${pathname === item.href ? 'text-white font-medium' : 'text-[#c8d8e8] group-hover:text-white'}`}>{item.label}</span>
                       </Link>
@@ -143,7 +127,6 @@ export default function Navbar() {
             )}
           </div>
 
-          {/* 커뮤니티 드롭다운 */}
           <div className="relative" onMouseEnter={comEnter} onMouseLeave={comLeave}>
             <button className={`${navBase} ${isCom ? activeClass : inactiveClass}`}>
               커뮤니티
@@ -155,8 +138,7 @@ export default function Navbar() {
               <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2 w-48 z-50">
                 <div className="bg-[#0a1828] border border-white/10 rounded-xl shadow-2xl shadow-black/50 overflow-hidden">
                   {COM.map(item => (
-                    <Link key={item.href} href={item.href} onClick={() => setComOpen(false)}
-                      className={`flex items-center gap-3 px-4 py-3 hover:bg-white/5 transition-colors group ${pathname === item.href ? 'bg-white/5' : ''}`}>
+                    <Link key={item.href} href={item.href} onClick={() => setComOpen(false)} className={`flex items-center gap-3 px-4 py-3 hover:bg-white/5 transition-colors group ${pathname === item.href ? 'bg-white/5' : ''}`}>
                       <span className={`text-xs font-bold px-1.5 py-0.5 rounded bg-white/10 ${item.color} flex-shrink-0`}>{item.badge}</span>
                       <span className={`text-sm ${pathname === item.href ? 'text-white font-medium' : 'text-[#c8d8e8] group-hover:text-white'}`}>{item.label}</span>
                     </Link>
@@ -170,28 +152,20 @@ export default function Navbar() {
           <Link href="/ko/reference/" className={pathname?.startsWith('/ko/reference') ? linkActiveClass : linkInactiveClass}>레퍼런스</Link>
           <Link href="/ko/about/" className={pathname?.startsWith('/ko/about') ? linkActiveClass : linkInactiveClass}>회사소개</Link>
 
-          {/* 문의하기 버튼 */}
           <Link href="/ko/contact/" className="text-sm bg-teal-500 hover:bg-teal-400 text-[#000d1a] font-bold px-4 py-2 rounded-lg transition-colors">
             문의하기
           </Link>
 
-          {/* 구분선 */}
           <div className="w-px h-5 bg-white/20" />
 
-          {/* 그룹웨어 버튼 */}
-          
-            href="https://vworks.daouoffice.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-teal-400/40 text-teal-400 hover:bg-teal-400/10 transition-colors whitespace-nowrap"
-          >
+          <a href="https://vworks.daouoffice.com" target="_blank" rel="noopener noreferrer"
+            className="text-sm flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-teal-400/40 text-teal-400 hover:bg-teal-400/10 transition-colors whitespace-nowrap">
             <GroupwareIcon />
             그룹웨어
           </a>
 
         </nav>
 
-        {/* 모바일 햄버거 */}
         <button className="md:hidden text-white/70 hover:text-white p-2" onClick={() => setMobileOpen(!mobileOpen)} aria-label="메뉴">
           {mobileOpen ? (
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -205,7 +179,6 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* 모바일 메뉴 */}
       {mobileOpen && (
         <div className="md:hidden bg-[#000d1a]/98 backdrop-blur-md border-t border-white/5">
           <div className="px-6 py-4 space-y-1">
