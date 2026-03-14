@@ -69,16 +69,20 @@ export default function NewsClient({ posts }: { posts: any[] }) {
                   <div style={{ aspectRatio: '16/9', background: '#0a1628', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden', padding: 24 }}>
                     {thumb
                       ? <img src={thumb as string} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-                      : <img
-                          src={
-                            post.source === 'Dell' ? 'https://upload.wikimedia.org/wikipedia/commons/8/82/Dell_Logo.png' :
-                            post.source === 'HPE' ? 'https://upload.wikimedia.org/wikipedia/commons/8/87/HPE_logo_%282023%29.svg' :
-                            post.source === 'VAST Data' ? 'https://www.vastdata.com/favicon.ico' :
-                            '/logo-wide.png'
-                          }
-                          alt={post.source ?? 'VWorks'}
-                          style={{ width: '70%', maxWidth: 180, maxHeight: 80, objectFit: 'contain', opacity: 0.9, filter: 'brightness(0) invert(1)' }}
-                        />
+                      : post.source === 'HPE'
+                        ? <svg viewBox="0 0 140 50" style={{ width: '65%', maxWidth: 160 }} xmlns="http://www.w3.org/2000/svg">
+                            <rect x="1" y="1" width="138" height="48" rx="3" fill="none" stroke="#01A982" strokeWidth="2.5"/>
+                            <text x="70" y="33" textAnchor="middle" fontFamily="'Arial Black', Arial, sans-serif" fontWeight="900" fontSize="26" fill="#01A982" letterSpacing="2">HPE</text>
+                          </svg>
+                        : <img
+                            src={
+                              post.source === 'Dell' ? 'https://upload.wikimedia.org/wikipedia/commons/8/82/Dell_Logo.png' :
+                              post.source === 'VAST Data' ? 'https://www.vastdata.com/favicon.ico' :
+                              '/logo-wide.png'
+                            }
+                            alt={post.source ?? 'VWorks'}
+                            style={{ width: '70%', maxWidth: 180, maxHeight: 80, objectFit: 'contain', opacity: 0.9, filter: 'brightness(0) invert(1)' }}
+                          />
                     }
                   </div>
                   <div style={{ padding: '16px 20px' }}>

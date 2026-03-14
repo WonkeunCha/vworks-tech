@@ -20,9 +20,10 @@ function httpGet(url, redirects = 0) {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
         return httpGet(res.headers.location, redirects + 1).then(resolve).catch(reject);
       }
-      let data = '';
-      res.on('data', chunk => data += chunk);
-      res.on('end', () => resolve(data));
+      // ✅ Buffer로 받아서 UTF-8 디코딩 (한글 깨짐 방지)
+      const chunks = [];
+      res.on('data', chunk => chunks.push(chunk));
+      res.on('end', () => resolve(Buffer.concat(chunks).toString('utf-8')));
     });
     req.on('error', reject);
     req.setTimeout(20000, () => { req.destroy(); reject(new Error('timeout')); });
@@ -269,17 +270,9 @@ async function main() {
     ? JSON.parse(fs.readFileSync(DATA_FILE, 'utf-8'))
     : { items: [], fetchedUrls: [] };
 
-  // HPE, Dell 한글 깨짐 수정을 위해 재번역, VAST는 유지
-  const fetchedUrls = new Set(
-    (existing.fetchedUrls ?? []).filter(url =>
-      !url.includes('investors.hpe.com') &&
-      !url.includes('dell.com')
-    )
-  );
-  // HPE, Dell 기존 아이템 제거 (재번역)
-  existing.items = (existing.items ?? []).filter(i =>
-    i.source !== 'HPE' && i.source !== 'Dell'
-  );
+  // 전체 재번역 (한글 깨짐 일괄 해결)
+  const fetchedUrls = new Set();
+  existing.items = [];
   const newItems = [];
 
   try {
@@ -327,7 +320,9 @@ async function main() {
       .sort((a, b) => b.date.localeCompare(a.date))
       .slice(0, 100),
   };
-  fs.writeFileSync(DATA_FILE, JSON.stringify(result, null, 2), 'utf-8');
+  const jsonStr = JSON.stringify(result, null, 2);
+  // BOM 없이 UTF-8로 저장
+  fs.writeFileSync(DATA_FILE, Buffer.from(jsonStr, 'utf8'));
 }
 
 main().catch(console.error);
