@@ -5,13 +5,14 @@ const http = require('http');
 const DATA_FILE = 'src/data/news-auto.json';
 const FILTER_FROM = new Date('2026-01-01T00:00:00Z');
 
+// 범용 HTTP GET
 function httpGet(url, redirects = 0) {
   return new Promise((resolve, reject) => {
     if (redirects > 5) return reject(new Error('too many redirects'));
     const lib = url.startsWith('https') ? https : http;
     const req = lib.get(url, {
       headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; Googlebot/2.1)',
+        'User-Agent': 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
         'Accept': 'text/html,application/xhtml+xml,application/xml,*/*',
         'Accept-Language': 'en-US,en;q=0.9',
       }
@@ -28,6 +29,12 @@ function httpGet(url, redirects = 0) {
   });
 }
 
+// HTML 태그 제거
+function stripHTML(html) {
+  return html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+// XML 태그 추출
 function extractTag(xml, tag) {
   const patterns = [
     new RegExp(`<${tag}[^>]*><!\\[CDATA\\[([\\s\\S]*?)\\]\\]><\\/${tag}>`, 'i'),
@@ -35,11 +42,12 @@ function extractTag(xml, tag) {
   ];
   for (const re of patterns) {
     const m = xml.match(re);
-    if (m) return m[1].replace(/<[^>]*>/g, '').trim();
+    if (m) return stripHTML(m[1]).trim();
   }
   return '';
 }
 
+// RSS XML 파싱
 function parseXML(xml) {
   const items = [];
   const itemRe = /<item>([\s\S]*?)<\/item>/g;
@@ -48,84 +56,121 @@ function parseXML(xml) {
     const b = m[1];
     const title = extractTag(b, 'title');
     const link = extractTag(b, 'link') || extractTag(b, 'guid');
-    const pubDate = extractTag(b, 'pubDate') || extractTag(b, 'dc:date') || extractTag(b, 'date');
+    const pubDate = extractTag(b, 'pubDate') || extractTag(b, 'dc:date');
     const desc = extractTag(b, 'description') || extractTag(b, 'summary');
-    if (title && link) items.push({ title, link, pubDate, contentSnippet: desc.slice(0, 400) });
+    if (title && link) items.push({ title, link, pubDate, description: desc });
   }
   return items;
 }
 
-// Dell — curl 방식 직접 fetch
-async function fetchDell() {
-  const xml = await httpGet('https://www.dell.com/en-us/blog/feed/');
-  const items = parseXML(xml);
-  console.log(`  XML 길이: ${xml.length}, 파싱된 아이템: ${items.length}`);
-  return items;
-}
-
-// HPE — investors RSS
-async function fetchHPE() {
-  const xml = await httpGet('https://investors.hpe.com/rss/news');
-  const items = parseXML(xml);
-  console.log(`  XML 길이: ${xml.length}, 파싱된 아이템: ${items.length}`);
-  return items;
-}
-
-// VAST Data — Contentful (content_type 탐색)
-async function fetchVAST() {
-  const space = '2f3meiv6rg5s';
-  const token = 'tJVsuAvJJ1F2q4EHxUdXq-D9CWsUkTtPHmATM-swZzY';
-
-  // content_type 목록 먼저 확인
+// Dell — Key takeaways 추출
+async function fetchDellContent(url) {
   try {
-    const typesRaw = await httpGet(`https://cdn.contentful.com/spaces/${space}/content_types?access_token=${token}`);
-    const types = JSON.parse(typesRaw);
-    const typeIds = (types.items ?? []).map(t => t.sys.id);
-    console.log(`  Contentful content types: ${typeIds.join(', ')}`);
-
-    // 블로그 관련 type 찾기
-    const blogType = typeIds.find(t => t.toLowerCase().includes('blog') || t.toLowerCase().includes('post') || t.toLowerCase().includes('article'));
-    if (!blogType) {
-      console.log('  블로그 타입 없음, 첫 번째 타입 시도:', typeIds[0]);
+    const html = await httpGet(url);
+    const text = stripHTML(html);
+    // "Key takeaways:" 이후 내용 추출
+    const keyIdx = text.indexOf('Key takeaways:');
+    if (keyIdx !== -1) {
+      // Key takeaways 부터 "About the Author" 또는 "You may also like" 전까지
+      const endMarkers = ['About the Author', 'You may also like', 'Topics in this article'];
+      let endIdx = text.length;
+      for (const marker of endMarkers) {
+        const idx = text.indexOf(marker, keyIdx + 100);
+        if (idx !== -1 && idx < endIdx) endIdx = idx;
+      }
+      return text.slice(keyIdx, endIdx).slice(0, 2000);
     }
-    const useType = blogType ?? typeIds[0];
-    if (!useType) return [];
-
-    const raw = await httpGet(`https://cdn.contentful.com/spaces/${space}/entries?content_type=${useType}&limit=20&order=-sys.createdAt&access_token=${token}`);
-    const data = JSON.parse(raw);
-    console.log(`  ${useType} 타입 아이템: ${data.items?.length ?? 0}개`);
-    if (data.items?.length > 0) {
-      console.log('  필드:', Object.keys(data.items[0].fields ?? {}).join(', '));
-    }
-
-    return (data.items ?? []).map(item => {
-      const f = item.fields ?? {};
-      const dateStr = f.publishedAt ?? f.date ?? f.publicationDate ?? f.publishDate ?? item.sys?.createdAt ?? '';
-      const slug = f.slug ?? f.url ?? '';
-      return {
-        title: f.title ?? f.name ?? f.heading ?? '',
-        link: slug ? `https://www.vastdata.com/blog/${slug}` : '',
-        pubDate: dateStr,
-        contentSnippet: (f.excerpt ?? f.summary ?? f.description ?? f.body ?? '').toString().replace(/<[^>]*>/g, '').slice(0, 400),
-      };
-    }).filter(i => i.title && i.link);
+    // Key takeaways 없으면 본문 앞부분
+    const bodyIdx = text.indexOf('By ');
+    return text.slice(bodyIdx > -1 ? bodyIdx : 0, 2000);
   } catch (e) {
-    console.error(`  VAST Contentful 오류: ${e.message}`);
-    return [];
+    console.error(`  Dell 본문 fetch 실패: ${e.message}`);
+    return '';
   }
 }
 
-async function translateWithClaude(title, summary) {
+// VAST Data — 전체 블로그 본문 추출
+async function fetchVASTContent(url) {
+  try {
+    const html = await httpGet(url);
+    const text = stripHTML(html);
+    // "Perspectives" 또는 날짜 이후 본문 시작, 푸터 전까지
+    const startMarkers = ['Perspectives', 'For the last', 'For years', 'The '];
+    const endMarkers = ['More from this topic', 'Learn what VAST', 'Sign up for our newsletter', 'Contact Sales'];
+    let startIdx = 0;
+    for (const marker of startMarkers) {
+      const idx = text.indexOf(marker);
+      if (idx !== -1) { startIdx = idx; break; }
+    }
+    let endIdx = text.length;
+    for (const marker of endMarkers) {
+      const idx = text.indexOf(marker, startIdx + 200);
+      if (idx !== -1 && idx < endIdx) endIdx = idx;
+    }
+    return text.slice(startIdx, endIdx).slice(0, 3000);
+  } catch (e) {
+    console.error(`  VAST 본문 fetch 실패: ${e.message}`);
+    return '';
+  }
+}
+
+// HPE — 실제 보도자료 URL 찾아서 본문 추출
+async function fetchHPEContent(rssLink) {
+  try {
+    // investors.hpe.com RSS 페이지에서 실제 기사 링크 찾기
+    const html = await httpGet(rssLink);
+    const text = stripHTML(html);
+    // 보도자료 본문: "HOUSTON" 또는 회사명으로 시작
+    const startMarkers = ['HOUSTON', 'SAN JOSE', 'PALO ALTO', 'PR Newswire', 'Business Wire', 'Hewlett Packard Enterprise'];
+    const endMarkers = ['About Hewlett Packard Enterprise', 'Forward-Looking Statements', 'CONTACT:', '###'];
+    let startIdx = 0;
+    for (const marker of startMarkers) {
+      const idx = text.indexOf(marker);
+      if (idx !== -1) { startIdx = idx; break; }
+    }
+    let endIdx = text.length;
+    for (const marker of endMarkers) {
+      const idx = text.indexOf(marker, startIdx + 100);
+      if (idx !== -1 && idx < endIdx) endIdx = idx;
+    }
+    const content = text.slice(startIdx, endIdx).slice(0, 2000);
+    return content || text.slice(0, 1500);
+  } catch (e) {
+    console.error(`  HPE 본문 fetch 실패: ${e.message}`);
+    return '';
+  }
+}
+
+async function translateWithClaude(title, content, source) {
+  let prompt = '';
+
+  if (source === 'Dell') {
+    prompt = `다음은 Dell Technologies 블로그의 영문 기사입니다. "Key takeaways" 항목을 중심으로 자연스러운 한국어로 번역해주세요. JSON 형식으로만 응답하세요. 마크다운 없이 순수 JSON만 출력하세요.
+
+제목: ${title}
+내용: ${content.slice(0, 2000)}
+
+형식: {"title":"한글 제목","summary":"Key takeaways 내용을 한국어로 번역한 주요 포인트 (4~6문장)"}`;
+  } else if (source === 'VAST Data') {
+    prompt = `다음은 VAST Data 블로그의 영문 기사입니다. 전체 내용을 핵심 위주로 자연스러운 한국어로 번역해주세요. JSON 형식으로만 응답하세요. 마크다운 없이 순수 JSON만 출력하세요.
+
+제목: ${title}
+내용: ${content.slice(0, 2500)}
+
+형식: {"title":"한글 제목","summary":"블로그 전체 핵심 내용을 한국어로 상세하게 번역 (6~8문장)"}`;
+  } else {
+    prompt = `다음은 HPE(Hewlett Packard Enterprise)의 영문 보도자료입니다. 주요 내용을 자연스러운 한국어로 번역해주세요. JSON 형식으로만 응답하세요. 마크다운 없이 순수 JSON만 출력하세요.
+
+제목: ${title}
+내용: ${content.slice(0, 2000)}
+
+형식: {"title":"한글 제목","summary":"보도자료 주요 내용을 한국어로 번역 (4~6문장)"}`;
+  }
+
   const body = JSON.stringify({
     model: 'claude-haiku-4-5-20251001',
-    max_tokens: 300,
-    messages: [{
-      role: 'user',
-      content: `Translate this IT news to Korean. Reply ONLY with valid JSON, no markdown.
-Title: ${title}
-Summary: ${summary.slice(0, 300)}
-Format: {"title":"한글제목","summary":"한글요약 2문장"}`,
-    }],
+    max_tokens: 800,
+    messages: [{ role: 'user', content: prompt }],
   });
 
   return new Promise((resolve, reject) => {
@@ -170,14 +215,21 @@ async function processItems(items, source, category, fetchedUrls, newItems) {
 
   for (const item of filtered) {
     const link = item.link ?? '';
-    if (!link || fetchedUrls.has(link)) {
-      if (link) console.log(`  건너뜀(중복): ${item.title}`);
-      continue;
+    if (!link || fetchedUrls.has(link)) continue;
+
+    console.log(`  원문 fetch: ${item.title}`);
+    let content = '';
+    try {
+      if (source === 'Dell') content = await fetchDellContent(link);
+      else if (source === 'VAST Data') content = await fetchVASTContent(link);
+      else content = await fetchHPEContent(link);
+    } catch (e) {
+      content = item.description ?? '';
     }
 
-    console.log(`  번역: ${item.title}`);
+    console.log(`  번역: ${item.title} (${content.length}자)`);
     try {
-      const translated = await translateWithClaude(item.title, item.contentSnippet ?? '');
+      const translated = await translateWithClaude(item.title, content || item.description || '', source);
       newItems.push({
         id: Buffer.from(link).toString('base64').slice(0, 16),
         title: translated.title,
@@ -189,10 +241,9 @@ async function processItems(items, source, category, fetchedUrls, newItems) {
       });
       fetchedUrls.add(link);
       console.log(`  ✅ ${translated.title}`);
-      await new Promise(r => setTimeout(r, 500));
+      await new Promise(r => setTimeout(r, 1000));
     } catch (e) {
       console.error(`  ❌ ${e.message}`);
-      // 번역 실패 시 URL 등록 안 함 → 다음에 재시도
     }
   }
 }
@@ -204,39 +255,49 @@ async function main() {
     ? JSON.parse(fs.readFileSync(DATA_FILE, 'utf-8'))
     : { items: [], fetchedUrls: [] };
 
-  // HPE 이전 실패 URL 초기화 (크레딧 부족으로 등록된 것)
-  const fetchedUrls = new Set(
-    (existing.fetchedUrls ?? []).filter(url => !url.includes('investors.hpe.com'))
-  );
+  // 기존 항목 초기화 (원문 번역 재적용을 위해)
+  const fetchedUrls = new Set();
   const newItems = [];
 
   try {
     console.log('📡 Dell RSS 수집');
-    const items = await fetchDell();
-    console.log(`  수집된 전체: ${items.length}개`);
+    const xml = await httpGet('https://www.dell.com/en-us/blog/feed/');
+    const items = parseXML(xml);
+    console.log(`  수집: ${items.length}개`);
     await processItems(items, 'Dell', '서버', fetchedUrls, newItems);
   } catch (e) { console.error(`Dell 실패: ${e.message}`); }
 
   try {
     console.log('📡 HPE RSS 수집');
-    const items = await fetchHPE();
-    console.log(`  수집된 전체: ${items.length}개`);
+    const xml = await httpGet('https://investors.hpe.com/rss/news');
+    const items = parseXML(xml);
+    console.log(`  수집: ${items.length}개`);
     await processItems(items, 'HPE', 'HPC·서버', fetchedUrls, newItems);
   } catch (e) { console.error(`HPE 실패: ${e.message}`); }
 
   try {
     console.log('📡 VAST Data Contentful 수집');
-    const items = await fetchVAST();
-    console.log(`  수집된 전체: ${items.length}개`);
+    const space = '2f3meiv6rg5s';
+    const token = 'tJVsuAvJJ1F2q4EHxUdXq-D9CWsUkTtPHmATM-swZzY';
+    const raw = await httpGet(`https://cdn.contentful.com/spaces/${space}/entries?content_type=blogPost&limit=20&order=-sys.createdAt&access_token=${token}`);
+    const data = JSON.parse(raw);
+    const items = (data.items ?? []).map(item => {
+      const f = item.fields ?? {};
+      return {
+        title: f.title ?? '',
+        link: f.slug ? `https://www.vastdata.com/blog/${f.slug}` : '',
+        pubDate: f.publishedAt ?? item.sys?.createdAt ?? '',
+        description: (f.excerpt ?? f.summary ?? '').replace(/<[^>]*>/g, '').slice(0, 200),
+      };
+    }).filter(i => i.title && i.link);
+    console.log(`  수집: ${items.length}개`);
     await processItems(items, 'VAST Data', '스토리지', fetchedUrls, newItems);
-  } catch (e) { console.error(`VAST Data 실패: ${e.message}`); }
+  } catch (e) { console.error(`VAST 실패: ${e.message}`); }
 
   console.log(`\n총 ${newItems.length}개 새 뉴스 추가`);
   const result = {
     fetchedUrls: [...fetchedUrls],
-    items: [...newItems, ...(existing.items ?? [])]
-      .sort((a, b) => b.date.localeCompare(a.date))
-      .slice(0, 100),
+    items: newItems.sort((a, b) => b.date.localeCompare(a.date)).slice(0, 100),
   };
   fs.writeFileSync(DATA_FILE, JSON.stringify(result, null, 2), 'utf-8');
 }
