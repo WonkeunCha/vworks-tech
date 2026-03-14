@@ -336,8 +336,8 @@ export default function HomePage() {
   { name: 'VAST Data',          href: 'https://www.vastdata.com' },
   { name: 'Dell Technologies',  href: 'https://www.dell.com/ko-kr' },
   { name: 'HPE',                href: 'https://www.hpe.com/kr/ko/home.html' },
-  { name: '씨플랫폼',            href: 'https://www.cplatform.net' },
-  { name: '필라테크',             href: 'https://www.pilatech.co.kr' },
+  { name: '씨플랫폼',            href: 'https://www.cplatform.co.kr' },
+  { name: '필라테크',             href: 'https://www.feelatech.com' },
 ].map(p => (
   <a key={p.name} href={p.href} target="_blank" rel="noopener noreferrer"
     className="text-[#8899bb] hover:text-white transition-colors text-sm font-medium tracking-wide">
