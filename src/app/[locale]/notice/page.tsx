@@ -13,7 +13,6 @@ export default async function NoticePage() {
       <div style={{ maxWidth: 800, margin: '0 auto' }}>
         <p style={{ fontFamily: 'monospace', fontSize: 9, letterSpacing: '0.3em', color: '#2dd4bf', marginBottom: 12 }}>NOTICE</p>
         <h1 style={{ fontSize: 'clamp(32px,5vw,52px)', fontWeight: 700, marginBottom: 48, lineHeight: 1 }}>공지사항</h1>
-
         {posts.length === 0 ? (
           <p style={{ color: '#5a7a9a', fontSize: 14 }}>등록된 공지사항이 없습니다.</p>
         ) : (
@@ -33,9 +32,6 @@ export default async function NoticePage() {
                   </div>
                   <h2 style={{ fontSize: 16, fontWeight: 500, marginBottom: 4 }}>{title}</h2>
                   {summary && <p style={{ fontSize: 13, color: '#5a7a9a', fontWeight: 300 }}>{summary}</p>}
-                  <div style={{ marginTop: 12 }}>
-                    <span style={{ fontFamily: 'monospace', fontSize: 10, color: '#2dd4bf' }}>본문 보기 (준비중)</span>
-                  </div>
                 </div>
               );
             })}
