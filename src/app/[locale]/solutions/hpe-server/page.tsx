@@ -538,7 +538,7 @@ export default function HpeServerPage() {
               <span className="font-mono text-[9px] tracking-[.18em] px-3 py-1 rounded-sm text-[#01A982] bg-[rgba(1,169,130,.07)] border border-[rgba(1,169,130,.2)]">ProLiant Gen11 / Gen12</span>
               <span className="font-mono text-[9px] tracking-[.18em] px-3 py-1 rounded-sm text-[#00C9B1] bg-[rgba(0,201,177,.07)] border border-[rgba(0,201,177,.2)]">Synergy 컴포저블</span>
             </div>
-            <h1 className="font-['Bebas_Neue'] text-[40px] md:text-[56px] lg:text-[72px] leading-[.92] tracking-wide mb-5">
+            <h1 className="font-['Pretendard'] text-[40px] md:text-[56px] lg:text-[72px] leading-[.92] tracking-wide mb-5">
               <span style={{ background: 'linear-gradient(135deg,#00A3E0,#00C9B1)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>HPE 서버</span>
               <br />
               <span className="text-[20px] md:text-[28px] lg:text-[38px] text-[rgba(200,220,255,.76)] font-['Noto_Sans_KR'] font-light tracking-normal">AI · 랙 · 타워 · 엣지 · 컴포저블</span>
@@ -562,7 +562,7 @@ export default function HpeServerPage() {
                 { n: '1.2TB',l: 'GH200 통합 메모리',s: 'DL384 Gen12 기준',        c: '#00C9B1' },
               ].map((s) => (
                 <div key={s.l} className="bg-[#0e1e35] border border-[rgba(31,74,117,.5)] p-3 text-center">
-                  <div className="font-['Bebas_Neue'] text-[20px] leading-tight" style={{ color: s.c }}>{s.n}</div>
+                  <div className="font-['Pretendard'] text-[20px] leading-tight" style={{ color: s.c }}>{s.n}</div>
                   <div className="text-[10px] text-[rgba(200,220,255,.76)] my-0.5 leading-[1.3]">{s.l}</div>
                   <div className="font-mono text-[8px] text-[#5a7a9a]">{s.s}</div>
                 </div>
@@ -585,7 +585,7 @@ export default function HpeServerPage() {
       <section className="px-4 md:px-10 pb-20 reveal opacity-0 translate-y-5 transition-all duration-500">
         <div className="max-w-6xl mx-auto">
           <div className="font-mono text-[9px] tracking-[.3em] mb-3" style={{ color: '#00A3E0' }}>네이밍 가이드</div>
-          <h2 className="font-['Bebas_Neue'] text-[36px] md:text-[44px] lg:text-[52px] tracking-wide leading-none mb-2">
+          <h2 className="font-['Pretendard'] text-[36px] md:text-[44px] lg:text-[52px] tracking-wide leading-none mb-2">
             제품명 읽는 법
           </h2>
           <p className="text-[13px] text-[#5a7a9a] font-light leading-[1.8] mb-8 max-w-xl">
@@ -608,7 +608,7 @@ export default function HpeServerPage() {
                 { val: 'Gen11', lbl: '세대',           color: '#00C9B1', bg: 'rgba(0,201,177,.1)',   border: 'rgba(0,201,177,.4)' },
               ].map(chip => (
                 <div key={chip.val} className="flex flex-col items-center gap-1.5">
-                  <div className="font-['Bebas_Neue'] text-[28px] md:text-[36px] leading-none px-4 md:px-5 py-2.5 rounded-sm min-w-[56px] text-center"
+                  <div className="font-['Pretendard'] text-[28px] md:text-[36px] leading-none px-4 md:px-5 py-2.5 rounded-sm min-w-[56px] text-center"
                     style={{ color: chip.color, background: chip.bg, border: `1px solid ${chip.border}` }}>
                     {chip.val}
                   </div>
@@ -641,7 +641,7 @@ export default function HpeServerPage() {
             <div className="bg-[#0a1628] border border-[rgba(31,74,117,.5)] rounded-sm p-5 relative overflow-hidden">
               <div className="absolute top-0 left-0 right-0 h-[2px]" style={{ background: '#00A3E0' }} />
               <div className="flex items-baseline gap-3 mb-3">
-                <span className="font-['Bebas_Neue'] text-[32px] leading-none" style={{ color: '#00A3E0' }}>DL / ML / BL</span>
+                <span className="font-['Pretendard'] text-[32px] leading-none" style={{ color: '#00A3E0' }}>DL / ML / BL</span>
                 <span className="font-mono text-[8px] tracking-[.15em] text-[#5a7a9a]">폼팩터</span>
               </div>
               <div className="space-y-2">
@@ -662,7 +662,7 @@ export default function HpeServerPage() {
             <div className="bg-[#0a1628] border border-[rgba(31,74,117,.5)] rounded-sm p-5 relative overflow-hidden">
               <div className="absolute top-0 left-0 right-0 h-[2px]" style={{ background: '#01A982' }} />
               <div className="flex items-baseline gap-3 mb-3">
-                <span className="font-['Bebas_Neue'] text-[32px] leading-none" style={{ color: '#01A982' }}>첫째 자리</span>
+                <span className="font-['Pretendard'] text-[32px] leading-none" style={{ color: '#01A982' }}>첫째 자리</span>
                 <span className="font-mono text-[8px] tracking-[.15em] text-[#5a7a9a]">소켓 클래스</span>
               </div>
               <div className="space-y-2">
@@ -683,7 +683,7 @@ export default function HpeServerPage() {
             <div className="bg-[#0a1628] border border-[rgba(31,74,117,.5)] rounded-sm p-5 relative overflow-hidden">
               <div className="absolute top-0 left-0 right-0 h-[2px]" style={{ background: '#fbbf24' }} />
               <div className="flex items-baseline gap-3 mb-3">
-                <span className="font-['Bebas_Neue'] text-[32px] leading-none" style={{ color: '#fbbf24' }}>둘째 자리</span>
+                <span className="font-['Pretendard'] text-[32px] leading-none" style={{ color: '#fbbf24' }}>둘째 자리</span>
                 <span className="font-mono text-[8px] tracking-[.15em] text-[#5a7a9a]">CPU 아키텍처</span>
               </div>
               <div className="space-y-2">
@@ -705,7 +705,7 @@ export default function HpeServerPage() {
             <div className="bg-[#0a1628] border border-[rgba(31,74,117,.5)] rounded-sm p-5 relative overflow-hidden">
               <div className="absolute top-0 left-0 right-0 h-[2px]" style={{ background: '#f472b6' }} />
               <div className="flex items-baseline gap-3 mb-3">
-                <span className="font-['Bebas_Neue'] text-[32px] leading-none" style={{ color: '#f472b6' }}>접미사</span>
+                <span className="font-['Pretendard'] text-[32px] leading-none" style={{ color: '#f472b6' }}>접미사</span>
                 <span className="font-mono text-[8px] tracking-[.15em] text-[#5a7a9a]">특화 변형 (없으면 범용)</span>
               </div>
               <div className="space-y-2">
@@ -727,7 +727,7 @@ export default function HpeServerPage() {
             <div className="bg-[#0a1628] border border-[rgba(31,74,117,.5)] rounded-sm p-5 relative overflow-hidden">
               <div className="absolute top-0 left-0 right-0 h-[2px]" style={{ background: '#00C9B1' }} />
               <div className="flex items-baseline gap-3 mb-3">
-                <span className="font-['Bebas_Neue'] text-[32px] leading-none" style={{ color: '#00C9B1' }}>Gen 번호</span>
+                <span className="font-['Pretendard'] text-[32px] leading-none" style={{ color: '#00C9B1' }}>Gen 번호</span>
                 <span className="font-mono text-[8px] tracking-[.15em] text-[#5a7a9a]">세대</span>
               </div>
               <div className="space-y-2">
@@ -772,7 +772,7 @@ export default function HpeServerPage() {
       <section id="lineup" className="px-4 md:px-10 py-16 reveal opacity-0 translate-y-5 transition-all duration-500">
         <div className="max-w-6xl mx-auto">
           <div className="font-mono text-[9px] tracking-[.3em] mb-3" style={{ color: '#00A3E0' }}>HPE ProLiant 제품 라인업</div>
-          <h2 className="font-['Bebas_Neue'] text-[36px] md:text-[44px] lg:text-[52px] tracking-wide leading-none mb-8">전체 서버 포트폴리오</h2>
+          <h2 className="font-['Pretendard'] text-[36px] md:text-[44px] lg:text-[52px] tracking-wide leading-none mb-8">전체 서버 포트폴리오</h2>
 
           {/* 탭 버튼 */}
           <div className="flex flex-wrap gap-2 mb-6">
@@ -834,7 +834,7 @@ export default function HpeServerPage() {
 
                 {/* ③ 제품명 + 설명 */}
                 <div className="px-5 pb-3 pt-2 border-t border-[rgba(31,74,117,.3)]">
-                  <div className="font-['Bebas_Neue'] text-[22px] leading-none mb-0.5" style={{ color: p.color }}>{p.name}</div>
+                  <div className="font-['Pretendard'] text-[22px] leading-none mb-0.5" style={{ color: p.color }}>{p.name}</div>
                   <div className="font-mono text-[8px] tracking-[.07em] text-[#5a7a9a] mb-3">{p.sub}</div>
                   <p className="text-[12px] text-[rgba(200,220,255,.76)] font-light leading-[1.75]">{p.desc}</p>
                 </div>
@@ -877,7 +877,7 @@ export default function HpeServerPage() {
       <section className="px-4 md:px-10 pb-20 reveal opacity-0 translate-y-5 transition-all duration-500">
         <div className="max-w-6xl mx-auto">
           <div className="font-mono text-[9px] tracking-[.3em] mb-3" style={{ color: '#00A3E0' }}>왜 VWorks인가</div>
-          <h2 className="font-['Bebas_Neue'] text-[36px] md:text-[44px] lg:text-[52px] tracking-wide leading-none mb-10">HPE 서버 도입,<br />VWorks를 선택해야 하는 이유</h2>
+          <h2 className="font-['Pretendard'] text-[36px] md:text-[44px] lg:text-[52px] tracking-wide leading-none mb-10">HPE 서버 도입,<br />VWorks를 선택해야 하는 이유</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[2px]">
             {[
               { n: '01', t: 'HPE 공식 파트너',       d: '하드웨어 공급부터 설치·운영까지 원스톱. HPE 공식 채널 정품 보증 및 기술지원.' },
@@ -887,8 +887,8 @@ export default function HpeServerPage() {
             ].map((w) => (
               <div key={w.n} className="p-6 bg-[#0a1628] border border-[rgba(31,74,117,.5)] rounded-sm relative overflow-hidden transition-colors hover:border-[rgba(0,163,224,.3)]">
                 <div className="absolute top-0 left-0 right-0 h-[2px]" style={{ background: 'linear-gradient(90deg,#00A3E0,transparent)' }} />
-                <div className="font-['Bebas_Neue'] text-[44px] leading-none mb-2" style={{ color: 'rgba(0,163,224,.12)' }}>{w.n}</div>
-                <div className="font-['Bebas_Neue'] text-[18px] tracking-wide leading-tight mb-2">{w.t}</div>
+                <div className="font-['Pretendard'] text-[44px] leading-none mb-2" style={{ color: 'rgba(0,163,224,.12)' }}>{w.n}</div>
+                <div className="font-['Pretendard'] text-[18px] tracking-wide leading-tight mb-2">{w.t}</div>
                 <div className="text-[12px] text-[#5a7a9a] font-light leading-[1.8]">{w.d}</div>
               </div>
             ))}
@@ -900,7 +900,7 @@ export default function HpeServerPage() {
       <section className="px-4 md:px-10 py-20 text-center reveal opacity-0 translate-y-5 transition-all duration-500">
         <div className="max-w-xl mx-auto">
           <div className="font-mono text-[9px] tracking-[.3em] mb-4" style={{ color: '#00A3E0' }}>HPE 서버 도입 문의</div>
-          <h2 className="font-['Bebas_Neue'] text-[40px] md:text-[52px] lg:text-[64px] tracking-wide leading-none mb-4">최적의 서버 구성을<br />제안해 드립니다</h2>
+          <h2 className="font-['Pretendard'] text-[40px] md:text-[52px] lg:text-[64px] tracking-wide leading-none mb-4">최적의 서버 구성을<br />제안해 드립니다</h2>
           <p className="text-[15px] text-[#5a7a9a] font-light leading-[1.7] mb-8">워크로드·규모·예산을 공유해 주시면 최적 HPE 서버 구성을 제안드립니다.</p>
           <div className="grid grid-cols-2 gap-[2px] max-w-sm mx-auto mb-8">
             <div className="bg-[#0a1628] border border-[rgba(31,74,117,.5)] p-4">

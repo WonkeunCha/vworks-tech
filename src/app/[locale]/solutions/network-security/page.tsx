@@ -108,7 +108,7 @@ export default function NetworkSecurityPage() {
               <span className="font-mono text-[9px] tracking-[.18em] px-3 py-1 rounded-sm text-[#4ade80] bg-[rgba(74,222,128,.07)] border border-[rgba(74,222,128,.2)]">● 휴네시온 공식 총판 파트너</span>
               <span className="font-mono text-[9px] tracking-[.18em] px-3 py-1 rounded-sm text-[#00C9B1] bg-[rgba(0,201,177,.08)] border border-[rgba(0,201,177,.2)]">● 씨크랩 공식 총판 파트너</span>
             </div>
-            <h1 className="font-['Bebas_Neue'] text-[40px] md:text-[56px] lg:text-[72px] leading-[.92] tracking-wide mb-5">
+            <h1 className="font-['Pretendard'] text-[40px] md:text-[56px] lg:text-[72px] leading-[.92] tracking-wide mb-5">
               <span className="bg-gradient-to-r from-[#4ade80] to-[#00C9B1] bg-clip-text text-transparent">보안 솔루션</span>
               <br />
               <span className="text-[22px] md:text-[32px] lg:text-[42px] text-[rgba(200,220,255,.76)] font-['Noto_Sans_KR'] font-light tracking-normal">망연계 · CDS 전문 공급</span>
@@ -134,7 +134,7 @@ export default function NetworkSecurityPage() {
                 { n: '2건', l: 'VWorks 국방 레퍼런스', s: 'KHNP · 해군 HPC' },
               ].map((s) => (
                 <div key={s.n} className="bg-[#0e1e35] border border-[rgba(31,74,117,.5)] p-3 text-center">
-                  <div className="font-['Bebas_Neue'] text-[26px] text-[#00C9B1] leading-none">{s.n}</div>
+                  <div className="font-['Pretendard'] text-[26px] text-[#00C9B1] leading-none">{s.n}</div>
                   <div className="text-[11px] text-[rgba(200,220,255,.76)] my-1">{s.l}</div>
                   <div className="font-mono text-[8px] text-[#5a7a9a]">{s.s}</div>
                 </div>
@@ -157,7 +157,7 @@ export default function NetworkSecurityPage() {
       <section className="px-4 md:px-10 pb-20 reveal opacity-0 translate-y-5 transition-all duration-500">
         <div className="max-w-6xl mx-auto">
           <div className="font-mono text-[9px] tracking-[.3em] text-[#00C9B1] mb-3">제품 라인업</div>
-          <h2 className="font-['Bebas_Neue'] text-[36px] md:text-[44px] lg:text-[52px] tracking-wide leading-none mb-3">환경에 따른 최적 제품 선택</h2>
+          <h2 className="font-['Pretendard'] text-[36px] md:text-[44px] lg:text-[52px] tracking-wide leading-none mb-3">환경에 따른 최적 제품 선택</h2>
           <p className="text-[14px] text-[#5a7a9a] font-light mb-10">VWorks는 고객 환경 분석 후 최적의 i-oneNet 제품을 선정·구축합니다</p>
 
           {/* 탭 버튼 */}
@@ -187,7 +187,7 @@ export default function NetworkSecurityPage() {
                 style={{ color: prod.color, background: prod.bg, border: `1px solid ${prod.border}` }}>
                 {prod.tier}
               </span>
-              <div className="font-['Bebas_Neue'] text-[44px] mt-4 mb-1 leading-none" style={{ color: prod.color }}>{prod.name}</div>
+              <div className="font-['Pretendard'] text-[44px] mt-4 mb-1 leading-none" style={{ color: prod.color }}>{prod.name}</div>
               <div className="font-mono text-[10px] tracking-[.12em] text-[#5a7a9a] mb-5">{prod.sub}</div>
               <p className="text-[14px] text-[rgba(200,220,255,.76)] font-light leading-[1.9] mb-6">{prod.desc}</p>
               <div className="font-mono text-[9px] tracking-[.2em] text-[#5a7a9a] mb-3">주요 기능</div>
@@ -245,7 +245,7 @@ export default function NetworkSecurityPage() {
       <section className="px-4 md:px-10 pb-20 reveal opacity-0 translate-y-5 transition-all duration-500">
         <div className="max-w-6xl mx-auto">
           <div className="font-mono text-[9px] tracking-[.3em] text-[#fbbf24] mb-3">국방 특화 보안통제장비</div>
-          <h2 className="font-['Bebas_Neue'] text-[36px] md:text-[44px] lg:text-[52px] tracking-wide leading-none mb-4">
+          <h2 className="font-['Pretendard'] text-[36px] md:text-[44px] lg:text-[52px] tracking-wide leading-none mb-4">
             KCDS-Guard 1000<br />
             <span className="text-[32px] text-[rgba(200,220,255,.76)] font-['Noto_Sans_KR'] font-light tracking-normal">Cross Domain Solution</span>
           </h2>
@@ -268,7 +268,7 @@ export default function NetworkSecurityPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-[2px] mb-10">
             <div className="p-7 bg-[rgba(248,113,113,.05)] border border-[rgba(248,113,113,.18)] rounded-sm relative overflow-hidden">
               <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#f87171] to-transparent" />
-              <div className="font-['Bebas_Neue'] text-[20px] tracking-wide text-[#f87171] mb-2">직접연동 (사용 불가)</div>
+              <div className="font-['Pretendard'] text-[20px] tracking-wide text-[#f87171] mb-2">직접연동 (사용 불가)</div>
               <div className="font-mono text-[9px] tracking-[.1em] text-[#5a7a9a] mb-4">방화벽 · 망연계 스트리밍 · 인피니밴드</div>
               {['악성코드 검증·필터링 미적용으로 악성코드 유입 가능', '직접연계 취약점으로 인한 해킹 위협 내재', '보안등급이 상이한 체계 간 사용 불가', '프로토콜 분석으로 정확한 자료 유출 내역 파악 불가'].map((t) => (
                 <div key={t} className="flex gap-3 text-[12px] text-[#5a7a9a] font-light leading-[1.6] mb-2">
@@ -278,7 +278,7 @@ export default function NetworkSecurityPage() {
             </div>
             <div className="p-7 bg-[rgba(0,201,177,.05)] border border-[rgba(0,201,177,.2)] rounded-sm relative overflow-hidden">
               <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#00C9B1] to-transparent" />
-              <div className="font-['Bebas_Neue'] text-[20px] tracking-wide text-[#00C9B1] mb-2">CDS 간접연동 (KCDS-Guard)</div>
+              <div className="font-['Pretendard'] text-[20px] tracking-wide text-[#00C9B1] mb-2">CDS 간접연동 (KCDS-Guard)</div>
               <div className="font-mono text-[9px] tracking-[.1em] text-[#5a7a9a] mb-4">국가보안기술연구소 기술이전 · 파일변환 불필요</div>
               {['비밀등급 상이 체계 간 쌍방향 자료유통 보장', 'CDE 레이블링 + 프로토콜 필터링으로 무결성 검증', '실시간 서비스 제공 (파일단위 변환 불필요)', '방첩대·국보연 공식 인정 · 보안적합성 검증 통과'].map((t) => (
                 <div key={t} className="flex gap-3 text-[12px] text-[rgba(200,220,255,.76)] font-light leading-[1.6] mb-2">
@@ -302,7 +302,7 @@ export default function NetworkSecurityPage() {
               <div key={f.title} className="p-5 bg-[#0a1628] border border-[rgba(31,74,117,.5)] rounded-sm relative overflow-hidden">
                 <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#fbbf24] to-transparent" />
                 <div className="text-xl mb-2">{f.icon}</div>
-                <div className="font-['Bebas_Neue'] text-[16px] tracking-wide mb-2">{f.title}</div>
+                <div className="font-['Pretendard'] text-[16px] tracking-wide mb-2">{f.title}</div>
                 <div className="text-[12px] text-[#5a7a9a] font-light leading-[1.7]">{f.desc}</div>
               </div>
             ))}
@@ -321,7 +321,7 @@ export default function NetworkSecurityPage() {
           <div className="p-5 bg-[rgba(248,113,113,.05)] border border-[rgba(248,113,113,.2)] rounded-sm flex gap-4 items-start">
             <span className="text-xl flex-shrink-0">⚠️</span>
             <div>
-              <div className="font-['Bebas_Neue'] text-[16px] tracking-wide text-[#f87171] mb-1">유사 CDS 주의</div>
+              <div className="font-['Pretendard'] text-[16px] tracking-wide text-[#f87171] mb-1">유사 CDS 주의</div>
               <div className="text-[12px] text-[#5a7a9a] font-light leading-[1.7]">
                 기술이전 후 물리적단방향·인피니밴드 방식으로 연결하거나 CDS 케이스에 타 장비를 탑재한 유사 CDS는 방첩대·국보연에서 CDS로 인정받지 못합니다.
                 KCDS-Guard 1000은 국보연 이전 통제모듈 CHIP을 탑재한 유일한 공인 제품입니다.
@@ -335,7 +335,7 @@ export default function NetworkSecurityPage() {
       <section className="px-4 md:px-10 py-20 text-center reveal opacity-0 translate-y-5 transition-all duration-500">
         <div className="max-w-xl mx-auto">
           <div className="font-mono text-[9px] tracking-[.3em] text-[#00C9B1] mb-4">보안 솔루션 도입 문의</div>
-          <h2 className="font-['Bebas_Neue'] text-[40px] md:text-[52px] lg:text-[64px] tracking-wide leading-none mb-4">지금 바로<br />환경 분석을 시작하세요</h2>
+          <h2 className="font-['Pretendard'] text-[40px] md:text-[52px] lg:text-[64px] tracking-wide leading-none mb-4">지금 바로<br />환경 분석을 시작하세요</h2>
           <p className="text-[15px] text-[#5a7a9a] font-light leading-[1.7] mb-8">
             현재 망구성 환경, 도입 목적, 예산 규모를 알려주시면 최적의 솔루션을 제안드립니다.
           </p>

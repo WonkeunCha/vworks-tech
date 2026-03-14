@@ -19,7 +19,7 @@ $content = $content -replace 'relative pt-24 pb-20 px-4 md:px-4 md:px-10', 'rela
 $content = $content -replace 'px-4 md:px-4 md:px-10', 'px-4 md:px-10'
 
 # 3. Hero h1 text-[72px] → 반응형
-$content = $content -replace "font-\['Bebas_Neue'\] text-\[72px\] leading-\[\.92\] tracking-wide mb-5", "font-['Bebas_Neue'] text-[40px] md:text-[56px] lg:text-[72px] leading-[.92] tracking-wide mb-5"
+$content = $content -replace "font-\['Bebas_Neue'\] text-\[72px\] leading-\[\.92\] tracking-wide mb-5", "font-['Pretendard'] text-[40px] md:text-[56px] lg:text-[72px] leading-[.92] tracking-wide mb-5"
 
 # 4. Hero 부제목 text-[44px] → 반응형
 $content = $content -replace "text-\[44px\] text-\[rgba\(200,220,255,\.76\)\] font-\['Noto_Sans_KR'\] font-light tracking-normal", "text-[22px] md:text-[32px] lg:text-[44px] text-[rgba(200,220,255,.76)] font-['Noto_Sans_KR'] font-light tracking-normal"
