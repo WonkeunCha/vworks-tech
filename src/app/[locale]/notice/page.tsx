@@ -1,3 +1,4 @@
+export const dynamic = 'force-static';
 import Link from 'next/link';
 import { getNotionDB, getProp } from '@/lib/notion';
 
