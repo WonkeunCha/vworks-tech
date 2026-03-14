@@ -72,7 +72,7 @@ export default function NewsClient({ posts }: { posts: any[] }) {
                       : <img
                           src={
                             post.source === 'Dell' ? 'https://upload.wikimedia.org/wikipedia/commons/8/82/Dell_Logo.png' :
-                            post.source === 'HPE' ? 'https://upload.wikimedia.org/wikipedia/commons/4/46/Hewlett_Packard_Enterprise_logo.svg' :
+                            post.source === 'HPE' ? 'https://upload.wikimedia.org/wikipedia/commons/8/87/HPE_logo_%282023%29.svg' :
                             post.source === 'VAST Data' ? 'https://www.vastdata.com/favicon.ico' :
                             '/logo-wide.png'
                           }
