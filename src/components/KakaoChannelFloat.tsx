@@ -67,7 +67,7 @@ export default function KakaoChannelFloat() {
       <div
         style={{
           position: "fixed",
-          bottom: "104px",
+          bottom: "110px",
           right: "32px",
           zIndex: 9999,
           display: "flex",
