@@ -491,7 +491,7 @@ export default function AIChatbot() {
       {/* FAB Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed bottom-6 right-8 z-[9999] w-[60px] h-[60px] rounded-[18px] flex items-center justify-center text-white transition-all"
+        className="fixed bottom-8 right-8 z-[9999] w-[60px] h-[60px] rounded-[18px] flex items-center justify-center text-white transition-all"
         style={{
           border: "none",
           background: "linear-gradient(135deg, #0d9488, #0891b2)",
