@@ -5,6 +5,7 @@ import Navbar from "@/components/layout/Navbar";
 import EventPopup from '@/components/ui/EventPopup';
 import Footer from "@/components/layout/Footer";
 import KakaoChannelFloat from "@/components/ui/KakaoChannelFloat";
+import AIChatbot from "@/components/ui/AIChatbot";
 
 type Props = {
   children: React.ReactNode;
@@ -86,6 +87,7 @@ export default async function LocaleLayout({ children, params }: Props) {
         
       <EventPopup />
       <KakaoChannelFloat />
+      <AIChatbot />
       </body>
     </html>
   );

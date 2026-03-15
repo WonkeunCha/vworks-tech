@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "iconv-lite": "^0.7.2",
-    "next": "15.3.6",
+    "next": "^15.5.12",
     "nodemailer": "^6.9.16",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
