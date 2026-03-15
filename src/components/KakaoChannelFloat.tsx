@@ -69,7 +69,7 @@ export default function KakaoChannelFloat() {
           position: "fixed",
           bottom: "110px",
           right: "32px",
-          zIndex: 9999,
+          zIndex: 10001,
           display: "flex",
           alignItems: "center",
           gap: "12px",
