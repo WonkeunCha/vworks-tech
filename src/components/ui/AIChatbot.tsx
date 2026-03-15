@@ -3,10 +3,9 @@
 import { useState, useRef, useEffect, useCallback } from "react";
 
 // ============================================================
-// ⚠️  Cloudflare Worker URL을 여기에 입력하세요
+// ⚠️  Cloudflare Worker URL
 // ============================================================
 const PROXY_URL = "https://vworks-ai-proxy.aiden-199.workers.dev";
-// 예: "https://vworks-ai-proxy.aiden-vworks.workers.dev"
 
 const SYSTEM_PROMPT = `당신은 브이웍스테크놀로지스(VWorks Technologies)의 AI 솔루션 상담 어시스턴트입니다.
 
@@ -46,6 +45,8 @@ AI/HPC 사이징 요청 시 모델 크기, 데이터셋, 학습/추론 목적, �
 
 ## 톤앤매너
 - 전문적이면서 친근한 톤, 한국어 (기술 용어 영문 병기), 간결하게 핵심 위주
+- 마크다운 서식(###, **, - 등)은 사용하지 마세요. 일반 텍스트로 답변하세요.
+- 줄바꿈과 들여쓰기로 구조를 표현하세요.
 - 상담 마무리 시 "더 자세한 상담은 문의하기 페이지를 이용해주세요" 안내`;
 
 const QUICK_ACTIONS = [
@@ -58,6 +59,81 @@ const QUICK_ACTIONS = [
 interface ChatMessage {
   role: "user" | "assistant";
   content: string;
+}
+
+/* ── 간이 마크다운 → React 변환 ── */
+function renderMarkdown(text: string) {
+  const lines = text.split("\n");
+  const elements: React.ReactNode[] = [];
+
+  lines.forEach((line, i) => {
+    // 제목 (### / ## / #)
+    const h3 = line.match(/^###\s+(.+)/);
+    const h2 = line.match(/^##\s+(.+)/);
+    const h1 = line.match(/^#\s+(.+)/);
+    if (h3) {
+      elements.push(<div key={i} style={{ fontWeight: 600, fontSize: 13, color: "#5eead4", marginTop: i > 0 ? 10 : 0, marginBottom: 4 }}>{renderInline(h3[1])}</div>);
+      return;
+    }
+    if (h2) {
+      elements.push(<div key={i} style={{ fontWeight: 700, fontSize: 14, color: "#5eead4", marginTop: i > 0 ? 12 : 0, marginBottom: 4 }}>{renderInline(h2[1])}</div>);
+      return;
+    }
+    if (h1) {
+      elements.push(<div key={i} style={{ fontWeight: 700, fontSize: 15, color: "#5eead4", marginTop: i > 0 ? 12 : 0, marginBottom: 4 }}>{renderInline(h1[1])}</div>);
+      return;
+    }
+
+    // 리스트 (- 또는 * 또는 숫자.)
+    const listMatch = line.match(/^(\s*)([-*]|\d+\.)\s+(.+)/);
+    if (listMatch) {
+      const indent = listMatch[1].length;
+      elements.push(
+        <div key={i} style={{ paddingLeft: 8 + indent * 8, display: "flex", gap: 6, marginTop: 2, marginBottom: 2 }}>
+          <span style={{ color: "#2dd4bf", flexShrink: 0 }}>•</span>
+          <span>{renderInline(listMatch[3])}</span>
+        </div>
+      );
+      return;
+    }
+
+    // 빈 줄
+    if (line.trim() === "") {
+      elements.push(<div key={i} style={{ height: 6 }} />);
+      return;
+    }
+
+    // 일반 텍스트
+    elements.push(<div key={i} style={{ marginTop: 1, marginBottom: 1 }}>{renderInline(line)}</div>);
+  });
+
+  return <>{elements}</>;
+}
+
+/* 인라인: **bold**, `code` */
+function renderInline(text: string): React.ReactNode {
+  const parts: React.ReactNode[] = [];
+  const regex = /(\*\*(.+?)\*\*|`(.+?)`)/g;
+  let lastIndex = 0;
+  let match;
+
+  while ((match = regex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index));
+    }
+    if (match[2]) {
+      parts.push(<strong key={match.index} style={{ fontWeight: 600, color: "#fff" }}>{match[2]}</strong>);
+    } else if (match[3]) {
+      parts.push(<code key={match.index} style={{ background: "rgba(255,255,255,0.08)", padding: "1px 5px", borderRadius: 4, fontSize: "0.9em" }}>{match[3]}</code>);
+    }
+    lastIndex = regex.lastIndex;
+  }
+
+  if (lastIndex < text.length) {
+    parts.push(text.slice(lastIndex));
+  }
+
+  return parts.length === 1 && typeof parts[0] === "string" ? parts[0] : <>{parts}</>;
 }
 
 function TypingIndicator() {
@@ -96,7 +172,7 @@ function MessageBubble({ msg }: { msg: ChatMessage }) {
         </div>
       )}
       <div
-        className="max-w-[78%] px-4 py-3 whitespace-pre-wrap break-words"
+        className="max-w-[78%] px-4 py-3 break-words"
         style={{
           borderRadius: isUser ? "18px 18px 4px 18px" : "18px 18px 18px 4px",
           background: isUser
@@ -109,7 +185,7 @@ function MessageBubble({ msg }: { msg: ChatMessage }) {
           backdropFilter: isUser ? "none" : "blur(8px)",
         }}
       >
-        {msg.content}
+        {isUser ? msg.content : renderMarkdown(msg.content)}
       </div>
     </div>
   );
@@ -136,7 +212,6 @@ export default function AIChatbot() {
     }
   }, [isOpen]);
 
-  // ESC로 닫기
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
       if (e.key === "Escape" && isOpen) setIsOpen(false);
@@ -212,7 +287,6 @@ export default function AIChatbot() {
 
   return (
     <>
-      {/* Animations */}
       <style>{`
         @keyframes vw-fadeIn {
           from { opacity: 0; transform: translateY(8px); }
@@ -239,22 +313,20 @@ export default function AIChatbot() {
         .vw-scrollbar::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.12); border-radius: 10px; }
       `}</style>
 
-      {/* Chat Window */}
+      {/* Chat Window — z-index 10002: 카카오(10001)보다 위 */}
       {isOpen && (
         <div
-          className="fixed z-[9998] inset-0 pointer-events-none"
-          style={{ fontFamily: "'Pretendard', sans-serif" }}
+          className="fixed inset-0 pointer-events-none"
+          style={{ zIndex: 10002, fontFamily: "'Pretendard', sans-serif" }}
         >
-          {/* Backdrop — 모바일에서 배경 터치로 닫기 */}
           <div
             className="absolute inset-0 pointer-events-auto md:pointer-events-none"
             style={{ background: "rgba(0,0,0,0.3)" }}
             onClick={() => setIsOpen(false)}
           />
 
-          {/* Chat Panel */}
           <div
-            className="pointer-events-auto absolute bottom-[90px] right-4 sm:right-5"
+            className="pointer-events-auto absolute bottom-[90px] right-8"
             style={{
               width: "min(420px, calc(100vw - 32px))",
               height: "min(640px, calc(100vh - 120px))",
@@ -269,7 +341,6 @@ export default function AIChatbot() {
               animation: "vw-slideUp 0.35s cubic-bezier(0.16,1,0.3,1)",
             }}
           >
-            {/* Header */}
             <div
               className="flex items-center justify-between"
               style={{
@@ -323,13 +394,11 @@ export default function AIChatbot() {
               </button>
             </div>
 
-            {/* Messages */}
             <div
               ref={scrollRef}
               className="flex-1 overflow-y-auto vw-scrollbar"
               style={{ padding: "16px 16px 8px" }}
             >
-              {/* Welcome */}
               {!hasInteracted && (
                 <div style={{ animation: "vw-fadeIn 0.4s ease-out" }}>
                   <div className="text-center" style={{ padding: "20px 12px 24px" }}>
@@ -373,17 +442,13 @@ export default function AIChatbot() {
                           fontFamily: "'Pretendard', sans-serif",
                         }}
                         onMouseEnter={(e) => {
-                          e.currentTarget.style.background =
-                            "rgba(13,148,136,0.15)";
-                          e.currentTarget.style.borderColor =
-                            "rgba(13,148,136,0.4)";
+                          e.currentTarget.style.background = "rgba(13,148,136,0.15)";
+                          e.currentTarget.style.borderColor = "rgba(13,148,136,0.4)";
                           e.currentTarget.style.color = "#5eead4";
                         }}
                         onMouseLeave={(e) => {
-                          e.currentTarget.style.background =
-                            "rgba(255,255,255,0.05)";
-                          e.currentTarget.style.borderColor =
-                            "rgba(255,255,255,0.1)";
+                          e.currentTarget.style.background = "rgba(255,255,255,0.05)";
+                          e.currentTarget.style.borderColor = "rgba(255,255,255,0.1)";
                           e.currentTarget.style.color = "rgba(255,255,255,0.75)";
                         }}
                       >
@@ -422,7 +487,6 @@ export default function AIChatbot() {
               )}
             </div>
 
-            {/* Input */}
             <div
               style={{
                 padding: "12px 16px 16px",
@@ -488,11 +552,12 @@ export default function AIChatbot() {
         </div>
       )}
 
-      {/* FAB Button */}
+      {/* FAB Button — right-8 (32px) = 카카오와 동일 정렬 */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed bottom-6 right-6 z-[9999] w-[60px] h-[60px] rounded-[18px] flex items-center justify-center text-white transition-all"
+        className="fixed bottom-8 right-8 w-[60px] h-[60px] rounded-[18px] flex items-center justify-center text-white transition-all"
         style={{
+          zIndex: 10000,
           border: "none",
           background: "linear-gradient(135deg, #0d9488, #0891b2)",
           boxShadow: "0 4px 24px rgba(13,148,136,0.4)",
