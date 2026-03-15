@@ -568,6 +568,100 @@ export default function VastDataPage() {
           </div>
         </div>
       </section>
+// ============================================================
+// 이 코드를 vast-data/page.tsx의 Hero 섹션 바로 아래,
+// "WHAT IS VAST" 섹션 바로 위에 삽입하세요.
+// ============================================================
+
+      {/* ── VAST AI OS 서브페이지 네비게이션 ── */}
+      <section className="reveal" style={{ padding: "clamp(32px,4vw,64px) clamp(16px,4vw,32px)", position: "relative", zIndex: 1 }}>
+        <div style={{ maxWidth: 1200, margin: "0 auto" }}>
+          <div style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 9, letterSpacing: "0.3em", color: "var(--teal)", marginBottom: 12 }}>
+            VAST AI OS 제품 라인업
+          </div>
+          <h2 style={{ fontFamily: "'Pretendard',sans-serif", fontSize: "clamp(18px, 4vw, 32px)", letterSpacing: "0.02em", lineHeight: 1.1, marginBottom: 32 }}>
+            모든 기능을 자세히 살펴보세요
+          </h2>
+          
+          {/* 3대 카테고리 */}
+          <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
+            
+            {/* 카테고리 1: What is VAST? */}
+            <div>
+              <div style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 9, letterSpacing: "0.15em", color: "var(--teal)", marginBottom: 10, paddingBottom: 6, borderBottom: "1px solid rgba(0,201,177,0.15)" }}>
+                WHAT IS VAST?
+              </div>
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: 8 }}>
+                {[
+                  { href: "/ko/solutions/vast-data/ai-os/", name: "AI Operating System", desc: "DASE 아키텍처 · 7대 핵심 엔진", color: "var(--teal)" },
+                  { href: "/ko/solutions/vast-data/gemini/", name: "Gemini 구독 모델", desc: "HW/SW 분리 · 무한 생명주기", color: "#f59e0b" },
+                  { href: "/ko/solutions/vast-data/platform/", name: "Supported Platform", desc: "EBox · DBox · CBox · 스위치", color: "var(--cyan)" },
+                ].map((item) => (
+                  <Link key={item.href} href={item.href}
+                    style={{ display: "block", padding: "16px 18px", background: "var(--surface)", border: "1px solid var(--border)", borderRadius: 2, textDecoration: "none", transition: "border-color 0.2s, transform 0.2s" }}
+                    onMouseEnter={(e: React.MouseEvent<HTMLAnchorElement>) => { e.currentTarget.style.borderColor = "rgba(0,201,177,0.3)"; e.currentTarget.style.transform = "translateY(-1px)"; }}
+                    onMouseLeave={(e: React.MouseEvent<HTMLAnchorElement>) => { e.currentTarget.style.borderColor = "var(--border)"; e.currentTarget.style.transform = "translateY(0)"; }}
+                  >
+                    <div style={{ fontSize: 15, fontWeight: 500, color: item.color, marginBottom: 4 }}>{item.name}</div>
+                    <div style={{ fontSize: 12, color: "var(--muted)", fontWeight: 300 }}>{item.desc}</div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            {/* 카테고리 2: AI Workloads */}
+            <div>
+              <div style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 9, letterSpacing: "0.15em", color: "var(--cyan)", marginBottom: 10, paddingBottom: 6, borderBottom: "1px solid rgba(56,217,245,0.15)" }}>
+                AI WORKLOADS
+              </div>
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: 8 }}>
+                {[
+                  { href: "/ko/solutions/vast-data/datastore/", name: "DataStore", desc: "올플래시 스토리지 · 6나인 가용성", color: "var(--teal)" },
+                  { href: "/ko/solutions/vast-data/database/", name: "DataBase", desc: "AI 네이티브 DB · 벡터 검색 11x", color: "var(--purple)" },
+                  { href: "/ko/solutions/vast-data/dataspace/", name: "DataSpace", desc: "글로벌 네임스페이스 · 엣지→클라우드", color: "var(--cyan)" },
+                ].map((item) => (
+                  <Link key={item.href} href={item.href}
+                    style={{ display: "block", padding: "16px 18px", background: "var(--surface)", border: "1px solid var(--border)", borderRadius: 2, textDecoration: "none", transition: "border-color 0.2s, transform 0.2s" }}
+                    onMouseEnter={(e: React.MouseEvent<HTMLAnchorElement>) => { e.currentTarget.style.borderColor = "rgba(56,217,245,0.3)"; e.currentTarget.style.transform = "translateY(-1px)"; }}
+                    onMouseLeave={(e: React.MouseEvent<HTMLAnchorElement>) => { e.currentTarget.style.borderColor = "var(--border)"; e.currentTarget.style.transform = "translateY(0)"; }}
+                  >
+                    <div style={{ fontSize: 15, fontWeight: 500, color: item.color, marginBottom: 4 }}>{item.name}</div>
+                    <div style={{ fontSize: 12, color: "var(--muted)", fontWeight: 300 }}>{item.desc}</div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            {/* 카테고리 3: Infrastructure Services */}
+            <div>
+              <div style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 9, letterSpacing: "0.15em", color: "#f59e0b", marginBottom: 10, paddingBottom: 6, borderBottom: "1px solid rgba(251,191,36,0.15)" }}>
+                INFRASTRUCTURE SERVICES
+              </div>
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: 8 }}>
+                {[
+                  { href: "/ko/solutions/vast-data/dataengine/", name: "DataEngine", desc: "서버리스 컴퓨트", color: "#f59e0b" },
+                  { href: "/ko/solutions/vast-data/syncengine/", name: "SyncEngine", desc: "데이터 마이그레이션", color: "#8b5cf6" },
+                  { href: "/ko/solutions/vast-data/insightengine/", name: "InsightEngine", desc: "RAG · 벡터 임베딩", color: "#ec4899" },
+                  { href: "/ko/solutions/vast-data/agentengine/", name: "AgentEngine", desc: "AI 에이전트 (2026)", color: "#14b8a6" },
+                ].map((item) => (
+                  <Link key={item.href} href={item.href}
+                    style={{ display: "block", padding: "16px 18px", background: "var(--surface)", border: "1px solid var(--border)", borderRadius: 2, textDecoration: "none", transition: "border-color 0.2s, transform 0.2s" }}
+                    onMouseEnter={(e: React.MouseEvent<HTMLAnchorElement>) => { e.currentTarget.style.borderColor = "rgba(251,191,36,0.3)"; e.currentTarget.style.transform = "translateY(-1px)"; }}
+                    onMouseLeave={(e: React.MouseEvent<HTMLAnchorElement>) => { e.currentTarget.style.borderColor = "var(--border)"; e.currentTarget.style.transform = "translateY(0)"; }}
+                  >
+                    <div style={{ fontSize: 15, fontWeight: 500, color: item.color, marginBottom: 4 }}>{item.name}</div>
+                    <div style={{ fontSize: 12, color: "var(--muted)", fontWeight: 300 }}>{item.desc}</div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+// ============================================================
+// 위 코드를 삽입한 후, 기존 "WHAT IS VAST" 섹션이 이어집니다.
+// ============================================================
 
       {/* ── WHAT IS VAST ── */}
       <section className="reveal" style={{ padding: "clamp(40px,6vw,96px) clamp(16px,4vw,32px)", position: "relative", zIndex: 1 }}>
