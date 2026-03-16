@@ -568,10 +568,6 @@ export default function VastDataPage() {
           </div>
         </div>
       </section>
-// ============================================================
-// 이 코드를 vast-data/page.tsx의 Hero 섹션 바로 아래,
-// "WHAT IS VAST" 섹션 바로 위에 삽입하세요.
-// ============================================================
 
       {/* ── VAST AI OS 서브페이지 네비게이션 ── */}
       <section className="reveal" style={{ padding: "clamp(32px,4vw,64px) clamp(16px,4vw,32px)", position: "relative", zIndex: 1 }}>
