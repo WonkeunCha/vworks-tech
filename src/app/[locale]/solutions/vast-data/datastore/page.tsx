@@ -116,11 +116,11 @@ export default function VastDataStorePage() {
       {/* ── Hero ── */}
       <section
         style={{
-          minHeight: "65vh",
+          minHeight: "auto",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          padding: "120px 24px 80px",
+          padding: "120px 24px 48px",
           background: "linear-gradient(180deg, #020a1a 0%, #061428 50%, #020a1a 100%)",
           position: "relative",
           overflow: "hidden",

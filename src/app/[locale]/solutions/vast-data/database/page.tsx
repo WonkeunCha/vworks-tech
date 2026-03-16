@@ -74,7 +74,7 @@ const STATS = [
 export default function VastDataBasePage() {
   return (
     <div style={{ background: "#020a1a", minHeight: "100vh" }}>
-      <section style={{ minHeight: "60vh", display: "flex", alignItems: "center", justifyContent: "center", padding: "120px 24px 70px", background: "linear-gradient(180deg, #020a1a 0%, #061428 50%, #020a1a 100%)", position: "relative", overflow: "hidden" }}>
+      <section style={{ minHeight: "auto", display: "flex", alignItems: "center", justifyContent: "center", padding: "120px 24px 48px", background: "linear-gradient(180deg, #020a1a 0%, #061428 50%, #020a1a 100%)", position: "relative", overflow: "hidden" }}>
         <div style={{ position: "absolute", top: "25%", right: "15%", width: "400px", height: "400px", borderRadius: "50%", background: "radial-gradient(circle, rgba(6,182,212,0.06) 0%, transparent 70%)", pointerEvents: "none" }} />
         <div className="relative z-10 text-center" style={{ maxWidth: 780 }}>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, marginBottom: 24 }}>

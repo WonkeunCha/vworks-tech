@@ -155,7 +155,7 @@ export default function VastAiOsPage() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          padding: "120px 24px 80px",
+          padding: "120px 24px 48px",
           background: "linear-gradient(180deg, #020a1a 0%, #061428 50%, #020a1a 100%)",
         }}
       >
