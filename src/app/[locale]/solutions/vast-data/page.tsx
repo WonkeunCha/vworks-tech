@@ -659,10 +659,6 @@ export default function VastDataPage() {
         </div>
       </section>
 
-// ============================================================
-// 위 코드를 삽입한 후, 기존 "WHAT IS VAST" 섹션이 이어집니다.
-// ============================================================
-
       {/* ── WHAT IS VAST ── */}
       <section className="reveal" style={{ padding: "clamp(40px,6vw,96px) clamp(16px,4vw,32px)", position: "relative", zIndex: 1 }}>
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
