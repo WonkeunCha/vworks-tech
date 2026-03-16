@@ -90,7 +90,7 @@ export default function Navbar() {
 
         <nav className="hidden md:flex items-center gap-8">
 
-          {/* 솔루션 드롭다운 — VAST 서브메뉴 아래로 펼침 */}
+          {/* 솔루션 드롭다운 — VAST 서브메뉴 오른쪽 펼침 */}
           <div className="relative" onMouseEnter={solEnter} onMouseLeave={solLeave}>
             <button className={`${navBase} ${isSol ? activeClass : inactiveClass}`}>
               솔루션
@@ -99,12 +99,13 @@ export default function Navbar() {
               </svg>
             </button>
             {solOpen && (
-              <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2 w-72 z-50">
-                <div className="bg-[#0a1828] border border-white/10 rounded-xl shadow-2xl shadow-black/50 overflow-hidden">
-                  {SOL.map(item => (
-                    <div key={item.href}>
+              <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2 z-50">
+                <div className="flex items-start">
+                  {/* 메인 솔루션 목록 */}
+                  <div className="bg-[#0a1828] border border-white/10 rounded-xl shadow-2xl shadow-black/50 overflow-hidden w-72 flex-shrink-0">
+                    {SOL.map(item => (
                       <div
-                        className="relative"
+                        key={item.href}
                         onMouseEnter={() => { if ((item as any).hasSub) setVastSubOpen(true); else setVastSubOpen(false); }}
                       >
                         <Link
@@ -115,39 +116,37 @@ export default function Navbar() {
                           <span className={`text-xs font-bold px-1.5 py-0.5 rounded bg-white/10 ${item.color} flex-shrink-0`}>{item.badge}</span>
                           <span className={`text-sm flex-1 whitespace-nowrap ${pathname === item.href || ((item as any).hasSub && isVast) ? 'text-white font-medium' : 'text-[#c8d8e8] group-hover:text-white'}`}>{item.label}</span>
                           {(item as any).hasSub && (
-                            <svg className={`w-3 h-3 text-[#8899bb] transition-transform duration-200 ${vastSubOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                              <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                            <svg className="w-3 h-3 text-[#8899bb]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                             </svg>
                           )}
                         </Link>
                       </div>
+                    ))}
+                  </div>
 
-                      {/* VAST 서브메뉴 — 아래로 펼침 */}
-                      {(item as any).hasSub && vastSubOpen && (
-                        <div
-                          className="border-t border-white/5 bg-[#060f1e]"
-                          onMouseEnter={() => setVastSubOpen(true)}
+                  {/* VAST 서브메뉴 — 오른쪽으로 펼침 */}
+                  {vastSubOpen && (
+                    <div
+                      className="bg-[#0a1828] border border-white/10 rounded-xl shadow-2xl shadow-black/50 overflow-hidden ml-1 w-56"
+                      onMouseEnter={() => setVastSubOpen(true)}
+                    >
+                      <div className="px-4 py-2 border-b border-white/5">
+                        <span className="text-[10px] text-[#8899bb] uppercase tracking-widest">VAST Data 제품</span>
+                      </div>
+                      {VAST_SUB.map(sub => (
+                        <Link
+                          key={sub.href}
+                          href={sub.href}
+                          onClick={() => { setSolOpen(false); setVastSubOpen(false); }}
+                          className={`flex items-center gap-2.5 px-4 py-2.5 hover:bg-white/5 transition-colors group ${pathname === sub.href ? 'bg-white/5' : ''}`}
                         >
-                          <div className="px-4 py-2">
-                            <span className="text-[10px] text-[#8899bb] uppercase tracking-widest">VAST Data 제품</span>
-                          </div>
-                          <div className="grid grid-cols-2 gap-0">
-                            {VAST_SUB.map(sub => (
-                              <Link
-                                key={sub.href}
-                                href={sub.href}
-                                onClick={() => { setSolOpen(false); setVastSubOpen(false); }}
-                                className={`flex items-center gap-2 px-4 py-2 hover:bg-white/5 transition-colors group ${pathname === sub.href ? 'bg-white/5' : ''}`}
-                              >
-                                <span className={`text-[9px] font-bold px-1 py-0.5 rounded bg-white/10 ${sub.color} flex-shrink-0`}>{sub.badge}</span>
-                                <span className={`text-xs ${pathname === sub.href ? 'text-white font-medium' : 'text-[#c8d8e8] group-hover:text-white'}`}>{sub.label}</span>
-                              </Link>
-                            ))}
-                          </div>
-                        </div>
-                      )}
+                          <span className={`text-[9px] font-bold px-1.5 py-0.5 rounded bg-white/10 ${sub.color} flex-shrink-0`}>{sub.badge}</span>
+                          <span className={`text-sm ${pathname === sub.href ? 'text-white font-medium' : 'text-[#c8d8e8] group-hover:text-white'}`}>{sub.label}</span>
+                        </Link>
+                      ))}
                     </div>
-                  ))}
+                  )}
                 </div>
               </div>
             )}
