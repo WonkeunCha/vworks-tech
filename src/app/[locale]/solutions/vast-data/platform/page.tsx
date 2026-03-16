@@ -237,7 +237,6 @@ export default function VastPlatformPage() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          minHeight: "auto",
           background: "linear-gradient(180deg, #020a1a 0%, #061428 50%, #020a1a 100%)",
           position: "relative",
           overflow: "hidden",
