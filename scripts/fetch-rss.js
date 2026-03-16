@@ -357,10 +357,9 @@ async function main() {
     ? JSON.parse(fs.readFileSync(DATA_FILE, 'utf-8'))
     : { items: [], fetchedUrls: [] };
 
-  // 전체 재번역 (한글 깨짐 일괄 해결)
-  const fetchedUrls = new Set();
-  existing.items = [];
-  const newItems = [];
+ // ✅ 기존 수집된 URL 유지 — 새 기사만 수집 (크레딧 절약)
+const fetchedUrls = new Set(existing.fetchedUrls ?? []);
+const newItems = [];
 
   // Dell RSS
   try {
