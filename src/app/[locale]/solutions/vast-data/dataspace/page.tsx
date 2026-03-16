@@ -33,7 +33,7 @@ const FEATURES = [
 export default function VastDataSpacePage() {
   return (
     <div style={{ background: "#020a1a", minHeight: "100vh" }}>
-      <section style={{ minHeight: "auto", display: "flex", alignItems: "center", justifyContent: "center", padding: "120px 24px 48px", background: "linear-gradient(180deg, #020a1a 0%, #061428 50%, #020a1a 100%)", position: "relative", overflow: "hidden" }}>
+      <section style={{  display: "flex", alignItems: "center", justifyContent: "center", padding: "120px 24px 48px", background: "linear-gradient(180deg, #020a1a 0%, #061428 50%, #020a1a 100%)", position: "relative", overflow: "hidden" }}>
         <div className="relative z-10 text-center" style={{ maxWidth: 780 }}>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, marginBottom: 24 }}>
             <Link href="/ko/solutions/vast-data/ai-os" style={{ fontSize: 12, color: "rgba(255,255,255,0.4)", textDecoration: "none" }}>VAST AI OS</Link>

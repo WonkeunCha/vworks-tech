@@ -151,7 +151,7 @@ export default function VastAiOsPage() {
       <section
         className="relative overflow-hidden"
         style={{
-          minHeight: "70vh",
+          
           display: "flex",
           alignItems: "center",
           justifyContent: "center",

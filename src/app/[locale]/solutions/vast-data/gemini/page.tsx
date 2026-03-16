@@ -220,7 +220,7 @@ export default function VastGeminiPage() {
       {/* ── Hero ── */}
       <section
         style={{
-          minHeight: "auto",
+          
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
