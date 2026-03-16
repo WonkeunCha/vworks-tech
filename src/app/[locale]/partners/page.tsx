@@ -80,6 +80,14 @@ const PARTNERS = [
     tags: ["AI 보안", "위협 대응", "IT 자동화"],
   },
   {
+    id: "dpou",
+    name: "디피오유",
+    category: "security",
+    short: "네트워크·엔드포인트 보안 전문",
+    desc: "부산 해운대 소재 정보보안 전문기업. 차세대 방화벽(Ahnlab XTG·PaloAlto PA-Series), DDoS 방어(Ahnlab DPX), WAF(AiWAF), 무선 인증(PPX-Anylink) 등 네트워크 보안 전 영역과 엔드포인트 보안 솔루션을 공급·구축. 공공·금융·제조업 고객 대상 보안 컨설팅부터 구축·유지보수·사후관리까지 풀 서비스를 제공.",
+    tags: ["차세대 방화벽", "DDoS 방어", "보안 구축·유지보수"],
+  },
+  {
     id: "brainz", name: "브레인즈컴퍼니", category: "monitor",
     short: "IT 인프라 통합 모니터링",
     desc: "지능형 IT 통합관리 솔루션 전문 상장기업(KOSDAQ). 자체 개발 모니터링 플랫폼 'Zabbix 기반 제니우스'로 서버·네트워크·클라우드를 통합 관제. 공공·기업 다수 구축.",
