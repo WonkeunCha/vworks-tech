@@ -51,7 +51,6 @@ interface HwItem {
 }
 
 const HW_CATALOG: HwItem[] = [
-  // ── EBox ──
   {
     category: "ebox",
     name: "EBox (Supermicro H14 CloudDC)",
@@ -85,7 +84,6 @@ const HW_CATALOG: HwItem[] = [
       { label: "최적 성능", value: "12대 이상 권장" },
     ],
   },
-  // ── CBox ──
   {
     category: "cbox",
     name: "CBox (2U 쿼드 서버 섀시)",
@@ -118,7 +116,6 @@ const HW_CATALOG: HwItem[] = [
       { label: "용도", value: "컴퓨트 확장, 서비스 추가" },
     ],
   },
-  // ── DBox ──
   {
     category: "dbox",
     name: "DBox DF-3015",
@@ -167,7 +164,6 @@ const HW_CATALOG: HwItem[] = [
       { label: "용도", value: "엑사바이트급 데이터센터, HPC" },
     ],
   },
-  // ── Switch ──
   {
     category: "switch",
     name: "Backend NVMe 패브릭 스위치",
@@ -194,7 +190,6 @@ const CATEGORY_TABS: { key: HwCategory; label: string; color: string }[] = [
   { key: "switch", label: "스위치", color: "#f59e0b" },
 ];
 
-/* ───── 구성 조합 ───── */
 const CONFIGURATIONS = [
   {
     name: "DBox + CBox + Switches",
@@ -225,7 +220,6 @@ const CONFIGURATIONS = [
 
 export default function VastPlatformPage() {
   const [activeTab, setActiveTab] = useState<HwCategory>("all");
-
   const filtered = activeTab === "all" ? HW_CATALOG : HW_CATALOG.filter((h) => h.category === activeTab);
 
   return (
@@ -233,7 +227,7 @@ export default function VastPlatformPage() {
       {/* ── Hero ── */}
       <section
         style={{
-          minHeight: "auto",
+          padding: "120px 24px 48px",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
@@ -325,34 +319,16 @@ export default function VastPlatformPage() {
                   )}
                 </div>
                 <div style={{ fontSize: 13, color: "rgba(255,255,255,0.4)", marginBottom: 14 }}>{cfg.subtitle}</div>
-
                 <p style={{ fontSize: 13.5, color: "rgba(255,255,255,0.55)", lineHeight: 1.65, margin: "0 0 16px" }}>{cfg.desc}</p>
-
-                {/* 컴포넌트 목록 */}
                 <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginBottom: 14 }}>
                   {cfg.components.map((c, j) => (
-                    <span
-                      key={j}
-                      style={{
-                        fontSize: 12,
-                        padding: "4px 10px",
-                        borderRadius: 6,
-                        background: cfg.color + "10",
-                        color: cfg.color,
-                        fontWeight: 500,
-                      }}
-                    >
-                      {c}
-                    </span>
+                    <span key={j} style={{ fontSize: 12, padding: "4px 10px", borderRadius: 6, background: cfg.color + "10", color: cfg.color, fontWeight: 500 }}>{c}</span>
                   ))}
                 </div>
-
-                {/* 장점 */}
                 <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
                   {cfg.pros.map((p, j) => (
                     <div key={j} style={{ display: "flex", gap: 6, fontSize: 13, color: "rgba(255,255,255,0.5)" }}>
-                      <span style={{ color: cfg.color, flexShrink: 0 }}>✓</span>
-                      {p}
+                      <span style={{ color: cfg.color, flexShrink: 0 }}>✓</span>{p}
                     </div>
                   ))}
                 </div>
@@ -366,104 +342,52 @@ export default function VastPlatformPage() {
       <section style={{ padding: "64px 24px 80px", maxWidth: 1100, margin: "0 auto" }}>
         <FadeSection>
           <div style={{ textAlign: "center", marginBottom: 40 }}>
-            <div style={{ fontSize: 12, fontWeight: 600, color: "#06b6d4", letterSpacing: "0.12em", textTransform: "uppercase", marginBottom: 12 }}>
-              하드웨어 스펙
-            </div>
-            <h2 style={{ fontSize: "clamp(24px, 3.5vw, 34px)", fontWeight: 700, color: "#fff", margin: 0 }}>
-              하드웨어 포트폴리오
-            </h2>
+            <div style={{ fontSize: 12, fontWeight: 600, color: "#06b6d4", letterSpacing: "0.12em", textTransform: "uppercase", marginBottom: 12 }}>하드웨어 스펙</div>
+            <h2 style={{ fontSize: "clamp(24px, 3.5vw, 34px)", fontWeight: 700, color: "#fff", margin: 0 }}>하드웨어 포트폴리오</h2>
           </div>
         </FadeSection>
 
-        {/* 탭 */}
         <div style={{ display: "flex", gap: 8, justifyContent: "center", marginBottom: 36, flexWrap: "wrap" }}>
           {CATEGORY_TABS.map((tab) => (
             <button
               key={tab.key}
               onClick={() => setActiveTab(tab.key)}
               style={{
-                padding: "8px 20px",
-                borderRadius: 8,
+                padding: "8px 20px", borderRadius: 8,
                 border: `1px solid ${activeTab === tab.key ? tab.color + "60" : "rgba(255,255,255,0.1)"}`,
                 background: activeTab === tab.key ? tab.color + "15" : "rgba(255,255,255,0.03)",
                 color: activeTab === tab.key ? tab.color : "rgba(255,255,255,0.5)",
-                fontSize: 14,
-                fontWeight: activeTab === tab.key ? 600 : 400,
-                cursor: "pointer",
-                transition: "all 0.2s",
+                fontSize: 14, fontWeight: activeTab === tab.key ? 600 : 400, cursor: "pointer", transition: "all 0.2s",
               }}
-            >
-              {tab.label}
-            </button>
+            >{tab.label}</button>
           ))}
         </div>
 
-        {/* 제품 카드 그리드 */}
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: 20 }}>
           {filtered.map((hw, i) => (
             <FadeSection key={hw.name + activeTab} delay={i * 0.06}>
               <div
                 style={{
-                  padding: "28px 24px",
-                  borderRadius: 16,
-                  background: "rgba(255,255,255,0.03)",
-                  border: `1px solid ${hw.color}15`,
-                  height: "100%",
-                  transition: "border-color 0.3s, background 0.3s",
+                  padding: "28px 24px", borderRadius: 16, background: "rgba(255,255,255,0.03)",
+                  border: `1px solid ${hw.color}15`, height: "100%", transition: "border-color 0.3s, background 0.3s",
                 }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.borderColor = hw.color + "35";
-                  e.currentTarget.style.background = hw.color + "05";
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.borderColor = hw.color + "15";
-                  e.currentTarget.style.background = "rgba(255,255,255,0.03)";
-                }}
+                onMouseEnter={(e) => { e.currentTarget.style.borderColor = hw.color + "35"; e.currentTarget.style.background = hw.color + "05"; }}
+                onMouseLeave={(e) => { e.currentTarget.style.borderColor = hw.color + "15"; e.currentTarget.style.background = "rgba(255,255,255,0.03)"; }}
               >
-                {/* 헤더 */}
                 <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 12 }}>
                   <div>
                     <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
                       <h3 style={{ fontSize: 16, fontWeight: 600, color: "#fff", margin: 0 }}>{hw.name}</h3>
-                      {hw.badge && (
-                        <span style={{ fontSize: 10, fontWeight: 600, padding: "2px 8px", borderRadius: 10, background: "rgba(45,212,191,0.15)", color: "#2dd4bf" }}>
-                          {hw.badge}
-                        </span>
-                      )}
+                      {hw.badge && (<span style={{ fontSize: 10, fontWeight: 600, padding: "2px 8px", borderRadius: 10, background: "rgba(45,212,191,0.15)", color: "#2dd4bf" }}>{hw.badge}</span>)}
                     </div>
                     <div style={{ fontSize: 12, color: hw.color, marginTop: 2 }}>{hw.tagline}</div>
                   </div>
-                  <div
-                    style={{
-                      padding: "4px 10px",
-                      borderRadius: 6,
-                      background: "rgba(255,255,255,0.06)",
-                      fontSize: 12,
-                      fontWeight: 600,
-                      color: "rgba(255,255,255,0.4)",
-                    }}
-                  >
-                    {hw.formFactor}
-                  </div>
+                  <div style={{ padding: "4px 10px", borderRadius: 6, background: "rgba(255,255,255,0.06)", fontSize: 12, fontWeight: 600, color: "rgba(255,255,255,0.4)" }}>{hw.formFactor}</div>
                 </div>
-
-                <p style={{ fontSize: 13, color: "rgba(255,255,255,0.45)", lineHeight: 1.6, margin: "0 0 16px" }}>
-                  {hw.desc}
-                </p>
-
-                {/* 스펙 테이블 */}
+                <p style={{ fontSize: 13, color: "rgba(255,255,255,0.45)", lineHeight: 1.6, margin: "0 0 16px" }}>{hw.desc}</p>
                 <div style={{ display: "flex", flexDirection: "column", gap: 0 }}>
                   {hw.specs.map((s, j) => (
-                    <div
-                      key={j}
-                      style={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        padding: "8px 0",
-                        borderBottom: j < hw.specs.length - 1 ? "1px solid rgba(255,255,255,0.04)" : "none",
-                        fontSize: 13,
-                      }}
-                    >
+                    <div key={j} style={{ display: "flex", justifyContent: "space-between", padding: "8px 0", borderBottom: j < hw.specs.length - 1 ? "1px solid rgba(255,255,255,0.04)" : "none", fontSize: 13 }}>
                       <span style={{ color: "rgba(255,255,255,0.4)", flexShrink: 0 }}>{s.label}</span>
                       <span style={{ color: "rgba(255,255,255,0.7)", textAlign: "right", fontWeight: 500 }}>{s.value}</span>
                     </div>
@@ -478,17 +402,8 @@ export default function VastPlatformPage() {
       {/* ── DASE 아키텍처 요약 ── */}
       <section style={{ padding: "0 24px 64px", maxWidth: 800, margin: "0 auto" }}>
         <FadeSection>
-          <div
-            style={{
-              padding: "32px 28px",
-              borderRadius: 20,
-              background: "linear-gradient(135deg, rgba(13,148,136,0.06) 0%, rgba(6,182,212,0.04) 100%)",
-              border: "1px solid rgba(45,212,191,0.1)",
-            }}
-          >
-            <h3 style={{ fontSize: 20, fontWeight: 700, color: "#fff", margin: "0 0 12px", textAlign: "center" }}>
-              왜 구성이 중요한가?
-            </h3>
+          <div style={{ padding: "32px 28px", borderRadius: 20, background: "linear-gradient(135deg, rgba(13,148,136,0.06) 0%, rgba(6,182,212,0.04) 100%)", border: "1px solid rgba(45,212,191,0.1)" }}>
+            <h3 style={{ fontSize: 20, fontWeight: 700, color: "#fff", margin: "0 0 12px", textAlign: "center" }}>왜 구성이 중요한가?</h3>
             <p style={{ fontSize: 14, color: "rgba(255,255,255,0.55)", lineHeight: 1.7, textAlign: "center", maxWidth: 600, margin: "0 auto 20px" }}>
               VAST의 DASE 아키텍처에서 모든 CNode는 모든 SSD에 NVMe 패브릭을 통해 접근합니다.
               구성 선택은 <strong style={{ color: "#2dd4bf" }}>성능 확장성</strong>,{" "}
@@ -515,38 +430,10 @@ export default function VastPlatformPage() {
       {/* ── CTA ── */}
       <section style={{ padding: "0 24px 100px" }}>
         <FadeSection>
-          <div
-            style={{
-              maxWidth: 700,
-              margin: "0 auto",
-              padding: "48px 32px",
-              borderRadius: 20,
-              background: "linear-gradient(135deg, rgba(13,148,136,0.1) 0%, rgba(59,130,246,0.06) 100%)",
-              border: "1px solid rgba(45,212,191,0.15)",
-              textAlign: "center",
-            }}
-          >
-            <h3 style={{ fontSize: 24, fontWeight: 700, color: "#fff", margin: "0 0 12px" }}>
-              최적의 구성을 찾고 계신가요?
-            </h3>
-            <p style={{ fontSize: 15, color: "rgba(255,255,255,0.5)", lineHeight: 1.6, margin: "0 0 28px" }}>
-              워크로드 분석을 기반으로 최적의 EBox/DBox/CBox 조합을 제안해드립니다.
-            </p>
-            <Link
-              href="/ko/contact?from=vast-platform"
-              style={{
-                display: "inline-block",
-                padding: "14px 32px",
-                borderRadius: 8,
-                background: "linear-gradient(135deg, #0d9488, #06b6d4)",
-                color: "#fff",
-                fontWeight: 600,
-                fontSize: 16,
-                textDecoration: "none",
-              }}
-            >
-              무료 구성 상담 신청하기
-            </Link>
+          <div style={{ maxWidth: 700, margin: "0 auto", padding: "48px 32px", borderRadius: 20, background: "linear-gradient(135deg, rgba(13,148,136,0.1) 0%, rgba(59,130,246,0.06) 100%)", border: "1px solid rgba(45,212,191,0.15)", textAlign: "center" }}>
+            <h3 style={{ fontSize: 24, fontWeight: 700, color: "#fff", margin: "0 0 12px" }}>최적의 구성을 찾고 계신가요?</h3>
+            <p style={{ fontSize: 15, color: "rgba(255,255,255,0.5)", lineHeight: 1.6, margin: "0 0 28px" }}>워크로드 분석을 기반으로 최적의 EBox/DBox/CBox 조합을 제안해드립니다.</p>
+            <Link href="/ko/contact?from=vast-platform" style={{ display: "inline-block", padding: "14px 32px", borderRadius: 8, background: "linear-gradient(135deg, #0d9488, #06b6d4)", color: "#fff", fontWeight: 600, fontSize: 16, textDecoration: "none" }}>무료 구성 상담 신청하기</Link>
           </div>
         </FadeSection>
       </section>
