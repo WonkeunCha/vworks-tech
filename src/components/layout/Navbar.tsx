@@ -6,7 +6,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const VAST_SUB = [
-  { href: '/ko/solutions/vast-data/', label: 'VAST Data 개요', badge: '개요', color: 'text-white' },
   { href: '/ko/solutions/vast-data/ai-os/', label: 'AI Operating System', badge: 'AI OS', color: 'text-teal-400' },
   { href: '/ko/solutions/vast-data/gemini/', label: 'Gemini 구독 모델', badge: 'GEMINI', color: 'text-amber-400' },
   { href: '/ko/solutions/vast-data/platform/', label: 'Supported Platform', badge: 'HW', color: 'text-cyan-400' },
@@ -102,58 +101,52 @@ export default function Navbar() {
             {solOpen && (
               <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2 z-50">
                 <div className="flex items-start">
-                  {/* 메인 솔루션 목록 — 고정 */}
+                  {/* 메인 솔루션 목록 */}
                   <div className="bg-[#0a1828] border border-white/10 rounded-xl shadow-2xl shadow-black/50 overflow-hidden w-72 flex-shrink-0">
                     {SOL.map(item => {
-                      const hasSubMenu = (item as any).hasSub;
+                      const hasSub = (item as any).hasSub;
                       return (
-                        <div key={item.href}>
-                          {hasSubMenu ? (
-                            /* VAST Data — 클릭으로 서브메뉴 토글 (페이지 이동 안함) */
+                        <div key={item.href} className={`flex items-center hover:bg-white/5 transition-colors ${pathname === item.href || (hasSub && isVast) ? 'bg-white/5' : ''}`}>
+                          {/* 텍스트 영역 — 클릭 시 페이지 이동 */}
+                          <Link
+                            href={item.href}
+                            onClick={() => { setSolOpen(false); setVastSubOpen(false); }}
+                            className="flex items-center gap-3 px-4 py-3 flex-1 group"
+                          >
+                            <span className={`text-xs font-bold px-1.5 py-0.5 rounded bg-white/10 ${item.color} flex-shrink-0`}>{item.badge}</span>
+                            <span className={`text-sm whitespace-nowrap ${pathname === item.href || (hasSub && isVast) ? 'text-white font-medium' : 'text-[#c8d8e8] group-hover:text-white'}`}>{item.label}</span>
+                          </Link>
+                          {/* 화살표 버튼 — 클릭 시 서브메뉴 토글 (페이지 이동 안함) */}
+                          {hasSub && (
                             <button
-                              onClick={(e) => {
-                                e.preventDefault();
-                                setVastSubOpen(!vastSubOpen);
-                              }}
-                              className={`w-full flex items-center gap-3 px-4 py-3 hover:bg-white/5 transition-colors group text-left ${isVast ? 'bg-white/5' : ''}`}
+                              onClick={(e) => { e.stopPropagation(); setVastSubOpen(!vastSubOpen); }}
+                              className="flex items-center justify-center w-10 h-full py-3 hover:bg-white/5 transition-colors border-l border-white/5"
                             >
-                              <span className={`text-xs font-bold px-1.5 py-0.5 rounded bg-white/10 ${item.color} flex-shrink-0`}>{item.badge}</span>
-                              <span className={`text-sm flex-1 whitespace-nowrap ${isVast ? 'text-white font-medium' : 'text-[#c8d8e8] group-hover:text-white'}`}>{item.label}</span>
-                              <svg className={`w-3 h-3 text-[#8899bb] transition-transform duration-200 ${vastSubOpen ? 'rotate-90' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                              <svg className={`w-3.5 h-3.5 text-[#8899bb] transition-transform duration-200 ${vastSubOpen ? 'rotate-90' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                               </svg>
                             </button>
-                          ) : (
-                            /* 기타 솔루션 — 클릭 시 페이지 이동 */
-                            <Link
-                              href={item.href}
-                              onClick={() => { setSolOpen(false); setVastSubOpen(false); }}
-                              className={`flex items-center gap-3 px-4 py-3 hover:bg-white/5 transition-colors group ${pathname === item.href ? 'bg-white/5' : ''}`}
-                            >
-                              <span className={`text-xs font-bold px-1.5 py-0.5 rounded bg-white/10 ${item.color} flex-shrink-0`}>{item.badge}</span>
-                              <span className={`text-sm flex-1 whitespace-nowrap ${pathname === item.href ? 'text-white font-medium' : 'text-[#c8d8e8] group-hover:text-white'}`}>{item.label}</span>
-                            </Link>
                           )}
                         </div>
                       );
                     })}
                   </div>
 
-                  {/* VAST 서브메뉴 — 클릭 후 오른쪽으로 펼침 */}
+                  {/* VAST 서브메뉴 — 화살표 클릭 후 오른쪽으로 펼침 */}
                   {vastSubOpen && (
                     <div className="bg-[#0a1828] border border-white/10 rounded-xl shadow-2xl shadow-black/50 overflow-hidden ml-1 w-56">
                       <div className="px-4 py-2 border-b border-white/5">
                         <span className="text-[10px] text-[#8899bb] uppercase tracking-widest">VAST Data 제품</span>
                       </div>
-                      {VAST_SUB.map((sub, i) => (
+                      {VAST_SUB.map(sub => (
                         <Link
                           key={sub.href}
                           href={sub.href}
                           onClick={() => { setSolOpen(false); setVastSubOpen(false); }}
-                          className={`flex items-center gap-2.5 px-4 py-2.5 hover:bg-white/5 transition-colors group ${pathname === sub.href ? 'bg-white/5' : ''} ${i === 0 ? 'border-b border-white/5' : ''}`}
+                          className={`flex items-center gap-2.5 px-4 py-2.5 hover:bg-white/5 transition-colors group ${pathname === sub.href ? 'bg-white/5' : ''}`}
                         >
                           <span className={`text-[9px] font-bold px-1.5 py-0.5 rounded bg-white/10 ${sub.color} flex-shrink-0`}>{sub.badge}</span>
-                          <span className={`text-sm ${i === 0 ? 'font-medium' : ''} ${pathname === sub.href ? 'text-white font-medium' : 'text-[#c8d8e8] group-hover:text-white'}`}>{sub.label}</span>
+                          <span className={`text-sm ${pathname === sub.href ? 'text-white font-medium' : 'text-[#c8d8e8] group-hover:text-white'}`}>{sub.label}</span>
                         </Link>
                       ))}
                     </div>
@@ -258,7 +251,7 @@ export default function Navbar() {
                 </Link>
                 {(item as any).hasSub && (
                   <div className="ml-6 mt-1 mb-2 space-y-0.5">
-                    {VAST_SUB.filter((_, i) => i > 0).map(sub => (
+                    {VAST_SUB.map(sub => (
                       <Link key={sub.href} href={sub.href} onClick={() => setMobileOpen(false)}
                         className={`flex items-center gap-2 px-2 py-2 rounded-lg transition-colors text-sm ${pathname === sub.href ? 'text-white bg-white/5' : 'text-[#8899bb] hover:text-white hover:bg-white/5'}`}>
                         <span className={`text-xs font-bold px-1 py-0.5 rounded bg-white/10 ${sub.color}`} style={{ fontSize: 8 }}>{sub.badge}</span>
