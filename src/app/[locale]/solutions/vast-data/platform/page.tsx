@@ -233,11 +233,11 @@ export default function VastPlatformPage() {
       {/* ── Hero ── */}
       <section
         style={{
-          minHeight: "55vh",
+          minHeight: "auto",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          padding: "120px 24px 60px",
+          minHeight: "auto",
           background: "linear-gradient(180deg, #020a1a 0%, #061428 50%, #020a1a 100%)",
           position: "relative",
           overflow: "hidden",
