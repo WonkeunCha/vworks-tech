@@ -209,6 +209,7 @@ export default function Navbar() {
           <Link href="/ko/partners/" className={pathname?.startsWith('/ko/partners') ? linkActiveClass : linkInactiveClass}>파트너</Link>
           <Link href="/ko/reference/" className={pathname?.startsWith('/ko/reference') ? linkActiveClass : linkInactiveClass}>레퍼런스</Link>
           <Link href="/ko/about/" className={pathname?.startsWith('/ko/about') ? linkActiveClass : linkInactiveClass}>회사소개</Link>
+          <Link href="/ko/careers/" className={pathname?.startsWith('/ko/careers') ? linkActiveClass : linkInactiveClass}>채용</Link>
 
           <Link href="/ko/contact/" className="text-sm bg-teal-500 hover:bg-teal-400 text-[#000d1a] font-bold px-4 py-2 rounded-lg transition-colors">
             문의하기
@@ -294,6 +295,7 @@ export default function Navbar() {
                 { href: '/ko/partners/', label: '파트너' },
                 { href: '/ko/reference/', label: '레퍼런스' },
                 { href: '/ko/about/', label: '회사소개' },
+                { href: '/ko/careers/', label: '채용' },
               ].map(item => (
                 <Link key={item.href} href={item.href} onClick={() => setMobileOpen(false)}
                   className={`block px-2 py-2.5 rounded-lg text-sm transition-colors ${pathname?.startsWith(item.href.slice(0, -1)) ? 'text-white font-semibold' : 'text-[#8899bb] hover:text-white'}`}>
