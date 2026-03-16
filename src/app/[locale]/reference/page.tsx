@@ -29,7 +29,7 @@ interface Project {
 }
 
 const PROJECTS: Project[] = [
-    {
+  {
     id: "navy-hpc",
     title: "해군 해양예측체계 HPC 이전설치",
     client: "대한민국 해군",
@@ -146,10 +146,8 @@ function ProjectModal({ project, onClose }: { project: Project; onClose: () => v
       }}>
         <style>{`@keyframes modalIn { from { opacity:0; transform:translateY(16px) scale(0.97); } to { opacity:1; transform:translateY(0) scale(1); } }`}</style>
 
-        {/* 닫기 */}
         <button onClick={onClose} style={{ position: "absolute", top: 16, right: 16, width: 32, height: 32, borderRadius: 10, background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.08)", color: "rgba(255,255,255,0.5)", fontSize: 16, cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}>✕</button>
 
-        {/* 헤더 */}
         <div style={{ display: "flex", gap: 8, marginBottom: 16, flexWrap: "wrap" }}>
           <span style={{ fontSize: 11, padding: "4px 10px", borderRadius: 6, background: `${catColor}15`, border: `1px solid ${catColor}30`, color: catColor, fontWeight: 600 }}>
             {CATEGORIES.find(c => c.id === project.category)?.label}
@@ -162,7 +160,6 @@ function ProjectModal({ project, onClose }: { project: Project; onClose: () => v
         <p style={{ fontSize: 14, color: "rgba(255,255,255,0.4)", margin: "0 0 16px" }}>{project.client}</p>
         <p style={{ fontSize: 14, color: "rgba(255,255,255,0.6)", lineHeight: 1.7, margin: "0 0 24px" }}>{project.summary}</p>
 
-        {/* 과제 & 해결 */}
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12, marginBottom: 24 }}>
           <div style={{ padding: "16px", borderRadius: 12, background: "rgba(249,115,22,0.06)", border: "1px solid rgba(249,115,22,0.15)" }}>
             <div style={{ fontSize: 11, fontWeight: 600, color: "#F97316", marginBottom: 8, letterSpacing: "0.08em" }}>CHALLENGE</div>
@@ -174,7 +171,6 @@ function ProjectModal({ project, onClose }: { project: Project; onClose: () => v
           </div>
         </div>
 
-        {/* 아키텍처 */}
         <div style={{ marginBottom: 24 }}>
           <div style={{ fontSize: 11, fontWeight: 600, color: catColor, marginBottom: 12, letterSpacing: "0.1em" }}>ARCHITECTURE</div>
           <div style={{ display: "grid", gridTemplateColumns: `repeat(${project.architecture.length}, 1fr)`, gap: 8 }}>
@@ -191,7 +187,6 @@ function ProjectModal({ project, onClose }: { project: Project; onClose: () => v
           </div>
         </div>
 
-        {/* 성과 */}
         <div style={{ display: "flex", gap: 10, marginBottom: 24, flexWrap: "wrap" }}>
           {project.results.map((r, i) => (
             <div key={i} style={{ flex: 1, minWidth: 100, padding: "14px", borderRadius: 10, background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.06)", textAlign: "center" }}>
@@ -201,7 +196,6 @@ function ProjectModal({ project, onClose }: { project: Project; onClose: () => v
           ))}
         </div>
 
-        {/* 적용 제품 + 태그 */}
         <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginBottom: 20 }}>
           {project.products.map(p => (
             <span key={p} style={{ fontSize: 11, padding: "4px 12px", borderRadius: 20, background: `${catColor}10`, border: `1px solid ${catColor}25`, color: catColor }}>{p}</span>
@@ -265,70 +259,84 @@ export default function ReferencePage() {
         </div>
       </section>
 
-      {/* 탭 + 카드 */}
-      <section className="py-10 px-6" style={{ background: "linear-gradient(180deg,transparent,rgba(0,201,177,0.02),transparent)" }}>
-        <div className="max-w-5xl mx-auto">
-          <div className="flex gap-2 justify-center mb-10 flex-wrap">
-            {CATEGORIES.map(cat => (
-              <button key={cat.id} onClick={() => setActiveTab(cat.id)} style={{
-                padding: "8px 18px", borderRadius: 8,
-                border: `1px solid ${activeTab === cat.id ? cat.color + "50" : "rgba(255,255,255,0.08)"}`,
-                background: activeTab === cat.id ? `${cat.color}12` : "rgba(255,255,255,0.03)",
-                color: activeTab === cat.id ? cat.color : "rgba(212,223,240,0.5)",
-                fontSize: 13, fontWeight: activeTab === cat.id ? 600 : 400, cursor: "pointer", transition: "all 0.2s",
-              }}>
-                {cat.label}
-                <span style={{ marginLeft: 6, fontSize: 11, opacity: 0.6 }}>{counts[cat.id] || 0}</span>
-              </button>
-            ))}
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-5">
-            {filtered.map(p => {
-              const catColor = CATEGORIES.find(c => c.id === p.category)?.color || "#00C9B1";
-              return (
-                <div key={p.id} onClick={() => setModalProject(p)}
-                  style={{ padding: "24px", borderRadius: 16, background: "#0a1628", border: "1px solid rgba(255,255,255,0.07)", cursor: "pointer", transition: "border-color 0.2s, transform 0.2s" }}
-                  onMouseEnter={e => { e.currentTarget.style.borderColor = `${catColor}35`; e.currentTarget.style.transform = "translateY(-2px)"; }}
-                  onMouseLeave={e => { e.currentTarget.style.borderColor = "rgba(255,255,255,0.07)"; e.currentTarget.style.transform = "translateY(0)"; }}
-                >
-                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "start", marginBottom: 12 }}>
-                    <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
-                      <span style={{ fontSize: 10, padding: "3px 8px", borderRadius: 6, background: `${catColor}15`, border: `1px solid ${catColor}30`, color: catColor, fontWeight: 600 }}>
-                        {CATEGORIES.find(c => c.id === p.category)?.label}
-                      </span>
-                      <span style={{ fontSize: 10, padding: "3px 8px", borderRadius: 6, background: "rgba(255,255,255,0.05)", color: "rgba(255,255,255,0.4)" }}>{p.year}</span>
-                    </div>
-                  </div>
-
-                  <h3 style={{ fontSize: 17, fontWeight: 700, color: "#fff", margin: "0 0 4px", fontFamily: "'Pretendard',sans-serif", lineHeight: 1.3 }}>{p.title}</h3>
-                  <p style={{ fontSize: 13, color: "rgba(212,223,240,0.4)", margin: "0 0 14px" }}>{p.client}</p>
-                  <p style={{ fontSize: 13, color: "rgba(212,223,240,0.5)", lineHeight: 1.6, margin: "0 0 16px" }}>{p.summary}</p>
-
-                  {/* 미니 성과 */}
-                  <div style={{ display: "flex", gap: 8, marginBottom: 14 }}>
-                    {p.results.map((r, i) => (
-                      <div key={i} style={{ fontSize: 11, padding: "4px 10px", borderRadius: 6, background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.06)" }}>
-                        <span style={{ color: r.color, fontWeight: 700 }}>{r.value}</span>
-                        <span style={{ color: "rgba(255,255,255,0.35)", marginLeft: 4 }}>{r.label}</span>
-                      </div>
-                    ))}
-                  </div>
-
-                  {/* 적용 제품 */}
-                  <div style={{ display: "flex", flexWrap: "wrap", gap: 4 }}>
-                    {p.products.map(prod => (
-                      <span key={prod} style={{ fontSize: 10, padding: "3px 8px", borderRadius: 4, background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.06)", color: "rgba(212,223,240,0.4)" }}>{prod}</span>
-                    ))}
-                  </div>
-
-                  <div style={{ fontSize: 12, color: catColor, fontWeight: 500, marginTop: 14, opacity: 0.7 }}>상세 아키텍처 보기 →</div>
-                </div>
-              );
-            })}
+      {/* 탭 + 카드 — 블라인드 처리 */}
+      <div className="relative">
+        {/* 블러 오버레이 */}
+        <div style={{
+          position: "absolute", inset: 0, zIndex: 10,
+          background: "rgba(5,13,26,0.7)",
+          backdropFilter: "blur(6px)",
+          display: "flex", flexDirection: "column",
+          alignItems: "center", justifyContent: "center",
+          borderRadius: 12,
+        }}>
+          <div style={{
+            padding: "24px 40px", borderRadius: 16,
+            background: "rgba(0,201,177,0.08)",
+            border: "1px solid rgba(0,201,177,0.2)",
+            textAlign: "center",
+          }}>
+            <div style={{ fontSize: 32, marginBottom: 10 }}>🔒</div>
+            <div style={{ fontSize: 18, fontWeight: 700, color: "#fff", marginBottom: 6 }}>상세 내용 업데이트 예정</div>
+            <div style={{ fontSize: 14, color: "rgba(212,223,240,0.5)" }}>프로젝트 레퍼런스 상세 정보를 준비하고 있습니다.</div>
           </div>
         </div>
-      </section>
+
+        {/* 실제 카드 영역 (블러 뒤에 보임) */}
+        <section className="py-10 px-6" style={{ background: "linear-gradient(180deg,transparent,rgba(0,201,177,0.02),transparent)" }}>
+          <div className="max-w-5xl mx-auto">
+            <div className="flex gap-2 justify-center mb-10 flex-wrap">
+              {CATEGORIES.map(cat => (
+                <button key={cat.id} onClick={() => setActiveTab(cat.id)} style={{
+                  padding: "8px 18px", borderRadius: 8,
+                  border: `1px solid ${activeTab === cat.id ? cat.color + "50" : "rgba(255,255,255,0.08)"}`,
+                  background: activeTab === cat.id ? `${cat.color}12` : "rgba(255,255,255,0.03)",
+                  color: activeTab === cat.id ? cat.color : "rgba(212,223,240,0.5)",
+                  fontSize: 13, fontWeight: activeTab === cat.id ? 600 : 400, cursor: "pointer", transition: "all 0.2s",
+                }}>
+                  {cat.label}
+                  <span style={{ marginLeft: 6, fontSize: 11, opacity: 0.6 }}>{counts[cat.id] || 0}</span>
+                </button>
+              ))}
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-5">
+              {filtered.map(p => {
+                const catColor = CATEGORIES.find(c => c.id === p.category)?.color || "#00C9B1";
+                return (
+                  <div key={p.id} style={{ padding: "24px", borderRadius: 16, background: "#0a1628", border: "1px solid rgba(255,255,255,0.07)" }}>
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "start", marginBottom: 12 }}>
+                      <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+                        <span style={{ fontSize: 10, padding: "3px 8px", borderRadius: 6, background: `${catColor}15`, border: `1px solid ${catColor}30`, color: catColor, fontWeight: 600 }}>
+                          {CATEGORIES.find(c => c.id === p.category)?.label}
+                        </span>
+                        <span style={{ fontSize: 10, padding: "3px 8px", borderRadius: 6, background: "rgba(255,255,255,0.05)", color: "rgba(255,255,255,0.4)" }}>{p.year}</span>
+                      </div>
+                    </div>
+                    <h3 style={{ fontSize: 17, fontWeight: 700, color: "#fff", margin: "0 0 4px", fontFamily: "'Pretendard',sans-serif", lineHeight: 1.3 }}>{p.title}</h3>
+                    <p style={{ fontSize: 13, color: "rgba(212,223,240,0.4)", margin: "0 0 14px" }}>{p.client}</p>
+                    <p style={{ fontSize: 13, color: "rgba(212,223,240,0.5)", lineHeight: 1.6, margin: "0 0 16px" }}>{p.summary}</p>
+                    <div style={{ display: "flex", gap: 8, marginBottom: 14 }}>
+                      {p.results.map((r, i) => (
+                        <div key={i} style={{ fontSize: 11, padding: "4px 10px", borderRadius: 6, background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.06)" }}>
+                          <span style={{ color: r.color, fontWeight: 700 }}>{r.value}</span>
+                          <span style={{ color: "rgba(255,255,255,0.35)", marginLeft: 4 }}>{r.label}</span>
+                        </div>
+                      ))}
+                    </div>
+                    <div style={{ display: "flex", flexWrap: "wrap", gap: 4 }}>
+                      {p.products.map(prod => (
+                        <span key={prod} style={{ fontSize: 10, padding: "3px 8px", borderRadius: 4, background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.06)", color: "rgba(212,223,240,0.4)" }}>{prod}</span>
+                      ))}
+                    </div>
+                    <div style={{ fontSize: 12, color: catColor, fontWeight: 500, marginTop: 14, opacity: 0.7 }}>상세 아키텍처 보기 →</div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      </div>
 
       {/* CTA */}
       <section className="py-20 px-6">
@@ -340,7 +348,7 @@ export default function ReferencePage() {
               프로젝트 상담 신청하기
             </Link>
           </div>
-        </div>id: "navy-hpc-1",
+        </div>
       </section>
 
       {modalProject && <ProjectModal project={modalProject} onClose={() => setModalProject(null)} />}
