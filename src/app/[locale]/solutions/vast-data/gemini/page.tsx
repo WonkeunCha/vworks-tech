@@ -291,21 +291,7 @@ export default function VastGeminiPage() {
             30년 넘게 이어져 온 강제 교체 주기를 끊습니다.
           </p>
 
-          <Link
-            href="/ko/contact?from=vast-gemini"
-            style={{
-              display: "inline-block",
-              padding: "12px 28px",
-              borderRadius: 8,
-              background: "linear-gradient(135deg, #d97706, #f59e0b)",
-              color: "#fff",
-              fontWeight: 600,
-              fontSize: 15,
-              textDecoration: "none",
-            }}
-          >
-            Gemini 도입 상담
-          </Link>
+          
         </div>
       </section>
 

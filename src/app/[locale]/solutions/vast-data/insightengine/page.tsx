@@ -55,7 +55,7 @@ export default function VastInsightEnginePage() {
           <p style={{ fontSize: "clamp(15px, 2vw, 18px)", color: "rgba(255,255,255,0.5)", lineHeight: 1.7, maxWidth: 620, margin: "0 auto 32px" }}>
             RAG 및 에이전틱 워크플로우를 위한 실시간 벡터 임베딩, 모델 오케스트레이션, 파이프라인 옵저버빌리티를 제공합니다.
           </p>
-          <Link href="/ko/contact?from=vast-insightengine" style={{ display: "inline-block", padding: "12px 28px", borderRadius: 8, background: "linear-gradient(135deg, #db2777, #ec4899)", color: "#fff", fontWeight: 600, fontSize: 15, textDecoration: "none" }}>InsightEngine 도입 상담</Link>
+          
         </div>
       </section>
 

@@ -203,21 +203,7 @@ export default function VastDataStorePage() {
             아카이브 수준의 경제성으로 저장합니다.
           </p>
 
-          <Link
-            href="/ko/contact?from=vast-datastore"
-            style={{
-              display: "inline-block",
-              padding: "12px 28px",
-              borderRadius: 8,
-              background: "linear-gradient(135deg, #0d9488, #06b6d4)",
-              color: "#fff",
-              fontWeight: 600,
-              fontSize: 15,
-              textDecoration: "none",
-            }}
-          >
-            DataStore 도입 상담
-          </Link>
+          
         </div>
       </section>
 

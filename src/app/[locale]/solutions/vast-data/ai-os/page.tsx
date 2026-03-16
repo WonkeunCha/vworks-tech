@@ -223,37 +223,7 @@ export default function VastAiOsPage() {
           </p>
 
           <div style={{ display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap" }}>
-            <Link
-              href="/ko/solutions/vast-data"
-              style={{
-                padding: "12px 28px",
-                borderRadius: 8,
-                background: "linear-gradient(135deg, #0d9488, #06b6d4)",
-                color: "#fff",
-                fontWeight: 600,
-                fontSize: 15,
-                textDecoration: "none",
-                transition: "transform 0.2s, box-shadow 0.2s",
-              }}
-            >
-              VAST Data 솔루션 보기
-            </Link>
-            <Link
-              href="/ko/contact?from=vast-ai-os"
-              style={{
-                padding: "12px 28px",
-                borderRadius: 8,
-                background: "rgba(255,255,255,0.06)",
-                border: "1px solid rgba(255,255,255,0.15)",
-                color: "rgba(255,255,255,0.9)",
-                fontWeight: 500,
-                fontSize: 15,
-                textDecoration: "none",
-                transition: "background 0.2s",
-              }}
-            >
-              도입 상담 신청
-            </Link>
+            
           </div>
         </div>
       </section>

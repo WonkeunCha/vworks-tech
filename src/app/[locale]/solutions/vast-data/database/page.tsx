@@ -92,9 +92,7 @@ export default function VastDataBasePage() {
           <p style={{ fontSize: "clamp(15px, 2vw, 18px)", color: "rgba(255,255,255,0.5)", lineHeight: 1.7, maxWidth: 620, margin: "0 auto 32px" }}>
             구조화 데이터, 벡터, 스트림, 카탈로그, 로그를 하나의 AI 네이티브 데이터베이스에서 실시간으로 인덱싱하고 쿼리합니다.
           </p>
-          <Link href="/ko/contact?from=vast-database" style={{ display: "inline-block", padding: "12px 28px", borderRadius: 8, background: "linear-gradient(135deg, #0891b2, #06b6d4)", color: "#fff", fontWeight: 600, fontSize: 15, textDecoration: "none" }}>
-            DataBase 도입 상담
-          </Link>
+          
         </div>
       </section>
 

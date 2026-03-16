@@ -48,7 +48,7 @@ export default function VastDataEnginePage() {
           <p style={{ fontSize: "clamp(15px, 2vw, 18px)", color: "rgba(255,255,255,0.5)", lineHeight: 1.7, maxWidth: 620, margin: "0 auto 32px" }}>
             이벤트 트리거, Python 함수, Kafka 호환 브로커로 데이터에 가까운 서버리스 컴퓨트를 실현합니다.
           </p>
-          <Link href="/ko/contact?from=vast-dataengine" style={{ display: "inline-block", padding: "12px 28px", borderRadius: 8, background: "linear-gradient(135deg, #d97706, #f59e0b)", color: "#fff", fontWeight: 600, fontSize: 15, textDecoration: "none" }}>DataEngine 도입 상담</Link>
+          
         </div>
       </section>
 

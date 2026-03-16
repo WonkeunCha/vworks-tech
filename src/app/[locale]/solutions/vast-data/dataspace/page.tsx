@@ -48,7 +48,7 @@ export default function VastDataSpacePage() {
           <p style={{ fontSize: "clamp(15px, 2vw, 18px)", color: "rgba(255,255,255,0.5)", lineHeight: 1.7, maxWidth: 620, margin: "0 auto 32px" }}>
             엣지, 코어, 클라우드를 아우르는 단일 데이터 패브릭으로 데이터가 필요한 곳에서 즉시 활용할 수 있습니다.
           </p>
-          <Link href="/ko/contact?from=vast-dataspace" style={{ display: "inline-block", padding: "12px 28px", borderRadius: 8, background: "linear-gradient(135deg, #2563eb, #3b82f6)", color: "#fff", fontWeight: 600, fontSize: 15, textDecoration: "none" }}>DataSpace 도입 상담</Link>
+          
         </div>
       </section>
 
