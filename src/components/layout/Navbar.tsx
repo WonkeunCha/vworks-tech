@@ -48,6 +48,7 @@ export default function Navbar() {
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [mobileVastOpen, setMobileVastOpen] = useState(false);
   const [solOpen, setSolOpen] = useState(false);
   const [vastSubOpen, setVastSubOpen] = useState(false);
   const [devOpen, setDevOpen] = useState(false);
@@ -101,27 +102,17 @@ export default function Navbar() {
             {solOpen && (
               <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2 z-50">
                 <div className="flex items-start">
-                  {/* 메인 솔루션 목록 */}
                   <div className="bg-[#0a1828] border border-white/10 rounded-xl shadow-2xl shadow-black/50 overflow-hidden w-72 flex-shrink-0">
                     {SOL.map(item => {
                       const hasSub = (item as any).hasSub;
                       return (
                         <div key={item.href} className={`flex items-center hover:bg-white/5 transition-colors ${pathname === item.href || (hasSub && isVast) ? 'bg-white/5' : ''}`}>
-                          {/* 텍스트 영역 — 클릭 시 페이지 이동 */}
-                          <Link
-                            href={item.href}
-                            onClick={() => { setSolOpen(false); setVastSubOpen(false); }}
-                            className="flex items-center gap-3 px-4 py-3 flex-1 group"
-                          >
+                          <Link href={item.href} onClick={() => { setSolOpen(false); setVastSubOpen(false); }} className="flex items-center gap-3 px-4 py-3 flex-1 group">
                             <span className={`text-xs font-bold px-1.5 py-0.5 rounded bg-white/10 ${item.color} flex-shrink-0`}>{item.badge}</span>
                             <span className={`text-sm whitespace-nowrap ${pathname === item.href || (hasSub && isVast) ? 'text-white font-medium' : 'text-[#c8d8e8] group-hover:text-white'}`}>{item.label}</span>
                           </Link>
-                          {/* 화살표 버튼 — 클릭 시 서브메뉴 토글 (페이지 이동 안함) */}
                           {hasSub && (
-                            <button
-                              onClick={(e) => { e.stopPropagation(); setVastSubOpen(!vastSubOpen); }}
-                              className="flex items-center justify-center w-10 h-full py-3 hover:bg-white/5 transition-colors border-l border-white/5"
-                            >
+                            <button onClick={(e) => { e.stopPropagation(); setVastSubOpen(!vastSubOpen); }} className="flex items-center justify-center w-10 h-full py-3 hover:bg-white/5 transition-colors border-l border-white/5">
                               <svg className={`w-3.5 h-3.5 text-[#8899bb] transition-transform duration-200 ${vastSubOpen ? 'rotate-90' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                               </svg>
@@ -131,20 +122,14 @@ export default function Navbar() {
                       );
                     })}
                   </div>
-
-                  {/* VAST 서브메뉴 — 화살표 클릭 후 오른쪽으로 펼침 */}
                   {vastSubOpen && (
                     <div className="bg-[#0a1828] border border-white/10 rounded-xl shadow-2xl shadow-black/50 overflow-hidden ml-1 w-56">
                       <div className="px-4 py-2 border-b border-white/5">
                         <span className="text-[10px] text-[#8899bb] uppercase tracking-widest">VAST Data 제품</span>
                       </div>
                       {VAST_SUB.map(sub => (
-                        <Link
-                          key={sub.href}
-                          href={sub.href}
-                          onClick={() => { setSolOpen(false); setVastSubOpen(false); }}
-                          className={`flex items-center gap-2.5 px-4 py-2.5 hover:bg-white/5 transition-colors group ${pathname === sub.href ? 'bg-white/5' : ''}`}
-                        >
+                        <Link key={sub.href} href={sub.href} onClick={() => { setSolOpen(false); setVastSubOpen(false); }}
+                          className={`flex items-center gap-2.5 px-4 py-2.5 hover:bg-white/5 transition-colors group ${pathname === sub.href ? 'bg-white/5' : ''}`}>
                           <span className={`text-[9px] font-bold px-1.5 py-0.5 rounded bg-white/10 ${sub.color} flex-shrink-0`}>{sub.badge}</span>
                           <span className={`text-sm ${pathname === sub.href ? 'text-white font-medium' : 'text-[#c8d8e8] group-hover:text-white'}`}>{sub.label}</span>
                         </Link>
@@ -222,10 +207,9 @@ export default function Navbar() {
             <GroupwareIcon />
             그룹웨어
           </a>
-
         </nav>
 
-        <button className="md:hidden text-white/70 hover:text-white p-2" onClick={() => setMobileOpen(!mobileOpen)} aria-label="메뉴">
+        <button className="md:hidden text-white/70 hover:text-white p-2" onClick={() => { setMobileOpen(!mobileOpen); if (mobileOpen) setMobileVastOpen(false); }} aria-label="메뉴">
           {mobileOpen ? (
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -238,22 +222,36 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* 모바일 메뉴 */}
+      {/* 모바일 메뉴 — 스크롤 가능 */}
       {mobileOpen && (
-        <div className="md:hidden bg-[#000d1a]/98 backdrop-blur-md border-t border-white/5">
+        <div className="md:hidden bg-[#000d1a]/98 backdrop-blur-md border-t border-white/5" style={{ maxHeight: 'calc(100vh - 64px)', overflowY: 'auto' }}>
           <div className="px-6 py-4 space-y-1">
             <p className="text-xs text-[#8899bb] uppercase tracking-widest px-2 py-2">솔루션</p>
             {SOL.map(item => (
               <div key={item.href}>
-                <Link href={item.href} onClick={() => setMobileOpen(false)}
-                  className={`flex items-center gap-3 px-2 py-2.5 rounded-lg transition-colors ${pathname === item.href ? 'text-white bg-white/5' : 'text-[#c8d8e8] hover:text-white hover:bg-white/5'}`}>
-                  <span className={`text-xs font-bold px-1.5 py-0.5 rounded bg-white/10 ${item.color}`}>{item.badge}</span>
-                  {item.label}
-                </Link>
-                {(item as any).hasSub && (
+                <div className="flex items-center">
+                  <Link href={item.href} onClick={() => { setMobileOpen(false); setMobileVastOpen(false); }}
+                    className={`flex items-center gap-3 px-2 py-2.5 rounded-lg transition-colors flex-1 ${pathname === item.href ? 'text-white bg-white/5' : 'text-[#c8d8e8] hover:text-white hover:bg-white/5'}`}>
+                    <span className={`text-xs font-bold px-1.5 py-0.5 rounded bg-white/10 ${item.color}`}>{item.badge}</span>
+                    {item.label}
+                  </Link>
+                  {/* VAST 토글 버튼 */}
+                  {(item as any).hasSub && (
+                    <button
+                      onClick={() => setMobileVastOpen(!mobileVastOpen)}
+                      className="flex items-center justify-center w-10 py-2.5 text-[#8899bb] hover:text-white"
+                    >
+                      <svg className={`w-3.5 h-3.5 transition-transform duration-200 ${mobileVastOpen ? 'rotate-90' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                      </svg>
+                    </button>
+                  )}
+                </div>
+                {/* VAST 서브메뉴 — 기본 접힘, 토글로 펼침 */}
+                {(item as any).hasSub && mobileVastOpen && (
                   <div className="ml-6 mt-1 mb-2 space-y-0.5">
                     {VAST_SUB.map(sub => (
-                      <Link key={sub.href} href={sub.href} onClick={() => setMobileOpen(false)}
+                      <Link key={sub.href} href={sub.href} onClick={() => { setMobileOpen(false); setMobileVastOpen(false); }}
                         className={`flex items-center gap-2 px-2 py-2 rounded-lg transition-colors text-sm ${pathname === sub.href ? 'text-white bg-white/5' : 'text-[#8899bb] hover:text-white hover:bg-white/5'}`}>
                         <span className={`text-xs font-bold px-1 py-0.5 rounded bg-white/10 ${sub.color}`} style={{ fontSize: 8 }}>{sub.badge}</span>
                         {sub.label}
