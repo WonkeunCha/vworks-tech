@@ -154,9 +154,319 @@
     "http://www.boannews.com/media/view.asp?idx=142674&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=142673&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=142672&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142671&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=142671&kind=&sub_kind=",
+    "https://www.dell.com/en-us/blog/cut-costs-not-performance-with-single-socket-poweredge/",
+    "https://www.dell.com/en-us/blog/is-your-ai-ready-to-lead-the-future/",
+    "https://www.dell.com/en-us/blog/secure-edge-ai-before-it-breaks/",
+    "https://www.securityweek.com/the-collapse-of-predictive-security-in-the-age-of-machine-speed-attacks/",
+    "https://www.securityweek.com/autonomous-offensive-security-firm-xbow-raises-120m-at-1b-valuation/",
+    "https://www.securityweek.com/cloud-security-startup-native-exits-stealth-with-42-million-in-funding/",
+    "https://www.securityweek.com/darksword-ios-exploit-kit-used-by-state-sponsored-hackers-spyware-vendors/",
+    "https://www.securityweek.com/virtual-summit-today-supply-chain-third-party-risk-summit/",
+    "https://www.securityweek.com/eu-sanctions-chinese-iranian-firms-supporting-hacking-operations/",
+    "https://www.securityweek.com/the-shadow-ai-problem-how-saas-apps-are-quietly-enabling-massive-breaches/",
+    "https://www.securityweek.com/manifold-raises-8-million-for-ai-detection-and-response/",
+    "https://www.securityweek.com/iranian-hackers-likely-used-malware-stolen-credentials-in-stryker-breach/",
+    "https://www.securityweek.com/apple-debuts-background-security-improvements-with-fresh-webkit-patches/",
+    "https://www.bleepingcomputer.com/news/security/aura-confirms-data-breach-exposing-900-000-marketing-contacts/",
+    "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-zimbra-xss-flaw-exploited-in-attacks/",
+    "https://www.bleepingcomputer.com/news/security/connectwise-patches-new-flaw-allowing-screenconnect-hijacking/",
+    "https://www.bleepingcomputer.com/news/security/interlock-ransomware-exploited-secure-fmc-flaw-in-zero-day-attacks-since-january/",
+    "https://www.bleepingcomputer.com/news/security/marquis-ransomware-gang-stole-data-of-672-000-people-in-2025-cyberattack/",
+    "https://www.bleepingcomputer.com/news/security/the-refund-fraud-economy-exploiting-major-retailers-and-payment-platforms/",
+    "https://www.bleepingcomputer.com/news/security/new-darksword-ios-exploit-used-in-infostealer-attack-on-iphones/",
+    "https://www.bleepingcomputer.com/news/security/nordstroms-email-system-abused-to-send-crypto-scams-to-customers/",
+    "http://www.boannews.com/media/view.asp?idx=142693&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=142694&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=142691&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=142688&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=142690&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=142678&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=142689&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=142687&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=142675&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=142686&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "F5, AI 및 포스트 양자 시대를 위한 엔터프라이즈 애플리케이션 보안 강화",
+      "summary": "하이브리드 멀티클라우드 환경 전반에서 AI 기반 보호제로트러스트 액세스·포스트 양자 대응 통합[보안뉴스 강현주 기자] F5가 AI 기반 및 최신 애플리케이션 보호를 강화하는 새로운 보안 기능을 19일 공개했다. 이번 기능은 F5 애플리케이션 전송 및 보안 플랫폼(ADSP)에 통합되며, 지능형 위협 보호, 제로 트러스트 접근 제어, 암호 민첩성 아키텍처를 결",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142693&kind=&sub_kind=",
+      "date": "2026-03-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“양자보안 기술은 수입할 수 없어”... 양자보안 콘퍼런스 2026 개최",
+      "summary": "18일 일산 킨텍스 SECON & eGISEC 2026 동시 개최 행서로 열려 “양자 보안 체제로 전환 시급해”... 기술 및 정책 동향, PQC 전환 가이드 제시[보안뉴스 한세희 기자] “불치병을 고칠 의료 기술이 나올 때를 기다리며 냉동 인간이 되기를 선택하기도 하는 것처럼, 현재 풀 수 없는 암호화된 데이터를 풀기 위해 지금 훔쳐놓고 복호화 기술이 나",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142694&kind=&sub_kind=",
+      "date": "2026-03-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "행안부, CCTV 통합관제 콘퍼런스 개최...“재난안전 AI 데이터댐 구축”",
+      "summary": "18일 전국 지자체 및 유관기관 대상 콘퍼런스 개최... 71만대 CCTV 인프라 지능형 전환 로드맵 발표동작구·하남시·제주도 등 지자체별 맞춤형 우수 사례 공유 및 KETI·KT의 차세대 관제 기술 동향 발표[보안뉴스 조재호 기자] 행정안전부가 전국 71만대의 CCTV 인프라를 지능형 재난안전 감시망으로 전환하기 위한 범정부 차원의 로드맵을 가동했다. 영",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142691&kind=&sub_kind=",
+      "date": "2026-03-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "이노뎁, ‘SECON 2026’에서 이노뎁·VUNex 투트랙 전시·기업설명회 개최",
+      "summary": "AI·클라우드·엣지 기반 통합관제 플랫폼 및 기술 공개[보안뉴스 강초희 기자] 이노뎁(대표이사 이성진)이 18-20일 킨텍스 제1전시장 3~5홀 및 콘퍼런스룸 일원에서 열리는 국내 통합보안 전시회 ‘SECON 2026’에 참가해 기존 관제 소프트웨어 기술과 차세대 통합 플랫폼을 분리 전시하고, 전시 마지막 날 현장 기업설명회(IR)를 진행한다.이번 행사는",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142688&kind=&sub_kind=",
+      "date": "2026-03-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "S2W “퀘이사, 실시간 다크웹 모니터링으로 전방위적 위협 분석”",
+      "summary": "[보안뉴스 강현주 기자] S2W는 18일부터 20일까지 일산 킨텍스 제 1전시장에서 열리는 ‘SECON & eGISEC 2026’에서)퀘이사(QUAXAR)를 선보였다. S2W의 ‘퀘이사’는 AI 기반 사이버 위협 인텔리전스 플랫폼(CTI)이다. 다크웹, 해킹 그룹의 텔레그램 채널 등 히든 채널들에서 유출되는 기업 데이터를 실시간으로 모니터링하며 전방위적으로",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142690&kind=&sub_kind=",
+      "date": "2026-03-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "한국산업기술보호협회, ‘2026 산업보안 트렌드 보안교육’ 성황리에 마쳐",
+      "summary": "협력사 기술유출·업무환경에 따른 물리보안 위협·딥페이크 등 사이버 위협 대응 방안 논의[보안뉴스 강초희 기자] 산업통상자원부(장관 김정관)가 주최하고 한국산업기술보호협회(회장 정양호)가 주관한 ‘2026 산업보안 트렌드 보안교육’ 콘퍼런스가 협력업체를 통한 산업기술 유출 사례 등을 주제로 18일 일산 킨텍스 제1전시장 콘퍼런스룸 211호에서 성황리에 개최됐",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142678&kind=&sub_kind=",
+      "date": "2026-03-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "피넛에이아이, ‘보이는 사이버보안 플랫폼’ 공개",
+      "summary": "SECON 2026에서 산업·IoT 보안 시연[보안뉴스 원병철 기자] AI 기반 사이버보안 기업 피넛에이아이(Peanut AI)는 오는 SECON 2026 전시회에서 ‘보이는 사이버보안’(Visible Cyber Security) 플랫폼을 공개하고, 산업·IoT 환경에서 발생할 수 있는 사이버 공격과 방어 과정을 실제 설비 기반 시뮬레이터를 통해 시연한다고",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142689&kind=&sub_kind=",
+      "date": "2026-03-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "한화비전, SECON 2026 통해 ‘AI 칩셋이 구현한 영상보안의 미래’ 소개",
+      "summary": "‘와이즈넷9’ 탑재 라인업 중점 소개, 노이즈 줄이고 AI 성능 획기적으로 끌어올려‘와이즈넷 AI 존’ 꾸려 공장·물류·교통 현장 실시간 시연개인정보 보호하는 DPM 기술·‘엔드 투 엔드’ 솔루션에 이목[보안뉴스 엄호식 기자] 한화비전은 18일 일산 킨텍스에서 개막한 ‘세계보안엑스포 2026 (SECON 2026)’에 참가해 최신 시스템온칩(SoC) ‘와이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142687&kind=&sub_kind=",
+      "date": "2026-03-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "비용을 절감하되 성능은 유지하는 단일-소켓 PowerEdge",
+      "summary": "Dell PowerEdge R4715와 R5715 단일-소켓 서버는 중소기업(SMB) 및 중견기업의 IT 인프라를 위해 단순하고 최적화된 아키텍처로 듀얼-소켓 수준의 성능을 제공합니다. 5세대 AMD EPYC 프로세서를 기반으로 하며, 레거시 서버를 통합하고 코어 기반 라이선싱 비용을 절감하는 동시에 와트당 성능을 향상시킵니다. PowerEdge 플랫폼 기반의 통합 관리, 내장 보안, 효율적인 열 관리 기능으로 구성되어 있어, 소규모 IT 팀이 불필요한 용량 확보 없이 현대화할 수 있도록 지원합니다. 이 솔현은 성능을 희생하지 않으면서 비용을 최적화하려는 조직을 위해 엔터프라이즈급 성능, 효율성 및 단순성을 제공합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/cut-costs-not-performance-with-single-socket-poweredge/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "당신의 AI는 미래를 주도할 준비가 되어 있나요?",
+      "summary": "Dell AI Factory와 NVIDIA가 함께 새로운 모듈식 아키텍처, AI 솔루션, 새로운 NVIDIA AI 인프라를 탑재한 PowerEdge 서버를 선보이며 AI 배포를 단순화합니다. 이 솔루션은 기업들이 복잡성을 극복하고 파일럿에서 프로덕션까지 워크로드를 효율적으로 확장하며 지속적인 경쟁 우위를 확보할 수 있게 해줍니다. 현대의 AI 목표는 레거시 시스템이나 임시방편적 업그레이드만으로는 부족합니다. 모듈식 구조를 통해 조직은 즉각적인 필요에 맞게 시작한 후, 사용 사례가 확장되면서 자신감 있게 컴퓨팅, 스토리지, 네트워킹을 추가할 수 있습니다. 이러한 유연한 모델은 예산 부담을 완화하고 팀이 결과에 집중하도록 지원합니다. Dell 자동화 플랫폼과 함께 다양한 AI 워크로드를 원활하게 배포하고 조직 전체에서 AI를 신속하게 프로덕션으로 가속화하도록 설계되었습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/is-your-ai-ready-to-lead-the-future/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "엣지 AI 보안, 지금 당장 강화해야 한다",
+      "summary": "엣지 AI는 빠르게 성장하고 있지만 보안 기반은 이를 따라가지 못하고 있습니다. 공격자들은 점점 더 엣지 디바이스를 침해하고 있으며, 이는 중소기업의 초기 침입의 약 30%를 차지하여 공격자에게 AI 파이프라인으로의 직접적인 접근을 제공합니다. 동시에 소형 엣지 최적화 모델은 암호화된 연결을 통해서도 프롬프트와 모델 출력을 노출할 수 있는 새로운 위험을 야기합니다. 위협 행위자들은 AI 자체를 무기화하여 악성 소프트웨어를 자동 생성하고, 정찰을 확대하며, 심지어 고영향력의 딥페이크 공격을 조율하고 있습니다. 97%의 AI 침해 조직이 적절한 접근 제어를 갖추지 못한 약한 거버넌스와 결합하면, 엣지는 쉬운 고가치 표적이 됩니다. 기밀 컴퓨팅, 모델 격리, 영점 신뢰 엣지 거버넌스와 같은 기법들은 이제 필수적이며, 그렇지 않으면 AI는 경쟁 우위가 아닌 운영 상의 위험이 될 것입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/secure-edge-ai-before-it-breaks/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "머신 속도 공격 시대에서의 예측 기반 보안의 붕괴",
+      "summary": "현대의 사이버 공격이 기계 수준의 속도로 진행됨에 따라 전통적인 예측 기반 보안 모델의 한계가 노출되고 있습니다. 기존의 패턴 분석과 위협 예측 방식으로는 빠르게 변화하는 공격 기법에 대응하기 어려워지고 있는 상황입니다. 이는 보안 업계가 사후 대응 중심에서 실시간 탐지 및 대응 체계로의 전환을 요구하고 있습니다. 조직들은 인공지능과 머신러닝 기반의 적응형 보안 솔루션으로의 전환을 고려해야 합니다. 더 이상 공격을 예측하는 것이 아닌, 공격 발생 시 즉각적으로 감지하고 차단하는 능력이 필수적입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/the-collapse-of-predictive-security-in-the-age-of-machine-speed-attacks/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "자율형 공격 보안 기업 XBOW, 10억 달러 이상의 가치평가로 1억 2,000만 달러 유치",
+      "summary": "자율형 공격 보안 솔루션을 제공하는 기업 XBOW가 시리즈 펀딩라운드에서 1억 2,000만 달러를 조달했습니다. 이번 투자로 XBOW의 기업가치는 10억 달러를 초과하는 유니콘 기업 반열에 올랐습니다. XBOW는 인공지능과 자동화 기술을 활용하여 기업의 보안 취약점을 능동적으로 발굴하고 대응하는 플랫폼을 제공합니다. 이러한 자율형 공격 보안 기술은 사이버위협이 증가하면서 기업들의 높은 관심을 받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/autonomous-offensive-security-firm-xbow-raises-120m-at-1b-valuation/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "클라우드 보안 스타트업 Native, 4,200만 달러 펀딩으로 베일 벗다",
+      "summary": "클라우드 보안 분야의 신생 기업 Native가 스텔스 모드를 빠져나오며 4,200만 달러의 자금 조달을 완료했습니다. 해당 기사의 상세 내용은 기술적 오류로 인해 접근할 수 없으나, 이는 클라우드 환경에서의 보안 위협이 증가하고 있음을 반영하는 것으로 보입니다. Native는 클라우드 기반 인프라의 보안을 강화하기 위한 혁신적인 솔루션을 제공할 것으로 예상됩니다. 이번 대규모 펀딩은 기업들의 클라우드 보안에 대한 관심과 투자가 활발하고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cloud-security-startup-native-exits-stealth-with-42-million-in-funding/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "DarkSword iOS 익스플로잇 킷, 국가 지원 해커 및 스파이웨어 판매업체에 의해 사용 중",
+      "summary": "보안 전문가들이 DarkSword라는 iOS 익스플로잇 킷이 국가 지원 해킹 집단과 상용 스파이웨어 공급업체에 의해 광범위하게 사용되고 있음을 발견했습니다. 이 도구는 Apple 기기의 보안 취약점을 악용하여 감시 목적으로 활용되고 있습니다. 국가 수준의 위협 행위자부터 민간 스파이웨어 판매업체까지 다양한 악의적 주체들이 이 킷을 사용 중이며, iOS 사용자들의 보안 위험이 심각한 상태입니다. 이는 모바일 보안의 취약성과 고도화된 사이버 공격의 심각성을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/darksword-ios-exploit-kit-used-by-state-sponsored-hackers-spyware-vendors/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "오늘의 가상 서밋: 공급망 제3자 위험 서밋",
+      "summary": "보안위크가 개최하는 공급망 제3자 위험 관련 가상 서밋이 예정되어 있습니다. 이 서밋은 조직의 공급망 보안 위협과 제3자 공급업체로 인한 사이버보안 위험을 다루는 행사입니다. 참가자들은 공급망 보안 관리 전략과 제3자 리스크 평가 방법론을 논의할 수 있습니다. 현대 기업들이 직면한 공급망 기반 사이버공격의 증가 추세에 대응하기 위한 실질적인 통찰과 모범 사례를 공유합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/virtual-summit-today-supply-chain-third-party-risk-summit/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "EU, 해킹 작전을 지원하는 중국·이란 기업에 제재 부과",
+      "summary": "유럽연합(EU)이 사이버 해킹 작전을 지원하는 중국과 이란의 기업들에 대해 제재를 단행했습니다. 이번 조치는 국가 차원의 해킹 활동을 지원하는 민간 기업들을 직접 겨냥한 것으로, 사이버 안보 위협에 대한 EU의 강경한 대응 의지를 보여줍니다. 제재 대상 기업들은 악성 사이버 작전 수행에 필요한 기술 및 서비스를 제공한 혐의를 받고 있습니다. 이러한 제재는 국제 사이버 범죄 활동에 대한 글로벌 차원의 억제책으로 작용할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/eu-sanctions-chinese-iranian-firms-supporting-hacking-operations/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "섀도우 AI 위험: SaaS 앱이 대규모 침해를 조용히 가능하게 하는 방법",
+      "summary": "본 기사는 기업들이 사용하는 SaaS 애플리케이션이 AI 기술과 결합하면서 새로운 보안 위협을 야기하고 있는 문제를 다룹니다. 직원들이 무단으로 AI 도구를 업무에 활용하는 '섀도우 AI' 현상이 확산되면서, 민감한 기업 데이터가 제3의 AI 서비스로 유출되는 사례가 증가하고 있습니다. 이러한 관리되지 않는 AI 사용은 기업의 보안 정책을 우회하여 대규모 데이터 침해를 초래할 수 있는 심각한 취약점으로 작용합니다. 기업들은 SaaS 환경에서의 데이터 흐름을 모니터링하고 AI 도구 사용에 대한 명확한 정책을 수립해야 할 필요성이 강조되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/the-shadow-ai-problem-how-saas-apps-are-quietly-enabling-massive-breaches/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Manifold, AI 탐지 및 대응 솔루션으로 800만 달러 자금 조달",
+      "summary": "사이버보안 기업 Manifold가 AI 탐지 및 대응 기술 개발을 위해 800만 달러의 펀딩을 확보했습니다. 이 투자금은 AI 기반의 위협 탐지 및 자동 대응 솔루션을 강화하는 데 사용될 예정입니다. Manifold의 기술은 기업들이 증가하는 사이버 위협에 더욱 빠르고 효과적으로 대응할 수 있도록 지원합니다. 이는 AI 기술이 사이버보안 분야에서 점점 더 중요한 역할을 하고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/manifold-raises-8-million-for-ai-detection-and-response/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "이란 해커들이 악성코드로 탈취한 자격증명을 이용해 Stryker 침해",
+      "summary": "이란 해킹 그룹이 악성코드를 통해 탈취한 자격증명을 이용하여 의료기기 제조업체 Stryker에 대한 침해 사건을 발생시킨 것으로 추정되고 있습니다. 이 공격은 사이버범죄자들이 이전에 감염시킨 악성코드로부터 얻은 피해자의 로그인 정보를 악용한 것으로 보입니다. 이러한 침해는 조직의 보안 인프라를 우회하고 내부 시스템에 접근하는 데 있어 자격증명 탈취의 위험성을 보여줍니다. Stryker는 의료 분야의 주요 기업으로서 이번 사건은 공급망 보안의 중요성을 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/iranian-hackers-likely-used-malware-stolen-credentials-in-stryker-breach/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Apple, 새로운 WebKit 패치로 백그라운드 보안 개선 사항 공개",
+      "summary": "Apple이 WebKit 엔진의 보안 취약점을 해결하기 위한 새로운 패치를 배포했습니다. 이번 업데이트는 Safari 및 iOS 기기의 백그라운드 보안을 강화하는 것을 목표로 하고 있습니다. WebKit은 Apple의 모든 브라우저와 앱에서 사용되는 핵심 렌더링 엔진이므로, 이 패치는 광범위한 보안 영향을 미칩니다. 사용자들은 최신 보안 업데이트를 설치하여 알려진 취약점으로부터 보호받을 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/apple-debuts-background-security-improvements-with-fresh-webkit-patches/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Aura, 90만 개의 마케팅 고객 정보 유출 확인",
+      "summary": "신원 보호 회사인 Aura가 미인가 접근자에 의해 약 90만 건의 고객 기록이 유출되었음을 확인했습니다. 노출된 데이터에는 고객의 이름과 이메일 주소가 포함되어 있습니다. 이번 데이터 유출은 회사의 마케팅 연락처 정보를 대상으로 한 것입니다. Aura는 이 사건을 확인하고 영향을 받은 고객들에게 통지했습니다. 이는 개인정보 보호 업체도 사이버 위협으로부터 안전하지 않음을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/aura-confirms-data-breach-exposing-900-000-marketing-contacts/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, 적극 악용 중인 Zimbra XSS 취약점 패치 명령",
+      "summary": "CISA(미국 사이버보안기반시설보안국)는 미국 정부 기관들에게 Zimbra Collaboration Suite(ZCS)의 적극 악용되고 있는 XSS(Cross-Site Scripting) 취약점에 대한 보안 조치를 시행할 것을 명령했습니다. 현재 공격자들이 이 취약점을 실제로 악용 중인 상황입니다. 정부 기관들은 자신의 서버를 이 취약점으로부터 보호하기 위해 시급한 패치 작업을 수행해야 합니다. Zimbra는 이메일 및 협업 솔루션으로 널리 사용되고 있어 보안이 매우 중요합니다. 이번 지시는 정부 시스템의 보안을 강화하기 위한 CISA의 일환적인 노력을 보여줍니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-zimbra-xss-flaw-exploited-in-attacks/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "ConnectWise, ScreenConnect 탈취를 허용하는 새로운 취약점 패치",
+      "summary": "ConnectWise가 ScreenConnect 고객들에게 암호화 서명 검증 취약점에 대해 경고했습니다. 이 취약점은 공격자에게 무단 접근과 권한 상승을 초래할 수 있습니다. 해당 결함은 ScreenConnect 시스템의 보안을 심각하게 훼손하여 원격 접근 제어 기능을 탈취당할 수 있게 합니다. ConnectWise는 이 취약점을 해결하기 위한 패치를 배포했으며, 사용자들은 긴급히 업데이트를 적용할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/connectwise-patches-new-flaw-allowing-screenconnect-hijacking/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "랜섬웨어 조직, 1월부터 시스코 취약점을 제로데이 공격으로 악용",
+      "summary": "인터락(Interlock) 랜섬웨어 조직이 1월 말부터 시스코 Secure Firewall Management Center(FMC) 소프트웨어의 최고 심각도 원격코드 실행(RCE) 취약점을 제로데이 공격으로 악용해오고 있습니다. 이 취약점은 공격자가 대상 시스템에 직접 접근하여 임의의 코드를 실행할 수 있게 합니다. 해당 공격은 수 개월간 적극적으로 활용되어 왔으며, 시스코의 네트워크 보안 솔루션을 사용하는 기업들이 위험에 노출되어 있습니다. 이는 주요 인프라와 중요 시스템을 관리하는 조직들에 심각한 보안 위협이 되고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/interlock-ransomware-exploited-secure-fmc-flaw-in-zero-day-attacks-since-january/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마키스: 랜섬웨어 조직이 사이버공격으로 67만 2천명의 개인정보 탈취",
+      "summary": "텍사스 소재 금융서비스 회사인 마키스(Marquis)가 2025년 8월에 발생한 랜섬웨어 공격으로 67만명 이상의 개인정보가 탈취되었다고 이번 주 공개했습니다. 이 사이버공격은 미국 전역 74개 은행의 업무를 중단시키기도 했습니다. 이번 사건은 금융 부문을 겨냥한 대규모 공격으로, 개인정보보호와 금융 기관의 보안 강화의 중요성을 다시 한번 드러냈습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/marquis-ransomware-gang-stole-data-of-672-000-people-in-2025-cyberattack/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "반품 사기 경제: 주요 소매업체 및 결제 플랫폼 악용",
+      "summary": "반품 사기가 이제 조직화된 사업으로 발전하고 있으며, 사기꾼들이 반품 정책을 악용하는 방법과 튜토리얼을 판매하고 있습니다. Flare의 보고서에 따르면 사기꾼들은 반품 및 차지백을 반복 가능한 수익 모델로 전환하여 대규모 수익을 창출하고 있습니다. 이러한 반품 사기는 암호화폐 거래소, 소셜 미디어 플랫폼, Telegram 등을 통해 교육 자료와 함께 공개적으로 거래되고 있습니다. 주요 소매업체와 결제 플랫폼들이 반품 사기로 인한 심각한 경제적 손실을 입고 있으며, 이는 업계 전체에 광범위한 영향을 미치고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/the-refund-fraud-economy-exploiting-major-retailers-and-payment-platforms/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 'Darksword' iOS 익스플로잇, 아이폰 정보 탈취 공격에 사용",
+      "summary": "'Darksword'라는 새로운 iOS 익스플로잇 킷과 전달 프레임워크가 발견되었습니다. 이 공격 도구는 암호화폐 지갑 앱의 데이터를 포함한 광범위한 개인정보를 탈취하는 데 사용되고 있습니다. Safari 브라우저를 통한 익스플로잇 체인을 활용하여 iPhone 사용자들을 표적으로 합니다. 이 새로운 위협은 iOS 기기 사용자들이 개인정보와 암호화폐 자산에 대한 위험에 노출되어 있음을 시사합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-darksword-ios-exploit-used-in-infostealer-attack-on-iphones/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "노드스트롬의 이메일 시스템이 암호화폐 사기 전송에 악용됨",
+      "summary": "고급 백화점 체인인 노드스트롬의 고객들이 정상적인 회사 이메일 주소에서 전송된 사기 메시지를 수신했습니다. 이 메시지들은 세인트 패트릭 데이 프로모션으로 위장한 암호화폐 사기를 홍보하고 있었습니다. 노드스트롬의 이메일 시스템이 공격자에 의해 악용된 것으로 보이며, 이는 회사의 메일 서버가 손상되었음을 시사합니다. Okta 및 Salesforce 같은 기업용 플랫폼의 보안 침해와 연관이 있을 수 있습니다. 고객들은 이러한 사기 메시지를 통해 암호화폐 관련 피해를 입을 위험에 노출되어 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/nordstroms-email-system-abused-to-send-crypto-scams-to-customers/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "英, 이스라엘식 ‘사이버 플라이휠’ 가동...보안 스타트업 지원",
+      "summary": "민간 주도 ‘사이버 플라이휠’ 이니셔티브, 영국 외무부(FCDO) 공식 지원 확보이스라엘 성공 모델 이식해 선순환 구조 구축하고 거대 미국 시장 공략해 ‘유니콘’ 육성[보안뉴스 김형근 기자] 영국 정부가 사이버보안 스타트업의 성장을 견인하기 위해 이스라엘식 성공 모델을 벤치마킹한 ‘사이버 플라이휠’(Cyber Flywheel) 이니셔티브에 대한 전폭적인 지",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142675&kind=&sub_kind=",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "국민 중심의 디지털 행정서비스 안정성 강화 정책 열린다",
+      "summary": "행정안전부 ‘디지털 행정서비스 장애 진단·복구 세미나’, SECON 2026 동시 개최 행사로 열려국정자원 화재로 드러난 문제점 해결 위한 9가지 정책 방향 발표[보안뉴스 원병철 기자] 디지털 행정이 우리 일상에 꼭 필요한 필수 인프라로 자리 잡으면서 문제 발생시 서비스 장애를 즉각적으로 진단하고 복구하는 것이 매우 중요해졌다. 이에 행정안전부는 디지털 행",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142686&kind=&sub_kind=",
+      "date": "2026-03-18"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "애플, 첫 번째 '백그라운드 보안 개선' 업데이트로 WebKit 취약점 해결",
@@ -777,285 +1087,6 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142657&kind=&sub_kind=",
       "date": "2026-03-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "“고객·임직원 데이터 유출” 로봇수술 기업 인튜이티브서지컬 피싱 공격 피해",
-      "summary": "직원 계정 탈취로 내부 행정망 침투... 고객 연락처·기업 내부 데이터 유출다빈치·이온 로봇 플랫폼은 별도 망 운영으로 수술 시스템 영향 없어[보안뉴스 김형근 기자] 세계적 수술용 로봇 기업 인튜이티브서지컬(Intuitive Surgical)이 피싱 공격으로 보안 침해 사고를 겪으며 고객 연락처와 임직원 정보 등 민감 데이터가 유출된 것으로 확인됐다.이번",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142653&kind=&sub_kind=",
-      "date": "2026-03-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "“공급망 보안, 생태계 전체 문제”...KISA, 40억 투입해 SBOM 도입·운영 기업 지원",
-      "summary": "‘소프트웨어 구성 명세서’(SBOM) 모델 구축에 40억 투입... 개발사 넘어 수요처까지 확대거버넌스 수립 및 실시간 모니터링 체계 구축 지원, ‘리액트’ 취약점 대응 속도 70% 이상 단축[보안뉴스 조재호 기자] 미국 행정명령과 유럽 사이버복원력법(CRA, Cyber Resilience Act) 등 글로벌 공급망 보안 규제가 강화되면서, 우리 기업 수",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142637&kind=&sub_kind=",
-      "date": "2026-03-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "한화 테크·라이프 솔루션, ‘부문 간 시너지’ 개발 본격 착수",
-      "summary": "일상(Life)에 스며든 첨단 기술(Tech), 각 사 경쟁력 높이고 새 시장 개척AI 카메라 로봇 등 라이프 부문 사업장 곳곳에 배치해 고객 편의·안전 고도화부문 간 시너지 통해 키운 신사업으로 새 시장 개척해 외부 수익 창출 도모[보안뉴스 엄호식 기자] 각 사 경쟁력 강화와 미래 성장동력 발굴을 위해 인적 분할을 추진 중인 한화그룹 테크(Tech)와 라",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142640&kind=&sub_kind=",
-      "date": "2026-03-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "포커스에이아이, 사우디아라비아 히야웍스와 전략적 제휴로 글로벌 사업 확장 본격화",
-      "summary": "AI(인공지능) 물리보안 및 결제 솔루션 중심으로 글로벌 사업 가속동남아시아·중동 투트랙 전략으로 글로벌 AI 솔루션 시장 공략[보안뉴스 엄호식 기자] 포커스에이아이는 사우디아라비아 히야웍스(Heeya Works)와 AI 물리보안 및 결제솔루션 글로벌 사업 협력을 위한 업무협약(MOU)을 체결했다고 16일 밝혔다. 포커스에이아이는 이번 업무협약을 통해 중동",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142644&kind=&sub_kind=",
-      "date": "2026-03-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "이재형 옥타코 대표, FIDO 얼라이언스 ‘2025 아웃스탠딩 컨트리뷰터’ 수상",
-      "summary": "글로벌 FIDO 생태계 기여 및 피싱방지 인증 기술 확산 공로 [보안뉴스 강현주 기자] 옥타코 주식회사 대표가 글로벌 인증 표준 단체인 FIDO 얼라이언스로부터 ‘2025 아웃스탠딩 컨트리뷰터’(Outstanding Contributor) 공로상을 수상했다고 16일 밝혔다. 옥타코는 제로트러스트 기반 신속한 온라인 인증(FIDO)2 피싱방지(Phishing",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142643&kind=&sub_kind=",
-      "date": "2026-03-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "“재난에도 멈추지 않는 디지털 행정” 행안부 ‘정보시스템 안정성 고시’ 제정",
-      "summary": "국민 영향도 중심 정보시스템 등급제 개편, 재해복구 목표시간 설정중요 시스템 재난 시 1시간 내 복구 의무화, 원거리 백업 및 주기적 훈련 상시화[보안뉴스 강초희 기자] 행정안전부(장관 윤호중)는 재난 상황에서도 디지털 행정서비스가 중단 없이 제공될 수 있도록 ‘행정기관 및 공공기관 정보시스템 안정성 고시’(이하 안정성 고시) 제정안을 마련해 16일부터 행",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142641&kind=&sub_kind=",
-      "date": "2026-03-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "슈프리마, AI 무인매장 보안 솔루션으로 2026년 스마트상점 기술보급사업 참여",
-      "summary": "출입인증, 지능형 CCTV, 원격 관리 앱으로 소상공인의 디지털 전환 가속화 [보안뉴스 강초희 기자] 슈프리마(대표 이재원, 김한철)가 소상공인시장진흥공단이 주관하는 ‘2026년 스마트상점 기술보급사업’에 6년 연속 참여해 올해도 소상공인을 위한 스마트기술로 AI 무인매장 보안 솔루션을 제공한다.스마트상점 기술보급사업은 소상공인 점포의 경영 효율화와 디지털",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142639&kind=&sub_kind=",
-      "date": "2026-03-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "HS효성인포메이션시스템-EDB, 엔터프라이즈 데이터 기술 협력 MOU 체결",
-      "summary": "양사 인프라 컨설팅 역량과 소프트웨어 기술력 결합‘건강한 EDB 에코시스템’ 육성 통해 국내 기업의 데이터 주권 및 AI 혁신 지원 마케팅 전략 수립부터 실행까지 전 과정 긴밀한 협력 체계 구축[보안뉴스 강초희 기자] HS효성인포메이션시스템(대표 양정규)이 소버린(Sovereign) AI 및 데이터 선도 기업 EDB(지사장 김희배)와 ‘엔터프라이즈 데이터",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142638&kind=&sub_kind=",
-      "date": "2026-03-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "안랩·안랩클라우드메이트, ‘2026년 AI바우처 지원사업’서 AI 솔루션 공급",
-      "summary": "V3 제품군, XDR, EDR, MDS, SOAR, 애크미아이, 시큐어브리지 등[보안뉴스 강현주 기자] 안랩(대표 강석균)과 안랩의 AX·MSP 전문 자회사 안랩클라우드메이트(대표 김형준)가 과학기술정보통신부와 정보통신산업진흥원(NIPA)이 주관하는 ‘2026년 AI 바우처 지원사업’에서 중소·중견기업 등에 AI 솔루션을 공급한다.16일 안랩은 AI를 활용",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142642&kind=&sub_kind=",
-      "date": "2026-03-16"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "AI 스토리지의 5가지 핵심 기능",
-      "summary": "적절한 AI 스토리지 플랫폼은 구조화된 데이터와 비구조화된 데이터 모두에 대해 엔터프라이즈급 보안을 제공하여 대규모 조직이 데이터센터 인프라를 현대화하고 데이터 보호 전략을 강화할 수 있게 합니다. 멀티테넌시 아키텍처 지원, 시스템 성능 영향 없이 대규모 데이터를 신속하게 스냅샷할 수 있는 기능, 그리고 랜섬웨어 및 사이버 공격으로부터 보호하는 강력한 백업 지원이 필수적입니다. 데이터 감소 기능은 압축(작은 비트 패턴 반복 제거)과 중복 제거(대규모 블록의 반복 패턴 제거)를 최소한으로 포함해야 하며, VAST Data와 같은 선진 플랫폼은 이 두 기술에 유사성 감소(동일하지는 않지만 유사한 데이터 청크의 저장 공간 감소)를 추가하여 엑사바이트 규모의 참조 압축을 실현합니다. 마지막으로 AI 스토리지 플랫폼은 빠르고 안전하며 경제적이고 확장 가능할 뿐만 아니라 통합된 그래픽 인터페이스로 간편한 관리를 제공해야 합니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/5-key-ai-storage-features",
-      "date": "2026-03-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "AI 스토리지 재고찰: HPC 시대의 함정 회피를 위한 5가지 방법",
-      "summary": "과거 HPC 성능을 주도했던 극단적 대역폭 추구 기법들은 이제 효율적으로 확장해야 하는 AI 프로젝트에 역효과를 낼 수 있다. 현대 AI 인프라에서는 전력이 성능보다 더 희귀한 자원이 되었으며, 수천 개의 GPU를 갖춘 훈련 클러스터는 메가와트 단위의 전력을 소비한다. 전통적인 HPC 방식의 소형 SSD 다수 배치는 2엑사바이트 시스템에서 10만 개 이상의 추가 SSD로 인해 수십 메가와트의 전력 증가를 초래할 수 있으며, 이는 1,000개 이상의 GPU를 운영할 수 있는 에너지이다. 대신 60TB~120TB 범위의 대용량 SSD를 수천 개 분산 배치하면 병렬성을 활용하여 강력한 I/O 성능을 제공하면서도 드라이브 수와 전력 소비를 최소화할 수 있다. AI 스토리지 설계 시에는 진정한 비용 트레이드오프를 계산하고 전력 오버헤드를 중심으로 재사고해야 하며, HPC의 과도한 성능 추구보다는 AI 워크로드의 실제 필요성에 맞춘 효율적인 솔루션을 선택해야 한다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/5-ways-to-rethink-ai-storage-and-avoid-hpc-era-pitfalls",
-      "date": "2026-03-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "6G는 단순히 AI를 연결하는 것이 아니라 AI 자체가 될 것이다",
-      "summary": "통신 기술의 진화는 아날로그에서 디지털로, 음성에서 인터넷으로, 웹에서 5G로 발전해왔지만, 6G는 이전과 다른 패러다임을 제시하고 있습니다. 5G가 속도와 접근성 중심이었다면, 6G는 AI를 네트워크의 구조적 기반으로 삼아 전체 디지털 생태계를 통합하는 것을 목표로 합니다. 6G는 위성, 고고도 플랫폼, 드론 등 비지상 네트워크를 포함한 이질적인 인프라를 하나로 조율하는 '오케스트레이션'에 중점을 두고 있으며, 이는 정적인 프로토콜만으로는 불가능하기 때문에 AI가 실시간으로 학습, 조정, 예측하여 네트워크를 운영해야 합니다. 자연재해, 전쟁, 네트워크 과부하 등 다양한 상황에서 복원력과 유연성이 필수적인 만큼, 이동하고 겹치고 변화하는 위성 네트워크는 AI 시스템 없이는 관리 불가능하며, 지연 시간, 스펙트럼 부족, 핸드오버 복잡성 등의 제약 조건들을 AI가 학습하고 적응하도록 설계되어야 합니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/6g-wont-just-connect-ai-it-will-be-ai",
-      "date": "2026-03-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "SC23에서 알아야 할 VAST의 23가지",
-      "summary": "VAST Data는 고성능컴퓨팅(HPC)과 AI 분야의 최대 행사인 SC23에 참가하여 8월 1일 발표한 혁신적인 VAST Data Platform을 공개한다. 이 플랫폼은 대규모 구조화 및 비구조화 데이터의 수집, 저장, 카탈로깅, 처리, 쿼리를 통합 환경에서 제공하여 AI 컴퓨팅을 더욱 쉽고 확장 가능하며 효율적으로 만든다. 전시장 중앙의 40'x40' 규모의 VAST 부스(#1343)에서는 100명의 VAST 담당자들이 고객 및 파트너와 만나 10개의 데모 스테이션을 운영한다. 주요 데모로는 사용자 수준의 QOS 관리, VAST DataBase를 통한 모니터링 및 분석, JSON·NetCDF·HDF5 등 반구조화 데이터의 빠른 SQL 분석 등이 있다. VAST DataBase는 데이터베이스, 데이터 웨어하우스, 데이터 레이크의 특성을 결합한 최초의 분산 통합 DBMS로서 SC23의 핵심 전시물이 될 예정이다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/23-things-to-know-about-vast-at-sc23",
-      "date": "2026-03-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "2023 연간 보고서",
-      "summary": "VAST Data는 3년 만에 연간 정기 수익(ARR)을 100만 달러에서 1억 달러를 넘어서며 소프트웨어 업계의 중요한 마일스톤을 달성했습니다. 이는 세계 주요 소프트웨어 회사들과 비교해도 매우 빠른 성장 속도이며, 벤처캐피탈 회사 Bessemer Venture Partners가 정의한 '켄타우르' 클럽에 진입하게 되었습니다. 켄타우르는 시장에서 임계점 성공을 이룬 약 160개 정도의 소수 소프트웨어 스타트업들을 일컫습니다. VAST는 높은 평균 판매 가격(120만 달러 이상)과 빠른 ARR 성장, 그리고 효율적인 팀 운영으로 최소한의 투자로 최대의 성과를 창출하고 있습니다. 3년 연속으로 양의 현금 흐름을 달성해 외부 자본에 의존하지 않게 되었으며, 실리콘밸리 뱅크 사태 같은 경제적 어려움에도 견딜 수 있는 기반을 마련했습니다. 전 세계 수백 개의 고객사들은 VAST의 새로운 아키텍처가 규모, 단순성, 복원력 및 비용 절감에서 획기적인 개선을 제공한다는 것을 인식하고 있습니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/2023-our-annual-report",
-      "date": "2026-03-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "2026: AI 추론의 해",
-      "summary": "2025년이 AI 인프라에 대한 대규모 투자의 해였다면, 2026년은 AI 추론 사업이 본격적으로 궤도에 오르는 해가 될 것으로 예상된다. 단순한 LLM 프롬프트와 이미지 생성을 넘어 생성 AI 모델을 엔터프라이즈와 과학 애플리케이션 스택의 핵심 요소로 활용하는 미션-크리티컬 워크로드들이 등장할 것이다. VAST는 고객들의 현재 활동과 향후 계획을 통해 이러한 변화가 실제로 일어날 것으로 확신하고 있으며, 파트너들과 협력하여 여러 플랫폼에서 최첨단 추론 기능을 제공하고 있다. 이는 모델 개발자, 인프라 벤더, 사용자들이 수년간 협력하고 함께 성숙해온 자연스러운 진화 과정이다. 2026년에 주목할 주요 트렌드 중 하나는 AI 에이전트의 본격적이고 대규모 출현으로, 이미 이커머스에서 채팅 세션을 통한 직접 구매를 가능하게 하는 에이전트 프로토콜이 활용되고 있으며, VAST의 고객들도 독특한 데이터 아키텍처를 통해 도시 정부의 공공안전 개선을 위한 영상 분석 에이전트 등 대규모 에이전트 배포를 시작하고 있다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/2026-the-year-of-ai-inference",
-      "date": "2026-03-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "LLM의 체크포인트에 대한 고찰",
-      "summary": "대규모 언어모델(LLM) 학습에서는 페타바이트 규모의 데이터셋과 수백 기가바이트 크기의 모델을 다루기 때문에 단일 GPU 메모리에 맞출 수 없어 효율적인 병렬화와 복구 능력이 필수적이다. GPT-3가 500GB 이상의 크기이고 일반적인 GPU는 80GB 메모리 제한이 있으며, 단일 A100 GPU로 GPT-3를 학습하려면 300년 이상이 소요되므로 다차원 병렬화가 불가피하다. Stanford, NVIDIA, Microsoft Research의 Megatron-LM 논문에서 제시한 바와 같이, 데이터 병렬화(여러 GPU에 전체 모델을 복제하고 학습 데이터를 분산), 모델 병렬화(모델을 개별 레이어나 텐서로 분할하여 여러 GPU에 분산), 그리고 파이프라인 병렬화의 세 가지 병렬화 방식을 조합하면 LLM 학습을 더욱 관리 가능하고 복구 가능하게 만들 수 있다. VAST Data는 이러한 복잡한 병렬화 환경에서 체크포인트와 복원 작업이 어떻게 영향을 받는지 분석하여 데이터 인프라를 최적화하는 방안을 제시한다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/a-checkpoint-on-checkpoints-in-llms",
-      "date": "2026-03-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Nebius AI Cloud에서 주목할 만한 생명과학 스타트업 우승자들",
-      "summary": "암 진단, 신약 개발, 유전체학, 질병 검진 분야에서 활약하는 4개의 우승 생명과학 기업들이 있다. NYU 출신 연구자들이 창립한 Ataraxis AI는 수백만 개의 디지털화된 암 생검 이미지로 훈련된 Kestrel 모델을 개발하여, 종양 재발 예측 및 치료 반응성을 몇 주가 아닌 하루 만에 제공할 수 있게 했으며 기존 방법보다 약 30% 향상된 정확도를 달성했다. Berkeley의 Aikium은 합성생물학과 생성 AI를 결합한 Yotta-ML² 플랫폼으로 mRNA 디스플레이 기술을 이용해 수조 개의 단백질 변수체를 합성하고 선별하며, 제약회사들이 포기한 '미치료 단백질'을 대상으로 수년이 아닌 수개월 내에 단백질 결합체를 찾아낸다. Palo Alto의 Transcripta Bio는 유전자가 다양한 소분자에 반응하는 방식을 매핑하는 대규모 아틀라스인 Conductor AI 플랫폼을 개발하여 기존 승인 의약품을 새로운 용도로 빠르게 재배치했다. MetaSight Diagnostics는 50만 명의 이스라엘 참가자로부터 수집한 방대한 혈액 분자 프로필 데이터셋을 활용하여 대장암과 간섬유증 같은 질병의 분자 수준 특성을 파악했다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/a-closer-look-at-life-sciences-startup-winners-on-the-nebius-ai-cloud",
-      "date": "2026-03-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Voltage Park의 10억 달러 규모 AI 인프라에 대한 심층 분석",
-      "summary": "엔지니어와 데이터 과학자들이 업무 중단 없이 안정적으로 작업을 진행할 수 있다는 확신은 인프라 성능의 가장 의미 있는 형태라고 할 수 있습니다. Voltage Park는 베어메탈 시스템을 도입하고 VAST의 최고 수준 스토리지를 명시적으로 통합함으로써, 복잡한 추상화보다는 단순명쾌한 우수성을 우선시하는 인프라의 필요성을 강조합니다. Voltage Park는 10억 달러 이상을 InfiniBand와 이더넷으로 연결된 엔비디아 HGX H100 GPU 노드를 포함한 전용 하드웨어에 투자하고, Kubernetes와 Slurm을 통해 투명하게 관리하며, VAST의 우수한 스토리지로 보완함으로써 인프라를 올바르게 구축하는 방법을 제시합니다. 이러한 접근 방식은 신뢰성 있는 AI 인프라 구축의 모범적인 사례를 보여줍니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/a-closer-look-at-voltage-parks-billion-dollar-ai-infrastructure",
-      "date": "2026-03-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "새로운 가치 창출의 시대",
-      "summary": "딥러닝 시대가 도래했으며, 이는 머신이 LiDAR, 음성, 영상, 텍스트 등 자연 세계의 아날로그 입력을 이해하는 '아날로그 혁신'으로 정의된다. 강력한 신경망과 GPU 기술으로 인해 기존에 인간의 개입이 필수였던 복잡한 데이터를 머신이 처리하고 추론할 수 있게 되었다. 딥러닝은 사회적으로는 일상적 업무 자동화와 삶의 질 개선을 가져오며, 과학, 수학, 예술 분야의 새로운 발견을 촉진할 것으로 예상된다. 경제적으로는 골드만삭스에 따르면 생성형 AI와 딥러닝이 글로벌 GDP를 최대 7%(약 7조 달러)까지 증가시킬 수 있다. 이번 기술 혁신은 비즈니스 판도를 재편하는 촉매제로 작용하며, 새로운 시장 주도자와 낙오자를 만들어낼 것이다. VAST Data는 최근 밸류에이션이 2년간 3배 가까이 증가하여 91억 달러의 기업가치를 평가받았으며, Fidelity, BOND Capital, NEA, Drive Capital 등 주요 투자사들의 신규 투자를 유치했다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/a-new-value",
-      "date": "2026-03-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "데이터와 저장을 넘어선 비전",
-      "summary": "의료 과학의 발전은 다양한 출처의 서로 다른 유형의 데이터를 처리해야 하는 과제를 안고 있습니다. 기존의 거래 중심 관계형 데이터베이스와는 달리 새로운 의료 데이터는 반정형 및 비정형이며 훨씬 빠르게 증가하고 있습니다. 유전체학 분야에서 큰 혁신이 이루어졌는데, 1990년대에는 전체 게놈 염기서열 분석에 10년과 10억 달러가 소요되었으나, 지난 20년간 이는 몇 시간과 500달러 미만의 비용으로 단축되었습니다. 저자의 친구 아내가 급성 백혈병 진단을 받았을 때, 게놈 염기서열 분석을 통해 50가지 백혈병 변종 중 정확한 유형을 파악하고 맞춤형 치료를 받아 5년 후 건강하게 살아있는 사례는 이 기술의 중요성을 보여줍니다. 현대 의료과학은 데이터와 그 분석 능력에 의존하고 있으며, 게놈 염기서열 분석은 엑솜 염기서열 분석보다 30배 많은 데이터를 필요로 합니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/a-vision-beyond-data-and-storage",
-      "date": "2026-03-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Trino 워크로드 가속화: VAST 데이터 플랫폼",
-      "summary": "VAST Data 플랫폼은 스토리지, 데이터베이스, 컴퓨팅 서비스를 통합하는 확장 가능한 소프트웨어 솔루션으로 데이터 집약적인 AI 애플리케이션을 지원합니다. VAST DataBase는 비정형 데이터에 구조를 부여하며 트랜잭션 및 분석 데이터베이스 역할을 수행하여 성능, 확장성, 비용 효율성을 제공합니다. 스키마 진화, 데이터 보호, 스냅샷 기반 버전 관리, GDPR 준수를 위한 개별 레코드 삭제, 다중 테이블 트랜잭션 등 다양한 기능을 지원합니다. VAST DataBase는 같은 플랫폼의 비정형 데이터 스토리지인 VAST DataStore와 통합되어 데이터 파이프라인을 간소화하고 시간 가치를 단축시킵니다. Trino는 오픈소스 분산 SQL 쿼리 엔진으로 대규모 데이터 세트에 대한 복잡한 쿼리를 효율적으로 처리할 수 있으며, VAST DataStore는 Hive 커넥터와 S3 프로토콜을 통해 Trino에서 직접 쿼리할 수 있습니다. VAST 고객들은 기존 데이터 레이크 솔루션 대비 엄청난 성능 향상을 이미 경험하고 있습니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/accelerate-your-trino-workloads-with-vast",
-      "date": "2026-03-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "추론 성능 가속화",
-      "summary": "지난 1년간 추론 워크로드와 추론 프레임워크의 혁신이 크게 증가했습니다. GPU와 모델이 진화하면서 더 복잡한 작업을 수행할 수 있게 되었으며, 특히 컨텍스트 윈도우 크기의 확대가 이를 가능하게 했습니다. 추론 환경은 단순 모델 제공에서 여러 환경에 걸쳐 요청을 라우팅하고 세션을 추적하는 스케줄러로 진화했습니다. Continuous Batching, Chunked Prefill, Disaggregated Prefill and Decode 같은 기술들이 하드웨어 활용을 최대화하기 위해 등장했습니다. KV(Key-Value) 캐싱은 중복 계산을 피하는 핵심 최적화 기술로, Prefill 단계에서 각 토큰의 어텐션 값을 계산해 메모리에 저장하고, Decode 단계에서 이를 재사용합니다. 특히 장문 컨텍스트와 RAG, 멀티턴 채팅 같은 반복적인 입력이 필요한 애플리케이션에서 영구적인 KV 캐시는 재처리를 방지하고 연산 비용을 크게 절감할 수 있습니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/accelerating-inference",
-      "date": "2026-03-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "NVIDIA BlueField-4로 기술의 경계를 확장하다",
-      "summary": "죄송하지만, 제공하신 기사 내용이 CSS 스타일 코드로만 이루어져 있어서 실제 블로그 본문 내용을 찾을 수 없습니다. NVIDIA BlueField-4에 관한 VAST Data의 블로그 기사 전체 텍스트 본문을 제공해주시면, 핵심 내용을 자연스러운 한국어로 6~8문장으로 번역해드리겠습니다. 기사의 본문 내용(HTML 또는 텍스트 형식)을 다시 전달해주세요.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/advancing-the-state-of-the-art-with-nvidia-blue-field-4",
-      "date": "2026-03-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "엔터프라이즈를 위한 에이전틱 AI 인프라",
-      "summary": "효과적인 에이전틱 AI 인프라는 기존의 정적인 인프라와 달리 다섯 가지 필수 요소를 갖춰야 한다. 첫째, 통합 데이터 기반으로 구조화된 데이터, 비정형 데이터, 스트리밍 데이터를 한 곳에 통합하여 데이터 사일로를 제거하고 지연시간을 줄여야 한다. 둘째, 고성능 스토리지로 기존의 회전식 디스크 대신 올플래시 스토리지를 사용하여 실시간 추론과 데이터 검색에 필요한 속도를 제공해야 한다. 셋째, 실시간 처리 및 벡터화 기능으로 엑사바이트 규모의 통합 벡터 데이터베이스를 갖춰 텍스트, 오디오, 시각 데이터를 벡터 임베딩으로 변환해야 한다. 넷째, 지능형 오케스트레이션을 통해 중앙 집중식 엔진으로 여러 에이전트와 시스템을 조율하고 실시간 통신 및 거버넌스 제어를 유지해야 한다. 마지막으로 보안과 거버넌스를 강화하여 엔터프라이즈 신뢰성과 보안을 유지하는 것이 중요하다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/agentic-ai-infrastructure-for-enterprises",
-      "date": "2026-03-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "에이전트 AI vs 생성 AI: 다음 도약 이해하기",
-      "summary": "생성 AI가 기계가 창조할 수 있는 것을 변화시켰다면, 다음 물결인 에이전트 AI는 기계가 할 수 있는 것을 바꾸려 한다. 생성 AI는 인간의 명령을 기다리고 출력물을 생성하기만 하는 반응형 시스템이지만, 에이전트 AI는 맥락을 유지하고 다음 단계를 평가하며 변화하는 목표에 적응하고 지속적으로 목표를 추구하는 자율형 시스템이다. AI의 진화는 규칙 기반 시스템에서 머신러닝을 거쳐 생성 AI에 이르렀고, 이제 에이전트 AI라는 건축적 단계로 나아가고 있다. 생성 AI는 콘텐츠 합성, 창의적 탐색, 패턴 해석 등에서 뛰어나지만, 명시적 프롬프트에 의존하고 상태가 없는 설계로 인해 장기 작업 관리와 연속성에 한계가 있다. 에이전트 AI는 지속적인 작업 수행을 위한 다음 세대 아키텍처로, 조직의 AI 설계 방식을 프롬프트 기반의 인터페이스에서 연속적이고 목표 지향적인 시스템으로 전환하는 것을 의미한다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/agentic-ai-vs-generative-ai",
-      "date": "2026-03-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "에이전트는 아키텍처가 필요하고, 아키텍처는 여전히 엔지니어가 필요하다",
-      "summary": "VAST Data의 CTO 알론 호레브는 소프트웨어 산업이 곧 '포스트 애플리케이션' 시대로 진입할 것이라고 전망한다. 이는 모놀리식 애플리케이션이 단계적으로 사라지고, 이를 대체하는 독립적이고 조합 가능한 에이전트 기반의 시스템으로의 전환을 의미한다. 벡터 인식 함수나 실시간 트래픽 분석 시스템과 같이 여러 마이크로서비스를 단일 인텔리전트 프로세스로 통합할 수 있게 되는 것이다. 흥미로운 점은 호레브가 이러한 변화가 소프트웨어 엔지니어를 대체하기보다는 그들의 역할을 증폭시킬 것이라고 본다는 것이다. 미래의 엔지니어는 더 이상 사용자 대면 앱을 만들지 않고, 대신 인텔리전트 에이전트들이 책임감 있고 맥락에 맞게 행동하도록 하는 연결 체계를 설계하게 될 것이다. 결과적으로 엔지니어들의 역할은 플랫폼 구축에서 시스템, 서비스, 에이전트 간의 관계를 구축하는 '의도를 인프라와 연결하는' 작업으로 진화하게 된다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/agents-need-architecture-architecture-still-needs-engineers",
-      "date": "2026-03-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "변화의 주역들: COMPUTEX 기조연설에서 드러난 AI의 실질적 전환",
-      "summary": "오늘날 기업들이 절실히 필요로 하는 데이터는 이메일, PDF, 멀티미디어 저장소, 고객 로그 등 비정형 데이터들이다. Nvidia의 IQ는 NeMo Retriever와 Llama NeMoTron 모델을 통해 이러한 데이터에서 의미를 추출하는 것을 목표로 한다. Jensen은 이 비전을 실현하기 위해 VAST Data를 사례로 제시했으며, VAST는 단 3일 만에 Nvidia의 AI-Q 블루프린트를 활용하여 AI 기반 영업 조사 에이전트를 구축했다. 이 시스템은 CRM, 내부 도구, 멀티모달 저장소에서 데이터를 지속적으로 수집하고, 빠른 의미론적 검색을 위해 즉석에서 임베딩과 인덱싱을 수행하며, Llama NeMoTron 모델이 기존에 수일이 걸리던 작업을 수 분으로 단축시킨다. VAST의 강력한 데이터 플랫폼은 Nvidia의 DGX 시스템과 GPU Direct Storage를 통합한 아키텍처로, 중간 데이터 복사나 네트워크 병목 없이 고속으로 의미론적 쿼리와 벡터 임베딩을 처리한다. Jensen은 미래의 저장소가 CPU에서 GPU 기반 시스템으로 진화할 것이며, 이는 비정형 원본 데이터에서 의미를 찾아내고 이를 실행 가능한 인사이트로 변환하기 위함이라고 강조했다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/agents-of-change-computex-keynote-marks-ais-practical-turn",
-      "date": "2026-03-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "AI 혁신상 2025 수상작",
-      "summary": "VAST의 AI 운영 체제는 데이터 집약적 컴퓨팅에 대한 혁신적인 접근 방식으로, AI 컴퓨팅을 더 쉽고 확장 가능하며 효율적으로 만드는 데 필요한 포괄적인 소프트웨어 인프라 역할을 한다. VAST는 AI 혁신상의 심사위원장 스티브 요한센(Steve Johansson)으로부터 2025년 '올해의 딥러닝 기업(Deep Learning Company of the Year)'으로 선정되었다는 영광을 안았다. 이러한 수상은 VAST의 기술이 데이터 집약적 AI 워크로드를 처리하는 방식을 근본적으로 변화시키고 있음을 인정하는 것이다. VAST AI 운영 체제의 혁신적 특성은 기업들이 더 효율적으로 대규모 AI 프로젝트를 추진할 수 있도록 지원한다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/ai-breakthrough-award-2025-winner",
-      "date": "2026-03-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "롭로우 데이터 유출 사건, 고객 정보 영향",
-      "summary": "캐나다의 주요 소매업체인 롭로우(Loblaw)에서 고객 정보를 포함한 데이터 유출 사건이 발생했습니다. 이 사건은 다수의 고객 개인정보가 유출되었음을 의미하며, 영향을 받은 고객들의 민감한 데이터 보안이 위협받고 있습니다. 롭로우는 사건에 대해 공식적으로 인지하고 있으며, 고객들에게 필요한 공지를 하고 있는 상태입니다. 이러한 대규모 데이터 유출은 기업의 사이버보안 체계가 얼마나 중요한지를 다시 한번 보여주는 사례입니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/loblaw-data-breach-impacts-customer-information/",
-      "date": "2026-03-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "OpenAI, ChatGPT 광고 글로벌 롤아웃 보류 발표",
-      "summary": "OpenAI는 BleepingComputer에 ChatGPT의 무료 및 Go 플랜에 표시될 광고가 현재 미국 외 지역에서는 아직 출시되지 않았다고 밝혔습니다. 일부 사용자들이 업데이트된 개인정보 보호정책에서 광고 관련 내용을 발견했지만, 이는 아직 국제 시장에 적용되지 않은 상태입니다. OpenAI는 향후 광고 도입 계획에 대해 단계적으로 진행할 것으로 보이며, 현재는 미국 시장에서만 제한적으로 테스트 중인 것으로 파악됩니다. 이는 OpenAI가 수익화 전략을 신중하게 추진하고 있음을 시사합니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-chatgpt-ads-are-not-rolling-out-globally-for-now/",
-      "date": "2026-03-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Betterleaks, Gitleaks를 대체할 새로운 오픈소스 시크릿 스캐너 등장",
-      "summary": "Betterleaks라는 새로운 오픈소스 도구가 공개되었으며, 디렉토리, 파일, Git 저장소를 스캔하여 유효한 시크릿(암호, API 키 등)을 식별할 수 있습니다. 이 도구는 기본 규칙 또는 사용자가 정의한 커스텀 규칙을 사용하여 민감한 정보 유출을 방지합니다. Betterleaks는 기존의 Gitleaks를 대체하기 위해 개발된 것으로, 보안 팀과 개발자들이 코드 저장소에서 실수로 노출된 시크릿을 탐지하는 데 유용합니다. 이는 DevSecOps 및 보안 운영 과정에서 중요한 역할을 하며, 조직의 보안 태세를 강화하는 데 기여합니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/betterleaks-a-new-open-source-secrets-scanner-to-replace-gitleaks/",
-      "date": "2026-03-15"
     }
   ]
 }
