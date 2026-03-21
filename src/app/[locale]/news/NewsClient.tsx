@@ -45,75 +45,64 @@ function renderBlock(block: any) {
   }
 }
 
-/* 소스별 색상 매핑 */
-const SOURCE_COLORS: Record<string, string> = {
-  'Dell': '#0076CE',
-  'HPE': '#01A982',
-  'VAST Data': '#00C9B1',
-  'SecurityWeek': '#e87040',
-  'BleepingComputer': '#4a90d9',
-  '보안뉴스': '#ff6b6b',
+/* 색상 매핑 */
+const TAG_COLORS: Record<string, string> = {
+  'Dell': '#0076CE', 'HPE': '#01A982', 'VAST Data': '#00C9B1',
+  'SecurityWeek': '#e87040', 'BleepingComputer': '#4a90d9', '보안뉴스': '#ff6b6b',
+  '보안': '#f97316', '서버': '#3b82f6', 'HPC·서버': '#8b5cf6', '수주/계약': '#10b981',
 };
-const DEFAULT_COLOR = '#5a7a9a';
 
-/* 포스트의 필터 키 추출 (소스 또는 카테고리) */
-function getFilterKey(post: any): string {
-  // RSS 자동수집: source 필드 사용
-  if (post.isAuto && post.source) return post.source;
-  // Notion 수동등록: 카테고리 필드 사용
+/* 포스트가 필터에 매칭되는지 확인 — source OR category 둘 다 체크 */
+function postMatchesFilter(post: any, filter: string): boolean {
+  if (post.source === filter) return true;
   const cat = getProp(post, '카테고리');
-  if (cat) return cat;
-  return '';
+  if (cat === filter) return true;
+  return false;
 }
 
 export default function NewsClient({ posts }: { posts: any[] }) {
   const [selected, setSelected] = useState<any | null>(null);
-  const [activeCategory, setActiveCategory] = useState('all');
+  const [activeFilter, setActiveFilter] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
 
-  /* 카테고리 동적 생성 — 실제 데이터에서 추출 */
-  const { categories, categoryCounts } = useMemo(() => {
-    const counts: Record<string, number> = {};
+  /* 필터 탭 동적 생성 — source + category 통합 */
+  const filterTabs = useMemo(() => {
+    const tagCounts: Record<string, number> = {};
+
     posts.forEach(post => {
-      const key = getFilterKey(post);
-      if (key) counts[key] = (counts[key] || 0) + 1;
+      if (post.source) {
+        tagCounts[post.source] = (tagCounts[post.source] || 0) + 1;
+      }
+      const cat = getProp(post, '카테고리');
+      if (cat) {
+        tagCounts[cat] = (tagCounts[cat] || 0) + 1;
+      }
     });
 
-    // 소스 우선순위 정렬 (알려진 소스 먼저, 나머지 가나다순)
-    const knownOrder = ['Dell', 'HPE', 'VAST Data', 'SecurityWeek', 'BleepingComputer', '보안뉴스'];
-    const sortedKeys = Object.keys(counts).sort((a, b) => {
-      const ai = knownOrder.indexOf(a);
-      const bi = knownOrder.indexOf(b);
-      if (ai >= 0 && bi >= 0) return ai - bi;
-      if (ai >= 0) return -1;
-      if (bi >= 0) return 1;
-      return a.localeCompare(b, 'ko');
-    });
+    const knownSources = ['Dell', 'HPE', 'VAST Data', 'SecurityWeek', 'BleepingComputer', '보안뉴스'];
+    const sourceKeys = Object.keys(tagCounts).filter(k => knownSources.includes(k));
+    const categoryKeys = Object.keys(tagCounts).filter(k => !knownSources.includes(k));
 
-    const cats = [
-      { id: 'all', label: '전체', color: '#2dd4bf', count: posts.length },
-      ...sortedKeys.map(key => ({
-        id: key,
-        label: key,
-        color: SOURCE_COLORS[key] || DEFAULT_COLOR,
-        count: counts[key],
-      })),
+    sourceKeys.sort((a, b) => knownSources.indexOf(a) - knownSources.indexOf(b));
+    categoryKeys.sort((a, b) => (tagCounts[b] || 0) - (tagCounts[a] || 0));
+
+    const allTabs = [
+      { id: 'all', label: '전체', color: '#2dd4bf', count: posts.length, isSource: false },
+      ...sourceKeys.map(k => ({ id: k, label: k, color: TAG_COLORS[k] || '#5a7a9a', count: tagCounts[k], isSource: true })),
+      ...categoryKeys.map(k => ({ id: k, label: k, color: TAG_COLORS[k] || '#5a7a9a', count: tagCounts[k], isSource: false })),
     ];
 
-    const countsWithAll = { all: posts.length, ...counts };
-    return { categories: cats, categoryCounts: countsWithAll };
+    return allTabs;
   }, [posts]);
 
   /* 필터링된 포스트 */
   const filteredPosts = useMemo(() => {
-    let result = [...posts];
+    let result = posts;
 
-    // 카테고리 필터
-    if (activeCategory !== 'all') {
-      result = result.filter(post => getFilterKey(post) === activeCategory);
+    if (activeFilter !== 'all') {
+      result = result.filter(post => postMatchesFilter(post, activeFilter));
     }
 
-    // 검색 필터
     if (searchQuery.trim()) {
       const q = searchQuery.trim().toLowerCase();
       result = result.filter(post => {
@@ -126,7 +115,7 @@ export default function NewsClient({ posts }: { posts: any[] }) {
     }
 
     return result;
-  }, [posts, activeCategory, searchQuery]);
+  }, [posts, activeFilter, searchQuery]);
 
   return (
     <main style={{ minHeight: '100vh', background: '#050d1a', color: '#e8f1ff', paddingTop: 96, paddingBottom: 80, paddingLeft: 'clamp(16px,4vw,48px)', paddingRight: 'clamp(16px,4vw,48px)', fontFamily: "'Pretendard', sans-serif" }}>
@@ -144,10 +133,9 @@ export default function NewsClient({ posts }: { posts: any[] }) {
           </p>
         </div>
 
-        {/* 검색 + 카테고리 필터 */}
-        <div style={{ marginBottom: 32 }}>
-          {/* 검색바 */}
-          <div style={{ position: 'relative', marginBottom: 16 }}>
+        {/* 검색바 */}
+        <div style={{ marginBottom: 16 }}>
+          <div style={{ position: 'relative' }}>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style={{ position: 'absolute', left: 14, top: '50%', transform: 'translateY(-50%)', pointerEvents: 'none' }}>
               <circle cx="11" cy="11" r="7" stroke="#5a7a9a" strokeWidth="1.5"/>
               <path d="M16 16l4 4" stroke="#5a7a9a" strokeWidth="1.5" strokeLinecap="round"/>
@@ -171,41 +159,61 @@ export default function NewsClient({ posts }: { posts: any[] }) {
               </button>
             )}
           </div>
+        </div>
 
-          {/* 카테고리 탭 — 데이터에서 동적 생성 */}
-          <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
-            {categories.map(cat => {
-              const isActive = activeCategory === cat.id;
-              return (
-                <button key={cat.id} onClick={() => setActiveCategory(isActive && cat.id !== 'all' ? 'all' : cat.id)}
-                  style={{
-                    padding: '6px 14px', borderRadius: 6, cursor: 'pointer',
-                    border: `1px solid ${isActive ? cat.color + '50' : 'rgba(31,74,117,.4)'}`,
-                    background: isActive ? cat.color + '15' : 'rgba(255,255,255,.02)',
-                    color: isActive ? cat.color : '#5a7a9a',
-                    fontSize: 12, fontWeight: isActive ? 600 : 400,
-                    transition: 'all 0.2s',
-                    fontFamily: "'Pretendard', sans-serif",
-                  }}>
-                  {cat.label}
-                  <span style={{ marginLeft: 5, fontSize: 10, opacity: 0.6 }}>{cat.count}</span>
-                </button>
-              );
-            })}
+        {/* 소스 필터 */}
+        <div style={{ marginBottom: 8 }}>
+          <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', alignItems: 'center' }}>
+            <span style={{ fontSize: 10, color: '#3a5a6a', marginRight: 4, fontFamily: 'monospace' }}>소스</span>
+            {filterTabs.filter(t => t.id === 'all' || t.isSource).map(tab => (
+              <button key={tab.id} onClick={() => setActiveFilter(tab.id)}
+                style={{
+                  padding: '5px 12px', borderRadius: 6, cursor: 'pointer',
+                  border: `1px solid ${activeFilter === tab.id ? tab.color + '50' : 'rgba(31,74,117,.4)'}`,
+                  background: activeFilter === tab.id ? tab.color + '15' : 'rgba(255,255,255,.02)',
+                  color: activeFilter === tab.id ? tab.color : '#5a7a9a',
+                  fontSize: 11, fontWeight: activeFilter === tab.id ? 600 : 400,
+                  transition: 'all 0.15s', fontFamily: "'Pretendard', sans-serif",
+                }}>
+                {tab.label}
+                <span style={{ marginLeft: 4, fontSize: 9, opacity: 0.6 }}>{tab.count}</span>
+              </button>
+            ))}
           </div>
         </div>
 
-        {/* 검색/필터 결과 안내 */}
-        {(searchQuery || activeCategory !== 'all') && (
+        {/* 분류 필터 */}
+        <div style={{ marginBottom: 32 }}>
+          <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', alignItems: 'center' }}>
+            <span style={{ fontSize: 10, color: '#3a5a6a', marginRight: 4, fontFamily: 'monospace' }}>분류</span>
+            {filterTabs.filter(t => t.id !== 'all' && !t.isSource).map(tab => (
+              <button key={tab.id} onClick={() => setActiveFilter(tab.id)}
+                style={{
+                  padding: '5px 12px', borderRadius: 6, cursor: 'pointer',
+                  border: `1px solid ${activeFilter === tab.id ? tab.color + '50' : 'rgba(31,74,117,.4)'}`,
+                  background: activeFilter === tab.id ? tab.color + '15' : 'rgba(255,255,255,.02)',
+                  color: activeFilter === tab.id ? tab.color : '#5a7a9a',
+                  fontSize: 11, fontWeight: activeFilter === tab.id ? 600 : 400,
+                  transition: 'all 0.15s', fontFamily: "'Pretendard', sans-serif",
+                }}>
+                {tab.label}
+                <span style={{ marginLeft: 4, fontSize: 9, opacity: 0.6 }}>{tab.count}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* 필터 결과 안내 */}
+        {(searchQuery || activeFilter !== 'all') && (
           <div style={{ marginBottom: 20, display: 'flex', alignItems: 'center', gap: 8 }}>
             <span style={{ fontSize: 13, color: '#5a7a9a' }}>
               {filteredPosts.length}건
-              {searchQuery && <> · &quot;{searchQuery}&quot; 검색결과</>}
-              {activeCategory !== 'all' && <> · {activeCategory}</>}
+              {searchQuery && <> · &quot;{searchQuery}&quot;</>}
+              {activeFilter !== 'all' && <> · {activeFilter}</>}
             </span>
-            <button onClick={() => { setSearchQuery(''); setActiveCategory('all'); }}
+            <button onClick={() => { setSearchQuery(''); setActiveFilter('all'); }}
               style={{ fontSize: 11, color: '#2dd4bf', background: 'rgba(45,212,191,.1)', border: '1px solid rgba(45,212,191,.2)', borderRadius: 4, padding: '3px 10px', cursor: 'pointer' }}>
-              필터 초기화
+              초기화
             </button>
           </div>
         )}
@@ -213,9 +221,9 @@ export default function NewsClient({ posts }: { posts: any[] }) {
         {filteredPosts.length === 0 ? (
           <div style={{ textAlign: 'center', padding: '60px 0' }}>
             <p style={{ color: '#5a7a9a', fontSize: 14, marginBottom: 8 }}>
-              {searchQuery ? `"${searchQuery}"에 대한 검색 결과가 없습니다.` : '해당 카테고리에 등록된 뉴스가 없습니다.'}
+              {searchQuery ? `"${searchQuery}"에 대한 검색 결과가 없습니다.` : '해당 필터에 등록된 뉴스가 없습니다.'}
             </p>
-            <button onClick={() => { setSearchQuery(''); setActiveCategory('all'); }}
+            <button onClick={() => { setSearchQuery(''); setActiveFilter('all'); }}
               style={{ fontSize: 12, color: '#2dd4bf', background: 'none', border: '1px solid rgba(45,212,191,.3)', borderRadius: 6, padding: '8px 20px', cursor: 'pointer' }}>
               전체 뉴스 보기
             </button>
