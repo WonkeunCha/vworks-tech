@@ -45,43 +45,72 @@ function renderBlock(block: any) {
   }
 }
 
-/* 카테고리 설정 */
-const CATEGORIES = [
-  { id: 'all', label: '전체', color: '#2dd4bf' },
-  { id: 'Dell', label: 'Dell', color: '#0076CE' },
-  { id: 'HPE', label: 'HPE', color: '#01A982' },
-  { id: 'VAST Data', label: 'VAST Data', color: '#00C9B1' },
-  { id: 'SecurityWeek', label: 'SecurityWeek', color: '#e87040' },
-  { id: 'BleepingComputer', label: 'BleepingComputer', color: '#4a90d9' },
-  { id: '보안뉴스', label: '보안뉴스', color: '#ff6b6b' },
-];
+/* 소스별 색상 매핑 */
+const SOURCE_COLORS: Record<string, string> = {
+  'Dell': '#0076CE',
+  'HPE': '#01A982',
+  'VAST Data': '#00C9B1',
+  'SecurityWeek': '#e87040',
+  'BleepingComputer': '#4a90d9',
+  '보안뉴스': '#ff6b6b',
+};
+const DEFAULT_COLOR = '#5a7a9a';
+
+/* 포스트의 필터 키 추출 (소스 또는 카테고리) */
+function getFilterKey(post: any): string {
+  // RSS 자동수집: source 필드 사용
+  if (post.isAuto && post.source) return post.source;
+  // Notion 수동등록: 카테고리 필드 사용
+  const cat = getProp(post, '카테고리');
+  if (cat) return cat;
+  return '';
+}
 
 export default function NewsClient({ posts }: { posts: any[] }) {
   const [selected, setSelected] = useState<any | null>(null);
   const [activeCategory, setActiveCategory] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
 
-  /* 카테고리별 카운트 */
-  const categoryCounts = useMemo(() => {
-    const counts: Record<string, number> = { all: posts.length };
+  /* 카테고리 동적 생성 — 실제 데이터에서 추출 */
+  const { categories, categoryCounts } = useMemo(() => {
+    const counts: Record<string, number> = {};
     posts.forEach(post => {
-      const src = post.source ?? getProp(post, '카테고리') ?? '';
-      if (src) counts[src] = (counts[src] || 0) + 1;
+      const key = getFilterKey(post);
+      if (key) counts[key] = (counts[key] || 0) + 1;
     });
-    return counts;
+
+    // 소스 우선순위 정렬 (알려진 소스 먼저, 나머지 가나다순)
+    const knownOrder = ['Dell', 'HPE', 'VAST Data', 'SecurityWeek', 'BleepingComputer', '보안뉴스'];
+    const sortedKeys = Object.keys(counts).sort((a, b) => {
+      const ai = knownOrder.indexOf(a);
+      const bi = knownOrder.indexOf(b);
+      if (ai >= 0 && bi >= 0) return ai - bi;
+      if (ai >= 0) return -1;
+      if (bi >= 0) return 1;
+      return a.localeCompare(b, 'ko');
+    });
+
+    const cats = [
+      { id: 'all', label: '전체', color: '#2dd4bf', count: posts.length },
+      ...sortedKeys.map(key => ({
+        id: key,
+        label: key,
+        color: SOURCE_COLORS[key] || DEFAULT_COLOR,
+        count: counts[key],
+      })),
+    ];
+
+    const countsWithAll = { all: posts.length, ...counts };
+    return { categories: cats, categoryCounts: countsWithAll };
   }, [posts]);
 
   /* 필터링된 포스트 */
   const filteredPosts = useMemo(() => {
-    let result = posts;
+    let result = [...posts];
 
     // 카테고리 필터
     if (activeCategory !== 'all') {
-      result = result.filter(post => {
-        const src = post.source ?? '';
-        const cat = getProp(post, '카테고리') ?? '';
-        return src === activeCategory || cat === activeCategory;
-      });
+      result = result.filter(post => getFilterKey(post) === activeCategory);
     }
 
     // 검색 필터
@@ -91,7 +120,8 @@ export default function NewsClient({ posts }: { posts: any[] }) {
         const title = (getProp(post, '제목') ?? '').toLowerCase();
         const summary = (getProp(post, '요약') ?? '').toLowerCase();
         const source = (post.source ?? '').toLowerCase();
-        return title.includes(q) || summary.includes(q) || source.includes(q);
+        const category = (getProp(post, '카테고리') ?? '').toLowerCase();
+        return title.includes(q) || summary.includes(q) || source.includes(q) || category.includes(q);
       });
     }
 
@@ -142,14 +172,12 @@ export default function NewsClient({ posts }: { posts: any[] }) {
             )}
           </div>
 
-          {/* 카테고리 탭 */}
+          {/* 카테고리 탭 — 데이터에서 동적 생성 */}
           <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
-            {CATEGORIES.map(cat => {
-              const count = categoryCounts[cat.id] || 0;
-              if (cat.id !== 'all' && count === 0) return null;
+            {categories.map(cat => {
               const isActive = activeCategory === cat.id;
               return (
-                <button key={cat.id} onClick={() => setActiveCategory(cat.id)}
+                <button key={cat.id} onClick={() => setActiveCategory(isActive && cat.id !== 'all' ? 'all' : cat.id)}
                   style={{
                     padding: '6px 14px', borderRadius: 6, cursor: 'pointer',
                     border: `1px solid ${isActive ? cat.color + '50' : 'rgba(31,74,117,.4)'}`,
@@ -160,41 +188,37 @@ export default function NewsClient({ posts }: { posts: any[] }) {
                     fontFamily: "'Pretendard', sans-serif",
                   }}>
                   {cat.label}
-                  <span style={{ marginLeft: 5, fontSize: 10, opacity: 0.6 }}>{count}</span>
+                  <span style={{ marginLeft: 5, fontSize: 10, opacity: 0.6 }}>{cat.count}</span>
                 </button>
               );
             })}
           </div>
         </div>
 
-        {/* 검색 결과 안내 */}
+        {/* 검색/필터 결과 안내 */}
         {(searchQuery || activeCategory !== 'all') && (
           <div style={{ marginBottom: 20, display: 'flex', alignItems: 'center', gap: 8 }}>
             <span style={{ fontSize: 13, color: '#5a7a9a' }}>
               {filteredPosts.length}건
               {searchQuery && <> · &quot;{searchQuery}&quot; 검색결과</>}
-              {activeCategory !== 'all' && <> · {CATEGORIES.find(c => c.id === activeCategory)?.label}</>}
+              {activeCategory !== 'all' && <> · {activeCategory}</>}
             </span>
-            {(searchQuery || activeCategory !== 'all') && (
-              <button onClick={() => { setSearchQuery(''); setActiveCategory('all'); }}
-                style={{ fontSize: 11, color: '#2dd4bf', background: 'rgba(45,212,191,.1)', border: '1px solid rgba(45,212,191,.2)', borderRadius: 4, padding: '3px 10px', cursor: 'pointer' }}>
-                필터 초기화
-              </button>
-            )}
+            <button onClick={() => { setSearchQuery(''); setActiveCategory('all'); }}
+              style={{ fontSize: 11, color: '#2dd4bf', background: 'rgba(45,212,191,.1)', border: '1px solid rgba(45,212,191,.2)', borderRadius: 4, padding: '3px 10px', cursor: 'pointer' }}>
+              필터 초기화
+            </button>
           </div>
         )}
 
         {filteredPosts.length === 0 ? (
           <div style={{ textAlign: 'center', padding: '60px 0' }}>
             <p style={{ color: '#5a7a9a', fontSize: 14, marginBottom: 8 }}>
-              {searchQuery ? `"${searchQuery}"에 대한 검색 결과가 없습니다.` : '등록된 뉴스가 없습니다.'}
+              {searchQuery ? `"${searchQuery}"에 대한 검색 결과가 없습니다.` : '해당 카테고리에 등록된 뉴스가 없습니다.'}
             </p>
-            {searchQuery && (
-              <button onClick={() => { setSearchQuery(''); setActiveCategory('all'); }}
-                style={{ fontSize: 12, color: '#2dd4bf', background: 'none', border: '1px solid rgba(45,212,191,.3)', borderRadius: 6, padding: '8px 20px', cursor: 'pointer' }}>
-                전체 뉴스 보기
-              </button>
-            )}
+            <button onClick={() => { setSearchQuery(''); setActiveCategory('all'); }}
+              style={{ fontSize: 12, color: '#2dd4bf', background: 'none', border: '1px solid rgba(45,212,191,.3)', borderRadius: 6, padding: '8px 20px', cursor: 'pointer' }}>
+              전체 뉴스 보기
+            </button>
           </div>
         ) : (
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: 24 }}>
