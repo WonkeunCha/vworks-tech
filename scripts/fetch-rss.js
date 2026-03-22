@@ -7,6 +7,7 @@ const iconv = require('iconv-lite');
 
 const DATA_FILE = 'src/data/news-auto.json';
 const FILTER_FROM = new Date('2026-01-01T00:00:00Z');
+const MAX_ITEMS = 500;
 
 // 범용 HTTP GET
 function httpGet(url, redirects = 0) {
@@ -32,7 +33,6 @@ function httpGet(url, redirects = 0) {
   });
 }
 
-// Content-Type 헤더 + XML 선언 + 도메인 기반 인코딩 자동 감지 후 디코딩
 function httpGetWithEncoding(url, redirects = 0) {
   return new Promise((resolve, reject) => {
     if (redirects > 5) return reject(new Error('too many redirects'));
@@ -74,7 +74,6 @@ function httpGetWithEncoding(url, redirects = 0) {
   });
 }
 
-// HTML 태그 및 엔티티 제거
 function stripHTML(html) {
   return html
     .replace(/<[^>]*>/g, ' ')
@@ -101,7 +100,6 @@ function stripHTML(html) {
     .trim();
 }
 
-// XML 태그 추출
 function extractTag(xml, tag) {
   const patterns = [
     new RegExp(`<${tag}[^>]*><!\\[CDATA\\[([\\s\\S]*?)\\]\\]><\\/${tag}>`, 'i'),
@@ -114,7 +112,6 @@ function extractTag(xml, tag) {
   return '';
 }
 
-// RSS XML 파싱
 function parseXML(xml) {
   const items = [];
   const itemRe = /<item>([\s\S]*?)<\/item>/g;
@@ -131,7 +128,6 @@ function parseXML(xml) {
   return items;
 }
 
-// Dell — Key takeaways 추출
 async function fetchDellContent(url) {
   try {
     const html = await httpGet(url);
@@ -154,12 +150,10 @@ async function fetchDellContent(url) {
   }
 }
 
-// VAST Data — 블로그 본문 추출 + 날짜 추출
 async function fetchVASTContent(url) {
   try {
     const html = await httpGet(url);
     const text = stripHTML(html);
-
     const startMarkers = ['Perspectives', 'For the last', 'For years', 'The ', 'In ', 'At ', 'As '];
     const endMarkers = ['More from this topic', 'Learn what VAST', 'Sign up for our newsletter', 'Contact Sales'];
     let startIdx = 0;
@@ -179,18 +173,12 @@ async function fetchVASTContent(url) {
   }
 }
 
-// VAST Data — 블로그 페이지에서 실제 게시일 추출
 function extractVASTDate(html) {
-  // JSON-LD에서 datePublished 추출
   const jsonLdMatch = html.match(/"datePublished"\s*:\s*"([^"]+)"/);
   if (jsonLdMatch) return jsonLdMatch[1];
-
-  // meta 태그에서 날짜 추출
   const metaMatch = html.match(/article:published_time.*?content="([^"]+)"/i) ||
                     html.match(/datePublished.*?content="([^"]+)"/i);
   if (metaMatch) return metaMatch[1];
-
-  // 본문에서 날짜 패턴 추출 (e.g., "March 15, 2026" or "2026-03-15")
   const datePatterns = [
     /(\d{4}-\d{2}-\d{2})/,
     /(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4}/i,
@@ -208,7 +196,6 @@ function extractVASTDate(html) {
   return '';
 }
 
-// HPE — 뉴스룸 블로그 및 보도자료 본문 추출
 async function fetchHPEContent(url) {
   try {
     const html = await httpGet(url);
@@ -232,7 +219,6 @@ async function fetchHPEContent(url) {
   }
 }
 
-// 보안 뉴스 본문 추출 (SecurityWeek, BleepingComputer)
 async function fetchSecurityContent(url) {
   try {
     const html = await httpGet(url);
@@ -252,38 +238,14 @@ async function fetchSecurityContent(url) {
 
 async function translateWithClaude(title, content, source) {
   let prompt = '';
-
   if (source === 'Dell') {
-    prompt = `다음은 Dell Technologies 블로그의 영문 기사입니다. "Key takeaways" 항목을 중심으로 자연스러운 한국어로 번역해주세요. JSON 형식으로만 응답하세요. 마크다운 없이 순수 JSON만 출력하세요.
-
-제목: ${title}
-내용: ${content.slice(0, 2000)}
-
-형식: {"title":"한글 제목","summary":"Key takeaways 내용을 한국어로 번역한 주요 포인트 (4~6문장)"}`;
-
+    prompt = `다음은 Dell Technologies 블로그의 영문 기사입니다. "Key takeaways" 항목을 중심으로 자연스러운 한국어로 번역해주세요. JSON 형식으로만 응답하세요. 마크다운 없이 순수 JSON만 출력하세요.\n\n제목: ${title}\n내용: ${content.slice(0, 2000)}\n\n형식: {"title":"한글 제목","summary":"Key takeaways 내용을 한국어로 번역한 주요 포인트 (4~6문장)"}`;
   } else if (source === 'VAST Data') {
-    prompt = `다음은 VAST Data 블로그의 영문 기사입니다. 전체 내용을 핵심 위주로 자연스러운 한국어로 번역해주세요. JSON 형식으로만 응답하세요. 마크다운 없이 순수 JSON만 출력하세요.
-
-제목: ${title}
-내용: ${content.slice(0, 2500)}
-
-형식: {"title":"한글 제목","summary":"블로그 전체 핵심 내용을 한국어로 상세하게 번역 (6~8문장)"}`;
-
+    prompt = `다음은 VAST Data 블로그의 영문 기사입니다. 전체 내용을 핵심 위주로 자연스러운 한국어로 번역해주세요. JSON 형식으로만 응답하세요. 마크다운 없이 순수 JSON만 출력하세요.\n\n제목: ${title}\n내용: ${content.slice(0, 2500)}\n\n형식: {"title":"한글 제목","summary":"블로그 전체 핵심 내용을 한국어로 상세하게 번역 (6~8문장)"}`;
   } else if (source === 'SecurityWeek' || source === 'BleepingComputer') {
-    prompt = `다음은 글로벌 사이버보안 뉴스입니다. 핵심 내용을 자연스러운 한국어로 번역해주세요. JSON 형식으로만 응답하세요. 마크다운 없이 순수 JSON만 출력하세요.
-
-제목: ${title}
-내용: ${content.slice(0, 2000)}
-
-형식: {"title":"한글 제목","summary":"보안 위협/취약점/사건의 핵심 내용을 한국어로 번역 (4~6문장)"}`;
-
+    prompt = `다음은 글로벌 사이버보안 뉴스입니다. 핵심 내용을 자연스러운 한국어로 번역해주세요. JSON 형식으로만 응답하세요. 마크다운 없이 순수 JSON만 출력하세요.\n\n제목: ${title}\n내용: ${content.slice(0, 2000)}\n\n형식: {"title":"한글 제목","summary":"보안 위협/취약점/사건의 핵심 내용을 한국어로 번역 (4~6문장)"}`;
   } else {
-    prompt = `다음은 HPE(Hewlett Packard Enterprise)의 영문 기사입니다. 주요 내용을 자연스러운 한국어로 번역해주세요. JSON 형식으로만 응답하세요. 마크다운 없이 순수 JSON만 출력하세요.
-
-제목: ${title}
-내용: ${content.slice(0, 2000)}
-
-형식: {"title":"한글 제목","summary":"주요 내용을 한국어로 번역 (4~6문장)"}`;
+    prompt = `다음은 HPE(Hewlett Packard Enterprise)의 영문 기사입니다. 주요 내용을 자연스러운 한국어로 번역해주세요. JSON 형식으로만 응답하세요. 마크다운 없이 순수 JSON만 출력하세요.\n\n제목: ${title}\n내용: ${content.slice(0, 2000)}\n\n형식: {"title":"한글 제목","summary":"주요 내용을 한국어로 번역 (4~6문장)"}`;
   }
 
   const body = JSON.stringify({
@@ -374,8 +336,6 @@ async function fetchVASTBlogList(fetchedUrls) {
   try {
     console.log('  블로그 리스팅 페이지 fetch...');
     const html = await httpGet('https://www.vastdata.com/blog');
-
-    // 블로그 URL 추출 (/blog/xxx 패턴)
     const urlMatches = html.match(/href="\/blog\/([a-z0-9-]+)"/gi) || [];
     const uniqueSlugs = [...new Set(urlMatches.map(m => {
       const slug = m.match(/\/blog\/([a-z0-9-]+)/i)?.[1];
@@ -384,7 +344,6 @@ async function fetchVASTBlogList(fetchedUrls) {
 
     console.log(`  블로그 슬러그 ${uniqueSlugs.length}개 발견`);
 
-    // 각 블로그 페이지에서 실제 게시일 추출 (최대 10개만)
     let checked = 0;
     for (const slug of uniqueSlugs) {
       if (checked >= 10) break;
@@ -403,7 +362,7 @@ async function fetchVASTBlogList(fetchedUrls) {
               link: blogUrl,
               pubDate: pubDate.toISOString(),
               description: '',
-              _html: blogHtml, // 본문 재사용을 위해 보존
+              _html: blogHtml,
             });
             console.log(`  📅 ${slug} → ${pubDate.toISOString().slice(0, 10)}`);
           }
@@ -417,33 +376,10 @@ async function fetchVASTBlogList(fetchedUrls) {
     }
   } catch (e) {
     console.error(`  블로그 리스팅 실패: ${e.message}`);
-    // 폴백: sitemap에서 랜덤 선택
-    console.log('  폴백: sitemap.xml에서 수집 시도...');
-    try {
-      const sitemapXml = await httpGet('https://www.vastdata.com/sitemap.xml');
-      const urlRe = /<loc>(https:\/\/www\.vastdata\.com\/blog\/[^<]+)<\/loc>/g;
-      const urls = [];
-      let m;
-      while ((m = urlRe.exec(sitemapXml)) !== null) urls.push(m[1]);
-      // fetchedUrls에 없는 URL만 선택, 랜덤 셔플
-      const unfetched = urls.filter(u => !fetchedUrls.has(u));
-      const shuffled = unfetched.sort(() => Math.random() - 0.5).slice(0, 5);
-      for (const url of shuffled) {
-        items.push({
-          title: url.split('/blog/')[1]?.replace(/-/g, ' ') ?? '',
-          link: url,
-          pubDate: new Date().toISOString(), // 오늘 날짜 사용
-          description: '',
-        });
-      }
-    } catch (e2) {
-      console.error(`  sitemap 폴백도 실패: ${e2.message}`);
-    }
   }
   return items;
 }
 
-// VAST Data 전용 처리 — 본문 재사용 + 번역
 async function processVASTItems(items, fetchedUrls, newItems) {
   console.log(`  → VAST Data 처리 대상: ${items.length}개`);
 
@@ -455,7 +391,6 @@ async function processVASTItems(items, fetchedUrls, newItems) {
     let content = '';
     try {
       if (item._html) {
-        // 리스팅에서 이미 fetch한 HTML 재사용
         content = stripHTML(item._html).slice(0, 5000);
         const startMarkers = ['Perspectives', 'For the last', 'For years', 'The ', 'In ', 'At ', 'As '];
         const endMarkers = ['More from this topic', 'Learn what VAST', 'Sign up for our newsletter', 'Contact Sales'];
@@ -510,8 +445,14 @@ async function main() {
     ? JSON.parse(fs.readFileSync(DATA_FILE, 'utf-8'))
     : { items: [], fetchedUrls: [] };
 
-  // ✅ 기존 수집된 URL 유지 — 새 기사만 수집 (크레딧 절약)
-  const fetchedUrls = new Set(existing.fetchedUrls ?? []);
+  // ★ 핵심 수정: fetchedUrls는 현재 items에 실제로 존재하는 URL만 유지
+  // 이전에 수집했지만 slice로 잘려나간 기사는 재수집 허용
+  const existingItemUrls = new Set((existing.items ?? []).map(i => i.sourceUrl).filter(Boolean));
+  const fetchedUrls = new Set(
+    (existing.fetchedUrls ?? []).filter(url => existingItemUrls.has(url))
+  );
+  console.log(`📦 기존 items: ${existing.items?.length ?? 0}개, fetchedUrls: ${fetchedUrls.size}개 (정리됨)`);
+
   const newItems = [];
 
   // Dell RSS
@@ -532,7 +473,7 @@ async function main() {
     await processItems(items, 'HPE', 'HPC·서버', fetchedUrls, newItems);
   } catch (e) { console.error(`HPE 뉴스룸 실패: ${e.message}`); }
 
-  // ★ VAST Data 블로그 — 리스팅 페이지 스크래핑 방식 (sitemap lastmod 버그 수정)
+  // VAST Data 블로그
   try {
     console.log('📡 VAST Data 블로그 수집');
     const vastItems = await fetchVASTBlogList(fetchedUrls);
@@ -540,7 +481,7 @@ async function main() {
     await processVASTItems(vastItems, fetchedUrls, newItems);
   } catch (e) { console.error(`VAST 실패: ${e.message}`); }
 
-  // 보안 뉴스 — 글로벌 (영문 번역)
+  // 보안 뉴스 — 글로벌
   for (const feed of [
     { url: 'https://feeds.feedburner.com/Securityweek', source: 'SecurityWeek', category: '보안' },
     { url: 'https://www.bleepingcomputer.com/feed/', source: 'BleepingComputer', category: '보안' },
@@ -554,7 +495,7 @@ async function main() {
     } catch (e) { console.error(`${feed.source} 실패: ${e.message}`); }
   }
 
-  // 보안뉴스 — 한국어 (번역 없이 바로 저장)
+  // 보안뉴스 — 한국어
   try {
     console.log('📡 보안뉴스 RSS 수집');
     const xml = await httpGetWithEncoding('https://www.boannews.com/media/news_rss.xml');
@@ -583,12 +524,28 @@ async function main() {
   } catch (e) { console.error(`보안뉴스 실패: ${e.message}`); }
 
   console.log(`\n총 ${newItems.length}개 새 뉴스 추가`);
+
+  // ★ 최종 저장: items를 먼저 자르고, fetchedUrls를 items 기준으로 동기화
+  const finalItems = [...newItems, ...(existing.items ?? [])]
+    .sort((a, b) => b.date.localeCompare(a.date))
+    .slice(0, MAX_ITEMS);
+
+  // fetchedUrls는 최종 items에 실제 존재하는 URL만 보존
+  const finalItemUrls = new Set(finalItems.map(i => i.sourceUrl).filter(Boolean));
+  const syncedFetchedUrls = [...fetchedUrls].filter(url => finalItemUrls.has(url));
+
+  console.log(`📊 최종: items ${finalItems.length}개, fetchedUrls ${syncedFetchedUrls.length}개`);
+
+  // 소스별 통계
+  const sourceCounts = {};
+  finalItems.forEach(i => { sourceCounts[i.source] = (sourceCounts[i.source] || 0) + 1; });
+  console.log(`📊 소스별:`, JSON.stringify(sourceCounts));
+
   const result = {
-    fetchedUrls: [...fetchedUrls],
-    items: [...newItems, ...(existing.items ?? [])]
-      .sort((a, b) => b.date.localeCompare(a.date))
-      .slice(0, 1000),
+    fetchedUrls: syncedFetchedUrls,
+    items: finalItems,
   };
+
   const jsonStr = JSON.stringify(result, null, 2)
     .replace(/\\u([0-9a-fA-F]{4})/g, (_, hex) => {
       const code = parseInt(hex, 16);
