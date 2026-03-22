@@ -252,9 +252,19 @@
     "https://www.securityweek.com/critical-quest-kace-vulnerability-potentially-exploited-in-attacks/",
     "https://www.bleepingcomputer.com/news/security/trivy-vulnerability-scanner-breach-pushed-infostealer-via-github-actions/",
     "https://www.bleepingcomputer.com/news/security/google-adds-advanced-flow-for-safe-apk-sideloading-on-android/",
-    "https://www.bleepingcomputer.com/news/security/microsoft-azure-monitor-alerts-abused-in-callback-phishing-campaigns/"
+    "https://www.bleepingcomputer.com/news/security/microsoft-azure-monitor-alerts-abused-in-callback-phishing-campaigns/",
+    "http://www.boannews.com/media/view.asp?idx=142555&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "SECON & eGISEC 2026, 국내(Domestic)와 세계(Global) 시장을 연결하는 보안의 미래",
+      "summary": "SECON & eGISEC에서 확인하는 ‘2026년 보안 혁신’[보안뉴스 엄호식 기자] 2026년 보안 시장은 글로벌 트렌드와 국내 혁신이 맞물리며 새로운 도약을 준비하고 있다. 세계적으로는 AI·클라우드·양자보안 등 차세대 기술이 사이버 위협 대응의 핵심으로 부상하고 있으며, 국내 시장 역시 공공안전과 인프라 보호, 데이터 보안 강화를 중심으로 꾸준한 성",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142555&kind=&sub_kind=",
+      "date": "2026-03-22"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "중대한 Quest KACE 취약점이 공격에서 악용될 가능성",
