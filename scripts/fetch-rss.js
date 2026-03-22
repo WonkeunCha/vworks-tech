@@ -587,7 +587,7 @@ async function main() {
     fetchedUrls: [...fetchedUrls],
     items: [...newItems, ...(existing.items ?? [])]
       .sort((a, b) => b.date.localeCompare(a.date))
-      .slice(0, 200),
+      .slice(0, 1000),
   };
   const jsonStr = JSON.stringify(result, null, 2)
     .replace(/\\u([0-9a-fA-F]{4})/g, (_, hex) => {

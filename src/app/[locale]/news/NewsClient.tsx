@@ -1,6 +1,8 @@
 'use client';
 import { useState, useMemo } from 'react';
 
+const PAGE_SIZE = 50;
+
 function getProp(page: any, key: string) {
   if (page.isAuto) {
     if (key === '제목') return page.title ?? '';
@@ -63,6 +65,7 @@ export default function NewsClient({ posts }: { posts: any[] }) {
   const [selected, setSelected] = useState<any | null>(null);
   const [activeFilter, setActiveFilter] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
   const filterTabs = useMemo(() => {
     const tagCounts: Record<string, number> = {};
@@ -83,6 +86,7 @@ export default function NewsClient({ posts }: { posts: any[] }) {
     ];
   }, [posts]);
 
+  /* 필터링된 전체 포스트 */
   const filteredPosts = useMemo(() => {
     let result = posts;
     if (activeFilter !== 'all') {
@@ -100,6 +104,22 @@ export default function NewsClient({ posts }: { posts: any[] }) {
     }
     return result;
   }, [posts, activeFilter, searchQuery]);
+
+  /* 화면에 보이는 포스트 (페이지네이션) */
+  const visiblePosts = filteredPosts.slice(0, visibleCount);
+  const hasMore = visibleCount < filteredPosts.length;
+  const remaining = filteredPosts.length - visibleCount;
+
+  /* 필터/검색 변경 시 페이지 리셋 */
+  function handleFilterChange(filterId: string) {
+    setActiveFilter(filterId);
+    setVisibleCount(PAGE_SIZE);
+  }
+
+  function handleSearchChange(value: string) {
+    setSearchQuery(value);
+    setVisibleCount(PAGE_SIZE);
+  }
 
   const gridKey = `grid-${activeFilter}-${searchQuery}`;
 
@@ -130,7 +150,7 @@ export default function NewsClient({ posts }: { posts: any[] }) {
               type="text"
               placeholder="뉴스 검색... (제목, 내용, 소스)"
               value={searchQuery}
-              onChange={e => setSearchQuery(e.target.value)}
+              onChange={e => handleSearchChange(e.target.value)}
               style={{
                 width: '100%', maxWidth: 400, padding: '10px 14px 10px 40px',
                 background: '#0a1628', border: '1px solid rgba(31,74,117,.5)', borderRadius: 8,
@@ -139,7 +159,7 @@ export default function NewsClient({ posts }: { posts: any[] }) {
               }}
             />
             {searchQuery && (
-              <button onClick={() => setSearchQuery('')}
+              <button onClick={() => handleSearchChange('')}
                 style={{ position: 'absolute', right: 14, top: '50%', transform: 'translateY(-50%)', background: 'none', border: 'none', color: '#5a7a9a', cursor: 'pointer', fontSize: 14, padding: 4 }}>
                 ✕
               </button>
@@ -152,7 +172,7 @@ export default function NewsClient({ posts }: { posts: any[] }) {
           <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', alignItems: 'center' }}>
             <span style={{ fontSize: 10, color: '#3a5a6a', marginRight: 4, fontFamily: 'monospace' }}>소스</span>
             {filterTabs.filter(t => t.id === 'all' || t.isSource).map(tab => (
-              <button key={tab.id} onClick={() => setActiveFilter(tab.id)}
+              <button key={tab.id} onClick={() => handleFilterChange(tab.id)}
                 style={{
                   padding: '5px 12px', borderRadius: 6, cursor: 'pointer',
                   border: `1px solid ${activeFilter === tab.id ? tab.color + '50' : 'rgba(31,74,117,.4)'}`,
@@ -173,7 +193,7 @@ export default function NewsClient({ posts }: { posts: any[] }) {
           <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', alignItems: 'center' }}>
             <span style={{ fontSize: 10, color: '#3a5a6a', marginRight: 4, fontFamily: 'monospace' }}>분류</span>
             {filterTabs.filter(t => t.id !== 'all' && !t.isSource).map(tab => (
-              <button key={tab.id} onClick={() => setActiveFilter(tab.id)}
+              <button key={tab.id} onClick={() => handleFilterChange(tab.id)}
                 style={{
                   padding: '5px 12px', borderRadius: 6, cursor: 'pointer',
                   border: `1px solid ${activeFilter === tab.id ? tab.color + '50' : 'rgba(31,74,117,.4)'}`,
@@ -197,85 +217,120 @@ export default function NewsClient({ posts }: { posts: any[] }) {
               {searchQuery && <> · &quot;{searchQuery}&quot;</>}
               {activeFilter !== 'all' && <> · {activeFilter}</>}
             </span>
-            <button onClick={() => { setSearchQuery(''); setActiveFilter('all'); }}
+            <button onClick={() => { handleSearchChange(''); handleFilterChange('all'); }}
               style={{ fontSize: 11, color: '#2dd4bf', background: 'rgba(45,212,191,.1)', border: '1px solid rgba(45,212,191,.2)', borderRadius: 4, padding: '3px 10px', cursor: 'pointer' }}>
               초기화
             </button>
           </div>
         )}
 
-        {/* ★ key={gridKey} — 필터 변경 시 React가 DOM을 강제 재생성 */}
+        {/* 카드 그리드 */}
         <div key={gridKey}>
           {filteredPosts.length === 0 ? (
             <div style={{ textAlign: 'center', padding: '60px 0' }}>
               <p style={{ color: '#5a7a9a', fontSize: 14, marginBottom: 8 }}>
                 {searchQuery ? `"${searchQuery}"에 대한 검색 결과가 없습니다.` : '해당 필터에 등록된 뉴스가 없습니다.'}
               </p>
-              <button onClick={() => { setSearchQuery(''); setActiveFilter('all'); }}
+              <button onClick={() => { handleSearchChange(''); handleFilterChange('all'); }}
                 style={{ fontSize: 12, color: '#2dd4bf', background: 'none', border: '1px solid rgba(45,212,191,.3)', borderRadius: 6, padding: '8px 20px', cursor: 'pointer' }}>
                 전체 뉴스 보기
               </button>
             </div>
           ) : (
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: 24 }}>
-              {filteredPosts.map((post) => {
-                const title    = getProp(post, '제목');
-                const date     = getProp(post, '게시일');
-                const category = getProp(post, '카테고리');
-                const summary  = getProp(post, '요약');
-                const thumb    = getProp(post, '썸네일URL');
-                return (
-                  <div key={post.id} onClick={() => setSelected(post)}
-                    style={{ cursor: 'pointer', background: '#0a1628', border: '1px solid rgba(31,74,117,.5)', borderRadius: 4, overflow: 'hidden', transition: 'border-color 0.2s, transform 0.2s' }}
-                    onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(45,212,191,.3)'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
-                    onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(31,74,117,.5)'; e.currentTarget.style.transform = 'translateY(0)'; }}
-                  >
-                    <div style={{ aspectRatio: '16/9', background: '#0a1628', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden', padding: 24 }}>
-                      {thumb
-                        ? <img src={thumb as string} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-                        : post.source === 'HPE'
-                          ? <svg viewBox="0 0 140 50" style={{ width: '65%', maxWidth: 160 }} xmlns="http://www.w3.org/2000/svg">
-                              <rect x="1" y="1" width="138" height="48" rx="3" fill="none" stroke="rgba(255,255,255,0.8)" strokeWidth="2.5"/>
-                              <text x="70" y="33" textAnchor="middle" fontFamily="'Arial Black', Arial, sans-serif" fontWeight="900" fontSize="26" fill="rgba(255,255,255,0.9)" letterSpacing="2">HPE</text>
-                            </svg>
-                          : post.source === '보안뉴스'
-                            ? <svg viewBox="0 0 160 50" style={{ width: '70%', maxWidth: 180 }} xmlns="http://www.w3.org/2000/svg">
-                                <rect x="1" y="1" width="158" height="48" rx="4" fill="none" stroke="rgba(255,255,255,0.6)" strokeWidth="1.5"/>
-                                <text x="80" y="22" textAnchor="middle" fontFamily="'Malgun Gothic', sans-serif" fontSize="13" fill="rgba(255,255,255,0.9)" fontWeight="700">보안뉴스</text>
-                                <text x="80" y="38" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="9" fill="rgba(255,255,255,0.5)" letterSpacing="1">SECURITY NEWS</text>
+            <>
+              {/* 현재 표시 상태 */}
+              <div style={{ marginBottom: 16, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                <span style={{ fontSize: 12, color: '#3a5a6a' }}>
+                  {filteredPosts.length}건 중 {Math.min(visibleCount, filteredPosts.length)}건 표시
+                </span>
+              </div>
+
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: 24 }}>
+                {visiblePosts.map((post) => {
+                  const title    = getProp(post, '제목');
+                  const date     = getProp(post, '게시일');
+                  const category = getProp(post, '카테고리');
+                  const summary  = getProp(post, '요약');
+                  const thumb    = getProp(post, '썸네일URL');
+                  return (
+                    <div key={post.id} onClick={() => setSelected(post)}
+                      style={{ cursor: 'pointer', background: '#0a1628', border: '1px solid rgba(31,74,117,.5)', borderRadius: 4, overflow: 'hidden', transition: 'border-color 0.2s, transform 0.2s' }}
+                      onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(45,212,191,.3)'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
+                      onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(31,74,117,.5)'; e.currentTarget.style.transform = 'translateY(0)'; }}
+                    >
+                      <div style={{ aspectRatio: '16/9', background: '#0a1628', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden', padding: 24 }}>
+                        {thumb
+                          ? <img src={thumb as string} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                          : post.source === 'HPE'
+                            ? <svg viewBox="0 0 140 50" style={{ width: '65%', maxWidth: 160 }} xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="138" height="48" rx="3" fill="none" stroke="rgba(255,255,255,0.8)" strokeWidth="2.5"/>
+                                <text x="70" y="33" textAnchor="middle" fontFamily="'Arial Black', Arial, sans-serif" fontWeight="900" fontSize="26" fill="rgba(255,255,255,0.9)" letterSpacing="2">HPE</text>
                               </svg>
-                            : post.source === 'SecurityWeek'
-                            ? <svg viewBox="0 0 200 50" style={{ width: '75%', maxWidth: 200 }} xmlns="http://www.w3.org/2000/svg">
-                                <text x="100" y="33" textAnchor="middle" fontFamily="'Arial Black', Arial, sans-serif" fontSize="18" fill="rgba(255,255,255,0.9)" fontWeight="900" letterSpacing="-0.5">SecurityWeek</text>
-                              </svg>
-                            : post.source === 'VAST Data'
-                            ? <svg viewBox="0 0 180 50" style={{ width: '70%', maxWidth: 180 }} xmlns="http://www.w3.org/2000/svg">
-                                <text x="90" y="33" textAnchor="middle" fontFamily="'Arial Black', Arial, sans-serif" fontWeight="900" fontSize="20" fill="rgba(255,255,255,0.9)" letterSpacing="2">VAST DATA</text>
-                              </svg>
-                            : <img
-                                src={
-                                  post.source === 'Dell' ? 'https://upload.wikimedia.org/wikipedia/commons/8/82/Dell_Logo.png' :
-                                  post.source === 'BleepingComputer' ? 'https://www.bleepstatic.com/images/site/logo.png' :
-                                  '/logo-wide.png'
-                                }
-                                alt={post.source ?? 'VWorks'}
-                                style={{ width: '70%', maxWidth: 180, maxHeight: 80, objectFit: 'contain', opacity: 0.9, filter: 'brightness(0) invert(1)' }}
-                              />
-                      }
-                    </div>
-                    <div style={{ padding: '16px 20px' }}>
-                      <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8, flexWrap: 'wrap' }}>
-                        {category && <span style={{ fontFamily: 'monospace', fontSize: 8, padding: '1px 6px', background: '#0e1e35', color: '#5a7a9a' }}>{category}</span>}
-                        {post.isAuto && post.source && <span style={{ fontFamily: 'monospace', fontSize: 8, padding: '1px 6px', background: 'rgba(45,212,191,.1)', border: '1px solid rgba(45,212,191,.2)', color: '#2dd4bf' }}>{post.source}</span>}
-                        <span style={{ fontFamily: 'monospace', fontSize: 10, color: '#5a7a9a' }}>{date}</span>
+                            : post.source === '보안뉴스'
+                              ? <svg viewBox="0 0 160 50" style={{ width: '70%', maxWidth: 180 }} xmlns="http://www.w3.org/2000/svg">
+                                  <rect x="1" y="1" width="158" height="48" rx="4" fill="none" stroke="rgba(255,255,255,0.6)" strokeWidth="1.5"/>
+                                  <text x="80" y="22" textAnchor="middle" fontFamily="'Malgun Gothic', sans-serif" fontSize="13" fill="rgba(255,255,255,0.9)" fontWeight="700">보안뉴스</text>
+                                  <text x="80" y="38" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="9" fill="rgba(255,255,255,0.5)" letterSpacing="1">SECURITY NEWS</text>
+                                </svg>
+                              : post.source === 'SecurityWeek'
+                              ? <svg viewBox="0 0 200 50" style={{ width: '75%', maxWidth: 200 }} xmlns="http://www.w3.org/2000/svg">
+                                  <text x="100" y="33" textAnchor="middle" fontFamily="'Arial Black', Arial, sans-serif" fontSize="18" fill="rgba(255,255,255,0.9)" fontWeight="900" letterSpacing="-0.5">SecurityWeek</text>
+                                </svg>
+                              : post.source === 'VAST Data'
+                              ? <svg viewBox="0 0 180 50" style={{ width: '70%', maxWidth: 180 }} xmlns="http://www.w3.org/2000/svg">
+                                  <text x="90" y="33" textAnchor="middle" fontFamily="'Arial Black', Arial, sans-serif" fontWeight="900" fontSize="20" fill="rgba(255,255,255,0.9)" letterSpacing="2">VAST DATA</text>
+                                </svg>
+                              : <img
+                                  src={
+                                    post.source === 'Dell' ? 'https://upload.wikimedia.org/wikipedia/commons/8/82/Dell_Logo.png' :
+                                    post.source === 'BleepingComputer' ? 'https://www.bleepstatic.com/images/site/logo.png' :
+                                    '/logo-wide.png'
+                                  }
+                                  alt={post.source ?? 'VWorks'}
+                                  style={{ width: '70%', maxWidth: 180, maxHeight: 80, objectFit: 'contain', opacity: 0.9, filter: 'brightness(0) invert(1)' }}
+                                />
+                        }
                       </div>
-                      <h2 style={{ fontSize: 15, fontWeight: 500, marginBottom: 6, lineHeight: 1.4 }}>{title}</h2>
-                      {summary && <p style={{ fontSize: 12, color: '#5a7a9a', fontWeight: 300, lineHeight: 1.6 }}>{summary}</p>}
+                      <div style={{ padding: '16px 20px' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8, flexWrap: 'wrap' }}>
+                          {category && <span style={{ fontFamily: 'monospace', fontSize: 8, padding: '1px 6px', background: '#0e1e35', color: '#5a7a9a' }}>{category}</span>}
+                          {post.isAuto && post.source && <span style={{ fontFamily: 'monospace', fontSize: 8, padding: '1px 6px', background: 'rgba(45,212,191,.1)', border: '1px solid rgba(45,212,191,.2)', color: '#2dd4bf' }}>{post.source}</span>}
+                          <span style={{ fontFamily: 'monospace', fontSize: 10, color: '#5a7a9a' }}>{date}</span>
+                        </div>
+                        <h2 style={{ fontSize: 15, fontWeight: 500, marginBottom: 6, lineHeight: 1.4 }}>{title}</h2>
+                        {summary && <p style={{ fontSize: 12, color: '#5a7a9a', fontWeight: 300, lineHeight: 1.6 }}>{summary}</p>}
+                      </div>
                     </div>
-                  </div>
-                );
-              })}
-            </div>
+                  );
+                })}
+              </div>
+
+              {/* 더보기 버튼 */}
+              {hasMore && (
+                <div style={{ textAlign: 'center', marginTop: 40 }}>
+                  <button
+                    onClick={() => setVisibleCount(prev => prev + PAGE_SIZE)}
+                    style={{
+                      padding: '12px 40px', borderRadius: 8, cursor: 'pointer',
+                      background: 'rgba(45,212,191,.08)', border: '1px solid rgba(45,212,191,.25)',
+                      color: '#2dd4bf', fontSize: 14, fontWeight: 500,
+                      transition: 'all 0.2s', fontFamily: "'Pretendard', sans-serif",
+                    }}
+                    onMouseEnter={e => { e.currentTarget.style.background = 'rgba(45,212,191,.15)'; e.currentTarget.style.borderColor = 'rgba(45,212,191,.5)'; }}
+                    onMouseLeave={e => { e.currentTarget.style.background = 'rgba(45,212,191,.08)'; e.currentTarget.style.borderColor = 'rgba(45,212,191,.25)'; }}
+                  >
+                    이전 뉴스 더보기 ({remaining}건 남음)
+                  </button>
+                </div>
+              )}
+
+              {/* 모두 표시 완료 */}
+              {!hasMore && filteredPosts.length > PAGE_SIZE && (
+                <div style={{ textAlign: 'center', marginTop: 32 }}>
+                  <span style={{ fontSize: 12, color: '#3a5a6a' }}>모든 뉴스를 표시했습니다 ({filteredPosts.length}건)</span>
+                </div>
+              )}
+            </>
           )}
         </div>
       </div>
