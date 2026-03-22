@@ -52,7 +52,7 @@ const TAG_COLORS: Record<string, string> = {
   '보안': '#f97316', '서버': '#3b82f6', 'HPC·서버': '#8b5cf6', '수주/계약': '#10b981',
 };
 
-/* 포스트가 필터에 매칭되는지 확인 — source OR category 둘 다 체크 */
+/* 포스트가 필터에 매칭되는지 확인 */
 function postMatchesFilter(post: any, filter: string): boolean {
   if (post.source === filter) return true;
   const cat = getProp(post, '카테고리');
@@ -65,44 +65,32 @@ export default function NewsClient({ posts }: { posts: any[] }) {
   const [activeFilter, setActiveFilter] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
 
-  /* 필터 탭 동적 생성 — source + category 통합 */
+  /* 필터 탭 동적 생성 */
   const filterTabs = useMemo(() => {
     const tagCounts: Record<string, number> = {};
-
     posts.forEach(post => {
-      if (post.source) {
-        tagCounts[post.source] = (tagCounts[post.source] || 0) + 1;
-      }
+      if (post.source) tagCounts[post.source] = (tagCounts[post.source] || 0) + 1;
       const cat = getProp(post, '카테고리');
-      if (cat) {
-        tagCounts[cat] = (tagCounts[cat] || 0) + 1;
-      }
+      if (cat) tagCounts[cat] = (tagCounts[cat] || 0) + 1;
     });
-
     const knownSources = ['Dell', 'HPE', 'VAST Data', 'SecurityWeek', 'BleepingComputer', '보안뉴스'];
     const sourceKeys = Object.keys(tagCounts).filter(k => knownSources.includes(k));
     const categoryKeys = Object.keys(tagCounts).filter(k => !knownSources.includes(k));
-
     sourceKeys.sort((a, b) => knownSources.indexOf(a) - knownSources.indexOf(b));
     categoryKeys.sort((a, b) => (tagCounts[b] || 0) - (tagCounts[a] || 0));
-
-    const allTabs = [
+    return [
       { id: 'all', label: '전체', color: '#2dd4bf', count: posts.length, isSource: false },
       ...sourceKeys.map(k => ({ id: k, label: k, color: TAG_COLORS[k] || '#5a7a9a', count: tagCounts[k], isSource: true })),
       ...categoryKeys.map(k => ({ id: k, label: k, color: TAG_COLORS[k] || '#5a7a9a', count: tagCounts[k], isSource: false })),
     ];
-
-    return allTabs;
   }, [posts]);
 
   /* 필터링된 포스트 */
   const filteredPosts = useMemo(() => {
     let result = posts;
-
     if (activeFilter !== 'all') {
       result = result.filter(post => postMatchesFilter(post, activeFilter));
     }
-
     if (searchQuery.trim()) {
       const q = searchQuery.trim().toLowerCase();
       result = result.filter(post => {
@@ -113,9 +101,11 @@ export default function NewsClient({ posts }: { posts: any[] }) {
         return title.includes(q) || summary.includes(q) || source.includes(q) || category.includes(q);
       });
     }
-
     return result;
   }, [posts, activeFilter, searchQuery]);
+
+  /* 렌더링 키 — 필터/검색 변경 시 React가 그리드를 강제 재생성 */
+  const gridKey = `grid-${activeFilter}-${searchQuery}`;
 
   return (
     <main style={{ minHeight: '100vh', background: '#050d1a', color: '#e8f1ff', paddingTop: 96, paddingBottom: 80, paddingLeft: 'clamp(16px,4vw,48px)', paddingRight: 'clamp(16px,4vw,48px)', fontFamily: "'Pretendard', sans-serif" }}>
@@ -218,74 +208,77 @@ export default function NewsClient({ posts }: { posts: any[] }) {
           </div>
         )}
 
-        {filteredPosts.length === 0 ? (
-          <div style={{ textAlign: 'center', padding: '60px 0' }}>
-            <p style={{ color: '#5a7a9a', fontSize: 14, marginBottom: 8 }}>
-              {searchQuery ? `"${searchQuery}"에 대한 검색 결과가 없습니다.` : '해당 필터에 등록된 뉴스가 없습니다.'}
-            </p>
-            <button onClick={() => { setSearchQuery(''); setActiveFilter('all'); }}
-              style={{ fontSize: 12, color: '#2dd4bf', background: 'none', border: '1px solid rgba(45,212,191,.3)', borderRadius: 6, padding: '8px 20px', cursor: 'pointer' }}>
-              전체 뉴스 보기
-            </button>
-          </div>
-        ) : (
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: 24 }}>
-            {filteredPosts.map((post) => {
-              const title    = getProp(post, '제목');
-              const date     = getProp(post, '게시일');
-              const category = getProp(post, '카테고리');
-              const summary  = getProp(post, '요약');
-              const thumb    = getProp(post, '썸네일URL');
-              return (
-                <div key={post.id} onClick={() => setSelected(post)}
-                  style={{ cursor: 'pointer', background: '#0a1628', border: '1px solid rgba(31,74,117,.5)', borderRadius: 4, overflow: 'hidden', transition: 'border-color 0.2s, transform 0.2s' }}
-                  onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(45,212,191,.3)'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
-                  onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(31,74,117,.5)'; e.currentTarget.style.transform = 'translateY(0)'; }}
-                >
-                  <div style={{ aspectRatio: '16/9', background: '#0a1628', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden', padding: 24 }}>
-                    {thumb
-                      ? <img src={thumb as string} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-                      : post.source === 'HPE'
-                        ? <svg viewBox="0 0 140 50" style={{ width: '65%', maxWidth: 160 }} xmlns="http://www.w3.org/2000/svg">
-                            <rect x="1" y="1" width="138" height="48" rx="3" fill="none" stroke="rgba(255,255,255,0.8)" strokeWidth="2.5"/>
-                            <text x="70" y="33" textAnchor="middle" fontFamily="'Arial Black', Arial, sans-serif" fontWeight="900" fontSize="26" fill="rgba(255,255,255,0.9)" letterSpacing="2">HPE</text>
-                          </svg>
-                        : post.source === '보안뉴스'
-                          ? <svg viewBox="0 0 160 50" style={{ width: '70%', maxWidth: 180 }} xmlns="http://www.w3.org/2000/svg">
-                              <rect x="1" y="1" width="158" height="48" rx="4" fill="none" stroke="rgba(255,255,255,0.6)" strokeWidth="1.5"/>
-                              <text x="80" y="22" textAnchor="middle" fontFamily="'Malgun Gothic', sans-serif" fontSize="13" fill="rgba(255,255,255,0.9)" fontWeight="700">보안뉴스</text>
-                              <text x="80" y="38" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="9" fill="rgba(255,255,255,0.5)" letterSpacing="1">SECURITY NEWS</text>
+        {/* ★ key={gridKey} — 필터 변경 시 React가 그리드를 강제 재생성 */}
+        <div key={gridKey}>
+          {filteredPosts.length === 0 ? (
+            <div style={{ textAlign: 'center', padding: '60px 0' }}>
+              <p style={{ color: '#5a7a9a', fontSize: 14, marginBottom: 8 }}>
+                {searchQuery ? `"${searchQuery}"에 대한 검색 결과가 없습니다.` : '해당 필터에 등록된 뉴스가 없습니다.'}
+              </p>
+              <button onClick={() => { setSearchQuery(''); setActiveFilter('all'); }}
+                style={{ fontSize: 12, color: '#2dd4bf', background: 'none', border: '1px solid rgba(45,212,191,.3)', borderRadius: 6, padding: '8px 20px', cursor: 'pointer' }}>
+                전체 뉴스 보기
+              </button>
+            </div>
+          ) : (
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: 24 }}>
+              {filteredPosts.map((post) => {
+                const title    = getProp(post, '제목');
+                const date     = getProp(post, '게시일');
+                const category = getProp(post, '카테고리');
+                const summary  = getProp(post, '요약');
+                const thumb    = getProp(post, '썸네일URL');
+                return (
+                  <div key={post.id} onClick={() => setSelected(post)}
+                    style={{ cursor: 'pointer', background: '#0a1628', border: '1px solid rgba(31,74,117,.5)', borderRadius: 4, overflow: 'hidden', transition: 'border-color 0.2s, transform 0.2s' }}
+                    onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(45,212,191,.3)'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
+                    onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(31,74,117,.5)'; e.currentTarget.style.transform = 'translateY(0)'; }}
+                  >
+                    <div style={{ aspectRatio: '16/9', background: '#0a1628', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden', padding: 24 }}>
+                      {thumb
+                        ? <img src={thumb as string} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                        : post.source === 'HPE'
+                          ? <svg viewBox="0 0 140 50" style={{ width: '65%', maxWidth: 160 }} xmlns="http://www.w3.org/2000/svg">
+                              <rect x="1" y="1" width="138" height="48" rx="3" fill="none" stroke="rgba(255,255,255,0.8)" strokeWidth="2.5"/>
+                              <text x="70" y="33" textAnchor="middle" fontFamily="'Arial Black', Arial, sans-serif" fontWeight="900" fontSize="26" fill="rgba(255,255,255,0.9)" letterSpacing="2">HPE</text>
                             </svg>
-                          : post.source === 'SecurityWeek'
-                          ? <svg viewBox="0 0 200 50" style={{ width: '75%', maxWidth: 200 }} xmlns="http://www.w3.org/2000/svg">
-                              <text x="100" y="33" textAnchor="middle" fontFamily="'Arial Black', Arial, sans-serif" fontSize="18" fill="rgba(255,255,255,0.9)" fontWeight="900" letterSpacing="-0.5">SecurityWeek</text>
-                            </svg>
-                          : <img
-                              src={
-                                post.source === 'Dell' ? 'https://upload.wikimedia.org/wikipedia/commons/8/82/Dell_Logo.png' :
-                                post.source === 'VAST Data' ? 'https://www.vastdata.com/favicon.ico' :
-                                post.source === 'BleepingComputer' ? 'https://www.bleepstatic.com/images/site/logo.png' :
-                                '/logo-wide.png'
-                              }
-                              alt={post.source ?? 'VWorks'}
-                              style={{ width: '70%', maxWidth: 180, maxHeight: 80, objectFit: 'contain', opacity: 0.9, filter: 'brightness(0) invert(1)' }}
-                            />
-                    }
-                  </div>
-                  <div style={{ padding: '16px 20px' }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8, flexWrap: 'wrap' }}>
-                      {category && <span style={{ fontFamily: 'monospace', fontSize: 8, padding: '1px 6px', background: '#0e1e35', color: '#5a7a9a' }}>{category}</span>}
-                      {post.isAuto && post.source && <span style={{ fontFamily: 'monospace', fontSize: 8, padding: '1px 6px', background: 'rgba(45,212,191,.1)', border: '1px solid rgba(45,212,191,.2)', color: '#2dd4bf' }}>{post.source}</span>}
-                      <span style={{ fontFamily: 'monospace', fontSize: 10, color: '#5a7a9a' }}>{date}</span>
+                          : post.source === '보안뉴스'
+                            ? <svg viewBox="0 0 160 50" style={{ width: '70%', maxWidth: 180 }} xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="158" height="48" rx="4" fill="none" stroke="rgba(255,255,255,0.6)" strokeWidth="1.5"/>
+                                <text x="80" y="22" textAnchor="middle" fontFamily="'Malgun Gothic', sans-serif" fontSize="13" fill="rgba(255,255,255,0.9)" fontWeight="700">보안뉴스</text>
+                                <text x="80" y="38" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="9" fill="rgba(255,255,255,0.5)" letterSpacing="1">SECURITY NEWS</text>
+                              </svg>
+                            : post.source === 'SecurityWeek'
+                            ? <svg viewBox="0 0 200 50" style={{ width: '75%', maxWidth: 200 }} xmlns="http://www.w3.org/2000/svg">
+                                <text x="100" y="33" textAnchor="middle" fontFamily="'Arial Black', Arial, sans-serif" fontSize="18" fill="rgba(255,255,255,0.9)" fontWeight="900" letterSpacing="-0.5">SecurityWeek</text>
+                              </svg>
+                            : <img
+                                src={
+                                  post.source === 'Dell' ? 'https://upload.wikimedia.org/wikipedia/commons/8/82/Dell_Logo.png' :
+                                  post.source === 'VAST Data' ? 'https://www.vastdata.com/favicon.ico' :
+                                  post.source === 'BleepingComputer' ? 'https://www.bleepstatic.com/images/site/logo.png' :
+                                  '/logo-wide.png'
+                                }
+                                alt={post.source ?? 'VWorks'}
+                                style={{ width: '70%', maxWidth: 180, maxHeight: 80, objectFit: 'contain', opacity: 0.9, filter: 'brightness(0) invert(1)' }}
+                              />
+                      }
                     </div>
-                    <h2 style={{ fontSize: 15, fontWeight: 500, marginBottom: 6, lineHeight: 1.4 }}>{title}</h2>
-                    {summary && <p style={{ fontSize: 12, color: '#5a7a9a', fontWeight: 300, lineHeight: 1.6 }}>{summary}</p>}
+                    <div style={{ padding: '16px 20px' }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8, flexWrap: 'wrap' }}>
+                        {category && <span style={{ fontFamily: 'monospace', fontSize: 8, padding: '1px 6px', background: '#0e1e35', color: '#5a7a9a' }}>{category}</span>}
+                        {post.isAuto && post.source && <span style={{ fontFamily: 'monospace', fontSize: 8, padding: '1px 6px', background: 'rgba(45,212,191,.1)', border: '1px solid rgba(45,212,191,.2)', color: '#2dd4bf' }}>{post.source}</span>}
+                        <span style={{ fontFamily: 'monospace', fontSize: 10, color: '#5a7a9a' }}>{date}</span>
+                      </div>
+                      <h2 style={{ fontSize: 15, fontWeight: 500, marginBottom: 6, lineHeight: 1.4 }}>{title}</h2>
+                      {summary && <p style={{ fontSize: 12, color: '#5a7a9a', fontWeight: 300, lineHeight: 1.6 }}>{summary}</p>}
+                    </div>
                   </div>
-                </div>
-              );
-            })}
-          </div>
-        )}
+                );
+              })}
+            </div>
+          )}
+        </div>
       </div>
 
       {/* 모달 */}
