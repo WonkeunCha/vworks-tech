@@ -45,14 +45,13 @@ function renderBlock(block: any) {
   }
 }
 
-/* 색상 매핑 */
 const TAG_COLORS: Record<string, string> = {
   'Dell': '#0076CE', 'HPE': '#01A982', 'VAST Data': '#00C9B1',
   'SecurityWeek': '#e87040', 'BleepingComputer': '#4a90d9', '보안뉴스': '#ff6b6b',
   '보안': '#f97316', '서버': '#3b82f6', 'HPC·서버': '#8b5cf6', '수주/계약': '#10b981',
+  '스토리지': '#06b6d4',
 };
 
-/* 포스트가 필터에 매칭되는지 확인 */
 function postMatchesFilter(post: any, filter: string): boolean {
   if (post.source === filter) return true;
   const cat = getProp(post, '카테고리');
@@ -65,7 +64,6 @@ export default function NewsClient({ posts }: { posts: any[] }) {
   const [activeFilter, setActiveFilter] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
 
-  /* 필터 탭 동적 생성 */
   const filterTabs = useMemo(() => {
     const tagCounts: Record<string, number> = {};
     posts.forEach(post => {
@@ -85,7 +83,6 @@ export default function NewsClient({ posts }: { posts: any[] }) {
     ];
   }, [posts]);
 
-  /* 필터링된 포스트 */
   const filteredPosts = useMemo(() => {
     let result = posts;
     if (activeFilter !== 'all') {
@@ -104,7 +101,6 @@ export default function NewsClient({ posts }: { posts: any[] }) {
     return result;
   }, [posts, activeFilter, searchQuery]);
 
-  /* 렌더링 키 — 필터/검색 변경 시 React가 그리드를 강제 재생성 */
   const gridKey = `grid-${activeFilter}-${searchQuery}`;
 
   return (
@@ -208,7 +204,7 @@ export default function NewsClient({ posts }: { posts: any[] }) {
           </div>
         )}
 
-        {/* ★ key={gridKey} — 필터 변경 시 React가 그리드를 강제 재생성 */}
+        {/* ★ key={gridKey} — 필터 변경 시 React가 DOM을 강제 재생성 */}
         <div key={gridKey}>
           {filteredPosts.length === 0 ? (
             <div style={{ textAlign: 'center', padding: '60px 0' }}>
@@ -252,10 +248,13 @@ export default function NewsClient({ posts }: { posts: any[] }) {
                             ? <svg viewBox="0 0 200 50" style={{ width: '75%', maxWidth: 200 }} xmlns="http://www.w3.org/2000/svg">
                                 <text x="100" y="33" textAnchor="middle" fontFamily="'Arial Black', Arial, sans-serif" fontSize="18" fill="rgba(255,255,255,0.9)" fontWeight="900" letterSpacing="-0.5">SecurityWeek</text>
                               </svg>
+                            : post.source === 'VAST Data'
+                            ? <svg viewBox="0 0 180 50" style={{ width: '70%', maxWidth: 180 }} xmlns="http://www.w3.org/2000/svg">
+                                <text x="90" y="33" textAnchor="middle" fontFamily="'Arial Black', Arial, sans-serif" fontWeight="900" fontSize="20" fill="rgba(255,255,255,0.9)" letterSpacing="2">VAST DATA</text>
+                              </svg>
                             : <img
                                 src={
                                   post.source === 'Dell' ? 'https://upload.wikimedia.org/wikipedia/commons/8/82/Dell_Logo.png' :
-                                  post.source === 'VAST Data' ? 'https://www.vastdata.com/favicon.ico' :
                                   post.source === 'BleepingComputer' ? 'https://www.bleepstatic.com/images/site/logo.png' :
                                   '/logo-wide.png'
                                 }

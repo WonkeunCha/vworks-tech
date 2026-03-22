@@ -23,7 +23,6 @@ function httpGet(url, redirects = 0) {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
         return httpGet(res.headers.location, redirects + 1).then(resolve).catch(reject);
       }
-      // ✅ Buffer로 받아서 UTF-8 디코딩 (한글 깨짐 방지)
       const chunks = [];
       res.on('data', chunk => chunks.push(Buffer.from(chunk)));
       res.on('end', () => resolve(Buffer.concat(chunks).toString('utf-8')));
@@ -51,26 +50,18 @@ function httpGetWithEncoding(url, redirects = 0) {
       res.on('data', chunk => chunks.push(Buffer.from(chunk)));
       res.on('end', () => {
         const buf = Buffer.concat(chunks);
-
-        // 1단계: Content-Type 헤더에서 charset 추출
         const contentType = res.headers['content-type'] || '';
         const charsetMatch = contentType.match(/charset=([^\s;]+)/i);
         let charset = charsetMatch?.[1]?.toLowerCase() || '';
-
-        // 2단계: 헤더에 charset이 없으면 XML 선언(<?xml encoding="..."?>)에서 추출
         if (!charset) {
           const head = buf.slice(0, 200).toString('binary');
           const xmlEnc = head.match(/encoding\s*=\s*["']([^"']+)["']/i);
           if (xmlEnc) charset = xmlEnc[1].toLowerCase();
         }
-
-        // 3단계: 그래도 없으면 도메인 기반 추정 (boannews.com 등 EUC-KR 사이트)
         if (!charset) {
           const isKoreanLegacySite = /boannews\.com|etnews\.com|zdnet\.co\.kr|dt\.co\.kr/i.test(url);
           charset = isKoreanLegacySite ? 'euc-kr' : 'utf-8';
         }
-
-        // EUC-KR / CP949 계열이면 iconv로, 아니면 utf-8
         if (charset.includes('euc-kr') || charset.includes('cp949') || charset.includes('euc_kr') || charset.includes('ks_c_5601')) {
           resolve(iconv.decode(buf, 'euc-kr'));
         } else {
@@ -82,6 +73,7 @@ function httpGetWithEncoding(url, redirects = 0) {
     req.setTimeout(20000, () => { req.destroy(); reject(new Error('timeout')); });
   });
 }
+
 // HTML 태그 및 엔티티 제거
 function stripHTML(html) {
   return html
@@ -97,7 +89,6 @@ function stripHTML(html) {
     .replace(/&#8212;/g, '-')
     .replace(/&#([0-9]+);/g, (_, code) => {
       const n = parseInt(code, 10);
-      // 한글 범위(AC00-D7A3), 한글자모(1100-11FF, 3130-318F)는 보존
       if ((n >= 0xAC00 && n <= 0xD7A3) ||
           (n >= 0x1100 && n <= 0x11FF) ||
           (n >= 0x3130 && n <= 0x318F)) {
@@ -132,7 +123,6 @@ function parseXML(xml) {
     const b = m[1];
     const title = extractTag(b, 'title');
     const link = extractTag(b, 'link') || extractTag(b, 'guid');
-    // dc:date는 콜론 때문에 별도 처리
     const pubDate = extractTag(b, 'pubDate') ||
       (b.match(/<dc:date>([\s\S]*?)<\/dc:date>/i)?.[1]?.trim() ?? '');
     const desc = extractTag(b, 'description') || extractTag(b, 'summary');
@@ -164,12 +154,13 @@ async function fetchDellContent(url) {
   }
 }
 
-// VAST Data — 전체 블로그 본문 추출
+// VAST Data — 블로그 본문 추출 + 날짜 추출
 async function fetchVASTContent(url) {
   try {
     const html = await httpGet(url);
     const text = stripHTML(html);
-    const startMarkers = ['Perspectives', 'For the last', 'For years', 'The '];
+
+    const startMarkers = ['Perspectives', 'For the last', 'For years', 'The ', 'In ', 'At ', 'As '];
     const endMarkers = ['More from this topic', 'Learn what VAST', 'Sign up for our newsletter', 'Contact Sales'];
     let startIdx = 0;
     for (const marker of startMarkers) {
@@ -186,6 +177,35 @@ async function fetchVASTContent(url) {
     console.error(`  VAST 본문 fetch 실패: ${e.message}`);
     return '';
   }
+}
+
+// VAST Data — 블로그 페이지에서 실제 게시일 추출
+function extractVASTDate(html) {
+  // JSON-LD에서 datePublished 추출
+  const jsonLdMatch = html.match(/"datePublished"\s*:\s*"([^"]+)"/);
+  if (jsonLdMatch) return jsonLdMatch[1];
+
+  // meta 태그에서 날짜 추출
+  const metaMatch = html.match(/article:published_time.*?content="([^"]+)"/i) ||
+                    html.match(/datePublished.*?content="([^"]+)"/i);
+  if (metaMatch) return metaMatch[1];
+
+  // 본문에서 날짜 패턴 추출 (e.g., "March 15, 2026" or "2026-03-15")
+  const datePatterns = [
+    /(\d{4}-\d{2}-\d{2})/,
+    /(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4}/i,
+  ];
+  const text = stripHTML(html).slice(0, 3000);
+  for (const pattern of datePatterns) {
+    const match = text.match(pattern);
+    if (match) {
+      try {
+        const d = new Date(match[0]);
+        if (!isNaN(d.getTime())) return d.toISOString();
+      } catch {}
+    }
+  }
+  return '';
 }
 
 // HPE — 뉴스룸 블로그 및 보도자료 본문 추출
@@ -211,8 +231,6 @@ async function fetchHPEContent(url) {
     return '';
   }
 }
-
-
 
 // 보안 뉴스 본문 추출 (SecurityWeek, BleepingComputer)
 async function fetchSecurityContent(url) {
@@ -350,6 +368,141 @@ async function processItems(items, source, category, fetchedUrls, newItems) {
   }
 }
 
+// VAST Data — 블로그 리스팅 페이지에서 최신 글 추출
+async function fetchVASTBlogList(fetchedUrls) {
+  const items = [];
+  try {
+    console.log('  블로그 리스팅 페이지 fetch...');
+    const html = await httpGet('https://www.vastdata.com/blog');
+
+    // 블로그 URL 추출 (/blog/xxx 패턴)
+    const urlMatches = html.match(/href="\/blog\/([a-z0-9-]+)"/gi) || [];
+    const uniqueSlugs = [...new Set(urlMatches.map(m => {
+      const slug = m.match(/\/blog\/([a-z0-9-]+)/i)?.[1];
+      return slug;
+    }).filter(Boolean))];
+
+    console.log(`  블로그 슬러그 ${uniqueSlugs.length}개 발견`);
+
+    // 각 블로그 페이지에서 실제 게시일 추출 (최대 10개만)
+    let checked = 0;
+    for (const slug of uniqueSlugs) {
+      if (checked >= 10) break;
+      const blogUrl = `https://www.vastdata.com/blog/${slug}`;
+      if (fetchedUrls.has(blogUrl)) continue;
+
+      try {
+        const blogHtml = await httpGet(blogUrl);
+        const dateStr = extractVASTDate(blogHtml);
+        if (dateStr) {
+          const pubDate = new Date(dateStr);
+          if (!isNaN(pubDate.getTime()) && pubDate >= FILTER_FROM) {
+            const title = slug.replace(/-/g, ' ');
+            items.push({
+              title,
+              link: blogUrl,
+              pubDate: pubDate.toISOString(),
+              description: '',
+              _html: blogHtml, // 본문 재사용을 위해 보존
+            });
+            console.log(`  📅 ${slug} → ${pubDate.toISOString().slice(0, 10)}`);
+          }
+        }
+        checked++;
+        await new Promise(r => setTimeout(r, 500));
+      } catch (e) {
+        console.error(`  ⚠️ ${slug} 접근 실패: ${e.message}`);
+        checked++;
+      }
+    }
+  } catch (e) {
+    console.error(`  블로그 리스팅 실패: ${e.message}`);
+    // 폴백: sitemap에서 랜덤 선택
+    console.log('  폴백: sitemap.xml에서 수집 시도...');
+    try {
+      const sitemapXml = await httpGet('https://www.vastdata.com/sitemap.xml');
+      const urlRe = /<loc>(https:\/\/www\.vastdata\.com\/blog\/[^<]+)<\/loc>/g;
+      const urls = [];
+      let m;
+      while ((m = urlRe.exec(sitemapXml)) !== null) urls.push(m[1]);
+      // fetchedUrls에 없는 URL만 선택, 랜덤 셔플
+      const unfetched = urls.filter(u => !fetchedUrls.has(u));
+      const shuffled = unfetched.sort(() => Math.random() - 0.5).slice(0, 5);
+      for (const url of shuffled) {
+        items.push({
+          title: url.split('/blog/')[1]?.replace(/-/g, ' ') ?? '',
+          link: url,
+          pubDate: new Date().toISOString(), // 오늘 날짜 사용
+          description: '',
+        });
+      }
+    } catch (e2) {
+      console.error(`  sitemap 폴백도 실패: ${e2.message}`);
+    }
+  }
+  return items;
+}
+
+// VAST Data 전용 처리 — 본문 재사용 + 번역
+async function processVASTItems(items, fetchedUrls, newItems) {
+  console.log(`  → VAST Data 처리 대상: ${items.length}개`);
+
+  for (const item of items) {
+    const link = item.link ?? '';
+    if (!link || fetchedUrls.has(link)) continue;
+
+    console.log(`  원문 fetch: ${item.title}`);
+    let content = '';
+    try {
+      if (item._html) {
+        // 리스팅에서 이미 fetch한 HTML 재사용
+        content = stripHTML(item._html).slice(0, 5000);
+        const startMarkers = ['Perspectives', 'For the last', 'For years', 'The ', 'In ', 'At ', 'As '];
+        const endMarkers = ['More from this topic', 'Learn what VAST', 'Sign up for our newsletter', 'Contact Sales'];
+        let startIdx = 0;
+        for (const marker of startMarkers) {
+          const idx = content.indexOf(marker);
+          if (idx !== -1) { startIdx = idx; break; }
+        }
+        let endIdx = content.length;
+        for (const marker of endMarkers) {
+          const idx = content.indexOf(marker, startIdx + 200);
+          if (idx !== -1 && idx < endIdx) endIdx = idx;
+        }
+        content = content.slice(startIdx, endIdx).slice(0, 5000);
+      } else {
+        content = await fetchVASTContent(link);
+      }
+    } catch (e) {
+      content = item.description ?? '';
+    }
+
+    if (!content || content.length < 100) {
+      console.log(`  ⏩ 본문 부족, 스킵: ${item.title}`);
+      continue;
+    }
+
+    console.log(`  번역: ${item.title} (${content.length}자)`);
+    try {
+      const translated = await translateWithClaude(item.title, content, 'VAST Data');
+      newItems.push({
+        id: Buffer.from(link).toString('base64').slice(0, 16),
+        title: translated.title,
+        summary: translated.summary,
+        category: '스토리지',
+        source: 'VAST Data',
+        sourceUrl: link,
+        date: new Date(item.pubDate).toISOString().slice(0, 10),
+      });
+      fetchedUrls.add(link);
+      console.log(`  ✅ ${translated.title}`);
+      await new Promise(r => setTimeout(r, 1000));
+    } catch (e) {
+      console.error(`  ❌ ${e.message}`);
+    }
+  }
+}
+
 async function main() {
   if (!fs.existsSync('src/data')) fs.mkdirSync('src/data', { recursive: true });
 
@@ -357,9 +510,9 @@ async function main() {
     ? JSON.parse(fs.readFileSync(DATA_FILE, 'utf-8'))
     : { items: [], fetchedUrls: [] };
 
- // ✅ 기존 수집된 URL 유지 — 새 기사만 수집 (크레딧 절약)
-const fetchedUrls = new Set(existing.fetchedUrls ?? []);
-const newItems = [];
+  // ✅ 기존 수집된 URL 유지 — 새 기사만 수집 (크레딧 절약)
+  const fetchedUrls = new Set(existing.fetchedUrls ?? []);
+  const newItems = [];
 
   // Dell RSS
   try {
@@ -370,7 +523,7 @@ const newItems = [];
     await processItems(items, 'Dell', '서버', fetchedUrls, newItems);
   } catch (e) { console.error(`Dell 실패: ${e.message}`); }
 
-  // HPE 뉴스룸 공식 RSS (블로그 포스트 + 보도자료 통합 30개)
+  // HPE 뉴스룸 공식 RSS
   try {
     console.log('📡 HPE 뉴스룸 RSS 수집');
     const xml = await httpGet('https://www.hpe.com/us/en/newsroom/rss.xml');
@@ -379,24 +532,12 @@ const newItems = [];
     await processItems(items, 'HPE', 'HPC·서버', fetchedUrls, newItems);
   } catch (e) { console.error(`HPE 뉴스룸 실패: ${e.message}`); }
 
-  // VAST Data 블로그
+  // ★ VAST Data 블로그 — 리스팅 페이지 스크래핑 방식 (sitemap lastmod 버그 수정)
   try {
     console.log('📡 VAST Data 블로그 수집');
-    const sitemapXml = await httpGet('https://www.vastdata.com/sitemap.xml');
-    const urlRe = /<loc>(https:\/\/www\.vastdata\.com\/blog\/[^<]+)<\/loc>/g;
-    const lastmodRe = /<lastmod>([^<]+)<\/lastmod>/g;
-    const urls = []; let m;
-    while ((m = urlRe.exec(sitemapXml)) !== null) urls.push(m[1]);
-    const dates = []; let d;
-    while ((d = lastmodRe.exec(sitemapXml)) !== null) dates.push(d[1]);
-    const items = urls.map((url, i) => ({
-      title: url.split('/blog/')[1]?.replace(/-/g, ' ') ?? '',
-      link: url,
-      pubDate: dates[i] ?? '',
-      description: '',
-    })).filter(i => i.link && i.pubDate);
-    console.log(`  수집: ${items.length}개`);
-    await processItems(items, 'VAST Data', '스토리지', fetchedUrls, newItems);
+    const vastItems = await fetchVASTBlogList(fetchedUrls);
+    console.log(`  수집: ${vastItems.length}개`);
+    await processVASTItems(vastItems, fetchedUrls, newItems);
   } catch (e) { console.error(`VAST 실패: ${e.message}`); }
 
   // 보안 뉴스 — 글로벌 (영문 번역)
@@ -448,7 +589,6 @@ const newItems = [];
       .sort((a, b) => b.date.localeCompare(a.date))
       .slice(0, 100),
   };
-  // 한글 유니코드 이스케이프 해제로 깨짐 방지
   const jsonStr = JSON.stringify(result, null, 2)
     .replace(/\\u([0-9a-fA-F]{4})/g, (_, hex) => {
       const code = parseInt(hex, 16);
