@@ -1,5 +1,5 @@
 'use client';
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useCallback } from 'react';
 
 const PAGE_SIZE = 50;
 
@@ -67,9 +67,83 @@ export default function NewsClient({ posts }: { posts: any[] }) {
   const [searchQuery, setSearchQuery] = useState('');
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
+  // 분기별 아카이브 상태
+  const [allPosts, setAllPosts] = useState(posts);
+  const [loadingArchive, setLoadingArchive] = useState(false);
+  const [loadedQuarters, setLoadedQuarters] = useState<string[]>([]);
+  const [archiveManifest, setArchiveManifest] = useState<any>(null);
+  const [archiveError, setArchiveError] = useState('');
+
+  // 매니페스트 로드
+  const loadManifest = useCallback(async () => {
+    if (archiveManifest) return archiveManifest;
+    try {
+      const res = await fetch('/data/news-manifest.json');
+      if (!res.ok) return null;
+      const manifest = await res.json();
+      setArchiveManifest(manifest);
+      return manifest;
+    } catch {
+      return null;
+    }
+  }, [archiveManifest]);
+
+  // 분기별 아카이브 로드
+  const loadMoreArchive = useCallback(async () => {
+    setLoadingArchive(true);
+    setArchiveError('');
+    try {
+      const manifest = await loadManifest();
+      if (!manifest || !manifest.quarters) {
+        setArchiveError('아카이브를 찾을 수 없습니다.');
+        setLoadingArchive(false);
+        return;
+      }
+
+      // 아직 로드하지 않은 분기 찾기
+      const unloadedQuarters = manifest.quarters.filter(
+        (q: any) => !loadedQuarters.includes(q.key)
+      );
+
+      if (unloadedQuarters.length === 0) {
+        setArchiveError('모든 아카이브를 로드했습니다.');
+        setLoadingArchive(false);
+        return;
+      }
+
+      // 다음 분기 1개 로드
+      const nextQuarter = unloadedQuarters[0];
+      console.log(`📂 아카이브 로드: ${nextQuarter.file}`);
+      const res = await fetch(`/data/${nextQuarter.file}`);
+      if (!res.ok) throw new Error(`${nextQuarter.file} 로드 실패`);
+      const data = await res.json();
+
+      if (data.items && data.items.length > 0) {
+        // 중복 제거 후 합치기
+        const existingIds = new Set(allPosts.map((p: any) => p.sourceUrl || p.id));
+        const newItems = data.items.filter((item: any) => {
+          const key = item.sourceUrl || item.id;
+          return !existingIds.has(key);
+        });
+
+        if (newItems.length > 0) {
+          const merged = [...allPosts, ...newItems].sort((a: any, b: any) =>
+            (b.date || '').localeCompare(a.date || '')
+          );
+          setAllPosts(merged);
+        }
+      }
+
+      setLoadedQuarters(prev => [...prev, nextQuarter.key]);
+    } catch (e: any) {
+      setArchiveError(e.message || '아카이브 로드 실패');
+    }
+    setLoadingArchive(false);
+  }, [allPosts, loadedQuarters, loadManifest]);
+
   const filterTabs = useMemo(() => {
     const tagCounts: Record<string, number> = {};
-    posts.forEach(post => {
+    allPosts.forEach((post: any) => {
       if (post.source) tagCounts[post.source] = (tagCounts[post.source] || 0) + 1;
       const cat = getProp(post, '카테고리');
       if (cat) tagCounts[cat] = (tagCounts[cat] || 0) + 1;
@@ -80,21 +154,20 @@ export default function NewsClient({ posts }: { posts: any[] }) {
     sourceKeys.sort((a, b) => knownSources.indexOf(a) - knownSources.indexOf(b));
     categoryKeys.sort((a, b) => (tagCounts[b] || 0) - (tagCounts[a] || 0));
     return [
-      { id: 'all', label: '전체', color: '#2dd4bf', count: posts.length, isSource: false },
+      { id: 'all', label: '전체', color: '#2dd4bf', count: allPosts.length, isSource: false },
       ...sourceKeys.map(k => ({ id: k, label: k, color: TAG_COLORS[k] || '#5a7a9a', count: tagCounts[k], isSource: true })),
       ...categoryKeys.map(k => ({ id: k, label: k, color: TAG_COLORS[k] || '#5a7a9a', count: tagCounts[k], isSource: false })),
     ];
-  }, [posts]);
+  }, [allPosts]);
 
-  /* 필터링된 전체 포스트 */
   const filteredPosts = useMemo(() => {
-    let result = posts;
+    let result = allPosts;
     if (activeFilter !== 'all') {
-      result = result.filter(post => postMatchesFilter(post, activeFilter));
+      result = result.filter((post: any) => postMatchesFilter(post, activeFilter));
     }
     if (searchQuery.trim()) {
       const q = searchQuery.trim().toLowerCase();
-      result = result.filter(post => {
+      result = result.filter((post: any) => {
         const title = (getProp(post, '제목') ?? '').toLowerCase();
         const summary = (getProp(post, '요약') ?? '').toLowerCase();
         const source = (post.source ?? '').toLowerCase();
@@ -103,14 +176,12 @@ export default function NewsClient({ posts }: { posts: any[] }) {
       });
     }
     return result;
-  }, [posts, activeFilter, searchQuery]);
+  }, [allPosts, activeFilter, searchQuery]);
 
-  /* 화면에 보이는 포스트 (페이지네이션) */
   const visiblePosts = filteredPosts.slice(0, visibleCount);
   const hasMore = visibleCount < filteredPosts.length;
   const remaining = filteredPosts.length - visibleCount;
 
-  /* 필터/검색 변경 시 페이지 리셋 */
   function handleFilterChange(filterId: string) {
     setActiveFilter(filterId);
     setVisibleCount(PAGE_SIZE);
@@ -121,7 +192,7 @@ export default function NewsClient({ posts }: { posts: any[] }) {
     setVisibleCount(PAGE_SIZE);
   }
 
-  const gridKey = `grid-${activeFilter}-${searchQuery}`;
+  const gridKey = `grid-${activeFilter}-${searchQuery}-${allPosts.length}`;
 
   return (
     <main style={{ minHeight: '100vh', background: '#050d1a', color: '#e8f1ff', paddingTop: 96, paddingBottom: 80, paddingLeft: 'clamp(16px,4vw,48px)', paddingRight: 'clamp(16px,4vw,48px)', fontFamily: "'Pretendard', sans-serif" }}>
@@ -238,22 +309,21 @@ export default function NewsClient({ posts }: { posts: any[] }) {
             </div>
           ) : (
             <>
-              {/* 현재 표시 상태 */}
-              <div style={{ marginBottom: 16, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+              <div style={{ marginBottom: 16 }}>
                 <span style={{ fontSize: 12, color: '#3a5a6a' }}>
                   {filteredPosts.length}건 중 {Math.min(visibleCount, filteredPosts.length)}건 표시
                 </span>
               </div>
 
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: 24 }}>
-                {visiblePosts.map((post) => {
+                {visiblePosts.map((post: any) => {
                   const title    = getProp(post, '제목');
                   const date     = getProp(post, '게시일');
                   const category = getProp(post, '카테고리');
                   const summary  = getProp(post, '요약');
                   const thumb    = getProp(post, '썸네일URL');
                   return (
-                    <div key={post.id} onClick={() => setSelected(post)}
+                    <div key={post.id || post.sourceUrl} onClick={() => setSelected(post)}
                       style={{ cursor: 'pointer', background: '#0a1628', border: '1px solid rgba(31,74,117,.5)', borderRadius: 4, overflow: 'hidden', transition: 'border-color 0.2s, transform 0.2s' }}
                       onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(45,212,191,.3)'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
                       onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(31,74,117,.5)'; e.currentTarget.style.transform = 'translateY(0)'; }}
@@ -262,24 +332,13 @@ export default function NewsClient({ posts }: { posts: any[] }) {
                         {thumb
                           ? <img src={thumb as string} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                           : post.source === 'HPE'
-                            ? <svg viewBox="0 0 140 50" style={{ width: '65%', maxWidth: 160 }} xmlns="http://www.w3.org/2000/svg">
-                                <rect x="1" y="1" width="138" height="48" rx="3" fill="none" stroke="rgba(255,255,255,0.8)" strokeWidth="2.5"/>
-                                <text x="70" y="33" textAnchor="middle" fontFamily="'Arial Black', Arial, sans-serif" fontWeight="900" fontSize="26" fill="rgba(255,255,255,0.9)" letterSpacing="2">HPE</text>
-                              </svg>
+                            ? <svg viewBox="0 0 140 50" style={{ width: '65%', maxWidth: 160 }} xmlns="http://www.w3.org/2000/svg"><rect x="1" y="1" width="138" height="48" rx="3" fill="none" stroke="rgba(255,255,255,0.8)" strokeWidth="2.5"/><text x="70" y="33" textAnchor="middle" fontFamily="'Arial Black', Arial, sans-serif" fontWeight="900" fontSize="26" fill="rgba(255,255,255,0.9)" letterSpacing="2">HPE</text></svg>
                             : post.source === '보안뉴스'
-                              ? <svg viewBox="0 0 160 50" style={{ width: '70%', maxWidth: 180 }} xmlns="http://www.w3.org/2000/svg">
-                                  <rect x="1" y="1" width="158" height="48" rx="4" fill="none" stroke="rgba(255,255,255,0.6)" strokeWidth="1.5"/>
-                                  <text x="80" y="22" textAnchor="middle" fontFamily="'Malgun Gothic', sans-serif" fontSize="13" fill="rgba(255,255,255,0.9)" fontWeight="700">보안뉴스</text>
-                                  <text x="80" y="38" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="9" fill="rgba(255,255,255,0.5)" letterSpacing="1">SECURITY NEWS</text>
-                                </svg>
+                              ? <svg viewBox="0 0 160 50" style={{ width: '70%', maxWidth: 180 }} xmlns="http://www.w3.org/2000/svg"><rect x="1" y="1" width="158" height="48" rx="4" fill="none" stroke="rgba(255,255,255,0.6)" strokeWidth="1.5"/><text x="80" y="22" textAnchor="middle" fontFamily="'Malgun Gothic', sans-serif" fontSize="13" fill="rgba(255,255,255,0.9)" fontWeight="700">보안뉴스</text><text x="80" y="38" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="9" fill="rgba(255,255,255,0.5)" letterSpacing="1">SECURITY NEWS</text></svg>
                               : post.source === 'SecurityWeek'
-                              ? <svg viewBox="0 0 200 50" style={{ width: '75%', maxWidth: 200 }} xmlns="http://www.w3.org/2000/svg">
-                                  <text x="100" y="33" textAnchor="middle" fontFamily="'Arial Black', Arial, sans-serif" fontSize="18" fill="rgba(255,255,255,0.9)" fontWeight="900" letterSpacing="-0.5">SecurityWeek</text>
-                                </svg>
+                              ? <svg viewBox="0 0 200 50" style={{ width: '75%', maxWidth: 200 }} xmlns="http://www.w3.org/2000/svg"><text x="100" y="33" textAnchor="middle" fontFamily="'Arial Black', Arial, sans-serif" fontSize="18" fill="rgba(255,255,255,0.9)" fontWeight="900" letterSpacing="-0.5">SecurityWeek</text></svg>
                               : post.source === 'VAST Data'
-                              ? <svg viewBox="0 0 180 50" style={{ width: '70%', maxWidth: 180 }} xmlns="http://www.w3.org/2000/svg">
-                                  <text x="90" y="33" textAnchor="middle" fontFamily="'Arial Black', Arial, sans-serif" fontWeight="900" fontSize="20" fill="rgba(255,255,255,0.9)" letterSpacing="2">VAST DATA</text>
-                                </svg>
+                              ? <svg viewBox="0 0 180 50" style={{ width: '70%', maxWidth: 180 }} xmlns="http://www.w3.org/2000/svg"><text x="90" y="33" textAnchor="middle" fontFamily="'Arial Black', Arial, sans-serif" fontWeight="900" fontSize="20" fill="rgba(255,255,255,0.9)" letterSpacing="2">VAST DATA</text></svg>
                               : <img
                                   src={
                                     post.source === 'Dell' ? 'https://upload.wikimedia.org/wikipedia/commons/8/82/Dell_Logo.png' :
@@ -305,7 +364,7 @@ export default function NewsClient({ posts }: { posts: any[] }) {
                 })}
               </div>
 
-              {/* 더보기 버튼 */}
+              {/* 현재 데이터 내 더보기 */}
               {hasMore && (
                 <div style={{ textAlign: 'center', marginTop: 40 }}>
                   <button
@@ -316,18 +375,40 @@ export default function NewsClient({ posts }: { posts: any[] }) {
                       color: '#2dd4bf', fontSize: 14, fontWeight: 500,
                       transition: 'all 0.2s', fontFamily: "'Pretendard', sans-serif",
                     }}
-                    onMouseEnter={e => { e.currentTarget.style.background = 'rgba(45,212,191,.15)'; e.currentTarget.style.borderColor = 'rgba(45,212,191,.5)'; }}
-                    onMouseLeave={e => { e.currentTarget.style.background = 'rgba(45,212,191,.08)'; e.currentTarget.style.borderColor = 'rgba(45,212,191,.25)'; }}
+                    onMouseEnter={e => { e.currentTarget.style.background = 'rgba(45,212,191,.15)'; }}
+                    onMouseLeave={e => { e.currentTarget.style.background = 'rgba(45,212,191,.08)'; }}
                   >
-                    이전 뉴스 더보기 ({remaining}건 남음)
+                    더보기 ({remaining}건 남음)
                   </button>
                 </div>
               )}
 
-              {/* 모두 표시 완료 */}
-              {!hasMore && filteredPosts.length > PAGE_SIZE && (
-                <div style={{ textAlign: 'center', marginTop: 32 }}>
-                  <span style={{ fontSize: 12, color: '#3a5a6a' }}>모든 뉴스를 표시했습니다 ({filteredPosts.length}건)</span>
+              {/* 아카이브에서 이전 뉴스 로드 */}
+              {!hasMore && (
+                <div style={{ textAlign: 'center', marginTop: 40 }}>
+                  {archiveError ? (
+                    <span style={{ fontSize: 12, color: '#3a5a6a' }}>{archiveError}</span>
+                  ) : (
+                    <button
+                      onClick={loadMoreArchive}
+                      disabled={loadingArchive}
+                      style={{
+                        padding: '12px 40px', borderRadius: 8, cursor: loadingArchive ? 'wait' : 'pointer',
+                        background: loadingArchive ? 'rgba(31,74,117,.2)' : 'rgba(56,189,248,.08)',
+                        border: '1px solid rgba(56,189,248,.25)',
+                        color: '#38bdf8', fontSize: 14, fontWeight: 500,
+                        transition: 'all 0.2s', fontFamily: "'Pretendard', sans-serif",
+                        opacity: loadingArchive ? 0.6 : 1,
+                      }}
+                    >
+                      {loadingArchive ? '로딩 중...' : '📂 이전 분기 뉴스 불러오기'}
+                    </button>
+                  )}
+                  {filteredPosts.length > PAGE_SIZE && !archiveError && (
+                    <div style={{ marginTop: 12 }}>
+                      <span style={{ fontSize: 12, color: '#3a5a6a' }}>현재 {filteredPosts.length}건 표시 중</span>
+                    </div>
+                  )}
                 </div>
               )}
             </>

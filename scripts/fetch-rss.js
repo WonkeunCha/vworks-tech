@@ -2,12 +2,17 @@ const fs = require('fs');
 const https = require('https');
 const http = require('http');
 const iconv = require('iconv-lite');
+const path = require('path');
 
 
 
 const DATA_FILE = 'src/data/news-auto.json';
-const FILTER_FROM = new Date('2026-01-01T00:00:00Z');
-const MAX_ITEMS = 500;
+const ARCHIVE_DIR = 'public/data';
+const MANIFEST_FILE = 'public/data/news-manifest.json';
+const FILTER_FROM = new Date('2025-01-01T00:00:00Z');
+const MAX_RECENT = 200;        // SSR 빌드용 최근 기사 수
+const VAST_CHECK_LIMIT = 30;   // VAST Data 블로그 페이지 체크 수 (1년치 누적)
+const VAST_YEAR_BACK = 365;    // VAST Data 수집 범위 (일)
 
 // 범용 HTTP GET
 function httpGet(url, redirects = 0) {
@@ -128,6 +133,23 @@ function parseXML(xml) {
   return items;
 }
 
+// 분기 키 생성 (예: "2026-Q1")
+function getQuarterKey(dateStr) {
+  try {
+    const d = new Date(dateStr);
+    if (isNaN(d.getTime())) return null;
+    const year = d.getFullYear();
+    const quarter = Math.ceil((d.getMonth() + 1) / 3);
+    return `${year}-Q${quarter}`;
+  } catch {
+    return null;
+  }
+}
+
+// ============================================================
+// 벤더별 본문 추출
+// ============================================================
+
 async function fetchDellContent(url) {
   try {
     const html = await httpGet(url);
@@ -236,6 +258,10 @@ async function fetchSecurityContent(url) {
   }
 }
 
+// ============================================================
+// Claude 번역
+// ============================================================
+
 async function translateWithClaude(title, content, source) {
   let prompt = '';
   if (source === 'Dell') {
@@ -286,13 +312,17 @@ async function translateWithClaude(title, content, source) {
   });
 }
 
+// ============================================================
+// RSS 처리 (Dell, HPE, SecurityWeek, BleepingComputer)
+// ============================================================
+
 async function processItems(items, source, category, fetchedUrls, newItems) {
   const filtered = items.filter(item => {
     if (!item.pubDate) return false;
     try { return new Date(item.pubDate) >= FILTER_FROM; } catch { return false; }
   }).slice(0, 20);
 
-  console.log(`  → 2026년 이후: ${filtered.length}개`);
+  console.log(`  → 필터 통과: ${filtered.length}개`);
 
   for (const item of filtered) {
     const link = item.link ?? '';
@@ -330,52 +360,80 @@ async function processItems(items, source, category, fetchedUrls, newItems) {
   }
 }
 
-// VAST Data — 블로그 리스팅 페이지에서 최신 글 추출
+// ============================================================
+// VAST Data — 블로그 리스팅 + sitemap 결합 (최근 1년)
+// ============================================================
+
 async function fetchVASTBlogList(fetchedUrls) {
   const items = [];
+  const oneYearAgo = new Date();
+  oneYearAgo.setDate(oneYearAgo.getDate() - VAST_YEAR_BACK);
+
+  // 1단계: 블로그 리스팅 페이지에서 슬러그 추출
+  let slugsFromListing = [];
   try {
     console.log('  블로그 리스팅 페이지 fetch...');
     const html = await httpGet('https://www.vastdata.com/blog');
     const urlMatches = html.match(/href="\/blog\/([a-z0-9-]+)"/gi) || [];
-    const uniqueSlugs = [...new Set(urlMatches.map(m => {
+    slugsFromListing = [...new Set(urlMatches.map(m => {
       const slug = m.match(/\/blog\/([a-z0-9-]+)/i)?.[1];
       return slug;
     }).filter(Boolean))];
-
-    console.log(`  블로그 슬러그 ${uniqueSlugs.length}개 발견`);
-
-    let checked = 0;
-    for (const slug of uniqueSlugs) {
-      if (checked >= 10) break;
-      const blogUrl = `https://www.vastdata.com/blog/${slug}`;
-      if (fetchedUrls.has(blogUrl)) continue;
-
-      try {
-        const blogHtml = await httpGet(blogUrl);
-        const dateStr = extractVASTDate(blogHtml);
-        if (dateStr) {
-          const pubDate = new Date(dateStr);
-          if (!isNaN(pubDate.getTime()) && pubDate >= FILTER_FROM) {
-            const title = slug.replace(/-/g, ' ');
-            items.push({
-              title,
-              link: blogUrl,
-              pubDate: pubDate.toISOString(),
-              description: '',
-              _html: blogHtml,
-            });
-            console.log(`  📅 ${slug} → ${pubDate.toISOString().slice(0, 10)}`);
-          }
-        }
-        checked++;
-        await new Promise(r => setTimeout(r, 500));
-      } catch (e) {
-        console.error(`  ⚠️ ${slug} 접근 실패: ${e.message}`);
-        checked++;
-      }
-    }
+    console.log(`  리스팅에서 ${slugsFromListing.length}개 슬러그 발견`);
   } catch (e) {
-    console.error(`  블로그 리스팅 실패: ${e.message}`);
+    console.error(`  리스팅 실패: ${e.message}`);
+  }
+
+  // 2단계: sitemap에서 추가 슬러그 수집
+  let slugsFromSitemap = [];
+  try {
+    console.log('  sitemap.xml fetch...');
+    const sitemapXml = await httpGet('https://www.vastdata.com/sitemap.xml');
+    const urlRe = /<loc>(https:\/\/www\.vastdata\.com\/blog\/([^<]+))<\/loc>/g;
+    let m;
+    while ((m = urlRe.exec(sitemapXml)) !== null) {
+      const slug = m[2];
+      if (slug && !slug.includes('/')) slugsFromSitemap.push(slug);
+    }
+    console.log(`  sitemap에서 ${slugsFromSitemap.length}개 슬러그 발견`);
+  } catch (e) {
+    console.error(`  sitemap 실패: ${e.message}`);
+  }
+
+  // 리스팅 우선 + sitemap 보충 (중복 제거)
+  const allSlugs = [...new Set([...slugsFromListing, ...slugsFromSitemap])];
+  console.log(`  총 고유 슬러그: ${allSlugs.length}개, 체크 한도: ${VAST_CHECK_LIMIT}개`);
+
+  // 3단계: 각 블로그 페이지에서 날짜 추출 (최대 VAST_CHECK_LIMIT개)
+  let checked = 0;
+  for (const slug of allSlugs) {
+    if (checked >= VAST_CHECK_LIMIT) break;
+    const blogUrl = `https://www.vastdata.com/blog/${slug}`;
+    if (fetchedUrls.has(blogUrl)) continue;
+
+    try {
+      const blogHtml = await httpGet(blogUrl);
+      const dateStr = extractVASTDate(blogHtml);
+      if (dateStr) {
+        const pubDate = new Date(dateStr);
+        if (!isNaN(pubDate.getTime()) && pubDate >= oneYearAgo) {
+          const title = slug.replace(/-/g, ' ');
+          items.push({
+            title,
+            link: blogUrl,
+            pubDate: pubDate.toISOString(),
+            description: '',
+            _html: blogHtml,
+          });
+          console.log(`  📅 ${slug} → ${pubDate.toISOString().slice(0, 10)}`);
+        }
+      }
+      checked++;
+      await new Promise(r => setTimeout(r, 500));
+    } catch (e) {
+      console.error(`  ⚠️ ${slug} 접근 실패: ${e.message}`);
+      checked++;
+    }
   }
   return items;
 }
@@ -438,20 +496,112 @@ async function processVASTItems(items, fetchedUrls, newItems) {
   }
 }
 
+// ============================================================
+// 분기별 아카이브 저장
+// ============================================================
+
+function loadAllArchiveItems() {
+  const allItems = [];
+  if (!fs.existsSync(ARCHIVE_DIR)) return allItems;
+
+  const files = fs.readdirSync(ARCHIVE_DIR).filter(f => f.startsWith('news-') && f.endsWith('.json') && f !== 'news-manifest.json');
+  for (const file of files) {
+    try {
+      const data = JSON.parse(fs.readFileSync(path.join(ARCHIVE_DIR, file), 'utf-8'));
+      if (Array.isArray(data.items)) {
+        allItems.push(...data.items);
+      }
+    } catch (e) {
+      console.error(`  아카이브 읽기 실패: ${file} — ${e.message}`);
+    }
+  }
+  return allItems;
+}
+
+function saveQuarterlyArchives(allItems) {
+  if (!fs.existsSync(ARCHIVE_DIR)) fs.mkdirSync(ARCHIVE_DIR, { recursive: true });
+
+  // 분기별 그룹화
+  const quarters = {};
+  allItems.forEach(item => {
+    const qKey = getQuarterKey(item.date);
+    if (!qKey) return;
+    if (!quarters[qKey]) quarters[qKey] = [];
+    quarters[qKey].push(item);
+  });
+
+  // 각 분기 파일 저장
+  const manifest = { quarters: [], totalItems: allItems.length, lastUpdated: new Date().toISOString() };
+
+  for (const [qKey, items] of Object.entries(quarters)) {
+    const sorted = items.sort((a, b) => b.date.localeCompare(a.date));
+    const filename = `news-${qKey}.json`;
+    const filepath = path.join(ARCHIVE_DIR, filename);
+
+    const sourceCounts = {};
+    sorted.forEach(i => { sourceCounts[i.source] = (sourceCounts[i.source] || 0) + 1; });
+
+    const data = { quarter: qKey, items: sorted, sources: sourceCounts };
+    const jsonStr = JSON.stringify(data, null, 2)
+      .replace(/\\u([0-9a-fA-F]{4})/g, (_, hex) => {
+        const code = parseInt(hex, 16);
+        if ((code >= 0xAC00 && code <= 0xD7A3) ||
+            (code >= 0x1100 && code <= 0x11FF) ||
+            (code >= 0x3130 && code <= 0x318F)) {
+          return String.fromCharCode(code);
+        }
+        return `\\u${hex}`;
+      });
+    fs.writeFileSync(filepath, jsonStr, 'utf-8');
+    console.log(`  📁 ${filename}: ${sorted.length}건 (${JSON.stringify(sourceCounts)})`);
+
+    manifest.quarters.push({
+      key: qKey,
+      file: filename,
+      count: sorted.length,
+      sources: sourceCounts,
+      dateRange: { from: sorted[sorted.length - 1]?.date, to: sorted[0]?.date },
+    });
+  }
+
+  // 분기 정렬 (최신순)
+  manifest.quarters.sort((a, b) => b.key.localeCompare(a.key));
+
+  // 매니페스트 저장
+  fs.writeFileSync(MANIFEST_FILE, JSON.stringify(manifest, null, 2), 'utf-8');
+  console.log(`  📋 매니페스트: ${manifest.quarters.length}개 분기, 총 ${manifest.totalItems}건`);
+}
+
+// ============================================================
+// 메인
+// ============================================================
+
 async function main() {
   if (!fs.existsSync('src/data')) fs.mkdirSync('src/data', { recursive: true });
+  if (!fs.existsSync(ARCHIVE_DIR)) fs.mkdirSync(ARCHIVE_DIR, { recursive: true });
 
-  const existing = fs.existsSync(DATA_FILE)
+  // 기존 데이터 로드 (최근 JSON + 모든 아카이브)
+  const existingRecent = fs.existsSync(DATA_FILE)
     ? JSON.parse(fs.readFileSync(DATA_FILE, 'utf-8'))
     : { items: [], fetchedUrls: [] };
 
-  // ★ 핵심 수정: fetchedUrls는 현재 items에 실제로 존재하는 URL만 유지
-  // 이전에 수집했지만 slice로 잘려나간 기사는 재수집 허용
-  const existingItemUrls = new Set((existing.items ?? []).map(i => i.sourceUrl).filter(Boolean));
+  const archiveItems = loadAllArchiveItems();
+
+  // 모든 기존 아이템 합치기 (중복 제거)
+  const allExistingMap = new Map();
+  [...(existingRecent.items ?? []), ...archiveItems].forEach(item => {
+    if (item.sourceUrl) allExistingMap.set(item.sourceUrl, item);
+    else if (item.id) allExistingMap.set(item.id, item);
+  });
+  const allExistingItems = [...allExistingMap.values()];
+  console.log(`📦 기존 전체: ${allExistingItems.length}건 (최근 ${existingRecent.items?.length ?? 0} + 아카이브 ${archiveItems.length})`);
+
+  // fetchedUrls: 실제 존재하는 아이템의 URL만 유지 (유령 URL 방지)
+  const existingItemUrls = new Set(allExistingItems.map(i => i.sourceUrl).filter(Boolean));
   const fetchedUrls = new Set(
-    (existing.fetchedUrls ?? []).filter(url => existingItemUrls.has(url))
+    (existingRecent.fetchedUrls ?? []).filter(url => existingItemUrls.has(url))
   );
-  console.log(`📦 기존 items: ${existing.items?.length ?? 0}개, fetchedUrls: ${fetchedUrls.size}개 (정리됨)`);
+  console.log(`📦 fetchedUrls: ${fetchedUrls.size}개 (정리됨, 이전 ${existingRecent.fetchedUrls?.length ?? 0}개)`);
 
   const newItems = [];
 
@@ -473,9 +623,9 @@ async function main() {
     await processItems(items, 'HPE', 'HPC·서버', fetchedUrls, newItems);
   } catch (e) { console.error(`HPE 뉴스룸 실패: ${e.message}`); }
 
-  // VAST Data 블로그
+  // VAST Data 블로그 (최근 1년)
   try {
-    console.log('📡 VAST Data 블로그 수집');
+    console.log('📡 VAST Data 블로그 수집 (최근 1년)');
     const vastItems = await fetchVASTBlogList(fetchedUrls);
     console.log(`  수집: ${vastItems.length}개`);
     await processVASTItems(vastItems, fetchedUrls, newItems);
@@ -505,7 +655,7 @@ async function main() {
       if (!item.pubDate) return false;
       try { return new Date(item.pubDate) >= FILTER_FROM; } catch { return false; }
     }).slice(0, 10);
-    console.log(`  → 2026년 이후: ${filtered.length}개`);
+    console.log(`  → 필터 통과: ${filtered.length}개`);
     for (const item of filtered) {
       const link = item.link ?? '';
       if (!link || fetchedUrls.has(link)) continue;
@@ -525,28 +675,41 @@ async function main() {
 
   console.log(`\n총 ${newItems.length}개 새 뉴스 추가`);
 
-  // ★ 최종 저장: items를 먼저 자르고, fetchedUrls를 items 기준으로 동기화
-  const finalItems = [...newItems, ...(existing.items ?? [])]
-    .sort((a, b) => b.date.localeCompare(a.date))
-    .slice(0, MAX_ITEMS);
+  // 전체 아이템 합치기 (새 + 기존, 중복 제거)
+  const finalMap = new Map();
+  [...newItems, ...allExistingItems].forEach(item => {
+    const key = item.sourceUrl || item.id;
+    if (key && !finalMap.has(key)) finalMap.set(key, item);
+  });
+  const allFinalItems = [...finalMap.values()]
+    .sort((a, b) => b.date.localeCompare(a.date));
 
-  // fetchedUrls는 최종 items에 실제 존재하는 URL만 보존
-  const finalItemUrls = new Set(finalItems.map(i => i.sourceUrl).filter(Boolean));
-  const syncedFetchedUrls = [...fetchedUrls].filter(url => finalItemUrls.has(url));
-
-  console.log(`📊 최종: items ${finalItems.length}개, fetchedUrls ${syncedFetchedUrls.length}개`);
+  console.log(`📊 전체 누적: ${allFinalItems.length}건`);
 
   // 소스별 통계
   const sourceCounts = {};
-  finalItems.forEach(i => { sourceCounts[i.source] = (sourceCounts[i.source] || 0) + 1; });
+  allFinalItems.forEach(i => { sourceCounts[i.source] = (sourceCounts[i.source] || 0) + 1; });
   console.log(`📊 소스별:`, JSON.stringify(sourceCounts));
 
-  const result = {
+  // 1. 분기별 아카이브 저장 (public/data/)
+  console.log('\n📁 분기별 아카이브 저장...');
+  saveQuarterlyArchives(allFinalItems);
+
+  // 2. 최근 항목 저장 (src/data/news-auto.json) — SSR 빌드용
+  const recentItems = allFinalItems.slice(0, MAX_RECENT);
+  const recentItemUrls = new Set(recentItems.map(i => i.sourceUrl).filter(Boolean));
+  // fetchedUrls는 전체 아이템 기준으로 동기화
+  const allFinalUrls = new Set(allFinalItems.map(i => i.sourceUrl).filter(Boolean));
+  const syncedFetchedUrls = [...fetchedUrls].filter(url => allFinalUrls.has(url));
+
+  const recentData = {
     fetchedUrls: syncedFetchedUrls,
-    items: finalItems,
+    items: recentItems,
+    totalItems: allFinalItems.length,
+    hasArchive: allFinalItems.length > MAX_RECENT,
   };
 
-  const jsonStr = JSON.stringify(result, null, 2)
+  const jsonStr = JSON.stringify(recentData, null, 2)
     .replace(/\\u([0-9a-fA-F]{4})/g, (_, hex) => {
       const code = parseInt(hex, 16);
       if ((code >= 0xAC00 && code <= 0xD7A3) ||
@@ -557,6 +720,7 @@ async function main() {
       return `\\u${hex}`;
     });
   fs.writeFileSync(DATA_FILE, jsonStr, 'utf-8');
+  console.log(`\n✅ 완료: 최근 ${recentItems.length}건 (SSR), 전체 ${allFinalItems.length}건 (아카이브)`);
 }
 
 main().catch(console.error);
