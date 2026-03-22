@@ -245,9 +245,52 @@
     "http://www.boannews.com/media/view.asp?idx=142744&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=142714&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=142741&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142742&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=142742&kind=&sub_kind=",
+    "https://www.vastdata.com/blog/how-nvidia-dynamo-vast-unlock-context-reuse-at-scale",
+    "https://www.vastdata.com/blog/cisco-vast-establishing-data-foundation-secure-ai-factory-nvidia",
+    "https://www.vastdata.com/blog/supermicro-vast-accelerate-path-production-ai-gtc-2026",
+    "https://www.securityweek.com/critical-quest-kace-vulnerability-potentially-exploited-in-attacks/",
+    "https://www.bleepingcomputer.com/news/security/trivy-vulnerability-scanner-breach-pushed-infostealer-via-github-actions/",
+    "https://www.bleepingcomputer.com/news/security/google-adds-advanced-flow-for-safe-apk-sideloading-on-android/",
+    "https://www.bleepingcomputer.com/news/security/microsoft-azure-monitor-alerts-abused-in-callback-phishing-campaigns/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "중대한 Quest KACE 취약점이 공격에서 악용될 가능성",
+      "summary": "Quest Software의 KACE 제품에서 중대한 보안 취약점이 발견되었으며, 현재 실제 공격에 악용될 가능성이 있는 것으로 보고되었습니다. 이 취약점은 공격자들이 시스템에 무단으로 접근하거나 악의적인 활동을 수행할 수 있도록 할 수 있습니다. KACE는 기업의 IT 자산 관리 및 모니터링에 광범위하게 사용되는 솔루션으로, 이번 취약점은 많은 조직에 잠재적 위협이 될 수 있습니다. 보안 전문가들은 영향을 받는 조직들에 즉시 패치를 적용할 것을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/critical-quest-kace-vulnerability-potentially-exploited-in-attacks/",
+      "date": "2026-03-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Trivy 취약점 스캐너 침해, GitHub Actions를 통해 정보 탈취 악성코드 배포",
+      "summary": "보안 위협 행위자 TeamPCP로 알려진 그룹이 Trivy 취약점 스캐너를 대상으로 공급망 공격을 감행했습니다. 이들은 공식 릴리스와 GitHub Actions를 통해 자격증명 탈취 악성코드(인포스틸러)를 배포했습니다. 이 사건은 개발자 도구의 보안이 얼마나 중요한지를 보여주는 심각한 공급망 공격 사례입니다. Trivy는 널리 사용되는 취약점 스캐닝 도구이기 때문에 이번 침해로 인한 영향 범위가 상당할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/trivy-vulnerability-scanner-breach-pushed-infostealer-via-github-actions/",
+      "date": "2026-03-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "구글, 안드로이드에서 안전한 APK 사이드로딩을 위한 '고급 플로우' 추가",
+      "summary": "구글이 안드로이드에서 검증되지 않은 개발자의 APK를 사이드로딩할 수 있는 '고급 플로우(Advanced Flow)'라는 새로운 메커니즘을 발표했습니다. 이 기능은 파워 유저들이 더욱 안전한 방식으로 APK를 설치할 수 있도록 설계되었습니다. 구글은 사용자 신원 확인과 보안 검증 절차를 통해 악성 소프트웨어 설치 위험을 줄이고자 합니다. 이는 사용자의 자율성을 존중하면서도 모바일 보안을 강화하려는 구글의 노력을 반영합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-adds-advanced-flow-for-safe-apk-sideloading-on-android/",
+      "date": "2026-03-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트 Azure Monitor 알림이 콜백 피싱 공격에 악용되고 있음",
+      "summary": "마이크로소프트 Azure Monitor 알림이 콜백 피싱 이메일 전송에 악용되고 있습니다. 공격자들은 마이크로소프트 보안팀을 사칭하여 계정의 무단 청구에 대한 경고 메시지를 전송합니다. 이러한 피싱 이메일은 사용자들을 속여 공격자에게 직접 연락하도록 유도합니다. 해당 공격은 정상적인 Azure Monitor 알림 서비스를 악용하여 신뢰성을 높이는 방식으로 작동합니다. 사용자들은 마이크로소프트로부터 받은 것으로 보이는 청구 관련 경고에 주의할 필요가 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/microsoft-azure-monitor-alerts-abused-in-callback-phishing-campaigns/",
+      "date": "2026-03-21"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "“이미지 속에 숨은 악성코드, 리포지터리는 모른다”... 클로드 코드 보안의 명확한 한계 노출",
@@ -1110,42 +1153,6 @@
       "category": "서버",
       "source": "Dell",
       "sourceUrl": "https://www.dell.com/en-us/blog/build-your-digital-workforce-with-an-agentic-ai-platform-designed-for-the-enterprise/",
-      "date": "2026-03-17"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Dell AI Factory와 NVIDIA를 통한 전문성의 민주화",
-      "summary": "조직 내에 숨겨진 전문 지식을 AI 지식 어시스턴트로 활용할 수 있습니다. Dell AI Factory with NVIDIA는 이러한 도구를 배포하기 위한 안전한 온프레미스 기반을 제공하여 팀이 더 빠르게 답변을 찾고, 더 똑똑한 의사결정을 내리며, 생산성을 높일 수 있도록 지원합니다. 확장 가능한 인프라와 NVIDIA, Cohere, Aible과의 협력을 통해 소규모로 시작하여 성장할 수 있으며, 엔터프라이즈 데이터를 경쟁 우위로 전환할 수 있습니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/democratizing-expertise-through-dell-ai-factory-with-nvidia/",
-      "date": "2026-03-17"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "HPE, NVIDIA와 함께 엣지 AI를 안전하게 확장하는 AI 그리드 솔루션 공개",
-      "summary": "AI 추론이 중앙 집중식 클러스터에서 지역 및 엣지 위치로 이동함에 따라 WAN은 분산 추론, 중앙 집중식 학습, 보안 및 운영을 하나의 통합 플랫폼으로 연결하는 AI WAN 패브릭 역할을 하고 있습니다. 새로운 AI 네이티브 애플리케이션은 예측 가능한 지연 시간 제공, 높은 동시성 처리, 규모에 따른 토큰당 비용 개선이 필요하며, 이는 분산된 AI 인프라로의 전환을 가속화하고 있습니다. 많은 추론 요청이 결정론적 성능 제공, 정책 시행, 실시간 도메인 간 활동 조율을 위해 WAN에 의존하고 있으며, AI 시대에는 지능형 네트워크 인프라가 필수적인 역할을 하게 됩니다.",
-      "category": "HPC·서버",
-      "source": "HPE",
-      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/03/hpe-unveils-ai-grid-solution-to-securely-scale-edge-ai-with-nvidia.html",
-      "date": "2026-03-17"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "HPE 위협 연구소, 사이버 공격자들이 공격 규모 확대를 위해 비즈니스 모델을 변경하고 있음을 밝혀",
-      "summary": "HPE가 2026년 3월 17일 첫 번째 사이버 위협 연구 보고서 '인 더 와일드(In the Wild)'를 공개했습니다. 이 보고서는 2025년 전 세계에서 관찰된 실제 위협 활동 분석을 바탕으로 현대 사이버 공격자들의 운영 방식에 대한 놀라운 변화를 드러냅니다. 보고서에 따르면 사이버 범죄가 산업화되었으며, 공격자들은 자동화와 오래된 취약점을 악용하여 캠페인을 확대하고 방어자들이 대응할 수 있는 것보다 빠르게 고가치 목표를 반복적으로 침해하고 있습니다. 엔터프라이즈 기업들에게는 이러한 위협에 효과적으로 대응할 수 있는 능력이 중요해지고 있습니다.",
-      "category": "HPC·서버",
-      "source": "HPE",
-      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/03/hpe-threat-labs-report-reveals-cyber-adversaries-are-morphing-their-business-model-to-scale-and-accelerate-attacks.html",
-      "date": "2026-03-17"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "HPE, NVIDIA를 기반으로 분산 AI 팩토리를 지능형 AI 그리드로 전환",
-      "summary": "HPE는 NVIDIA 참고 아키텍처를 기반으로 구축된 'HPE AI Grid'를 발표했습니다. 이 솔루션은 지역 및 엣지 사이트에 분산된 AI 팩토리와 추론 클러스터를 안전하게 연결하는 엔드-투-엔드 솔루션입니다. HPE AI Grid를 통해 서비스 제공자들은 수천 개의 분산 추론 사이트를 배포 및 운영할 수 있으며, AI 설치를 하나의 지능형 시스템으로 전환할 수 있습니다. AI 기반 애플리케이션이 요구하는 예측 가능하고 낮은 지연시간의 분산 인프라를 제공하며, NVIDIA AI Computing by HPE 포트폴리오의 일부입니다.",
-      "category": "HPC·서버",
-      "source": "HPE",
-      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/03/hpe-transforms-distributed-ai-factories-into-intelligent-ai-grid-powered-by-nvidia.html",
       "date": "2026-03-17"
     }
   ]
