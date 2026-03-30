@@ -2,11 +2,6 @@
   "fetchedUrls": [
     "http://www.boannews.com/media/view.asp?idx=142724&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=142723&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142722&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142721&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142720&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142719&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142718&kind=&sub_kind=",
     "https://www.securityweek.com/in-other-news-new-android-safeguards-operation-alice-uk-toughens-cyber-reporting/",
     "https://www.securityweek.com/3-men-charged-with-conspiring-to-smuggle-us-artificial-intelligence-to-china/",
     "https://www.securityweek.com/eclypsium-raises-25-million-for-device-supply-chain-security/",
@@ -200,6 +195,11 @@
     "http://www.boannews.com/media/view.asp?idx=142887&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=142874&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=142884&kind=&sub_kind=",
+    "https://www.securityweek.com/cloudflare-themed-clickfix-attack-drops-infiniti-stealer-on-macs/",
+    "https://www.bleepingcomputer.com/news/security/new-infinity-stealer-malware-grabs-macos-data-via-clickfix-lures/",
+    "http://www.boannews.com/media/view.asp?idx=142898&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=142882&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=142889&kind=&sub_kind=",
     "https://www.hpe.com/us/en/newsroom/blog-post/2026/03/hpe-unveils-ai-grid-solution-to-securely-scale-edge-ai-with-nvidia.html",
     "https://www.hpe.com/us/en/newsroom/press-release/2026/03/hpe-threat-labs-report-reveals-cyber-adversaries-are-morphing-their-business-model-to-scale-and-accelerate-attacks.html",
     "https://www.hpe.com/us/en/newsroom/press-release/2026/03/hpe-transforms-distributed-ai-factories-into-intelligent-ai-grid-powered-by-nvidia.html",
@@ -237,13 +237,118 @@
     "https://www.vastdata.com/blog/ai-os-in-action-vast-fwd-nvidia-gtc",
     "https://www.vastdata.com/blog/ai-platforms-are-reshaping-pharma-logistics-at-bayer",
     "https://www.vastdata.com/blog/ais-linux-moment-is-already-happening",
-    "https://www.securityweek.com/cloudflare-themed-clickfix-attack-drops-infiniti-stealer-on-macs/",
-    "https://www.bleepingcomputer.com/news/security/new-infinity-stealer-malware-grabs-macos-data-via-clickfix-lures/",
-    "http://www.boannews.com/media/view.asp?idx=142898&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142882&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142889&kind=&sub_kind="
+    "https://www.bleepingcomputer.com/news/security/fbi-confirms-hack-of-director-patels-personal-email-inbox/",
+    "https://www.bleepingcomputer.com/news/security/file-read-flaw-in-smart-slider-plugin-impacts-500k-wordpress-sites/",
+    "http://www.boannews.com/media/view.asp?idx=142907&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=142905&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=142904&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=142901&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=142903&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=142900&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=142899&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=142897&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=142888&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "행안부, ‘2026년 데이터 기반 지역문제 해결 사업’ 5개 과제 최종 선정",
+      "summary": "말 한마디로 민원 접수 끝AI로 주민 일상 더 편리하게고령층 돌봄, 안전·건강관리 등 생활밀착형 서비스 추진[보안뉴스 엄호식 기자] 행정안전부(장관 윤호중)는 ‘2026년 데이터 기반 지역문제 해결 사업(이하 ‘공감e가득 사업’)’ 공모를 통해 최종 5개 과제를 선정하고, 오는 4월부터 본격적으로 사업을 시작한다고 밝혔다. ‘공감e가득 사업’은 2018년부",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142907&kind=&sub_kind=",
+      "date": "2026-03-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "유럽 무대 노리는 로봇 기업, Secure by Design 모르면 낭패",
+      "summary": "펜타시큐리티, AI&Robotics Rookies Day서 사이버 위기 대응 강조매출액 최대 2.5% 벌금 리스크 극복 위한 데이터 공유형 협력 모델 제안[보안뉴스 조재호 기자] 펜타시큐리티가 한국AI·로봇산업협회가 주최한 ‘AI&Robotics Rookies Day’ 행사에서 EU CRA 시대 글로벌 로봇시장 선점을 위한 사이버보안 전략을 발표했다.이번",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142905&kind=&sub_kind=",
+      "date": "2026-03-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "파수, 창사 26년 만에 파수AI로 사명 변경... 글로벌 AX 기업 도약",
+      "summary": "주주총회서 안건 의결... 기업용 보안 넘어 AI·데이터·거버넌스 역량 집중미국 법인 합병 통한 심볼로직 출범으로 글로벌 에이전틱 AI 시장 정조준[보안뉴스 조재호 기자] 파수가 사명을 파수AI로 전격 변경하고 AX 혁신을 지원하는 글로벌 기업으로 본격 전환한다.파수는 30일 오전 개최된 제26기 정기 주주총회에서 이 같은 내용의 사명 변경 안건을 의결했다",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142904&kind=&sub_kind=",
+      "date": "2026-03-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "美 CISA, 연방 기관에 F5 BIG-IP 긴급 패치·사용 중단 명령... KEV 목록 추가",
+      "summary": "애초 DoS 결함에서 CVSS 9.8 최고 등급으로 격상패치 불가능하면 즉시 사용 중단 초강수... 국가 주요 기반 시설 위협[보안뉴스 김형근 기자] 미국 사이버보안 및 인프라 보안국(CISA)은 세계 네트워크 인프라의 핵심을 차지하는 F5 BIG-IP 시스템에서 발견된 신종 취약점을 알려진 악용 취약점(KEV) 목록에 추가하고, 연방 기관을 대상으로 강력",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142901&kind=&sub_kind=",
+      "date": "2026-03-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "큐냅 코리아, ‘QNAP Insight 2026’ 통해 시장 공략 청사진 제시",
+      "summary": "파트너사와 데이터 보호·백업·클라우드 전략 공유알렉스 서 지사장, 한국 시장 밀착 지원 확대할 것[보안뉴스 엄호식 기자] 컴퓨팅·스토리지·네트워크 솔루션 전문 기업 큐냅 코리아(지사장 알렉스 서)가 지난 3월 25일 서울 여의도 FKI타워 컨퍼런스 센터에서 파트너사를 대상으로 ‘QNAP Insight 2026’를 개최하고, 2026년 한국 시장 공략을 위한",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142903&kind=&sub_kind=",
+      "date": "2026-03-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "유니뷰, ‘2026 신제품 설명회’ 성료",
+      "summary": "AI 대형 모델 기반 기술과 지능형 검색 기능 및 야간 영상 품질 개선 신제품 라인업 소개제품 설명과 함께 장비 실제 체험 시간도 마련[보안뉴스 엄호식 기자] 글로벌 AIoT 영상보안 기업 유니뷰가 3월 26일 서울 엠디호텔에서 ‘2026 신제품 설명회’를 개최하고, 차세대 지능형 영상보안 솔루션과 주요 제품을 공개했다. 이날 행사에는 유니뷰 공식 유통 총",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142900&kind=&sub_kind=",
+      "date": "2026-03-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[인사] 한국후지쯔",
+      "summary": "◇임원 승진(2026년 4월 1일자) △임동진 Service&Solution 영업1본부장△김종곤 Service&Solution 영업2본부장[엄호식 기자(eomhs@boannews.com)]www.boannews.com) 무단전재-재배포금지>",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142899&kind=&sub_kind=",
+      "date": "2026-03-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "FBI 국장 패텔의 개인 이메일 계정 해킹 확인",
+      "summary": "이란과 연관된 핸달라 해커 집단이 카시 패텔 FBI 국장의 개인 이메일 계정을 침해했다. 공격자들은 해킹을 통해 획득한 사진과 문서를 공개했다. 이번 사건은 미국의 최고 사이버보안 기관의 수장을 대상으로 한 개인정보 유출 사건으로, 심각한 보안 위협을 시사한다. 해킹된 이메일 계정은 Gmail을 기반으로 한 것으로 알려져 있다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/fbi-confirms-hack-of-director-patels-personal-email-inbox/",
+      "date": "2026-03-29"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Smart Slider 플러그인의 파일 읽기 취약점, 50만 개 이상의 워드프레스 사이트 영향",
+      "summary": "Smart Slider 3 워드프레스 플러그인에서 발견된 취약점이 80만 개 이상의 웹사이트에 영향을 미치고 있습니다. 이 결함은 구독자 수준의 사용자에게 서버의 임의 파일에 접근할 수 있는 권한을 부여하는 정보 공개 취약점입니다. 50만 개 이상의 워드프레스 사이트가 이 보안 결함의 직접적인 영향을 받고 있는 것으로 파악되고 있습니다. 공격자들은 이 취약점을 악용하여 민감한 서버 파일에 접근하고 기밀 정보를 유출할 수 있습니다. 워드프레스 관리자들은 즉시 Smart Slider 3 플러그인을 최신 버전으로 업데이트할 것을 권장합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/file-read-flaw-in-smart-slider-plugin-impacts-500k-wordpress-sites/",
+      "date": "2026-03-29"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[단독] “설치형 보안 SW 다 빼!”... 정부 지시에 여의도 금융권 ‘패닉’",
+      "summary": "국가안보실 등 정부의지 강경... 한국형 방식 수술대“글로벌 은행처럼 서버 통제해야” vs “당장 PC 환경 대안 전무해” 정면 충돌[보안뉴스 특별취재팀] 범부처 차원의 정보보호 종합대책의 일환으로 금융권 설치형 보안 소프트웨어 강제 폐지가 급물살을 타며 대격변이 예고됐다. 정부는 글로벌 스탠더드에 맞춘 근본적 체질 개선을 강력히 요구하고 있으나, 당장 뚜",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142897&kind=&sub_kind=",
+      "date": "2026-03-29"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "이원우 디앤에스테크놀로지 대표이사, “대한민국 안전의 수문장으로 중요 시설 보호에 힘쓰겠습니다”",
+      "summary": "30년 이상 대테러 차량 방호 및 특수 보안 시스템 분야 집중“보안은 타협하지 않는 것이 원칙이며 신뢰와 성능이 최우선 가치입니다”보안은 사고 이전에 완벽한 방호시설을 완성하는 것이 미래에 대한 확실한 투자라고 생각해[보안뉴스 엄호식 기자] 호주 시드니에 있는 싱크탱크(IEP: Institute for Economics & Peace)에서 해마다 발표하는",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142888&kind=&sub_kind=",
+      "date": "2026-03-29"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "Cloudflare 테마의 ClickFix 공격, Mac에서 Infiniti 스틸러 배포",
@@ -1944,107 +2049,8 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/aisuru-and-kimwolf-ddos-botnets-disrupted-in-international-operation/",
       "date": "2026-03-20"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "FBI, Signal 피싱 공격이 러시아 정보기관과 연결되어 있음을 확인",
-      "summary": "FBI는 러시아 정보기관과 연계된 위협 행위자들이 Signal과 WhatsApp 같은 암호화 메시징 앱 사용자들을 대상으로 피싱 캠페인을 적극적으로 진행 중이라는 공개 보안 공지를 발표했습니다. 이미 수천 개의 계정이 이러한 공격으로 인해 손상되었습니다. 이 캠페인은 기기 연동(Device Linking) 기능을 악용하여 사용자의 암호화 메시징 계정에 접근하려는 것으로 추정됩니다. FBI는 사용자들에게 의심스러운 로그인 시도에 주의할 것과 강력한 인증 방식을 사용할 것을 권고하고 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/fbi-links-signal-phishing-attacks-to-russian-intelligence-services/",
-      "date": "2026-03-20"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "오라클, Identity Manager의 심각한 RCE 취약점에 긴급 패치 배포",
-      "summary": "오라클이 Identity Manager 및 Web Services Manager의 심각한 인증 없는 원격코드 실행(RCE) 취약점을 해결하기 위해 긴급 보안 업데이트를 배포했습니다. CVE-2026-21992로 추적되는 이 취약점은 사전 인증 없이 원격에서 악용될 수 있는 위험한 보안 결함입니다. 오라클은 정기적인 보안 업데이트 일정을 따르지 않고 긴급 대응으로 즉시 패치를 제공했습니다. 이 취약점의 심각성으로 인해 해당 제품을 사용하는 조직들은 신속하게 패치를 적용해야 합니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/oracle-pushes-emergency-fix-for-critical-identity-manager-rce-flaw/",
-      "date": "2026-03-20"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "경찰, '오퍼레이션 앨리스'로 37만 3천 개의 가짜 아동성학대물 사이트 적발",
-      "summary": "국제 법집행기관이 '오퍼레이션 앨리스'라는 작전을 통해 다크웹에서 가짜 아동성학대물(CSAM) 패키지를 제공하던 37만 3천 개 이상의 사이트를 폐쇄했다. 이 대규모 적발 작전은 유럽경찰청(Europol)을 포함한 국제 법집행기관들이 협력하여 아동 성적 학대 범죄를 근절하기 위해 실시했다. 다크웹의 불법 CSAM 거래는 아동에 대한 심각한 범죄행위로, 전 세계적으로 지속적인 단속 대상이 되고 있다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/police-take-down-373-000-fake-csam-sites-in-operation-alice/",
-      "date": "2026-03-20"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "CISA, 시스코 최고 심각도 결함 일요일까지 패치 명령",
-      "summary": "미국 사이버보안기반시설보안청(CISA)이 연방기관에 대해 시스코 보안 방화벽 관리 센터(FMC)의 최고 심각도 취약점인 CVE-2026-20131을 3월 22일 일요일까지 패치할 것을 명령했다. 해당 결함은 역직렬화(Deserialization) 문제로 인한 원격 코드 실행(RCE)을 야기할 수 있으며, 현재 실제 공격에 이용되고 있는 것으로 알려져 있다. CISA는 이 취약점을 공개적으로 악용되고 있는 것으로 확인해 긴급 패치 지시를 내렸으며, 연방기관들은 지정된 기한 내에 보안 업데이트를 적용해야 한다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-cisco-flaw-by-sunday/",
-      "date": "2026-03-20"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "지정학적 사이버공격 시대, CISO의 생존 전략",
-      "summary": "지정학적 긴장이 고조되면서 신원탈취를 목표로 하는 파괴적 사이버공격이 증가하고 있습니다. 기존의 몸값 요구형 공격과 달리, 이러한 공격은 조직의 운영을 중단시키는 것을 목표로 합니다. CISO들은 네트워크 내 측면 이동(lateral movement)을 제한하고 침해 사항을 신속히 격리하여 '와이퍼(wiper)' 캠페인의 영향을 최소화해야 합니다. 이는 전통적인 보안 전략과는 다른 새로운 방어 접근방식을 요구합니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/how-cisos-can-survive-the-era-of-geopolitical-cyberattacks/",
-      "date": "2026-03-20"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "뮤지션, AI 봇을 이용한 1천만 달러 규모 스트리밍 로열티 사기 자백",
-      "summary": "노스캐롤라이나 주의 뮤지션 마이클 스미스가 스포티파이, 애플뮤직, 아마존뮤직, 유튜브뮤직 등 주요 음악 스트리밍 플랫폼에서 AI 봇을 이용한 대규모 로열티 사기로 1천만 달러 이상을 부정하게 취득한 혐의를 자백했다. 이 사건은 AI 기술이 악용되어 음악 스트리밍 산업에 피해를 주는 새로운 형태의 사이버 사기 사례를 보여준다. 스트리밍 플랫폼의 로열티 시스템이 AI 봇을 통한 자동화된 재생 조작에 취약할 수 있음을 드러낸다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/musician-pleads-guilty-to-10m-streaming-fraud-powered-by-ai-bots/",
-      "date": "2026-03-20"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "국제 공동 작전, 세계 최대 규모 DDoS 봇넷 격파",
-      "summary": "미국, 독일, 캐나다 당국이 Aisuru, KimWolf, JackSkid, Mossad 봇넷의 명령 및 제어(C2) 인프라를 성공적으로 제거했습니다. 이 봇넷들은 사물인터넷(IoT) 기기를 감염시켜 대규모 분산 서비스 거부(DDoS) 공격을 수행해온 것으로 알려져 있습니다. 이번 국제 공동 작전은 전 세계 최대 규모의 DDoS 봇넷 네트워크를 차단한 의미 있는 성과입니다. 당국은 이들 봇넷의 C2 서버 인프라를 추적하고 제거하는 데 성공했으며, 이는 향후 IoT 기반 사이버 공격 위협을 상당히 줄일 것으로 예상됩니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/aisuru-kimwolf-jackskid-and-mossad-botnets-disrupted-in-joint-action/",
-      "date": "2026-03-20"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "마이크로소프트: 3월 Windows 업데이트로 Teams, OneDrive 로그인 장애 발생",
-      "summary": "마이크로소프트가 3월 Windows 11 업데이트에서 Teams와 OneDrive를 포함한 여러 마이크로소프트 앱에서 마이크로소프트 계정 로그인이 실패하는 문제를 확인했습니다. 이 문제는 KB5079473 업데이트로 인해 발생한 것으로 보고되고 있습니다. 해당 업데이트는 Windows 11 25H2 버전과 관련된 알려진 문제로 등록되었습니다. 영향을 받은 사용자들은 마이크로소프트 계정으로 이들 서비스에 정상적으로 접속할 수 없는 상황에 처하게 되었습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/kb5079473-march-windows-11-update-breaks-microsoft-account-sign-ins/",
-      "date": "2026-03-20"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "전직 데이터 분석가, 250만 달러 규모 협박 범죄로 회사 데이터 도용",
-      "summary": "노스캐롤라이나 주의 한 남성이 워싱턴 D.C. 기반 기술 회사에 재직 중인 데이터 분석가 계약자로 일하면서 회사 데이터를 도용해 협박하는 범죄를 저질렀으며, 이에 대해 유죄 판결을 받았다. 이 사건은 내부자 위협(Insider Threat)의 심각성을 보여주는 사례로, 신뢰받는 직원이 접근 권한을 악용하여 대규모 금전적 피해를 입히는 범죄이다. 피해 규모는 250만 달러에 달하며, 이는 기업의 데이터 보안 체계와 직원 신원 확인 절차의 중요성을 강조한다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/data-analyst-found-guilty-of-extorting-brightly-software-of-25-million/",
-      "date": "2026-03-20"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "위즈코리아 “블랙박스 시리즈, 내부자 행위 분석 특화 AI”",
-      "summary": "[보안뉴스 강현주 기자] 위즈코리아는 18일부터 20일까지 일산 킨텍스 제 1전시장에서 열리는 ‘SECON & eGISEC 2026’에서 AI 기반 내부자 행위 분석 및 위험 관리 플랫폼 블랙박스 시리즈(BlackBox Series)와 업무증적 생성 플랫폼트레이스 시리즈(Trace Series)를 선보였다. 위즈코리아는 개인정보 접속기록 관리 분야의 새로",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142724&kind=&sub_kind=",
-      "date": "2026-03-20"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[카드뉴스] “지금 털고 나중에 푼다”...해커들의 암호 ‘냉동’ 전략 HNDL 비상",
-      "summary": "양자컴퓨터 시대를 대비해 현재의 암호화된 데이터를 미리 탈취해 저장해두는 ‘HNDL(지금 수집, 나중에 해독)’ 공격방식이 새로운 보안 위협으로 떠오르고 있다. 기존 암호 체계의 유통기한이 만료됨에 따라, NIST등 국제 기구는 국가 주요 인프라를 양자 컴퓨터로도 해독이 불가능한 ‘양자 내성 암호(PQC)’로 전환할 것을 강력히 권고하고 있다. 현대의 보안",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142723&kind=&sub_kind=",
-      "date": "2026-03-20"
     }
   ],
-  "totalItems": 242,
+  "totalItems": 248,
   "hasArchive": true
 }
