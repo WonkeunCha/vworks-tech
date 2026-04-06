@@ -1,9 +1,5 @@
 {
   "fetchedUrls": [
-    "http://www.boannews.com/media/view.asp?idx=142872&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142871&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142868&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142870&kind=&sub_kind=",
     "https://www.dell.com/en-us/blog/simplifying-cyber-resilience-for-a-diverse-and-evolving-audience/",
     "https://www.vastdata.com/blog/gtc-2026-further-revealed-the-system-behind-the-models",
     "https://www.securityweek.com/pro-iranian-hacking-group-claims-credit-for-hack-of-fbi-director-kash-patels-personal-account/",
@@ -26,10 +22,6 @@
     "http://www.boannews.com/media/view.asp?idx=142893&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=142892&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=142891&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142890&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142887&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142874&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142884&kind=&sub_kind=",
     "https://www.securityweek.com/cloudflare-themed-clickfix-attack-drops-infiniti-stealer-on-macs/",
     "https://www.bleepingcomputer.com/news/security/new-infinity-stealer-malware-grabs-macos-data-via-clickfix-lures/",
     "http://www.boannews.com/media/view.asp?idx=142898&kind=&sub_kind=",
@@ -200,6 +192,14 @@
     "https://www.bleepingcomputer.com/news/security/drift-loses-280-million-north-korean-hackers-seize-security-council-powers/",
     "http://www.boannews.com/media/view.asp?idx=142906&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143000&kind=&sub_kind=",
+    "https://www.securityweek.com/european-commission-confirms-data-breach-linked-to-trivy-supply-chain-attack/",
+    "https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/",
+    "https://www.bleepingcomputer.com/news/security/device-code-phishing-attacks-surge-37x-as-new-kits-spread-online/",
+    "https://www.bleepingcomputer.com/news/security/linkedin-secretly-scans-for-6-000-plus-chrome-extensions-collects-data/",
+    "http://www.boannews.com/media/view.asp?idx=143005&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143003&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143002&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143001&kind=&sub_kind=",
     "https://www.hpe.com/us/en/newsroom/press-release/2026/03/hpe-introduces-sweeping-security-advancements-to-secure-ai-adoption-and-strengthen-enterprise-resiliency.html",
     "https://www.hpe.com/us/en/newsroom/blog-post/2026/03/hpe-unveils-ai-grid-solution-to-securely-scale-edge-ai-with-nvidia.html",
     "https://www.hpe.com/us/en/newsroom/press-release/2026/03/hpe-threat-labs-report-reveals-cyber-adversaries-are-morphing-their-business-model-to-scale-and-accelerate-attacks.html",
@@ -238,16 +238,138 @@
     "https://www.vastdata.com/blog/ai-os-in-action-vast-fwd-nvidia-gtc",
     "https://www.vastdata.com/blog/ai-platforms-are-reshaping-pharma-logistics-at-bayer",
     "https://www.vastdata.com/blog/ais-linux-moment-is-already-happening",
-    "https://www.securityweek.com/european-commission-confirms-data-breach-linked-to-trivy-supply-chain-attack/",
-    "https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/",
-    "https://www.bleepingcomputer.com/news/security/device-code-phishing-attacks-surge-37x-as-new-kits-spread-online/",
-    "https://www.bleepingcomputer.com/news/security/linkedin-secretly-scans-for-6-000-plus-chrome-extensions-collects-data/",
-    "http://www.boannews.com/media/view.asp?idx=143005&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=143003&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=143002&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=143001&kind=&sub_kind="
+    "https://www.bleepingcomputer.com/news/security/traffic-violation-scams-switch-to-qr-codes-in-new-phishing-texts/",
+    "https://www.bleepingcomputer.com/news/security/new-fortinet-forticlient-ems-flaw-cve-2026-35616-exploited-in-attacks/",
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-react2shell-in-automated-credential-theft-campaign/",
+    "http://www.boannews.com/media/view.asp?idx=143020&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143019&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143015&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143012&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143011&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143007&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143010&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143009&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=142915&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=142949&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[한국정보보호학회 칼럼] 망 분리의 역설과 N2SF 그리고 데이터 중심 보안의 핵심 ‘CDS’",
+      "summary": "경계 보안의 종말과 패러다임의 거대한 전환... 한국은 아직 걸음마 단계데이터가 안전하게 흐르는 환경을 구축하는 역량이 곧 국가와 기업의 디지털 생존력[보안뉴스= 이임영 한국정보보호학회 크로스도메인보안연구회 위원장] 디지털 전환(Digital Transformation)이 국가 경쟁력의 핵심 축으로 자리 잡으면서, 기존 보안 체계는 근본적인 재설계를 요구받",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143020&kind=&sub_kind=",
+      "date": "2026-04-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "중앙대 산업보안학과, 두산·LG와 계약학과 협약... 맞춤형 인재 양성",
+      "summary": "두산 디지털이노베이션BU·LG CNS·LG U+·LIG D&A와 협약 체결‘산업보안 실무 인재’ 양성 박차[보안뉴스 강현주 기자] 중앙대학교(총장 박세현) 산업보안학과는 두산, LG 주요 계열사들과 계약학과를 체결해 맞춤형 실무 인재 양성에 나선다고 6일 밝혔다. 중앙대학교는 2일 서울캠퍼스 비전홀에서 두산 디지털이노베이션BU, LG CNS, LG유플러스,",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143019&kind=&sub_kind=",
+      "date": "2026-04-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "나루씨큐리티-비아웹, 중소기업용 ‘제로트러스트 호스팅’ 출시",
+      "summary": "별도 인력·시스템 없이도 위협 대응... ‘인프라 보안’ 새 기준[보안뉴스 강현주 기자] 사이버 공격의 지능화로 보안 격차가 날로 심화되는 가운데, 사이버 위협관리 전문기업 나루씨큐리티(대표 김혁준)가 중소기업의 보안 공백을 메울 서비스를 제시했다. 나루씨큐리티와 호스팅 서비스 기업 비아웹(코리아IDC, 대표 박오찬)이 중소·중견기업을 위한 ‘제로트러스트",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143015&kind=&sub_kind=",
+      "date": "2026-04-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "개인정보위, ‘중소사업자 안전조치 모니터링’ 시범사업 개시",
+      "summary": "60개 중소·영세사업자 대상 개인정보 안전조치 진단 및 개선안내[보안뉴스 강현주 기자] 개인정보보호위원회(위원장 송경희)는 중소·영세사업자의 개인정보 보호 수준 향상 및 유출사고 사전 예방에 나선다. 개인정보위는 6일부터 다음 달 8일까지 ‘중소사업자 안전조치 모니터링’ 시범사업 참여기업을 모집한다.이번 사업은 중소사업자를 대상으로 개인정보처리자가 조치해야",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143012&kind=&sub_kind=",
+      "date": "2026-04-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“글로벌 K-보안 영토 넓힌다” S2W, AI 안보 플랫폼으로 유럽 무대 진출",
+      "summary": "프랑스 ‘인사이버 포럼 유럽 2026’ 참가해 퀘이사·자비스 등 주력 솔루션 집중 소개작년 말 그리스 정부 수주 바탕으로 유럽 내 파트너 네트워크 및 현지 영업 기반 강화[보안뉴스 조재호 기자] 에스투더블유(S2W)가 지난달 31일부터 3일간 프랑스 릴(Lille)에서 열린 유럽 최대 사이버보안 행사 ‘인사이버 포럼 유럽 2026’(INCYBER Forum",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143011&kind=&sub_kind=",
+      "date": "2026-04-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "쿠도커뮤니케이션, AI 기반 지방정부 CCTV 관제지원 2차 사업 선정",
+      "summary": "1차 사업 성과 기반 연속 수행... 행정안전부장관 표창으로 기술력 입증‘AI 기반 지방정부 CCTV 관제지원시스템 구축(2차)’ 본격 추진[보안뉴스 강초희 기자] 쿠도커뮤니케이션(대표 김용식)은 ‘AI 기반 지방정부 CCTV 관제지원시스템 구축(2차)’ 사업에 선정됐다고 밝혔다.이번 사업은 지방정부 CCTV 영상정보를 활용해 AI 기반 관제 고도화와 공공",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143007&kind=&sub_kind=",
+      "date": "2026-04-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "인텔리빅스, 성균관대 인공지능융합원과 ‘국방 AI 전환’ MOU 체결",
+      "summary": "육·해·공군 전방위 AI 전환 파트너십 구축산·학 협력 통한 국방 AI 특화 모델 개발[보안뉴스 강초희 기자] 인텔리빅스(대표이사 최은수·장정훈)가 성균관대학교 인공지능융합원(원장 김광수)과 손잡고 대한민국 군(軍)의 국방 AX(AI Transformation)를 견인하는 기술 파트너로 나선다.인텔리빅스는 지난 3일 서울 방배동 본사에서 성균관대학교 인공지",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143010&kind=&sub_kind=",
+      "date": "2026-04-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "포커스에이아이, 양재석 회장 전환사채 70억 직접 인수로 오버행 이슈 해소",
+      "summary": "단순 수급 안정 차원 넘어 회사의 중장기 성장성과 기업가치 제고 위한 책임경영 행보 풀이AI 물리보안, MPoC, 디지털 자산 인프라, SI 등 수익성 개선과 신규 매출 확대 동시 추진[보안뉴스 엄호식 기자] 포커스에이아이는 제이플래닝이 상상인저축은행 및 상상인플러스저축은행으로부터 70억원 규모 제2회차 전환사채(CB) 일부 물량을 직접 인수했다고 6일 밝",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143009&kind=&sub_kind=",
+      "date": "2026-04-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "교통 위반 사기가 새로운 피싱 문자에서 QR 코드로 전환",
+      "summary": "사기꾼들이 미국 전역의 주(State) 법원을 사칭하여 '채무불이행 통지' 교통 위반 문자메시지를 보내고 있습니다. 이 메시지는 수신자에게 QR 코드를 스캔하도록 압박하며, QR 코드는 $6.99 결제를 요구하는 피싱 사이트로 연결됩니다. 피싱 사이트를 통해 개인정보 및 금융정보가 탈취되고 있습니다. 이러한 사기는 QR 코드 기술을 이용해 기존의 피싱 기법을 진화시킨 새로운 형태의 사이버 위협입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/traffic-violation-scams-switch-to-qr-codes-in-new-phishing-texts/",
+      "date": "2026-04-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "FortiClient EMS 새로운 취약점이 공격에 악용되고 있으며 긴급 패치 배포",
+      "summary": "포티넷이 FortiClient 엔터프라이즈 관리 서버(EMS)의 새로운 중요 취약점(CVE-2026-35616)에 대해 긴급 주말 보안 업데이트를 발표했습니다. 이 취약점은 현재 실제 공격에서 적극적으로 악용되고 있는 상황입니다. 해당 취약점은 권한 상승(Elevation of Privileges)과 관련된 것으로 알려져 있습니다. 포티넷은 사용자들에게 즉시 패치를 적용할 것을 권고하고 있으며, 이는 기업의 엔드포인트 관리 인프라 보안에 심각한 위험을 초래할 수 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-fortinet-forticlient-ems-flaw-cve-2026-35616-exploited-in-attacks/",
+      "date": "2026-04-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "해커들이 React2Shell을 악용한 자동화된 자격증명 탈취 캠페인 진행",
+      "summary": "해커들이 React2Shell(CVE-2025-55182) 취약점을 악용하여 취약한 Next.js 애플리케이션을 대상으로 대규모 자동화된 자격증명 탈취 캠페인을 진행 중입니다. 이 원격 코드 실행(RCE) 취약점을 통해 공격자들은 시스템에 접근하여 사용자의 민감한 정보를 자동으로 수집하고 있습니다. Cisco와 관련된 보안 문제로 알려져 있으며, 영향을 받은 조직들은 즉시 패치 적용 및 시스템 점검이 필요합니다. 이 캠페인은 자동화된 방식으로 대량의 피해를 야기할 수 있어 사이버보안 커뮤니티의 주목을 받고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-react2shell-in-automated-credential-theft-campaign/",
+      "date": "2026-04-05"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[2026 주차 관제·관리 솔루션 리포트] AI·클라우드로 진화하는 스마트 주차 시장 진단",
+      "summary": "AI·IoT·클라우드가 기술 고도화 이끌어주차 운영 시스템 넘어 도시 교통 데이터 연결하는 플랫폼 역할 전망[보안뉴스 엄호식 기자] 전 세계 스마트 주차 시장은 급속한 도시화와 인구 증가, 그리고 스마트 모빌리티 생태계의 확산에 힘입어 빠르게 성장하고 있다. AI·IoT·클라우드 기반의 기술이 주차관제 및 관리 솔루션에 적용되면서 단순한 차량 출입 관리에서",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142915&kind=&sub_kind=",
+      "date": "2026-04-05"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[인터뷰] 이동원 제이더블유씨네트웍스 대표 “펌웨어 내재화 전략과 밀착 솔루션으로 승부”",
+      "summary": "영상보안 시장 경쟁력, 객체 수보다 오탐 줄이는 정확도와 현장 활용성 강조보안 인증 제도 개선과 중소 제조사 기술 개발 환경 필요성 제기[보안뉴스 강초희 기자] 영상보안 시장의 경쟁 축이 해상도 중심 하드웨어에서 지능형 보안과 소프트웨어 완성도로 옮겨가고 있다. 이 흐름 속에서 제이더블유씨네트웍스는 오랜 유통 경험을 바탕으로 카메라와 녹화기 펌웨어를 직접",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142949&kind=&sub_kind=",
+      "date": "2026-04-05"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "LG유플러스, 유심 교체 사전 안내 박차... 안내 문자 1068만건 발송",
@@ -1930,125 +2052,8 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/cisa-flags-critical-ptc-vulnerability-that-had-german-police-mobilized/",
       "date": "2026-03-27"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "백도어된 Telnyx PyPI 패키지, WAV 오디오 파일에 숨겨진 악성코드 배포",
-      "summary": "TeamPCP 해커 집단이 Python Package Index(PyPI)의 Telnyx 패키지를 침해하여 악성 버전을 업로드했습니다. 이 악성 패키지는 WAV 파일 내부에 숨겨진 인증 정보 탈취 악성코드를 전달합니다. 이번 공격은 공급망 보안을 겨냥한 것으로, 개발자들이 해당 패키지를 설치할 경우 시스템의 민감한 정보가 유출될 수 있습니다. WAV 오디오 파일 포맷을 이용해 악성코드를 은폐하는 방식은 탐지를 우회하려는 의도로 보입니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/backdoored-telnyx-pypi-package-pushes-malware-hidden-in-wav-audio/",
-      "date": "2026-03-27"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "GitHub에서 확산되는 가짜 VS Code 경고, 개발자들에게 악성코드 배포",
-      "summary": "GitHub의 다양한 프로젝트 토론 섹션에 가짜 Visual Studio Code(VS Code) 보안 경고가 대규모로 게시되어 개발자들을 표적으로 하는 악성 캠페인이 진행 중입니다. 공격자들은 가짜 보안 알림을 통해 사용자들을 속여 악성코드를 다운로드하도록 유도하고 있습니다. 이러한 피싱 공격은 개발자 커뮤니티에서 광범위하게 퍼져나가고 있으며, GitHub 사용자들이 주의를 기울여야 할 심각한 보안 위협입니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/fake-vs-code-alerts-on-github-spread-malware-to-developers/",
-      "date": "2026-03-27"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "에이전트형 GRC: 기술은 확보했지만 사고방식 전환이 필요",
-      "summary": "에이전트형 GRC(거버넌스, 위험관리, 규정준수) 기술이 업무 흐름을 자동화하면서 보안팀들이 단순 실행 역할 이상으로 자신의 역할을 재정의해야 한다. 많은 조직이 자동화 기술을 도입했지만, 실행 업무에서 위험 리더십으로의 사고방식 전환이 가장 큰 과제로 지적되고 있다. Anecdotes는 기술 도입만으로는 부족하며, 팀이 어떻게 일하는 방식을 근본적으로 바꿔야 한다고 강조한다. 에이전트형 AI의 자동화 능력을 제대로 활용하려면 기술뿐만 아니라 조직문화와 인식의 전환이 필수적이다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/agentic-grc-teams-get-the-tech-the-mindset-shift-is-whats-missing/",
-      "date": "2026-03-27"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "유럽연합 집행위원회, 아마존 클라우드 계정 해킹으로 인한 침해 사건 조사 중",
-      "summary": "유럽연합의 주요 행정기관인 유럽연합 집행위원회가 위협 행위자로부터 자신의 아마존 클라우드 환경에 대한 불정당한 접근으로 인한 보안 침해 사건을 조사 중입니다. 이번 사건은 클라우드 환경에 대한 해킹으로 인해 발생했으며, 공격자가 집행위원회의 중요 시스템에 접근할 수 있었던 것으로 파악됩니다. 유럽연합은 현재 이번 침해 사건의 규모와 영향 범위를 파악하기 위한 조사를 진행 중에 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/european-commission-investigating-breach-after-amazon-cloud-account-hack/",
-      "date": "2026-03-27"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "반해적 연합, 500만 사용자를 보유한 AnimePlay 앱 폐쇄",
-      "summary": "창작물 보호 및 오락 연합(ACE)이 500만 명 이상의 사용자를 보유한 주요 애니메이션 불법 스트리밍 플랫폼 AnimePlay를 폐쇄했다고 발표했습니다. 이번 조치는 저작권 침해에 대한 지속적인 단속의 일환으로 진행되었습니다. AnimePlay는 애니메이션 콘텐츠의 불법 배포로 알려진 대규모 해적 플랫폼이었습니다. ACE의 이번 조치는 온라인 불법 스트리밍 서비스에 대한 국제적 저작권 보호 노력을 강화하는 것을 목표로 합니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/anti-piracy-coalition-takes-down-animeplay-app-with-5-million-users/",
-      "date": "2026-03-27"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Windows 11 KB5079391 업데이트, Smart App Control 개선 사항 출시",
-      "summary": "마이크로소프트가 Windows 11 24H2 및 25H2 버전을 위한 KB5079391 미리보기 누적 업데이트를 출시했습니다. 이번 업데이트에는 Smart App Control과 디스플레이 개선을 포함한 총 29가지 변경 사항이 포함되어 있습니다. Smart App Control은 악성 애플리케이션으로부터 시스템을 보호하는 보안 기능으로, 이번 개선을 통해 더욱 강화되었습니다. 해당 업데이트는 선택적 미리보기 업데이트로 제공되며, 사용자들은 Windows Update를 통해 다운로드할 수 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5079391-update-rolls-out-smart-app-control-improvements/",
-      "date": "2026-03-27"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "네덜란드 경찰, 피싱 공격으로 인한 보안 침해 공개",
-      "summary": "네덜란드 국가경찰(Politie)이 성공적인 피싱 공격으로 인한 보안 침해 사건을 공개했습니다. 이번 사건으로 인한 피해는 제한적이며 국민 데이터에는 영향을 미치지 않은 것으로 파악되고 있습니다. 피싱 공격을 통해 공격자들이 경찰 시스템에 접근했으나, 신속한 대응으로 추가 피해를 최소화할 수 있었습니다. 경찰은 현재 상황을 완전히 파악하고 보안 강화 대책을 추진 중입니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/dutch-police-discloses-security-breach-after-phishing-attack/",
-      "date": "2026-03-27"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[북미 in K-Security] 아이닉스, 자체 개발 AI 보안 SoC로 ‘K-보안 칩셋’ 저력 과시",
-      "summary": "고효율 영상 처리 및 보안성 강화... 글로벌 카메라 제조사 대상 비즈니스 확대[미국 라스베이거스= 보안뉴스 특별취재팀] 보안 반도체(SoC) 전문기업 아이닉스가 ‘ISC West 2026’에서 차세대 AI 영상 처리 칩셋을 공개하며 한국 보안 기술의 근간인 ‘K-반도체’의 위상을 높였다. 아이닉스는 영상보안의 심장이라 할 수 있는 SoC를 독자 기술로 개",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142896&kind=&sub_kind=",
-      "date": "2026-03-27"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[북미 in K-Security] 엠스톤, AI 영상분석 내장 고성능 VMS로 효율적 관제 입증",
-      "summary": "지능형 분석에 대규모 영상관리까지... 통합관제 소프트웨어의 글로벌 경쟁력 확인[미국 라스베이거스= 보안뉴스 특별취재팀] 영상 저장 및 관제 솔루션 전문기업 엠스톤이 ‘ISC West 2026’에서 대규모 영상 통합 관제에 최적화된 AI 영상관리 시스템을 선보이며 주목을 받았다. 엠스톤은 예산 최적화와 강력한 보안 기능을 동시에 원하는 북미 중소규모(SM",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142895&kind=&sub_kind=",
-      "date": "2026-03-27"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[북미 in K-Security] 원우이엔지, 독보적 광학 줌 기술 탑재 ‘산업용 AI 카메라’ 위상 제고",
-      "summary": "고해상도 광학 설계와 AI 분석의 결합... 특수 목적 보안 시장 정조준[미국 라스베이거스= 보안뉴스 특별취재팀] 영상보안 전문기업 원우이엔지가 ‘ISC West 2026’에서 자사의 독보적인 고배율 광학 줌 기술과 최첨단 AI 엔진을 결합한 ‘산업용 AI 카메라’ 라인업을 선보이며 기술력을 뽐냈다. 특히, 열화상 센서 및 모듈 제조회사인 엣지파운드리와 함",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142894&kind=&sub_kind=",
-      "date": "2026-03-27"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[북미 in K-Security] 이노뎁, AI 솔루션 브랜드 ‘VUNex’로 북미 민간 보안시장 진출 본격화",
-      "summary": "리테일·빌딩 최적화된 융합보안 솔루션... 북미 현지 PoC 및 파트너십 확대 주력[미국 라스베이거스= 보안뉴스 특별취재팀] 국내 공공 보안관제 시장의 최강자 이노뎁이 ‘ISC West 2026’에서 차세대 AI 영상분석 솔루션 ‘뷰넥스(VUNex)’를 앞세워 글로벌 민간 보안 시장 진출을 공식화했다. 이노뎁은 그간 한국 지자체 스마트시티 사업에서 검증된",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142893&kind=&sub_kind=",
-      "date": "2026-03-27"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[북미 in K-Security] 슈프리마, AI 얼굴 인증 ‘바이오스테이션 3 맥스’ 미국 선공개",
-      "summary": "비접촉 보안 수요 겨냥... 통합 보안 플랫폼 ‘바이오스타 X 및 에어’ 통해 확장성 제시[미국 라스베이거스= 보안뉴스 특별취재팀] AI 통합 보안 및 출입통제 솔루션 전문기업 슈프리마가 ‘ISC West 2026’에서 차세대 AI 얼굴인증 단말기 ‘바이오스테이션 3 맥스(BioStation 3 Max)’를 공개하며 북미 출입보안 시장의 새로운 기준을 제시",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142892&kind=&sub_kind=",
-      "date": "2026-03-27"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[북미 in K-Security] 아이디스, 12.5MP AI 피쉬아이 카메라로 전방위 지능형 감시 선도",
-      "summary": "‘리액트(React)’ 시리즈 및 클라우드 서비스 ‘스마트커넥트’로 북미 시장 공략 박차[미국 라스베이거스= 보안뉴스 특별취재팀] AI 통합보안 솔루션 전문기업 아이디스가 ‘ISC West 2026’에서 업계 최고 수준의 해상도와 지능형 분석 기능을 결합한 ‘12.5MP AI 피쉬아이(Fisheye) 카메라’를 전면에 내세웠다. 이 제품은 한 대의 카메라",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142891&kind=&sub_kind=",
-      "date": "2026-03-27"
     }
   ],
-  "totalItems": 246,
+  "totalItems": 251,
   "hasArchive": true
 }
