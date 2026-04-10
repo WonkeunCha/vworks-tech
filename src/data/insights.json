@@ -16,6 +16,7 @@
       "sections": [
         {
           "heading": "",
+          "image": "https://images.ctfassets.net/2f3meiv6rg5s/54zpMMz2PQ8X7eIEeaiplM/120745ae53fba167c3a247a52c8a868d/vast-fwd-2026-the-data-layer-behind-continuous-ai.webp",
           "paragraphs": [
             "Jason Vallery는 실패가 허용되지 않는 시스템을 구축하는 데 경력의 대부분을 보냈습니다. Microsoft에서 그는 Azure Blob Storage를 엔터프라이즈와 모델 빌더 모두의 대규모 예측 불가능한 워크로드를 처리할 수 있는 시스템으로 만드는 데 기여했습니다.",
             "현재 VAST에서 그는 같은 문제를 다른 각도에서 다루고 있습니다 — AI 인프라가 부품들의 모음이 아닌 하나의 시스템으로 작동하게 만드는 것입니다. 그가 AI에 대해 이야기할 때 이 관점은 빠르게 드러납니다. 그는 모델이나 GPU에서 시작하지 않습니다. 시스템이 지속적으로 운영되어야 할 때 어떤 일이 벌어지는지에서 시작합니다.",
@@ -26,6 +27,7 @@
         },
         {
           "heading": "모두가 아는 파이프라인은 너무 일찍 끝난다",
+          "image": "https://images.ctfassets.net/2f3meiv6rg5s/6tVgFis9wTSgVwc2n2Rb6W/65acc7974a3d6aee3950b389d6d50f86/InlineGraphic-1_Jason_Vallery_FWD_VAST_Data__1_.jpg",
           "paragraphs": [
             "시스템의 다음 부분은 대부분의 사람들이 이미 이해하고 있다고 생각하는 것입니다. 익숙해 보이기 때문입니다. 파이프라인의 전반부(수집, 변환, 큐레이션, 배포 등)는 10년 이상 존재해왔으며 클라우드 분석 스택에서 쉽게 알아볼 수 있습니다.",
             "이 전통적인 모델에서 데이터는 들어오고, 정리되고, 조직되고, 쿼리 가능하게 만들어진 다음, 처리가 필요한 곳으로 이동됩니다.",
@@ -61,6 +63,7 @@
         },
         {
           "heading": "학습은 더 이상 시스템의 중심이 아니다",
+          "image": "https://images.ctfassets.net/2f3meiv6rg5s/6EZOfHD4EhSm9p0UnPDUl/d2b27ef0b03b2a8f375bda40532adffb/InlineGraphic-3_Jason_Vallery_FWD_VAST_Data__1_.jpg",
           "paragraphs": [
             "\"올해 말까지 전 세계적으로 배포된 GPU 용량의 90% 이상이 학습에 사용되지 않을 것입니다. 실제로 AI 추론과 에이전틱 추론에 사용될 것입니다.\" 무게 중심이 모델 구축에서 모델 운영으로 이동했습니다.",
             "이 전환은 시스템이 해야 할 일을 바꿉니다. 학습은 무겁지만 제한적입니다 — 실행되고, 끝나고, 체크포인트를 기록합니다. 추론은 멈추지 않습니다. 요청이 계속 들어오고, 데이터가 함께 끌어당겨지며, 시스템은 중단 없이 따라가야 합니다.",
@@ -70,6 +73,7 @@
         },
         {
           "heading": "메모리가 중심에",
+          "image": "https://images.ctfassets.net/2f3meiv6rg5s/558uwUyvt14NZepftGLCEA/824581fa34f37a578176451510ec6759/InlineGraphic-2_Jason_Vallery_FWD_VAST_Data__1_.jpg",
           "paragraphs": [
             "다음 한계는 메모리입니다. 각 요청은 프롬프트, 검색된 데이터, 중간 결과를 동반하며, GPU 메모리만으로는 모든 것을 보유할 수 없습니다. \"GPU당 최소 16TB의 KV 스토어가 필요합니다.\" 이는 많은 데이터가 GPU 밖에 존재하면서 효율적으로 공유되어야 함을 의미합니다.",
             "VAST는 이 컨텍스트를 GPU 레이어 외부에 유지하고 RDMA를 통해 직접 제공하며, GPU 클러스터 내부의 BlueField DPU에서 제어를 실행하여 중간 레이어를 제거합니다.",
@@ -84,7 +88,7 @@
       "sourceUrl": "https://www.vastdata.com/blog/vast-fwd-2026-the-data-layer-behind-continuous-ai",
       "author": "Nicole Hemsoth Prickett",
       "date": "2026-04-09",
-      "image": "",
+      "image": "https://images.ctfassets.net/2f3meiv6rg5s/58pVGagMSvKVL3NhTiSAiE/7a5452013df5ee4db61ba20aedbdf351/vast-fwd-2026-the-data-layer-behind-continuous-ai.jpg",
       "translatedAt": "2026-04-11T05:30:00.000Z"
     }
   ]

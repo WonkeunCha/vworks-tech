@@ -3,6 +3,7 @@ import { useState } from 'react';
 
 interface Section {
   heading: string;
+  image?: string;
   paragraphs: string[];
 }
 
@@ -271,6 +272,20 @@ function ArticleDetail({ article, onClose }: { article: Article; onClose: () => 
               }}>
                 {section.heading}
               </h2>
+            )}
+            {section.image && (
+              <div style={{
+                margin: '16px 0 24px',
+                borderRadius: 8,
+                overflow: 'hidden',
+                border: '1px solid rgba(31,74,117,0.3)',
+              }}>
+                <img
+                  src={section.image}
+                  alt={section.heading || ''}
+                  style={{ width: '100%', display: 'block' }}
+                />
+              </div>
             )}
             {section.paragraphs.map((para, j) => (
               <p key={j} style={{

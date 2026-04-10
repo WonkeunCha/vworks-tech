@@ -100,10 +100,36 @@ function extractMeta(html, articleText) {
   const author = authorMatch ? authorMatch[1].trim().replace(/,.*$/, '') : '';
 
   // OG 이미지
-  const ogMatch = html.match(/og:image.*?content="([^"]+)"/i);
+  const ogMatch = html.match(/property=["']og:image["'][^>]+content=["']([^"']+)/i) ||
+    html.match(/og:image.*?content="([^"]+)"/i);
   const image = ogMatch ? ogMatch[1] : '';
 
-  return { title, date, author, image };
+  // 본문 이미지 추출 (heading 위치 기반 매핑)
+  const headingPositions = [];
+  const headingRe = /<h[1-6][^>]*>([\s\S]*?)<\/h[1-6]>/gi;
+  let hm;
+  while ((hm = headingRe.exec(html)) !== null) {
+    const text = hm[1].replace(/<[^>]+>/g, '').trim();
+    if (text.length > 3) headingPositions.push({ pos: hm.index, text });
+  }
+
+  const contentImages = [];
+  const imgRe = /<img[^>]+src=["']([^"']+ctfassets[^"']+)["'][^>]*>/gi;
+  let im;
+  while ((im = imgRe.exec(html)) !== null) {
+    const src = im[1].replace(/&amp;/g, '&');
+    // 관련글 영역의 이미지 제외 (More from this topic 이후)
+    const moreIdx = html.indexOf('More from this topic');
+    if (moreIdx > 0 && im.index > moreIdx) continue;
+    // 이 이미지 직전의 heading 찾기
+    let afterHeading = '';
+    for (const h of headingPositions) {
+      if (h.pos < im.index) afterHeading = h.text;
+    }
+    contentImages.push({ src, afterHeading, pos: im.index });
+  }
+
+  return { title, date, author, image, contentImages };
 }
 
 async function translateWithClaude(title, content) {
@@ -190,6 +216,7 @@ async function main() {
   console.log(`📅 날짜: ${meta.date}`);
   console.log(`✍️  저자: ${meta.author}`);
   console.log(`📄 본문: ${articleText.length}자`);
+  console.log(`🖼️  이미지: ${meta.contentImages.length}개 (본문), OG: ${meta.image ? 'Y' : 'N'}`);
 
   if (articleText.length < 200) {
     console.error('❌ 본문이 너무 짧습니다. JS SPA 페이지일 수 있습니다.');
@@ -208,6 +235,21 @@ async function main() {
 
   // 중복 확인
   const existingIdx = data.articles.findIndex(a => a.sourceUrl === url);
+
+  // 섹션에 이미지 매핑 (heading 기준)
+  if (meta.contentImages.length > 0 && translated.sections) {
+    // 번역된 섹션의 원문 heading과 이미지의 afterHeading을 매핑
+    // 첫 번째 이미지 → 첫 번째 섹션 (보통 인트로)
+    // 나머지는 순서대로 이미지가 없는 섹션에 배치
+    let imgIdx = 0;
+    for (const section of translated.sections) {
+      if (imgIdx < meta.contentImages.length) {
+        section.image = meta.contentImages[imgIdx].src;
+        imgIdx++;
+        console.log(`  🖼️  섹션 "${section.heading || '인트로'}" ← 이미지 ${imgIdx}`);
+      }
+    }
+  }
 
   const slug = url.split('/blog/')[1] || url.split('/').pop();
   const article = {
