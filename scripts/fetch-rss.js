@@ -355,7 +355,19 @@ async function processItems(items, source, category, fetchedUrls, newItems) {
       console.log(`  ✅ ${translated.title}`);
       await new Promise(r => setTimeout(r, 1000));
     } catch (e) {
-      console.error(`  ❌ ${e.message}`);
+      // 번역 실패 시 영문 원문으로 등록
+      console.error(`  ⚠️ 번역 실패, 원문 등록: ${e.message}`);
+      newItems.push({
+        id: Buffer.from(link).toString('base64').slice(0, 16),
+        title: item.title,
+        summary: (content || item.description || item.title).slice(0, 500),
+        category,
+        source,
+        sourceUrl: link,
+        date: new Date(item.pubDate).toISOString().slice(0, 10),
+      });
+      fetchedUrls.add(link);
+      console.log(`  ✅ (원문) ${item.title}`);
     }
   }
 }
@@ -536,7 +548,20 @@ async function processVASTItems(items, fetchedUrls, newItems) {
       console.log(`  ✅ ${translated.title}`);
       await new Promise(r => setTimeout(r, 1000));
     } catch (e) {
-      console.error(`  ❌ ${e.message}`);
+      // 번역 실패 시 (API 크레딧 부족 등) 영문 원문으로 등록
+      console.error(`  ⚠️ 번역 실패, 영문 원문 등록: ${e.message}`);
+      const capitalizedTitle = item.title.replace(/\b\w/g, c => c.toUpperCase());
+      newItems.push({
+        id: Buffer.from(link).toString('base64').slice(0, 16),
+        title: capitalizedTitle,
+        summary: content.slice(0, 500),
+        category: '스토리지',
+        source: 'VAST Data',
+        sourceUrl: link,
+        date: new Date(item.pubDate).toISOString().slice(0, 10),
+      });
+      fetchedUrls.add(link);
+      console.log(`  ✅ (영문) ${capitalizedTitle}`);
     }
   }
 }
