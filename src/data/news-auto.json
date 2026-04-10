@@ -1,14 +1,5 @@
 {
   "fetchedUrls": [
-    "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-code-source-code-accidentally-leaked-in-npm-package/",
-    "http://www.boannews.com/media/view.asp?idx=142958&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142959&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142957&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142956&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142955&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142954&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142953&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142952&kind=&sub_kind=",
     "https://www.dell.com/en-us/blog/what-it-leaders-are-actually-saying-about-storage-that-doesn-t-slow-you-down/",
     "https://www.dell.com/en-us/blog/how-dell-powerscale-accelerates-space-exploration/",
     "https://www.securityweek.com/depthfirst-raises-80-million-in-series-b-funding/",
@@ -39,7 +30,6 @@
     "http://www.boannews.com/media/view.asp?idx=142971&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=142970&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=142969&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142968&kind=&sub_kind=",
     "https://www.dell.com/en-us/blog/the-human-side-of-ai-platforms-lessons-from-the-field-with-sagar-kewalramani/",
     "https://www.dell.com/en-us/blog/shared-vision-scalable-impact-ai-for-research/",
     "https://www.dell.com/en-us/blog/the-cyber-resilience-gap-why-confidence-outpaces-capability/",
@@ -209,9 +199,110 @@
     "http://www.boannews.com/media/view.asp?idx=143101&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143100&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143099&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=143098&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=143098&kind=&sub_kind=",
+    "https://www.vastdata.com/blog/the-intersection-of-enterprise-data-management-and-supercomputing",
+    "http://www.boannews.com/media/view.asp?idx=143121&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143118&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143119&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143120&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143117&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143108&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143116&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143111&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143110&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143114&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "인텔리빅스-세라젬, ‘행동하는 AI’로 웰니스 공간 혁신 나선다",
+      "summary": "인텔리빅스-세라젬, AI 기반 스마트 웰니스 공간 구축 위한 MOU 체결주거·상업·시니어 시설 대상 지능형 관제·웰니스 플랫폼 연계 사업 추진[보안뉴스 강초희 기자] 인텔리빅스(대표 최은수·장정훈)가 세라젬(대표 이경수)과 손잡고 AI 기술을 활용한 차세대 웰니스 공간 혁신에 나선다.인텔리빅스는 지난 9일 서울 강남 엘리에나 호텔에서 열린 ‘Healthca",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143121&kind=&sub_kind=",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "대학 인근 원룸촌, 범죄 불안 없앤다... 수원부터 시작",
+      "summary": "법무부, ‘범죄예방 환경개선 사업’ 본격 추진경기 화성시 봉담읍 주민 설명회 개최로 올해 첫 사업 시작[보안뉴스 강초희 기자] 청년층 유동 인구가 많은 수원대학교 인근 원룸 밀집 지역에서 올해 첫 범죄예방 환경개선 사업이 시작된다.법무부(장관 정성호)는 10일 수원대학교 미래혁신관에서 ‘2026년 범죄예방 환경개선 사업 주민 설명회’를 개최했다.이번 설명회",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143118&kind=&sub_kind=",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "도봉구, 올해 ‘실시간 인파 예측’ 등 64개 스마트 사업 추진",
+      "summary": "5개년 계획 기반 연차별 사업 추진AI 기반 인파 관리 시스템 도입 등[보안뉴스 강초희 기자] 서울 도봉구(구청장 오언석)가 올해 스마트도시로의 도약을 위해 22개 부서에서 64개의 세부 사업을 추진한다. 사업 추진 예산으로는 약 46억원을 투입한다.구는 지난 2024년 전담 부서 스마트혁신과를 신설하고 이듬해 관련 조례 제정과 스마트도시 5개년(2025~",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143119&kind=&sub_kind=",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "중국 연계 실버폭스, 가짜 텔레그램 중국어 언어 팩에 악성코드 숨겨",
+      "summary": "강력한 원격 접속 트로이목마 ‘벨리랫’ 유포... 보안 감시망 무력화하며 시스템 장악[보안뉴스 원병철 기자] 중국 배후의 해킹 그룹 실버폭스(Silver Fox)가 텔레그램 중국어 언어 팩 설치 프로그램으로 위장한 신종 악성코드 캠페인을 전개하고 있다. 일반적인 MSI(Microsoft Installer) 설치 프로그램으로 위장한 이 악성 파일은 보안 연구",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143120&kind=&sub_kind=",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "인공지능 사회로의 혁신 전환을 위한 해법 찾는다",
+      "summary": "개인정보위, 연구모임 ‘개인정보 AX 엔진룸’ 본격 가동(4.10)전문가 강연 및 자발적 논의 통한 인공지능전환(AX) 혁신 방안 설계[보안뉴스 원병철 기자] 개인정보보호위원회(위원장 송경희, ‘개인정보위’)는 직원들의 인공지능(AI) 활용 역량을 강화하기 위한 연구모임인 ‘개인정보 AX 엔진룸’을 본격 운영한다. 이 연구모임은 인공지능(AI)을 접목해 개",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143117&kind=&sub_kind=",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "뇌를 가진 CCTV부터 AI 에이전트 보안까지... KCSC가 짚은 2026 글로벌 보안 이슈",
+      "summary": "한국기업보안협의회, ‘제87차 Security Round Table’ 개최 글로벌 보안 트렌드 리뷰 이어 실무적 데이터 유출 방지 대책 심층 논의 AI 에이전트 통제 방안 및 통합 보안 생태계 확장 등 차세대 필수 과제 제시[보안뉴스 조재호 기자] “이제 보안 환경은 물리와 사이버의 경계를 나누는 것이 무의미해졌습니다. 스스로 판단하고 조치하는 ‘AI 에이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143108&kind=&sub_kind=",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "한국정보보호학회-한국인터넷진흥원, 제32회 정보통신망 정보보호 콘퍼런스 2026 개최",
+      "summary": "’흔들림 없는 보안 기초 위에 구현하는 AI 대전환’ 주제로 4월 16~17일 코엑스에서 개최[보안뉴스 원병철 기자] 한국인터넷진흥원(원장 이상중, KISA)이 주최하고 한국정보보호학회(회장 김호원, KIISC)가 주관하는 제32회 정보통신망 정보보호 컨퍼런스(NetSec-KR 2026)가 오는 4월 16일(목)부터 17일(금)까지 이틀간 서울 삼성동 코엑",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143116&kind=&sub_kind=",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "과기정통부, ‘판교 정보보호클러스터’ 시설 개선... 정보보호 강화 초석 다진다",
+      "summary": "기업 보안지원 시설 및 체험공간 등 판교 클러스터 개소 9년 만에 전체 시설 개선정보보호 유관 협단체 간 업무협약 체결로 수도권 보안역량 강화 맞손 투자전문가 및 CISO 대상 대규모 투자구매상담회 행사로 보안업계 활력 유도[보안뉴스 원병철 기자] 정부가 판교 정보보호클러스터를 대폭 개선하고 이를 계기로 경기권 전략산업의 보안역량",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143111&kind=&sub_kind=",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "LG유플러스 CISO “올해 핵심 보안 전략은 ‘제로트러스트’와 ‘에이전틱 SOC’”",
+      "summary": "홍관희 CISO “데이터 중심 보안으로 전환 박차”정규직 보안 인력 3배 늘어... 올해 중반까지 4배 확충[부산=보안뉴스 강현주 기자] LG유플러스 보안 조직은 올해 제로트러스트를 기반으로 한 ‘데이터 중심 보안’과 AI를 활용한 관제인 ‘에이전틱 보안 운영 센터’(SOC) 구축을 집중 추진한다. 방대한 자산들의 세밀한 식별과 점검으로 눈에 띄지 않는 위",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143110&kind=&sub_kind=",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[김정덕의 인간중심보안-2] AI 시대, 인간중심보안을 구현하려면",
+      "summary": "‘통제’를 넘어 ‘지원’으로 가는 4단계 실천 프레임워크[연재목차 Part 3. 인간중심보안과 보안문화]1. AI 시대, 왜 인간 중심 보안인가2. AI 시대, 인간 중심 보안을 구현하려면3. 인간의 창의성과 AI 보안4. 보안 위반, 뇌 과학 해법5. 넛지 보안의 힘6. 감정과 비합리성, 보안의 숨은 힘7. 디지털 야누스, 두얼굴의 사용자8. 인간 중심",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143114&kind=&sub_kind=",
+      "date": "2026-04-10"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "APT28, 신종 악성코드 ‘PRISMEX’로 우크라이나·나토 타격",
@@ -1921,98 +2012,8 @@
       "source": "BleepingComputer",
       "sourceUrl": "https://www.bleepingcomputer.com/news/security/fbi-warns-against-using-chinese-mobile-apps-over-to-data-security-risks/",
       "date": "2026-04-01"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "구글, 2026년 네 번째 크롬 제로데이 취약점 패치",
-      "summary": "구글이 올해 들어 네 번째로 실제 공격에 악용된 크롬 제로데이 취약점을 수정했습니다. 이번 패치는 긴급 업데이트 형태로 배포되었으며, 2026년 들어 크롬 브라우저가 지속적으로 제로데이 공격의 대상이 되고 있음을 보여줍니다. 해당 취약점은 이미 야생에서 악의적인 목적으로 이용 중이었던 것으로 알려졌습니다. 구글은 사용자들에게 최신 보안 패치를 즉시 적용할 것을 권장하고 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-fixes-fourth-chrome-zero-day-exploited-in-attacks-in-2026/",
-      "date": "2026-04-01"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "구글 드라이브 랜섬웨어 탐지 기능 유료 사용자에게 기본 활성화",
-      "summary": "구글이 AI 기반의 구글 드라이브 랜섬웨어 탐지 기능이 정식 출시되었으며 모든 유료 사용자를 대상으로 기본 활성화되었다고 발표했습니다. 이 기능은 사용자의 파일을 랜섬웨어 공격으로부터 보호하고 감염된 파일을 복원할 수 있도록 설계되었습니다. 인공지능 기술을 활용하여 랜섬웨어 위협을 자동으로 감지하고 대응합니다. 유료 구독자들은 추가 설정 없이 자동으로 이 보안 기능의 혜택을 받게 됩니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-drive-ransomware-detection-now-on-by-default-for-paying-users/",
-      "date": "2026-04-01"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Windows 11 긴급 업데이트, 미리보기 업데이트 설치 문제 해결",
-      "summary": "마이크로소프트가 3월 2026년 KB5079391 비보안 미리보기 업데이트의 설치 문제를 해결하기 위해 긴급 업데이트 KB5086672를 출시했습니다. 해당 미리보기 업데이트는 설치 관련 문제로 인해 지난 주말에 회수되었습니다. 이번 긴급 패치는 정기 업데이트 일정 외에 별도로 배포되는 대역외(Out-of-Band) 업데이트입니다. 마이크로소프트는 Windows 11 사용자들이 설치 문제 없이 최신 보안 및 기능 개선사항을 받을 수 있도록 신속하게 대응했습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/new-windows-11-kb5086672-emergency-update-fixes-install-issues/",
-      "date": "2026-04-01"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISC West 2026 결산] ‘보는 보안’ 너머 ‘판단하는 보안’으로... AI가 바꾼 물리보안의 새 지형도",
-      "summary": "[3줄 요약]1. 단순 감시 도구였던 CCTV와 출입통제가 ‘지능형 엣지’로 진화2. 비전 AI와 센서 융합 화두... 객체 식별 넘어 행동 예측 및 실시간 통합관제 고도화3. K-Security 성공하려면, AI 데이터가 흐르는 통합보안 플랫폼으로서의 가치 입증해야 [미국 라스베이거스=보안뉴스 특별취재팀] 지난 3월 25일부터 27일(현지시간)까지 미국",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142976&kind=&sub_kind=",
-      "date": "2026-04-01"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[국방보안 칼럼] 미국-이란 전쟁으로 본 사이버전의 진화와 디지털 생존 전략",
-      "summary": "미국-이란 전쟁, 사이버 공격이 물리적 전쟁과 결합돼 파괴력 극대화 IoT 인프라의 국가 안보 자산화, AI 행위 분석, 소버린 클라우드 등 국가 차원 디지털 생존 전략 필요[보안뉴스= 송종석 영남이공대학교 사이버보안과 교수] 2026년 2월, ‘장대한 분노’(Operation Tremendous Fury) 작전으로 명명된 미국·이스라엘과 이란 간 전쟁은",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142966&kind=&sub_kind=",
-      "date": "2026-04-01"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "크랜베리, ‘멀티 모달 엣지 AI’로 글로벌 및 공공시장 ‘듀얼 트랙’ 전략 가속화",
-      "summary": "3월 ISC West, SECON 및 나라장터 엑스포 통해 독보적 기술 신뢰도와 현장 적용성 입증레노버, 인터엠 등 글로벌국내 선도 기업과 에코시스템 완성하며 성장 모멘텀 확보[보안뉴스 강초희 기자] 크랜베리(대표이사 이은혜)가 2026년 1분기 국내외 대형 전시회 참여와 전략적 파트너십을 통해 확보한 기술 레퍼런스를 바탕으로 글로벌 시장과 국",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142972&kind=&sub_kind=",
-      "date": "2026-04-01"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "모빌린트, 시리즈 C 투자 유치 완료... “AI 반도체 시장 본격 공략”",
-      "summary": "고성능·저전력 NPU 기술력 입증... 산업 현장 양산 성과 기반 확장 가속[보안뉴스 강초희 기자] 모빌린트(대표 신동주)가 시리즈 C 투자 유치를 마무리하고, AI 반도체 시장 공략에 본격적으로 나선다.모빌린트는 이번 라운드를 통해 총 700억원 규모의 투자를 유치했다고 밝혔다. 프랙시스캐피탈파트너스, 포스코기술투자, 컴퍼니케이파트너스 등 주요 투자자가",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142974&kind=&sub_kind=",
-      "date": "2026-04-01"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "파수AI, 사명 변경 후 첫 출격... 4월 15일 ‘FDI 심포지움 2026’ 개최",
-      "summary": "[보안뉴스 조재호 기자] 파수AI가 사명 변경 후 첫 대규모 고객 행사인 ‘FDI 심포지움 2026’에서 안전한 인공지능 전환(AX) 청사진을 공개한다. 이번 행사는 ‘지속가능한 AI 혁신’을 화두로 삼아 글로벌 기업의 실제 적용 사례부터 소프트웨어 공급망 보안까지 조직 경쟁력 강화를 위한 구체적인 해법을 제시할 예정이다.파수AI의 연례 콘퍼런스 ‘FDI",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142971&kind=&sub_kind=",
-      "date": "2026-04-01"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "유일선 국민대 교수 연구팀, LG전자와 ‘차세대 이동통신 보안 기술 연동 검증’ 성공",
-      "summary": "Wi-Fi와 같은 Non-3GPP 접속 환경에서도 활용될 수 있는 EAP-AKA’ 계열까지 검증 범위 확장다양한 통신 환경에서 양자보안 인증 기술의 적용 가능성 입증[보안뉴스 원병철 기자] 국민대학교(총장 정승렬) 유일선 교수 연구팀이 LG전자와 함께 차세대 이동통신 보안 기술의 연동 검증에 성공하며 5G·6G 보안 전환의 가능성을 한층 넓혔다. 유일선 교",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142970&kind=&sub_kind=",
-      "date": "2026-04-01"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "엑시스커뮤니케이션즈, “영상보안, 카메라 산업에서 데이터·플랫폼 산업으로 전환”",
-      "summary": "영상보안 산업, 카메라 중심 장비 산업에서 데이터·플랫폼 산업으로 전환엣지 AI 확산으로 영상 데이터 기반 운영 효율·비즈니스 인텔리전스 활용 확대엑시스커뮤니케이션즈코리아, 한국 시장에서 통합 안전·운영 플랫폼 전략 추진[보안뉴스 강초희 기자] 엑시스커뮤니케이션즈(대표 레이 모릿슨)는 1일 강남 삼성동 위위크빌딩에서 기자간담회를 열고 영상보안 산업의 변화",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=142969&kind=&sub_kind=",
-      "date": "2026-04-01"
     }
   ],
-  "totalItems": 210,
+  "totalItems": 211,
   "hasArchive": true
 }
