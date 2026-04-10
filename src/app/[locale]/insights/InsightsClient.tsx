@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 interface Section {
   heading: string;
@@ -336,6 +336,16 @@ function ArticleDetail({ article, onClose }: { article: Article; onClose: () => 
 
 export default function InsightsClient({ articles }: { articles: Article[] }) {
   const [selected, setSelected] = useState<Article | null>(null);
+
+  // 모달 열릴 때 body 스크롤 잠금
+  useEffect(() => {
+    if (selected) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => { document.body.style.overflow = ''; };
+  }, [selected]);
 
   return (
     <div style={{ minHeight: '100vh', paddingTop: 80 }}>
