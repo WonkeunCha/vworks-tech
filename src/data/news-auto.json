@@ -18,18 +18,8 @@
     "https://www.bleepingcomputer.com/news/security/novoice-android-malware-on-google-play-infected-23-million-devices/",
     "https://www.bleepingcomputer.com/news/security/routine-access-is-powering-modern-intrusions-a-new-threat-report-finds/",
     "https://www.bleepingcomputer.com/news/security/fbi-warns-against-using-chinese-mobile-apps-over-to-data-security-risks/",
-    "https://www.bleepingcomputer.com/news/security/google-fixes-fourth-chrome-zero-day-exploited-in-attacks-in-2026/",
-    "https://www.bleepingcomputer.com/news/security/google-drive-ransomware-detection-now-on-by-default-for-paying-users/",
-    "https://www.bleepingcomputer.com/news/microsoft/new-windows-11-kb5086672-emergency-update-fixes-install-issues/",
     "http://www.boannews.com/media/view.asp?idx=142902&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=142983&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142976&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142966&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142972&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142974&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142971&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142970&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=142969&kind=&sub_kind=",
     "https://www.dell.com/en-us/blog/the-human-side-of-ai-platforms-lessons-from-the-field-with-sagar-kewalramani/",
     "https://www.dell.com/en-us/blog/shared-vision-scalable-impact-ai-for-research/",
     "https://www.dell.com/en-us/blog/the-cyber-resilience-gap-why-confidence-outpaces-capability/",
@@ -200,7 +190,6 @@
     "http://www.boannews.com/media/view.asp?idx=143100&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143099&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143098&kind=&sub_kind=",
-    "https://www.vastdata.com/blog/the-intersection-of-enterprise-data-management-and-supercomputing",
     "http://www.boannews.com/media/view.asp?idx=143121&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143118&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143119&kind=&sub_kind=",
@@ -210,7 +199,8 @@
     "http://www.boannews.com/media/view.asp?idx=143116&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143111&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143110&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=143114&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=143114&kind=&sub_kind=",
+    "https://www.vastdata.com/blog/the-intersection-of-enterprise-data-management-and-supercomputing"
   ],
   "items": [
     {
@@ -2014,6 +2004,6 @@
       "date": "2026-04-01"
     }
   ],
-  "totalItems": 211,
+  "totalItems": 201,
   "hasArchive": true
 }
