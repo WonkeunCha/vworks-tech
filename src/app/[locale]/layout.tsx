@@ -71,6 +71,14 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
+        {/* AI 크롤러 차단 메타 태그 */}
+        <meta name="robots" content="index, follow, max-image-preview:large" />
+        <meta name="robots" content="noai, noimageai" />
+        <meta name="googlebot" content="index, follow" />
+        {/* 보안 헤더 (정적 빌드용 meta) */}
+        <meta httpEquiv="X-Content-Type-Options" content="nosniff" />
+        <meta httpEquiv="X-Frame-Options" content="DENY" />
+        <meta name="referrer" content="strict-origin-when-cross-origin" />
         <link rel="preconnect" href="https://cdn.jsdelivr.net" />
 <link
   href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"

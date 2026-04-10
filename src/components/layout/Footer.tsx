@@ -159,7 +159,10 @@ export default function Footer() {
           gap: 12,
         }}>
           <p style={{ fontSize: 12, color: "var(--muted)", opacity: 0.6 }}>
-            사업자등록번호 184-87-01929 &nbsp;|&nbsp; 대표이사 차원근
+            사업자등록번호 184-87-01929 &nbsp;|&nbsp; 대표이사 차원근 &nbsp;|&nbsp;
+            <Link href="/ko/privacy/" style={{ color: "var(--muted)", textDecoration: "underline", textUnderlineOffset: 2 }}>
+              개인정보처리방침
+            </Link>
           </p>
           <p style={{ fontSize: 12, color: "var(--muted)", opacity: 0.6 }}>
             © 2025 VWorks Technologies. All rights reserved.
