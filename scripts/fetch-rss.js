@@ -10,7 +10,7 @@ const DATA_FILE = 'src/data/news-auto.json';
 const ARCHIVE_DIR = 'public/data';
 const MANIFEST_FILE = 'public/data/news-manifest.json';
 const FILTER_FROM = new Date('2025-01-01T00:00:00Z');
-const MAX_RECENT = 500;        // SSR 빌드용 최근 기사 수
+const MAX_RECENT = 1000;       // SSR 빌드용 최근 기사 수
 const VAST_CHECK_LIMIT = 60;   // VAST Data 블로그 페이지 체크 수 (1년치 누적)
 const VAST_YEAR_BACK = 365;    // VAST Data 수집 범위 (일)
 
@@ -21,7 +21,7 @@ function httpGet(url, redirects = 0) {
     const lib = url.startsWith('https') ? https : http;
     const req = lib.get(url, {
       headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
         'Accept': 'text/html,application/xhtml+xml,application/xml,*/*',
         'Accept-Language': 'en-US,en;q=0.9',
       }
@@ -34,7 +34,7 @@ function httpGet(url, redirects = 0) {
       res.on('end', () => resolve(Buffer.concat(chunks).toString('utf-8')));
     });
     req.on('error', reject);
-    req.setTimeout(20000, () => { req.destroy(); reject(new Error('timeout')); });
+    req.setTimeout(30000, () => { req.destroy(); reject(new Error('timeout')); });
   });
 }
 
@@ -44,7 +44,7 @@ function httpGetWithEncoding(url, redirects = 0) {
     const lib = url.startsWith('https') ? https : http;
     const req = lib.get(url, {
       headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; Googlebot/2.1)',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
         'Accept': '*/*',
       }
     }, (res) => {
@@ -75,7 +75,7 @@ function httpGetWithEncoding(url, redirects = 0) {
       });
     });
     req.on('error', reject);
-    req.setTimeout(20000, () => { req.destroy(); reject(new Error('timeout')); });
+    req.setTimeout(30000, () => { req.destroy(); reject(new Error('timeout')); });
   });
 }
 
@@ -331,9 +331,12 @@ async function processItems(items, source, category, fetchedUrls, newItems) {
     console.log(`  원문 fetch: ${item.title}`);
     let content = '';
     try {
-      if (source === 'Dell') content = await fetchDellContent(link);
+      if (source === 'HPE') {
+        // HPE 뉴스룸은 봇 요청을 차단 — RSS description에 충분한 내용 포함
+        content = item.description ?? '';
+        console.log(`  → HPE RSS description 사용 (${content.length}자)`);
+      } else if (source === 'Dell') content = await fetchDellContent(link);
       else if (source === 'VAST Data') content = await fetchVASTContent(link);
-      else if (source === 'HPE') content = await fetchHPEContent(link);
       else if (source === 'SecurityWeek' || source === 'BleepingComputer') content = await fetchSecurityContent(link);
     } catch (e) {
       content = item.description ?? '';
