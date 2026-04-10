@@ -11,7 +11,7 @@ const ARCHIVE_DIR = 'public/data';
 const MANIFEST_FILE = 'public/data/news-manifest.json';
 const FILTER_FROM = new Date('2025-01-01T00:00:00Z');
 const MAX_RECENT = 200;        // SSR 빌드용 최근 기사 수
-const VAST_CHECK_LIMIT = 30;   // VAST Data 블로그 페이지 체크 수 (1년치 누적)
+const VAST_CHECK_LIMIT = 60;   // VAST Data 블로그 페이지 체크 수 (1년치 누적)
 const VAST_YEAR_BACK = 365;    // VAST Data 수집 범위 (일)
 
 // 범용 HTTP GET
@@ -369,7 +369,29 @@ async function fetchVASTBlogList(fetchedUrls) {
   const oneYearAgo = new Date();
   oneYearAgo.setDate(oneYearAgo.getDate() - VAST_YEAR_BACK);
 
-  // 1단계: 블로그 리스팅 페이지에서 슬러그 추출
+  // 1단계: sitemap에서 슬러그 + lastmod 날짜 수집 (JS SPA라 가장 신뢰할 수 있는 소스)
+  const sitemapEntries = []; // { slug, lastmod }
+  try {
+    console.log('  sitemap.xml fetch (lastmod 날짜 포함)...');
+    const sitemapXml = await httpGet('https://www.vastdata.com/sitemap.xml');
+    // <url> 블록 단위로 파싱하여 loc + lastmod 추출
+    const urlBlockRe = /<url>([\s\S]*?)<\/url>/g;
+    let block;
+    while ((block = urlBlockRe.exec(sitemapXml)) !== null) {
+      const locMatch = block[1].match(/<loc>(https:\/\/www\.vastdata\.com\/blog\/([^<]+))<\/loc>/);
+      if (!locMatch) continue;
+      const slug = locMatch[2];
+      if (!slug || slug.includes('/')) continue;
+      const lastmodMatch = block[1].match(/<lastmod>([^<]+)<\/lastmod>/);
+      const lastmod = lastmodMatch ? lastmodMatch[1] : '';
+      sitemapEntries.push({ slug, lastmod });
+    }
+    console.log(`  sitemap에서 ${sitemapEntries.length}개 블로그 슬러그 발견`);
+  } catch (e) {
+    console.error(`  sitemap 실패: ${e.message}`);
+  }
+
+  // 2단계: 블로그 리스팅 페이지에서 추가 슬러그 보충 (날짜 없음)
   let slugsFromListing = [];
   try {
     console.log('  블로그 리스팅 페이지 fetch...');
@@ -381,57 +403,66 @@ async function fetchVASTBlogList(fetchedUrls) {
     }).filter(Boolean))];
     console.log(`  리스팅에서 ${slugsFromListing.length}개 슬러그 발견`);
   } catch (e) {
-    console.error(`  리스팅 실패: ${e.message}`);
+    console.error(`  리스팅 실패 (JS SPA — 정상): ${e.message}`);
   }
 
-  // 2단계: sitemap에서 추가 슬러그 수집
-  let slugsFromSitemap = [];
-  try {
-    console.log('  sitemap.xml fetch...');
-    const sitemapXml = await httpGet('https://www.vastdata.com/sitemap.xml');
-    const urlRe = /<loc>(https:\/\/www\.vastdata\.com\/blog\/([^<]+))<\/loc>/g;
-    let m;
-    while ((m = urlRe.exec(sitemapXml)) !== null) {
-      const slug = m[2];
-      if (slug && !slug.includes('/')) slugsFromSitemap.push(slug);
+  // sitemap 슬러그 셋 (중복 방지용)
+  const sitemapSlugs = new Set(sitemapEntries.map(e => e.slug));
+
+  // sitemap에 없는 리스팅 슬러그를 추가 (날짜 없이)
+  for (const slug of slugsFromListing) {
+    if (!sitemapSlugs.has(slug)) {
+      sitemapEntries.push({ slug, lastmod: '' });
     }
-    console.log(`  sitemap에서 ${slugsFromSitemap.length}개 슬러그 발견`);
-  } catch (e) {
-    console.error(`  sitemap 실패: ${e.message}`);
   }
 
-  // 리스팅 우선 + sitemap 보충 (중복 제거)
-  const allSlugs = [...new Set([...slugsFromListing, ...slugsFromSitemap])];
-  console.log(`  총 고유 슬러그: ${allSlugs.length}개, 체크 한도: ${VAST_CHECK_LIMIT}개`);
+  // lastmod 기준 최신순 정렬 (날짜 있는 것 우선)
+  sitemapEntries.sort((a, b) => {
+    if (!a.lastmod && !b.lastmod) return 0;
+    if (!a.lastmod) return 1;
+    if (!b.lastmod) return -1;
+    return b.lastmod.localeCompare(a.lastmod);
+  });
 
-  // 3단계: 각 블로그 페이지에서 날짜 추출 (최대 VAST_CHECK_LIMIT개)
+  console.log(`  총 고유 슬러그: ${sitemapEntries.length}개, 체크 한도: ${VAST_CHECK_LIMIT}개`);
+
+  // 3단계: 날짜 결정 — sitemap lastmod 우선, 없으면 페이지에서 추출 시도
   let checked = 0;
-  for (const slug of allSlugs) {
+  for (const entry of sitemapEntries) {
     if (checked >= VAST_CHECK_LIMIT) break;
-    const blogUrl = `https://www.vastdata.com/blog/${slug}`;
+    const blogUrl = `https://www.vastdata.com/blog/${entry.slug}`;
     if (fetchedUrls.has(blogUrl)) continue;
 
     try {
-      const blogHtml = await httpGet(blogUrl);
-      const dateStr = extractVASTDate(blogHtml);
-      if (dateStr) {
-        const pubDate = new Date(dateStr);
-        if (!isNaN(pubDate.getTime()) && pubDate >= oneYearAgo) {
-          const title = slug.replace(/-/g, ' ');
-          items.push({
-            title,
-            link: blogUrl,
-            pubDate: pubDate.toISOString(),
-            description: '',
-            _html: blogHtml,
-          });
-          console.log(`  📅 ${slug} → ${pubDate.toISOString().slice(0, 10)}`);
-        }
+      // sitemap lastmod를 발행일로 사용 (JS SPA에서 가장 신뢰할 수 있는 날짜)
+      let pubDate = null;
+      if (entry.lastmod) {
+        pubDate = new Date(entry.lastmod);
+      }
+
+      // lastmod 없으면 페이지에서 날짜 추출 시도 (fallback)
+      let blogHtml = '';
+      if (!pubDate || isNaN(pubDate.getTime())) {
+        blogHtml = await httpGet(blogUrl);
+        const dateStr = extractVASTDate(blogHtml);
+        if (dateStr) pubDate = new Date(dateStr);
+        await new Promise(r => setTimeout(r, 300));
+      }
+
+      if (pubDate && !isNaN(pubDate.getTime()) && pubDate >= oneYearAgo) {
+        const title = entry.slug.replace(/-/g, ' ');
+        items.push({
+          title,
+          link: blogUrl,
+          pubDate: pubDate.toISOString(),
+          description: '',
+          _html: blogHtml, // lastmod 사용 시 빈 문자열 — processVASTItems에서 fetch
+        });
+        console.log(`  📅 ${entry.slug} → ${pubDate.toISOString().slice(0, 10)}${entry.lastmod ? ' (sitemap)' : ' (page)'}`);
       }
       checked++;
-      await new Promise(r => setTimeout(r, 500));
     } catch (e) {
-      console.error(`  ⚠️ ${slug} 접근 실패: ${e.message}`);
+      console.error(`  ⚠️ ${entry.slug} 접근 실패: ${e.message}`);
       checked++;
     }
   }
@@ -471,7 +502,21 @@ async function processVASTItems(items, fetchedUrls, newItems) {
     }
 
     if (!content || content.length < 100) {
-      console.log(`  ⏩ 본문 부족, 스킵: ${item.title}`);
+      // JS SPA라 본문을 가져올 수 없는 경우 — 슬러그 기반 제목으로 등록
+      console.log(`  ⚠️ 본문 부족 (JS SPA), 슬러그 기반 등록: ${item.title}`);
+      const slugTitle = item.title; // 이미 slug에서 변환된 상태
+      const capitalizedTitle = slugTitle.replace(/\b\w/g, c => c.toUpperCase());
+      newItems.push({
+        id: Buffer.from(link).toString('base64').slice(0, 16),
+        title: capitalizedTitle,
+        summary: `VAST Data 블로그: ${capitalizedTitle}`,
+        category: '스토리지',
+        source: 'VAST Data',
+        sourceUrl: link,
+        date: new Date(item.pubDate).toISOString().slice(0, 10),
+      });
+      fetchedUrls.add(link);
+      console.log(`  ✅ (슬러그) ${capitalizedTitle}`);
       continue;
     }
 
