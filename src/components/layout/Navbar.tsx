@@ -202,7 +202,7 @@ export default function Navbar() {
 
           <div className="w-px h-5 bg-white/20" />
 
-          <a href="https://vworks.daouoffice.com" target="_blank" rel="noopener noreferrer"
+          <a href="https://vpn.vworks.tech" target="_blank" rel="noopener noreferrer"
             className="text-sm flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-teal-400/40 text-teal-400 hover:bg-teal-400/10 transition-colors whitespace-nowrap">
             <GroupwareIcon />
             그룹웨어
@@ -304,7 +304,7 @@ export default function Navbar() {
                 className="block mt-3 text-center px-4 py-3 bg-teal-500 hover:bg-teal-400 text-[#000d1a] font-bold rounded-lg transition-colors text-sm">
                 문의하기
               </Link>
-              <a href="https://vworks.daouoffice.com" target="_blank" rel="noopener noreferrer"
+              <a href="https://vpn.vworks.tech" target="_blank" rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 mt-2 px-4 py-3 border border-teal-400/40 text-teal-400 rounded-lg transition-colors text-sm hover:bg-teal-400/10">
                 <GroupwareIcon />
                 그룹웨어
