@@ -34,6 +34,7 @@ const COM = [
   { href: '/ko/notice/', label: '공지사항', badge: 'NEWS', color: 'text-teal-400' },
   { href: '/ko/faq/',    label: 'FAQ',      badge: 'FAQ',  color: 'text-cyan-400' },
   { href: '/ko/news/',   label: '뉴스/소식', badge: 'BLOG', color: 'text-blue-400' },
+  { href: '/ko/insights/', label: 'Tech Insights', badge: 'TECH', color: 'text-amber-400' },
 ];
 
 function GroupwareIcon() {
@@ -58,7 +59,7 @@ export default function Navbar() {
   const comTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const isSol = pathname?.startsWith('/ko/solutions') ?? false;
-  const isCom = pathname?.startsWith('/ko/notice') || pathname?.startsWith('/ko/faq') || pathname?.startsWith('/ko/news') || false;
+  const isCom = pathname?.startsWith('/ko/notice') || pathname?.startsWith('/ko/faq') || pathname?.startsWith('/ko/news') || pathname?.startsWith('/ko/insights') || false;
   const isDev = pathname?.startsWith('/ko/dev') ?? false;
   const isVast = pathname?.startsWith('/ko/solutions/vast-data') ?? false;
 
