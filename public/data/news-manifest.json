@@ -19,17 +19,17 @@
     {
       "key": "2026-Q1",
       "file": "news-2026-Q1.json",
-      "count": 80,
+      "count": 140,
       "sources": {
-        "VAST Data": 60,
+        "VAST Data": 120,
         "HPE": 20
       },
       "dateRange": {
-        "from": "2026-02-19",
+        "from": "2026-02-11",
         "to": "2026-03-28"
       }
     }
   ],
-  "totalItems": 280,
-  "lastUpdated": "2026-04-10T21:49:16.147Z"
+  "totalItems": 340,
+  "lastUpdated": "2026-04-10T22:02:32.885Z"
 }
