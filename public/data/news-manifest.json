@@ -3,17 +3,17 @@
     {
       "key": "2026-Q2",
       "file": "news-2026-Q2.json",
-      "count": 209,
+      "count": 217,
       "sources": {
-        "보안뉴스": 81,
+        "보안뉴스": 87,
+        "SecurityWeek": 45,
+        "BleepingComputer": 56,
         "VAST Data": 7,
-        "BleepingComputer": 55,
-        "Dell": 22,
-        "SecurityWeek": 44
+        "Dell": 22
       },
       "dateRange": {
         "from": "2026-04-02",
-        "to": "2026-04-12"
+        "to": "2026-04-13"
       }
     },
     {
@@ -32,9 +32,9 @@
     {
       "key": "2025-Q4",
       "file": "news-2025-Q4.json",
-      "count": 86,
+      "count": 146,
       "sources": {
-        "VAST Data": 86
+        "VAST Data": 146
       },
       "dateRange": {
         "from": "2025-11-12",
@@ -42,6 +42,6 @@
       }
     }
   ],
-  "totalItems": 468,
-  "lastUpdated": "2026-04-12T02:55:25.047Z"
+  "totalItems": 536,
+  "lastUpdated": "2026-04-13T03:00:21.790Z"
 }
