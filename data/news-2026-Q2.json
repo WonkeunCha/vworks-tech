@@ -3,6 +3,78 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "[보안 최전선 ④] 장현호 토스증권 매니저 “보안 완성은 기술 아닌 ‘소통’”",
+      "summary": "단순 통제 벗어나 비즈니스 조력자로... 이해관계자 설득하는 ‘소프트 스킬’ 필수개발 단계부터 보안 내재화하는 ‘시프트 레프트(Shift-Left)’, 구성원 공감대 형성이 먼저브라우저·앱·CLI 아우른 모니터링으로 AI 환경의 유연성과 안전성 동시 확보[보안뉴스 조재호 기자] “보안팀은 회사의 ‘얼굴’이라기보다 ‘허리’에 가까운 조직입니다. 허리가 무너지",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143137&kind=&sub_kind=",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“구글도 못 본다” G메일 모바일 앱에 ‘종단간 암호화’ 도입",
+      "summary": "안드로이드 및 iOS 앱에 클라이언트측 암호화(CSE) 적용, 서버 도달 전 데이터 보호자물쇠 아이콘 탭으로 간편한 보안... 외부 수신자도 계정 없이 웹 브라우저로 확인 가능[보안뉴스 김형근 기자] 구글이 안드로이드 및 iOS용 지메일 앱에 ‘종단간 암호화’(E2EE) 기능을 공식 출시해 기업용 모바일 보안 체계 강화에 나섰다. 이번 업데이트로 사용자는",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143130&kind=&sub_kind=",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "개인정보 유출 공공기관, 패널티 대폭 확대... 보호 노력 배점도 늘어",
+      "summary": "개인정보위, 2026년 공공기관 개인정보 보호수준 평가계획 확정감점 최대치 2배 높이고 보호 노력 배점도 늘려 [보안뉴스 강현주 기자] 개인정보 유출 사고가 난 공공기관들은 ‘개인정보 보호수준 평가’에서 감점 최대치가 두 배가 된다. 보호 노력에 대한 배점도 늘어난다. 개인정보보호위원회(위원장 송경희)는 공공부문의 실질적인 개인정보 보호 역량을 높이기 위한",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143136&kind=&sub_kind=",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "국가 수사기관 도청망 해킹 사고... FBI, “중요 사건”",
+      "summary": "FBI 도청 시스템 DCSNet, 중국 연계 해커 추정 공격으로 침해ISP 공급망 우회 침투... 개인정보·도청 데이터 유출 가능성[보안뉴스 김형근 기자] 미국 연방수사국(FBI) 범죄 수사의 핵심 보루인 국가 도청망이 2월 중국 연계 해커 소행으로 추정되는 공격으로 뚫린 가운데, FBI가 이 사건을 국가 안보에 직결된 ‘중요 사건’(Major Incide",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143132&kind=&sub_kind=",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "소프트캠프, 일본서 안전한 AI 위한 보안 제시... ‘재팬 IT 위크 스프링 2026’ 참가",
+      "summary": "AI 서비스 환경의 안전한 격리 및 클라우드 데이터 보호 제안 [보안뉴스 강현주 기자] 사이버 보안 전문기업 소프트캠프(대표 배환국)가 일본 시장에 생성형 AI 시대에 대응하는 보안 솔루션들을 선보였다. 소프트캠프는 8일부터 10일까지 사흘간 일본 도쿄 빅사이트에서 열린 B2B IT 전시회 ‘재팬 IT 위크 스프링 2026’에 참가했다.재팬 IT 위크는",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143134&kind=&sub_kind=",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "안랩, 일본서 CPS 보안 솔루션 선보여... ‘재팬 IT 위크 스프링 2026’ 참가",
+      "summary": "성능 저하 최소화 경량 설계 및 구형 설비 보호 호평[보안뉴스 강현주 기자] 안랩(대표 강석균)이 일본에서 자사 사이버물리시스템(CPS) 보안 솔루션을 선보였다.안랩은 8일부터 10일까지 3일간 일본 도쿄 빅 사이트에서 열린 일본 최대 IT 전시회 ‘재팬 IT 위크 스프링 2026’에서 일본 법인 및 파트너사 ‘미카사 상사’와 함께 부스를 운영했다. 여기서",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143131&kind=&sub_kind=",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "어도비, 수개월간 악용된 리더 제로데이 취약점 패치",
+      "summary": "어도비가 PDF 리더에서 발견된 제로데이 취약점을 패치했습니다. 이 취약점은 수개월 동안 공격자들에게 악용되어온 것으로 파악됩니다. 제로데이 취약점은 개발사가 인지하지 못한 상태에서 공격자가 먼저 발견해 악용하는 보안 위협입니다. 어도비는 즉시 보안 업데이트를 배포하여 사용자들을 보호하도록 권고했습니다. 사용자들은 최신 버전으로 업데이트할 것을 강력히 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/adobe-patches-reader-zero-day-exploited-for-months/",
+      "date": "2026-04-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Marimo의 심각한 인증 전 원격 코드 실행 취약점이 현재 악용 중",
+      "summary": "Marimo에서 발견된 심각한 수준의 인증 전 원격 코드 실행(RCE) 취약점이 현재 실제로 악용되고 있습니다. 이 취약점은 공격자들이 자격증명을 탈취하는 데 활용되고 있으며, 인증 없이도 원격에서 코드를 실행할 수 있도록 합니다. Marimo 사용자들은 이 활발한 악용 위협으로부터 보호하기 위해 긴급한 조치를 취할 필요가 있습니다. 이 취약점의 심각성과 현재의 활발한 악용 상황을 고려하면, 즉각적인 패치 적용이 권장됩니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/critical-marimo-pre-auth-rce-flaw-now-under-active-exploitation/",
+      "date": "2026-04-12"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "‘GTA6’ 개발사 락스타게임즈, 해킹 협박 받아",
       "summary": "“해킹 사실 확인했으나 중요한 데이터 아냐”외부 요금 관리 프로그램 해킹... 공급망 보안 중요성 부각[보안뉴스 강현주 기자] ‘GTA6’ 개발사 락스타게임즈가 해킹 그룹 샤이니헌터스로부터 주요 데이터 유출 협박을 받았다.11일(현지시간) 해외 보안 및 게임 매체들은 샤이니헌터스가 다크웹 사이트에 락스타게임즈에 대해 게시했다고 보도했다. 샤이니헌터스는 락스",
       "category": "보안",
@@ -1884,10 +1956,10 @@
     }
   ],
   "sources": {
-    "보안뉴스": 81,
+    "보안뉴스": 87,
+    "SecurityWeek": 45,
+    "BleepingComputer": 56,
     "VAST Data": 7,
-    "BleepingComputer": 55,
-    "Dell": 22,
-    "SecurityWeek": 44
+    "Dell": 22
   }
 }
