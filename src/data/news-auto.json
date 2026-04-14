@@ -535,9 +535,349 @@
     "http://www.boannews.com/media/view.asp?idx=143136&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143132&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143134&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=143131&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=143131&kind=&sub_kind=",
+    "https://www.dell.com/en-us/blog/what-the-last-three-years-of-ai-have-taught-me/",
+    "https://www.dell.com/en-us/blog/intel-vpro-provisioning-for-dell-devices/",
+    "https://www.hpe.com/us/en/newsroom/blog-post/2026/04/the-road-to-quantum-advantage-starts-with-supercomputing.html",
+    "https://www.vastdata.com/blog/the-grand-unification-theory-of-ai-infrastructure-part-2",
+    "https://www.vastdata.com/blog/the-legacy-nas-kill-shot-pcie-gen4",
+    "https://www.vastdata.com/blog/the-next-generation-database-for-the-ai-era",
+    "https://www.vastdata.com/blog/the-nhl-turned-century-footage-real-time-ai-engine",
+    "https://www.vastdata.com/blog/the-parallels-between-formula-1-cars-and-parallel-file-systems",
+    "https://www.vastdata.com/blog/the-parrot-was-just-the-canary-in-the-coal-mine",
+    "https://www.vastdata.com/blog/the-path-to-the-green-data-center",
+    "https://www.vastdata.com/blog/the-philosophy-of-lightspeed",
+    "https://www.vastdata.com/blog/the-quest-to-build-thinking-machines",
+    "https://www.vastdata.com/blog/the-rule-of-nines",
+    "https://www.vastdata.com/blog/the-vast-catalog-in-action-part-1",
+    "https://www.vastdata.com/blog/the-vast-catalog-in-action-part-2",
+    "https://www.vastdata.com/blog/the-vast-data-platform-supply-chain-our-zettabyte-trajectory",
+    "https://www.vastdata.com/blog/the-vast-data-platform-turning-point",
+    "https://www.vastdata.com/blog/the-vast-future-ahead",
+    "https://www.vastdata.com/blog/three-ways-ai-investment-can-improve-national-security-today",
+    "https://www.vastdata.com/blog/to-infinity-and-beyond",
+    "https://www.vastdata.com/blog/to-infinity-and-beyond-ai-gpudirect-storage-is-happening",
+    "https://www.vastdata.com/blog/tools-of-the-trade-how-ai-powered-personal-agents-are-revolutionary",
+    "https://www.vastdata.com/blog/trino-on-vast-real-time-sql-ai-ready-infrastructure",
+    "https://www.vastdata.com/blog/unified-ai-for-smarter-city-operations",
+    "https://www.vastdata.com/blog/unleash-real-time-data-introducing-vast-database-apache-flink-connector",
+    "https://www.vastdata.com/blog/unlocking-real-time-ai-with-vast-insightengine",
+    "https://www.vastdata.com/blog/unveiling-cisco-nexus-hyperfabric-for-ai",
+    "https://www.vastdata.com/blog/uplink-anomaly-detection",
+    "https://www.vastdata.com/blog/vast-acceldata-unified-path-modernizing-hadoop-unlocking-ai",
+    "https://www.vastdata.com/blog/vast-at-nab-powering-the-future-of-media-creation",
+    "https://www.vastdata.com/blog/vast-certified-as-a-secure-financial-services-datastore",
+    "https://www.vastdata.com/blog/vast-data-advances-ai-storage-leadership-with-nvidia-certified-storage",
+    "https://www.vastdata.com/blog/vast-data-and-hipaa-compliance",
+    "https://www.vastdata.com/blog/vast-data-expands-engineering-team-in-u-s-opens-new-office-in-raleigh-nc",
+    "https://www.vastdata.com/blog/vast-data-introduces-sorted-tables-accelerate-ai-pipelines",
+    "https://www.vastdata.com/blog/vast-dataengine-bringing-compute-to-your-data",
+    "https://www.vastdata.com/blog/vast-dataengine-the-compute-fabric-for-real-time-governed-data-operations",
+    "https://www.vastdata.com/blog/vast-for-big-data-applications",
+    "https://www.vastdata.com/blog/vast-ignites-a-new-era-of-pediatric-cancer-care-with-real-time-genomics",
+    "https://www.vastdata.com/blog/vast-named-best-deep-learning-platform-in-2024-ai-breakthrough-awards",
+    "https://www.vastdata.com/blog/vast-named-overall-data-technology-company-of-the-year-in-2024-data",
+    "https://www.vastdata.com/blog/vast-plants-flag-in-italy-with-university-of-pisa",
+    "https://www.vastdata.com/blog/vast-replication-goes-native",
+    "https://www.vastdata.com/blog/vast-unleashes-ai-agents-for-next-gen-quant-insight",
+    "https://www.vastdata.com/blog/vast-unveils-first-ever-platform-for-real-time-risk-neutralization",
+    "https://www.vastdata.com/blog/vast-unveils-game-changing-ai-agent-connect-enterprise-data",
+    "https://www.vastdata.com/blog/vast-vector-search-the-right-foundation-for-real-time-ai",
+    "https://www.vastdata.com/blog/vast-veeam-what-a-difference-a-year-makes",
+    "https://www.vastdata.com/blog/vasts-co-pilot-dedicated-to-your-success",
+    "https://www.vastdata.com/blog/vasts-position-on-intel-optane-discontinuation-nothing-changes",
+    "https://www.vastdata.com/blog/vectors-vision-velocity-vast-rag-pipelines-in-action",
+    "https://www.vastdata.com/blog/watch-vast-just-works",
+    "https://www.vastdata.com/blog/weve-got-the-write-stuff-baby",
+    "https://www.vastdata.com/blog/what-breaks-scale-s3-illusion-physics-infrastructure",
+    "https://www.vastdata.com/blog/when-legacy-architectures-resort-to-being-sold-on-legacy-features",
+    "https://www.vastdata.com/blog/when-simplicity-pairs-with-scale",
+    "https://www.vastdata.com/blog/when-software-becomes-the-system",
+    "https://www.vastdata.com/blog/when-worlds-collide-the-vast-data-platform-is-now-nvidia-cloud-partner",
+    "https://www.vastdata.com/blog/why-data-strategy-is-starving-ai-sabotaging-your-gpus",
+    "https://www.vastdata.com/blog/why-everyones-talking-about-nvidia-dynamo-and-why-it-actually-matters",
+    "https://www.vastdata.com/blog/why-so-many-ai-clouds-are-betting-on-the-same-data-platform",
+    "https://www.vastdata.com/blog/why-your-siem-needs-a-vast-cyber-lakehouse",
+    "https://www.vastdata.com/blog/world-wide-technology-named-vast-partner-of-the-year",
+    "https://www.securityweek.com/booking-com-says-hackers-accessed-user-information/",
+    "https://www.securityweek.com/browsergate-claims-of-linkedin-spying-clash-with-security-research-findings/",
+    "https://www.securityweek.com/openai-impacted-by-north-korea-linked-axios-supply-chain-hack/",
+    "https://www.securityweek.com/international-operation-targets-multimillion-dollar-crypto-theft-schemes/",
+    "https://www.securityweek.com/cpuid-hacked-to-serve-trojanized-cpu-z-and-hwmonitor-downloads/",
+    "https://www.securityweek.com/fake-claude-website-distributes-plugx-rat/",
+    "https://www.securityweek.com/gmail-brings-end-to-end-encryption-to-android-and-ios-for-enterprise-users/",
+    "https://www.bleepingcomputer.com/news/security/european-gym-giant-basic-fit-data-breach-affects-1-million-members/",
+    "https://www.bleepingcomputer.com/news/security/stolen-rockstar-games-analytics-data-leaked-by-extortion-gang/",
+    "https://www.bleepingcomputer.com/news/security/critical-flaw-in-wolfssl-library-enables-forged-certificate-use/",
+    "https://www.bleepingcomputer.com/news/security/fbi-takedown-of-w3ll-phishing-service-leads-to-developer-arrest/",
+    "https://www.bleepingcomputer.com/news/security/openai-rotates-macos-certs-after-axios-attack-hit-code-signing-workflow/",
+    "https://www.bleepingcomputer.com/news/security/new-bookingcom-data-breach-forces-reservation-pin-resets/",
+    "https://www.bleepingcomputer.com/news/security/adobe-rolls-out-emergency-fix-for-acrobat-reader-zero-day-flaw/",
+    "https://www.bleepingcomputer.com/news/security/the-silent-storm-new-infostealer-hijacks-sessions-decrypts-server-side/",
+    "http://www.boannews.com/media/view.asp?idx=143147&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143146&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143145&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143144&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143128&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143133&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143129&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143142&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143141&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143139&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[미토스 충격] IMF 총재 “세계 통화 시스템, AI 공격에 무방비”",
+      "summary": "게오르기에바 총재 공식 경고, 미국 재무부 긴급 소집에 이어 글로벌 위기설 확산17일 춘계 회의서 가드레일 논의... 앤트로픽 기술 독점 배포에 따른 안보 불평등 논란[보안뉴스 김형근 기자] 세계 통화 시스템이 AI에 의한 사이버 위협에 대응할 준비가 돼 있지 않다는 국제통화기금(IMF)의 경고가 나왔다. 앤트로픽의 신형 AI 모델 ‘미토스’(Mythos)",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143147&kind=&sub_kind=",
+      "date": "2026-04-14"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“AI 캐리커처, 신원 사칭 위험 주의”",
+      "summary": "“내 모든 정보 기반 생성... 디지털 사기 노출 위험”프롬프트에 본인 식별 가능 정보 입력 자제 등 주의 필요[보안뉴스 강현주 기자] AI 활용 캐리커처나 애니메이션 제작 도구에 개인 맥락 정보를 공유하는 것이 신원 사칭 및 사회공학 공격을 초래할 수 있다는 경고가 나왔다.14일 글로벌 보안 기업 카스퍼스키(한국지사장 이효은)는 AI 캐리커처가 개인의 모",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143146&kind=&sub_kind=",
+      "date": "2026-04-14"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[미토스 충격] 캐나다도 ‘미토스’ 경계령... 금융권 뒤흔드는 AI 위협 공조",
+      "summary": "[보안뉴스 김형근 기자] 캐나다 중앙은행과 주요 대형 은행들이 10일(현지시간) 긴급 회동해 앤스로픽(Anthropic)의 최신 AI 모델 ‘미토스’(Mythos)가 초래할 사이버 보안 리스크를 자세히 논의했다.이번 회의는 미국 재무장관과 연준 의장이 월스트리트 수장들을 소집한 직후 이뤄진 조치로, 글로벌 금융권의 심각한 우려를 반영한다.회의에는 캐나다 금",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143145&kind=&sub_kind=",
+      "date": "2026-04-14"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "오내피플, ‘재팬 IT 위크 스프링 2026’ 성료... 일본 개인정보보호 시장 확장",
+      "summary": "2025년 가을 전시 이어 연속 참가... 현지 바이어 ‘캐치시큐’ 높은 호응SI 개발사, 티켓 판매 플랫폼 등 다양한 현지 산업군과 솔루션 도입 의사 타진ISO 국제 표준 인증 4종 기반 압도적 보안성 앞세워 글로벌 시장 개척 본격화[보안뉴스 강초희 기자] 오내피플(대표 조아영)이 일본 최대 규모 IT 전시회 ‘재팬 IT 위크 스프링 2026’(Japa",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143144&kind=&sub_kind=",
+      "date": "2026-04-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "지난 3년간의 AI가 내게 가르쳐준 것들",
+      "summary": "지난 3년간 AI는 교사, 현장 직원, 전체 기업에서 일상적으로 사용되는 주류 기술로 급부상했으며, 이는 대부분의 사람들이 예상하지 못했던 일입니다. 첫 번째 교훈은 예상 불가능한 변화를 수용해야 한다는 것으로, AI의 급속한 등장은 기존의 3~5년 장기 계획 방식이 더 이상 작동하지 않음을 보여주었습니다. 따라서 미래가 무엇인지 완전히 알 필요는 없지만, 빠르게 적응할 준비는 항상 되어있어야 합니다. 두 번째 교훈은 '규모'의 의미가 크게 변했다는 것으로, COVID 이전의 예측 가능한 확장 논의와는 달리 현재는 기업의 기초 구조가 빠르게 변화하고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/what-the-last-three-years-of-ai-have-taught-me/",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell 디바이스용 Intel vPro 프로비저닝",
+      "summary": "완벽한 제로터치 프로비저닝: 클라우드 기반 Intel vPro® AMT 활성화를 통해 BIOS 접촉, 유선 네트워크, 온프레미스 스테이징 없이 첫 부팅 시 자동으로 소유권이 확립됩니다. 현대적 업무 방식을 위해 설계됨: Dell과 Intel이 공동 개발한 이 하드웨어 기반 접근 방식은 원격 및 Wi-Fi 전용 사용자를 지원하면서 글로벌 배포를 단순화합니다. 제로트러스트 준비 완료 확장성: 어디서나 안전하고 일관성 있는 확장 가능한 함대 관리를 가능하게 하는 업계 최초의 혁신 기술입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/intel-vpro-provisioning-for-dell-devices/",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "양자 컴퓨팅의 이점으로 가는 길은 슈퍼컴퓨팅에서 시작된다",
+      "summary": "양자 컴퓨팅은 기존에 해결하지 못했던 문제들을 극복할 수 있는 새로운 기회의 시대를 열어가고 있습니다. 양자 물리학을 활용하여 정보를 처리함으로써 전통적인 컴퓨팅과는 근본적으로 다르면서도 상호 보완적인 접근 방식을 제공합니다. Pawsey 슈퍼컴퓨팅 연구 센터의 Pascal Elahi 박사와의 논의를 통해 정밀 의료 분야의 실제 사례를 살펴볼 수 있습니다. 그는 공동 연구를 통해 바이오마커 지표가 어떻게 양자 컴퓨팅을 통해 더욱 정확하게 분석될 수 있는지 설명했습니다. 양자 컴퓨팅의 발전은 의료, 과학, 산업 등 다양한 분야에서 혁신적인 문제 해결을 가능하게 할 것으로 기대됩니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/04/the-road-to-quantum-advantage-starts-with-supercomputing.html",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Booking.com, 해커의 사용자 정보 접근 확인",
+      "summary": "글로벌 여행 예약 플랫폼 Booking.com이 해커들에 의한 사용자 정보 접근 사건을 확인했습니다. 이번 보안 침해로 인해 사용자들의 개인 정보가 유출될 수 있는 위험에 노출되었습니다. Booking.com은 해당 사건에 대해 조사 중이며 영향을 받은 사용자들에게 알려줄 예정입니다. 해커들이 정확히 어떤 범위의 정보에 접근했는지는 현재 파악 중입니다. 사용자들은 계정 보안을 강화하고 의심스러운 활동에 주의할 것이 권장됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/booking-com-says-hackers-accessed-user-information/",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "BrowserGate: LinkedIn '감시' 주장과 보안 연구 결과의 불일치",
+      "summary": "BrowserGate라고 불리는 사건에서 LinkedIn이 사용자를 감시한다는 주장이 제기되었습니다. 그러나 보안 연구 결과는 이러한 주장과 상충하는 내용을 보여주고 있습니다. 이 논쟁은 기술 업체의 데이터 수집 관행과 사용자 프라이버시 보호 사이의 긴장 관계를 드러냅니다. 보안 전문가들은 실제 위협의 정도와 기술적 근거에 대해 상이한 견해를 제시하고 있습니다. 이 사건은 기술 기업의 투명성과 사용자 신뢰의 중요성을 강조합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/browsergate-claims-of-linkedin-spying-clash-with-security-research-findings/",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpenAI, 북한 연계 Axios 공급망 해킹으로 피해",
+      "summary": "OpenAI가 북한과 연계된 것으로 알려진 Axios 공급망 해킹 공격의 영향을 받았습니다. 이 공격은 소프트웨어 공급망을 통해 대규모 조직을 표적으로 한 것으로 보이며, OpenAI를 포함한 주요 기업들이 영향을 받은 것으로 확인되었습니다. 공급망 공격은 신뢰할 수 있는 소프트웨어나 서비스를 통해 악성 코드를 배포하는 방식으로, 방어가 어려운 고위험 위협입니다. 북한과 연계된 해킹 그룹들은 지속적으로 고급 공격 기술을 개발하고 있으며, 이번 사건은 글로벌 기업들의 보안 체계에 대한 심각한 도전을 의미합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/openai-impacted-by-north-korea-linked-axios-supply-chain-hack/",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "국제 공동 작전, 수백만 달러 규모 암호화폐 도난 사건 적발",
+      "summary": "제공하신 기사 콘텐츠가 JavaScript 보안 검증 페이지로 인해 실제 본문이 로드되지 않아 정확한 내용 파악이 불가능합니다. 다만 제목으로 보아 국제 단위의 법 집행 기관들이 대규모 암호화폐 절도 범죄 조직을 적발하는 내용으로 추정됩니다. 이러한 국제 공동 작전은 암호화폐 관련 금융 범죄에 대한 글로벌 차원의 대응 강화를 나타냅니다. 기술적 접근성 문제로 인해 정확한 피해 규모, 적발된 용의자 정보, 수사 과정 등 구체적인 내용을 제공해드리지 못점 양해 부탁드립니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/international-operation-targets-multimillion-dollar-crypto-theft-schemes/",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CPUID 해킹으로 트로이목마 버전의 CPU-Z 및 HWMonitor 배포",
+      "summary": "CPUID 공식 웹사이트가 해킹당하여 악성 버전의 CPU-Z와 HWMonitor 소프트웨어가 배포되었습니다. 공격자들은 정상적인 다운로드 링크를 변조하여 트로이목마가 포함된 파일을 사용자들에게 제공했습니다. 이러한 악성 소프트웨어는 사용자의 시스템 정보를 수집하거나 추가 악성 코드를 설치할 수 있습니다. CPUID는 보안 침해 사실을 인지하고 웹사이트를 오프라인으로 전환했으며, 영향을 받은 사용자들에게 즉시 설치된 소프트웨어를 제거할 것을 권고했습니다. 이는 공급망 공격의 위험성을 다시 한 번 보여주는 사건입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cpuid-hacked-to-serve-trojanized-cpu-z-and-hwmonitor-downloads/",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "가짜 Claude 웹사이트가 PlugX RAT 배포",
+      "summary": "공격자들이 인기 있는 AI 어시스턴트 Claude를 모방한 가짜 웹사이트를 만들어 사용자들을 속이고 있습니다. 이 악성 사이트를 통해 PlugX RAT(Remote Access Trojan)이라는 위험한 악성코드가 배포되고 있습니다. PlugX RAT은 피해자의 컴퓨터에 원격 접근 권한을 부여하여 데이터 탈취, 시스템 제어, 추가 악성코드 설치 등의 악의적 행동을 가능하게 합니다. 사용자들은 Claude 접속 시 공식 도메인(claude.ai)인지 확인하고, 의심스러운 링크 클릭을 피해야 합니다. 이러한 피싱 공격은 정당한 서비스로 위장하여 사용자의 경계심을 낮추는 전형적인 사이버 공격 수법입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/fake-claude-website-distributes-plugx-rat/",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Gmail, 엔터프라이즈 사용자를 위해 Android 및 iOS에서 종단간 암호화 지원 시작",
+      "summary": "Google이 Gmail 모바일 앱에서 엔터프라이즈 사용자를 대상으로 종단간 암호화(End-to-End Encryption) 기능을 제공하기 시작했습니다. 이 기능은 Android와 iOS 플랫폼 모두에서 이용 가능하며, 이메일 통신의 보안성을 대폭 강화합니다. 종단간 암호화를 통해 메시지는 발신자와 수신자만 읽을 수 있으며, Google을 포함한 제3자는 내용을 확인할 수 없습니다. 이는 민감한 기업 정보를 다루는 조직들의 데이터 보호 요구사항을 충족하기 위한 조치입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/gmail-brings-end-to-end-encryption-to-android-and-ios-for-enterprise-users/",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "유럽 대형 피트니스 기업 Basic-Fit 데이터 유출, 100만 명 회원 정보 노출",
+      "summary": "네덜란드의 대형 피트니스 기업 Basic-Fit이 해킹 공격으로 인해 시스템이 침해되었으며, 약 100만 명의 고객 정보가 유출되었다. 공격자들이 회원들의 개인 정보에 접근할 수 있었던 것으로 확인되었다. 이번 데이터 유출 사건은 유럽의 주요 피트니스 기업을 대상으로 한 중대한 보안 침해 사건이다. Basic-Fit은 이 사건에 대해 공식적으로 발표했으며, 영향을 받은 고객들에게 알리는 절차를 진행 중이다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/european-gym-giant-basic-fit-data-breach-affects-1-million-members/",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "로ckstar 게임즈 탈취 분석 데이터, 협박 조직에 의해 유출",
+      "summary": "로ckstar 게임즈가 Anodot의 최근 보안 사건과 연련된 데이터 유출 사고를 당했습니다. ShinyHunters 협박 조직이 탈취한 데이터를 자신들의 데이터 유출 사이트에 공개했습니다. 이번 사건으로 인해 로kstar 게임즈의 분석 데이터가 외부에 노출되었으며, 협박 조직은 신원 미상의 요구 사항을 제시한 것으로 알려졌습니다. 이는 공급망을 통한 보안 침해의 또 다른 사례로, Anodot을 통해 로kstar 게임즈의 시스템에 접근된 것으로 추정됩니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/stolen-rockstar-games-analytics-data-leaked-by-extortion-gang/",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "wolfSSL 라이브러리의 심각한 결함으로 위조된 인증서 사용 가능",
+      "summary": "wolfSSL SSL/TLS 라이브러리에서 발견된 심각한 취약점으로 인해 타원곡선 디지털 서명 알고리즘(ECDSA) 서명 검증 시 해시 알고리즘이나 크기를 부적절하게 검증하는 문제가 발생하고 있습니다. 이 결함은 공격자가 위조된 인증서를 만들어 보안을 우회할 수 있게 하며, 암호화 서명 검증 과정에서의 약점을 악용합니다. wolfSSL 라이브러리를 사용하는 다양한 응용 프로그램과 시스템의 보안이 영향을 받을 수 있습니다. 이는 디지털 서명과 인증서 기반 보안 메커니즘을 사용하는 모든 시스템에 잠재적인 위협이 됩니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/critical-flaw-in-wolfssl-library-enables-forged-certificate-use/",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "FBI, W3LL 피싱 서비스 적발 및 개발자 체포",
+      "summary": "FBI 애틀랜타 지부와 인도네시아 당국이 글로벌 피싱 플랫폼 'W3LL'을 성공적으로 적발하여 인프라를 압수하고 alleged 개발자를 체포했습니다. 이번 작전은 미국과 인도네시아가 피싱 키트 개발자를 대상으로 처음으로 조율하여 진행한 단속 활동입니다. W3LL은 사이버범죄자들에게 피싱 서비스를 제공하는 피싱 서비스형(Phishing-as-a-Service) 플랫폼으로 알려져 있었습니다. 이번 성공적인 적발은 국제 사이버 범죄 단속에서 중요한 이정표가 되었습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/fbi-takedown-of-w3ll-phishing-service-leads-to-developer-arrest/",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpenAI, Axios 공급망 공격으로 macOS 인증서 로테이션 실시",
+      "summary": "OpenAI가 최근 발생한 Axios 패키지 공급망 공격으로 인해 노출된 가능성이 있는 macOS 코드 서명 인증서를 로테이션하고 있습니다. 공격자들은 GitHub Actions 워크플로우에 악성 Axios 패키지를 실행시켜 OpenAI의 코드 서명 워크플로우를 손상시켰습니다. 이번 사건은 OpenAI의 개발 환경에 직접적인 보안 위협이 되었으며, 민감한 코드 서명 인증서가 잠재적으로 유출되었을 가능성이 있습니다. OpenAI는 즉시 영향받은 인증서들을 교체하여 향후 공격을 방지하기 위한 조치를 취했습니다. 이는 소프트웨어 공급망 보안이 얼마나 중요한지를 다시 한번 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/openai-rotates-macos-certs-after-axios-attack-hit-code-signing-workflow/",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Booking.com 새로운 데이터 유출, 예약 PIN 초기화 강제",
+      "summary": "Booking.com이 자사 시스템에 대한 무단 접근을 감지했으며, 이로 인해 민감한 예약 정보와 사용자 데이터가 노출되었음을 BleepingComputer에 확인했습니다. 이번 보안 침해 사건으로 인해 고객들은 예약 PIN을 초기화해야 합니다. 회사는 현재 상황을 조사 중이며 영향을 받은 사용자들에게 알림을 발송하고 있습니다. 사용자들은 자신의 계정 보안을 강화하기 위해 비밀번호 변경 등의 조치를 취할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-bookingcom-data-breach-forces-reservation-pin-resets/",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Adobe, Acrobat 및 Reader 제로데이 취약점에 긴급 패치 배포",
+      "summary": "Adobe가 Acrobat Reader의 취약점 CVE-2026-34621을 수정하는 긴급 보안 업데이트를 공개했습니다. 해당 취약점은 최소 12월부터 제로데이 공격으로 악용되어 왔습니다. 이 결함은 원격 코드 실행(RCE)을 야기할 수 있어 사용자들에게 즉각적인 위험을 초래합니다. Adobe는 이미 활발하게 악용 중인 이 취약점을 긴급으로 패치하기 위해 즉시 조치를 취했습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/adobe-rolls-out-emergency-fix-for-acrobat-reader-zero-day-flaw/",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 'Storm' 정보 탈취 악성코드: 세션 하이재킹 및 서버 측 복호화",
+      "summary": "Varonis에서 발견한 새로운 'Storm' 정보 탈취 악성코드는 기존의 로컬 복호화 방식을 건너뛰고 브라우저 데이터를 직접 공격자 서버로 전송한다. 이 악성코드는 서버 측 복호화 기능을 활용하여 사용자의 세션을 탈취하고 비밀번호 및 다중 인증(MFA)을 우회할 수 있는 능력을 가지고 있다. 이러한 침묵의 공격 방식은 기존의 탐지 시스템을 회피하면서도 높은 수준의 보안 침해를 야기한다. 보안 전문가들은 이 새로운 위협에 대응하기 위해 강화된 모니터링과 세션 보호 메커니즘의 도입을 권장하고 있다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/the-silent-storm-new-infostealer-hijacks-sessions-decrypts-server-side/",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "히타치 밴타라, 에이전틱 AI 도입 가속화하는 ‘히타치 iQ 스튜디오’ 공개",
+      "summary": "기업용 AI 에이전트 구축·운영을 간소화하는 통합 플랫폼노코드 에이전트 빌더와 온프레미스 보안 환경 제공 [보안뉴스 강초희 기자] HS효성인포메이션시스템(대표 양정규)은 자사가 총판을 맡고 있는 히타치 밴타라(Hitachi Vantara)가 새 AI 소프트웨어 ‘히타치 iQ 스튜디오’(Hitachi iQ Studio)를 공개했다고 밝혔다.히타치 iQ 스튜디",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143128&kind=&sub_kind=",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "우리나라 이동형 재난통신 차량 기술, 아태지역 국제표준 채택",
+      "summary": "한국이 제안한 이동형 재난통신 차량 기술, APT AWG 회의에서 아태 국제표준 채택기지국 마비 시 차량 기반 통신 지원... 위성 연계·전파 간섭 최소화 기술 포함재난 대응 통신 안정성 확보 기대 ↑ 국내 기술력 국제 경쟁력 입증[보안뉴스 강초희 기자] 행정안전부(장관 윤호중)는 우리나라가 제안한 이동형 재난통신 차량 기술이 아시아·태평양 지역 국제표준에",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143133&kind=&sub_kind=",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "아마노코리아-가디언AI, 지능형 순찰 로봇 시장 선점 협력",
+      "summary": "주차 인프라 운영 노하우와 로봇 AI 기술 결합... 현장 적용성 강화실시간 모니터링·데이터 기반 통합 관리 가능한 로봇 보안 체계 구축[보안뉴스 강초희 기자] 아마노코리아(대표 전명진)가 가디언AI(대표 이상현)와 지하주차장 및 복합 시설물에 최적화된 순찰 로봇 공동 개발과 사업 협력을 위해 업무협약(MOU)을 맺었다. 이번 협약으로 전국 단위 주차 인프",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143129&kind=&sub_kind=",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "‘K-에너지 AIDC’ 방향은?... “데이터 ‘파편화’ 잡고 N2SF 내재화”",
+      "summary": "[3줄 요약]1. 한전KDN, 에너지 특화 AIDC 구축 방향 공개... 18개월 실증2. “파편화 데이터 하나로 모으려면 데이터 거버넌스 중요”3. N2SF로 데이터 중심 보안... 추론 효율위해 국산 NPU 70%[보안뉴스 강현주 기자] 파편화된 데이터를 통합해 AI 효용을 극대화하고, 국가 망 보안체계(N2SF) 내재화로 데이터 중심 보안과 통제 주권",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143142&kind=&sub_kind=",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[한국정보공학기술사 보안을 論하다-36] 하이브리드 근무 시대, 보안 담당자의 일하는 방식을 혁신하다",
+      "summary": "생성형 AI와 협업을 통한 효율 극대화와 보안원칙의 균형[보안뉴스= 문정환 기술사] 기업 현장에서는 생성형 AI를 업무 보조 도구로 도입해 복잡하고 반복적인 작업을 혁신하려는 움직임이 가속화되고 있다. 사이버 공격은 날로 정교해지고 보안 규정은 더욱 까다로워지는 상황에서 보안담당자가 마주하는 업무적 중압감은 한계에 다다르고 있다. 이러한 시점에 생성형 AI",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143141&kind=&sub_kind=",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[배종찬의 보안 빅데이터] 핵보다 무서운 북한 암호화폐 해킹",
+      "summary": "라자루스·킴수키 등 국가급 해커 총동원... 통치 자금 확보 위한 경제적 약탈“사이버 안보, 단순 IT 문제 아닌 국가 생존 걸린 ‘제1의 국방’으로 격상해야”[보안뉴스= 배종찬 인사이트케이 연구소장] 현대 전쟁의 패러다임이 변하고 있다. 과거의 전쟁이 영토를 점령하고 물리적 파괴를 일삼는 방식이었다면 오늘날의 전쟁은 ‘그레이 존’(Gray Zone)이라",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143139&kind=&sub_kind=",
+      "date": "2026-04-13"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "[보안 최전선 ④] 장현호 토스증권 매니저 “보안 완성은 기술 아닌 ‘소통’”",
@@ -4140,6 +4480,546 @@
     },
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 인프라의 대통합 이론 Part 2",
+      "summary": "VAST Data의 공동창립자 Jeff Denworth가 2023년에 제시한 데이터 스택 통합 비전을 이어받아, VAST Data Platform이 AI와 전통 애플리케이션 모두에 타협 없이 대규모 통합을 실현할 수 있는 새로운 아키텍처임을 강조한다. VAST 고객들은 이미 수십 엑사바이트 규모의 인프라를 배포하여 최대 규모의 프론티어 모델 구축을 지원하고 있으며, 구조화되지 않은 대규모 데이터를 DataStore에, 메타데이터로서의 컨텍스트를 DataBase에 저장하고 있다. 현재 AI 발전 속도는 가속화되고 있으며, 최근 12개월간 추론 모델의 등장으로 '생각하는 기계'의 시대가 실제로 도래했다. 모든 진보적인 기업들은 자신의 비즈니스 핵심 로직을 에이전트 기반으로 변환하려는 경쟁에 참여 중이며, 투자 은행들은 직원 효율성 4배 개선을 목표로 하고 있다. 새로운 애플리케이션과 강력한 AI GPU 하드웨어가 갖춰진 상황에서 핵심 과제는 모든 조직이 에이전트 컴퓨팅으로의 여정을 시작할 수 있도록 단순하고 확장 가능한 솔루션을 제공하는 것이다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/the-grand-unification-theory-of-ai-infrastructure-part-2",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "레거시 NAS의 종말... PCIe Gen4",
+      "summary": "VAST Data의 이 블로그 글은 PCIe Gen4 기술이 기존의 레거시 NAS(Network Attached Storage) 시스템을 어떻게 대체하고 있는지를 다루고 있습니다. PCIe Gen4는 이전 세대 기술 대비 현저히 향상된 대역폭과 성능을 제공하여 데이터 센터의 스토리지 인프라에 혁신을 가져오고 있습니다. 레거시 NAS 시스템의 한계를 극복하기 위해 조직들은 더 빠르고 효율적인 스토리지 솔루션으로의 전환을 모색하고 있으며, PCIe Gen4 기반 아키텍처가 이러한 요구사항을 충족시키는 차세대 기술로 주목받고 있습니다. VAST Data는 이러한 기술적 전환을 통해 기업들이 높은 성능과 확장성을 갖춘 현대적인 스토리지 환경을 구축할 수 있음을 강조합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/the-legacy-nas-kill-shot-pcie-gen4",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 시대를 위한 차세대 데이터베이스",
+      "summary": "VAST Data가 제시하는 차세대 데이터베이스는 AI 시대의 급증하는 데이터 처리 수요에 맞춰 설계되었습니다. 기존 데이터베이스 시스템들이 대규모 데이터셋과 복잡한 AI 워크로드를 효율적으로 처리하지 못하는 한계를 극복하기 위해 개발되었으며, 고성능과 확장성을 동시에 제공합니다. 이 플랫폼은 머신러닝과 딥러닝 모델 학습에 필요한 빠른 데이터 접근 속도와 대용량 데이터 처리 능력을 갖추고 있습니다. VAST Data의 솔루션은 엔터프라이즈 환경에서 AI 애플리케이션의 성능을 극대화하고 비용 효율성을 높이도록 최적화되어 있습니다. 클라우드와 온프레미스 환경 모두에서 seamless하게 작동하며, 데이터 관리의 복잡성을 줄이면서도 강력한 기능을 제공합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/the-next-generation-database-for-the-ai-era",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "NHL이 실시간 AI 엔진으로 100년 분량의 영상 자산을 활용하다",
+      "summary": "NHL은 맨해튼 마천루 23층의 테이프 라이브러리에 보관된 100년 분량의 귀중한 영상 자산을 가지고 있었지만, 지연 시간과 접근성 문제로 인해 실제로 활용하지 못하고 있었습니다. 하키는 다른 스포츠와 달리 빠르기 때문에, 휘슬과 다음 플레이 사이 단 10초 안에 의미 있는 논평을 제공해야 하는 실시간성이 필수적입니다. VAST는 NHL과 6년에 걸쳐 32개 모든 경기장에 인프라를 구축하고, 경기 영상을 실시간으로 뉴욕 본사로 전송한 후 AI 모델로 분석하는 실시간 AI 최적화 데이터 파이프라인을 구축했습니다. LTO 테이프에 저장되었던 방대한 역사적 아카이브는 초당 테라바이트 처리량을 지원하는 플래시 플랫폼으로 이전되었으며, NVIDIA의 GPU 가속 플랫폼과 함께 수십 년 분량의 영상에서 즉각적인 인사이트를 도출할 수 있게 되었습니다. 이를 통해 신입 선수가 골을 넣었을 때 방송 해설자는 즉시 과거 유사한 플레이를 찾아낼 수 있게 되어, 현대적인 스포츠 스토리텔링의 새로운 기준을 제시하고 있습니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/the-nhl-turned-century-footage-real-time-ai-engine",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "포뮬러 1 자동차와 병렬 파일 시스템의 유사점",
+      "summary": "포뮬러 1 자동차는 최적화된 무게, 공기역학, 엔진 파워를 결합하여 트랙에서 최고 속도를 달성하는 머신이며, 각 트랙의 특성에 맞춰 세밀하게 튜닝되어 레이스 승리라는 단 하나의 목표를 향해 설계된다. 병렬 파일 시스템도 이와 유사한 철학으로 개발되었으며, 고성능 컴퓨팅(HPC) 작업의 높은 저장 용량과 성능 요구를 충족하기 위해 만들어졌다. HPC 작업은 수십 개에서 수백 개의 컴퓨팅 노드에서 확장되어 수천 개의 CPU 코어나 GPU를 활용하며, 입출력은 계산 단계 사이에 여러 번 발생한다. 병렬 파일 시스템의 최적화 목표는 입출력을 가능한 빠르게 처리하여 전체 작업 완료 시간을 최소화하는 것이다. 포뮬러 1 자동차처럼 병렬 파일 시스템도 성능 달성을 위해 어떤 타협도 없이 설계된 솔루션으로, 대규모 HPC 작업의 입출력 성능을 극대화하는 데 최적화된 전문화된 도구라고 할 수 있다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/the-parallels-between-formula-1-cars-and-parallel-file-systems",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "앵무새는 단지 탄광의 카나리일 뿐이었다",
+      "summary": "AI 모델은 단순한 모방기에서 대규모 엔터프라이즈 데이터 처리 시스템으로 빠르게 진화하고 있으며, 이러한 변화는 수년이 아닌 주 단위로 추적될 정도로 급속하다. 인터넷 콘텐츠를 따라하던 LLM에서 정교한 추론 능력을 갖춘 시스템으로의 전환은 데이터 및 인프라 관점에서 완전히 새로운 컴퓨팅 패러다임을 의미한다. 그러나 수십 년 전의 시스템 설계 방식이 여전히 오늘날에도 적용되고 있는 많은 경우, 차세대 AI에 대비하는 조직들은 이를 벗어나야 한다. VAST의 공동창립자 Jeff Denworth는 엔터프라이즈 데이터와 AI가 충돌할 때 초신성 효과가 발생할 것이라고 지적하며, 과거의 한계와 임시방편으로 설계된 시스템은 극도로 경쟁적인 미래 과제에 대응할 수 없을 것이라고 경고한다. 예를 들어 소매업 포춘 500대 기업이 역사 전체에 걸쳐 100페타바이트의 정형/비정형 데이터를 보유하고 있다면, 이 모든 데이터를 벡터화하여 조직의 과거, 현재, 미래에 대한 360도 전체 관점을 제공할 수 있다면 어떤 일이 벌어질까? 이 블로그는 대규모 데이터 세트의 벡터화 가능성과 차세대 AI 시스템의 혁신적 잠재력을 탐색하고 있다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/the-parrot-was-just-the-canary-in-the-coal-mine",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "녹색 데이터센터로의 경로",
+      "summary": "이 기사는 VAST Data가 제시하는 지속 가능한 데이터센터 구축의 방향성에 대해 다룹니다. 현대의 데이터센터는 막대한 에너지를 소비하고 있으며, 이는 환경 문제로 대두되고 있습니다. VAST Data는 효율적인 데이터 관리 시스템과 고급 기술을 통해 데이터센터의 에너지 소비를 줄이는 방안을 제안합니다. 녹색 데이터센터 구현을 위해서는 하드웨어 최적화, 소프트웨어 효율성 개선, 재생에너지 활용 등 다각적인 접근이 필요합니다. VAST Data의 솔루션은 기업들이 운영 비용을 절감하면서 동시에 환경 책임을 다할 수 있도록 지원합니다. 이러한 노력은 단순한 비용 절감을 넘어 기업의 사회적 책임과 지속 가능성을 실현하는 중요한 전략입니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/the-path-to-the-green-data-center",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "광속의 철학",
+      "summary": "VAST Data의 '광속의 철학'은 현대 데이터 인프라에서 성능과 효율성을 극대화하기 위한 핵심 개념을 제시합니다. 이 철학은 데이터 처리 속도를 빛의 속도에 비유하여, 시스템이 지연 없이 최대 성능으로 작동해야 한다는 원칙을 강조합니다. VAST Data는 엔터프라이즈급 스토리지 솔루션에서 이러한 철학을 구현하여 고속의 데이터 접근과 처리를 가능하게 합니다. 이는 AI, 머신러닝, 빅데이터 분석 등 현대적인 워크로드를 효율적으로 처리하기 위한 필수 요소입니다. VAST의 접근 방식은 전통적인 스토리지의 병목 현상을 제거하고 컴퓨팅 리소스의 완전한 활용을 실현합니다. 결국 이 철학은 기업들이 데이터 기반 의사결정을 더욱 신속하게 할 수 있도록 지원하는 기술 철학입니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/the-philosophy-of-lightspeed",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "생각하는 기계를 만들기 위한 여정",
+      "summary": "VAST Data는 2016년 설립 당시부터 컴퓨터에 독립적인 사고와 발견 능력을 부여하려는 비전을 추구해왔다. 초기에 AI는 유튜브 영상에서 고양이를 인식하는 수준의 1960년대 신경망 기술에 불과했으나, 이제 ChatGPT나 Bard 같은 생성형 AI 모델로 발전했다. 그러나 현재의 언어 모델은 단순히 인터넷 정보를 기반으로 텍스트나 이미지를 생성할 뿐, 실제 발견이나 새로운 아이디어 창출은 불가능하다. AI의 진정한 잠재력을 실현하려면 센서, 게놈 시퀀서, 영상, 자율주행차 같은 실세계 아날로그 데이터를 처리하고 인간 지식의 맥락에서 해석하며 미처 상상하지 못한 아이디어와 연결할 수 있어야 한다. 이를 위해서는 기존의 데이터 관리 개념에 대한 근본적인 재검토가 필수적이며, 기계 간의 협력 학습도 중요하다. 인간의 협력이 더 나은 결과를 만드는 것처럼, 컴퓨터도 상호작용을 통해 더 효과적으로 학습할 수 있다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/the-quest-to-build-thinking-machines",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "9가지 숫자로 알아보는 VAST Data의 규칙",
+      "summary": "이 기사는 VAST Data의 핵심 특징과 성능을 9가지 숫자로 설명하는 'Rule of Nines'(9의 법칙)을 소개합니다. VAST Data는 엔터프라이즈급 데이터 스토리지 솔루션으로, 9개의 주요 지표를 통해 제품의 우수성을 강조하고 있습니다. 이러한 수치들은 높은 가용성, 뛰어난 성능, 확장성 및 안정성을 나타내는 핵심 메트릭들을 포함하고 있습니다. VAST Data의 9의 법칙은 고객들이 제품의 가치와 신뢰성을 쉽게 이해할 수 있도록 복잡한 기술 정보를 단순화하여 제시합니다. 이는 대규모 데이터 환경에서 요구되는 안정성, 성능, 경제성을 모두 충족시키는 솔루션임을 강조합니다. 결국 VAST Data는 기업의 데이터 인프라 구축에 있어 신뢰할 수 있는 파트너로 자리 잡으려는 의도를 보여줍니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/the-rule-of-nines",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "실제 활용되는 VAST 카탈로그: Part 1",
+      "summary": "이 블로그 기사는 VAST Data의 카탈로그 기능이 실제 환경에서 어떻게 활용되는지를 소개하는 시리즈의 첫 번째 부분입니다. VAST 카탈로그는 대규모 데이터 환경에서 데이터 자산을 효과적으로 관리하고 조직화하기 위한 핵심 도구로 작용합니다. 이 솔루션은 사용자들이 복잡한 데이터 구조를 쉽게 탐색하고 필요한 데이터를 빠르게 찾을 수 있도록 지원합니다. 특히 메타데이터 관리와 데이터 거버넌스를 강화하여 조직의 데이터 활용 효율성을 높입니다. VAST 카탈로그의 다양한 기능과 이점들이 실제 비즈니스 사례를 통해 구체적으로 설명될 예정입니다. 이 시리즈를 통해 사용자들은 자신의 데이터 관리 전략을 최적화하는 방법을 배울 수 있습니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/the-vast-catalog-in-action-part-1",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST 카탈로그 실제 적용 사례: Part 2",
+      "summary": "이 글은 VAST Data의 카탈로그 기능이 실제 환경에서 어떻게 활용되는지를 보여주는 사례 연구의 두 번째 부입니다. VAST 카탈로그는 대규모 데이터 환경에서 메타데이터 관리와 데이터 검색을 효율적으로 처리하는 솔루션입니다. Part 2에서는 이전 사례에서 다루지 못한 추가적인 실제 활용 시나리오와 고객 사례들을 상세히 소개합니다. 특히 다양한 산업 분야에서 VAST 카탈로그를 통해 데이터 거버넌스와 컴플라이언스를 개선한 사례들을 다룹니다. 이 글은 기술 팀과 데이터 관리자들이 VAST 카탈로그의 실질적인 이점을 이해하고 자신의 조직에 적용하는 데 도움이 될 것으로 예상됩니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/the-vast-catalog-in-action-part-2",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST 데이터 플랫폼 공급망: 우리의 제타바이트 궤적",
+      "summary": "본 기사는 VAST Data의 플랫폼 공급망과 제타바이트 규모로의 성장 궤적에 대해 다룹니다. VAST Data는 대규모 데이터 처리를 위한 플랫폼을 구축하고 있으며, 이를 통해 기하급수적으로 증가하는 데이터 처리 요구에 대응하고 있습니다. 제타바이트 단위의 데이터 처리는 현대 엔터프라이즈 환경에서 필수적인 요소가 되고 있으며, VAST Data의 플랫폼은 이러한 대규모 데이터 인프라를 효율적으로 관리할 수 있도록 설계되었습니다. 공급망 최적화와 시스템 아키텍처의 혁신을 통해 VAST Data는 차세대 데이터 센터의 표준을 제시하고 있습니다. 이 글은 VAST Data의 기술적 진화와 시장에서의 위치를 이해하는 데 중요한 통찰력을 제공합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/the-vast-data-platform-supply-chain-our-zettabyte-trajectory",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST Data 플랫폼의 전환점",
+      "summary": "VAST Data는 엔터프라이즈 데이터 인프라 분야에서 혁신적인 전환점을 맞이하고 있습니다. 이 플랫폼은 기존의 복잡한 데이터 관리 방식을 단순화하고, 조직들이 대규모 데이터를 더 효율적으로 처리할 수 있도록 지원합니다. VAST Data의 솔루션은 성능과 확장성을 동시에 제공하면서도 운영 비용을 절감할 수 있는 장점을 갖추고 있습니다. 이러한 기술 발전은 AI, 머신러닝, 빅데이터 분석 등 다양한 업계의 디지털 트랜스포메이션을 가속화하는 데 중요한 역할을 하고 있습니다. VAST Data 플랫폼은 기업들이 데이터 기반 의사결정을 더욱 신속하게 내릴 수 있는 기반을 제공합니다. 결과적으로 VAST Data는 현대적인 데이터 인프라 구축의 새로운 표준을 제시하며 산업 전반에 긍정적인 영향을 미치고 있습니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/the-vast-data-platform-turning-point",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "앞으로의 VAST 미래: 역사에서 미래로",
+      "summary": "이 기사는 VAST Data의 발전 과정과 앞으로의 전망을 다루고 있습니다. VAST Data는 데이터 저장 및 관리 솔루션 분야에서 혁신적인 기술을 통해 업계의 변화를 주도해왔으며, 과거의 성과를 바탕으로 미래를 향한 새로운 비전을 제시하고 있습니다. 회사는 데이터 인프라의 복잡성을 해결하고 기업들이 데이터 기반 의사결정을 더욱 효율적으로 할 수 있도록 지원하는 것을 목표로 하고 있습니다. VAST Data의 기술은 엔터프라이즈 환경에서 대규모 데이터를 처리하는 데 있어 새로운 기준을 제시하고 있으며, 향후 인공지능과 머신러닝 등의 고급 기술과의 결합을 통해 더욱 강화될 것으로 예상됩니다. 이는 데이터 관리 시장에서 VAST Data의 리더십을 더욱 공고히 할 것으로 전망되고 있습니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/the-vast-future-ahead",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "국방력 강화를 위한 AI 투자의 3가지 방법",
+      "summary": "정부의 국방력을 즉시 강화하고 앞으로 수십 년간 성공을 보장할 수 있는 AI 활용 사례는 다양하다. 첫째, 무인기와 같은 저비용 자율 무기 및 감시 체계의 등장으로 전쟁 기술이 급변하고 있으며, 이러한 장비들이 생성하는 대규모 데이터를 실시간으로 수집, 처리, 분석할 수 있는 인프라 플랫폼 구축이 필수적이다. VAST는 무인기와 위성이 수집한 합성개구레이더(SAR) 데이터를 처리하여 2차원 이미지로 3D 모델을 구축하고 벽을 통해 내부 구조를 파악할 수 있도록 국방부를 지원하고 있다. 둘째, 사이버 보안은 국가 안보의 중요한 부분으로, 주요 기반시설 공격은 선진국도 마비시킬 수 있으며, 증가하는 사이버 공격의 복잡성에 대응하기 위해서는 대규모 네트워크 데이터를 실시간으로 포착하고 분석해야 한다. 인간 분석가와 전통적 위협 탐지 도구만으로는 이러한 규모의 데이터 처리가 불가능하여, 국방부는 VAST의 기술을 활용해 대규모 방어 네트워크 데이터를 캡처하고 기록하고 있다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/three-ways-ai-investment-can-improve-national-security-today",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "무한한 성장을 향하여",
+      "summary": "VAST Data는 NRR(순재계약율) 300%로 BVP 지수 평균 115%를 크게 상회하며, 이는 '획득 후 확대' 전략을 통한 지속적 성장의 기반이 됩니다. 자동차 업계 고객의 23건 주문 사례처럼 고객들이 적극적으로 추가 투자하고 있으며, 대규모 고객들은 각각 100PB 이상의 데이터를 관리하면서 연간 2~4배의 데이터 증가를 경험하고 있습니다. VAST의 성공은 강력한 제품력에서 비롯되는데, 6-9s 이상의 가용성을 제공하며 평균 10PB 규모의 시스템을 운영하는 업계 최고 수준의 소프트웨어 안정성을 자랑합니다. Disaggregated and Shared Everything(DASE) 아키텍처로 대규모 데이터 관리 시 규모와 복원력의 트레이드오프를 극복했으며, 4천만 달러 규모의 테스트 랩을 통한 엄격한 품질 보증이 이를 뒷받침합니다. Gartner 동료 평가 프로그램에서 응답한 고객의 100%가 VAST를 동료에게 추천할 의향을 보였습니다. ARK Invest의 2022년 보고서에 따르면 딥러닝 데이터 인프라 시장은 2030년까지 4천억 달러 규모로 성장할 것으로 예상되며, 우수한 제품과 거대한 시장 기회가 VAST의 무한한 성장을 가능하게 합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/to-infinity-and-beyond",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "무한의 세계로: AI GPUDirect Storage가 현실이 되다",
+      "summary": "NVIDIA의 Magnum IO GPUDirect Storage(GDS)는 CPU를 우회하여 저장소 시스템이 RDMA를 통해 GPU 메모리에 직접 데이터를 쓸 수 있게 하는 혁신적인 I/O 처리 방식이다. GDS는 단순한 I/O 가속기가 아니라 CPU를 데이터 전송에서 해방시킴으로써 CPU 활용도를 높이는 장점을 제공한다. GTC20에서 VAST Data Platform이 GDS의 성능 벤치마크 참조 플랫폼으로 선정되면서 업계의 관심이 집중되었다. AI 가속화 외에도 GDS 기술은 미디어 엔터테인먼트, 양적 거래 등 다양한 분야에서 채택되고 있으며, 볼루메트릭 비디오 캡처나 고주파 거래 같은 고대역폭 애플리케이션에서 뛰어난 성능을 발휘하고 있다. VAST Data Platform은 RAPIDS 프레임워크 기반의 고성능 시각화 등 다양한 애플리케이션을 지원하는 사전 구축 프레임워크를 통해 GDS의 잠재력을 극대화하고 있다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/to-infinity-and-beyond-ai-gpudirect-storage-is-happening",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "업무의 도구: AI 기반 개인 에이전트가 사무직 업무를 혁신하다",
+      "summary": "AI는 산업혁명에 비견할 만큼 현대 직장에 근본적인 변화를 가져오고 있으며, 수십 년이 아닌 몇 주 만에 일어나고 있다. 전통적으로 숙련공들이 특화된 도구와 기술로 전문성을 발휘했듯이, 현대의 사무직 근로자들도 AI 기반 에이전트라는 디지털 도구를 활용하여 '디지털 숙련공'으로 변화하고 있다. 이러한 AI 에이전트는 마케팅, 데이터 분석, 고객 서비스 등 다양한 업무에 맞춤형으로 정교하게 조정되어야 하며, 반복적인 작업 자동화, 복잡한 데이터 분석, 창의적 업무 가속화, 빠른 의사결정 지원 등 다양한 가치를 제공한다. 정교하게 설계된 프롬프트와 에이전트를 능숙하게 다루는 사무직 근로자들은 숙련공처럼 경쟁 우위를 확보하게 된다. 이러한 변화는 단순히 효율성 향상을 넘어 인간의 창의성, 의사결정, 혁신을 전례 없는 규모로 발휘할 수 있게 하는 근본적인 업무 환경의 전환을 의미한다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/tools-of-the-trade-how-ai-powered-personal-agents-are-revolutionary",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST 인프라 위에서 실행되는 Trino: 실시간 SQL AI 준비 플랫폼",
+      "summary": "VAST는 각 플랫폼 릴리스마다 Trino 엔진을 유지보수하여 항상 안전하고 최적화된 최신 버전을 제공합니다. VAST의 DASE(Disaggregated Shared Everything) 올플래시 인프라 위에서 실행되는 Trino는 NVMe를 통한 직접 데이터 접근으로 병목 현상 없이 저지연성과 고처리량 성능을 제공합니다. 기존 아키텍처와 달리 VAST는 Trino를 실시간 SQL 엔진으로 취급하여 파일, 객체, 테이블을 단일 SQL 엔진에서 통합 접근할 수 있습니다. VAST Event Broker는 Kafka 스트림을 복잡한 중개자나 추가 클러스터 없이 직접 수집하여 자동으로 쿼리 가능한 실시간 테이블로 변환함으로써 실시간 AI와 이벤트 기반 워크플로우를 지원합니다. Parquet 형식의 고유한 불변성으로 인한 파일 재작성과 파편화 문제를 VAST DataBase를 통해 해결함으로써, 기업 전체 데이터에 대한 통합 접근 방식을 제공합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/trino-on-vast-real-time-sql-ai-ready-infrastructure",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "스마트 도시 운영을 위한 통합 AI",
+      "summary": "스마트 도시의 공공안전 향상을 위해 정부 기관은 수십만 대의 카메라에서 생성되는 수백 페타바이트 규모의 연속 영상 데이터를 처리해야 했습니다. 기존의 파편화된 인프라는 저장소, 데이터베이스, 기본 컴퓨터 비전 기능 등이 별도로 운영되어 대규모 AI 비전 워크로드와 자율 AI 에이전트 워크플로우를 지원할 수 없었습니다. 기존 시스템의 한계를 극복하기 위해서는 단순한 객체 감지를 넘어 실시간 이벤트 해석과 자율 AI 파이프라인으로의 전환이 필요했습니다. 파편화된 인프라로 인해 10개 이상의 제품을 관리해야 하며, 이는 지연 시간 증가, 운영 오버헤드 증가, 데이터 중복 및 동기화 문제를 야기했습니다. 더욱이 도시는 단순한 모니터링을 넘어 인간의 개입 없이 자율적인 AI 에이전트를 통해 대응 시간을 단축하고자 했으므로, 맥락을 이해하고 복잡한 패턴을 식별하며 독립적으로 대응할 수 있는 고급 분석 기능이 필수적이었습니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/unified-ai-for-smarter-city-operations",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "실시간 데이터 활용 - VAST Database Apache Flink 커넥터 소개",
+      "summary": "VAST Database는 Apache Flink 커넥터를 통해 높은 처리량의 실시간 데이터 파이프라인을 제공합니다. 이 커넥터는 분석, 인공지능, 그리고 대규모 스트리밍 환경에서 실시간 데이터 처리를 가능하게 합니다. VAST DataBase Flink 커넥터는 기업들이 대규모 데이터를 실시간으로 처리하고 분석할 수 있는 효율적인 솔루션을 제공합니다. 이를 통해 데이터 기반의 의사결정을 더욱 빠르고 정확하게 수행할 수 있으며, AI 모델 학습에 필요한 고품질의 실시간 데이터 스트림을 확보할 수 있습니다. 고성능의 데이터 처리 능력과 확장성을 갖춘 이 솔루stralia션은 현대적인 데이터 인프라 구축에 필수적인 도구입니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/unleash-real-time-data-introducing-vast-database-apache-flink-connector",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST InsightEngine으로 실시간 AI 잠금해제",
+      "summary": "기존 레거시 시스템들은 실시간 성능을 유지하면서 확장성을 제공하지 못하는 근본적인 문제를 안고 있습니다. 데이터베이스, 오브젝트 스토어, 파일시스템, 데이터 레이크, 벡터 데이터베이스 등 다양한 시스템들이 기하급수적으로 증가하는 데이터를 따라가지 못해 기업들은 여러 개의 포인트 솔루션들을 조합하여 사용해야 하는 운영의 악몽을 겪고 있습니다. VAST InsightEngine은 이러한 복잡성을 제거하고 원활한 실시간 AI 워크플로우를 가능하게 하기 위해 특별히 설계된 통합 플랫폼입니다. 스토리지, 데이터베이스, 컴퓨팅, AI 파이프라인을 모두 한 곳에서 제공하는 올인원 솔루션으로, 초저지연 대화형 AI 워크플로우를 지원합니다. 엑사바이트 규모의 구조화/비구조화 데이터를 모두 지원하며, 벡터 검색과 그래프 분석 같은 AI 기반 작업을 실시간으로 처리할 수 있습니다. 엔터프라이즈급 보안, 감사 로그, 멀티테넌시, 재해 복구 등의 기능을 갖춰 기업의 요구사항을 충족합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/unlocking-real-time-ai-with-vast-insightengine",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI를 위한 Cisco Nexus Hyperfabric 공개",
+      "summary": "VAST Data는 Cisco와의 파트너십을 통해 AI 워크로드를 위해 특별히 설계된 Hyperfabric for AI를 출시했습니다. 이 솔루션은 대규모 AI 워크로드의 복잡성을 관리하기 위해 강력한 계산 능력과 통합된 지능형 데이터, 네트워킹, 스토리지 관리 방식을 결합하고 있습니다. Hyperfabric for AI의 핵심은 확장성과 단순성으로, Cisco의 6000 Series 스위치, NVIDIA GPU가 탑재된 UCS 서버, VAST의 스토리지 솔루션을 하나의 응집력 있는 시스템으로 통합합니다. 이를 통해 기업은 AI 요구 사항이 증가함에 따라 AI 운영을 원활하게 확장할 수 있습니다. 하드웨어, 소프트웨어, 클라우드 관리, 텔레메트리가 통합된 생태계는 AI 애플리케이션 배포 시간을 단축하고 복잡한 작업을 자동화합니다. Cisco의 수십 년간의 엔터프라이즈 네트워킹 경험과 VAST Data의 AI 준비 플랫폼이 결합되어 AI 인프라의 복잡성을 해결하고 기업이 데이터에서 새로운 인사이트를 얻을 수 있도록 지원합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/unveiling-cisco-nexus-hyperfabric-for-ai",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "업링크 이상 탐지",
+      "summary": "VAST Data의 업링크(Uplink) 시스템은 인프라와 I/O 패턴을 모니터링하면서도 인적 요소의 중요성을 인식하고 있습니다. IT 팀 외에도 영향을 받는 데이터와 애플리케이션을 소유한 팀들이 이벤트를 분류하고 대응하는 데 필수적인 맥락을 제공합니다. 이를 바탕으로 업링크는 데이터 소유자별로 구성 가능한 Slack 및 이메일 알림 기능을 갖춘 사용자 인터페이스를 포함하고 있습니다. 시스템의 목표는 최소한의 수동 작업으로 실행 가능한 정보를 제공하여 사용자들이 효율적인 조사에 필요한 핵심 데이터를 받을 수 있도록 하는 것입니다. 업링크는 Slack이나 이메일을 통해 알림을 전송하여 사용자들이 이상 경고에 빠르게 대응할 수 있도록 핵심 정보를 제공합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/uplink-anomaly-detection",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST와 Acceldata의 통합 플랫폼: Hadoop 현대화와 AI 혁신의 길",
+      "summary": "VAST Data 플랫폼과 Acceldata의 강력한 관찰성 기능을 결합하여 구조화된 데이터와 비구조화된 데이터 모두를 처리하는 통합 저장소, 컴퓨팅, 데이터베이스 서비스를 제공합니다. 이러한 협력을 통해 단일 접근 및 보안 모델로 관리되는 실시간 분석 및 엔터프라이즈 AI를 위한 고성능, 확장 가능한 기반을 구축할 수 있습니다. 레거시 Cloudera 환경 대비 지원 비용을 50% 이상 절감하고, 기존 HDFS 기반 시스템 대비 인프라 비용을 최대 60% 낮출 수 있어 AI 혁신에 투자할 예산을 확보합니다. 이 솔루션은 데이터 사일로를 제거하고 거버넌스를 단순화하며 하이브리드 및 멀티클라우드 환경에서 대규모 분석 및 AI 워크로드를 지원하려는 기업에 이상적입니다. VAST와 Acceldata는 레거시 복잡성에서 벗어나 AI 및 대규모 분석을 위해 설계된 통합 플랫폼으로의 명확한 마이그레이션 경로를 제시합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vast-acceldata-unified-path-modernizing-hadoop-unlocking-ai",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "NAB에서의 VAST: 미디어 제작의 미래를 주도하다",
+      "summary": "VAST Data는 라스베이거스의 NAB 쇼에서 미디어 회사들이 5,700개의 스트리밍 채널을 운영할 수 있도록 지원하는 VAST Data Platform을 선보인다. Pixar, Ingenuity Studios, Kanal75 등 미디어 분야의 오랜 고객들은 CGI, 애니메이션, 후반작업 등 모든 데이터를 VAST로 통합하여 관리하고 있다. 올해 NAB에서 VAST는 수백만 개 파일 관리를 용이하게 하는 VAST Catalog, 여러 위치의 사용자들이 일관된 데이터에 협업으로 접근할 수 있는 VAST DataSpace 등 주요 기능을 선보인다. AI 기술을 활용하여 미디어 자산을 관리하고 가치를 추출하는 방법도 시연하는데, Dewey.AI의 Dewey Vision을 통해 이미지 저장소를 검토하고 MPEG, JPEG, TIFF 등 다양한 포맷의 중복 이미지를 식별하여 처리를 효율화한다. VAST DataSpace는 여러 위치의 VAST 클러스터 간 폴더 접근을 가능하게 하여 편집 작업을 포함한 광범위한 협업과 하이브리드 클라우드 애플리케이션을 지원한다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vast-at-nab-powering-the-future-of-media-creation",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST, 안전한 금융 서비스 데이터 저장소로 인증받다",
+      "summary": "VAST DataStore가 금융 서비스 분야의 안전한 데이터 저장소로 공식 인증을 획득했습니다. 이 인증은 VAST DataStore가 불변성(Immutability)과 감시 기능(Audibility)의 핵심 요구사항을 충족한다는 것을 의미합니다. 불변성은 저장된 데이터가 의도적으로나 실수로 변경되거나 삭제될 수 없도록 보호하는 기능이며, 감시 기능은 모든 데이터 접근 및 변경 사항을 기록하고 추적할 수 있게 합니다. 금융 서비스 업계는 규정 준수 및 데이터 보안이 매우 중요하기 때문에, 이러한 인증은 VAST DataStore가 엄격한 금융 규제 요구사항을 충족할 수 있음을 보증합니다. 이 인증은 금융 기관들이 VAST 솔루션을 신뢰하고 도입할 수 있게 하는 중요한 마일스톤입니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vast-certified-as-a-secure-financial-services-datastore",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST Data, NVIDIA 인증 스토리지로 AI 스토리지 리더십 강화",
+      "summary": "VAST Data가 NVIDIA 인증 스토리지 프로그램을 통해 엔터프라이즈급 AI 스토리지 솔루션으로서의 입지를 더욱 강화했습니다. NVIDIA 인증 프로그램은 실제 AI 워크로드에 대한 스토리지 솔루션을 검증하여 기업들이 높은 성능, 안정성, 확장성을 갖춘 AI 팩토리를 구축할 수 있도록 합니다. VAST의 Disaggregated Shared Everything(DASE) 아키텍처는 현대적 AI 팩토리에 최적화되어 있으며, NVIDIA 인증 시스템 및 NVIDIA Spectrum-X 네트워킹과 결합하면 무결한 확장성, 고성능 데이터 파이프라인, 다중 프로토콜 지원(NFS, SMB, S3) 등을 제공합니다. VAST 스토리지는 99.9999% 가용성, 무중단 업그레이드, 자동 시스템 헬스 모니터링으로 엔터프라이즈급 안정성을 보장하며, NVIDIA AI Enterprise 소프트웨어 스택과 완벽하게 통합됩니다. 이번 인증을 통해 VAST는 AI 역량 강화를 추진하는 기업들을 위한 신뢰할 수 있는 파트너로서, AI 배포부터 관리 및 확장까지 전체 생명주기를 지원하는 것을 입증했습니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vast-data-advances-ai-storage-leadership-with-nvidia-certified-storage",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST Data와 HIPAA 규정 준수",
+      "summary": "HIPAA(의료보험 이동성 및 책임법)는 건강 기록과 개인식별정보를 보유한 조직에 장기간 데이터를 비공개로 유지할 것을 요구합니다. HIPAA 규정 준수는 기술 도전과제일 뿐만 아니라 교육, 비즈니스 정책, 기술의 조합을 통해서만 달성할 수 있습니다. VAST Data 플랫폼은 전자개인건강정보(ePHI)를 보호하기 위해 AES-256 암호화를 사용한 저장 데이터 및 전송 중 데이터 암호화를 제공합니다. 시스템의 CNode는 프리미엄 자체 암호화 SSD 없이 모든 데이터를 소프트웨어로 암호화하며, Thales CypherTrust 같은 엔터프라이즈 키 관리자와의 통합을 지원합니다. 또한 NFS v3, NFS 4.1(Kerberos 암호화), S3(HTTPS)를 통한 전송 중 암호화도 지원합니다. HIPAA 규정 준수를 위해 20년 이상의 데이터 보관을 요구하므로, VAST는 데이터 무결성 보장을 위해 보존 잠금 및 WORM(쓰기 한 번, 읽기 다중) 기능을 제공합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vast-data-and-hipaa-compliance",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST Data, 미국 엔지니어링 팀 확대 및 노스캐롤라이나주 롤리에 신사무소 개설",
+      "summary": "VAST Data가 미국 내 엔지니어링 팀을 확대하고 노스캐롤라이나주 롤리에 새로운 사무소를 개설했습니다. 이 신규 사무소는 동부 지역의 우수성 센터(East Coast Center of Excellence)로서의 역할을 수행하게 됩니다. 이 센터는 고객들에게 VAST Data의 데이터 플랫폼에 대한 모범 사례, 연구, 지원 및 교육을 제공할 것입니다. 이러한 확장은 회사의 미국 내 사업 확대 및 고객 지원 강화를 위한 전략적 조치입니다. 롤리 사무소는 동부 지역 고객들에게 더욱 가까운 거리에서 전문적인 서비스를 제공하기 위해 설립되었습니다. 이번 확장을 통해 VAST Data는 데이터 플랫폼 솔루션 분야에서의 영향력을 강화할 계획입니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vast-data-expands-engineering-team-in-u-s-opens-new-office-in-raleigh-nc",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST Data, AI 파이프라인 가속화를 위한 정렬된 테이블 솔루션 출시",
+      "summary": "VAST AI Operating System은 저장소, 데이터베이스, 스트림, 벡터 처리를 단일 플랫폼에 통합한 올-플래시 시스템으로, 현대 AI와 분석의 실시간 수요에 맞게 설계되었습니다. 기존 시스템들은 전체 테이블 스캔, 강제 필터링, 경직된 인덱싱 전략에 의존하여 추론 시 지연 문제가 발생합니다. 새로운 Sorted Tables 기능은 데이터 수집 시 테이블을 한 번만 정렬하여 로그 시간 성능을 제공하며, 재인덱싱이나 튜닝이 필요 없습니다. 단일 키 쿼리에서 100배 빠른 포인트 조회와 다중 키 액세스에서 25배 빠른 성능을 제공하며, 수십억 개에서 수조 개의 행에서도 1밀리초 이하의 임베딩 및 피처 검색이 가능합니다. 수동 파티셔닝이나 보조 인덱스 없이도 항상 예측 가능한 쿼리 속도를 제공하며, 이러한 성능 향상은 대규모 분석 워크로드와 BI 대시보드에도 동일하게 적용되어 라이브 데이터에서 직접 고성능을 제공합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vast-data-introduces-sorted-tables-accelerate-ai-pipelines",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST DataEngine - 데이터로 컴퓨팅을 가져오다",
+      "summary": "VAST DataEngine은 스케줄링, 이벤트 감지, 리소스 할당의 복잡성을 처리하여 사용자가 비즈니스 로직에 집중할 수 있게 해주는 플랫폼입니다. 이 플랫폼은 컨테이너화된 애플리케이션 코드인 함수, 함수를 시작하는 이벤트 소스인 트리거, 이 둘을 연결하는 오케스트레이션 레이어인 파이프라인 등 세 가지 핵심 구성 요소를 제공합니다. 정기적인 데이터 처리가 필요한 조직들은 DataEngine을 통해 크론 작업 설정이나 복잡한 오케스트레이션 시스템 구축 없이도 간단한 Python 함수를 작성하고 스케줄 트리거를 정의하여 배포할 수 있습니다. 더 고급 기능으로는 S3 호환 스토리지에 파일이 도착할 때 자동으로 파일을 처리하고 AI를 통해 실시간으로 요약을 생성하는 이벤트 기반 처리를 들 수 있으며, 파일 감지부터 다운로드, LLM 서비스를 통한 요약, 데이터베이스 테이블 입력까지 전 과정이 수동 개입 없이 자동으로 진행됩니다. DataEngine은 스케일링, 리소스 할당, 모니터링, 에러 처리 등 모든 인프라 관리를 자동으로 처리하여 개발자 경험을 크게 향상시킵니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vast-dataengine-bringing-compute-to-your-data",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "실시간 데이터 운영을 위한 컴퓨팅 패브릭 - VAST DataEngine",
+      "summary": "VAST Data의 DataEngine은 실시간 데이터 운영을 위해 특별히 설계된 컴퓨팅 패브릭으로, 데이터 관리와 분석의 새로운 패러다임을 제시합니다. 이 솔루션은 대규모 데이터 환경에서 거버넌스를 유지하면서 실시간 처리 성능을 제공하는 것을 목표로 합니다. DataEngine은 조직들이 데이터 접근성과 보안 사이의 균형을 맞추며 빠른 의사결정을 내릴 수 있도록 지원합니다. 실시간 데이터 처리 능력을 통해 기업은 즉각적인 인사이트를 얻고 경쟁력을 강화할 수 있습니다. 또한 강화된 데이터 거버넌스 기능은 규정 준수와 데이터 품질을 동시에 보장합니다. VAST Data의 이 혁신적인 접근 방식은 데이터 인프라의 복잡성을 단순화하면서도 엔터프라이즈급 요구사항을 충족시킵니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vast-dataengine-the-compute-fabric-for-real-time-governed-data-operations",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "빅데이터 애플리케이션을 위한 VAST: HDFS의 흥망성쇠",
+      "summary": "2003년 Google의 논문에 영감을 받아 2006년 탄생한 Hadoop은 공유하지 않는 아키텍처(shared-nothing)를 기반으로 했으며, 직접 연결된 스토리지에 컴퓨팅을 가져와 MapReduce 배치 처리에 최적화되었다. 그러나 2021년 현재 빅데이터 환경은 크게 변화했다. 먼저 실시간 컴퓨팅 수요 증가로 MapReduce는 Apache Spark 같은 메모리 기반 도구로 대체되었다. 또한 지난 20년간 네트워크 속도가 400배 향상되면서 데이터를 컴퓨팅 자원으로 옮기는 것이 가능해졌고, 이로 인해 컴퓨팅과 스토리지가 분리되는 새로운 패러다임이 등장했다. HDFS의 단일 namenode 제약은 높은 처리량 워크로드에서 쓰기 성능을 제한하고, XML 같은 소형 파일 I/O는 namenode 메모리 낭비와 성능 저하를 야기한다. 더욱이 Hadoop은 Flash 스토리지를 위해 설계되지 않았기 때문에 현대적인 올-플래시 데이터 레이크 구축에 필요한 이레이즈 블록 관리나 고급 데이터 압축 기능을 제공할 수 없다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vast-for-big-data-applications",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST, 실시간 유전체학으로 소아암 치료의 새로운 시대 개척",
+      "summary": "VAST는 소아암 환자의 치료 결정을 혁신하기 위해 실시간 유전체 분석 플랫폼을 구축했습니다. 프로세스는 휴대용 장거리 읽기 기술을 이용한 시퀀싱으로 시작되며, 생성된 VCF 파일들은 LEO 위성 네트워크를 통해 VAST DataStore로 전송됩니다. VAST DataStore 내에서 VCF 파일들은 통합 네임스페이스에 수집되고, VAST DataBase가 메타데이터와 기능성 주석을 파싱·인덱싱하며, VAST DataEngine이 ClinVar, COSMIC 등의 데이터로 각 객체를 보강하여 실시간 의사결정 지원을 가능하게 합니다. 시스템의 핵심인 VAST InsightEngine은 검색증강생성(RAG) 기반의 실시간 추론 시스템으로, 새로운 VCF가 수집될 때 임상시험, 논문, 화합물 데이터베이스 등에서 맥락 정보를 검색하여 치료 경로를 합성하고 치료 옵션을 순위화한 의사용 보고서를 생성합니다. 기존 치료법이 적합하지 않은 경우, 시스템은 생물학적 경로 매핑과 분자 구조 제안을 통해 신규 약물 발견을 시작하여, 수주가 걸리던 다학제적 노력을 온디맨드 의사결정 엔진으로 전환합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vast-ignites-a-new-era-of-pediatric-cancer-care-with-real-time-genomics",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST, 2024 AI 혁신상에서 최고의 딥러닝 플랫폼으로 선정",
+      "summary": "VAST Data 플랫폼이 7회 AI 혁신상에서 최고의 딥러닝 플랫폼으로 선정되었습니다. 데이터는 딥러닝의 기초이자 모든 기업의 가장 소중한 자산이며, VAST는 조직들이 모든 데이터의 가치를 활용하고 딥러닝을 그 데이터에 적용할 수 있도록 플랫폼을 설계하고 구축했습니다. Allen Institute와 PacBio 같은 VAST 고객들은 알츠하이머와 파킨슨병 같은 질병 연구를 가속화하고 있으며, Lola VFX와 Pixar는 차세대 시각 표현 방식을 개척하고 있습니다. Taiga Cloud 같은 GPU 클라우드 제공업체들은 탄소 중립 에너지로 구동되는 생성형 AI 클라우드 서비스를 유럽에서 구축하고 있습니다. VAST Data 플랫폼은 AI와 LLM 시스템이 딥러닝 시대의 새로운 발견을 이루도록 지원하며, 기존 데이터 플랫폼과 달리 딥러닝 애플리케이션의 요구사항을 충족하도록 설계되어 대규모 데이터를 전례 없는 속도로 처리할 수 있습니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vast-named-best-deep-learning-platform-in-2024-ai-breakthrough-awards",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST, 2024 Data Breakthrough Awards에서 '올해의 데이터 기술 회사' 선정",
+      "summary": "VAST Data가 2024년 Data Breakthrough Awards에서 올해의 종합 데이터 기술 회사로 선정되었다. VAST는 AI와 딥러닝 시대를 위한 새로운 데이터 인프라 경로를 제시했으며, 데이터를 시스템이 사고하고 반응하고 발견하는 방식의 중심에 두는 혁신적인 AI 인프라 카테고리를 창출했다. 지난해 주요 성과로는 VAST Data Platform을 공개했고, CoreWeave, Lambda, Core42 같은 차세대 공용 클라우드 제공 업체들이 AI 컴퓨팅 및 스토리지 서비스의 데이터 기초로 VAST를 표준화했다. Pixar, TACC, Zoom 등 글로벌 주요 기업과 연구기관들도 대규모 AI 학습 및 추론 애플리케이션을 지원하기 위해 VAST를 파트너로 선택했다. 또한 Fidelity Management & Research Company가 주도한 Series E 펀딩 라운드를 통해 회사 가치를 91억 달러로 평가받아 19개월 전 대비 거의 3배 상승했다. 이러한 성과는 AI 시대에 성공하기 위해 필요한 고품질 데이터에 대한 접근성과 실시간 인사이트 도출을 가능하게 하는 VAST의 혁신적 플랫폼 역할을 입증한다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vast-named-overall-data-technology-company-of-the-year-in-2024-data",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST Data, 피사 대학교와 이탈리아 진출",
+      "summary": "피사 대학교가 인공지능 및 고성능 데이터 관리를 위해 VAST Data 플랫폼을 선택했다. 이는 VAST Data가 이탈리아 시장에 본격적으로 진출하는 중요한 이정표가 되었다. 피사 대학교는 첨단 연구와 데이터 집약적인 프로젝트를 위해 VAST Data의 고성능 스토리지 솔루션을 도입하기로 결정했다. 이 파트너십은 학계와 산업 간의 협력 강화를 의미하며, VAST Data 플랫폼이 유럽의 주요 교육 기관에서도 신뢰받고 있음을 보여준다. 피사 대학교는 이 플랫폼을 통해 AI 연구와 대규모 데이터 분석 역량을 대폭 강화할 수 있을 것으로 기대하고 있다. VAST Data의 이탈리아 지역 판매 이사인 로베르토 도그니니가 이 프로젝트를 주도했다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vast-plants-flag-in-italy-with-university-of-pisa",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST 레플리케이션이 네이티브로 진화하다",
+      "summary": "VAST 시스템의 네이티브 레플리케이션 기능은 대상 디렉토리에 최신 버전의 데이터를 유지하여 사용자가 올-플래시 속도로 직접 분석할 수 있게 합니다. VAST 시스템은 낮은 오버헤드의 스냅샷 기술과 고성능 Storage Class Memory 덕분에 15초마다 스냅샷을 생성 및 복제할 수 있으며, 이는 대부분의 다른 스토리지 벤더의 15분 주기보다 훨씬 빠릅니다. 계획된 유지보수 시에는 우아한 페일오버(graceful failover)를 수행하여 원본 시스템을 읽기 전용으로 전환한 후 마지막 변경사항을 캡처하는 스냅샷을 복제하고, 대상 시스템을 읽기/쓰기 모드로 전환합니다. 예기치 않은 장애의 경우 비우아한 페일오버(ungraceful failover)로 마지막 수신된 스냅샷 상태로 복구하여 폴더를 읽기/쓰기 모드로 전환합니다. 사용자가 실수로 삭제한 파일은 /.snapshots 폴더에서 간편하게 복구할 수 있으며, 페일백 프로세스는 우아한 페일오버와 동일하게 작동합니다. VAST의 레플리케이션 정책은 스냅샷 보호 기술을 기반으로 하여 여러 계층의 스냅샷 일정을 통해 강력하고 유연한 데이터 보호를 제공합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vast-replication-goes-native",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST, 차세대 정량 분석을 위한 AI 에이전트 출시",
+      "summary": "금융 업계의 선도 기업들은 지속적으로 경쟁 우위를 찾기 위해 노력하고 있으며, 이제 그 전장이 변화하고 있습니다. 단순한 속도 개선을 넘어 데이터의 복잡성과 다양성 증가에 대응하는 것이 새로운 과제입니다. 시장 데이터뿐만 아니라 뉴스 피드, 실적 발표, 규제 서류, 소셜 미디어, 위성 이미지 등 비정형 및 반정형 데이터에 숨겨진 정보 우위가 점점 더 중요해지고 있습니다. 그러나 이러한 대규모의 다양한 데이터를 전통적 시장 데이터와 함께 신속하게 통합하고 분석하는 것은 기존 인프라에 큰 부담을 줍니다. 과거 정형 데이터 중심으로 설계된 시스템은 이러한 멀티모달 데이터 폭증에 대응할 수 없으며, 단편화된 도구와 고립된 데이터 저장소로는 페타바이트 규모의 텍스트, 시계열, 테이블 및 임베딩 데이터 간의 상관관계를 파악하기 어렵습니다. 따라서 다음 단계의 경쟁력을 확보하려면 데이터 접근성과 통합 분석 능력을 갖춘 차세대 데이터 인프라가 필수적입니다. RAG(검색 증강 생성)와 Text-to-SQL 같은 AI 도구들은 분석가들이 노이즈를 제거하고 복잡한 질문에 즉각적으로 답할 수 있도록 지원하며, 이는 필요한 데이터에 실시간으로 접근할 수 있을 때 진정한 가치를 발휘합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vast-unleashes-ai-agents-for-next-gen-quant-insight",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST, 실시간 위험 중립화를 위한 최초 플랫폼 공개",
+      "summary": "전통적인 규정 준수 접근 방식은 분석가들이 수동으로 스프레드시트를 검토하고 규칙 기반 시스템의 거짓 긍정을 처리하는 데 많은 시간을 소비하고 있어 비효율적입니다. 규정 준수 팀은 전문성이 있지만 데이터 사일로와 과도한 수동 프로세스로 인해 제약을 받고 있으며, 현재 위험 관리에만 집중하느라 미래의 위협에 대한 사전 대응 역량을 갖추기 어렵습니다. VAST는 AI 에이전트를 활용하여 수천 개의 KYC 문서를 즉시 분석하고, 수백만 개 계좌의 거래 패턴을 연결하며, 중첩된 기업 구조 내 숨겨진 관계를 발견할 수 있는 솔루션을 제시합니다. OCR, 자연어 이해(임베딩), RAG(검색 증강 생성) 등의 첨단 AI 기술을 데이터 플랫폼에 통합하여 규정 준수를 반응적 기능에서 지능형 사전 예방 기능으로 전환합니다. 벡터 검색과 같은 기술은 정확한 키워드 매칭을 넘어 개념적 유사성을 기반으로 데이터를 연결함으로써 운영에 사전 경계 체계를 구축하는 것을 가능하게 합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vast-unveils-first-ever-platform-for-real-time-risk-neutralization",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST, 게임을 바꾸는 AI 에이전트로 엔터프라이즈 데이터 연결 기술 공개",
+      "summary": "현대 기업들은 방대한 데이터를 보유하고 있지만, 이러한 정보들이 너무 광대하고 복잡해서 효과적으로 연관시키고 활용하기 어려운 문제를 겪고 있습니다. 기존 시스템들은 미리 정해진 질문에만 답할 수 있고 추론하거나 대화할 수 없어서, 혁신적인 인사이트가 숨겨진 채로 남아있습니다. VAST는 엔터프라이즈 데이터베이스를 읽고, 추론하며, 대화할 수 있는 지능형 에이전트를 제시합니다. 최근 고급 추론 모델과 AI 기술의 발전으로 이제 엔터프라이즈 환경에서 실제 구현이 가능해졌습니다. VAST는 InsightEngine 플랫폼을 통해 페타바이트에서 엑사바이트 규모의 비정형 데이터를 관리할 수 있는 VAST DataStore와 정형·반정형·비정형 데이터를 통합하는 VAST DataBase를 갖춘 업계 유일의 실시간 AI 기반 엔터프라이즈 지능 플랫폼으로 자리매김하고 있습니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vast-unveils-game-changing-ai-agent-connect-enterprise-data",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "실시간 AI를 위한 올바른 기반 - VAST 벡터 검색",
+      "summary": "VAST Data의 벡터 검색 솔루션은 실시간 AI 애플리케이션을 구축하기 위한 견고한 기반을 제공합니다. 현대의 AI 시스템은 대규모 데이터셋에서 빠르고 정확한 검색 능력을 필요로 하며, VAST의 기술은 이러한 요구사항을 충족시키도록 설계되었습니다. 벡터 검색은 의미론적 유사성에 기반하여 데이터를 검색하므로, 전통적인 키워드 기반 검색보다 더 나은 결과를 제공합니다. VAST의 솔루션은 확장성, 성능 및 안정성을 갖춘 엔터프라이즈급 인프라를 제공하여 조직이 생성형 AI와 머신러닝 애플리케이션을 효과적으로 배포할 수 있도록 지원합니다. 이러한 기술은 고객 경험 개선, 검색 정확도 향상, 그리고 데이터 기반의 의사결정을 가능하게 합니다. VAST Data의 벡터 검색 플랫폼은 조직의 AI 전환 여정에서 핵심적인 역할을 하며, 실시간 처리와 확장성을 동시에 달성할 수 있는 솔루션입니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vast-vector-search-the-right-foundation-for-real-time-ai",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST + Veeam: 1년 사이 이룬 성과",
+      "summary": "VAST Data는 VeeamOn 2023에서 스폰서로 참가하여 지난 1년간의 주요 발전사항을 공유했습니다. 먼저 VAST OS v4.3에 도입된 적응형 청킹(Adaptive Chunking) 기술은 뛰어난 데이터 감소 효과를 입증했으며, 이후 v4.4, v4.5, v4.6 버전에도 계속 포함되어 고객들로부터 긍정적인 평가를 받았습니다. S3 Object Lock 기능도 v4.3에서 거버넌스 모드로 처음 출시된 후, v4.5에서 Veeam에 필요한 컴플라이언스 모드를 완벽하게 지원하게 되었고, Veeam Ready 인증을 획득했습니다. Veeam v12에 맞춘 자동 테스트 스위트도 통과하여 추가 인증을 획득했습니다. 또한 VAST의 파괴 불가능 스냅샷(Indestructible Snapshots)은 랜섬웨어 방어의 강력한 도구로 입증되었으며, 최신 v4.6 버전에 추가된 '글로벌 스냅샷 클론' 기능으로 S3 버킷 보호의 접근성과 사용 편의성을 크게 향상시켰습니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vast-veeam-what-a-difference-a-year-makes",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "당신의 성공을 위한 VAST 코파일럿",
+      "summary": "VAST Data의 코파일럿 프로그램은 복잡한 자체 지원 도구를 우회하고 고객이 개인 Slack 채널을 통해 언제든지 전문가의 인적 지원을 받을 수 있도록 합니다. 코파일럿 팀은 고객 전용 비공개 VAST Data 채널에 접근하여 긴급 알림을 모니터링하며, 24/7/365 운영을 감시하면서 문제가 발생하기 전에 자동으로 해결하거나 사전에 적극적으로 조치합니다. 이는 업계 최고 수준의 VAST-Link 솔루션으로 구현됩니다. VAST Data는 VAST-Link와 코파일럿 프로그램에 투자함으로써 데이터의 수호자로서의 책임을 다하고자 합니다. 우리는 당신의 팀을 존중하는 시간을 가치 있게 여기는 확장된 팀으로 자신을 위치시키며, 운영 모니터링, 문제의 사전 완화, 반복되지 않도록 솔루션 자동화를 책임집니다. 결국 차세대 스토리지 솔루션 파트너에 대한 투자는 기술과 자체 지원 도구뿐만 아니라 서비스 및 지원 팀이 제공하는 서비스 품질도 중요합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vasts-co-pilot-dedicated-to-your-success",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "인텔 옵테인 단종에 대한 VAST의 입장 - 변화 없음",
+      "summary": "VAST Data는 1년 이상 전부터 VAST Data Platform을 위해 다중 공급 업체 전략을 실행해왔습니다. 이러한 다른 SCM 공급처들은 기존의 플래시 공급망과 제조 프로세스를 활용하고 있어 플래시 제조업체들의 규모의 경제를 이점으로 삼고 있습니다. 시장의 선도 기업으로서 VAST는 모든 분야에서 이중 공급업체 전략을 운영하고 있으며, 이는 지난 18개월간의 공급망 부족 사태를 극복하는 데 중추적인 역할을 했으며 오늘의 인텔 같은 특정 업체 결정에 대응하는 데 필수적입니다. 현재 및 미래 고객들을 위해 분명히 말씀드리자면, 이는 VAST Data Platform의 공급 및 지원 능력에 어떠한 차질도 초래하지 않을 것입니다. 아무것도 변하지 않습니다. VAST는 인텔 옵테인과 동등한 내구성과 성능 특성을 갖춘 대체 제품의 보장된 공급망을 확보하고 있으며, 고객 경험 측면에서 시스템 성능에는 전혀 차이가 없을 것입니다. 또한 VAST는 플래시 파트너들과 협력하여 미래에 발표할 획기적인 개념들을 창출하고 있습니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vasts-position-on-intel-optane-discontinuation-nothing-changes",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "벡터, 비전, 속도: VAST RAG 파이프라인 실제 운영",
+      "summary": "NVIDIA의 생성형 AI 인프라는 NIM이라는 추론 도구 모음을 중심으로 작동하며, 이는 마이크로서비스 아키텍처로 엔터프라이즈급 GenAI 애플리케이션을 지원합니다. Retrieval Augmented Generation(RAG) 분야에서 NVIDIA NeMo Retriever는 정보 검색을 위한 NIM 마이크로서비스 집합으로, 대규모 데이터와 현대 기업이 필요로 하는 검색 작업 간의 상호작용을 가능하게 합니다. NeMo Retriever의 모듈식 설계는 데이터 추출과 임베딩 단계부터 벡터 데이터베이스 저장, 최종 인사이트 생성까지 전체 프로세스를 거치며, 기업의 데이터 생태계에 맞춘 맞춤형 워크플로우를 제공합니다. NVIDIA cuVS 오픈소스 라이브러리를 통한 가속화 컴퓨팅 최적화는 벡터 데이터베이스의 인덱싱 병목을 해결하고, 임베딩 모델과 결합하여 처리량을 크게 증가시킵니다. 멀티모달 데이터(PDF, 이미지, 프레젠테이션 등)는 전용 모델을 통해 각 데이터 요소를 정밀하게 파싱하며 기업 데이터의 명확성과 완전성을 보장합니다. 이러한 기반은 GPU 최적화 AI 블루프린트 RAG라는 종합적이고 적응 가능한 파이프라인으로 이어지며, 고속 멀티모달 PDF 데이터 추출, 임베딩 및 리랭킹 기술을 통합합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vectors-vision-velocity-vast-rag-pipelines-in-action",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST는 그냥 작동합니다",
+      "summary": "VAST의 핵심 철학은 기술이 사용자를 복잡하게 만드는 것이 아니라 권한을 부여해야 한다는 것입니다. 이 비디오는 VAST 플랫폼이 AI, HPC(고성능 컴퓨팅), 클라우드 컴퓨팅, 미디어, 연구 등 다양한 분야에서 얼마나 간단하고 효과적하게 작동하는지를 보여줍니다. VAST의 솔루션은 복잡한 설정이나 어려운 구성 없이도 사용자의 요구사항에 맞게 즉시 작동합니다. 다양한 산업과 분야의 고객들이 VAST 기술을 통해 자신들의 업무를 더욱 효율적으로 수행할 수 있습니다. 이 영상 콘텐츠는 VAST의 사용 편의성과 신뢰성을 강조하며, 기술 구현의 복잡성을 제거하고 실질적인 가치 제공에 집중하는 VAST의 접근 방식을 대표합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/watch-vast-just-works",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "쓰기 성능이 중요해졌어 - VAST의 읽기/쓰기 균형 전략",
+      "summary": "VAST Data는 지난 6년간 성능 최적화 법칙을 통해 읽기와 쓰기 성능을 모두 충분히 제공해왔습니다. 초기에는 분석 파이프라인(20:1 읽기/쓰기 비율), 렌더팜(5:1), AI 컴퓨터 비전(100:1), HPC(3:1) 등 대부분의 주요 워크로드가 읽기 중심이었기 때문에 시스템을 읽기 대역폭 위주로 최적화했습니다. 그러나 2024년에 상황이 크게 변했습니다. 딥러닝 슈퍼컴퓨터가 급속도로 대규모화되면서(2022년 5,000개 GPU → 현재 100,000개 이상 GPU 기반), AI 모델 체크포인트의 빠른 저장 필요성이 급증했습니다. 수천 개의 GPU로 학습하는 AI 작업은 수일에서 수개월 걸릴 수 있는데, 이러한 대규모 시스템의 복잡성과 안정성 문제로 인해 애플리케이션 상태를 보존하기 위한 쓰기 성능의 중요도가 크게 높아졌습니다. 따라서 VAST는 읽기/쓰기 성능의 균형을 재조정하여 현대적 AI 워크로드의 요구사항을 충족시키고 있습니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/weve-got-the-write-stuff-baby",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "규모 확대 시 문제점: S3의 환상과 인프라의 물리학",
+      "summary": "객체 저장소는 초기에는 간단해 보이지만 규모가 커질수록 심각한 문제들이 나타난다. VAST는 5PB까지는 문제없이 작동하지만 20PB에서 지연 시간이 발생하고, 200PB에 도달하면 아키텍처의 구조적 한계가 드러나며 시스템이 붕괴되는 사례들을 목격했다. 한 고객 사례에서 대규모 클러스터로 성장하자 성능이 정체되고 작업 완료 시간이 비선형적으로 증가했으며, 온라인 유지를 위해 기능을 비활성화해야 했다. 데이터 인프라의 진정한 척도는 비용 효율성이나 오픈소스 신뢰도가 아니라 GPU를 유휴 상태로 만들지 않으면서 안정적인 성능을 유지하는 것이다. 기존 플랫폼들은 저장소로서는 우수하지만 머신러닝 워크로드 서빙 시 I/O 병목 현상으로 인해 AI 훈련의 성능을 심각하게 제한한다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/what-breaks-scale-s3-illusion-physics-infrastructure",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "레거시 스토리지 아키텍처가 구식 기능으로 판매되는 시대",
+      "summary": "VAST Data의 급속한 성장으로 기존 스토리지 벤더들이 방어적 입장을 취하고 있다. Coldago Research의 2021년 저장소 사용자 설문조사에 따르면 VAST의 시장 인지도가 전년 대비 2배 증가했으며, 페타바이트급 시스템 시장에 한정하면 성장률이 더욱 가파르다. VAST는 올해 매출이 4배 증가했으며, 올해도 지난해의 기록적 성장을 초과할 추세다. 최근 Dell이 VAST와의 경쟁 비교 문서를 발표했는데, 이는 민간 기업으로서 VAST만이 그러한 영예를 받았다는 점에서 VAST의 급부상을 입증한다. Dell의 비교는 흥미로운데, 첫째로 Dell은 스토리지 계층화를 '부가 기능'으로 판매하고 있으나 VAST는 계층화의 복잡성을 제거하는 것을 핵심 가치로 한다는 철학적 차이가 드러난다. 둘째로 Dell의 주장은 구형 프로토콜 미지원에 초점을 두고 있을 뿐, 근본적인 스토리지 아키텍처 차이에 대해서는 논의하지 않는다. VAST는 HDD 기반 스토리지나 기계식 미디어로의 계층화를 제공하지 않으며, 이는 VAST가 플래시 시대를 위해 설계된 올-플래시 성능을 아카이브 수준의 경제성으로 제공하기 때문이다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/when-legacy-architectures-resort-to-being-sold-on-legacy-features",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "단순함과 규모의 완벽한 조합",
+      "summary": "VAST는 2016년부터 NVIDIA와 협력하며 NVMe-over-Fabrics라는 RDMA 기반 스토리지 네트워킹을 구현했고, 이는 스토리지 로직을 SSD로부터 분리하여 독립적으로 확장할 수 있게 했습니다. 이러한 발견은 현대 역사상 세 번째 데이터 스토리지 아키텍처인 VAST의 분산형 공유 모든것(DASE) 아키텍처를 탄생시켰으며, 진정한 시스템 수준의 병렬화를 최초로 도입했습니다. 기존 NAS 시스템은 공유 없음 원칙으로 설계되어 네임스페이스의 각 파티션이 독립적으로 관리되고 확장할수록 내부 트래픽이 폭증하여 성능 향상이 둔화되는 문제가 발생합니다. 반면 VAST의 DASE 아키텍처는 Docker 컨테이너가 NVMe 기기를 공유할 수 있게 하며, NVIDIA BlueField DPU로 연결된 NVMe 스토리지 인클로저가 모든 상태 비저장 Docker 컨테이너에 공유 기기 접근을 제공합니다. 이 접근 방식에서는 스토리지 프로세서들이 데이터 서빙 시 서로 통신할 필요가 없고, 캐시 일관성이나 메타데이터 업데이트도 필요 없으며, CPU들이 완벽하게 병렬 방식으로 확장되어 NFS 기반 스토리지로는 불가능했던 규모의 확장성을 달성할 수 있습니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/when-simplicity-pairs-with-scale",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "소프트웨어가 시스템이 되다",
+      "summary": "VAST Data의 공동창립자 Jeff Denworth는 GTC DC에서 회사의 소프트웨어가 시스템 설계 영역으로 진화하는 순간에 대해 언급했습니다. VAST AI 운영체제 5.4 버전은 회사 역사상 최대 규모의 소프트웨어 출시로, 객체 저장소에서 이벤트 스트림, 런타임에 이르기까지 모든 인프라 계층이 하나의 분산 컴퓨터로 통합되어 데이터 도착 시점에 이를 분석할 수 있게 되었습니다. 스마트 시티의 사례에서 카메라 피드가 시스템에 들어오면 함수가 작동하고, 임베딩 모델이 스트림에 대해 실행되어 장면을 수학적으로 설명하는 벡터를 생성합니다. 이제 VAST 데이터베이스 내 기본 데이터 타입이 된 벡터는 검색, 분석, 에이전트의 조치 대상이 될 수 있습니다. 저장 시스템이 자신이 보유한 데이터를 이해하는 능력을 갖춘 능동적 참여자가 됨으로써, 스마트 시티 프로그램의 센서와 비디오 데이터가 패턴을 식별하고 경보를 발생시키며 대응을 지시하는 추론 엔진을 통해 흐를 수 있게 되었습니다. 이 기술 진전은 고속 벡터 처리 능력으로 인해 미디어, 스포츠 방송, 연구 및 국토안보 분야에서도 동일한 패턴이 확산되고 있으며, 지속적인 센싱이 계산상 실행 가능해졌습니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/when-software-becomes-the-system",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "세계가 만나다: VAST Data 플랫폼이 이제 NVIDIA 클라우드 파트너 인증을 획득",
+      "summary": "VAST Data 플랫폼이 NVIDIA 클라우드 파트너 인증(NVIDIA Cloud Partner Certified)을 획득했습니다. 이는 두 기술 리더의 만남을 의미하며, VAST Data의 엔터프라이즈급 데이터 관리 솔루션이 NVIDIA의 클라우드 생태계에서 공식적으로 인증된 파트너로 인정받았음을 나타냅니다. 이 파트너십을 통해 고객들은 NVIDIA의 클라우드 플랫폼 위에서 VAST Data의 강력한 데이터 관리 기능을 보다 안정적으로 활용할 수 있게 됩니다. 두 회사의 협력은 AI와 데이터 분석 워크로드를 처리하는 데 있어 더욱 최적화된 솔루션을 제공할 수 있게 해줍니다. VAST Data는 이번 인증을 통해 클라우드 시장에서의 입지를 강화하고, NVIDIA 고객들에게 신뢰할 수 있는 데이터 인프라 파트너로 자리매김하게 됩니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/when-worlds-collide-the-vast-data-platform-is-now-nvidia-cloud-partner",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "데이터 전략 부재가 AI를 굶주리게 만들고 GPU를 낭비하고 있다",
+      "summary": "현재 대부분의 GPU는 데이터를 기다리느라 유휴 상태에 있으며, 이는 GPU 문제가 아닌 데이터 문제입니다. 과거 데이터 분석 아키텍처는 오늘날 AI 워크로드의 강렬한 무작위 입출력 요구에 근본적으로 부적합합니다. 딥 뉴럴 네트워크 학습의 핵심인 확률적 경사하강법(SGD)은 데이터셋을 무작위로 섞고 작은 배치로 나누어 모델을 반복적으로 학습시키는데, 이러한 무작위화는 모델이 데이터의 순서만 암기하지 않고 본질적 특징을 학습하도록 강제하여 일반화 성능을 향상시킵니다. 그러나 이러한 끊임없는 셔플링은 저장소 시스템에 극심한 입출력 부하를 만들며, 일부 벤치마크는 TFRecords 같은 형식으로 데이터셋을 순차 읽기 가능하도록 직렬화하여 이를 우회하고 있습니다. 현대의 데이터 레이크 아키텍처(Parquet 파일 위의 Apache Iceberg 등)는 SQL 기반 분석에는 강력하지만 AI 학습에는 비효율적인데, 단일 무작위 행을 검색하려면 막대한 양의 열 전체를 다운로드해야 하기 때문입니다. 결국 AI 워크로드의 무작위 소규모 파일 접근 패턴은 순차적 전체 열 스캔으로 설계된 레거시 저장소 시스템과 완전히 맞지 않습니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/why-data-strategy-is-starving-ai-sabotaging-your-gpus",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "엔비디아 다이나모가 주목받는 이유와 그 실제 의미",
+      "summary": "엔비디아 다이나모는 추론 워크로드 최적화를 위해 세 가지 핵심 기술을 결합한다: 분리(disaggregation), 지능형 KV 캐시 관리, 그리고 지능형 작업 라우팅이다. 전통적으로 프리필(prefill, 컨텍스트 구축)과 디코드(decode, 토큰 생성) 단계가 같은 GPU에서 경쟁하지만, 다이나모는 이를 분리하여 각 단계에 최적화된 작업 공간을 제공한다. 라마-70B 모델에서 이러한 분리만으로도 초당 생성되는 총 토큰 수가 2배 이상 증가한다는 처리량 개선이 가능하다. KV 캐시 스마트 관리는 다이나모의 핵심으로, 대규모 컨텍스트를 가진 추론 요청에서 생성되는 방대한 키-값 쌍을 계층적 캐싱 전략으로 효율적으로 재사용한다. 이러한 아키텍처 조정은 지연 시간 증가 없이 처리량을 최적화하는 획기적인 성과를 제공한다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/why-everyones-talking-about-nvidia-dynamo-and-why-it-actually-matters",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "왜 그렇게 많은 AI 클라우드 기업들이 같은 데이터 플랫폼에 베팅하고 있는가",
+      "summary": "본 기사는 GPU 클라우드 제공업체들의 종합 순위 벤치마크를 통해 AI 인프라 생태계의 실제 모습을 조명하고 있습니다. 주목할 점은 순위 자체보다 누가 이 평가에 참여했으며, 특히 다수의 AI 클라우드 업체들이 VAST 데이터 플랫폼을 선택했다는 것입니다. GPT 이후 시대에 탄생한 이들 GPU 클라우드 신생 기업들은 기존의 기술 부채가 없었기 때문에 현재의 요구에 가장 적합한 아키텍처를 자유롭게 선택할 수 있었고, 대부분이 VAST를 선택했습니다. 그 핵심 이유는 멀티테넌시(multitenancy)입니다. 강력한 멀티테넌시 없이는 진정한 클라우드가 아니라 단순한 코로케이션 시설일 뿐입니다. VAST는 아키텍처 차원에서의 실질적인 분리를 통해 접근, 데이터, 관리 격리를 소프트웨어뿐만 아니라 의도적인 설계로 강제하며, 이는 AI 클라우드가 고객을 온보딩하는 방식과 일치합니다. VAST의 멀티테넌시 기능은 테넌트별 용량 제한, QoS를 통한 성능 SLA, 암호화 키 격리 등 강력한 보안장치를 제공하여 다양한 규모의 고객 요구를 효과적으로 충족시킵니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/why-so-many-ai-clouds-are-betting-on-the-same-data-platform",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "SIEM이 VAST 사이버 레이크하우스가 필요한 이유",
+      "summary": "기존의 중앙집중식 SIEM 도구에 모든 데이터를 저장하는 모델은 데이터 증가, 제한된 예산, 서비스 수준 저하로 인해 한계에 도달했습니다. 전통적 SIEM은 로그 분석에만 최적화되어 있어 머신러닝, 대용량 분석, 엔터프라이즈 전체 공유에 같은 데이터를 사용하기 어렵고, 데이터 보관에 따른 운영 오버헤드와 비용이 급증합니다. VAST AI 운영 시스템은 현대적 사이버 레이크하우스를 구현하여 SIEM의 강점과 저비용 장기 데이터 관리의 필요성을 균형있게 제공합니다. 기존 SIEM의 GB당 과금 방식은 조직들로 하여금 모든 데이터를 보관하거나 삭제하는 양자택일을 강요하는데, M-21-31 같은 규제는 18개월 이상 로그 보관을 의무화합니다. VAST 사이버 레이크하우스는 기존 SIEM을 대체하지 않고 보완하여, 실시간 스트림부터 다년도 아카이브까지 모든 데이터의 중앙 저장소 역할을 하면서 대부분의 보안 데이터를 극도로 절감된 비용으로 저장하고 분석할 수 있게 합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/why-your-siem-needs-a-vast-cyber-lakehouse",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "World Wide Technology, VAST의 올해의 파트너로 선정",
+      "summary": "VAST Data는 World Wide Technology(WWT)를 올해의 파트너로 선정했습니다. WWT의 Advanced Technology Center(ATC)와 AI Proving Ground는 고객들이 AI 솔루션을 비교, 테스트 및 훈련할 수 있도록 하여 AI 도입을 가속화합니다. VAST는 처음부터 AI를 위해 구축된 AI 데이터 플랫폼 회사이며, WWT는 이를 인식하여 VAST를 WWT Select Partner로 인정했습니다. VAST는 ATC에 대표되고 있으며 AI Proving Ground의 소수 파트너 중 하나입니다. WWT는 고성능 워크로드, 사이버 복원력, AI 등 모든 분야에서 VAST를 온프레미스 또는 클라우드에 구축 및 배포할 수 있는 전문 지식을 보유하고 있습니다. 두 조직 간의 시너지와 열정이 높지만, 가장 흥미로운 점은 이제 막 시작 단계라는 것입니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/world-wide-technology-named-vast-partner-of-the-year",
+      "date": "2025-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "M-25-21 메모: 연방 AI 준비 태세 강화를 위한 의무사항",
       "summary": "미국 관리예산처(OMB)의 2025년 4월 메모 M-25-21은 연방 기관들이 9월까지 AI 전략을 수립하도록 하는 혁신적인 로드맵입니다. 이 지시문은 혁신, 거버넌스, 공공 신뢰를 중심으로 AI 채택을 가속화하도록 요구하며, 최고 AI 담당자 지정, 기관 차원의 AI 전략 개발, 고위험 사용 사례에 대한 최소 위험관리 실행 등을 포함합니다. 연방 기관들이 시민권 보호와 투명성, 책임성을 보장하면서 AI를 책임감 있게 활용할 수 있도록 권한을 부여하는 패러다임의 전환을 의미합니다. 그러나 보안이 필요한 핵심 업무 환경에서 AI를 배포하려면 현재 역량을 훨씬 초과하는 인프라가 필요합니다. VAST Data Federal은 연방 기관들을 위해 스토리지, 데이터베이스, 컨테이너식 컴퓨팅을 통합한 AI 기반 데이터 플랫폼을 제공하며, 기관들이 직면한 세 가지 주요 과제인 데이터 시스템 분산, 사용 사례 우선순위 결정, 보안 및 규정 준수 격차를 해결합니다.",
       "category": "스토리지",
@@ -5363,6 +6243,6 @@
       "date": "2025-11-12"
     }
   ],
-  "totalItems": 536,
+  "totalItems": 624,
   "hasArchive": false
 }
