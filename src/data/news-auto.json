@@ -712,9 +712,329 @@
     "http://www.boannews.com/media/view.asp?idx=143208&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143207&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143206&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=143205&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=143205&kind=&sub_kind=",
+    "https://www.dell.com/en-us/blog/three-forces-reshaping-enterprise-storage-right-now/",
+    "https://www.dell.com/en-us/blog/innovating-with-purpose-hemanth-patil-s-journey-at-dell/",
+    "https://www.dell.com/en-us/blog/digital-infrastructure-behind-human-space-exploration/",
+    "https://www.vastdata.com/blog/s3-won-the-interface-now-the-system-has-to-catch-up",
+    "https://www.securityweek.com/white-house-chief-of-staff-to-meet-ith-anthropic-ceo-over-its-new-ai-technology/",
+    "https://www.securityweek.com/cochat-launches-ai-collaboration-platform-to-combat-shadow-ai/",
+    "https://www.securityweek.com/in-other-news-satellite-cybersecurity-act-90k-chrome-flaw-teen-hacker-arrested/",
+    "https://www.securityweek.com/another-draftkings-hacker-sentenced-to-prison/",
+    "https://www.securityweek.com/lawmakers-gathered-quietly-to-talk-about-ai-angst-and-fears-of-destruction-followed/",
+    "https://www.securityweek.com/recent-apache-activemq-vulnerability-exploited-in-the-wild/",
+    "https://www.securityweek.com/two-north-korean-it-worker-scheme-facilitators-jailed-in-the-us/",
+    "https://www.securityweek.com/zionsiphon-malware-targets-ics-in-water-facilities/",
+    "https://www.securityweek.com/cursor-ai-vulnerability-exposed-developer-devices/",
+    "https://www.securityweek.com/53-ddos-domains-taken-down-by-law-enforcement/",
+    "https://www.bleepingcomputer.com/news/security/payouts-king-ransomware-uses-qemu-vms-to-bypass-endpoint-security/",
+    "https://www.bleepingcomputer.com/news/security/grinex-exchange-blames-western-intelligence-for-137m-crypto-hack/",
+    "https://www.bleepingcomputer.com/news/security/inside-an-underground-guide-how-threat-actors-vet-stolen-credit-card-shops/",
+    "https://www.bleepingcomputer.com/news/security/webinar-from-phishing-to-fallout-why-msps-must-rethink-both-security-and-recovery/",
+    "https://www.bleepingcomputer.com/news/security/cisa-flags-apache-activemq-flaw-as-actively-exploited-in-attacks/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-reboot-loops-affecting-some-domain-controllers/",
+    "https://www.bleepingcomputer.com/news/security/man-gets-30-months-for-selling-thousands-of-hacked-draftkings-accounts/",
+    "https://www.bleepingcomputer.com/news/security/recently-leaked-windows-zero-days-now-exploited-in-attacks/",
+    "http://www.boannews.com/media/view.asp?idx=143228&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143230&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143231&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143229&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143225&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143226&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143227&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143224&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143223&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143222&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "현재 엔터프라이즈 스토리지를 재편하는 세 가지 힘",
+      "summary": "Dell Technologies의 임원진은 조직들이 분산형 아키텍처를 채택하고, 생성형 AI 파이프라인에서의 비정형 데이터 문제에 직면하며, 사이버 복원력을 비즈니스 지표로 격상시키고, 에이전트 AI 기반의 인프라 운영으로 전환함에 따라 엔터프라이즈 스토리지가 어떻게 진화하고 있는지를 분석합니다. 엔터프라이즈 스토리지는 프라이빗 클라우드 아키텍처가 더욱 유연해지고, 온프레미스 생성형 AI가 데이터 파이프라인 격차를 드러내며, 사이버 복구가 핵심 비즈니스 KPI가 되고, AI 기반 운영 플랫폼이 전문화된 인프라 역할에 대한 의존성을 감소시키면서 빠르게 변화하고 있습니다. 현대 IT를 정의하는 세 가지 주요 트렌드는 분산형 스토리지 및 컴퓨팅의 재도입, 생성형 AI의 주요 제약 요소로서의 데이터 파이프라이닝, 그리고 사이버 복원력이 경영진 회의실로 복귀하는 것입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/three-forces-reshaping-enterprise-storage-right-now/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "목적을 가지고 혁신하기: Dell의 헤만스 파틸의 여정",
+      "summary": "헤만스 파틸은 Dell에서 시니어 소프트웨어 엔지니어에서 시니어 프린시팔 소프트웨어 엔지니어 및 제품 소유자로 성장했습니다. 그의 업무는 엔터프라이즈 스토리지, 서버 시스템 및 PowerMax, VPLEX와 같은 최첨단 기술에 걸쳐있습니다. 헤만스는 협업, 혁신, 멘토링을 중시하며 게임 체인저 어워드와 같은 상을 수상했습니다. 그는 초기 경력 인재들에게 기본을 숙달하고, 신흥 기술에 대한 호기심을 유지하며, 강력한 소프트 스킬을 개발할 것을 권고합니다. Dell의 혁신 문화와 글로벌 협업은 그의 영향력 있는 문제 해결에 대한 열정을 지속시킵니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/innovating-with-purpose-hemanth-patil-s-journey-at-dell/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "인간 우주 탐사를 지원하는 디지털 인프라",
+      "summary": "NASA의 아르테미스 프로그램은 미국의 장기적인 우주 탐사 목표를 반영하고 있습니다. Dell Technologies는 까다로운 운영 환경을 위해 설계된 신뢰할 수 있는 컴퓨팅으로 아르테미스 I을 포함한 NASA의 탐사 활동을 오랫동안 지원해왔습니다. 아르테미스 II는 우주 탐사의 또 다른 역사적 이정표로, 우주비행사들을 지구에서 그 어느 때보다 멀리 보낼 수 있는 준비와 정밀성을 입증합니다. 현대적 우주 임무에서는 로켓과 우주선뿐만 아니라 비행 전, 중, 후의 모든 의사결정을 지원하는 디지털 인프라가 필수적입니다. Dell의 PowerEdge 서버와 Pro Precision 워크스테이션은 신뢰성, 성능, 일관성이 혁신만큼 중요한 미션 크리티컬 환경을 위해 특별히 설계되었습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/digital-infrastructure-behind-human-space-exploration/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "S3가 인터페이스 표준이 되었다면, 이제 시스템이 따라가야 한다",
+      "summary": "VAST의 CTO 알론 호레브와 필드 CTO 스콧 하워드는 최근 컨퍼런스에서 S3가 어떻게 사실상의 표준 저장소 인터페이스가 되었는지 설명했다. S3는 단순한 백엔드 시스템을 넘어 웹 앱, 콘텐츠 전송, 데이터 파이프라인, AI 워크플로우 등 현대적 시스템 전반에 기반이 되고 있다. S3가 널리 채택된 핵심 이유는 대규모 시스템 구축의 복잡성을 크게 줄였기 때문인데, 특히 불변성(immutability)을 통해 잠금, 부분 업데이트, 분산 시스템 조율 문제 같은 복잡한 문제들을 제거했다. HTTP 기반으로 구축되어 HTTP를 지원하는 모든 것이 상호작용 가능하며, 특화된 클라이언트나 파일 시스템 마운팅이 필요 없고, 웹 트래픽 보안 메커니즘을 그대로 활용할 수 있다. 그러나 현재 문제는 이러한 광범위한 사용을 실제로 지원할 수 있는 기반 시스템이 충분한지 여부이며, 이제 인터페이스 표준이 결정되었으므로 인프라도 따라가야 한다는 것이 핵심이다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/s3-won-the-interface-now-the-system-has-to-catch-up",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "백악관 비서실장, 앤스로픽 CEO와 신규 AI 기술 관련 회동 예정",
+      "summary": "백악관 비서실장이 AI 기업 앤스로픽의 CEO와 만날 예정인 것으로 보도되었습니다. 이 회동은 앤스로픽이 개발한 새로운 AI 기술에 대해 논의하기 위한 것으로 알려져 있습니다. 미국 정부의 AI 정책 담당자와 민간 AI 기업 간의 고위급 회담으로, 정부의 AI 기술 동향 파악과 규제 방향 설정에 중요한 역할을 할 것으로 예상됩니다. 이는 생성형 AI 기술의 발전과 안보 측면에 대한 정부의 관심을 반영하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/white-house-chief-of-staff-to-meet-ith-anthropic-ceo-over-its-new-ai-technology/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CoChat, 섀도우 AI 대응을 위한 AI 협업 플랫폼 출시",
+      "summary": "CoChat이 기업의 섀도우 AI(무단 AI 사용) 문제에 대응하기 위한 AI 협업 플랫폼을 출시했습니다. 이 플랫폼은 조직 내에서 통제되지 않는 AI 도구의 사용을 관리하고 모니터링하는 것을 목표로 합니다. 섀도우 AI는 기업의 보안 정책을 우회하고 민감한 데이터 유출 위험을 증가시키는 주요 보안 위협으로 인식되고 있습니다. CoChat의 솔루션은 직원들의 AI 도구 사용을 추적하고 규제하면서도 생산성을 유지할 수 있도록 설계되었습니다. 이는 기업들이 AI 기술의 이점을 누리면서도 보안 위험을 최소화할 수 있는 방안을 제시합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cochat-launches-ai-collaboration-platform-to-combat-shadow-ai/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기타 뉴스: 위성 사이버보안법, 90만 달러 규모 Chrome 취약점, 10대 해커 체포",
+      "summary": "이 기사는 최근 사이버보안 분야의 주요 뉴스 세 가지를 다루고 있습니다. 첫째, 위성 통신 시스템의 보안을 강화하기 위한 새로운 사이버보안법이 제시되었습니다. 둘째, Google Chrome 브라우저에서 심각한 보안 취약점이 발견되었으며, 이에 대한 버그 바운티로 90,000달러가 지급되었습니다. 셋째, 사이버 범죄를 저지른 10대 해커가 체포되었습니다. 이는 우주 기반 통신부터 일상적으로 사용하는 소프트웨어에 이르기까지 사이버보안 위협이 확산되고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-satellite-cybersecurity-act-90k-chrome-flaw-teen-hacker-arrested/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "또 다른 드래프트킹스 해커가 감옥형을 선고받다",
+      "summary": "온라인 스포츠 베팅 플랫폼인 드래프트킹스(DraftKings)를 대상으로 한 해킹 사건에서 또 다른 가해자가 징역형을 선고받았습니다. 이는 드래프트킹스의 보안 시스템에 대한 지속적인 위협이 존재하고 있음을 보여줍니다. 해당 사건은 금융 기반의 온라인 플랫폼에 대한 사이버 공격의 심각성을 강조하고 있습니다. 당국은 이러한 해킹 사건들에 대해 적극적인 수사와 처벌을 진행하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/another-draftkings-hacker-sentenced-to-prison/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "의원들이 AI에 대해 비공개로 논의, '파괴'에 대한 우려와 공포 제기",
+      "summary": "미국 의원들이 인공지능(AI)의 위협과 영향에 관해 비공개 회의를 개최했습니다. 이 회의에서 참석자들은 AI로 인한 잠재적인 '파괴'에 대한 심각한 우려와 공포를 표현했습니다. 의원들은 AI 기술의 급속한 발전이 국가 안보, 경제, 사회에 미칠 수 있는 부정적 영향에 대해 논의했으며, 이에 대한 규제 및 정책 마련의 필요성을 강조했습니다. 이는 AI의 잠재적 위험성에 대한 정부 차원의 관심이 증대되고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/lawmakers-gathered-quietly-to-talk-about-ai-angst-and-fears-of-destruction-followed/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "최근 Apache ActiveMQ 취약점이 실제 공격에 악용되고 있음",
+      "summary": "Apache ActiveMQ에서 발견된 보안 취약점이 현재 실제 사이버 공격에 악용되고 있는 것으로 보고되었습니다. 이 취약점은 공격자들이 영향을 받은 시스템에 접근하여 악의적인 활동을 수행할 수 있게 합니다. 관련 기관과 보안 전문가들은 ActiveMQ를 사용하는 조직들에 긴급 패치 적용을 권고하고 있습니다. 이 취약점의 심각성으로 인해 많은 기업들이 즉시 대응 조치를 취할 필요가 있습니다. ActiveMQ 사용자들은 최신 보안 업데이트를 확인하고 가능한 한 빨리 적용할 것을 강력히 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/recent-apache-activemq-vulnerability-exploited-in-the-wild/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "북한 IT 근로자 스킴 중개자 2명, 미국에서 투옥",
+      "summary": "미국에서 북한의 불법 IT 근로자 파견 계획을 중개한 2명이 감옥에 갇혔습니다. 이들은 북한 인력을 해외 기업에 배치하여 급여를 가로채는 방식으로 북한 정권에 수익을 제공한 혐의를 받고 있습니다. 이러한 스킴은 국제 제재를 우회하고 불법 자금 조달을 통해 북한의 사이버 활동을 지원하는 것으로 알려져 있습니다. 미국 당국은 이를 국가 안보 위협으로 간주하여 적극 단속하고 있으며, 이번 기소는 북한의 불법 경제 활동을 적발하려는 노력의 일환입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/two-north-korean-it-worker-scheme-facilitators-jailed-in-the-us/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "ZionSiphon 악성코드, 수처리 시설의 산업제어시스템(ICS) 공격",
+      "summary": "ZionSiphon이라는 악성코드가 수처리 시설의 산업제어시스템(ICS)을 목표로 하는 공격이 확인되었습니다. 이 악성코드는 중요 인프라인 수도 시설에 대한 사이버 공격의 위협을 나타내고 있습니다. 산업제어시스템을 노리는 이러한 공격은 수질 관리 및 공급 체계에 심각한 영향을 미칠 수 있습니다. 보안 전문가들은 수처리 시설 운영자들에게 즉시 대응 및 방어 체계 강화를 권고하고 있습니다. 이러한 사건은 중요 인프라 보호의 중요성을 다시 한 번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/zionsiphon-malware-targets-ics-in-water-facilities/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Cursor AI 취약점으로 개발자 기기 노출",
+      "summary": "Cursor AI 도구에서 발견된 보안 취약점이 개발자의 기기를 위험에 노출시키고 있습니다. 이 취약점을 통해 공격자들이 개발자 환경에 무단으로 접근할 수 있는 가능성이 있습니다. 해당 기사는 이 취약점의 구체적인 세부 사항과 영향 범위에 대해 다루고 있습니다. Cursor AI 사용자들은 즉시 보안 업데이트를 확인하고 필요한 조치를 취하는 것이 권장됩니다. 이러한 AI 개발 도구의 보안 문제는 개발자 커뮤니티 전체에 중대한 위협이 될 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cursor-ai-vulnerability-exposed-developer-devices/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "법 집행기관, 53개 DDoS 도메인 적발 및 차단",
+      "summary": "법 집행기관들이 DDoS 공격에 사용된 53개의 도메인을 적발하여 차단했습니다. 이번 조치는 글로벌 사이버보안 협력을 통해 이루어진 것으로, 분산 서비스 거부(DDoS) 공격 인프라를 타격하는 데 주력했습니다. DDoS 공격은 웹사이트와 온라인 서비스를 마비시키는 주요 사이버 위협 중 하나입니다. 이러한 적법한 단속 활동은 악의적 사이버 활동을 억제하고 인터넷 안정성을 보호하기 위한 국제 사회의 노력을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/53-ddos-domains-taken-down-by-law-enforcement/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Payouts King 랜섬웨어, QEMU 가상머신을 이용해 엔드포인트 보안 우회",
+      "summary": "Payouts King 랜섬웨어가 QEMU 에뮬레이터를 역방향 SSH 백도어로 활용하여 감염된 시스템에서 숨겨진 가상머신을 실행하고 있습니다. 이 기법을 통해 공격자들은 엔드포인트 보안 솔루션을 우회할 수 있습니다. 가상머신을 이용한 이러한 회피 기법은 보안 탐지를 어렵게 만들며, 기존의 보안 도구들로는 탐지하기 어려운 숨겨진 환경에서 악성 활동을 수행할 수 있게 합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/payouts-king-ransomware-uses-qemu-vms-to-bypass-endpoint-security/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "그리넥스 거래소, 1,370만 달러 암호화폐 해킹을 '서방 정보기관'탓으로 돌려",
+      "summary": "키르기스스탄 기반의 암호화폐 거래소 그리넥스가 1,370만 달러 규모의 해킹 피해를 입고 서비스를 중단했습니다. 그리넥스는 이번 해킹을 서방 정보기관들의 소행으로 주장하고 있습니다. 이번 사건은 암호화폐 거래소의 보안 취약점과 함께 지정학적 갈등이 사이버 공격으로 확대되고 있음을 시사합니다. 거래소의 운영 재개 시점은 아직 불명확한 상태입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/grinex-exchange-blames-western-intelligence-for-137m-crypto-hack/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "지하 조직의 가이드 공개: 위협 행위자들이 도용된 신용카드 판매점을 검증하는 방법",
+      "summary": "사이버범죄 시장에서 신뢰는 당연히 주어지는 것이 아니라 검증을 통해 확보된다. 보안 회사 Flare는 지하 조직의 가이드를 통해 위협 행위자들이 데이터 품질, 평판, 생존성을 기반으로 카딩 숍(도용된 신용카드 판매점)을 평가하는 방법을 공개했다. 이 연구는 어두운 웹과 텔레그램 같은 플랫폼에서 범죄자들이 어떻게 신용카드 판매처를 검증하고 신뢰성을 판단하는지 드러낸다. 사이버범죄 생태계에서 신용카드 도용 및 판매 활동이 얼마나 체계적으로 조직되어 있는지를 보여주는 사례이다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/inside-an-underground-guide-how-threat-actors-vet-stolen-credit-card-shops/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "웨비나: 피싱부터 피해까지 — MSP가 보안과 복구 전략을 재고해야 하는 이유",
+      "summary": "사이버 공격이 많은 MSP 및 기업 방어 시스템을 따라잡을 수 없을 정도로 빠르게 진화하고 있으며, 피싱이 현대 사이버범죄의 대부분을 주도하고 있습니다. 이 웨비나는 보안 및 복구 전략을 결합하여 위험을 줄이고 비즈니스 연속성을 유지하는 방법을 배울 수 있는 기회를 제공합니다. MSP들은 진화하는 위협에 대응하기 위해 피싱 방어와 장애 복구 전략을 동시에 재검토해야 합니다. 이 세션을 통해 조직의 회복력을 강화하고 사이버 위협으로부터 더 효과적으로 보호할 수 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/webinar-from-phishing-to-fallout-why-msps-must-rethink-both-security-and-recovery/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, Apache ActiveMQ 취약점이 실제 공격에 악용 중임을 경고",
+      "summary": "미국 사이버보안 및 기반시설 보안청(CISA)이 Apache ActiveMQ의 고위험 취약점이 현재 실제 공격에 악용되고 있다고 경고했습니다. 해당 취약점은 13년간 탐지되지 않았다가 이달 초 패치된 원격 코드 실행(RCE) 취약점입니다. 공격자들이 이미 이 결함을 악용해 시스템에 침투하고 있는 상황입니다. CISA는 영향을 받는 사용자들에게 긴급하게 패치를 적용할 것을 권고하고 있습니다. 이 취약점은 Apache ActiveMQ의 메시지 브로커 기능에서 비롯된 것으로, 널리 사용되는 오픈소스 소프트웨어인 만큼 많은 조직이 영향을 받을 수 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-flags-apache-activemq-flaw-as-actively-exploited-in-attacks/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트: 4월 패치 후 일부 Windows 서버가 재부팅 루프 발생",
+      "summary": "마이크로소프트가 2026년 4월 보안 업데이트 설치 후 일부 Windows 도메인 컨트롤러가 재시작 루프에 빠지는 문제를 경고했습니다. 이 문제는 Windows Server 2019, 2022, 2025 등 여러 버전의 서버에 영향을 미치고 있습니다. LSASS(로컬 보안 인증 서버) 관련 패치가 이 문제의 원인으로 추정되고 있습니다. 영향을 받는 도메인 컨트롤러는 계속해서 재부팅되어 정상적인 서비스를 제공하지 못하고 있습니다. 마이크로소프트는 이를 알려진 문제로 등록하고 해결책을 모색 중입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-reboot-loops-affecting-some-domain-controllers/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "해킹된 DraftKings 계정 수천 개를 판매한 남성, 30개월 징역형 선고",
+      "summary": "테네시주 멤피스에 거주하는 23세의 카메린 스토크스는 수만 개의 해킹된 DraftKings 계정에 대한 접근 권한을 판매한 혐의로 30개월의 징역형을 선고받았습니다. 본 사건은 자격증 채우기(Credential Stuffing) 공격을 통해 대규모 계정 탈취가 이루어졌음을 보여줍니다. 피해자들의 개인 정보와 금융 정보가 불법적으로 판매되면서 수많은 사용자들이 피해를 입었습니다. 이는 온라인 플랫폼의 보안 강화와 사용자 계정 보호의 중요성을 강조하는 사건입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/man-gets-30-months-for-selling-thousands-of-hacked-draftkings-accounts/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "최근 유출된 윈도우 제로데이 취약점, 실제 공격에 악용되고 있어",
+      "summary": "위협 행위자들이 최근 공개된 윈도우 보안 취약점 3개를 이용한 공격을 진행 중입니다. 이 취약점들은 시스템(SYSTEM) 권한이나 관리자 권한 상승을 목표로 하는 공격에 악용되고 있습니다. 윈도우 10, 윈도우 11, 윈도우 서버 등 여러 버전이 영향을 받고 있습니다. 로컬 권한 상승 취약점으로 분류된 이 제로데이들은 현재 적극적으로 악용 중인 상태입니다. 마이크로소프트는 이미 이러한 취약점들을 인지하고 있는 것으로 보입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/recently-leaked-windows-zero-days-now-exploited-in-attacks/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "편리하게 일하려 자동화했더니... n8n 클라우드 기반 악성코드 공격 포착",
+      "summary": "n8n 신뢰성 악용해 침투, 시스템 장악편리한 업무 자동화 도구가 해커 자동 공격 수단으로... [보안뉴스 김형근 기자] 인기 AI 워크플로우 자동화 플랫폼 n8n의 웹후크(Webhook) 기능을 악용해 악성코드를 유포하는 피싱 캠페인이 작년 10월부터 지속돼 온 것으로 드러났다. 시스코 탈로스에 따르면, 공격자들은 n8n의 신뢰받는 클라우드 인프라 ‘a",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143228&kind=&sub_kind=",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“산불 골든타임 잡는다” 민간 항공기 투입한 감시체계 구축",
+      "summary": "국립산림과학원, 민간 항공기 활용 산불 감시·대응 체계 도입 추진야간·헬기 공백 보완해 골든타임 확보 및 초기 대응력 강화시간 체공·실시간 정보 기반으로 공중·지상 진화 효율성 제고[보안뉴스 강초희 기자] 국립산림과학원(원장 김용관)은 기후변화로 산불 대형화·장기화가 심화됨에 따라, 민간 항공기를 활용한 산불 감시 및 대응 체계를 구축해 골든타임 확보에 나",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143230&kind=&sub_kind=",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "관악구, 사건·사고부터 실종아동 추적까지 AI 행정으로 대응한다",
+      "summary": "AI 기반 스마트 행정 추진... 4개 분야 28개 사업 본격화챗봇·영상분석·CCTV 고속검색 등 행정·안전 서비스 고도화실종아동 추적·침수 대응·전세사기 예방 등 생활밀착형 AI 확대[보안뉴스 강초희 기자] AI 기술이 행정과 산업, 일상 전반으로 빠르게 확산되면서 공공서비스 역시 디지털 기술 기반의 전환기를 맞고 있다. 이에 따라 행정 효율을 높이고 주",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143231&kind=&sub_kind=",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“구매 대신 임대” 조달청, 공공기관 AI 순찰 로봇 도입 장벽 낮춘다",
+      "summary": "초기 비용 절감·유지보수 부담 완화로 공공기관 도입 장벽 낮춰로봇서비스 임대 확대로 첨단 기술 공공 확산 추진[보안뉴스 강초희 기자] 조달청(청장 백승보)은 ‘인공지능(AI) 기반 순찰(경비) 로봇 임대서비스’ 공급을 위한 카탈로그 계약 입찰 공고를 게시했다고 밝혔다.순찰 로봇은 AI 기반으로 정해진 구역을 자율 주행하며 화재·안전사고·범죄 등 이상 상황을",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143229&kind=&sub_kind=",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“문자 한 통에 뚫리던 시대 끝났다”... 구글, 스마트폰 모뎀 펌웨어에 러스트 도입해 원격실행 위협 차단",
+      "summary": "픽셀10 스마트폰에 러스트 도입, 메모리 안전 취약점 제거 [보안뉴스 김형근 기자] 구글은 자사 신형 스마트폰 픽셀10의 셀룰러 모뎀 펌웨어에 러스트(Rust) 프로그래밍 언어를 통합해 보안 능력을 강화했다.구글은 자사 보안 블로그에서 기존 C/C++ 기반 레거시 DNS 파서(Parser)를 러스트 기반으로 대체해 고질적 메모리 안전 취약점을 제거했다고 밝",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143225&kind=&sub_kind=",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[부고] 윤승제 제네텍코리아 지사장 부친상",
+      "summary": "△내용: 윤승제 제네텍코리아 지사장 부친상△고인: 故 윤준석님 (향년 85세)△빈소: 쉴낙원인천장례식장 특6호(3층) (인천광역시 계양구 아나지로 552)△발인: 2026년 4월 19일(일) 05시 40분△장지: 서울추모공원ㅡ화산추모공원(예산)[강초희 기자(choh@boannews.com)]www.boannews.com) 무단전재-재배포금지>",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143226&kind=&sub_kind=",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "N2SF 보안 정책 제도화... 국가사이버보안 기본지침 5월 시행",
+      "summary": "망분리 폐지, 데이터 중요도 따라 차등 통제정보화 예산-인력 대비 보안 예산-인력 15%, 10% 이상 의무화 [보안뉴스 한세희 기자] 국가망보안체계(N2SF) 정책을 명문화한 ‘국가 사이버보안 기본 지침’이 5월 시행된다. 망분리 규제를 폐지하고, 데이터 중요도에 따라 보안 수준을 차등 적용해 행정 효율을 높이기 위한 N2SF 정책이 실행에 들어간다.",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143227&kind=&sub_kind=",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "신라대학교 평생교육원, 대한상공회의소 ‘직업계고 채용연계형 직무교육기관’ 선정",
+      "summary": "보안검색 중심 학년별 맞춤 교육 운영... 실습·현장형 프로그램 강화공항·항만 등 보안 분야 취업 연계, 실무 투입 가능한 인재 양성[보안뉴스 강초희 기자] 신라대학교(총장 허남식)가 대한상공회의소가 주관하는 ‘직업계고 채용연계형 직무교육기관’으로 선정돼 직업계고 학생을 대상으로 한 보안검색 분야 직무교육 프로그램을 운영한다고 밝혔다.이 사업은 직업계고 학",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143224&kind=&sub_kind=",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[미토스 충격] 영국 정부, 기업에 긴급 서한 “골키퍼 없는 골대, 이제는 채워야 할 때”",
+      "summary": "실전 공격력 검증되지 않았지만, 보안 취약 조직은 AI 자동화 공격에 노출 가능성 ↑핵심은 파괴력보다 ‘공격 대중화 속도’... 경영진 주도 보안 강화가 향후 성패 좌우[보안뉴스 김형근 기자] 영국 정부는 앤트로픽의 신규 모델 ‘미토스’(Mythos) 출시 이후 확산되는 보안 불안에 대응해 기업들에 사이버 방어 강화를 촉구하는 공개 서한을 발송했다.영국 A",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143223&kind=&sub_kind=",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "금융보안원, 금융사 AX 인력 키운다",
+      "summary": "‘AI 보안 전문인력 양성과정’ 연 2회 개설금융사 현장에서 즉시 활용 가능한 AI 보안 전문인력 양성 [보안뉴스 한세희 기자] 금융보안원(원장 박상원)은 금융사 임직원을 대상으로 ‘AI 보안 전문인력 양성과정’을 개설했다고 17일 밝혔다. 금융권 특화 AI 레드티밍 교육 등을 실시해 현장에서 활용 가능한 AI 역량을 키운다. 최근 미토스 등 AI를 활용한",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143222&kind=&sub_kind=",
+      "date": "2026-04-17"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "[특별기고] AI 시대 국가 경쟁력, ‘정보보호산업 육성방안’이 가져올 동반 성장",
@@ -7133,6 +7453,6 @@
       "date": "2025-11-12"
     }
   ],
-  "totalItems": 713,
+  "totalItems": 745,
   "hasArchive": false
 }
