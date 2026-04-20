@@ -748,9 +748,139 @@
     "https://www.securityweek.com/tycoon-2fa-loses-phishing-kit-crown-amid-surge-in-attacks/",
     "https://www.bleepingcomputer.com/news/security/critical-flaw-in-protobuf-library-enables-javascript-code-execution/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-right-click-paste-broken-by-edge-update-bug/",
-    "https://www.bleepingcomputer.com/news/security/nakivo-v112-ransomware-defense-faster-replication-vsphere-9-and-proxmox-ve-90-support/"
+    "https://www.bleepingcomputer.com/news/security/nakivo-v112-ransomware-defense-faster-replication-vsphere-9-and-proxmox-ve-90-support/",
+    "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/",
+    "https://www.bleepingcomputer.com/news/security/apple-account-change-alerts-abused-to-send-phishing-emails/",
+    "https://www.bleepingcomputer.com/news/security/nist-to-stop-rating-non-priority-flaws-due-to-volume-increase/",
+    "http://www.boannews.com/media/view.asp?idx=143267&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143266&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143212&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143265&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143264&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143261&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143263&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143262&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143260&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143256&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[이슈칼럼] 사라진 방어 골든타임, 보안 패러다임을 바꿔라",
+      "summary": "AI 스스로 소프트웨어의 논리적 결함을 찾아내고, 인간 개입 없이도 공격 코드를 생성하는 시대주기적인 사이버 리스크 점검 방식에서 벗어나, 지속 위협 관리로 보안 대응 방향 바꿔야[보안뉴스= 안기동 유넷시스템즈 대표] 최근 엔트로픽이 발표한 새로운 모델 ‘미토스’(Mythos)는 사이버 보안 조직에 가혹한 질문을 던졌다. 인공지능(AI)이 스스로 소프트웨어",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143267&kind=&sub_kind=",
+      "date": "2026-04-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "마이크로소프트 계정 탈취, 피싱 키트 서비스화... 국제 이메일 사기 조직 이렇게 움직였다",
+      "summary": "그룹아이비, 이메일 사기 조직 ‘웰’ 관련 사이버 범죄 조사 보고서 발표 [보안뉴스 한세희 기자] 최근 국제 공조 수사에 의해 분쇄된 글로벌 사이버 범죄 조직 ‘웰’(W3LL)이 고성능 피싱 키트와 지속적 운영 방식 변경 등으로 단속을 피해 이메일 피싱 사업을 벌여온 것으로 드러났다. 그룹아이비(Group-IB)가 최근 발간한 웰 조직 분석 보고서에 따르면",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143266&kind=&sub_kind=",
+      "date": "2026-04-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[2026 DB/비정형 암호화 솔루션 리포트] AI 공격 시대, 다시 보안의 중심에 선 ‘암호화’",
+      "summary": "AI 기반 공격 고도화로 ‘사전 차단 중심 보안’ 한계 드러나설문조사 결과, 암호화 도입률 60.7%... 기본 보안 체계로 자리잡았지만 운영 어려워키 관리·권한 통제·운영 효율 등 ‘암호화 이후’ 과제 부각동형암호, PQC, PET 등 차세대 기술로 통합 통제 체계 진화DB/비정형 암호화 솔루션 전문업체 집중 분석: 펜타시큐리티, 탈레스[보안뉴스 강초희",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143212&kind=&sub_kind=",
+      "date": "2026-04-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“국가 위기 핵심 대응 인력 훈련”... 국정원 ‘락드쉴즈 2026’ 참가",
+      "summary": "헝가리와 국가 연합팀 구성해 참가“민·관·군 결집해 국가 사이버안보 대응 수준 격상”[보안뉴스 강현주 기자] 국가 위기 시 핵심 대응 인력을 훈련하는 세계 최대 규모의 사이버방어 훈련인 ‘락드쉴즈 2026’(Locked Shields 2026)에 국내 47개 기관 170명이 참가한다. 국가정보원은 20일부터 24일까지 나토 사이버방위센터가 주관하는 ‘락드",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143265&kind=&sub_kind=",
+      "date": "2026-04-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "지슨, 무선 기술로 반도체 진단장비 시장 진출... “국산화 선도”",
+      "summary": "기존 전파 분석 기술 연장선인 플라즈마 진단으로 상용화 속도 극대화해외 기업이 독점하던 RF 진단장비 수입 대체 효과 기대하며 공급망 구축 박차[보안뉴스 조재호 기자] 지슨이 무선주파수(RF: Radio Frequency) 원천기술을 바탕으로 반도체 공정 진단장비 시장에 진출한다. 지슨은 지난 17일 이사회를 열고, 신사업 추진을 위한 정관 변경 안건을 의",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143264&kind=&sub_kind=",
+      "date": "2026-04-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "크랜베리, 조달청 혁신제품 시범구매 사업 통해 전국 지자체 공급 확대",
+      "summary": "부천시, 사천시, 장성군, 장수군에 AI 융합 안정 시스템 공급AI 기반 공공 안전 혁신제품, 지자체 시범사업 본격 추진[보안뉴스 강초희 기자] 크랜베리(대표 이은혜)가 2026년 조달청 혁신제품 시범구매 사업을 통해 부천시, 사천시, 장성군, 장수군 등 전국 지방자치단체에 혁신제품을 공급하는 사업을 수주했다고 밝혔다. 이번 사업은 조달청 혁신제품 시범구매",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143261&kind=&sub_kind=",
+      "date": "2026-04-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "파이오링크, 빅스테크놀로지와 ‘AI 기반 자율형 보안’ 개발 본격화",
+      "summary": "전략적 투자 완료... ‘AI 에이전트 기반 CTEM’ 공동 개발스스로 위협 막는 자율 대응 체계로 패러다임 전환[보안뉴스 강현주 기자] 파이오링크(대표 조영철)가 AI 플랫폼 전문기업 빅스테크놀로지(대표 김인석)와 차세대 보안 솔루션 개발 협력을 심화한다고 20일 밝혔다. 인공지능(AI) 기술을 보안 서비스 전반에 본격 도입하고 글로벌 시장을 확대하기 위",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143263&kind=&sub_kind=",
+      "date": "2026-04-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[인사] 개인정보보호위원회",
+      "summary": "◇국장급 전보 △개인정보정책국장 이상민[한세희 기자(hahn@boannews.com)]www.boannews.com) 무단전재-재배포금지>",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143262&kind=&sub_kind=",
+      "date": "2026-04-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "오리엔텀-핑거-핀테크, 양자 금융 생태계 구축 협력",
+      "summary": "양자 컴퓨팅 기술 기반 금융 산업 혁신 위한 3자 업무협약(MOU) 체결금융 시장에서 즉시 활용 가능한 양자 기반 소프트웨어 상용화 [보안뉴스 한세희 기자] 양자 컴퓨팅 소프트웨어 기업 오리엔텀과 SaaS 기업 핑거, 금융 플랫폼 기업 핀테크 3사가 양자 금융 생태계 구축을 위해 협력한다. 오리엔텀과 핑거, 핀테크는 양자 컴퓨팅 기술 기반 금융 산업 혁신과",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143260&kind=&sub_kind=",
+      "date": "2026-04-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "렉스젠, 상황 맞춤형 시간제 속도제한 시스템 ‘스피드 피커’(Speed Picker) 출시",
+      "summary": "시간대·도로 환경에 따라 제한속도를 유연하게 조정하는 시간제 속도제한 시스템주·야간 가변 속도 운영과 전광판 영상 기반 증거 확보로 단속 신뢰성과 운전자 수용성 강화기상 상황 연동 및 원격 제어 기능으로 사고 예방 중심의 능동형 교통 관리 체계 구현[보안뉴스 강초희 기자] 렉스젠(대표이사 안순현)이 획일적인 ‘안전속도 5030’ 정책의 한계를 보완하고 유연",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143256&kind=&sub_kind=",
+      "date": "2026-04-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Vercel, 해킹 피해 확인... 해커들이 탈취 데이터 판매 주장",
+      "summary": "클라우드 개발 플랫폼 Vercel이 보안 사건을 공식 확인했습니다. 위협 행위자들이 Vercel 시스템을 침해했으며 탈취한 데이터를 판매하려고 시도 중인 것으로 알려졌습니다. ShinyHunters로 추정되는 해킹 그룹이 이번 사건과 관련된 것으로 보입니다. Vercel은 영향받은 사용자들에게 알림을 제공하고 사건 대응 조치를 진행 중입니다. 이번 사건은 클라우드 인프라 제공업체에 대한 보안 위협이 계속되고 있음을 시사합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/",
+      "date": "2026-04-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Apple 계정 변경 알림이 피싱 이메일 전송에 악용됨",
+      "summary": "Apple 계정 변경 알림 기능이 악의적으로 악용되어 정당한 Apple 서버에서 발송된 이메일로 위장한 가짜 iPhone 구매 피싱 스캠이 전송되고 있습니다. 이 공격 기법은 Apple의 정상 서버를 통해 전송되기 때문에 높은 신뢰성을 확보하며, 스팸 필터를 우회할 가능성이 높아집니다. 공격자들이 Apple의 공식 알림 시스템을 악용함으로써 사용자들의 경계심을 낮추고 피싱 링크 클릭 유도를 시도하고 있습니다. 이는 Apple의 정상적인 보안 알림 기능이 악용되는 심각한 보안 위협입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/apple-account-change-alerts-abused-to-send-phishing-emails/",
+      "date": "2026-04-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "NIST, 취약점 증가로 인해 우선순위 낮은 결함에 대한 등급 평가 중단",
+      "summary": "미국 국립표준기술연구소(NIST)는 제출량 증가로 인한 업무 부담 증가로 인해 우선순위가 낮은 취약점에 대한 심각도 점수 할당을 중단할 예정입니다. 제출되는 취약점의 양이 계속 증가함에 따라 NIST는 더 높은 우선순위의 결함에 집중하기로 결정했습니다. 이러한 정책 변화는 국립 취약점 데이터베이스(NVD)에 등록되는 취약점들의 평가 방식에 영향을 미칠 것으로 예상됩니다. NIST는 제한된 리소스로 증가하는 취약점 평가 수요를 대응하기 위한 실질적인 조치를 취하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/nist-to-stop-rating-non-priority-flaws-due-to-volume-increase/",
+      "date": "2026-04-19"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "Tycoon 2FA, 피싱 킷 공격 급증 속에서 최강자 지위 상실",
@@ -7493,6 +7623,6 @@
       "date": "2025-11-12"
     }
   ],
-  "totalItems": 749,
+  "totalItems": 762,
   "hasArchive": false
 }
