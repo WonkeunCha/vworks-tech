@@ -3,6 +3,267 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "또 뚫린 프랑스 공공 인프라... 이번엔 ANTS 포털 해킹",
+      "summary": "국가 안전 서류 관리하는 핵심 서버 공격받아 주소와 전화번호 유출파리 검찰청 즉각 수사 착수했으나, 표적형 피싱 범죄 예방에 비상 걸려[보안뉴스 김형근 기자] 프랑스 공공 포털이 관리자 신원을 도용한 해킹 공격에 무너졌다. 2단계 인증을 비롯한 방어 수단을 마련하고 있지만, 정식 계정을 탈취하는 방식의 공격에 기존의 보안 시스템이 무용지물이 됐다는 비판을",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143304&kind=&sub_kind=",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“보안 사고, 기술 아닌 실행 부재에서 시작”... 아톤, ‘시큐리티 서밋 2026’ 개최",
+      "summary": "양자보안부터 제로트러스트, 피싱방어까지 총 망라[보안뉴스 강현주 기자] 아톤(대표 우길수)이 보안 실무자들에게 기업이 지금 당장 실행할 수 있는 보안 전략을 제시한다.아톤은 오는 5월 13일 여의도 FKI타워 그랜드볼룸에서 ‘아톤 시큐리티 서밋 2026’을 개최한다고 22일 밝혔다.이번 행사는 아톤이 단독 주관하는 첫 대규모 보안 컨퍼런스다. 은행·증권사",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143305&kind=&sub_kind=",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "분산형 소셜 미디어 블루스카이, 친이란 해커 그룹 공격에 서비스 장애",
+      "summary": "블루스카이 서비스 장애는 DDoS 공격 때문친이란 ‘313 팀’ 자신들 소행이라 주장[보안뉴스 김형근 기자] X(구 트위터)의 대안으로 주목받는 분산형 소셜 미디어 블루스카이(Bluesky)는 최근 발생한 서비스 장애가 외부 세력에 의한 디도스(DDoS) 공격 때문이라고 밝혔다. 블루스카이에 대한 공격은 15일(현지시간) 시작돼 게시물 목록(Feed)",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143303&kind=&sub_kind=",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "오내피플, 2025년 ‘흑자전환’ 성공 “AI기반 개인정보보호 SaaS 시장 가속화”",
+      "summary": "2025년 당기순이익 흑자 달성하며 질적·양적 성장 동시 확보매출 전년 대비 45% 급증, ‘캐치시큐’ 중심의 B2B/B2G 시장 확장 주효 CSAP 등 보안 인증 바탕으로 공공 클라우드 시장 공략 본격화 예정[보안뉴스 강초희 기자] 개인정보보호 규제 준수(Compliance) 솔루션 ‘캐치시큐’를 운영하는 오내피플(대표 조아영)이 2025년 결산 결과,",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143302&kind=&sub_kind=",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "KISA, 지구의 날 맞아 ‘에너지·보안 6대 실천 수칙’ 발표",
+      "summary": "기후 위기 심화와 에너지 수급 불안 극복하기 위한 생활 속 디지털 통합 가이드 제안미사용 기기 전원 차단과 2단계 인증 설정 비롯한 ‘절전과 방어’ 중심 행동 지침[보안뉴스 조재호 기자] 한국인터넷진흥원(KISA)은 지구의 날을 맞아 에너지 절약과 정보보호를 동시에 실천할 수 있는 ‘6대 실천 수칙’을 22일 밝혔다. 이번 실전 수칙은 기후 위기 심화와 에",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143300&kind=&sub_kind=",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "포티넷, ‘2026 구글 클라우드 올해의 파트너상’ 워크로드 보안 부문 수상",
+      "summary": "포티CNAPP, 클라우드 보안 태세 관리·워크로드 보호·위협 탐지 통합[보안뉴스 강현주 기자] 글로벌 네트워크 보안 융합 솔루션 기업 포티넷(CEO 켄 지)이 ‘2026 구글 클라우드 올해의 파트너상’ 워크로드 보안 부문을 수상했다고 22일 밝혔다. 포티넷은 클라우드 네이티브 애플리케이션 보호 플랫폼 ‘포티CNAPP’를 통해 하이브리드 및 멀티클라우드 환경",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143301&kind=&sub_kind=",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "이원태 국가AI전략위 보안특위 위원장 ‘홍조 근정훈장’... “AI 시대 보안정책 수준 제고”",
+      "summary": "“AI 시대 선제적 ICT 규범 정립 및 보안 정책 수준 제고 공로”[보안뉴스 강현주 기자] 이원태 국가인공지능전략위원회 보안 특별위원회 위원장이 이재명 대통령으로부터 ‘홍조 근정훈장’을 수훈했다. AI 시대 ICT 규범 및 보안 정책 수준에 기여한 데 따른 것이다. 21일 한국과학기술회관에서 열린 ‘2026년 과학·정보통신의 날 기념식’에서 과학 기술·정",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143299&kind=&sub_kind=",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[특별기고] 새로운 클라우드 보안 인증제도에 바란다",
+      "summary": "안전한 클라우드 운영이 소버린 AI 경쟁력의 핵심... 보안과 혁신 균형점 찾아야민간 소통 확대 및 구체적인 가이드라인 마련을 통해 미래 신기술 능동적 대응 촉구[보안뉴스= 류재철 충남대학교 컴퓨터융합학부 교수] 미토스의 등장이 세계적으로 큰 화제가 되고 있다. 27년간 찾지 못했던 취약점을 탐지하고, 다양한 취약점을 연계해 공격 코드를 생성하는 것을 보면",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143298&kind=&sub_kind=",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[카드뉴스] “비번은 바꿔도 DNA는 못 바꾼다”… 수백만명 ‘유전자 설계도’ 유출 비상",
+      "summary": "개인의 고유한 생물학적 정보인 유전자 데이터가 대규모로 유출되면서, 변경이 불가능한 ‘생체 설계도’가 사이버 범죄의 타겟이 되는 심각한 국면에 접어들었다. 유출된 정보는 단순 사생활 침해를 넘어 특정인의 유전적 취약점을 이용한 ‘맞춤형 생물학적 타겟팅’ 공격 등 인명에 치명적인 위협으로 이어질 수 있다. 보안의 패러다임이 IT 시스템 방어에서 인류의 생존과",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143269&kind=&sub_kind=",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "스마트키퍼, 일본 NTT동일본에 물리보안 솔루션 공급",
+      "summary": "NTT동일본 독점 계약으로 일본 시장 본격 진출“단순 공급 넘어 파트너십”... 글로벌 물리보안 기술력 검증 [보안뉴스 한세희 기자] 스마트키퍼(대표 안창훈)는 일본 통신·인프라 기업 NTT동일본(NTT East)과 물리보안 솔루션 공급 및 시장 확대를 위한 협력 계약을 체결했다고 밝혔다. 이번 협력은 단순 제품 공급 계약을 넘어, 일본 시장에서 물리보안",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143221&kind=&sub_kind=",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "모델을 넘어서: AI가 현실이 되는 곳",
+      "summary": "Everson Luz는 단순히 모델을 넘어 AI 혁신을 가능하게 하는 확장 가능한 시스템 구축에 중점을 두고 있습니다. IT 지원에서 Dell 연구팀에 이르는 그의 여정은 실제 복잡한 문제를 해결하는 전문성을 형성했습니다. Everson은 AI와 인간 사용자를 모두 고려하여 시스템을 설계하며, 명확성, 신뢰 및 원활한 도입을 보장합니다. 프로세스를 단순화하고 마찰을 줄임으로써 그는 연구원들이 실험과 발견에 집중할 수 있도록 지원합니다. Dell의 팀 중심 문화와 운영 우수성은 복잡성을 지속 가능한 추진력으로 변환하려는 그의 사명을 추진합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/beyond-models-where-ai-becomes-reality/",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "IT 리더들이 실제로 말하는 차세대를 위한 스토리지에 대해",
+      "summary": "성공하는 기업들은 스토리지 기반을 포함한 모든 것을 현대화한 기업들입니다. Dell PowerScale에 대한 최근 독립적인 세 가지 검토는 실제 운영 환경에서 대규모 파일 크기를 처리할 수 있는 유연성, 5점 만점의 신뢰성, 그리고 측정 가능한 ROI를 제공하는 관리 기능을 경험하고 있음을 보여줍니다. Dell은 오늘날의 비즈니스를 운영하고 동일한 엔터프라이즈 인프라 기반 위에서 내일을 구축할 수 있도록 당신을 지원할 수 있는 독특한 위치에 있습니다. 동료들이 효과적이라고 말하는 것이 무엇이며, 이것이 AI 스토리지 및 데이터 인프라 전략에 왜 중요한지 알아보세요.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/what-it-leaders-are-actually-saying-about-storage-that-s-ready-for-what-s-next/",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "세계 최고의 자율주행 자동차 회사들이 VAST를 사용하는 이유",
+      "summary": "자동차 산업이 소프트웨어 산업으로 변모하면서 자율주행 기술을 구동하는 AI 모델이 급속도로 복잡해지고 있습니다. 센서 장착 차량 한 대는 하루에 테라바이트 규모의 데이터를 생성하며, 전 세계 차량군과 합성 데이터, 시뮬레이션 작업을 고려하면 수백 페타바이트 규모의 데이터를 관리해야 합니다. 문제는 단순한 데이터 규모가 아니라 파이프라인 전체에서 다양한 접근 방식이 필요하다는 점입니다. 원본 센서 데이터 수집부터 GPU 클러스터 학습, 안전 검증, OTA 업데이트, 실시간 텔레메트리까지 각 단계마다 다른 성능 요구사항이 있습니다. 기존 아키텍처는 이를 처리하기 위해 여러 시스템을 따로 구축해야 하며, 이로 인해 전 세계 개발 센터에 데이터가 산재되고 협업이 저해됩니다. VAST 플랫폼은 이러한 데이터 단편화 문제를 해결하고 통합된 단일 진실 공급원을 제공함으로써 자율주행 자동차 회사들이 효율적인 데이터 관리와 글로벌 협업을 실현할 수 있도록 지원합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/why-the-worlds-leading-autonomous-vehicle-companies-run-on-vast",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 팩토리는 데이터가 항상 준비되어 있을 때만 작동한다",
+      "summary": "실제로 기업 데이터는 지속적으로 변화하며 여러 시스템에 분산되어 있고, 신원 및 접근 제어로 제약을 받으면서 이를 표현하는 파이프라인은 항상 뒤처진다. 이러한 격차가 벌어지면서 AI 에이전트는 오래된 또는 누락된 정보를 기반으로 작동하게 되어 출력이 정확해 보이지만 실제 정확성은 시간이 지남에 따라 저하된다. 과거에는 모델이 제한적 요소였지만, 이제는 기업 데이터의 분산이 핵심 제약이 되었다. 에이전트가 필요한 시점에 필요한 형태로 필요한 데이터에 안정적으로 접근할 수 없으면 시스템의 정확성이 떨어진다. 대부분의 기업 데이터는 문서, 로그, 티켓, 코드 저장소, 공유 드라이브, 협업 도구, 운영 시스템 등 곳곳에 �산재되어 있으며, 기존 파이프라인은 주기적 수집, 한 번 생성된 임베딩 재사용, 배치 업데이트 같은 오래된 가정 위에 구축되어 있다. 이러한 시스템들이 실시간으로 AI 에이전트의 쿼리에 응답하도록 설계되지 않았기 때문에 데이터 준비 상태는 대부분의 기업에서 부족한 상황이다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/ai-factories-only-work-if-data-is-always-ready",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국 보안 전문가 3번째 인물, 랜섬웨어 조직 지원 혐의 자백",
+      "summary": "미국의 세 번째 보안 전문가가 랜섬웨어 갱단을 지원한 혐의를 인정했습니다. 이는 사이버 범죄 조직과 보안 업계 전문가 간의 연계 문제가 심각함을 보여주는 사건입니다. 해당 전문가는 랜섬웨어 공격 그룹에 기술적 지원이나 정보를 제공한 것으로 알려졌습니다. 이러한 내부자의 배신은 조직들의 보안 위협을 가중시키고 있습니다. 미국 당국은 랜섬웨어 조직과 협력한 보안 관계자들에 대한 수사를 계속 진행 중입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/third-us-security-expert-admits-helping-ransomware-gang/",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Apple App Store에 수십 개의 악성 암호화폐 앱 등재",
+      "summary": "Apple App Store에 악의적인 암호화폐 관련 애플리케이션이 수십 개 등재되어 사용자들이 위험에 노출되었습니다. 이러한 악성 앱들은 사용자의 개인정보 탈취, 자산 도용, 사기 등의 목적으로 설계되었습니다. Apple의 앱 검수 시스템을 통과한 이러한 악성 앱들은 암호화폐 투자자들을 주요 대상으로 하고 있습니다. 보안 전문가들은 사용자들에게 출처가 명확하지 않은 암호화폐 앱 다운로드를 피할 것을 권고하고 있습니다. 이 사건은 대형 플랫폼의 앱 검수 절차에 대한 우려를 다시 한번 제기하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/dozens-of-malicious-crypto-apps-land-in-apple-app-store/",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "보안이 취약한 Perforce 서버들이 주요 기관의 민감한 데이터 노출",
+      "summary": "주요 조직들의 Perforce 서버가 적절한 보안 조치 없이 운영되면서 민감한 데이터가 노출되고 있는 상황이 발생했습니다. Perforce는 소프트웨어 개발 및 버전 관리를 위해 많은 기업에서 사용하는 플랫폼입니다. 이번 사건은 조직들의 코드, 설정 정보, 인증 정보 등 중요한 개발 자산이 보호되지 않은 상태로 외부에 노출될 수 있음을 보여줍니다. 보안 연구자들은 더 많은 조직들이 자신의 서버 보안 설정을 점검할 것을 권장하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/unsecured-perforce-servers-expose-sensitive-data-from-major-orgs/",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Progress, MOVEit WAF 및 LoadMaster의 다중 취약점 패치",
+      "summary": "Progress Software가 MOVEit WAF(웹 애플리케이션 방화벽)와 LoadMaster 제품에서 발견된 여러 보안 취약점에 대한 패치를 배포했습니다. 이번 패치는 공격자가 악용할 수 있는 심각한 보안 결함을 해결하기 위한 것입니다. MOVEit는 파일 전송 및 관리 솔루션으로 널리 사용되며, LoadMaster는 로드 밸런싱 솔루션입니다. 사용자들은 시스템 보안을 유지하기 위해 최대한 빠르게 업데이트를 적용할 것을 권장받고 있습니다. 이러한 취약점들은 기업 인프라의 중요한 부분에 영향을 미칠 수 있어 신속한 대응이 필요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/progress-patches-multiple-vulnerabilities-in-moveit-waf-loadmaster/",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Cisco, Kentico, Zimbra 취약점 악용에 대한 조직 경고",
+      "summary": "보안 기관에서 Cisco, Kentico, Zimbra 등 주요 소프트웨어의 취약점이 실제로 악용되고 있다는 경고를 발표했습니다. 이 취약점들은 공격자들이 조직의 시스템에 침입하고 민감한 정보에 접근하는 데 악용될 수 있습니다. 영향받는 조직들은 즉시 보안 패치를 적용하고 시스템을 점검할 것을 권고받고 있습니다. 이러한 널리 사용되는 플랫폼의 취약점 악용은 기업과 기관에 심각한 보안 위협이 될 수 있습니다. 관련 벤더에서 제공하는 보안 업데이트를 우선적으로 설치하는 것이 중요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/organizations-warned-of-exploited-cisco-kentico-zimbra-vulnerabilities/",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "일리노이주와 텍사스주 의료기관 데이터 유출로 60만 명 영향",
+      "summary": "일리노이주와 텍사스주의 의료기관들에서 발생한 데이터 유출 사건으로 약 60만 명의 개인정보가 유출되었습니다. 이 사건은 미국 의료 부문의 사이버보안 위협이 얼마나 심각한지를 보여주는 사례입니다. 유출된 정보에는 환자들의 개인식별정보 및 의료기록이 포함된 것으로 알려져 있습니다. 해당 의료기관들은 피해자들에게 통지하고 신용 모니터링 서비스를 제공하는 조치를 취하고 있습니다. 이번 사건으로 인해 의료기관의 강화된 사이버보안 대책의 필요성이 대두되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/data-breaches-at-healthcare-organizations-in-illinois-and-texas-affect-600000/",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "2억 9천만 달러 규모 켈프 DAO 암호화폐 해킹, 북한 소행으로 지목",
+      "summary": "켈프 DAO에서 2억 9천만 달러 규모의 대규모 암호화폐 도난 사건이 발생했습니다. 보안 전문가들은 이번 해킹을 북한의 소행으로 추정하고 있습니다. 이는 최근 증가하고 있는 국가 차원의 암호화폐 탈취 범죄의 심각성을 드러내고 있습니다. 해킹 수법과 흔적들이 북한 해커 집단의 과거 사건들과 유사한 패턴을 보이고 있습니다. 이번 사건으로 인해 암호화폐 거래소 및 DAO 프로토콜의 보안 강화가 시급한 상황입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/290-million-kelp-dao-crypto-heist-blamed-on-north-korea/",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "프랑스 정부 기관 데이터 유출 확인, 해커가 데이터 판매 제의",
+      "summary": "프랑스의 행정 문서 발급 및 관리 기관인 France Titres가 데이터 유출 사건을 공식 확인했습니다. 위협 행위자가 해당 공격을 주장하며 시민 데이터를 탈취했다고 주장하고 있습니다. 해커는 탈취한 데이터를 판매할 의향이 있다고 알려졌습니다. 이번 유출 사건은 법적 문서와 개인 정보 보호와 관련된 심각한 보안 위협으로 평가됩니다. 프랑스 당국은 해당 사건에 대한 대응 조치를 취하고 있는 것으로 알려져 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/french-govt-agency-confirms-breach-as-hacker-offers-to-sell-data/",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "베네수엘라 에너지·공익사업 업체를 겨냥한 새로운 로투스 데이터 와이퍼 발견",
+      "summary": "보안 연구진이 지난해 베네수엘라의 에너지 및 공익사업 기관들을 대상으로 한 표적 공격에서 사용된 '로투스(Lotus)'라는 신규 데이터 삭제형 악성코드를 발견했습니다. 이전에 문서화되지 않았던 이 악성코드는 감염된 시스템의 데이터를 완전히 삭제하는 기능을 수행합니다. 베네수엘라의 주요 인프라 산업이 표적이 되었다는 점에서 국가 차원의 사이버 위협으로 분석되고 있습니다. 보안 전문가들은 이 악성코드의 출현으로 인해 중요 기반시설에 대한 사이버 공격 위험이 증가하고 있다고 경고하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-lotus-data-wiper-used-against-venezuelan-energy-utility-firms/",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "고객 여정의 각 단계에서 마찰을 높이지 않으면서 사기 방지",
+      "summary": "사기 방지와 사용자 경험은 상충관계가 아니며, 신원, 기기, 네트워크 신호를 결합하여 효과적으로 대응할 수 있습니다. IPQS는 고객 여정의 각 단계에서 마찰을 추가하지 않으면서 사기를 중단하는 방법을 제시합니다. IP 주소 평판, 합성 신원, 주거용 프록시 등 다양한 신호를 활용하여 포괄적인 사기 탐지가 가능합니다. 이 접근 방식을 통해 기업은 사용자 경험을 해치지 않으면서도 높은 수준의 보안을 유지할 수 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/stopping-fraud-at-each-stage-of-the-customer-journey-without-adding-friction/",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "영국, 텔레그램 및 청소년 채팅 사이트에 대한 아동 성적 학대 자료 공유 우려로 조사 개시",
+      "summary": "영국의 독립 통신규제기관인 오프콤(Ofcom)이 아동 성적 학대 자료(CSAM) 공유 증거를 바탕으로 텔레그램에 대한 공식 조사를 시작했습니다. 이 조사는 텔레그램과 청소년 대상 채팅 플랫폼들이 아동 성착취 자료 배포에 악용되고 있다는 우려에서 비롯되었습니다. 오프콤은 이러한 플랫폼들이 아동 보호 의무를 제대로 이행하고 있는지 검토하고 있습니다. 이는 메신저 앱과 소셜 플랫폼의 아동 안전 책임에 대한 국제적 관심이 증대되고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/uk-probes-telegram-teen-chat-sites-over-csam-sharing-concerns/",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, 적극적으로 악용 중인 새로운 SD-WAN 결함 공식 경고",
+      "summary": "미국 사이버보안 및 인프라 보안청(CISA)이 Cisco Catalyst SD-WAN Manager의 새로운 취약점이 현재 실제 공격에 악용되고 있다고 공식 경고했습니다. CISA는 미국 정부 기관들에게 자신의 시스템을 보호하기 위해 4일의 긴급 대응 기간을 부여했습니다. 해당 취약점은 정보 유출(Information Disclosure)과 관련된 것으로 분류되었으며, 이미 공격자들에 의해 활발히 악용되고 있는 상황입니다. 정부 기관뿐만 아니라 SD-WAN 기술을 사용하는 기타 조직들도 즉시 업데이트를 통해 이 취약점을 패치해야 합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-flags-new-sd-wan-flaw-as-actively-exploited-in-attacks/",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "활발히 악용 중인 Apache ActiveMQ 취약점, 6,400개 서버 영향",
+      "summary": "비영리 보안 조직인 Shadowserver가 온라인에 노출된 6,400개 이상의 Apache ActiveMQ 서버가 고위험도 코드 주입 취약점을 통한 지속적인 공격에 취약하다는 것을 발견했습니다. 이 취약점은 현재 활발하게 악용되고 있으며 원격 코드 실행(RCE)이 가능합니다. 영향을 받는 서버들은 인터넷에 직접 노출되어 있어 공격자들이 쉽게 접근할 수 있는 상태입니다. 이는 기업 및 조직의 주요 메시징 시스템에 대한 심각한 보안 위협이 될 수 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/actively-exploited-apache-activemq-flaw-impacts-6-400-servers/",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "전직 랜섬웨어 협상가, BlackCat 공격으로 유죄 인정",
+      "summary": "사이버보안 사건 대응 회사 DigitalMint의 전직 직원인 41세의 Angelo Martino가 2023년 BlackCat(ALPHV) 랜섬웨어 공격으로 미국 기업들을 표적으로 삼은 혐의를 인정했습니다. 랜섬웨어 협상 업무에 종사했던 그가 자신의 내부 지식을 악용하여 공격에 관여한 것으로 드러났습니다. 이 사건은 보안 전문가의 내부 위협 위험성을 보여주는 사례입니다. BlackCat은 악명 높은 랜섬웨어 그룹으로, 피해자들로부터 금전을 강탈하는 방식으로 운영되었습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/former-ransomware-negotiator-pleads-guilty-to-blackcat-attacks/",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "NGate 안드로이드 악성코드, HandyPay NFC 앱을 악용하여 카드 데이터 도용",
+      "summary": "NGate 악성코드의 새로운 변종이 NFC 결제 데이터를 탈취하기 위해 정상 모바일 결제 처리 도구인 HandyPay를 변조한 버전으로 위장하여 안드로이드 사용자를 겨냥하고 있습니다. 이 악성코드는 NFC 기술을 통해 신용카드 정보를 훔치도록 설계되었으며, 합법적인 결제 앱으로 신뢰를 얻어 사용자들을 속이고 있습니다. 감염된 HandyPay 앱을 통해 사용자의 결제카드 데이터가 도용될 수 있으므로 주의가 필요합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/ngate-android-malware-uses-handypay-nfc-app-to-steal-card-data/",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "티오리, 삼성전자에 AI 해커 ‘진트’ 공급",
       "summary": "대규모 IT 자산 보안 자동화 선도[보안뉴스 강현주 기자] 글로벌 사이버 보안 전문 기업 티오리(대표 박세준)는 자사 AI 해커 솔루션 ‘진트’(Xint)를 삼성전자에 공급, 대규모 기업 자산 보안 자동화 시장을 선도하고 있다고 21일 밝혔다. 진트는 세계적으로 인정받는 티오리의 화이트햇 해킹 기술력을 집약한 차세대 AI 보안 솔루션이다. 전 세계에 분산된",
       "category": "보안",
@@ -3720,11 +3981,11 @@
     }
   ],
   "sources": {
-    "보안뉴스": 147,
-    "Dell": 36,
-    "VAST Data": 11,
-    "SecurityWeek": 100,
-    "BleepingComputer": 118,
+    "보안뉴스": 157,
+    "Dell": 38,
+    "VAST Data": 13,
+    "SecurityWeek": 107,
+    "BleepingComputer": 126,
     "HPE": 1
   }
 }
