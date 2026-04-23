@@ -3,6 +3,339 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "“이름만 젠틀맨” 1570개 기업 감염시킨 랜섬웨어 ‘포식자’",
+      "summary": "PowerShell·GPO 악용해 보안 무력화 후 도메인 전체 장악, 다중 OS 대상 범용 공격 수행랜섬웨어 생태계 확장 속 공격 속도전 심화... 2026년 1분기 2059건 디지털 갈취 발생[보안뉴스 김형근 기자] 글로벌 보안 기업 체크포인트(Check Point)는 ‘더 젠틀맨’(The Gentlemen) 랜섬웨어 조직이 배후에서 조종하는 시스템BC(",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143317&kind=&sub_kind=",
+      "date": "2026-04-23"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "그린아이티코리아-스마트로, ‘xAI 지능형 주차관제 및 스마트 결제 플랫폼’ 고도화 MOU 체결",
+      "summary": "xAI 기반 정밀 관제에 스마트로의 결제API 결합... 출구 병목 현상 근본적 해결결제·취소 프로세스 획기적 단축 및 현장 맞춤형 ‘유연한 요금 API’ 전격 도입[보안뉴스 강초희 기자] 설명 가능한 AI(xAI) 기반 보안 솔루션 전문기업 그린아이티코리아(대표이사 강원식)와 핀테크 선도기업 스마트로(대표이사 장길동)가 지능형 주차관제 시장의 혁신과 대·",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143313&kind=&sub_kind=",
+      "date": "2026-04-23"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관-2] 꺼진 불도 다시 보자(2)-스마트폰 잃어버렸을 때 가장 먼저 할 일은?",
+      "summary": "스마트폰 분실 대비 ‘내 기기 찾기’ 기능을 활성화 하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연결시켜 소개한다. 보안은 어렵지 않다. 지키",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143034&kind=&sub_kind=",
+      "date": "2026-04-23"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "14억 인도 시장 선점 나선 ‘한화 테크 솔루션 부문’ 첨단기술로 적극 공략",
+      "summary": "한화비전, 세계 3위 영상보안 시장 정조준하며 필수 인증 STQC 획득금융·유통·물류 분야 수주 잇달아... 주요 도시 돌며 AI 기술 소개[보안뉴스 강초희 기자] 한화그룹 테크 솔루션 부문이 최근 빠른 성장을 이어가고 있는 인도를 새로운 ‘전략적 거점’으로 삼고 신기술을 앞세운 시장 공략에 적극 나서고 있다.14억 명에 달하는 인구 규모와 높은 경제 성장",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143314&kind=&sub_kind=",
+      "date": "2026-04-23"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "델 테크놀로지스, ‘AI PC 워크스테이션 사용 현황 및 전망’ 보고서 발표",
+      "summary": "국내 기업 69%, PC 구매 시 AI 기능 최우선 고려AI PC 도입 지연으로 인한 인재 유출 및 경쟁력 저하 우려 표출R&D 및 고객 서비스 혁신 도구로 주목[보안뉴스 강초희 기자] 델 테크놀로지스(한국 대표 김경진)는 최근 발표한 조사에서 아시아태평양 지역 기업들이 AI 도입을 실험하는 단계를 넘어 본격적인 실행 단계에 진입하고 있다고 분석했다. 특히",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143316&kind=&sub_kind=",
+      "date": "2026-04-23"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[국방보안 칼럼] 미토스(Mithos)라는 ‘디지털 백신’: 막연한 공포를 넘어 사이버 면역의 시대로",
+      "summary": "모호한 두려움이 만든 그림자, ‘미토스 쇼크’제2, 제3의 미토스는 숙명... 유연한 활용과 선순환 시급[보안뉴스= 김은영 LIG Defense&Aerospace Tech Agile Lab장] 새로운 고성능 AI 모델 ‘미토스’(Mithos)의 등장은 전 세계 사이버 보안 생태계에 유례없는 파장을 일으키고 있다. 일각에서는 AI가 인간의 통제를 벗어나 취약",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143315&kind=&sub_kind=",
+      "date": "2026-04-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "모든 밀리초가 비즈니스 결정인 순간: ZyBiSys가 구축한 절대 멈추지 않는 인프라",
+      "summary": "ZyBiSys는 실시간 거래를 위해 99.99% 가용성을 제공하는 엔드-투-엔드 Dell 인프라를 6개 데이터센터에 걸쳐 구축했습니다. 금융 거래 환경에서는 밀리초 단위의 지연도 수백만 달러의 손실을 초래할 수 있어, 안정적이고 확장 가능한 인프라가 필수적입니다. Dell의 엔터프라이즈급 솔루션과 AI 준비 기능을 활용하여 ZyBiSys는 극도로 신뢰성 높은 거래 플랫폼을 구현했습니다. 6개 데이터센터에 걸친 이 통합 인프라는 24/7 무중단 운영을 보장하며 미래의 AI 기반 거래 시스템에 대비하고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/every-millisecond-business-decision-zybisys-infrastructure-never-blinks/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell Private Cloud with PowerStore: VMware를 실행하는 가장 스마트한 방법",
+      "summary": "VMware Cloud Foundation(VCF)을 실행하는 방식이 중요합니다. 스토리지가 컴퓨팅과 긴밀하게 결합되면 비효율, 과도한 프로비저닝, 운영 위험이 시간이 지남에 따라 복합적으로 증가합니다. Dell Private Cloud with PowerStore는 VCF를 분산 아키텍처의 공유 스토리지와 결합하여 보장된 효율성, 예측 가능한 성능, 간단한 운영을 제공하면서도 VMware 경험을 손상시키지 않습니다. 이는 VCF 워크로드를 대규모로 실행하는 가장 빠르고 쉬우며 효율적인 방법입니다. HCI 아키텍처는 본질적으로 비효율적이므로, 중복 제거, 압축, 데이터 배치 같은 데이터 서비스가 애플리케이션과 동일한 CPU 및 메모리 리소스를 놓고 경합합니다. Dell Private Cloud with PowerStore는 PowerStore에 데이터 감소 기능을 오프로드하여 성능 저하 없이 효율성을 제공하며, 리소스 경합 없이 VCF가 워크로드 실행에만 집중할 수 있게 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/dell-private-cloud-with-powerstore-the-smartest-way-to-run-vmware/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell PowerMax: 미션 크리티컬 스토리지의 미래 가속화",
+      "summary": "Dell Technologies는 PowerMaxOS 10.4를 출시하여 최대 25% 향상된 성능, 고급 랜섬웨어 탐지, VMware 및 OpenShift 통합, 그리고 미래 대비 인프라를 제공합니다. 이를 통해 기업들은 자신감 있게 현대화하고, 보안을 강화하며, 규모를 확장할 수 있습니다. PowerMaxOS 10.4는 SRDF 보호 워크로드에 대해 최대 25% 빠른 읽기 응답 시간을 제공하여 실시간 의사결정과 고성능 애플리케이션이 필요한 속도로 작동할 수 있도록 합니다. 새로운 PowerMax 2500 및 8500 어레이의 최신 노드 페어 구성 덕분에 조직은 비용을 절감하면서도 뛰어난 IOPS 성능을 달성할 수 있습니다. 또한 Advanced Ransomware Detection을 도입하여 사이버 탄력성을 강화하고, 위협 환경에서 미션 크리티컬 워크로드를 보호합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/dell-powermax-accelerating-the-future-of-mission-critical-storage/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미래를 위한 혁신 구축: 지속 가능한 혁신이 비즈니스 가치를 주도하는 방법",
+      "summary": "내구성 있고 모듈식으로 설계된 서비스 가능한 PC는 기기의 수명을 연장하고 다운타임을 줄이며 사내 수리를 간소화하여 팀의 생산성을 유지합니다. 재활용 코발트, 구리, 강철, 플라스틱 등의 순환 소재와 배터리 혁신은 공급망 복원력을 강화하면서 환경 영향을 감소시킵니다. PCF 데이터, 지속 가능성 데이터 대시보드, 자산 회수 서비스 등의 투명성과 라이프사이클 서비스를 통해 조직은 명확한 배출량 통찰력을 얻고 책임감 있는 폐기 옵션을 제공받습니다. Dell의 PC는 오래 지속되도록 설계되어 요구 사항이 높은 업무에서도 안정적으로 성능을 발휘하며, 조직의 환경 영향을 최소화하도록 만들어집니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/building-for-the-future-how-sustainable-innovation-drives-business-value/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "서버실의 코끼리: 주류 컴퓨팅의 간과된 에너지 비용",
+      "summary": "최근 헤드라인을 보면 AI가 막대한 에너지 소비로 전력망을 붕괴시킬 것처럼 보이지만, 실제 데이터를 분석하면 놀라운 현실이 드러난다. 현재와 가까운 미래의 데이터센터 에너지 사용의 대부분은 AI가 아닌 다른 것들, 즉 기업 IT 환경, 코로케이션 데이터센터, 클라우드 서버에서 발견되는 소위 '주류 IT'에서 비롯된다. AI는 빠르게 성장하고 있지만, 예측에 따르면 데이터센터 에너지 소비에서 IT의 가장 큰 원인은 주류 컴퓨팅이 될 것이다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/04/the-elephant-in-the-server-room-the-overlooked-energy-cost-of-mainstream-compute.html",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Southern Sun, HPE의 자율주행 SD-WAN으로 유선 및 무선 네트워크 현대화",
+      "summary": "남아프리카 주요 호텔 그룹인 Southern Sun이 HPE의 자율주행 네트워크로 네트워크 인프라를 현대화하고 있다. AI 기반의 클라우드 네이티브 네트워크 아키텍처에 통합 보안이 포함된 이 지능형 네트워크는 고객과 직원을 위한 뛰어난 무선 경험과 신뢰할 수 있는 인프라를 제공한다. Southern Sun은 HPE 자율주행 네트워크를 구현하여 운영 효율성을 높이고 고객 경험을 개선하며, 모든 보유 시설에서 향상된 디지털 경험을 제공하고 있다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/04/southern-sun-rises-with-self-driving-sd-wan-wired-and-wireless-networks-from-hpe.html",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "N=1: VAST Data의 AI 레이어 사업",
+      "summary": "ChatGPT 등장 이후 VAST Data의 사업이 급속도로 성장했으며, 회사는 6년 전부터 차세대 병렬 시스템 아키텍처 개발을 시작해 딥러닝의 상업적 응용이 발생한 최적의 시점을 맞이했다. 기술 산업에서는 일반적으로 성장과 수익성 사이에서 선택을 강요받는데, 이를 측정하는 지표가 '40의 법칙(Rule of 40)'이다. 이 지표는 기업의 성장률과 자유 현금 흐름 마진의 합으로, 40% 이상이면 건강하고 지속 가능한 사업으로 평가된다. 상위 10개의 100억 달러 이상 소프트웨어 기업들의 평균은 61%이지만, VAST Data는 228%라는 전무후무한 수치를 기록하고 있다. 이는 혁신적인 제품과 집중된 팀이 기본적인 사업 트레이드오프를 깨뜨릴 수 있음을 증명한다. VAST는 이미 수익성이 있고 현금을 창출하고 있음에도 불구하고 시리즈 F 투자를 받고 있으며, 이는 투자금이 은행에 예치되어 이자를 얻으면서 현금 준비금으로 축적되는 것을 의미한다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/n-equals-1-vast-data-layer-ai",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Bluesky에 이어 Mastodon도 DDoS 공격 대상",
+      "summary": "소셜 미디어 플랫폼 Mastodon이 최근 DDoS(분산 서비스 거부) 공격의 표적이 되었습니다. 이는 Bluesky가 비슷한 공격을 받은 후 곧이어 발생한 것으로, 분산형 소셜 네트워크 플랫폼들이 지속적인 사이버 위협에 노출되어 있음을 보여줍니다. DDoS 공격은 대량의 트래픽을 서버에 집중시켜 서비스를 마비시키는 공격 기법입니다. 이러한 공격 패턴은 특정 플랫폼을 표적으로 한 조직적인 공격의 가능성을 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/after-bluesky-mastodon-targeted-in-ddos-attack/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "영국 사이버 보안 책임자, 러시아·이란·중국의 사이버 공격이 가장 심각한 위협이라 밝혀",
+      "summary": "영국의 사이버보안 책임자가 현재 영국을 대상으로 한 가장 심각한 사이버 공격들이 러시아, 이란, 중국으로부터 발생하고 있다고 경고했습니다. 이들 국가들은 영국의 주요 인프라와 정부 기관을 목표로 한 대규모 사이버 위협을 구성하고 있습니다. 이러한 국가 수준의 사이버 공격들은 단순한 범죄 활동을 넘어 국가 안보에 직결된 심각한 위협으로 평가되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/most-serious-cyberattacks-against-the-uk-now-from-russia-iran-and-china-cyber-chief-says/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "베네수엘라 에너지 부문을 겨냥한 새로운 와이퍼 악성코드 - 미국 개입 전 발견",
+      "summary": "베네수엘라의 에너지 부문을 표적으로 하는 새로운 와이퍼(wiper) 악성코드가 발견되었습니다. 이 악성코드는 미국의 개입 이전에 이미 활동 중이었던 것으로 파악됩니다. 와이퍼 악성코드는 감염된 시스템의 데이터를 삭제하는 파괴적 특성을 지닌 위협으로, 중요 인프라 공격에 주로 사용됩니다. 베네수엘라의 에너지 인프라를 겨냥한 이번 공격은 국가 수준의 사이버 위협의 심화를 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/new-wiper-malware-targeted-venezuelan-energy-sector-prior-to-us-intervention/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Mirai 봇넷, 단종된 D-Link 라우터의 취약점을 표적으로 공격",
+      "summary": "Mirai 봇넷이 이미 단종된 D-Link 라우터의 보안 취약점을 악용하여 공격을 감행하고 있습니다. 해당 취약점은 오래전에 발견되었음에도 불구하고 여전히 많은 장치에서 패치되지 않은 상태로 남아있습니다. 공격자들은 이러한 구형 라우터를 대규모 봇넷에 포함시켜 악의적인 활동에 활용하고 있습니다. 이는 레거시 장비에 대한 보안 관리의 중요성을 다시 한 번 강조하고 있습니다. 사용자들은 즉시 라우터의 펌웨어 업데이트를 확인하거나 장비를 교체할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/mirai-botnet-targets-flaw-in-discontinued-d-link-routers/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "SBOM이 실패하고 있나? 보안팀이 SBOM 데이터 처리에 어려움을 겪으면서 공급망 공격 증가",
+      "summary": "소프트웨어 공급망 보안을 위해 도입된 SBOM(Software Bill of Materials)이 예상만큼 효과를 발휘하지 못하고 있는 것으로 나타났습니다. 보안팀들이 SBOM 데이터를 제대로 활용하지 못하면서 공급망 공격이 계속 증가하고 있습니다. 이는 SBOM 도입만으로는 부족하며, 실제 운영 수준에서의 데이터 관리와 분석 능력이 중요함을 시사합니다. 조직들이 SBOM 데이터를 효과적으로 처리할 수 있는 도구와 프로세스를 강화해야 할 필요성이 대두되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/are-sboms-failing-supply-chain-attacks-rise-as-security-teams-struggle-with-sbom-data/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Claude Mythos, Firefox에서 271개의 취약점 발견",
+      "summary": "Claude Mythos라는 보안 연구팀이 Firefox 브라우저에서 총 271개의 보안 취약점을 발견했습니다. 이는 광범위한 보안 감사를 통해 식별된 것으로, Firefox 사용자들의 보안에 상당한 위험을 초래할 수 있습니다. 발견된 취약점들은 다양한 심각도 수준으로 분류되어 있으며, 즉각적인 패치 및 업데이트가 필요합니다. Mozilla는 이러한 취약점들을 해결하기 위해 보안 업데이트를 준비 중인 것으로 알려졌습니다. 이 발견은 인기 있는 브라우저의 보안 상태에 대한 우려를 높였으며, 사용자들에게 신속한 업데이트를 권장하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/claude-mythos-finds-271-firefox-vulnerabilities/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "북한 해커들, macOS 공격에 AppleScript와 ClickFix 악용",
+      "summary": "북한 해킹 그룹이 macOS를 대상으로 한 새로운 사이버 공격 캠페인을 전개하고 있으며, AppleScript와 ClickFix라는 도구를 활용하고 있습니다. 이번 공격은 macOS 사용자들에 대한 위협이 증가하고 있음을 보여주며, 특히 스크립팅 기술을 이용한 정교한 공격 방식을 사용하고 있습니다. 사용자들은 의심스러운 스크립트 실행과 팝업 알림에 주의가 필요하며, macOS 보안 업데이트를 최신으로 유지해야 합니다. 이 공격은 북한의 사이버 공격 능력이 Linux 및 Windows뿐만 아니라 Apple 플랫폼으로도 확대되고 있음을 의미합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/north-korean-hackers-use-applescript-clickfix-in-fresh-macos-attacks/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "구글 안티그래비티, 보안연구원과 사이버범죄자들의 공격 대상 된다",
+      "summary": "죄송하지만 제공된 내용이 Cloudflare 보안 검증 페이지로 인해 실제 기사 텍스트가 포함되어 있지 않습니다. 페이지에는 JavaScript와 쿠키 활성화를 요구하는 메시지만 있고, 기사의 본문 내용이 없어 정확한 번역을 제공할 수 없습니다. 제목만으로는 구글의 'Antigravity'라는 기술이나 프로젝트가 보안 위협에 노출되었음을 시사하지만, 구체적인 위협 내용, 영향 범위, 대응 방안 등의 핵심 정보를 파악할 수 없습니다. 정확한 번역을 위해서는 Cloudflare 검증을 통과한 실제 기사 콘텐츠 제공이 필요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/google-antigravity-in-crosshairs-of-security-researchers-cybercriminals/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "오라클, 2026년 4월 CPU로 450개 취약점 패치",
+      "summary": "오라클이 2026년 4월 정기 보안 업데이트(CPU)를 통해 총 450개의 취약점을 패치했습니다. 이번 업데이트에는 오라클의 다양한 제품과 서비스에 영향을 미치는 보안 결함들이 포함되어 있습니다. 기업 사용자들은 이러한 취약점이 악용될 수 있는 위험으로부터 시스템을 보호하기 위해 즉시 패치 적용을 권장받고 있습니다. 오라클의 정기적인 보안 업데이트는 전 세계 기업 인프라의 안전성을 유지하는 중요한 역할을 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/oracle-patches-450-vulnerabilities-with-april-2026-cpu/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Apple, 삭제된 알림 데이터가 보존되는 iOS 버그 수정",
+      "summary": "Apple이 iPhone과 iPad 기기를 위한 긴급 보안 업데이트를 출시했습니다. 이번 업데이트는 알림 서비스의 결함을 해결하는 것으로, 삭제 표시된 알림이 기기에 계속 저장되는 문제를 수정했습니다. CVE-2026-28950로 등록된 이 취약점을 통해 사용자가 삭제한 알림 데이터가 의도치 않게 기기에 보존될 수 있었습니다. 이번 보안 업데이트를 통해 Apple은 사용자 개인정보 보호를 강화하고 알림 데이터 관리 기능을 개선했습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/apple-fixes-ios-bug-that-retained-deleted-notification-data/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 미라이 캠페인, 단종된 D-Link 라우터의 RCE 취약점 악용",
+      "summary": "새로운 미라이 기반 악성코드 캠페인이 D-Link DIR-823X 라우터의 고위험 취약점인 CVE-2025-29635를 적극 악용하고 있습니다. 이 명령 주입 취약점을 통해 공격자들은 장치를 봇넷에 포함시키고 있습니다. 해당 라우터는 이미 단종된 제품이지만, 여전히 많은 사용자가 사용하고 있어 보안 위협이 지속되고 있습니다. 이 캠페인은 DDoS 공격 및 다른 악의적 활동에 감염된 기기들을 활용할 수 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-mirai-campaign-exploits-rce-flaw-in-eol-d-link-routers/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Kyber 랜섬웨어 조직, Windows에서 양자 내성 암호화 시도",
+      "summary": "Kyber 랜섬웨어 조직이 최근 Windows 시스템과 VMware ESXi 엔드포인트를 대상으로 공격을 진행하고 있습니다. 특히 일부 변형은 Kyber1024 양자 내성 암호화 기술을 구현하여 사용하고 있습니다. 이는 랜섬웨어 공격 그룹이 미래의 양자 컴퓨팅 위협에 대비한 암호화 기술을 이미 적용하고 있음을 보여줍니다. 양자 내성 암호화의 도입은 기존 암호화 방식으로는 해독이 불가능하게 만들어 피해자들의 복구 가능성을 더욱 낮입니다. 이는 사이버보안 위협의 진화 추세를 나타내며, 조직들이 더욱 강화된 보안 대책을 마련해야 함을 시사합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/kyber-ransomware-gang-toys-with-post-quantum-encryption-on-windows/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "스페인, 470만 달러 규모 만화 불법복제 플랫폼 적발 및 4명 체포",
+      "summary": "스페인 경찰이 2014년부터 운영된 스페인어권 최대 규모의 만화 불법복제 플랫폼을 적발하고 폐쇄했습니다. 이 플랫폼은 전 세계에서 수백만 명의 월간 사용자를 확보하고 있었으며, 약 470만 달러 규모의 사업을 영위하고 있었습니다. 수사 과정에서 플랫폼 운영진 4명이 저작권 침해 혐의로 체포되었습니다. 이번 적발은 디지털 저작권 보호 강화를 위한 국제적 노력의 일환으로 평가됩니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/spain-dismantles-major-47m-manga-piracy-platform-arrests-four/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "콜센터처럼 운영되는 사기 경제: '발신자-서비스형' 사기 조직의 고용 시스템 공개",
+      "summary": "사이버범죄자들이 운영하는 사기 조직이 이제 정규 콜센터처럼 체계적으로 조직화되어 있으며, 고용, 교육, 성과 추적 등의 프로세스를 갖추고 있습니다. 보안 회사 Flare의 조사에 따르면 '발신자-서비스형(Caller-as-a-Service)' 사기 운영은 마치 전문 영업팀처럼 관리되고 있으며, 특히 일자리 구직자들을 대상으로 사회공학 기법을 통해 모집하고 있습니다. 이러한 조직화된 사기 경제는 암호화폐 절도 등 다양한 범죄에 악용되고 있으며, 취업 사기 등을 통해 지속적으로 인력을 확보하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/inside-caller-as-a-service-fraud-the-scam-economy-has-a-hiring-process/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 npm 공급망 공격이 자체 확산하며 인증 토큰 탈취",
+      "summary": "Node Package Manager(npm) 생태계를 대상으로 한 새로운 공급망 공격이 개발자 자격증명을 탈취하고 손상된 계정에서 게시된 패키지를 통해 확산을 시도하고 있습니다. 이 공격은 웜(worm)과 같은 자체 확산 특성을 가지고 있어 감염된 패키지를 설치한 개발자들의 인증 토큰을 도용합니다. 공격자들은 탈취한 개발자 계정을 이용해 악성 패키지를 추가로 배포하여 피해 범위를 지속적으로 확대하고 있습니다. npm 패키지 생태계의 광범위한 사용으로 인해 이러한 공급망 공격은 많은 프로젝트와 조직에 영향을 미칠 수 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-npm-supply-chain-attack-self-spreads-to-steal-auth-tokens/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트 Teams, 제한된 리소스의 PC를 위한 효율성 모드 출시",
+      "summary": "마이크로소프트가 CPU와 메모리 리소스가 제한된 시스템을 위해 Microsoft Teams의 새로운 효율성 모드를 출시할 예정이다. 이 모드는 하드웨어 제약이 있는 기기에서 앱의 반응성을 개선하기 위해 설계되었다. 제한된 리소스로 인해 Teams 사용에 어려움을 겪던 사용자들이 더 나은 성능을 경험할 수 있을 것으로 기대된다. 이번 업데이트는 저사양 PC나 구형 노트북 사용자들의 업무 효율성을 높이는 데 중점을 두고 있다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-gets-efficiency-mode-for-hardware-constrained-devices/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, 유니버설 프린트 문제의 원인을 Graph API 코드 변경으로 추적",
+      "summary": "마이크로소프트가 일부 프린터 공유 생성을 방해하는 유니버설 프린트 공유 문제의 원인을 마이크로소프트 Graph API의 코드 변경으로 규명했습니다. 이 문제로 인해 사용자들이 특정 프린터 공유를 생성할 수 없는 상황이 발생하고 있습니다. 마이크로소프트는 해당 API 코드 변경이 유니버설 프린트 기능에 영향을 미친 것으로 확인했으며, 이는 이미 알려진 문제로 등록되었습니다. 해당 문제는 인쇄 및 프린터 공유 기능과 관련된 시스템 운영에 영향을 줄 수 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-graph-api-code-change-causes-universal-print-share-issues/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Linux용 GoGra 악성코드, Microsoft Graph API를 통신에 악용",
+      "summary": "Linux를 대상으로 하는 GoGra 백도어의 새로운 변종이 발견되었으며, 정상적인 Microsoft 인프라를 악용하여 은폐 활동을 수행하고 있습니다. 이 악성코드는 Outlook 인박스를 이용해 페이로드를 은밀하게 전달하는 방식으로 작동합니다. 공격자들은 Microsoft Graph API를 통해 정상적인 통신으로 위장함으로써 탐지를 피하고 있습니다. 이는 사이버 첩보 활동의 일환으로 추정되며, 정상 클라우드 서비스를 악용하는 고도화된 악성코드 기법을 보여줍니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-gogra-malware-for-linux-uses-microsoft-graph-api-for-comms/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, ASP.NET 중대 취약점에 대한 긴급 보안 패치 공개",
+      "summary": "마이크로소프트가 ASP.NET Core의 중대한 권한 상승 취약점을 해결하기 위해 정기 업데이트 일정을 벗어난 긴급 보안 패치를 배포했습니다. 이 취약점은 권한 상승(Elevation of Privileges)으로 분류되어 시스템 보안에 심각한 위협을 미칠 수 있습니다. 마이크로소프트는 사용자들에게 즉시 이 긴급 패치를 적용할 것을 권장하고 있습니다. ASP.NET Core를 사용 중인 조직들은 보안 위협으로부터 보호하기 위해 가능한 빨리 업데이트를 완료해야 합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-security-updates-for-critical-aspnet-flaw/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "1,300개 이상의 마이크로소프트 SharePoint 서버가 스푸핑 공격에 취약",
+      "summary": "온라인에 노출된 1,300개 이상의 마이크로소프트 SharePoint 서버가 스푸핑 취약점에 대한 패치를 적용하지 않은 상태로 방치되고 있습니다. 해당 취약점은 제로데이 공격으로 악용되었으며 현재도 지속적인 공격에 이용되고 있습니다. 영향을 받는 서버들은 아직까지 보안 업데이트를 적용하지 않아 공격자들의 표적이 될 위험이 높습니다. 이는 조직들이 시스템 보안 패치를 적시에 적용하지 못하고 있음을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/over-1-300-microsoft-sharepoint-servers-vulnerable-to-ongoing-attacks/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“속도보다 방향, 통제보다 신뢰”...OWASP 세미나서 엿본 보안 조직 성장기",
+      "summary": "강정철 넥스트증권 엔지니어, 레거시 환경 탈피하고 효율성 극대화한 실무 노하우 공유김동현 前 우아한형제들 CISO, 25년 경력 바탕으로 보안 조직 정체성과 신뢰 구축 강조기술 도입과 정책 수립 모두 결국 ‘문화’로 귀결된다는 두 전문가의 공통된 혜안[보안뉴스 조재호 기자] “아무리 훌륭한 보안 솔루션을 도입하더라도 임직원이 공감하는 ‘보안 문화’가 뿌리",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143311&kind=&sub_kind=",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "KISIA, 서울창조경제혁신센터와 보안 스타트업 육성 나서",
+      "summary": "창업 생태계 활성화 및 육성 협력체계 구축[보안뉴스 강현주 기자] 한국정보보호산업협회(KISIA, 회장 김진수)는 서울창조경제혁신센터(대표 이영근)와 정보보호 분야 창업 생태계 활성화 및 보안 스타트업의 경쟁력 강화에 나선다고 22일 밝혔다. 양 측은 이를 위해 21일 업무협약(MOU)을 체결했다. 이번 협약은 KISIA가 보유한 정보보호 산업 분야에서의",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143312&kind=&sub_kind=",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "이란 정보국의 ‘다중 인격’ 해킹 전술? 독립 해커인 척하며 세계 안보 농락해",
+      "summary": "이란 정보국, 3개 해커 조직으로 위장해 장기간 사이버 공작 수행14개월 잠복 후 데이터 탈취·파괴하고 심리전까지 병행동일 인프라로 ‘보이드 맨티코어’ 실체 드러나... 국가 배후 해킹 경고[보안뉴스 김형근 기자] 이란 정보국(MOIS)이 그동안 ‘홈랜드 저스티스’, ‘카르마’, ‘한다라’라는 세 개의 독립된 해커 집단으로 위장해 치밀한 사이버 공작을 펼쳐",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143307&kind=&sub_kind=",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "넥스원소프트, 표준 전자서명 기술로 공공 마이데이터 연계 고도화",
+      "summary": "서민금융진흥원 플랫폼 회원가입 및 정보 확인 기능에 안전한 인증 환경 구축법적 효력 갖춘 인증서 기반 체계로의 원활한 전환 돕는 가이드라인 제시[보안뉴스 조재호 기자] 넥스원소프트는 서민금융진흥원에 공공 마이데이터 활용 연계를 위한 통합인증 서비스 ‘넥스비싸인’(NexBe Sign)을 제공한다고 22일 밝혔다. 회사는 이 프로젝트를 통해 공공 마이데이터 분",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143310&kind=&sub_kind=",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "또 뚫린 프랑스 공공 인프라... 이번엔 ANTS 포털 해킹",
       "summary": "국가 안전 서류 관리하는 핵심 서버 공격받아 주소와 전화번호 유출파리 검찰청 즉각 수사 착수했으나, 표적형 피싱 범죄 예방에 비상 걸려[보안뉴스 김형근 기자] 프랑스 공공 포털이 관리자 신원을 도용한 해킹 공격에 무너졌다. 2단계 인증을 비롯한 방어 수단을 마련하고 있지만, 정식 계정을 탈취하는 방식의 공격에 기존의 보안 시스템이 무용지물이 됐다는 비판을",
       "category": "보안",
@@ -3981,11 +4314,11 @@
     }
   ],
   "sources": {
-    "보안뉴스": 157,
-    "Dell": 38,
-    "VAST Data": 13,
-    "SecurityWeek": 107,
-    "BleepingComputer": 126,
-    "HPE": 1
+    "보안뉴스": 167,
+    "Dell": 42,
+    "HPE": 3,
+    "VAST Data": 14,
+    "SecurityWeek": 116,
+    "BleepingComputer": 137
   }
 }
