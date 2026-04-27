@@ -933,9 +933,99 @@
     "http://www.boannews.com/media/view.asp?idx=143352&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143035&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143296&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=143349&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=143349&kind=&sub_kind=",
+    "https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/",
+    "http://www.boannews.com/media/view.asp?idx=143365&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143367&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143325&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143036&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143366&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143358&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143357&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143351&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“보안 전문가 시험 접수 사이트가 트래픽 방어도 못해”... ISMS-P 접수 첫날 서버 ‘먹통’",
+      "summary": "27일 접수 시작과 동시에 홈페이지 마비... “사이트에 연결할 수 없음” 오류 속출높아진 관심 속 ‘선착순 2000명’ 마감 방침에 트래픽 병목 가중[보안뉴스 조재호 기자] 정보보호 및 개인정보보호 관리체계(ISMS-P) 인증심사원 자격검정 서류 접수 첫날부터 공식 홈페이지가 마비되며 지원자들이 큰 불편을 겪고 있다.잇달아 벌어진 대형 개인정보 유출 사고",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143365&kind=&sub_kind=",
+      "date": "2026-04-27"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "오픈AI, 아태지역 보안 책임자 채용... 근무지는 한국",
+      "summary": "[보안뉴스 조재호 기자] 오픈AI가 아시아태평양(APAC) 지역 제조 및 공급망 보안을 총괄할 책임자 채용에 나섰다. 27일 채용 플랫폼 원티드에 등록된 공고에 따르면, 오픈AI는 서울 강남구 파이낸스센터를 거점으로 근무할 ‘제조 보안 및 기밀 유지 총괄’(Head of Secure Manufacturing and Stealth - APAC) 직책을 채용",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143367&kind=&sub_kind=",
+      "date": "2026-04-27"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[해킹을 결제하시겠습니까?] #1. “이거 은행 맞지?” 로그인 직전, 주소창을 봐야 하는 이유",
+      "summary": "실제 사이트와 구분이 어려울 정도로 정교해진 피싱 페이지 확산주소창 확인(https, 자물쇠 아이콘, 공식 도메인 일치)의 중요성문자·광고 링크 접속 시 위험 증가와 로그인 전 사전 점검 필요성[보안뉴스 강초희 기자] 인터넷뱅킹과 온라인 쇼핑, 결제가 일상화되면서 피싱과 사기 수법도 더 교묘해지고 있다. 특히 최근에는 정상 서비스와 구분이 어려워 사용자가",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143325&kind=&sub_kind=",
+      "date": "2026-04-27"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관-4] 꺼진 불도 다시 보자(4)-로그인 기록 안 보면 생기는 위험 신호",
+      "summary": "주기적으로 로그인 기록을 확인하여 타인 접속 여부를 체크하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연결시켜 소개한다. 보안은 어렵지 않다.",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143036&kind=&sub_kind=",
+      "date": "2026-04-27"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "트루엔, AI 홈캠 ‘이글루 S8’ 소프트웨어 전면 개편으로 B2C 시장 확대",
+      "summary": "AI 기능 강화, 구독형 서비스(SaaS) 강화, 앱 UI·UX 개선 등 통해 사용자 편의성 극대화 HW설계, AI 자체개발·국내 서버 운영·국가공인인증 등 경쟁력 기반 B2C 시장 점유율 확대[보안뉴스 엄호식 기자] 트루엔은 스마트 AI 홈캠 ‘이글루(EGLOO)’의 소프트웨어를 전면 개편한다고 27일 밝혔다. 트루엔은 프리미엄 라인업인 ‘이글루 S8’",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143366&kind=&sub_kind=",
+      "date": "2026-04-27"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“공유기가 사이버 무기로”... 中 해커, 20만대 봇넷 동원해 글로벌 공격 은폐",
+      "summary": "미국 등 9개국 정보기관, 개인 공유기 악용한 ‘은밀한 네트워크’ 구축 경고중국 정부 연계 해커들, 랩터 트레인 봇넷 등으로 공격 발원지 세탁[보안뉴스 김형근 기자] 미국 등 9개국 정보기관이 중국 정부 연계 해커들이 개인 공유기와 사물인터넷(IoT) 장비로 구성된 ‘은밀한 네트워크’ 뒤에 숨어 사이버 공격을 은폐하고 있다고 경고했다.로이터와 가디언 등 외",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143358&kind=&sub_kind=",
+      "date": "2026-04-27"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "우수조달제도, “기술기업 성장은 돕고 시장 공정성은 높인다”",
+      "summary": "심사 전문성 강화 위한 기술분야 세분화, 수출·고용실적 등 연장요건 합리화상위기업 납품집중 관리제 도입, 중대재해 사업장 감점 신설 등 공정성 강화특허적용확인보고서 발급기관 확대 등 규제개선을 통한 기업불편 해소[보안뉴스 강초희 기자] 조달청(청장 백승보)은 기업 성장을 지원하고, 공정한 경쟁 환경을 조성하기 위해 우수조달물품 관련 규정을 개정, 27일 시",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143357&kind=&sub_kind=",
+      "date": "2026-04-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국 유틸리티 기업 Itron, 내부 IT 네트워크 침해 공개",
+      "summary": "미국 유틸리티 기업 Itron은 미국 증권거래위원회(SEC)에 8-K 양식을 통해 사이버보안 사건을 공개했습니다. 승인되지 않은 제3자가 회사의 특정 내부 시스템에 접근한 것으로 밝혀졌습니다. 이번 침해는 중요 기반시설 분야에 속한 주요 유틸리티 기업의 보안 위협을 의미합니다. Itron은 규제 당국에 이 사건을 정식으로 보고했으며, 현재 상황에 대한 조사가 진행 중입니다. 이번 사건은 에너지 및 유틸리티 부문의 사이버보안 위험성을 다시 한 번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/",
+      "date": "2026-04-26"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[한국정보보호학회 칼럼] 글로벌 물류 복합 위기 시대, “스마트 항만 보안”을 위한 기반 강화가 시급하다",
+      "summary": "국가 경제 안보를 위한 항만 사이버보안 법제화와 융합보안 인력 육성이 시급하다[보안뉴스= 김호원 한국정보보호학회 회장] 항만은 국가 경제의 원활한 흐름을 지탱하는 핵심 인프라다. 최근 해양수산부 집계에 따르면, 2025년 전국 무역항의 총 물동량은 15억7101만 톤을 기록했으며, 컨테이너 물동량은 3211만 TEU로 사상 최대치를 경신했다. 이는 우리 항",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143351&kind=&sub_kind=",
+      "date": "2026-04-26"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "사이버보안 상장기업 27곳, 전년대비 매출 4.37% 증가... 21개 기업 매출 늘어",
@@ -9343,6 +9433,6 @@
       "date": "2025-11-12"
     }
   ],
-  "totalItems": 934,
+  "totalItems": 943,
   "hasArchive": false
 }
