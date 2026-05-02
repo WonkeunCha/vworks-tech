@@ -3,6 +3,222 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, 현대식 Windows 실행(Run) 대화상자 테스트 중 - 기존 버전보다 빠르다고 발표",
+      "summary": "마이크로소프트는 Windows 11의 새로운 현대식 실행(Run) 대화상자를 테스트 중이며, 다크모드 지원과 향상된 성능을 제공한다고 확인했습니다. 새로운 프리뷰 빌드에 포함된 이 기능은 레거시 대화상자보다 빠른 성능을 자랑합니다. Fluent Design 디자인 언어를 적용하여 더욱 현대적인 사용자 인터페이스를 제공합니다. 마이크로소프트는 Windows 11 사용자들에게 개선된 실행 환경을 제공하기 위해 지속적으로 업데이트를 진행하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-modern-windows-run-says-its-faster-than-legacy-dialog/",
+      "date": "2026-05-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "70개사에 미토스 접근 권한 추가 부여?... 백악관 “거부”",
+      "summary": "[보안뉴스 강현주 기자] 백악관이 앤트로픽 미토스에 대한 접근 권한 확대를 거부했다.월스트리트 저널은 앤트로픽이 최근 70여 기업과 기관에 추가로 미소스 접근 권한을 부여하는 방안을 정부와 논의했지만 백악관이 반대했다고 보도했다. 앤트로픽은 미토스 접근 권한을 기존 50여곳에 추가로 70곳에 더 부여해 총 120여곳으로 늘리는 것을 검토했다. 하지만 미국",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143464&kind=&sub_kind=",
+      "date": "2026-05-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "세미콜론 하나에 뚫린 깃허브... AI가 찾아낸 역대급 RCE 취약점",
+      "summary": "[보안뉴스 김형근 기자] 깃허브(GitHub)의 내부 자산 관리 인프라에서 수백만 개의 비공개 저장소를 무자비하게 탈취할 수 있는 치명적 RCE 취약점(CVE-2026-3854)이 발견됐다. 이번 결함은 보안기업 위즈(Wiz) 연구진이 AI 도구를 활용해 폐쇄형 소스인 이진(Binary) 파일을 정밀히 분석하는 과정에서 그 민낯을 드러냈다.원인은 내부 프록",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143463&kind=&sub_kind=",
+      "date": "2026-05-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "AI 사이버전 시대 국가 안보 전략은?... ‘이란 전쟁의 사이버·AI戰 양상과 한국’ 컨퍼런스",
+      "summary": "한국사이버안보학회·김건 의원실·김영배 의원실 공동 개최[보안뉴스 강현주 기자] 이란전으로 더욱 부각된 AI 기반 사이버전의 현황과 미래를 분석하고 이에 따른 국가 안보 전략을 모색하는 자리가 마련된다. 한국사이버안보학회(회장 손기욱)는 김건 의원실(국민의힘), 김영배 의원실(더불어민주당)과 공동으로 5월 18일 국회의원회관 제6간담회실에서 ‘이란 전쟁의 사",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143462&kind=&sub_kind=",
+      "date": "2026-05-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기술, 사람, 그리고 목적의 교차점에서",
+      "summary": "Aarthi Kannalagan의 업무는 IoT, 스마트 시티, 엣지 솔루션에 중점을 두고 있으며, 기술과 실제 목적을 융합합니다. 대규모 프로젝트 경험을 통해 장기적 영향을 미치는 탄력적이고 상호 연결된 시스템을 설계하는 방법을 배웠습니다. 객원 강사로서 산업 통찰력과 교육을 연결하며 미래의 엔지니어와 혁신가들을 멘토링합니다. 협업, 진정성, 다양한 관점이 의미 있는 솔루션을 구축하는 그녀의 접근 방식의 중심입니다. 가장 의미 있는 기술은 주목을 받지 않으며, 실제 환경과 결정, 그리고 사람들의 삶을 조용히 지원합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/at-the-intersection-of-technology-people-and-purpose/",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "매사추세츠주, 디지털 접근성에서 새로운 이정표 달성",
+      "summary": "매사추세츠주의 Connected & Online Program은 주 전역의 신뢰할 수 있는 지역사회 기관을 통해 26,000대 이상의 인터넷 연결 기기를 배포했습니다. Dell 기기는 보안 및 접근성 기능으로 구성되어 있으며, Gateway Cities와 농촌 지역의 교육, 인력 양성 및 원격 의료 접근을 가능하게 하고 있습니다. 매사추세츠 Broadband Institute(MBI)를 중심으로 공공과 민간 협력이 Commonwealth 전역의 디지털 격차 해소를 가속화하고 있습니다. 이 프로그램은 기술을 가장 필요로 하는 주민들의 손에 직접 전달함으로써 디지털 형평성 증진이라는 MBI의 광범위한 사명을 반영하고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/massachusetts-reaches-a-new-milestone-in-digital-access/",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "속보: 산산이 흩어진 거미(Scattered Spider) 해커 체포, SOC 효과성 지표, NSA 도구 취약점",
+      "summary": "글로벌 사이버보안 뉴스에서는 악명 높은 해킹 그룹 '산산이 흩어진 거미'로 알려진 해커가 체포되었다고 보도했습니다. 동시에 보안운영센터(SOC)의 효과성을 측정하는 메트릭스에 대한 논의가 진행 중이며, 미국 국방부(NSA)에서 운영하던 보안 도구에서 새로운 취약점이 발견되었습니다. 이번 체포는 국제적 사이버범죄 수사 협력의 성과를 보여주는 사례입니다. SOC 효과성 지표는 조직의 위협 탐지 및 대응 능력을 평가하는 데 중요한 역할을 하고 있습니다. NSA 도구의 취약점 발견은 정부 사이버보안 인프라의 점검이 필요함을 시사하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-scattered-spider-hacker-arrested-soc-effectiveness-metrics-nsa-tool-vulnerability/",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "구글, 버그 바운티 조정: 크롬 보상금 감소, 안드로이드 보상금 증가, AI 급증 속",
+      "summary": "구글이 버그 바운티 프로그램을 조정하여 크롬 취약점 발견에 대한 보상금을 감소시키는 한편, 안드로이드 보안 버그에 대한 보상금은 증가시키고 있습니다. 이러한 변화는 AI 기술의 급속한 발전과 보안 위협 환경의 변화에 대응하기 위한 것으로 보입니다. 구글은 보안 연구원들이 더욱 중요한 분야에 집중할 수 있도록 인센티브 구조를 재편성하고 있습니다. 이는 회사의 보안 우선순위가 모바일 플랫폼과 AI 시스템으로 이동하고 있음을 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/google-adjusts-bug-bounties-chrome-payouts-drop-as-android-rewards-rise-amid-ai-surge/",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국 보안 전문가 2명, 랜섬웨어 조직 지원 혐의로 수감",
+      "summary": "미국의 두 명의 보안 전문가가 랜섬웨어 갱단을 돕는 혐의로 투옥되었다. 이들은 사이버범죄 조직에 기술적 지원을 제공하면서 불법 활동에 가담한 것으로 드러났다. BlackCat으로 알려진 랜섬웨어 조직과의 연계가 확인되었으며, 이는 보안 업계 내 신뢰 문제를 야기하고 있다. 해당 사건은 보안 전문가들이 자신의 기술을 악용하는 경우의 심각성을 보여준다. 법원은 이들의 범행을 중대한 사이버범죄로 판단하여 구속 판결을 내렸다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/two-us-security-experts-sentenced-to-prison-for-helping-ransomware-gang/",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "정교한 Deep#Door 백도어, 스파이 활동 및 시스템 마비 가능",
+      "summary": "SecurityWeek이 보도한 Deep#Door라는 정교한 백도어 악성코드가 발견되었습니다. 이 악성코드는 표적 시스템에 원격 접근을 제공하여 스파이 활동과 시스템 파괴 행위를 가능하게 합니다. Deep#Door는 백도어, 악성코드 카테고리에 분류되며 높은 수준의 위협으로 평가되고 있습니다. 이 악성코드는 기업과 조직의 민감한 정보 탈취 및 인프라 교란을 목표로 하는 것으로 분석됩니다. 보안 전문가들은 조직들이 네트워크 모니터링을 강화하고 백도어 감염에 대비할 것을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/sophisticated-deepdoor-backdoor-enables-espionage-disruption/",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Cisco, AI 모델 출처 추적을 위한 오픈소스 도구 공개",
+      "summary": "Cisco가 AI 모델의 출처를 추적하고 검증하기 위한 오픈소스 도구인 'Model Provenance Kit'을 공개했습니다. 이 도구는 AI 모델의 출처, 학습 데이터, 변경 이력 등을 기록하고 관리하여 AI 모델의 무결성을 보장하는 데 목적이 있습니다. 점점 더 많은 조직들이 AI를 도입하면서 AI 모델의 신뢰성과 보안성이 중요해지고 있는 상황에서 이번 오픈소스 도구의 공개는 업계 전반에 AI 모델 관리 표준을 제시하는 의미가 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisco-releases-open-source-tool-for-ai-model-provenance/",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Hugging Face와 ClawHub, 악성코드 배포에 악용됨",
+      "summary": "위협 행위자들이 머신러닝 모델 저장소인 Hugging Face와 ClawHub를 악성코드 배포 목적으로 악용하고 있습니다. 이러한 플랫폼들은 정당한 개발 도구로 인식되어 있어 악의적 행위자들이 탐지를 우회하기 위해 악용할 수 있습니다. 보안 연구자들은 이러한 리포지토리를 통해 다양한 유형의 악성코드가 배포되고 있음을 확인했습니다. 이 사건은 AI 플랫폼과 개발 도구의 보안 강화 필요성을 강조합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hugging-face-clawhub-abused-for-malware-distribution/",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "FBI, 해커를 통한 화물 도난 급증 경고",
+      "summary": "미국 FBI가 해커들이 지원하는 화물 도난 사건의 급증에 대해 경고를 발령했습니다. 사이버범죄자들이 운송 및 물류 시스템에 침입하여 화물 위치 정보를 탈취하고 배송 경로를 추적함으로써 조직된 절도 범죄를 지원하고 있습니다. 이러한 해커 지원 화물 도난은 운송업체와 화주에게 상당한 재정적 손실을 초래하고 있습니다. FBI는 관련 기업들에게 사이버보안 강화와 의심 활동에 대한 신속한 신고를 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/fbi-warns-of-surge-in-hacker-enabled-cargo-theft/",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "SAP, Lightning, Intercom을 노린 미니 샤이-훌루드 공격으로 1,800개 표적 피해",
+      "summary": "NPM 패키지를 통한 공급망 공격인 '미니 샤이-훌루드' 캠페인이 SAP, Lightning, Intercom 등 주요 기업을 대상으로 약 1,800개의 피해 사건을 기록했습니다. 이 공격은 악의적인 NPM 패키지를 배포하여 개발자들의 소프트웨어 개발 환경을 감염시키는 방식으로 진행되었습니다. 공급망 보안 분야에서 이러한 대규모 공격은 오픈소스 생태계의 심각한 위험을 드러내고 있습니다. 기업들은 의존성 관리와 패키지 검증을 강화해야 할 필요성이 대두되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/1800-hit-in-mini-shai-hulud-attack-on-sap-lightning-intercom/",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "교육기술 기업 Instructure, 사이버 보안 사건 공개 및 영향 조사 중",
+      "summary": "광범위하게 사용되는 Canvas 학습 플랫폼을 개발한 Instructure가 최근 사이버보안 사건을 당했다고 공개했습니다. 해당 기업은 현재 이 사건의 영향 범위를 조사하고 있는 중입니다. Canvas는 전 세계 교육 기관에서 널리 사용되는 학습관리시스템으로, 이번 보안 사건은 수많은 학생과 교직원의 데이터 보호에 영향을 미칠 수 있습니다. Instructure는 사건의 세부 사항과 영향받은 사용자 규모에 대한 추가 정보를 제공하기 위해 조사를 진행 중입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/edu-tech-firm-instructure-discloses-cyber-incident-probes-impact/",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "프랑스 정부기관 데이터 유출 사건, 15세 용의자 체포",
+      "summary": "프랑스 당국이 행정 문서 발급 및 관리를 담당하는 프랑스 정부기관 'France Titres (ANTS)'에 대한 사이버공격으로 유출된 데이터를 판매한 혐의로 15세 소년을 체포했습니다. 이 사건은 미성년자가 대규모 정부 데이터 유출 사건에 연루된 것으로, 사이버보안 위협이 더 이상 성인 해커들만의 영역이 아님을 보여줍니다. 유출된 데이터는 해커 포럼에서 판매되었으며, 행정 문서와 관련된 민감한 정보가 포함된 것으로 추정됩니다. 이번 사건은 정부기관의 사이버보안 강화의 중요성과 함께 미성년 사이버범죄자에 대한 법적 대응의 필요성을 강조합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/15-year-old-detained-over-french-govt-agency-data-breach/",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기사 취소됨",
+      "summary": "BleepingComputer는 교육 기술 회사 Instructure의 새로운 데이터 유출 사건에 관한 기사를 게재했습니다. 그러나 출판 직후 해당 정보가 부정확하며 주로 과거 사건의 오래된 세부사항에 기반한 것으로 판단되었습니다. 이에 따라 기사는 취소되었으며, BleepingComputer는 이러한 오류에 대해 유감을 표명했습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/story-retracted/",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Criminal IP와 Securonix ThreatQ, 위협 인텔리전스 운영 강화 위해 협력",
+      "summary": "Criminal IP가 Securonix의 ThreatQ 플랫폼과 통합하여 위협 인텔리전스 운영을 개선하기 위한 협력을 시작했습니다. 이번 협력은 노출 기반 인텔리전스를 ThreatQ에 통합하여 실제 맥락을 제공함으로써 원본 위협 정보만으로는 부족한 부분을 보완합니다. 이를 통해 분석을 자동화하고 보안 조사 속도를 크게 향상시킬 수 있습니다. 조직들은 위협 인텔리전스 운영 효율성을 높이고 사이버 위협에 더욱 신속하게 대응할 수 있게 될 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/criminal-ip-and-securonix-threatq-collaborate-to-enhance-threat-intelligence-operations/",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, 원격 데스크톱 경고 메시지 오류 수정",
+      "summary": "마이크로소프트가 원격 데스크톱(RDP) 파일을 열 때 새로 추가된 윈도우 보안 경고가 제대로 표시되지 않는 문제를 해결했습니다. 이 알려진 문제는 윈도우 10과 윈도우 11 사용자에게 영향을 미치고 있었습니다. 수정을 통해 원격 데스크톱 프로토콜 파일 실행 시 보안 경고가 올바르게 표시되도록 개선되었습니다. 이번 업데이트는 사용자가 RDP 파일을 더욱 안전하게 관리할 수 있도록 지원합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-warnings-displaying-incorrectly/",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, 관리자가 미리 설치된 스토어 앱 선택 제거 가능하도록 허용",
+      "summary": "마이크로소프트는 지난 10월 도입한 Windows 11 기본 앱 제거 정책을 업데이트하여 IT 관리자가 미리 설치된 Microsoft Store 앱 중에서 제거할 앱을 선택할 수 있는 동적 목록 기능을 추가했습니다. 이 업데이트는 엔터프라이즈 환경에서 관리자들이 불필요한 앱을 더욱 효율적으로 관리할 수 있도록 지원합니다. 이를 통해 조직은 자신의 필요에 맞게 Windows 11 24H2 환경을 더 세밀하게 커스터마이징할 수 있게 되었습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-lets-admins-choose-pre-installed-store-apps-to-uninstall/",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Windows 11 KB5083631 업데이트 출시, 34가지 변경 및 수정 사항 포함",
+      "summary": "마이크로소프트가 Windows 11용 KB5083631 선택적 누적 업데이트를 출시했습니다. 이번 업데이트에는 34가지 변경 및 개선 사항이 포함되어 있습니다. 주요 기능으로는 Windows PC용 새로운 Xbox 모드, 배치 파일의 보안 및 성능 강화, 시작 앱 실행 성능 개선 등이 있습니다. 이 업데이트는 Windows 11 사용자들의 게임 환경과 시스템 성능을 향상시키는 것을 목표로 합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5083631-update-released-with-34-changes-and-fixes/",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국 랜섬웨어 협상가들, 블랙캣 공격으로 4년 투옥",
+      "summary": "사이버보안 사건 대응 회사인 Sygnia와 DigitalMint의 전직 직원 2명이 BlackCat(ALPHV) 랜섬웨어 공격에 참여한 혐의로 각각 4년의 징역형을 선고받았습니다. 이들은 미국 기업을 대상으로 한 랜섬웨어 공격의 협상 과정에 관여했던 것으로 드러났습니다. 본 사건은 사이버보안 업계 종사자들이 범죄 조직과 결탁하여 랜섬웨어 활동에 참여하는 심각한 문제를 드러냅니다. 블랙캣은 전 세계적으로 큰 위협을 미치고 있는 주요 랜섬웨어 그룹으로 알려져 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiators-get-4-years-in-prison-over-blackcat-attacks/",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[부고] 김은영 LIG D&A 연구소장 부친상",
+      "summary": "△내용: 김은영 LIG D&A 연구소장 부친상△고인: 故 김용세님 (향년 81세)△빈소: 대전 유성선병원장례식장 1호실 △발인: 2026년 5월 3일 09시△장지: 대전 추모공원[강현주 기자(jjoo@boannews.com)]<저작권자: 보안뉴스(www.boannews.com) 무단전재-재배포금지>",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143461&kind=&sub_kind=",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "리눅스 커널 초고위험 취약점, 티오리 AI 솔루션 ‘진트 코드’가 찾았다",
+      "summary": "2017년 이후 모든 리눅스 배포판에서 100% 확률로 해킹 가능한 논리적 결함... 즉각 패치 권고티오리 자체 개발 AI 기반 코드 분석 솔루션 ‘진트 코드’(Xint Code)가 1시간 만에 발견[보안뉴스 한세희 기자] 티오리(대표 박세준)가 리눅스(Linux) 운영체제에서 시스템 권한을 100% 탈취할 수 있는 초고위험 보안 취약점을 발견했다.이번에",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143460&kind=&sub_kind=",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "Dell PowerProtect 백업 서비스 무료 체험으로 사이버 복원력 빠르게 확보하기",
       "summary": "워크플로우에 맞는 기술이 필요하며, 첫날부터 실질적인 가치를 제공하는 솔루션을 찾아야 합니다. 커밋하기 전에 사이버 복원력 플랫폼이 귀사의 고유한 환경에서 어떻게 작동하는지 정확히 이해할 자격이 있습니다. 이제 PowerProtect 백업 서비스 셀프서비스 무료 체험을 직접 경험할 수 있습니다. 이 실습형 프로그램은 중요한 데이터를 보호하고, 온보딩을 단순화하며, 빠른 결과를 확인하는 데 필요한 도구와 지원을 제공합니다. 비용 없이 클라우드 네이티브 사이버 복원력의 이점을 활용할 수 있습니다.",
       "category": "서버",
@@ -6267,11 +6483,11 @@
     }
   ],
   "sources": {
-    "Dell": 64,
+    "BleepingComputer": 207,
+    "보안뉴스": 248,
+    "Dell": 66,
+    "SecurityWeek": 176,
     "HPE": 5,
-    "VAST Data": 18,
-    "SecurityWeek": 168,
-    "BleepingComputer": 198,
-    "보안뉴스": 243
+    "VAST Data": 18
   }
 }
