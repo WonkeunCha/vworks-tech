@@ -1104,9 +1104,149 @@
     "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/",
     "http://www.boannews.com/media/view.asp?idx=143431&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143038&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=143465&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=143465&kind=&sub_kind=",
+    "https://www.securityweek.com/us-military-reaches-deals-with-7-tech-companies-to-use-their-ai-on-classified-systems/",
+    "https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/",
+    "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/",
+    "https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/",
+    "http://www.boannews.com/media/view.asp?idx=143473&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143472&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143471&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143470&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143469&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143395&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143380&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143039&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143468&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143467&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "백악관의 압박... AI 사이버 위기 앞두고 빅테크에 “보안 대책 내놔라!”",
+      "summary": "정부, 빅테크 기업에 AI 보안 실태 조사... 민감한 기업 보안 관련 정보도 포함돼 논란[보안뉴스 김형근 기자] 백악관 산하 국가사이버국(ONCD)이 최근 미국 주요 빅테크 기업들을 대상으로 AI 보안 실태를 조사한 것으로 알려졌다. 보안 전문 매체 사이버시큐리티다이브에 따르면, 정부는 기업들이 AI를 활용해 어떻게 네트워크를 보호하고 사이버 위기에 대비",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143473&kind=&sub_kind=",
+      "date": "2026-05-04"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "ADT캡스, ‘안전점검의 날’ 연계 안전 예방 활동",
+      "summary": "현장 중심 안전관리 나서VR 기반 체험형 안전 교육 도입... 실제 사고 상황 가정한 현장 대응력 제고[보안뉴스 한세희 기자] SK쉴더스(대표 민기식) 물리보안 브랜드 ADT캡스가 4일 ‘안전점검의 날’을 맞아 현장 중심의 안전 예방 활동을 진행했다고 4일 밝혔다.‘안전점검의 날’은 매월 4일 ‘재난 및 안전관리 기본법’에 따라 시행되는 안전문화 운동으로",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143472&kind=&sub_kind=",
+      "date": "2026-05-04"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "안랩, 엔드포인트 통합 보안 플랫폼 ‘안랩 EPP’ 중국어 번체 지원… 중화권 공략 가속",
+      "summary": "현지 고객 수요 맞춘 현지화 전략... 글로벌 사업 경쟁력 지속 강화[보안뉴스 한세희 기자] 안랩(대표 강석균)이 중화권 고객의 접근성과 사용 편의성을 높이기 위해 엔드포인트 통합 보안 플랫폼 ‘안랩 EPP’ 지원 언어에 중국어 번체를 추가했다고 4일 밝혔다. 대만 등 중화권 시장에서 안랩 엔드포인트 보안 솔루션 도입 수요가 증가함에 따라, 고객이 다양한",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143471&kind=&sub_kind=",
+      "date": "2026-05-04"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "공급망 위헙 대비 어려운 이유는 ‘전문 인력 부족’",
+      "summary": "카스퍼스키, 공급망 위험 대응 현황 보고서 발표[보안뉴스 한세희 기자] 공급망 보안 강화를 위한 과제로 전문 인력 양성과 보안 업무 효율 제고를 위한 우선순위 설정 등이 꼽혔다. 4일 카스퍼스키가 발표한 공급망 위험 대응 현황 보고서에 따르면, 최근 1년 간 조사 대상 기업 3곳 중 1곳이 공급망 공격을 당한 경험이 있는 것으로 나타났다. 공급망 위협에",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143470&kind=&sub_kind=",
+      "date": "2026-05-04"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국 군부, 7개 기술 기업과 기밀 시스템용 AI 사용 계약 체결",
+      "summary": "미국 군부가 7개의 주요 기술 회사와 기밀 군사 시스템에서 인공지능을 활용할 수 있도록 하는 계약에 합의했습니다. 이 협약을 통해 군부는 분류된 방위 시스템 내에서 민간 기업의 최신 AI 기술을 도입할 수 있게 됩니다. 이는 국방력 강화와 군사 작전의 효율성 증대를 목표로 하고 있습니다. 계약 대상 기업들은 자신들의 AI 모델을 군부의 보안 요구사항에 맞게 조정하고 통합해야 합니다. 이러한 협력은 미국의 국방 기술 혁신을 가속화하면서도 정보보안과 기밀성을 유지하기 위한 구조적 합의입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/us-military-reaches-deals-with-7-tech-companies-to-use-their-ai-on-classified-systems/",
+      "date": "2026-05-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Instructure 데이터 유출 확인, ShinyHunters가 공격 주장",
+      "summary": "교육기술 대기업 Instructure가 사이버 공격으로 인한 데이터 유출을 확인했으며, 악명 높은 해킹 조직 ShinyHunters가 이번 공격에 대한 책임을 주장하고 있습니다. ShinyHunters는 일반적으로 탈취한 데이터를 공개하겠다는 협박을 통해 피해 기업으로부터 몸값을 요구하는 갈취 활동을 벌여왔습니다. Canvas 등 Instructure의 교육 플랫폼을 이용하는 학생과 교사들의 개인정보가 영향을 받을 수 있습니다. 이 사건은 교육 기관을 대상으로 한 사이버 위협이 계속 증가하고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/",
+      "date": "2026-05-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트 디펜더가 DigiCert 인증서를 트로이목마로 오탐지",
+      "summary": "마이크로소프트 디펜더가 정상적인 DigiCert 루트 인증서를 Trojan:Win32/Cerdigent.A!dha로 잘못 탐지하고 있습니다. 이로 인해 광범위한 오탐지 경보가 발생하고 있으며, 일부 경우에는 Windows에서 인증서가 제거되기도 합니다. 이는 DigiCert의 정당한 코드 서명 인증서가 악성코드로 잘못 식별되는 문제입니다. 많은 사용자들이 이 거짓 양성(false positive) 경고로 인해 혼란을 겪고 있으며, 마이크로소프트의 신속한 수정이 필요한 상황입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/",
+      "date": "2026-05-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "텔레그램 미니 앱이 암호화폐 사기 및 안드로이드 악성코드 유포에 악용",
+      "summary": "사이버보안 연구원들이 텔레그램의 미니 앱 기능을 악용하는 대규모 사기 작전을 적발했습니다. 이 작전은 암호화폐 사기를 운영하고 유명 브랜드를 사칭하며 안드로이드 악성코드를 배포하는 데 미니 앱을 활용하고 있습니다. 텔레그램 플랫폼의 취약점이 조직적인 금융 사기와 멀웨어 배포의 수단으로 전락했으며, 사용자들의 개인정보 탈취와 자산 손실로 이어질 수 있습니다. 이번 발견은 소셜 미디어 플랫폼의 보안 위험성과 이용자 보호의 필요성을 다시 한번 강조합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/",
+      "date": "2026-05-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "창립 23주년 SGA그룹, AI시대 통합 보안 강화... 창립 23주년 맞아 ‘Security for AI’ 비전 선포",
+      "summary": "보안·투자·IT인프라 및 솔루션 3축 중심으로 성장 가속AI 3대 강국 시대 대응 위한 ‘Security for AI’ 비전 제시[보안뉴스 한세희 기자] SGA그룹이 창립 23주년을 맞아 AI 중심으로 사업 체계를 탈바꿈한다. 지난해 추진한 사업 재편을 기반으로 본격적 성장을 추진한다는 목표다.SGA그룹은 창립 23주년을 맞아 AI 시대를 겨냥한 신규 성",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143469&kind=&sub_kind=",
+      "date": "2026-05-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[2026 SIEM 솔루션 리포트] SIEM, 지능형 보안 통합 관제 시스템으로 진화하다",
+      "summary": "보안 정보 관리와 보안 이벤트 관리의 만남... 로그 분석 넘어 데이터 플랫폼으로 발전[설문조사] SIEM 운용을 위한 연간 운용비용 ‘1000~3000만원’이 가장 많아SIEM 솔루션 전문기업 집중분석: 로그프레소, 쿼리시스템즈[보안뉴스 원병철 기자] 최근 국내·외에서 발생한 주요 보안 사고에서 공통으로 꼽히는 보안 솔루션이 있다. 바로 SIEM(Secu",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143395&kind=&sub_kind=",
+      "date": "2026-05-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[해킹을 결제하시겠습니까?] #2.결제한 적 없는 카드 결제 문자가 왔다면?",
+      "summary": "정상 승인 문자로 위장한 카드 결제 문자 피싱 확산발신번호·링크·승인정보·공식 앱 확인 중심의 사전 점검 필요검색 광고형 피싱 주의와 카드사 공식 확인 경로 점검 중요[보안뉴스 강초희 기자] 인터넷뱅킹과 온라인 쇼핑, 결제가 일상화되면서 피싱과 사기 수법도 더 교묘해지고 있다. 특히 최근에는 정상 서비스와 구분이 어려워 사용자가 평소처럼 이용하는 과정에서",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143380&kind=&sub_kind=",
+      "date": "2026-05-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관-8] 꺼진 불도 다시 보자(8)-공용 PC 로그인, 절대 하면 안 되는 이유",
+      "summary": "카페 등 공용 PC에서 금융 거래나 로그인을 하지 마세요[보안뉴스 박미영 기자] 공용장치가 악성 코드에 노출되거나 남은 쿠키·자동로그인 정보로 계정이 탈취될 위험이 크기 때문에, 카페 등 공용 PC에서 금융 거래나 로그인을 하지 말아야 한다. 급히 이용해야 한다면 공인인증서·보안카드·비밀번호를 인터넷에 저장하지 말고, OTP·보안토큰 등 이중인증을 쓰며,",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143039&kind=&sub_kind=",
+      "date": "2026-05-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "검색한 카카오톡 설치 페이지, 알고보니 피싱... “국가 배후 해킹 의심”",
+      "summary": "[보안뉴스 강현주 기자] 검색 결과 상단에 공식 노출된 ‘카카오톡’ 설치 페이지를 통해 560건의 악성코드가 다운로드된 것으로 나타났다. 3일 한국인터넷진흥원(KISA)는 국가 배후로 의심되는 미상의 해킹 조직이 카카오톡 공식 다운로드 페이지를 사칭한 피싱 사이트를 제작해 유포했다고 밝혔다. 이용자들이 구글과 빙 등 검색 엔진에서 ‘카카오톡 PC 버전’을",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143468&kind=&sub_kind=",
+      "date": "2026-05-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "북한, 국제 해킹 배후 지적에 발끈... “황당무계한 중상모략”",
+      "summary": "[보안뉴스 강현주 기자] 북한 외무성은 국제 해킹 사건의 주된 배후 세력으로 북한이 지목된 것에 대해 “황당무계한 중상모략”이라고 일축했다. 3일 북한 외무성 대변인은 이날 조선중앙통신의 질의에 답변하는 형식으로 “최근 미국은 정부기관들과 어용언론기관, 모략단체들을 내세워 존재하지도 않는 우리의 ‘사이버 위협’에 대해 떠들면서 국제사회에 그릇된 대조선 인",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143467&kind=&sub_kind=",
+      "date": "2026-05-03"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "새로운 블루킷 피싱 키트, AI 어시스턴트 기능 탑재",
@@ -9980,134 +10120,8 @@
       "source": "VAST Data",
       "sourceUrl": "https://www.vastdata.com/blog/our-biggest-software-release-ever",
       "date": "2025-11-12"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "확장되는 AI 인프라의 우주",
-      "summary": "VAST Data 플랫폼은 차세대 AI 학습을 위한 확장 가능하고 고성능의 저비용 올플래시 인프라 구축을 위한 최적의 솔루션으로 자리잡았습니다. VAST는 자사의 DASE 아키텍처와 완벽하게 호환되는 최신 컴퓨팅 플랫폼을 지속적으로 검증하고 최적화하고 있으며, 이번에 Graphcore와의 파트너십을 발표했습니다. 이 통합 솔루션은 Graphcore의 IPU 성능과 VAST의 확장 가능한 올플래시 스토리지의 단순성과 경제성을 결합합니다. 2020년 출시된 Graphcore의 M2000 IPU는 AI를 위해 특별히 설계된 강력한 가속기로, 1U 공간에 1 페타플롭의 연산 능력과 최대 526GB의 메모리를 제공합니다. VAST의 DASE 아키텍처는 데이터 세트와 성능을 엑사바이트 규모까지 선형으로 확장하고, 플래시 스토리지의 비용 효율성을 획기적으로 개선하며, 가속화된 NFS 접근을 통해 프로세서까지의 직접 RDMA를 제공합니다. 고객들은 Graphcore와 VAST의 협력을 통해 AI 인프라 배포의 복잡성을 제거하고 데이터 과학 분야에서의 혁신을 가속화할 수 있습니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/our-expanding-universe-of-ai-infrastructure",
-      "date": "2025-11-12"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "VAST Data 플랫폼으로의 여정",
-      "summary": "VAST Data는 플래시 스토리지에 대한 고객들의 기대를 조사하면서 시작되었습니다. 초기에는 성능 향상을 기대했지만, 고객들의 답변은 예상과 달랐습니다. 실제로 많은 고객들은 2015년 당시 플래시 스토리지 성능만으로도 충분했으며, 필요 이상의 성능을 구매하고 있었습니다. 고객들이 플래시를 선호한 진정한 이유는 성능 외에 다양했습니다. 플래시는 기계식 저장장치처럼 핫스팟 문제가 없고, 동시성과 접근 패턴에 영향을 받지 않으며, 더 효과적인 데이터 압축이 가능하고, 가동 부품이 없어 고장률이 낮으며, 십년에 걸쳐 투자비를 상각할 수 있다는 장점이 있었습니다. 그러나 모든 데이터센터가 완전히 플래시 스토리지로 구성되지 않은 이유는 여전히 비용 문제였으며, 공격적인 데이터 압축에도 불구하고 플래시 시스템과 HDD 기반 스토리지 간의 비용 격차가 너무 컸습니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/our-journey-to-the-vast-data-patform",
-      "date": "2025-11-12"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "우리의 2번째 해, 초선형 모멘텀 판매",
-      "summary": "VAST Data는 지난해 초선형 성장을 기록하며 팬데믹 상황에도 불구하고 높게 설정한 목표를 초과 달성했습니다. 대규모 데이터 분석과 머신러닝으로의 시장 전환이 이러한 성공을 뒷받침했으며, 페타바이트 규모의 데이터를 다루는 기업들이 스케일 아웃 플래시 스토리지에 대한 수요를 크게 늘리고 있습니다. 보수적인 인력 채용 정책에도 불구하고 고객들의 VAST Data 플랫폼에 대한 압도적인 수요로 인해 예상을 크게 넘는 성과를 거두었습니다. 2021년도 VAST Data에게는 마찬가지로 야심 찬 한 해로, 레거시 아키텍처를 대체하고 고객 데이터를 현대화하며 AI 시대에 대비하는 임무를 수행할 최고 인재들을 찾고 있습니다. 12개월 동안 200명 이상의 인력 확충이 필요하며, 이 미션에 관심 있는 지원자들은 vastdata.com/careers에서 채용정보를 확인하고 지원할 수 있습니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/our-second-year-selling-superlinear-momentum",
-      "date": "2025-11-12"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "HPC를 위한 병렬 파일 시스템 vs 분산 파일 시스템",
-      "summary": "조직이 선택하는 데이터 저장소 아키텍처는 고성능 컴퓨팅(HPC) 사업의 규모, 복잡성, 성공도에 큰 영향을 미친다. 병렬 파일 시스템과 분산 파일 시스템이 가장 일반적으로 사용되는 두 가지 저장소 아키텍처이지만, 종종 오해되거나 상호교환 가능한 기술로 간주된다. 분산 파일 시스템(DFS)은 데이터 파일을 작은 블록으로 분할하여 여러 네트워크 서버에 분산시키고 클라이언트-서버 아키텍처 모델을 사용하는 저장소 기술이다. HDFS, Ceph, GlusterFS 등이 DFS 시스템의 예시이며, 이들은 데이터 복제, 노드 독립성, 로드 밸런싱에 크게 의존한다. 높은 데이터 가용성과 복원력을 제공하지만 네트워크 지연, 일관성 확인, 동기화 프로토콜로 인한 성능 저하, 네트워크 혼잡으로 인한 병목 현상, 그리고 처리할 수 있는 노드 수와 파일 크기의 제한이라는 한계가 있다. 본 글은 분산 파일 시스템과 병렬 파일 시스템의 주요 차이점을 분석하고, 각각의 장단점을 평가하며, 두 가지 접근 방식의 장점을 결합한 새로운 대안을 제시한다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/parallel-vs-distributed-file-systems-for-hpc",
-      "date": "2025-11-12"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Cisco Secure AI Factory, NVIDIA, VAST Data InsightEngine으로 AI 인프라 혁신",
-      "summary": "Cisco Secure AI Factory와 NVIDIA의 강력한 협력에 VAST Data InsightEngine을 통합한 솔루션이 기업의 AI 운영 방식을 혁신하고 있습니다. 이 통합 플랫폼은 원본 데이터를 비즈니스 가치를 창출하는 인텔리전스로 변환하는 데이터 파이프라인을 단순화하고 가속화합니다. Cisco Secure AI Factory with NVIDIA는 데이터 수집부터 모델 학습, 대규모 추론까지 전체 AI 생명주기를 지원하는 검증된 풀스택 설계로, 보안을 최우선으로 하는 엔터프라이즈 AI 워크로드 배포 및 관리에 최적화되어 있습니다. VAST InsightEngine은 VAST AI Operating System의 핵심 구성요소로서 신규 데이터 수집 시점부터 AI 준비 데이터 파이프라인을 자동화하여 비정형 데이터를 실시간으로 벡터화하고 추론을 수행합니다. NVIDIA GPU 가속 I/O와 서버리스 자동화를 기반으로 구축되어 전통적으로 AI 도입을 지연시켜온 레이턴시와 마찰을 제거합니다. NVIDIA NeMo Retriever와 NVIDIA NIM 마이크로서비스를 포함한 InsightEngine은 RAG 파이프라인을 통해 엔터프라이즈 데이터에 안전하게 접근할 수 있으며, AI 실무자들이 이 모델들을 쉽게 활용하고 VAST AI OS 위에서 직접 실행할 수 있도록 설계되었습니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/powering-cisco-secure-ai-factory-nvidia-vast-data-insightengine",
-      "date": "2025-11-12"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "생성형 AI를 프로덕션 환경으로: 기업이 직면한 과제와 해결책",
-      "summary": "많은 AI 이니셔티브가 지연되는 이유를 분석한 결과, 세 가지 중요한 장애물이 확인되었습니다: AI 에이전트를 구축하고 관리할 수 있는 전문 인재 부족, 대규모 컴퓨팅 리소스의 제한, 그리고 데이터 및 컴퓨팅 주권 요구사항으로 인한 비용과 규정 준수 문제입니다. VAST와 Deloitte는 협력하여 실제 워크로드로 테스트되고 벤치마킹된 사전 최적화된 AI 인프라 환경을 설계했습니다. VAST의 Insight Engine과 Deloitte의 silicon-to-service 프레임워크 기반의 AI Factory 모델을 배포하면 40~50% 낮은 TCO(총소유비용)와 30~40% 빠른 성능을 기대할 수 있습니다. 웨비나에서는 병원의 수술 전 환자 상담 자동화부터 데이터 사일로를 통합하는 생성형 AI 에이전트 네트워크를 활용한 제품 개발 가속화까지 다양한 실제 사용 사례를 다룹니다. AI Factory의 하이브리드 지원 아키텍처는 온프레미스, SaaS 플랫폼, 클라우드 환경 등 데이터가 있는 곳에서 비용이 많이 드는 마이그레이션 없이 추론, 학습, 검색 워크로드를 배포할 수 있게 해줍니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/proof-concept-production-enterprises-building-ai",
-      "date": "2025-11-12"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "효율적인 복원력 제공 파트 II",
-      "summary": "VAST 시스템의 대용량 Storage Class Memory 쓰기 버퍼는 백엔드 데이터 레이아웃과 쓰기 지연을 분리하여 스트라이프 너비가 쓰기 지연에 영향을 주지 않도록 합니다. VAST 시스템은 클러스터의 SSD 개수, SSD 마모도 등의 요소를 기반으로 스트라이프 너비를 자동으로 결정하여 관리자의 부담을 줄입니다. 동적 인코딩을 통해 SSD 장애 시 기존 스트라이프 설정을 유연하게 조정할 수 있습니다. Element Store는 파일 및 객체를 관리하므로 실제 사용 중인 데이터만 복사하고 삭제된 데이터와 빈 공간은 무시하여 지능형 데이터만 복구합니다. 분산 패리티 방식은 모든 SSD에 삭제 코딩된 스트라이프를 분산시켜 장애 발생 시 전체 시스템의 빈 공간에 데이터를 기록함으로써 재구성을 빠르게 진행하고 성능 영향을 최소화합니다. 이러한 다대다 복구 방식은 기존의 단일 여분 디스크에 의존하는 방식의 병목 현상을 제거하여 더욱 효율적인 복원력을 제공합니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/providing-resilience-efficiently-part-ii",
-      "date": "2025-11-12"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "RAG 기술로 기업 데이터를 활용하라",
-      "summary": "본 블로그는 검색 증강 생성(RAG) 기술이 어떻게 대규모 언어 모델(LLM)을 기업 데이터와 통합하여 조직의 정보 자산을 효율적으로 활용할 수 있게 하는지 설명한다. 과거에는 저장 위치나 파일명을 기억하지 못해 필요한 파일을 찾기 어려웠지만, 이제는 자신의 말로 원하는 내용을 설명하면 AI가 관련 데이터를 자동으로 찾아 활용할 수 있다. GPT-4o와 같은 LLM은 방대한 데이터로 학습되어 있지만, 기업의 특정 정보는 학습하지 않았기 때문에 기업 데이터 통합이 필요하다. 현재 방식의 문제점은 데이터를 수동으로 복사하여 입력해야 하고, 모델을 세부 조정하더라도 실시간으로 추가되는 새로운 데이터를 반영하기 어렵다는 것이다. RAG 기술은 이러한 한계를 극복하여 기업이 자신의 데이터를 효과적으로 활용할 수 있는 현실적인 솔루션을 제공한다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/rag-unlocks-your-enterprise-data",
-      "date": "2025-11-12"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "분석 사용 사례에서 1위로 선정",
-      "summary": "VAST Data 플랫폼은 애플리케이션과 사용자에게 객체 저장소와 스케일-아웃 NAS 시스템으로 동시에 제공되어, 구조화된 데이터와 비구조화된 데이터를 단일 통합 저장소에 수집하여 분석 및 처리할 수 있습니다. 올-플래시 플랫폼인 VAST는 순차적 또는 랜덤 접근 패턴과 관계없이 우수한 성능을 발휘하며 여러 애플리케이션의 대량 동시 접근을 처리할 수 있습니다. 멀티 프로토콜 데이터 접근을 지원하여 S3 인터페이스로 MapReduce, Spark 등 빅데이터 도구와 통합되며, NFSv3/v4를 통해 SAS Grid, Postgres 등 전통 데이터베이스를, SMB 프로토콜로 Windows 워크스테이션 접근을 지원합니다. GPU Direct Storage 지원을 통해 GPU 서버의 네트워크 카드에서 GPU 메모리로 데이터가 직접 전달되어 시스템 메모리와 CPU를 우회함으로써 더 높은 대역폭과 효율성을 제공합니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/ranked-1-for-analytics-use-case",
-      "date": "2025-11-12"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "반응형 보안의 종말: VAST가 공개한 세계 최초 자율 사이버 방어 AI 에이전트 플랫폼",
-      "summary": "현재 사이버보안 분야는 급증하는 CVE, 위협 정보, 엔드포인트 로그, 네트워크 트래픽 등 방대한 데이터량으로 인해 압도당하고 있습니다. 보안팀들은 기계 속도로 움직이는 적들에 대응하기 위해 산재된 도구들로 인한 복잡한 시스템에서 신호를 찾아야 하는 비효율적인 상황에 처해 있으며, 이는 기본적으로 20세기 데이터 아키텍처로 21세기 AI 기반 위협에 대응하려는 근본적인 문제에서 비롯되었습니다. VAST Data는 구조화된 데이터, 비구조화 텍스트, 벡터 임베딩을 포함한 모든 형태의 데이터를 대규모로 고속 처리하면서 경제적 타당성을 갖춘 통합 플랫폼을 구축하기 위해 설립되었습니다. DASE 아키텍처 기반의 VAST Data 플랫폼은 현대 보안 분석과 실시간 AI 추론이 요구하는 규모와 속도, 복잡성을 충족시키며, 대규모 과학적 AI에 필요한 아키텍처가 사이버 방어 혁신의 기초가 될 수 있음을 입증합니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/reactive-security-vast-unveils-worlds-first-ai-agent-platform",
-      "date": "2025-11-12"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "진정한 수용을 위해서는 커뮤니티가 필요하다",
-      "summary": "저자는 PC 혁명, 네트워킹, 가상화, 클라우드, 그리고 현재의 인공지능 등 여러 주요 기술 변화를 목격하면서, 급속한 확산과 광범위한 수용을 이루는 기술들은 공통적으로 강력한 커뮤니티를 형성한다는 점을 관찰했습니다. 이러한 커뮤니티는 새로운 기술을 비즈니스 표준으로 정착시키는 데 필요한 지식과 기술 교류를 촉진하며, 엔지니어와 벤더의 제한된 관점을 극복할 수 있도록 도와줍니다. 커뮤니티는 벤더 엔지니어들뿐만 아니라 실제 구현 고객들, 그리고 기술 확산을 앞당기려는 서비스 제공자들을 모아 지식, 기술, 코드, 그리고 무엇보다 중요한 실전 경험담을 공유합니다. 초기 단계에서 성공적인 커뮤니티 구성을 위해서는 벤더의 재정적 지원이 필수적이지만, 이는 느슨한 손으로 이루어져야 합니다. 커뮤니티의 성장과 번영에는 많은 자금이 필요하지 않지만 체계적인 육성이 필수적이며, 벤더가 메시지 통제에 너무 집착하는 것은 초기 커뮤니티의 발전을 저해할 수 있습니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/real-acceptance-takes-a-community",
-      "date": "2025-11-12"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "신뢰의 아키텍처로서의 추론",
-      "summary": "연방 AI의 다음 변혁은 속도나 규모, 자율성이 아닌 추론 능력에 달려 있다는 주장이 제시되고 있습니다. 추론은 단순히 답변을 제공하는 AI와 실제 행동을 취하는 AI를 구분하는 핵심 요소로, 항공기 운항, 데이터 보안, 재향군인 지원, 전력망 안정화 등 오류를 용납할 수 없는 영역에서 신뢰를 구축하는 방식입니다. Leidos는 추론 능력이 있는 AI 에이전트가 자신의 논리를 투명하게 설명할 수 있어야 하며, 모든 결정이 명확한 논리 사슬로 연결되어 정부 미션에 필요한 신뢰, 규정 준수, 감시를 보장해야 한다고 강조합니다. 이를 위해 공정성, 보증, 복원력, 설명 가능성, 정확성 등 다섯 가지 차원에서 모델을 테스트하는 FAIRS(프레임워크 포 레질리언스 앤 시큐리티) 설계 철학을 적용하고 있습니다. FAIRS는 4A 방법론과 결합하여 AI 시스템의 자율성 수준을 조절하면서 인간의 감시와 기계의 속도 사이의 균형을 유지합니다. 이러한 통합된 접근 방식을 통해 Leidos는 통제 가능성과 설명 가능성을 포기하지 않으면서도 불확실한 환경에서 운영할 수 있는 AI를 구축하고 있으며, 전 세계 공항과 국경 검문소에서 매일 200만 명 이상의 여행자가 이러한 AI 기술을 신뢰하고 있습니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/reasoning-is-the-architecture-of-trust",
-      "date": "2025-11-12"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "규모에서의 단순성 재정의 - 비대칭 시대에 오신 것을 환영합니다",
-      "summary": "VAST Data의 이 기사는 현대 데이터 인프라 환경에서 '비대칭 시대(Asymmetric Era)'라는 새로운 패러다임을 소개하고 있습니다. 대규모 데이터 처리 환경에서 시스템의 복잡성을 줄이고 단순성을 추구하는 것의 중요성을 강조하며, 기존의 대칭적 아키텍처 접근 방식에서 벗어나 더욱 효율적이고 유연한 비대칭적 솔루션으로의 전환을 제안합니다. 이러한 변화는 엔터프라이즈 환경에서 데이터 관리의 복잡도를 낮추면서도 확장성과 성능을 동시에 달성할 수 있게 함을 의미합니다. VAST Data는 이 새로운 시대에 단순하면서도 강력한 데이터 솔루션을 제공함으로써 기업들이 대규모 데이터를 보다 효율적으로 관리하고 활용할 수 있도록 지원하고자 합니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/redefining-simplicity-at-scale-welcome-to-the-asymmetric-era",
-      "date": "2025-11-12"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "VAST Data 플랫폼 복제 기능 출시",
-      "summary": "VAST Data는 최신 소프트웨어 업데이트 버전 3.6을 통해 고객들이 오래 기다려온 네이티브 복제 기능을 출시했습니다. VAST 복제 기능은 스냅샷 기능을 보완하여 오프사이트 데이터 보호를 위한 저RPO 솔루션을 제공합니다. VAST의 쓰기 최적화 스토리지 아키텍처는 데이터 복사 없이 오버헤드 없는 스냅샷 생성이 가능하며, 1분 미만의 간격으로 바이트 범위 델타만 복제하여 극도로 낮은 RPO를 구현합니다. 사용자는 디렉토리 수준의 세분화된 복제 정책을 선택할 수 있으며, VAST 클러스터 간 복제, 클라우드 S3 복제, 또는 두 가지를 결합한 3가지 보호 옵션 중에서 선택 가능합니다. 이러한 복제 기능은 VAST 클러스터 간 즉각적인 페일오버/페일백을 지원하고, S3 백업과 복제 작업을 동시에 운영할 수 있어 최대한의 데이터 보호와 복구 가능성을 제공합니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/replicating-the-vast-data-platform",
-      "date": "2025-11-12"
     }
   ],
-  "totalItems": 1105,
+  "totalItems": 1119,
   "hasArchive": true
 }
