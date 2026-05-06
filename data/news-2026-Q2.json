@@ -3,6 +3,294 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "양자암호통신 기술 실증으로 산업 활용 앞당긴다",
+      "summary": "과기정통부, 개방형 양자 테스트베드 고도화·확산 사업 공모양자통신기술 상용화 촉진, 국가 간 연결, 차세대 기술 확보 위한 거점 확대[보안뉴스 한세희 기자] 우리나라 개방형 양자 테스트베드를 해외로 확대하고 차세대 기술을 확보하기 위한 지원 사업이 시작된다. 과학기술정보통신부(부총리 겸 장관 배경훈’)는 6일 ‘개방형 양자 테스트베드 고도화·확산 사업’ 공",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143491&kind=&sub_kind=",
+      "date": "2026-05-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[양자와 보안] 정부, 양자내성암호 실증 확대 나선다... 핵심 기술 개발도 본격 착수",
+      "summary": "의료·에너지·행정 넘어 통신·금융·교통·국방·우주까지 시범전환 확대수작업 없는 PQC 자율 전환 기술 등 4대 핵심 기술개발 과제 착수[보안뉴스 한세희 기자] 기업 내 암호자산을 탐지하고 양자내성암호(PQC) 체계로 자동 전환하는 자율 전환 기술이 개발된다. 국가 과학기술 연구망에 대한 PQC 전환 실증 작업이 시작된다. 과학기술정보통신부(부총리 겸 장관",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143489&kind=&sub_kind=",
+      "date": "2026-05-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "넷앤드, AI로 ISMS·ISMS-P 준비 효율 높이는 기술 특허 등록",
+      "summary": "ISMS·ISMS-P 다단계 자동 적합성 판단’ 특허 등록컨설턴트 주관적 편차 해소 및 증적 자료 분석 시간 단축[보안뉴스 강현주 기자] 통합 접근제어 및 계정관리(IAM) 솔루션 전문 기업 넷앤드(대표 신호철)가 정보보호 관리체계(ISMS·ISMS-P) 인증 대응의 효율성과 정확도를 비약적으로 높일 수 있는 핵심 기술에 대한 특허 등록을 마쳤다고 6일 밝",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143493&kind=&sub_kind=",
+      "date": "2026-05-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "그룹아이비(Group-IB), 가트너 매직쿼더런트 최초 ‘사이버 위협 인텔리전스 기술’ 부문 ‘리더’ 선정",
+      "summary": "공격자 중심 예측형 위협 인텔리전스 플랫폼으로 피해 입기 전 차단할 수 있는 가시성 제공[보안뉴스 원병철 기자] 디지털 범죄를 조사, 예방 및 대응하기 위한 사이버 보안 기술 분야의 글로벌 선도적 기업인 그룹아이비(Group-IB, 지사장 김기태)는 6일, 2026년 Gartner® 사이버 위협 인텔리전스 기술 Magic Quadrant™에서 ‘리더’(Le",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143492&kind=&sub_kind=",
+      "date": "2026-05-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관-9] 꺼진 불도 다시 보자(9)-자리 비울 때 화면 안 잠그면 생기는 일",
+      "summary": "PC를 켜둔 채 자리를 비울 때는 반드시 화면 잠금(Win+L)을 하세요[보안뉴스 박미영 기자] PC를 켜둔 채 자리를 비울 때는 화면을 잠그는 것이 개인정보·업무자료 노출을 막는 가장 기본적인 방법이다. 화면보호기 비밀번호 설정과 함께 Win+L 단축키로 즉시 잠그는 습관을 들이면, 잠금 전 노출 시간을 줄일 수 있다.PC를 잠그는 방법△즉시 잠그기: W",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143040&kind=&sub_kind=",
+      "date": "2026-05-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[Global Security TOP 100] 최일환 세환엠에스 대표이사 “설치부터 유지보수까지 ‘원팀 체계’가 핵심 경쟁력”",
+      "summary": "출입통제 게이트 기반 통합형 물리보안 운영 체계 구축금속 탐지기·액체 폭발물 검사 장비 중심 제품군 확대기술 투자와 제조 경쟁력 강화를 위한 산업 구조 개선 필요[보안뉴스 강초희 기자] 출입통제 게이트를 중심으로 국내 물리보안 시장을 개척해 온 세환엠에스가 통합형 보안 솔루션 기업으로의 확장을 이어가고 있다. 보안 장비 공급에 그치지 않고 설계·시공·유지보",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143360&kind=&sub_kind=",
+      "date": "2026-05-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "MS 위장한 ‘마이크로스틸러’ 습격... 사회공학적 기만술에 통신·교육분야 비상",
+      "summary": "가짜 소프트웨어 설치 프로그램으로 관리자 권한 획득 후 활성 세션 탈취미국과 독일 등 세계 전역서 확산... 기업 내부망 침투 위한 교두보 활용[보안뉴스 김형근 기자] 마이크로소프트(MS)를 사칭해 시스템 권한을 탈취하고 기업의 핵심 정보를 빼가는 신종 악성코드 ‘마이크로스틸러’(MicroStealer)가 세계 통신과 교육 분야를 공격하고 있다.글로벌 보안",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143484&kind=&sub_kind=",
+      "date": "2026-05-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "‘재난안전기업 사업화 역량 강화 컨설팅’으로 해외시장 진출 수월하게... 참여기업 공고",
+      "summary": "5월 27일까지 공모 접수... 사업화·해외 인증 분야 1:1 맞춤형 지원제품 고도화·해외 인증·수출 확대 지원으로 재난안전기업 판로 강화[보안뉴스 강초희 기자] 행정안전부(장관 윤호중)는 ‘2026년 재난안전기업 사업화 역량 강화 컨설팅’에 참가할 기업을 5월 27일까지 공모한다.‘재난안전기업 사업화 역량 강화 컨설팅’은 우수한 기술과 제품을 보유하고 있",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143485&kind=&sub_kind=",
+      "date": "2026-05-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[카드뉴스] “눈앞의 트럭이 사라졌다?”… 인지 조작하는 ‘고스트 픽셀’ 해킹의 실체",
+      "summary": "혼합현실(MR) 기기의 영상 처리 과정(렌더링 파이프라인)에 침투하여 사용자에게 가짜 시각 정보를 전달하거나 실제 위험 요소를 삭제하는 ‘고스트 픽셀’ 공격이 새로운 위협으로 부상했다. 이러한 인지 조작 공격은 스마트 팩토리의 작업 공정이나 정밀 의료 수술 등 고도의 시각 정보가 필요한 현장에서 심각한 신체적 사고와 물리적 피해를 야기할 수 있다. 기술의",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143487&kind=&sub_kind=",
+      "date": "2026-05-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“취약점 공개 후 공격시간, 4.76일→1일로 대폭 단축”",
+      "summary": "AI 공격 도구, 다크웹서 일반 SW처럼 판매랜섬웨어 피해 전년 대비 389% 급증... 제조·서비스·소매업 타격[보안뉴스 강현주 기자] 2025년 한 해동안 취약점 공개 후 평균 공격 시간이 전년 4.76일에서 24시간~48시간으로 대폭 단축됐다. AI 공격 도구가 다크웹에서 일반 소프트웨어처럼 판매되는 등 해킹 진입 장벽이 낮아졌다. 랜섬웨어 피해는 전",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143486&kind=&sub_kind=",
+      "date": "2026-05-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "규제 산업의 IT 리더들이 주목할 인프라 현대화 전략: 30개 지점, 175,000명 회원의 32억 달러 규모 신용조합의 성공 사례",
+      "summary": "규제 산업의 IT 리더들에게 있어 TVFCU의 사례는 AI 준비 완료로 가는 길이 인프라 규율을 통해서만 가능하며, 핵심 시스템 현대화와 미래 대비가 동일한 결정이 될 수 있음을 보여줍니다. 금융기관의 IT 리더들은 규제당국의 견고한 보안과 거의 영구적 가동 시간 요구, 회원들의 끊임없는 서비스 기대, 그리고 경영진의 AI 전략 수립 요구 사이에서 우선순위 결정의 압박을 받아왔습니다. TVFCU는 Dell Technologies와 협력하여 PowerStore 스토리지와 PowerProtect Data Domain을 도입하고 PowerEdge 서버를 표준화함으로써 기존 인프라를 현대화했으며, 그 결과 스토리지 공간을 4개 랙에서 0.5개 랙으로 축소하고 연간 약 550,000달러의 지원 비용을 절감했습니다. 절감된 비용은 보안 강화와 회원 중심의 혁신에 재투자되었으며, 사이버 복구 능력 개선으로 랜섬웨어 대응 탄력성이 강화되었습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-a-3-billion-credit-union-built-the-infrastructure-to-run-today-s-business-and-tomorrow-s/",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "양자 암호화와 스토리지: '준비됨'이 아닌 다른 질문이 필요한 이유",
+      "summary": "양자 컴퓨팅에 대비하기 시작해야 하는 이유와 양자 컴퓨팅이 생각보다 더 가까워졌다는 점을 고객들이 이해하도록 도와야 합니다. 스토리지는 양자 내성 암호화(PQC) 채택에 매우 중요한 역할을 하며, Dell은 고객들이 PQC 전환에 대비할 수 있도록 스토리지 플랫폼에서 다양한 조치를 취하고 있습니다. '양자 내성 암호화 준비가 되었는가?'라는 질문은 이것이 하나의 기능이 아니라 개별 벤더 혼자서는 완성할 수 없는 전환 과정이라는 점을 간과하고 있으며, 이는 특히 스토리지 분야에서 더욱 분명합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/post-quantum-cryptography-and-storage-why-ready-is-the-wrong-question/",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell Pro 5: 비즈니스 생산성을 위한 최적의 선택",
+      "summary": "Dell Pro 5는 프리미엄 가격대 없이 뛰어난 성능이 필요한 지식근로자, 분석가, 관리자를 위해 설계된 광범위한 직원층을 위한 노트북입니다. 차세대 Intel 및 AMD 프로세서, Intel Arc 또는 AMD Radeon 그래픽, 최대 22.8시간의 배터리 지속시간, 고속 업그레이드 가능한 LPCAMM2 또는 DDR5 메모리, PCIe Gen5 저장소를 통해 확장 가능한 성능을 제공합니다. 이전 세대 대비 11% 더 얇은 샤시, 2배 이상 큰 팬, 최대 78% 향상된 냉각 효율을 자랑하며, FHD+ OLED 디스플레이, 8MP 카메라, 배터리 절감 미니 LED 백라이트 키보드 등 프리미엄 기능을 대중화했습니다. 또한 선택 사항으로 5G 지원과 내장 개인정보보호 솔루션을 제공합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/dell-pro-5-the-sweet-spot-for-business-productivity/",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, 미국 기관을 표적으로 한 정교한 피싱 캠페인 경고",
+      "summary": "마이크로소프트가 미국 조직들을 겨냥한 정교한 피싱 캠페인에 대해 경고했습니다. 이 캠페인은 AitM(중간자 공격) 기법을 활용하여 사용자의 인증 정보를 탈취하려고 시도합니다. 해당 피싱 공격은 기존의 단순한 피싱 방식과 달리 높은 수준의 기술을 사용하고 있어 조직의 보안 위협이 증가하고 있습니다. 마이크로소프트는 사용자들에게 의심스러운 이메일에 대한 주의와 다단계 인증 설정을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/microsoft-warns-of-sophisticated-phishing-campaign-targeting-us-organizations/",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "해커 대화: Joey Melo의 AI 해킹 기법",
+      "summary": "SecurityWeek의 '해커 대화' 시리즈에서 Joey Melo는 AI 시스템을 해킹하는 방법에 대해 설명합니다. 그는 탈옥(jailbreaking) 기법과 데이터 중독(data poisoning) 공격을 사용하여 AI의 안전 장치를 우회하고 조작하는 방법을 다룹니다. 이 인터뷰는 머신러닝 모델의 보안 취약점을 노출하고, 이러한 공격으로부터 AI 시스템을 강화하는 방방에 대해 논의합니다. Kevin Townsend 기자가 작성한 이 기사는 인공지능 보안의 중요한 이슈를 조명하며, AI 시스템의 안전성 강화 필요성을 강조합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hacker-conversations-joey-melo-on-hacking-ai/",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "심각한 버그, 30만 개의 올라마(Ollama) 배포 환경을 정보 도용 위험에 노출",
+      "summary": "오픈소스 AI 모델 실행 플랫폼인 올라마(Ollama)에서 발견된 중대 보안 취약점이 약 30만 개의 배포 환경을 정보 유출 위험에 처하게 할 수 있습니다. 이 버그는 '블리딩 라마(Bleeding Llama)'로 불리며, 공격자가 민감한 정보를 탈취할 수 있는 경로를 제공합니다. SecurityWeek의 보도에 따르면 이 취약점은 올라마 배포 시스템의 광범위한 보안 결함과 관련이 있습니다. 영향을 받는 조직들은 즉시 보안 패치를 적용하고 시스템을 점검해야 할 것으로 보입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/critical-bug-could-expose-300000-ollama-deployments-to-information-theft/",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "안드로이드의 심각한 원격 코드 실행 취약점 패치",
+      "summary": "안드로이드에서 심각한 수준의 원격 코드 실행(RCE) 취약점이 발견되어 패치되었습니다. 이 취약점은 공격자가 원격에서 영향을 받는 안드로이드 기기에서 임의의 코드를 실행할 수 있게 하는 치명적인 보안 결함입니다. SecurityWeek의 보도에 따르면 구글은 해당 취약점을 즉시 패치하여 배포했습니다. 사용자들은 가능한 빨리 최신 안드로이드 보안 업데이트를 설치할 것을 권장받고 있습니다. 이번 취약점은 모바일 기기 사용자들에게 상당한 보안 위협을 야기할 수 있어 신속한 대응이 필요한 상황입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/critical-remote-code-execution-vulnerability-patched-in-android-2/",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Apache MINA 및 HTTP 서버의 심각한 취약점 패치 완료",
+      "summary": "Apache MINA와 HTTP 서버에서 심각도 높은 취약점들이 발견되어 패치되었습니다. 이번 업데이트는 사용자 시스템의 보안 위험을 완화하기 위한 중요한 조치입니다. 해당 취약점들은 공격자에게 악용될 수 있는 잠재력이 있어 즉시 패치 적용이 권장됩니다. SecurityWeek에서 보도한 이 소식은 5월 5일 공개되었으며, 영향을 받는 사용자들은 최신 보안 업데이트를 설치할 것을 강력히 권고합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/critical-high-severity-vulnerabilities-patched-in-apache-mina-http-server/",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "카라쿠르트 랜섬웨어 협상가, 감옥형 선고",
+      "summary": "라트비아 출신의 랜섬웨어 협상가가 카라쿠르트 랜섬웨어 공격 그룹과 관련된 혐의로 징역형을 선고받았습니다. 이 인물은 피해자들과 신원 협상을 진행하고 몸값 지급을 중개하는 역할을 담당했던 것으로 알려져 있습니다. 이번 판결은 사이버범죄 조직의 운영 구조를 타격하고 랜섬웨어 공격의 금전적 측면을 차단하려는 국제 법 집행 노력의 일환입니다. 카라쿠르트 그룹은 과거 여러 대규모 기업들을 대상으로 한 랜섬웨어 공격으로 악명이 높았습니다. 이러한 기소와 유죄 판결은 사이버범죄자들에 대한 국제적 추적과 기소가 계속되고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/karakurt-ransomware-negotiator-sentenced-to-prison/",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "MetInfo, Weaver E-cology 취약점이 공격자들의 표적",
+      "summary": "중국의 웹사이트 구축 도구인 MetInfo와 협업 플랫폼인 Weaver E-cology의 보안 취약점들이 공격자들의 집중적인 공격 대상이 되고 있습니다. 이 두 제품의 취약점들은 이미 악용되고 있으며, 특히 중국 지역에서 광범위한 사이버 위협을 초래하고 있습니다. 보안 전문가들은 이러한 취약점들이 대규모 침입 및 데이터 탈취로 이어질 수 있다고 경고하고 있습니다. 영향을 받는 조직들은 즉시 패치 적용 및 시스템 점검을 수행할 것이 권장됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/metinfo-weaver-e-cology-vulnerabilities-in-attackers-crosshairs/",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "WhatsApp, 파일 스푸핑 및 임의 URL 스킴 취약점 공개",
+      "summary": "WhatsApp이 파일 스푸핑과 임의 URL 스킴 관련 취약점을 공개했습니다. 이러한 취약점들은 공격자가 사용자를 속여 악의적인 파일을 실행하거나 예상치 못한 URL 스킴으로 리디렉션할 수 있게 합니다. SecurityWeek이 보도한 이 취약점들은 사용자의 보안과 개인정보 보호에 위협이 될 수 있습니다. WhatsApp은 이 문제를 해결하기 위한 패치를 배포했으며, 사용자들에게 최신 버전으로 업데이트할 것을 권장하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/whatsapp-discloses-file-spoofing-arbitrary-url-scheme-vulnerabilities/",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "소프트웨어 개발자를 노린 새로운 스텔스형 Quasar Linux 악성코드 발견",
+      "summary": "이전에 보고되지 않았던 Linux 악성코드인 Quasar Linux(QLNX)가 개발자 시스템을 대상으로 한 공격을 수행 중입니다. 이 악성코드는 루트킷, 백도어, 자격증명 탈취 기능을 결합한 고도의 침투형 악성코드입니다. QLNX는 높은 은폐성을 갖춘 다목적 공격 도구로, 시스템에 대한 원격 접근 및 제어 능력을 보유하고 있습니다. 소프트웨어 개발자들이 특별히 위험에 노출되어 있으며, 이는 공급망 공격의 가능성을 시사합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware-targets-software-developers/",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Instructure 해킹 피해 - 8,800개 학교 및 대학교에서 데이터 유출 주장",
+      "summary": "교육 기술 대기업 Instructure의 해킹으로 인해 공격자가 8,809개의 대학, 학군 및 온라인 교육 플랫폼에서 2억 8천만 개의 학생 및 직원 데이터 레코드를 탈취했다고 주장하고 있습니다. 이번 위반 사건은 Canvas 플랫폼과 관련이 있으며, ShinyHunters로 추정되는 해커 그룹이 관여한 것으로 보입니다. 공격자는 훔친 데이터를 기반으로 협박을 시도하고 있는 상황입니다. 이는 전 세계 교육기관의 민감한 개인정보 보안에 대한 심각한 위협을 나타냅니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "DAEMON Tools 공급망 공격으로 백도어 배포",
+      "summary": "해커들이 DAEMON Tools 소프트웨어 설치 프로그램을 변조하여 4월 8일부터 공식 웹사이트에서 해당 제품을 다운로드한 수천 개의 시스템에 백도어를 배포했습니다. 이번 공급망 공격은 트로이목마 형태로 진행되었으며, 사용자들이 정상적인 공식 채널을 통해 소프트웨어를 설치할 때 악성 코드가 함께 설치되었습니다. 이 백도어는 감염된 시스템에서 정보를 탈취할 수 있는 능력을 가지고 있습니다. 공급망 공격의 특성상 광범위한 피해 확산이 우려되고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/daemon-tools-trojanized-in-supply-chain-attack-to-deploy-backdoor/",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "대만 고속철도 해킹한 학생 체포, 긴급제동장치 작동시켜",
+      "summary": "대만의 23세 대학생이 해당 국가의 고속철도망(THSR)에서 사용하는 TETRA 통신 시스템에 불법 접근한 혐의로 체포되었다. 이 학생은 해킹을 통해 철도 시스템의 긴급제동장치를 작동시키는 행위를 했다. 이 사건은 중요 기반시설인 교통 시스템이 사이버 공격에 얼마나 취약할 수 있는지를 보여주는 사례이다. 당국은 통신 시스템 보안 강화와 함께 유사 사건 방지를 위한 조치를 검토 중인 것으로 알려졌다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/student-hacked-taiwan-high-speed-rail-to-trigger-emergency-brakes/",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "FTC, 데이터 브로커 Kochava의 미국인 위치정보 판매 금지",
+      "summary": "미국 연방거래위원회(FTC)가 데이터 브로커 Kochava와 자회사 Collective Data Solutions(CDS)에 대해 소비자의 명시적 동의 없이 위치정보를 판매하는 것을 금지하는 조치를 취했습니다. 이 회사들은 수억 개의 모바일 기기에서 수집한 정확한 지리적 위치 데이터를 불법적으로 판매한 혐의를 받고 있습니다. FTC의 이 조치는 개인의 위치정보 프라이버시 보호를 강화하기 위한 결정입니다. 소비자들의 개인정보가 동의 없이 제3자에게 판매되는 것을 방지하기 위한 규제 강화의 일환입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/ftc-to-ban-data-broker-kochava-from-selling-americans-location-data/",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CVE 피드의 EOL 사각지대: SCA 도구가 놓치는 것",
+      "summary": "오픈소스 소프트웨어의 중요한 취약점이 보안 스캐너에 의해 감지되지 않을 수 있다는 문제가 지적되었습니다. HeroDevs는 서비스 종료(EOL) 소프트웨어가 CVE 피드와 SCA(소프트웨어 구성 분석) 도구에서 사각지대를 만들어낸다고 밝혔습니다. 많은 조직들이 EOL 상태의 오픈소스 라이브러리를 여전히 사용하고 있음에도 불구하고, 대부분의 취약점 스캐너는 이를 추적하지 못하고 있습니다. 이는 조직의 보안 체계에 심각한 위험을 초래할 수 있습니다. HeroDevs는 프로젝트에 대한 무료 EOL 스캔을 제공하여 이러한 문제를 파악할 수 있도록 돕고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/the-eol-blind-spot-in-your-cve-feed-what-sca-tools-miss/",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Vimeo 데이터 유출, 119,000명의 개인정보 노출",
+      "summary": "온라인 동영상 플랫폼 Vimeo가 4월에 해킹당하면서 119,000명 이상의 개인정보가 유출되었습니다. ShinyHunters 악의적 집단이 이번 침해 사건을 저지른 것으로 파악되었으며, 데이터 유출 알림 서비스인 'Have I Been Pwned'를 통해 확인되었습니다. 이번 사건은 대규모 개인정보가 노출된 심각한 보안 침해 사건으로, 영향을 받은 사용자들은 자신의 정보 보호에 주의를 기울여야 합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/vimeo-data-breach-exposes-personal-information-of-119-000-people/",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "구글, 일부 Android 익스플로잇에 최대 150만 달러 보상금 제공",
+      "summary": "구글이 Android 및 Chrome 취약점 보상 프로그램을 개편하여 가장 어려운 익스플로잇에 대해 최대 150만 달러의 버그 바운티를 제공하기로 했습니다. 이번 개편은 인공지능(AI)이 취약점 발견을 더 쉽게 만들면서 상대적으로 단순한 결함에 대한 보상금은 축소하는 방향으로 진행됩니다. 구글은 보안 연구자들의 기여를 더욱 효과적으로 장려하기 위해 난이도에 따라 차등적인 보상 체계를 적용하고 있습니다. 이러한 정책 변화는 고급 사이버 위협에 대응하기 위한 구글의 전략적 접근으로 해석됩니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-now-offers-up-to-15-million-for-some-android-exploits/",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "카라쿠르트 랜섬웨어 조직의 '미제 사건' 협상가, 8.5년 징역형 선고",
+      "summary": "라트비아 국적의 한 남성이 미국으로 송환되어 러시아 카라쿠르트 랜섬웨어 조직의 '미제 사건' 협상가 역할로 8.5년의 징역형을 선고받았다. 카라쿠르트는 데이터 탈취와 협박을 통해 피해 기업들로부터 금전을 요구하는 악명높은 사이버 범죄 조직이다. 협상가는 피해자들과의 신원 협상 과정에서 중개자 역할을 담당했던 것으로 알려졌다. 이 판결은 국제 사이버 범죄에 대한 미국의 강경한 수사와 기소 정책을 보여주는 사례이다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/karakurt-extortion-gang-negotiator-sentenced-to-85-years-in-prison/",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CloudZ 악성코드, Microsoft Phone Link를 악용하여 SMS 및 OTP 탈취",
+      "summary": "CloudZ 원격 접근 도구(RAT)의 새로운 버전이 'Pheno'라는 이전에 보지 못한 악성 플러그인을 배포하고 있습니다. 이 플러그인은 Microsoft Phone Link 연결을 탈취하여 모바일 기기에서 민감한 코드들을 도용합니다. 특히 SMS 메시지와 일회용 비밀번호(OTP)가 주요 공격 대상입니다. 이는 Windows PC와 연동되는 Phone Link 기능의 보안 취약점을 악용한 공격으로, 사용자의 모바일 인증 정보가 직접적인 위협에 노출되고 있습니다. 이번 발견은 데스크톱-모바일 연동 기능의 잠재적 보안 위험성을 드러내고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cloudz-malware-abuses-microsoft-phone-link-to-steal-sms-and-otps/",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "ScarCruft 해커들, 게임 플랫폼을 통해 BirdCall 안드로이드 악성코드 배포",
+      "summary": "북한 국가 해킹 그룹인 APT37(ScarCruft)이 비디오 게임 플랫폼을 악용하는 공급망 공격을 통해 BirdCall이라는 백도어의 안드로이드 버전을 배포하고 있습니다. 이 악성코드는 사용자의 기기에 불법 접근을 제공하여 민감한 정보를 탈취할 수 있습니다. 게임 플랫폼을 감염의 매개체로 사용함으로써 많은 사용자들에게 동시에 악성코드를 배포할 수 있어 위험성이 높습니다. 사이버보안 전문가들은 이 공격이 대규모 감시 및 스파이 활동을 목적으로 한 것으로 분석하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/scarcruft-hackers-push-birdcall-android-malware-via-game-platform/",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "아마존의 간편 이메일 서비스 악용하는 피싱 이메일 급증",
       "summary": "아마존 SES 악용해 SPF, DKIM, DMARC 프로토콜과 같은 인증 검사 통과공격자들, 오픈소스 ‘TruffleHog’ 유틸리티를 기반으로 구축된 봇 등 자동화된 공격 활용[보안뉴스 원병철 기자] 아마존의 간편 이메일 서비스(SES)를 이용해 보안 필터를 우회하고 평판 기반 차단을 무력화하는 정교한 피싱 이메일을 발송하는 악용 사례가 급증하고 있다.",
       "category": "보안",
@@ -18,6 +306,15 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143475&kind=&sub_kind=",
       "date": "2026-05-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "연구원들, 피싱 회피 목적의 Amazon SES 악용 사례 보고",
+      "summary": "사이버보안 회사 카스퍼스키가 Amazon Simple Email Service(SES)가 설득력 있는 피싱 이메일을 전송하는 데 악용되고 있다고 보고했습니다. 공격자들은 Amazon SES를 통해 표준 보안 필터를 우회하고 평판 기반 차단을 무효화할 수 있는 피싱 메일을 보내고 있습니다. 이는 정상적인 클라우드 서비스의 신뢰성을 악용하여 탐지를 회피하는 새로운 위협 추세를 보여줍니다. Amazon SES의 높은 전달률과 신뢰성이 악의적인 목적으로 악용되면서 조직의 이메일 보안이 심각한 위협에 노출되고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/researchers-report-amazon-ses-abused-in-phishing-to-evade-detection/",
+      "date": "2026-05-04"
     },
     {
       "id": "aHR0cHM6Ly93d3cu",
@@ -6852,10 +7149,10 @@
     }
   ],
   "sources": {
-    "보안뉴스": 264,
-    "Dell": 67,
-    "SecurityWeek": 186,
-    "BleepingComputer": 221,
+    "보안뉴스": 274,
+    "Dell": 70,
+    "SecurityWeek": 194,
+    "BleepingComputer": 233,
     "HPE": 5,
     "VAST Data": 18
   }
