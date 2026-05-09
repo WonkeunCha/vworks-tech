@@ -1243,9 +1243,269 @@
     "http://www.boannews.com/media/view.asp?idx=143520&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143507&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143509&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=143519&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=143519&kind=&sub_kind=",
+    "https://www.dell.com/en-us/blog/what-it-leaders-are-actually-saying-about-servers-built-for-what-s-next/",
+    "https://www.securityweek.com/in-other-news-train-hacker-arrested-pamdoora-linux-backdoor-new-cisa-director-frontrunner/",
+    "https://www.securityweek.com/polish-security-agency-reports-ics-breaches-at-five-water-treatment-plants/",
+    "https://www.securityweek.com/ai-firm-braintrust-prompts-api-key-rotation-after-data-breach/",
+    "https://www.securityweek.com/cyberattack-hits-canvas-system-used-by-thousands-of-schools-as-finals-loom/",
+    "https://www.securityweek.com/pcpjack-worm-removes-teampcp-infections-steals-credentials/",
+    "https://www.securityweek.com/ransomware-group-takes-credit-for-trellix-hack/",
+    "https://www.securityweek.com/vulnerability-in-claude-extension-for-chrome-exposes-ai-agent-to-takeover/",
+    "https://www.securityweek.com/ivanti-patches-epmm-zero-day-exploited-in-targeted-attacks/",
+    "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/",
+    "https://www.bleepingcomputer.com/news/security/why-more-analysts-wont-solve-your-socs-alert-problem/",
+    "https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/",
+    "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/",
+    "https://www.bleepingcomputer.com/news/security/zara-data-breach-exposed-personal-information-of-197-000-people/",
+    "https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/",
+    "https://www.bleepingcomputer.com/news/security/new-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges/",
+    "http://www.boannews.com/media/view.asp?idx=143536&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143535&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143533&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143531&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143530&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143361&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143529&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143523&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143236&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143525&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "IT 리더들이 실제로 말하는 미래를 위한 서버에 대한 의견",
+      "summary": "IT 리더들이 현대적인 데이터 및 AI 집약적 환경을 위한 서버 인프라를 평가할 때, 컴퓨팅 성능과 운영 효율성은 기본 요구사항이지만 대규모 원격 관리 가능성이 의사결정을 좌우합니다. Dell PowerEdge 서버에 대한 3개의 최근 독립적 검토 결과는 프로덕션 환경에서 IT 전문가들이 경험하는 강력한 가격 대비 성능과 전 세계 배포, 특히 현장 전담 직원이 없는 사이트를 포함한 원격 관리 기능을 보여줍니다. 이는 당신의 동료들이 효과적이라고 판단하는 솔루션과 그것이 인프라 전략에 미치는 중요성을 나타냅니다. PeerSpot이라는 독립적인 엔터프라이즈 IT 리뷰 플랫폼에서 수집한 실제 배포 후 피드백으로, 이는 실험실 벤치마크가 아닌 프로덕션 환경에서 PowerEdge 랙 서버를 운영하는 시스템 관리자와 인프라 관리자들의 현장 경험입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/what-it-leaders-are-actually-saying-about-servers-built-for-what-s-next/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기타 뉴스: 기차 해킹범 체포, PamDOORa 리눅스 백도어, 새로운 CISA 국장 후보자",
+      "summary": "이번 사이버보안 뉴스에서는 기차 시스템을 해킹한 범인이 체포되었으며, 새로운 PamDOORa 리눅스 백도어 위협이 발견되었습니다. PamDOORa는 PAM(Pluggable Authentication Modules) 시스템을 악용하여 Linux 시스템에 백도어 접근을 제공하는 악성코드입니다. 또한 미국 사이버보안인프라보안청(CISA)의 새로운 국장 후보자가 지명되었습니다. 이러한 사건들은 점점 증가하는 중요 인프라 공격과 Linux 시스템에 대한 위협이 심각해지고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-train-hacker-arrested-pamdoora-linux-backdoor-new-cisa-director-frontrunner/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "폴란드 보안 기관, 5개 정수처리장의 ICS 침해 보고",
+      "summary": "폴란드 보안 기관이 5개의 정수처리장에서 산업제어시스템(ICS) 침해 사건을 보고했습니다. 이번 사건은 중요 기반시설인 수처리 시설이 사이버 공격의 표적이 되었음을 보여줍니다. 정수처리장의 ICS 시스템 침해는 공공 안전과 물 공급 안정성에 직접적인 위협이 될 수 있습니다. 폴란드 당국은 해당 시설들에 대한 긴급 보안 조치를 시행하고 있는 것으로 알려졌습니다. 이 사건은 산업 제어 시스템에 대한 사이버 위협이 증가하고 있음을 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/polish-security-agency-reports-ics-breaches-at-five-water-treatment-plants/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 기업 브레인트러스트, 데이터 유출 후 API 키 로테이션 권고",
+      "summary": "AI 기업 브레인트러스트가 데이터 유출 사고를 경험한 후 사용자들에게 API 키 로테이션(교체)을 권고했습니다. 이 사건은 API 키가 유출된 것으로 보여 보안 위험이 발생했음을 시사합니다. 브레인트러스트는 영향을 받은 사용자들에게 즉시 API 키를 새로운 것으로 교체할 것을 강력히 권장하고 있습니다. 이번 데이터 유출은 AI 서비스 제공업체들의 보안 태세에 대한 우려를 다시 한 번 부각시켰습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ai-firm-braintrust-prompts-api-key-rotation-after-data-breach/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "수천 개 학교가 사용하는 Canvas 시스템이 기말고사 시즌을 앞두고 사이버 공격 피해",
+      "summary": "전 세계 수천 개 학교에서 사용 중인 학습 관리 시스템 Canvas가 사이버 공격을 받았습니다. 이 공격은 기말고사가 임박한 시점에 발생하여 학생과 교직원에게 심각한 영향을 미치고 있습니다. 보안 연구에 따르면 ShinyHunters 사이버범죄 그룹이 이 공격과 관련된 것으로 보입니다. Canvas는 교육 기관들이 과제 제출, 성적 관리, 강의 자료 배포 등 주요 학사 업무를 처리하는 필수 플랫폼입니다. 이번 침해로 인해 학생 데이터와 학사 기록이 유출될 수 있는 위험이 발생했습니다. 학교 관계자들은 긴급 대응 조치를 취하고 있으며, 영향을 받은 기관들에 대한 조사가 진행 중입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cyberattack-hits-canvas-system-used-by-thousands-of-schools-as-finals-loom/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "PCPJack 웜, TeamPCP 감염 제거하며 자격증명 탈취",
+      "summary": "PCPJack 웜이 발견되었으며, 이는 기존의 TeamPCP 악성코드 감염을 제거하면서 동시에 사용자의 자격증명 정보를 탈취하는 악성 활동을 수행하고 있습니다. 이 웜은 경쟁하는 악성코드를 제거하는 동시에 자신의 감염을 확산시키는 이중 위협 특성을 보이고 있습니다. 보안 전문가들은 PCPJack이 시스템 보안을 우회하고 중요한 인증 정보에 접근할 수 있는 능력을 가지고 있음을 경고하고 있습니다. 이러한 유형의 악성코드는 기업 및 개인 사용자 모두에게 심각한 보안 위협이 될 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/pcpjack-worm-removes-teampcp-infections-steals-credentials/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "랜섬웨어 그룹, Trellix 해킹 책임 주장",
+      "summary": "랜섬웨어 그룹이 보안 소프트웨어 회사인 Trellix에 대한 해킹 사건의 책임을 주장했습니다. 공격자들은 Trellix의 소스코드를 탈취한 것으로 알려져 있습니다. 이번 사건은 데이터 유출 사건으로 분류되며, RansomHouse라는 랜섬웨어 그룹이 관련된 것으로 보도되었습니다. 해당 그룹은 탈취한 민감한 정보를 공개하겠다고 위협하고 있는 것으로 전해집니다. 이 공격은 엔터프라이즈 보안 솔루션 제공업체에 대한 심각한 위협을 나타냅니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ransomware-group-takes-credit-for-trellix-hack/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Chrome용 Claude 확장프로그램의 취약점, AI 에이전트 탈취 노출",
+      "summary": "Chrome용 Claude 확장프로그램에서 발견된 보안 취약점이 AI 에이전트의 탈취 위험을 초래하고 있습니다. 이 취약점을 통해 공격자는 Claude AI 에이전트를 제어하거나 악용할 수 있는 접근 권한을 획득할 수 있습니다. SecurityWeek이 보도한 이 사건은 AI 도구의 보안이 얼마나 중요한지를 보여주는 사례입니다. 사용자들은 이 취약점이 패치될 때까지 해당 확장프로그램 사용에 주의가 필요합니다. Anthropic은 이 문제를 인지하고 보안 업데이트를 준비 중인 것으로 알려졌습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/vulnerability-in-claude-extension-for-chrome-exposes-ai-agent-to-takeover/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Ivanti, EPMM 제로데이 취약점 패치 - 표적 공격에서 악용됨",
+      "summary": "Ivanti가 자사의 EPMM(Enterprise Patch Management Module) 제품에서 발견된 제로데이 취약점에 대한 패치를 배포했다. 이 취약점은 이미 표적 공격에 의해 악용되고 있었던 것으로 확인되었다. SecurityWeek의 보도에 따르면 해당 취약점은 기업의 엔드포인트 관리 시스템을 통해 접근할 수 있는 보안 결함이다. Ivanti는 영향을 받은 사용자들에게 즉시 패치 적용을 권고하고 있으며, 보안 전문가들은 기업들이 신속히 업데이트할 것을 촉구하고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ivanti-patches-epmm-zero-day-exploited-in-targeted-attacks/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "NVIDIA, GeForce NOW 데이터 유출 사건 확인 - 아르메니아 사용자 피해",
+      "summary": "NVIDIA가 클라우드 게이밍 서비스인 GeForce NOW의 데이터 유출 사건을 공식 확인했습니다. 이번 사이버 공격으로 인해 아르메니아 지역의 사용자 정보가 노출되었으며, ShinyHunters라는 위협 행위자가 관련되어 있는 것으로 알려졌습니다. NVIDIA는 BleepingComputer에 성명을 통해 사용자 정보가 침해되었음을 인정했습니다. 이 사건은 클라우드 게이밍 플랫폼의 보안 위험성을 재차 드러내는 사례입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "더 많은 분석가를 고용해도 SOC의 경보 문제는 해결되지 않는 이유",
+      "summary": "공격자들은 압박받는 SOC 팀이 현실적으로 경보를 조사할 수 있는 속도보다 훨씬 빠르게 움직이고 있습니다. Prophet Security는 AI가 분석가들이 경보를 더 빠르게 조사하고 실제 위협에 집중할 수 있도록 어떻게 도울 수 있는지 설명합니다. 단순히 더 많은 분석가를 채용하는 것만으로는 증가하는 경보량 문제를 근본적으로 해결할 수 없으며, 인공지능 기반의 자동화 솔루션이 필요합니다. 에이전트 AI 기술을 활용하면 루틴적인 경보 조사를 자동화하고 분석가들의 업무 효율성을 크게 향상시킬 수 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/why-more-analysts-wont-solve-your-socs-alert-problem/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Trellix 소스코드 유출, RansomHouse 해킹 그룹이 주장",
+      "summary": "지난주 공개된 Trellix 소스코드 저장소 공격이 RansomHouse 위협 그룹에 의한 것으로 주장되었습니다. RansomHouse는 침입의 증거로 작은 이미지 세트를 유출했습니다. 이번 사건은 이중 갈취(Double-Extortion) 랜섬웨어 공격의 형태로, 해킹 그룹이 데이터 유출과 함께 신원 공개 협박을 통해 추가 금전을 요구하는 전형적인 수법입니다. Trellix는 McAfee의 모기업인 Broadcom 산하 사이버보안 회사입니다. 현재 영향받은 시스템의 규모와 추가 조치사항에 대한 공식 성명을 기다리고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, 제로데이로 악용되는 Ivanti 취약점 패치를 위해 연방기관에 4일 기한 부여",
+      "summary": "CISA는 미국 연방기관들이 제로데이 공격으로 악용되고 있는 Ivanti Endpoint Manager Mobile(EPMM)의 고위험도 취약점으로부터 네트워크를 보호하기 위해 4일의 시간을 부여했습니다. 이 취약점은 원격 코드 실행(RCE)을 가능하게 하며 현재 적극적으로 악용되고 있는 상황입니다. CISA는 연방기관들이 긴급히 보안 패치를 적용할 것을 권고하고 있습니다. 이는 Ivanti의 널리 사용되는 엔드포인트 관리 솔루션을 대상으로 한 심각한 보안 위협입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "자라(Zara) 데이터 유출로 19만 7천 명의 개인정보 노출",
+      "summary": "스페인의 패스트패션 소매업체 자라(Zara)가 해킹으로 인해 197,000명 이상의 고객 개인정보가 유출되었습니다. 데이터 유출 알림 서비스인 'Have I Been Pwned'에 따르면 해커들이 자라의 데이터베이스에 접근하여 고객 정보를 탈취했습니다. 이번 사건은 전 세계적으로 운영 중인 대형 패션 브랜드의 사이버보안 취약점을 드러내고 있습니다. 자라의 모회사인 인디텍스(Inditex) 그룹은 이 사건으로 인한 고객 정보 보호 및 보안 강화 조치를 취할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/zara-data-breach-exposed-personal-information-of-197-000-people/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "전직 정부 계약업체 직원, 수십 개의 연방 데이터베이스 삭제로 유죄 판결",
+      "summary": "버지니아주의 34세 남성이 연방 계약업체 직원으로 근무하던 중 해고된 후 수십 개의 정부 데이터베이스를 파괴하려는 음모에 가담한 혐의로 유죄 판결을 받았습니다. 이 사건은 내부 위협(Insider Threat)의 심각성을 보여주는 사례로, 퇴직 또는 해고된 직원이 접근 권한을 악용하여 중요한 정부 시스템에 막대한 피해를 입힐 수 있음을 시사합니다. 해당 계약업체 직원은 자신의 시스템 접근 권한을 이용해 의도적으로 여러 연방 데이터베이스를 삭제하려고 시도했습니다. 이러한 사건은 정부 기관과 조직들이 직원 이탈 시 접근 권한 관리와 시스템 모니터링을 강화해야 함을 강조합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 Linux 'Dirty Frag' 제로데이 취약점, 모든 주요 배포판에서 루트 권한 획득 가능",
+      "summary": "'Dirty Frag'라는 새로운 Linux 제로데이 익스플로잇이 발견되었으며, 이는 로컬 공격자들이 단 한 번의 명령으로 대부분의 주요 Linux 배포판에서 루트 권한을 획득할 수 있게 해준다. 이 취약점은 권한 상승(Local Privilege Escalation) 공격 체인을 통해 작동하며, 이미 개념 증명(POC) 익스플로잇이 공개되어 있다. 모든 주요 Linux 배포판이 이 취약점의 영향을 받을 수 있어 광범위한 보안 위협이 될 수 있다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "타포, 실내외 활용도 높인 듀얼 렌즈 보안 카메라 ‘Tapo C246D’ 출시",
+      "summary": "2K 듀얼 렌즈와 스마트 추적 기능 통해 실내외 모니터링 지원 IP65 방수·방진 적용으로 현관·마당·실내 공간까지 활용 가능[보안뉴스 강초희 기자] 티피링크(tp-link)의 스마트홈 브랜드 타포(Tapo)는 실내외 환경에서 모두 활용할 수 있는 듀얼 렌즈 회전형 보안 카메라 ‘타포 C246D’를 출시했다고 밝혔다.Tapo C246D는 하나의 장치에 두",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143536&kind=&sub_kind=",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "국내 첫 육·해·공 무인이동체 통합 실증시험장 개소... 해양 감시 활용 확대",
+      "summary": "다수·이종 무인이동체 통합관제 기반 해안 감시, 경비 실증 추진밀입국·오염원·해양사고 대응 위한 무인이동체 활용 확대[보안뉴스 강초희 기자] 과학기술정보통신부(부총리 겸 장관 배경훈, 이하 과기정통부)는 당진시와의 협력을 통해 당진시 드론산업지원센터(당진시 석문면 석문방조제로 1775, 30,886.5㎡ 규모)에 ‘무인이동체 해안임무 실증시험장’(이하 실증",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143535&kind=&sub_kind=",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[카드뉴스] “범인 잡던 CCTV, 이제 매출 올린다”… 경영진이 주목하는 ‘제3의 눈’ 정체",
+      "summary": "지능형 CCTV가 단순한 물리 보안을 넘어 고객의 동선과 체류 시간 등을 분석해 경영 전략을 수립하는 ‘비즈니스 인텔리전스(BI)’ 도구로 진화하고 있다.기업 보안 카메라가 수집하는 영상이 수익 창출을 위한 핵심 ‘데이터 자산’으로 간주되면서, 보안에 대한 인식이 단순 비용 지출에서 가치 투자로 전환되는 추세다. 다만 정밀한 데이터 추출 과정에서 발생할 수",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143533&kind=&sub_kind=",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "과기정통부, 글로벌 AI 보안 파장 정조준... “한국형 특화 모델로 방어”",
+      "summary": "8일 산학연 간담회 열고 앤트로픽 등 빅테크 보안 프로젝트 파급력 및 대응 논의3만여 개사 CISO 대상 대비 태세 점검 완료 및 인공지능 보안 가이드라인 선제 배포[보안뉴스 조재호 기자] 미국 앤트로픽과 오픈AI 등 빅테크 기업들의 독자적인 보안 프로젝트 전개에 맞서 정부가 대응에 나섰다. 과학기술정보통신부는 국내 3만여 CISO 대상 대비 태세 점검에",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143531&kind=&sub_kind=",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "방화벽이 뚫렸다... 팔로알토 PAN-OS, ‘루트 권한’ 내주는 중대 보안 구멍",
+      "summary": "[보안뉴스 김형근 기자] 팔로알토 네트웍스의 PAN-OS 소프트웨어에서 인증 없이 원격으로 코드를 실행할 수 있는 취약점(CVE-2026-0300)이 발견됐다. 이 결함은 사용자 인증 포털 서비스의 버퍼 오버플로우 취약점으로, 공격자가 특수 제작된 패킷을 보내 루트 권한을 탈취할 수 있게 한다. 보안 위험 점수인 CVSS가 10점 만점에 무려 9.3에 달하",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143530&kind=&sub_kind=",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[Global Security TOP] 박윤하 스피어AX 대표이사 “엣지에서 완성되는 AI 영상보안, 현장에서 즉시 판단하다”",
+      "summary": "온디바이스 AI 기반 엣지 중심 영상보안 플랫폼 확장자체 AI 모델·dara 기반 공공·산업안전 적용 확대NPU 협력 기반 엣지 AI 통합 솔루션 시장 확대[보안뉴스 강초희 기자] AI 영상보안 기술이 엣지 중심으로 전환되는 가운데, 스피어AX가 온디바이스 AI 기반 통합 플랫폼 전략을 앞세워 시장 확대에 나서고 있다. 자체 AI 모델과 플랫폼 ‘dara’",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143361&kind=&sub_kind=",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "오만 정부 12개 부처 뚫렸다... 이란 연계 해커, 웹쉘과 SQL 동원 공습",
+      "summary": "이번 캠페인, 과거 이란 정보통신부(MOIS)와 연계된 조직 수법과 일치하는 것으로 밝혀져[보안뉴스 김형근 기자] 이란과 연계된 것으로 추정되는 해커 조직이 오만의 12개 정부 부처를 대상으로 정밀한 사이버 공격을 감행했다. 이번 공격의 실체는 공격자들이 UAE에 구축한 전초기지인 스테이징 서버(Staging Server)의 디렉토리를 인증 없이 접근 가능",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143529&kind=&sub_kind=",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“AI 위협, AI로 잡는다” KISA, 120억 투입해 차세대 보안기업 육성",
+      "summary": "[보안뉴스 조재호 기자] 한국인터넷진흥원(KISA)이 과학기술정보통신부와 함께 차세대 보안 제품 및 서비스 개발을 위한 지원 사업에 돌입했다. AI 보안과 제로트러스트 등 4대 핵심 분야에 120억원의 예산을 투입해 50개 수행기업을 집중 육성하며 2026년 국가 사이버안보 거버넌스의 질적 상향을 주도할 방침이다.KISA는 이와 같은 내용의 ‘2026년 정",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143523&kind=&sub_kind=",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관-11] 돌다리도 두드려 보고 건너라(1)-문자 링크 하나 눌렀다가 털리는 이유",
+      "summary": "출처가 불분명한 문자(SMS) 내 링크는 절대 클릭하지 마세요[보안뉴스 박미영 기자] 출처가 불분명한 문자(SMS)나 이메일의 링크를 클릭하는 것은 안전하지 않을 가능성이 있다. 이러한 메일이나 메시지에서 제공되는 링크에는 악성 코드나 바이러스가 포함돼 있을 수도 있으며, 개인정보 유출 등의 위험이 따를 수 있다. 특히 택배 조회·청첩장·쿠폰·정부지원금 등",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143236&kind=&sub_kind=",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[배종찬의 보안 빅데이터] ‘자율형 AI’ 시대, 인류에게 천당인가 지옥인가",
+      "summary": "효율성 극대화 이면의 딜레마, 통제 불가능한 자율형 AI 책임은 누구에게?[보안뉴스= 배종찬 인사이트케이 연구소장] 인류 역사상 기술의 발전은 언제나 ‘인간의 노동력을 어떻게 효율적으로 대체하거나 확장할 것인가’에 초점을 맞춰 왔다. 증기기관이 근력을, 컴퓨터가 계산 능력을 보조했다면 최근의 AI는 인간의 사고와 창의 영역을 파고들고 있다. 단순히 질문에",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143525&kind=&sub_kind=",
+      "date": "2026-05-08"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "정보보호 공시의무 기업, 전년 대비 27개사 증가",
@@ -10011,242 +10271,8 @@
       "source": "VAST Data",
       "sourceUrl": "https://www.vastdata.com/blog/federal-agencies-do-more-with-less-using-proven-ai-infrastructure",
       "date": "2026-02-16"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "공간 지능, AI의 진정한 차세대 경계",
-      "summary": "AI 연구자 리(Li)는 공간 지능이 진정한 인공지능(AGI)을 실현하기 위한 핵심 요소라고 주장합니다. 언어는 단순한 추상화이지만 공간은 물리학, 기하학, 중력 등 현실의 기본 법칙을 포함하고 있어 더욱 복잡하고 중요합니다. 공간 지능의 어려움은 차원의 문제뿐 아니라 신호 자체의 특성에 있습니다. 언어는 1차원의 순차적 신호인 반면, 공간 정보는 손실이 있는 2차원 영상으로 축약되어 불완전한 상태입니다. 이러한 도전을 해결하기 위해 리가 창립한 World Labs는 텍스트나 이미지가 아닌 물리 법칙을 인식하는 생성형 세계를 구축하는 것을 목표로 합니다. 하지만 공간 지능 모델 개발에는 언어 모델이 인터넷의 방대한 텍스트 데이터를 활용하는 것과 달리, 3D 환경 데이터 부족이라는 심각한 과제가 있습니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/spatial-intelligence-is-ais-next-true-frontier",
-      "date": "2026-02-16"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "예측 AI, 금융 모델링의 한계에 직면하다",
-      "summary": "금융 분야의 AI는 예측 능력을 약속하지만 실제로는 과거 데이터에 얽매여 시장의 불확실성을 제대로 반영하지 못하고 있다. AI의 강점은 역사적 데이터에서 패턴을 인식하는 것이지 예상치 못한 시장 변화를 예측하는 것이 아니며, 거시경제 충격이나 지정학적 변수는 기존 모델의 가정을 무너뜨린다. 정량적 방법론은 안정적인 역사 데이터에 의존하기 때문에 시장이 급변하거나 새로운 국면으로 진입할 때 즉시 실패한다. 특히 오버피팅(노이즈를 신호로 착각하는 현상)과 비선형 딥러닝 모델의 복잡성은 기존 패턴과 맞지 않는 시장 변동성을 간과하게 한다. 금융기관들은 교차 검증, 국면 인식 모델링, 스트레스 테스트를 통해 이를 완화하려 하지만 근본적인 한계는 남아있다. 규제당국과 투자자들이 금융 의사결정의 투명성을 요구하면서 AI 모델의 불투명성도 문제가 되고 있으며, 기업들은 단순히 예측 결과뿐 아니라 그 근거를 명확히 제시해야 한다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/predictive-ai-hits-the-limits-of-financial-modeling",
-      "date": "2026-02-16"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "스마트 헬스케어는 통합 데이터, 상황 인식 AI, 동적 검증이 필요하다",
-      "summary": "예시바 대학교 카츠 과학보건대학의 닐센은 현재의 스마트 헬스케어 기술이 실제 의료 성과를 개선하지 못하고 있다고 지적하며, 진정한 변화를 위해서는 의료 데이터 수집·통합·활용 방식의 근본적 재검토가 필요하다고 주장한다. 현재 병원은 병리 보고서, 영상 이미지, 웨어러블 기기 데이터 등이 단절된 사일로(data islands)에 갇혀 있어 임상의가 수동으로 이를 넘나들며 중요한 통찰을 놓치고 있다. 그녀는 NSF 지원 수술 통제탑 사례를 통해 산재된 환자 데이터를 통합하면 의사 결정 속도와 환자 결과가 개선될 수 있음을 보여준다. 또한 닐센은 포도당, 콜레스테롤 같은 전통적 지표를 넘어 사이토카인, 분자 염증 지표 등 간과되어온 생물학적 신호를 모니터링해야 하며, 나노 센서와 최소침습 웨어러블 기술이 이미 실용화 단계에 있다고 강조한다. 더불어 진정한 실제 데이터(real-world data)는 환자 생성 데이터를 넘어 환경, 가정, 자동차, 일상 행동에서 나오는 수동적 데이터 스트림을 포함해야 하며, 이러한 통합적 접근과 상황 인식 AI를 통해 의료의 질적 변화가 가능하다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/smart-health-needs-integrated-data-contextual-ai-and-dynamic-validation",
-      "date": "2026-02-16"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "월마트의 GPU 최적화 AI가 상품 검색을 어떻게 혁신했는가",
-      "summary": "월마트 연구팀은 BERT 기반 크로스 인코더 모델을 배포하여 실시간으로 상품 관련성을 계산하고, 특히 복잡한 롱테일 쿼리에 대한 검색 결과를 획기적으로 개선했다. BERT와 같은 트랜스포머 기반 아키텍처는 뉘앙스와 문맥을 이해하는 능력이 뛰어나지만 계산 비용이 매우 크다는 단점이 있다. 월마트는 중간 표현 구현, 연산자 융합, 벡터화 등의 GPU 레벨 최적화를 통해 모델의 추론 지연을 약 5배 감소시켰으며, 제품 정보 사전 토큰화 및 페이로드 압축으로 지연 오버헤드를 30%에서 거의 무시할 수 있는 수준으로 줄였다. GPU 배치 크기 및 워커 스레드 수 같은 파라미터 세밀 조정을 통해 중간 지연을 절반으로, 최고 지연을 4배로 감소시켰다. 실제 테스트 결과 장바구니 추가 증가, 이탈률 감소, 상품 구매를 위한 클릭 수 감소 등 고객 참여도 지표에서 실질적인 개선이 나타났으며, 이는 인프라 레벨의 신중한 AI 최적화가 대규모 소비자 경험을 어떻게 향상시킬 수 있는지 보여준다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/how-gpu-optimized-ai-transformed-product-search-at-walmart",
-      "date": "2026-02-16"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "AI가 연방 기관 인프라를 붕괴시키고 있는 이유와 그것이 왜 긍정적인가",
-      "summary": "연방 기관의 AI 도입은 기존 인프라의 심각한 한계에 직면해 있다. NIH 캠퍼스의 NVIDIA Grace Blackwell GPU는 한 랙당 125킬로와트를 소비하지만, DC 지역의 레거시 데이터센터는 겨우 9킬로와트 수준으로 AI의 전력 수요를 감당할 수 없다. Hayes는 연방 기관이 처음부터 구축하기보다는 상용 성공 사례를 신뢰하고 이를 통해 목적별 맞춤형 데이터센터를 구축해야 한다고 강조한다. 사이버 분석, 예측 유지보수, AI 에이전트 등의 기술은 연방 기관 업무 효율을 크게 향상시킬 수 있는 잠재력을 가지고 있다. 데이터는 연방 기관이 보유한 가장 중요한 자산이지만, 부서 간 칸막이로 인해 제대로 활용되지 못해 왔으며, NHL의 사례처럼 데이터를 통합하고 맥락화하는 작업이 선행되어야 한다. 마지막으로 AI 배포 시 감시 가능성과 투명성이 있는 감시 기능(auditability)이 미션 크리티컬하며, 엄격한 규제 대비를 위해 Tesla의 자율주행 데이터 수집 모델 같은 포괄적인 감사 추적이 필수적이다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/how-ai-is-breaking-federal-infrastructure-and-why-thats-a-good-thing",
-      "date": "2026-02-16"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "AI 도입이 경영을 위협하는 방식과 이를 극복하는 방법",
-      "summary": "연구에 따르면 AI 도입으로 인해 수십 년 된 관리 프로세스를 바탕으로 한 기존 기업들이 입증된 경영 프레임워크를 일시적으로 포기하는 경향을 보입니다. 디지털 효율성을 추구하는 과정에서 조직들은 역사적으로 생산성을 높이고 운영 우수성을 지원했던 일상적 루틴을 의도치 않게 붕괴시킵니다. AI는 경영 강화제로 의도되었지만 초기에는 경영 파괴자처럼 작동하는데, 이는 AI가 제시하는 혁명적 조직 변화가 즉각적이고 광범위한 변화를 요구하기 때문입니다. 특히 오래된 기업들은 경직된 프로세스로 인해 더 심각한 생산성 손실을 겪지만, 젊고 디지털 기반의 스타트업들은 유연한 아키텍처 덕분에 AI 통합에 빠르게 적응하고 더 나은 성과를 거둡니다. 이러한 격차는 기존 기업들이 AI 전환 과정에서 건전한 경영 관행의 무결성을 의식적으로 지켜야 함을 보여줍니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/how-ai-adoption-threatens-good-management-and-how-to-save-it",
-      "date": "2026-02-16"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "VAST의 랙 레벨 복원력 도입 - 1부",
-      "summary": "VAST Data Platform의 최신 릴리스는 DBox, EBox, 또는 전체 랙의 장애로부터 데이터를 보호하면서 데이터 가용성과 내구성을 유지하는 기능을 제공합니다. VAST는 전통적으로 로컬 디코딩 가능한 삭제 코드를 사용하여 최대 4개의 동시 SSD 장애로부터 데이터를 보호해왔으며, 이는 스트라이프당 6개의 데이터 스트립과 4개의 패리티 스트립으로 구성됩니다. 초기 VAST 고객들은 고가용성 DBox가 제공하는 안정성에 만족했지만, 클라우드 제공업체들은 다른 요구사항을 제시했습니다. 클라우드 기업들은 대규모로 구축되고 장애-제자리 철학을 바탕으로 하는 애플리케이션을 운영했으며, 전체 랙을 장애 도메인으로 간주하기 때문에 랙 수준의 복원력이 필요했습니다. 이 블로그 시리즈는 VAST Data Platform 내 데이터 보호 메커니즘을 자세히 설명하며, 다양한 수준의 복원력을 다룹니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/bringing-rack-level-resilience-to-vast-part-one",
-      "date": "2026-02-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "임상시험 등급 AI를 일상의 의료로 전환하기",
-      "summary": "의료 AI 시스템이 3상 임상시험과 6개월 후 추적 방문에서 동일한 측정을 제공할 수 있게 되면서, 의료 데이터가 수집된 환경을 벗어나 환자와 함께 이동할 수 있게 되었다. Topcon의 의료 최고책임자인 Daniela Ferrara 박사는 임상시험에서 AI를 사용하지 않는 것은 뒤처지는 것이라고 지적했다. Toku의 CEO Ehsan Vaghefi는 안과 데이터만으로 심혈관 위험 모델을 개발하면서 FDA 승인 절차를 거친 첫 AI 진단 시스템을 설명했으며, 주요 과제는 알고리즘이 아닌 사이버보안과 편향 완화라고 강조했다. Amaros의 Ben Toker는 EHR, 임상기록, 청구 데이터, 의료 영상, 유전학 정보 등 5가지 데이터 유형을 통합하여 임상시험 모집에 활용하는 방법을 소개했으며, AI의 이점을 실현하려면 임상시험 현장의 업무 흐름이 적응해야 한다고 강조했다. Genentech의 의료 책임자 Shriji Patel 박사는 수십 년간의 임상시험 영상 및 임상 데이터로 구축한 사내 AI 개발 프로그램을 설명했으며, 이를 통해 조기 단계의 해부학적 발견을 약효 신호와 더 직접적으로 연결하여 '더 빠른 실패'를 가능하게 한다고 했다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/turning-trial-grade-ai-into-everyday-medicine",
-      "date": "2026-02-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "금융 AI의 유일한 정직한 벤치마크는 사기 탐지다",
-      "summary": "금융 시스템의 AI 도입에서 사기 탐지가 가장 중요한 검증 기준이 되어야 한다는 주장을 제시한다. 데이터베이스 시간 동기화 문제로 인한 사용자 락아웃 사례를 통해, AI 기반 제어 시스템이 과부하 선행 신호를 인식하고 사전에 차단할 수 있음을 설명한다. 인도의 통합 결제 인터페이스(UPI)를 사례로 들며, 월 13억 건 이상의 거래 처리 과정에서 사기꾼들이 규제 시스템보다 빠르게 대응한다고 지적한다. 사기 조직은 수 시간 내에 스크립트를 재학습하지만 은행은 새로운 탐지 규칙 배포에 수주가 소요되는 문제를 강조한다. 해결책으로 AI 모델을 지속적으로 훈련하고 실시간 부하에서 검증하며 모듈식으로 배포해야 한다고 제안한다. 또한 사기 탐지는 보안 문제가 아닌 데이터 통합 과제이며, 여러 시스템의 거래 정보를 시간 인식 원장으로 통합한 통일된 데이터가 필요하다고 강조한다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/fraud-is-the-only-honest-benchmark-for-financial-ai",
-      "date": "2026-02-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "가상 랩이 새로운 과학 커뮤니티로 떠오르다",
-      "summary": "AI 과학자들로 이루어진 가상 연구실이 실제 과학 연구의 새로운 패러다임을 제시하고 있다. 주(主) 연구자(PI) 에이전트 아래에 면역학, 화학, 생물정보학 등 다양한 분야의 전문 에이전트들이 배치되어 있으며, 이들은 AlphaFold, Rosetta 등 실제 과학 도구를 활용하여 가설을 생성하고 검증한다. 실제 습식 실험실에서 테스트한 결과, AI 에이전트들이 예측한 분자들이 COVID-19 스파이크 단백질에 실제로 결합했다. 가상 랩의 가장 큰 장점은 확장성으로, 한 명의 인간 연구자가 소수의 프로젝트만 운영할 수 있다면 가상 랩은 계산 예산이 허락하는 한 무제한 확장 가능하다. 에이전트들은 자연언어로 소통하며 인간 감시자가 모니터링할 수 있고, 인간 연구자들처럼 사회적 특성까지 발달했기에 비평 에이전트를 도입하여 학술 비평 문화를 구축했다. 더욱 혁신적인 것은 '가상 랩 학교'로, 에이전트들이 스스로 학습하고 전문화되는 환경을 제공하여 대학원생이 몇 년 걸릴 과정을 AI가 며칠 만에 완수할 수 있게 했다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/virtual-labs-are-becoming-a-new-scientific-community",
-      "date": "2026-02-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "미국의 AI 팩토리 건설",
-      "summary": "최근 AI 컨퍼런스에서는 알고리즘과 벤치마크보다는 철강, 전력, 지역 근접성에 대한 논의가 중심이 되었다. 미국의 AI 리더십은 대규모 지능을 지탱할 수 있는 물리적 시스템을 얼마나 빠르게 구축하느냐에 달려 있다는 주장이 제기되었다. AI 팩토리는 전통적인 클라우드 데이터센터가 아니라 모델 훈련, 서빙, 보안을 목적으로 설계된 계산 생산라인이다. Lambda의 켄 패칫은 이것이 지역 사회와의 협력을 통한 집단적 노력이라고 강조했으며, 매 전자는 정당한 이유로 소비되어야 하고 지역사회에 가치를 제공해야 한다고 주장했다. Reflection AI의 이오안니스 안토노글루는 개방형 프로토콜과 인프라가 산업 혁명을 주도한다고 지적하며, 자체 오픈소스 프론티어 모델을 개발할 수 없는 국가는 향후 10년의 가장 가치 있는 자원을 수입에 의존하게 될 것이라고 경고했다. 이러한 논의들은 초기 산업 제조업의 시대처럼 자재 처리량, 안정적인 전력, 공공의 동의가 진행을 결정하는 생태계를 강조하며, 국가 규모의 지능형 기계를 가장 효율적으로 구축할 수 있는 경쟁이 벌어지고 있음을 보여준다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/building-americas-ai-factories",
-      "date": "2026-02-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "엔지니어링 시스템을 위한 기계 읽기 가능한 메모리 구축",
-      "summary": "ABB는 서비스 매뉴얼, 로그, 유지보수 보고서를 읽고 엔티티와 관계를 추출하여 장애, 원인, 해결책을 추론할 수 있는 지식 그래프를 구축하는 시스템을 개발했습니다. 현장 엔지니어들이 서로 연동되지 않는 CRM, IoT 클라우드, 자산 관리 시스템 등 여러 시스템에서 정보를 찾느라 시간을 낭비하는 문제를 해결하기 위한 것입니다. ABB의 프레임워크는 모터, 드라이브, 로드의 관계를 정의한 파워트레인 온톨로지로 시작하며, LLM이 자유 텍스트를 의미 있는 삼중항(주어, 관계, 목적어)으로 변환합니다. 연구팀은 LangChain과 GraphRAG를 비교했을 때, GraphRAG가 더 안정적이고 할루시네이션율이 약 12%로 더 낮았으나, 산업용 언어의 엄격한 특성으로 인해 오류 코드 정렬 문제가 발생했습니다. 이를 해결하기 위해 코드 처리, 전체 문장 보존, 수리 단계 기록에 대한 상세한 지시사항을 프롬프트에 추가하여 정확도를 개선했습니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/building-machine-readable-memory-for-engineering-systems",
-      "date": "2026-02-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "유럽, 과학 분야를 위한 통합 AI 엔진 구축",
-      "summary": "유럽연합(EU)은 RAISE 프로그램을 통해 유럽의 컴퓨팅 능력, 데이터, 자금, 인재를 단일 프레임워크로 통합하는 가상 연구소를 구축하려고 합니다. 현재 유럽의 글로벌 AI 컴퓨팅 용량은 5% 미만인 반면, 미국은 약 75%, 중국은 약 15%를 차지하고 있어 이러한 불균형 해소가 목표입니다. RAISE는 과학에서의 AI 활용(새로운 발견)과 AI 발전을 위한 과학(핵심 모델 능력 향상)을 동시에 추진합니다. 프로그램은 2025-26년에 AI 팩토리(AI 최적화 슈퍼컴퓨터)를 구축하여 유럽 사용자의 AI 용량을 3배 이상 확대할 예정이며, 향후 매우 대규모의 학습 및 추론 기시설인 'AI 기가팩토리'도 조성합니다. EU는 이 파일럿 프로그램에 최대 6억 유로를 투자하며, 데이터 측면에서는 유럽 공개 과학 클라우드를 기본 플랫폼으로 삼고 AI 팩토리 내 데이터 랩을 통해 데이터셋을 통합, 정제, 강화하는 역할을 수행합니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/eu-to-raise-a-unified-ai-engine-for-science",
-      "date": "2026-02-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "DeepMind에서 머신 자율성의 최전선으로",
-      "summary": "DeepMind의 연구원 Laurent Sifre는 AlphaGo, AlphaFold, AlphaStar 등 혁신적인 AI 모델들을 개발해왔으며, 특히 Chinchilla 스케일링 법칙으로 업계의 모델 크기 경쟁이 잘못된 방향으로 가고 있음을 증명했다. GPT-3 이후 업계는 매개변수 수 증가에만 집중했지만, Chinchilla는 컴퓨팅, 토큰, 매개변수 간의 새로운 균형을 제시해 더 효율적인 모델 개발의 기초가 되었다. 2024년 초 Sifre는 Google을 떠나 H Company를 공동 설립했으며, 이 회사는 사용자 인터페이스와 상호작용하는 '컴퓨터 사용 에이전트'를 개발하고 있다. 기존 API 접근성이 제한되는 상황에서 이러한 에이전트는 인간처럼 작동하기 때문에 제약을 우회할 수 있으며, Holo 1과 Otter 1.5 같은 소규모의 도메인 특화 모델들이 복잡한 그래픽 환경에서 UI 요소를 인식해 자동화의 새로운 경계를 열어가고 있다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/from-deepmind-to-the-frontier-of-machine-autonomy",
-      "date": "2026-02-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "GTC DC와 AI 인프라의 성숙화",
-      "summary": "GTC(GPU Technology Conference)가 샌프란시스코에서 워싱턴 DC로 개최 장소를 옮기면서 AI 업계의 화두가 근본적으로 변화했다. 과거 기술 혁신과 모델 우수성을 놓고 논쟁하던 분위기에서 이제는 전력, 냉각, 네트워크, 데이터 지역성, 통제 등 AI 인프라의 실질적인 구축에 관한 논의로 전환되었다. 엔지니어들은 AI를 과거의 전력망처럼 로지스틱 언어로 다루며, '주권 인프라(sovereign infrastructure)'와 '배포(deployment)'라는 표현이 핵심 키워드로 떠올랐다. 방위, 에너지, 연구 분야의 정부 관계자들이 참석하면서 AI가 국가 유틸리티로 인식되기 시작했고, 인프라는 단기 상품 사이클이 아닌 수십 년 지속 운영을 염두에 두고 설계되고 있다. 민간 기업들도 제조업체에서 인프라 템플릿 구축자로 포지셔닝을 전환하며, 이러한 국가 차원의 AI 인프라 구축 프레임에 자연스럽게 적응하고 있다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/gtc-dc-and-the-maturity-of-ai-infrastructure",
-      "date": "2026-02-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "컴퓨팅의 미래는 데이터 근접성에서 시작된다",
-      "summary": "현대 데이터 중심 환경에서 컴퓨팅의 미래는 데이터가 어디에 위치하는지에 따라 결정됩니다. 데이터 근접성(Data Proximity)은 컴퓨팅 리소스와 데이터를 물리적으로 가깝게 배치하여 처리 속도를 극대화하고 레이턴시를 최소화하는 핵심 전략입니다. 전통적인 중앙집중식 데이터센터 모델에서 벗어나 엣지 컴퓨팅과 분산 아키텍처로의 전환이 필수적이 되고 있습니다. 데이터 근접성을 활용하면 네트워크 오버헤드를 줄이고 더 빠른 데이터 처리와 실시간 분석이 가능해집니다. VAST Data와 같은 기업들은 이러한 아키텍처를 통해 대규모 데이터 워크로드를 효율적으로 처리할 수 있는 솔루션을 제공합니다. 미래의 경쟁력 있는 기업들은 데이터와 컴퓨팅의 최적 배치를 통해 더욱 빠르고 효율적인 의사결정을 할 수 있을 것입니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/the-future-of-compute-begins-with-data-proximity",
-      "date": "2026-02-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "자체적으로 물리를 학습한 날씨 예측 모델",
-      "summary": "본 기사는 기계학습 기술이 기존의 물리 기반 날씨 예측 모델을 어떻게 혁신하고 있는지를 다루고 있습니다. 전통적인 기상 예보는 복잡한 물리 방정식과 방대한 계산 자원을 필요로 하지만, 최신 AI 모델들은 데이터로부터 직접 물리 법칙을 학습하여 더 빠르고 정확한 예측을 가능하게 하고 있습니다. 신경망 기반의 날씨 모델들은 대기 현상의 패턴을 인식하고 미래의 기상 상황을 예측하는 능력을 자동으로 습득합니다. 이러한 접근 방식은 계산 비용을 대폭 절감하면서도 높은 정확도를 유지할 수 있다는 장점이 있습니다. VAST Data는 이러한 고급 AI 기반 날씨 모델을 지원하기 위해 필요한 대규모 데이터 인프라를 제공하고 있습니다. 결론적으로 머신러닝 기술은 날씨 예측 분야에서 전통적 방법과 새로운 기술의 경계를 허물며 기상 과학의 미래를 재정의하고 있습니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/the-weather-model-that-taught-itself-physics",
-      "date": "2026-02-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "AI 플랫폼이 바이엘의 제약 물류를 재편하다",
-      "summary": "바이엘은 제약 물류 최적화를 위해 자동화를 먼저 구현하고 AI 지능을 그 다음에 적용하는 계층화된 접근 방식을 채택했다. 상품의 흐름을 계측하고 지속적으로 측정해야만 AI가 기준점을 갖고 작동할 수 있으며, 이를 통해 규정준수를 예방적으로 전환하고 물류 계획을 예측 기반으로 전환할 수 있다. 바이엘은 외부 벤더를 기다리지 않고 생명과학 업계의 특화된 필요를 충족하는 자체 AI 환경을 개발했다. MyGenAssist는 생명과학 전문가들을 위해 튜닝된 대규모언어모델 기반 플랫폼으로, 제약, 소비자, 작물과학 부문에 걸쳐 수만 명의 사용자가 사용하고 있다. 바이엘은 5만 명 이상의 사용자와 월 2만 5천 명의 활성 사용자를 보유하고 있으며, 이는 내부 개발 솔루션의 견고한 입지를 증명한다. Project Maya는 제조 데이터(MES 기록, 장비 원격측정, 실험실 출력 등)를 MyGenAssist 환경으로 연결하여 엔지니어가 맞춤형 통합을 기다리지 않고도 특정 반응기의 성능을 분석할 수 있게 한다. 모듈식 아키텍처를 기반으로 하는 이러한 AI 인프라 전체는 창고와 물류 시스템에서 실시간으로 안정적인 데이터 흐름에 의존한다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/ai-platforms-are-reshaping-pharma-logistics-at-bayer",
-      "date": "2026-02-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "EDA는 산업용 AI 에이전트의 첫 번째 테스트장",
-      "summary": "소비자용 AI와 산업용 AI의 차이는 한 번의 오류가 1억 달러의 손실을 초래할 수 있는 EDA(전자설계자동화) 분야에서 극명하게 드러난다. 소비자용 LLM은 실험에는 적합하지만 단일 실수가 연쇄 실패로 이어지는 산업용 애플리케이션에는 치명적이다. 산업용 AI는 검증 가능성, 감시 가능성, 견고성을 갖춰야 하며 단순히 언어 패턴을 모방하는 것이 아닌 도메인 지식의 무게를 견뎌내야 한다. 하드웨어 엔지니어 부족이 심화되고 있는 상황에서(30년 전 4대 6의 비율이 현재 4%로 감소) Siemens는 EDA 특화 사전학습 모델을 개발하여 이 격차를 메우고자 한다. 일반적인 LLM으로는 Verilog나 GDS 같은 설계 언어를 제대로 이해할 수 없으므로, 디자인 플로우, RTL의 미묘함, 툴체인의 특성을 학습한 도메인 특화 모델이 필수적이다. Siemens는 Nvidia의 Blackwell 플랫폼과 같은 강력한 하드웨어 기반 위에서 마이크로서비스 통합을 통해 AI 기반 설계 스택을 재구성하고 있으며, 이는 엔지니어들이 문서 검색, 오류 디버깅 등을 효율적으로 수행할 수 있도록 돕는 AI 어시스턴트와 추론 기능의 형태로 실현되고 있다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/eda-is-the-first-test-of-industrial-grade-agents",
-      "date": "2026-02-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "엔터프라이즈 AI가 반복적 개선의 인프라를 작동시키다",
-      "summary": "수년간 엔터프라이즈 기술은 의도적인 릴리스, 엄격한 거버넌스, 변경 관리 위원회를 통해 의도적으로 느리게 설계되어 왔다. 하지만 이제 상황이 역전되고 있는데, AI를 안전하게 다루는 유일한 방법은 더 빠르게 움직이되 엄격함을 유지하는 것이기 때문이다. 이러한 역설적 상황, 즉 속도가 새로운 안전이 되는 새로운 세계에서 OpenAI 같은 회사가 실험 플랫폼에 막대한 투자를 하는 이유를 설명할 수 있다. 이제 관점을 넓혀보면 엔터프라이즈 팀들이 왜 주목해야 하는지 명확해진다. 엔터프라이즈의 AI는 더 이상 일회성 출시나 정적인 배포가 아니라, 직면한 문제들만큼 빠르게 적응할 수 있는 시스템을 구축하는 것이다. Statsig 인수는 경쟁 우위가 릴리스와 피드백 사이의 거리를 단축하고, 나아가 가정과 실증 데이터 사이의 거리를 줄이는 데 있음을 명확히 보여준다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/enterprise-ai-turns-on-the-infrastructure-of-iteration",
-      "date": "2026-02-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Pfizer와 CVS Health, AI 채택의 관문으로서 인프라에 주목",
-      "summary": "Pfizer와 CVS Health의 경영진들은 AI 도입의 성패가 인프라에 달려있다는 동일한 결론에 도달했습니다. CVS의 Alan Rosa는 현재 AI 투자의 85~90%가 실패하고 있으며, 자신들의 성공률도 10~20% 수준에 불과하다고 밝혔습니다. Pfizer의 Chief AI Officer인 Berta Rodriguez-Hervas는 파일럿 프로젝트는 가치를 창출하지 못하며, 규모에서의 운영만이 실제 ROI를 가져온다고 강조했습니다. CVS는 이미 청구 심사 플랫폼 자동화, 공급망 최적화, 지능형 콜 라우팅 등에서 AI 성과를 보고 있습니다. Pfizer는 백오피스 운영부터 연구 모델링까지 내부 워크플로우에 AI를 도입하고 있습니다. 두 기업 모두 AI를 파일럿에서 실제 운영으로 전환할 때 인프라가 더 이상 부차적 요소가 아니라 AI 채택의 속도를 결정하는 핵심 요소임을 강조했습니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/pfizer-cvs-health-converge-on-infrastructure-as-gate-to-ai-adoption",
-      "date": "2026-02-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "검색의 진화: 답변 엔진에서 에이전트로의 전환",
-      "summary": "웹의 프론트엔드는 채팅 인터페이스로 변화하고 있으며, 백엔드는 크롤링, 인덱싱, 검색, 종합 기능을 통합하는 스택으로 발전하고 있습니다. 브라우저는 사용자를 대신해 정보를 읽고, 비교하고, 실행하는 에이전트로 진화하고 있으며, 기존 검색 회사들도 단순한 페이지 랭킹을 넘어 요약 콘텐츠, 수익 배분, 모델 접근 권한 협상까지 담당하게 되었습니다. 이러한 변화는 단순한 UI 개선이 아니라 인덱스 소유자, 모델 벤더, 출판사, 대규모 에이전트 신뢰성을 구현할 수 있는 소수 기업들 간의 권력 재분배입니다. Perplexity, Brave, You.com, Kagi, Andi, Komo 등은 인용 출처를 기본으로 제공하는 답변 엔진으로 사용자의 기대를 변화시키고 있습니다. 개발자 커뮤니티에서는 Phind, Sourcegraph, Stack Overflow 같은 플랫폼들이 코드 검색과 AI 기반 워크플로우를 통합하여 더욱 구체적이고 전문화된 검색 경험을 제공하고 있습니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/search-gets-specific-moving-from-answers-to-agents",
-      "date": "2026-02-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "공장의 합성 지능",
-      "summary": "Bosch 연구팀은 인간의 인지 능력(기억, 주의, 지각, 제어 등)을 모델링하는 ACT-R 도구를 활용하여 공장 운영자의 의사결정 과정을 모의하는 새로운 접근법을 개발했습니다. 수백만 개의 운영자 행동 데이터를 수집하는 대신, 운영자의 추론 경로와 절차적 규칙 발동 등을 포함한 '합성 트레이스'를 생성하여 대규모 합성 데이터를 만들어냈습니다. 이 합성 데이터로 대형 언어 모델(LLM)을 미세조정한 결과, 공장 의사결정 작업에서의 성능이 사전학습 모델 대비 크게 향상되었습니다. 다만 이 방식의 효과는 인지 모델이 실제 인간의 의사결정 과정을 얼마나 정확히 복제할 수 있는지에 달려있습니다. 그러나 미세조정은 모델의 근본적인 추론 구조를 바꾸지는 못하며, 단순히 더 많은 데이터를 제공하는 것만으로는 인간 수준의 추론 능력을 기대하기 어렵다는 한계가 있습니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/synthetic-minds-in-the-factory",
-      "date": "2026-02-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "엔터프라이즈 슈퍼인텔리전스 시대",
-      "summary": "제공된 콘텐츠는 VAST Data 블로그의 기술 기사 페이지 소스코드로, 실제 기사의 본문 내용이 포함되어 있지 않습니다. 페이지에는 Google Analytics 추적 코드, 개인정보보호 설정, 그리고 CSS 스타일 정의만 포함되어 있습니다. 기사의 제목인 '엔터프라이즈 슈퍼인텔리전스 시대(The Age of Enterprise Superintelligence)'는 조직의 인공지능 역량과 고급 데이터 처리 기술의 발전을 다루는 주제로 보입니다. VAST Data는 데이터 저장소 및 관리 솔루션 제공업체로, 이 기사는 엔터프라이즈 환경에서 초지능형 AI 시스템의 도입과 영향에 관한 내용일 것으로 예상됩니다. 완전한 기사 내용을 확인하려면 실제 웹페이지 접속이 필요합니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/the-age-of-enterprise-superintelligence",
-      "date": "2026-02-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Warner Brothers Discovery의 숨겨진 AI 작업",
-      "summary": "죄송하지만, 제공해주신 콘텐츠는 기사의 본문 내용이 아닌 웹 페이지의 기술적 코드(Google Analytics 추적 코드, 쿠키 설정, CSS 스타일 정의 등)로만 구성되어 있습니다. 실제 기사의 본문 내용이 포함되어 있지 않아 핵심 내용을 정확히 번역하고 요약할 수 없습니다. 기사의 실제 텍스트 내용을 제공해주시면 Warner Brothers Discovery에서의 AI 활용, 그 숨겨진 작업 프로세스, 그리고 관련된 비즈니스 영향에 대해 자연스러운 한국어로 상세하게 번역하고 요약해드리겠습니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/the-hidden-work-of-ai-at-warner-brothers-discovery",
-      "date": "2026-02-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "사우디 아람코 내부의 새로운 신경계",
-      "summary": "본 기사는 사우디 아람코가 VAST Data의 솔루션을 통해 구축한 새로운 데이터 인프라를 '신경계'에 비유하고 있습니다. 이는 조직 전체에서 발생하는 대량의 데이터를 실시간으로 수집, 처리, 분석할 수 있는 능력을 의미합니다. VAST Data의 기술을 도입함으로써 사우디 아람코는 데이터 기반의 의사결정을 더욱 신속하게 수행할 수 있게 되었습니다. 이러한 인프라 구축은 석유 및 가스 산업에서 복잡한 운영 환경을 효율적으로 관리하고 최적화하는 데 필수적입니다. 사우디 아람코의 사례는 전통 산업 기업들이 어떻게 현대적 데이터 기술을 도입하여 디지털 혁신을 이루어내는지를 보여주는 좋은 예시입니다. 결국 이러한 데이터 인프라는 기업의 경쟁력 강화와 운영 효율성 증대의 핵심 요소로 작용하고 있습니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/the-new-nervous-system-inside-saudi-aramco",
-      "date": "2026-02-11"
     }
   ],
-  "totalItems": 1244,
+  "totalItems": 1270,
   "hasArchive": true
 }
