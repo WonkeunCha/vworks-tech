@@ -2,6 +2,240 @@
   "quarter": "2026-Q2",
   "items": [
     {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "IT 리더들이 실제로 말하는 미래를 위한 서버에 대한 의견",
+      "summary": "IT 리더들이 현대적인 데이터 및 AI 집약적 환경을 위한 서버 인프라를 평가할 때, 컴퓨팅 성능과 운영 효율성은 기본 요구사항이지만 대규모 원격 관리 가능성이 의사결정을 좌우합니다. Dell PowerEdge 서버에 대한 3개의 최근 독립적 검토 결과는 프로덕션 환경에서 IT 전문가들이 경험하는 강력한 가격 대비 성능과 전 세계 배포, 특히 현장 전담 직원이 없는 사이트를 포함한 원격 관리 기능을 보여줍니다. 이는 당신의 동료들이 효과적이라고 판단하는 솔루션과 그것이 인프라 전략에 미치는 중요성을 나타냅니다. PeerSpot이라는 독립적인 엔터프라이즈 IT 리뷰 플랫폼에서 수집한 실제 배포 후 피드백으로, 이는 실험실 벤치마크가 아닌 프로덕션 환경에서 PowerEdge 랙 서버를 운영하는 시스템 관리자와 인프라 관리자들의 현장 경험입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/what-it-leaders-are-actually-saying-about-servers-built-for-what-s-next/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기타 뉴스: 기차 해킹범 체포, PamDOORa 리눅스 백도어, 새로운 CISA 국장 후보자",
+      "summary": "이번 사이버보안 뉴스에서는 기차 시스템을 해킹한 범인이 체포되었으며, 새로운 PamDOORa 리눅스 백도어 위협이 발견되었습니다. PamDOORa는 PAM(Pluggable Authentication Modules) 시스템을 악용하여 Linux 시스템에 백도어 접근을 제공하는 악성코드입니다. 또한 미국 사이버보안인프라보안청(CISA)의 새로운 국장 후보자가 지명되었습니다. 이러한 사건들은 점점 증가하는 중요 인프라 공격과 Linux 시스템에 대한 위협이 심각해지고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-train-hacker-arrested-pamdoora-linux-backdoor-new-cisa-director-frontrunner/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "폴란드 보안 기관, 5개 정수처리장의 ICS 침해 보고",
+      "summary": "폴란드 보안 기관이 5개의 정수처리장에서 산업제어시스템(ICS) 침해 사건을 보고했습니다. 이번 사건은 중요 기반시설인 수처리 시설이 사이버 공격의 표적이 되었음을 보여줍니다. 정수처리장의 ICS 시스템 침해는 공공 안전과 물 공급 안정성에 직접적인 위협이 될 수 있습니다. 폴란드 당국은 해당 시설들에 대한 긴급 보안 조치를 시행하고 있는 것으로 알려졌습니다. 이 사건은 산업 제어 시스템에 대한 사이버 위협이 증가하고 있음을 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/polish-security-agency-reports-ics-breaches-at-five-water-treatment-plants/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 기업 브레인트러스트, 데이터 유출 후 API 키 로테이션 권고",
+      "summary": "AI 기업 브레인트러스트가 데이터 유출 사고를 경험한 후 사용자들에게 API 키 로테이션(교체)을 권고했습니다. 이 사건은 API 키가 유출된 것으로 보여 보안 위험이 발생했음을 시사합니다. 브레인트러스트는 영향을 받은 사용자들에게 즉시 API 키를 새로운 것으로 교체할 것을 강력히 권장하고 있습니다. 이번 데이터 유출은 AI 서비스 제공업체들의 보안 태세에 대한 우려를 다시 한 번 부각시켰습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ai-firm-braintrust-prompts-api-key-rotation-after-data-breach/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "수천 개 학교가 사용하는 Canvas 시스템이 기말고사 시즌을 앞두고 사이버 공격 피해",
+      "summary": "전 세계 수천 개 학교에서 사용 중인 학습 관리 시스템 Canvas가 사이버 공격을 받았습니다. 이 공격은 기말고사가 임박한 시점에 발생하여 학생과 교직원에게 심각한 영향을 미치고 있습니다. 보안 연구에 따르면 ShinyHunters 사이버범죄 그룹이 이 공격과 관련된 것으로 보입니다. Canvas는 교육 기관들이 과제 제출, 성적 관리, 강의 자료 배포 등 주요 학사 업무를 처리하는 필수 플랫폼입니다. 이번 침해로 인해 학생 데이터와 학사 기록이 유출될 수 있는 위험이 발생했습니다. 학교 관계자들은 긴급 대응 조치를 취하고 있으며, 영향을 받은 기관들에 대한 조사가 진행 중입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cyberattack-hits-canvas-system-used-by-thousands-of-schools-as-finals-loom/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "PCPJack 웜, TeamPCP 감염 제거하며 자격증명 탈취",
+      "summary": "PCPJack 웜이 발견되었으며, 이는 기존의 TeamPCP 악성코드 감염을 제거하면서 동시에 사용자의 자격증명 정보를 탈취하는 악성 활동을 수행하고 있습니다. 이 웜은 경쟁하는 악성코드를 제거하는 동시에 자신의 감염을 확산시키는 이중 위협 특성을 보이고 있습니다. 보안 전문가들은 PCPJack이 시스템 보안을 우회하고 중요한 인증 정보에 접근할 수 있는 능력을 가지고 있음을 경고하고 있습니다. 이러한 유형의 악성코드는 기업 및 개인 사용자 모두에게 심각한 보안 위협이 될 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/pcpjack-worm-removes-teampcp-infections-steals-credentials/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "랜섬웨어 그룹, Trellix 해킹 책임 주장",
+      "summary": "랜섬웨어 그룹이 보안 소프트웨어 회사인 Trellix에 대한 해킹 사건의 책임을 주장했습니다. 공격자들은 Trellix의 소스코드를 탈취한 것으로 알려져 있습니다. 이번 사건은 데이터 유출 사건으로 분류되며, RansomHouse라는 랜섬웨어 그룹이 관련된 것으로 보도되었습니다. 해당 그룹은 탈취한 민감한 정보를 공개하겠다고 위협하고 있는 것으로 전해집니다. 이 공격은 엔터프라이즈 보안 솔루션 제공업체에 대한 심각한 위협을 나타냅니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ransomware-group-takes-credit-for-trellix-hack/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Chrome용 Claude 확장프로그램의 취약점, AI 에이전트 탈취 노출",
+      "summary": "Chrome용 Claude 확장프로그램에서 발견된 보안 취약점이 AI 에이전트의 탈취 위험을 초래하고 있습니다. 이 취약점을 통해 공격자는 Claude AI 에이전트를 제어하거나 악용할 수 있는 접근 권한을 획득할 수 있습니다. SecurityWeek이 보도한 이 사건은 AI 도구의 보안이 얼마나 중요한지를 보여주는 사례입니다. 사용자들은 이 취약점이 패치될 때까지 해당 확장프로그램 사용에 주의가 필요합니다. Anthropic은 이 문제를 인지하고 보안 업데이트를 준비 중인 것으로 알려졌습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/vulnerability-in-claude-extension-for-chrome-exposes-ai-agent-to-takeover/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Ivanti, EPMM 제로데이 취약점 패치 - 표적 공격에서 악용됨",
+      "summary": "Ivanti가 자사의 EPMM(Enterprise Patch Management Module) 제품에서 발견된 제로데이 취약점에 대한 패치를 배포했다. 이 취약점은 이미 표적 공격에 의해 악용되고 있었던 것으로 확인되었다. SecurityWeek의 보도에 따르면 해당 취약점은 기업의 엔드포인트 관리 시스템을 통해 접근할 수 있는 보안 결함이다. Ivanti는 영향을 받은 사용자들에게 즉시 패치 적용을 권고하고 있으며, 보안 전문가들은 기업들이 신속히 업데이트할 것을 촉구하고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ivanti-patches-epmm-zero-day-exploited-in-targeted-attacks/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "NVIDIA, GeForce NOW 데이터 유출 사건 확인 - 아르메니아 사용자 피해",
+      "summary": "NVIDIA가 클라우드 게이밍 서비스인 GeForce NOW의 데이터 유출 사건을 공식 확인했습니다. 이번 사이버 공격으로 인해 아르메니아 지역의 사용자 정보가 노출되었으며, ShinyHunters라는 위협 행위자가 관련되어 있는 것으로 알려졌습니다. NVIDIA는 BleepingComputer에 성명을 통해 사용자 정보가 침해되었음을 인정했습니다. 이 사건은 클라우드 게이밍 플랫폼의 보안 위험성을 재차 드러내는 사례입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "더 많은 분석가를 고용해도 SOC의 경보 문제는 해결되지 않는 이유",
+      "summary": "공격자들은 압박받는 SOC 팀이 현실적으로 경보를 조사할 수 있는 속도보다 훨씬 빠르게 움직이고 있습니다. Prophet Security는 AI가 분석가들이 경보를 더 빠르게 조사하고 실제 위협에 집중할 수 있도록 어떻게 도울 수 있는지 설명합니다. 단순히 더 많은 분석가를 채용하는 것만으로는 증가하는 경보량 문제를 근본적으로 해결할 수 없으며, 인공지능 기반의 자동화 솔루션이 필요합니다. 에이전트 AI 기술을 활용하면 루틴적인 경보 조사를 자동화하고 분석가들의 업무 효율성을 크게 향상시킬 수 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/why-more-analysts-wont-solve-your-socs-alert-problem/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Trellix 소스코드 유출, RansomHouse 해킹 그룹이 주장",
+      "summary": "지난주 공개된 Trellix 소스코드 저장소 공격이 RansomHouse 위협 그룹에 의한 것으로 주장되었습니다. RansomHouse는 침입의 증거로 작은 이미지 세트를 유출했습니다. 이번 사건은 이중 갈취(Double-Extortion) 랜섬웨어 공격의 형태로, 해킹 그룹이 데이터 유출과 함께 신원 공개 협박을 통해 추가 금전을 요구하는 전형적인 수법입니다. Trellix는 McAfee의 모기업인 Broadcom 산하 사이버보안 회사입니다. 현재 영향받은 시스템의 규모와 추가 조치사항에 대한 공식 성명을 기다리고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, 제로데이로 악용되는 Ivanti 취약점 패치를 위해 연방기관에 4일 기한 부여",
+      "summary": "CISA는 미국 연방기관들이 제로데이 공격으로 악용되고 있는 Ivanti Endpoint Manager Mobile(EPMM)의 고위험도 취약점으로부터 네트워크를 보호하기 위해 4일의 시간을 부여했습니다. 이 취약점은 원격 코드 실행(RCE)을 가능하게 하며 현재 적극적으로 악용되고 있는 상황입니다. CISA는 연방기관들이 긴급히 보안 패치를 적용할 것을 권고하고 있습니다. 이는 Ivanti의 널리 사용되는 엔드포인트 관리 솔루션을 대상으로 한 심각한 보안 위협입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "자라(Zara) 데이터 유출로 19만 7천 명의 개인정보 노출",
+      "summary": "스페인의 패스트패션 소매업체 자라(Zara)가 해킹으로 인해 197,000명 이상의 고객 개인정보가 유출되었습니다. 데이터 유출 알림 서비스인 'Have I Been Pwned'에 따르면 해커들이 자라의 데이터베이스에 접근하여 고객 정보를 탈취했습니다. 이번 사건은 전 세계적으로 운영 중인 대형 패션 브랜드의 사이버보안 취약점을 드러내고 있습니다. 자라의 모회사인 인디텍스(Inditex) 그룹은 이 사건으로 인한 고객 정보 보호 및 보안 강화 조치를 취할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/zara-data-breach-exposed-personal-information-of-197-000-people/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "전직 정부 계약업체 직원, 수십 개의 연방 데이터베이스 삭제로 유죄 판결",
+      "summary": "버지니아주의 34세 남성이 연방 계약업체 직원으로 근무하던 중 해고된 후 수십 개의 정부 데이터베이스를 파괴하려는 음모에 가담한 혐의로 유죄 판결을 받았습니다. 이 사건은 내부 위협(Insider Threat)의 심각성을 보여주는 사례로, 퇴직 또는 해고된 직원이 접근 권한을 악용하여 중요한 정부 시스템에 막대한 피해를 입힐 수 있음을 시사합니다. 해당 계약업체 직원은 자신의 시스템 접근 권한을 이용해 의도적으로 여러 연방 데이터베이스를 삭제하려고 시도했습니다. 이러한 사건은 정부 기관과 조직들이 직원 이탈 시 접근 권한 관리와 시스템 모니터링을 강화해야 함을 강조합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 Linux 'Dirty Frag' 제로데이 취약점, 모든 주요 배포판에서 루트 권한 획득 가능",
+      "summary": "'Dirty Frag'라는 새로운 Linux 제로데이 익스플로잇이 발견되었으며, 이는 로컬 공격자들이 단 한 번의 명령으로 대부분의 주요 Linux 배포판에서 루트 권한을 획득할 수 있게 해준다. 이 취약점은 권한 상승(Local Privilege Escalation) 공격 체인을 통해 작동하며, 이미 개념 증명(POC) 익스플로잇이 공개되어 있다. 모든 주요 Linux 배포판이 이 취약점의 영향을 받을 수 있어 광범위한 보안 위협이 될 수 있다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "타포, 실내외 활용도 높인 듀얼 렌즈 보안 카메라 ‘Tapo C246D’ 출시",
+      "summary": "2K 듀얼 렌즈와 스마트 추적 기능 통해 실내외 모니터링 지원 IP65 방수·방진 적용으로 현관·마당·실내 공간까지 활용 가능[보안뉴스 강초희 기자] 티피링크(tp-link)의 스마트홈 브랜드 타포(Tapo)는 실내외 환경에서 모두 활용할 수 있는 듀얼 렌즈 회전형 보안 카메라 ‘타포 C246D’를 출시했다고 밝혔다.Tapo C246D는 하나의 장치에 두",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143536&kind=&sub_kind=",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "국내 첫 육·해·공 무인이동체 통합 실증시험장 개소... 해양 감시 활용 확대",
+      "summary": "다수·이종 무인이동체 통합관제 기반 해안 감시, 경비 실증 추진밀입국·오염원·해양사고 대응 위한 무인이동체 활용 확대[보안뉴스 강초희 기자] 과학기술정보통신부(부총리 겸 장관 배경훈, 이하 과기정통부)는 당진시와의 협력을 통해 당진시 드론산업지원센터(당진시 석문면 석문방조제로 1775, 30,886.5㎡ 규모)에 ‘무인이동체 해안임무 실증시험장’(이하 실증",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143535&kind=&sub_kind=",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[카드뉴스] “범인 잡던 CCTV, 이제 매출 올린다”… 경영진이 주목하는 ‘제3의 눈’ 정체",
+      "summary": "지능형 CCTV가 단순한 물리 보안을 넘어 고객의 동선과 체류 시간 등을 분석해 경영 전략을 수립하는 ‘비즈니스 인텔리전스(BI)’ 도구로 진화하고 있다.기업 보안 카메라가 수집하는 영상이 수익 창출을 위한 핵심 ‘데이터 자산’으로 간주되면서, 보안에 대한 인식이 단순 비용 지출에서 가치 투자로 전환되는 추세다. 다만 정밀한 데이터 추출 과정에서 발생할 수",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143533&kind=&sub_kind=",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "과기정통부, 글로벌 AI 보안 파장 정조준... “한국형 특화 모델로 방어”",
+      "summary": "8일 산학연 간담회 열고 앤트로픽 등 빅테크 보안 프로젝트 파급력 및 대응 논의3만여 개사 CISO 대상 대비 태세 점검 완료 및 인공지능 보안 가이드라인 선제 배포[보안뉴스 조재호 기자] 미국 앤트로픽과 오픈AI 등 빅테크 기업들의 독자적인 보안 프로젝트 전개에 맞서 정부가 대응에 나섰다. 과학기술정보통신부는 국내 3만여 CISO 대상 대비 태세 점검에",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143531&kind=&sub_kind=",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "방화벽이 뚫렸다... 팔로알토 PAN-OS, ‘루트 권한’ 내주는 중대 보안 구멍",
+      "summary": "[보안뉴스 김형근 기자] 팔로알토 네트웍스의 PAN-OS 소프트웨어에서 인증 없이 원격으로 코드를 실행할 수 있는 취약점(CVE-2026-0300)이 발견됐다. 이 결함은 사용자 인증 포털 서비스의 버퍼 오버플로우 취약점으로, 공격자가 특수 제작된 패킷을 보내 루트 권한을 탈취할 수 있게 한다. 보안 위험 점수인 CVSS가 10점 만점에 무려 9.3에 달하",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143530&kind=&sub_kind=",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[Global Security TOP] 박윤하 스피어AX 대표이사 “엣지에서 완성되는 AI 영상보안, 현장에서 즉시 판단하다”",
+      "summary": "온디바이스 AI 기반 엣지 중심 영상보안 플랫폼 확장자체 AI 모델·dara 기반 공공·산업안전 적용 확대NPU 협력 기반 엣지 AI 통합 솔루션 시장 확대[보안뉴스 강초희 기자] AI 영상보안 기술이 엣지 중심으로 전환되는 가운데, 스피어AX가 온디바이스 AI 기반 통합 플랫폼 전략을 앞세워 시장 확대에 나서고 있다. 자체 AI 모델과 플랫폼 ‘dara’",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143361&kind=&sub_kind=",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "오만 정부 12개 부처 뚫렸다... 이란 연계 해커, 웹쉘과 SQL 동원 공습",
+      "summary": "이번 캠페인, 과거 이란 정보통신부(MOIS)와 연계된 조직 수법과 일치하는 것으로 밝혀져[보안뉴스 김형근 기자] 이란과 연계된 것으로 추정되는 해커 조직이 오만의 12개 정부 부처를 대상으로 정밀한 사이버 공격을 감행했다. 이번 공격의 실체는 공격자들이 UAE에 구축한 전초기지인 스테이징 서버(Staging Server)의 디렉토리를 인증 없이 접근 가능",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143529&kind=&sub_kind=",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“AI 위협, AI로 잡는다” KISA, 120억 투입해 차세대 보안기업 육성",
+      "summary": "[보안뉴스 조재호 기자] 한국인터넷진흥원(KISA)이 과학기술정보통신부와 함께 차세대 보안 제품 및 서비스 개발을 위한 지원 사업에 돌입했다. AI 보안과 제로트러스트 등 4대 핵심 분야에 120억원의 예산을 투입해 50개 수행기업을 집중 육성하며 2026년 국가 사이버안보 거버넌스의 질적 상향을 주도할 방침이다.KISA는 이와 같은 내용의 ‘2026년 정",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143523&kind=&sub_kind=",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관-11] 돌다리도 두드려 보고 건너라(1)-문자 링크 하나 눌렀다가 털리는 이유",
+      "summary": "출처가 불분명한 문자(SMS) 내 링크는 절대 클릭하지 마세요[보안뉴스 박미영 기자] 출처가 불분명한 문자(SMS)나 이메일의 링크를 클릭하는 것은 안전하지 않을 가능성이 있다. 이러한 메일이나 메시지에서 제공되는 링크에는 악성 코드나 바이러스가 포함돼 있을 수도 있으며, 개인정보 유출 등의 위험이 따를 수 있다. 특히 택배 조회·청첩장·쿠폰·정부지원금 등",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143236&kind=&sub_kind=",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[배종찬의 보안 빅데이터] ‘자율형 AI’ 시대, 인류에게 천당인가 지옥인가",
+      "summary": "효율성 극대화 이면의 딜레마, 통제 불가능한 자율형 AI 책임은 누구에게?[보안뉴스= 배종찬 인사이트케이 연구소장] 인류 역사상 기술의 발전은 언제나 ‘인간의 노동력을 어떻게 효율적으로 대체하거나 확장할 것인가’에 초점을 맞춰 왔다. 증기기관이 근력을, 컴퓨터가 계산 능력을 보조했다면 최근의 AI는 인간의 사고와 창의 영역을 파고들고 있다. 단순히 질문에",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143525&kind=&sub_kind=",
+      "date": "2026-05-08"
+    },
+    {
       "id": "aHR0cDovL3d3dy5i",
       "title": "정보보호 공시의무 기업, 전년 대비 27개사 증가",
       "summary": "과기정통부, 공시의무 대상 기업 693개사 공개[보안뉴스 강현주 기자] 정보보호 공시의무 기업이 전년 대비 27개사가 증가했다. 과학기술정보통신부(부총리 겸 장관 배경훈)는 8일 정보보호 공시제도에 따른 2026년 정보보호 공시의무 대상 기업(안) 693개사를 공개했다.‘정보보호산업의 진흥에 관한 법률’에 의거한 정보보호 공시 제도는 정보보호 투자, 전담인",
@@ -7788,11 +8022,11 @@
     }
   ],
   "sources": {
-    "보안뉴스": 294,
-    "Dell": 80,
+    "Dell": 81,
+    "SecurityWeek": 221,
+    "BleepingComputer": 259,
+    "보안뉴스": 304,
     "VAST Data": 20,
-    "SecurityWeek": 213,
-    "BleepingComputer": 252,
     "HPE": 6
   }
 }
