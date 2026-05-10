@@ -3,6 +3,78 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "실제로 작동하는 AI 시스템 구축하기",
+      "summary": "AI 논의는 전통적으로 모델의 성능, 크기, 학습 효율성에 집중되어 왔으나, 현재는 모델 자체보다 이를 둘러싼 전체 시스템이 더 중요해지고 있다. 과거에는 대규모 데이터셋과 컴퓨팅 자원을 필요로 하는 학습이 주요 병목이었지만, 이제 병목 지점은 학습 프로세스 관리로 이동했다. 체크포인트를 통한 모델 상태 관리와 데이터 처리 효율성이 학습의 성공을 좌우하는 핵심 요소가 되었다. 특히 기업들이 텍스트에서 멀티모달로, 페타바이트에서 엑사바이트 규모로 급속히 전환하면서 전통적인 파이프라인으로는 처리할 수 없는 복잡성이 증가하고 있다. 현대의 AI 시스템은 데이터 준비, 스트리밍 파이프라인, 추론, KV 캐시 메모리 계층, 실시간 데이터 검색 등 여러 단계가 동시에 상호의존적으로 작동하는 통합 환경이다. 결과적으로 모든 AI 팩토리는 실질적으로 다중 테넌트 환경이 되었으며, 단일 하드웨어 풀을 여러 워크로드에 걸쳐 효율적으로 활용해야 하는 과제에 직면하고 있다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/building-ai-systems-that-actually-work",
+      "date": "2026-05-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[Global Security TOP 100] 김영민 성현시스템 부사장 “플랫폼과 AI 결합으로 통합보안 패전환 가속화”",
+      "summary": "출입통제 시스템의 보안 데이터 플랫폼 전환AI 기반 이상행동·연속 침입 탐지 체계 고도화특허 기반 통합보안 플랫폼과 지식재산 경쟁력 강화[보안뉴스 강초희 기자] 출입통제 시스템이 ‘문을 열고 닫는 장치’에서 보안 데이터 플랫폼으로 확장되고 있다. 단순 인증 여부를 확인하는 기존 방식으로는 내부 이상 행위나 반복 침입 시도를 포착하기 어려워지면서 업무 데이터",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143363&kind=&sub_kind=",
+      "date": "2026-05-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "가짜 전파에 멈춰선 대만 고속철... 23세 대학생 ‘스푸핑’ 공격에 인프라 마비",
+      "summary": "가짜 비상 경보 송출로 열차 3대 정차 및 48분간 시스템 운행 지연 사태 발생테트라(Tetra) 통신망 노린 외부 전파 간섭 확인... 철도법 위반 등으로 피의자 기소[보안뉴스 김형근 기자] 대만 고속철도(THSR) 열차 3대를 비상 정차시킨 사건이 23세 대학생의 무선 신호 스푸핑 공격때문인 것으로 확인되면서, 국가 기반 시설의 통신망 취약점이 도마 위",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143541&kind=&sub_kind=",
+      "date": "2026-05-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "JDownloader 웹사이트 해킹으로 Python RAT 악성코드가 포함된 설치 프로그램 배포",
+      "summary": "인기 있는 다운로드 관리자인 JDownloader의 공식 웹사이트가 이번 주 초에 해킹되어 Windows와 Linux용 악성 설치 프로그램을 배포했습니다. Windows 페이로드는 Python 기반의 원격 접근 트로젠(RAT) 악성코드를 배포하는 것으로 확인되었습니다. 이는 공급망 공격(Supply Chain Attack)의 형태로, 사용자들이 공식 사이트에서 다운로드한 설치 프로그램이 악성코드로 오염되었다는 점에서 심각한 보안 위협입니다. 영향을 받은 사용자들은 즉시 시스템을 점검하고 백신으로 스캔할 것을 권장합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/",
+      "date": "2026-05-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "허깅페이스의 가짜 OpenAI 저장소에서 정보 탈취 악성코드 배포",
+      "summary": "허깅페이스 플랫폼의 인기 목록에 올라간 악의적인 저장소가 OpenAI의 '프라이버시 필터' 프로젝트를 사칭하여 윈도우 사용자를 대상으로 정보 탈취 악성코드를 배포했습니다. 이 위협은 AI 모델 호스팅 플랫폼을 악용하여 신뢰할 수 있는 프로젝트로 위장함으로써 사용자들을 기만하는 방식으로 작동했습니다. 해당 저장소는 플랫폼의 추천 알고리즘을 통해 노출되어 광범위한 사용자에게 접근할 수 있었습니다. 이번 사건은 오픈소스 플랫폼에서 가짜 계정과 사칭을 통한 악성 행위의 위험성을 보여줍니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/",
+      "date": "2026-05-09"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[Global Security TOP 100] 김기화 시큐인포 대표이사 “운영 최적화로 음성 기반 지능형 관제”",
+      "summary": "운영 최적화 중심 지능형 영상보안 관제 고도화음성 기반 온디바이스 관제 솔루션과 배리어프리 인터페이스 확대운영 데이터 기반 맞춤형 솔루션과 글로벌 시장 진출 강화[보안뉴스 강초희 기자] 영상보안 산업이 장비 중심에서 데이터 기반 운영을 거쳐 ‘운영 최적화’ 단계로 진입하고 있다. 이러한 흐름 속에서 시큐인포는 지능형 영상분석과 음성 기반 관제를 결합한 차세",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143362&kind=&sub_kind=",
+      "date": "2026-05-09"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "KISA 직접 운영으로 체계성 강화... 화이트햇스쿨 4기 선발 가이드 공개",
+      "summary": "2026 화이트햇스쿨 4기 설명회 개최... 공간 제약 넘는 자기 주도적 성장 강조김지호 팀장 “수료증 하나로 실력 입증되는 독자적 보안 브랜드 구축할 것”[보안뉴스 조재호 기자] 정보보안 입문자를 중급 인재로 도약시키는 화이트햇스쿨 4기 모집설명회에 200여명의 청년들이 몰리며 뜨거운 열기를 입증했다. 420명의 정예 요원을 선발하는 이번 4기 과정은 전",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143539&kind=&sub_kind=",
+      "date": "2026-05-09"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "CVE 발급보다 빠른 AI의 역추론, 길 잃은 ‘책임감 있는 공개’",
+      "summary": "‘더티 프래그’ 사태로 본 정보 비대칭의 위협, 즉시 공개 요청한 리눅스 진영쏟아지는 AI 리포트에 메인테이너 업무 과중... 기존 보안 거버넌스 무력화[보안뉴스 조재호 기자] 리눅스 커널 취약점 ‘더티 프래그’(Dirty Frag)의 엠바고 파기를 계기로 취약점 분석 체계가 한계를 드러내고 있다. AI를 활용한 코드 분석이 보편화되면서 ‘책임감 있는 공개",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143537&kind=&sub_kind=",
+      "date": "2026-05-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "IT 리더들이 실제로 말하는 미래를 위한 서버에 대한 의견",
       "summary": "IT 리더들이 현대적인 데이터 및 AI 집약적 환경을 위한 서버 인프라를 평가할 때, 컴퓨팅 성능과 운영 효율성은 기본 요구사항이지만 대규모 원격 관리 가능성이 의사결정을 좌우합니다. Dell PowerEdge 서버에 대한 3개의 최근 독립적 검토 결과는 프로덕션 환경에서 IT 전문가들이 경험하는 강력한 가격 대비 성능과 전 세계 배포, 특히 현장 전담 직원이 없는 사이트를 포함한 원격 관리 기능을 보여줍니다. 이는 당신의 동료들이 효과적이라고 판단하는 솔루션과 그것이 인프라 전략에 미치는 중요성을 나타냅니다. PeerSpot이라는 독립적인 엔터프라이즈 IT 리뷰 플랫폼에서 수집한 실제 배포 후 피드백으로, 이는 실험실 벤치마크가 아닌 프로덕션 환경에서 PowerEdge 랙 서버를 운영하는 시스템 관리자와 인프라 관리자들의 현장 경험입니다.",
       "category": "서버",
@@ -8022,11 +8094,11 @@
     }
   ],
   "sources": {
+    "VAST Data": 21,
+    "보안뉴스": 309,
+    "BleepingComputer": 261,
     "Dell": 81,
     "SecurityWeek": 221,
-    "BleepingComputer": 259,
-    "보안뉴스": 304,
-    "VAST Data": 20,
     "HPE": 6
   }
 }
