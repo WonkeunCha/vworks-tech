@@ -3,6 +3,339 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "[2026 비식별화 솔루션 리포트] 지우는 데이터에서 활용하는 데이터로... 안전한 AI 거버넌스 이끈다",
+      "summary": "개인정보 유출 피해 원천 차단... 비정형 데이터 탐지 및 제거 국내외 개인정보 관련 정부 규제 강화, 컴플라이언스 수요 확대조직 내 AI 활용 위한 데이터 학습 및 관리 수요 증가... 활용성과 안전 사이 균형이 핵심 비식별 솔루션 전문기업 집중분석: 에이씨엔에스, 펜타시스템, 엘세븐시큐리티 [보안뉴스 한세희 기자] 선한 마음으로 기부했다 날벼락을 맞은",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143580&kind=&sub_kind=",
+      "date": "2026-05-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "가비아 하이웍스, ‘그룹웨어 프리미엄’ 출시... “AI 문서 생성·공동편집·저장 한 흐름”",
+      "summary": "클라우드 드라이브 용량 확대·실시간 문서 공동편집멀티 AI 사용량 2배[보안뉴스 강현주 기자] 클라우드 전문 기업 가비아(공동대표 김홍국·원종홍)가 올인원 업무 플랫폼 ‘하이웍스’의 신규 상품인 ‘그룹웨어 프리미엄’을 13일 출시했다. 그룹웨어 프리미엄은 문서 관리부터 협업·AI 활용까지 핵심 업무 기능을 집약한 통합형 상품이다.통합 환경에 대한 수요는 기",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143602&kind=&sub_kind=",
+      "date": "2026-05-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "포티넷-엔비디아, 기업용 AI 보안 솔루션 ‘포티AI게이트’ 고도화",
+      "summary": "“기업 AI 환경에 제로트러스트 보안·데이터 주권 실현”[보안뉴스 강현주 기자] 글로벌 네트워크 보안 융합 솔루션 기업 포티넷(CEO 켄 지)이 엔비디아의 AI 플랫폼 및 소프트웨어 기술을 접목한 포티AI게이트(FortiAIGate) 솔루션을 13일 발표했다. AI 워크로드 보안과 데이터 주권이라는 두 과제를 동시에 해결하는 이 솔루션은 데이터센터와 클라우",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143600&kind=&sub_kind=",
+      "date": "2026-05-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "美 FCC, 외산 공유기·드론 업데이트 차단 조치 2029년으로 유예... “취약점 방치 막는다”",
+      "summary": "소비자기술협회(CTA) “업데이트 차단하면 오히려 국가 안보 위협 초래” 경고 수용공급망 배제 명분보다 실질적 보안 패치 우선한 융합보안 거버넌스 현실적 타협[보안뉴스 김형근 기자] 미국 정부가 국가 안보를 이유로 추진했던 외산 통신 장비 규제 정책이 사이버 보안의 현실적 제약에 부딪혀 한발 물러섰다. 이념적 공급망 통제보다 기존 인프라의 안정성을 챙긴 실",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143597&kind=&sub_kind=",
+      "date": "2026-05-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "엔키화이트햇, 2026 AI 보안 유망기업 선정... “자율 공격형 방어망 상용화”",
+      "summary": "과기정통부·KISA 주관 사업화 과제 최종 선정, 시제품 이어 2년 연속 성과LLM과 다중 에이전트 결합, 화이트해커 지식 자산화... 오펜시브 보안 플랫폼 고도화[보안뉴스 조재호 기자] 엔키화이트햇이 과학기술정보통신부와 한국인터넷진흥원(KISA)이 주관하는 ‘2026 AI 보안 유망기업 육성 지원사업’ 사업화 분야에 최종 선정됐다고 13일 밝혔다.엔키화이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143598&kind=&sub_kind=",
+      "date": "2026-05-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "챗GPT에 북한 해킹 그림자? 애플 맥OS용 앱 휴지통 강제 이동 사고",
+      "summary": "[보안뉴스 김형근 기자] 최근 맥OS을 사용하는 수많은 사람들이 40시간 동안 챗GPT 데스크톱 앱이 악성코드로 감지돼 휴지통으로 강제 이동되는 심각한 문제를 겪었다. 애플은 북한 해킹 조직 연계를 의심하며 관련 개발자 인증서를 철회했다. 애플의 내장 보안 시스템인 게이트키퍼와 엑스프로텍트는 이 앱이 컴퓨터에 해를 끼칠 수 있다는 위험 알림창을 화면에 띄웠",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143599&kind=&sub_kind=",
+      "date": "2026-05-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[카드뉴스] “지웠는데 털렸다?”… ‘잊힐 권리’ 이행하다 랜섬웨어 초대하는 기업들",
+      "summary": "개인정보 보호법과 ‘잊힐 권리’에 따른 데이터 삭제 요구가 증가하면서, 삭제 처리를 위해 백업 서버의 보안 권한을 일시적으로 해제하는 틈을 노린 사이버 공격이 급증하고 있다. 법적 규제 준수(Compliance)와 시스템 보안 강화 사이에서 발생하는 ‘역설적 모순’은 랜섬웨어 침투의 핵심 경로가 되고 있어, 이에 대한 새로운 보안 아키텍처 설계가 절실한 상",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143596&kind=&sub_kind=",
+      "date": "2026-05-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "사이버 복원력 제어 평면이 인프라 방어를 재정의하는 이유",
+      "summary": "Dell의 연구에 따르면 63%의 실무자들이 경영진이 조직의 사이버 준비 상태를 과대평가한다고 생각하고 있으며, 이는 신호는 존재하지만 서로 연결되지 않는다는 신뢰 격차에서 비롯됩니다. 사이버 복원력 제어 평면은 스토리지 및 데이터 계층 전반에 걸쳐 인텔리전스를 상관관계화하고 위협이 확대되기 전에 조정된 방어 조치를 촉발함으로써 이를 변화시킵니다. 도구는 배포되었고 원격 측정 데이터는 흐르고 있으며 대시보드는 가득 차 있지만, 공격이 발생하면 대부분의 조직은 여전히 제때 대응할 수 없습니다. 이러한 신뢰-역량 격차는 스토리지 및 데이터 계층에서 가장 심각하며 가장 즉시 해결 가능한데, 이는 공격의 초기 지표가 나타나고 실제로 중요한 데이터에 가장 가까운 신호들이 존재하는 곳이기 때문입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/why-a-cyber-resilience-control-plane-redefines-infrastructure-defense/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "InstaDeep, AI 규모에 맞게 구축되다. 그 결과가 말해준다.",
+      "summary": "InstaDeep의 DeepPCB는 강화학습과 에이전트 AI를 활용하여 전자설계를 완전히 자동화합니다. Dell PowerEdge 서버와 NVIDIA H100 GPU로 구동되며, 현대적 AI 인프라가 가능하게 하는 실제 사례입니다. 인쇄회로기판 설계는 전통적으로 느리고 복잡한 수작업이었지만, DeepPCB는 이를 10배 이상 단축시켰습니다. InstaDeep은 미래의 수요에 선제적으로 대응하여 Dell PowerEdge XE 시리즈 서버와 NVIDIA H100 GPU로 구성된 슈퍼컴퓨팅 클러스터 'Kyber'에 투자했으며, 이는 세계 상위 100대 AI 클러스터에 속합니다. AI의 성공은 데이터, 모델 혁신, 컴퓨팅 능력의 세 가지 요소에 의해 결정되는데, 컴퓨팅 인프라의 선제적 확보가 DeepPCB 같은 혁신을 가능하게 했습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/instadeep-built-for-ai-scale-the-results-show-it/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell과 함께 성장하기: 17년의 학습과 영향",
+      "summary": "경력 성장은 기업 문화, 신뢰, 그리고 기회가 함께할 때 이루어집니다. 빠르게 변하는 기술 세계에서 호기심과 평생 학습은 필수적이며, '왜'라는 질문을 던지는 것이 더 깊은 이해와 나은 솔루션으로 이어집니다. 진정한 영향력은 사람들을 보호하고 돕는 기술을 구축할 때 나오며, 강력한 협력은 포용성과 열린 대화에서 시작됩니다. 멘토십은 차세대를 양성함으로써 영향력을 증대시키고, 직함보다는 목적이 중요하며 올바른 마인드셋이 지속 가능한 경력을 만듭니다. 일 밖의 삶의 균형은 일 속의 성공을 촉진합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/growing-with-dell-seventeen-years-of-learning-and-impact/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 엔터프라이즈 현대화 및 AI 데이터 준비 가속화를 위한 통합 프라이빗 클라우드 및 데이터 플랫폼 제공",
+      "summary": "HPE는 2026년 5월 12일 프라이빗 클라우드, 스토리지, 데이터 보호 분야의 새로운 GreenLake 혁신을 발표했습니다. 이 솔루션은 기업들의 인프라 현대화 방식을 재편성하고 AI 데이터 준비 과정을 가속화합니다. GreenLake는 조직들이 가상화 및 클라우드 네이티브 워크로드를 현대화할 수 있도록 통합된 접근 방식을 제공합니다. 고객들을 분산된 다중 벤더 도구나 위험한 마이그레이션으로 강제하지 않으면서도 이를 가능하게 합니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/05/hpe-delivers-unified-private-clouds-and-data-platforms-to-accelerate-enterprise-modernization-and-ai-data-readiness.html",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, 137개 취약점 패치 공개",
+      "summary": "마이크로소프트가 자사 제품 전반에 걸쳐 137개의 취약점에 대한 패치를 공개했습니다. 이번 패치에는 원격 코드 실행 취약점을 포함한 심각한 보안 결함들이 포함되어 있습니다. 이는 마이크로소프트의 정기적인 패치 화요일(Patch Tuesday) 업데이트의 일환입니다. 윈도우를 비롯한 마이크로소프트 제품 사용자들은 즉시 이번 보안 업데이트를 설치할 것을 권장됩니다. 특히 원격 코드 실행 취약점은 공격자가 시스템을 완전히 장악할 수 있으므로 우선적으로 패치해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/microsoft-patches-137-vulnerabilities/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Exaforce, 에이전틱 SOC 플랫폼을 위해 1억 2,500만 달러 펀딩 조성",
+      "summary": "사이버보안 기업 Exaforce가 에이전틱 보안운영센터(SOC) 플랫폼 개발을 위해 1억 2,500만 달러의 투자를 유치했습니다. 에이전틱 SOC는 인공지능 에이전트 기술을 활용하여 보안 위협 탐지 및 대응을 자동화하는 차세대 보안 솔루션입니다. 이번 펀딩은 조직의 보안 운영 능력을 강화하고 위협 대응 시간을 단축하는 데 중점을 두고 있습니다. Exaforce는 이 자금을 통해 플랫폼 기능 확대와 시장 확대에 집중할 계획입니다. 이는 AI 기반 보안 기술에 대한 업계의 높은 관심과 투자 수요를 반영하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/exaforce-raises-125-million-for-agentic-soc-platform/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Adobe, 10개 제품의 52개 취약점 패치 배포",
+      "summary": "Adobe가 10개 제품에 걸쳐 52개의 취약점에 대한 보안 패치를 공개했습니다. 이번 패치에는 임의의 코드 실행으로 이어질 수 있는 결함을 포함한 여러 보안 위협이 포함되어 있습니다. SecurityWeek의 보도에 따르면 이 취약점들은 Patch Tuesday를 통해 해결되었습니다. 사용자들은 영향받는 Adobe 제품을 최신 버전으로 업데이트하여 보안을 강화할 것을 권장받고 있습니다. 이번 대규모 패치 배포는 Adobe 제품 사용자들의 시스템 보안을 위해 긴급하게 적용될 필요가 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/adobe-patches-52-vulnerabilities-in-10-products/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "White Circle, AI 제어 플랫폼을 위해 1,100만 달러 자금 조달",
+      "summary": "사이버보안 기업 White Circle이 AI 제어 플랫폼 개발을 위해 1,100만 달러 규모의 자금 조달에 성공했습니다. 이 투자는 AI 기술의 보안 및 통제 강화에 대한 업계의 관심이 증가하고 있음을 보여줍니다. White Circle의 플랫폼은 인공지능 시스템의 안전한 운영과 관리를 위한 솔루션을 제공할 것으로 예상됩니다. 이러한 자금 조달은 AI 보안 분야의 성장세와 기업들의 AI 리스크 관리 필요성을 반영하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/white-circle-raises-11-million-for-ai-control-platform/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "BWH 호텔, 해커가 6개월간 예약 데이터에 접근했다고 밝혀",
+      "summary": "BWH 호텔이 해커들이 6개월 동안 호텔 예약 데이터에 접근할 수 있었다고 발표했습니다. 이번 데이터 유출 사건은 호텔 업계의 사이버보안 취약점을 드러내는 심각한 보안 사고입니다. 공격자들이 장시간 시스템에 접근한 것으로 보아 초기 침입 탐지에 실패했음을 시사합니다. 영향을 받은 고객의 예약 정보와 개인 데이터가 유출되었을 가능성이 있습니다. 이 사건은 호텔 체인과 여행 업계 전반에 보안 강화의 필요성을 재확인시켜 줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/bwh-hotels-says-hackers-had-access-to-reservation-data-for-6-months/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "무료 OnlyFans 미끼로 유포되는 크로스 플랫폼 CRPx0 악성코드",
+      "summary": "사이버 위협 행위자들이 무료 OnlyFans 콘텐츠 접근을 미끼로 사용하여 CRPx0 악성코드를 여러 플랫폼에 걸쳐 유포하고 있습니다. 이 악성코드는 Windows, macOS, Linux 등 다양한 운영 체제를 감염시킬 수 있는 크로스 플랫폼 특성을 가지고 있습니다. 사용자들은 합법적이지 않은 콘텐츠 접근 제안에 응할 경우 악성코드 감염 위험에 노출되고 있습니다. 보안 전문가들은 의심스러운 링크나 다운로드에 주의할 것을 권고하고 있으며, 정기적인 보안 업데이트와 신뢰할 수 있는 보안 소프트웨어의 사용을 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/free-onlyfans-lure-used-to-spread-cross-platform-crpx0-malware/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Canvas 교육용 플랫폼에서 탈취된 데이터 삭제에 합의",
+      "summary": "Canvas 교육용 플랫폼을 운영하는 Instructure가 해커들과 탈취된 데이터 삭제에 합의했습니다. ShinyHunters로 추정되는 해킹 집단은 대규모 학생 및 교직원 정보를 포함한 민감한 데이터를 탈취한 후 신원 공개 협박(랜섬웨어) 공격을 시행했습니다. 회사는 해커들과의 협상을 통해 탈취된 데이터의 삭제에 합의하였으나, 구체적인 합의 조건과 지불 규모는 공개되지 않았습니다. 이번 사건은 교육기관을 대상으로 한 사이버 공격이 증가하고 있음을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/deal-reached-with-hackers-to-delete-data-stolen-from-the-canvas-educational-platform/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "웨스트 파마슈티컬 서비스, 파괴적인 랜섬웨어 공격 피해",
+      "summary": "의약품 제조업체인 웨스트 파마슈티컬 서비스(West Pharmaceutical Services)가 랜섬웨어 공격으로 인한 심각한 보안 침해 사건을 겪었습니다. 이 공격으로 인해 회사의 IT 시스템이 상당한 피해를 입었으며 업무 운영이 중단되었습니다. 해당 공격은 의료 산업을 대상으로 한 지속적인 사이버 위협의 일환으로 보입니다. 의료 업계는 민감한 환자 정보와 중요한 인프라를 보유하고 있어 랜섬웨어 공격자들의 주요 표적이 되고 있습니다. 이번 사건은 의료 공급망 보안의 중요성과 강화된 사이버보안 조치의 필요성을 재확인시켜줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/west-pharmaceutical-services-hit-by-disruptive-ransomware-attack/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Apple, macOS 및 iOS의 수십 개 취약점 패치",
+      "summary": "Apple이 macOS와 iOS 운영 체제에서 수십 개의 보안 취약점을 패치했다. 이번 보안 업데이트는 2026년 5월 12일에 공개되었으며, 사용자들의 기기 보안을 강화하기 위한 조치이다. 해당 취약점들은 악의적 행위자에 의해 악용될 가능성이 있었던 것으로 파악된다. Apple 사용자들은 최신 보안 패치를 설치하여 자신의 기기를 보호할 것을 권장받고 있다. 이러한 정기적인 보안 업데이트는 Apple이 사용자 데이터 보호에 우선순위를 두고 있음을 보여준다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/apple-patches-dozens-of-vulnerabilities-in-macos-ios/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "SAP, S/4HANA 및 커머스 중요 취약점 패치 공개",
+      "summary": "SAP가 S/4HANA와 커머스 플랫폼의 중요 취약점을 포함한 15개의 새로운 보안 패치를 공개했습니다. 이번 패치에는 두 개의 치명적 수준의 취약점이 포함되어 있으며, 기업의 핵심 ERP 시스템에 대한 보안 강화가 요구됩니다. SAP 시스템을 운영 중인 조직들은 영향받는 제품 버전을 확인하고 긴급하게 업데이트를 적용할 것을 권고받고 있습니다. 이러한 중요 취약점들이 악용될 경우 시스템 침해 및 데이터 유출의 심각한 위험에 노출될 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/sap-patches-critical-s-4hana-commerce-vulnerabilities/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국 정부, 대규모 Canvas 사이버공격에 대한 Instructure 증언 요청",
+      "summary": "미국 하원 국토안보위원회가 Canvas 플랫폼을 대상으로 한 두 차례의 사이버공격과 관련하여 Instructure 경영진에게 증언을 요구했습니다. ShinyHunters 갈취 조직이 실행한 이 공격으로 학생 데이터가 탈취되었으며, 최종 시험 기간 동안 학교들이 혼란을 겪었습니다. 미국 정부는 교육 기관의 중요한 인프라 보안 실패에 대해 책임있는 기업의 설명을 요구하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "영국, 66만 4천 고객 정보 유출한 수도회사에 130만 달러 과징금 부과",
+      "summary": "영국 정보보호청(ICO)이 사이버공격으로 인한 개인정보 유출 사건으로 남스태퍼드셔 워터 plc사와 모회사에 96만 3,900파운드(약 130만 달러)의 과징금을 부과했습니다. 이번 공격으로 고객 및 직원 66만 3,887명의 개인정보가 노출되었습니다. 이는 중요 기반시설인 수도 공급업체의 부실한 사이버보안 관리에 대한 영국 당국의 강력한 징계 조치입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "웨비나: 네트워크 인시던트 대응의 격차 해결",
+      "summary": "IT 팀들은 네트워크 인시던트 발생 시 서로 다른 시스템 간에 신속하게 대응을 조율하는 데 어려움을 겪고 있습니다. 이번 웨비나에서는 자동화와 AI 기반 워크플로우가 대응 시간을 단축하고 장애를 예방하는 데 어떻게 도움이 될 수 있는지 살펴봅니다. 특히 경보 피로도(Alert Fatigue) 문제를 해결하고 보안 인시던트 대응의 효율성을 높이는 방법에 중점을 두고 있습니다. Tines와 같은 도구를 통해 네트워크 보안 운영을 개선할 수 있는 실질적인 방안들을 논의할 예정입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/webinar-fixing-the-gaps-in-network-incident-response/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Signal, 소셜 엔지니어링 및 피싱 공격에 대한 보안 경고 추가",
+      "summary": "Signal은 피싱 및 소셜 엔지니어링 시도로부터 사용자를 보호하기 위해 새로운 인앱 확인 기능과 경고 메시지를 도입했습니다. 이번 업데이트는 사용자 계정 탈취로 이어질 수 있는 다양한 형태의 사기 행위에 대한 추가적인 안전장치를 제공합니다. Signal은 메신저 플랫폼의 보안을 강화하여 사용자들의 개인정보와 계정을 더욱 효과적으로 보호하고자 합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/signal-adds-security-warnings-for-social-engineering-phishing-attacks/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, Windows 10 KB5087544 확장 보안 업데이트 출시",
+      "summary": "마이크로소프트가 Windows 10용 KB5087544 확장 보안 업데이트를 출시했습니다. 이 업데이트는 2026년 5월 보안 업데이트(Patch Tuesday)의 취약점을 해결하기 위해 배포되었습니다. 또한 새로운 원격 데스크톱 경고 기능과 관련된 문제도 함께 해결합니다. 이 확장 보안 업데이트는 Windows 10의 지원 종료 후에도 중요 보안 패치를 계속 제공하기 위한 마이크로소프트의 노력의 일환입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5087544-extended-security-update/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "포티넷, FortiSandbox 및 FortiAuthenticator의 심각한 RCE 취약점 경고",
+      "summary": "포티넷이 FortiSandbox와 FortiAuthenticator의 두 가지 심각한 취약점에 대한 보안 패치를 출시했습니다. 이 취약점들은 공격자가 명령어를 실행하거나 임의의 코드를 실행할 수 있는 원격 코드 실행(RCE) 기능을 허용합니다. 해당 보안 결함은 시스템에 원격으로 접근한 공격자에게 심각한 위험을 초래할 수 있으므로, 영향을 받는 사용자들은 즉시 패치를 적용할 것을 권장합니다. 포티넷은 이미 취약점 해결을 위한 업데이트를 배포했으며, 사용자들의 신속한 대응이 중요합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-rce-flaws-in-fortisandbox-and-fortiauthenticator/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Windows 11 KB5089549 & KB5087420 누적 업데이트 출시",
+      "summary": "마이크로소프트가 Windows 11 버전 25H2/24H2 및 23H2를 위한 KB5089549와 KB5087420 누적 업데이트를 출시했습니다. 이 업데이트는 보안 취약점을 해결하고 버그를 수정하며 새로운 기능을 추가합니다. Patch Tuesday를 통해 배포되는 이번 업데이트는 사용자들의 시스템 보안을 강화하고 안정성을 개선하기 위해 설계되었습니다. 마이크로소프트는 사용자들이 최신 보안 패치를 적용하기 위해 이 업데이트를 설치할 것을 권장합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5089549-and-kb5087420-cumulative-updates-released/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트 2026년 5월 패치 화요일, 120개 결함 수정, 제로데이 없음",
+      "summary": "마이크로소프트의 2026년 5월 패치 화요일 업데이트에서 총 120개의 보안 결함이 수정되었습니다. 이번 달에는 공개된 제로데이 취약점이 없었습니다. 이 정기적인 보안 업데이트는 Windows를 포함한 마이크로소프트의 다양한 제품에 적용됩니다. 보안 커뮤니티는 관련 취약점 정보를 확인하고 적절한 패치 관리를 진행할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-may-2026-patch-tuesday-fixes-120-flaws-no-zero-days/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "스코다, 온라인 쇼핑몰 해킹으로 인한 고객 정보 유출 경고",
+      "summary": "폭스바겐 그룹의 자회사인 스코다 자동차가 온라인 쇼핑몰 해킹으로 인한 데이터 유출을 공식 발표했습니다. 공격자들이 스코다의 온라인 쇼핑몰에 침투하여 미공개 수의 고객 개인정보를 도용한 것으로 확인되었습니다. 현재까지 유출된 정보의 정확한 범위와 영향받은 고객 수에 대한 세부사항은 공개되지 않았습니다. 이번 사건은 전자상거래 플랫폼의 보안 취약점이 얼마나 심각한 문제인지를 다시 한 번 드러냈습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/skoda-warns-of-customer-data-breach-after-online-shop-hack/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "안드로이드 17, 은행 사기 전화 및 개인정보 보호 기능 확대",
+      "summary": "다음 달 출시 예정인 안드로이드 17은 기기 도난, 위협 탐지, 은행 사기 전화 방지에 중점을 두고 여러 보안 및 개인정보 보호 기능을 도입할 예정이다. 이 업데이트는 스팸 및 사기성 전화로부터 사용자를 보호하기 위한 고급 기능들을 포함하고 있다. 안드로이드 17의 새로운 보안 기능들은 사용자의 금융 정보와 개인 기기 안전을 강화하는 데 초점을 맞추고 있다. 특히 번호 스푸핑(위조) 기술을 이용한 사기 전화 차단 기능이 주요 특징으로 강조되고 있다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/android-17-to-expand-banking-scam-call-and-privacy-protections/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Shai Hulud 공격, 서명된 악성 TanStack, Mistral npm 패키지 배포",
+      "summary": "Shai Hulud 공급망 공격 캠페인이 npm과 PyPI 저장소의 수백 개 패키지를 손상시켰습니다. 이 캠페인은 TanStack과 Mistral 등 정상적인 패키지로 위장한 서명된 악성 패키지를 배포하고 있습니다. 해당 악성 패키지들은 개발자를 대상으로 자격증명을 탈취하는 멀웨어를 전달합니다. 이번 공격은 대규모의 공급망 공격으로, 수많은 개발자들이 영향을 받을 수 있습니다. 보안 연구원들은 개발자들에게 의존성 패키지의 출처를 확인하고 최신 보안 업데이트를 적용할 것을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/shai-hulud-attack-ships-signed-malicious-tanstack-mistral-npm-packages/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "SAP, Commerce Cloud 및 S/4HANA의 중요 취약점 패치",
+      "summary": "SAP는 2026년 5월 보안 업데이트를 통해 여러 제품에 걸친 15개의 취약점을 해결했습니다. 특히 엔터프라이즈급 전자상거래 플랫폼인 Commerce Cloud와 ERP 스위트인 S/4HANA에서 발견된 2개의 중요 취약점이 포함되어 있습니다. 이번 패치는 SAP 제품을 사용하는 기업들의 보안 위협을 완화하기 위한 중요한 업데이트입니다. 사용자들은 즉시 이 보안 업데이트를 적용하여 시스템을 보호할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Instructure, ShinyHunters와의 합의로 데이터 유출 중단",
+      "summary": "교육기술 기업 Instructure가 Canvas 학습관리시스템(LMS)에서 발생한 최근 데이터 유출 사건과 관련하여 해킹 그룹 ShinyHunters와 '합의'에 도달했다. 이 합의를 통해 ShinyHunters가 탈취한 데이터를 온라인에 유출하지 않기로 합의한 것으로 보인다. 이는 ShinyHunters가 데이터를 공개하지 않는 조건으로 신원을 유지하는 방식의 협상으로 해석된다. Instructure는 광범위하게 사용되는 Canvas LMS 플랫폼을 운영하는 주요 에드테크 기업으로, 이번 사건은 교육기관들의 데이터 보안에 대한 우려를 증가시킬 것으로 예상된다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "이노티움, ‘AI 문서중앙화’ 반도체 등 다양한 산업 공급",
+      "summary": "첨단 반도체·원전·금융·프랜차이즈·공공기관에 공급“AI 경쟁력은 데이터 통제에서 시작”[보안뉴스 강현주 기자] AI 확산과 함께 기업 IT 전략의 중심이 ‘협업툴’에서 ‘데이터 통제’로 빠르게 이동하고 있다. 마이크로소프트365 등 협업 환경은 업무 효율성을 높였지만, 데이터가 클라우드와 개인 단말기에 분산되면서 보안과 통제의 한계도 동시에 나타나고 있다.",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143595&kind=&sub_kind=",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "‘제로트러스트 창시자’ 존 킨더바그 “미토스 공포? ‘격리’가 관건”",
+      "summary": "일루미오 간담회에서 제로트러스트 전략 제시“침해는 불가피, 격리가 전략” 강조[보안뉴스 강현주 기자] “제로트러스트는 AI 공격에 대한 완벽한 방어 전략입니다. 마이크로세그멘테이션이야말로 제로트러스트의 근간입니다.”‘제로트러스트 창시자’라고 불리는 존 킨더바그 일루미오 수석 에반젤리스트는 12일 기자들과 만나 이같이 밝혔다. 일루미오는 이날 서울 삼성동 아",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143592&kind=&sub_kind=",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "개인정보위, 중대 유출 반복되면 과징금 10%... “사전 예방으로 보안 패러다임 전환”",
+      "summary": "개인정보 중심 설계(PbD) 제도화, 1700개 고위험 시스템 위험기반 정기 점검입증 책임 기업으로 전환... 피해 구제 실효성 높이고 보안 투자 인센티브 확대[보안뉴스 조재호 기자] 개인정보보호위원회가 사후 처벌 위주였던 국가 개인정보 안보 거버넌스를 사전 예방 및 위험 관리 중심으로 전면 개편한다. 전체 매출의 10%에 달하는 징벌적 과징금으로 기업의",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143590&kind=&sub_kind=",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "금융보안원, 2026년 금융보안자문위원회 전체회의 개최",
       "summary": "AI 기반 공격 도구 활용한 위협 고도화에 따른 금융보안의 새로운 대응 전략 모색[보안뉴스 원병철 기자] 금융보안원(원장 박상원)은 12일(화) 여의도 글래드 호텔에서 최신 금융보안 동향을 바탕으로 금융보안원의 역할과 업무 방향성을 심도있게 논의하기 위해 보안전략·사이버대응·디지털혁신 전문가들과 금융보안자문위원회 전체회의를 개최했다. 특히, 올해는 미토스",
       "category": "보안",
@@ -8526,11 +8859,11 @@
     }
   ],
   "sources": {
-    "보안뉴스": 329,
-    "Dell": 85,
-    "HPE": 9,
-    "VAST Data": 22,
-    "SecurityWeek": 231,
-    "BleepingComputer": 271
+    "보안뉴스": 339,
+    "Dell": 88,
+    "HPE": 10,
+    "SecurityWeek": 241,
+    "BleepingComputer": 284,
+    "VAST Data": 22
   }
 }
