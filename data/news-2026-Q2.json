@@ -3,6 +3,258 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "[미토스 충격] 미토스 이용해 ‘철옹성’ 애플 맥OS 보안 뚫었다",
+      "summary": "미 보안 기업, 미토스 테스트 중 맥 보안 우회 기법 발견5일 만에 메모리 접근 권한 상승 공격 코드 작성[보안뉴스 한세희 기자] 클로드 AI 모델 ‘미토스’를 활용해 최신 보안 기술이 적용된 애플 맥OS를 우회 공격하는 코드를 개발한 사례가 나왔다. 미국 보안 기업 칼리프(Calif)는 미토스 초기 모델을 테스트하는 과정에서 발견한 기법을 활용, 맥 컴퓨",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143670&kind=&sub_kind=",
+      "date": "2026-05-16"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“AI 맹신 말고 조별과제 조장 맡아라”... 아주대 달군 보안 선배들의 ‘진짜’ 조언",
+      "summary": "‘SDU COSS x OWASP 사이버 직무 멘토링’곽진 아주대 교수, 네이버·크리밋·화이트햇스쿨 등 실무자 5인 패널 토크[보안뉴스 조재호 기자] 13일 저녁 6시 30분, 모두가 하교를 서두르는 늦은 시간임에도 아주대학교 성호관 135호는 현업 진출을 꿈꾸는 예비 보안인들로 발 디딜 틈 없이 붐볐다. 일방적 발표 중심의 기술 세미나가 아닌, 실무자와 학",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143625&kind=&sub_kind=",
+      "date": "2026-05-16"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "18년 숨어있던 NGINX 치명적 결함 발견 “인증 없이 서버 장악 가능”",
+      "summary": "인증 없이 원격 코드 실행(RCE)과 서버 권한 탈취 가능성 제기F5 “최신 버전 즉시 업데이트 필요” 추가 취약점 3종도 함께 패치[보안뉴스 김형근 기자] 전 세계 웹 서버 시장에서 널리 사용되는 엔진엑스 플러스(NGINX Plus) 및 엔진엑스 오픈소스(NGINX Open Source)에서 18년 간 발견되지 않았던 심각한 보안 취약점이 공개됐다.‘엔진",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143669&kind=&sub_kind=",
+      "date": "2026-05-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell AI 데이터 플랫폼이 실시간 뱅킹 결정을 강화하다",
+      "summary": "Dell AI 데이터 플랫폼은 분산된 고객 데이터를 실시간 금융 의사결정으로 변환합니다. 이 플랫폼은 규정 준수 담당자가 검증할 수 있는 인용문을 제공하여 금융 기관의 투명성을 보장합니다. 실시간 데이터 처리 능력으로 빠르고 정확한 의사결정이 가능해집니다. 단편화된 고객 정보를 통합하여 더욱 포괄적인 금융 분석을 지원합니다. 규정 준수 추적 기능으로 감시 및 감독 요구사항을 효율적으로 충족할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/dell-ai-data-platform-powers-real-time-banking-decisions/",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 파일럿과 확장 가능한 AI의 차이",
+      "summary": "에이전트형 AI가 개념에서 현실로 전환되면서, Zoho는 소프트웨어 기업들이 워크플로우, 도메인, 지역에 걸쳐 작동하는 AI 에이전트를 지원하기 위해 전체 스택을 현대화하는 방법을 보여주는 모델을 제시하고 있습니다. 가장 큰 이점을 얻는 조직들은 AI를 운영 방식의 핵심에 통합하는 기업들이며, Zoho는 이를 실제로 어떻게 구현하는지 보여주는 훌륭한 사례입니다. 엔터프라이즈 AI 도입 시 가장 흔한 함정은 기본 인프라가 확장을 지원하도록 구축되지 않아 유망한 실험이 실제로 확장되지 못하는 파일럿 함정입니다. Zoho는 기존 제품 위에 AI를 단순히 구현하는 대신, 14년에 걸쳐 구축하고 강화한 통합 AI 스택을 개발했으며, 이는 전체 포트폴리오에 걸쳐 적용될 수 있습니다. 이 독점적 AI 스택의 핵심에는 구조화된 데이터 추출, 요약, 검색 증강 생성 및 코드 생성 등의 비즈니스 사용 사례를 위해 특별히 훈련된 Zoho의 자체 대규모 언어 모델인 Zia LLM이 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/the-difference-between-ai-pilots-and-ai-that-scales/",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell Copilot+ PC로 업무 방식 재정의",
+      "summary": "Dell Copilot+ PC는 40+ TOPS의 NPU 성능으로 구동되며, AI를 기기에 직접 탑재하여 업무 시간의 모든 순간을 혁신합니다. 음성 제어 생산성, 더욱 똑똑한 협업, 빠른 콘텐츠 제작, 그리고 보안이 강화된 온디바이스 AI 실행까지 가능합니다. AI 처리를 클라우드에서 PC로 옮김으로써 더 빠른 응답 속도, 부드러운 사용 경험, 그리고 프라이버시·성능·제어에 대한 새로운 가능성을 제공합니다. 이러한 기능들은 Dell Technologies World의 Modern Workplace expo에서 실제 데모를 통해 확인할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/redefining-the-workday-with-dell-copilot-pcs/",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "빅테크 vs 캐나다 암호화법, 시스코의 무료 AI 보안 사양, 아우디 앱 결함",
+      "summary": "캐나다의 암호화 관련 법안에 대해 빅테크 기업들이 반발하고 있습니다. 시스코가 인공지능 보안 표준을 무료로 공개하여 산업 전반의 보안 강화에 나서고 있습니다. 한편 아우디의 모바일 애플리케이션에서 보안 결함이 발견되었습니다. 이는 자동차 제조업체의 디지털 보안 취약점이 얼마나 광범위한지를 보여주는 사례입니다. 이러한 소식들은 기술 산업에서 암호화, 인공지능 보안, 그리고 모바일 애플리케이션 보안이 얼마나 중요한 이슈인지를 강조합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-big-tech-vs-canada-encryption-bill-ciscos-free-ai-security-spec-audi-app-flaws/",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, 악용 중인 Exchange Server 제로데이 취약점 경고",
+      "summary": "마이크로소프트가 현재 야생에서 악용 중인 Exchange Server의 제로데이 취약점에 대해 경고했습니다. 이 취약점은 공격자들에 의해 실제 공격에 활용되고 있으며, 기업의 이메일 보안에 심각한 위협이 되고 있습니다. SecurityWeek은 이 사안을 주요 보안 뉴스로 다루고 있으며, 마이크로소프트 Exchange 사용자들에 대한 즉각적인 주의가 필요합니다. 이는 이메일 보안 및 취약점 관리 측면에서 중요한 보안 이슈로 분류되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/microsoft-warns-of-exchange-server-zero-day-exploited-in-the-wild/",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국 대출 중개업체 American Lending Center 데이터 유출, 123,000명 개인정보 노출",
+      "summary": "미국의 대출 중개 서비스 회사인 American Lending Center가 데이터 침해 사고를 당해 약 123,000명의 개인정보가 유출되었다. 이번 사건은 랜섬웨어 공격으로 인해 발생한 것으로 보인다. SecurityWeek의 보도에 따르면 유출된 정보에는 고객의 민감한 재무 및 개인 식별 정보가 포함되어 있다. American Lending Center는 현재 영향을 받은 개인들에게 알림을 제공하고 있으며 사고 대응을 진행 중이다. 이 사건은 금융 서비스 업체들이 증가하는 사이버 위협에 직면하고 있음을 보여주는 사례이다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/american-lending-center-data-breach-affects-123000-individuals/",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpenAI, TanStack 공급망 공격으로 피해",
+      "summary": "OpenAI가 TanStack 공급망 공격으로 인해 손상된 코드 저장소에 포함된 코드 서명 인증서를 교체했습니다. 이 공격은 오픈소스 라이브러리인 TanStack을 통한 공급망 공격으로, OpenAI를 포함한 여러 조직에 영향을 미쳤습니다. 공급망 공격은 개발자 도구나 라이브러리를 악용하여 광범위한 대상에 악성코드를 배포하는 수법으로 알려져 있습니다. OpenAI는 즉시 보안 조치를 취해 코드 서명 인증서를 교체하고 시스템 보안을 강화했습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/openai-hit-by-tanstack-supply-chain-attack/",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "TeamPCP, 샤이-훌루드 웜의 소스코드 공개",
+      "summary": "해킹 그룹 TeamPCP가 샤이-훌루드(Shai-Hulud) 웜의 소스코드를 공개했습니다. 이는 악성코드의 기술적 세부사항이 공개되면서 다른 공격자들이 이를 기반으로 변종 악성코드를 개발할 수 있는 위험을 증가시킵니다. 웜의 소스코드 유출은 공급망 보안과 소프트웨어 개발 환경에 심각한 위협이 될 수 있습니다. 보안 전문가들은 이번 사건으로 인해 악성코드의 확산 속도가 더욱 빨라질 수 있음을 우려하고 있습니다. 조직들은 강화된 방어 체계와 모니터링을 통해 이러한 위협에 대응할 필요가 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/teampcp-ups-the-game-releases-shai-hulud-worms-source-code/",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Chrome 148 업데이트, 중요 취약점 패치",
+      "summary": "Google이 79개의 취약점을 해결하는 Chrome 148 업데이트를 출시했습니다. 이 업데이트는 사용자의 브라우저 보안을 강화하기 위해 여러 중요 보안 결함을 수정합니다. SecurityWeek에서 보도한 이 업데이트는 사이버 공격으로부터 사용자를 보호하기 위한 Google의 지속적인 노력을 보여줍니다. Chrome 사용자들은 최신 버전으로 업데이트하여 이러한 보안 개선 사항을 적용받을 것을 권장합니다. 정기적인 브라우저 업데이트는 온라인 보안 유지의 필수 요소입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/chrome-148-update-patches-critical-vulnerabilities/",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Cisco, 2026년 여섯 번째 SD-WAN 제로데이 취약점 패치",
+      "summary": "Cisco가 2026년 동안 악용된 여섯 번째 SD-WAN 제로데이 취약점에 대한 패치를 발표했습니다. 이번 취약점은 UAT-8616로 식별되었으며, Cisco의 SD-WAN 제품군에 영향을 미칩니다. 올해 Cisco SD-WAN 제품에서 연속적으로 발견되고 악용되는 제로데이 취약점의 증가 추세를 보여주고 있습니다. 보안 전문가들은 Cisco 제품 사용자들에게 최신 보안 패치를 즉시 적용할 것을 권고하고 있습니다. 이러한 반복되는 보안 사건은 네트워크 인프라의 취약성이 심화되고 있음을 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisco-patches-another-sd-wan-zero-day-the-sixth-exploited-in-2026/",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "펀넬 빌더 워드프레스 플러그인 취약점, 신용카드 정보 탈취에 악용",
+      "summary": "워드프레스의 펀넬 빌더(Funnel Builder) 플러그인의 심각한 취약점이 현재 활발히 악용되고 있습니다. 공격자들이 이 취약점을 이용해 우커머스(WooCommerce) 결제 페이지에 악의적인 자바스크립트 코드를 주입하고 있습니다. 이를 통해 고객들의 신용카드 정보를 탈취할 수 있는 결제 정보 수집 공격(카드 스키밍)이 진행 중입니다. 이 취약점은 상당한 보안 위협을 구성하며, 영향을 받는 웹사이트의 운영자들은 긴급한 조치가 필요합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards/",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Pwn2Own 둘째 날, Microsoft Exchange와 Windows 11 해킹 성공",
+      "summary": "Pwn2Own Berlin 2026의 둘째 날 대회에서 보안 연구자들이 Windows 11, Microsoft Exchange, Red Hat Enterprise Linux for Workstations 등 여러 제품의 15개 고유 제로데이 취약점을 성공적으로 악용했습니다. 참가자들은 이러한 취약점 공개로 총 385,750달러의 상금을 획득했습니다. 이번 대회를 통해 Microsoft의 주요 제품과 오픈소스 Linux 시스템의 심각한 보안 위험성이 드러났습니다. Pwn2Own은 보안 연구자들이 새로운 취약점을 발견하고 책임감 있게 공개하도록 장려하는 국제 해킹 대회입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "인기 있는 node-ipc npm 패키지, 자격증명 탈취 악성코드로 손상",
+      "summary": "해커들이 npm의 인기 있는 프로세스 간 통신(IPC) 패키지인 node-ipc의 새로운 버전에 자격증명 탈취 악성코드를 주입했습니다. 이는 npm을 목표로 한 새로운 공급망 공격 사례입니다. 공격자들은 해당 패키지의 최신 배포 버전들을 악성코드로 감염시켜 사용자들의 인증 정보를 탈취하려고 시도했습니다. 이번 사건은 오픈소스 패키지 저장소의 보안 위험성을 다시 한번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Avada Builder WordPress 플러그인 취약점, 사이트 자격증명 도용 허용",
+      "summary": "약 100만 개의 활성 설치를 보유한 WordPress용 Avada Builder 플러그인에서 발견된 두 가지 취약점으로 인해 해커들이 임의의 파일을 읽고 데이터베이스에서 민감한 정보를 추출할 수 있습니다. 이 취약점들은 임의 파일 읽기(Arbitrary File Read)와 SQL 주입(SQL Injection)을 포함하고 있어 웹사이트 보안에 심각한 위협이 됩니다. 공격자는 이를 통해 사용자 자격증명과 기타 민감한 정보에 접근할 수 있으며, 궁극적으로는 웹사이트 탈취까지 가능할 수 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/avada-builder-wordpress-plugin-flaws-allow-site-credential-theft/",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트 입장 변경: Edge 브라우저 시작 시 비밀번호를 메모리에 로드하지 않기로",
+      "summary": "마이크로소프트는 Edge 웹 브라우저를 업데이트하여 시작 시 저장된 비밀번호를 평문 형태로 프로세스 메모리에 로드하지 않도록 변경했습니다. 이전에는 이러한 동작이 '설계상 의도된 것'이라고 주장했으나 입장을 바꾸게 되었습니다. 이번 변경은 사용자의 저장된 비밀번호가 메모리에 노출되는 보안 위험을 제거하는 것을 목표로 합니다. Edge 브라우저 사용자들의 보안 및 개인정보 보호가 강화될 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-to-stop-loading-cleartext-passwords-in-memory-on-startup/",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "REMUS 정보탈취 악성코드: 세션 탈취, MaaS, 그리고 빠른 진화",
+      "summary": "암호화된 브라우저 세션과 인증 토큰이 도용된 비밀번호보다 더 높은 가치를 지니고 있습니다. REMUS 정보탈취 악성코드는 세션 탈취와 운영 확장성을 중심으로 진화했으며, 이는 사이버 범죄자들의 공격 방식을 근본적으로 변화시키고 있습니다. Flare의 분석에 따르면 이 악성코드는 MaaS(악성코드 서비스형) 모델로 운영되면서 빠르게 기능이 확대되고 있습니다. 세션 탈취는 피해자의 계정에 직접 접근할 수 있게 하므로 기존의 자격증명 탈취보다 훨씬 더 위협적입니다. 이러한 트렌드는 조직들이 세션 보호와 토큰 보안에 더욱 주의를 기울여야 함을 시사합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/inside-the-remus-infostealer-session-theft-maas-and-rapid-evolution/",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, 결함 있는 윈도우 드라이버 자동 롤백 기능 도입",
+      "summary": "마이크로소프트가 윈도우 업데이트를 통해 배포된 문제 있는 드라이버를 원격으로 자동 롤백할 수 있는 새로운 기능을 도입하고 있습니다. 이 기능은 결함이 있는 드라이버로 인한 시스템 불안정성과 성능 저하 문제를 사용자 개입 없이 자동으로 해결할 수 있게 합니다. 마이크로소프트는 과거 드라이버 업데이트로 인한 대규모 시스템 장애 사례를 겪었으며, 이번 기능은 이러한 문제를 신속하게 완화하기 위한 조치입니다. 사용자들은 문제가 발생해도 자동으로 이전 안정적인 드라이버 버전으로 복구되므로 시스템 안정성이 향상될 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-automatically-roll-back-faulty-windows-drivers/",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, 실제 공격에 악용되는 Exchange 제로데이 취약점 경고",
+      "summary": "마이크로소프트가 목요일 공격에 악용되고 있는 Exchange 서버의 고위험 취약점에 대한 완화 방안을 공개했습니다. 이 취약점은 교차 사이트 스크립팅(XSS)을 통해 위협 행위자들이 임의 코드를 실행할 수 있게 하며, 주로 웹용 Outlook 사용자들을 표적으로 하고 있습니다. 마이크로소프트는 해당 취약점에 대한 즉각적인 대응 및 완화 조치를 권고하고 있습니다. 이는 조직들이 신속하게 보안 대책을 수립해야 함을 의미합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "아톤, 1분기 매출 148억원, 영업익 4억원... “신사업 선행투자 영향, 하반기 개선”",
+      "summary": "디지털화폐 인프라 사업 확대 등 영향“2분기 이후 매출 기여 본격화 전망”[보안뉴스 강현주 기자] 아톤(대표 우길수)은 2026년 1분기 연결 기준 매출액 148억원, 영업이익 4억원을 기록했다고 15일 밝혔다. 1분기 실적은 신규 사업 확장에 따른 선행 비용이 지속되는 가운데, 주요 프로젝트의 매출 인식이 2분기부터 집중된 영향이다. 2025년부터 본격",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143668&kind=&sub_kind=",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "이노뎁, 1분기 실적 발표... 유지보수 매출 성장과 해외·민수시장 확대 지속",
+      "summary": "유지보수 매출 전년 동기 대비 2배 이상 성장... 반복매출 기반 확대해외 전시회·PoC·AI 서비스 실증 통해 기업가치 회복 전략 실행[보안뉴스 강초희 기자] 이노뎁(대표 이성진)은 2026년 1분기 실적을 발표하고, 유지보수 매출 성장과 비용 효율화, 해외·민수시장 확대를 중심으로 기업가치 회복을 위한 실행을 지속하고 있다고 밝혔다.2026년 1분기 연",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143667&kind=&sub_kind=",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "한국첨단안전산업협회, 정책·기술 총망라한 ‘2027 첨단안전산업백서’ 편찬 착수",
+      "summary": "2022년 이후 두 번째 백서 제작... 산·학·연·관 전문가 참여 확대정책·산업·기술·회원사 성과 종합 반영한 산업 전략형 백서 추진[보안뉴스 강초희 기자] 한국첨단안전산업협회(회장 이성진)는 14일 서울 가산동 협회 회의실에서 ‘2027 첨단안전산업백서’ 제작 추진을 위한 ‘백서편찬위원회 킥오프 자문회의’를 개최하고 백서 추진 방향과 편찬·자문 운영 계",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143666&kind=&sub_kind=",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "펌킨네트웍스, ADC 전 제품군 ‘녹색인증’ 획득... 공공 시장 공략 가속",
+      "summary": "앞서 획득한 보안기능확인서와 시너지 기대 보안성-친환경 공공 조달 핵심 요건 충족... 탄소중립 실천 및 ESG 경영 선도[보안뉴스 한세희 기자] 펌킨네트웍스(대표 권희웅)가 자사 L4스위치 제품 전 라인업에 대해 국가 공인 ‘녹색기술제품 인증’을 획득했다고 15일 밝혔다.앞서 확보한 보안기능확인서에 이어 이번에 녹색기술제품 인증도 획득, 공공 시장 보안",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143664&kind=&sub_kind=",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "한국정보처리학회, 연례 ‘ASK 2026’ 학술행사 개최",
+      "summary": "20-23일 강릉 라카이 샌드파인에서 온오프라인 병행 개최총 338편 논문 발표, 우수 논문 64편 시상[보안뉴스 한세희 기자] 한국정보처리학회(학회장 박능수)는 20-23일 강릉 라카이샌드파인에서 연례 학술 발표 대회 ‘ASK (Annual Symposium of KIPS) 2026’를 온·오프라인 병행 방식으로 개최한다고 15일 밝혔다.‘ASK 2026",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143663&kind=&sub_kind=",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“보안 사고 70%가 사람 문제? 정답은 ‘인간중심보안’에 있다”",
+      "summary": "신간 출간... 김정덕 중앙대 명예교수 인터뷰 ①기술 만능주의가 낳은 ‘우회 보안’ 폐단 지적... 사회-기술 시스템(STS) 최적화 강조[보안뉴스 조재호 기자] “보안 사고의 70% 이상이 사람으로부터 비롯된다면, 우리의 방어 전략 역시 사람을 향해야 합니다.” 김정덕 중앙대 산업보안학과 명예교수의 지론은 담백했다. 보안의 본질은 화려한 알고리즘이나 철",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143660&kind=&sub_kind=",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관-13] 돌다리도 두드려 보고 건너라(3)-모바일 뱅킹 키패드 왜 쓰는 걸까?",
+      "summary": "모바일 뱅킹은 전용 보안 키패드를 사용하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐, 안 지키",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143238&kind=&sub_kind=",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "세이지, 인천공항 AI 안전 관제 공모전 대상 수상",
       "summary": "인천국제공항공사 주관 ‘AI-PORT 아이디어 공모전’ AI 스타트업 부문 대상Edge NPU 기반 침입·헬멧 미착용·쓰러짐 감지 기술 제안대상 수상으로 인천공항 내 기술실증(PoC) 추진[보안뉴스 강초희 기자] 세이지(공동대표 박종우·홍영석)가 인천국제공항공사 주관 ‘인천공항 AI-PORT 아이디어 공모전’ AI 스타트업 부문에서 대상을 수상했다. 이 회",
       "category": "보안",
@@ -9525,11 +9777,11 @@
     }
   ],
   "sources": {
-    "보안뉴스": 359,
-    "Dell": 97,
+    "보안뉴스": 369,
+    "Dell": 100,
+    "SecurityWeek": 268,
+    "BleepingComputer": 313,
     "HPE": 11,
-    "VAST Data": 25,
-    "SecurityWeek": 261,
-    "BleepingComputer": 305
+    "VAST Data": 25
   }
 }
