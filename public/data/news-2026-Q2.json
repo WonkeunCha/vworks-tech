@@ -3,6 +3,69 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관-14] 돌다리도 두드려 보고 건너라(4)-공용 충전기 꽂았다가 생기는 보안 위험",
+      "summary": "공공장소 충전기 사용 시 ‘데이터 전송’ 허용 팝업이 뜨면 거부하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143239&kind=&sub_kind=",
+      "date": "2026-05-17"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[배종찬의 보안 빅데이터] 사람 목소리를 훔쳐가는 AI 보이스피싱",
+      "summary": "AI 딥페이크 기술, ‘보이스 클로닝’ 위협 현실... 인간관계 신뢰를 무기화[보안뉴스= 배종찬 인사이트케이 연구소장] 디지털 기술의 발전은 인류에게 전례 없는 편의성을 제공했지만, 동시에 범죄의 도구로서도 정교하게 진화하고 있다. 특히 인공지능(AI)과 딥페이크(Deepfake) 기술을 결합한 보이스피싱은 과거의 조잡한 수법을 벗어나 실시간으로 목소리와",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143665&kind=&sub_kind=",
+      "date": "2026-05-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "중대한 NGINX 취약점에 대한 PoC 코드 공개",
+      "summary": "보안 연구자들이 NGINX 웹 서버의 심각한 취약점에 대한 개념 증명(PoC) 코드를 공개했습니다. 이 취약점은 공격자들에게 악용될 수 있는 심각한 보안 위협으로 간주되고 있습니다. PoC 코드의 공개로 인해 패치되지 않은 시스템들이 즉각적인 공격 위험에 노출될 수 있습니다. NGINX 사용자들은 가능한 한 빨리 보안 업데이트를 적용할 것을 권장받고 있습니다. 이는 널리 사용되는 웹 서버를 대상으로 한 취약점이므로 전 세계 많은 조직들이 영향을 받을 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/poc-code-published-for-critical-nginx-vulnerability/",
+      "date": "2026-05-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Microsoft, 중요 Azure 취약점 보고서 거부... CVE 미발행",
+      "summary": "보안 연구자가 Microsoft가 자신의 보고서를 거부한 후 Azure Backup for AKS의 취약점을 은폐식으로 수정했다고 주장했습니다. Microsoft는 이 주장을 반박하며 해당 동작이 예상된 것이었고 'CVE를 발행할 필요가 없었으며 제품 변경도 없었다'고 BleepingComputer에 밝혔습니다. 그러나 연구자는 Microsoft가 실제로 조용히 문제를 수정했다는 증거를 문서화했습니다. 이 사건은 Microsoft의 보안 취약점 공개 정책과 책임감 있는 공시 절차에 대한 의문을 제기하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/microsoft-rejects-critical-azure-vulnerability-report-no-cve-issued/",
+      "date": "2026-05-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "러시아 해커, Kazuar 백도어를 모듈식 P2P 봇넷으로 개발",
+      "summary": "러시아 해킹 그룹 Secret Blizzard가 오랫동안 운영해온 Kazuar 백도어를 모듈식 피어투피어(P2P) 봇넷으로 개발했습니다. 이 새로운 봇넷은 장기적인 지속성, 은폐, 데이터 수집을 위해 설계되었습니다. 이는 러시아 공격 집단이 기존 악성코드를 더욱 정교하게 진화시키고 있음을 보여줍니다. P2P 구조를 통해 중앙 집중식 명령 서버에 대한 의존성을 줄이고 탐지 회피 능력을 강화했습니다. 이 위협은 사이버 스파이 활동과 관련된 주요 보안 위험으로 평가되고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/",
+      "date": "2026-05-16"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“AI 주도할 최고 보안 리더 키운다”... 정예화 선언한 BoB 15기 모집설명회",
+      "summary": "인원 감축 및 교육 난이도 상향 예고, 중상급 정예 보안 인재 육성 집중대학생 피드백 반영, 면접 일정 조정[보안뉴스 조재호 기자] 공격과 방어 모두 AI을 무기로 삼는 시대, 국가 사이버안보를 책임질 최정예 보안 리더의 조건도 변화하고 있다. 16일 열린 차세대 보안리더 양성 프로그램(BoB: Best of the Best) 15기 모집설명회는 단순한 인",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143672&kind=&sub_kind=",
+      "date": "2026-05-16"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "미국 주유소 연료 저장 탱크 시스템 해킹 공격, 이란 소행?",
+      "summary": "미 수사당국, 이란 해커 그룹을 배후로 지목이란 전쟁 발발 후 미국 겨냥 이란 사이버 공격 더 심해져[보안뉴스 한세희 기자] 최근 미국 각지에서 일어난 주유소 연료 저장탱크 계측 시스템 해킹 공격의 배후로 이란이 지목됐다. 15일(현지시간) 복수 소식통을 인용한 CNN 보도에 따르면, 미국 수사당국은 이란 해커 조직이 미국 여러 주(州) 연료저장탱크 계측",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143671&kind=&sub_kind=",
+      "date": "2026-05-16"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "[미토스 충격] 미토스 이용해 ‘철옹성’ 애플 맥OS 보안 뚫었다",
       "summary": "미 보안 기업, 미토스 테스트 중 맥 보안 우회 기법 발견5일 만에 메모리 접근 권한 상승 공격 코드 작성[보안뉴스 한세희 기자] 클로드 AI 모델 ‘미토스’를 활용해 최신 보안 기술이 적용된 애플 맥OS를 우회 공격하는 코드를 개발한 사례가 나왔다. 미국 보안 기업 칼리프(Calif)는 미토스 초기 모델을 테스트하는 과정에서 발견한 기법을 활용, 맥 컴퓨",
       "category": "보안",
@@ -9777,10 +9840,10 @@
     }
   ],
   "sources": {
-    "보안뉴스": 369,
+    "보안뉴스": 373,
+    "SecurityWeek": 269,
+    "BleepingComputer": 315,
     "Dell": 100,
-    "SecurityWeek": 268,
-    "BleepingComputer": 313,
     "HPE": 11,
     "VAST Data": 25
   }
