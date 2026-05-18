@@ -1471,9 +1471,129 @@
     "http://www.boannews.com/media/view.asp?idx=143239&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143665&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143672&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=143671&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=143671&kind=&sub_kind=",
+    "https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/",
+    "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/",
+    "http://www.boannews.com/media/view.asp?idx=143686&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143679&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143684&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143685&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143683&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143682&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143680&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143678&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143677&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143241&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "안랩클라우드메이트 ‘애크미아이’, 공공부문 SW 어워즈 수상... “안전한 AI 행정 선도”",
+      "summary": "공공 분야 AI 업무 혁신 지원하는 맞춤형 어시스턴트 구축 플랫폼 가치 인정발주자들이 직접 꼽은 최고 수준의 운영 경쟁력 입증[보안뉴스 조재호 기자] 안랩 AX·MSP 전문 자회사 안랩클라우드메이트는 자사 AI 어시스턴트 구축 플랫폼 ‘애크미아이’(ACMEi)가 서울 대한상공회의소에서 열린 2026 제6회 공공부문 SW 어워즈에서 AI SW 부문 공공부문발",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143686&kind=&sub_kind=",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "서울시, 보안관제요원 채용 “사이버위협 대응 강화”",
+      "summary": "디지털도시국 정보보안과서 2명 모집24시간 보안관제·사이버위협 대응 수행21-26일 원서 접수[보안뉴스 강초희 기자] 서울특별시(시장 오세훈)가 사이버위협 대응 역량 강화를 위해 보안관제 분야 시간선택제임기제공무원을 공개 채용한다.서울시는 디지털도시국 정보보안과 소속 ‘보안관제요원’ 지방시간선택제임기제 나급 2명을 선발한다고 밝혔다. 근무기간은 임용일로부터",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143679&kind=&sub_kind=",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "아우토크립트 “자율주행 보안, 차량 넘어 생태계 묶는 E2E 전략 필수”",
+      "summary": "AI 모빌리티 보안 패러다임 전환 이끄는 자율주행 사이버보안 백서 공개기존 단일 계층 보안 한계 지적하며 통합 vSOC 및 제로트러스트 모델 결합 제안[보안뉴스 조재호 기자] 자율주행 차량이 단순한 기계를 넘어 거대한 개방형 플랫폼으로 진화하면서, 차량만 지키는 파편화된 방어 체계가 치명적인 물리적 사고를 초래할 수 있다는 경고가 나왔다.아우토크립트는 자율",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143684&kind=&sub_kind=",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "가비아, 지키다에 공공 클라우드 공급... “CSAP 인증 취득 뒷받침”",
+      "summary": "지키다, 컴플라이언스 점검 서비스 본격화[보안뉴스 강현주 기자] 클라우드 전문 기업 가비아(공동대표 김홍국·원종홍)는 개인정보 보호 및 법률 컴플라이언스 솔루션 기업 지키다(대표 김진환)에 공공기관 전용 클라우드 서비스를 공급했다고 18일 밝혔다.지키다는 법률 콘텐츠를 기반으로 기업의 개인정보 보호 및 법규 준수 체계 점검 서비스를 제공하는 민간 사업자다.",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143685&kind=&sub_kind=",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "SK쉴더스, NHN와플랫과 시니어 디지털 돌봄 사업 강화",
+      "summary": "NHN와플랫과 협력해 AI 및 스마트홈 기반 디지털 돌봄 서비스 추진복지부 ‘AX Sprint’ 스마트홈 사업 참여로 물리보안 관제·출동 인프라와 AI 기술 연계‘캡스홈’ 서비스 내 돌봄 기능 강화 및 생활 밀착형 안전 서비스로 확대 [보안뉴스 엄호식 기자] SK쉴더스(대표 민기식)가 물리보안 브랜드 ADT캡스의 AI 기반 돌봄 서비스 및 생활안전 사업 확",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143683&kind=&sub_kind=",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "개인정보 보호법 위반 과징금 산정 기준 강화",
+      "summary": "‘직전연도 매출과 3개년도 평균 중 높은 금액’으로[보안뉴스 강현주 기자] 개인정보 보호법 위반 시 과징금 산정 기준이 ‘직전 3개년도 평균 매출’에서 ‘직전 연도 매출과 3개년도 평균 매출 중 큰 금액’으로 바뀐다. 개인정보보호위원회(위원장 송경희)는 ‘개인정보 보호법 시행령’ 일부개정령안과 ‘개인정보 보호법 위반에 대한 과징금 부과기준’(고시) 일부개",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143682&kind=&sub_kind=",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "진명아이앤씨, AI 기반 지능형 화재감지 기술 사용화 추진",
+      "summary": "산림청 ‘산림 지식재산 기반 유레카 기술개발(R&ED) 사업’ 선정차세대 멀티 스펙트럼 화재 조기감지 시스템 개발 착수[보안뉴스 강초희 기자] 진명아이앤씨(대표 허미향)가 주관하는 컨소시엄이 산림청이 추진하고 한국임업진흥원이 전담하는 ‘산림 지식재산 기반 유레카 기술개발(R&D) 사업’을 통해 차세대 멀티 스펙트럼 화재 조기감지 시스템 개발에 착수한다.이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143680&kind=&sub_kind=",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "SGA솔루션즈 “한국형 제로트러스트 오픈 플랫폼으로 글로벌 K-보안 정조준”",
+      "summary": "KISA·TTA·샌즈랩·주요 대학 등 참여한 산학연 컨소시엄으로 거버넌스 확립최영철 대표 “단순 국산화 넘어 벤더 중립성 보장하는 세계적 수준 플랫폼 제시할 것”[보안뉴스 조재호 기자] 개별 솔루션 중심의 파편화된 방어 체계가 날로 고도화되는 사이버 위협 앞에서 구조적 한계를 드러내고 있는 가운데, 국내 보안 생태계를 하나로 묶어낼 오픈 플랫폼 구축 사업이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143678&kind=&sub_kind=",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "포티넷, 1분기 매출 1조7472억원... 연매출 전망 15%로 상향",
+      "summary": "제품 매출 41% 성장해 전망 초과 달성역대 최고 잉여현금흐름[보안뉴스 강현주 기자] 글로벌 네트워크 보안 융합 솔루션 기업 포티넷(CEO 켄 지)이 2026년 1분기 1조7472억원의 매출을 기록하며 전망치를 초과 달성했다고 18일 밝혔다. 이번 분기 매출은 전년 동기 대비 20% 성장한 18억5000만달러(약 2조7472억원)로 기존에 제시한 전망을",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143677&kind=&sub_kind=",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관-16] 돌다리도 두드려 보고 건너라(6)-이메일 첨부파일, 열기 전에 꼭 확인해야 할",
+      "summary": "출처가 불분명한 이메일 첨부파일은 실행하지 마세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐, 안",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143241&kind=&sub_kind=",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Windows 'MiniPlasma' 제로데이 취약점, SYSTEM 접근 권한 획득 가능 - PoC 공개",
+      "summary": "사이버보안 연구원이 Windows 권한 상승 제로데이 취약점 'MiniPlasma'에 대한 개념증명(PoC) 익스플로잇을 공개했습니다. 이 취약점은 완전히 패치된 Windows 시스템에서도 공격자가 SYSTEM 권한을 획득할 수 있게 해줍니다. MiniPlasma 익스플로잇을 이용하면 일반 사용자 권한에서 최고 관리자 권한으로 상승할 수 있어, 시스템에 대한 완전한 제어가 가능해집니다. 현재 PoC가 공개됨에 따라 이 취약점이 광범위하게 악용될 위험성이 있습니다. Microsoft는 이 제로데이에 대한 긴급 패치 배포를 고려해야 할 것으로 보입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/",
+      "date": "2026-05-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Tycoon2FA, 기기 코드 피싱으로 Microsoft 365 계정 탈취",
+      "summary": "Tycoon2FA 피싱 킷이 기기 코드 피싱 공격을 지원하도록 업그레이드되었습니다. 공격자들은 Trustifi의 클릭 추적 URL을 악용하여 Microsoft 365 계정을 탈취하고 있습니다. 이 피싱-서비스형(PhaaS) 도구는 OAuth 토큰을 탈취하여 2단계 인증(2FA)을 우회할 수 있습니다. 기기 코드 피싱은 사용자를 속여 악의적인 기기 코드를 승인하도록 유도하는 새로운 공격 기법입니다. 이러한 공격으로 인해 Microsoft 365 사용자들의 계정이 심각한 위험에 노출되어 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/",
+      "date": "2026-05-17"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "[속담으로 배우는 100가지 보안 습관-14] 돌다리도 두드려 보고 건너라(4)-공용 충전기 꽂았다가 생기는 보안 위험",
@@ -10365,116 +10485,8 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/medusa-ransomware-fast-to-exploit-vulnerabilities-breached-systems/",
       "date": "2026-04-07"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "독일 경찰, REvil 랜섬웨어 지도자 정체 규명",
-      "summary": "독일 경찰이 악명 높은 REvil 랜섬웨어 조직의 지도자를 적발했습니다. REvil은 2021년 Kaseya 공급망 공격을 포함한 대규모 사이버 범죄 활동으로 알려진 조직입니다. 이 조사는 국제 법 집행 기관들의 협력으로 진행되었으며, 랜섬웨어 범죄자 추적에 있어 중요한 진전을 의미합니다. 경찰은 용의자에 대한 체포 영장을 발부했으며, 이는 조직 범죄 수사에 큰 진전이 될 것으로 예상됩니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/german-police-unmask-revil-ransomware-leader/",
-      "date": "2026-04-07"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "해커들이 Ninja Forms 워드프레스 플러그인의 심각한 취약점을 악용",
-      "summary": "WordPress용 Ninja Forms File Uploads 프리미엄 애드온에서 발견된 심각한 취약점이 해커들에 의해 적극적으로 악용되고 있습니다. 이 취약점은 인증 없이 임의의 파일을 업로드할 수 있게 하여 원격 코드 실행으로 이어질 수 있습니다. 공격자들은 이를 통해 웹사이트를 완전히 장악할 수 있는 것으로 알려져 있습니다. 해당 플러그인을 사용하는 WordPress 사용자들은 즉시 보안 업데이트를 적용하거나 플러그인을 제거할 것을 권장합니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-flaw-in-ninja-forms-wordpress-plugin/",
-      "date": "2026-04-07"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "FBI: 미국인들이 작년 사이버범죄로 기록적인 210억 달러 손실",
-      "summary": "미국 연방수사국(FBI)에 따르면 미국인들이 지난해 사이버범죄로 약 210억 달러의 손실을 입었으며, 이는 사상 최고 규모입니다. 이러한 손실은 주로 투자 사기, 비즈니스 이메일 침해(BEC), 기술 지원 사기, 데이터 유출 등으로 인해 발생했습니다. 사이버 범죄자들은 정교한 수법을 통해 미국 국민들을 대상으로 대규모 금전 손실을 야기했습니다. FBI는 이 수치를 통해 사이버 위협이 미국 사회와 경제에 미치는 심각한 영향을 강조하고 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/fbi-americans-lost-a-record-21-billion-to-cybercrime-last-year/",
-      "date": "2026-04-07"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Snowflake 고객들, SaaS 통합업체 침해 후 데이터 도용 공격 피해",
-      "summary": "SaaS 통합 제공업체가 침해당하면서 인증 토큰이 탈취되어 12개 이상의 기업이 데이터 도용 공격 피해를 입었습니다. 공격자들은 탈취된 인증 토큰을 이용하여 Snowflake 고객사들의 시스템에 접근할 수 있었습니다. 이번 사건은 ShinyHunters 등의 위협 행위자들이 관여한 것으로 추정되고 있습니다. 탈취된 데이터는 랜섬웨어식 협박 등 추가적인 악의적 목적으로 악용될 가능성이 있습니다. 이는 SaaS 통합 서비스의 보안 취약점이 연쇄적으로 다수의 고객사에게 영향을 미칠 수 있음을 보여주는 사례입니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/snowflake-customers-hit-in-data-theft-attacks-after-saas-integrator-breach/",
-      "date": "2026-04-07"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "미국, 이란 해커의 중요 기반시설 공격 경고",
-      "summary": "미국이 이란과 연결된 해커들이 미국 중요 기반시설 조직의 네트워크에 있는 인터넷 노출 Rockwell/Allen-Bradley 프로그래머블 로직 컨트롤러(PLC)를 대상으로 공격하고 있다고 경고했습니다. 이란 연계 해킹 그룹들은 산업 제어 시스템에 직접 접근하여 실질적인 피해를 입힐 수 있는 중요한 위협입니다. 특히 인터넷에 노출된 PLC는 보안 취약점으로 작용하여 공격자들의 주요 목표가 되고 있습니다. 미국 정부는 이러한 위협에 대해 중요 기반시설 운영 기관들에 주의를 당부하고 있으며, 적절한 보안 조치를 취할 것을 권고하고 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/us-warns-of-iranian-hackers-targeting-critical-infrastructure/",
-      "date": "2026-04-07"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "최대 심각도 Flowise RCE 취약점, 실제 공격에 악용 중",
-      "summary": "오픈소스 LLM 애플리케이션 개발 플랫폼인 Flowise의 최대 심각도 원격코드실행(RCE) 취약점(CVE-2025-59528)이 현재 실제 공격에 악용되고 있습니다. 해커들은 이 취약점을 이용하여 임의의 코드를 실행할 수 있습니다. 이는 Flowise를 통해 구축된 커스텀 LLM 애플리케이션 및 에이전트 시스템에 심각한 위협이 됩니다. 해당 취약점의 적극적인 악용이 진행 중인 상황으로 즉시 업데이트가 권장됩니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/max-severity-flowise-rce-vulnerability-now-exploited-in-attacks/",
-      "date": "2026-04-07"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "당국, 마이크로소프트 365 로그인 탈취에 사용된 라우터 DNS 하이재킹 중단",
-      "summary": "국제 법 집행 기관과 민간 기업의 협력으로 진행된 작전에서 FrostArmada라는 APT28 캠페인을 중단시켰다. 이 캠페인은 MikroTik과 TP-Link 라우터의 로컬 트래픽을 하이재킹하여 마이크로소프트 계정 자격증명을 탈취하고 있었다. 해당 작전은 러시아의 GRU와 관련된 ForestBlizzard 위협 행위자들의 DNS 트래픽 조작 활동을 차단하는 데 초점을 맞추었다. 이번 중단으로 광범위한 DNS 하이재킹을 통한 대규모 자격증명 탈취 시도가 성공적으로 저지되었다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-dns-hijacks-used-to-steal-microsoft-365-logins/",
-      "date": "2026-04-07"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "자동화된 펜테스팅 도구가 한계에 직면한 이유",
-      "summary": "자동화된 펜테스팅 도구는 초기에는 강력한 결과를 제공하지만 곧 성과가 정체되는 현상이 발생합니다. Picus Security는 'PoC 절벽(PoC cliff)' 현상이 주요 공격 표면을 미검사 상태로 남기며 위험한 검증 공백을 만든다고 설명합니다. 이는 자동화 도구만으로는 복잡한 사이버 공격 시나리오를 완벽하게 테스트할 수 없다는 것을 의미합니다. 조직들은 자동화된 도구의 한계를 인식하고 추가적인 수동 펜테스팅이나 고급 시뮬레이션 기법을 병행해야 합니다. 이러한 접근 방식의 조합만이 포괄적인 보안 검증을 보장할 수 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/why-your-automated-pentesting-tool-just-hit-a-wall/",
-      "date": "2026-04-07"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "오픈클로 보안 자문의 경고, “AI는 이제 인간 정체성을 해킹한다”",
-      "summary": "오픈클로 보안 핵심 관리자가 짚어낸 오펜시브 AI 진화... 전통적 보안 스캐닝 무력화 경고“단 한 번의 침투 막아라”... 투명성·코드 리뷰 아우른 4단계 신뢰 프로그램 역설[보안뉴스 조재호 기자] “전통적 취약점 스캐닝의 사대는 완전히 끝났습니다. 앞으로 AI는 웹과 모바일을 넘어 인간의 정체성마저 해킹하는 포괄적 위협으로 진화할 것입니다.”최근 IT",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143025&kind=&sub_kind=",
-      "date": "2026-04-07"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "명지대 방산안보연구소·새솔테크, 국방 우주·모빌리티 AI 보안 협력",
-      "summary": "국방 우주·모빌리티 분야 AI·사이버보안 협력 및 인재 양성 협약 체결위성·드론 ISR 및 데이터 기반 보안 기술 공동 연구로 미래 전장 대응 역량 강화 추진[보안뉴스 강초희 기자] 명지대학교 방산안보연구소(소장 류연승)는 7일 새솔테크(대표 한준혁)와 ‘국방 우주 및 모빌리티 분야, AI·사이버보안 사업’을 목적으로 업무협약을 체결했다.이번 협약은 급변하",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143060&kind=&sub_kind=",
-      "date": "2026-04-07"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[배종찬의 보안 빅데이터] 미국과 미군 위협하는 이란 사이버 해킹 부대",
-      "summary": "2010년 스턱스넷 공격 이후 국가 역량 총동원... ‘디지털 정규군’으로 급성장빅데이터 연관어 분석 결과 ‘강력한 무기”, “우위” 등 사이버 안보 위기감 뚜렷[보안뉴스= 배종찬 인사이트케이 연구소장] 현대 전쟁의 패러다임이 근본적으로 변하고 있다. 과거의 전쟁이 화력과 기동력, 즉 눈에 보이는 물리적 파괴력에 의존했다면, 오늘날의 전쟁은 네트워크와 데이",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143056&kind=&sub_kind=",
-      "date": "2026-04-07"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "파수 AI, ‘글로벌 인포섹 어워드’ 2관왕... “글로벌 AX 보안 선도”",
-      "summary": "미국 사이버 디펜스 매거진 주최 어워드서 독창적 기술력 및 혁신성 인정받아챗GPT 등 서비스형 AI 정보 유출 막는 ‘AI-R DLP’와 제로트러스트 기반 ‘FED’ 성과 돋보여[보안뉴스 조재호 기자] 파수 AI가 ‘글로벌 인포섹 어워드 2026’에서 2관왕을 차지하며 AI 기술력을 국제 무대에 입증했다. 회사는 이번 수상 실적을 교두보 삼아 전 세계 기업",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143058&kind=&sub_kind=",
-      "date": "2026-04-07"
     }
   ],
-  "totalItems": 1472,
+  "totalItems": 1484,
   "hasArchive": true
 }
