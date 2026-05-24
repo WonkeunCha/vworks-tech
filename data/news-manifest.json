@@ -3,18 +3,18 @@
     {
       "key": "2026-Q2",
       "file": "news-2026-Q2.json",
-      "count": 1268,
+      "count": 1273,
       "sources": {
-        "보안뉴스": 433,
-        "SecurityWeek": 311,
-        "BleepingComputer": 363,
+        "보안뉴스": 435,
+        "SecurityWeek": 312,
+        "BleepingComputer": 365,
         "HPE": 17,
         "VAST Data": 28,
         "Dell": 116
       },
       "dateRange": {
         "from": "2026-04-02",
-        "to": "2026-05-23"
+        "to": "2026-05-24"
       }
     },
     {
@@ -43,6 +43,6 @@
       }
     }
   ],
-  "totalItems": 1647,
-  "lastUpdated": "2026-05-23T03:31:30.354Z"
+  "totalItems": 1652,
+  "lastUpdated": "2026-05-24T03:52:06.135Z"
 }
