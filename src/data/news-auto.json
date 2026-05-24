@@ -1646,9 +1646,59 @@
     "http://www.boannews.com/media/view.asp?idx=143776&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143778&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143766&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=143773&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=143773&kind=&sub_kind=",
+    "https://www.securityweek.com/underminr-vulnerability-lets-attackers-hide-malicious-connections-behind-trusted-domains/",
+    "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
+    "https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/",
+    "http://www.boannews.com/media/view.asp?idx=143786&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143785&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "미토스가 불러온 보안 위협의 시대, ‘소버린 AI 보안 전략’이 필요하다",
+      "summary": "국회입법조사처, ‘미토스’ 사태와 AI 보안 위협 대응 전략 간담회“소버린 AI 전략 넘어서는 ‘소버린 AI 보안 전략’ 조속히 추진해야”[보안뉴스 원병철 기자] 미토스의 등장 이후 챗GPT 5.5 사이버, 마이크로소프트 MDASH 등 다양한 사이버보안 강화 AI가 등장하면서 전 세계의 이목이 쏠리고 있지만, 아직 특정 기업에만 공급되는 등 불균형 문제가",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143786&kind=&sub_kind=",
+      "date": "2026-05-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "'Underminr' 취약점, 공격자가 악성 연결을 신뢰할 수 있는 도메인 뒤에 숨길 수 있게 해",
+      "summary": "'Underminr'라는 새로운 DNS 취약점이 발견되었으며, 이를 통해 공격자들이 악의적인 네트워크 연결을 신뢰할 수 있는 도메인 뒤에 위장할 수 있습니다. 이 취약점은 CDN(콘텐츠 전송 네트워크) 관련 DNS 설정에서 비롯된 것으로, 보안 감시 시스템을 우회하는 데 악용될 수 있습니다. 공격자들은 이를 이용하여 정상적인 트래픽으로 위장한 악성 통신을 수행하고 탐지를 회피할 수 있습니다. 이 취약점은 네트워크 보안의 중대한 위협이 되며, 기업들은 즉각적인 패치 및 보안 대책이 필요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/underminr-vulnerability-lets-attackers-hide-malicious-connections-behind-trusted-domains/",
+      "date": "2026-05-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Laravel Lang 패키지 탈취로 자격증명 탈취 악성코드 배포",
+      "summary": "Laravel Lang 로컬라이제이션 패키지를 대상으로 한 공급망 공격이 발생했습니다. 공격자들이 GitHub 버전 태그를 악용하여 Composer 패키지를 통해 악성 코드를 배포함으로써 개발자들이 자격증명 탈취 악성코드에 노출되었습니다. 이번 사건은 소프트웨어 개발 과정에서 의존성 패키지의 보안 위험성을 여실히 보여주는 사례입니다. 공격자는 정교한 정보탈취 악성코드를 이용하여 개발자들의 민감한 자격증명 정보를 노리고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
+      "date": "2026-05-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "이탈리아, 스트리밍 인증코드를 탈취한 CINEMAGOAL 불법복제 앱 적발",
+      "summary": "이탈리아 당국이 Netflix, Disney+, Spotify 등 다양한 스트리밍 플랫폼에 불법적으로 접근하게 해주는 CINEMAGOAL 앱을 중심으로 한 불법복제 생태계를 해체했습니다. 이 앱은 사용자들의 스트리밍 서비스 인증 코드를 탈취하여 무단으로 구독 계정에 접근할 수 있게 했습니다. 당국의 이번 적발은 광범위한 수사를 통해 불법 스트리밍 서비스의 전체 네트워크를 단속하는 것을 의미합니다. 이 사건은 스트리밍 서비스의 보안 위협과 인증 정보 탈취의 심각성을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/",
+      "date": "2026-05-23"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "사이버 위협에 지갑 여는 중소기업... 하지만 여전히 사후 대응에 머물러",
+      "summary": "경영 과제 순위에서 ‘데이터 보호’와 ‘사이버 보안’을 기업 성장 바로 다음 순위로 올라[보안뉴스 김형근 기자] 8개국 2200개 중소기업(SMB)의 60%가 향후 12개월 동안 사이버 보안 지출을 전격 확대할 계획이라고 글로벌 시장조사기관 IDC가 설문조사 결과를 인용해 발표했다. 다만, 이번 조사 결과에 따르면 많은 중소기업이 예산 증액 조치에도 불구",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143785&kind=&sub_kind=",
+      "date": "2026-05-23"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "다크웹 브로커들의 악질적인 개인정보 ‘재포장 사기’ 기승",
@@ -10603,53 +10653,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143165&kind=&sub_kind=",
       "date": "2026-04-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[2026 공급망 보안 솔루션 리포트] AI가 찾은 취약점에 공급망 뚫리면... 국가 안보 위기 직결",
-      "summary": "주간 다운로드 1억건 ‘액시오스’ 공급망 공격... 오픈AI도 영향 받아미국, 유럽 등 국가 안보 차원에서 공급망 보안 접근, 규제 강화 AI 기술 발달, 오픈소스 활용 확대로 위협 증가... 진화된 공급망 보안 체계 구축해야 공급망 보안 솔루션 전문업체 집중 분석: 레드펜소프트, 시큐리티스코어카드[보안뉴스 한세희 기자] 최근 주간 다운로드 횟수가 1억",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143094&kind=&sub_kind=",
-      "date": "2026-04-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "미래에 대비한 IT 조직 구축하기",
-      "summary": "AI부터 스토리지 용량, 리더십의 진화하는 특성까지 다양한 주제들이 있지만, 이 모든 것은 한 가지로 귀결됩니다. 바로 다가올 미래에 대비할 수 있는 IT 조직을 어떻게 구축할 것인가 하는 문제입니다. 동시에 매일 소비자를 위해 혁신하고 있는 팀들을 어떻게 지원할 것인지도 중요한 과제입니다. IT 조직은 기술적 변화뿐만 아니라 조직문화와 리더십도 함께 발전시켜야 합니다. 이를 통해 조직 전체가 미래의 도전과제에 효과적으로 대응할 수 있는 역량을 갖춰야 합니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/building-an-it-organization-that-s-ready-for-what-s-coming/",
-      "date": "2026-04-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "미디어 아카이브는 작동하지만 아키텍처가 조용히 문제를 일으킬 수 있습니다",
-      "summary": "대규모 환경에서 카탈로그 인텔리전스는 애플리케이션 내에만 존재할 수 없습니다. 페타바이트 규모의 미디어 라이브러리는 스토리지, 메타데이터, 보안 및 MAM 시스템 간의 불일치를 노출시키며 운영 위험을 초래합니다. AI는 도구가 아닌 아키텍처를 제한 요소로 만듭니다. 고급 검색 및 데이터 보강은 스토리지, 메타데이터, 접근 제어 및 인덱싱이 공유 플랫폼 서비스로 일치할 때만 작동합니다. Dell은 통합된 플랫폼 중심 모델을 제공하며, PowerScale/ObjectScale과 Dell AI Data Platform을 통해 MAM 시스템이 지속적으로 보강되는 공유 카탈로그를 활용할 수 있도록 하여 복잡성을 줄입니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/your-media-archive-still-works-but-your-architecture-may-be-quietly-undermining-it/",
-      "date": "2026-04-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Dell에서 합격하기: 채용담당자 가이드",
-      "summary": "Dell의 인턴 운영 리더인 Natalie Anderson 채용담당자로부터 꿈의 직무를 얻기 위한 상위 팁을 배웁니다. Dell에서의 성공은 운에 달려 있지 않으며, 오직 당신이 어떻게 임하는지에 달려 있습니다. Natalie는 7년 반 동안 Dell Technologies에서 영업, 인재 영입, 신입 인재 부문 등 다양한 분야를 거치며 성장했습니다. 기술 능력도 중요하지만, 명확한 소통, 적응력, 회복력 같은 소프트 스킬이 실제로 지원자를 돋보이게 합니다. Dell은 편안함을 벗어나려는 의지, 지속적인 학습 의욕, 긍정적 변화의 주체로서의 행동을 갖춘 인재를 가치 있게 평가합니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/ace-your-application-a-recruiter-s-guide-to-getting-hired-at-dell/",
-      "date": "2026-04-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Dell이 산업용 AI를 현실화하는 방법",
-      "summary": "Dell은 산업용 AI가 파일럿 단계를 넘어 배포가 간편하고, 공장 전역에 확장 가능하며, 설계 단계부터 보안이 내장된 실제 프로덕션 레벨의 AI를 제조업에 제공하는 방법을 보여주고 있습니다. 혁신적인 파트너 생태계와 함께 Dell은 협업을 측정 가능한 산업 성과로 전환하고 있습니다. AI가 초기 배포에 최적화되고, 엣지와 엔터프라이즈에 걸쳐 원활하게 확장되며, 설계 단계부터 보안이 확보될 때, AI는 약속에서 현실로 전환됩니다. Dell의 광범위하고 통합된 포트폴리오를 활용하여 제조업체들이 실질적인 과제를 대규모로 해결하는 실제 사례들은 제조 엣지와 분산 데이터 센터용으로 특별히 설계된 Dell의 완전한 스택 솔루션이라는 핵심 차별화 요소를 강조합니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/how-dell-is-making-industrial-ai-real/",
-      "date": "2026-04-14"
     }
   ],
-  "totalItems": 1647,
+  "totalItems": 1652,
   "hasArchive": true
 }
