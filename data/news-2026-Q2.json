@@ -3,6 +3,177 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "117개 잠복 기법 잡아낸다... 헥사스트라이크, 차세대 포렌식 툴 ‘파시스턴스 스나이퍼’ 공개",
+      "summary": "윈도우·리눅스·맥 대상117개 지속성 악성 기법 식별 지원포렌식 이미지·KAPE 덤프 분석 기반... DLL 프록싱·LOLBin 등 탐지 강화YAML 기반 규칙 설정·MITRE ATT&CK 연동 통해 IR 대응 효율성 높여[보안뉴스 김형근 기자] 보안 기업 헥사스트라이크(Hexastrike)가 오프라인 시스템에 숨은 지속성 악성코드를 추적하는 보안 도구를",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143800&kind=&sub_kind=",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "누리랩, 대량문자 전송자격인증제 선제 대응 나선다...AskURL 지원 확대",
+      "summary": "문자재판매사 및 중계사 대상 피싱·불법 광고 사전 차단 체계 제공API 및 구축형 연동 지원 통해 발송 업체의 컴플라이언스·증빙 관리 지원[보안뉴스 조재호 기자] 대량문자 전송자격인증제 시행으로 문자 발송 사업자의 보안 책임이 강화되는 가운데, 누리랩이 악성 URL 탐지 솔루션 애스크URL(AskURL)을 통한 실무 지원에 나선다.누리랩은 26일 문자재판매",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143795&kind=&sub_kind=",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "그룹아이비(Group-IB), ‘AWS 금융 서비스 컴피턴시’ 획득",
+      "summary": "AWS 검증한 금융 사이버보안 전문사 인정...은행·보험·결제사 대상 예측형 방어 체계 제공 [보안뉴스 원병철 기자] 디지털 범죄를 조사, 예방 및 대응하기 위한 사이버보안 기술 분야의 글로벌 선도적 기업인 그룹아이비(Group-IB, 지사장 김기태)는 ‘AWS 금융 서비스 컴피턴시’(AWS Financial Services Competency)를 획득했다",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143803&kind=&sub_kind=",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "여의시스템, Moxa 산업용 네트워크 기술 교육 프로그램 공식 운영",
+      "summary": "산업용 네트워크 엔지니어 위한 Moxa 공식 인증 자격 교육 프로그램[보안뉴스 강초희 기자] 여의시스템(공동대표 성명기·성제현)이 글로벌 산업용 통신 분야 리더 Moxa의 공식 인증 기술 교육 프로그램 ‘MXCx’(Moxa Certification and Training Service)를 국내에서 정식 운영한다. MXCx는 산업용 통신 네트워크의 설계·구축",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143793&kind=&sub_kind=",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "넷앤드, ‘2026 파트너 데이’ 성료... 파트너와 동반성장·EGS 실천",
+      "summary": "단순한 비즈니스 교류 넘어 파트너사와 함께 나눔 활동 실천하는 ESG 행사로 자리매김2026 파트너 정책, 자사 대표 솔루션 ‘HIWARE’의 고도화된 신규 기능 및 파트너 영업 전략 공유[보안뉴스 원병철 기자] 통합 접근제어 및 계정관리(IAM) 솔루션 전문기업 넷앤드(대표 신호철)가 지난 21일 주요 파트너를 초청해 ‘2026년 넷앤드 파트너 데이’(P",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143801&kind=&sub_kind=",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“무엇이 어디에 있는지 알아야 보안도 시작”... 다온기술, RiskMap 1.6 출시",
+      "summary": "N2SF·망 분리 전환 시대에 맞춰 백업·복구, 자산 수집 중계 서버, macOS 에이전트 지원[보안뉴스 원병철 기자] 다온기술은 사이버 자산 관리 플랫폼 ‘RiskMap 1.6 버전’을 출시했다고 밝혔다. 이번 업데이트는 단순한 기능 추가가 아니라, 실제 보안 운영 환경에서 반복적으로 제기되는 문제를 반영한 릴리즈다. 특히 장애 발생 시 빠른 복구, 지사",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143797&kind=&sub_kind=",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“단일 인증 넘어 통합 플랫폼으로” 라온시큐어, 디지털 신뢰 인프라 구축",
+      "summary": "블록체인 DID 기술 결합해 신원 확인과 자격 검증 아우르는 전략 추진김창수 본부장 “금융 및 공공 분야 인증 수요 변화에 선제적 대응할 것”[보안뉴스 조재호 기자] 라온시큐어가 공공 마이데이터 기반 비대면 서비스 확산에 맞춰 자사 통합인증 서비스 ‘옴니원 CX’를 앞세워 금융권 디지털 인증 시장 공략에 속도를 내고 있다.라온시큐어는 케이뱅크·BC카드·KB",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143794&kind=&sub_kind=",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“기술유출의 핵심은 사람” 산업기술보호협회, 맞춤형 보안교육 확대",
+      "summary": "지난해 기술유출 범죄 82.7%가 내부자 소행... 인적 관리 취약성 대두국가핵심기술 집중교육 및 CSO 양성교육 등 실무 중심 프로그램 운영[보안뉴스 조재호 기자] 고도화되는 산업기술 유출 사고를 막기 위해 시스템 구축을 넘어 기업 내부 인력을 대상으로 한 맞춤형 보안 교육의 중요성이 강조되고 있다.한국산업기술보호협회 산하 산업보안교육원은 기술보호의 핵심",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143792&kind=&sub_kind=",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "민관 집단지성으로 해킹 막는다... 美 CISA 실전형 제보 플랫폼 가동",
+      "summary": "외부 연구원과 기업 파트너가 직접 제보할 수 있는 새로운 보안 경로 신설AI 동원해 무차별 취약점 찾아내는 해커 공격 속도에 대응한 조치[보안뉴스 김형근 기자] 미국 연방 사이버보안 및 인프라보안국(CISA)이 정부 외부의 민간 보안 연구원과 기업 파트너들이 해킹 취약점을 직접 제보할 수 있는 새로운 보안 경로를 개방했다.이번 조치는 해커들이 실제로 악용",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143790&kind=&sub_kind=",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "시놀로지, 액티브-액티브 NVMe 엔터프라이즈 스토리지 솔루션 출시",
+      "summary": "듀얼 컨트롤러 아키텍처 기반의 4U 섀시에 48개의 NVMe SSD 베이 탑재최대 7개의 확장 유닛 추가로 최대 1.65PB의 원시 용량 및 2048GB 메모리 확장[보안뉴스 엄호식 기자] 시놀로지(Synology)가 자사 최초의 액티브-액티브 올플래시 NVMe 엔터프라이즈 스토리지 솔루션 ‘PAS7700’의 출시를 발표했다. PAS7700은 고성능과 높은",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143791&kind=&sub_kind=",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Ghost CMS 취약점으로 700개 이상 웹사이트 해킹",
+      "summary": "Ghost CMS의 보안 취약점이 악용되어 700개 이상의 웹사이트가 해킹당했습니다. SecurityWeek에서 보도한 이 사건은 CMS 플랫폼의 심각한 보안 위험을 드러냅니다. 해당 취약점은 공격자들이 다수의 Ghost 기반 웹사이트에 접근하는 데 활용되었습니다. 이번 대규모 해킹 사건은 CMS 사용자들에게 즉각적인 업데이트와 보안 조치의 필요성을 강조합니다. Ghost 플랫폼 운영자들은 영향받은 웹사이트 보호를 위해 긴급 대응을 권고받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ghost-cms-vulnerability-exploited-to-hack-over-700-websites/",
+      "date": "2026-05-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "종양학 연구소, 데이터 유출 사건 공개",
+      "summary": "종양학 연구소(The Oncology Institute)가 제3자 관련 데이터 유출 사건을 공개했습니다. 이 사건은 이전에 공개된 사이버보안 사건과 관련이 있는 것으로 알려져 있습니다. 해당 데이터 유출로 인해 환자의 개인정보가 영향을 받았을 가능성이 있습니다. 보건의료 기관의 데이터 보안이 중요한 이슈로 대두되고 있습니다. SecurityWeek에 따르면 이 사건은 2026년 5월 25일에 보도되었습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/oncology-institute-discloses-third-party-data-breach/",
+      "date": "2026-05-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "리치몬드 방사선과 의료 협회, 266,000명이 데이터 유출 피해",
+      "summary": "리치몬드 방사선과 의료 협회(Radiology Associates of Richmond)에서 266,000명의 개인 정보가 포함된 데이터 유출 사건이 발생했습니다. 이번 보안 침해 사건으로 환자들의 민감한 의료 정보가 노출될 수 있는 위험에 처했습니다. SecurityWeek에서 보도한 이 사건은 의료 기관에 대한 사이버 공격의 심각성을 다시 한번 드러냈습니다. 해당 의료 기관은 피해자들에게 통지 절차를 진행 중이며, 관련 당국에 사건을 보고한 것으로 알려졌습니다. 이 사건은 의료 부문의 데이터 보안 강화 필요성을 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/266000-affected-by-data-breach-at-radiology-associates-of-richmond/",
+      "date": "2026-05-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Anthropic의 Mythos, 1,000개 오픈소스 프로젝트에서 23,000개 잠재적 취약점 탐지",
+      "summary": "Anthropic이 개발한 AI 보안 도구인 Mythos가 1,000개의 오픈소스 소프트웨어(OSS) 프로젝트를 대상으로 한 조사에서 23,000개의 잠재적 보안 취약점을 탐지했다. 이는 AI 기반 보안 분석 도구가 대규모 오픈소스 생태계의 보안 위험을 식별하는 데 얼마나 효과적인지를 보여주는 사례다. 이러한 발견은 오픈소스 프로젝트의 보안 강화와 취약점 관리의 중요성을 강조한다. Mythos를 통한 체계적인 취약점 탐지는 개발자와 조직들이 보안 위협에 더욱 신속하게 대응할 수 있도록 돕는다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/anthropic-mythos-detected-23000-potential-vulnerabilities-across-1000-oss-projects/",
+      "date": "2026-05-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Laravel-Lang 패키지가 악성코드 배포를 위해 손상됨",
+      "summary": "Laravel 개발자들이 많이 사용하는 Laravel-Lang 패키지가 해커들에 의해 악성코드 배포 목적으로 손상되었습니다. 공격자들은 Git 태그를 모두 재작성하여 패키지에 악성코드를 삽입했으며, 이는 공급망 공격의 형태로 분류됩니다. 이 사건은 오픈소스 패키지를 통한 광범위한 악성코드 배포 위험성을 드러내고 있습니다. 개발자들은 의존성 있는 패키지들에 대해 각별한 주의가 필요하며, 정기적인 보안 감사와 업데이트 검증이 중요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/laravel-lang-packages-poisoned-for-malware-delivery/",
+      "date": "2026-05-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "DocketWise 데이터 유출, 143,000명 영향",
+      "summary": "DocketWise에서 2025년 10월에 발생한 데이터 유출 사고로 143,000명의 개인정보가 유출되었다. 유출된 정보에는 개인 정보, 금융 정보, 의료 정보 등이 포함되어 있다. 이번 사고는 금융 및 의료 부문에 종사하는 수많은 사람들에게 영향을 미쳤다. 피해자들은 신원 도용 및 금융 사기의 위험에 노출되었다. DocketWise는 해당 사건을 공식적으로 인정하고 영향을 받은 사용자들에게 통지했다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/docketwise-data-breach-impacts-143000/",
+      "date": "2026-05-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "메갈로돈 공급망 공격으로 5,500개 이상의 깃허브 저장소 감염",
+      "summary": "보안 위협으로 분류된 '메갈로돈(Megalodon)' 공급망 공격이 깃허브 플랫폼을 통해 5,500개 이상의 저장소를 감염시켰다. 이 대규모 공격은 애플리케이션 보안과 공급망 보안에 심각한 위협을 가하고 있으며, 개발자 생태계 전반에 광범위한 영향을 미치고 있다. 해당 공격은 깃허브 저장소를 악용하여 악성 코드를 배포하는 전형적인 공급망 공격 방식으로 진행되었다. 보안 연구원들은 이 사건을 주시하고 있으며, 개발자들에게 즉시 대응 조치를 권고하고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/over-5500-github-repositories-infected-in-megalodon-supply-chain-attack/",
+      "date": "2026-05-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Anthropic의 제한된 Claude Mythos 모델이 Claude Code에 출시될 예정",
+      "summary": "Anthropic이 4월에 발표한 제한된 모델인 Mythos를 공개적으로 출시할 준비를 하고 있는 것으로 보입니다. 이 모델은 개인 및 공공 소프트웨어에 심각한 보안 위험을 초래할 수 있는 것으로 알려져 있습니다. Claude Code 플랫폼을 통해 Mythos 모델이 일반 사용자에게 제공될 가능성이 제기되고 있습니다. 이는 사이버보안 커뮤니티에서 우려를 야기하고 있으며, 광범위한 소프트웨어 취약점 노출 위험이 있을 수 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/",
+      "date": "2026-05-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "FBI, Microsoft 365 계정을 노린 Kali365 피싱 서비스 경고",
+      "summary": "FBI가 Microsoft 365 계정을 탈취하는 데 사용되는 Kali365 피싱 서비스형(PhaaS) 플랫폼에 대해 경고를 발표했습니다. 이 서비스는 OAuth 기기 코드 인증을 악용하여 세션 토큰을 탈취하고 다중 인증(MFA)을 우회하는 방식으로 작동합니다. Kali365는 공격자들이 쉽게 Microsoft 365 계정에 접근할 수 있도록 하는 탈취 도구로 운영되고 있습니다. 이 위협은 기업 사용자들의 계정 보안에 심각한 위험을 초래할 수 있습니다. FBI는 사용자들에게 MFA 활성화 및 의심스러운 로그인 활동 모니터링을 강화할 것을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-kali365-phishing-service-targeting-microsoft-365-accounts/",
+      "date": "2026-05-25"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "[디지털 문단속] #3. 방치된 공유기, 해커의 놀이터 된다... “펌웨어 업데이트 필수”",
       "summary": "공유기 펌웨어 최신 상태 유지해야신규 취약점 막고 디도스 공격 좀비화 전면 차단 가능[보안뉴스 조재호 기자] 우리의 일상을 편리하게 만들어주는 사물인터넷(IoT) 기기가 내 사생활을 훔쳐보는 눈과 귀로 변할 수도 있다. IoT란 거실의 스마트 TV부터 로봇청소기, 홈캠 등 집안의 다양한 사물이 인터넷으로 연결되어 데이터를 주고받는 통신 기술을 뜻한다. 이처",
       "category": "보안",
@@ -11496,9 +11667,9 @@
     }
   ],
   "sources": {
-    "보안뉴스": 438,
-    "BleepingComputer": 366,
-    "SecurityWeek": 312,
+    "보안뉴스": 448,
+    "SecurityWeek": 319,
+    "BleepingComputer": 368,
     "HPE": 17,
     "VAST Data": 28,
     "Dell": 116
