@@ -3,6 +3,321 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "“K-인증, 글로벌 표준으로” 한국디지털인증협회, 염흥열 신임 회장 취임",
+      "summary": "국제전기통신연합 전기통신표준화부문(‘ITU-T’) 의장 출신의 세계적 정보보호 석학 영입美 연방수사국(FBI) 협력 이끌어낸 글로벌 네트워크 바탕으로 회원사 해외 진출 집중 지원[보안뉴스 조재호 기자] 한국디지털인증협회가 세계적인 정보보호 전문가를 수장으로 선임하고, AI 시대 디지털 신원 인프라의 국제 표준화 주도에 박차를 가한다.한국디지털인증협회는 염흥",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143920&kind=&sub_kind=",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "SK쉴더스, 전국 360개 대학 사이버보안 체질 바꾼다... AI 통합관제 가동",
+      "summary": "한국교육정보화재단 및 이스케이프솔루션과 3자 업무협약 체결대학 개방형 네트워크 특성 고려한 공격 표면 관리(ASM) 및 24시간 관제 제공[보안뉴스 조재호 기자] SK쉴더스의 AI 관제센터 ‘시큐디움’을 주축으로 한 24시간 무중단 사이버 방어망이 전국 대학에 이식된다. SK쉴더스가 전국 대학의 사이버보안 방어막 강화를 위해 한국교육정보화재단, 이스케이프솔",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143918&kind=&sub_kind=",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[인터뷰] 빅터 왕 시놀로지 한국 사업본부 총괄, 한국 시장에서 데이터 보안 혁신 이끈다",
+      "summary": "AI와 불변 백업, 랜섬웨어 시대의 해법시놀로지, 액티브프로텍트(ActiveProtect)로 데이터 보안 기준 제시 [타이베이=보안뉴스 엄호식 기자] 랜섬웨어 공격이 기업의 최대 위협으로 떠오른 지금, 시놀로지는 불변성 백업과 AI 기반 탐지 기술로 차별화된 해법을 제시한다. 대만 타이베이 본사에서 만난 빅터 왕(Victor Wang) 시놀로지 한국 사업본",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143911&kind=&sub_kind=",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "AI시스템-DS&P 연구회, ‘신뢰가능한 피지컬 AI’ 공동 워크샵 개최",
+      "summary": "6월 18~20일 강원 홍천 소노벨 비발디파크서보안·지능·자율시스템 아우르는 피지컬 AI 신뢰성 논의[보안뉴스 한세희 기자] 한국정보처리학회 AI시스템 연구회와 DS&P(Data Security & Privacy)가 18-20일 강원도 홍천 소노벨 비발디파크에서 ‘2026 DS&P 연구회 및 AI시스템 연구회 공동 워크샵’을 개최한다. 온라인 병행 방식으로",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143919&kind=&sub_kind=",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[미토스 충격] 유럽 사이버보안청, 미토스 접근 권한 얻는다",
+      "summary": "EU 기관 중 처음으로 프로젝트 글래스윙 참여[보안뉴스 한세희 기자] 앤트로픽이 유럽연합(EU)에 자사 AI 모델 ‘미토스’ 접근 권한을 주기로 했다고 블룸버그가 1일(현지시간) 보도했다. 유럽연합 사이버보안청(ENISA)이 앤트로픽이 운영하는 미토스 초기 접근 프로그램 ‘프로젝트 글래스윙’에 참여하게 된다. 지난주 EU 관계자들이 미국 샌프란시스코에서 앤",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143917&kind=&sub_kind=",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "CPO 독립성 강화·ISMS-P 의무화... 개인정보법 개정안 입법예고",
+      "summary": "주요 개인정보처리자, ‘CPO’ 지정 시 이사회 의결 및 1개월 내 신고 의무매출 1조원 이상 대기업 및 공공시스템 등 2028년까지 ISMS-P 인증 필수사후 수습 관행 깨고 유출 ‘가능성’ 인지 즉시 72시간 내 통지 의무화[보안뉴스 조재호 기자] 개인정보보호위원회는 개인정보 유출 사고에 대한 예방과 대응을 강화하고 국민의 권리를 보다 두텁게 보호하기",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143914&kind=&sub_kind=",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "센스톤, 현대자동차그룹으로부터 전략적 투자 유치",
+      "summary": "제조 현장 SDF 전환 가속화 속, OTAC TAG 기반 OT 엔드포인트 보안 기술 주목글로벌 제조 현장을 운영하는 현대자동차그룹의 전략적 투자 참여스마트팩토리·SDF·원격 유지보수 확대 속 제조업 OT 보안 중요성 부각한국수자원공사·글로벌 제조 현장 공급 기반으로 OT 보안 사업 확대 [보안뉴스 원병철 기자] 인증보안 전문기업 센스톤(대표 유창훈)은 현대",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143915&kind=&sub_kind=",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“공공 병원 AI 클라우드 개발에 ‘N2SF’가 없다니”... NIA 지원 사업 논란",
+      "summary": "[3줄 요약]1. “AI 클라우드 혁신 취지 좋지만 보안 고려 미흡”2. NIA “N2SF는 조달 단계서... 사업 범위 외 사항”3. “개발 단계부터 ‘보안 내재화’ 必... 따로 하면 효율·안전↓”[보안뉴스 강현주 기자] 과기정통부 산하 한국정보지능사회진흥원(NIA)의 ‘공공 병원정보시스템 AI 클라우드 개발 검증 지원’ 사업을 두고 보안에 대한 고려가",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143884&kind=&sub_kind=",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관-28] 호미로 막을 것을 가래로 막는다(8)-보안 프로그램 종료 안 하면 생기는 위험",
+      "summary": "인터넷뱅킹 종료 후 보안 프로그램을 완전히 종료하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐,",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143253&kind=&sub_kind=",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[PIS FAIR 2026 미리보기] 지슨, 무선백도어 해킹 탐지 시스템 ‘Alpha-H’",
+      "summary": "비인가 무선 신호 상시 탐지 및 분석... 비표준·비인가 RF 신호 기반 침투 위협 탐지금융권, 공공, 국방 등 분야에서 기술력 입증[보안뉴스 한세희 기자] 융합 보안 기업 지슨(대표 한동진)은 22-23일 코엑스에서 개최되는 PIS FAIR 2026(제15회 개인정보보호페어 & CPO 워크숍)에 참가해 ‘무선백도어 해킹 탐지 시스템 Alpha-H’를 선보",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143903&kind=&sub_kind=",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "가속화된 AI와 간소화된 IT로 비즈니스 역량 강화",
+      "summary": "Dell Services는 기업들이 AI 기술을 빠르게 도입하고 활용할 수 있도록 지원하는 혁신적인 솔루션을 발표했습니다. Dell Technologies World에서 공개된 이 서비스들은 IT 인프라의 복잡성을 줄이고 운영 효율성을 높이는 데 중점을 두고 있습니다. 조직들은 이러한 서비스를 통해 AI 도입 과정을 단순화하고 시간 대비 가치를 극대화할 수 있습니다. 또한 Dell의 전문 서비스 팀이 제공하는 맞춤형 지원으로 비즈니스 목표 달성을 가속화할 수 있습니다. 이러한 종합적인 솔루션은 기업의 디지털 혁신 여정을 더욱 효과적으로 지원합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/empower-your-business-with-accelerated-ai-and-streamlined-it/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell, NVIDIA Vera Rubin 플랫폼 기반 시스템 최초 출시",
+      "summary": "Dell은 NVIDIA의 Vera Rubin 플랫폼을 기반으로 구축된 시스템을 최초로 출시함으로써 역사를 기록했습니다. 이는 AI 규모 확장의 경제성이 근본적으로 변화했음을 의미합니다. 이번 출시를 통해 Dell은 AI 인프라 분야에서 산업 리더십을 강화하고 있습니다. Vera Rubin 플랫폼은 NVIDIA의 최신 기술을 활용하여 성능과 효율성을 획기적으로 개선했습니다. CoreWeave와의 협력으로 엔터프라이즈 고객들은 더욱 강력하고 경제적인 AI 솔루션을 이용할 수 있게 되었습니다. 이러한 혁신은 AI 채택의 가속화와 대규모 배포의 실현 가능성을 한 단계 높여줍니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/dell-first-to-ship-systems-built-on-nvidia-vera-rubin-platform-to-coreweave/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell과 NVIDIA, 크리에이터를 위한 강력한 성능 제공",
+      "summary": "Dell의 XPS 16 Creator Edition은 NVIDIA RTX Spark 기술을 탑재하여 전문 크리에이터들을 위한 최고 수준의 성능을 제공합니다. 이 신규 노트북은 고성능 GPU와 최신 프로세서를 결합하여 비디오 편집, 3D 렌더링, AI 작업 등의 요구도 높은 크리에이티브 작업을 빠르고 효율적으로 처리할 수 있습니다. Dell과 NVIDIA의 협력으로 만들어진 이 장치는 포트폴리오 품질의 결과물을 더욱 빠르게 완성할 수 있도록 설계되었습니다. 프로페셔널 크리에이터들은 XPS 16 Creator Edition을 통해 생산성을 극대화하고 창의적인 작업에 더욱 집중할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/dell-and-nvidia-bring-serious-performance-to-creators/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 2026 회계연도 2분기 실적 발표",
+      "summary": "HPE는 2026년 4월 30일 종료된 2분기 재무 실적을 발표했습니다. 회사는 기록적인 수익, 예상을 초과하는 수익성, 그리고 증가한 자유 현금 흐름을 기록했으며, 이는 강력한 실행 능력과 전사적 건전한 수요를 반영하고 있습니다. CEO 안토니오 네리는 고객들이 인프라 현대화와 AI 확장에 지속적으로 투자하고 있으며, HPE의 통합 네트워킹 포트폴리오의 강점과 주주들에게 제공하는 가치를 보여준다고 평가했습니다. 이번 실적은 회사의 강한 경영 성과와 시장에서의 긍정적인 입지를 나타냅니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/06/hpe-reports-fiscal-2026-second-quarter-results.html",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, NVIDIA-Vera CPU 탑재 서버 출시... 에이전틱 AI 맞춤형",
+      "summary": "HPE가 NVIDIA Vera CPU 기반의 HPE ProLiant Compute DL394 Gen12 서버를 출시했다고 발표했다. 이 차세대 서버는 신흥 고성능 AI 및 데이터 처리 워크로드의 컴퓨팅 수요를 충족하도록 엔지니어링되었으며, 업계 최고 수준의 에이전틱 AI CPU 성능, 메모리 대역폭 및 저지연을 제공한다. 고급 아키텍처 기반으로 구축된 이 플랫폼은 HPE의 엔터프라이즈급 통합 라이트아웃(iLO) 보안 기능도 포함하고 있다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/05/hpe-introduces-cpu-server-with-nvidia-vera-cpu-purpose-built-for-agentic-ai.html",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, Chris Hsu를 이사회에 임명",
+      "summary": "HPE는 2026년 6월 1일 엘리엇 인베스트먼트 매니지먼트의 파트너인 Christopher Hsu를 이사회에 즉시 임명했다고 발표했습니다. Hsu는 이사회의 전략 위원회와 재무·투자 위원회에 참여하게 됩니다. 그는 엘리엇에서 포트폴리오 운영 담당자이자 사모펀드 공동리드를 맡고 있으며, 이전에는 Azibo의 CEO, Micro Focus International의 CEO를 역임했고 HPE와 Hewlett-Packard Company에서 리더십 직책을 보유했습니다. 현재 Nielsen과 Syneos Health 등 여러 회사의 이사회에 참여하고 있습니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/06/hpe-names-chris-hsu-to-board-of-directors.html",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST 제로 트러스트 에이전틱 AI: NVIDIA BlueField와 DOCA를 통한 보안 아키텍처",
+      "summary": "VAST Data의 AI 운영 체제는 에이전트 규모의 리스크 관리에 필요한 관찰성과 정책 엔진을 갖춘 검증된 제로 트러스트 기반을 제공합니다. VAST의 네이티브 에이전트 관찰성과 인라인 정책 집행을 NVIDIA BlueField-4 STX 및 NVIDIA DOCA 소프트웨어 플랫폼과 결합하면, 전체 파이프라인에 걸쳐 하드웨어로 격리된 보안 경계를 구축하여 기본 데이터 세트, 활성 추론 모델 및 자율 에이전트를 보호할 수 있습니다. 기존의 사용자 중심 보안 모델은 소프트웨어 에이전트가 인프라의 1급 사용자로 등장할 때 불충분하며, 에이전트는 머신 속도로 작동하고 프로그래밍 방식 자격증명을 사용하기 때문에 문제가 발생할 수 있습니다. VAST AI OS는 모든 에이전트 상호작용이 위임된 권한 하에 지속적으로 적용되는 정책으로 제한되는 제로 트러스트 모델을 통해 이를 해결합니다. 여러 팀이 클러스터를 공유할 때 암호화 격리는 그들의 데이터, 에이전트, 도구 및 상호작용을 서로 그리고 인프라 운영자로부터 분리합니다. VAST PolicyEngine은 에이전트, 도구 및 데이터 소스 간의 정보 흐름을 검사하고 제한하는 인라인 정책 집행 엔진으로 에이전트 시스템의 새로운 데이터 거버넌스 과제를 해결합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vast-zero-trust-agentic-ai-nvidia-bluefield-doca",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "WP Maps Pro 플러그인 취약점으로 워드프레스 사이트 탈취 시도",
+      "summary": "WP Maps Pro 워드프레스 플러그인의 보안 취약점이 악의적으로 악용되고 있습니다. 공격자들은 이 취약점을 이용하여 관리자 계정을 생성하고 취약한 워드프레스 사이트를 장악하고 있습니다. 이 플러그인의 보안 결함으로 인해 사이트 전체 제어권이 넘어갈 수 있는 심각한 상황이 발생하고 있습니다. SecurityWeek의 보도에 따르면 현재 이 취약점에 대한 실제 공격 사례들이 보고되고 있습니다. 워드프레스 사이트 운영자들은 즉시 플러그인을 업데이트하거나 대응책을 마련할 필요가 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/wp-maps-pro-vulnerability-exploited-to-take-over-wordpress-sites/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "네덜란드 경찰, 1,700만 대 규모 대형 봇넷 적발 및 해제",
+      "summary": "네덜란드 경찰이 1,700만 대의 감염된 컴퓨터, 스마트폰, 태블릿으로 구성된 대규모 봇넷을 적발하고 해제했습니다. 이번 작전은 전 세계적으로 수백만 개의 장치를 제어하던 대규모 사이버범죄 조직을 성공적으로 무력화시킨 것으로 평가됩니다. 봇넷은 스팸 전송, 악성코드 배포, 피싱 공격 등 다양한 악의적 활동에 사용되었던 것으로 알려져 있습니다. 이번 적발은 법 집행 기관의 국제적 협력과 사이버보안 인프라 모니터링의 중요성을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/dutch-police-dismantle-massive-17-million-device-botnet/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "공격자들의 표적이 된 Windows Netlogon 심각 취약점",
+      "summary": "Windows Netlogon의 심각도 높은 취약점(CVE-2026-41089)이 공격자들에 의해 악용되고 있습니다. 이 취약점은 원격 코드 실행(RCE)을 가능하게 하며, 공격자들이 적극적으로 이를 활용하고 있는 상황입니다. Netlogon은 Windows 도메인 환경에서 중요한 인증 메커니즘으로 사용되기 때문에 이 취약점의 악용은 매우 위험합니다. 마이크로소프트와 보안 업체들은 즉시 패치 적용을 권고하고 있으며, 조직들은 긴급히 시스템 업데이트를 수행할 필요가 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/critical-windows-netlogon-vulnerability-in-attackers-crosshairs/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "드라고스, xIoT 보안 기업 포스포러스 인수",
+      "summary": "사이버보안 기업 드라고스가 산업용 사물인터넷(xIoT) 보안 전문 기업 포스포러스를 인수했습니다. 이 인수는 드라고스의 산업제어시스템(ICS/OT) 및 사물인터넷 보안 포트폴리오를 강화하기 위한 전략적 움직임입니다. 포스포러스의 xIoT 보안 기술이 드라고스의 기존 역량과 결합되어 산업 부문의 연결된 디바이스 보안 솔루션을 더욱 강화할 것으로 예상됩니다. 이번 인수는 산업용 IoT 환경의 보안 위협이 증가하는 상황에서 이루어진 것입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/dragos-acquires-xiot-security-firm-phosphorus/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "펜타곤의 전장 AI 추진에 일부 군 지도자들 신중론 제기",
+      "summary": "미국 국방부(펜타곤)가 전장에서의 인공지능 도입을 추진하고 있는 가운데, 일부 군 지도자들이 주의를 촉구하고 있습니다. 이들은 전투 환경에서 AI 기술 활용의 잠재적 위험성과 예측 불가능한 결과에 대해 우려를 제기하고 있습니다. 군사 작전에 AI를 적용할 때 충분한 검증과 윤리적 검토가 필요하다는 입장입니다. 이는 기술 혁신과 안전성 사이의 균형을 맞추려는 국방부 내부의 논쟁을 반영하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/as-the-pentagon-pushes-for-battlefield-ai-some-military-leaders-urge-caution/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "19년 된 리눅스 커널 취약점, 시스템 루트 접근 노출",
+      "summary": "SecurityWeek에서 보도한 바에 따르면 19년간 발견되지 않았던 리눅스 커널의 오래된 취약점이 발견되어 시스템에 루트(관리자) 권한으로 접근할 수 있는 보안 위협이 제기되고 있습니다. 이 취약점은 CIFSwitch와 관련된 것으로 알려져 있으며, 영향받은 시스템의 보안성을 심각하게 위협할 수 있습니다. 해당 취약점은 리눅스 커널의 기본적인 기능 부분에 존재하는 것으로 보여 광범위한 시스템에 영향을 미칠 가능성이 있습니다. 보안 전문가들은 해당 취약점의 심각성으로 인해 긴급한 패치 적용을 권장하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/19-year-old-linux-kernel-vulnerability-exposes-systems-to-root-access/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "팔로알토 네트웍스 취약점, 공개 후 수주간 악용되고 있어",
+      "summary": "팔로알토 네트웍스 PAN-OS의 인증 우회 취약점(CVE-2026-0257)이 공개된 지 단 4일 만에 해커들에 의해 악용되기 시작했다. 이 취약점은 공개 이후 수주간 지속적으로 악용되어 심각한 보안 위협이 되고 있다. 공격자들은 이 인증 우회 결함을 통해 시스템에 무단으로 접근할 수 있게 되었다. 팔로알토 네트웍스는 영향을 받는 사용자들에게 즉시 패치 적용을 권고하고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/recent-palo-alto-networks-vulnerability-exploited-for-weeks/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "해커들이 ClickFix와 FakeUpdate 공격을 위해 수천 개의 웹사이트 탈취",
+      "summary": "DriveSurge로 추적되는 위협 행위자가 손상된 웹사이트를 이용하여 ClickFix와 FakeUpdate 기법을 통한 대규모 멀웨어 유포 캠페인을 운영 중이다. 이러한 공격은 사회공학 기법을 활용하여 사용자를 속이고 악성 소프트웨어를 설치하도록 유도한다. 초기 접근 브로커(IAB)로 알려진 이 위협 행위자는 수천 개의 정상 웹사이트에 침입하여 악성 콘텐츠를 배포하고 있다. 이는 웹 기반 보안 위협이 지속적으로 진화하고 있음을 보여주는 사례이다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Red Hat npm 패키지 30개 이상 침해, 개발자 인증정보 탈취 악성코드 배포",
+      "summary": "Red Hat의 @redhat-cloud-services 네임스페이스에 속한 30개 이상의 npm 패키지가 공급망 공격으로 침해되었습니다. 이번 공격에서는 Shai-Hulud 자격증명 탈취 악성코드의 새로운 변종인 'Miasma'가 배포되었습니다. 이 악성코드는 개발자의 중요한 인증정보를 탈취하기 위해 설계되었으며, npm 생태계를 통해 광범위한 영향을 미칠 수 있습니다. 이번 사건은 오픈소스 소프트웨어의 보안 위험성을 다시 한 번 입증하는 사례입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "스페인, 정부 직원 민감한 정보를 유출한 도싱 범인 체포",
+      "summary": "스페인 국가경찰이 국가사이버보안연구소(INCIBE)를 포함한 주요 국가기관 관계자들의 민감한 정보를 유출한 개인을 체포했다. 이 사건은 정부 기관의 직원들에 대한 개인정보가 온라인에서 공개되는 도싱(doxing) 행위와 관련된 것으로, 국가 보안에 심각한 위협이 되었다. 경찰은 유출된 정보와 관련된 장비를 압수하여 수사를 진행 중이다. 이번 체포는 공공기관에 대한 사이버 범죄와 개인정보 보호의 중요성을 다시 한번 강조하는 사건이다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/spain-arrests-doxer-leaking-sensitive-data-of-govt-employees/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "대시레인 비밀번호 관리자 사용자들이 브루트포스 공격으로 계정 잠금",
+      "summary": "대시레인(Dashlane) 비밀번호 관리자의 여러 사용자들이 브루트포스 공격으로 인해 자신의 계정에서 잠금 상태를 경험했습니다. 이 공격들은 먼 거리의 위치와 알려지지 않은 기기에서 로그인을 시도했습니다. 사용자들은 예상치 못한 접근 시도로부터 보호받기 위해 계정이 잠기게 되었습니다. 이는 비밀번호 관리 서비스의 보안이 점점 더 정교해진 사이버 공격의 위협에 노출되어 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/dashlane-password-manager-users-locked-out-by-brute-force-attacks/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "WordPress 멀웨어 캠페인, Steam 프로필에 악성코드 숨김",
+      "summary": "약 2,000개의 WordPress 웹사이트가 Steam 커뮤니티 프로필 댓글을 이용해 명령제어(C2) 데이터를 은폐하는 멀웨어에 감염되었습니다. 이 캠페인은 백도어 기반의 공격으로, 공격자들이 Steam의 프로필 댓글 섹션을 C2 통신 채널로 악용하고 있습니다. 감염된 WordPress 사이트들은 Steam 프로필에 숨겨진 악성 페이로드를 검색하고 실행하도록 조작되었습니다. 이러한 방식은 일반적인 보안 탐지를 우회하고 합법적인 플랫폼을 악용하는 정교한 공격 기법입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, Office 앱 및 Teams 파일 접근 문제 조사 중",
+      "summary": "마이크로소프트는 현재 진행 중인 사건으로 인해 Teams 협업 플랫폼과 Office 웹 클라우드 생산성 제품군 사용자들이 파일을 열 수 없는 문제를 보고했습니다. 이 장애로 인해 많은 사용자들이 업무에 영향을 받고 있습니다. 마이크로소프트는 해당 문제에 대한 조사를 진행 중이며, 상황을 모니터링하고 있습니다. 사용자들은 현재 파일 접근에 어려움을 겪고 있으며, 회사의 빠른 해결을 기대하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-office-apps-teams-file-access-issues/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "시간과의 경쟁: 더 빠른 취약점 알림이 중요한 이유",
+      "summary": "공격자들이 많은 조직이 취약점을 파악하고 패치할 수 있는 시간보다 더 빨리 취약점을 악용하고 있습니다. SecAlerts는 더 빠른 취약점 알림이 조직의 노출을 줄이고 대응 시간을 개선하는 데 어떻게 도움이 될 수 있는지 설명합니다. 현재 Windows Netlogon RCE 결함, Palo Alto GlobalProtect VPN 인증 우회 결함 등 여러 취약점이 실제로 악용되고 있으며, ChatGPT 공유 링크 악용, ClickFix 캠페인 등 다양한 사이버 공격이 동시에 진행 중입니다. 신속한 보안 알림 체계의 구축은 기업의 사이버 보안 방어 체계에서 매우 중요한 요소가 되었습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/race-against-time-why-faster-vulnerability-alerts-matter/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Windows Netlogon 중대 원격코드 실행 취약점, 현재 공격에 악용 중",
+      "summary": "벨기에 국가사이버보안센터(CCB)가 최근 패치된 Windows Netlogon의 중대 취약점이 실제 공격에 악용되고 있다고 경고했습니다. 이 원격코드 실행(RCE) 취약점은 도메인 컨트롤러를 목표로 하는 위협행위자들에 의해 현재 활발하게 악용되고 있습니다. 해당 취약점은 Windows 및 Windows Server 시스템에 영향을 미치는 것으로 알려져 있습니다. 조직들은 이 치명적인 취약점에 대한 보안 패치를 즉시 적용할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/critical-windows-netlogon-remote-code-execution-flaw-now-exploited-in-attacks/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "내일 웨비나: 네트워크 사건 대응에서 경보부터 해결까지",
+      "summary": "네트워크 사건은 빠르게 탐지되지만, 조사 및 조율 과정에서 해결이 지연되는 경우가 많습니다. 내일 개최되는 웨비나에서는 자동화와 AI 지원 워크플로우가 IT 팀의 사건 대응 속도를 어떻게 가속화할 수 있는지 배울 수 있습니다. 이 세션은 경보 탐지부터 최종 해결까지의 전체 사건 대응 프로세스를 다룹니다. Tines와 BleepingComputer가 함께 진행하는 이 웨비나는 사이버보안 전문가들이 효율적인 사건 대응 전략을 수립하는 데 도움이 될 것입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-from-alert-to-resolution-in-network-incident-response/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, MFA 설정 및 MySignIn 서비스 장애 해결",
+      "summary": "마이크로소프트는 다중 인증(MFA) 설정 및 My Sign-Ins 플랫폼 접근을 방해하는 서비스 장애를 해결했습니다. 이 장애로 인해 고객들이 다중 인증을 설정하거나 MySignIn 서비스에 접속할 수 없는 문제가 발생했습니다. 마이크로소프트는 이 사건에 대응하여 신속하게 조치를 취했으며, 현재 서비스는 정상화된 상태입니다. 이번 장애는 사용자들의 계정 보안 설정에 일시적인 영향을 미쳤으나, 마이크로소프트의 빠른 대응으로 문제가 해결되었습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outage-affecting-mfa-setup-mysignin-service/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, KB5089549 윈도우 보안 업데이트 설치 문제 해결",
+      "summary": "마이크로소프트가 2026년 5월 윈도우 11 보안 업데이트(KB5089549) 배포 시 설치 실패 및 0x800f0922 오류를 유발하는 알려진 문제를 해결했습니다. 해당 업데이트는 윈도우 11 24H2와 25H2 버전에서 설치 오류로 인해 사용자들이 보안 패치를 적용하지 못하는 문제가 발생했습니다. 마이크로소프트는 문제 원인을 파악하고 수정된 버전을 배포함으로써 사용자들이 정상적으로 보안 업데이트를 설치할 수 있도록 조치했습니다. 이는 중요한 보안 업데이트 배포 과정에서의 기술적 문제를 신속히 해결한 사례입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-kb5089549-windows-security-update-install-issues/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "파수 AI, 미국 법인 ‘심볼로직’ 출범… 글로벌 ‘AX’ 시장 정조준",
       "summary": "빅테크 출신 포진한 컨실릭스의 플랫폼 구축 기술과 데이터 보안 역량의 결합 AI 전환의 핵심 뇌관인 정보 유출 리스크 해소하며 글로벌 시장 연착륙 시동[보안뉴스 조재호 기자] 파수 AI가 인공지능 전환(AX) 지원 기업으로의 쇄신을 선언한 데 이어 1일 미국 현지에 신규 통합 법인 ‘심볼로직’(Symbologic)을 공식 출범하며 글로벌 사이버보안 및 A",
       "category": "보안",
@@ -12891,11 +13206,11 @@
     }
   ],
   "sources": {
-    "보안뉴스": 493,
-    "Dell": 127,
-    "BleepingComputer": 405,
-    "SecurityWeek": 356,
-    "VAST Data": 31,
-    "HPE": 20
+    "보안뉴스": 503,
+    "Dell": 130,
+    "HPE": 23,
+    "VAST Data": 32,
+    "SecurityWeek": 363,
+    "BleepingComputer": 416
   }
 }
