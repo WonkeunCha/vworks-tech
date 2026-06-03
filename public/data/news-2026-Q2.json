@@ -3,6 +3,321 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "[PIS FAIR 2026 미리보기] 이노티움, ‘이노 스마트 플랫폼 프라이버시’",
+      "summary": "개정 개인정보보호법 정조준... 금융·공공·SaaS 3대 축 시장 확장한수원·신한라이프 잇단 수주… AI 시대 ‘전주기 거버넌스’가 답[보안뉴스 강현주 기자] 지능형 데이터 보안 플랫폼 전문기업 이노티움(각자대표 김종필·이형택)은 ‘이노 스마트 플랫폼 프라이버시’(Inno Smart Platform Privacy)를 앞세워 강화된 개인정보보호 규제 환경을",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143908&kind=&sub_kind=",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "스티븐 스필버그의 공개 날짜(Disclosure Day)에 소개된 Dell",
+      "summary": "Dell XPS는 이번 여름 영화에서 등장 인물들이 진실을 밝히기 위해 시간과 경쟁하는 중요한 순간들을 생생하게 표현하는 데 도움을 줍니다. Dell 기술은 긴박한 드라마 속에서 핵심적인 역할을 하며, 영화의 스토리텔링을 강화합니다. 이러한 제품 배치는 Dell의 혁신적인 기술이 실제 영화 제작 현장에서도 신뢰받고 있음을 보여줍니다. XPS의 성능과 신뢰성이 영화의 중요한 장면들을 지원합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/dell-featured-in-steven-spielbergs-disclosure-day/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "공급망 위험은 이제 사이버 복원력 문제다",
+      "summary": "AI 수요 증가로 인해 DRAM과 NAND 공급이 심각한 압박을 받고 있습니다. 효율성 중심의 아키텍처가 이러한 공급 부족에 더 잘 대응할 수 있으며, 이는 사이버 복원력의 관점에서도 중요한 문제가 되고 있습니다. 공급망의 불안정성은 단순한 비즈니스 연속성 문제를 넘어 조직의 보안 태세와 직결되어 있습니다. 따라서 기업들은 공급망 위험을 전략적 사이버 복원력 계획의 핵심 요소로 통합해야 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/supply-chain-risk-is-now-a-cyber-resilience-problem/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "호기심과 협력이 Dell의 AI 비전을 어떻게 주도하는가",
+      "summary": "엔터프라이즈 AI의 성공은 호기심과 협력을 중심으로 이루어집니다. Dell은 사람을 중심에 두고 신뢰할 수 있고 적응력 있는 AI를 구축하는 데 중점을 두고 있습니다. 진정한 협력을 통해 조직은 실제 비즈니스 요구에 맞춰 진화하는 AI 솔루션을 개발할 수 있습니다. 호기심 있는 접근 방식은 혁신을 촉진하고 기술과 비즈니스의 간극을 좁힙니다. Dell의 AI 비전은 단순한 기술 도입이 아니라 조직 문화와 워크플로우의 근본적인 변화를 추구합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-curiosity-and-co-creation-drive-dell-s-ai-vision/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "엣지 재정의: Dell Technologies MACK을 통한 5G 지원 기능",
+      "summary": "Dell Technologies의 Mobile Advanced Communications Kit (MACK)은 프라이빗 5G, 컴퓨팅, 보안 연결성을 하나의 견고한 플랫폼에 통합하여 모든 엣지 환경에 대응할 수 있도록 설계되었습니다. MACK은 엣지 컴퓨팅 환경에서 5G의 성능과 안정성을 제공하며, 기업들이 분산된 위치에서도 안전하고 빠른 통신 인프라를 구축할 수 있도록 지원합니다. 이 솔루션은 산업용 IoT, 원격 모니터링, 실시간 데이터 처리 등 다양한 엣지 애플리케이션에 최적화되어 있습니다. Dell Technologies의 통합 플랫폼 접근 방식은 복잡한 배포 프로세스를 단순화하고 운영 효율성을 높입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/rethinking-the-edge-5g-powered-capability-with-dell-technologies-mack/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 추론 데이터 아키텍처와 클라우드의 미래",
+      "summary": "AI 추론 시대의 도래로 클라우드 데이터 아키텍처에 새로운 요구사항들이 생겨나고 있습니다. 딥러닝 시대가 대규모 모델 훈련 속도에 집중했다면, 생성형 AI 시대는 전체 생명주기(파인튜닝, RAG, 대규모 추론)에 걸친 시스템 확장성과 프로덕션 환경에서의 지속적인 안정성을 요구합니다. 데이터의 대용량 처리에서 벗어나 데이터의 속도와 거버넌스가 중요해졌으며, 지연시간, 비용 효율성, 전력 효율성이 핵심 관심사가 되었습니다. 현대의 고객들은 모델 선택의 다양화, 데이터 품질 관리, 보안, 접근 제어 등이 기본 인프라의 통합된 부분이 되기를 기대하고 있습니다. 클라우드 제공자들은 다양한 모델과 요구사항에 적응할 수 있는 유연한 인프라를 구축해야 하며, 향후 5~10년 내 클라우드는 단순 VM 렌탈 서비스에서 '지능형 운영 체제'로 진화할 것으로 예상됩니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/ai-inference-data-architecture-cloud",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "트럼프, 국가안보 위험 대비 AI 모델 검증을 요구하는 행정명령 서명",
+      "summary": "트럼프 대통령이 주요 AI 모델들에 대한 국가안보 위험 검증을 초대하는 행정명령에 서명했습니다. 이 명령은 AI 기술이 국방 및 안보 분야에 미칠 수 있는 잠재적 위협을 평가하기 위한 것입니다. 정부는 상위 AI 개발 기업들의 모델들이 안보상 위험요소를 포함하고 있지 않은지 철저히 검토할 계획입니다. 이는 AI 기술의 급속한 발전으로 인한 국가 보안 우려에 대응하는 조치로 해석됩니다. 해당 행정명령은 AI 산업에 대한 규제 강화 방향을 보여주는 신호입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/trump-signs-executive-order-that-invites-vetting-of-top-ai-models-for-national-security-risks/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "사이버보안 위기의 원인을 놓고 경쟁하는 두 가지 보고서",
+      "summary": "AI가 사이버공격을 가속화하면서 보안 실패의 근본 원인을 두고 두 보고서가 서로 다른 설명을 제시하고 있습니다. 한 보고서는 악용 가능한 취약점에 대한 불충분한 가시성이 문제라고 주장하는 반면, 다른 보고서는 기존 방어 체계에 대한 부실한 운영 통제가 핵심이라고 지적합니다. SecurityWeek의 분석에 따르면, 두 관점 모두 사이버보안 위기의 중요한 측면을 다루고 있으며 이는 조직들이 대응 전략을 수립할 때 고려해야 할 요소들입니다. AI 기술의 발전으로 인해 공격의 속도와 규모가 증가하면서 보안 전문가들 사이에서도 우선순위에 대한 의견 차이가 발생하고 있는 상황입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/two-new-reports-offer-competing-explanations-for-cybersecuritys-growing-crisis/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "단 한 줄의 코드가 마이크로소프트 안드로이드 앱 수십억 다운로드를 위험에 빠뜨리다",
+      "summary": "마이크로소프트의 안드로이드 앱에서 발견된 단 한 줄의 코드 결함이 수십억 건의 앱 다운로드를 보안 위험에 노출시켰습니다. 이 취약점은 코드의 작은 오류가 얼마나 광범위한 보안 영향을 미칠 수 있는지를 보여주는 사례입니다. SecurityWeek의 단독 보도에 따르면, 이 결함은 모바일 사용자들의 개인정보 및 기기 보안을 위협할 수 있는 심각한 문제입니다. 마이크로소프트는 이 취약점을 해결하기 위해 긴급 조치를 취했으며, 영향받은 사용자들의 보안을 복구하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/exclusive-how-one-line-of-code-put-billions-of-microsoft-android-app-downloads-at-risk/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "안드로이드 업데이트, 악용된 제로데이 및 123개 기타 취약점 패치",
+      "summary": "구글이 안드로이드 보안 업데이트를 통해 현재 악용 중인 제로데이 취약점 1개를 포함하여 총 124개의 취약점을 패치했습니다. 이번 업데이트는 모바일 기기의 보안을 강화하기 위한 중요한 조치로, 사용자들의 즉시 설치가 권장됩니다. 제로데이 취약점은 공식 패치가 나오기 전에 이미 악의적으로 활용되고 있었던 것으로 알려져 있습니다. 이러한 광범위한 취약점 패치는 모바일 보안 환경의 위험성을 다시 한번 보여주고 있습니다. 사용자는 정기적인 보안 업데이트를 통해 자신의 기기를 보호해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/android-update-patches-exploited-zero-day-123-other-vulnerabilities/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Anthropic, 150개 신규 조직에 Mythos 접근 확대",
+      "summary": "Anthropic이 자사의 AI 모델인 Mythos에 대한 접근 권한을 150개의 신규 조직으로 확대하고 있습니다. 이번 확대는 기업과 조직들이 Anthropic의 최신 AI 기술을 더 널리 활용할 수 있도록 하기 위한 조치입니다. Mythos는 Anthropic의 고급 AI 솔루션으로, 다양한 산업의 조직들이 AI 기반 솔루션을 구현하는 데 활용될 것으로 예상됩니다. 이러한 접근성 확대는 AI 기술의 대중화와 함께 보안 및 윤리적 문제에 대한 관심도 함께 높아지고 있음을 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/anthropic-expanding-mythos-access-to-150-new-organizations/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "제로 나릿지 위협 행위자와 책임감 있는 공개의 종말",
+      "summary": "SecurityWeek의 이 기사는 '제로 나릿지(Zero-Knowledge)' 위협 행위자로 불리는 새로운 사이버 위협 세력의 등장을 다룹니다. 이들은 기존의 책임감 있는 공개(Responsible Disclosure) 절차를 무시하고 발견된 취약점을 즉시 공개하거나 악용하는 방식으로 운영되고 있습니다. 이러한 행동은 기업들이 패치를 적용할 수 있는 시간을 제공하지 않아 사이버 보안 생태계에 심각한 위협을 가하고 있습니다. 기사는 인공지능과 사이버범죄 분야에서 이러한 새로운 위협 형태가 보안 업계의 전통적인 관행을 어떻게 변화시키고 있는지를 분석합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/the-zero-knowledge-threat-actor-and-the-end-of-responsible-disclosure/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HP VoIP 전화기의 중대 취약점으로 기업 네트워크 침해 위험",
+      "summary": "HP의 VoIP 전화기에서 발견된 중대 취약점이 기업 네트워크에 심각한 보안 위협을 초래하고 있습니다. 이 취약점을 악용하면 공격자가 기업 내부 네트워크에 무단으로 접근하여 침해할 수 있습니다. VoIP 장비는 네트워크 경계에 위치하기 때문에 초기 진입점으로 자주 표적이 됩니다. SecurityWeek의 보도에 따르면 이는 엔드포인트 보안에 영향을 미치는 중요한 취약점으로 분류됩니다. HP는 해당 취약점에 대한 패치를 배포하도록 권장하고 있으며, 기업들은 즉시 업데이트를 실시해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/critical-vulnerability-in-hp-voip-phones-enables-enterprise-network-breaches/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "오라클 WebLogic 취약점이 실제 공격에서 악용 중",
+      "summary": "CISA(미국 사이버보안 및 기반시설보안청)는 Oracle WebLogic의 취약점이 실제 공격에서 악용되고 있다고 경고하고 있습니다. 이 취약점은 공격자들이 WebLogic 서버에 대한 원격 공격을 수행할 수 있게 해줍니다. CISA는 조직들에게 이 취약점에 대한 패치를 긴급히 적용할 것을 권고하고 있으며, 해당 취약점을 CISA의 알려진 악용된 취약점(KEV) 목록에 추가했습니다. Oracle WebLogic은 광범위하게 사용되는 엔터프라이즈 애플리케이션 서버로, 이 취약점의 악용은 많은 조직에 심각한 보안 위협이 될 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/oracle-weblogic-vulnerability-exploited-in-the-wild/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "메타 AI가 유명 인스타그램 계정을 해커들에게 넘겨줌",
+      "summary": "메타의 AI 시스템이 보안 취약점으로 인해 유명한 인스타그램 계정들을 해커들에게 장악당하는 사건이 발생했습니다. 이 사건은 계정 탈취와 관련된 AI 기반의 보안 문제를 드러냅니다. 해커들은 메타의 AI 방어 시스템을 악용하여 고프로필 계정에 대한 접근 권한을 획득했습니다. 이는 소셜 미디어 플랫폼의 인공지능 보안 체계에 대한 심각한 위협을 보여줍니다. 메타는 해당 취약점에 대한 즉각적인 대응이 필요한 상황입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/meta-ai-hands-over-high-profile-instagram-accounts-to-hackers/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "공급망 공격으로 Red Hat NPM 패키지 32개 피해",
+      "summary": "해커들이 Red Hat의 NPM 패키지 32개에 걸쳐 96개의 악성 버전을 배포하는 공급망 공격을 감행했습니다. 이번 공격은 NPM 저장소를 통해 배포되는 오픈소스 패키지를 악용한 것으로, 이를 의존하는 개발자들과 조직들에 광범위한 영향을 미칠 수 있습니다. SecurityWeek의 보도에 따르면 악성 패키지들이 공개적으로 배포되었으며, Red Hat은 이 사건에 대응하기 위한 조치를 취하고 있습니다. 이는 오픈소스 소프트웨어 공급망의 보안 취약성이 얼마나 심각한지를 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/supply-chain-attack-hits-32-red-hat-npm-packages/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, Linux 명령어를 Windows로 제공하는 Coreutils 프로젝트 출시",
+      "summary": "마이크로소프트가 Build 2026 개발자 컨퍼런스에서 Windows용 Coreutils 릴리스를 발표했습니다. 이 프로젝트는 Linux에서 널리 사용되는 명령줄 유틸리티들을 Windows의 네이티브 애플리케이션으로 제공합니다. 이를 통해 Windows 사용자들은 Linux 환경에서 익숙한 다양한 명령어를 Windows 플랫폼에서 직접 사용할 수 있게 됩니다. 이는 개발자들의 크로스 플랫폼 작업 효율성을 크게 향상시킬 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsofts-coreutils-project-brings-linux-commands-to-windows/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpenAI, GPT-5.5 업그레이드하며 레거시 ChatGPT 모델 단계적 폐지 계획",
+      "summary": "OpenAI가 기존 GPT-5.5 Instant 모델을 개선하는 새로운 업데이트를 출시했습니다. 이러한 업그레이드는 o3를 포함한 여러 레거시 모델의 예정된 폐지와 맞물려 진행되고 있습니다. OpenAI는 사용자들이 더 최신의 모델로 전환할 수 있도록 단계적으로 구형 모델들을 서비스에서 제거할 계획입니다. 이는 AI 기술의 지속적인 발전에 따라 더 효율적이고 안전한 모델로의 전환을 추진하는 조치입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-upgrades-gpt-55-as-it-plans-to-retire-legacy-chatgpt-models/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Kirki 플러그인의 심각한 취약점으로 WordPress 관리자 계정 탈취 공격 진행 중",
+      "summary": "WordPress의 인기 플러그인인 Kirki에서 발견된 심각한 권한 상승 취약점(CVE-2026-8206)이 현재 악의적으로 악용되고 있습니다. 해커들은 이 취약점을 이용하여 관리자 계정을 포함한 모든 사용자 계정을 탈취할 수 있습니다. 이 취약점을 통해 공격자는 WordPress 사이트 전체를 장악할 수 있으며, 현재 활발하게 악용되고 있는 상황입니다. 영향을 받을 수 있는 WordPress 사이트 관리자들은 즉시 Kirki 플러그인을 업데이트하고 보안 조치를 취할 것을 권고받고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/critical-kirki-flaw-exploited-to-hijack-wordpress-admin-accounts/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "116,000개 이상의 마인크래프트 시스템이 WeedHack 악성코드 캠페인에 감염",
+      "summary": "WeedHack라는 대규모 악성코드 캠페인이 마인크래프트 플레이어를 대상으로 1월 이후 116,000개 이상의 시스템을 감염시켰습니다. 이 캠페인은 정보 탈취형 악성코드를 활용하여 사용자의 민감한 정보를 수집하고 있습니다. WeedHack은 악성코드-서비스(MaaS) 형태로 운영되고 있으며, 게이밍 커뮤니티를 주요 공격 대상으로 삼고 있습니다. 보안 전문가들은 게이머들에게 의심스러운 소스에서 게임을 다운로드하지 말고 보안 소프트웨어를 설치할 것을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/over-116-000-minecraft-systems-infected-in-weedhack-malware-campaign/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI로 제작된 랜섬웨어 툴킷, EDR 회피 및 Active Directory 탐색 자동화",
+      "summary": "위협 행위자들이 AI로 구축된 랜섬웨어 공격 툴킷을 사용하고 있으며, 이 툴킷은 Active Directory 탐색을 자동화하고 엔드포인트 탐지 및 대응(EDR) 솔루션을 회피하는 데 도움을 준다. 이러한 AI 기반 랜섬웨어 프레임워크는 공격자들이 더욱 정교하고 효율적인 사이버 공격을 수행할 수 있도록 지원한다. 특히 EDR 우회 기술과 자동화된 네트워크 탐색 기능을 결합하여 기존 보안 솔루션을 뚫기가 더욱 쉬워졌다. 이는 조직의 사이버보안 위협이 심화되고 있음을 시사하며, 더욱 강화된 방어 체계가 필요함을 의미한다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/ai-built-ransomware-toolkit-automates-edr-evasion-ad-discovery/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트 Exchange Online 장애로 이메일 지연 및 전송 실패 발생",
+      "summary": "마이크로소프트는 북미와 독일 지역의 Exchange Online 고객들에게 영향을 미치는 광범위한 서비스 장애에 대응 중입니다. 이번 장애로 인해 메일 흐름 파이프라인에 문제가 발생하여 이메일 전송 지연 및 전송 실패가 나타나고 있습니다. 마이크로소프트는 해당 문제의 원인을 파악하고 복구 작업을 진행하고 있습니다. 장애는 Exchange Online 서비스의 핵심 인프라에 영향을 미치고 있으며, 영향받는 지역의 고객들은 서비스 정상화를 기다리고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-delays-failures/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "메타 AI 악용으로 인스타그램 사용자 계정 탈취",
+      "summary": "여러 인스타그램 사용자들이 공격자들에 의해 계정을 탈취당했습니다. 공격자들은 메타의 AI 기반 지원 도구를 속여 자신들이 정당한 계정 소유자라고 주장했습니다. 이를 통해 사용자들이 자신의 계정에서 잠금당하는 사태가 발생했습니다. 공격자들은 메타의 자동화된 고객 지원 시스템의 취약점을 악용하여 계정 인증 과정을 우회할 수 있었습니다. 이 사건은 AI 기반 지원 도구의 보안 위험성을 드러냈으며, 메타는 즉각적인 보안 조치가 필요한 상황입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/instagram-users-locked-out-after-meta-ai-abused-to-steal-accounts/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "브라우저가 AI 보안의 최전선이 되는 이유",
+      "summary": "AI 기반 공격과 섀도우 AI 도입이 브라우저 내에서 새로운 보안 위험을 야기하고 있습니다. Push Security는 위협 탐지와 AI 거버넌스 모두에 있어서 브라우저 가시성이 중요해지고 있다고 설명합니다. 조직들은 브라우저를 통해 발생하는 AI 관련 보안 위협에 대한 모니터링과 관제 능력을 강화해야 합니다. 특히 직원들의 무단 AI 도구 사용과 AI 기반 사이버 공격으로부터 보호하기 위해 브라우저 수준의 보안 전략이 필수적이 되었습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/why-the-browser-is-now-the-front-line-for-ai-security/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, 2년 전 Oracle 취약점이 실제 공격에 악용되고 있다고 경고",
+      "summary": "미국 사이버보안 인프라 보안청(CISA)이 정부 기관들에 대해 2년 전에 패치된 Oracle WebLogic Server의 고위험 취약점에 대응할 것을 명령했습니다. 이 취약점은 현재 실제 공격에서 활발하게 악용되고 있는 상황입니다. CISA는 정부 기관들이 긴급히 자신의 시스템을 보호해야 한다고 촉구하고 있습니다. 패치가 2년 전에 이미 공개되었음에도 불구하고, 여전히 많은 시스템이 취약한 상태로 방치되어 있어 공격자들의 주요 대상이 되고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-weblogic-flaw/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "구글, 적극적으로 악용 중인 안드로이드 제로데이 및 124개 취약점 패치",
+      "summary": "구글이 2026년 6월 안드로이드 보안 패치를 통해 124개의 취약점을 해결했으며, 이 중 하나는 현재 표적 공격에 악용되고 있는 제로데이 취약점입니다. 이번 보안 업데이트는 사용자들이 안드로이드 기기를 안전하게 유지하기 위해 적용할 필요가 있습니다. 제로데이 취약점이 포함된 만큼 즉시 패치 적용이 권장됩니다. 구글의 정기적인 월간 보안 패치는 사이버 공격으로부터 사용자를 보호하는 중요한 조치입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-fixes-one-actively-exploited-android-zero-day-124-flaws/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "핀텔, 국토부 AI 시티 사업 최종 선정 “골목길 사고까지 예측하는 에이전틱 AI 실증 착수”",
+      "summary": "현대건설·모빌인텍·양주시와 컨소시엄, 올해 12월까지 생활도로 2개 거점 실증에이전틱 AI로 생활도로 사각지대까지, 공공·민간 아우르는 안전망 확장 기반 마련[보안뉴스 강초희 기자] 핀텔(대표 김동기)은 국토교통부가 주관한 ‘2026년 AI 시티 혁신기술 발굴사업’에 최종 선정됐다고 2일 밝혔다.이번 공모는 도시 문제를 AI 기술로 풀어내는 혁신기술의 조기",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143929&kind=&sub_kind=",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관-29] 호미로 막을 것을 가래로 막는다(9)-집 비밀번호 그대로 쓰면 생기는 일",
+      "summary": "집 비밀번호를 정기적으로 변경하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐, 안 지키느냐의 차",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143254&kind=&sub_kind=",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[카드뉴스] 해커는 대기업 안 친다… 가장 약한 고리 ‘공공망’ 찔러 일상 인질로 잡는 공포",
+      "summary": "막강한 자본을 가진 민간 빅테크 기업과 달리 공공기관 및 국제기구의 23%가 사이버 공격 방어 능력이 부족한 상황에 처하면서 국가적 ‘보안 격차(Cyber Inequity)’ 문제가 심각한 수위에 도달했다. 해커들은 대기업의 견고한 방어벽을 우회하여 상대적으로 취약한 ‘공공망’과 사회적 인프라를 집중 공격하는 전략을 취하고 있으며, 이는 주민등록등본 등 민",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143927&kind=&sub_kind=",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "싱가포르 사이버보안청장 “AI 피싱 고도화, 패스키 필요한 이유”",
+      "summary": "“싱가포르, 피싱 방지형 인증으로 전환 중”전문가들 “정교해진 피싱에 ‘패스키’ 해법” [싱가포르=보안뉴스 강현주 기자] AI로 인해 고도화된 피싱에 효과적으로 대응하기 위해 설계 단계부터 보안성을 갖춘 ‘패스키’로의 전환이 필요하다는 목소리가 나왔다. 2일부터 이틀간 FIDO 얼라이언스(FIDO Alliance)가 그랜드 하얏트 싱가포르에서 개최하는 ‘어",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143933&kind=&sub_kind=",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "시놀로지 & TPARK 방재센터: 데이터와 도시 보안의 기준",
+      "summary": "시놀로지, 첨단 단지 ‘TPARK’에 글로벌 ICT 기업들과 함께 입주보관에서 보호, 활용까지... 데이터의 모든 길을 책임진다[타이베이=보안뉴스 엄호식 기자] 대만 신베이시 반차오구에 위치한 TPARK(Taipei Far Eastern Telecom Park)는 글로벌 ICT 기업들이 모여 있는 첨단 단지다. 구글(Google)과 아마존웹서비스(AWS),",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143932&kind=&sub_kind=",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "미토스 접근 ‘프로젝트 글래스윙’ 참여 조직 150곳으로 확대",
+      "summary": "보안 사고 터지면 세계적 영향 끼치는 기업, 기관 위주로 추가 선정빠른 AI 발전 속도에 대응[보안뉴스 한세희 기자] 인공지능(AI) 기업 앤트로픽이 보안 취약점 탐지에 강점을 지닌 AI 모델 미토스 접근 권한을 세계 15개 국가 150개 기업과 기관으로 확대한다고 2일(현지시간) 밝혔다. 앤트로픽은 4월 소수 정부 기관과 기업만 미토스 모델에 접근해 보안",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143934&kind=&sub_kind=",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "넷스카우트, ‘디지털 뱅킹’ 가시성 솔루션 제공... “트랜잭션 투명성 보장”",
+      "summary": "하이브리드 금융 인프라 전반의 트랜잭션 모니터링하는 ‘엔지니어스원`AI 서비스 흐름 추적 및 제로트러스트 보안 가시성 강화[보안뉴스 조재호 기자] 넷스카우트가 금융기관의 디지털 뱅킹 환경 고도화에 맞춰 스마트 데이터를 활용한 관찰 가능성(Observability) 관리 솔루션을 제공한다고 2일 밝혔다.넷스카운트는 통합 모니터링 솔루션 ‘엔지니어스원’(nGe",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143928&kind=&sub_kind=",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[단독] 삼성전자·SK하이닉스·SKT, 미토스 접근권한 확보... “반도체 보안 국가적 문제”",
+      "summary": "반도체 공정 보안은 국가 산업에 중대한 문제SKT의 앤트로픽 지분 4조원 가치 추정... 파트너십 작용[보안뉴스 강현주 기자] 앤트로픽이 ‘프로젝트 글래스윙’의 글로벌 참여 확대 기조에 나선 가운데 국내 기업으로는 삼성전자와 SK하이닉스, SK텔레콤이 ‘미토스’ 접근 권한을 갖게 됐다. 2일 반도체 업계 및 IT 업계에 따르면 삼성전자와 SK하이닉스, SK",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143930&kind=&sub_kind=",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[해킹을 결제하시겠습니까?] #5. “PC방에서 인터넷뱅킹을?” 나도 모르게 모두와 공유하는 개인정보",
+      "summary": "PC방·호텔·공항 컴퓨터에 남겨진 로그인 정보계좌보다 먼저 털리는 건 개인정보 “급한데 스마트폰 배터리가 없네.” “그래서?” “PC방 컴퓨터로 인터넷뱅킹 하려고.” “하지 마.” “왜? 로그인만 하면 되는데.” “그 한 번 때문에 비밀번호 바꾸는 사람이 한둘이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143922&kind=&sub_kind=",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "“K-인증, 글로벌 표준으로” 한국디지털인증협회, 염흥열 신임 회장 취임",
       "summary": "국제전기통신연합 전기통신표준화부문(‘ITU-T’) 의장 출신의 세계적 정보보호 석학 영입美 연방수사국(FBI) 협력 이끌어낸 글로벌 네트워크 바탕으로 회원사 해외 진출 집중 지원[보안뉴스 조재호 기자] 한국디지털인증협회가 세계적인 정보보호 전문가를 수장으로 선임하고, AI 시대 디지털 신원 인프라의 국제 표준화 주도에 박차를 가한다.한국디지털인증협회는 염흥",
       "category": "보안",
@@ -13206,11 +13521,11 @@
     }
   ],
   "sources": {
-    "보안뉴스": 503,
-    "Dell": 130,
-    "HPE": 23,
-    "VAST Data": 32,
-    "SecurityWeek": 363,
-    "BleepingComputer": 416
+    "보안뉴스": 513,
+    "Dell": 134,
+    "VAST Data": 33,
+    "SecurityWeek": 373,
+    "BleepingComputer": 426,
+    "HPE": 23
   }
 }
