@@ -2,6 +2,294 @@
   "quarter": "2026-Q2",
   "items": [
     {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "GPU에서 RNA로: 단백질 서열 분석의 혁신",
+      "summary": "생명과학 연구의 핵심 과제는 데이터 양이 아니라 고품질의 라벨링된 데이터 확보이다. AlphaFold의 성공으로 단백질 구조 예측이 가능해졌지만, 실제 단백질 서열을 파악하는 단백질 시퀀싱은 여전히 간접적이고 효율적이지 못하다. 연구팀은 자신들의 기술을 단백질 서열 파악에 활용하기 위해 재구성하고 있으며, 혈액 샘플의 단백질을 파악하는 것은 질병 진단과 치료에 혁신적인 영향을 미칠 수 있다. GPU 기반 머신러닝 학습 과정에서 파일 시스템의 데이터 로딩 속도 문제로 GPU 자원이 낭비되는 문제를 해결하기 위해 VAST 스토리지 솔루션을 도입했다. VAST는 플랫폼의 성숙도와 우수한 기술 지원으로 돋보였으며, 의료 분야의 규제 강화에 따른 감사 추적성, 접근 제어 등의 기능이 매우 유용할 것으로 예상된다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/from-gpu-to-rna",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "시놀로지, 액티브프로텍트 매니저 2.0로 엔터프라이즈 사이버 회복력 강화 지원",
+      "summary": "기업이 전체 인프라 환경에 걸쳐 유연하게 다양한 워크로드를 보호할 수 있도록 지원수동적인 복원 중심에서 AI 기반 선제적 위협 탐지 중심으로 확장[타이베이=보안뉴스 엄호식 기자] 시놀로지(Synology)가 3일(현지시간) 대만 타이베이에서 열린 ‘글로벌 기자 간담회’에서 액티브프로텍트(ActiveProtect) 데이터 보호 어플라이언스의 최신 업데이트인",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143944&kind=&sub_kind=",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[PIS FAIR 2026 미리보기] 컴트루테크놀로지, AI 기술 도입 확대 속 핵심 보안 과제 공략",
+      "summary": "30년 기술력 집약한 AI 보안 라인업 공개실시간 탐지·차단으로 보안 위협 선제 대응[보안뉴스 한세희 기자] AI 기술이 급속히 확산되는 가운데, 보안 위협이 전방위적으로 확대되고 있다. 생성형 AI 사용에 의한 새로운 정보 유출 위험과 함께 기업 데이터 자산 보호 등 기존 위협도 고도화되는 중이다.이제 AI 보안은 선택이 아닌 의무가 됐다. 1월 인공지능",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143956&kind=&sub_kind=",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "KISA, 암호모듈 실무형 인재 200명 키운다... “국가 보안망 주춧돌”",
+      "summary": "과기정통부-국정원, 합동으로 암호모듈 전문교육 기초과정 이달 22일까지 모집최근 추가된 고급 암호화 표준(AES) 알고리즘 등 최신 검증 기준 완벽 반영[보안뉴스 조재호 기자] 최근 암호모듈 검증대상에 새롭게 추가된 고급 암호화 표준(AES) 알고리즘 등 최신 보안 기준을 반영한 실무형 전문교육이 이달 말 서울에서 진행된다. 한국인터넷진흥원(KISA)은 과",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143949&kind=&sub_kind=",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "완주군, 안전 취약지에 CCTV 12대 추가 설치... “범죄 요인 사전 차단”",
+      "summary": "비상 상황 발생 시 실시간 이동 동선 확인 등 범죄 대응에 핵심적 역할노후화된 CCTV 교체 사업 진행 중[보안뉴스 강초희 기자] 완주군이 밤길 치안 사각지대와 어린이 보호구역 내 범죄 요인을 사전에 차단하고 각종 사고에 신속하게 대응하기 위해 생활 밀착형 치안 안전망 구축에 나섰다.완주군은 완주경찰서와 긴밀히 협력해 범죄 예방이 시급한 안전 취약지 5개소",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143951&kind=&sub_kind=",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "KT, 금융 고객사 대상 보안 중심 AX 인프라 전략 제시",
+      "summary": "금융 고객 초청... 안정성과 보안성 강화된 AX 인프라 혁신 전략 공개기업 메시징, 클린존, 매니지드 AI GPU 등 통신 기반 AX 특화 서비스 소개[보안뉴스 한세희 기자] KT가 금융사를 위한 보안 중심 AI 전략을 내놓는다KT(대표 박윤영)는 KT 광화문빌딩 웨스트 사옥에서 금융계 IT 실무 고객 50여명을 초청, 금융 산업 최적화 AX 전략을 공유",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143955&kind=&sub_kind=",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "펜타시큐리티, ‘브라이트 이커머스 어워드’ 수상... 전자상거래 보안 리더십 입증",
+      "summary": "창의성 및 고객 경험 등 5개 지표서 우수성 입증하며 수상글로벌 결제망 연계 서비스 운영 기업에 최적화된 인프라 제시[보안뉴스 조재호 기자] 펜타시큐리티가 지난달 27일부터 29일까지 3일간 한국과학기술총회관에서 개최된 2026 통합 국제학술대회에서 ‘브라이트 이커머스 어워드(Bright E-Commerce Award)’를 수상했다고 4일 밝혔다.이번 수상",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143954&kind=&sub_kind=",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "스페인 경찰·검찰도 당했다... 개인정보 다크웹 유출에 해킹 용의자 체포",
+      "summary": "다크웹·텔레그램 통해 사법부 내부 자료와 개인정보 무단 유포정부, 공공기관 전산망 전수조사 및 공급망 보안 강화 착수[보안뉴스 김형근 기자] 스페인 수사당국은 경찰과 검찰, 국가 사이버안보 관계자들의 개인정보를 무단 유포한 혐의로 해킹 용의자를 체포했다고 밝혔다.미국 사이버 보안 전문 뉴스 미디어 ‘더레코드’(The Record)에 따르면, 당국이 신원을",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143953&kind=&sub_kind=",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "구미시, 안전예산 1766억 투입으로 “재난·생활안전 전방위 강화”",
+      "summary": "드론 관제·CCTV 고도화로 초기 대응력 강화재해예방 국도비 포함 1826억원 투자... 풍수해·자연재해 선제 대응시민안전보험 확대·생활밀착 교육 강화로 체감도 제고[보안뉴스 강초희 기자] 구미시가 올해 안전 분야 예산을 지난해보다 454억원 늘린 1766억원으로 편성하고, 재난 대응부터 예방, 생활안전까지 전방위 안전체계 강화에 나섰다.시는 6월까지 드론",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143952&kind=&sub_kind=",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "시놀로지, 엔터프라이즈 스토리지와 AI 융합 전략 공개",
+      "summary": "GPU 지원으로 AI 활용 가속화영상보안 감시, 클라우드와 AI로 확장반려동물과 1인 가구 등 최신 트렌드 포커싱한 솔루션도 주목[타이베이=보안뉴스 엄호식 기자] 글로벌 데이터 관리 전문기업 시놀로지(Synology)가 대만 타이베이에서 진행되는 ‘컴퓨텍스 2026’을 통해 데이터 보호, 스토리지, 영상 감시, 개인용 솔루션까지 아우르는 포트폴리오를 선보였",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143941&kind=&sub_kind=",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "인피닉, 산업 안전 AI 영상분석 ‘PoC 지원 프로그램’ 실시... 실효성 검증 기회 제공",
+      "summary": "산업·공공 현장 안전을 위한 AI 영상분석 솔루션 구축·검증 지원실제 운영 환경에서 위험 상황 감지 및 지능형 관제 기능 검증 가능[보안뉴스 강초희] 인피닉(각자대표 박준형·최철규)이 실제 운영 환경에서 AI 영상분석 기술 효과의 사전 검증이 가능한 PoC(Proof of Concept, 개념검증) 프로그램을 운영한다.이번 프로그램은 6월 10일부터 12일",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143946&kind=&sub_kind=",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "과장을 넘어서: AI가 미디어 제작에서 실제 ROI를 제공하는 방법",
+      "summary": "AI와 가상 제작 기술이 미디어 워크플로우를 근본적으로 변화시키고 있습니다. 대기 시간을 창의적인 작업 시간으로 전환할 수 있어 생산성이 크게 향상됩니다. 더 빠른 의사결정을 통해 프로젝트 완성도를 높이고 시장 진출 시간을 단축할 수 있습니다. 이러한 기술의 도입으로 실질적인 비용 절감과 수익 개선 효과를 기대할 수 있습니다. AI는 단순한 자동화 도구를 넘어 창의적 프로세스를 강화하는 핵심 파트너가 됩니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/beyond-hype-how-ai-delivers-real-roi-in-media-production/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "저장소 문제가 아닙니다. 데이터 중력입니다.",
+      "summary": "모든 엔터프라이즈 AI 아키텍처는 결국 동일한 물리적 힘들을 마주하게 됩니다. '모든 것을 통제하는 하나의 네임스페이스'라는 접근 방식은 이미 보유하고 있는 인프라에 베팅하는 것과 같습니다. 데이터 중력은 데이터가 쌓이는 곳으로 컴퓨팅 리소스가 자연스럽게 모여드는 현상을 의미합니다. 조직의 기존 데이터 저장소와 인프라 투자를 무시하고 새로운 통합 솔루션을 강제하는 것은 비용 효율적이지 않습니다. 따라서 AI 아키텍처는 분산된 데이터 환경에 적응하고 기존 자산을 활용하는 방향으로 설계되어야 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/it-s-not-a-storage-problem-it-s-data-gravity/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "데이터를 의사결정으로: EAGE에서의 Dell AI Factory",
+      "summary": "Dell Technologies와 NVIDIA는 석유·가스 산업을 위해 AI, HPC, 데이터를 통합하는 솔루션을 제시합니다. 실시간 데모와 파트너 협력을 통해 실제 산업 사례와 성과를 보여줍니다. 이러한 기술 통합은 데이터 기반의 빠른 의사결정을 가능하게 합니다. Dell AI Factory는 기업들이 복잡한 데이터를 실용적인 인사이트로 전환할 수 있도록 지원합니다. 석유·가스 산업의 디지털 혁신과 운영 효율성 향상에 핵심적인 역할을 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/turning-data-into-decisions-dell-ai-factory-at-eage/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "코랄로직스, 16억 달러 기업 가치 평가로 2억 달러 자금 조달 - AI 관찰성 플랫폼 확대",
+      "summary": "클라우드 관찰성 및 보안 모니터링 솔루션 업체인 코랄로직스(Coralogix)가 최신 펀딩 라운드에서 2억 달러를 조달하며 기업 가치가 16억 달러로 평가받았습니다. 이번 자금은 AI 기반 관찰성 플랫폼의 규모 확대 및 시장 진출에 사용될 예정입니다. 코랄로직스는 기업의 애플리케이션과 인프라 모니터링을 위한 고급 분석 및 자동화 기능을 제공하고 있습니다. 이러한 투자는 엔터프라이즈 보안 및 IT 운영 분야에서 AI 기술의 중요성이 증가하고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/coralogix-raises-200m-at-1-6b-valuation-to-scale-ai-observability-platform/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Kirki, Burst Statistics 워드프레스 플러그인 취약점이 공격자들의 표적",
+      "summary": "Kirki와 Burst Statistics 워드프레스 플러그인에서 발견된 보안 취약점들이 공격자들의 집중 공략 대상이 되고 있습니다. 이 플러그인들의 결함을 이용하여 악의적인 행위자들이 워드프레스 사이트를 공격하고 악용하고 있는 상황입니다. 해당 취약점들은 이미 실제 공격에 활용되고 있으며, 영향을 받는 사용자들은 긴급한 보안 조치가 필요합니다. 워드프레스 관리자들은 이들 플러그인의 최신 버전으로 즉시 업데이트할 것을 권장하고 있습니다. 보안 전문가들은 이러한 플러그인 취약점이 대규모 웹사이트 침해의 주요 경로가 될 수 있다고 경고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/kirki-burst-statistics-wordpress-plugin-flaws-in-attackers-crosshairs/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "100개 AI 에이전트의 보안성 테스트 및 순위 평가 결과 공개",
+      "summary": "SecurityWeek에서는 100개의 AI 에이전트에 대한 포괄적인 보안 테스트를 실시하고 그 결과를 순위별로 발표했습니다. 이 연구는 에이전틱 AI 기술의 보안 취약점을 파악하고 평가하는 데 초점을 맞추고 있습니다. 테스트 결과는 현재 시장에 나와 있는 다양한 AI 에이전트 솔루션들의 보안 수준을 비교 분석한 중요한 벤치마크를 제공합니다. 이 정보는 기업과 개인 사용자들이 안전한 AI 에이전트를 선택하고 도입하는 데 필수적인 참고자료가 될 것으로 예상됩니다. 조사 결과에 따르면 AI 에이전트의 보안성에는 상당한 편차가 있는 것으로 나타났습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/security-of-100-ai-agents-tested-and-ranked-what-you-need-to-know/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "해커들이 글로벌 증권거래소를 대상으로 스파이 활동 전개",
+      "summary": "보안 전문가들이 글로벌 증권거래소를 겨냥한 조직적인 해킹 및 스파이 활동을 적발했습니다. 이번 공격은 금융 정보 탈취 및 산업 스파이 목적으로 추정되고 있으며, 악성코드를 통해 거래소의 주요 시스템에 침투한 것으로 분석됩니다. 해킹 그룹은 민감한 거래 정보와 경영 데이터에 접근하려고 시도했습니다. 보안 전문가들은 금융 기관들에 즉시 보안 체계를 강화하고 의심 활동을 모니터링할 것을 권고했습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hackers-target-global-stock-exchange-in-espionage-operation/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "IMA Diligence Services 데이터 유출 사고, 52만 5천 명 영향",
+      "summary": "IMA Diligence Services에서 52만 5천 명의 개인정보가 유출되는 대규모 데이터 침해 사고가 발생했습니다. 이번 사고는 금융 및 신용 관련 서비스를 제공하는 기업의 보안 시스템이 침투당했음을 의미합니다. SecurityWeek에 따르면 피해자들의 민감한 정보가 노출되었으며, 영향받은 개인들에 대한 신원 도용 위험이 증가했습니다. 해당 회사는 사건 발생 후 조사를 진행 중이며 피해자 지원 방안을 마련하고 있습니다. 이 사건은 기업들의 강화된 데이터 보호 및 사이버보안 조치의 필요성을 다시 한 번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ima-diligence-services-data-breach-impacts-525000-people/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "리눅스 커널 취약점 악용 경보 발령",
+      "summary": "보안 당국이 현재 악용되고 있는 리눅스 커널 취약점에 대해 조직들에 경고를 발령했습니다. 이 취약점은 컨테이너 환경에서 특히 위험한 것으로 지적되고 있으며, CISA의 악용 취약점 카탈로그(KEV)에 등재되었습니다. 해당 취약점이 실제 공격에 활용되고 있는 만큼 긴급한 대응이 필요합니다. 영향을 받는 조직은 즉시 리눅스 커널 패치를 적용하여 시스템을 보호해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/organizations-warned-of-exploited-linux-kernel-vulnerability/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HTTP/2 폭탄 익스플로잇, 웹 서버를 수 초 만에 오프라인으로 만들어",
+      "summary": "HTTP/2 프로토콜을 악용한 새로운 폭탄 익스플로잇이 발견되어 웹 서버들이 몇 초 만에 다운되는 사태가 발생하고 있습니다. 이 취약점은 HTTP/2의 구조적 특성을 이용하여 서버에 과도한 부하를 가함으로써 서비스 거부(DoS) 공격을 수행합니다. 공격자는 최소한의 리소스만으로도 대규모 웹 서버를 무력화할 수 있어 심각한 위협이 되고 있습니다. 보안 전문가들은 이 취약점에 대해 긴급히 주의를 당부하고 있으며, 영향을 받는 웹 서버 운영자들은 즉시 보안 패치 적용을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/http-2-bomb-exploit-knocks-web-servers-offline-in-seconds/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, 제로데이 공개 논란 후 법적 위협 우려 진정 시도",
+      "summary": "마이크로소프트가 제로데이 취약점 공개 방식을 둘러싼 논란 이후 법적 위협에 대한 우려를 완화하려고 노력하고 있습니다. 회사의 최근 공개 정책 변화에 대해 보안 커뮤니티에서 반발이 제기되었으며, 이에 따른 법적 책임 논쟁이 불거졌습니다. 마이크로소프트는 자사의 정책이 산업 표준을 준수하고 있으며 조직 및 사용자를 보호하기 위해 고안되었다고 주장하고 있습니다. 이 논쟁은 사이버보안 업계에서 취약점 공개 시기와 방식에 대한 더 큰 논의를 야기하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/microsoft-tries-to-calm-legal-threat-fears-after-zero-day-disclosure-backlash/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "중국 해커들이 유럽 사이버공격에서 새로운 Atlas RAT 악성코드 사용",
+      "summary": "중국어권 사이버범죄 집단이 공격 대상을 유럽으로 확대하여 이전에 문서화되지 않은 새로운 악성코드와 Atlas 백도어를 배포하고 있습니다. 이 집단은 피싱, 금전 탈취, 스파이 활동 등 다양한 목적으로 공격을 수행하고 있으며, TA4922로 추적되고 있습니다. Atlas RAT은 원격 접근 트로이목마로 분류되어 피해자 시스템에 대한 완전한 제어를 가능하게 합니다. 유럽 지역의 조직들은 이러한 새로운 위협으로부터 보호하기 위해 보안 체계를 강화할 필요가 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-new-atlas-rat-malware-in-european-cyberattacks/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국, 랜섬웨어에 사용된 이란 암호화폐 거래소 노비텍스에 제재 부과",
+      "summary": "미국 재무부의 해외자산통제국(OFAC)이 이란 최대 규모 암호화폐 거래소인 노비텍스(Nobitex)에 제재를 발표했습니다. 이 거래소가 테러 활동 관련 자금 이체 촉진에 이용되었다는 것이 제재 사유입니다. 노비텍스는 랜섬웨어 공격자들이 몸값 지급 시 활용하는 주요 거래소로 지목되어 왔습니다. 이번 제재는 이란의 암호화폐 기반 자금 조달 경로를 차단하려는 미국의 강화된 사이버 금융 제재 정책의 일환입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/the-us-sanctions-nobitex-crypto-exchange-used-by-ransomware/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, 연료 탱크 모니터링 시스템을 대상으로 한 사이버공격 경고",
+      "summary": "CISA, FBI, NSA, 에너지부 등 미국 정부 기관들이 해커들이 주요 기반시설 전역에서 연료 및 액체 저장 탱크를 모니터링하는 데 사용되는 인터넷 노출 자동 탱크 게이지(ATG) 시스템을 대상으로 한 사이버공격을 감행하고 있다고 경고했습니다. 해당 시스템은 다양한 산업 제어 시스템 환경에서 중요한 역할을 하고 있으며, 공격자들이 인터넷에 노출된 취약한 ATG 시스템에 접근하려고 시도하고 있습니다. 이번 공격은 중요 기반시설의 에너지 공급망에 심각한 위협이 될 수 있습니다. 정부 기관들은 관련 기관들에게 즉시 보안 점검과 대응 조치를 권고하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-targeting-fuel-tank-monitoring-systems/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 'HTTP/2 폭탄' DDoS 공격으로 웹 서버가 1분 이내에 다운",
+      "summary": "HTTP/2 폭탄이라고 불리는 새로운 서비스 거부(DoS) 공격이 발견되었습니다. 이 공격은 단 하나의 머신에서 발동되어 웹 서버를 수 초 내에 마비시킬 수 있습니다. 공격자는 매우 제한된 리소스만으로도 표적 서버에 심각한 손상을 입힐 수 있어 기존의 DDoS 공격보다 훨씬 효율적입니다. HTTP/2 프로토콜의 특정 취약점을 이용하는 이 공격 방식은 웹 서버 보안에 새로운 위협을 제시하고 있습니다. 웹 서버 관리자들은 즉시 해당 취약점에 대한 패치 적용과 보안 대책 강화가 필요합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-http-2-bomb-dos-attack-crashes-web-servers-in-under-a-minute/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, Android 및 Linux 버그를 악용한 활발한 공격 경고",
+      "summary": "미국 사이버보안 기반시설보안청(CISA)이 해커들이 Linux 커널과 Android 운영체제의 취약점을 악용하여 공격을 수행 중이라고 경고했습니다. CISA는 이러한 취약점들이 현재 실제 공격에 악용되고 있으며, 사용자들이 즉시 보안 패치를 적용할 필요가 있다고 강조했습니다. 영향을 받는 취약점들은 CISA의 알려진 악용 취약점 카탈로그(KEV)에 등재되어 있으며, 광범위한 기기에 영향을 미칠 수 있습니다. 기업 및 개인 사용자들은 자신의 Android 기기와 Linux 시스템의 보안 업데이트를 우선순위로 적용해야 합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-active-attacks-exploiting-android-linux-bugs/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "은행의 345일간 검증되지 않은 노출: 지속적 보안 테스트의 중요성",
+      "summary": "2주간의 침투 테스트만으로는 실제 환경에서 약 345일간의 보안 취약점이 검증되지 않은 채로 남아있을 수 있습니다. Sprocket Security는 공격 표면이 지속적으로 변화하는 현대의 위협 환경에서 연속적인 보안 테스트가 얼마나 중요한지를 강조하고 있습니다. 일회성 침투 테스트는 특정 시점의 보안 상태만 확인할 수 있어 그 사이의 긴 시간 동안 새로운 취약점이 발생할 수 있습니다. 따라서 은행 및 금융기관은 보안 위험을 최소화하기 위해 지속적이고 정기적인 보안 평가를 수행할 필요가 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/what-345-days-of-untested-exposure-looks-like-at-a-bank/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "에이서, Wave 7 라우터의 최고 심각도 제로데이 취약점 패치 진행 중",
+      "summary": "에이서가 자사의 Wave 7 메시 라우터에 영향을 미치는 2개의 최고 심각도 제로데이 취약점 해결을 위해 작업 중입니다. 이 취약점들은 평문 자격증명 노출과 하드코딩된 암호화 키와 관련된 보안 결함으로 알려져 있습니다. 영향을 받는 Wave 7 라우터 사용자들은 에이서로부터 보안 업데이트가 배포될 때까지 주의가 필요합니다. 이러한 제로데이 취약점은 공격자가 라우터에 무단으로 접근하거나 사용자의 자격증명을 탈취할 수 있게 할 수 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/acer-warns-of-max-severity-zero-days-affecting-wave-7-routers/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "경찰, 불법 스트리밍 단속으로 9개 범죄집단 적발",
+      "summary": "유럽과 국제 법 집행 기관들이 불법 스트리밍 운영에 대한 대규모 단속에서 9개의 조직 범죄집단을 적발하고 29명의 용의자를 체포했습니다. 이번 작전은 '작전 크라토스 2(Operation KRATOS 2)'로 명명되었으며 IPTV 및 불법 스트리밍 서비스와 관련된 범죄 조직을 목표로 했습니다. 유럽 경찰청(Europol)이 주도한 이번 단속은 국제적인 협력을 통해 진행되었습니다. 이는 디지털 저작권 침해 및 불법 콘텐츠 배포에 대한 전 세계적인 법 집행 노력의 일환입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/police-dismantles-9-crime-groups-in-illegal-streaming-crackdown/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "구글, AI 딥페이크 사기 전화로부터 안드로이드 보호 기능 추가",
+      "summary": "구글이 안드로이드 기기에서 사기꾼들이 인공지능을 이용해 사용자의 개인 연락처를 사칭하는 전화를 탐지하고 차단하는 새로운 보안 기능을 도입했습니다. 이 기능은 AI 기반의 딥페이크 음성 사기 전화를 식별하여 사용자에게 경고를 표시합니다. 이는 AI 기술의 악용으로 인한 음성 사기 피해를 예방하기 위한 구글의 적극적인 대응 조치입니다. 해당 기능은 안드로이드 사용자들의 개인정보 보호와 통신 보안을 강화하는 데 목적을 두고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VS Code 제로데이 취약점으로 해커들이 한 번의 클릭으로 GitHub 토큰 탈취 가능",
+      "summary": "보안 연구원이 Visual Studio Code(VS Code)의 제로데이 취약점을 악용하는 공격 코드를 공개했습니다. 이 취약점은 사용자가 악의적인 링크를 클릭하도록 속일 경우 GitHub 인증 토큰을 탈취할 수 있게 합니다. 공격자는 단 한 번의 클릭만으로 피해자의 GitHub 자격증명에 접근할 수 있어 보안상 심각한 위협이 됩니다. 이는 Microsoft의 매우 인기 있는 개발 도구인 VS Code를 통해 자신도 모르게 중요한 인증 정보가 탈취될 수 있음을 의미합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/vs-code-zero-day-lets-hackers-steal-github-tokens-in-one-click/",
+      "date": "2026-06-03"
+    },
+    {
       "id": "aHR0cDovL3d3dy5i",
       "title": "[PIS FAIR 2026 미리보기] 이노티움, ‘이노 스마트 플랫폼 프라이버시’",
       "summary": "개정 개인정보보호법 정조준... 금융·공공·SaaS 3대 축 시장 확장한수원·신한라이프 잇단 수주… AI 시대 ‘전주기 거버넌스’가 답[보안뉴스 강현주 기자] 지능형 데이터 보안 플랫폼 전문기업 이노티움(각자대표 김종필·이형택)은 ‘이노 스마트 플랫폼 프라이버시’(Inno Smart Platform Privacy)를 앞세워 강화된 개인정보보호 규제 환경을",
@@ -13521,11 +13809,11 @@
     }
   ],
   "sources": {
-    "보안뉴스": 513,
-    "Dell": 134,
-    "VAST Data": 33,
-    "SecurityWeek": 373,
-    "BleepingComputer": 426,
+    "VAST Data": 34,
+    "보안뉴스": 523,
+    "Dell": 137,
+    "SecurityWeek": 381,
+    "BleepingComputer": 436,
     "HPE": 23
   }
 }
