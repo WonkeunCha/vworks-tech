@@ -3,6 +3,249 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "CU 택배 전산망 뚫렸다... BGF네트웍스, 웹 취약점 해킹으로 CI 등 유출",
+      "summary": "4일 오후 웹 취약점 악용한 신원 미상 해커 공격으로 내부 시스템 침해이름·연락처·비밀번호 외 연계정보(CI)까지 유출돼 추가 피해 우려 고조[보안뉴스 조재호 기자] CU편의점 택배 서비스를 운영하는 BGF네트웍스가 외부 해킹 공격을 받아 CI를 포함한 고객 개인정보가 무더기로 유출되는 사고가 발생했다. 최근 국내 주요 B2C 플랫폼을 겨냥한 해킹이 잇따르",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143985&kind=&sub_kind=",
+      "date": "2026-06-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "수정 경쟁: Dell이 고급 AI를 활용하여 신흥 위협에 앞서가는 방법",
+      "summary": "프론티어 AI는 사이버보안의 판도를 바꾸었습니다. Dell은 Anthropic Project Glasswing의 일부이며 Claude Mythos Preview를 사용하여 제품의 취약점을 찾아내고 수정하고 있습니다. 이러한 고급 AI 기술의 도입은 Dell이 신흥 사이버 위협에 더욱 빠르게 대응할 수 있게 해줍니다. Dell의 이러한 노력은 고객 보호와 제품 보안 강화를 위한 선제적 접근 방식을 보여줍니다. 프론티어 AI와 같은 첨단 기술을 활용함으로써 Dell은 사이버보안 업계에서 앞서나갈 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/the-race-to-fix-how-dell-is-using-advanced-ai-to-stay-ahead-of-emerging-threats/",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "목적을 가지고 리더십하기: Dell의 성장을 이끄는 Arti Devi",
+      "summary": "Arti Devi는 모성애를 리더십의 강점으로 전환하며 Dell에서 팀을 역량화하고 성공을 재정의하고 있습니다. 그녀는 성장, 신뢰, 목적의 균형을 유지하면서 조직 내에서 의미 있는 변화를 주도하고 있습니다. 다양한 배경과 경험을 가진 팀 구성원들을 신뢰하고 권한을 부여함으로써 개인의 잠재력을 최대한 이끌어냅니다. 그녀의 리더십 철학은 개인의 성장과 조직의 성공이 함께 나아가야 한다는 신념에 기초하고 있습니다. 목적 있는 리더십을 통해 Dell에서 새로운 가치 기준을 만들어가고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/leading-with-purpose-arti-devi-on-growth-at-dell/",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OWASP 인큐베이터 프로젝트, 개발자의 취약한 의존성 탐지 및 수정을 초 단위로 지원",
+      "summary": "OWASP 인큐베이터 프로젝트는 개발자들이 소프트웨어의 취약한 의존성을 빠르게 찾아내고 수정할 수 있도록 지원하는 도구를 제공합니다. 이 프로젝트는 공급망 보안 강화에 중점을 두고 있으며, 개발 프로세스에 보안을 통합하는 데 도움을 줍니다. 취약한 라이브러리나 패키지로 인한 보안 위험을 신속하게 식별함으로써 개발 속도와 보안성을 동시에 향상시킵니다. 이는 현대적인 소프트웨어 개발에서 의존성 관리의 중요성을 강조합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/owasp-incubator-project-helps-developers-find-and-fix-vulnerable-dependencies-in-seconds/",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기타 뉴스: 앤스로픽의 AI 위협 분석, 미패치 Comodo 결함, Palantir 최고경영자 CISA 국장 후보 검토",
+      "summary": "AI 보안 회사인 앤스로픽이 인공지능 관련 위협들을 종합적으로 분석하고 대응 방안을 제시했습니다. 보안 소프트웨어 업체 Comodo의 패치되지 않은 보안 결함이 발견되어 사용자들에게 위험을 초래할 수 있습니다. 데이터 분석 기업 Palantir의 최고경영자가 미국 사이버보안 및 기반시설 보안청(CISA)의 차기 국장 후보로 검토되고 있습니다. 이러한 개발들은 현재 사이버보안 분야의 주요 이슈와 정책 변화를 반영하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-anthropic-maps-ai-threats-unpatched-comodo-flaw-palantir-chief-eyed-for-cisa/",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "해커들이 DentaQuest 정보 유출, 260만 명 영향",
+      "summary": "DentaQuest의 고객 정보가 해커에 의해 유출되었으며, 약 260만 명이 이 데이터 유출 사건의 영향을 받고 있습니다. 해킹 집단 ShinyHunters가 이 사건과 연관된 것으로 알려져 있습니다. 유출된 정보에는 개인 신원 정보 및 기타 민감한 데이터가 포함되어 있습니다. 이는 의료 부문의 보안 위협이 계속되고 있음을 보여주는 또 다른 사례입니다. DentaQuest는 영향을 받은 고객들에게 이 사건에 대해 통보할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hackers-leak-dentaquest-information-impacting-2-6-million/",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Chrome 149, 429개의 취약점 패치",
+      "summary": "Google이 Chrome 149 버전을 출시하면서 429개의 보안 취약점을 패치했습니다. 이 중에는 100개 이상의 심각도 높음 및 긴급 수준의 버그가 포함되어 있습니다. 정기적인 보안 업데이트를 통해 Chrome은 사용자의 시스템을 악의적인 공격으로부터 보호하고 있습니다. 사용자들은 최신 버전으로 즉시 업데이트하여 이러한 보안 위협으로부터 자신의 기기를 보호할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/chrome-149-patches-429-vulnerabilities/",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "트럼프 AI 사이버보안 행정명령에 대한 업계 반응: 피드백 프라이데이",
+      "summary": "트럼프 행정부가 새로운 AI 사이버보안 행정명령을 발표했으며, 보안 업계에서 다양한 반응을 보이고 있습니다. SecurityWeek의 '피드백 프라이데이' 시리즈를 통해 업계 전문가들이 이 행정명령의 함의와 영향을 분석하고 있습니다. 해당 행정명령은 인공지능 기술과 사이버보안의 교점에서 정부의 규제 방향을 제시하는 중요한 정책입니다. 보안 회사들과 전문가들은 이 정책이 AI 기반 사이버 위협 방어 강화에 미칠 영향을 주목하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/industry-reactions-to-new-trump-ai-cybersecurity-executive-order-feedback-friday/",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "파이브 아이즈: 중국 스파이들이 가짜 채용 기회로 정부·군 인력 대상 공격",
+      "summary": "파이브 아이즈(Five Eyes) 연합국들이 중국 정보기관의 새로운 스파이 활동을 경고했습니다. 중국 스파이들은 가짜 채용 공고를 통해 정부 기관 및 군 소속 직원들을 모집 활동으로 위장하여 접근하고 있습니다. 이러한 공격은 정부와 군사 기밀 정보 탈취를 목표로 하는 고도화된 사회공학 기법입니다. 파이브 아이즈는 관련 정부 및 군 인력에 대해 의심스러운 채용 제안에 주의할 것을 권고하고 있습니다. 이는 중국의 적극적인 정보 수집 활동이 계속되고 있음을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/five-eyes-chinese-spies-target-government-military-staff-with-fake-job-opportunities/",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "나이트클럽 거대 기업 RCI, 4만 명 개인정보 유출 발표",
+      "summary": "나이트클럽 운영 거대 기업 RCI Hospitality가 데이터 유출 사고로 약 4만 명의 개인정보가 영향을 받았다고 발표했습니다. 본 사건은 SecurityWeek에서 2026년 6월 5일에 보도되었으며, 데이터 유출 사고로 분류됩니다. 피해 규모와 구체적인 유출 정보의 성격에 대한 자세한 내용은 추가 조사가 필요합니다. 회사는 영향받은 개인들에 대한 통지 절차를 진행 중인 것으로 보입니다. 이 사건은 엔터테인먼트 업계의 사이버보안 위험성을 다시 한번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/nightclub-giant-rci-says-data-breach-affects-40000-individuals/",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "시스코, 2026년 7번째 SD-WAN 제로데이 취약점 악용 경고",
+      "summary": "시스코가 자사의 SD-WAN 제품에서 발견된 7번째 제로데이 취약점이 실제로 악용되고 있다고 경고했습니다. 이는 올해 SD-WAN 플랫폼을 대상으로 한 반복된 보안 위협이 지속되고 있음을 의미합니다. 시스코는 고객들에게 즉시 패치를 적용하고 보안 업데이트를 확인할 것을 권고했습니다. 이러한 다수의 제로데이 취약점 악용은 기업의 핵심 네트워크 인프라에 대한 심각한 보안 위협으로 평가됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisco-warns-of-7th-sd-wan-zero-day-exploited-in-2026/",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "도시바, 무지 웹사이트에 의심스러운 폴리필 로그인 창 출현",
+      "summary": "기술 대기업 도시바와 대형 소매업체 무지가 자신들의 웹사이트에 나타나는 의심스러운 로그인 화면이 사용자 자격증명을 수집할 수 있다고 방문객들에게 경고했습니다. 이 공격은 폴리필.io(Polyfill.io) 공급망 감염과 관련된 것으로 보이며, 악의적인 자바스크립트 코드를 주입하여 가짜 인증 프롬프트를 표시합니다. 사용자들이 이러한 팝업에 로그인 정보를 입력하면 공격자가 자격증명을 탈취할 수 있습니다. 도시바와 무지는 해당 웹사이트 방문 시 이러한 의심스러운 로그인 창에 주의할 것을 권고했습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/suspicious-polyfill-login-prompts-pop-up-on-toshiba-muji-websites/",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA: 해커들이 SolarWinds Serv-U 취약점을 악용하여 서버 마비 공격 진행",
+      "summary": "미국 사이버보안 인프라 보안청(CISA)은 최근 패치된 SolarWinds Serv-U의 고위험 취약점이 해커들에 의해 적극적으로 악용되고 있다고 경고했습니다. 해커들은 이 취약점을 이용하여 서버를 마비시키는 서비스 거부(DoS) 공격을 수행하고 있습니다. SolarWinds Serv-U는 널리 사용되는 파일 전송 소프트웨어로, 이번 취약점 악용은 조직의 중요 인프라에 심각한 영향을 미칠 수 있습니다. 영향을 받는 조직들은 즉시 최신 보안 패치를 적용할 것이 권장됩니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "중국 APT, 해킹된 네트워크 접근 유지를 위한 새로운 악성코드 배포",
+      "summary": "UNC5221로 추적되는 중국 스파이 집단이 Microsoft 365 환경에 접근하기 위해 Brickstorm 백도어와 함께 Plenet, AgentPSD 등 새로운 미공개 악성코드를 배포하고 있습니다. 이 집단은 이러한 악성코드들을 통해 해킹된 네트워크에 대한 지속적인 접근 권한을 유지하고 있습니다. 특히 Plenet과 AgentPSD는 이전에 문서화되지 않은 새로운 악성코드로서 사이버 스파이 활동에 사용되고 있습니다. 이는 중국의 고도화된 사이버 첩보 활동이 계속되고 있음을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "다크웹 네메시스 마켓 판매자, 마약 판매로 26년 징역형",
+      "summary": "캘리포니아의 한 남성이 세계 최대 규모의 다크웹 마켓플레이스 중 하나인 네메시스 마켓을 통해 펜타닐과 메스암페타민을 판매한 혐의로 연방 교도소에서 26년 이상의 징역형을 선고받았다. 이 사건은 다크웹 기반 불법 약물 거래 네트워크의 적발과 법 집행의 성공 사례를 보여준다. 네메시스 마켓은 불법 마약과 기타 금지 물품 거래의 중심지로 악명이 높았다. 이번 판결은 온라인 불법 마약 거래에 대한 당국의 적극적인 단속을 의미한다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/dark-web-nemesis-market-vendor-gets-26-years-for-selling-drugs/",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국 900개 이상의 주유소 탱크 게이지 시스템이 사이버 공격에 노출됨",
+      "summary": "미국 전역의 900개 이상의 자동 탱크 게이지(ATG) 시스템이 인터넷에 노출되어 있으며 지속적인 사이버 공격에 취약한 것으로 확인되었습니다. 이 시스템들은 주유소 및 여러 중요 기반시설 부문에서 연료 및 화학물질 저장 탱크를 모니터링하는 데 사용됩니다. 보안 전문가들은 이러한 노출이 심각한 보안 위험을 초래할 수 있다고 경고하고 있습니다. 해당 시스템들은 공격자들에 의해 이미 악용될 수 있는 상태에 있습니다. 이는 국가 주요 인프라에 대한 잠재적 위협을 나타냅니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/over-900-us-gas-station-tank-gauge-systems-exposed-to-attacks/",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "2026 DBIR이 확인한 것: 공격이 브라우저에서 발생하고 있다",
+      "summary": "2026년 베라이즌 DBIR 보고서에 따르면 피싱, 섀도우 AI, 악성 확장 프로그램, 자격증명 탈취 등의 공격이 브라우저 내에서 점점 더 빈번하게 발생하고 있습니다. 이는 브라우저 계층의 보안 취약점이 현대의 사이버 위협에 얼마나 노출되어 있는지를 보여줍니다. 기존의 네트워크 중심 보안 대책만으로는 부족하며, 브라우저 자체에서 발생하는 다양한 형태의 공격에 대한 새로운 방어 전략이 필요합니다. 특히 사용자의 브라우저 환경에서 일어나는 보안 위협들은 전통적인 보안 솔루션으로 감지하기 어렵다는 점이 문제입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/what-2026-dbir-confirms-attacks-are-living-in-the-browser/",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "시스코, 패치되지 않은 SD-WAN 제로데이 공격 경고",
+      "summary": "시스코는 시스코 카탈리스트 SD-WAN 매니저(CVE-2026-20245)의 높은 심각도 제로데이 취약점이 실제 공격에 악용되고 있다고 경고했습니다. 이 취약점은 명령 주입 공격을 통해 루트 권한 상승을 가능하게 하며, 현재까지 패치가 제공되지 않았습니다. 공격자들은 이 미패치 결함을 이용하여 SD-WAN 인프라에 대한 완전한 제어 권한을 획득할 수 있습니다. 시스코는 사용자들에게 즉시 영향받은 시스템을 확인하고 필요한 보안 조치를 취할 것을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-cisco-sd-wan-flaw-exploited-in-zero-day-attacks-to-gain-root/",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "한국항공보안학회 춘계학술대회 개최... “드론 테러 대응·항공 안전보안 거버넌스 강화 시급”",
+      "summary": "드론을 활용한 민간항공기 테러시, 항공보안 위협은 상상을 초월대드론 대응방안에 대해 실효성있는 대책 마련이 시급하다항공안전과 보안은 분리 아닌 융합된 위험관리와 현장중심 대책 필요[보안뉴스 강초희 기자] 한국항공보안학회(회장 소대섭)는 6월 5일 국립항공박물관 대강당과 세미나실에서 ‘대테러·대드론 대응체계 및 항공 안전보안 거버넌스’를 주제로 2026년 춘",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143984&kind=&sub_kind=",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "KISA, 판교 정보보호클러스터서 ‘화이트햇스쿨 4기’ 입학식... AI 보안 인재 키운다",
+      "summary": "기초·심화·실전 아우르는 프로젝트 기반 교육 과정과 현업 밀착 멘토링 강조AI 보안 현장에 즉시 투입 가능한 비즈니스 융합형 차세대 전문가 육성 목표[보안뉴스 조재호 기자] “AI 위협이 아무리 정교하게 진화하더라도 결국 이를 방어하고 통제하는 것은 사람입니다. 현장에 즉시 투입돼 문제를 해결할 수 있는 실무형 사이버 보안 인재가 그 어느 때보다 절실한 시",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143983&kind=&sub_kind=",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "무분별한 AI 도입 막는다... 美 연방 정부, 표준화된 안보 가이드라인 구축",
+      "summary": "자율형 AI 에이전트 발 취약점 사전 차단을 위한 소프트웨어 투명성 확보기술 혁신 이전에 비즈니스 연속성 보장하는 촘촘한 방어망 설계[보안뉴스 김형근 기자] 미국 사이버보안·인프라보안국(CISA)이 6월 2일 백악관의 인공지능(AI) 행정명령 발령에 맞춰 연방 기관 대상 긴급 안보 지침을 발표한다. 무분별한 기술 도입을 막고 ‘적대적 기계학습’(Advers",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143975&kind=&sub_kind=",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "매크로영상기술, 의료와 디스플레이 시장 겨냥한 제품 공개",
+      "summary": "내시경용 메디컬 보드와 LED 월 솔루션으로 글로벌 시장 공략 칩 기반 영상 처리 기술로 성능·가격 경쟁력 확보[보안뉴스 엄호식 기자] 매크로영상기술은 컴퓨텍스 2026에서 자사 칩을 활용한 새로운 시스템 솔루션을 공개하며 의료 및 디스플레이 시장에 도전장을 내밀었다. 이번 전시에서 처음 선보인 메디컬 보드는 내시경 장비에 적용되는 제품이다. ISP와 영",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143973&kind=&sub_kind=",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "오내피플, ‘서울시 워라밸 포인트 기업’ 선도형 재지정 “일·생활 균형 문화 확산 앞장”",
+      "summary": "서울시 ‘탄생응원 서울 프로젝트’ 일환, 최고 등급 ‘선도형’으로 자격 유지여가부 ‘가족친화인증’, 고용부 ‘일·생활 균형 우수기업’ 등 정부 부처 인증 섭렵[보안뉴스 강초희 기자] 오내피플(대표 조아영)이 서울특별시가 주관하는 ‘서울시 워라밸 포인트제’에서 최고 수준인 ‘선도형’ 기업으로 재지정됐다고 4일 밝혔다. ‘서울시 워라밸 포인트제’는 저출생 위기",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143979&kind=&sub_kind=",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "인텔리빅스, 창립 26주년 맞아 전 직원 결속 다져... “글로벌 K-AI 대표기업 도약”",
+      "summary": "창립 26주년 기념 볼링데이 개최하며 코스닥 상장과 글로벌 도약 의지 다져7억5000만장 데이터 기반 안전 AI와 생성형 AI 플랫폼 ‘GenAMS’로 성장세 지속일본 수출과 아시아 8개국 총판 계약을 기반으로 글로벌 K-AI 시장 공략 확대[보안뉴스 강초희 기자] 인텔리빅스(대표 최은수·장정훈)가 창립 26주년을 맞아 전사 임직원의 결속을 다지고, 성공적",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143982&kind=&sub_kind=",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "美 우주군 이어 사이버군 만드나... 미 싱크탱크, “사이버군 설립에 15조원 필요”",
+      "summary": "전략국제문제연구소(CSIS) 사이버군 창설 관련 보고서 발간[보안뉴스 김형근 기자] 미국이 육군이나 해군과 같은 지위를 갖는 ‘사이버군’(Cyber Force) 창설에 최대 110억달러(약 15조원)의 비용과 3만명의 인력이 필요하다는 추산이 나왔다. 미국 전략국제문제연구소(CSIS) 사이버군 창설 위원회가 최근 발간한 보고서에 따르면, 사이버군을 조직하",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143981&kind=&sub_kind=",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[해킹을 결제하시겠습니까?] #6. “누가 내 계좌에 1원을 보냈나” 통장 비밀번호 유출 신호는?",
+      "summary": "휴면계좌나 거래 제한 문자로 불안 심리 자극1원 입금, OTP 문자, 간편결제 등록 알림도 위험 신호 “야... 나 방금 소름 돋는 거 봤다.” “왜 또. 카드값 봤냐?” “아니. 누가 내 계좌에 1원 보냈어.” “1원?” “어. 진짜 딱 1원.” “입금자 이름",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143850&kind=&sub_kind=",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[PIS FAIR 2026 미리보기] 마크애니, AI 기반 화면 보안 ‘SDR’로 개인정보 유출 차단 나선다",
+      "summary": "AI 촬영 감지와 비가시성 워터마크 결합한 차세대 화면 보안 기술 공개생성형 AI 대응 통합 보안 플랫폼 ‘SafePC Enterprise’ 전략도 선보여[보안뉴스 강초희 기자] 생성형 AI 확산으로 업무 환경이 빠르게 변화하면서 개인정보와 기업 기밀정보 보호 방식에도 변화가 요구되고 있다. 업무의 유연성이 높아진 만큼 보안 경계는 더욱 복잡해졌고, 내부자",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143968&kind=&sub_kind=",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "KISA, 인니 자카르타서 K-보안 수출 지원 사격 나섰다",
       "summary": "3~4일 자카르타서 양국 주요 기관 참석 속에 정보보호 세미나 개최라온시큐어·피앤피시큐어 등 10개사 동행해 현지 맞춤형 비즈니스 발굴[보안뉴스 조재호 기자] 한국인터넷진흥원(KISA)은 인도네시아 정보통신협회와 함께 지난 3일부터 4일까지 자카르타에서 ’2026 AI 시대 한국-인도네시아 정보보호 파트너십 데이‘를 성황리에 개최했다고 5일 밝혔다. 이번",
       "category": "보안",
@@ -14088,11 +14331,11 @@
     }
   ],
   "sources": {
-    "보안뉴스": 533,
-    "Dell": 138,
+    "보안뉴스": 543,
+    "Dell": 140,
+    "SecurityWeek": 398,
+    "BleepingComputer": 453,
     "VAST Data": 35,
-    "SecurityWeek": 390,
-    "BleepingComputer": 446,
     "HPE": 23
   }
 }
