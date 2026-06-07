@@ -2,6 +2,24 @@
   "quarter": "2026-Q2",
   "items": [
     {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "오팔 시큐리티, AI 기반 신원 관리 솔루션으로 2,300만 달러 자금 조달",
+      "summary": "오팔 시큐리티(Opal Security)가 AI 네이티브 신원 거버넌스 솔루션 개발을 위해 2,300만 달러의 자금을 조달했다. 이번 펀딩을 통해 오팔은 기업의 신원 및 접근 권한 관리를 AI 기술로 자동화하고 최적화할 수 있는 차세대 솔루션을 강화할 계획이다. 신원 관리와 접근 제어는 현대 기업의 사이버보안 전략에서 핵심 요소로, 이 분야의 혁신은 기업의 보안 태세 개선에 중요한 역할을 한다. 오팔의 AI 기반 접근 방식은 수동 프로세스를 줄이고 보안 위험을 신속하게 식별 및 해결할 수 있도록 지원한다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/opal-security-raises-23-million-for-ai-native-identity-governance/",
+      "date": "2026-06-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Everest Forms Pro의 심각한 취약점이 WordPress 사이트 장악에 악용되고 있음",
+      "summary": "해커들이 Everest Forms Pro 플러그인의 심각한 취약점(CVE-2026-3300)을 적극적으로 악용하여 WordPress 웹사이트를 완전히 장악하고 있습니다. 이 취약점을 통해 공격자들은 표적 사이트에 대한 관리자 권한을 획득할 수 있으며, 이로 인해 웹사이트의 전체적인 제어 권한을 잃을 수 있습니다. 현재 해커들이 이 취약점을 실제로 공격에 활용하고 있는 상황으로, Everest Forms Pro를 사용 중인 WordPress 사이트 운영자들의 즉각적인 대응이 필요합니다. 영향을 받은 사이트 관리자들은 플러그인을 최신 버전으로 업데이트하거나 보안 패치를 적용하여 피해를 예방해야 합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
+      "date": "2026-06-06"
+    },
+    {
       "id": "aHR0cDovL3d3dy5i",
       "title": "CU 택배 전산망 뚫렸다... BGF네트웍스, 웹 취약점 해킹으로 CI 등 유출",
       "summary": "4일 오후 웹 취약점 악용한 신원 미상 해커 공격으로 내부 시스템 침해이름·연락처·비밀번호 외 연계정보(CI)까지 유출돼 추가 피해 우려 고조[보안뉴스 조재호 기자] CU편의점 택배 서비스를 운영하는 BGF네트웍스가 외부 해킹 공격을 받아 CI를 포함한 고객 개인정보가 무더기로 유출되는 사고가 발생했다. 최근 국내 주요 B2C 플랫폼을 겨냥한 해킹이 잇따르",
@@ -14331,10 +14349,10 @@
     }
   ],
   "sources": {
+    "SecurityWeek": 399,
+    "BleepingComputer": 454,
     "보안뉴스": 543,
     "Dell": 140,
-    "SecurityWeek": 398,
-    "BleepingComputer": 453,
     "VAST Data": 35,
     "HPE": 23
   }
