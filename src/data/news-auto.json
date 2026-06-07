@@ -1970,9 +1970,29 @@
     "http://www.boannews.com/media/view.asp?idx=143982&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143981&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143850&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=143968&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=143968&kind=&sub_kind=",
+    "https://www.securityweek.com/opal-security-raises-23-million-for-ai-native-identity-governance/",
+    "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "오팔 시큐리티, AI 기반 신원 관리 솔루션으로 2,300만 달러 자금 조달",
+      "summary": "오팔 시큐리티(Opal Security)가 AI 네이티브 신원 거버넌스 솔루션 개발을 위해 2,300만 달러의 자금을 조달했다. 이번 펀딩을 통해 오팔은 기업의 신원 및 접근 권한 관리를 AI 기술로 자동화하고 최적화할 수 있는 차세대 솔루션을 강화할 계획이다. 신원 관리와 접근 제어는 현대 기업의 사이버보안 전략에서 핵심 요소로, 이 분야의 혁신은 기업의 보안 태세 개선에 중요한 역할을 한다. 오팔의 AI 기반 접근 방식은 수동 프로세스를 줄이고 보안 위험을 신속하게 식별 및 해결할 수 있도록 지원한다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/opal-security-raises-23-million-for-ai-native-identity-governance/",
+      "date": "2026-06-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Everest Forms Pro의 심각한 취약점이 WordPress 사이트 장악에 악용되고 있음",
+      "summary": "해커들이 Everest Forms Pro 플러그인의 심각한 취약점(CVE-2026-3300)을 적극적으로 악용하여 WordPress 웹사이트를 완전히 장악하고 있습니다. 이 취약점을 통해 공격자들은 표적 사이트에 대한 관리자 권한을 획득할 수 있으며, 이로 인해 웹사이트의 전체적인 제어 권한을 잃을 수 있습니다. 현재 해커들이 이 취약점을 실제로 공격에 활용하고 있는 상황으로, Everest Forms Pro를 사용 중인 WordPress 사이트 운영자들의 즉각적인 대응이 필요합니다. 영향을 받은 사이트 관리자들은 플러그인을 최신 버전으로 업데이트하거나 보안 패치를 적용하여 피해를 예방해야 합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
+      "date": "2026-06-06"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "CU 택배 전산망 뚫렸다... BGF네트웍스, 웹 취약점 해킹으로 CI 등 유출",
@@ -10954,26 +10974,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143390&kind=&sub_kind=",
       "date": "2026-04-28"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "유럽연합, 국가별 안보 역량 평가 ‘NCAF 2.0’ 출시... 역내 사이버 격차 해소 총력",
-      "summary": "EU 회원국 사이버보안 전략 이행 수준 평가 툴킷 배포NIS2 지침 등 주요 규제와 궤 같이하며 통일된 안보 참조 기준 제시파편화된 접근 방식 통합, 상호 검토 장려... 유럽 집단적 복원력 강화[보안뉴스 김형근 기자] 유럽연합 사이버보안국(ENISA: European Union Agency for Cybersecurity)은 회원국들의 사이버보안 전략 이",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143387&kind=&sub_kind=",
-      "date": "2026-04-28"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "시큐아이, 문화유산 보호 앞장... 한국의 재발견과 맞손",
-      "summary": "궁궐·역사 유적지 환경 정화 위한 협력 체계 구축플로깅·문화해설 연계해 임직원 참여형 CSR 활동 확대[보안뉴스 원병철 기자] 시큐아이(정삼용 대표)가 서울 궁궐 및 역사 유적지 환경 보존을 위한 봉사 활동을 펼친다고 밝혔다. 시큐아이는 지난 24일 사단법인 한국의 재발견과 `한국문화유산지킴이` 봉사 활동 업무 협약을 체결했다. 한국의 재발견은 △궁궐·왕",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143391&kind=&sub_kind=",
-      "date": "2026-04-28"
     }
   ],
-  "totalItems": 1971,
+  "totalItems": 1973,
   "hasArchive": true
 }
