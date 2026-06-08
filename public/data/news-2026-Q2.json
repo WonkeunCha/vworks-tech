@@ -2,6 +2,132 @@
   "quarter": "2026-Q2",
   "items": [
     {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[Global Security TOP 100] 전명진 아마노코리아 대표이사 “주차관제 넘어 공간 플랫폼으로”",
+      "summary": "AI·무인화 기반 플랫폼 기업 전환 가속전국 1만4000여개 운영 현장과 26개 서비스 거점 기반 경쟁력 강조AI 기반 전기차 화재 진압 토탈 솔루션 연내 상용화 추진[보안뉴스 강초희 기자] 1996년 설립 이후 대한민국 주차관제 산업을 이끌어온 아마노코리아가 AI와 무인화 기술을 기반으로 대대적인 체질 개선에 나서고 있다. 전국 1만4000여개 운영 현장",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143831&kind=&sub_kind=",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "KISA, 음성스팸 차단 정조준... 유선·인터넷전화 사업자 방어망 넓힌다",
+      "summary": "스팸문자 91% 급감 속 음성스팸 873만건으로 폭증하는 풍선효과 선제 타개정보통신망법 기반 사업자 의무사항 안내 및 신고량 대국민 공개 전격 예고[보안뉴스 조재호 기자] 한국인터넷진흥원(KISA)은 유선 및 인터넷전화(VoIP) 사업자를 대상으로 불법스팸 대응 역량 강화를 위한 사업자 설명회를 11일 서울 세텍에서 개최한다고 9일 밝혔다.이번 행사는 3월",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143997&kind=&sub_kind=",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "라온시큐어, FIDO 글로벌 인증 컨퍼런스서 에이전틱 AI 보안 전략 제시",
+      "summary": "파이도 얼라이언스 주최 ‘어센티케이트 APAC 2026’ 참가해 빅테크와 기술 나란히안면·지문 생체인증 및 이상 행위 탐지 기능 결합한 차세대 ‘원패스’ 현장 시연[보안뉴스 조재호 기자] 라온시큐어는 지난 2일 싱가포르에서 개최된 국제 디지털 인증 컨퍼런스 ‘어센티케이트 APAC 2026’에 참가해 AI 환경에 최적화된 다중인증(MFA) 플랫폼 ‘원패스’(",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144002&kind=&sub_kind=",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "MS 깃허브 저장소 73곳 감염... ‘미아스마’ 웜 공급망 공격 비상",
+      "summary": "미아스마 웜, MS가 관리하는 깃허브 저장소 73곳 연쇄 감염개발자 개인 접근 토큰(PAT)과 인증 키 탈취해 침투[보안뉴스 김형근 기자] 전염성이 강한 미아스마(Miasma) 웜 악성코드가 마이크로소프트(MS)가 관리하는 핵심 깃허브(GitHub) 소스코드 저장소 73곳을 연쇄적으로 공격했다.이번 사건은 개발자 인증 자격을 탈취해 정상 프로그램을 오염시킨",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144003&kind=&sub_kind=",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "서울시설공단, 170만건 데이터 기반 도로관리 핵심기술 특허 출원 “교량 노후화 예측한다”",
+      "summary": "올림픽대로 등 서울시 전체 자동차전용도로 12개 노선·164개 시설물로 시스템 전면 확장디지털 트윈 연계·AI 기술 도입 추진으로 노후 시설물 안전관리의 새로운 표준 정립[보안뉴스 강초희 기자] 서울시설공단(이사장 한국영)이 서울 도로관리의 안전 증진을 위해 구축한 ‘데이터 기반 도로관리 시스템’의 핵심기술의 특허출원을 완료했다고 5일 밝혔다.공단은 준공",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143998&kind=&sub_kind=",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "행안부, ‘최고의 재난안전 AI 프롬프트’ 찾는다... 창업경진대회 개최",
+      "summary": "‘제4회 재난안전데이터 활용 창업경진대회’ 공모작 7월 7일까지 접수재난안전 데이터와 AI를 활용한 프롬프트·서비스 아이디어 발굴 추진[보안뉴스 강초희 기자] AI가 재난 상황을 스스로 판단해 담당 공무원에게 위험지역, 대피 대상과 같은 맞춤형 대응 조치를 신속하고 정확하게 안내하기 위한 ‘AI 프롬프트’를 국민과 함께 찾는다.행정안전부(장관 윤호중)는 재",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143999&kind=&sub_kind=",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“열차 운전실 CCTV 설치 예외 없앤다” 국토부, 철도안전법 개정 추진",
+      "summary": "철도안전법 시행령·시행규칙 개정안 입법예고운전실 CCTV 설치 면제 규정 폐지하고 모든 열차로 확대기관사 개인정보 보호와 근무환경 개선 방안도 병행 추진[보안뉴스 강초희 기자] 국토교통부(장관 김윤덕)는 7월 15일까지 ‘철도안전법 시행령·시행규칙’ 일부 개정안을 입법예고한다.이번 개정은 철도 사고 원인의 명확한 규명과 철도 안전 강화를 위해 모든 열차에",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144000&kind=&sub_kind=",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "美 CISA, 솔라윈즈 결함 KEV 등재... ‘Serv-U’ 취약점 악용 비상",
+      "summary": "관리자 시선 돌린 틈 타 내부망 깊숙이 우회 침투하는 고도의 기만전술 확인6월 28일까지 연방 기관 대상 보안 패치 및 망 격리 긴급 지침 하달[보안뉴스 김형근 기자] 미국 사이버보안인프라보안국(CISA)이 글로벌 네트워크 관리 솔루션 솔라윈즈(SolarWinds)의 파일 전송 프로그램 결함을 ‘악용 확인 취약점’(KEV) 목록에 등재하며 긴급 방어 태세에",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143996&kind=&sub_kind=",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[2026 LiDAR 기반 외곽감시 리포트] 국가 경계와 중요시설 보안을 위한 새로운 눈",
+      "summary": "라이다, 군사기지부터 항만, 발전소까지 국가 중요시설 및 민간 산업시설 보호에 빠르게 확산CCTV 및 주요 센서들과 조화로운 역할 분담으로 철통 감시 구현[보안뉴스 엄호식 기자] 밤이나 폭우 속에서도 침입자를 미리 알아챌 수 있다면 어떨까. CCTV가 보지 못하는 사각지대, 센서가 놓치는 순간을 메워줄 새로운 눈이 등장했다. 바로 라이다(LiDAR)다. 수",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143880&kind=&sub_kind=",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "파이오링크, AI 에이전트 기반 사이버위협 관리 플랫폼 ‘블루헌터’ 출시",
+      "summary": "“사이버 복원력 시장 정조준”자산 및 취약점 식별을 넘어 비즈니스 관점 위협 관리[보안뉴스 강현주 기자] 파이오링크(대표 조영철)가 인공지능(AI) 기반의 사이버위협 관리 플랫폼 ‘블루헌터(BlueHunter) 서비스’를 정식 출시하며 사이버 복원력 시장 공략에 나선다고 8일 밝혔다. 이번에 선보인 블루헌터는 가트너가 제시한 지속적 위협 노출관리(CTEM,",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143995&kind=&sub_kind=",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "엠피어, AI 기반 취약점 해결을 위해 210만 달러 자금 조성",
+      "summary": "사이버보안 업체 엠피어(Emphere)가 AI 기반 취약점 해결 솔루션 개발을 위해 210만 달러의 시리즈 펀딩을 성공적으로 완료했습니다. 이 자금은 기업의 취약점 관리 및 수정 프로세스를 자동화하고 가속화하는 데 사용될 예정입니다. 엠피어의 AI 기반 플랫폼은 조직이 발견된 보안 취약점을 더 효율적으로 식별하고 우선순위를 정해 해결할 수 있도록 지원합니다. 이번 투자는 엠피어가 사이버보안 시장에서의 입지를 강화하고 기술 혁신을 가속화할 수 있는 기반이 될 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/emphere-raises-2-1-million-for-ai-powered-vulnerability-remediation/",
+      "date": "2026-06-07"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 기반 Windows Terminal인 Intelligent Terminal 실제 사용기",
+      "summary": "마이크로소프트가 Windows Terminal의 오픈소스 포크 버전인 'Intelligent Terminal'을 출시했습니다. 이 새로운 터미널은 기존 세션을 방해하지 않으면서 터미널 내에서 직접 AI를 사용할 수 있도록 지원합니다. 사용자는 일반적인 터미널 작업 중에도 AI 기능을 활용하여 더욱 효율적인 작업 환경을 구축할 수 있습니다. Intelligent Terminal은 Windows 11 등 최신 Windows 운영체제에서 활용 가능하며, AI의 강력한 기능을 터미널 환경에 통합하여 개발자와 시스템 관리자의 생산성을 향상시킵니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/hands-on-with-intelligent-terminal-an-ai-powered-windows-terminal/",
+      "date": "2026-06-07"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "C0XMO 봇넷, DD-WRT 라우터 취약점을 통해 확산 및 경쟁 악성코드 제거",
+      "summary": "Gafgyt 봇넷의 새로운 변종인 C0XMO가 DD-WRT 라우터 펌웨어를 표적으로 하여 확산 중입니다. 이 봇넷은 다양한 CPU 아키텍처를 가진 다른 장치 유형으로도 전파될 수 있는 능력을 갖추고 있습니다. C0XMO는 감염된 기기에서 기존의 다른 악성코드를 제거하는 특징을 보이고 있어, 경쟁하는 악성코드들을 구제거하면서 자신의 영역을 확대하고 있습니다. 이러한 공격 패턴은 라우터와 같은 네트워크 장비의 취약점을 악용한 대규모 봇넷 감염의 심각성을 보여줍니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/",
+      "date": "2026-06-07"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Silent Ransom Group, 가짜 IT 지원 전화로 로펌 표적",
+      "summary": "사이버보안 회사 Mandiant의 보고서에 따르면, Silent Ransom Group 갈취 조직이 미국 로펌과 전문 서비스 기관을 대상으로 활발한 사회공학 공격을 벌이고 있습니다. 이들은 가짜 IT 지원 전화를 통해 초기 접촉 후 수 시간 내에 데이터 도용에 성공하고 있습니다. 이 조직은 피해자들로부터 금전적 보상을 요구하는 갈취 방식으로 운영되고 있으며, 로펌들의 민감한 고객 정보가 주요 표적입니다. 전문 서비스 기관들은 신원 확인되지 않은 IT 지원 요청에 특히 주의를 기울일 필요가 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/",
+      "date": "2026-06-07"
+    },
+    {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "오팔 시큐리티, AI 기반 신원 관리 솔루션으로 2,300만 달러 자금 조달",
       "summary": "오팔 시큐리티(Opal Security)가 AI 네이티브 신원 거버넌스 솔루션 개발을 위해 2,300만 달러의 자금을 조달했다. 이번 펀딩을 통해 오팔은 기업의 신원 및 접근 권한 관리를 AI 기술로 자동화하고 최적화할 수 있는 차세대 솔루션을 강화할 계획이다. 신원 관리와 접근 제어는 현대 기업의 사이버보안 전략에서 핵심 요소로, 이 분야의 혁신은 기업의 보안 태세 개선에 중요한 역할을 한다. 오팔의 AI 기반 접근 방식은 수동 프로세스를 줄이고 보안 위험을 신속하게 식별 및 해결할 수 있도록 지원한다.",
@@ -14349,9 +14475,9 @@
     }
   ],
   "sources": {
-    "SecurityWeek": 399,
-    "BleepingComputer": 454,
-    "보안뉴스": 543,
+    "보안뉴스": 553,
+    "SecurityWeek": 400,
+    "BleepingComputer": 457,
     "Dell": 140,
     "VAST Data": 35,
     "HPE": 23
