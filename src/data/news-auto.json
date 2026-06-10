@@ -2020,9 +2020,379 @@
     "http://www.boannews.com/media/view.asp?idx=144023&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144020&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144014&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=144015&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=144015&kind=&sub_kind=",
+    "https://www.dell.com/en-us/blog/from-hr-to-engineering-a-journey-into-innovation/",
+    "https://www.vastdata.com/blog/daft-vast-unified-analytical-workflow-database-s3-events",
+    "https://www.vastdata.com/blog/splunk-smartstore-vast-data-infinite-cache",
+    "https://www.securityweek.com/microsoft-patches-200-vulnerabilities/",
+    "https://www.securityweek.com/adobe-patches-123-vulnerabilities/",
+    "https://www.securityweek.com/anthropic-launches-claude-fable-5-mythos-class-ai-with-cybersecurity-guardrails/",
+    "https://www.securityweek.com/openssl-patches-high-severity-vulnerability-found-with-ai/",
+    "https://www.securityweek.com/claude-mythos-turns-n-days-into-n-hours-with-rapid-exploit-creation/",
+    "https://www.securityweek.com/new-platform-uses-cryptographic-invisibility-to-protect-ai-built-applications/",
+    "https://www.securityweek.com/sap-patches-critical-netweaver-commerce-vulnerabilities/",
+    "https://www.securityweek.com/over-100-npm-pypi-packages-hit-in-new-shai-hulud-supply-chain-attacks/",
+    "https://www.securityweek.com/will-ai-kill-the-bug-bounty-industry/",
+    "https://www.securityweek.com/check-point-vpn-zero-day-exploited-in-qilin-ransomware-attacks/",
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-claude-fable-5-but-its-available-for-a-limited-time/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-rogueplanet-zero-day-grants-system-privileges/",
+    "https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/",
+    "https://www.bleepingcomputer.com/news/security/openclaw-ai-agent-found-falling-for-phishing-attacks-spills-user-data/",
+    "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-flaws-in-netweaver-and-commerce-cloud/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5094127-extended-security-update/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-june-2026-patch-tuesday-fixes-3-zero-day-200-flaws/",
+    "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5094126-and-kb5093998-cumulative-updates-released/",
+    "https://www.bleepingcomputer.com/news/security/xbow-tests-anthropics-mythos-preview-for-offensive-security/",
+    "https://www.bleepingcomputer.com/news/security/github-disables-microsoft-repos-pushing-password-stealing-malware/",
+    "https://www.bleepingcomputer.com/news/security/new-veeam-vulnerability-exposes-backup-servers-to-rce-attacks/",
+    "https://www.bleepingcomputer.com/news/security/french-govt-messaging-service-breached-in-account-hijacking-attack/",
+    "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
+    "https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/",
+    "http://www.boannews.com/media/view.asp?idx=144051&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144050&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144049&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144048&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144038&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144043&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144046&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144044&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143989&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143987&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Anthropic, Claude Fable 5 출시 - 제한된 기간 동안만 이용 가능",
+      "summary": "Anthropic이 새로운 AI 모델인 'Fable'을 출시했습니다. 이 모델은 Anthropic의 가장 강력한 AI 모델 클래스인 Mythos와 동일한 기반 모델을 기반으로 개발되었습니다. Claude Fable 5는 제한된 시간 동안만 이용 가능한 것으로 알려져 있습니다. 이번 출시는 Anthropic이 지속적으로 AI 기술을 발전시키고 있음을 보여줍니다. 사용자들은 이 제한된 기간 내에 새로운 모델의 기능을 경험할 수 있는 기회를 가지게 됩니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-claude-fable-5-but-its-available-for-a-limited-time/",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "상장 앞둔 앤트로픽, ‘미토스 수준’ 최신 AI 모델 ‘페이블 5’ 공개",
+      "summary": "미토스도 ‘미토스5’로 업그레이드... ‘프로젝트 글래스윙’ 참여 조직에만 공개[보안뉴스 한세희 기자] 앤트로픽이 ‘미토스’급 최상위 모델 ‘클로드 페이블(Claude Fable) 5’를 9일(현지시간) 공개했다. 페이블5는 미토스에서 사이버 보안 취약점 공략에 악용될 수 있는 기능을 막은 모델이다. 이같은 제약이 없는 ‘미토스5’ 모델은 ‘프로젝트 글래",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144051&kind=&sub_kind=",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[카드뉴스] “반도체 뚫리면 1억명 마비”… 삼성·SK, 앤트로픽 극비 동맹 ‘글래스윙’ 전격 합류",
+      "summary": "해커들이 전력망, 자율주행차, 스마트폰 등의 핵심 칩셋인 하드웨어 자체를 직접 겨냥하기 시작하면서, 반도체 공급망 보안이 국가 안보의 최전선으로 부상했다. 이에 대응하기 위해 앤트로픽 주도의 극비 보안 동맹인 ‘프로젝트 글래스윙’이 전 세계로 확장되는 가운데, 국내 반도체 거두인 삼성전자와 SK하이닉스가 동시 합류하여 글로벌 AI 보안 연합의 핵심 축을 담",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144050&kind=&sub_kind=",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "유락, 맥OS용 포렌식 플랫폼 ‘디파스 프로 맥’ 출시",
+      "summary": "맥OS 대응 확대로 멀티 OS 포렌식 시장 정조준비전문가도 현장서 증거 선별 분석 ‘실무형 포렌식’ [보안뉴스 강현주 기자] AI 디지털 포렌식 전문기업 유락(대표 유봉석)이 맥 운영체제(macOS)에 최적화된 포렌식 솔루션 ‘디파스 프로 맥’(DFAS Pro Mac)을 출시했다고 10일 밝혔다. 윈도우 중심이던 기존 포렌식 대응 범위를 맥 OS까지 넓히며",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144049&kind=&sub_kind=",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "강병탁 AI스페라 대표, 유럽서 차세대 공격표면관리 ‘AITEM’ 방향성 공개",
+      "summary": "에이전틱 AI·섀도우 AI 탐지·취약점 영향도 분석 등 핵심 방향 소개“자산 가시성 넘어 자율 대응으로”[보안뉴스 강현주 기자] 사이버 위협 인텔리전스 전문기업 AI스페라(AI SPERA, 대표 강병탁)가 2일부터 4일까지(현지시간) 영국 런던에서 열린 유럽 대표 사이버보안 행사 ‘인포시큐리티 유럽 2026’(Infosecurity Europe 2026)에",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144048&kind=&sub_kind=",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "대륜-SJKP, 美 로펌과 쿠팡 소송 공동 대응... “자체 디스커버리로 승부”",
+      "summary": "연방 집단소송 경험 풍부한 ‘나폴리 슈콜닉’과 협업“국가 간 협업 통해 한미 양국 피해자 권리 되찾을 것”[보안뉴스 강현주 기자] 법무법인 대륜의 업무협력 로펌인 SJKP가 미국 뉴욕동부연방지방법원에 제기된 미국 쿠팡(Coupang, Inc.) 대상 대규모 개인정보 유출 집단소송에서 미국 집단소송 전문대형 로펌인 나폴리 슈콜닉(Napoli Shkolnik)",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144038&kind=&sub_kind=",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "K-보안 저력 알린다... 펜타시큐리티, 미국 ‘AWS 서밋 뉴욕 시티’ 참가",
+      "summary": "6월 17일 뉴욕 자비츠 컨벤션 센터서 클라우드브릭 핵심 서비스 소개아시아권 검증된 웹 보안 기술력 무기로 북미 지역 보안 인력난 해법 제시[보안뉴스 조재호 기자] 펜타시큐리티는 17일 미국 뉴욕 자비츠 컨벤션 센터에서 열리는 ‘AWS 서밋 뉴욕 시티’에 참가한다고 밝혔다. 펜타시큐리티는 본 행사에서 ‘클라우드브릭 매니지드 룰’과 ‘클라우드브릭 WMS’를",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144043&kind=&sub_kind=",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "취임 1주년 민기식 SK쉴더스 대표 “인공지능 확산, 보안 산업 근본적 변화 요구”",
+      "summary": "취임 1주년 맞아 사이버-물리 아우르는 차세대 운영 체계 예고안전 돌봄 운영 편의까지 책임지는 복합 서비스 플랫폼 도약[보안뉴스 조재호 기자] SK쉴더스가 민기식 대표 취임 1주년을 맞아 지난 1년간 추진해 온 주요 성과와 인공지능 시대에 대응하기 위한 미래 사업 방향을 10일 공개했다.민 대표는 취임 이후 고객 신뢰를 최우선 가치로 두고 안전 관리 강화와",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144046&kind=&sub_kind=",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "델 테크놀로지스, 향상된 보상 프로그램과 파트너 플랫폼 발표",
+      "summary": "AI가 적용된 새로운 통합 파트너 플랫폼 도입엔터프라이즈 현대화를 위한 전략 솔루션에 대해 차별화된 보상 제공어드바이저리 및 SI 파트너에 대한 공동 영업 성과 인증 등 보상 강화[보안뉴스 엄호식 기자] 델 테크놀로지스는 엔터프라이즈 AI 도입 및 사이버 복원력 강화, 클라우드 현대화 수요에 맞춰 파트너가 수익을 높일 수 있도록 설계된 ‘2026 델 테크놀",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144044&kind=&sub_kind=",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HR에서 엔지니어링까지: 혁신으로의 여정",
+      "summary": "Anne Duarte는 자신의 호기심을 따라 경력을 재정의하여 HR에서 엔지니어링으로의 성공적인 전환을 이루었습니다. Dell에서 그녀는 글로벌 혁신을 주도하고 사용자 경험을 형성하는 데 핵심적인 역할을 하고 있습니다. 이 사례는 경력 전환이 가능하며, 새로운 분야에 대한 열정과 학습 의지가 얼마나 중요한지를 보여줍니다. 직무 경계를 넘어 도전함으로써 조직에 새로운 가치와 관점을 가져올 수 있습니다. 호기심과 지속적인 자기개발은 조직 내에서 혁신적인 인재를 육성하는 핵심 요소입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/from-hr-to-engineering-a-journey-into-innovation/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Daft와 VAST를 통한 통합 분석 워크플로우: 데이터베이스, S3, 이벤트 처리의 융합",
+      "summary": "VAST AI 운영 체제는 고성능 스토리지, 데이터베이스 테이블, S3 객체 접근, 이벤트 기반 파이프라인, AI 워크로드를 하나의 플랫폼에서 통합하는 독특한 솔루션을 제공합니다. Daft는 이 위에 현대적인 Python DataFrame 레이어를 추가하여 개발자들이 도구를 자주 바꾸지 않고도 이 모든 시스템을 활용할 수 있게 합니다. VAST DataBase는 높은 성능과 빠른 메타데이터 접근이 필요한 운영 테이블용으로, VAST DataStore의 S3는 Iceberg, Delta, Parquet 같은 오픈 레이크하우스 포맷 데이터용으로, VAST Event Broker는 지속적으로 들어오는 이벤트 데이터용으로 각각 최적화되어 있습니다. 이러한 통합 아키텍처는 데이터 내보내기, 스테이징 테이블, 포맷 변환 같은 번거로운 단계를 제거하여 진정한 단일 노트북 분석 경험을 가능하게 합니다. VAST의 DASE(분산 공유 아키텍처)는 컴퓨팅과 스토리지를 분리하면서도 데이터를 전역적으로 접근 가능하게 유지하여, 분산 분석 워크로드에서 워커들이 고정된 데이터 샤드에 얽매이지 않고 자유롭게 확장될 수 있습니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/daft-vast-unified-analytical-workflow-database-s3-events",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Splunk SmartStore VAST Data 무한 캐시",
+      "summary": "VAST Data는 Splunk SmartStore와의 S3 호환성 검증을 통과했으며, 이 과정에서 기존 시장의 어떤 제품과도 다른 혁신적인 배포 모델을 개발했다. 'Splunk Infinite Cache by VAST Data'라고 명명된 이 솔루션은 관찰성 성능을 향상시키고 검색 기능을 확장하며 전체 스토리지 용량 요구사항을 3분의 2 이상 감소시킨다. VAST는 제로베이스 사고방식으로 SmartStore의 핵심 설계를 분석하고 기존 제약을 제거했을 때 가능한 것들을 연구했다. SmartStore의 계층화된 스토리지 아키텍처에서 각 인덱서 서버는 로컬 캐시를 유지하며, 원격 버킷이 필요한 경우 S3에서 로컬 캐시로 다운로드되어야 한다. Splunk 버킷은 주로 타임시리즈 인덱스(*.tsidx)와 압축된 이벤트 로그 번들인 저널(*.gz) 파일로 구성되어 있다. 로컬 캐시 용량이 커질수록 검색 성능이 향상되는데, 무한 캐시 모델은 이러한 성능 제약을 근본적으로 해결한다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/splunk-smartstore-vast-data-infinite-cache",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, 200개 취약점 패치 공개",
+      "summary": "마이크로소프트가 2026년 6월 패치 튜즈데이를 통해 자사 제품에서 발견된 약 200개의 취약점을 수정했습니다. 이번 보안 업데이트는 윈도우, 오피스 등 마이크로소프트의 주요 제품들에 영향을 미치는 다양한 취약점들을 해결합니다. SecurityWeek에서 보도한 이번 패치는 사이버 공격으로부터 사용자 시스템을 보호하기 위한 정기적인 보안 조치입니다. 마이크로소프트 사용자들은 가능한 한 빨리 이번 업데이트를 설치할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/microsoft-patches-200-vulnerabilities/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Adobe, 123개 취약점 패치",
+      "summary": "Adobe가 최신 패치 화요일(Patch Tuesday) 업데이트를 통해 11개 제품에 걸쳐 총 123개의 취약점을 수정했습니다. 이번 보안 업데이트에는 심각도가 높은 결함들이 포함되어 있습니다. SecurityWeek에서 보도한 이 소식은 2026년 6월 9일에 발표되었으며, Adobe 사용자들에게 즉시 업데이트를 권고하고 있습니다. 이러한 대규모 보안 패치는 Adobe 소프트웨어를 사용하는 수백만 사용자들의 시스템 보안을 강화하는 데 중요한 역할을 할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/adobe-patches-123-vulnerabilities/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Anthropic, 사이버보안 보안장치가 탑재된 Claude Fable 5(Mythos급 AI) 출시",
+      "summary": "Anthropic이 사이버보안 기능을 강화한 새로운 AI 모델인 Claude Fable 5를 출시했습니다. 이 모델은 Mythos 클래스의 AI로 분류되며 보안 위협을 방어하기 위한 강화된 보안장치(guardrails)를 포함하고 있습니다. Claude Fable 5는 악의적인 사용을 방지하고 안전한 AI 운영을 보장하기 위해 설계되었습니다. 이번 출시는 AI 보안에 대한 업계의 관심이 증가하는 가운데 이루어졌으며, Anthropic의 책임있는 AI 개발 접근 방식을 반영합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/anthropic-launches-claude-fable-5-mythos-class-ai-with-cybersecurity-guardrails/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpenSSL, AI로 발견된 고위험 취약점 패치",
+      "summary": "OpenSSL이 인공지능(AI)을 통해 발견된 높은 심각도의 보안 취약점을 패치했습니다. 이번 취약점은 SecurityWeek에서 보도한 바에 따르면 AI 기술을 활용한 보안 연구 과정에서 식별되었습니다. OpenSSL은 이러한 취약점을 해결하기 위한 보안 업데이트를 배포했으며, 사용자들은 시스템을 최신 버전으로 업그레이드할 것을 권장받고 있습니다. 이번 사건은 사이버보안 분야에서 AI 기술이 점점 더 중요한 역할을 하고 있음을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/openssl-patches-high-severity-vulnerability-found-with-ai/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Claude Mythos, N-Day 취약점을 N-시간으로 단축하는 빠른 익스플로잇 생성",
+      "summary": "Claude Mythos라는 AI 시스템이 취약점 발견 후 익스플로잇 개발 시간을 획기적으로 단축할 수 있게 되었습니다. 기존에 N-Day(공개된 취약점) 익스플로잇 개발에 소요되던 여러 날의 시간을 수 시간으로 줄일 수 있다는 의미입니다. 이는 AI 기술이 사이버보안 위협의 속도를 크게 높일 수 있음을 시사합니다. 공격자들이 더욱 빠르게 취약점을 악용할 수 있게 되면서 보안 커뮤니티의 대응 시간이 더욱 제한될 것으로 예상됩니다. 이러한 기술 발전은 조직들의 취약점 패치 속도를 더욱 중요하게 만들고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/claude-mythos-turns-n-days-into-n-hours-with-rapid-exploit-creation/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "암호화 기술로 AI 구축 애플리케이션 보호하는 새로운 플랫폼 등장",
+      "summary": "Atsign이 개발한 AI Architect 플랫폼은 암호화 기반의 '보안 invisibility' 기술을 적용하여 AI로 구축된 애플리케이션을 보호합니다. 이 솔루션은 에이전트 AI와 vibe coding으로 개발된 소프트웨어에서 신원 기반 보안 위험을 줄이는 데 초점을 맞추고 있습니다. 이 플랫폼은 조직들이 AI 기반 애플리케이션의 보안 취약점을 해결하기 위해 고안되었으며, 암호화 기술을 활용한 새로운 보안 패러다임을 제시합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/new-platform-uses-cryptographic-invisibility-to-protect-ai-built-applications/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "SAP, NetWeaver 및 Commerce의 중대 취약점 패치 배포",
+      "summary": "SAP가 NetWeaver 및 Commerce 플랫폼의 중대 취약점을 해결하기 위해 15개의 새로운 보안 패치를 배포했습니다. 이번 패치는 엔터프라이즈 시스템에 영향을 미칠 수 있는 보안 결함을 수정하는 것을 목표로 합니다. SAP 사용자들은 시스템 보안을 유지하기 위해 가능한 한 빨리 이 패치를 적용할 것을 권장받고 있습니다. 이 취약점들이 악용될 경우 조직의 주요 비즈니스 시스템에 심각한 영향을 미칠 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/sap-patches-critical-netweaver-commerce-vulnerabilities/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "100개 이상의 NPM, PyPI 패키지가 새로운 샤이-훌루드 공급망 공격에 피해",
+      "summary": "NPM과 PyPI 저장소에서 100개 이상의 패키지가 '샤이-훌루드'라는 새로운 공급망 공격 캠페인의 타겟이 되었습니다. 이번 공격은 개발자들이 사용하는 오픈소스 패키지를 감염시켜 악성 코드를 배포하는 방식으로 진행되었습니다. NPM(Node.js)과 PyPI(Python) 패키지 생태계를 동시에 대상으로 한 이 공격은 공급망 보안에 대한 심각한 위협을 나타냅니다. 보안 연구자들은 이러한 대규모 패키지 침해가 수많은 개발 프로젝트와 최종 사용자에게 영향을 미칠 수 있다고 경고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/over-100-npm-pypi-packages-hit-in-new-shai-hulud-supply-chain-attacks/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI가 버그 바운티 산업을 죽일 것인가?",
+      "summary": "보안 업계에서 AI 기술의 급속한 발전이 버그 바운티 산업의 미래를 위협하고 있습니다. Anthropic의 Mythos와 같은 AI 도구들은 취약점 발견을 가속화하고 있어, 기존 보안 연구원들과 방어자들의 역할 변화를 강요하고 있습니다. AI 기반 자동화된 취약점 탐지 시스템이 등장하면서 수동으로 버그를 찾는 보안 연구원의 수요가 감소할 가능성이 제기되고 있습니다. 이는 버그 바운티 프로그램의 경제 모델과 독립 보안 연구자들의 경력 기회에 직접적인 영향을 미칠 것으로 예상됩니다. 업계 전문가들은 AI 시대에 적응하기 위해 새로운 접근 방식과 전략 수립이 필요하다고 지적하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/will-ai-kill-the-bug-bounty-industry/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "체크포인트 VPN 제로데이 취약점, 킬린 랜섬웨어 공격에 악용",
+      "summary": "체크포인트(Check Point)의 VPN 제로데이 취약점이 킬린(Qilin) 랜섬웨어 공격 캠페인에서 악용되고 있습니다. 이 취약점은 공격자들이 기업 네트워크에 침입하는 초기 진입점으로 사용되고 있습니다. VPN 게이트웨이를 대상으로 한 이 공격은 조직의 주요 진입로를 통해 랜섬웨어를 배포하는 위험성을 보여줍니다. 체크포인트는 해당 취약점에 대한 보안 패치를 긴급으로 제공하고 있으며, 사용자들에게 즉시 업데이트를 권장하고 있습니다. 이 사건은 VPN과 같은 원격 접속 솔루션이 사이버 범죄자들의 주요 공격 대상임을 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/check-point-vpn-zero-day-exploited-in-qilin-ransomware-attacks/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Microsoft Defender 'RoguePlanet' 제로데이 취약점, SYSTEM 권한 획득 가능",
+      "summary": "Microsoft Defender에서 'RoguePlanet'이라는 제로데이 취약점이 발견되었으며, 이 취약점을 악용하면 공격자가 SYSTEM 권한을 획득할 수 있습니다. 이는 권한 상승(Elevation of Privileges) 공격으로 분류되는 심각한 보안 위협입니다. 해당 취약점은 BleepingComputer를 통해 보도되었으며, Lawrence Abrams 기자가 작성했습니다. Microsoft의 보안 제품 자체에서 발견된 이번 제로데이 취약점은 사용자 시스템의 최고 수준의 권한을 획득할 수 있어 즉각적인 패치가 필요합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-rogueplanet-zero-day-grants-system-privileges/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "ServiceNow, 고객 데이터 노출 보안 사건 공개",
+      "summary": "ServiceNow가 공격자들이 취약한 API 엔드포인트를 통한 인증되지 않은 접근 결함을 악용한 보안 사건을 경고했습니다. 공격자들은 이 취약점을 이용하여 고객 인스턴스의 데이터를 조회할 수 있었습니다. 이번 사건은 API 보안의 중요성을 강조하며, ServiceNow는 영향을 받은 고객들에게 이를 알리고 있습니다. 회사는 해당 취약점을 패치하고 보안 강화 조치를 취하고 있는 것으로 알려졌습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpenClaw AI 에이전트가 피싱 공격에 취약한 것으로 드러나, 사용자 데이터 유출",
+      "summary": "OpenClaw 이메일 에이전트에 대한 피싱 시뮬레이션 테스트 결과, 다양한 설정 프로필에서 인간 사용자를 대상으로 일반적으로 사용되는 피싱 전술에 취약한 것으로 확인되었습니다. 이는 AI 에이전트 기술의 보안 위협을 시사하며, 자동화된 시스템도 소셜 엔지니어링 공격에 노출될 수 있음을 보여줍니다. 연구진은 OpenClaw가 피싱 이메일에 속아넘어가면서 사용자 데이터를 유출하는 것을 확인했습니다. 이 발견은 에이전틱 AI 시스템의 보안 강화 필요성을 강조하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/openclaw-ai-agent-found-falling-for-phishing-attacks-spills-user-data/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "SAP, NetWeaver 및 Commerce Cloud의 중대 결함 수정",
+      "summary": "SAP가 2026년 6월 보안 패치 패키지의 일부로 15개의 취약점에 대한 수정 사항을 공개했으며, 이 중 SAP NetWeaver와 SAP Commerce Cloud에 영향을 미치는 4개의 중대 심각도 결함이 포함되어 있습니다. 이번 보안 업데이트는 인증 우회, 메모리 관련 취약점 등 다양한 보안 위협을 해결하기 위해 마련되었습니다. SAP의 주요 엔터프라이즈 소프트웨어 플랫폼인 NetWeaver와 전자상거래 클라우드 서비스의 보안을 강화하는 것이 목표입니다. 영향을 받는 사용자는 즉시 최신 패치를 적용할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-flaws-in-netweaver-and-commerce-cloud/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, Windows 10 KB5094127 확장 보안 업데이트 출시",
+      "summary": "마이크로소프트가 Windows 10용 KB5094127 확장 보안 업데이트를 출시했습니다. 이 업데이트는 2026년 6월 패치 화요일 취약점들을 수정합니다. 또한 이번 달 만료되는 Secure Boot 인증서를 대체하는 업데이트된 인증서의 롤아웃을 모니터링할 수 있는 새로운 기능이 추가되었습니다. 이 확장 보안 업데이트는 Windows 10의 지원 기간 연장 동안 중요한 보안 패치를 제공하는 것을 목표로 합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5094127-extended-security-update/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트 2026년 6월 패치 화요일, 3개 제로데이 및 200개 결함 수정",
+      "summary": "마이크로소프트가 2026년 6월 패치 화요일 보안 업데이트를 통해 총 200개의 취약점을 해결했습니다. 이번 업데이트에는 이미 공개된 3개의 제로데이 취약점이 포함되어 있습니다. 제로데이 취약점은 개발사가 패치를 출시하기 전에 공개되어 악용 위험이 높은 보안 결함입니다. 이번 보안 업데이트는 윈도우 및 관련 마이크로소프트 제품의 사용자들을 대상으로 시스템 보안을 강화하기 위해 배포되었습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-june-2026-patch-tuesday-fixes-3-zero-day-200-flaws/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Windows 11 KB5094126 & KB5093998 누적 업데이트 출시",
+      "summary": "마이크로소프트가 Windows 11 버전 25H2/24H2 및 23H2를 위한 KB5094126과 KB5093998 누적 업데이트를 출시했습니다. 이번 업데이트는 보안 취약점을 수정하고 버그를 해결하며 새로운 기능을 추가합니다. Patch Tuesday를 통해 배포된 이 업데이트는 Windows 11 사용자의 시스템 보안을 강화하고 안정성을 개선하는 것을 목표로 합니다. 사용자들은 Windows Update를 통해 자동으로 이 업데이트를 받을 수 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5094126-and-kb5093998-cumulative-updates-released/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "XBOW, Anthropic의 Mythos Preview를 공격적 보안 테스트에 활용",
+      "summary": "Anthropic의 Mythos Preview 모델이 특히 소스 코드 분석 시 취약점 후보를 찾는 데 매우 효과적인 것으로 나타났습니다. XBOW는 이 모델이 익스플로잇 발견, 리버스 엔지니어링, 실제 사이트 검증 등 다양한 분야에서 어떻게 성능을 발휘했는지를 분석했습니다. 이번 테스트는 AI 기반 보안 도구가 사이버보안 업계에서 취약점 탐지 능력을 어떻게 향상시킬 수 있는지를 보여줍니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/xbow-tests-anthropics-mythos-preview-for-offensive-security/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "깃허브, 마이크로소프트 저장소에서 비밀번호 탈취 악성코드 배포 차단",
+      "summary": "마이크로소프트가 GitHub의 Azure, microsoft, Azure-Samples, MicrosoftDocs 조직 내 73개 저장소를 삭제하여 비밀번호 탈취 악성코드 배포를 차단했습니다. 이번 사건은 지속적 통합(CI) 파이프라인을 중단시킨 공급망 공격으로 분류됩니다. 해당 악성코드는 사용자의 인증 정보를 도용하기 위해 설계된 것으로 보입니다. 이는 신뢰할 수 있는 기업의 공식 저장소를 통한 대규모 공급망 공격 시도를 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/github-disables-microsoft-repos-pushing-password-stealing-malware/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 Veeam 취약점, 백업 서버를 RCE 공격에 노출",
+      "summary": "Veeam이 Backup & Replication의 심각한 보안 취약점을 패치하기 위한 보안 업데이트를 릴리스했습니다. 이 취약점은 도메인에 가입된 백업 서버에서 원격 코드 실행(RCE)을 획득하기 위해 악용될 수 있습니다. 해당 취약점을 통해 공격자는 백업 인프라에 직접 접근할 수 있으며, 이는 조직의 데이터 보호 체계를 심각하게 위협합니다. Veeam은 영향을 받은 사용자들에게 즉시 패치 적용을 권장하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-veeam-vulnerability-exposes-backup-servers-to-rce-attacks/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "프랑스 정부 메시징 서비스, 계정 탈취 공격으로 침해",
+      "summary": "프랑스 정부의 디지털 업무 담당 부서인 DINUM이 정부용 암호화 메시징 플랫폼인 '차프(Tchap)'가 해킹당했다고 경고했습니다. 공격자들은 탈취한 사용자 계정을 이용하여 차프 시스템에 침입한 것으로 확인되었습니다. 이번 사건은 정부 기관의 보안 인프라가 계정 탈취를 통한 공격에 얼마나 취약할 수 있는지를 보여주는 사례입니다. 차프는 프랑스 정부 직원들이 안전한 통신을 위해 사용하는 주요 메시징 플랫폼입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/french-govt-messaging-service-breached-in-account-hijacking-attack/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, 체크포인트 VPN 버그 패치를 위해 연방기관에 3일 기한 부여",
+      "summary": "미국 사이버보안 및 인프라보안청(CISA)은 미국 정부기관들에게 체크포인트 원격 접속 VPN 및 모바일 접속 배포 환경의 심각한 취약점을 보안하도록 명령했습니다. 이 취약점은 현재 Qilin 랜섬웨어 조직에 의해 제로데이 공격으로 적극 활용되고 있습니다. CISA는 모든 연방 기관에 대해 이 취약점 패치를 위해 3일의 제한 시간을 부여했습니다. 이는 랜섬웨어 갱단들이 이미 이 미패치 취약점을 실제 공격에 악용하고 있다는 것을 의미하며, 정부 시스템의 보안 위협이 임박한 상황입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "구글, 실제 공격에 악용 중인 Chrome 제로데이 취약점 패치",
+      "summary": "구글이 실제 공격에 악용되고 있는 Chrome 제로데이 취약점에 대한 긴급 패치를 배포했습니다. 이는 올해 들어 패치된 다섯 번째 제로데이 취약점입니다. 구글은 이번 결함을 해결하기 위해 긴급 보안 업데이트를 출시했으며, 사용자들의 즉시 업데이트가 권장됩니다. 제로데이 취약점은 공급사가 발견하기 전에 공격자들에게 악용되는 심각한 보안 위협입니다. 이번 패치로 Chrome 사용자들의 보안이 강화될 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[PIS FAIR 2026 미리보기] 오내피플 ‘캐치시큐’, 개인정보 관리 자동화의 새 지평 열다",
+      "summary": "수집·이용·제공·파기 전 과정 자동화한 클라우드 보안 솔루션 공개AI 기반 동의서 자동 생성 및 실시간 법령 반영으로 규제 대응력 극대화수작업 중심 낡은 관행 타파... 도입 즉시 14일 걸리던 업무 30분으로 단축[보안뉴스 조재호 기자] 오내피플이 ‘PIS FAIR 2026’ 현장에서 개정 개인정보보호법에 따른 징벌적 과징금 리스크를 대비할 수 있는 자동",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143989&kind=&sub_kind=",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[PIS FAIR 2026 미리보기] 엔소프테크놀러지 ‘티스캔’, 개인정보 보호 관리 체계 표준 제시",
+      "summary": "개인정보 접속기록관리 솔루션 ‘티스캔’ 공개, 로그 정합성 및 법령 준수 최적화기존 시스템 수정 없이 에이전트 탑재... 실시간 접근 감시 및 체계적 소명 프로세스 지원[보안뉴스 조재호 기자] 엔소프테크놀러지가 국내 최대 규모의 개인정보보호 컨퍼런스인 ‘PIS FAIR 2026’에 참가해 자사 주력 솔루션 ‘티스캔’(TScan)의 기술력을 선보인다. ‘티스",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143987&kind=&sub_kind=",
+      "date": "2026-06-09"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "[PIS FAIR 2026 미리보기] 한국기업보안, SSL/TLS 인증서 자동화 관리 솔루션 UCLM",
@@ -10689,341 +11059,8 @@
       "source": "BleepingComputer",
       "sourceUrl": "https://www.bleepingcomputer.com/news/security/romanian-leader-of-online-swatting-ring-gets-4-years-in-prison/",
       "date": "2026-04-30"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "FBI, 화물 도난 사이버 공격의 급증을 사이버범죄자들과 연결",
-      "summary": "미국 연방수사국(FBI)이 운송 및 물류 업계에 사이버 지원 화물 도난의 급격한 증가를 경고했습니다. 2025년 미국과 캐나다에서의 추정 손실액이 약 7억 2,500만 달러에 달하는 것으로 나타났습니다. FBI는 사이버범죄자들이 이러한 화물 도난 공격의 급증에 직접 연루되어 있다고 밝혔습니다. 주요 공격 수법으로는 피싱 등 사이버 기법을 이용한 침입이 포함되어 있습니다. 이번 경고는 운송업체들이 강화된 사이버보안 조치를 취할 필요성을 강조하고 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/fbi-links-cybercriminals-to-sharp-surge-in-cargo-theft-attacks/",
-      "date": "2026-04-30"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "4월 KB5083769 Windows 11 업데이트로 인한 백업 소프트웨어 장애",
-      "summary": "Microsoft의 4월 2026 KB5083769 보안 업데이트가 Windows 11 24H2 및 25H2를 실행 중인 시스템에서 여러 공급업체의 타사 백업 애플리케이션을 손상시키고 있습니다. 이 업데이트로 인해 Acronis를 포함한 백업 소프트웨어들이 정상적으로 작동하지 못하는 문제가 발생했습니다. 영향을 받은 사용자들은 백업 기능 장애로 인한 데이터 보호 문제에 직면하고 있습니다. Microsoft는 이를 알려진 문제로 분류하고 해결 방안을 모색 중인 것으로 보입니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/april-kb5083769-windows-11-update-causes-backup-software-failures/",
-      "date": "2026-04-30"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "새로운 자산이 온라인으로 시작된 후 처음 24시간에 일어나는 일",
-      "summary": "새로운 자산이 온라인으로 공개되면 공격자들은 몇 분 안에 스캔을 시작합니다. 스프로켓 보안(Sprocket Security) 연구에 따르면 자동화된 공격이 발견부터 침해까지 24시간 이내에 진행된다고 합니다. 이는 조직들이 새로운 디지털 자산을 배포할 때 얼마나 빠르게 위협에 노출되는지를 보여줍니다. 공격자들은 자동화된 도구를 사용하여 신규 자산의 취약점을 신속하게 탐지하고 악용합니다. 이러한 위협으로부터 보호하기 위해서는 자산 배포 초기 단계부터 적극적인 보안 대응이 필수적입니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/what-happens-in-the-first-24-hours-after-a-new-asset-goes-live/",
-      "date": "2026-04-30"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "새로운 리눅스 'Copy Fail' 취약점, 주요 배포판에서 해커에게 루트 권한 제공",
-      "summary": "'Copy Fail'이라고 불리는 로컬 권한 상승 취약점에 대한 익스플로잇이 공개되었습니다. 이 취약점은 2017년 이후 출시된 리눅스 커널에 영향을 미치며, 권한이 없는 로컬 공격자가 루트 권한을 획득할 수 있게 합니다. 해당 익스플로잇은 주요 리눅스 배포판을 대상으로 작동합니다. 이는 로컬 시스템 사용자에게 의해 악용될 수 있는 심각한 보안 위협입니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-linux-copy-fail-flaw-gives-hackers-root-on-major-distros/",
-      "date": "2026-04-30"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "cPanel과 WHM의 심각한 보안 취약점이 제로데이로 악용 중, PoC 공개됨",
-      "summary": "cPanel, WHM, WP Squared에서 발견된 심각한 인증 우회 취약점(CVE-2026-41940)이 현재 야생에서 적극적으로 악용되고 있습니다. 이 취약점은 2월 말부터 공격 시도가 발생해온 것으로 확인되었습니다. 제로데이 공격으로 분류되며, 개념 증명(PoC) 코드가 이미 공개되어 공격 위험성이 더욱 높아진 상태입니다. 영향을 받는 서버 관리자들은 즉시 보안 패치 적용을 통해 시스템을 보호해야 합니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/critical-cpanel-and-whm-bug-exploited-as-a-zero-day-poc-now-available/",
-      "date": "2026-04-30"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "경찰, 암호화폐 사기 센터 9곳 적발 및 용의자 276명 체포",
-      "summary": "미국과 중국 당국이 참여한 국제 합동 작전으로 암호화폐 투자 사기 관련 용의자 최소 276명을 체포하고 9개의 암호화폐 투자 사기 센터를 폐쇄했습니다. 이 작전은 두 국가 간의 사이버 범죄 단속을 위한 협력의 결과물입니다. 체포된 용의자들은 암호화폐 투자라는 명목으로 피해자들을 속여 금전을 사취한 혐의를 받고 있습니다. 이번 단속은 국제 사이버 범죄 조직에 대한 경찰의 강화된 감시 활동을 보여줍니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/police-dismantles-9-crypto-investment-scam-centers-arrests-276-suspects/",
-      "date": "2026-04-30"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[2026 ITS 제품 & 솔루션 리포트] ITS, AI·센서 융합으로 여는 교통혁신의 미래",
-      "summary": "ITS, 단속에서 예방형 안전관리로 진화AI 기반 교통단속, 국민 안전과 글로벌 경쟁력 강화[보안뉴스 엄호식 기자] 우리나라의 지능형 교통 체계(ITS)는 교통정보 제공에서 자율주행 지원까지 지난 30년간 꾸준히 진화해 왔다. 최근에는 CCTV와 LiDAR, AI 영상분석 등 다양한 센서와 기술이 교통단속 시장에 접목되며, 단순 적발을 넘어 실시간 흐름 분",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143406&kind=&sub_kind=",
-      "date": "2026-04-30"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[속담으로 배우는 100가지 보안 습관-6] 꺼진 불도 다시 보자(6)-윈도우 업데이트 미루면 위협에 바로 노출",
-      "summary": "윈도우(Windows) 등 OS 보안 업데이트를 자동 설정하세요[보안뉴스 박미영 기자] 윈도우 보안 업데이트는 자동으로 설치되도록 설정해 두면, 취약점 패치와 보안 기능이 누락되는 위험을 줄일 수 있다. 다만 작업 중 재부팅이나 성능 저하가 걱정되면 설정에서 일시 중지하거나, 필요 시 서비스 설정으로 자동 설치를 잠시 막는 방법도 있다. 윈도우 보안 업데이",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143037&kind=&sub_kind=",
-      "date": "2026-04-30"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "계절의 왕 5월, 물리·정보 보안기업들이 찾고 있는 인재는?",
-      "summary": "인증관리·품질관리·시스템 설계·엔지니어·유지보수·사업관리·SW 개발현장PM·영업·온라인 마케팅·생산/제조·기술지원·영업지원 등[보안뉴스 엄호식 기자] 싱그러운 초록빛이 더욱 짙어지고 따스한 햇살이 초여름의 기운을 불러오는 5월이 성큼 다가왔다. 노동절을 시작으로 어린이날까지 꿀맛같은 휴식을 취한 보안기업들은 2026년의 목표를 향해 힘차게 움직이고 있으며,",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143379&kind=&sub_kind=",
-      "date": "2026-04-30"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[배종찬의 보안 빅데이터] 구멍 숭숭 뚫린 공공기관의 개인정보보호",
-      "summary": "대규모 대민 서비스 제공하는 핵심 공공기관 다수가 보호수준 평가 최하위권에 머물러국민 접점이 넓은 만큼 단 한 번의 취약점 노출이 대규모 프라이버시 침해로 직결될 우려[보안뉴스= 배종찬 인사이트케이 연구소장] 개인정보보호위원회가 최근 ‘2025년 공공기관 개인정보 보호수준 평가 결과’를 발표한 것은 우리 사회에 던지는 일종의 경고장이다. 중앙부처와 지방자치",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143430&kind=&sub_kind=",
-      "date": "2026-04-30"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "北 블루노로프, AI 기술 악용해 글로벌 웹3 임원 100여 명 타깃 해킹 공격",
-      "summary": "가짜 줌·팀즈 화상회의 도메인 악용해 실시간 카메라 영상 탈취개인 키와 가상자산 거래소 권한 확보 위해 5개월간 80여개 공격 인프라 구축[보안뉴스 김형근 기자] 북한 라자루스 그룹 산하의 금융범죄 전담 조직 블루노로프(BlueNoroff)가 글로벌 가상자산과 블록체인 기업 경영진을 노린 사회공학적(Social Engineering) 공격을 전개하고 있는",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143444&kind=&sub_kind=",
-      "date": "2026-04-30"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[카드뉴스] “우리 집 미터기가 터졌다”... 소프트웨어가 변압기 태우는 ‘물리적 해킹’ 실전 확인",
-      "summary": "가정에 설치된 스마트 미터기가 해커의 공격 통로로 악용되어, 소프트웨어 조작만으로 과부하를 유발해 변압기 등 전력 인프라를 실제로 소각시키는 ‘물리적 파괴’ 공격이 실전에서 확인됐다. 최근 고도화된 AI를 활용하여 수만 대의 스마트 미터기를 동시에 원격 조작하는 ‘하이브리드 공격’ 시나리오가 현실화되면서 국가 단위 전력망에 대한 안보 위협이 급증하고 있다",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143447&kind=&sub_kind=",
-      "date": "2026-04-30"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "가짜뉴스·성범죄 원천 차단... 딥페이크 탐지 솔루션 R&D 본격화",
-      "summary": "과기정통부 등 정부 부처·연구기관·민간 플랫폼 기업 실무협의체 출범변환억제와 정밀탐지 등 전주기 대응 신규사업 착수... 총 300억원 투입[보안뉴스 조재호 기자] 과학기술정보통신부는 딥페이크 피해 예방·대응을 돕는 R&D 협력 기반을 다지기 위해 민·관 실무협의체를 구성하고 첫 회의를 진행했다고 30일 밝혔다. 정부는 각 기관이 추진 중인 R&D를 연계·",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143458&kind=&sub_kind=",
-      "date": "2026-04-30"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[김정덕의 인간중심보안-5] 넛지 보안의 힘",
-      "summary": "행동경제학으로 보안 스트레스 극복하기[연재목차 Part 3. 인간중심보안과 보안문화]1. AI 시대, 왜 인간 중심 보안인가2. AI 시대, 인간 중심 보안을 구현하려면3. 인간의 창의성과 AI 보안4. 보안 위반, 뇌 과학 해법5. 넛지 보안의 힘6. 감정과 비합리성, 보안의 숨은 힘7. 디지털 야누스, 두얼굴의 사용자8. 인간 중심 보안과 제로트러스트",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143457&kind=&sub_kind=",
-      "date": "2026-04-30"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "시큐리티 데이 서울’서 티빙 협력 사례로 AI 공급망 보안 비전 제시",
-      "summary": "AI 기반 실시간 행동 분석 및 계정 보호 성과 공유 “계정 탈취 원천 차단”글로벌 엣지 네트워크 기반의 다차원 방어 체계로 비즈니스 연속성 확보 지원[보안뉴스 조재호 기자] 아카마이 테크놀로지스는 30일 서울 웨스틴 조선 파르나스에서 ‘인공지능 보안: AI 공급망 전반을 아우르는 보안 전략’을 주제로 ‘시큐리티 데이 서울’(Security Day Seou",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143455&kind=&sub_kind=",
-      "date": "2026-04-30"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "인텔리빅스, 모빌린트 NPU 기반 ‘안전 AI 딥테크’ 고도화",
-      "summary": "국산 NPU 결합해 ‘안전 AI’ 표준 제시‘영상분석 AI 에이전트’(VIXA) 최적화[보안뉴스 강초희 기자] 인텔리빅스(대표이사 최은수·장정훈)가 모빌린트(대표 신동주)와 업무협약(MOU)을 체결하고, 국산 NPU(신경망처리장치) 기반의 ‘영상분석 AI 에이전트’를 통한 국방 및 공공 안전 시장 공략에 속도를 낸다.인텔리빅스는 이번 협력을 기점으로 단순히",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143456&kind=&sub_kind=",
-      "date": "2026-04-30"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[인터뷰] 네트워크 보안 강자 시만텍과 EDR 선도기업 카본블랙의 성공적 통합, 브로드컴 ‘시만텍 CBX’",
-      "summary": "Joost Nieunhuis, 브로드컴 엔터프라이즈 시큐리티 그룹 기술 총괄 매니저 방한단일 에이전트 환경 통합한 클라우드 기반 플랫폼으로 ‘솔루션 난립’(Tool Sprawl) 문제 해결시만텍 CBX, 선도적 엔드포인트 기술 이용한 적응형 보호 가능[보안뉴스 원병철 기자] 네트워크 보안의 절대 강자 시만텍과 EDR 분야 선도기업 카본블랙의 만남이 ‘시만텍",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143448&kind=&sub_kind=",
-      "date": "2026-04-30"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "조달청, 불공정조달행위 신고 정액포상금 전 구간 20% 인상",
-      "summary": "국민 참여를 넓히기 위해 신고 포상금 규정 개정새로운 규정, 4월 30일 시행[보안뉴스 엄호식 기자] 조달청(청장 백승보)은 불공정조달행위에 대한 공익신고를 활성화하기 위해 신고 포상금을 인상하는 내용의 ‘불공정 조달행위 신고자에 대한 포상금 지급에 관한 규정’을 개정하고, 4월 30일 시행한다고 밝혔다.불공정조달행위는 입찰부터 생산·납품에 이르는 과정에서",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143446&kind=&sub_kind=",
-      "date": "2026-04-30"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "이노뎁, 뷰넥스(VUNex) 앞세워 해외 AI 보안시장 공략",
-      "summary": "영국 TSE서 현지 니즈·파트너십 점검공공관제 경험 기반 해외 보안사업 확대 모색[보안뉴스 엄호식 기자] 이노뎁이 4월 28일부터 30일까지 영국 버밍엄 NEC에서 열리는 The Security Event(TSE) 2026에 참가해 현장형 AI 관제 플랫폼 ‘뷰넥스’(VUNex)를 소개하고, 해외 AI 보안운영 시장 내 현지 니즈와 파트너십 가능성 점검에",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143445&kind=&sub_kind=",
-      "date": "2026-04-30"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "AI는 ‘K-보안’ 글로벌 기회... “AI 예산 10% 이상 사이버 보안 산업 집행해야”",
-      "summary": "[3줄 요약]1. 정보보호산업 육성방안 ‘정보보호 수출 5조 원’ 목표2. 정부 “플랫폼 중심 개편 가운데 국산은 단품위주”3. 업계 “패러다임 전환기... 예산, 외교, 소버린 보안 노력 필요”[보안뉴스 강현주 기자] AI는 국내 보안 산업의 글로벌 판을 바꿀 기회라는 기대가 높아지는 가운데, 정부 AI 예산 중 10%는 사이버 보안 산업에 할당해야 한다",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143438&kind=&sub_kind=",
-      "date": "2026-04-30"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "방미통위, 롯데카드에 1125만원 과태료... “연계정보 안전조치 의무 위반”",
-      "summary": "[보안뉴스 강현주 기자] 방송미디어통신위원회가 연계정보 안전조치 의무를 위반한 롯데카드에 과태료 1125만원을 부과했다.방미통위는 29일 제5차 위원회를 열고 롯데카드에 과태료 1125만원 부과와 개선 권고를 의결했다. 정보통신망 이용촉진 및 정보보호 등에 관한 법률상 연계정보 안전조치 의무를 위반했다는 이유다. 이는 지난해 발생한 롯데카드 정보유출 사고와",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143441&kind=&sub_kind=",
-      "date": "2026-04-30"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "“양자내성암호(PQC) 체계적 전환 지원할 공공 인프라 필요”",
-      "summary": "제9회 5G보안워크숍, 29-30일 여수에서 열려PQC 전환은 국가 디지털 신뢰 기반 재구성 프로젝트... “지금 준비하지 않으면 나중에 더 큰 비용”[여수=보안뉴스 한세희 기자] 양자 컴퓨팅 기술이 기존 디지털 암호 체계를 무력화할 위협에 대비해 양자내성암호(PQC) 체계로 신속히 전환할 수 있도록 국가적 지원이 시급하다는 목소리가 높다. 양자 기술 발",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143439&kind=&sub_kind=",
-      "date": "2026-04-30"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "아키텍처가 엔터프라이즈 규모의 사이버 복원력을 결정하는 방식",
-      "summary": "사이버 복원력 기능은 그 아래에 있는 아키텍처만큼만 성능을 발휘합니다. 환경이 확장됨에 따라 중복 제거, 메모리 효율성 및 데이터 분산 방식에 관한 설계 선택이 몇 시간 내에 복구하는지 아니면 며칠이 걸리는지를 결정합니다. 대부분의 공급업체는 불변성, 이상 탐지 또는 복구 오케스트레이션을 지원하는지 묻는 질문에 긍정적으로 답변하며, 기능 목록은 수렴했습니다. 그러나 실제 부하 상황에서 환경이 어떻게 동작하는지, 즉 새벽 2시에 페타바이트 규모의 데이터로 복구를 실행하거나 배포 이후 3배 증가한 데이터셋에 걸쳐 탐지를 수행할 때는 알 수 없습니다. 이것이 바로 아키텍처가 기술적 각주에서 벗어나 몇 시간 또는 며칠 내 복구 가능 여부를 결정하는 시점입니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/how-architecture-determines-cyber-resilience-at-enterprise-scale/",
-      "date": "2026-04-29"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "데이터 스토리지 고객들이 배울 수 있는 경험담",
-      "summary": "고객들이 혁신과 안정성 사이의 긴장이 자신들만의 문제가 아니라는 것을 깨닫게 되면, 대화는 더욱 현실적이고 생산적이며 활기찬 방향으로 나아간다. 많은 기업들이 품질 저하를 걱정하면서도 혁신 속도를 높이려는 내부적 갈등을 겪고 있으며, Dell이 이를 어떻게 해결했는지 공유하는 것이 고객들에게 큰 영감을 준다. 구형 소프트웨어에 머물러 있는 것이 안전해 보이지만, 실제로는 최신 버전의 향상된 보안 기능과 역량을 놓치게 되는 숨겨진 비용이 발생한다. 고객들은 종종 자신들이 이미 보유한 기능을 인식하지 못해 불필요한 신규 투자를 고려하기도 한다. 투명한 소통을 통해 고객들의 실제 필요와 우려사항을 파악하고 함께 해결책을 찾는 것이 중요하다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/what-data-storage-customers-can-learn-from-my-experience/",
-      "date": "2026-04-29"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "대시보드, AI 인프라 및 양쪽을 주도하는 주(State)들",
-      "summary": "지도자들은 데이터를 활용 가능하도록 만드는 데 집중하고 있으며, 이는 시스템 연결, 기관 간 정렬, 의사결정을 주도하는 대시보드 설계를 포함합니다. AI가 안정적이고 효율적인 에너지 및 데이터 센터 인프라에 대한 수요를 증가시킴에 따라 속도와 조율이 매우 중요합니다. 기술은 인간의 판단을 지원하고, 신뢰성과 보안을 개선하며, 행동을 가능하게 할 때 가장 큰 가치를 제공합니다. 주(State) 정부와 협력하는 가장 큰 장점 중 하나는 주지사들이 기다리지 않는다는 것입니다. 그들은 할 수 없습니다. 의회가 논쟁하는 동안 주지사들은 제한된 자원을 활용하여 주민들을 최고로 지원하기 위한 실제 결정을 내립니다. 전등을 켜두는 것, 일자리 창출 또는 양질의 공교육 시스템 보장이 그것입니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/dashboards-ai-infrastructure-and-the-states-leading-both/",
-      "date": "2026-04-29"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Dell의 AI 데이터 플랫폼이 GPU를 어떻게 효율적으로 유지하는가",
-      "summary": "Dell의 개방형 AI 데이터 플랫폼은 VAST AI OS와 같은 스토리지 기반 솔루션의 병목 현상을 피합니다. GPU의 최대 성능을 유지하려면 지속적인 데이터 공급이 필수적입니다. 스토리지에 내장된 스택은 확장성과 유연성 측면에서 제약이 있을 수 있습니다. Dell의 플랫폼은 독립적인 아키텍처로 설계되어 더 나은 성능과 효율성을 제공합니다. 이러한 접근 방식은 AI 워크로드의 복잡한 요구사항을 충족하는 데 더 효과적입니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/how-dell-s-ai-data-platform-keeps-your-gpus-fed/",
-      "date": "2026-04-29"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "CACEIS, VAST에서 데이터와 AI를 통합",
-      "summary": "CACEIS는 VAST 플랫폼을 통해 분석과 AI 워크로드에 동일한 데이터를 사용함으로써 데이터 통합을 실현하고 있습니다. DataStore(지속성 계층), VAST Database(벡터 및 표 형식 데이터 쿼리 및 인덱싱 계층), DataEngine(처리 및 오케스트레이션 계층)을 활용하여 별도 시스템으로의 데이터 이동을 제거하고 단일 소스에 모든 워크로드를 정렬합니다. RAG(Retrieval-Augmented Generation) 및 쿼리는 VAST Sync Engine을 통해 SharePoint에서 문서를 수집하고, DataEngine이 청킹 및 임베딩을 수행한 후 VAST Database에 벡터와 메타데이터로 저장되는 통합 파이프라인으로 작동합니다. NVIDIA NIMs를 사용한 LLM 계층이 VAST에서 직접 결과를 검색하여 금융 산업에 필수적인 추적성을 제공합니다. 향후 Kafka를 VAST Event Broker로 대체하고 ETL 도구들을 통합함으로써 스트리밍 및 변환 파이프라인까지 플랫폼 내로 통합하여 데이터 이동으로 인한 비용, 지연 시간 및 운영 오버헤드를 최소화할 계획입니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/caceis-consolidates-data-and-ai-on-vast",
-      "date": "2026-04-29"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "공개 직후 LiteLLM 새로운 취약점 악용 시작",
-      "summary": "LiteLLM의 새로운 보안 취약점이 공개된 직후 곧바로 악용되고 있는 것으로 확인되었습니다. 이는 취약점 공개와 악용 사이의 시간 간격이 매우 짧아지고 있다는 것을 의미합니다. 공격자들이 새로 발견된 취약점을 빠르게 포착하고 실제 공격에 활용하고 있어 기업들의 신속한 패치 적용이 더욱 중요해졌습니다. LiteLLM은 대규모 언어 모델(LLM) 관련 개발 도구로 널리 사용되고 있어 이번 취약점의 영향 범위가 상당할 수 있습니다. 보안 전문가들은 관련 시스템을 운영하는 조직들에게 즉시 업데이트 적용을 권고하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/fresh-litellm-vulnerability-exploited-shortly-after-disclosure/",
-      "date": "2026-04-29"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "수백 개의 인터넷 노출 VNC 서버가 ICS/OT 시스템 위협",
-      "summary": "인터넷에 노출된 수백 개의 VNC(Virtual Network Computing) 서버가 산업제어시스템(ICS)과 운영기술(OT) 환경을 심각한 보안 위험에 빠뜨리고 있습니다. 공격자들이 이러한 원격 접근 도구를 악용하여 중요 산업 인프라에 무단으로 접근할 수 있게 되었습니다. VNC 서버의 인터넷 노출은 기본적인 보안 설정 부재로 인한 결과로, 특히 산업 환경에서는 시스템 운영 중단이나 데이터 유출의 심각한 위험을 초래할 수 있습니다. 보안 전문가들은 원격 접근 도구의 안전한 관리와 네트워크 격리의 중요성을 강조하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/hundreds-of-internet-facing-vnc-servers-expose-ics-ot/",
-      "date": "2026-04-29"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Checkmarx, 공급망 공격으로 데이터 탈취 확인",
-      "summary": "보안 업체 Checkmarx가 공급망 공격으로 인해 데이터가 탈취되었음을 공식 확인했습니다. 이번 사건은 Lapsus$ 등의 위협 행위자들과 관련된 것으로 알려져 있으며, TeamPCP라는 그룹의 활동도 연관되어 있습니다. 공격자들은 회사의 시스템에 접근하여 민감한 고객 정보 및 내부 데이터를 탈취한 것으로 파악됩니다. 이는 소프트웨어 개발 보안 솔루션 제공업체인 Checkmarx를 대상으로 한 심각한 보안 침해 사건으로, 수많은 기업 고객들이 영향을 받을 수 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/checkmarx-confirms-data-stolen-in-supply-chain-attack/",
-      "date": "2026-04-29"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "이란 사이버집단 핸달라, 바레인 주둔 미군 부대 표적",
-      "summary": "이란의 사이버 집단 핸달라(Handala)가 바레인에 주둔한 미군 부대를 겨냥한 사이버 공격을 감행했습니다. 이는 중동 지역에서의 미국의 군사 주둔에 대한 이란의 지속적인 디지털 위협 활동을 보여주는 사례입니다. 핸달라는 이란과 연계된 것으로 알려진 사이버 집단으로, 정보 수집 및 영향력 작전을 주요 활동으로 하고 있습니다. 이 공격은 미군의 중동 작전 지역에 대한 사이버 위협이 계속 증가하고 있음을 시사합니다. 바레인은 미국의 제5함대 사령부가 위치한 전략적 위치로, 지정학적 긴장이 높아지는 상황을 반영하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/iranian-cyber-group-handala-targets-us-troops-in-bahrain/",
-      "date": "2026-04-29"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "OpenEMR 의료 소프트웨어에서 38개의 취약점 발견",
-      "summary": "의료 분야에서 널리 사용되는 OpenEMR 소프트웨어에서 38개의 보안 취약점이 발견되었습니다. 이러한 취약점들은 의료 기관의 환자 데이터 보안에 심각한 위협이 될 수 있으며, 해커들에게 시스템 침투의 기회를 제공할 수 있습니다. SecurityWeek이 보도한 이번 발견은 의료 소프트웨어의 보안 강화 필요성을 다시 한 번 부각시키고 있습니다. 의료 기관들은 즉시 패치 업데이트를 적용하여 시스템을 보호해야 할 것으로 보입니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/38-vulnerabilities-found-in-openemr-medical-software/",
-      "date": "2026-04-29"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Chrome 147, Firefox 150 보안 업데이트 배포 시작",
-      "summary": "구글과 모질라가 각각 Chrome 147과 Firefox 150 버전의 보안 업데이트를 배포하기 시작했습니다. 이번 업데이트는 두 브라우저에서 발견된 여러 취약점을 패치하는 것을 목표로 하고 있습니다. 사용자들은 가능한 한 빨리 최신 버전으로 업그레이드하여 알려진 보안 위협으로부터 보호받을 것을 권장받고 있습니다. 정기적인 브라우저 업데이트는 사이버보안의 기본적인 방어 수단으로 간주됩니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/chrome-147-firefox-150-security-updates-rolling-out/",
-      "date": "2026-04-29"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "GitHub의 중대 취약점으로 수백만 개의 저장소 노출",
-      "summary": "GitHub에서 발견된 중대 보안 취약점으로 인해 수백만 개의 저장소가 노출되었습니다. 이 취약점은 원격 코드 실행(RCE)을 가능하게 하여 공격자들이 영향받은 저장소에 접근하고 악의적인 활동을 수행할 수 있게 합니다. SecurityWeek에서 2026년 4월 29일 보도한 이 사건은 전 세계 개발자들과 조직들에게 심각한 보안 위협이 되고 있습니다. GitHub는 즉시 이 취약점을 해결하기 위한 조치를 취해야 하며, 사용자들은 자신의 저장소 보안을 강화할 필요가 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/critical-github-vulnerability-exposed-millions-of-repositories/",
-      "date": "2026-04-29"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "공식 SAP npm 패키지가 자격증명 탈취를 위해 손상됨",
-      "summary": "여러 공식 SAP npm 패키지가 TeamPCP 공급망 공격으로 추정되는 침해 사건을 당했습니다. 이번 공격은 개발자 시스템에서 자격증명과 인증 토큰을 탈취하는 것을 목표로 합니다. 공격자들은 Sha1-Hulud라는 것으로 관련되어 있으며, 이는 공급망을 통한 조직적인 사이버 위협입니다. 영향받은 패키지는 npm 저장소의 공식 SAP 패키지들이므로 많은 개발자들이 위험에 노출될 수 있습니다. 이 사건은 오픈소스 라이브러리 및 패키지의 보안 위험성을 다시 한번 강조하고 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
-      "date": "2026-04-29"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "인기 워드프레스 리다이렉트 플러그인에 숨겨진 백도어 발견, 수년간 미탐지",
-      "summary": "70,000개 이상의 워드프레스 사이트에 설치된 'Quick Page/Post Redirect' 플러그인에서 5년 전부터 숨겨져 있던 백도어가 발견되었습니다. 이 백도어는 공격자들이 감염된 사이트에 임의의 코드를 주입할 수 있도록 허용합니다. 해당 플러그인은 광범위하게 사용되는 인기 플러그인으로, 장기간 탐지되지 않은 채 악용될 수 있었던 심각한 보안 위협입니다. 워드프레스 사용자들은 즉시 해당 플러그인의 업데이트 여부를 확인하고 필요한 보안 조치를 취해야 합니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/popular-wordpress-redirect-plugin-hid-dormant-backdoor-for-years/",
-      "date": "2026-04-29"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "해커들이 청룡 작업 스케줄러의 RCE 취약점을 악용해 암호화폐 채굴 실행",
-      "summary": "해커들이 오픈소스 작업 스케줄링 도구인 청룡(Qinglong)의 인증 우회 취약점 2개를 악용하여 개발자 서버에 암호화폐 채굴 악성코드를 배포하고 있습니다. 이러한 원격코드 실행(RCE) 취약점들은 현재 적극적으로 악용되고 있는 상황입니다. 청룡은 자동화된 작업 관리를 위해 많은 개발자들이 사용하는 도구로, 이번 공격으로 인해 개발자 인프라에 직접적인 위협이 되고 있습니다. 보안 연구진은 해당 서비스를 운영 중인 사용자들에게 즉시 업데이트를 적용할 것을 권고하고 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-rce-flaws-in-qinglong-task-scheduler-for-cryptomining/",
-      "date": "2026-04-29"
     }
   ],
-  "totalItems": 2021,
+  "totalItems": 2058,
   "hasArchive": true
 }
