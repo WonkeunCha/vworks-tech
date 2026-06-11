@@ -2,6 +2,321 @@
   "quarter": "2026-Q2",
   "items": [
     {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "美 CISA, AI 해킹 위협에 사이버보안 조치 시한 3일로 단축",
+      "summary": "최고 위험 등급 취약점 3일 내 조치... 민간 연방 기관 대상 의무화 지침 발표미토스 등 첨단 AI 모델 활용한 자동화 사이버 공격 방어 목적[보안뉴스 조재호 기자] 미국 사이버보안및인프라보안국(CISA)이 해커들의 인공지능 악용에 대응하기 위해 정부 네트워크의 중대 디지털 취약점 조치 시한을 3일로 대폭 단축했다.현지시간 10일 로이터 등 외신에 따르면",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144072&kind=&sub_kind=",
+      "date": "2026-06-11"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "모빌테크, 국제 학술대회 CVPR 2026 챌린지 1위 “디지털트윈 3D 모델링 기술력 입증”",
+      "summary": "건물 형상 복원 정확도 평가서 1위... 자동 3D 모델링 기술력 입증 엔비디아 파트너 생태계 참여 통해 피지컬 AI용 디지털트윈 데이터 공급[보안뉴스 강초희 기자] 모빌테크(대표 김재승)가 컴퓨터 비전 분야 국제 학술대회 CVPR(Conference on Computer Vision and Pattern Recognition)의 디지털트윈 경진대회인 ‘B",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144070&kind=&sub_kind=",
+      "date": "2026-06-11"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "세이지, 과기정통부 ‘글로벌 ICT 미래 유니콘 육성기업’ 선정",
+      "summary": "비전 AI 기반 제조 자동화·자율 제조 에이전틱 AI 기술력 인정삼성SDI·LG에너지솔루션 레퍼런스 보유 제조 AI 강자 인정 [보안뉴스 강초희 기자] 세이지(공동대표 박종우·홍영석)가 과학기술정보통신부(장관 배경훈)가 주관하는 ‘글로벌 ICT 미래 유니콘 육성사업’(ICT GROWTH) 선정기업으로 이름을 올렸다. 세이지는 10일 롯데호텔 서울에서 열린",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144071&kind=&sub_kind=",
+      "date": "2026-06-11"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "딥노이드, 국가데이터처장 만나 국가데이터 정책 관련 의견 개진",
+      "summary": "안형준 처장, 국내 AI 전문기업 딥노이드 본사 방문국내 1세대 AI 전문기업으로 데이터 분석 역량 인정받아 의견 개진 대상으로 선정[보안뉴스 강초희 기자] 딥노이드(대표 최우식)는 지난 10일 서울 딥노이드 본사에서 안형준 국가데이터처장과 만나 국가데이터 정책에 관한 기업 입장에서 의견을 개진하고 관련 논의를 진행했다고 밝혔다. 이번 회동은 국가데이터처가",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144069&kind=&sub_kind=",
+      "date": "2026-06-11"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 36] 믿는 도끼에 발등 찍힌다(6)-로그아웃 안 하면 바로 털리는 구조",
+      "summary": "로그아웃은 창을 닫는 게 아니라 ‘로그아웃 버튼’을 눌러서 하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143574&kind=&sub_kind=",
+      "date": "2026-06-11"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "쿠팡 과징금 6246억원 의결... SKT의 4.6배 ‘역대급’",
+      "summary": "3755만명 개인정보 유출 결론“안전조치 의무 위반 및 법적 근거 없는 개인정보 수집” [보안뉴스 강현주 기자] 3755만명의 개인정보가 유출된 쿠팡의 사고에 대해 개인정보보호위원회(위원장 송경희)가 6236억원의 과징금을 의결했다. 이는 지난해 SK텔레콤의 사고에 대한 1348억원의 4배가 넘는 금액으로 역대급 규모다. 개인정보위는 10일 제11회 전체회",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144068&kind=&sub_kind=",
+      "date": "2026-06-11"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "‘안전한 미토스’ 페이블, 불만 속출... “안전장치 너무 엄격해 불편”",
+      "summary": "”보안 관련 단어만 들어가도 다운그레이드”“기술 발전 위해 필요한 과정이란 건 인정”[보안뉴스 강현주 기자] 앤트로픽이 최근 발표한 AI 모델 ‘페이블’의 보안 안전장치(Guardrails)가 너무 엄격하다는 불만이 제기되고 있다. 페이블은 앤트로픽의 사이버보안 특화 모델 ‘미토스’(Mythos)의 제한적 공개 버전이다. 사이버 보안 취약점 공략에 악용될",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144066&kind=&sub_kind=",
+      "date": "2026-06-11"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[김정덕의 인간중심보안-9] ESG너머, ‘인적 지속가능성’과 보안",
+      "summary": "통제를 넘어, 조직과 구성원이 함께 성장하는 ‘인간중심보안’[연재목차 Part 3. 인간중심보안과 보안문화]1. AI 시대, 왜 인간 중심 보안인가2. AI 시대, 인간 중심 보안을 구현하려면3. 인간의 창의성과 AI 보안4. 보안 위반, 뇌 과학 해법5. 넛지 보안의 힘6. 감정과 비합리성, 보안의 숨은 힘7. 디지털 야누스, 두얼굴의 사용자8. ‘인간중",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144067&kind=&sub_kind=",
+      "date": "2026-06-11"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“미국 내 AI 데이터센터 반대”... 알고보니 중국에서 챗GPT로 만든 여론 조작 게시물",
+      "summary": "오픈AI, 중국발 여론 조작 캠페인 적발AI로 소셜미디어 콘텐츠 생성, 유포[보안뉴스 한세희 기자] 챗GPT로 만든 소셜미디어 게시물로 미국 내 여론에 개입하려 한 중국 연계 추정 그룹이 포착됐다. 오픈AI는 이들이 사용한 계정을 차단했다고 10일(현지시간) 밝혔다. 이들은 AI 데이터센터 신규 건립이나 관세 부과 등 미국 내 여론이 첨예하게 갈리는 사안",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144064&kind=&sub_kind=",
+      "date": "2026-06-11"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "티오리, 국제 정보보호·클라우드 보안 표준 ‘ISO 27001·27017’ 인증 획득",
+      "summary": "[보안뉴스 강현주 기자] 오펜시브 사이버 보안 전문 기업 티오리(Theori, 대표 박세준)가 한국인정기구(KAB) 공인 인증기관을 통해 정보보안 경영시스템 국제 표준인 ‘ISO/IEC 27001:2022’와 클라우드 서비스 보안 국제 표준인 ‘ISO/IEC 27017:2015’ 인증을 동시에 획득했다고 11일 밝혔다.이번 인증은 티오리의 전반적인 정보보안",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144063&kind=&sub_kind=",
+      "date": "2026-06-11"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell Pro 웹캠: AI 이미징, 보안 로그인, 더 스마트한 협업",
+      "summary": "Dell Pro 7 Webcam 4K와 Pro 5 Webcam 2K는 AI 이미징 기술을 통해 어디서나 더욱 선명한 회의를 가능하게 합니다. 이 웹캠들은 고급 이미징 기능으로 영상 품질을 향상시키고, 안전한 생체 인식 로그인 기능을 제공하여 보안을 강화합니다. 스마트한 협업 기능으로 팀의 생산성을 높이고, 원격 근무 환경에서 전문적인 회의 경험을 제공합니다. Dell Pro 웹캠은 현대적인 업무 환경에 필수적인 도구로, 영상 통화의 품질과 보안을 동시에 만족시킵니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/dell-pro-webcams-ai-imaging-secure-login-smarter-collaboration/",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell의 직원 커뮤니티가 어떻게 열정을 현실적 영향력으로 변환하는가",
+      "summary": "Dell의 직원 자원봉사 그룹(ERG)들은 EMEA 지역 전역에서 지속 가능성, 직원 연결성, 그리고 긍정적 변화를 주도하고 있습니다. 이러한 커뮤니티들은 단순한 네트워킹 그룹을 넘어서 실질적인 환경 및 사회적 영향을 창출하는 플랫폼으로 기능합니다. 직원들의 개인적 열정과 전문성을 조직의 목표와 연결함으로써 의미 있는 변화를 이끌어내고 있습니다. Planet ERG 이니셔티브를 통해 지속 가능한 미래를 만들기 위한 구체적인 활동들이 전개되고 있으며, 이는 직원 만족도와 회사의 사회적 책임을 동시에 높이는 결과를 가져오고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-employee-communities-at-dell-turn-passion-into-impact/",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "아키텍처가 중력에 맞설 때, 운영이 대가를 치른다",
+      "summary": "통합 네임스페이스는 데이터가 질량을 가지지 않는 것처럼 가장하는 정중한 방식일 뿐이며, 실제로는 데이터의 세 가지 형태가 어떻게 이동할 수 있는지를 이해하는 것이 중요합니다. 데이터 아키텍처를 설계할 때 물리적 제약과 운영 복잡성을 간과하면 결국 운영 팀이 그 대가를 치르게 됩니다. 데이터의 질량을 인정하고 이를 고려한 현실적인 아키텍처 설계가 필요합니다. 세 가지 데이터 형태 각각의 특성을 파악하면 더 효율적인 데이터 이동 전략을 수립할 수 있습니다. 이론적인 완벽함보다는 실제 운영 가능성을 우선시하는 접근이 조직의 생산성과 안정성을 높입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/when-architecture-fights-gravity-operations-pay-the-tax/",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "SKY Co., Ltd., HPE Private Cloud AI로 안전한 AI 개발 가속화",
+      "summary": "HPE는 일본의 주요 기술 기업인 SKY Co., Ltd.가 HPE Private Cloud AI를 도입했다고 발표했습니다. 이 솔루션은 NVIDIA AI Computing by HPE 포트폴리오에 속하는 턴키 AI 팩토리 솔루션으로, 단 1개월 만에 구축되었습니다. SKY Co., Ltd.는 이를 통해 엄격한 데이터 거버넌스 하에서 민감한 데이터를 안전하게 활용하면서 AI 기반 개발과 내부 워크플로우를 가속화할 수 있게 되었습니다. SKY Co., Ltd.는 소프트웨어 개발 및 시스템 통합 분야에 전문성을 갖춘 선도적인 일본 기술 기업입니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/06/s-k-y-co-ltd-accelerates-secure-ai-development-with-hpe-private-cloud-ai.html",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "데이터와 컴퓨팅 간의 벽이 무너지고 있다",
+      "summary": "기업 컴퓨팅의 역사는 데이터와 컴퓨팅 파워의 분리라는 이야기였다. 전통적으로 데이터는 저장소에, 컴퓨팅 자원은 별도의 위치에 있었고, 데이터 분석을 위해서는 데이터를 네트워크를 통해 컴퓨터로 옮겨야 했다. 그러나 에이전트 기반의 AI 컴퓨팅 시대가 도래하면서 이러한 아키텍처는 심각한 병목 현상을 야기하고 있다. VAST Data는 이 문제의 해결책이 단순하다고 본다. 즉, 데이터를 컴퓨터로 옮기는 대신 컴퓨팅 자원을 데이터로 가져가야 한다는 것이다. VAST의 DataEngine은 '실시간 데이터 흐름 컴퓨터'로서 컴퓨팅을 저장소 파일 시스템 바로 옆에 배치하여, 데이터가 도착하는 순간 필요한 비즈니스 로직을 즉시 실행할 수 있게 한다. 이는 복잡한 배치 작업을 제거하고 밀리초 단위의 실시간 데이터 처리를 가능하게 하며, 궁극적으로 기업 컴퓨팅 인프라의 근본적인 변화를 초래할 것으로 예상된다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/the-wall-between-data-and-compute-is-coming-down",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "정보탈취 악성코드, 수백만 대 기기를 자격증명 탈취 도구로 변모",
+      "summary": "인포스틸러(Infostealer) 악성코드가 전 세계 수백만 대의 장치를 감염시켜 사용자의 자격증명 정보를 대규모로 탈취하고 있습니다. 이러한 악성코드는 브라우저에 저장된 비밀번호, 암호화폐 지갑, 개인 정보 등 민감한 데이터를 수집하여 사이버범죄자에게 판매되고 있습니다. 감염된 기기들은 자동으로 자격증명 탈취 머신으로 변환되어 조직화된 범죄 활동에 악용되고 있습니다. 보안 전문가들은 사용자와 기업의 정체성 및 접근 통제에 대한 심각한 위협으로 평가하고 있으며, 강화된 방어 메커니즘과 다층 인증의 필요성을 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/infostealers-turn-millions-of-devices-into-credential-theft-machines/",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Cyera, 6억 달러 투자 유치로 120억 달러 기업가치 달성",
+      "summary": "데이터 보안 기업 Cyera가 6억 달러의 신규 펀딩을 확보했습니다. 이번 투자유치로 Cyera의 기업가치는 120억 달러에 도달했습니다. 이는 사이버보안 분야에서 기업들의 지속적인 투자 관심을 보여주는 사례입니다. Cyera는 데이터 보안 및 개인정보 보호 솔루션을 제공하는 글로벌 사이버보안 기업입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cyera-raises-600-million-at-12-billion-valuation/",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Aryon Security, Series A 펀딩으로 2,900만 달러 조성",
+      "summary": "사이버보안 회사 Aryon Security가 Series A 펀딩 라운드에서 2,900만 달러를 조성했습니다. 이번 자금 조성은 회사의 기술 개발과 시장 확대를 위한 중요한 단계입니다. Aryon Security는 글로벌 사이버보안 시장에서 경쟁력 있는 솔루션을 제공하는 기업으로 평가받고 있습니다. 이번 투자 유치를 통해 회사는 제품 개선과 고객 서비스 확대에 주력할 예정입니다. 사이버보안 분야의 지속적인 투자 확대는 기업들의 보안 위협 대응 필요성이 높아지고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/aryon-security-raises-29-million-in-series-a-funding/",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HVAC 및 UPS의 심각한 취약점으로 해커들이 데이터 센터 마비 가능",
+      "summary": "데이터 센터의 냉방 시스템(HVAC)과 무정전 전원 공급 장치(UPS)에서 발견된 심각한 보안 취약점으로 인해 해커들이 데이터 센터 운영을 방해할 수 있는 위험이 발생했습니다. Trane과 Vertiv 등 주요 공급업체의 제품에서 확인된 이 취약점들은 산업 제어 시스템(ICS/OT) 환경의 핵심 인프라를 대상으로 악용될 수 있습니다. 공격자들이 이러한 취약점을 이용하면 데이터 센터의 온도 제어 및 전력 공급을 제어하여 서비스 중단을 야기할 수 있습니다. SecurityWeek에 따르면 이 취약점들은 원격으로 악용 가능하며 높은 위험도를 가지고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/critical-hvac-and-ups-vulnerabilities-could-let-hackers-disrupt-data-centers/",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISO 포럼 웨비나 오늘 개최: 2026 상반기 검토",
+      "summary": "SecurityWeek에서 주최하는 CISO 포럼 웨비나가 2026년 상반기 현황을 종합적으로 검토한다. 이 웨비나는 인공지능과 CISO 전략 분야의 최신 동향을 다루며, 공격자들의 전술 변화를 살펴본다. 참가자들은 현재의 보안 위협 환경과 대응 전략에 대해 심층적으로 논의할 수 있다. 이는 정보 보안 담당자들이 상반기의 주요 사건과 교훈을 공유하고 하반기 전략을 수립하는 기회를 제공한다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ciso-forum-webinar-today-2026-mid-year-review/",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 Windows 제로데이 익스플로잇 'RoguePlanet' 공개",
+      "summary": "보안 연구원이 Windows 시스템을 대상으로 한 새로운 제로데이 익스플로잇 'RoguePlanet'을 공개했습니다. 이 익스플로잇은 Microsoft Defender를 우회할 수 있는 것으로 알려져 있으며, Windows 커널에 영향을 미치는 심각한 취약점을 악용합니다. 'Chaotic Eclipse'라고 불리는 관련 취약점도 함께 보고되었으며, 이는 시스템 보안에 상당한 위협이 될 수 있습니다. SecurityWeek에서 2026년 6월 10일에 처음 보도되었으며, 마이크로소프트의 신속한 대응이 요구되는 상황입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/new-windows-zero-day-exploit-rogueplanet-released/",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI가 프로덕션에 도달한 후: 보안팀이 통제권을 확보하는 12가지 방법",
+      "summary": "본 기사는 인공지능 시스템이 프로덕션 환경에 배포된 후 보안팀이 이를 효과적으로 관리하고 통제하기 위한 12가지 실무적 전략을 제시합니다. AI 보안의 핵심은 개발 생명주기(SDLC) 전반에 걸친 가시성 확보와 지속적인 모니터링입니다. 보안팀은 AI 모델의 배포 이후 단계에서 취약점을 식별하고, 운영 중 발생할 수 있는 보안 위험을 선제적으로 대응해야 합니다. 본 기사는 애플리케이션 보안과 인공지능 기술 관점에서 조직이 프로덕션 AI 시스템을 안전하게 관리하기 위한 실질적인 지침을 제공합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/after-ai-reaches-production-12-ways-security-teams-can-take-control/",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "ServiceNow, 일부 고객을 대상으로 악용된 취약점 패치 배포",
+      "summary": "ServiceNow가 일부 고객을 대상으로 실제 악용된 취약점에 대한 보안 패치를 배포했습니다. 이 취약점은 이미 공격 활동에 이용되고 있었으며, SecurityWeek에서 보도한 이 사건은 기업 소프트웨어의 보안 위협을 강조합니다. ServiceNow는 영향받은 고객들에게 즉시 패치 적용을 권고하고 있습니다. 이번 사건은 클라우드 기반 엔터프라이즈 소프트웨어의 보안 취약점이 얼마나 신속하게 악용될 수 있는지 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/servicenow-patches-vulnerability-exploited-against-some-customers/",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Fortinet, Ivanti 제품의 중요 취약점 패치",
+      "summary": "Fortinet과 Ivanti의 제품에서 발견된 중요 수준의 취약점들이 패치되었습니다. SecurityWeek의 보도에 따르면 이번 패치는 두 보안 기업의 핵심 제품군에 영향을 미치는 심각한 보안 결함을 해결하기 위한 것입니다. 해당 취약점들은 공격자에게 악용될 수 있는 중대한 위험을 초래할 수 있어 즉시 업데이트가 권장됩니다. 보안 전문가들은 관련 제품을 사용 중인 조직들에게 가능한 빨리 제공된 패치를 적용할 것을 강력히 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/critical-vulnerabilities-patched-in-fortinet-ivanti-products/",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "ICS 패치 화요일: Siemens, Schneider, Phoenix Contact의 취약점 해결",
+      "summary": "산업제어시스템(ICS) 분야의 주요 벤더들인 Siemens, Schneider Electric, Phoenix Contact가 최근 보안 취약점 패치를 발표했습니다. 이번 ICS 패치 화요일을 통해 여러 산업 기기 및 소프트웨어의 보안 결함이 수정되었습니다. SecurityWeek에서 보도한 이 기사는 산업 기반시설 보안에 영향을 미칠 수 있는 중요한 업데이트를 다루고 있습니다. 관련 기업들의 사용자들은 시스템 보안을 위해 제시된 패치를 적용할 필요가 있습니다. 이러한 정기적인 보안 패치는 산업 시설의 사이버 위협으로부터의 보호를 강화하는 데 중요한 역할을 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-fixed-by-siemens-schneider-phoenix-contact/",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 개발 플랫폼 Langflow의 경로 순회 취약점이 공격에 악용되고 있음",
+      "summary": "AI 개발 플랫폼인 Langflow의 고위험 취약점 CVE-2026-5027이 공격자들에 의해 적극적으로 악용되고 있습니다. 이 경로 순회(Path Traversal) 취약점을 통해 공격자들은 노출된 서버에 임의의 파일을 작성할 수 있습니다. 현재 이 취약점은 실제 공격에서 활발히 이용 중이며, Langflow를 사용하는 조직들은 즉각적인 조치가 필요합니다. 이 취약점은 인공지능 개발 환경의 보안 위험성을 보여주는 사례로, 보안 패치 적용이 시급합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "'미아즈마' 웜 소스코드 GitHub에 일시 유출",
+      "summary": "최근 오픈소스 생태계를 공급망 공격으로 표적하고 있는 'Miasma' 자격증명 탈취 공격 프레임워크의 소스코드가 GitHub에 일시적으로 공개되었습니다. 이 사건은 공개된 저장소를 통해 악성 코드가 노출될 수 있는 위험성을 보여줍니다. Miasma 웜은 공급망 공격을 통해 오픈소스 프로젝트를 위협하고 있으며, 소스코드 유출로 인해 악용 가능성이 높아질 수 있습니다. 관련 보안 커뮤니티는 이 문제에 즉시 대응하여 유출된 코드를 제거하였습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "GitHub, npm 공급망 공격 차단을 위한 보안 변경 사항 발표",
+      "summary": "GitHub이 다음 달 출시 예정인 npm v12에서 npm install 명령어를 악용한 공급망 공격을 차단하기 위한 여러 보안 기능을 도입한다고 발표했습니다. 이번 업데이트는 npm 패키지 설치 과정에서 발생할 수 있는 보안 취약점을 대상으로 설계되었습니다. GitHub은 소프트웨어 공급망 보안을 강화하기 위해 npm 생태계에 대한 보안 조치를 강화하고 있습니다. 이러한 변경 사항들은 악의적 패키지나 의존성을 통한 공격으로부터 개발자 환경을 보호하는 것을 목표로 합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/github-announces-npm-security-changes-to-tackle-supply-chain-attacks/",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "오라클 PeopleSoft 서버, ShinyHunters 데이터 탈취 공격으로 해킹당해",
+      "summary": "오라클의 PeopleSoft 서버가 ShinyHunters 랜섬웨어 갱단의 지속적인 데이터 탈취 공격 대상이 되고 있습니다. ShinyHunters는 100개 이상의 조직에서 데이터를 탈취했다고 주장하고 있습니다. 이번 공격은 오라클의 엔터프라이즈 소프트웨어 플랫폼에 대한 심각한 보안 위협을 나타냅니다. 공격자들은 탈취한 데이터를 이용해 피해 조직들을 협박하고 있습니다. 이 사건은 주요 소프트웨어 공급업체의 시스템이 여전히 고도화된 사이버 범죄 조직의 표적이 되고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "중국 연계 JDY 봇넷, 미국 군사 네트워크 공격 범위 확대",
+      "summary": "Volt Typhoon 등 중국 위협 행위자와 연관된 JDY 봇넷이 공격 대상과 정찰 활동 범위를 대폭 확대했습니다. 이 악성 네트워크는 미국 군사 네트워크를 포함한 주요 인프라에 대한 공격을 강화하고 있는 것으로 파악됩니다. JDY 봇넷은 고도화된 정찰 기능을 통해 목표 시스템에 대한 상세한 정보 수집을 진행 중입니다. 보안 전문가들은 이러한 확대된 공격 활동이 국가 안보에 대한 심각한 위협이 될 수 있다고 경고하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/china-linked-jdy-botnet-expands-targeting-of-us-military-networks/",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "안전한 신원 검증을 위한 5가지 모범 사례",
+      "summary": "공격자들이 피싱, MFA 피로도 공격, 서비스 데스크 사회공학 기법을 통해 약한 인증을 우회하는 사례가 증가하고 있습니다. Specops Software는 더욱 강화된 신원 검증과 접근 보안을 위한 5가지 모범 사례를 제시하고 있습니다. 이 글에서는 다단계 인증(MFA)과 보안 서비스 데스크, 검증된 신원 확인 시스템 등을 통해 조직의 인증 체계를 강화하는 방법을 설명합니다. 현대적인 사이버 위협으로부터 조직을 보호하기 위해서는 단순한 패스워드 기반 인증을 넘어 다층적인 보안 조치의 구현이 필수적입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/the-5-best-practices-for-secure-identity-verification/",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, 적극 악용 중인 Exchange Server 제로데이 취약점 패치",
+      "summary": "마이크로소프트가 현재 공격에 악용 중인 Exchange Server의 제로데이 취약점에 대한 보안 패치를 배포했습니다. 이 취약점은 위협 행위자들이 Outlook 웹 액세스(OWA) 사용자를 대상으로 한 XSS(크로스사이트 스크립팅) 공격에서 임의의 자바스크립트 코드를 실행할 수 있게 합니다. 해당 취약점은 이미 실제 공격에서 활용되고 있었으며, 마이크로소프트는 이번 보안 업데이트를 통해 이를 즉시 차단했습니다. 이는 Exchange Server 관리자들이 신속히 보안 패치를 적용해야 하는 심각한 위협입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-exchange-server-zero-day-exploited-in-attacks/",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트: 일부 윈도우 PC에서 최신 월간 업데이트 설치 실패",
+      "summary": "마이크로소프트가 화요일 일부 윈도우 기기에서 최신 월간 업데이트 설치에 문제가 발생할 수 있다고 경고했습니다. 해당 문제는 윈도우 11 24H2 또는 25H2로 업그레이드된 장치에서 발생하는 것으로 확인되었습니다. 사용자들은 업데이트 설치 중 오류 코드 0x80073712 또는 0x800f0993을 만날 수 있습니다. 마이크로소프트는 현재 이 문제에 대한 해결 방안을 제시하고 있으며, 영향을 받은 사용자들은 공식 지원 채널을 통해 도움을 받을 수 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-upgraded-windows-pcs-fail-to-install-monthly-updates/",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, YellowKey, GreenPlasma, MiniPlasma 제로데이 취약점 패치",
+      "summary": "마이크로소프트는 화요일 완전히 패치된 Windows 시스템에서 공격자가 SYSTEM 권한을 획득할 수 있는 두 개의 제로데이 취약점을 패치했습니다. 추가로 BitLocker로 보호된 드라이브에 대한 접근을 허용하는 세 번째 취약점도 함께 패치했습니다. 이번 보안 업데이트는 최신 Windows 시스템의 권한 상승 공격과 암호화된 저장소 접근 위험을 해결하기 위한 중요한 조치입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-yellowkey-greenplasma-miniplasma-zero-days/",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Ivanti: Sentry의 최고 심각도 취약점으로 루트 권한 코드 실행 가능",
+      "summary": "Ivanti가 자사의 Sentry 보안 모바일 게이트웨이 솔루션의 두 가지 중요한 취약점을 패치했습니다. 이 중에서 최고 심각도의 취약점은 원격 공격자가 루트 권한으로 코드를 실행할 수 있도록 허용합니다. 해당 취약점은 Ivanti Sentry와 MobileIron Sentry 제품에 영향을 미치며, 공격자들이 시스템에 완전한 제어 권한을 획득할 수 있게 합니다. 이번 보안 결함은 모바일 보안 게이트웨이 솔루션의 핵심 보안 기능을 우회할 수 있는 심각한 위협입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-max-severity-ivanti-sentry-flaw-allows-code-execution-as-root/",
+      "date": "2026-06-10"
+    },
+    {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "Anthropic, Claude Fable 5 출시 - 제한된 기간 동안만 이용 가능",
       "summary": "Anthropic이 새로운 AI 모델인 'Fable'을 출시했습니다. 이 모델은 Anthropic의 가장 강력한 AI 모델 클래스인 Mythos와 동일한 기반 모델을 기반으로 개발되었습니다. Claude Fable 5는 제한된 시간 동안만 이용 가능한 것으로 알려져 있습니다. 이번 출시는 Anthropic이 지속적으로 AI 기술을 발전시키고 있음을 보여줍니다. 사용자들은 이 제한된 기간 내에 새로운 모델의 기능을 경험할 수 있는 기회를 가지게 됩니다.",
@@ -15114,11 +15429,11 @@
     }
   ],
   "sources": {
-    "BleepingComputer": 482,
-    "보안뉴스": 573,
-    "Dell": 144,
-    "VAST Data": 37,
-    "SecurityWeek": 420,
-    "HPE": 23
+    "보안뉴스": 583,
+    "Dell": 147,
+    "HPE": 24,
+    "VAST Data": 38,
+    "SecurityWeek": 430,
+    "BleepingComputer": 492
   }
 }
