@@ -2124,9 +2124,289 @@
     "http://www.boannews.com/media/view.asp?idx=144004&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143575&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144081&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=144080&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=144080&kind=&sub_kind=",
+    "https://www.dell.com/en-us/blog/scaling-ai-from-supercomputers-to-real-world-impact/",
+    "https://www.vastdata.com/blog/real-time-traffic-control-needs-a-shared-data-layer",
+    "https://www.securityweek.com/in-other-news-google-security-layoffs-audia6-takedown-400-million-coupang-fine/",
+    "https://www.securityweek.com/industry-reactions-to-claude-fable-5-feedback-friday/",
+    "https://www.securityweek.com/iranian-cyber-group-handala-claims-cal-water-hack/",
+    "https://www.securityweek.com/ivanti-sentry-exploitation-attempts-hitting-honeypots/",
+    "https://www.securityweek.com/chrome-149-update-patches-28-vulnerabilities/",
+    "https://www.securityweek.com/anthropic-disputes-fable-5-ai-jailbreak/",
+    "https://www.securityweek.com/google-confirms-exploitation-of-oracle-peoplesoft-zero-day-by-shinyhunters/",
+    "https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/",
+    "https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/",
+    "https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/",
+    "https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/",
+    "https://www.bleepingcomputer.com/news/security/early-warning-signs-of-supply-chain-attacks-live-in-the-dark-web/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-update-failures-linked-to-wusa-installer/",
+    "https://www.bleepingcomputer.com/news/security/pharmaceutical-giant-novo-nordisk-discloses-security-breach/",
+    "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/",
+    "https://www.bleepingcomputer.com/news/security/french-govt-says-tchap-breach-affected-over-73-000-accounts/",
+    "http://www.boannews.com/media/view.asp?idx=144099&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144098&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144007&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143576&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144096&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144097&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144093&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144092&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144091&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144090&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "국내서 ‘클로드 페이블5’ 모델 접근 막혔다... 미 정부, 앤트로픽에 외국 접속 금지 명령",
+      "summary": "미국 내 외국인도 접근 못해앤트로픽, “정부 명령 따르겠지만, 동의할 순 없어” [보안뉴스 한세희 기자] 미국 정부가 앤트로픽 최신 AI 모델에 대한 외국인의 접근을 금지했다. 앤트로픽은 12일(현지시간) 정부가 앤트로픽의 최신 AI 모델 ‘페이블5’와 ‘미토스5’에 대한 외국인의 접근을 중단하라는 수출 통제 지침을 발표했다고 밝혔다. 이 조치는 미국 내",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144099&kind=&sub_kind=",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[배종찬의 보안 빅데이터] 티빙 유출 사태 책임, 쿠팡보다 가벼울까",
+      "summary": "‘오리지널’ 콘텐츠 개발, 회원 확장에만 골몰... 기본 보안 원칙 무시 [보안뉴스= 배종찬 인사이트케이 연구소장] 디지털 플랫폼 생태계가 유례없을 정도로 거대한 보안 충격에 직면해 있는 상황이다. 국내 대표 OTT 플랫폼 중 하나인 티빙(TVING)에서 발생한 대규모 개인정보 유출 사고와 국내 최대 이커머스 기업인 쿠팡에 대한 역대급 과징금 제재는 우리가",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144098&kind=&sub_kind=",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[PIS FAIR 2026 미리보기] 시큐와우, 지능형 악성메일 훈련 솔루션 ‘WMTS’ 공개",
+      "summary": "정교한 시나리오와 맞춤형 분석으로 실전형 보안 위협 선제 대응대용량 첨부파일 실행뿐 아니라 실제 다운로드 여부까지 정밀하게 파악[보안뉴스 엄호식 기자] 생성형 AI를 악용한 정교한 피싱 공격이 급증하면서 임직원 대상의 실전형 보안 훈련 중요성이 커지고 있다. 단순한 교육을 넘어 실제 공격과 유사한 환경에서 대응력을 높이는 모의훈련 솔루션이 기업 보안의 핵심",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144007&kind=&sub_kind=",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 확장: 슈퍼컴퓨터에서 실제 영향까지",
+      "summary": "AI에 대한 야망과 대규모 AI 구현 간의 격차가 좁혀지고 있습니다. Dell은 강력한 인프라와 기술을 통해 기업들이 AI를 실제로 운영 가능한 규모로 확장할 수 있도록 지원하고 있습니다. 슈퍼컴퓨팅 수준의 성능을 엔터프라이즈 환경에서 구현함으로써 AI 모델 개발과 배포의 속도를 높일 수 있습니다. 데이터 센터부터 엣지까지 통합된 솔루션을 제공하여 기업들이 AI의 실제 가치를 창출할 수 있게 합니다. Dell의 포괄적인 접근 방식은 AI 기술을 보편화하고 현실적인 비즈니스 성과로 이어지게 하는 것을 목표로 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/scaling-ai-from-supercomputers-to-real-world-impact/",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "실시간 교통 제어를 위해 필요한 공유 데이터 계층",
+      "summary": "과거에는 예측 가능한 교통 패턴을 바탕으로 신호등 타이밍 조정만으로 교통 혼잡을 해결할 수 있었지만, 현대에는 사고, 악천후, 공사 등으로 교통 흐름이 급격하게 변화한다. 대부분의 교통 제어 시스템은 이미 발생한 혼잡에 반응하는 방식으로 작동하기 때문에 현재 상황에 뒤처져 있다. 기존의 고정 신호 시스템이나 센서 기반 적응형 시스템, 그리고 머신러닝 모델 역시 예상치 못한 상황에 대응하지 못한다. 이를 해결하기 위해서는 카메라, 센서, IoT 시스템, 날씨 정보, 네비게이션 데이터 등에서 나오는 실시간 정보를 통합하여 교통 네트워크의 디지털 쌍둥이를 만들어야 한다. 이렇게 구축된 시스템은 각 교차로를 독립된 제어 지점으로 취급하지 않고 도시 전역에 분산된 엣지 시스템들로부터 지속적인 데이터를 받아 가상 모델을 실시간으로 업데이트하면서 변화하는 조건에 능동적으로 대응할 수 있다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/real-time-traffic-control-needs-a-shared-data-layer",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기타 뉴스: 구글 보안팀 감원, AudiA6 적발, 쿠팡 4억 달러 과징금",
+      "summary": "글로벌 사이버보안 업계의 주요 소식을 전합니다. 구글이 보안팀 인력 감축을 단행했으며, AudiA6이라는 사이버 위협이 당국에 의해 제거되었습니다. 쿠팡은 규제 당국으로부터 4억 달러의 과징금 처분을 받았습니다. 이러한 사건들은 기술 기업의 보안 정책 변화, 신종 사이버 위협의 지속적 발생, 그리고 데이터 보호 규정 위반에 대한 강화된 단속을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-google-security-layoffs-audia6-takedown-400-million-coupang-fine/",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "클로드 페이블 5에 대한 업계 반응: 피드백 프라이데이",
+      "summary": "SecurityWeek에서는 클로드 페이블 5의 출시에 대한 업계 전문가들의 반응을 소개하는 '피드백 프라이데이' 기사를 게시했습니다. 이 기사는 인공지능 분야의 최신 개발 동향과 보안 업계 종사자들의 의견을 담고 있습니다. 클로드 페이블 5는 AI 기술의 발전을 나타내는 중요한 이정표로 평가받고 있으며, 다양한 산업 전문가들이 이에 대한 피드백을 제공했습니다. 이러한 반응들은 사이버보안 및 AI 기술 분야의 미래 방향성을 이해하는 데 중요한 정보를 제공합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/industry-reactions-to-claude-fable-5-feedback-friday/",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "이란 사이버 그룹 핸달라, 캘리포니아 수도회사 해킹 주장",
+      "summary": "이란과 연계된 사이버 해킹 그룹 핸달라(Handala)가 캘리포니아 수도회사(Cal Water)에 대한 해킹을 주장했습니다. 이 사건은 미국의 주요 기반시설인 수도 공급 시스템을 대상으로 한 국가 지원 사이버 공격으로 보여집니다. 핸달라 그룹은 이전에도 여러 기반시설 공격에 연루된 것으로 알려져 있습니다. 이 해킹은 산업제어시스템(ICS/OT) 보안의 취약점을 드러내며, 국가적 차원의 사이버 위협이 증가하고 있음을 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/iranian-cyber-group-handala-claims-cal-water-hack/",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Ivanti Sentry 익스플로이트 시도가 허니팟을 타격",
+      "summary": "보안 연구원들이 Ivanti Sentry 제품을 대상으로 한 익스플로이트 시도가 허니팟 시스템에서 감지되었음을 확인했습니다. 이는 CVE-2026-10520 취약점이 실제로 공격에 악용되고 있음을 시사합니다. Ivanti의 Sentry 제품은 네트워크 보안 및 원격 접근 제어를 담당하는 중요 인프라로, 이러한 취약점은 조직의 보안에 심각한 위협이 될 수 있습니다. CISA는 이 취약점을 알려진 악용 취약점(KEV) 목록에 등재했습니다. 조직들은 즉시 패치를 적용하고 이 취약점에 대한 공격 신호를 모니터링해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ivanti-sentry-exploitation-attempts-hitting-honeypots/",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Chrome 149 업데이트, 28개 취약점 패치",
+      "summary": "구글이 Chrome 149 업데이트를 통해 28개의 중요 및 높은 심각도 취약점을 패치했습니다. 이번 업데이트에는 12개의 Use-After-Free 버그가 포함되어 있습니다. Use-After-Free는 메모리 관리 오류로 인해 해제된 메모리 영역에 접근할 때 발생하는 취약점으로, 공격자가 이를 악용하여 임의 코드 실행을 시도할 수 있습니다. SecurityWeek에 따르면 이번 보안 패치는 사용자들의 브라우저 보안을 강화하기 위한 조치입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/chrome-149-update-patches-28-vulnerabilities/",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Anthropic, Fable 5 AI 탈옥 공격 주장 반박",
+      "summary": "Anthropic이 최근 출시한 Claude Fable 5 AI 모델에 영향을 미친다고 주장되는 프롬프트 기반 탈옥 공격에 대해 이의를 제기했습니다. 이번 사건은 AI 보안 연구 커뮤니티에서 주목할 만한 사례로, AI 모델의 취약점과 보안 강화의 중요성을 다시 한 번 부각시켰습니다. Anthropic의 공식 입장은 해당 공격이 실제 위협이 아니라는 것으로 보이며, 이는 AI 모델 보안에 대한 기업과 연구진 간의 관점 차이를 보여줍니다. 전문가들은 AI 탈옥 공격의 진위 여부와 관계없이 AI 안전성 검증 프로세스의 개선이 필요하다는 점에 주목하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/anthropic-disputes-fable-5-ai-jailbreak/",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "구글, ShinyHunters에 의한 오라클 PeopleSoft 제로데이 악용 확인",
+      "summary": "구글이 ShinyHunters 해킹 그룹에 의해 오라클 PeopleSoft의 제로데이 취약점이 실제로 악용되고 있음을 확인했습니다. 이는 아직 공개되지 않은 보안 결함이 공격자들에 의해 적극적으로 이용되고 있다는 의미입니다. 오라클 PeopleSoft는 인사관리 및 재무 관리 등 기업 운영에 필수적인 소프트웨어로, 광범위한 조직이 영향을 받을 수 있습니다. ShinyHunters는 과거 여러 대규모 데이터 유출 사건에 관여한 악명 높은 사이버 범죄 조직입니다. 이번 발견은 기업들이 긴급히 시스템을 점검하고 보안 조치를 강화해야 함을 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/google-confirms-exploitation-of-oracle-peoplesoft-zero-day-by-shinyhunters/",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "메인주, 가짜 데이터 유출 공시 이후 신고 포털 중단",
+      "summary": "메인주는 주(State) 웹사이트에 게시된 허위 데이터 유출 공시로 인해 공개 데이터 유출 신고 포털을 오프라인으로 전환했다. 이번 사건은 향후 악용을 방지하기 위해 절차 검토를 촉발했다. 메인주 당국은 포털에 게재된 거짓 정보로 인한 피해를 파악하고 있으며, 시스템 보안을 강화하기 위한 조치를 취하고 있다. 이 사건은 공공 신고 시스템의 취약성과 신원 확인 절차의 중요성을 드러냈다. 메인주는 포털 재개 전에 보안 및 인증 메커니즘을 개선할 계획이다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "phpBB 포럼, 10년간 숨겨진 인증 우회 버그 수정",
+      "summary": "phpBB 포럼 소프트웨어에서 10년간 존재해온 인증 우회 취약점이 발견되어 수정되었습니다. 이 취약점을 악용하면 공격자가 관리자를 포함한 모든 사용자 계정으로 로그인할 수 있습니다. 장기간 발견되지 않은 이 심각한 보안 결함은 phpBB를 사용하는 포럼 사용자들에게 상당한 위험을 초래했습니다. phpBB 개발팀은 이를 즉시 패치하여 사용자들이 최신 버전으로 업데이트하도록 권장하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "우크라이나 국적자, 콘티 랜섬웨어 운영 관련 혐의 인정",
+      "summary": "아일랜드에서 미국으로 송환된 우크라이나 국적자가 콘티 랜섬웨어 운영과 관련된 공모 혐의를 인정했다. 해당 인물은 지난해 미국으로 송환되어 법적 절차를 거치고 있다. 콘티 랜섬웨어 조직은 전 세계적으로 수많은 기업과 기관을 대상으로 한 대규모 사이버 공격으로 악명이 높다. 이번 유죄 인정은 콘티 랜섬웨어 조직에 대한 국제적 수사와 단속이 계속되고 있음을 보여준다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "400개 이상의 Arch Linux 패키지가 손상되어 루트킷 및 정보 탈취 악성코드 배포",
+      "summary": "Arch User Repository(AUR)의 400개 이상의 패키지가 Linux 루트킷과 정보 탈취 악성코드를 배포하고 있는 것으로 확인되었습니다. 이 악성코드는 사용자의 자격증명과 액세스 토큰을 대상으로 합니다. 이번 사건은 오픈소스 소프트웨어 공급망을 노린 대규모 공격으로 평가됩니다. Arch Linux 사용자들은 영향을 받은 패키지의 설치 및 업데이트를 즉시 중단하고 시스템 보안을 점검할 필요가 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "공급망 공격의 초기 경고 신호, 다크웹에서 발견",
+      "summary": "GitHub 접근 판매, 유출된 저장소, 도용된 API 키 등이 모두 공급망 공격의 진입점이 될 수 있습니다. 보안 업체 Flare의 연구에 따르면 지하 포럼에서 소프트웨어 공급망 위험과 관련된 초기 신호들이 노출되고 있습니다. 이러한 다크웹상의 정보들을 모니터링함으로써 기업들은 공급망 공격이 발생하기 전에 미리 대응할 수 있습니다. 개발자 자격증명과 코드 저장소에 대한 불법적인 접근 판매는 악의적 행위자들이 타겟 조직에 침투하는 데 효과적인 수단이 되고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/early-warning-signs-of-supply-chain-attacks-live-in-the-dark-web/",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, WUSA 설치 프로그램 관련 Windows 업데이트 오류 수정",
+      "summary": "마이크로소프트가 네트워크 공유에서 Windows Update Standalone Installer(WUSA)를 통해 설치할 때 2025년 5월 이후 출시된 Windows 업데이트가 실패하는 알려진 문제를 해결했습니다. 이 문제는 Windows 11과 Windows Server를 포함한 여러 Windows 버전에 영향을 미쳤습니다. 마이크로소프트의 수정을 통해 WUSA를 사용한 원격 네트워크 공유 경로에서의 업데이트 설치가 정상적으로 작동하도록 복구되었습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-update-failures-linked-to-wusa-installer/",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "제약 거대기업 노보 노디스크, 임상시험 데이터 유출 공개",
+      "summary": "세계 최대 인슐린 생산업체인 덴마크의 제약 거대기업 노보 노디스크가 일부 임상시험 환자 정보를 포함한 데이터 유출 사건을 공개했습니다. 이번 보안 침해로 인해 임상시험 관련 개인정보가 외부에 노출되었습니다. 노보 노디스크는 사건 발생 후 해당 데이터 유출을 공식적으로 인정하고 영향을 받은 환자들에게 알려줄 예정입니다. 이는 제약 업계의 민감한 환자 데이터 보호의 중요성을 다시 한 번 강조하는 사례입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/pharmaceutical-giant-novo-nordisk-discloses-security-breach/",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, 정부 기관에 적극 악용 중인 Ivanti 취약점 일요일까지 패치 명령",
+      "summary": "미국 사이버보안 및 기반시설 보안청(CISA)이 신규 발행한 행동 지침(BOD 26-04)에 따라 정부 기관들에게 현재 적극 악용되고 있는 Ivanti Sentry 취약점을 3일 내에 패치할 것을 명령했다. 이는 해당 취약점이 실제 공격에서 이미 악용되고 있음을 의미하며, 정부 기관들의 신속한 대응을 강제하는 긴급 조치이다. CISA의 강제 지침은 연방 정부 기관의 사이버보안 체계를 보호하기 위한 필수 조치로서, 이를 준수하지 않는 기관은 규제 대상이 될 수 있다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "프랑스 정부 메신저 '츠앱' 유출 사건, 73,000명 이상의 공무원 피해",
+      "summary": "프랑스 정부가 자체 암호화 메시징 플랫폼인 '츠앱(Tchap)'의 최근 보안 침해 사건으로 프랑스 공공부문 73,000명 이상의 직원 계정이 영향을 받았다고 발표했습니다. 이번 사건은 정부 공무원들이 사용하는 주요 커뮤니케이션 도구의 보안 취약점을 드러냈습니다. 츠앱은 Matrix 기반의 암호화 메시징 서비스로, 민감한 정부 업무 논의에 사용되어 왔습니다. 이번 대규모 계정 유출은 프랑스 정부의 사이버보안 체계에 대한 신뢰도를 훼손할 수 있는 심각한 문제입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/french-govt-says-tchap-breach-affected-over-73-000-accounts/",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 38] 믿는 도끼에 발등 찍힌다(8)-인터폰 가림막 하나가 만드는 보안 사각지대",
+      "summary": "현관문 앞에 카메라(인터폰)를 가리는 물건이 없는지 확인하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다.",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143576&kind=&sub_kind=",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "유로폴, 랜섬웨어 업자 자금 세탁 조직 ‘아우디A6’ 해체",
+      "summary": "[보안뉴스 강현주 기자] 유럽사법협력기구(유로폴)이 전 세계 랜섬웨어 범죄자들의 검은돈 약 3억8000만 달러(한화 약 5000억원)를 세탁해 준 대형 가상자산 세탁 서비스 ‘아우디A6’(AudiA6)를 국제 수사 당국 공조로 해체했다.11일(현지시간) 외신 보도에 따르면, 유로폴은 이번에 적발된 ‘아우디A6’ 서비스가 최소 15건 이상의 국제 랜섬웨어 공",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144096&kind=&sub_kind=",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[2026 IPS 솔루션 리포트] 연결, 확장, 전문화... AI 열풍 속 진화하는 IPS 시장",
+      "summary": "IPS, IDS는 네트워크 보안 필수 제품군AI, 클라우드, 트래픽 폭증... 성숙한 시장 속 새로운 기회들보안 기능 통합화-플랫폼화 대응, 차별적 성능과 고객 지원 강화 IPS 전문기업 집중 분석: 시큐아이, 윈스테크넷[보안뉴스 한세희 기자] 로봇들이 산업 현장은 물론, 식당이나 쇼핑몰 등 일상 상업 공간으로 확산되고 있다. 하지만 로봇 보안에 대해선 여",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144097&kind=&sub_kind=",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[카드뉴스] “해킹 아니라 업데이트인데 수술실 마비?”… 미 FDA 패치 의무화가 부른 병원 전산망의 역설",
+      "summary": "의료기기 해킹 방지를 위한 미 FDA의 펌웨어 패치 의무화 규제 이후, 시스템 최적화가 부족한 병원 전산망 내에서 보안 업데이트가 시스템 충돌을 일으키며 의료기기가 강제 다운되는 사고가 빈발하고 있다. 위협 확산을 막기 위한 네트워크 강제 격리 및 락다운 조치가 오히려 병원 내 주요 전산 인프라와 수술실 기능을 전면 마비시키는 등, 사이버 보안을 지키려다",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144093&kind=&sub_kind=",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "샤이니헌터스, 오라클 제로데이 취약점 악용... 세계 교육기관 100여곳 공격",
+      "summary": "구글 맨디언트, 오라클 피플소프트 환경 관리 컴포넌트 취약점 악용 주의보애저로 위장한 원격 제어 에이전트 심어 내부망 측면 이동, 데이터 탈취[보안뉴스 조재호 기자] 구글 위협인텔리전스그룹(GTIG)이 유명 해킹 조직 샤이니헌터스(ShinyHunters)의 대규모 데이터 탈취 및 갈취 캠페인을 포착했다. 12일 구글 클라우드 공식 블로그에 따르면, 샤이니헌",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144092&kind=&sub_kind=",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“인증 맹신 버려라”... ISMS-P 개편, 양자 보안 위협 속 차세대 생존법",
+      "summary": "기업보안협, ‘2026년 제3차 시큐리티 라운드 테이블’ 개최... 유출 사고 이면의 관리 체계 맹점 진단홍성권 나인시큐리티 대표 “ISMS-P는 보안의 시작점일 뿐 완벽한 예방 담보 못 해”박유신 베이스스톤 대표 “공개키 의존하는 제로 트러스트 한계, 양자 동적 키로 극복”[보안뉴스 조재호 기자] 최근 쿠팡 과징금 부과와 티빙 개인정보 유출 등 대규모 사",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144091&kind=&sub_kind=",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "방미통위, 주민번호·CI 분리 보관 내년 1월 시행... 당초 계획보다 4개월 앞당겨",
+      "summary": "12일 제17차 전체회의 개최... 연계정보 생성 처리 기준 고시 개정안 조기 시행 추진[보안뉴스 조재호 기자] 방송미디어통신위원회가 주민등록번호와 연계정보(CI)의 분리 보관 의무화 시기를 당초 예정보다 4개월 앞당겨 내년 1월 1일 시행한다. 최근 대규모 개인정보 유출 사고에서 주민등록번호와 이를 대체하는 식별 수단인 연계정보가 함께 노출되며 2차 피해",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144090&kind=&sub_kind=",
+      "date": "2026-06-12"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "대한민국, 인공지능 및 6G 보안 국제표준 개발 착수... 신규 표준 14건 등 승인",
@@ -10874,260 +11154,8 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/metinfo-weaver-e-cology-vulnerabilities-in-attackers-crosshairs/",
       "date": "2026-05-05"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "WhatsApp, 파일 스푸핑 및 임의 URL 스킴 취약점 공개",
-      "summary": "WhatsApp이 파일 스푸핑과 임의 URL 스킴 관련 취약점을 공개했습니다. 이러한 취약점들은 공격자가 사용자를 속여 악의적인 파일을 실행하거나 예상치 못한 URL 스킴으로 리디렉션할 수 있게 합니다. SecurityWeek이 보도한 이 취약점들은 사용자의 보안과 개인정보 보호에 위협이 될 수 있습니다. WhatsApp은 이 문제를 해결하기 위한 패치를 배포했으며, 사용자들에게 최신 버전으로 업데이트할 것을 권장하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/whatsapp-discloses-file-spoofing-arbitrary-url-scheme-vulnerabilities/",
-      "date": "2026-05-05"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "소프트웨어 개발자를 노린 새로운 스텔스형 Quasar Linux 악성코드 발견",
-      "summary": "이전에 보고되지 않았던 Linux 악성코드인 Quasar Linux(QLNX)가 개발자 시스템을 대상으로 한 공격을 수행 중입니다. 이 악성코드는 루트킷, 백도어, 자격증명 탈취 기능을 결합한 고도의 침투형 악성코드입니다. QLNX는 높은 은폐성을 갖춘 다목적 공격 도구로, 시스템에 대한 원격 접근 및 제어 능력을 보유하고 있습니다. 소프트웨어 개발자들이 특별히 위험에 노출되어 있으며, 이는 공급망 공격의 가능성을 시사합니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware-targets-software-developers/",
-      "date": "2026-05-05"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Instructure 해킹 피해 - 8,800개 학교 및 대학교에서 데이터 유출 주장",
-      "summary": "교육 기술 대기업 Instructure의 해킹으로 인해 공격자가 8,809개의 대학, 학군 및 온라인 교육 플랫폼에서 2억 8천만 개의 학생 및 직원 데이터 레코드를 탈취했다고 주장하고 있습니다. 이번 위반 사건은 Canvas 플랫폼과 관련이 있으며, ShinyHunters로 추정되는 해커 그룹이 관여한 것으로 보입니다. 공격자는 훔친 데이터를 기반으로 협박을 시도하고 있는 상황입니다. 이는 전 세계 교육기관의 민감한 개인정보 보안에 대한 심각한 위협을 나타냅니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/",
-      "date": "2026-05-05"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "DAEMON Tools 공급망 공격으로 백도어 배포",
-      "summary": "해커들이 DAEMON Tools 소프트웨어 설치 프로그램을 변조하여 4월 8일부터 공식 웹사이트에서 해당 제품을 다운로드한 수천 개의 시스템에 백도어를 배포했습니다. 이번 공급망 공격은 트로이목마 형태로 진행되었으며, 사용자들이 정상적인 공식 채널을 통해 소프트웨어를 설치할 때 악성 코드가 함께 설치되었습니다. 이 백도어는 감염된 시스템에서 정보를 탈취할 수 있는 능력을 가지고 있습니다. 공급망 공격의 특성상 광범위한 피해 확산이 우려되고 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/daemon-tools-trojanized-in-supply-chain-attack-to-deploy-backdoor/",
-      "date": "2026-05-05"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "대만 고속철도 해킹한 학생 체포, 긴급제동장치 작동시켜",
-      "summary": "대만의 23세 대학생이 해당 국가의 고속철도망(THSR)에서 사용하는 TETRA 통신 시스템에 불법 접근한 혐의로 체포되었다. 이 학생은 해킹을 통해 철도 시스템의 긴급제동장치를 작동시키는 행위를 했다. 이 사건은 중요 기반시설인 교통 시스템이 사이버 공격에 얼마나 취약할 수 있는지를 보여주는 사례이다. 당국은 통신 시스템 보안 강화와 함께 유사 사건 방지를 위한 조치를 검토 중인 것으로 알려졌다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/student-hacked-taiwan-high-speed-rail-to-trigger-emergency-brakes/",
-      "date": "2026-05-05"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "FTC, 데이터 브로커 Kochava의 미국인 위치정보 판매 금지",
-      "summary": "미국 연방거래위원회(FTC)가 데이터 브로커 Kochava와 자회사 Collective Data Solutions(CDS)에 대해 소비자의 명시적 동의 없이 위치정보를 판매하는 것을 금지하는 조치를 취했습니다. 이 회사들은 수억 개의 모바일 기기에서 수집한 정확한 지리적 위치 데이터를 불법적으로 판매한 혐의를 받고 있습니다. FTC의 이 조치는 개인의 위치정보 프라이버시 보호를 강화하기 위한 결정입니다. 소비자들의 개인정보가 동의 없이 제3자에게 판매되는 것을 방지하기 위한 규제 강화의 일환입니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/ftc-to-ban-data-broker-kochava-from-selling-americans-location-data/",
-      "date": "2026-05-05"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "CVE 피드의 EOL 사각지대: SCA 도구가 놓치는 것",
-      "summary": "오픈소스 소프트웨어의 중요한 취약점이 보안 스캐너에 의해 감지되지 않을 수 있다는 문제가 지적되었습니다. HeroDevs는 서비스 종료(EOL) 소프트웨어가 CVE 피드와 SCA(소프트웨어 구성 분석) 도구에서 사각지대를 만들어낸다고 밝혔습니다. 많은 조직들이 EOL 상태의 오픈소스 라이브러리를 여전히 사용하고 있음에도 불구하고, 대부분의 취약점 스캐너는 이를 추적하지 못하고 있습니다. 이는 조직의 보안 체계에 심각한 위험을 초래할 수 있습니다. HeroDevs는 프로젝트에 대한 무료 EOL 스캔을 제공하여 이러한 문제를 파악할 수 있도록 돕고 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/the-eol-blind-spot-in-your-cve-feed-what-sca-tools-miss/",
-      "date": "2026-05-05"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Vimeo 데이터 유출, 119,000명의 개인정보 노출",
-      "summary": "온라인 동영상 플랫폼 Vimeo가 4월에 해킹당하면서 119,000명 이상의 개인정보가 유출되었습니다. ShinyHunters 악의적 집단이 이번 침해 사건을 저지른 것으로 파악되었으며, 데이터 유출 알림 서비스인 'Have I Been Pwned'를 통해 확인되었습니다. 이번 사건은 대규모 개인정보가 노출된 심각한 보안 침해 사건으로, 영향을 받은 사용자들은 자신의 정보 보호에 주의를 기울여야 합니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/vimeo-data-breach-exposes-personal-information-of-119-000-people/",
-      "date": "2026-05-05"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "구글, 일부 Android 익스플로잇에 최대 150만 달러 보상금 제공",
-      "summary": "구글이 Android 및 Chrome 취약점 보상 프로그램을 개편하여 가장 어려운 익스플로잇에 대해 최대 150만 달러의 버그 바운티를 제공하기로 했습니다. 이번 개편은 인공지능(AI)이 취약점 발견을 더 쉽게 만들면서 상대적으로 단순한 결함에 대한 보상금은 축소하는 방향으로 진행됩니다. 구글은 보안 연구자들의 기여를 더욱 효과적으로 장려하기 위해 난이도에 따라 차등적인 보상 체계를 적용하고 있습니다. 이러한 정책 변화는 고급 사이버 위협에 대응하기 위한 구글의 전략적 접근으로 해석됩니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-now-offers-up-to-15-million-for-some-android-exploits/",
-      "date": "2026-05-05"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "카라쿠르트 랜섬웨어 조직의 '미제 사건' 협상가, 8.5년 징역형 선고",
-      "summary": "라트비아 국적의 한 남성이 미국으로 송환되어 러시아 카라쿠르트 랜섬웨어 조직의 '미제 사건' 협상가 역할로 8.5년의 징역형을 선고받았다. 카라쿠르트는 데이터 탈취와 협박을 통해 피해 기업들로부터 금전을 요구하는 악명높은 사이버 범죄 조직이다. 협상가는 피해자들과의 신원 협상 과정에서 중개자 역할을 담당했던 것으로 알려졌다. 이 판결은 국제 사이버 범죄에 대한 미국의 강경한 수사와 기소 정책을 보여주는 사례이다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/karakurt-extortion-gang-negotiator-sentenced-to-85-years-in-prison/",
-      "date": "2026-05-05"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "CloudZ 악성코드, Microsoft Phone Link를 악용하여 SMS 및 OTP 탈취",
-      "summary": "CloudZ 원격 접근 도구(RAT)의 새로운 버전이 'Pheno'라는 이전에 보지 못한 악성 플러그인을 배포하고 있습니다. 이 플러그인은 Microsoft Phone Link 연결을 탈취하여 모바일 기기에서 민감한 코드들을 도용합니다. 특히 SMS 메시지와 일회용 비밀번호(OTP)가 주요 공격 대상입니다. 이는 Windows PC와 연동되는 Phone Link 기능의 보안 취약점을 악용한 공격으로, 사용자의 모바일 인증 정보가 직접적인 위협에 노출되고 있습니다. 이번 발견은 데스크톱-모바일 연동 기능의 잠재적 보안 위험성을 드러내고 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cloudz-malware-abuses-microsoft-phone-link-to-steal-sms-and-otps/",
-      "date": "2026-05-05"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "ScarCruft 해커들, 게임 플랫폼을 통해 BirdCall 안드로이드 악성코드 배포",
-      "summary": "북한 국가 해킹 그룹인 APT37(ScarCruft)이 비디오 게임 플랫폼을 악용하는 공급망 공격을 통해 BirdCall이라는 백도어의 안드로이드 버전을 배포하고 있습니다. 이 악성코드는 사용자의 기기에 불법 접근을 제공하여 민감한 정보를 탈취할 수 있습니다. 게임 플랫폼을 감염의 매개체로 사용함으로써 많은 사용자들에게 동시에 악성코드를 배포할 수 있어 위험성이 높습니다. 사이버보안 전문가들은 이 공격이 대규모 감시 및 스파이 활동을 목적으로 한 것으로 분석하고 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/scarcruft-hackers-push-birdcall-android-malware-via-game-platform/",
-      "date": "2026-05-05"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "아마존의 간편 이메일 서비스 악용하는 피싱 이메일 급증",
-      "summary": "아마존 SES 악용해 SPF, DKIM, DMARC 프로토콜과 같은 인증 검사 통과공격자들, 오픈소스 ‘TruffleHog’ 유틸리티를 기반으로 구축된 봇 등 자동화된 공격 활용[보안뉴스 원병철 기자] 아마존의 간편 이메일 서비스(SES)를 이용해 보안 필터를 우회하고 평판 기반 차단을 무력화하는 정교한 피싱 이메일을 발송하는 악용 사례가 급증하고 있다.",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143477&kind=&sub_kind=",
-      "date": "2026-05-05"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "쿤텍, 공급망 보안 플랫폼 ‘이지즈(AEZIZ) 3.0’ 출시... SBOM 넘어 AI-BOM까지 확장",
-      "summary": "SW 개발 전 과정 공급망 보안 통합 관리할 오픈소스·바이너리·레파지토리 통합 플랫폼 구현AI-BOM 도입해 AI 공급망 보안 대응 및 공공·국방·금융 검증된 레퍼런스 기반 안정성 확보[보안뉴스 원병철 기자] 융합보안 전문기업 쿤텍(대표 방혁준)이 SBOM 및 AI-BOM(AI 모델 구성 요소 검증) 기반으로 전체 공급망 보안을 통합적으로 관리할 수 있는",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143475&kind=&sub_kind=",
-      "date": "2026-05-05"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "연구원들, 피싱 회피 목적의 Amazon SES 악용 사례 보고",
-      "summary": "사이버보안 회사 카스퍼스키가 Amazon Simple Email Service(SES)가 설득력 있는 피싱 이메일을 전송하는 데 악용되고 있다고 보고했습니다. 공격자들은 Amazon SES를 통해 표준 보안 필터를 우회하고 평판 기반 차단을 무효화할 수 있는 피싱 메일을 보내고 있습니다. 이는 정상적인 클라우드 서비스의 신뢰성을 악용하여 탐지를 회피하는 새로운 위협 추세를 보여줍니다. Amazon SES의 높은 전달률과 신뢰성이 악의적인 목적으로 악용되면서 조직의 이메일 보안이 심각한 위협에 노출되고 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/researchers-report-amazon-ses-abused-in-phishing-to-evade-detection/",
-      "date": "2026-05-04"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "스마트 또는 유선 도크: IT를 위한 실용 가이드",
-      "summary": "스마트 도크는 노트북이 오프라인 상태일 때도 클라우드 기반 업데이트를 대규모로 활성화합니다. 유선 도크는 네트워크 관리 액세서리를 차단하는 통제된 환경에 적합합니다. Dell Pro Docks는 연결성을 표준화하고 중앙 집중식 관리로 지원 티켓을 줄입니다. 올바른 도크를 선택하면 기기 업데이트를 단순화하고 보안을 강화하며 지원 비용을 절감할 수 있습니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/smart-or-wired-docks-a-practical-guide-for-it/",
-      "date": "2026-05-04"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "시스코, 비인간 신원 위험 대응을 위해 아스트릭스 시큐리티 인수",
-      "summary": "시스코가 아스트릭스 시큐리티를 인수하기로 결정했습니다. 이번 인수는 머신 신원(machine identities)과 에이전트 AI 접근에 대한 가시성과 통제를 강화하기 위한 것입니다. 아스트릭스의 기술을 통해 시스코는 조직 내 비인간 신원 위험에 더욱 효과적으로 대응할 수 있게 됩니다. 이는 인공지능과 자동화 시스템의 확대로 인한 보안 위협에 선제적으로 대처하려는 전략입니다. 해당 인수는 신원 및 접근 제어 분야의 시스코의 능력을 강화할 것으로 예상됩니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/cisco-moves-to-acquire-astrix-security-to-tackle-non-human-identity-risks/",
-      "date": "2026-05-04"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "트렐릭스 소스코드 저장소 침해",
-      "summary": "보안 소프트웨어 개발 회사인 트렐릭스(Trellix)의 소스코드 저장소가 최근 침해당했다. 트렐릭스는 자신의 소스코드 저장소 일부가 최근 침해되었다고 발표했으나, 사건에 대한 구체적인 정보는 거의 공개하지 않았다. 이번 침해로 인해 민감한 개발 정보와 코드가 노출될 수 있다는 우려가 제기되고 있다. 트렐릭스는 고객과 보안 커뮤니티에 대한 영향을 최소화하기 위해 사건을 조사 중에 있는 것으로 알려졌다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/trellix-source-code-repository-breached/",
-      "date": "2026-05-04"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "사이버보안 인수합병 현황: 2026년 4월 33건 거래 공시",
-      "summary": "2026년 4월 한 달 동안 사이버보안 업계에서 33건의 인수합병(M&A) 거래가 공시되었다. SecurityWeek에서 발표한 이 보고서는 글로벌 사이버보안 시장의 지속적인 통합 추세를 보여준다. 이러한 거래들은 사이버보안 기업들의 성장 전략과 시장 내 경쟁 심화를 반영하고 있다. M&A 활동의 증가는 보안 솔루션에 대한 수요 증가와 기업들의 기술 확보 전략을 시사한다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/cybersecurity-ma-roundup-33-deals-announced-in-april-2026/",
-      "date": "2026-05-04"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "DigiCert, 지원 포털 해킹 이후 인증서 폐지",
-      "summary": "글로벌 인증서 발급 기관인 DigiCert의 지원 포털이 해킹당한 후 해당 회사는 영향을 받은 인증서들을 폐지했습니다. 이번 보안 사건으로 인해 해커들이 고객 정보 및 인증서 관련 데이터에 접근할 수 있었던 것으로 파악되었습니다. DigiCert는 사태의 심각성을 인식하고 신속하게 대응하여 보안 위험을 최소화하기 위해 필요한 인증서들을 취소했습니다. 이번 사건은 주요 인증서 발급 기관의 보안 강화의 중요성을 다시 한 번 부각시키고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/digicert-revokes-certificates-after-support-portal-hack/",
-      "date": "2026-05-04"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "리눅스 'Copy Fail' 취약점 악용 시작",
-      "summary": "리눅스 시스템의 'Copy Fail' 취약점에 대한 악용이 시작되었다는 보안 위협 정보가 보도되었습니다. 이 취약점은 엔드포인트 보안에 영향을 미칠 수 있는 중요한 보안 이슈로 분류되고 있습니다. SecurityWeek에서 Ionut Arghire 기자가 2026년 5월 4일에 보도한 이 뉴스는 리눅스 사용자들에게 긴급한 주의를 요구하고 있습니다. 해당 취약점은 악의적인 행위자들에 의해 적극적으로 악용되고 있는 것으로 알려져 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/exploitation-of-copy-fail-linux-vulnerability-begins/",
-      "date": "2026-05-04"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "OpenAI, ChatGPT 계정을 위한 고급 보안 기능 출시",
-      "summary": "OpenAI가 ChatGPT 사용자 계정 보안을 강화하기 위해 고급 보안 기능을 새로 출시했습니다. 이번 업데이트는 사용자 계정에 대한 무단 접근을 방지하고 더욱 강화된 인증 메커니즘을 제공합니다. 해당 기능은 계정 보안과 신원 접근 관리 분야에서 AI 기반 서비스의 보안을 개선하는 데 초점을 맞추고 있습니다. OpenAI는 지속적으로 사용자 데이터 보호를 위한 보안 강화 조치를 진행하고 있으며, 이는 AI 서비스 이용 시 계정 안전성을 높이는 중요한 조치입니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/openai-rolls-out-advanced-security-for-chatgpt-accounts/",
-      "date": "2026-05-04"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "4만여 대 이상의 서버가 지속적인 cPanel 악용 공격으로 침해",
-      "summary": "cPanel 플랫폼을 대상으로 한 지속적인 악용 공격으로 4만여 대 이상의 서버가 침해되었습니다. 이번 공격은 cPanel의 보안 취약점을 이용하여 대규모로 이루어지고 있는 것으로 파악됩니다. cPanel은 웹 호스팅 서버 관리에 널리 사용되는 플랫폼으로, 이번 침해로 많은 웹사이트와 서비스가 영향을 받을 수 있습니다. 보안 전문가들은 사용자들에게 긴급 패치 적용과 시스템 점검을 권장하고 있습니다. 이 공격은 현재도 진행 중인 것으로 보여 지속적인 모니터링이 필요한 상황입니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/over-40000-servers-compromised-in-ongoing-cpanel-exploitation/",
-      "date": "2026-05-04"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "교육기술 기업 Instructure, 해커 유출 위협 속에서 데이터 유출 공개",
-      "summary": "교육기술(에드테크) 기업인 Instructure가 데이터 유출 사건을 공개했습니다. 해킹 그룹이 유출된 데이터를 공개하겠다고 위협하고 있는 상황입니다. ShinyHunters로 알려진 해커 그룹이 관련되어 있는 것으로 보입니다. 이 사건은 교육 분야의 민감한 정보 보안에 대한 우려를 높이고 있습니다. Instructure는 즉시 영향을 받은 사용자들에게 알리고 대응 조치를 취하고 있습니다. 현재 유출된 데이터의 규모와 포함된 정보의 구체적인 내용이 확인되고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/edtech-firm-instructure-discloses-data-breach/",
-      "date": "2026-05-04"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Weaver E-cology 심각한 버그, 3월부터 공격에 악용되고 있음",
-      "summary": "해커들이 Weaver E-cology 사무자동화 솔루션의 중대 취약점(CVE-2026-22679)을 3월 중순부터 악용하고 있습니다. 이 원격코드실행(RCE) 취약점을 통해 공격자들은 피해 시스템에서 탐색 명령어를 실행할 수 있었습니다. 현재까지 이 취약점은 실제 공격에 적극적으로 악용되고 있는 상태입니다. Weaver E-cology는 널리 사용되는 사무자동화 솔루션으로, 조직 내 많은 시스템이 영향을 받을 가능성이 있습니다. 사용자들은 긴급히 보안 패치를 적용하고 시스템 접근 통제를 강화해야 합니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/",
-      "date": "2026-05-04"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "아마존 SES, 피싱 공격에 악용되어 탐지 우회",
-      "summary": "아마존의 심플 이메일 서비스(SES)가 피싱 이메일 전송에 악용되는 사례가 증가하고 있습니다. 공격자들이 아마존 SES를 통해 발송한 이메일은 표준 보안 필터를 우회할 수 있으며, 신뢰도 기반의 차단 메커니즘도 무력화할 수 있습니다. 아마존의 정상적인 서비스를 악용하기 때문에 수신자들이 피싱 이메일임을 인식하기 어려워집니다. 이는 기업 이메일 침해(BEC) 공격과 같은 고급 사기 위협의 수단으로 활용되고 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/amazon-ses-increasingly-abused-in-phishing-to-evade-detection/",
-      "date": "2026-05-04"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "백도어된 PyTorch Lightning 패키지, 자격증명 탈취 악성코드 배포",
-      "summary": "Python Package Index(PyPI)에 게시된 악성 버전의 PyTorch Lightning 패키지가 자격증명 탈취 페이로드를 전달하고 있습니다. 이 악성 패키지는 브라우저, 환경 파일 및 클라우드 서비스를 대상으로 사용자의 민감한 정보를 훔칩니다. 이는 공급망 공격의 일환으로, 정상적인 오픈소스 패키지를 악의적으로 변조하여 배포하는 방식입니다. 개발자들이 이 패키지를 설치할 경우 자신의 인증 정보가 유출될 수 있으므로 주의가 필요합니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/",
-      "date": "2026-05-04"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Trellix, 소스코드 저장소 해킹으로 인한 데이터 유출 공시",
-      "summary": "사이버보안 회사 Trellix가 공격자들이 소스코드 저장소의 일부에 접근한 후 데이터 유출 사실을 공개했습니다. 해킹으로 인해 Trellix의 소유 소프트웨어 코드의 일부가 유출된 것으로 확인되었습니다. 이번 사건은 소프트웨어 개발 인프라에 대한 공격이 얼마나 중대한 보안 위협이 될 수 있는지를 보여줍니다. Trellix는 현재 침해 범위를 파악하고 영향받은 고객들에게 알리는 작업을 진행 중입니다. 보안 회사의 소스코드 유출은 제품의 보안 취약점 발견으로 이어질 수 있어 업계 전체에 우려를 야기하고 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/trellix-discloses-data-breach-after-source-code-repository-hack/",
-      "date": "2026-05-04"
     }
   ],
-  "totalItems": 2125,
+  "totalItems": 2153,
   "hasArchive": true
 }
