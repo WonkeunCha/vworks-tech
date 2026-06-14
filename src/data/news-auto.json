@@ -2152,9 +2152,99 @@
     "http://www.boannews.com/media/view.asp?idx=144093&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144092&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144091&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=144090&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=144090&kind=&sub_kind=",
+    "https://www.securityweek.com/npm-12-will-change-script-execution-behavior-to-prevent-supply-chain-attacks/",
+    "https://www.securityweek.com/anthropic-says-it-has-taken-its-latest-ai-models-offline-to-comply-with-new-export-controls/",
+    "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
+    "https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/",
+    "https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/",
+    "http://www.boannews.com/media/view.asp?idx=144101&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144100&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143577&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144095&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "앤트로픽 페이블5 접근 제한, 탈옥 우려 때문? 중국 때문?",
+      "summary": "앤트로픽 최신 모델 대한 백악관 수출 통제 조치 논란 확산 [보안뉴스 한세희 기자] 미국 정부가 앤트로픽의 최신 AI 모델에 대한 수출 통제 지침을 내린 것은 이 모델에 대한 아마존 보안 연구자의 탈옥 가능성 연구 때문인 것으로 알려졌다. 월스트리트저널 보도에 따르면, 아마존 보안 연구자가 앤트로픽이 최근 일반 공개한 최신 모델 ‘페이블5’에 일련의 프롬프",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144101&kind=&sub_kind=",
+      "date": "2026-06-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "NPM 12, 공급망 공격 방지를 위해 스크립트 실행 동작 변경",
+      "summary": "NPM(Node Package Manager) 12 버전이 공급망 공격을 예방하기 위해 스크립트 실행 동작을 변경할 예정이다. 이번 변경은 악의적인 패키지가 설치 중에 자동으로 실행되는 스크립트를 통해 시스템을 침해하는 공급망 공격을 막기 위한 보안 강화 조치이다. NPM은 GitHub과 협력하여 패키지 관리자의 보안성을 개선하고 있으며, 이러한 변경으로 개발자들의 개발 환경을 더욱 안전하게 보호할 수 있을 것으로 기대된다. 해당 변경사항은 기존 워크플로우에 영향을 미칠 수 있으므로 개발자들의 주의가 필요하다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/npm-12-will-change-script-execution-behavior-to-prevent-supply-chain-attacks/",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Anthropic, 새로운 수출 규제 준수를 위해 최신 AI 모델 오프라인 전환",
+      "summary": "AI 안전 연구 회사인 Anthropic이 새로운 수출 규제를 준수하기 위해 최신 AI 모델들을 오프라인으로 전환했다고 발표했습니다. 이는 미국 정부의 강화된 AI 모델 수출 통제 정책에 대한 대응 조치입니다. Anthropic은 국제 사용자들이 자사의 최신 모델인 Fable과 Mythos에 접근할 수 없게 조치했습니다. 이러한 결정은 AI 기술의 국제적 확산을 제한하려는 정부 정책을 기업 차원에서 준수하는 사례를 보여줍니다. 이는 AI 산업 전반에 걸쳐 규제 준수의 필요성이 높아지고 있음을 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/anthropic-says-it-has-taken-its-latest-ai-models-offline-to-comply-with-new-export-controls/",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "전직 학군 직원, 전 직장 해킹으로 투옥",
+      "summary": "미국 아이오와 주의 한 학군에서 IT 담당자로 근무하던 전직 직원이 전 직장에 대한 지속적인 사이버 공격을 수행한 혐의로 21개월의 징역형을 선고받았습니다. 이 공격으로 인해 교실 운영이 중단되었으며, 계정이 삭제되고 수만 달러대의 손해가 발생했습니다. 이 사건은 내부자 위협의 심각성과 조직이 퇴직한 직원의 시스템 접근 권한을 얼마나 철저히 관리해야 하는지를 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "중국 해커, 인증 체계 장악해 고립된 네트워크에 10년간 스파이 활동",
+      "summary": "중국 해커들이 표적 조직의 인증 시스템을 장악해 10년 동안 지속적인 접근을 유지한 것으로 드러났습니다. 공격자들은 관리자 활동에 대한 완전한 가시성을 확보하고 고립된 네트워크 내에서 장기간의 사이버 스파이 활동을 수행했습니다. 이번 공격은 '벨벳 앤트(Velvet Ant)'로 명명되었으며, 고도로 정교한 인증 흐름 조작 기법을 사용한 것으로 보입니다. 네트워크 격리에도 불구하고 해커들이 침투에 성공한 것은 인증 체계가 주요 공격 대상이 될 수 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국 정부, Anthropic에 Fable·Mythos 외국인 접근 차단 요구",
+      "summary": "미국 정부가 Anthropic에 Fable 5와 Mythos 5에 대한 모든 외국인의 접근을 차단하도록 명령했으며, 이에 따라 Anthropic은 두 모델을 전 세계적으로 중단하기로 결정했습니다. Anthropic은 정부의 요구를 수용하고 있으나, 인용된 탈옥 기법이 제한적이며 유사한 기능이 다른 곳에서도 널리 이용 가능하다는 점을 근거로 이 조치에 이의를 제기하고 있습니다. 이 결정은 보안 우려와 기술 규제 사이의 긴장 관계를 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "김정은, “보건 혁명”... 이후 국내 바이오 분야 겨냥 북 사이버 공격 확대",
+      "summary": "국정원 등 국가정보보호백서 발간 [보안뉴스 한세희 기자] 북한 사이버 공격이 우리나라 보건 영역 등으로 확대된 것으로 나타났다. 북한 정책 우선 순위에 맞춰 사이버 공격 양상도 변화하고 있다는 진단이다.14일 국가정보원 등이 발간한 국가정보보호백서에 따르면, 북한은 최근 적대적 두 국가론을 전면에 내세우면서 사이버 공격도 강화하고 있다. 북한 정책 기조와",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144100&kind=&sub_kind=",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 39] 믿는 도끼에 발등 찍힌다(9)-차량 번호 노출이 범죄로 이어지는 이유",
+      "summary": "자동차 주차 번호판을 통한 번호 노출을 주의하세요(안심번호 서비스 권장)보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143577&kind=&sub_kind=",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[이슈칼럼] 패스키 전쟁: 빅테크는 왜 당신의 비밀번호를 갖고 싶어 하는가",
+      "summary": "“저장하시겠습니까?”의 진짜 의미[보안뉴스= 김동현 OWASP 서울 챕터 리더/크리밋 대표] 웹사이트에 로그인할 때마다 익숙한 팝업이 뜬다. “이 비밀번호를 저장하시겠습니까?” 대부분 별 생각없이 ‘저장’을 누른다. 편하니까.그러나 이 작은 버튼은 생각보다 무거운 결정이다. 크롬에서 누르면 구글 계정에, 아이폰에서 누르면 애플 계정에 쌓인다. 인터넷 사용자",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144095&kind=&sub_kind=",
+      "date": "2026-06-13"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "국내서 ‘클로드 페이블5’ 모델 접근 막혔다... 미 정부, 앤트로픽에 외국 접속 금지 명령",
@@ -11073,89 +11163,8 @@
       "source": "Dell",
       "sourceUrl": "https://www.dell.com/en-us/blog/how-a-3-billion-credit-union-built-the-infrastructure-to-run-today-s-business-and-tomorrow-s/",
       "date": "2026-05-05"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "양자 암호화와 스토리지: '준비됨'이 아닌 다른 질문이 필요한 이유",
-      "summary": "양자 컴퓨팅에 대비하기 시작해야 하는 이유와 양자 컴퓨팅이 생각보다 더 가까워졌다는 점을 고객들이 이해하도록 도와야 합니다. 스토리지는 양자 내성 암호화(PQC) 채택에 매우 중요한 역할을 하며, Dell은 고객들이 PQC 전환에 대비할 수 있도록 스토리지 플랫폼에서 다양한 조치를 취하고 있습니다. '양자 내성 암호화 준비가 되었는가?'라는 질문은 이것이 하나의 기능이 아니라 개별 벤더 혼자서는 완성할 수 없는 전환 과정이라는 점을 간과하고 있으며, 이는 특히 스토리지 분야에서 더욱 분명합니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/post-quantum-cryptography-and-storage-why-ready-is-the-wrong-question/",
-      "date": "2026-05-05"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Dell Pro 5: 비즈니스 생산성을 위한 최적의 선택",
-      "summary": "Dell Pro 5는 프리미엄 가격대 없이 뛰어난 성능이 필요한 지식근로자, 분석가, 관리자를 위해 설계된 광범위한 직원층을 위한 노트북입니다. 차세대 Intel 및 AMD 프로세서, Intel Arc 또는 AMD Radeon 그래픽, 최대 22.8시간의 배터리 지속시간, 고속 업그레이드 가능한 LPCAMM2 또는 DDR5 메모리, PCIe Gen5 저장소를 통해 확장 가능한 성능을 제공합니다. 이전 세대 대비 11% 더 얇은 샤시, 2배 이상 큰 팬, 최대 78% 향상된 냉각 효율을 자랑하며, FHD+ OLED 디스플레이, 8MP 카메라, 배터리 절감 미니 LED 백라이트 키보드 등 프리미엄 기능을 대중화했습니다. 또한 선택 사항으로 5G 지원과 내장 개인정보보호 솔루션을 제공합니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/dell-pro-5-the-sweet-spot-for-business-productivity/",
-      "date": "2026-05-05"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "마이크로소프트, 미국 기관을 표적으로 한 정교한 피싱 캠페인 경고",
-      "summary": "마이크로소프트가 미국 조직들을 겨냥한 정교한 피싱 캠페인에 대해 경고했습니다. 이 캠페인은 AitM(중간자 공격) 기법을 활용하여 사용자의 인증 정보를 탈취하려고 시도합니다. 해당 피싱 공격은 기존의 단순한 피싱 방식과 달리 높은 수준의 기술을 사용하고 있어 조직의 보안 위협이 증가하고 있습니다. 마이크로소프트는 사용자들에게 의심스러운 이메일에 대한 주의와 다단계 인증 설정을 권고하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/microsoft-warns-of-sophisticated-phishing-campaign-targeting-us-organizations/",
-      "date": "2026-05-05"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "해커 대화: Joey Melo의 AI 해킹 기법",
-      "summary": "SecurityWeek의 '해커 대화' 시리즈에서 Joey Melo는 AI 시스템을 해킹하는 방법에 대해 설명합니다. 그는 탈옥(jailbreaking) 기법과 데이터 중독(data poisoning) 공격을 사용하여 AI의 안전 장치를 우회하고 조작하는 방법을 다룹니다. 이 인터뷰는 머신러닝 모델의 보안 취약점을 노출하고, 이러한 공격으로부터 AI 시스템을 강화하는 방방에 대해 논의합니다. Kevin Townsend 기자가 작성한 이 기사는 인공지능 보안의 중요한 이슈를 조명하며, AI 시스템의 안전성 강화 필요성을 강조합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/hacker-conversations-joey-melo-on-hacking-ai/",
-      "date": "2026-05-05"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "심각한 버그, 30만 개의 올라마(Ollama) 배포 환경을 정보 도용 위험에 노출",
-      "summary": "오픈소스 AI 모델 실행 플랫폼인 올라마(Ollama)에서 발견된 중대 보안 취약점이 약 30만 개의 배포 환경을 정보 유출 위험에 처하게 할 수 있습니다. 이 버그는 '블리딩 라마(Bleeding Llama)'로 불리며, 공격자가 민감한 정보를 탈취할 수 있는 경로를 제공합니다. SecurityWeek의 보도에 따르면 이 취약점은 올라마 배포 시스템의 광범위한 보안 결함과 관련이 있습니다. 영향을 받는 조직들은 즉시 보안 패치를 적용하고 시스템을 점검해야 할 것으로 보입니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/critical-bug-could-expose-300000-ollama-deployments-to-information-theft/",
-      "date": "2026-05-05"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "안드로이드의 심각한 원격 코드 실행 취약점 패치",
-      "summary": "안드로이드에서 심각한 수준의 원격 코드 실행(RCE) 취약점이 발견되어 패치되었습니다. 이 취약점은 공격자가 원격에서 영향을 받는 안드로이드 기기에서 임의의 코드를 실행할 수 있게 하는 치명적인 보안 결함입니다. SecurityWeek의 보도에 따르면 구글은 해당 취약점을 즉시 패치하여 배포했습니다. 사용자들은 가능한 빨리 최신 안드로이드 보안 업데이트를 설치할 것을 권장받고 있습니다. 이번 취약점은 모바일 기기 사용자들에게 상당한 보안 위협을 야기할 수 있어 신속한 대응이 필요한 상황입니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/critical-remote-code-execution-vulnerability-patched-in-android-2/",
-      "date": "2026-05-05"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Apache MINA 및 HTTP 서버의 심각한 취약점 패치 완료",
-      "summary": "Apache MINA와 HTTP 서버에서 심각도 높은 취약점들이 발견되어 패치되었습니다. 이번 업데이트는 사용자 시스템의 보안 위험을 완화하기 위한 중요한 조치입니다. 해당 취약점들은 공격자에게 악용될 수 있는 잠재력이 있어 즉시 패치 적용이 권장됩니다. SecurityWeek에서 보도한 이 소식은 5월 5일 공개되었으며, 영향을 받는 사용자들은 최신 보안 업데이트를 설치할 것을 강력히 권고합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/critical-high-severity-vulnerabilities-patched-in-apache-mina-http-server/",
-      "date": "2026-05-05"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "카라쿠르트 랜섬웨어 협상가, 감옥형 선고",
-      "summary": "라트비아 출신의 랜섬웨어 협상가가 카라쿠르트 랜섬웨어 공격 그룹과 관련된 혐의로 징역형을 선고받았습니다. 이 인물은 피해자들과 신원 협상을 진행하고 몸값 지급을 중개하는 역할을 담당했던 것으로 알려져 있습니다. 이번 판결은 사이버범죄 조직의 운영 구조를 타격하고 랜섬웨어 공격의 금전적 측면을 차단하려는 국제 법 집행 노력의 일환입니다. 카라쿠르트 그룹은 과거 여러 대규모 기업들을 대상으로 한 랜섬웨어 공격으로 악명이 높았습니다. 이러한 기소와 유죄 판결은 사이버범죄자들에 대한 국제적 추적과 기소가 계속되고 있음을 보여줍니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/karakurt-ransomware-negotiator-sentenced-to-prison/",
-      "date": "2026-05-05"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "MetInfo, Weaver E-cology 취약점이 공격자들의 표적",
-      "summary": "중국의 웹사이트 구축 도구인 MetInfo와 협업 플랫폼인 Weaver E-cology의 보안 취약점들이 공격자들의 집중적인 공격 대상이 되고 있습니다. 이 두 제품의 취약점들은 이미 악용되고 있으며, 특히 중국 지역에서 광범위한 사이버 위협을 초래하고 있습니다. 보안 전문가들은 이러한 취약점들이 대규모 침입 및 데이터 탈취로 이어질 수 있다고 경고하고 있습니다. 영향을 받는 조직들은 즉시 패치 적용 및 시스템 점검을 수행할 것이 권장됩니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/metinfo-weaver-e-cology-vulnerabilities-in-attackers-crosshairs/",
-      "date": "2026-05-05"
     }
   ],
-  "totalItems": 2153,
+  "totalItems": 2162,
   "hasArchive": true
 }
