@@ -2161,9 +2161,119 @@
     "http://www.boannews.com/media/view.asp?idx=144101&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144100&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143577&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=144095&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=144095&kind=&sub_kind=",
+    "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/",
+    "http://www.boannews.com/media/view.asp?idx=144112&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144111&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144110&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144109&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144108&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144107&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144106&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144105&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144103&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144104&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "금융보안원, AI 위협 대응 ‘금융AI보안연구소’ 신설... 80년대생 인재들 배치",
+      "summary": "AI보안총괄부 신설해 AI보안지원센터 운영 등[보안뉴스 강현주 기자] 금융보안원(원장 박상원)이 고성능 AI 발전으로 인해 증가하는 사이버 위협과 금융권의 AI 전환에 선제적으로 대비하기 위해 ‘금융AI보안연구소’를 신설했다. 주요 보직에는 역량이 뛰어난 1980년대생 젊은 리더들을 배치했다. 15일 금융보안원은 대대적인 조직 개편과 인사를 단행했다고 밝혔",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144112&kind=&sub_kind=",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "파이오링크, ‘스위치 기반 마이크로 세그멘테이션’ 한·미·일 특허 등록",
+      "summary": "에이전트 없이 사용자·단말 접근제어... 제로트러스트 구축 복잡성↓“현실적이고 경제적인 N2SF 구현 방안 제시”[보안뉴스 강현주 기자] 파이오링크(대표 조영철)가 ‘티프론트 보안스위치’를 활용해 마이크로 세그멘테이션을 구현하는 기술로 한국, 미국, 일본에서 특허 등록을 완료했다고 15일 밝혔다.등록된 특허명은 ‘네트워크 스위치 기반으로 제로 트러스트 역할",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144111&kind=&sub_kind=",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "개인정보위, 클라우드·개발 협업도구 사용시 자격증명 관리 강화 당부",
+      "summary": "최근 자격증명 노출로 인한 개인정보 유출 사고 증가, 안전한 계정·권한관리 중요깃허브 등 개발 협업도구에 접근키, 비밀번호, API 토큰 등 자격증명을 저장하지 않도록 관리 필요[보안뉴스 원병철 기자] 개인정보보호위원회(위원장 송경희, 이하 ‘개인정보위’)는 클라우드 기반 서비스와 소프트웨어 개발 협업 환경이 확대됨에 따라 접근키(Access Key), 인",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144110&kind=&sub_kind=",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "안랩, 일본 ‘인터롭 도쿄’서 통합 보안 역량 선보여... “현지화 가속”",
+      "summary": "[보안뉴스 강현주 기자] 안랩(대표 강석균)이 일본 시장에서 자사의 사이버물리시스템(CPS), 보안 역량 및 AI 기반 위협 인텔리전스 경쟁력, 클라우드 기반 보안관리 솔루션 등 IT와 운영 기술(OT)를 연결하는 통합 보안 역량을 선보였다.안랩은 6월 10일부터 12일까지 3일간 일본 지바현 마쿠하리 멧세에서 열린 일본 최대 규모의 IT 전시회 ‘인터롭",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144109&kind=&sub_kind=",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "에스투더블유, 대만서 AI 시대 사이버위협 대응 전략 공유",
+      "summary": "대만 CHT시큐리티와 공동 컨퍼런스 개최 CTI 기반 대응 전략 소개하며 ‘퀘이사’ 소개[보안뉴스 강현주 기자] 빅데이터 분석 인공지능(AI) 기업 에스투더블유(S2W, 대표 서상덕)가 대만 기업들을 대상으로 AI 시대 사이버위협 인텔리전스 기반 대응 전략을 공유하고 자사 플랫폼 ‘퀘이사’를 소개했다. S2W는 11일 ‘AI 시대의 보안 전략’을 주제로 대",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144108&kind=&sub_kind=",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[인사] 개인정보보호위원회",
+      "summary": "◇과장급 전보△공공실태점검단장 임종철(2026년 6월 13일자)[원병철 기자(boanone@boannews.com)]www.boannews.com) 무단전재-재배포금지>",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144107&kind=&sub_kind=",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "티피링크, Wi-Fi 7 USB 랜카드 Archer TBE400U Plus 출시",
+      "summary": "트라이 밴드 Wi-Fi 7 지원하는 하이 게인 USB 무선 랜카드기존 PC도 Wi-Fi 7으로 업그레이드[보안뉴스 엄호식 기자] 글로벌 네트워크 장비 기업 티피링크(TP-Link)는 차세대 무선 통신 규격인 Wi-Fi 7을 지원하는 ‘Archer TBE400U Plus’를 출시했다고 밝혔다.Archer TBE400U Plus는 트라이 밴드 Wi-Fi 7을",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144106&kind=&sub_kind=",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "넥스텝, 3D 라이다(LiDAR) 융합 기술로 외곽경계감시의 새 패러다임 제시",
+      "summary": "제21회 한국일보 Digital Innovation Awards 수상[보안뉴스 엄호식 기자] 3D 라이다(LiDAR)를 활용한 솔루션 개발 기업 넥스텝이 ‘제21회 한국일보 디지털 이노베이션 대상(Digital Innovation Awards)’에서 ‘라이다(LiDAR) 인지 소프트웨어’로 AI디지털혁신제조 부문 대상을 수상했다",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144105&kind=&sub_kind=",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "최은수 인텔리빅스 대표 “똑똑한 AI보다 확실한 ‘비상 스위치’ 가진 AI가 패권 쥔다”",
+      "summary": "12일 대한상공회의소 ‘글로벌 인류공영 AI 포럼(GAFH) 2026’ 기조연설 진행95% 정확도 환상 버려야... 통제가능성·책임성 내재화한 ‘T.R.U.S.T’ 프레임워크 제시 “韓 세계 최고 수준 제조 인프라 활용해 글로벌 ‘AI 신뢰 표준’ 주도해야”[보안뉴스 강초희 기자] “AI 시대의 최종 승자는 ‘가장 자율적인 시스템’(Autonomous Sy",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144103&kind=&sub_kind=",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "넷앤드, 포티넷과 증권사 대상 보안 세미나 개최",
+      "summary": "업무 자동화·퇴사자 관리 전략 공유[보안뉴스 원병철 기자] 통합 접근제어 및 계정관리(IAM) 솔루션 전문 기업 넷앤드(대표 신호철)가 11일 포티넷과 함께 증권사 고객을 대상으로 보안 세미나를 개최하고, 디지털 환경 변화에 맞춘 보안 고도화 방안을 공유했다고 밝혔다. 최근 금융권에서는 전산장애 및 보안 사고에 대한 경각심이 높아지고 있다. 특히 지난해 일",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144104&kind=&sub_kind=",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "FBI, 구글, Black Lotus Labs와 협력하여 백만 개의 URL을 사용한 대규모 AI 기반 피싱 서비스 적발",
+      "summary": "FBI가 구글 및 Black Lotus Labs와의 협력으로 '아웃사이더 엔터프라이즈(Outsider Enterprise)'라는 중국 기반의 대규모 피싱 서비스 조직을 적발했습니다. 이 조직은 수천 개의 피싱 웹사이트를 운영하며 신용카드 정보와 비밀번호를 탈취하는 데 AI 기술을 활용했습니다. 해당 피싱 서비스는 백만 개 이상의 URL을 통해 대규모 범죄 활동을 전개했으며, 이번 적발로 주요 인프라가 제거되었습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/",
+      "date": "2026-06-14"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "앤트로픽 페이블5 접근 제한, 탈옥 우려 때문? 중국 때문?",
@@ -11064,107 +11174,8 @@
       "source": "BleepingComputer",
       "sourceUrl": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/",
       "date": "2026-05-06"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "양자암호통신 기술 실증으로 산업 활용 앞당긴다",
-      "summary": "과기정통부, 개방형 양자 테스트베드 고도화·확산 사업 공모양자통신기술 상용화 촉진, 국가 간 연결, 차세대 기술 확보 위한 거점 확대[보안뉴스 한세희 기자] 우리나라 개방형 양자 테스트베드를 해외로 확대하고 차세대 기술을 확보하기 위한 지원 사업이 시작된다. 과학기술정보통신부(부총리 겸 장관 배경훈’)는 6일 ‘개방형 양자 테스트베드 고도화·확산 사업’ 공",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143491&kind=&sub_kind=",
-      "date": "2026-05-06"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[양자와 보안] 정부, 양자내성암호 실증 확대 나선다... 핵심 기술 개발도 본격 착수",
-      "summary": "의료·에너지·행정 넘어 통신·금융·교통·국방·우주까지 시범전환 확대수작업 없는 PQC 자율 전환 기술 등 4대 핵심 기술개발 과제 착수[보안뉴스 한세희 기자] 기업 내 암호자산을 탐지하고 양자내성암호(PQC) 체계로 자동 전환하는 자율 전환 기술이 개발된다. 국가 과학기술 연구망에 대한 PQC 전환 실증 작업이 시작된다. 과학기술정보통신부(부총리 겸 장관",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143489&kind=&sub_kind=",
-      "date": "2026-05-06"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "넷앤드, AI로 ISMS·ISMS-P 준비 효율 높이는 기술 특허 등록",
-      "summary": "ISMS·ISMS-P 다단계 자동 적합성 판단’ 특허 등록컨설턴트 주관적 편차 해소 및 증적 자료 분석 시간 단축[보안뉴스 강현주 기자] 통합 접근제어 및 계정관리(IAM) 솔루션 전문 기업 넷앤드(대표 신호철)가 정보보호 관리체계(ISMS·ISMS-P) 인증 대응의 효율성과 정확도를 비약적으로 높일 수 있는 핵심 기술에 대한 특허 등록을 마쳤다고 6일 밝",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143493&kind=&sub_kind=",
-      "date": "2026-05-06"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "그룹아이비(Group-IB), 가트너 매직쿼더런트 최초 ‘사이버 위협 인텔리전스 기술’ 부문 ‘리더’ 선정",
-      "summary": "공격자 중심 예측형 위협 인텔리전스 플랫폼으로 피해 입기 전 차단할 수 있는 가시성 제공[보안뉴스 원병철 기자] 디지털 범죄를 조사, 예방 및 대응하기 위한 사이버 보안 기술 분야의 글로벌 선도적 기업인 그룹아이비(Group-IB, 지사장 김기태)는 6일, 2026년 Gartner® 사이버 위협 인텔리전스 기술 Magic Quadrant™에서 ‘리더’(Le",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143492&kind=&sub_kind=",
-      "date": "2026-05-06"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[속담으로 배우는 100가지 보안 습관-9] 꺼진 불도 다시 보자(9)-자리 비울 때 화면 안 잠그면 생기는 일",
-      "summary": "PC를 켜둔 채 자리를 비울 때는 반드시 화면 잠금(Win+L)을 하세요[보안뉴스 박미영 기자] PC를 켜둔 채 자리를 비울 때는 화면을 잠그는 것이 개인정보·업무자료 노출을 막는 가장 기본적인 방법이다. 화면보호기 비밀번호 설정과 함께 Win+L 단축키로 즉시 잠그는 습관을 들이면, 잠금 전 노출 시간을 줄일 수 있다.PC를 잠그는 방법△즉시 잠그기: W",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143040&kind=&sub_kind=",
-      "date": "2026-05-06"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[Global Security TOP 100] 최일환 세환엠에스 대표이사 “설치부터 유지보수까지 ‘원팀 체계’가 핵심 경쟁력”",
-      "summary": "출입통제 게이트 기반 통합형 물리보안 운영 체계 구축금속 탐지기·액체 폭발물 검사 장비 중심 제품군 확대기술 투자와 제조 경쟁력 강화를 위한 산업 구조 개선 필요[보안뉴스 강초희 기자] 출입통제 게이트를 중심으로 국내 물리보안 시장을 개척해 온 세환엠에스가 통합형 보안 솔루션 기업으로의 확장을 이어가고 있다. 보안 장비 공급에 그치지 않고 설계·시공·유지보",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143360&kind=&sub_kind=",
-      "date": "2026-05-06"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "MS 위장한 ‘마이크로스틸러’ 습격... 사회공학적 기만술에 통신·교육분야 비상",
-      "summary": "가짜 소프트웨어 설치 프로그램으로 관리자 권한 획득 후 활성 세션 탈취미국과 독일 등 세계 전역서 확산... 기업 내부망 침투 위한 교두보 활용[보안뉴스 김형근 기자] 마이크로소프트(MS)를 사칭해 시스템 권한을 탈취하고 기업의 핵심 정보를 빼가는 신종 악성코드 ‘마이크로스틸러’(MicroStealer)가 세계 통신과 교육 분야를 공격하고 있다.글로벌 보안",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143484&kind=&sub_kind=",
-      "date": "2026-05-06"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "‘재난안전기업 사업화 역량 강화 컨설팅’으로 해외시장 진출 수월하게... 참여기업 공고",
-      "summary": "5월 27일까지 공모 접수... 사업화·해외 인증 분야 1:1 맞춤형 지원제품 고도화·해외 인증·수출 확대 지원으로 재난안전기업 판로 강화[보안뉴스 강초희 기자] 행정안전부(장관 윤호중)는 ‘2026년 재난안전기업 사업화 역량 강화 컨설팅’에 참가할 기업을 5월 27일까지 공모한다.‘재난안전기업 사업화 역량 강화 컨설팅’은 우수한 기술과 제품을 보유하고 있",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143485&kind=&sub_kind=",
-      "date": "2026-05-06"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[카드뉴스] “눈앞의 트럭이 사라졌다?”… 인지 조작하는 ‘고스트 픽셀’ 해킹의 실체",
-      "summary": "혼합현실(MR) 기기의 영상 처리 과정(렌더링 파이프라인)에 침투하여 사용자에게 가짜 시각 정보를 전달하거나 실제 위험 요소를 삭제하는 ‘고스트 픽셀’ 공격이 새로운 위협으로 부상했다. 이러한 인지 조작 공격은 스마트 팩토리의 작업 공정이나 정밀 의료 수술 등 고도의 시각 정보가 필요한 현장에서 심각한 신체적 사고와 물리적 피해를 야기할 수 있다. 기술의",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143487&kind=&sub_kind=",
-      "date": "2026-05-06"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "“취약점 공개 후 공격시간, 4.76일→1일로 대폭 단축”",
-      "summary": "AI 공격 도구, 다크웹서 일반 SW처럼 판매랜섬웨어 피해 전년 대비 389% 급증... 제조·서비스·소매업 타격[보안뉴스 강현주 기자] 2025년 한 해동안 취약점 공개 후 평균 공격 시간이 전년 4.76일에서 24시간~48시간으로 대폭 단축됐다. AI 공격 도구가 다크웹에서 일반 소프트웨어처럼 판매되는 등 해킹 진입 장벽이 낮아졌다. 랜섬웨어 피해는 전",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143486&kind=&sub_kind=",
-      "date": "2026-05-06"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "규제 산업의 IT 리더들이 주목할 인프라 현대화 전략: 30개 지점, 175,000명 회원의 32억 달러 규모 신용조합의 성공 사례",
-      "summary": "규제 산업의 IT 리더들에게 있어 TVFCU의 사례는 AI 준비 완료로 가는 길이 인프라 규율을 통해서만 가능하며, 핵심 시스템 현대화와 미래 대비가 동일한 결정이 될 수 있음을 보여줍니다. 금융기관의 IT 리더들은 규제당국의 견고한 보안과 거의 영구적 가동 시간 요구, 회원들의 끊임없는 서비스 기대, 그리고 경영진의 AI 전략 수립 요구 사이에서 우선순위 결정의 압박을 받아왔습니다. TVFCU는 Dell Technologies와 협력하여 PowerStore 스토리지와 PowerProtect Data Domain을 도입하고 PowerEdge 서버를 표준화함으로써 기존 인프라를 현대화했으며, 그 결과 스토리지 공간을 4개 랙에서 0.5개 랙으로 축소하고 연간 약 550,000달러의 지원 비용을 절감했습니다. 절감된 비용은 보안 강화와 회원 중심의 혁신에 재투자되었으며, 사이버 복구 능력 개선으로 랜섬웨어 대응 탄력성이 강화되었습니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/how-a-3-billion-credit-union-built-the-infrastructure-to-run-today-s-business-and-tomorrow-s/",
-      "date": "2026-05-05"
     }
   ],
-  "totalItems": 2162,
+  "totalItems": 2173,
   "hasArchive": true
 }
