@@ -3,6 +3,105 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "금융보안원, AI 위협 대응 ‘금융AI보안연구소’ 신설... 80년대생 인재들 배치",
+      "summary": "AI보안총괄부 신설해 AI보안지원센터 운영 등[보안뉴스 강현주 기자] 금융보안원(원장 박상원)이 고성능 AI 발전으로 인해 증가하는 사이버 위협과 금융권의 AI 전환에 선제적으로 대비하기 위해 ‘금융AI보안연구소’를 신설했다. 주요 보직에는 역량이 뛰어난 1980년대생 젊은 리더들을 배치했다. 15일 금융보안원은 대대적인 조직 개편과 인사를 단행했다고 밝혔",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144112&kind=&sub_kind=",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "파이오링크, ‘스위치 기반 마이크로 세그멘테이션’ 한·미·일 특허 등록",
+      "summary": "에이전트 없이 사용자·단말 접근제어... 제로트러스트 구축 복잡성↓“현실적이고 경제적인 N2SF 구현 방안 제시”[보안뉴스 강현주 기자] 파이오링크(대표 조영철)가 ‘티프론트 보안스위치’를 활용해 마이크로 세그멘테이션을 구현하는 기술로 한국, 미국, 일본에서 특허 등록을 완료했다고 15일 밝혔다.등록된 특허명은 ‘네트워크 스위치 기반으로 제로 트러스트 역할",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144111&kind=&sub_kind=",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "개인정보위, 클라우드·개발 협업도구 사용시 자격증명 관리 강화 당부",
+      "summary": "최근 자격증명 노출로 인한 개인정보 유출 사고 증가, 안전한 계정·권한관리 중요깃허브 등 개발 협업도구에 접근키, 비밀번호, API 토큰 등 자격증명을 저장하지 않도록 관리 필요[보안뉴스 원병철 기자] 개인정보보호위원회(위원장 송경희, 이하 ‘개인정보위’)는 클라우드 기반 서비스와 소프트웨어 개발 협업 환경이 확대됨에 따라 접근키(Access Key), 인",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144110&kind=&sub_kind=",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "안랩, 일본 ‘인터롭 도쿄’서 통합 보안 역량 선보여... “현지화 가속”",
+      "summary": "[보안뉴스 강현주 기자] 안랩(대표 강석균)이 일본 시장에서 자사의 사이버물리시스템(CPS), 보안 역량 및 AI 기반 위협 인텔리전스 경쟁력, 클라우드 기반 보안관리 솔루션 등 IT와 운영 기술(OT)를 연결하는 통합 보안 역량을 선보였다.안랩은 6월 10일부터 12일까지 3일간 일본 지바현 마쿠하리 멧세에서 열린 일본 최대 규모의 IT 전시회 ‘인터롭",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144109&kind=&sub_kind=",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "에스투더블유, 대만서 AI 시대 사이버위협 대응 전략 공유",
+      "summary": "대만 CHT시큐리티와 공동 컨퍼런스 개최 CTI 기반 대응 전략 소개하며 ‘퀘이사’ 소개[보안뉴스 강현주 기자] 빅데이터 분석 인공지능(AI) 기업 에스투더블유(S2W, 대표 서상덕)가 대만 기업들을 대상으로 AI 시대 사이버위협 인텔리전스 기반 대응 전략을 공유하고 자사 플랫폼 ‘퀘이사’를 소개했다. S2W는 11일 ‘AI 시대의 보안 전략’을 주제로 대",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144108&kind=&sub_kind=",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[인사] 개인정보보호위원회",
+      "summary": "◇과장급 전보△공공실태점검단장 임종철(2026년 6월 13일자)[원병철 기자(boanone@boannews.com)]www.boannews.com) 무단전재-재배포금지>",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144107&kind=&sub_kind=",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "티피링크, Wi-Fi 7 USB 랜카드 Archer TBE400U Plus 출시",
+      "summary": "트라이 밴드 Wi-Fi 7 지원하는 하이 게인 USB 무선 랜카드기존 PC도 Wi-Fi 7으로 업그레이드[보안뉴스 엄호식 기자] 글로벌 네트워크 장비 기업 티피링크(TP-Link)는 차세대 무선 통신 규격인 Wi-Fi 7을 지원하는 ‘Archer TBE400U Plus’를 출시했다고 밝혔다.Archer TBE400U Plus는 트라이 밴드 Wi-Fi 7을",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144106&kind=&sub_kind=",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "넥스텝, 3D 라이다(LiDAR) 융합 기술로 외곽경계감시의 새 패러다임 제시",
+      "summary": "제21회 한국일보 Digital Innovation Awards 수상[보안뉴스 엄호식 기자] 3D 라이다(LiDAR)를 활용한 솔루션 개발 기업 넥스텝이 ‘제21회 한국일보 디지털 이노베이션 대상(Digital Innovation Awards)’에서 ‘라이다(LiDAR) 인지 소프트웨어’로 AI디지털혁신제조 부문 대상을 수상했다",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144105&kind=&sub_kind=",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "최은수 인텔리빅스 대표 “똑똑한 AI보다 확실한 ‘비상 스위치’ 가진 AI가 패권 쥔다”",
+      "summary": "12일 대한상공회의소 ‘글로벌 인류공영 AI 포럼(GAFH) 2026’ 기조연설 진행95% 정확도 환상 버려야... 통제가능성·책임성 내재화한 ‘T.R.U.S.T’ 프레임워크 제시 “韓 세계 최고 수준 제조 인프라 활용해 글로벌 ‘AI 신뢰 표준’ 주도해야”[보안뉴스 강초희 기자] “AI 시대의 최종 승자는 ‘가장 자율적인 시스템’(Autonomous Sy",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144103&kind=&sub_kind=",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "넷앤드, 포티넷과 증권사 대상 보안 세미나 개최",
+      "summary": "업무 자동화·퇴사자 관리 전략 공유[보안뉴스 원병철 기자] 통합 접근제어 및 계정관리(IAM) 솔루션 전문 기업 넷앤드(대표 신호철)가 11일 포티넷과 함께 증권사 고객을 대상으로 보안 세미나를 개최하고, 디지털 환경 변화에 맞춘 보안 고도화 방안을 공유했다고 밝혔다. 최근 금융권에서는 전산장애 및 보안 사고에 대한 경각심이 높아지고 있다. 특히 지난해 일",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144104&kind=&sub_kind=",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "FBI, 구글, Black Lotus Labs와 협력하여 백만 개의 URL을 사용한 대규모 AI 기반 피싱 서비스 적발",
+      "summary": "FBI가 구글 및 Black Lotus Labs와의 협력으로 '아웃사이더 엔터프라이즈(Outsider Enterprise)'라는 중국 기반의 대규모 피싱 서비스 조직을 적발했습니다. 이 조직은 수천 개의 피싱 웹사이트를 운영하며 신용카드 정보와 비밀번호를 탈취하는 데 AI 기술을 활용했습니다. 해당 피싱 서비스는 백만 개 이상의 URL을 통해 대규모 범죄 활동을 전개했으며, 이번 적발로 주요 인프라가 제거되었습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/",
+      "date": "2026-06-14"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "앤트로픽 페이블5 접근 제한, 탈옥 우려 때문? 중국 때문?",
       "summary": "앤트로픽 최신 모델 대한 백악관 수출 통제 조치 논란 확산 [보안뉴스 한세희 기자] 미국 정부가 앤트로픽의 최신 AI 모델에 대한 수출 통제 지침을 내린 것은 이 모델에 대한 아마존 보안 연구자의 탈옥 가능성 연구 때문인 것으로 알려졌다. 월스트리트저널 보도에 따르면, 아마존 보안 연구자가 앤트로픽이 최근 일반 공개한 최신 모델 ‘페이블5’에 일련의 프롬프",
       "category": "보안",
@@ -16050,9 +16149,9 @@
     }
   ],
   "sources": {
-    "보안뉴스": 607,
+    "보안뉴스": 617,
+    "BleepingComputer": 515,
     "SecurityWeek": 449,
-    "BleepingComputer": 514,
     "Dell": 150,
     "VAST Data": 39,
     "HPE": 24
