@@ -3,6 +3,339 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "한국, 이미 세계 3위 사이버 위협국... 구글 클라우드 ‘보안 운영 플랫폼’ 서울 리전 출시",
+      "summary": "데이터 레지던시 요건 충족으로 보수적인 금융·공공 보안 거버넌스 공략‘제미나이’ 품은 에이전틱 AI 적용해 위협 관측 시간 30분서 1분으로 단축[보안뉴스 조재호 기자] 구글 클라우드가 모든 보안 로그와 분석 데이터를 국내에 저장하는 ‘구글 보안 운영 플랫폼’(Google SecOps) 지원을 시작한다. 정부 망분리 규제 완화에 발맞춰 데이터 주권 요건을",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144151&kind=&sub_kind=",
+      "date": "2026-06-17"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "한싹, N2SF 전환 대응 차세대 망연계 ‘시큐어게이트 V4.0’ 출시",
+      "summary": "제로 트러스트 기반 ‘데이터 통제 인프라’로 고도화생성형 AI·클라우드·다중 운영체제 지원[보안뉴스 강현주 기자] 한싹(대표 이주도)은 국가망보안체계(N2SF) 전환에 대응하는 망간자료전송(망연계) 솔루션 ‘시큐어게이트 V4.0’(SecureGate V4.0)을 출시했다고 17일 밝혔다. 이번 신제품을 앞세워 N2SF 전환으로 재편되는 망연계 시장 공략에",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144150&kind=&sub_kind=",
+      "date": "2026-06-17"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "SKT-경찰청 “AI 보안 기술로 643명 금융사기 피해 예방”",
+      "summary": "범죄 서버 475개 식별 및 선제 대응AI 에이전트 분석 자동화... 협력 범위 확대키로[보안뉴스 강현주 기자] SK텔레콤과 경찰청은 AI 보안 기술 기반 피싱 악성 앱 분석 및 수사 협력을 통해 3개월 만에 범죄 서버 475개를 식별했으며, 643명의 금전적 피해를 예방하는 성과를 거뒀다고 17일 밝혔다. 이는 보이스피싱 평균 피해액(건당 5024만원)으",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144149&kind=&sub_kind=",
+      "date": "2026-06-17"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "AI안전연구소-오픈AI, AI 안전 평가체계 마련 협력 MOU",
+      "summary": "사례·기술 공유 등으로 평가 체계 마련 협력미국, 영국, 일본 이어 한국이 네 번째[보안뉴스 강현주 기자] AI안전연구소가 오픈AI와 AI 안전 평가체계를 마련하는 등 AI 안전 협력 강화에 나선다.과학기술정보통신부(부총리 겸 장관 배경훈)는 한국전자통신연구원(ETRI) 서울사무소에서 최첨단 AI의 안전성 확보를 위해 AI안전연구소(소장 김명주)와 오픈AI",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144148&kind=&sub_kind=",
+      "date": "2026-06-17"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "AI가 공격하는 시대, 개인정보 이렇게 지켜라... PIS FAIR 2026, 22일 개막",
+      "summary": "개인정보보호페어 & CPO워크숍(PIS FAIR 2026), 22-23일 코엑스에서 열려‘안전한 AI를 위한 약속, 사전예방 기반 개인정보보호체계 구축’ 주제... 8개 트랙, 36개 세션개인정보 유출 규제 강화 흐름 속 프라이버시 실무 고민 해결할 지식과 통찰 공유‘개인정보보호 솔루션 전시 및 시연회’ ‘제7회 서울시 개인정보보호 포럼’ 동시 개최[보안뉴",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144141&kind=&sub_kind=",
+      "date": "2026-06-17"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[인터뷰] 조민호 한국인터넷정보학회장 “2026년은 국제학회 인정 전환점, 내실갖춰 도약할 것”",
+      "summary": "조민호 신임 회장, 블록체인과 양자컴퓨터 등 새로운 연구 매진해 온 석학TIIS 등 국제 학술지 바탕으로 쌓은 명성 위에 국제학회 IEEE 등재 등 더해 국제학회 인정 받을 것[보안뉴스 원병철 기자] “2026년은 한국인터넷정보학회가 국내 최고 학회를 넘어 국제학회로 나가기 위한 전환점이며, SUMMIT과 부회장단 네트워킹데이 등 플래그십 행사를 강화해 학",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144147&kind=&sub_kind=",
+      "date": "2026-06-17"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "에스투더블유, 이파피루스와 AI 전자증빙 솔루션 사업 공동 추진",
+      "summary": "S2W, AI 엔진 고도화·제품 유지보수 등 기술 총괄이파피루스, 조달 총판 포함 영업 및 마케팅 전담[보안뉴스 강현주 기자] 빅데이터 분석 인공지능(AI) 기업 에스투더블유(S2W, 대표 서상덕)가 도큐먼트 AI 전문 기업 이파피루스(대표 김정희)와 전략적 파트너십을 체결하고, AI 전자증빙 솔루션 ‘스트림닥스 AI’(Streamdocs AI)에 대한 공",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144146&kind=&sub_kind=",
+      "date": "2026-06-17"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "지니언스 EDR, ‘AV-컴패러티브스’ 인증 획득... “AI 통합 보안 글로벌 정조준”",
+      "summary": "전세계 9개 솔루션 인증, 국내 기업 지니언스 유일 AI 해킹 시대, 백신·안티랜섬웨어 결합 실전 엔드포인트 해법[보안뉴스 강현주 기자] 사이버 보안 전문 기업 지니언스(대표 이동범)가 글로벌 보안 제품 성능 평가 기관인 ‘AV-컴패러티브스’(AV-Comparatives)에서 실시한 ‘2026 EDR 탐지 검증 테스트’에서 최종 인증을 획득하며 글로벌 수준",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144145&kind=&sub_kind=",
+      "date": "2026-06-17"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 42] 낮말은 새가 듣고 밤말은 쥐가 듣는다(2)-모르는 번호 전화, 일단 의심해야",
+      "summary": "알 수 없는 번호로 온 국제전화나 인터넷 전화는 일단 의심하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다.",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143629&kind=&sub_kind=",
+      "date": "2026-06-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "사이버 복원력 제어 평면: 스토리지 및 백업 신호 상관관계",
+      "summary": "문제가 발생했다는 것을 아는 것과 이에 대해 행동을 취할 수 있을 만큼 확신하는 것은 서로 다른 문제입니다. 상관관계가 있는 신호 인텔리전스는 이러한 간극을 해소합니다. 스토리지와 백업 시스템으로부터 수집된 신호들을 연관성 있게 분석하면, 사이버 보안 위협에 대한 더욱 정확한 판단이 가능해집니다. 이러한 접근 방식은 조직이 실제 위협에 신속하게 대응하고 오탐(false positive)을 줄일 수 있도록 도와줍니다. 결과적으로 기업의 사이버 복원력을 크게 향상시킬 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/cyber-resilience-control-plane-storage-and-backup-signal-correlation/",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "정부 및 기업의 기반이 되는 주권 AI의 부상",
+      "summary": "주권 AI는 개념에서 현실로 전환되고 있으며, 이러한 움직임을 주도하는 요인들이 무엇인지 살펴볼 필요가 있습니다. 신뢰할 수 있는 대규모 AI는 단순히 모델에 대한 접근성만으로는 충분하지 않습니다. 정부와 기업이 데이터 주권, 보안, 규제 준수 등 다양한 요소를 고려하여 자체 AI 인프라를 구축하고 있습니다. 주권 AI 구현을 위해서는 신뢰할 수 있는 기술 파트너와 견고한 인프라 기반이 필수적입니다. AI의 투명성과 제어 가능성이 조직의 의사결정에 있어 중요한 역할을 하고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/the-rise-of-sovereign-ai-as-a-foundation-for-government-and-enterprise/",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "지능형 부정거래 탐지: HPE Nonstop Compute가 Lusis TANGO AIF와 함께 거래 처리를 위한 에이전트 AI 소프트웨어 배포",
+      "summary": "모든 실시간 거래 환경에서 부정거래가 점점 더 정교해지고, 빨라지고, 탐지하기 어려워지고 있습니다. 봇 기반 테스트, 계정 탈취, 합성 신원, 조직적 부정거래 조직 등 악의적 행위자들은 지속적으로 진화하고 있습니다. 각각의 새로운 전술에 따라 기존의 임계값 기반 엔진과 수동 개입으로는 대응하기 어려워집니다. 팀들이 충분히 빠르게 대응하지 못하면 부정거래가 통과하게 되고, 과도하게 대응하면 거짓 양성이 증가하여 승인이 지연되고, 콜센터 업무량이 급증하며, 거짓 거절로 인해 고객 신뢰가 손상됩니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/06/fighting-fraud-intelligently-hpe-nonstop-compute-deploys-agentic-ai-software-for-transaction-processing-with-lusis-tango-aif.html",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, NVIDIA와 함께 생산 환경에 에이전트형 AI 도입 - 보안, 거버넌스, 확장성, 주권성 제공",
+      "summary": "HPE는 라스베이거스에서 개최된 HPE Discover 2026 행사에서 고객들이 에이전트형 기업으로 전환하고 더욱 높은 보안, 거버넌스, 제어 기능을 갖춘 AI를 프로덕션 환경에 도입할 수 있도록 돕는 새로운 혁신 솔루션을 발표했습니다. 이 새로운 제품들은 NVIDIA와 협력하여 HPE AI Factory를 차세대 AI 시대로 변화시키고 있으며, 이 시대에서는 지능이 적응하고 진화하며 협업하고 스스로 관리합니다. HPE의 회장 겸 CEO인 Antonio Neri는 AI가 점점 더 자율화되면서 조직들이 보안적으로 AI를 운영하고, 책임 있게 관리하며, 경제적으로 확장할 수 있는 새로운 아키텍처가 필요하다고 강조했습니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/06/hpe-brings-agentic-ai-into-production-with-nvidia-delivering-security-governance-scale-and-sovereignty.html",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 엣지·캠퍼스·데이터센터·AI 팩토리 전역에 자율주행 네트워크 확대",
+      "summary": "HPE는 2026년 라스베가스 디스커버 행사에서 AI 팩토리, 데이터센터, 엔터프라이즈 엣지 전반에 걸친 자율주행 네트워킹 전략의 주요 발전을 발표했습니다. 새로운 AI 데이터센터 네트워킹, 라우팅, 에이전틱 AIOps, 보안 혁신 기술을 통해 분산된 AI 환경에서의 운영을 단순화하고 성능을 향상시킬 계획입니다. 이번 발표는 자율주행 네트워크를 HPE의 에이전틱 엔터프라이즈 전략의 기초로 삼아 지능형 자동화를 제공하는 것을 목표로 합니다. 이러한 혁신들은 점점 더 분산되는 AI 중심 환경에서 네트워킹의 역할을 강화합니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/06/hpe-expands-self-driving-networks-across-edge-campus-data-center-and-ai-factories.html",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "지멘스 에너지, 글로벌 전력 수요 급증 속 AI로 엔지니어링 혁신을 위해 HPE 선택",
+      "summary": "HPE는 에너지 기술의 글로벌 리더인 지멘스 에너지가 GreenLake를 통해 엔지니어링 중심의 고성능 컴퓨팅 플랫폼을 구축한다고 발표했습니다. 이 플랫폼은 HPE와 NVIDIA가 공동 개발한 NVIDIA AI Computing by HPE로 구동되며, 글로벌 전력 수요 기록 증가에 대응하고 있습니다. 이는 처음으로 대규모 가속화 컴퓨팅을 도입하여 주권 프라이빗 클라우드에 인공지능을 통합합니다. 이러한 협력을 통해 지멘스 에너지는 엔지니어링 혁신을 가속화하고 글로벌 에너지 수요 증가에 효과적으로 대응할 수 있게 됩니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/06/siemens-energy-chooses-hpe-to-transform-engineering-with-ai-as-global-power-demand-surges.html",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "아이리듬(iRhythm), 해킹으로 인한 데이터 유출 확인",
+      "summary": "의료기기 회사인 아이리듬이 사이버 공격으로 인해 고객 정보가 도난당했음을 공식 확인했습니다. 해커들은 유출된 데이터에 대한 신원 공개를 위협하며 신원을 요구하고 있습니다. 이번 공격은 헬스케어 산업을 겨냥한 사이버 범죄의 지속적인 위협을 보여주는 또 다른 사례입니다. 아이리듬은 데이터 유출 사건에 대해 관련 당국 및 영향을 받은 개인들에게 알리는 절차를 진행 중입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/irhythm-confirms-data-stolen-in-hack/",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "해커 대화록: 이시라 아디티야, 윤리적 해커의 진화",
+      "summary": "SecurityWeek의 '해커 대화록' 시리즈에서 윤리적 해커 이시라 아디티야를 소개하는 기사입니다. 이 인터뷰는 아디티야가 버그 바운티 프로그램을 통해 사이버보안 분야에서 어떻게 성장했는지를 다룹니다. 기사는 개인의 해킹 경력 발전과 보안 업계에 기여하는 방식에 초점을 맞추고 있습니다. 윤리적 해킹의 중요성과 합법적인 보안 연구의 가치를 강조하는 내용으로 구성되어 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hacker-conversations-isira-adithya-the-evolution-of-an-ethical-hacker/",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "매그니튜드, 스텔스 모드 탈출하며 1천만 달러 펀딩 확보",
+      "summary": "사이버보안 스타트업 매그니튜드가 스텔스 모드를 벗고 1천만 달러 규모의 시리즈 펀딩을 확보했다. 매그니튜드는 제3자 위험 관리(TPRM, Third-Party Risk Management) 솔루션을 제공하는 기업이다. 이번 펀딩은 기업의 공식 출범과 함께 진행되었으며, 공급망 보안 및 공급자 관리 분야에서 성장하는 수요를 대응하기 위한 것으로 보인다. 매그니튜드는 이번 자금을 통해 제품 개발과 시장 확대를 가속화할 계획이다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/magnitude-emerges-from-stealth-mode-with-10-million-in-funding/",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI와 사이버보안 - 당신이 알고 싶었지만 물어보기 두려웠던 모든 것",
+      "summary": "본 기사는 AI와 사이버보안의 관계에 대한 포괄적인 설명을 제공합니다. SecurityWeek에서 발행한 이 글은 AI 기술이 사이버보안 분야에 미치는 영향과 관련된 주요 질문들을 다룹니다. 8,174단어 분량의 이 심층 분석 기사는 2026년 6월 16일에 게시되었으며, Kevin Townsend 기자에 의해 작성되었습니다. 인공지능 섹션에 분류된 본 기사는 기업 및 보안 전문가들이 궁금해하는 AI 기술의 사이버보안 적용 방안에 대한 실질적인 정보를 제공합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ai-and-cybersecurity-everything-you-wanted-to-know-but-were-afraid-to-ask/",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "엔드포인트 보안 스타트업 Ent, 1억 달러 시드 펀딩으로 베일을 벗다",
+      "summary": "엔드포인트 보안 솔루션을 개발하는 스타트업 Ent가 1억 달러 규모의 시드 펀딩 라운드를 성공적으로 완료하며 공식 출범했습니다. 이번 펀딩은 기업 보안 시장에서 엔드포인트 보호에 대한 수요가 계속 증가하고 있음을 보여주는 사례입니다. Ent는 차세대 엔드포인트 보안 기술 개발에 이번 자금을 투자할 계획입니다. 이는 사이버보안 업계의 지속적인 자금 유입과 혁신적 보안 솔루션에 대한 투자자들의 관심을 반영합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/endpoint-security-startup-ent-emerges-from-stealth-with-100-million-seed-round/",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "사이버범죄 집단, 노보 노디스크 해킹 주장",
+      "summary": "사이버범죄 집단 FulcrumSec이 제약 대기업 노보 노디스크(Novo Nordisk)의 해킹을 주장하고 있습니다. 이번 사건은 데이터 유출 사고로 분류되며, 해킹된 정보에 대한 세부사항은 아직 공개되지 않았습니다. 노보 노디스크는 글로벌 제약회사로서 이번 보안 침해 사건이 상당한 영향을 미칠 것으로 예상됩니다. 보안 전문가들은 제약 업계를 대상으로 한 사이버 위협이 증가하는 추세를 주목하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cybercrime-group-claims-novo-nordisk-hack/",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISOs가 자신의 애플리케이션을 신뢰할 수 있을까? TrustCloud가 설문조사를 대체하려 한다",
+      "summary": "TrustCloud는 기존의 설문조사 기반 애플리케이션 신뢰도 평가 방식을 대체하는 새로운 솔루션을 제시하고 있습니다. CISO들이 자신의 애플리케이션 보안 상태를 정확히 파악하고 신뢰할 수 있는 방법을 제공하는 것이 목표입니다. 이 솔루션은 기존의 수동적인 설문지 작성 프로세스의 한계를 극복하고 보다 객관적이고 효율적인 애플리케이션 보증 체계를 구축하는 데 초점을 맞추고 있습니다. SecurityWeek에서 보도한 이 기사는 애플리케이션 보안(appsec) 영역에서의 혁신적인 접근 방식을 조명하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/can-cisos-trust-their-applications-trustcloud-wants-to-replace-the-questionnaire/",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "캘리포니아 수도회사, 이란 해커 주장 조사 중",
+      "summary": "캘리포니아 수도회사(Cal Water)가 이란 연계 해킹 그룹의 최근 해킹 주장에 대해 조사를 진행 중입니다. 이 사건은 중요 기반시설인 수도 공급 시스템이 사이버 공격의 표적이 될 수 있음을 보여줍니다. SecurityWeek에서 보도한 이 사건은 이란과 관련된 해킹 그룹 'Handala'가 관여한 것으로 알려져 있습니다. 수도 시설과 같은 필수 기반시설에 대한 사이버 보안 위협이 점점 증가하고 있는 추세를 반영하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cal-water-investigating-iranian-hackers-claims/",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "백악관, NSS 사이버보안 강화를 위한 메모 발표",
+      "summary": "백악관이 국가안보시스템(NSS)의 사이버보안 강화를 목표로 하는 공식 메모를 발표했습니다. 이 메모는 NSPM-12(국가안보대통령메모)와 관련된 지침으로, 정부 차원의 사이버보안 체계를 더욱 견고히 하기 위한 정책 방향을 제시합니다. 이번 조치는 국가 안보와 관련된 디지털 인프라 보호를 강화하려는 백악관의 노력을 반영합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/white-house-issues-memo-to-bolster-nss-cybersecurity/",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Atomic Arch 공급망 공격, 1,500개 AUR 패키지 피해",
+      "summary": "Arch Linux의 사용자 저장소(AUR)를 대상으로 한 Atomic Arch 공급망 공격이 1,500개 패키지에 영향을 미쳤습니다. 이 공격은 NPM과 같은 다른 패키지 저장소에서 발생한 유사한 공급망 공격들과 맥락을 같이 하며, 오픈소스 소프트웨어 생태계의 보안 취약성을 노출하고 있습니다. 공격자들은 인기 있는 패키지를 대상으로 악의적인 코드를 주입하여 사용자들의 시스템을 손상시킬 수 있습니다. 이번 사건은 개발자와 사용자들이 패키지 출처와 무결성을 검증하는 것의 중요성을 다시 한 번 강조합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/atomic-arch-supply-chain-attack-hits-1500-aur-packages/",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "악성 JetBrains 마켓플레이스 플러그인, 개발자의 AI API 키 탈취",
+      "summary": "JetBrains 마켓플레이스에서 최소 15개의 악성 플러그인이 발견되었으며, 이들은 개발자들의 AI API 키를 탈취하도록 설계되었습니다. 이 플러그인들은 공식 마켓플레이스를 통해 배포되어 많은 개발자들이 위험에 노출될 수 있습니다. 공격자들은 탈취한 API 키를 통해 개발자의 AI 서비스 계정에 무단으로 접근하고 악용할 수 있습니다. 해당 악성 플러그인들은 현재 마켓플레이스에서 제거되었으나, 이미 설치한 사용자들은 시스템을 점검할 필요가 있습니다. 이 사건은 오픈소스 플러그인 및 확장 프로그램의 보안 검증의 중요성을 다시 한번 강조합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 로카롤라 안드로이드 악성코드, 217개의 뱅킹 및 암호화폐 앱 공격",
+      "summary": "로카롤라(Rokarolla)라는 새로운 안드로이드 뱅킹 트로잔이 217개의 뱅킹 및 암호화폐 애플리케이션을 대상으로 공격을 전개하고 있습니다. 이 악성코드는 137개의 광범위한 명령어 세트를 활용하여 피해자의 금융 정보와 자산을 탈취합니다. 안드로이드 사용자들이 특히 위험에 노출되어 있으며, 금융 앱과 암호화폐 지갑 사용자들은 각별한 주의가 필요합니다. 보안 전문가들은 의심스러운 출처의 앱 설치를 피하고 공식 마켓플레이스에서만 앱을 다운로드할 것을 권장하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Steam Workshop이 Wallpaper Engine 앱을 통해 악성코드 유포에 악용됨",
+      "summary": "위협 행위자들이 Valve의 커뮤니티 허브인 Steam Workshop을 악용하여 배경화면 패키지에 숨겨진 다양한 악성코드를 배포하고 있습니다. 이러한 공격은 사용자들이 합법적인 게임 관련 콘텐츠를 다운로드하는 것으로 보이는 Wallpaper Engine 앱을 통해 이루어지고 있습니다. 공격자들은 정보 탈취 악성코드(Info Stealer)를 주로 사용하여 사용자의 민감한 정보를 도용하려는 것으로 파악되었습니다. 이는 Steam Workshop의 보안 검증 체계가 충분하지 못하다는 우려를 높이고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/steam-workshop-abused-to-spread-malware-via-wallpaper-engine-app/",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "영국, 소셜미디어 계정 개설 시 신분증 또는 얼굴 스캔 필수화",
+      "summary": "영국 정부가 2027년 봄부터 시행할 16세 미만 소셜미디어 이용 금지 정책의 일환으로, 새로운 계정 개설 시 신분증 업로드 또는 안면 나이 인식 스캔을 통해 16세 이상임을 증명하도록 의무화한다. 이는 미성년자의 온라인 보호를 목표로 하는 조치이지만, 보안 전문가들은 이러한 나이 확인 시스템이 쉽게 우회될 수 있으며 새로운 개인정보 유출 위험을 초래할 수 있다고 경고하고 있다. 정책의 의도는 긍정적이나 실행 과정에서 사용자의 생체 정보와 신원 정보가 대량으로 수집되어 데이터 보안 위협이 증가할 가능성이 있다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/uk-to-require-id-or-face-scan-before-you-can-make-social-media-accounts/",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "GhostTree 공격, 재귀적 Windows 접합점을 악용하여 악성코드 은닉",
+      "summary": "GhostTree라는 공격 기법이 재귀적 NTFS 접합점(junction)을 악용하여 수많은 유효한 Windows 파일 경로를 생성합니다. 이 기술은 Microsoft Defender의 폴더 스캔이 완료되지 않도록 만들어 악성코드를 탐지되지 않은 상태로 유지할 수 있습니다. Varonis 연구팀에 따르면, 공격자들이 이러한 무한 재귀 구조를 이용해 보안 솔루션의 검사 메커니즘을 우회할 수 있다는 것이 밝혀졌습니다. 이는 Windows 운영체제의 파일 시스템 기능을 악용한 새로운 형태의 은폐 기법으로, 기존 백신 및 보안 도구의 효과성을 심각하게 저하시킬 수 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/ghosttree-attack-abused-recursive-windows-junctions-to-hide-malware/",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "FTC, 2025년 사칭 사기로 인한 기록적 35억 달러 손실 경고",
+      "summary": "미국 연방거래위원회(FTC)는 2025년 미국인들이 사칭 사기로 인해 35억 달러의 손실을 입었다고 경고했습니다. 이는 2020년 이후 피해액이 거의 3배 증가한 것으로, 사칭 사기의 심각성이 지속적으로 악화되고 있음을 나타냅니다. FTC의 이번 공식 경고는 소비자들에게 신원 확인이 불확실한 연락에 주의할 것을 강조하고 있습니다. 사칭 사기는 기관이나 알려진 인물로 위장하여 개인정보나 금전을 탈취하는 형태로 진행됩니다. 전문가들은 이러한 증가 추세를 멈추기 위해 소비자 인식 제고와 함께 적극적인 대응이 필요하다고 지적하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/ftc-warns-of-record-35-billion-losses-to-imposter-scams-in-2025/",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, cPanel 플러그인 취약점 악용 공격 경고",
+      "summary": "미국 사이버보안기반시설보안청(CISA)은 LiteSpeed cPanel 사용자용 플러그인의 적극적으로 악용되고 있는 취약점(CVE-2026-54420)에 대해 경고했습니다. CISA는 미국 정부 기관들에게 해당 서버를 보호하기 위해 3일의 기한을 부여했습니다. 이 취약점은 현재 실제 공격에서 악용되고 있는 것으로 알려져 있습니다. cPanel은 웹 호스팅 서버 관리에 널리 사용되는 플랫폼으로, 이번 취약점은 상당한 보안 위협을 야기할 수 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-another-actively-exploited-cpanel-plugin-flaw/",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "랜섬웨어 갱단, 악성 트래픽 숨기기 위해 Microsoft Teams 중계 인프라 악용",
+      "summary": "DragonForce 랜섬웨어 갱단이 'Backdoor.Turn'이라는 커스텀 악성코드를 사용하여 Microsoft Teams 중계 인프라 내에 명령 및 제어(C&C) 트래픽을 숨기는 방식의 공격을 감행했습니다. 이 기법은 정상적인 Microsoft Teams 통신 채널을 악용하여 보안 탐지를 우회하려는 시도입니다. 공격자들은 합법적인 엔터프라이즈 통신 플랫폼을 악의적인 목적으로 남용함으로써 네트워크 모니터링을 더욱 어렵게 만들고 있습니다. 이는 조직의 내부 인프라를 악용하는 고도화된 회피 기술의 사례를 보여줍니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/ransomware-gang-abuses-microsoft-teams-relays-to-hide-malicious-traffic/",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "포티넷 포티샌드박스의 치명적 결함이 현재 공격에 악용되고 있음",
+      "summary": "위협 정보 업체 Defused에 따르면 공격자들이 포티넷의 사이버 위협 탐지 플랫폼인 포티샌드박스의 여러 치명적 취약점을 적극적으로 악용하고 있습니다. 이 취약점들은 인증 우회, 명령어 주입, 권한 상승 및 원격 코드 실행(RCE) 등을 포함하고 있어 시스템의 심각한 보안 위협을 야기합니다. 포티샌드박스는 조직의 사이버 보안 방어에 중요한 역할을 하는 플랫폼으로서 이러한 취약점의 악용은 광범위한 영향을 미칠 수 있습니다. 보안 담당자들은 즉시 이 결함에 대한 대응 및 패치 적용을 우선시해야 합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/critical-fortinet-fortisandbox-flaws-now-exploited-in-attacks/",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "SprySOCKS 리눅스 악성코드의 윈도우 버전이 정부 기관 공격에 사용됨",
+      "summary": "SprySOCKS 리눅스 악성코드의 윈도우 변형이 최소 4개 국가의 정부 기관을 대상으로 한 공격에 사용되었습니다. 이 악성코드는 사이버 스파이 활동을 목적으로 하는 Earth Lusca 위협 집단과 연관이 있으며, 루트킷 기능을 포함하고 있습니다. 크로스 플랫폼 지원으로 확대된 이 악성코드는 정부 조직들에 대한 사이버 첩보 활동의 일부로 활용되고 있습니다. 보안 전문가들은 이러한 공격 패턴과 악성코드의 진화를 주시하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/windows-version-of-sprysocks-linux-malware-used-to-attack-govt-orgs/",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "iRhythm, 환자 정보 유출 데이터 침해 사건 공개",
+      "summary": "의료 기술 회사인 iRhythm Holdings가 데이터 침해 사건을 공개했습니다. 해커들이 제3자가 호스팅하는 비즈니스 애플리케이션에 저장된 환자들의 개인정보와 의료 정보를 탈취했습니다. 이 사건은 의료 산업의 민감한 환자 데이터가 얼마나 큰 사이버 위협에 노출되어 있는지를 보여줍니다. iRhythm은 침해 사실을 인지한 후 즉시 대응 절차를 시작했으며, 영향을 받은 환자들에게 통보할 계획입니다. 이번 사건은 제3자 서비스 제공업체를 통한 데이터 보안 관리의 중요성을 다시 한 번 강조합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/irhythm-discloses-data-breach-says-hackers-stole-patient-info/",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "韓 미토스 접근 무산... 중국 연계 한국 통신사 탓? 이통 3사 “사실무근”",
+      "summary": "삼성전자, SK하이닉스, SKT의 접근 권한 일단 무산... 향후 재확보 가능성 모색 “접근권 명단에 중국 연계 한국 통신사 탓”... 이통 3사 모두 연관성 부인 “특정 제품 의존 위험... 대안과 AI 주권 중요”[보안뉴스 강현주 기자] 앤트로픽의 AI 모델 ‘미토스’에 대한 백악관의 수출 통제 조치로 인해 미국 국적이 아닌 모든 기업 및 기관이 미토",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144143&kind=&sub_kind=",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "“우리 회사도 예외 없다”... PIS FAIR 2026, ‘사례로 본 개인정보 유출 사고와 대응 가이드’ 토크콘서트 개최",
       "summary": "오는 6월 22~23일 코엑스 그랜드볼룸서 국내 최대 개인정보보호 축제 PIS FAIR 2026 열려23일 오전, 롯데카드·김앤장·세종·KISA 전문가 모여 ‘사이버 회복력’과 ‘법률·제도적 대응’ 집중 논의[보안뉴스 원병철 기자] 최근 기업과 기관을 겨냥한 지능형 사이버 공격과 기술적 오류 등으로 인한 개인정보 유출 사고가 끊이지 않는 가운데, 실제 사고",
       "category": "보안",
@@ -90,6 +423,42 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144121&kind=&sub_kind=",
       "date": "2026-06-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "하나의 힘: HPE Discover 2026에서 파트너들의 야망을 실현하다",
+      "summary": "HPE는 라스베가스에서 열린 HPE Discover 2026에서 파트너들에게 '하나로 움직일 때 기회가 더 크다'는 메시지를 전달했습니다. HPE의 'Power of One' 이니셔티브를 통해 파트너들은 하나의 포트폴리오, 하나의 프로그램, 하나의 경험으로 야망을 실현할 수 있습니다. 이는 파트너들을 경쟁력 있게 유지시키는 혁신, 차별화에 도움이 되는 전문성, 그리고 수익성 있는 성장을 지원하는 마진 기회를 한 곳에서 제공한다는 의미입니다. 또한 복잡성을 감소시켜 파트너들이 시스템 관리에 소비하는 시간을 줄이고 고객에게 가치를 제공하는 데 더 많은 시간을 할애할 수 있도록 합니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/06/the-power-of-one-helping-partners-unlock-ambition-at-hpe-discover-2026.html",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 새로운 인센티브와 파트너 주도 오퍼, 통합 프로그램으로 파트너 성장 촉진",
+      "summary": "HPE는 라스베이거스 HPE Discover 2026에서 HPE와 Juniper Networks 파트너 프로그램을 'HPE Partner Ready Vantage'로 통합한다고 발표했습니다. 2026년 11월 1일부터 파트너들은 네트워킹, 클라우드, AI 분야에서 구축, 판매, 서비스 제공을 위한 단일의 글로벌 프로그램 하에서 운영됩니다. 통합된 프로그램은 간소화된 구조, 정렬된 인센티브, 일관된 참여 모델을 제공하며 기존 투자는 보호됩니다. 이는 하나의 포트폴리오, 하나의 프로그램, 통일된 경험을 제공하려는 더 광범위한 노력의 핵심입니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/06/hpe-fuels-partner-growth-with-new-incentives-partner-led-offers-and-unified-program.html",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE 올해의 파트너상 2026 수상자 공개 - 파트너십을 고객 성공으로 전환",
+      "summary": "HPE는 라스베이거스에서 열린 HPE 파트너 성장 서밋과 HPE 디스커버 행사에서 2026 올해의 파트너상 수상자들을 발표했습니다. 이 권위 있는 상은 단순한 비즈니스 성장을 넘어 고객들이 변화에 대응하고 복잡한 과제를 해결하며 성장 목표를 달성하도록 돕는 파트너들의 뛰어난 업무를 인정합니다. HPE 올해의 파트너상은 HPE와의 협력의 강점을 보여주고 고객들이 성장 잠재력을 최대한 실현하도록 돕겠다는 강한 의지를 입증한 파트너들을 선정합니다. 이번 수상은 HPE 파트너 생태계 전반에 걸쳐 우수한 성과와 고객 중심의 파트너십을 강조합니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/06/honoring-the-hpe-partner-of-the-year-2026-award-winners-for-turning-partnership-into-customer-success.html",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 확대된 산업 협력으로 대규모 양자컴퓨팅 기술 발전 추진",
+      "summary": "HPE는 라스베이거스에서 열린 HPE Discover Las Vegas 2026에서 8개 기업과의 관계를 확대하여 고성능컴퓨팅(HPC)과 양자컴퓨팅 시스템을 통합한다고 발표했다. 이는 미래에 실질적이고 확장 가능한 하이브리드 고전-양자 애플리케이션의 길을 닦기 위한 것이다. HPE는 업계 주요 기업들과의 협력을 통해 양자컴퓨팅의 실용화 시대를 앞당기고 있다. 이번 협력은 고성능컴퓨팅과 양자컴퓨팅 기술의 통합이 얼마나 중요한지를 보여주는 사례이다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/06/hpe-advances-quantum-computing-at-scale-with-expanded-industry-collaborations.html",
+      "date": "2026-06-15"
     },
     {
       "id": "aHR0cHM6Ly93d3cu",
@@ -16455,11 +16824,11 @@
     }
   ],
   "sources": {
-    "보안뉴스": 627,
-    "Dell": 152,
-    "VAST Data": 41,
-    "SecurityWeek": 458,
-    "BleepingComputer": 526,
-    "HPE": 24
+    "보안뉴스": 637,
+    "Dell": 154,
+    "HPE": 32,
+    "SecurityWeek": 468,
+    "BleepingComputer": 537,
+    "VAST Data": 41
   }
 }
