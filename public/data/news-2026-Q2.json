@@ -3,6 +3,321 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "Splunk Enterprise 취약점, 공개 후 수일 내에 공격에 악용됨",
+      "summary": "Splunk Enterprise의 보안 취약점이 공개된 지 며칠 후 실제 공격에 악용되고 있는 것으로 확인되었습니다. 공격자들이 신속하게 해당 취약점을 활용한 공격을 개시함에 따라 보안 위협이 증가하고 있습니다. 이 취약점은 CISA의 공개 익스플로잇 카탈로그(KEV)에도 등재되었으며, 광범위한 악용 가능성을 시사합니다. 보안 전문가들은 Splunk Enterprise 사용자들에게 긴급 패치 적용을 강력히 권고하고 있습니다. 이 사건은 취약점 공개 후 신속한 대응의 중요성을 다시 한 번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/splunk-enterprise-vulnerability-exploited-in-attacks-days-after-disclosure/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[한국정보공학기술사 보안을 論하다-33] ‘인포그래픽’에서 ‘비주얼 거버넌스’로: AI시대, 눈에 보이는 보안이 필요한 이유",
+      "summary": "위협 탐지에서 대응까지 모든 과정 한 화면에같은 리스크 화면 공유, 막힘없는 의사결정[보안뉴스=이아람 기술사/ 마이리얼트립 정보보안실 매니저] 약 10년 전, PC와 모바일을 넘어 사물인터넷(IoT)이 본격적으로 정착하던 초연결 사회(Hyper Connected Society)의 초입에서 보안 업계는 새로운 돌파구로 ‘인포그래픽’(Infographic)의",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144193&kind=&sub_kind=",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "유니온바이오메트릭스, 북미·유럽 AI 데이터센터 사업 확대로 글로벌 시장 공략 가속",
+      "summary": "프랑스 AI 데이터센터 추가 공급... 후속 프로젝트로 레퍼런스 확대미국 신규 AI 데이터센터 구축사업 참여 추진하며 북미 시장 진출 본격화[보안뉴스 강초희 기자] 유니온바이오메트릭스(대표이사 신요식)가 북미와 유럽 지역 AI 인프라 프로젝트 참여를 확대하며 글로벌 데이터센터 보안 시장에서의 입지를 빠르게 넓히고 있다. 유니온바이오메트릭스는 국내 주요 데이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144196&kind=&sub_kind=",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "대구·경북에 정보보호 클러스터 들어선다",
+      "summary": "동남권, 충청권 이어 세번째[보안뉴스 한세희 기자] 과학기술정보통신부(부총리 겸 장관 배경훈)와 한국인터넷진흥원(KISA, 원장 이상중)은 2026년 ‘지역 거점 정보보호 클러스터 구축 사업’ 공모에서 대구·경북권 컨소시엄이 최종 선정됐다고 19일 밝혔다. 컨소시엄엔 대구광역시, 경상북도, 대구디지털혁신진흥원, 포항테크노파크, 한국로봇산업진흥원, 한국로봇융",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144197&kind=&sub_kind=",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "AI 시대 보안 패치 지연 리스크 커진다... 턱스케어, 무중단 패치 대안 제시",
+      "summary": "커널케어(KernelCare) 기반 라이브 패치로 재부팅 없는 취약점 대응 지원CentOS 7 등 지원 종료(EOL) 리눅스 환경 보호 위한 ELS 제공[보안뉴스 원병철 기자] 디지털 전환의 가속화와 AI 기반 사이버 공격의 고도화로 기업 보안 운영의 핵심 과제가 ‘신속한 취약점 대응’과 ‘업무 연속성 확보’로 빠르게 변화하고 있다. 특히 공개된 취약점이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144195&kind=&sub_kind=",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“기계 속도로 취약점 발견·해결”... ‘AWS 컨티뉴엄’ 프리뷰 공개",
+      "summary": "발견부터 완화·해결까지 코드 취약점 생애주기 전체를 자동 처리[보안뉴스 강현주 기자] 아마존웹서비스(AWS)는 기계 속도로 코드 취약점을 발견하고 완화·해결하는 신규 보안 서비스 ‘AWS 컨티뉴엄’(AWS Continuum)을 제한된 프리뷰로 공개했다.원격 측정 데이터를 수집, 저장, 조회하고 대시보드로 관찰하는 기존 보안 운영 모델은 더 이상 변화의 속도",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144194&kind=&sub_kind=",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[김정덕의 인간중심보안-10] 예산·인력 없는 중소기업, ‘사람’이 답이다",
+      "summary": "예산과 인력의 한계를 넘어서는 ‘인간중심보안’ 전략 [연재목차 Part 3. 인간중심보안과 보안문화]1. AI 시대, 왜 인간 중심 보안인가2. AI 시대, 인간 중심 보안을 구현하려면3. 인간의 창의성과 AI 보안4. 보안 위반, 뇌 과학 해법5. 넛지 보안의 힘6. 감정과 비합리성, 보안의 숨은 힘7. 디지털 야누스, 두얼굴의 사용자8. ‘인간중심보안’",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144169&kind=&sub_kind=",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "동남아 해킹 루트 차단 나선 K-보안... 스틸리언 파트너십 가속",
+      "summary": "18일 인도네시아 대표 보안 커뮤니티 전문가 초청해 차세대 방어 전략 교류취약점 분석 엔진 ‘디퓨토’ 등 생성형 AI 악용 막아낼 선제적 연구 사례 공유[보안뉴스 조재호 기자] 한국과 인도네시아를 대표하는 민간 보안 전문가들이 스틸리언 본사에 모여 진화하는 사이버 범죄에 대응할 초국경 연합 전선을 구축했다. 인도네시아 모빌리티 기업과 국영 기관에 솔루션을",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144186&kind=&sub_kind=",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "백업 안 하는 Z세대 vs 종이 믿는 장년층... 카스퍼스키 정보 저장 리포트",
+      "summary": "15개국 3000명 대상 민감 데이터저장 방식 심층 분석 보고서 발표 디지털 보관율 84% 육박하지만, 사용자 36%는 여전히 단순 비밀번호 의존[보안뉴스 조재호 기자] 카스퍼스키가 Z세대와 장년층 간 데이터 보관 격차와 디지털 저장 방식의 위험성을 경고한 리서치 결과를 공개했다. 무차별 대입 공격(Credential Stuffing)에 취약한 현행 보안",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144188&kind=&sub_kind=",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "오마다, 현장 중심 실습 교육 통해 통합관리 플랫폼 활용법 소개",
+      "summary": "네트워크 엔지니어와 CCTV 구축 실무자 대상 핸즈온 교육 진행오마다 네트워크와 VIGI 보안감시 솔루션 통합 운영 환경 직접 체험병원·공사현장 구축 사례 공유하며 현장 운영 노하우 소개[보안뉴스 강초희 기자] 오마다(Omada)가 지난 5월 네트워크 엔지니어와 CCTV 구축 실무자를 대상으로 오마다 센트럴(Omada Central) 실습 교육을 성황리에",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144187&kind=&sub_kind=",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "인스피언, EDI 통합 기술 미국 특허 등록 완료",
+      "summary": "‘어플리케이션 통합프로그램 매핑 DSL’ 등록[보안뉴스 강현주 기자] IT 솔루션 전문기업 인스피언은 미국 특허청(USPTO)에 자체 개발한 ‘어플리케이션 통합프로그램 매핑 DSL’(등록번호 : 12,657,009) 등록을 완료했다고 밝혔다. 이번 특허는 기업 간 데이터 연계 및 EDI 구축 과정에서 필수적으로 수행되는 데이터 매핑(Mapping) 작업을",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144192&kind=&sub_kind=",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell Technologies가 엔터프라이즈 스토리지 1위인 이유",
+      "summary": "Dell Technologies는 전 세계 엔터프라이즈 스토리지 시장에서 1위를 차지하고 있습니다. 이러한 시장 점유율은 단순한 결과일 뿐이며, 실제 성장을 이끌고 있는 핵심 요인들이 있습니다. Dell의 성공은 혁신적인 기술 개발, 고객 중심의 솔루션 제공, 그리고 지속적인 시장 리더십에 기반하고 있습니다. 엔터프라이즈 스토리지 분야에서 Dell의 우위는 단순 점유율이 아닌 기업들의 신뢰와 만족도에서 비롯된 것입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/why-dell-technologies-is-ranked-1-in-enterprise-storage/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI를 위한 데이터 스택 재구축: 아키텍처 통합 및 멀티클라우드 전략",
+      "summary": "VAST AI OS는 AI가 요구하는 데이터 계층 성능을 제공하도록 설계되었으며, 서로 다른 데이터 시스템과 프로세스를 단일 AI 네이티브 플랫폼으로 통합하여 상당한 이점을 제공합니다. 이 플랫폼은 기존 AI 인프라 계층까지 확장되어 GPU 가속 분석 실행, KVcache 오프로딩, 장기 컨텍스트 메모리 관리 등을 추가 스토리지 계층 없이 처리할 수 있습니다. AI는 데이터 아키텍처를 크게 변화시키고 있으며, 특히 실시간 비디오 인텔리전스와 같은 사용 사례에서 데이터 저장, 처리, 분석에 필요한 시스템 수를 줄이는 방향으로 재구축되고 있습니다. 단일 데이터 플랫폼 내에서 워크플로우를 유지하면 운영 복잡성 감소, 레이턴시 최소화, 공격 범위 축소 등의 이점을 얻을 수 있으며, 이는 시스템 간 데이터 이동으로 인한 시간 낭비와 장애 지점을 줄이는 데 도움이 됩니다. 따라서 대규모 클라우드 제공업체들은 기존 제품의 기능과 연결성을 강화하는 데 집중하고 있습니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/rebuilding-the-data-stack-for-ai-collapsing-architectures-multi-cloud",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI가 데이터 중력을 만들지는 않았지만, 무시할 수 없게 만들었다",
+      "summary": "AI 시대에는 인프라 유연성이 증대될 것으로 기대했으나, 실제로는 엔터프라이즈 IT의 가장 오래된 제약인 '데이터 이동의 어려움'이 노출되었다. 컴퓨팅 자원은 클라우드 전역에서 쉽게 배포 가능하지만, 모델 학습과 운영에 필요한 데이터는 여전히 여러 데이터센터와 조직 간에 산재되어 있으며, 이를 옮기는 것은 느리고 비용이 많이 든다. 기업들이 데이터 복제 파이프라인과 동기화 작업으로 보완하려 했지만, AI의 지속적인 학습과 추론 프로세스로 인해 이러한 임시 방편들은 더 이상 실용적이지 않게 되었다. VAST는 기존의 데이터 오케스트레이션 도구보다는 데이터 이동을 애플리케이션 계층에서 완전히 추상화하는 아키텍처가 필요하다고 주장하며, VAST DataSpace를 통해 글로벌 네임스페이스로 물리적으로 분산된 환경을 통합하여 데이터 중력 문제를 해결하고 재해 복구의 경제성을 근본적으로 개선할 수 있다고 제시한다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/ai-didnt-create-data-gravity-it-made-it-impossible-to-ignore",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI를 위한 데이터 스택 재구축",
+      "summary": "현재 많은 조직의 데이터 인프라는 임시방편으로 구축되어 있어 대규모 AI 워크로드를 운영하기에 적합하지 않습니다. AI 워크로드는 BI 보고서보다는 HPC 시뮬레이션에 가까운 성능 요구사항을 가지고 있으며, 복잡한 아키텍처 유지는 운영 비용과 기회 손실을 초래합니다. AI 혁신의 빠른 속도를 감안할 때, 조직들은 데이터 위생과 컨텍스트 엔지니어링에 집중해야 하지 불안정한 데이터 시스템 유지에 리소스를 낭비해서는 안 됩니다. 현재의 데이터 아키텍처는 이벤트 브로커, 데이터 레이크, 데이터베이스 등 여러 구성요소가 복잡하게 얽혀 있어 AI 워크로드 요구사항을 충족하지 못합니다. AI 모델 운영에서는 GPU의 생산성 유지, 시스템 간 데이터 이동 최소화, 레이턴시 감소가 핵심이며, 이는 비용 낭비와 수익 손실 방지에 직결됩니다. 업계는 데이터 아키텍처 단순화와 파이프라인 축소를 통해 복잡성을 줄이고 성능과 확장성을 개선하는 방향으로 재편되고 있습니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/rebuilding-the-data-stack-for-ai",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "대다수의 인터넷 접근 가능한 REDCap 서버가 구버전",
+      "summary": "인터넷에 공개되어 있는 대부분의 REDCap 서버가 최신 버전으로 업데이트되지 않은 상태로 운영 중인 것으로 드러났습니다. REDCap은 연구 데이터 관리에 널리 사용되는 플랫폼으로, 구버전 서버들은 알려진 보안 취약점에 노출될 위험이 높습니다. 이러한 상태는 의료 및 연구 기관의 민감한 데이터가 사이버 공격의 위험에 처해 있음을 의미합니다. 보안 전문가들은 조직들에게 즉시 시스템을 업데이트하고 보안 패치를 적용할 것을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/majority-of-internet-accessible-redcap-servers-outdated/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Accenture, 41억 달러 규모의 운영기술(OT) 사이버보안 강화를 위해 Dragos 지분 인수 및 runZero, NetRise 전량 인수",
+      "summary": "Accenture가 운영기술(OT) 사이버보안 분야 강화를 위해 41억 달러 규모의 대규모 인수 계획을 발표했습니다. 이는 Dragos의 지배적 지분 인수, runZero와 NetRise의 전량 인수로 구성됩니다. 이번 인수를 통해 Accenture는 산업용 제어 시스템(ICS) 및 운영 기술 분야에서의 보안 역량을 대폭 강화할 예정입니다. 해당 거래는 조직의 중요 인프라 보호 및 사이버 위협 대응 능력 향상을 목표로 하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/accenture-to-acquire-majority-stake-in-dragos-all-of-runzero-netrise-in-4-1-billion-ot-cybersecurity-push/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "익스플로잇 없이도 가능한 보안 위협",
+      "summary": "RunZero의 Tod Beardsley는 현대 네트워크 아키텍처가 어떻게 패치와 CVE만으로는 절대 해결할 수 없는 보안 문제를 야기하는지 분석했습니다. 이 글은 단순히 알려진 취약점을 악용하지 않아도 네트워크 보안이 침해될 수 있다는 점을 강조합니다. 기존의 보안 대응 방식만으로는 현대적 네트워크 환경의 복잡한 보안 위협에 대처하기 어렵다는 것을 지적합니다. 결국 조직들은 단순 패치 관리를 넘어 더 포괄적인 보안 전략을 수립해야 함을 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/no-exploits-required/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dream, 30억 달러 기업가치로 2억 6,000만 달러 투자 유치",
+      "summary": "사이버보안 분야의 Dream이 30억 달러의 기업가치로 2억 6,000만 달러 규모의 투자 자금을 조달했습니다. 이번 펀딩은 주권형 AI 인프라 개발을 위해 사용될 예정입니다. 해당 투자는 SecurityWeek에 의해 보도되었으며, 사이버보안 분야의 자금 조달 동향을 보여주는 사례입니다. Dream의 펀딩 성공은 AI 기반 보안 기술에 대한 산업의 높은 관심을 반영합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/dream-raises-260-million-at-3-billion-valuation/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Atlassian과 Splunk, 심각한 취약점 패치 공개",
+      "summary": "Atlassian과 Splunk가 중요한 보안 취약점에 대한 패치를 릴리스했습니다. 이러한 취약점들은 공격자들에게 악용될 경우 시스템에 심각한 피해를 줄 수 있습니다. 두 회사는 사용자들에게 즉시 패치를 적용할 것을 권고하고 있습니다. 해당 취약점의 구체적인 세부사항은 보안 업데이트를 통해 공개되었습니다. 이는 기업의 소프트웨어 보안 유지의 중요성을 다시 한 번 강조하는 사건입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/atlassian-splunk-patch-critical-vulnerabilities/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "로카롤라 뱅킹 트로잔, 200개 애플리케이션 공격 대상",
+      "summary": "로카롤라(Rokarolla)는 안드로이드 기기를 대상으로 하는 새로운 뱅킹 트로잔 악성코드입니다. 이 악성코드는 약 200개의 뱅킹 및 금융 애플리케이션을 공격 대상으로 삼고 있습니다. 로카롤라는 사용자의 민감한 금융 정보를 탈취하고 사기 거래를 수행하기 위해 설계되었습니다. 보안 전문가들은 이 위협이 빠르게 확산되고 있으며 금융 기관과 사용자 모두에게 심각한 위험을 초래할 수 있다고 경고하고 있습니다. 안드로이드 사용자들은 출처가 불명확한 애플리케이션 설치를 피하고 보안 업데이트를 정기적으로 적용할 것이 권장됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/rokarolla-banking-trojan-targets-200-applications/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "시스코 ISE의 심각한 명령 실행 취약점 패치",
+      "summary": "시스코(Cisco)가 ISE(Identity Services Engine) 제품에서 발견된 심각한 수준의 명령 실행 취약점에 대한 패치를 배포했습니다. 이 취약점은 공격자가 시스템에 대해 원격으로 명령을 실행할 수 있는 가능성을 제시하므로 높은 보안 위험도를 가지고 있습니다. 영향을 받는 조직들은 즉시 보안 업데이트를 적용하여 시스템을 보호해야 합니다. 시스코는 해당 취약점의 세부 정보와 함께 필요한 패치 정보를 공식 보안 공지를 통해 공개했습니다. 이번 패치는 네트워크 보안을 위해 매우 중요한 업데이트입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/critical-command-execution-vulnerability-patched-in-cisco-ise/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "F5, NGINX의 긴급 및 높음 등급 취약점 패치",
+      "summary": "F5가 NGINX의 여러 긴급 및 높음 등급 취약점에 대한 패치를 공개했습니다. 이번 패치는 보안 위협으로부터 사용자를 보호하기 위해 긴급하게 배포되었으며, 영향을 받는 NGINX 사용자들은 즉시 업데이트를 권장받고 있습니다. NGINX는 광범위하게 배포된 웹 서버이므로 이러한 취약점은 다수의 시스템에 영향을 미칠 수 있습니다. F5는 사용자들에게 가능한 한 빨리 해당 패치를 적용할 것을 강력히 권고했습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/f5-patches-critical-high-severity-nginx-vulnerabilities/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "SailPoint, 2억 달러 규모로 Entro 인수",
+      "summary": "SailPoint가 사이버보안 기업 Entro를 약 2억 달러에 인수하기로 합의했습니다. 이번 인수는 SailPoint의 신원 및 접근 관리(Identity & Access Management) 솔루션을 강화하기 위한 전략적 결정입니다. Entro는 신원 보안 분야에서 혁신적인 기술을 보유한 기업으로 평가받고 있습니다. 이번 거래를 통해 SailPoint는 자신의 포트폴리오를 확장하고 시장 지위를 강화할 수 있을 것으로 예상됩니다. 양사는 합병을 통해 고객들에게 더욱 통합된 신원 보안 솔루션을 제공할 계획입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/sailpoint-to-acquire-entro-in-reported-200-million-deal/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Gentlemen 랜섬웨어, 다중 EDR 킬러를 사용하여 방어 시스템 무력화",
+      "summary": "Gentlemen 랜섬웨어-as-a-Service(RaaS) 조직이 엔드포인트 탐지 및 대응(EDR) 시스템을 무력화하기 위한 여러 개의 EDR 킬러 도구를 적극적으로 개발하고 유지보수하고 있습니다. 이러한 도구들은 제휴 공격자들이 공격 과정에서 탐지를 회피하도록 지원하기 위해 설계되었습니다. Gentlemen 그룹은 GentleKill 등의 방어 우회 도구를 통해 피해 조직의 보안 감지 능력을 효과적으로 제거하고 있습니다. 이는 EDR 솔루션의 취약점을 공략하는 고도화된 랜섬웨어 전술의 증가 추세를 보여줍니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "닌텐도, WebMD 자회사 사이버공격으로 데이터 유출 확인",
+      "summary": "닌텐도 오브 아메리카가 제3자 서비스인 TinyPulse를 통해 직원 설문조사 데이터가 위협 행위자에 의해 탈취되었음을 확인했습니다. 다행히 닌텐도의 자체 시스템은 침해되지 않았으며, 유출된 정보는 내부용 설문조사 데이터에 한정되었습니다. 이번 사건은 Shadowbyt3$ 해킹 그룹과 연관된 것으로 알려져 있습니다. 닌텐도는 해당 제3자 서비스의 보안 침해로 인한 데이터 유출 사건으로 분류하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/nintendo-confirms-data-stolen-in-webmd-subsidiary-cyberattack/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "USB 웜, 윈도우 바로가기 파일을 통해 암호화폐 탈취 악성코드 확산",
+      "summary": "위협 행위자들이 암호화폐 지갑을 노린 공격 캠페인을 진행하고 있으며, 클립보드 탈취 악성코드를 자체 확산 능력과 함께 배포하고 있습니다. 이 악성코드는 USB를 통해 전파되는 웜 형태로, 윈도우 바로가기 파일을 악용하여 감염을 시도합니다. 공격자들은 통신을 은폐하기 위해 Tor 네트워크를 사용하고 있어, 추적과 적발을 어렵게 만들고 있습니다. 사용자들의 암호화폐 지갑 주소를 포함한 클립보드 데이터를 탈취하는 방식으로 자산을 노리고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/usb-worm-spreads-crypto-stealing-malware-via-windows-shortcut-files/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Klue OAuth 침해, 'Icarus' Salesforce 데이터 탈취 공격과 연계",
+      "summary": "시장 정보 플랫폼인 Klue가 OAuth 침해 사고를 당했으며, 이를 통해 'Icarus' 위협 행위자들이 여러 조직의 Salesforce CRM 데이터를 탈취했습니다. 이 집단은 탈취한 데이터를 이용하여 지속적인 협박 캠페인을 진행 중입니다. OAuth 토큰 탈취를 통해 공격자들이 정상적인 접근 권한을 획득하여 민감한 고객 정보에 접근할 수 있었습니다. 이 사건은 클라우드 기반 SaaS 애플리케이션의 보안 위험성과 OAuth 토큰 보호의 중요성을 다시 한 번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Microsoft 365 백업만으로는 비즈니스 데이터 보호에 불충분한 5가지 이유",
+      "summary": "Microsoft 365는 서비스 운영을 유지하는 데 도움이 되지만, 비즈니스 데이터의 보호 및 복구는 조직의 책임입니다. Acronis는 Microsoft 365의 데이터 보호 평가 시 고려해야 할 5가지 격차를 분석했습니다. Microsoft 365 자체의 백업 기능만으로는 다양한 사이버 위협 시나리오에 대응하기에 부족하며, 공유 책임 모델에서 조직이 직접 추가적인 데이터 보호 방안을 마련해야 합니다. 이는 랜섬웨어, 데이터 손실, 실수로 인한 삭제 등 다양한 위험으로부터 데이터를 보호하기 위해 별도의 백업 솔루션이 필요함을 의미합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/5-reasons-microsoft-365-backup-isnt-enough-for-business-data-protection/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "경찰, Evil Corp 연루 SocGholish 악성코드 감염 약 15,000개 사이트 정리",
+      "summary": "국제 법집행기관이 SocGholish 봇넷 및 러시아 사이버범죄 조직 Evil Corp와 연루된 악성코드 감염 WordPress 웹사이트 약 15,000개를 정리했다. 이번 작전을 통해 100개 이상의 관련 서버도 함께 적발하고 차단했다. 이 사건은 국제적 수준의 법집행 협력을 통해 대규모 봇넷 인프라를 무력화한 성과로 평가된다. SocGholish는 웹사이트 감염을 통해 악성코드를 배포하는 주요 위협으로 알려져 있었다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/law-enforcement-nukes-socgholish-malware-from-nearly-15-000-sites/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "ShapedPlugin 업데이트 시스템 해킹으로 워드프레스 사이트 감염",
+      "summary": "ShapedPlugin의 여러 워드프레스 플러그인이 공급망 공격으로 손상되었습니다. 해커들이 벤더의 공식 업데이트 시스템을 통해 감염된 버전을 유료 고객에게 배포했습니다. 이번 공격은 플러그인 업데이트 프로세스를 악용한 공급망 공격의 전형적인 사례입니다. 영향을 받은 워드프레스 사이트들은 악성코드에 감염될 위험에 노출되어 있습니다. 사용자들은 즉시 플러그인 상태를 확인하고 보안 업데이트를 적용해야 합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Apple, Beats Studio Buds의 도청 취약점 패치",
+      "summary": "Apple이 Beats Studio Buds 무선 이어버드의 높은 심각도 보안 취약점을 패치하기 위한 보안 업데이트를 출시했습니다. 해당 취약점은 블루투스 범위 내의 공격자가 사용자의 대화를 도청할 수 있는 가능성이 있었습니다. Apple이 공식 보안 업데이트를 통해 이 취약점을 수정했으며, 사용자들은 최신 버전으로 업데이트하여 보안을 강화할 수 있습니다. 이번 패치는 무선 이어버드의 블루투스 통신 보안을 개선하는 것을 목표로 하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/apple-fixes-beats-studio-buds-flaw-that-let-hackers-spy-on-conversations/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "텔레그램, 인도 법원에 시험지 유출 채널 단속 불가 인정",
+      "summary": "인도 정부가 델리 고등법원에 제출한 자료에 따르면, 텔레그램은 차단되기 2주 전에 경고를 받았으며 시험지 유출본을 판매하는 채널들을 사전에 적극적으로 탐지할 수 없다는 점을 인정했다. 인도 정부는 텔레그램이 시험 문제 유출 채널들을 통제하지 못했다고 주장하며, 이를 이유로 플랫폼을 차단했다. 한편 텔레그램은 당국과 협력했으며 차단은 위법이라고 주장하며 맞서고 있다. 이 사건은 대형 메신저 플랫폼의 불법 콘텐츠 단속 책임과 개인정보 보호 사이의 갈등을 보여주는 사례가 되고 있다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/telegram-admits-it-couldnt-police-exam-leak-channels-india-tells-court/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "F5, NGINX 심각 취약점에 대한 긴급 패치 배포",
+      "summary": "사이버보안 회사 F5가 NGINX 웹 서버의 여러 취약점을 해결하기 위해 정기 일정 외의 긴급 보안 업데이트를 배포했습니다. 이번 패치에는 공격자가 취약한 시스템에서 코드를 실행할 수 있는 심각도 높은 두 개의 원격 코드 실행(RCE) 취약점이 포함되어 있습니다. 해당 취약점들은 서비스 거부(DoS) 공격을 유발할 수도 있는 심각한 보안 위협입니다. F5는 이러한 취약점의 위험성을 인지하여 정상적인 패치 배포 일정을 무시하고 긴급 업데이트를 진행했습니다. 사용자들은 가능한 한 빨리 해당 패치를 적용하여 시스템 보안을 강화할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, Windows Server 2016 보안 업데이트 실패 문제 해결",
+      "summary": "마이크로소프트가 2026년 6월 보안 업데이트 설치 실패 문제를 해결했습니다. 이 문제는 최신 상태로 유지되지 않은 Windows Server 2016 시스템에서 발생하고 있었습니다. 마이크로소프트는 영향을 받은 사용자들이 정상적으로 보안 업데이트를 설치할 수 있도록 문제를 수정했습니다. 이번 수정으로 Windows Server 2016 사용자들은 보안 취약점으로부터 시스템을 보호할 수 있게 되었습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2016-security-update-failures/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "유출된 정보, OpenAI가 과학 분야 전용 ChatGPT 구독 서비스 테스트 중임을 확인",
       "summary": "OpenAI가 과학 연구 분야의 사용 사례를 위한 새로운 구독 서비스와 경험을 테스트 중인 것으로 확인되었습니다. 유출된 정보에 따르면 OpenAI는 과학 커뮤니티를 위해 특화된 ChatGPT 구독 옵션을 개발하고 있습니다. 다만 이 서비스가 모든 사용자에게 개방될지, 아니면 특정 배경을 가진 사용자들에게만 제공될지는 아직 불명확합니다. 현재 테스트 단계인 만큼 최종 출시 형태와 조건이 변경될 수 있습니다.",
       "category": "보안",
@@ -17139,11 +17454,11 @@
     }
   ],
   "sources": {
-    "BleepingComputer": 546,
-    "보안뉴스": 647,
-    "Dell": 156,
-    "HPE": 35,
-    "VAST Data": 42,
-    "SecurityWeek": 478
+    "SecurityWeek": 488,
+    "보안뉴스": 657,
+    "Dell": 157,
+    "VAST Data": 45,
+    "BleepingComputer": 557,
+    "HPE": 35
   }
 }
