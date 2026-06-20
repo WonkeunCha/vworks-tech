@@ -2,6 +2,240 @@
   "quarter": "2026-Q2",
   "items": [
     {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[2026 문서보안 솔루션 리포트] 문서를 읽기 시작한 AI, “기업 문서는 과연 안전한가?”",
+      "summary": "데이터 분류와 권한 관리, AI 시대 문서보안의 핵심 과제로 부상업무에 AI 활용을 지원하는 보안 체계 구축 요구 확대문서보안 인식 설문조사 결과, 문서 유출 경로 ‘이메일’이 가장 높아... ‘생성형 AI’ 3위문서보안 솔루션 전문기업 집중 분석: 블루문소프트, 마크애니, 이노티움, 수산아이앤티, 소프트캠프[보안뉴스 강초희 기자] 생성형 AI와 클라우드,",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144201&kind=&sub_kind=",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "크롬 확장 프로그램의 배신... 수백만대의 브라우저 해킹 가능",
+      "summary": "AI 기반 에이전트 사이드 패널 확장 프로그램 ‘SiderAI’와 ‘MaxAI’에 심각한 보안 취약점악성 웹사이트로 조작된 메시지를 콘텐츠 스크립트로 전송하면 그대로 전달... 악용가능[보안뉴스 원병철 기자] 널리 사용되는 크롬 확장 프로그램인 ‘SiderAI’와 ‘MaxAI’에서 심각한 보안 취약점이 발견되어 수백만 명의 사용자가 위험에 처했다. 이 취약",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144205&kind=&sub_kind=",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "호기심에서 역량으로: Dell Technologies의 영업 성공 구축하기",
+      "summary": "Dell Technologies에서 Lennox Jäger의 영업 경력을 형성한 지속적인 학습, 멘토십, 실무 경험의 중요성을 다룹니다. 호기심 있는 태도와 끊임없는 학습이 영업 역량 개발의 기초가 됨을 강조합니다. 경험 많은 멘토로부터의 지도와 피드백이 전문성 향상에 핵심적인 역할을 하며, 실제 고객 상황에서의 실무 경험을 통해 이론을 실전 기술로 전환할 수 있음을 보여줍니다. 지속적인 성장 마인드셋과 적극적인 학습 자세가 영업 분야에서 성공하기 위한 필수 요소임을 강조합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/from-curiosity-to-capability-building-sales-success-in-motion/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell의 시즌 최저가 쇼핑 기회",
+      "summary": "Dell Technologies에서는 2026년 6월 22일부터 29일까지 시즌 최저가 판매를 진행합니다. 이 기간 동안 노트북, 모니터, 소프트웨어 등 다양한 제품에서 최저가를 제공합니다. 일 년 중 가장 저렴한 가격으로 Dell 제품을 구매할 수 있는 특별한 기회입니다. 원하던 IT 제품을 합리적인 가격으로 구입할 수 있는 제한된 기간의 프로모션입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/it-s-time-for-dell-s-lowest-prices-of-the-season/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 인프라 운영의 숨겨진 과제: 대규모 확장",
+      "summary": "AI 인프라 투자는 GPU나 모델 성능보다는 운영 측면의 어려움이 더 크다는 것이 업계의 현실이다. 유타 대학과 이탈리아 국립 슈퍼컴퓨팅 연합(CINECA) 등 기관들의 경험에 따르면, 전통적인 HPC에서 AI로의 전환은 단순한 기술 변화가 아니라 조직 전체의 변혁이다. AI는 새로운 사용자층을 도입하면서 팀 규모 확대, 지원 모델 변화, 복잡한 인프라 상호 연결성 증가, 클라우드·데이터 서비스·오케스트레이션 프레임워크·GPU 클러스터를 아우르는 엔드투엔드 워크플로우 지원이 필요하다. 과거 HPC 사용자들과 달리 AI 연구자들은 다양한 프레임워크, 컨테이너, GPU 자원에 접근해야 하지만 이러한 도구들을 효과적으로 활용할 경험이 부족한 경우가 많다. 따라서 기술적 과제만큼이나 조직의 운영 변화와 사용자 교육 지원이 성공의 핵심이다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/the-hidden-challenge-of-ai-infrastructure-operations-at-scale",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "애플의 Beats 도청 취약점 패치, DOT의 델타 CrowdStrike 조사 종료, AWS Continuum",
+      "summary": "애플이 Beats 이어폰의 도청 취약점을 패치했습니다. 미국 교통부(DOT)는 CrowdStrike 소프트웨어 장애로 인한 델타항공의 운영 중단에 대한 조사를 종료했습니다. AWS는 새로운 클라우드 서비스 'Continuum'을 출시하여 기업의 사이버보안 관리를 강화하고 있습니다. 이번 소식들은 주요 기술 기업들이 보안 문제에 대응하고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-apple-patches-beats-eavesdropping-flaw-dot-closes-delta-crowdstrike-probe-aws-continuum/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CryptoBandits 악성코드, 백도어로 기능하며 Tor 악용",
+      "summary": "CryptoBandits는 암호화폐 탈취 기능과 백도어 기능을 동시에 갖춘 Windows 기반 악성코드입니다. 이 악성코드는 Tor 네트워크를 악용하여 공격자와의 통신을 숨기고 탐지를 회피합니다. 감염된 시스템에서 암호화폐 지갑 정보를 탈취할 뿐만 아니라 원격 접근을 통해 추가 악성 활동을 수행할 수 있습니다. 이중 기능의 악성코드로 인해 피해자는 자산 손실과 시스템 침입의 위험에 노출됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cryptobandits-malware-doubles-as-a-backdoor-abuses-tor/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "FortiBleed: 86,000개 포티넷 기기 자격증명 유출",
+      "summary": "포티넷(Fortinet) 디바이스 86,000개의 자격증명이 'FortiBleed'라는 보안 위협으로 인해 손상되었습니다. 이 사건은 포티넷의 네트워크 보안 장비에서 대규모로 인증 정보가 유출된 심각한 보안 사고입니다. 유출된 자격증명은 공격자들이 해당 기기에 무단 접근하는 데 악용될 수 있어 조직의 네트워크 보안에 큰 위협이 됩니다. 이번 사건은 기업의 네트워크 인프라를 보호하는 핵심 장비의 취약점이 악용된 사례입니다. 보안 전문가들은 영향을 받은 조직에 신속한 패치 적용과 자격증명 변경을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/fortibleed-86000-fortinet-device-credentials-compromised/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "사이버보안 기업들, Klue 공급망 공격의 영향 받다",
+      "summary": "SecurityWeek의 보도에 따르면 여러 사이버보안 회사들이 Klue를 통한 공급망 공격의 대상이 되었습니다. Huntress와 Recorded Future를 포함한 보안 기업들이 이번 공격으로 영향을 받은 것으로 확인되었습니다. 이 사건은 공급망 보안의 취약점을 여실히 드러내고 있으며, 사이버보안 회사 자체도 해킹의 위험에서 자유롭지 못함을 보여줍니다. 공급망을 통한 공격이 얼마나 광범위한 영향을 미칠 수 있는지를 시사하는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cybersecurity-firms-impacted-by-klue-supply-chain-attack/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "시스코, 스플렁크의 에이전틱 SOC 강화를 위해 와이드필드 시큐리티 인수",
+      "summary": "시스코가 와이드필드 시큐리티를 인수하여 스플렁크의 에이전틱 보안운영센터(SOC) 기능을 강화할 예정이다. 이번 인수는 시스코의 보안 솔루션 포트폴리오를 확대하고 AI 기반 자동화된 위협 탐지 및 대응 능력을 높이는 데 목표를 두고 있다. 와이드필드 시큐리티의 기술을 통합함으로써 스플렁크 플랫폼의 지능형 자동화 기능이 향상될 것으로 기대된다. 이는 기업의 보안 운영 효율성을 개선하고 사이버 위협에 대한 대응 시간을 단축하는 데 기여할 것으로 예상된다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisco-to-acquire-widefield-security-to-boost-splunks-agentic-soc/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "SocGholish 봇넷 적발으로 15,000개 WordPress 웹사이트 정리",
+      "summary": "법 집행 기관이 SocGholish 봇넷에 감염된 15,000개의 WordPress 웹사이트를 정리하고 제거하는 작업을 완료했습니다. 이번 봇넷 적발은 사이버 범죄자들이 대규모로 운영해온 악성 인프라를 성공적으로 해제한 중요한 성과입니다. SocGholish는 WordPress 사이트를 표적으로 하여 악성 코드 배포 및 사용자 기기 감염에 악용되어 왔습니다. 이 조치는 온라인 환경의 보안 강화와 웹사이트 소유자들의 피해 방지에 기여할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/15000-wordpress-websites-cleaned-up-in-socgholish-botnet-takedown/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Klue OAuth 침해 피해자 목록 증가, Icarus 해커 집단이 공격 주장",
+      "summary": "시장 정보 플랫폼인 Klue가 최근 보안 사건을 공식 확인했으며, 이 사건에서 위협 행위자들이 고객의 Salesforce 환경에 연결하는 데 사용되는 OAuth 토큰을 탈취했습니다. 신흥 '이카루스(Icarus)' 랜섬웨어 그룹이 이 공격을 공개적으로 주장하고 있으며, 피해자 목록이 계속 증가하고 있습니다. 이 침해 사건으로 인해 고객들의 Salesforce 계정 접근 권한이 손상될 수 있는 심각한 위험이 초래되었습니다. Klue는 영향을 받은 사용자들에게 보안 대응을 권고하고 있는 상황입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "해커들이 Gravity SMTP 워드프레스 플러그인의 정보 유출 취약점 악용",
+      "summary": "위협 행위자들이 10만 개 사이트에서 활성화된 워드프레스 플러그인 'Gravity SMTP'의 인증되지 않은 정보 유출 취약점을 적극적으로 악용하고 있습니다. 이 취약점을 통해 공격자들은 사용자 인증 정보와 민감한 정보에 접근할 수 있습니다. Gravity SMTP는 워드프레스 사이트의 이메일 전송 기능을 담당하는 인기 플러그인으로, 광범위한 악용으로 인해 많은 사이트가 위험에 처해 있습니다. 보안 전문가들은 영향을 받은 사이트 운영자들에게 즉시 패치 적용을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "텍사스 정부 데이터 유출 사고로 300만 건 이상의 운전면허증 정보 노출",
+      "summary": "텍사스 공원야생동물부(TPWD)가 자사의 면허 시스템 공급업체에서 발생한 데이터 유출 사고를 공개했습니다. 이 사고로 인해 300만 명 이상의 개인정보가 노출되었습니다. 유출된 정보에는 운전면허증 관련 개인 정보가 포함되어 있습니다. 이는 제3자 공급업체를 통한 정부 데이터 유출 사고로, 정부 기관의 보안 관리 체계에 대한 우려를 제기하고 있습니다. 당국은 피해자들에게 필요한 공지 및 지원을 제공할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "모든 AI 에이전트는 하나의 신원입니다. 대부분의 조직은 이를 인식하지 못하고 있습니다",
+      "summary": "AI 에이전트는 데이터에 접근하고, 워크플로우를 트리거하며, 코드를 배포하고, 중요한 비즈니스 시스템과 상호작용할 수 있습니다. 그러나 많은 조직들은 이러한 AI 에이전트를 적절한 감시와 통제 없이 운영하고 있습니다. 토큰 시큐리티에 따르면 AI 에이전트는 새로운 신원 및 거버넌스 문제로 부상하고 있습니다. 조직들은 AI 에이전트를 사용자나 시스템 계정과 동일한 수준의 ID 및 접근 제어 체계로 관리해야 하는 새로운 보안 과제에 직면하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/every-ai-agent-is-an-identity-most-organizations-dont-treat-them-that-way/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "웨비나: 공격자들의 MFA 우회 방법과 방어 대응 전략",
+      "summary": "현대의 피싱 공격, 특히 디바이스 코드 피싱은 MFA 보안을 무력화시켜 공격자들이 비밀번호를 탈취하지 않고도 기업 계정에 접근할 수 있게 한다. 이 웨비나는 보안 팀이 손상된 계정을 더 빠르게 탐지하고 대응 워크플로우를 자동화할 수 있도록 행동 기반 AI가 어떻게 도움이 되는지를 탐구한다. MFA 우회 기법과 이에 대한 효과적인 방어 전략에 대해 심층적으로 논의하며, 보안 전문가들이 점점 정교해지는 위협에 대응하기 위한 실질적인 솔루션을 제시한다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/webinar-how-attackers-bypass-mfa-and-how-defenders-can-respond/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트: 2026년 6월 Windows 업데이트로 휴지통 확인 프롬프트 오류 발생",
+      "summary": "마이크로소프트가 휴지통에서 파일을 삭제할 때 확인 대화상자에 다른 파일명이 표시되는 혼동을 초래하는 Windows 버그를 확인했습니다. 이 문제는 KB5094125 업데이트를 통해 지원되는 모든 Windows 릴리스와 Windows Server에 영향을 미치고 있습니다. 사용자는 휴지통에서 파일을 영구 삭제할 때 표시되는 파일명이 실제 삭제하려는 파일과 일치하지 않을 수 있습니다. 마이크로소프트는 이 알려진 문제를 인식하고 있으며 향후 업데이트를 통한 해결을 예고했습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-recycle-bin-bug-on-all-supported-windows-releases/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA: Splunk Enterprise 취약점 적극적으로 악용 중, 일요일까지 패치 필수",
+      "summary": "CISA(미국 사이버보안기반시설보안국)가 미국 연방기관들에 현재 공격에 악용되고 있는 Splunk Enterprise의 심각한 취약점으로부터 시스템을 보호할 것을 촉구했습니다. 해당 기관은 이 취약점에 대한 패치를 일요일까지 완료할 것을 권고했습니다. 이 취약점은 이미 야생에서 적극적으로 악용되고 있는 상황으로, 연방기관들의 즉각적인 대응이 필요합니다. Splunk Enterprise는 많은 조직에서 사용하는 데이터 분석 및 모니터링 플랫폼으로, 이 취약점의 악용은 광범위한 보안 위협을 초래할 수 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "뉴욕 남성, AI 생성 누드 이미지로 대학생 괴롭혀 기소",
+      "summary": "뉴욕의 한 남성이 조지아 주의 대학생을 괴롭히기 위해 AI 생성 누드 이미지와 조작된 인종차별적 메시지를 가짜 소셜미디어 계정으로 공유한 혐의로 사이버스토킹 범죄로 기소되었습니다. 피의자는 인스타그램, 링크드인, 트위터, 레딧, 야후, 스트라바 등 여러 플랫폼에서 가짜 프로필을 만들어 피해자를 지속적으로 괴롭혔습니다. 이 사건은 AI 기술이 악용되어 개인을 타겟한 성적 괴롭힘과 명예훼손에 활용될 수 있는 위험성을 보여줍니다. 해당 행위는 미국 연방법상 사이버스토킹 범죄에 해당하며, 온라인 괴롭힘에 대한 법적 처벌이 강화되고 있는 추세를 반영합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-york-man-faces-cyberstalking-charge-after-sharing-ai-generated-nudes-online/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, FortiBleed 유출 후 포티넷 사용자에게 기기 보안 강화 경고",
+      "summary": "미국 사이버보안 및 인프라 보안청(CISA)이 'FortiBleed'로 명명된 데이터 유출 사건 이후 포티넷 고객들에게 기기 보안을 강화할 것을 긴급 권고했습니다. 이번 유출 사건으로 약 74,000개의 포티게이트 방화벽 및 VPN 자격증명이 노출되었습니다. CISA는 포티넷 사용자들이 즉시 자신의 기기를 보호하고 노출된 자격증명의 사용 여부를 확인할 것을 촉구했습니다. 이 사건은 포티넷 제품 사용자들에게 심각한 보안 위협이 될 수 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "오마다, 호텔 객실과 오피스텔 환경 겨냥한 벽면형 와이파이 7 AP 출시",
+      "summary": "BE9300 트라이밴드 Wi-Fi 7 성능과 슬림한 벽면형 디자인 도입객실·오피스·교육 환경 등에 최적[보안뉴스 엄호식 기자] 비즈니스 네트워크 솔루션 브랜드 오마다는 BE9300 벽면형 와이파이 7 액세스 포인트 ‘EAP775-Wall’을 출시했다고 밝혔다.EAP775-Wall은 최신 와이파이 7 기반의 트라이밴드 액세스 포인트로 6GHz와 5GHz, 2",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144204&kind=&sub_kind=",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "액센추어, ‘OT 보안’ 총력전... 드라고스·런제로·넷라이즈 인수",
+      "summary": "[보안뉴스 강현주 기자] 글로벌 경영 컨설팅 및 기술 서비스 기업 액센추어(Accenture)가 산업 제어시스템(OT) 및 필수 인프라 사이버 보안 시장을 선도하기 위해 대규모 인수합병(M&A)에 나섰다.액센추어는 18일(현지시간) 글로벌 운영 기술(OT) 보안 시장의 강자인 드라고스(Dragos)의 지분 과반을 확보한 데 이어 사이버 보안 스타트업인 런제",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144203&kind=&sub_kind=",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“핵심 인프라 공격 75%는 국가 배후 해커 소행”... 英 사이버 보안 책임자 경고",
+      "summary": "“오늘 방치한 취약점이 내일의 갈등에 악용”[보안뉴스 한세희 기자] 리차드 혼 영국 국가사이버보안센터(NCSC) 센터장이 “지난해 영국 핵심 인프라를 운영하는 기관에 대한 사이버 공격의 75%가 적성국을 배후에 둔 해커 집단과 연관돼 있다”고 말했다.그는 최근 열린 왕립합동군사연구소(RUSI) ‘연례 안보 강연’에서 “최근 1년 간 NCSC가 대응한 약 2",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144200&kind=&sub_kind=",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "한국첨단안전산업협회, ‘첨단안전산업 기술 실증 및 국가 R&D 연계 산업육성 전문가 자문회의’ 성료",
+      "summary": "산업현장 기술 실증 성과 공유 및 신규 국가 R&D 발굴 방향 논의산·학·연·관 협력 기반 첨단안전산업 실증·사업화·정책 연계 협력 강화[보안뉴스 강초희 기자] 한국첨단안전산업협회(KOHSIA, 회장 이성진)는 6월 18일 충북 청주시 오송 소재 성창에서 ‘첨단안전산업 기술 실증 및 국가연구개발(R&D) 연계 산업육성 전문가 자문회의’를 성공적으로 개최하고",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144202&kind=&sub_kind=",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "애플 A12·A13 칩셋서 수정 불가능한 BootROM 취약점 발견 “보안 신뢰체계 무력화 가능”",
+      "summary": "‘usbliter8’ 취약점 공개... iPhone XS·XR·11 시리즈, 애플워치 S4·S5 영향USB 컨트롤러 결함 악용해 Secure Boot 우회 가능BootROM 결함 특성상 소프트웨어 업데이트로는 패치 불가[보안뉴스 강초희 기자] 애플 A12, A13 계열 칩셋에서 보안 신뢰체계(Chain of Trust)를 무력화할 수 있는 수정 불가능한 하",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144198&kind=&sub_kind=",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "자율주행 AI 학습데이터 구축-공유 쉬워진다",
+      "summary": "과기정통부, 자율주행 산업 발전 위한 E2E 학습데이터 가이드라인 발표[보안뉴스 한세희 기자] 자율주행 차량을 위한 AI 학습 데이터를 학계와 산업계가 쉽게 구축하고 공유할 수 있게 된다. 과학기술정보통신부(부총리 겸 장관 배경훈)는 자율주행 인공지능(AI) 개발에 필요한 학습데이터를 국내 산학연이 함께 구축하고 쉽게 공유하도록 지원하는 ‘자율주행 E2E",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144199&kind=&sub_kind=",
+      "date": "2026-06-19"
+    },
+    {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "Splunk Enterprise 취약점, 공개 후 수일 내에 공격에 악용됨",
       "summary": "Splunk Enterprise의 보안 취약점이 공개된 지 며칠 후 실제 공격에 악용되고 있는 것으로 확인되었습니다. 공격자들이 신속하게 해당 취약점을 활용한 공격을 개시함에 따라 보안 위협이 증가하고 있습니다. 이 취약점은 CISA의 공개 익스플로잇 카탈로그(KEV)에도 등재되었으며, 광범위한 악용 가능성을 시사합니다. 보안 전문가들은 Splunk Enterprise 사용자들에게 긴급 패치 적용을 강력히 권고하고 있습니다. 이 사건은 취약점 공개 후 신속한 대응의 중요성을 다시 한 번 강조하고 있습니다.",
@@ -17454,11 +17688,11 @@
     }
   ],
   "sources": {
-    "SecurityWeek": 488,
-    "보안뉴스": 657,
-    "Dell": 157,
-    "VAST Data": 45,
-    "BleepingComputer": 557,
+    "보안뉴스": 665,
+    "Dell": 159,
+    "VAST Data": 46,
+    "SecurityWeek": 494,
+    "BleepingComputer": 566,
     "HPE": 35
   }
 }
