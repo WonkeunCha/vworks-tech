@@ -2343,9 +2343,99 @@
     "http://www.boannews.com/media/view.asp?idx=144200&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144202&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144198&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=144199&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=144199&kind=&sub_kind=",
+    "https://www.securityweek.com/french-president-urges-us-to-share-cutting-edge-ai-and-democracies-to-cooperate-on-regulation/",
+    "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
+    "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
+    "http://www.boannews.com/media/view.asp?idx=144234&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144206&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143631&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144214&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144208&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144207&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "국가안보실 3차장에 송기호 현 경제안보비서관 임명... 이재명 대통령 인사 단행",
+      "summary": "국가안보실 1차장에는 강건작 대통령 직속 미래국방전략위원회 위원홍보소통수석에 성기홍 전 연합뉴스 사장, 민정수석에 한찬식 변호사 발탁[보안뉴스 원병철 기자] 이재명 대통령이 21일 대통령 비서실 홍보소통수석과 민정수석, 사회수석은 물론 국가안보실 1차장과 3차장을 교체하는 인사를 단행했다. 국가안보실 1차장에는 강건작 대통령 직속 미래국방전략위원회 위원이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144234&kind=&sub_kind=",
+      "date": "2026-06-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "프랑스 대통령, 미국에 최첨단 AI 공유 촉구 및 민주주의 국가들의 규제 협력 요청",
+      "summary": "프랑스 대통령이 미국에 대해 최첨단 인공지능 기술 공유를 촉구하고 있습니다. 이는 민주주의 국가들이 AI 규제에 대해 협력해야 한다는 입장을 나타냅니다. 프랑스는 EU의 강력한 AI 규제 입장을 대변하면서 미국과의 기술 격차 해소를 요구하고 있습니다. 이는 글로벌 AI 산업에서 미국의 기술 독점을 견제하고 국제적 규제 협력을 강화하려는 취지로 보입니다. 민주주의 국가들 간의 AI 규제 기준 통일과 투명성 강화가 주요 요구사항으로 제시되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/french-president-urges-us-to-share-cutting-edge-ai-and-democracies-to-cooperate-on-regulation/",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 프린츠 오이겐 랜섬웨어, 최근 수정 파일 우선 암호화",
+      "summary": "프린츠 오이겐이라는 새로운 랜섬웨어 조직이 등장했습니다. 이 악성코드는 최근에 수정된 파일들을 우선적으로 암호화하는 특징을 가지고 있습니다. 시스템에 랜섬 메모를 남기지 않으며, 이중 갈취(Double-Extortion) 방식으로 운영되는 것으로 보입니다. 이러한 전략은 공격자가 빠르게 중요한 파일에 접근하고 감지를 회피하려는 목적으로 설계된 것으로 분석됩니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, Mastra AI 공급망 공격을 북한 해커 집단에 연결",
+      "summary": "마이크로소프트는 140개 이상의 npm 패키지를 손상시킨 Mastra AI 공급망 공격을 북한의 해킹 집단인 Sapphire Sleet(BlueNoroff로도 알려짐)에 의한 것으로 귀속시켰다. 이번 공격은 오픈소스 소프트웨어 저장소를 통해 대규모 개발자 커뮤니티에 영향을 미쳤다. Sapphire Sleet은 금융 기관과 기술 회사를 대상으로 한 악명 높은 북한 지원 해킹 그룹이다. 이번 사건은 소프트웨어 공급망 보안의 취약성을 다시 한 번 드러냈으며, 개발자들에게 의존성 관리와 패키지 검증의 중요성을 상기시킨다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[한국정보보호학회 칼럼] 에이전틱 AI와 피지컬 AI 시대, 이제 그 본질은 ‘권한 거버넌스’다",
+      "summary": "AI는 더 이상 애플리케이션의 부가 기능이 아니라, 조직의 권한 체계 안에서 움직이는 “행위자”에이전트, 사용자 계정의 부속 기능이 아니라 독립된 비인간 신원(Non-Human Identity)으로 관리해야[보안뉴스= 권태경 한국정보보호학회 AI보안연구회 위원장] 요즘 우리는 생성형 AI를 필두로 에이전틱 AI와 피지컬 AI를 넘나드는 초시대적 발전을 매일",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144206&kind=&sub_kind=",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 44] 낮말은 새가 듣고 밤말은 쥐가 듣는다(4)-이메일 하나로 털리는 구조",
+      "summary": "이메일 주소는 업무용과 개인용(가입용)을 분리하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐,",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143631&kind=&sub_kind=",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "8만6644대의 FortiGate 기기에 취약점... CISA와 NCSC, 포티넷 사용자에게 ‘경고’",
+      "summary": "미국 CISA 및 영국 NCSC 등 주요 국가 보안기관 ‘포티블리드’ 공격 주의보무차별 대입 공격 및 자격 증명 탈취 등 이용... 포티넷 방화벽 및 VPN 게이트웨이 노려[보안뉴스 원병철 기자] 미국 사이버보안 및 인프라 보안국(CISA)과 영국 국가사이버보안센터(NCSC)는 18일(목요일, 현지 시각) 포티게이트 어플라이언스를 사용하는 포티넷 고객들에게",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144214&kind=&sub_kind=",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[인사] 과학기술정보통신부",
+      "summary": "◇과장급 전보△연구기관혁신정책과장 조종영(趙鐘榮, 기초연구진흥과장)△기초연구진흥과장 박시정(朴是貞, 과학기술정보통신부)(2026. 6. 22. 자)[원병철 기자(boanone@boannews.com)]<저작권자: 보안뉴스(www.boannews.com) 무단전재-재배포금지>",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144208&kind=&sub_kind=",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[인사] 한국인터넷진흥원",
+      "summary": "◇단장급 보임△취약점관리센터장(TF) 배승권(2026년 6월 5일자)◇팀장급 보임△상황관제팀장 송하영(2026년 6월 22일자)◇팀장급 보임△AI종합분석팀장 김도원(2026년 6월 26일자)[원병철 기자(boanone@boannews.com)]<저작권자: 보안뉴스(www.boannews.com) 무단전재-재배포금지>",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144207&kind=&sub_kind=",
+      "date": "2026-06-20"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "[2026 문서보안 솔루션 리포트] 문서를 읽기 시작한 AI, “기업 문서는 과연 안전한가?”",
@@ -11264,89 +11354,8 @@
       "source": "Dell",
       "sourceUrl": "https://www.dell.com/en-us/blog/growing-with-dell-seventeen-years-of-learning-and-impact/",
       "date": "2026-05-12"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "HPE, 엔터프라이즈 현대화 및 AI 데이터 준비 가속화를 위한 통합 프라이빗 클라우드 및 데이터 플랫폼 제공",
-      "summary": "HPE는 2026년 5월 12일 프라이빗 클라우드, 스토리지, 데이터 보호 분야의 새로운 GreenLake 혁신을 발표했습니다. 이 솔루션은 기업들의 인프라 현대화 방식을 재편성하고 AI 데이터 준비 과정을 가속화합니다. GreenLake는 조직들이 가상화 및 클라우드 네이티브 워크로드를 현대화할 수 있도록 통합된 접근 방식을 제공합니다. 고객들을 분산된 다중 벤더 도구나 위험한 마이그레이션으로 강제하지 않으면서도 이를 가능하게 합니다.",
-      "category": "HPC·서버",
-      "source": "HPE",
-      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/05/hpe-delivers-unified-private-clouds-and-data-platforms-to-accelerate-enterprise-modernization-and-ai-data-readiness.html",
-      "date": "2026-05-12"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "마이크로소프트, 137개 취약점 패치 공개",
-      "summary": "마이크로소프트가 자사 제품 전반에 걸쳐 137개의 취약점에 대한 패치를 공개했습니다. 이번 패치에는 원격 코드 실행 취약점을 포함한 심각한 보안 결함들이 포함되어 있습니다. 이는 마이크로소프트의 정기적인 패치 화요일(Patch Tuesday) 업데이트의 일환입니다. 윈도우를 비롯한 마이크로소프트 제품 사용자들은 즉시 이번 보안 업데이트를 설치할 것을 권장됩니다. 특히 원격 코드 실행 취약점은 공격자가 시스템을 완전히 장악할 수 있으므로 우선적으로 패치해야 합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/microsoft-patches-137-vulnerabilities/",
-      "date": "2026-05-12"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Exaforce, 에이전틱 SOC 플랫폼을 위해 1억 2,500만 달러 펀딩 조성",
-      "summary": "사이버보안 기업 Exaforce가 에이전틱 보안운영센터(SOC) 플랫폼 개발을 위해 1억 2,500만 달러의 투자를 유치했습니다. 에이전틱 SOC는 인공지능 에이전트 기술을 활용하여 보안 위협 탐지 및 대응을 자동화하는 차세대 보안 솔루션입니다. 이번 펀딩은 조직의 보안 운영 능력을 강화하고 위협 대응 시간을 단축하는 데 중점을 두고 있습니다. Exaforce는 이 자금을 통해 플랫폼 기능 확대와 시장 확대에 집중할 계획입니다. 이는 AI 기반 보안 기술에 대한 업계의 높은 관심과 투자 수요를 반영하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/exaforce-raises-125-million-for-agentic-soc-platform/",
-      "date": "2026-05-12"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Adobe, 10개 제품의 52개 취약점 패치 배포",
-      "summary": "Adobe가 10개 제품에 걸쳐 52개의 취약점에 대한 보안 패치를 공개했습니다. 이번 패치에는 임의의 코드 실행으로 이어질 수 있는 결함을 포함한 여러 보안 위협이 포함되어 있습니다. SecurityWeek의 보도에 따르면 이 취약점들은 Patch Tuesday를 통해 해결되었습니다. 사용자들은 영향받는 Adobe 제품을 최신 버전으로 업데이트하여 보안을 강화할 것을 권장받고 있습니다. 이번 대규모 패치 배포는 Adobe 제품 사용자들의 시스템 보안을 위해 긴급하게 적용될 필요가 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/adobe-patches-52-vulnerabilities-in-10-products/",
-      "date": "2026-05-12"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "White Circle, AI 제어 플랫폼을 위해 1,100만 달러 자금 조달",
-      "summary": "사이버보안 기업 White Circle이 AI 제어 플랫폼 개발을 위해 1,100만 달러 규모의 자금 조달에 성공했습니다. 이 투자는 AI 기술의 보안 및 통제 강화에 대한 업계의 관심이 증가하고 있음을 보여줍니다. White Circle의 플랫폼은 인공지능 시스템의 안전한 운영과 관리를 위한 솔루션을 제공할 것으로 예상됩니다. 이러한 자금 조달은 AI 보안 분야의 성장세와 기업들의 AI 리스크 관리 필요성을 반영하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/white-circle-raises-11-million-for-ai-control-platform/",
-      "date": "2026-05-12"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "BWH 호텔, 해커가 6개월간 예약 데이터에 접근했다고 밝혀",
-      "summary": "BWH 호텔이 해커들이 6개월 동안 호텔 예약 데이터에 접근할 수 있었다고 발표했습니다. 이번 데이터 유출 사건은 호텔 업계의 사이버보안 취약점을 드러내는 심각한 보안 사고입니다. 공격자들이 장시간 시스템에 접근한 것으로 보아 초기 침입 탐지에 실패했음을 시사합니다. 영향을 받은 고객의 예약 정보와 개인 데이터가 유출되었을 가능성이 있습니다. 이 사건은 호텔 체인과 여행 업계 전반에 보안 강화의 필요성을 재확인시켜 줍니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/bwh-hotels-says-hackers-had-access-to-reservation-data-for-6-months/",
-      "date": "2026-05-12"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "무료 OnlyFans 미끼로 유포되는 크로스 플랫폼 CRPx0 악성코드",
-      "summary": "사이버 위협 행위자들이 무료 OnlyFans 콘텐츠 접근을 미끼로 사용하여 CRPx0 악성코드를 여러 플랫폼에 걸쳐 유포하고 있습니다. 이 악성코드는 Windows, macOS, Linux 등 다양한 운영 체제를 감염시킬 수 있는 크로스 플랫폼 특성을 가지고 있습니다. 사용자들은 합법적이지 않은 콘텐츠 접근 제안에 응할 경우 악성코드 감염 위험에 노출되고 있습니다. 보안 전문가들은 의심스러운 링크나 다운로드에 주의할 것을 권고하고 있으며, 정기적인 보안 업데이트와 신뢰할 수 있는 보안 소프트웨어의 사용을 강조하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/free-onlyfans-lure-used-to-spread-cross-platform-crpx0-malware/",
-      "date": "2026-05-12"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Canvas 교육용 플랫폼에서 탈취된 데이터 삭제에 합의",
-      "summary": "Canvas 교육용 플랫폼을 운영하는 Instructure가 해커들과 탈취된 데이터 삭제에 합의했습니다. ShinyHunters로 추정되는 해킹 집단은 대규모 학생 및 교직원 정보를 포함한 민감한 데이터를 탈취한 후 신원 공개 협박(랜섬웨어) 공격을 시행했습니다. 회사는 해커들과의 협상을 통해 탈취된 데이터의 삭제에 합의하였으나, 구체적인 합의 조건과 지불 규모는 공개되지 않았습니다. 이번 사건은 교육기관을 대상으로 한 사이버 공격이 증가하고 있음을 보여주는 사례입니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/deal-reached-with-hackers-to-delete-data-stolen-from-the-canvas-educational-platform/",
-      "date": "2026-05-12"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "웨스트 파마슈티컬 서비스, 파괴적인 랜섬웨어 공격 피해",
-      "summary": "의약품 제조업체인 웨스트 파마슈티컬 서비스(West Pharmaceutical Services)가 랜섬웨어 공격으로 인한 심각한 보안 침해 사건을 겪었습니다. 이 공격으로 인해 회사의 IT 시스템이 상당한 피해를 입었으며 업무 운영이 중단되었습니다. 해당 공격은 의료 산업을 대상으로 한 지속적인 사이버 위협의 일환으로 보입니다. 의료 업계는 민감한 환자 정보와 중요한 인프라를 보유하고 있어 랜섬웨어 공격자들의 주요 표적이 되고 있습니다. 이번 사건은 의료 공급망 보안의 중요성과 강화된 사이버보안 조치의 필요성을 재확인시켜줍니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/west-pharmaceutical-services-hit-by-disruptive-ransomware-attack/",
-      "date": "2026-05-12"
     }
   ],
-  "totalItems": 2344,
+  "totalItems": 2353,
   "hasArchive": true
 }

@@ -3,6 +3,87 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "국가안보실 3차장에 송기호 현 경제안보비서관 임명... 이재명 대통령 인사 단행",
+      "summary": "국가안보실 1차장에는 강건작 대통령 직속 미래국방전략위원회 위원홍보소통수석에 성기홍 전 연합뉴스 사장, 민정수석에 한찬식 변호사 발탁[보안뉴스 원병철 기자] 이재명 대통령이 21일 대통령 비서실 홍보소통수석과 민정수석, 사회수석은 물론 국가안보실 1차장과 3차장을 교체하는 인사를 단행했다. 국가안보실 1차장에는 강건작 대통령 직속 미래국방전략위원회 위원이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144234&kind=&sub_kind=",
+      "date": "2026-06-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "프랑스 대통령, 미국에 최첨단 AI 공유 촉구 및 민주주의 국가들의 규제 협력 요청",
+      "summary": "프랑스 대통령이 미국에 대해 최첨단 인공지능 기술 공유를 촉구하고 있습니다. 이는 민주주의 국가들이 AI 규제에 대해 협력해야 한다는 입장을 나타냅니다. 프랑스는 EU의 강력한 AI 규제 입장을 대변하면서 미국과의 기술 격차 해소를 요구하고 있습니다. 이는 글로벌 AI 산업에서 미국의 기술 독점을 견제하고 국제적 규제 협력을 강화하려는 취지로 보입니다. 민주주의 국가들 간의 AI 규제 기준 통일과 투명성 강화가 주요 요구사항으로 제시되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/french-president-urges-us-to-share-cutting-edge-ai-and-democracies-to-cooperate-on-regulation/",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 프린츠 오이겐 랜섬웨어, 최근 수정 파일 우선 암호화",
+      "summary": "프린츠 오이겐이라는 새로운 랜섬웨어 조직이 등장했습니다. 이 악성코드는 최근에 수정된 파일들을 우선적으로 암호화하는 특징을 가지고 있습니다. 시스템에 랜섬 메모를 남기지 않으며, 이중 갈취(Double-Extortion) 방식으로 운영되는 것으로 보입니다. 이러한 전략은 공격자가 빠르게 중요한 파일에 접근하고 감지를 회피하려는 목적으로 설계된 것으로 분석됩니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, Mastra AI 공급망 공격을 북한 해커 집단에 연결",
+      "summary": "마이크로소프트는 140개 이상의 npm 패키지를 손상시킨 Mastra AI 공급망 공격을 북한의 해킹 집단인 Sapphire Sleet(BlueNoroff로도 알려짐)에 의한 것으로 귀속시켰다. 이번 공격은 오픈소스 소프트웨어 저장소를 통해 대규모 개발자 커뮤니티에 영향을 미쳤다. Sapphire Sleet은 금융 기관과 기술 회사를 대상으로 한 악명 높은 북한 지원 해킹 그룹이다. 이번 사건은 소프트웨어 공급망 보안의 취약성을 다시 한 번 드러냈으며, 개발자들에게 의존성 관리와 패키지 검증의 중요성을 상기시킨다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[한국정보보호학회 칼럼] 에이전틱 AI와 피지컬 AI 시대, 이제 그 본질은 ‘권한 거버넌스’다",
+      "summary": "AI는 더 이상 애플리케이션의 부가 기능이 아니라, 조직의 권한 체계 안에서 움직이는 “행위자”에이전트, 사용자 계정의 부속 기능이 아니라 독립된 비인간 신원(Non-Human Identity)으로 관리해야[보안뉴스= 권태경 한국정보보호학회 AI보안연구회 위원장] 요즘 우리는 생성형 AI를 필두로 에이전틱 AI와 피지컬 AI를 넘나드는 초시대적 발전을 매일",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144206&kind=&sub_kind=",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 44] 낮말은 새가 듣고 밤말은 쥐가 듣는다(4)-이메일 하나로 털리는 구조",
+      "summary": "이메일 주소는 업무용과 개인용(가입용)을 분리하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐,",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143631&kind=&sub_kind=",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "8만6644대의 FortiGate 기기에 취약점... CISA와 NCSC, 포티넷 사용자에게 ‘경고’",
+      "summary": "미국 CISA 및 영국 NCSC 등 주요 국가 보안기관 ‘포티블리드’ 공격 주의보무차별 대입 공격 및 자격 증명 탈취 등 이용... 포티넷 방화벽 및 VPN 게이트웨이 노려[보안뉴스 원병철 기자] 미국 사이버보안 및 인프라 보안국(CISA)과 영국 국가사이버보안센터(NCSC)는 18일(목요일, 현지 시각) 포티게이트 어플라이언스를 사용하는 포티넷 고객들에게",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144214&kind=&sub_kind=",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[인사] 과학기술정보통신부",
+      "summary": "◇과장급 전보△연구기관혁신정책과장 조종영(趙鐘榮, 기초연구진흥과장)△기초연구진흥과장 박시정(朴是貞, 과학기술정보통신부)(2026. 6. 22. 자)[원병철 기자(boanone@boannews.com)]<저작권자: 보안뉴스(www.boannews.com) 무단전재-재배포금지>",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144208&kind=&sub_kind=",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[인사] 한국인터넷진흥원",
+      "summary": "◇단장급 보임△취약점관리센터장(TF) 배승권(2026년 6월 5일자)◇팀장급 보임△상황관제팀장 송하영(2026년 6월 22일자)◇팀장급 보임△AI종합분석팀장 김도원(2026년 6월 26일자)[원병철 기자(boanone@boannews.com)]<저작권자: 보안뉴스(www.boannews.com) 무단전재-재배포금지>",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144207&kind=&sub_kind=",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "[2026 문서보안 솔루션 리포트] 문서를 읽기 시작한 AI, “기업 문서는 과연 안전한가?”",
       "summary": "데이터 분류와 권한 관리, AI 시대 문서보안의 핵심 과제로 부상업무에 AI 활용을 지원하는 보안 체계 구축 요구 확대문서보안 인식 설문조사 결과, 문서 유출 경로 ‘이메일’이 가장 높아... ‘생성형 AI’ 3위문서보안 솔루션 전문기업 집중 분석: 블루문소프트, 마크애니, 이노티움, 수산아이앤티, 소프트캠프[보안뉴스 강초희 기자] 생성형 AI와 클라우드,",
       "category": "보안",
@@ -17688,11 +17769,11 @@
     }
   ],
   "sources": {
-    "보안뉴스": 665,
+    "보안뉴스": 671,
+    "SecurityWeek": 495,
+    "BleepingComputer": 568,
     "Dell": 159,
     "VAST Data": 46,
-    "SecurityWeek": 494,
-    "BleepingComputer": 566,
     "HPE": 35
   }
 }
