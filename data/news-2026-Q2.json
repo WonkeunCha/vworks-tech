@@ -3,6 +3,258 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "미토스 수출통제 와중에... 오픈AI, 보안동맹 ‘데이브레이크’ 확장",
+      "summary": "[보안뉴스 강현주 기자] 앤트로픽의 AI 모델 ‘미토스’가 미국 행정부로부터 수출 통제에 걸린 가운데, 오픈AI의 사이버 보안 협력 프로그램인 ‘데이브레이크’가 확장 계획을 발표했다. 오픈AI는 보안 특화 AI 모델 ‘GPT-5.5-사이버’의 정식 버전을 22일(현지시간) 일부 기관을 대상으로 출시했다. ‘데이브레이크’ 참여 기관도 글로벌 보안 기업 30개",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144283&kind=&sub_kind=",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "리테일트렌드, 매장 변화 감지 및 분석까지 AI로 한 번에",
+      "summary": "리테일트렌드, 씨프로의 AI 기반 방문객 분석 서비스소형 매장 올인원 분석 서비스 ‘리테일트렌드 V2’ 출시매대 변경 시, AI가 알아채고 분석[보안뉴스 엄호식 기자] AI 기반 영상보안 전문 업체 씨프로(대표 이영수)에서 운영하는 AI 기반 방문객 분석 서비스 ‘리테일트렌드’가 매장의 레이아웃과 집기, 매대, POP 등의 변화를 인공지능(AI)이 스스로",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144282&kind=&sub_kind=",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "미국 텔레다인 플리어 시스템스, Boson® SX8 열화상 카메라 출시",
+      "summary": "Boson SX8, 적외선 열화상 카메라 모듈로 크기, 무게, 전력(SWaP) 최소화되도록 설계탐지와 인지, 식별(DRI) 거리 확장 및 장거리 목표물 영상 더 선명하게 제공[보안뉴스 엄호식 기자] 미국 텔레다인 플리어 시스템사(Teledyne FLIR Commercial Systems)의 열화상 카메라 OEM 모듈 사업의 한국 판매 대리점 아이알켄이 Bo",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144281&kind=&sub_kind=",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "엑스게이트, 자사 홈페이지 PQC 전환... 자체 솔루션으로 양자보안 모델 검증",
+      "summary": "CDN 종속 탈피한‘SSL INSIDE’ 기반 독자 암호화 모델 구축내부망 사각지대 원천 차단해 공공·국방 등 ‘폐쇄망’ 적용 가능성 증명[보안뉴스 조재호 기자] 엑스게이트가 자체 솔루션인 ‘SSL INSIDE’를 활용해 자사 웹사이트 통신 구간을 차세대 ‘양자내성암호’(PQC) 체계로 전면 전환했다고 밝혔다. 외부 통신망 이용이 원천 제한되는 금융 및 국",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144280&kind=&sub_kind=",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "델 테크놀로지스, HPC 및 AI를 위한 차세대 슈퍼컴 서버 신제품 공개",
+      "summary": "엔비디아 기반 델 AI 팩토리에 추가된 신규 모델 ‘델 파워엣지 XE8812’OCP 표준 랙 아키텍처인 델 파워랙 9100에서 랙당 최대 144개의 GPU 탑재 [보안뉴스 강초희 기자] 델 테크놀로지스(Dell Technologies)가 엔비디아 베라 루빈(NVIDIA Vera Rubin) NVL4 아키텍처를 채용한 서버 신제품 ‘델 파워엣지 XE8812’",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144278&kind=&sub_kind=",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "‘세금 위반 통지’ 위장한 APT 공격 ‘실버폭스’ 주의",
+      "summary": "감염된 장치 원격 접근해 민감 데이터 유출[보안뉴스 강현주 기자] ‘세금 위반 통지’라는 문서로 위장한 지능형 지속 공격(APT)이 포착돼 주의를 요한다.카스퍼스키(한국지사장 이효은)는 자사 글로벌 연구 분석팀(GReAT)이 세금 위반 관련 통지 문서로 위장해 악성 파일을 배포하는 APT 공격인 ‘실버폭스’(SilverFox)를 탐지했다고 23일 밝혔다.",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144279&kind=&sub_kind=",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "항상 준비되어, 결코 방해하지 않다: 의료 혁신을 위한 현대적 기초",
+      "summary": "Dell 관리형 서비스는 의료 및 생명과학 조직이 임상, 연구 및 AI 이니셔티브를 보다 빠르게 추진할 수 있도록 지원합니다. 백그라운드에서 IT 인프라를 효율적으로 관리함으로써 의료 기관들은 핵심 의료 업무에 집중할 수 있습니다. Dell의 전문 관리형 서비스 솔루션은 복잡한 IT 운영의 부담을 덜어주고, 의료 조직이 디지털 혁신과 환자 중심의 이니셔티브에 더욱 집중하도록 합니다. 신뢰할 수 있는 인프라 지원을 통해 의료 기관은 기술 도입 시간을 단축하고 ROI를 극대화할 수 있습니다. 결과적으로 조직은 전략적 의료 목표 달성에 더 빠르게 나아갈 수 있게 됩니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/always-ready-never-in-the-way-a-modern-foundation-for-healthcare-innovation/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 시대의 효과적인 리더십",
+      "summary": "AI 시대에 효과적인 리더십을 발휘하기 위해서는 명확한 커뮤니케이션을 통해 조직 내 혼란을 줄이고 신뢰를 구축하는 것이 중요합니다. 기술 변화에 앞서 인간 중심의 가치를 우선시하는 리더는 팀원들에게 방향성을 제시하고 심리적 안정감을 제공할 수 있습니다. 브랜드와 커뮤니케이션 리더는 AI의 역할과 한계를 명확히 설명하여 조직 내 올바른 기대감을 형성해야 합니다. 투명성 있는 대화와 지속적인 피드백을 통해 변화에 대한 저항감을 낮추고 협력적 문화를 조성할 수 있습니다. 결국 AI 도구의 도입보다 인간의 창의성과 판단력을 보완하는 리더십이 조직의 진정한 경쟁력이 됩니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/leading-effectively-in-the-ai-era/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 주권 AI 연구 및 대규모 기업을 위한 슈퍼컴퓨팅 경험 단순화",
+      "summary": "HPE는 고성능 컴퓨팅(HPC)이 인공지능(AI) 및 양자컴퓨팅과 수렴함에 따라, 세계를 변화시킬 발견을 이끌어낼 수 있는 시스템 성능, 유연성, 안정성을 제공하고 있습니다. HPE의 최신 혁신은 고객들의 다양한 워크로드를 지원하고 수렴된 시대의 중요한 책임을 담당할 수 있는 강력하고 효율적인 시스템 아키텍처를 제공합니다. 2025년 11월, HPE는 업계 최고 수준의 컴퓨팅 밀도를 갖춘 새로운 슈퍼컴퓨팅 아키텍처를 출시했으며, 이는 AI 요구사항을 충족하기 위해 설계되었습니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/06/hpe-simplifies-the-supercomputing-experience-for-sovereign-ai-research-and-large-enterprises.html",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "수십 년 된 Squid 프록시 결함 'Squidbleed'가 사용자 데이터 노출 가능",
+      "summary": "Squid 프록시 소프트웨어에서 수십 년간 존재해온 보안 취약점인 'Squidbleed'가 발견되었습니다. 이 결함은 메모리 누수를 통해 사용자의 민감한 데이터가 노출될 수 있는 위험을 야기합니다. SecurityWeek의 보도에 따르면 이 취약점은 데이터 보호 측면에서 심각한 위협이 될 수 있습니다. Squid는 널리 사용되는 프록시 소프트웨어로, 이번 발견은 많은 조직의 보안에 영향을 미칠 수 있습니다. 해당 취약점의 상세 내용과 해결 방안에 대한 관심이 높아지고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/decades-old-squid-proxy-flaw-squidbleed-can-expose-user-data/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "공격자들이 Gravity SMTP 플러그인 결함을 악용하여 WordPress 데이터 수집",
+      "summary": "공격자들이 Gravity SMTP 플러그인의 보안 취약점을 악용하여 WordPress 사이트에서 중요한 데이터를 탈취하고 있습니다. 이 플러그인은 WordPress 사용자들 사이에서 널리 사용되는 이메일 전송 도구로, 해당 결함을 통해 공격자는 사용자 정보 및 기타 민감한 데이터에 접근할 수 있습니다. SecurityWeek에 따르면 이러한 취약점은 이미 실제 공격에 악용되고 있는 것으로 확인되었습니다. WordPress 관리자들은 즉시 해당 플러그인을 업데이트하고 보안 패치를 적용할 것을 권고받고 있습니다. 이번 사건은 인기 있는 플러그인의 보안 관리의 중요성을 다시 한 번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/attackers-exploit-gravity-smtp-plugin-flaw-to-harvest-valuable-wordpress-data/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "북한 해커들이 Mastra NPM 공급망 공격의 배후로 지목됨",
+      "summary": "보안 전문가들이 북한 해킹 그룹을 NPM(Node Package Manager) 패키지인 Mastra를 대상으로 한 공급망 공격의 주범으로 지목했습니다. 이 공격은 오픈소스 소프트웨어 개발자들이 사용하는 NPM 저장소를 통해 악의적인 코드를 배포하려는 시도로 파악됩니다. Mastra는 인기 있는 개발 도구로서 광범위한 개발자 커뮤니티에 영향을 미칠 수 있는 위험한 목표였습니다. 이번 사건은 오픈소스 공급망 보안의 취약점을 드러내며, 개발자들이 사용하는 패키지에 대한 철저한 검증의 중요성을 강조합니다. 보안 전문가들은 NPM 패키지 신뢰성 강화 및 지속적인 모니터링을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/north-korean-hackers-blamed-for-mastra-npm-supply-chain-attack/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "최신 ShinyHunters 침해사고가 드러내는 현대 사이버공격의 특징",
+      "summary": "ShinyHunters는 현대 사이버공격의 새로운 트렌드를 보여주는 악의적인 해킹 그룹입니다. 최근 침해사고들은 정보 탈취 악성코드(infostealer)를 활용한 대규모 데이터 유출 공격의 증가를 시사합니다. 이러한 공격들은 조직의 보안 취약점을 악용하여 민감한 정보를 대규모로 탈취하는 방식으로 진행되고 있습니다. ShinyHunters의 활동 패턴을 분석하면 현대 사이버범죄의 고도화된 기법과 조직화된 운영 체계를 이해할 수 있습니다. 기업들은 이러한 위협에 대응하기 위해 강화된 접근 통제와 지속적인 보안 모니터링이 필수적입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/what-the-latest-shinyhunters-breaches-reveal-about-modern-cyberattacks/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "애플 부팅 방어 시스템을 우회하는 새로운 익스플로잇 발견, 수백만 대의 아이폰 영향",
+      "summary": "보안 전문가들이 애플의 부팅 방어 메커니즘을 우회할 수 있는 새로운 익스플로잇을 발견했습니다. 이 취약점은 USB 연결을 통해 악용될 수 있으며, 수백만 대의 아이폰이 잠재적 위협에 노출되어 있습니다. 'USBLiter8'로 명명된 이 익스플로잇은 기기의 보안 부팅 프로세스를 무력화할 수 있어 공격자가 시스템에 대한 통제권을 획득할 수 있습니다. 애플은 이 문제에 대한 즉각적인 패치를 개발 중인 것으로 알려졌습니다. 사용자들은 의심스러운 USB 기기 연결을 피하고 보안 업데이트를 빠르게 설치할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/new-exploit-bypasses-apples-boot-defenses-affects-millions-of-iphones/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "포티넷, FortiBleed 캠페인에 대응",
+      "summary": "포티넷(Fortinet)은 FortiBleed 자격증명 탈취 캠페인에 대해 공식 입장을 발표했습니다. 이 캠페인은 새로운 취약점을 악용하는 것이 아니라 과거 보안 사건에서 유출된 로그인 정보를 재사용하는 방식으로 작동합니다. 포티넷은 현재 사용자들에게 보안 업데이트 및 예방 조치를 권고하고 있습니다. 이번 캠페인은 네트워크 보안 분야에서 주목할 만한 위협으로 분류되고 있으며, 기업들은 기존 자격증명 탈취 위험에 대한 대비를 강화해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/fortinet-responds-to-fortibleed-campaign/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "더 많은 사이버보안 기업들이 Klue 해킹 피해 공개",
+      "summary": "여러 사이버보안 기업들이 Klue 해킹 사건으로 인한 피해를 추가로 공개했습니다. 이는 공급망 공격으로 분류되는 사건으로, 단일 소스의 침해가 연쇄적인 보안 위협으로 확대되었음을 보여줍니다. Klue 플랫폼의 해킹으로 인해 여러 보안 기업들의 데이터가 영향을 받았으며, 이로 인한 추가 피해 사례들이 계속 드러나고 있습니다. 이 사건은 소프트웨어 공급망의 보안 취약성과 공급망을 통한 대규모 공격의 위험성을 강조합니다. 보안 업계에서도 공급망 공격으로부터 안전하지 않다는 점이 다시 한번 증명되었습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/more-cybersecurity-firms-disclose-impact-from-klue-hack/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "텍사스 공원야생동물청 데이터 유출, 300만 명 영향",
+      "summary": "텍사스 공원야생동물청(TPWD)에서 300만 명의 개인정보가 포함된 대규모 데이터 유출 사건이 발생했습니다. 이번 보안 침해 사건으로 인해 개인 정보가 무단으로 접근되었으며, 영향을 받은 개인들은 신원 도용과 같은 추가 위험에 노출될 수 있습니다. SecurityWeek에서 보도한 이 사건은 공공기관의 데이터 보안 관리의 중요성을 재차 강조하고 있습니다. 당국은 피해자들에게 신원 보호 서비스 제공을 포함한 대응 조치를 취하고 있으며, 유출 경위에 대한 조사가 진행 중입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/texas-parks-wildlife-data-breach-affects-3-million-individuals/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "WhatsApp 피싱 공격, 가짜 비즈니스 문서로 PC 해킹",
+      "summary": "여러 국가의 WhatsApp 사용자를 대상으로 한 악성코드 캠페인이 진행 중입니다. 공격자들은 기만적인 메시지를 통해 VBScript 파일을 배포하고 있습니다. 이러한 파일들은 감염된 시스템에 대한 원격 접근 권한을 제공합니다. 가짜 비즈니스 문서 형태의 피싱 기법을 사용하여 사용자들을 속이고 있습니다. 이 공격은 전 세계 여러 지역에서 보고되고 있으며, 사용자들의 개인정보와 시스템 보안에 심각한 위협을 가하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "JaredFromSubway MEV 봇, 1,500만 달러 암호화폐 도용 사건으로 해킹당함",
+      "summary": "이더리움 MEV(최대 추출 가능 값) 봇인 JaredFromSubway가 공격자의 조작으로 인해 1,500만 달러의 손실을 입었습니다. 공격자는 가짜 암호화폐 거래 기회를 생성하여 봇의 거래 기회 탐지 로직을 조종했습니다. 이번 사건은 디파이(DeFi) 환경에서 자동화된 거래 봇이 얼마나 취약할 수 있는지를 보여줍니다. MEV 봇은 블록체인에서 거래 순서를 조작하여 이익을 얻으려는 도구인데, 이번 해킹으로 인해 보안 강화의 필요성이 대두되었습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/jaredfromsubway-mev-bot-hacked-in-15-million-crypto-theft/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "FFmpeg, 널리 사용되는 비디오 디코더의 PixelSmash 결함 수정",
+      "summary": "FFmpeg에서 PixelSmash라는 새로운 보안 결함이 공개되었습니다. 이 취약점은 특정 조건 하에서 Jellyfin 서버에 대한 원격 코드 실행(RCE) 공격을 가능하게 합니다. 또한 Kodi, Emby, Nextcloud, PhotoPrism, OBS Studio 등의 애플리케이션에서 서비스 거부(DoS) 상태를 유발할 수 있습니다. 이 결함은 광범위하게 사용되는 비디오 디코더에 영향을 미치므로 많은 애플리케이션과 서비스의 보안에 위협이 될 수 있습니다. FFmpeg은 이 취약점을 수정한 패치를 릴리스했습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "FortiBleed 캠페인, 커스텀 FortiGate 스니퍼로 자격증명 탈취",
+      "summary": "보안 업체 SOCRadar는 Fortinet FortiGate 기기를 표적으로 하는 대규모 FortiBleed 캠페인이 커스텀 스니퍼를 사용해 손상된 방화벽에서 인증 정보를 수집하고 자격증명을 탈취했다고 발표했습니다. 이 캠페인은 FortiGate 네트워크 장비의 취약점을 악용하여 VPN 접근 자격증명을 포함한 민감한 인증 데이터를 도용했습니다. 공격자들은 맞춤형 패킷 스니핑 도구를 활용해 방화벽을 통과하는 트래픽에서 직접 자격증명을 추출했습니다. 이는 기업의 핵심 보안 인프라가 얼마나 취약할 수 있는지를 보여주는 심각한 사이버보안 위협입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, Windows 11 26H2 곧 출시 예정, 업그레이드 프로세스 공개",
+      "summary": "마이크로소프트는 Windows 11 버전 26H2이 다음 기능 업데이트임을 확인했습니다. Windows 11 24H2 및 25H2를 실행 중인 기기들은 소규모 활성화 패키지를 사용하여 26H2로 업그레이드할 수 있을 것으로 예상됩니다. 이번 업그레이드는 전체 OS 재설치 없이 간단한 패키지 설치 방식으로 진행될 것으로 보입니다. 마이크로소프트는 사용자들이 새로운 기능과 보안 개선사항을 신속하게 적용할 수 있도록 이러한 간편한 업그레이드 경로를 제공하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-windows-11-26h2-is-coming-soon-details-upgrade-process/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, AutoGen Studio 코드 실행 취약점 패치",
+      "summary": "마이크로소프트가 AI 에이전트 프로토타이핑 인터페이스인 AutoGen Studio의 취약점 체인 'AutoJack'을 수정했습니다. 이 취약점을 통해 공격자들은 악성 웹페이지 방문만으로 AI 에이전트를 조종하여 호스트 시스템에서 임의의 명령을 실행할 수 있었습니다. 이는 원격 코드 실행(RCE) 공격으로 분류되는 심각한 보안 위협입니다. 마이크로소프트의 신속한 패치로 이 취약점이 해결되었으며, 사용자들은 최신 버전으로 업데이트할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-autogen-studio-flaw-that-enabled-code-execution/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "도난당한 자격증명을 검색하는 '타겟 검색' 암시장 현황",
+      "summary": "사이버 공격자들은 더 이상 대규모 유출된 자격증명 데이터베이스를 직접 뒤지지 않아도 된다. 그 대신 다른 사람들에게 비용을 지불하고 이 작업을 대행받을 수 있다. 지하 시장에서는 특정 기업, 도메인, 계정을 대상으로 도난당한 자격증명 데이터베이스를 검색해주는 새로운 서비스가 등장하고 있다. 이러한 '타겟 검색' 시장은 공격자들이 피해 대상을 더 효율적으로 찾을 수 있도록 지원함으로써 사이버 보안 위협을 심화시키고 있다. 보안 연구 회사 Flare는 이 신흥 암시장의 구조와 운영 방식을 분석하여 공개했다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[PIS FAIR 2026] ‘개인정보 처리방침’ 평가해보니... “생성형 AI 기업 가장 미흡”",
+      "summary": "개인정보위 평가 결과 ‘통신’이 가장 우수공공 개인정보 보호수준 평가, 올해 테마는 ‘내부자’[보안뉴스 강현주 기자] 개인정보보호위원회가 대상 기업들의 ‘개인정보 처리방침’을 평가한 결과 ‘통신’ 분야 기업들이 가장 우수하고 ‘생성형 AI’ 기업들이 가장 미흡한 것으로 나타났다. 22일 열린 제15회 개인정보보호페어 & CPO 워크숍(PIS FAIR 202",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144277&kind=&sub_kind=",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "신라대-한국경비협회, 경비·보안 분야 전문인력 양성 및 산학협력 강화 위한 업무협약 체결",
+      "summary": "경비·보안 분야 전문인력 양성을 위한 교육과정 개발 및 운영교육 수료생 취업 정보 제공 및 채용 연계 등 상호 협력[보안뉴스 엄호식 기자] 신라대학교는 6월 19일 총장접견실에서 한국경비협회 중앙회와 경비·보안 분야 전문인력 양성 및 산학협력 강화를 위한 업무협약(MOU)을 체결했다. 협약식에는 이범진 신라대학교 부총장과 동중영 한국경비협회 중앙회 회장이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144276&kind=&sub_kind=",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[PIS FAIR 2026] 사전 예방 불가능한 AI 시대... “사후 입증 중심 방어 거버넌스 확립해야”",
+      "summary": "PIS FAIR 2026 법률 세션... 김진환 대표·최신영 변호사 강연개인정보보호법 개정안에 CEO 총괄 책임 명문화... 이사회 중심 연대 방어망 구축 필요미국 최신 판례 속 AI 쟁점 조명[보안뉴스 조재호 기자] 22일 서울 코엑스에서 개최된 PISFAIR 2026 법률 세션에서는 AI 시대 기업 생존을 위한 법률적 방어 전략이 심도 있게 다뤄졌다.",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144275&kind=&sub_kind=",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[PIS FAIR 2026] “강력한 브레이크가 F1 질주 이끈다” 김홍선 고문이 말하는 AI 시대 개인정보보호",
+      "summary": "“클로드 미토스 등장에 낡은 규제 순응형 보안 체계 붕괴” 진단제재 리스크 커져... CEO 중심 현업·보안·감사 보안 체계 역설[보안뉴스 조재호 기자] “F1 레이스는 직선 질주가 아니라 얼마나 효율적으로 코너링을 잘했느냐에 승부가 갈립니다. AI 시대의 보안도 마찬가집니다. 혁신을 제어하기 위한 강력한 브레이크 역할을 할 때, 진정한 AI 혁신이 가능합",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144272&kind=&sub_kind=",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "신라대, 한국민간경비학회·한국항공보안학회 공동학술세미나 성황리 개최",
       "summary": "공항·항만도시 부산의 복합보안체계 구축 방안 논의민간경비·항공보안 전문가 참여해 정책·기술 과제 공유AI 치안기술과 신공항 보안검색체계 혁신 방안 집중 조명[보안뉴스 강초희 기자] 신라대학교는 지난 19일 인문관 5층 최선화 강의실에서 ‘공항과 항만의 도시 부산, 복합보안체계 구축을 논하다‘라는 주제로 한국민간경비학회와 한국항공보안학회가 공동학술세미나를 성",
       "category": "보안",
@@ -17868,11 +18120,11 @@
     }
   ],
   "sources": {
-    "보안뉴스": 681,
-    "BleepingComputer": 569,
-    "SecurityWeek": 495,
-    "Dell": 159,
-    "VAST Data": 46,
-    "HPE": 35
+    "보안뉴스": 691,
+    "Dell": 161,
+    "HPE": 36,
+    "SecurityWeek": 503,
+    "BleepingComputer": 576,
+    "VAST Data": 46
   }
 }
