@@ -2,6 +2,276 @@
   "quarter": "2026-Q2",
   "items": [
     {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Anthropic의 Mythos 모델이 미국 정부 기밀 시스템의 취약점 발견",
+      "summary": "Anthropic이 개발한 Mythos 인공지능 모델이 미국 정부의 기밀 시스템에서 보안 취약점을 발견한 것으로 관계자가 확인했습니다. 이는 AI 모델이 정부 기관의 사이버보안 평가에 활용되고 있음을 보여주는 사례입니다. Mythos 모델이 발견한 취약점들은 분류된 정부 시스템의 보안 강화에 도움을 줄 것으로 예상됩니다. 이러한 협력은 민간 AI 기업과 정부 기관 간의 보안 협력 모델을 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/anthropics-mythos-model-found-vulnerabilities-in-classified-us-government-systems-official-says/",
+      "date": "2026-06-24"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "금융보안원·인터넷은행 3사, 연합학습 기반 ‘보이스피싱 탐지 AI 공동모델’ 가동",
+      "summary": "원본 데이터 공유 없이 가중치만 병합하는 ‘연합학습’ 기술로 프라이버시 보호 맹점 극복개별 모델 대비 탐지 정밀도 최대 205퍼센트 향상... 신종 자금세탁 및 소액 피싱 적발[보안뉴스 조재호 기자] 금융보안원은 카카오뱅크, 토스뱅크, 케이뱅크 등 인터넷전문은행 3사와 협력해 연합학습 기법을 적용한 ‘보이스피싱 탐지 AI 공동모델’을 개발했다고 24일 밝혔",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144298&kind=&sub_kind=",
+      "date": "2026-06-24"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "KISA 주도 민관 연합, 필리핀 국가사이버안전센터 구축한다",
+      "summary": "에어키·파이오링크·한국통신인터넷기술 참여 4년간 현지 인프라 지원전문 인력 양성 및 보안 모델 수립... 사이버 위기 대응 체계 구축 지원[보안뉴스 조재호 기자] 민관 보안 컨소시엄이 필리핀 국가사이버안전센터 구축을 위한 사업관리 컨설팅(PMC) 용역 본계약을 체결하며 국내 보안 역량의 수출 사례를 추가했다.한국인터넷진흥원(KISA)은 한국국제협력단(KOI",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144300&kind=&sub_kind=",
+      "date": "2026-06-24"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "인도 타타일렉트로닉스, 해킹 공격으로 내부 데이터 유출... 위탁 생산 애플 제품 정보 유출 가능성",
+      "summary": "해커 그룹 월드리크스 소행 추정[보안뉴스 한세희 기자] 인도 전자제품 위탁생산 기업 타타일렉트로닉스가 해킹 공격으로 기업 정보가 유출됐다. 이 회사는 애플과 테슬라 제품 을 생산한다. 타타일렉트로닉스는 몇주 전 IT 인프라 일부에 사이버 공격을 받았다고 언론에 확인했다. 다만, 회사 운영은 정상적으로 이뤄지고 있다고 밝혔다. 타타일렉트로닉스는 공격 주체",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144299&kind=&sub_kind=",
+      "date": "2026-06-24"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "에스투더블유, 일본 도쿄 거점 확보… “데이터 기반 현지 보안 수요 대응”",
+      "summary": "도쿄 기자간담회 통해 밀착형 현지 사업 전략 및 파트너 확장 계획 발표디지털 전환(DX) 가속화되는 일본 산업계 대상 맞춤형 솔루션 공급 예고[보안뉴스 조재호 기자] 에스투더블유(S2W)가 일본 도쿄에 현지법인을 공식 출범하며 보안 시장 점유율 확대에 나섰다. 회사는 23일 도쿄에서 기자간담회 및 개소식을 열고 현지 사업 전략과 사이버보안 기술 로드맵을 발",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144297&kind=&sub_kind=",
+      "date": "2026-06-24"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "글로벌 해커 조직 ‘스캐터드 스파이더’ 재판 첫날부터 유죄 인정",
+      "summary": "디지털 포렌식 증거에 덜미 ‘심 스와핑` 등 인적 맹점 파고든 수법 시인다중인증 무력화하는 사회공학적 기법에 기업 내부 검증 프로세스 보완 필요해[보안뉴스 조재호 기자] 글로벌 해킹 조직 ‘스캐터드 스파이더’(Scattered Spider) 조직원들이 재판 첫날부터 유죄를 인정했다.영국에서 열린 재판에서 스캐터드 스파이더 소속 두 남성이 지난 2024년 대",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144296&kind=&sub_kind=",
+      "date": "2026-06-24"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "넷유, 와이파이 6 공유기 ‘네티스 AX3000’ 출시",
+      "summary": "6월 30일까지 공식 스토어에서 3만9900원 특가 판매 진행WPA3·메시 기능 지원 및 3년 무상 보증 제공[보안뉴스 강초희 기자] 네트워크 전문 기업 넷유(대표 한승구)가 최신 802.11ax 표준 규격인 와이파이 6(Wi-Fi 6)를 지원하는 AX3000급 기가 와이파이 공유기 ‘네티스 AX3000’을 공식 출시하고, 이를 기념해 할인 프로모션을 진행",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144295&kind=&sub_kind=",
+      "date": "2026-06-24"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "현대차·기아, 한미일 사이버보안 협력 주도... 경제대화 내 워킹그룹 출범",
+      "summary": "“국가와 업종 넘어선 글로벌 협력 체계 구축”[보안뉴스 강현주 기자] 현대자동차·기아가 한국과 미국, 일본의 정제계 리더들과 사이버보안 글로벌 협력 체계를 이끈다. 현대자동차·기아는 ‘한미일 경제대화’(TED, Trilateral Executive Dialogue) 내 사이버보안 워킹그룹을 창설하고, 현대자동차그룹 본사(서초구 양재동)에서 첫 세미나를 개최",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144294&kind=&sub_kind=",
+      "date": "2026-06-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 세계에서 가장 강력한 슈퍼컴퓨터 10대 중 6대 공급",
+      "summary": "HPE는 2026년 6월 TOP500 순위에서 세계에서 가장 빠른 슈퍼컴퓨터 상위 10대 중 6대를 차지했습니다. HPE가 구축한 시스템 중 3대는 검증된 엑사스케일 슈퍼컴퓨터 5대 중에 포함되어 있으며, 이는 로렌스 리버모어 국립연구소의 El Capitan, 오크리지 국립연구소의 Frontier, 아르곤 국립연구소의 Aurora입니다. HPE는 TOP500에서 가장 큰 성능 점유율을 보유하고 있으며, 고성능 컴퓨팅 분야에서 고객들이 가능성의 한계를 넘어설 수 있도록 지원하는 슈퍼컴퓨터를 구축하고 있습니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/06/hpe-delivers-six-out-of-ten-of-worlds-most-powerful-supercomputers.html",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "드래고스, OT 보안을 위한 AI 공개",
+      "summary": "사이버보안 회사 드래고스(Dragos)가 운영 기술(OT) 사이버보안을 위해 특별히 설계된 새로운 AI인 '엠버AI(EmberAI)'를 공개했습니다. 이 AI 솔루션은 산업 제어 시스템(ICS)과 운영 기술 환경의 보안을 강화하기 위해 개발되었습니다. 엠버AI는 OT 인프라에 대한 위협 탐지 및 대응 능력을 향상시키는 데 중점을 두고 있습니다. 이번 공개는 산업 시설과 중요 인프라를 보호하기 위한 AI 기술의 적용이 확대되고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/dragos-unveils-ai-for-ot-security/",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "100만 개 앱에 사용되는 Dify AI 플랫폼의 데이터 노출 취약점",
+      "summary": "Dify AI 플랫폼에서 데이터 노출 취약점이 발견되어 약 100만 개의 애플리케이션이 위협받고 있습니다. SecurityWeek에서 보도한 이 보안 결함은 클라우드 기반 AI 플랫폼 사용자들의 민감한 정보가 노출될 수 있는 심각한 위험을 야기합니다. 이번 취약점은 DifyTap을 포함한 플랫폼의 여러 부분에 영향을 미치며, 광범위한 사용자 기반을 고려할 때 상당한 보안 위협이 될 수 있습니다. 보안 전문가들은 해당 플랫폼 사용자들에게 즉시 대응을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/data-exposure-flaws-threaten-dify-ai-platform-powering-over-1-million-apps/",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "8년 된 삼성 KNOX 결함, 수백만 갤럭시 기기를 커널 공격에 노출",
+      "summary": "삼성의 보안 플랫폼인 KNOX에서 8년간 방치된 보안 결함(CVE-2026-20971)이 발견되었으며, 이 취약점으로 인해 수백만 대의 갤럭시 기기들이 커널 수준의 공격에 노출되어 있었다. 이 결함은 권한 상승 공격을 통해 디바이스의 핵심 시스템에 대한 접근을 허용할 수 있어 심각한 보안 위협이 될 수 있다. SecurityWeek에서 보도한 이 사건은 모바일 기기 보안의 중요성을 재조명하고 있으며, 삼성은 이 취약점을 해결하기 위한 보안 패치를 배포할 것으로 예상된다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/eight-year-old-samsung-knox-flaw-exposed-millions-of-galaxy-devices-to-kernel-attacks/",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISO 인터뷰: Deep Instinct의 칼 프로젯 - CISO와 CIO 역할 통합",
+      "summary": "SecurityWeek의 CISO Conversations 시리즈에서 Deep Instinct의 칼 프로젯(Carl Froggett)을 인터뷰한 기사입니다. 이 기사는 한 인물이 CISO(최고정보보안책임자)와 CIO(최고정보책임자) 역할을 동시에 수행하는 현대적 조직 구조에 대해 다룹니다. 기업 보안과 IT 운영의 통합적 관점에서 전략적 의사결정이 어떻게 이루어지는지를 살펴봅니다. 이러한 역할의 통합은 조직의 보안 거버넌스와 디지털 혁신 전략을 동시에 추진하는 데 있어 효율성을 높일 수 있는 방안으로 제시됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ciso-conversations-carl-froggett-combining-ciso-and-cio-at-deep-instinct/",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "알제리 남성, 사이버범죄 마켓플레이스 운영 혐의로 미국에 송환",
+      "summary": "알제리 국적의 한 남성이 불법 사이버범죄 마켓플레이스를 운영한 혐의로 미국으로 송환되었습니다. 이 사건은 국제 사이버범죄 단속 및 법 집행 부서의 협력을 통해 이루어졌으며, 온라인 범죄 시장의 확산에 대한 글로벌 대응의 일환입니다. 해당 마켓플레이스는 해킹 도구, 개인정보, 불법 서비스 등 다양한 사이버범죄 관련 물품과 서비스를 거래하는 플랫폼으로 운영되었던 것으로 파악됩니다. 이번 사건은 국제 법 집행기관들이 국경을 넘어 사이버범죄 조직을 적극적으로 추적하고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/algerian-man-extradited-to-us-for-running-cybercrime-marketplaces/",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "FFmpeg PixelSmash 결함, 비디오 플레이어·미디어 서버·NAS 기기에서 원격 코드 실행 허용",
+      "summary": "FFmpeg에서 발견된 'PixelSmash'라는 보안 결함이 비디오 플레이어, 미디어 서버, NAS 어플라이언스 등 다양한 기기에서 원격 코드 실행(RCE)을 가능하게 한다. 이 취약점은 FFmpeg 라이브러리를 사용하는 광범위한 멀티미디어 애플리케이션과 네트워크 장치에 영향을 미칠 수 있다. 공격자는 악의적으로 조작된 비디오 파일을 통해 영향받은 시스템에서 임의의 코드를 실행할 수 있다. 이 결함은 스트리밍 서비스, 미디어 플레이어, 그리고 NAS 장치의 보안에 심각한 위협이 될 수 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ffmpeg-pixelsmash-flaw-allows-rce-on-video-players-media-servers-nas-appliances/",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpenAI, 취약점 발견보다 패치에 사이버보안 역량 집중",
+      "summary": "OpenAI가 사이버보안 전략을 재편성하여 새로운 취약점 발견보다는 발견된 취약점의 패치에 더 많은 자원을 할당하고 있습니다. 이는 이미 알려진 보안 위협에 대한 신속한 대응과 시스템 강화에 우선순위를 두겠다는 의지를 보여줍니다. OpenAI의 GPT 기반 사이버보안 도구들을 통해 이러한 패치 작업을 가속화할 계획입니다. 이러한 정책 변화는 조직의 현실적인 보안 태세 개선에 초점을 맞추려는 노력으로 해석됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/openai-refocuses-cybersecurity-efforts-on-patching-over-discovery/",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "FortiBleed 캠페인의 배후는 러시아 초기 접근 브로커",
+      "summary": "러시아의 초기 접근 브로커(IAB)가 Fortinet 장비를 대상으로 한 'FortiBleed' 캠페인의 배후로 지목되었습니다. 이 캠페인은 FortiGate 방화벽의 취약점을 악용하여 네트워크에 불법적으로 접근하는 방식으로 작동합니다. 초기 접근 브로커들은 침입한 시스템에 대한 접근 권한을 판매하여 다른 사이버범죄 조직이 추가 공격을 수행하도록 합니다. 이번 사건은 러시아 기반 사이버범죄 인프라의 지속적인 위협을 보여주는 사례입니다. 조직들은 Fortinet 장비의 보안 패치를 긴급으로 적용하고 네트워크 침입 흔적을 점검할 필요가 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/russian-initial-access-broker-behind-fortibleed-campaign/",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "캐나다 전력 공급업체 London Hydro 데이터 유출 공개",
+      "summary": "캐나다의 전력 공급업체 London Hydro가 데이터 유출 사건을 공개했습니다. 이번 사건은 주요 기반시설인 전력망에 대한 사이버 보안 위협을 드러냅니다. 회사는 고객 정보가 포함된 데이터가 유출되었음을 확인했습니다. 이는 중요 인프라 부문의 사이버 공격 증가 추세를 반영합니다. 해당 사건은 에너지 부문의 보안 강화 필요성을 강조합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/canadian-electricity-provider-london-hydro-discloses-data-breach/",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "시스코 Unified CM 취약점 CVE-2026-20230, 현재 공격에 악용 중",
+      "summary": "시스코 Unified Communications Manager Server의 심각한 SSRF(Server-Side Request Forgery) 취약점인 CVE-2026-20230이 실제 공격에서 악용되고 있습니다. 이 취약점은 Cisco Unified CM WebDialer와 관련된 것으로, 공격자들이 이미 이를 이용한 활동을 전개하고 있는 상황입니다. 해당 취약점으로 인해 네트워크 침투 및 내부 시스템 접근이 가능할 수 있어 위협 수준이 높습니다. 시스코 사용자들은 긴급히 보안 패치를 적용하여 시스템을 보호해야 합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "타타 일렉트로닉스, 사이버공격 확인 및 해커의 데이터 유출",
+      "summary": "타타 일렉트로닉스가 자사 IT 인프라 일부에 영향을 미친 사이버공격의 피해자임을 공식 확인했습니다. 해커들이 공격을 통해 획득한 데이터를 유출시킨 것으로 알려졌습니다. 이번 사건은 애플과 관련된 주요 공급업체인 타타 일렉트로닉스가 대규모 데이터 유출 위협에 노출되었음을 시사합니다. 공격자들은 유출된 데이터를 활용해 랜섬웨어 또는 강탈 목적의 협박을 시도할 가능성이 있습니다. 현재 보안 커뮤니티에서는 이번 공격의 전체 규모와 영향 범위를 파악하기 위한 조사가 진행 중입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/tata-electronics-confirms-cyberattack-as-hackers-leak-data/",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Windows 11 KB5095093 업데이트, 새로운 '특정 시점 복원' 기능 출시",
+      "summary": "마이크로소프트가 Windows 11 24H2 및 25H2 버전을 위한 KB5095093 프리뷰 누적 업데이트를 출시했습니다. 이번 업데이트는 수많은 버그를 수정하면서 동시에 새로운 '특정 시점 복원(Point-in-Time restore)' 기능을 포함한 새로운 기능들을 단계적으로 배포하고 있습니다. 특정 시점 복silon 기능은 사용자들이 시스템을 이전의 특정 시점으로 복원할 수 있도록 하는 향상된 복구 옵션입니다. 이는 시스템 오류나 문제 발생 시 사용자의 데이터 보호와 시스템 안정성을 높이는 데 목적이 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5095093-update-rolls-out-new-point-in-time-restore-feature/",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "의료기술 회사 Xolis, 140만 명 개인정보 유출",
+      "summary": "의료기술 회사 Xsolis가 피싱 공격으로 인해 약 140만 명의 민감한 개인정보가 유출되었다고 발표했습니다. 해커들은 피싱 공격을 통해 회사 네트워크에 접근 권한을 확보했습니다. 이번 사건으로 인해 고객들의 개인정보와 의료 관련 데이터가 침해되었습니다. 회사는 영향을 받은 개인들에게 이를 통지하고 있으며, 보안 사건에 대한 조사를 진행 중입니다. 이 사건은 의료 산업의 사이버보안 위험성을 다시 한번 부각시키고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/healthtech-firm-xolis-suffers-data-breach-impacting-14-million-people/",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 macOS ClickFix 공격, DMG 파일을 통해 정보 탈취 악성코드 배포",
+      "summary": "새로운 macOS ClickFix 캠페인이 터미널 명령어를 악용하여 악성 디스크 이미지(DMG) 파일로부터 정보 탈취 악성코드를 몰래 다운로드, 마운트 및 실행하고 있습니다. 이 공격 기법은 사용자의 눈에 띄지 않게 악성 소프트웨어를 설치하는 것을 목표로 하고 있습니다. 공격자들은 정상적인 시스템 명령어를 이용하여 보안 탐지를 우회하려고 시도하고 있습니다. 이러한 공격은 macOS 사용자들을 대상으로 개인 정보와 민감한 데이터 탈취를 목적으로 하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-macos-clickfix-attack-silently-mounts-dmgs-to-push-infostealer/",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "스캐터드 스파이더 멤버들, 런던 교통청 해킹으로 유죄 인정",
+      "summary": "사이버범죄 집단 스캐터드 스파이더(Scattered Spider)의 2명의 멤버가 2024년 런던 교통청(Transport for London, TfL) 시스템 해킹에 대해 유죄를 인정했습니다. 이 사건은 주요 공공 인프라를 대상으로 한 조직적인 사이버 공격으로, 런던의 대중교통 운영에 영향을 미쳤습니다. 유죄 인정으로 인해 해당 멤버들은 법적 처벌을 받게 될 것으로 예상됩니다. 이 사건은 중요 기반시설에 대한 사이버 위협의 심각성을 다시 한 번 입증하는 사례입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london/",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "공개 익스플로잇이 없어도 취약점 악용 가능성을 증명할 수 있다",
+      "summary": "최근 공개된 취약점에 대해 공격자들이 대부분의 조직이 패치를 적용하기 전에 이를 무기화할 수 있게 되었습니다. Picus Security는 공개 익스플로잇이 존재하기 전에도 보안팀이 취약점의 악용 가능성을 검증할 수 있는 방법을 제시하고 있습니다. 이는 자동화된 침투 테스트와 TTP(Tactics, Techniques, Procedures) 체인을 활용하여 실제 공격 시나리오를 사전에 테스트하는 것을 의미합니다. 이러한 접근 방식은 조직이 공식 익스플로잇 공개 전에 자신의 시스템 취약성을 파악하고 대응할 수 있게 해줍니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/the-exploit-doesnt-exist-you-can-still-prove-it-works-against-you/",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "LastPass, Klue 공급망 공격으로 인한 데이터 유출 확인",
+      "summary": "LastPass가 이달 초 발생한 Klue 공급망 공격으로 인해 고객 데이터가 유출되었음을 확인했습니다. 해커들은 Klue 공급망 공격을 통해 LastPass의 OAuth 토큰을 탈취한 후, 이를 악용하여 Salesforce 환경에서 고객 데이터에 접근했습니다. 이번 사건은 공급망 공격이 얼마나 광범위한 피해를 줄 수 있는지 보여주는 사례입니다. LastPass는 고객들에게 이 사실을 알리고 보안 강화 조치를 취하고 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "웨비나: 이메일 보안팀이 알림 폭주로 어려움을 겪는 이유",
+      "summary": "피싱, BEC(비즈니스 이메일 타협), 계정 탈취 공격이 지속적으로 보안팀을 알림과 조사로 압도하고 있습니다. 본 웨비나는 행동 기반 AI가 탐지 및 대응 워크플로우를 자동화하여 알림 피로도를 줄이고 운영 효율성을 개선하는 방법을 탐색합니다. 이를 통해 보안팀은 증가하는 위협에 더욱 효과적으로 대응할 수 있게 됩니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/webinar-why-email-security-teams-are-drowning-in-alerts/",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 47] 낮말은 새가 듣고 밤말은 쥐가 듣는다(7)-우편물 쌓아두면 생기는 위험",
+      "summary": "우편함에 고지서가 쌓이지 않게 관리하세요(이메일 고지서 추천)보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다.",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143634&kind=&sub_kind=",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "2026 IT21 글로벌 컨퍼런스, 7월 2~3일 피스앤파크 컨벤션에서 개최",
+      "summary": "“Life with AI, 일상에 스며드는 AI” 주제... AI 산업·보안·윤리·데이터 혁신 논의[보안뉴스 한세희 기자] 한국정보처리학회(학회장 박능수)는 내달 2-3일 양일간 서울 피스앤파크 컨벤션에서 ‘2026년도 IT21 글로벌 컨퍼런스’를 개최한다.이번 컨퍼런스는 “Life with AI: 일상에 스며드는 AI”를 주제로, 인공지능이 산업과 사회",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144293&kind=&sub_kind=",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "선박 설계부터 해상 치안까지... 싸이터, AI 기반 ‘해양 사이버보안’ 포트폴리오 제시",
+      "summary": "KOE 2026 참가해 선박 전 생애주기 아우르는 통합 아키텍처 공개IACS E26·E27 규제 대응 자동화로 조선업계 컴플라이언스 부담 해소[보안뉴스 조재호 기자] 싸이터가 선박 설계부터 건조, 운항까지 전 생애주기를 아우르는 통합 보안 포트폴리오를 공개했다고 23일 밝혔다. 해양·조선에 대한 사이버보안 요구사항이 국제 규정으로 의무화되는 가운데 실시간",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144289&kind=&sub_kind=",
+      "date": "2026-06-23"
+    },
+    {
       "id": "aHR0cDovL3d3dy5i",
       "title": "미토스 수출통제 와중에... 오픈AI, 보안동맹 ‘데이브레이크’ 확장",
       "summary": "[보안뉴스 강현주 기자] 앤트로픽의 AI 모델 ‘미토스’가 미국 행정부로부터 수출 통제에 걸린 가운데, 오픈AI의 사이버 보안 협력 프로그램인 ‘데이브레이크’가 확장 계획을 발표했다. 오픈AI는 보안 특화 AI 모델 ‘GPT-5.5-사이버’의 정식 버전을 22일(현지시간) 일부 기관을 대상으로 출시했다. ‘데이브레이크’ 참여 기관도 글로벌 보안 기업 30개",
@@ -18120,11 +18390,11 @@
     }
   ],
   "sources": {
-    "보안뉴스": 691,
+    "SecurityWeek": 513,
+    "보안뉴스": 701,
+    "HPE": 37,
+    "BleepingComputer": 585,
     "Dell": 161,
-    "HPE": 36,
-    "SecurityWeek": 503,
-    "BleepingComputer": 576,
     "VAST Data": 46
   }
 }
