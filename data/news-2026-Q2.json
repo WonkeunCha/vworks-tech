@@ -3,6 +3,240 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "한국사이버안보학회, AI 시대 국가 사이버안보 정책 논의... 7월 9일 세미나",
+      "summary": "국가 사이버안보 정책, AI 융합보안, 회복력 강화 논의‘2026 핵테온 세종 AI·사이버보안 콘퍼런스’ 연계[보안뉴스 강현주 기자] 한국사이버안보학회가 7월 정보보호의 달을 맞아 AI 시대 국가 사이버안보 정책을 소개하고 논의하는 자리를 마련한다. 한국사이버안보학회(KACS)는 국가정보원과 공동으로 7월 9일 정부세종컨벤션센터(SCC) 1층 중회의실에서",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144348&kind=&sub_kind=",
+      "date": "2026-06-27"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "고려대 정보보호대학원, 글로벌 AI·사이버안보 거버넌스의 장 열다",
+      "summary": "제주서 제2회 국제학술대회(KU-ICCSP 2026) 진행AI와 사이버안보 결합에 따른 국가 주권 위협 진단[보안뉴스 조재호 기자] 고려대학교 정보보호대학원은 지난 25일부터 26일까지 양일간 제주 해비치호텔 앤 리조트에서 ‘제2회 국제학술대회’(KU-ICCSP 2026)을 성황리에 개최했다고 밝혔다.지난해에 이어 두 번째로 열린 이번 학술대회는 AI와 사",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144346&kind=&sub_kind=",
+      "date": "2026-06-27"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "오픈AI도 美 정부 요청에 GPT-5.6 제한적 제공",
+      "summary": "[보안뉴스 강현주 기자] 오픈AI가 미국 정부의 요청으로 새 인공지능(AI) 모델 ‘GPT-5.6’를 일부 기관에만 제한적으로 제공하기로 했다.오픈AI는 GPT-5.6을 ‘솔’, ‘테라’, ‘루나’ 등 세 가지로 개발했다고 26일(현지시간) 밝혔다.‘솔’ 모델은 상위 모델로 코딩, 생물학, 사이버 보안 등 부문에서 역대 최고 성능과 자율적 에이전트 능력을",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144347&kind=&sub_kind=",
+      "date": "2026-06-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 인재 육성과 비즈니스 임팩트 창출: Carine Chua의 에코시스템 접근법",
+      "summary": "Carine Chua는 산업, 학계, 파트너사를 연결하여 AI 준비 인재를 양성하고 에코시스템 협력을 실질적인 비즈니스 성과로 전환합니다. 기업, 대학, 기술 파트너 간의 협력을 통해 실무 중심의 AI 교육 프로그램을 개발하고 인재 파이프라인을 구축합니다. 이러한 에코시스템 접근은 조직의 디지털 변혁을 가속화하고 경쟁력을 강화하는 데 핵심적인 역할을 합니다. 실제 비즈니스 문제 해결에 필요한 AI 역량을 갖춘 인재 양성이 조직의 성공적인 AI 도입의 필수 요소입니다. 다양한 이해관계자 간의 협력과 지속적인 지식 공유를 통해 AI 생태계가 선순환 구조로 발전할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/enabling-ai-talent-and-driving-business-impact-carine-chua-s-ecosystem-approach/",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Amazon Q 결함으로 악성 저장소를 통한 클라우드 자격증명 탈취 가능",
+      "summary": "Amazon Q에서 발견된 보안 결함으로 인해 악성 저장소를 통해 클라우드 자격증명이 탈취될 수 있는 취약점이 발생했습니다. 이 결함은 AWS의 AI 코딩 어시스턴트인 Amazon Q가 악의적으로 조작된 코드 저장소에서 민감한 자격증명 정보를 노출시킬 수 있음을 의미합니다. 공격자들은 이를 악용하여 대상 조직의 클라우드 환경에 대한 접근 권한을 획득할 수 있습니다. 이 취약점은 개발자들이 신뢰할 수 없는 소스의 코드를 분석할 때 특히 위험할 수 있습니다. Amazon은 이 결함을 해결하기 위한 보안 패치를 배포했으며, 사용자들은 즉시 업데이트를 적용할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/amazon-q-flaw-enabled-cloud-credential-theft-via-malicious-repositories/",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Klue 침해 사건의 추가 피해자 확인, 해킹 집단까지 해킹당함",
+      "summary": "경쟁 인텔리전스 플랫폼인 Klue가 대규모 데이터 침해 사건을 겪었으며, 추가 피해자들이 계속 확인되고 있습니다. 이번 사건은 공급망 공격의 성격을 띠고 있어 여러 조직이 영향을 받고 있습니다. 흥미로운 점은 침해 사건을 저질렀던 해킹 집단 자체도 해킹 당한 것으로 드러났다는 것입니다. 이는 사이버 범죄자들 사이에서도 보안 위협이 존재함을 보여주는 사례입니다. 관련 조직들은 영향 범위와 피해 규모를 파악하기 위해 조사를 진행 중입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/more-klue-breach-victims-identified-as-hackers-get-hacked/",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기타 뉴스: 중국의 신화 같은 AI, 타타 일렉트로닉스 침해, Snyk 구조조정",
+      "summary": "최근 사이버보안 뉴스에서 중국의 신화적 특성을 지닌 AI 개발, 타타 일렉트로닉스의 데이터 침해 사건, 그리고 보안 기업 Snyk의 대규모 구조조정이 주요 이슈로 보도되었습니다. 중국의 AI 기술 개발은 신화적 요소를 활용한 혁신적 접근을 시도하고 있으며, 타타 일렉트로닉스 침해 사건은 주요 전자제품 제조사의 보안 취약점을 노출시켰습니다. Snyk의 구조조정은 사이버보안 산업의 인력 감축 추세를 반영하고 있으며, 이는 업계 전체의 경영 어려움을 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-chinese-mythos-like-ai-tata-electronics-breach-snyk-layoffs/",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "네뷸록, AI 기반 상황별 보안 솔루션으로 2,500만 달러 자금 조달",
+      "summary": "사이버보안 회사 네뷸록(Nebulock)이 AI 네이티브 상황별 보안 솔루션 개발을 위해 2,500만 달러 규모의 펀딩 라운드를 성공적으로 마쳤습니다. 이번 자금은 회사의 혁신적인 인공지능 기반 보안 기술 개발 및 시장 확대에 사용될 예정입니다. 네뷸록의 상황별 보안 접근 방식은 기업의 특정 보안 환경과 위협 요소를 분석하여 맞춤형 보안 전략을 제공합니다. 이러한 AI 기반 솔루션은 기존의 일반적인 보안 대책을 넘어 더욱 정교하고 효과적인 사이버 위협 대응을 가능하게 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/nebulock-raises-25-million-for-ai-native-contextual-security/",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "리눅스 재단, 새로운 오픈소스 보안 프로젝트 '아크리테스' 공개",
+      "summary": "리눅스 재단이 새로운 오픈소스 보안 프로젝트인 '아크리테스(Akrites)'를 공개했습니다. 이 프로젝트는 오픈소스 소프트웨어의 취약점 관리 및 보안 강화를 목표로 하고 있습니다. 아크리테스는 애플리케이션 보안 분야에 초점을 맞추고 있으며, 오픈소스 커뮤니티의 협력을 통해 더욱 안전한 소프트웨어 개발 환경을 구축하려고 합니다. 이 프로젝트는 전 세계 개발자들이 보안 취약점을 보다 효과적으로 식별하고 해결할 수 있도록 지원할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/linux-foundation-unveils-new-open-source-security-project-akrites/",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "폴리마켓 해킹으로 300만 달러 도난",
+      "summary": "암호화폐 예측 시장인 폴리마켓(Polymarket)이 해킹 공격을 받아 약 300만 달러 규모의 자산이 도난당한 것으로 보도되었습니다. 이번 사건은 암호화폐 업계에서 발생한 주요 보안 사고 중 하나로, 피싱과 사이버범죄 수법이 사용된 것으로 추정됩니다. 공격자들이 사용자의 계정에 불법 접근하여 자산을 탈취한 것으로 알려져 있습니다. 폴리마켓은 이 사건에 대해 조사를 진행 중이며, 영향을 받은 사용자들에 대한 보상 방안을 모색하고 있습니다. 이 사건은 암호화폐 거래소 및 디지털 자산 플랫폼의 보안 강화의 필요성을 다시 한번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/3-million-reportedly-stolen-in-polymarket-hack/",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "러시아 APT, 우크라이나 대상으로 StockStay 백도어 배포",
+      "summary": "러시아 소속 APT(Advanced Persistent Threat) 그룹이 우크라이나를 겨냥한 사이버 공격에서 StockStay라는 새로운 백도어 악성코드를 배포하고 있습니다. 이 백도어는 피해 시스템에 원격 접근 권한을 제공하여 공격자가 민감한 정보에 접근하고 추가 악성코드를 설치할 수 있게 합니다. SecurityWeek의 보도에 따르면 이 공격은 우크라이나의 주요 기관과 기업들을 대상으로 하고 있습니다. StockStay 백도어는 탐지를 회피하기 위한 정교한 기능들을 포함하고 있어 사이버보안 위협이 심화되고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/russian-apt-deploys-stockstay-backdoor-against-ukrainian-targets/",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "PTC Windchill 취약점, 실제 악용 사례 처음 발견",
+      "summary": "PTC의 제품 라이프사이클 관리(PLM) 소프트웨어인 Windchill의 취약점이 야생에서 처음으로 악용되는 사례가 발견되었습니다. 이는 산업용 제어 시스템(ICS) 및 운영 기술(OT) 환경에 심각한 위협이 될 수 있습니다. SecurityWeek의 보도에 따르면 해당 취약점은 공격자들이 실제로 이를 악용하고 있음을 보여줍니다. Windchill은 제조업체와 엔지니어링 회사들 사이에서 광범위하게 사용되는 핵심 시스템으로, 이번 악용 사례는 조직들의 즉각적인 대응과 패치 적용을 촉구하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/first-ever-exploitation-of-ptc-windchill-vulnerability-discovered-in-the-wild/",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 엔터프라이즈급 MCP 규격이 새로운 보안 위협을 초래",
+      "summary": "엔터프라이즈 환경을 지원하는 새로운 MCP(Model Context Protocol) 규격이 도입되면서 새로운 보안 위협이 발생하고 있습니다. MCP 규격의 확장으로 인해 시스템의 공격 면이 증가하고, 기존에 없던 보안 취약점들이 드러나고 있습니다. 보안 연구자들은 이 새로운 규격이 AI 시스템의 통합 과정에서 악의적인 접근을 가능하게 할 수 있다고 경고하고 있습니다. 기업들은 MCP 규격을 도입하기 전에 충분한 보안 검증을 수행해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/new-enterprise-ready-mcp-specification-brings-new-security-challenges/",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "필립 마틴, 우버의 최고정보보안책임자(CISO)로 입사",
+      "summary": "필립 마틴이 우버의 새로운 최고정보보안책임자(Chief Information Security Officer)로 합류했습니다. 이는 우버의 보안 리더십 변화를 나타내는 중요한 인사 결정입니다. 마틴은 정보보안 전략 및 위험 관리 분야에서의 경험을 바탕으로 우버의 사이버보안 체계를 강화할 것으로 예상됩니다. 우버는 글로벌 규모의 기술 기업으로서 지속적인 보안 위협에 대응하기 위해 강력한 보안 리더십이 필요합니다. 이번 인선은 회사의 정보보안 역량 강화 의지를 보여주는 신호입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/philip-martin-joins-uber-as-chief-information-security-officer/",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "FBI: 러시아 해커들이 Signal 백업 복구 키를 표적으로 삼고 있음",
+      "summary": "FBI와 CISA는 러시아 정보기관과 연계된 피싱 캠페인이 Signal 사용자들을 대상으로 진행 중이라고 경고했습니다. 해당 캠페인은 Signal 백업 복구 키를 탈취하도록 진화했으며, 이를 통해 공격자들이 피해자의 과거 메시지 기록에 접근할 수 있습니다. 이는 Signal의 안전한 백업 기능을 악용한 공격으로, 사용자들의 통신 이력이 노출될 수 있다는 점에서 심각한 보안 위협입니다. Signal 사용자들은 의심스러운 피싱 시도에 각별히 주의하고 복구 키를 안전하게 관리할 필요가 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, 공격에 악용되는 Cisco 결함 수정을 위한 긴급 기한 설정",
+      "summary": "미국 사이버보안 및 인프라 보안청(CISA)이 연방 기관들에게 일요일까지 Cisco Unified Communications Manager Server의 취약점을 패치하도록 촉구했습니다. 해당 취약점은 현재 실제 공격에서 적극적으로 악용되고 있으며, 원격 코드 실행(RCE)을 가능하게 합니다. CISA의 긴급 기한 설정은 이 결함의 심각한 위험성을 반영하고 있습니다. 영향을 받는 조직들은 즉시 보안 업데이트를 적용하여 잠재적인 침해 위험을 최소화해야 합니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Polymarket 고객들이 공급망 공격으로 300만 달러 손실",
+      "summary": "암호화폐 예측 시장 플랫폼인 Polymarket의 고객들이 공급망 공격으로 약 300만 달러의 손실을 입었습니다. 해커들이 제3업체 벤더의 보안 침해를 이용하여 플랫폼의 프론트엔드에 악성 스크립트를 주입했습니다. 이 공격을 통해 사용자들의 자산이 도용되었으며, Polymarket은 피해를 입은 고객들에게 전액 환불할 것이라고 발표했습니다. 이번 사건은 암호화폐 플랫폼의 보안 취약점과 제3업체 보안 관리의 중요성을 다시 한번 드러냈습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "사이버보안 업체들, 위조된 OpenAI 조직 초대장으로 표적 공격 받음",
+      "summary": "위협 행위자들이 합법적인 기업을 사칭하는 OpenAI 테넌트를 만들어 직원들을 초대하는 사기 공격을 펼치고 있습니다. 이는 대상자들을 속여 채팅과 프로젝트에서 민감한 회사 정보를 제출하도록 유도하려는 의도로 보입니다. 공격자들은 OpenAI의 조직 초대 기능을 악용하여 피싱 공격을 수행하고 있으며, 특히 사이버보안 업체들이 주요 표적이 되고 있습니다. 이러한 사회공학 기법은 사용자들이 신뢰할 수 있는 플랫폼을 통해 기업 기밀 정보를 탈취하기 위해 설계되었습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "당신의 첫 GRC 에이전트: 레드팀 관점의 완벽 가이드",
+      "summary": "AI 기술이 GRC 분석가를 완전히 대체하지는 못하지만, 반복적인 업무 대부분을 자동화할 수 있습니다. Anecdotes는 보안 제어 현황을 지속적으로 모니터링하고 증거 격차를 파악한 후 자동으로 개선 작업을 생성하는 에이전트 구축 방법을 설명합니다. 이러한 자동화된 GRC 에이전트는 조직의 규정 준수 및 위험 관리 프로세스를 효율화합니다. Agent Studio와 같은 도구를 통해 기업들은 보안 운영의 생산성을 크게 향상시킬 수 있습니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "강화되는 IMO 사이버 규제... 국립한국해양대, 선박기자재 보안 해법 제시",
+      "summary": "IEC 62443 등 국제표준 기반 위험평가부터 원격접속 제어까지 실습 진행이민우 교수 “설계·개발 단계부터 사이버보안 핵심 품질요건으로 반영해야”[보안뉴스 조재호 기자] 국립한국해양대학교 마린에듀텍은 선박기자재업체 씨넷(SeaNet)의 선박 사이버보안팀을 대상으로 해양기자재 운영기술(OT) 사이버보안 실무 특강을 진행했다고 26일 밝혔다.이번 교육은 선박",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144345&kind=&sub_kind=",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "티앤디소프트 성남시에 1500만원 기탁... 3년 연속 ESG 나눔 실천",
+      "summary": "2024년 첫 인연 맺은 후 기부 이어가며 ‘ESG 나눔 기업패’ 수상최성묵 대표 “책임감 있는 보안 기업으로서 지역사회 상생 본보일 것”[보안뉴스 조재호 기자] 티앤디소프트가 지역사회를 위한 진정성 있는 환경·사회·지배구조(ESG) 경영 행보를 이어가고 있다.지난 24일 성남시청 시장 집무실에서 최성묵 티앤디소프트 대표와 신상진 성남시장이 참석한 가운데",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144343&kind=&sub_kind=",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "1000만 명 설치한 크롬 유튜브 광고 제거기, ‘잠복 상태’ 스크립트 삽입 기능 발견",
+      "summary": "[보안뉴스 강현주 기자] 1000만 명 이상이 설치한 구글 크롬용 유명 광고 차단 확장 프로그램에서 임의의 자바스크립트(JavaScript) 코드를 실행할 수 있는 잠재적 위험이 발견돼 주의를 요한다.보안 기업 아일랜드(Island)의 최근 분석에 따르면, 크롬 웹스토어에서 1000만 회 이상 다운로드되며 ‘피처드’(Featured) 배지까지 획득한 확장",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144344&kind=&sub_kind=",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "한국디지털포렌식학회 20주년 하계학술대회 성료...AI 시대 증거 분석 혁신 주도",
+      "summary": "AI 발전 발맞춘 디지털 증거 분석 기술 및 법제 동향 논의김기범 회장 “새로운 20년 출발선, 변화 넘어 혁신 주도할 것”[보안뉴스 조재호 기자] 한국디지털포렌식학회가 25일 고려대학교 자연계캠퍼스 하나스퀘어에서 20주년 기념 하계학술대회를 성황리에 개최했다. 이번 행사는 급변하는 AI 시대에 대응하기 위한 디지털 증거 분석의 최신 기술과 법제 개선 방향",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144342&kind=&sub_kind=",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[배종찬의 보안 빅데이터] 탈 많은 선관위까지 해킹한 북한의 사이버 공격",
+      "summary": "역대 최대 10만건 사이버 융단폭격... “환골탈태 없이는 방어 불가”내부 취약성 노출된 선관위, 전면적 혁신으로 신뢰 재건해야[보안뉴스= 배종찬 인사이트케이 연구소장] 국가의 주권이 국민에게 있고 그 주권이 실현되는 유일한 통로가 ‘선거’라면, 중앙선거관리위원회는 민주주의의 심장과 같다. 그러나 최근 선관위를 둘러싼 대내외적 안보 환경과 여론의 지표는 이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144341&kind=&sub_kind=",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "라온피플, VLM 기반 AI 영상분석 솔루션 ‘OdinAi 1.0’ 조달청 등재",
+      "summary": "중기부 기술개발제품 구매 사업 선정 등 공공시장 공략 가속화단순한 객체 인식 넘어 복잡한 상황이나 맥락을 언어적으로 이해[보안뉴스 엄호식 기자] 비전 AI 전문기업 라온피플의 AI 영상분석 솔루션 ‘OdinAi1.0’이 조달청 나라장터 디지털서비스몰에 정식 등재됐다.OdinAi 1.0은 최신 VLM(시각-언어 모델) 기술을 적용한 차세대 지능형 영상분석 솔",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144339&kind=&sub_kind=",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "그룹아이비, 상위 10대 위협 조직 공개... “공급망 침투·위협 상업화 가속”",
+      "summary": "1550여건 조사 기반 2026년 상위 10대 마스크드 액터 발표스캐터드 스파이더·라자루스 등 공급망과 금전 탈취 주도 조직 지목[보안뉴스 조재호 기자] 그룹아이비(Group-IB)는 전 세계 사이버 범죄 조직의 동향을 분석한 ‘2026년 상위 10대 마스크드 액터’ 명단을 26일 공개했다. 이번 순위는 하이테크 범죄 동향 보고서 2026(High-Tech",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144337&kind=&sub_kind=",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "정부, 중소기업 공격표면 무료 점검... AI 위협 대비 보안 지원 나서",
       "summary": "공격표면·SW공급망·취약점·모의침투 등 지원[보안뉴스 강현주 기자] 중소기업을 대상으로 정부가 공격표면 점검, 공급망 보안체계 진단, AI 기반 취약점 점검, 모의침투 등을 무상 제공한다. 과학기술정보통신부(부총리 겸 장관 배경훈)는 한국인터넷진흥원(KISA, 원장 이상중)와 함께 AI 기반 사이버 위협에 대응하기 위한 민간 정보보호 추진계획’ 후속조치의",
       "category": "보안",
@@ -19020,10 +19254,10 @@
     }
   ],
   "sources": {
-    "보안뉴스": 721,
-    "Dell": 172,
-    "SecurityWeek": 532,
-    "BleepingComputer": 602,
+    "보안뉴스": 731,
+    "Dell": 173,
+    "SecurityWeek": 542,
+    "BleepingComputer": 607,
     "VAST Data": 49,
     "HPE": 37
   }
