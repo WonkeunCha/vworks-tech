@@ -2517,9 +2517,39 @@
     "http://www.boannews.com/media/view.asp?idx=144342&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144341&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144339&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=144337&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=144337&kind=&sub_kind=",
+    "https://www.dell.com/en-us/blog/why-ai-demands-a-new-supply-chain-operating-model/",
+    "https://www.securityweek.com/chinese-framework-powers-200000-scam-sites/",
+    "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI가 새로운 공급망 운영 모델을 요구하는 이유",
+      "summary": "AI는 인프라 뒤에 있는 공급망을 근본적으로 재편하고 있습니다. 기존의 선형적이고 부품 중심의 구조에서 벗어나 병렬 방식으로 운영되고 있으며, 긴밀하게 통합된 시스템과 장기적 생태계 중심으로 구축되고 있습니다. 이러한 변화는 기업들이 공급망 파트너십을 재평가하고 새로운 협력 방식을 모색해야 함을 의미합니다. AI 시대의 공급망은 단순한 부품 조달을 넘어 전략적 통합과 상호 의존성을 필요로 합니다. 따라서 기업들은 유연성, 혁신성, 그리고 신뢰를 바탕으로 한 새로운 운영 모델을 채택해야 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/why-ai-demands-a-new-supply-chain-operating-model/",
+      "date": "2026-06-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "중국 프레임워크가 20만 개 이상의 사기 사이트 운영",
+      "summary": "위협 행위자들이 Uni-App 개발 프레임워크를 악용하여 20만 개 이상의 사기 사이트를 운영하고 있습니다. 이 프레임워크를 이용해 투자 사기 템플릿을 대량으로 생성하고 배포하고 있는 것으로 확인되었습니다. 사이버범죄자들은 이 프레임워크의 사용 편의성을 이용해 빠르게 피싱 및 투자 사기 웹사이트를 구축하고 있습니다. 이러한 대규모 사기 운영은 전 세계 수많은 사용자들을 표적으로 하고 있으며, 금융 피해를 야기하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/chinese-framework-powers-200000-scam-sites/",
+      "date": "2026-06-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "깨끗한 GitHub 저장소가 AI 코딩 에이전트를 속여 악성코드 실행",
+      "summary": "AI 코딩 도구가 GitHub 저장소를 복제하고 설정하는 작업을 수행할 때, 일견 정상적으로 보이는 저장소에서 악의적인 페이로드를 실행할 수 있다는 취약점이 발견되었습니다. 이 악성 코드는 보안 스캐너, AI 에이전트, 그리고 인간 검토자에게 모두 숨겨질 수 있으며, 특히 Claude Code 같은 에이전틱 코딩 도구를 대상으로 합니다. 공격자는 정상적으로 보이는 저장소 구조 안에 악성 페이로드를 숨겨두어 탐지를 회피할 수 있습니다. 이는 AI 기반 자동화 도구의 보안 위험성을 보여주는 새로운 공격 벡터입니다.",
+      "category": "보안",
+      "source": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
+      "date": "2026-06-27"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "한국사이버안보학회, AI 시대 국가 사이버안보 정책 논의... 7월 9일 세미나",
@@ -11492,35 +11522,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143708&kind=&sub_kind=",
       "date": "2026-05-19"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "여의시스템, Moxa 차세대 산업용 시리얼 솔루션 ‘G2 시리즈’ 출시",
-      "summary": "강화된 보안 환경에서 안전하게 연결 및 데이터 통합프로토콜 변환까지 한 번에 구현직관적인 웹 기반 인터페이스로 설치운영 편의성 개선[보안뉴스 엄호식 기자] 여의시스템이 세계적인 산업용 네트워크 전문기업 Moxa의 차세대 시리얼 솔루션 ‘G2 시리즈’를 국내 시장에 본격 출시한다. G1에서 G2로의 세대교체는 기존 레거시 시리얼",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143707&kind=&sub_kind=",
-      "date": "2026-05-19"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "세연테크, 글로벌셔터 카메라용 고출력 스트로브 LED 제어기 출시",
-      "summary": "최대 80와트급 스트로브 LED 제어기[보안뉴스 엄호식 기자] 세연테크가 ITS 및 차량번호인식(LPR) 환경에 적합한 글로벌셔터 카메라용 고출력 스트로브 LED 제어기(모델명 FW-3W-80LED-CONTROLLER)를 출시했다. 이 제품은 세연테크가 실제 자사 ITS 카메라 제품 및 다양한 솔루션 업체 프로젝트에 공급하며 운영해 오던 기술 기반으로, 이",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143706&kind=&sub_kind=",
-      "date": "2026-05-19"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "윈도우 업데이트의 배신? 적용된 줄 알았던 취약점 패치 흔적 없이 증발해",
-      "summary": "독립 연구원 카오틱 이클립스, 패치되지 않은 채 방치된 치명적 결함 발표5월 최신 업데이트 마친 윈도우 11에서도 작동 확인되며 패치 롤백 의혹 제기[보안뉴스 김형근 기자] 마이크로소프트(MS)가 공식적으로 해결했다고 발표한 보안 결함이 수년간 방치되면서 최신 윈도우 시스템을 위협하고 있다. 지난 2020년 구글이 발견한 취약점을 악용한 신종 제로데이 ‘미",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143699&kind=&sub_kind=",
-      "date": "2026-05-19"
     }
   ],
-  "totalItems": 2518,
+  "totalItems": 2521,
   "hasArchive": true
 }
