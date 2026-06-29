@@ -2520,9 +2520,119 @@
     "http://www.boannews.com/media/view.asp?idx=144337&kind=&sub_kind=",
     "https://www.dell.com/en-us/blog/why-ai-demands-a-new-supply-chain-operating-model/",
     "https://www.securityweek.com/chinese-framework-powers-200000-scam-sites/",
-    "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/"
+    "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
+    "https://www.dell.com/en-us/blog/iste-is-here-here-s-what-s-on-our-minds/",
+    "http://www.boannews.com/media/view.asp?idx=144372&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144368&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144361&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144365&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144364&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144363&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144362&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144355&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144357&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144360&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "트렌드AI, 글래스윙 이어 ‘데이브레이크’ 합류",
+      "summary": "오픈AI 사이버 파트너 프로그램 공인 파트너 선정[보안뉴스 강현주 기자] 트렌드마이크로의 엔터프라이즈 사이버 보안 사업 부문인 트렌드AI(TrendAI, 한국지사장 김진광)는 ‘데이브레이크 사이버 파트너 프로그램’에 합류했다고 29일 발표했다. 이를 통해 트렌드AI는 사이버 보안 목적에 특화된 오픈AI의 프론티어 AI 역량을 활용할 수 있게 됐다. 오픈AI",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144372&kind=&sub_kind=",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[이슈칼럼] 공장 멈추는 해킹, 규제와 처벌로는 ‘산업 안보’ 지킬 수 없다",
+      "summary": "ISMS 등 기존 IT 망 규제만으로 산업 안보는 한계국가차원의 모의훈련 체계 도입해 기업 보안 역량 내재화 필요해[보안뉴스= 박성준 한림대 정보과학대학 객원교수] 최근 발생하고 있는 해커 그룹들의 국가 기반 시설 공격 양상을 보면 사이버 공간의 위협이 물리적 재난으로 전이되는 현상이 뚜렷하게 나타나고 있다. 세계적인 IT 강국이자 제조·화학 강국인 대한민",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144368&kind=&sub_kind=",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "한국 ITS 기술 담은 페루 스마트도로 마스터플랜, 폐루 법정계획 됐다",
+      "summary": "국토교통부가 시행한 페루 도로개발 컨설팅 ODA 사업 결실 향후 페루에 한국 ITS 기술의 현지 확산과 한국기업 진출 기대[보안뉴스 강초희 기자] 국토교통 ODA 사업으로 추진했던 ‘페루 국도 스마트도로관리(재난·교통) 마스터플랜’이 페루 정부의 국가 법정계획으로 공식 채택됐다. 우리나라의 도로관리 정책과 지능형교통체계(ITS) 기술력이 국가 정책으로 인정",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144361&kind=&sub_kind=",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "세이지, 인천공항 셔틀트레인 Edge AI 안전관제 실증 나선다",
+      "summary": "기존 CCTV 활용한 Edge AI 안전관제 시스템 실증 본격화공항 현장 검증 거쳐 전국 교통 인프라 확대 추진 [보안뉴스 강초희 기자] 세이지(공동대표 박종우·홍영석)와 인천국제공항공사(사장직무대행 김범호 부사장)가 ‘인천공항 AI-PORT 구현을 위한 인천국제공항공사-혁신 AI 스타트업 상생협력’ 업무협약(MOU)을 체결했다. 이번 협약을 통해 세이지는",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144365&kind=&sub_kind=",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "모빌린트, ADLINK·Getac과 협력 확대 통해 글로벌 산업용 AI 시장 공략 가속",
+      "summary": "대만 글로벌 기업과 전략적 MOU 체결산업용 엣지 컴퓨팅·러기드 플랫폼에 AI 반도체 적용 추진[보안뉴스 강초희 기자] 모빌린트(대표이사 신동주)가 대만 글로벌 기업들과의 전략적 협력을 확대하며 글로벌 산업용 AI 시장 공략에 속도를 내고 있다.모빌린트는 산업용 컴퓨팅 솔루션 기업 ADLINK Technology Inc.(이하 ADLINK)와 러기드 컴퓨팅",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144364&kind=&sub_kind=",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "국가중요시설 대드론 체계 성능시험 국가표준 마련",
+      "summary": "발전소·공항 등 국가중요시설의 미확인 드론 대응 체계 효율적 구축 뒷받침[보안뉴스 강초희 기자] 산업통상자원부 국가기술표준원(원장 김대자, 이하 국표원)은 미확인 드론의 위협으로부터 국가중요시설을 방어하기 위한 대드론 체계의 성능평가 방법을 국가표준(KS)으로 6월 29일 제정 고시한다고 밝혔다.표준은 대드론 체계 구성장비들이 드론에 대한 탐지 능력과 범위",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144363&kind=&sub_kind=",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "지란지교시큐리티, ‘모바일키퍼 V5’ 통합 CC인증 획득",
+      "summary": "안드로이드·iOS 단일 콘솔 관리 환경으로 국가용 보안 요구사항 통과공공·교육 분야 적용 범위 확대... 학교 MDM 인프라 수요 정조준[보안뉴스 조재호 기자] 지란지교시큐리티는 자사의 모바일 통합 관리(MDM) 솔루션인 ‘모바일키퍼 V5’가 안드로이드와 iOS를 단일 플랫폼에서 통합 관리하는 형태로 공통평가기준(CC) 인증을 획득했다고 29일 밝혔다. 이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144362&kind=&sub_kind=",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "내용증명도 모바일로... KISA, 10대 전자문서 혁신 과제 연내 상용화",
+      "summary": "전자문서법 기반으로 종이 우편 대체한 10대 혁신 과제 발표은행 연체 통지·더치트 사기 내용증명 등 공공·민간 전방위 도입[보안뉴스 조재호 기자] 한국인터넷진흥원(KISA)이 전자문서 및 전자거래 기본법을 근거로 국민 일상과 밀접한 ‘10대 모바일 전자증명 혁신 과제’를 선정하고 올해 연말까지 상용화한다고 밝혔다. 29일 업계에 따르면 기존 종이 기반 등기",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144355&kind=&sub_kind=",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "내년 1월로 당겨진 CI 분리보관... KISA 실태점검 가동한다",
+      "summary": "티빙·CU택배 해킹 여파로 규제 데드라인 4개월 단축1000건 이상 CI 처리 기관 8월 14일까지 이행 계획서 요구[보안뉴스 조재호 기자] 최근 잇따른 해킹 사고로 연계정보(CI) 분리 보관 의무화 시점이 2027년 1월 1일로 4개월 앞당겨졌다. 이에 한국인터넷진흥원(KISA)은 지난 26일 온라인 설명회를 열고 1000건 이상 CI를 처리하는 기관을",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144357&kind=&sub_kind=",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "시스코, 과기정통부와 보안 인재 200명 양성... 인턴십 프로그램 대폭 확대",
+      "summary": "내달 말까지 ‘시스코 VIP 2026’작년 30명에서 올해 200명으로 확대[보안뉴스 강현주 기자] 시스코가 과학기술정보통신부(장관 배경훈)와 협력해 사이버 보안 인재 200명 양성에 나선다. 시스코는 29일부터 7월 31일까지 국내 사이버보안 미래 인재 양성을 위한 ‘시스코 버추얼 인턴십 프로그램(Virtual Internship Program, VIP)",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144360&kind=&sub_kind=",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "ISTE가 시작되었습니다. 우리의 관심사를 소개합니다",
+      "summary": "Dell Technologies의 K-12 전략팀은 ISTE 2026에서 책임감 있는 AI, 신뢰할 수 있는 디지털 환경, 기기 전략 및 학생 경로에 대한 실질적인 논의를 주도하고 있습니다. Jennifer Hebert는 교육 현장에서 마주치는 실제 과제들을 다루는 실용적인 대화를 통해 학교와 교육 기관들을 지원하고 있습니다. 델은 학생들의 학습 경험을 향상시키기 위해 기술과 교육 전략의 균형을 맞추는 데 중점을 두고 있습니다. 신뢰성 있고 안전한 디지털 환경 구축과 함께 책임감 있는 AI 활용이 미래 교육의 핵심 요소임을 강조하고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/iste-is-here-here-s-what-s-on-our-minds/",
+      "date": "2026-06-28"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "AI가 새로운 공급망 운영 모델을 요구하는 이유",
@@ -11423,107 +11533,8 @@
       "source": "BleepingComputer",
       "sourceUrl": "https://www.bleepingcomputer.com/news/security/cybercrime-service-disrupted-for-abusing-microsoft-platform-to-sign-malware/",
       "date": "2026-05-19"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "디스코드, 음성·영상 통화에 종단간 암호화 적용 시작",
-      "summary": "디스코드가 플랫폼을 통한 모든 음성 및 영상 통화에 기본적으로 종단간 암호화(E2EE)를 적용하기 시작했습니다. 이는 사용자들의 통화 내용이 송수신 양 끝단에서만 암호화되고 해독되도록 하여 중간에 탈취될 수 없도록 보호합니다. 디스코드의 이러한 보안 조치는 사용자 프라이버시를 강화하고 민감한 통신을 보호하기 위한 것입니다. 종단간 암호화는 화상 회의 및 음성 통화 서비스의 필수 보안 기능으로 자리잡고 있으며, 이번 조치로 디스코드는 사용자 보안 수준을 한 단계 높였습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/discord-rolls-out-end-to-end-encryption-on-voice-video-calls/",
-      "date": "2026-05-19"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "FBI: 미국인들이 2025년 암호화폐 ATM을 이용한 사기로 3억 8,800만 달러 이상 손실",
-      "summary": "FBI에 따르면 미국인들이 지난해 암호화폐 키오스크(크립토 ATM, 비트코인 ATM)를 악용한 사기로 3억 8,800만 달러 이상을 잃었다고 발표했습니다. 이는 암호화폐 관련 사기가 얼마나 광범위하게 확산되고 있는지를 보여주는 사례입니다. 사이버범죄자들은 사용자들을 속여 암호화폐 ATM에서 자금을 이체하도록 유도하고 있습니다. 이러한 유형의 금융 사기는 피해자들이 금액을 회수하기 어렵다는 특징이 있습니다. FBI는 이 문제에 대해 경고하고 있으며 국민들의 주의가 필요한 상황입니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/fbi-americans-lost-over-388-million-to-scams-using-crypto-atms-in-2025/",
-      "date": "2026-05-19"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "마이크로소프트 셀프서비스 비밀번호 재설정이 Azure 데이터 탈취 공격에 악용됨",
-      "summary": "위협 행위자들이 Microsoft 365와 Azure 프로덕션 환경을 표적으로 삼아 정당한 애플리케이션과 관리 기능을 악용하는 공격을 통해 데이터를 탈취하고 있습니다. 이번 공격에서는 마이크로소프트의 셀프서비스 비밀번호 재설정 기능이 악의적인 목적으로 남용되고 있는 것으로 확인되었습니다. 공격자들은 소셜 엔지니어링 기법과 정상적인 시스템 기능을 조합하여 계정 탈취를 시도하고 있습니다. 이는 조직의 클라우드 보안이 내부 기능의 악용에 대해 얼마나 취약할 수 있는지를 보여주는 사례입니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/microsoft-self-service-password-reset-abused-in-azure-data-theft-attacks/",
-      "date": "2026-05-19"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "마이크로소프트, 2026년 Windows 11 드라이버 품질 개선 계획",
-      "summary": "마이크로소프트가 2026년 Windows 11 드라이버의 품질을 높이기 위한 계획을 발표했습니다. 드라이버는 모든 Windows 경험의 핵심에 위치하며 운영체제를 칩, 부품 및 주변기기와 연결하는 중요한 역할을 합니다. 마이크로소프트는 드라이버가 시스템 안정성과 성능에 미치는 영향을 인식하고 품질 기준을 높이기로 결정했습니다. 이 개선 계획은 Windows Update를 통해 드라이버 배포 시 더욱 엄격한 검증 절차를 도입할 것으로 예상됩니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-plans-to-improve-windows-11-driver-quality-in-2026/",
-      "date": "2026-05-19"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "마이크로소프트, macOS 업데이트로 인한 Teams 위치 정보 알림 문제 확인",
-      "summary": "마이크로소프트가 일부 macOS 시스템에서 Teams 협업 앱이 해제할 수 없는 위치 정보 요청 알림을 표시하는 문제를 확인했습니다. 이 문제는 최근 macOS 업데이트로 인해 발생한 것으로 알려져 있습니다. 사용자들은 위치 정보 프롬프트를 닫을 수 없어 불편을 겪고 있습니다. 마이크로소프트는 이 문제가 macOS 시스템 레벨의 변경사항과 관련이 있다고 지적하고 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-undismissible-teams-location-prompts-on-macos-update/",
-      "date": "2026-05-19"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "새로운 샤이-훌루드 악성코드, npm 패키지 600개 이상 감염",
-      "summary": "위협 행위자들이 공급망 공격의 일환으로 노드 패키지 매니저(npm) 저장소에 600개 이상의 악성 패키지를 배포했습니다. 이번 샤이-훌루드 공급망 캠페인은 npm 생태계를 대규모로 타겟팅하는 새로운 악성코드 파동입니다. 이 악성 패키지들은 정보 수집형 악성코드로 분류되며, 개발자들이 이를 설치할 경우 민감한 정보가 탈취될 수 있습니다. npm에 의존하는 수많은 개발 프로젝트들이 이 공격의 잠재적 피해 대상이 될 수 있어 심각한 보안 위험을 초래합니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-malware-wave-compromises-600-npm-packages/",
-      "date": "2026-05-19"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "7-Eleven, ShinyHunters 갱단의 데이터 유출 사건 확인",
-      "summary": "편의점 체인 거대 기업 7-Eleven이 지난달 ShinyHunters 갈취 조직이 주장한 사이버공격으로 인한 시스템 침해를 확인했다. ShinyHunters 갱단은 7-Eleven의 시스템에 접근했다고 주장하며 데이터 유출을 공개적으로 알렸다. 이번 침해 사건은 Salesforce 관련 시스템을 통해 발생한 것으로 추정되고 있다. 7-Eleven은 고객 정보 유출 여부와 영향 범위에 대한 추가 조사를 진행 중이다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/",
-      "date": "2026-05-19"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "마이크로소프트 심각 취약점 2배 증가: 노출에서 권한 상승으로",
-      "summary": "2025년 마이크로소프트의 전체 취약점 수는 안정적으로 유지되었으나, 심각 수준의 결함이 전년 대비 급증했다. BeyondTrust 보고서에 따르면 공격자들이 권한 상승 및 신원 도용에 집중하고 있는 추세를 분석했다. 마이크로소프트 제품의 심각도 높은 취약점들이 지속적으로 증가하면서 기업의 보안 위협이 심화되고 있다. 특히 권한 상승 공격이 주요 위협 벡터로 부각되면서 조직의 신원 관리 및 접근 제어 강화가 시급한 상황이다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/critical-microsoft-vulnerabilities-doubled-from-exposure-to-escalation/",
-      "date": "2026-05-19"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "웨비나: 네트워크 사건 대응의 숨겨진 병목 현상",
-      "summary": "IT 팀들이 연결되지 않은 시스템들로부터 발생하는 경보로 인해 점점 더 과부하를 겪고 있으며, 이로 인해 대응팀들은 네트워크 사건 발생 시 조사를 수동으로 조율해야 하는 상황에 처해있습니다. 본 웨비나는 자동화와 AI 지원 워크플로우가 대응 지연을 줄이고 운영 조율을 개선하는 데 어떻게 도움이 될 수 있는지를 살펴봅니다. 분산된 보안 도구들로부터 발생하는 경보 피로와 수동 조율의 비효율성은 조직의 사이버 위협 대응 능력을 크게 저하시키는 주요 요인입니다. 자동화된 인텔리전트 워크플로우 솔루션을 통해 조직은 신속하고 효율적인 사건 대응이 가능하며, 보안 운영의 전반적인 성숙도를 높일 수 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/webinar-the-hidden-bottlenecks-in-network-incident-response/",
-      "date": "2026-05-19"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "마이크로소프트, 제한된 윈도우 네트워크에서의 패치 문제 확인",
-      "summary": "마이크로소프트는 2026년 1월 선택적 비보안 미리보기 업데이트를 설치한 후 제한된 네트워크 환경의 고객들이 윈도우 업데이트 실패를 경험할 수 있다고 발표했습니다. 이 문제는 특히 보안이 강화된 폐쇄형 네트워크 환경에서 발생하며, 시스템 업데이트 프로세스에 영향을 미칩니다. 마이크로소프트는 영향을 받은 사용자들을 위한 해결책을 제공하기 위해 노력하고 있습니다. 윈도우 11의 24H2 및 25H2 버전이 특히 영향을 받을 수 있으며, 알려진 문제 롤백(KIR) 기능이 적용될 수 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-patching-issues-in-restricted-windows-networks/",
-      "date": "2026-05-19"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "이글루코퍼레이션 “AI 공격 막는 자율형 SOC 연다”... 핵심 특허 2건 확보",
-      "summary": "쏟아지는 경보 속 위험 공격만 선별하고 시스템 취약점 자동 차단하는 기술보안 전문가의 반복 업무 덜어내고 고난도 의사결정에만 집중할 수 있는 환경 조성[보안뉴스 조재호 기자] 이글루코퍼레이션은 자율형 보안운영센터(Autonomous SOC) 구현을 위한 인공지능(AI) 및 보안 운영·위협 대응 자동화(SOAR) 핵심 특허 2건을 신규 취득했다고 19일 발표",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143708&kind=&sub_kind=",
-      "date": "2026-05-19"
     }
   ],
-  "totalItems": 2521,
+  "totalItems": 2532,
   "hasArchive": true
 }
