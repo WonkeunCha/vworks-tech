@@ -2576,9 +2576,239 @@
     "http://www.boannews.com/media/view.asp?idx=144423&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144429&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144425&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=144427&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=144427&kind=&sub_kind=",
+    "https://www.dell.com/en-us/blog/where-purpose-meets-action/",
+    "https://www.dell.com/en-us/blog/what-the-new-pqc-executive-order-means-for-organizations/",
+    "https://www.dell.com/en-us/blog/it-s-called-a-database-it-doesn-t-act-like-one/",
+    "https://www.dell.com/en-us/blog/how-dell-cyber-resilience-protects-ai-initiatives/",
+    "https://www.vastdata.com/blog/the-future-of-supercomputing-is-still-a-data-problem",
+    "https://www.securityweek.com/microsoft-adds-new-teams-controls-to-block-unauthorized-ai-bots-from-meetings/",
+    "https://www.securityweek.com/adobe-patches-critical-coldfusion-campaign-classic-vulnerabilities/",
+    "https://www.securityweek.com/citrix-patches-netscaler-vulnerabilities-including-new-http-2-bomb-attack/",
+    "https://www.securityweek.com/frontier-ai-six-questions-every-enterprise-should-ask-security-vendors/",
+    "https://www.securityweek.com/apple-patches-dozens-of-vulnerabilities-across-ios-macos-and-safari/",
+    "https://www.securityweek.com/dawnguard-raises-6-3-million-for-security-architecture-automation-platform/",
+    "https://www.securityweek.com/massive-password-spray-campaign-targeting-azure-cli/",
+    "https://www.securityweek.com/google-patches-382-chrome-vulnerabilities/",
+    "http://www.boannews.com/media/view.asp?idx=144456&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144453&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144455&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144449&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144442&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144445&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144446&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144452&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144451&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144450&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "아카마이-엔비디아, ‘AI 팩토리’에 제로트러스트 심는다",
+      "summary": "가디코어 세그멘테이션과 DOCA·블루필드-4 통합 발표하드웨어 인프라에 보안망 내재화해 컴퓨팅 성능 저하 없는 방어[보안뉴스 조재호 기자] 아카마이와 엔비디아가 협력해 에이전틱 시대의 근간이 되는 ‘AI 팩토리’에 첨단 보안 아키텍처를 도입한다.양사는 엔비디아 DOCA 소프트웨어 플랫폼 기반으로 작동하는 ‘엔비디아 베라 블루필드-4 STX’ 스토리지 아키텍",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144456&kind=&sub_kind=",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "에브리존, SaaS 기반 통합 랜섬웨어 방어 ‘화이트디펜더 플랫폼’ 출시",
+      "summary": "PC부터 이기종 서버까지 분산된 IT 자산 아우른 중앙 통제9월 개인정보보호법 개정 앞두고 전사적 가시성 확보 지원[보안뉴스 조재호 기자] 에브리존이 랜섬웨어를 방지하고 기업의 전체 대응 현황을 중앙에서 일괄 통제할 수 있는 SaaS 기반 ‘화이트디펜더 플랫폼’을 공식 출시했다. 이 플랫폼은 기존 백신이나 EDR 솔루션과 충돌 없이 병행 운영할 수 있으며,",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144453&kind=&sub_kind=",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "SKT, 퀀텀코리아서 AI·6G 시대 대비 양자암호 기술 대거 공개",
+      "summary": "PIC 기반·무선·위성 QKD 등 차세대 기술 제시 국방공공 및 글로벌 사업자와 협력 기회 확대[보안뉴스 강현주 기자] SK텔레콤(대표 CEO 정재헌)은 2일부터 4일까지 동대문디자인플라자(DDP)에서 열리는 ‘퀀텀코리아 2026’에서 ‘AI·6G 시대를 대비한 차세대 양자암호 보안’을 주제로 차세대 양자암호 기술 및 솔루션을 대거 공개했다.퀀",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144455&kind=&sub_kind=",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "보안투자액 톱3, 삼성전자·쿠팡·KT 순... 자율공시 기업 30% 증가",
+      "summary": "쿠팡, 51.6% 투자 확대로 3위→2위로 SKT·SKB 합산 시 삼성전자 이어 2위‘자율 공시’ 급증은 신뢰 확보와 의무화 대비 신호[보안뉴스 강현주 기자] 2025년 정보보호 투자액이 가장 큰 국내 기업은 삼성전자, 쿠팡, KT 순으로 나타났다. 쿠팡의 투자 규모가 대폭 확대돼 전년 3위에서 2위에 올랐다. 공시에 참여한 기업들 중 자율공시한 기업은 전",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144449&kind=&sub_kind=",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 모니터랩, SSE 플랫폼 ‘아이온클라우드’로 생성형AI 시대 제로트러스트 보안 구현",
+      "summary": "SaaS·생성형 AI·MCP 트래픽까지... SSE 플랫폼으로 구현하는 통합 보안 전략[보안뉴스 강초희 기자] B2B 보안 서비스형 소프트웨어(SECaaS) 전문기업 모니터랩(대표 이광후)은 ‘ISEC 2026’에 참가해 국내 유일의 SSE(Security Service Edge) 플랫폼 ‘아이온클라우드’(AIONCLOUD)를 소개한다. 아이온클라우드는 S",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144442&kind=&sub_kind=",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 모빌린트, 온프레미스 AI 추론 최적화 NPU 솔루션 공개",
+      "summary": "ISEC 2026에서 AI 가속기·엣지 AI 시스템·AI SoC 선보일 예정AI CCTV·지능형 관제 등 보안 시장 공략[보안뉴스 강초희 기자] AI 반도체 팹리스 기업 모빌린트(대표 신동주)가 ‘ISEC 2026’에서 보안 현장의 온프레미스 AI 추론 수요에 최적화된 NPU 기반 AI 반도체 솔루션을 선보인다.모빌린트는 엣지 및 온프레미스 AI 추론에 특",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144445&kind=&sub_kind=",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "2026년 7월, 물리 & 정보 보안기업이 찾고 있는 인재는?",
+      "summary": "영상감시/주차관제 시스템 설계, 품질관리, 공공조달 영업, 기술지원 엔지니어기술영업, CCTV 설치 및 유지보수, 정보보호 컨설팅, 인증 및 품질 관리, 제조·생산[보안뉴스 엄호식 기자] 7월은 장마가 지나며 무더위가 기승을 부리고, 뜨거운 태양 아래에서 사람들은 휴가와 재충전을 꿈꾸기도 한다. 그러나 기업들에게 7월은 단순히 더위를 견디는 시기가 아니라,",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144446&kind=&sub_kind=",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "KT, ‘퀀텀코리아 2026’에서 양자암호통신 기술 공개",
+      "summary": "자체 기술 이전해 생산한 QKD 등 공개PQC 실증사례 선보이고 전시자 세션 발표[보안뉴스 강현주 기자] KT(대표 박윤영)가 2일부터 사흘간 서울 중구 동대문디자인플라자(이하DDP)에서 열리는 ‘퀀텀코리아 2026’에 참가해 최첨단 양자암호통신 기술을 선보인다고 2일 밝혔다. ‘퀀텀 코리아’는 과학기술정보통신부 등이 주최하는 국내 대표 양자 기술 행사다.",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144452&kind=&sub_kind=",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "KT “QKD·PQC 결합 양자보안 상용화... 국내 기업에 기술 이전 주도”",
+      "summary": "‘퀀텀 세이프 네트워크’ 소개... 특허 28개 자체 기술공공·국방 등 시범사업 거쳐 다양한 산업 적용[보안뉴스 강현주 기자] KT가 양자컴퓨터의 위협에 대응해 하드웨어 기반의 양자키분배(QKD) 기술과 소프트웨어 기반의 양자내성암호(PQC)까지 아우르는 양자보안 기술의 상용화에 나선다. 외산 장비를 단순 도입하는 경쟁사들과 달리, 원천 기술을 확보하고 국",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144451&kind=&sub_kind=",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "목적이 행동과 만나다",
+      "summary": "메이비스 누에즈는 자신의 경력을 목적 중심의 사명으로 전환했습니다. 그녀는 청소년을 지원하고 팀을 영감으로 이끌며 지속적인 변화를 창출하는 지역사회 영향력 활동을 주도했습니다. 이러한 노력들은 단순한 자선활동을 넘어 조직 문화와 개인의 성장에 깊은 영향을 미쳤습니다. 그녀의 사례는 기업 전문성과 사회적 책임이 어떻게 함께 작동할 수 있는지를 보여줍니다. 개인의 열정과 결단이 커뮤니티 전체의 긍정적 변화를 이끌어낼 수 있음을 입증합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/where-purpose-meets-action/",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 PQC 행정명령이 조직에 의미하는 바",
+      "summary": "최근 발표된 행정명령은 양자 컴퓨팅 시대에 대비하기 위해 조직들이 암호화 보안을 강화할 필요성을 강조하고 있습니다. 기업들은 현재 사용 중인 암호화 시스템을 식별하고 양자 안전 암호(PQC) 기술로의 전환 계획을 수립해야 합니다. 이 전환 과정은 상당한 시간과 자원이 소요될 수 있으므로 조직은 지금부터 준비를 시작하여 단계적으로 진행해야 합니다. 공급업체와 파트너들도 PQC 준비 상태를 평가하고 관련 지원을 제공해야 합니다. Dell은 조직들이 이 전환 과정을 효과적으로 관리할 수 있도록 지원 및 전략적 지침을 제공하고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/what-the-new-pqc-executive-order-means-for-organizations/",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "데이터베이스라고 불리지만 데이터베이스처럼 작동하지 않는다",
+      "summary": "'AI 데이터베이스'라고 불리는 것이 실제로는 메타데이터와 벡터 인덱스일 뿐이라는 점이 중요합니다. 이러한 솔루션들은 진정한 엔터프라이즈 데이터 작업이 이루어지는 곳에서 비용 문제로 드러나게 됩니다. Databricks, Snowflake, Iceberg와 같은 플랫폼들이 실제 데이터베이스 기능을 제공하며 엔터프라이즈 환경에서 필요한 진정한 데이터 관리 능력을 갖추고 있습니다. 기업들은 벡터 인덱싱만으로는 복잡한 데이터 작업을 처리할 수 없으며, 완전한 데이터베이스 기능이 필수임을 인식해야 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/it-s-called-a-database-it-doesn-t-act-like-one/",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell 사이버 복원력이 AI 이니셔티브를 어떻게 보호하는가",
+      "summary": "Dell은 21년간 백업 및 데이터 보호 분야의 인정된 리더로서 사이버 위협으로부터 중요한 데이터를 안전하게 보호하고 복구 가능한 상태로 유지해왔습니다. 조직들이 AI 기술을 채택함에 따라 데이터 보호의 중요성이 더욱 증대되고 있습니다. Dell의 포괄적인 사이버 복원력 솔루션은 AI 인프라와 데이터를 사이버 공격과 랜섬웨어로부터 보호합니다. 강화된 백업 및 재해 복구 전략을 통해 기업은 AI 이니셔티브를 자신감 있게 추진할 수 있습니다. Dell의 기술은 데이터 무결성을 보장하며 비즈니스 연속성을 유지하는 데 필수적입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-dell-cyber-resilience-protects-ai-initiatives/",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "슈퍼컴퓨팅의 미래는 여전히 데이터 문제다",
+      "summary": "현대 슈퍼컴퓨팅의 발전에 있어 가장 중요한 과제는 계산 능력의 향상이 아닌 데이터 처리 문제라는 점을 강조하고 있습니다. 고성능 프로세서와 GPU의 발전에도 불구하고, 이들을 효율적으로 활용하기 위해서는 방대한 양의 데이터를 빠르게 전송하고 처리할 수 있는 인프라가 필수적입니다. 데이터 병목 현상(Data Bottleneck)이 슈퍼컴퓨팅 성능의 실제적인 제약 요소가 되고 있으며, 이를 해결하지 않으면 하드웨어 성능 향상의 이점을 제대로 활용할 수 없습니다. VAST Data는 고속 데이터 저장소와 전송 기술의 중요성을 강조하며, 향후 슈퍼컴퓨팅의 성공은 데이터 인프라 구축에 달려있다고 주장합니다. 따라서 과학 연구, 인공지능, 시뮬레이션 등 슈퍼컴퓨팅이 활용되는 모든 분야에서 데이터 아키텍처의 최적화가 경쟁력 확보의 핵심이 될 것입니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/the-future-of-supercomputing-is-still-a-data-problem",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, Teams 미팅에서 무단 AI 봇 차단 새로운 컨트롤 추가",
+      "summary": "마이크로소프트가 Microsoft Teams 미팅에서 승인되지 않은 AI 봇의 접근을 차단하기 위한 새로운 제어 기능을 도입했습니다. 이 기능은 조직의 보안 관리자들이 미팅에 참여할 수 있는 봇을 더욱 엄격하게 관리할 수 있도록 지원합니다. 이는 비즈니스 회의의 기밀성과 보안을 강화하기 위한 조치로, 무단 AI 봇에 의한 데이터 유출이나 정보 수집을 방지하는 것을 목표로 합니다. 조직은 정책을 통해 어떤 봇이 미팅에 접근할 수 있는지를 제한할 수 있게 됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/microsoft-adds-new-teams-controls-to-block-unauthorized-ai-bots-from-meetings/",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "어도비, ColdFusion 및 Campaign Classic의 심각한 취약점 패치",
+      "summary": "어도비는 ColdFusion과 Campaign Classic에서 발견된 심각한 취약점들을 패치했다. CVE-2026-48286을 포함한 이번 취약점들은 공격자에 의해 악용될 수 있어 사용자들의 즉각적인 업데이트가 권장된다. 어도비는 보안 업데이트를 통해 영향받은 제품들의 보안을 강화했다. 이번 패치는 기업 사용자들에게 긴급 보안 조치로 간주되고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/adobe-patches-critical-coldfusion-campaign-classic-vulnerabilities/",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Citrix, NetScaler 취약점 패치 - 새로운 'HTTP/2 Bomb' 공격 포함",
+      "summary": "Citrix가 NetScaler의 여러 보안 취약점에 대한 패치를 발표했습니다. 이번 패치에는 새로운 'HTTP/2 Bomb' 공격을 악용하는 취약점이 포함되어 있습니다. HTTP/2 Bomb는 악의적인 사용자가 대량의 HTTP/2 요청을 통해 서버에 과부하를 일으키는 새로운 유형의 공격입니다. 이 취약점은 NetScaler 시스템에 영향을 미칠 수 있으며, 영향받는 사용자들은 즉시 패치를 적용해야 합니다. Citrix는 사용자들에게 최신 보안 업데이트를 적용할 것을 권장하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/citrix-patches-netscaler-vulnerabilities-including-new-http-2-bomb-attack/",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "프론티어 AI: 기업이 보안 벤더에게 물어봐야 할 6가지 질문",
+      "summary": "SecurityWeek의 이 기사는 엔터프라이즈 기업들이 AI 보안 솔루션을 제공하는 벤더들을 평가할 때 고려해야 할 핵심 질문들을 제시합니다. 프론티어 AI 기술이 빠르게 발전하면서 조직들이 이러한 새로운 기술에 대한 보안 위협을 제대로 이해하고 대비해야 한다는 점을 강조합니다. Joshua Goldfarb 필자는 보안 벤더의 AI 대응 능력, 투명성, 실제 보안 효과 등을 검증하기 위한 실질적인 질문 체크리스트를 제공합니다. 이를 통해 기업들이 자신의 환경에 맞는 최적의 AI 기반 보안 솔루션을 선택하도록 돕고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/frontier-ai-six-questions-every-enterprise-should-ask-security-vendors/",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "애플, iOS, macOS, Safari 전반의 수십 개 취약점 패치",
+      "summary": "애플이 iOS, macOS, Safari를 포함한 여러 플랫폼에서 발견된 수십 개의 보안 취약점을 패치했습니다. 이번 패치는 WebKit을 비롯한 핵심 시스템 컴포넌트의 취약점을 해결하기 위한 것입니다. 사용자들은 보안 위험으로부터 보호받기 위해 최신 버전으로의 즉시 업데이트를 권장받고 있습니다. 이러한 정기적인 보안 업데이트는 애플 기기 사용자들을 지속적인 사이버 위협으로부터 방어하기 위한 중요한 조치입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/apple-patches-dozens-of-vulnerabilities-across-ios-macos-and-safari/",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dawnguard, 보안 아키텍처 자동화 플랫폼으로 630만 달러 펀딩 확보",
+      "summary": "사이버보안 스타트업 Dawnguard가 보안 아키텍처 자동화 플랫폼 개발을 위해 630만 달러 규모의 자금 조달에 성공했습니다. 이 펀딩은 기업들의 보안 인프라 구축 및 관리를 자동화하는 솔루션을 확대하기 위한 것입니다. Dawnguard의 플랫폼은 복잡한 보안 아키텍처 설계와 배포 과정을 간소화하여 조직의 보안 효율성을 높이는 데 목표를 두고 있습니다. 이번 투자는 기업 보안 자동화 솔루션 시장에서 수요가 증가하고 있음을 반영합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/dawnguard-raises-6-3-million-for-security-architecture-automation-platform/",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Azure CLI를 겨냥한 대규모 비밀번호 스프레이 캠프 공격",
+      "summary": "위협 행위자들이 Azure CLI를 대상으로 8,100만 건 이상의 대규모 로그인 시도 공격을 감행하였습니다. 이 비밀번호 스프레이 캠프 공격은 Microsoft Azure 클라우드 서비스에 접근하기 위해 여러 계정에 대해 일반적인 비밀번호를 무차별 대입하는 방식으로 수행되었습니다. 해당 공격은 클라우드 보안에 대한 심각한 위협을 나타내며, 조직들은 강력한 인증 메커니즘과 모니터링 체계를 강화할 필요가 있습니다. 이러한 대규모 공격 캠프는 공격자들이 Azure 환경에 대한 무단 접근을 시도하고 있음을 의미합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/massive-password-spray-campaign-targeting-azure-cli/",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "구글, 크롬 382개 취약점 패치 배포",
+      "summary": "구글이 크롬 151 버전을 통해 382개의 취약점에 대한 보안 패치를 배포했습니다. 이 중에는 15개의 심각한(Critical) 수준의 취약점이 포함되어 있습니다. 이번 패치는 사용자들의 브라우저 보안을 강화하기 위한 정기적인 업데이트의 일환입니다. 크롬 사용자들은 최신 버전으로 업데이트하여 이러한 보안 위협으로부터 보호받을 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/google-patches-382-chrome-vulnerabilities/",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "글로벌 양자기술 한자리... ‘퀀텀코리아 2026’ 2일 개막",
+      "summary": "12개국 56개 기업 참가... 컴퓨팅·통신·센싱 기술 공개[보안뉴스 강현주 기자] 글로벌 양자기술이 한자리에 모인다. 과학기술정보통신부(부총리 겸 장관 배경훈)는 2~4일 서울 동대문구 동대문디자인플라자(DDP) 아트홀에서 양자 과학기술 연구산업 축제인 ‘퀀텀 코리아 2026’을 개최한다고 1일 밝혔다.퀀텀코리아는 연구자 교류와 학술 성과를 소개하던 양자",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144450&kind=&sub_kind=",
+      "date": "2026-07-01"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "‘AI 직원’ 무단 행동 사전 차단... 비욘드트러스트, AI 에이전트 권한 관리 솔루션 선보여",
@@ -11371,215 +11601,8 @@
       "source": "BleepingComputer",
       "sourceUrl": "https://www.bleepingcomputer.com/news/security/police-seize-first-vpn-service-used-in-ransomware-data-theft-attacks/",
       "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Flipper One 프로젝트, 오픈 리눅스 플랫폼 구축을 위해 커뮤니티 지원 요청",
-      "summary": "Flipper Zero 펜테스팅 도구의 제조사인 Flipper Devices가 연결된 장치를 위한 오픈 리눅스 플랫폼인 Flipper One 개발에 커뮤니티의 도움을 요청하고 있습니다. 이 프로젝트는 ARM 기반의 오픈소스 플랫폼으로, 보안 연구자 및 개발자들이 함께 참여하여 구축할 수 있도록 설계되었습니다. Flipper Devices는 오픈 소스 커뮤니티의 활발한 참여를 통해 더욱 강력하고 안정적인 플랫폼 개발을 목표로 하고 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/hardware/flipper-one-project-needs-community-help-to-build-open-linux-platform/",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "마이크로소프트, 실제 공격에 악용되는 새로운 Defender 제로데이 취약점 경고",
-      "summary": "마이크로소프트는 수요일부터 제로데이 공격에서 악용되고 있는 두 가지 Defender 취약점에 대한 보안 패치를 배포하기 시작했습니다. 이 취약점들은 현재 실제 공격에서 능동적으로 악용되고 있으며, 특권 에스컬레이션과 서비스 거부(DoS) 공격을 유발할 수 있습니다. CISA도 이러한 취약점들을 주시하고 있으며, 사용자들에게 즉시 패치 적용을 권장하고 있습니다. 마이크로소프트 Defender for Endpoint를 사용 중인 조직들은 보안 위협으로부터 시스템을 보호하기 위해 최신 업데이트를 적용해야 합니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-new-defender-zero-days-exploited-in-attacks/",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "GitHub, TanStack npm 공급망 공격과 연결된 저장소 침해 사건 공개",
-      "summary": "GitHub는 지난주 TanStack npm 공급망 공격에서 손상된 악의적 버전의 Nx Console VS Code 확장 프로그램을 통해 해커들이 자사의 3,800개 내부 저장소에 접근했다고 밝혔습니다. 이번 사건은 TanStack 패키지의 공급망 공격과 직접적으로 연결되어 있으며, 해커들이 인기 있는 개발 도구를 악용하여 광범위한 내부 시스템에 침투했음을 시사합니다. GitHub는 해킹된 Nx Console 확장을 통해 개발자 환경을 타겟팅한 이번 공격의 심각성을 강조하고 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/github-links-repo-breach-to-tanstack-npm-supply-chain-attack/",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "피지컬AI 모델, 정보보호... 한국정보처리학회 ‘ASK 2026’ 산학연 연구 성과 공유",
-      "summary": "한국정보처리학회(KIPS) 연례 학술 행사... 20-23일 강릉에서융합AI, 보안, 차세대 컴퓨팅 시스템 등 최신 학술 이론과 산업 접목 [보안뉴스 한세희 기자] “동작과 기억, 감각 센싱의 결합, 학습을 위한 합성 데이터 품질 강화, 3단계 훈련 기법 개발 등을 통해 사람처럼 움직이는 로봇을 위한 파운데이션 모델을 개발했습니다.” (신진우 KAIST A",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143765&kind=&sub_kind=",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[이슈칼럼] 깃허브도 뚫렸다, TeamPCP가 보여준 ‘NHI 시대’의 공급망 공격 진화",
-      "summary": "2-3개월 간 정상 배포로 위장한 8개월의 치밀한 공급망 장악 캠페인EDR도 탐지 못 하는 정상적인 API 호출 악용... NHI 인벤토리 점검 시급[보안뉴스= 김동현 OWASP 서울 챕터 리더] 지난 20일 깃허브(GitHub)가 자사 내부 저장소 약 3800개의 외부 유출을 공식 인정했다. 전 세계 개발자가 코드를 맡기는 플랫폼에서 직원 한 명이 설치한",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143763&kind=&sub_kind=",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "한화저축은행-오픈소프트랩, ‘차세대 AI 보안 거버넌스’ 고도화 협력 MOU 체결",
-      "summary": "생성형 AI 도입 따른 금융 안전성 확보AI-GRC 기반 선제적 감사 체계 구축 ‘박차’ [보안뉴스 강현주 기자] 한화저축은행이 생성형 인공지능(AI) 도입 가속화에 따른 금융 보안 경쟁력을 강화하기 위해 AI 보안 거버넌스 전문기업 오픈소프트랩과 손을 잡았다.한화저축은행(대표이사 강성수)은 오픈소프트랩(대표이사 정형택)과 ‘인공지능(AI) 보안",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143764&kind=&sub_kind=",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "FASTFIVE, HPE Aruba Networking EdgeConnect SSE를 디지털 백본으로 선택하여 보안 강화 및 IT 운영 최적화",
-      "summary": "HPE는 한국의 주요 코워킹 공간 제공업체인 FASTFIVE가 HPE Aruba Networking EdgeConnect SSE 솔루션을 선택했다고 발표했습니다. FASTFIVE는 전국 60개 이상의 사무실 위치에서 보안을 강화하고 IT 운영을 간소화하기 위해 이 솔루션을 도입합니다. 이 구현을 통해 FASTFIVE는 안전한 하이브리드 액세스, 중앙화된 정책 관리, 그리고 회사의 빠른 비즈니스 확장을 지원하는 확장 가능한 기반을 확보하게 됩니다. FASTFIVE는 스타트업과 대기업을 위한 유연한 사무실 솔루션을 전문으로 하며, 현대적인 업무 공간을 제공합니다.",
-      "category": "HPC·서버",
-      "source": "HPE",
-      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/05/fastfive-selects-hpe-aruba-networking-edgeconnect-sse-as-its-digital-backbone-to-strengthen-security-and-optimize-it-operations.html",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "아우토크립트, 자동차 넘어 로봇·의료기기까지 ‘피지컬 AI’ 보안 영토 확장",
-      "summary": "삼성동 연구소 피지컬 AI 보안연구센터로 개편하며 체질 개선 본격화첫 확장 산업으로 바이오 헬스케어 낙점... 자체 하이브리드 PQC 기술 이식[보안뉴스 조재호 기자] 아우토크립트가 글로벌 자동차 산업에서 축적한 사이버보안 기술력을 발판 삼아, 로봇·방산·바이오·헬스케어 등 피지컬 AI(Physical AI) 시스템이 적용되는 산업 전반으로 사업 영역을 확",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143755&kind=&sub_kind=",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "한국영상정보연구조합, 2026년 제1차 업계 협력 네트워킹 데이 개최",
-      "summary": "한국영상정보연구조합 회원사, 유관기관 관계자 등 임직원 30여명 참석보안기능확인서 호환성 대응방안과 행정안전부 지능형 관제지원 사업 경과 등 공유[보안뉴스 엄호식 기자] 한국영상정보연구조합(이사장 황정현, KIIA)이 업계간 소통·협력 강화를 통한 기술개발 및 산업 활성화를 위해 ‘2026년 제1차 업계 협력 네트워킹 데이 행사’를 5월 20일 카티스 대회",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143758&kind=&sub_kind=",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[인사] 개인정보보호위원회",
-      "summary": "◇국장급 전보△조사조정국장 이재형[강현주 기자(jjoo@boannews.com)]<저작권자: 보안뉴스(www.boannews.com) 무단전재-재배포금지>",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143757&kind=&sub_kind=",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "KISIA, 24개 대학 정보보호 동아리 선정해 인재 지원... ‘2026년 KUCIS 네트워킹 데이’",
-      "summary": "미래 정보보호 핵심 인재 지원 개시[보안뉴스 강현주 기자] 한국정보보호산업협회(KISIA, 회장 김진수)는 전국 24개 대학 정보보호 동아리 학생들과 네트워킹 시간을 갖고 인재 지원 프로그램 시작을 알렸다. KISIA는 과학기술정보통신부(부총리 겸 장관 배경훈)와 20일 로얄호텔서울에서 ‘2026년 KUCIS 네트워킹 데이’를 개최했다고 21일 밝혔다.본",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143756&kind=&sub_kind=",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "일반 사용자가 최고 관리자 권한 탈취... 리눅스 커널 ‘더티디크립트’ 공격 코드 공개",
-      "summary": "[보안뉴스 김형근 기자] 리눅스 커널에서 일반 사용자가 시스템의 최고 권한을 가로챌 수 있는 핵심 보안 결함에 대한 구체적인 공격 실행 코드(PoC)가 공개됐다.미국의 보안 연구 기업인 젤릭(Zellic)과 V12 보안 팀은 이 결함을 발견해 리눅스 관리자들에게 보고한 뒤, 공식 수리 프로그램이 나오자 해당 공격 코드를 인터넷에 공개했다.‘더티디크립트’(D",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143754&kind=&sub_kind=",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "포티넷 “데이터센터부터 엣지까지 AI 보호” 포티게이트 G 시리즈 2종 출시",
-      "summary": "자체 개발 ASIC 프로세서 탑재로 성능 저하 없이 암호화 및 동서 트래픽 처리승인되지 않은 섀도우 AI 실시간 탐지 및 MCP 기반 트래픽 세밀 통제 지원[보안뉴스 조재호 기자] 포티넷이 차세대 방화벽 포티게이트(FortiGate) G 시리즈의 신제품 2종을 출시했다고 21일 밝혔다. 이번에 선보인 장비는 대규모 데이터센터 환경을 겨냥한 포티게이트 350",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143753&kind=&sub_kind=",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "깃허브, “내부 저장소 3800개 공격 당해... VS코드 악성 확장 프로그램이 원인”",
-      "summary": "해커 그룹 팀PCP, 깃허브 내부 데이터 탈취 주장, 몸값 요구깃허브, “사용자 데이터는 영향 없어” [보안뉴스 한세희 기자] 깃허브가 자사 내부 소프트웨어 저장소 3800개가 사이버 공격을 당했다고 인정했다. 깃허브는 ‘비주얼스튜디오(VS) 코드’ 마켓플레이스에서 악성 확장 프로그램을 설치한 직원의 컴퓨터가 문제의 원인이었다고 밝혔다. 문제의 악성 코드를",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143752&kind=&sub_kind=",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "시스코코리아, 네이버 브랜드 스토어 오픈... 네트워킹 솔루션 접근성 확대",
-      "summary": "SMB·스타트업 등 중소형 기업 대상 온라인 구매 채널“합리적 비용으로 고객 접점 강화”[보안뉴스 강현주 기자] 시스코가 국내 최대 포털 기반 이커머스 플랫폼인 네이버에 ‘시스코 공식 브랜드 스토어’를 오픈하고, SMB 및 스타트업 등 국내 중소형 엔터프라이즈 고객 대상 온라인 구매 채널을 본격 강화한다고 21일 밝혔다. 이번 브랜드 스토어 오픈은 시스코의",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143751&kind=&sub_kind=",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "KT, 개인정보보호 자문위원회 신설... “선제적 관리 체계 구축”",
-      "summary": "정책·기술·산업 분야 외부 전문가 참여 및 위원회 지속 확대AX 기반 데이터 활용·보호 기준 마련[보안뉴스 강현주 기자] KT(대표 박윤영)가 ‘개인정보보호 자문위원회’를 신설한다고 21일 밝혔다. AI 기술 발전과 데이터 기반 서비스 확산에 따른 개인정보 처리 환경 변화에 대응하고, 고객 신뢰 회복과 책임 있는 데이터 활용 생태계 구축을 위해서다. KT",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143749&kind=&sub_kind=",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "HPE, 2026년 가트너 매직 쿼드런트에서 5년 연속 최고 실행력과 비전 선두 위치 달성",
-      "summary": "HPE가 2026년 가트너 매직 쿼드런트 엔터프라이즈 유선 및 무선 LAN 인프라 부문에서 리더로 인정받았으며, '비전의 완성도'에서 가장 앞서고 '실행 능력'에서 최고 평가를 받았다. 이는 HPE가 해당 부문에서 5년 연속으로 이 같은 위치를 달성한 것이며, 이 보고서의 리더 쿼드런트에 20년 연속으로 이름을 올린 것이다. 비전의 완성도는 시장 이해, 마케팅 및 영업 전략, 상품 전략 등의 기준으로 평가된다.",
-      "category": "HPC·서버",
-      "source": "HPE",
-      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/05/hpe-positioned-highest-in-execution-and-furthest-in-vision-in-2026-magic-quadrant-for-enterprise-wired-and-wireless-lan-infrastructure-by-gartner-for-fifth-consecutive-time.html",
-      "date": "2026-05-20"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "퀀텀 브릿지, 양자 안전 키 분배 솔루션으로 800만 달러 자금 조달",
-      "summary": "사이버보안 회사 퀀텀 브릿지가 양자 내성 암호(PQC) 기술을 기반으로 한 양자 안전 키 분배 솔루션 개발을 위해 800만 달러 규모의 자금을 조달했다. 이번 투자는 양자 컴퓨팅 시대에 대비한 암호화 보안 강화의 중요성이 커지고 있음을 반영한다. 양자 안전 키 분배 기술은 미래의 양자 컴퓨터 공격으로부터 데이터 통신을 보호하기 위한 차세대 보안 솔루션으로 주목받고 있다. 해당 자금은 양자 내성 암호 기술 개발 및 상용화 가속화에 사용될 예정이다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/quantum-bridge-raises-8-million-for-quantum-safe-key-distribution-solution/",
-      "date": "2026-05-20"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "마이크로소프트, 'YellowKey' BitLocker 우회 취약점에 대한 완화 조치 배포",
-      "summary": "마이크로소프트가 BitLocker 암호화를 우회할 수 있는 'YellowKey' 취약점에 대한 완화 조치를 배포했습니다. 이 취약점은 Windows 시스템의 디스크 암호화 기능인 BitLocker의 보안을 침해할 수 있는 것으로 알려져 있습니다. 마이크로소프트는 사용자 시스템을 보호하기 위해 관련 패치 및 보안 완화 방안을 제시했습니다. 이번 조치는 엔드포인트 보안 강화를 목표로 하고 있으며, 조직들은 권장되는 업데이트를 즉시 적용할 것을 권고받고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/microsoft-rolls-out-mitigations-for-yellowkey-bitlocker-bypass/",
-      "date": "2026-05-20"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "AI 기반 애플리케이션 공격, 더 빠르고 빈번하며 차단 어려워",
-      "summary": "보안 보고서에 따르면 AI를 활용한 공격자들이 모바일 앱을 이전보다 더 빠르고 자주 공격하고 있습니다. 이러한 AI 기반 공격은 탐지 및 방어가 더욱 어려워져 조직들이 애플리케이션 보안 전략을 근본적으로 재검토해야 하는 상황입니다. 공격의 속도와 빈도 증가는 기존의 보안 방어 체계로는 대응하기 어려운 새로운 위협 환경을 만들고 있습니다. 조직들은 AI 기반 공격 패턴에 대응할 수 있는 고도화된 보안 대책 수립이 시급합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/ai-powered-app-attacks-are-faster-more-frequent-and-harder-to-stop/",
-      "date": "2026-05-20"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "1Password와 OpenAI, AI 코딩 에이전트의 자격증명 유출 방지를 위해 협력",
-      "summary": "1Password와 OpenAI가 협력하여 AI 코딩 에이전트가 민감한 자격증명을 실수로 유출하는 것을 방지하는 보안 솔루션을 개발했습니다. 이는 AI 개발 도구의 확산으로 인해 인증 정보가 코드에 포함되어 공개되는 위험성이 증가하고 있는 상황에 대응하기 위한 것입니다. 두 회사는 기술적 협력을 통해 AI 시스템이 개발 과정에서 비밀번호, API 키 등 중요한 자격증명을 안전하게 처리하도록 개선하고 있습니다. 이러한 통합은 개발자들이 보안 위험을 줄이면서도 AI 코딩 도구의 생산성을 유지할 수 있도록 지원합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/1password-teams-with-openai-to-stop-ai-coding-agents-from-leaking-credentials/",
-      "date": "2026-05-20"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Anthropic, Claude 코드 샌드박스 우회 취약점 침묵 패치",
-      "summary": "Anthropic이 Claude AI의 코드 실행 환경인 샌드박스 우회 취약점을 조용히 패치한 것으로 알려졌습니다. 이 취약점은 악의적인 사용자가 코드 샌드박스의 보안 경계를 벗어나 시스템에 무단으로 접근할 수 있게 해주었습니다. SecurityWeek의 보도에 따르면 회사는 공식 공지 없이 문제를 해결했으며, 구체적인 기술적 세부사항은 아직 공개되지 않았습니다. 이러한 침묵 패치는 취약점의 심각성과 광범위한 영향 범위를 시사합니다. 업계 전문가들은 AI 시스템의 코드 실행 기능에 대한 보안 강화의 필요성을 강조하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/anthropic-silently-patches-claude-code-sandbox-bypass/",
-      "date": "2026-05-20"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "320개 이상의 NPM 패키지가 새로운 미니 샤이-훌루드 공급망 공격에 피해",
-      "summary": "320개 이상의 NPM(Node Package Manager) 패키지가 새로운 미니 샤이-훌루드(Mini Shai-Hulud) 공급망 공격의 대상이 되었습니다. 이 공격은 TeamPCP 그룹에 의해 실행된 것으로 추정되며, 개발자들이 사용하는 오픈소스 라이브러리들을 감염시키는 방식으로 진행되었습니다. 공급망 공격은 정상적인 소프트웨어 패키지를 통해 악성 코드를 배포하는 위험한 보안 위협으로, 광범위한 개발 환경에 영향을 미칠 수 있습니다. 이번 사건은 오픈소스 생태계의 보안 취약성을 다시 한 번 부각시켰으며, 개발자들의 의존성 관리와 패키지 검증의 중요성을 강조합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/over-320-npm-packages-hit-by-fresh-mini-shai-hulud-supply-chain-attack/",
-      "date": "2026-05-20"
     }
   ],
-  "totalItems": 2577,
+  "totalItems": 2600,
   "hasArchive": true
 }
