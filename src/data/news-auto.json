@@ -2599,9 +2599,199 @@
     "http://www.boannews.com/media/view.asp?idx=144446&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144452&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144451&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=144450&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=144450&kind=&sub_kind=",
+    "https://www.dell.com/en-us/blog/purpose-before-tools-what-i-saw-at-the-presidential-ai-challenge/",
+    "https://www.dell.com/en-us/blog/accelerating-america-s-next-250/",
+    "https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/",
+    "https://www.securityweek.com/how-to-conduct-a-successful-audit-of-ai-driven-software-development/",
+    "https://www.securityweek.com/fortibleed-campaign-linked-to-inc-lynx-ransomware-attacks/",
+    "https://www.securityweek.com/trump-administration-lifts-restrictions-on-anthropics-claude-models-after-cybersecurity-alarm/",
+    "https://www.securityweek.com/cisco-confirms-in-the-wild-exploitation-of-unified-cm-vulnerability/",
+    "https://www.securityweek.com/bioshocking-attack-tricks-ai-browsers-into-stealing-credentials/",
+    "https://www.securityweek.com/cisa-warns-of-actively-exploited-microsoft-sharepoint-vulnerability/",
+    "http://www.boannews.com/media/view.asp?idx=144479&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144475&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144476&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144474&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144422&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143639&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144472&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144473&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144471&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144470&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "인천국제공항공사, 휴가철 앞두고 대국민 안전여행 캠페인 실시",
+      "summary": "국립인천공항검역소와 합동으로 대국민 캠페인 진행출국 전 해외감염병 안내 등 안전한 해외여행 위한 준수사항 안내[보안뉴스 엄호식 기자] 인천국제공항공사는 본격적인 여름 휴가철을 앞두고 해외감염병 예방 등 안전여행 수칙을 안내하기 위해 7월 2일 인천공항 제2여객터미널에서 국립인천공항검역소와 함께 ‘여름 휴가철 맞이 대국민 안전여행 캠페인’을 진행했다고 밝혔다",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144479&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 센스톤, OT 엔드포인트 인증으로 산업제어시스템 보안 강화",
+      "summary": "OT 엔드포인트 사용자 인증 기술 공개... 설비 제어 전 접근통제 구현PLC·SCADA 등 산업제어시스템 대상 OT 인증 게이트웨이 시연IEC 62443 기반 사용자 식별·인증으로 OT 보안 강화 추진[보안뉴스 강초희 기자] 센스톤은 ‘ISEC 2026’에서 국내 파트너사인 투씨에스지와 함께 OTAC Trusted Access Gateway(TAG) 시연",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144475&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 소만사, AI DLP·AI EDR 투트랙 전략 공개... 생성형 AI 보안 확대",
+      "summary": "생성형 AI를 통한 개인정보·기밀정보 유출을 차단하는 AI DLP 솔루션 공개LLM 기반 맥락 분석으로 AI 서비스 내 정보 유출을 실시간 탐지·차단AI DLP와 AI EDR을 결합해 생성형 AI 보안 플랫폼으로 사업 확대[보안뉴스 강초희 기자] 내부정보 유출방지(DLP) 전문기업 소만사가 ISEC 2026에서 개인정보·기밀정보 유출을 막는 AI DLP 솔",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144476&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "위드네트웍스, 섀도우 API 사각지대 지운다... ‘탐지부터 통제까지’ 자동화",
+      "summary": "라드웨어 코리아 AI 시큐리티 서밋 참가해 완성형 API 보안 청사진 제시‘withVTM’으로 섀도우 API 식별하고 ‘Radware AppSec’으로 즉각 차단[보안뉴스 조재호 기자] 위드네트웍스는 AI 시큐리티 서밋 2026에 기술 전문 공식 파트너로 참가해 인공지능 시대에 대응하는 최신 애플리케이션 보안 전략을 발표했다고 2일 밝혔다. 이번 행사에서",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144474&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[Global Security TOP 100] 유키 공 유니뷰코리아 지사장 “고객 환경에 최적화한 AIoT 솔루션 제공”",
+      "summary": "보안시장, ‘사후 확인’ 중심에서 ‘사전 예방과 통합 운영’ 중심으로 전환기술 교육, 데모 지원, 산업별 제안 콘텐츠 제공 등 파트너 지원 체계 지속적으로 강화 노력[보안뉴스 엄호식 기자] 2005년 중국 항저우에서 설립된 유니뷰(Uniview)는 글로벌 AIoT 솔루션 전문기업으로 네트워크 카메라와 NVR, VMS, 열화상 카메라 등 영상보안 분야를 중심",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144422&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 52] 세 살 버릇 여든까지 간다(2)-메신저 2단계 인증, 왜 꼭 해야 할까",
+      "summary": "카카오톡 등 메신저의 ‘2단계 인증’을 설정하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐, 안",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143639&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[김정덕의 인간중심보안-12] 보안의 성패를 가르는 7가지 문화 유형",
+      "summary": "우리 조직의 보안 문화는 어디에 있습니까?[연재목차 Part 3. 인간중심보안과 보안문화]1. AI 시대, 왜 인간 중심 보안인가2. AI 시대, 인간 중심 보안을 구현하려면3. 인간의 창의성과 AI 보안4. 보안 위반, 뇌 과학 해법5. 넛지 보안의 힘6. 감정과 비합리성, 보안의 숨은 힘7. 디지털 야누스, 두얼굴의 사용자8. ‘인간중심보안’과 ‘제로트",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144472&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "해양수산부, 항만 내 드론 불법 침입 막는 안티드론 시스템 가동",
+      "summary": "7월부터 부산항, 인천항, 울산항 등 주요 무역항 3곳에서 안티드론 시스템 운영여수·광양항 및 평택·당진항 등 순차적 시스템 도입 예정[보안뉴스 엄호식 기자] 해양수산부(장관 황종우)는 국가중요시설인 무역항을 불법 드론의 위협으로부터 보호하고 안정적인 항만 운영을 위해 구축한 ‘무역항 안티드론 시스템’을 7월부터 본격 가동한다고 밝혔다.무역항 안티드론 구축",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144473&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "글로벌 산학연 AI 전문가 모여 AI 안전·보안 논의... SFASS 2026 개최",
+      "summary": "‘AI 안전·보안 및 관련 표준에 관한 노력과 향후 협력방향’ 주제[보안뉴스 강현주 기자] 전 세계 전문가들이 모여 AI 안전·보안 표준과 협력 방안을 논의한다. 과학기술정보통신부(부총리 겸 장관 배경훈)가 주최하고 한국전자통신연구원 인공지능안전연구소(소장 김명주)가 주관하는 ‘서울 포럼 온 AI 세이프티 & 시큐리티 2026’(SFASS 2026)’이 7",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144471&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "도구보다 목적이 먼저: 대통령 AI 챌린지에서 본 것들",
+      "summary": "전국의 학생들이 대통령 AI 챌린지에서 AI를 실제로 활용하여 자신들의 학교와 지역사회가 직면한 실제 문제들을 해결하고자 노력했습니다. 이 행사를 통해 학생들은 기술 자체보다는 기술을 통해 해결하고자 하는 목적이 더욱 중요함을 보여주었습니다. 참가자들은 AI 도구의 사용 방법보다 어떤 문제를 풀 것인지에 초점을 맞추고 창의적인 솔루션을 개발했습니다. 이러한 경험은 학생들이 기술의 진정한 가치와 사회에 대한 긍정적인 영향을 이해하도록 했습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/purpose-before-tools-what-i-saw-at-the-presidential-ai-challenge/",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국의 다음 250년을 가속화하다",
+      "summary": "Dell Technologies는 미국의 다음 250년을 향한 여정에서 잠재력을 실제 진전으로 전환하는 것을 돕고 있습니다. 기술 혁신을 통해 기업들이 디지털 변환을 가속화할 수 있도록 지원합니다. Dell은 지속 가능성과 포용성을 바탕으로 사회적 가치를 창출하는 데 기여합니다. 고급 기술 솔루션과 인프라를 제공하여 산업의 미래를 주도합니다. 이러한 노력을 통해 Dell Technologies는 미국의 경제 성장과 발전에 핵심적인 역할을 담당하고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/accelerating-america-s-next-250/",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 CitrixBleed 취약점, 공개 직후 즉시 악용되다",
+      "summary": "Citrix NetScaler ADC 및 NetScaler Gateway의 취약점 CVE-2026-8451이 공개된 지 24시간 이내에 해커들에 의해 악용되기 시작했습니다. 이 새로운 CitrixBleed 취약점은 공개 공시 직후 매우 빠르게 공격 대상이 되었습니다. SecurityWeek의 보도에 따르면 보안 위협 행위자들이 신속하게 이 취약점을 악용하기 위한 공격을 개시했습니다. Citrix 제품 사용자들은 즉시 패치 적용이 필요한 상황입니다. 이는 주요 기업 인프라 솔루션의 취약점이 얼마나 빠르게 악용될 수 있는지 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 기반 소프트웨어 개발 감사를 성공적으로 수행하는 방법",
+      "summary": "이 글은 AI 기술이 소프트웨어 개발 과정에 통합됨에 따라 기업들이 효과적인 감시 및 감사 체계를 구축해야 함을 강조합니다. AI 기반 개발 도구의 보안 취약점과 잠재적 위험성을 파악하고 관리하기 위한 체계적인 감사 방법론의 필요성이 대두되고 있습니다. 감사 과정에서는 AI 모델의 투명성, 코드 품질, 보안 컴플라이언스 등 다양한 측면을 종합적으로 검토해야 합니다. 특히 생성형 AI의 오류나 편향성이 소프트웨어 보안에 미치는 영향을 최소화하기 위한 감사 프레임워크 구축이 중요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/how-to-conduct-a-successful-audit-of-ai-driven-software-development/",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "FortiBleed 캠페인, INC 및 Lynx 랜섬웨어 공격과 연계",
+      "summary": "FortiGate 방화벽을 대상으로 하는 FortiBleed 캠페인이 INC 및 Lynx 랜섬웨어 공격과 연결되어 있는 것으로 확인되었습니다. 이 캠페인과 관련하여 110만 개 이상의 도용된 자격 증명이 공격에 연루된 것으로 파악되었습니다. FortiBleed는 Fortinet의 주요 제품인 FortiGate 방화벽의 취약점을 악용하는 광범위한 사이버 공격 캠페인입니다. 이번 연계를 통해 조직적인 사이버 범죄 집단의 활동이 드러났으며, 기업들은 긴급히 보안 업데이트와 접근 제어 강화가 필요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/fortibleed-campaign-linked-to-inc-lynx-ransomware-attacks/",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "트럼프 행정부, 사이버보안 우려 후 Anthropic의 Claude 모델 제한 해제",
+      "summary": "트럼프 행정부가 Anthropic의 Claude AI 모델에 대한 제한을 해제했습니다. 이는 초기 사이버보안 우려가 제기된 이후의 조치입니다. 행정부는 Claude 모델의 보안 검증을 완료한 후 제한을 철회하기로 결정했습니다. 이 결정은 미국 AI 기술 산업의 발전과 경쟁력 강화를 목표로 합니다. SecurityWeek에서 보도한 이 소식은 정부의 AI 정책 방향 변화를 나타냅니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/trump-administration-lifts-restrictions-on-anthropics-claude-models-after-cybersecurity-alarm/",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "시스코, Unified CM 취약점의 실제 악용 확인",
+      "summary": "시스코가 Unified Communications Manager(Unified CM) 제품의 취약점(CVE-2026-20230)이 실제 환경에서 악용되고 있음을 확인했습니다. 이 취약점은 공격자가 시스템에 무단으로 접근하고 악의적인 활동을 수행할 수 있도록 허용할 수 있습니다. 시스코는 영향받는 사용자들에게 긴급히 보안 패치를 적용할 것을 권고하고 있습니다. Unified CM은 기업의 음성 통신 및 협업 인프라의 핵심 구성 요소로 광범위하게 사용되고 있어 이번 위협이 상당한 영향을 미칠 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisco-confirms-in-the-wild-exploitation-of-unified-cm-vulnerability/",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "'바이오쇼킹' 공격, AI 브라우저를 속여 자격증명 탈취",
+      "summary": "보안 연구원들이 'BioShocking'이라는 새로운 공격 기법을 발견했습니다. 이 공격은 AI 기능이 탑재된 브라우저를 악용하여 사용자의 자격증명과 민감한 정보를 탈취합니다. 공격자는 AI 브라우저의 자동 완성 및 정보 처리 기능을 속이는 방식으로 작동합니다. 이 공격 기법은 생체 인식 및 AI 기술의 급속한 발전에 따른 새로운 보안 위협을 나타냅니다. 사용자들은 AI 기반 브라우저 기능의 보안 위험성을 인식하고 주의가 필요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/bioshocking-attack-tricks-ai-browsers-into-stealing-credentials/",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, 적극적으로 악용되고 있는 마이크로소프트 SharePoint 취약점 경고",
+      "summary": "미국 사이버보안기반시설보안국(CISA)이 마이크로소프트 SharePoint의 취약점(CVE-2026-45659)이 현재 실제로 악용되고 있다고 경고했습니다. 이 취약점은 공격자들에 의해 능동적으로 악용되고 있으며, 많은 조직들이 즉각적인 위협에 노출되어 있습니다. CISA는 영향을 받는 사용자들에게 긴급 업데이트 및 보안 패치를 적용할 것을 강력히 권고하고 있습니다. 이 취약점의 악용으로 인해 조직의 중요한 문서와 데이터가 유출될 수 있는 위험성이 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisa-warns-of-actively-exploited-microsoft-sharepoint-vulnerability/",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "오리엔텀, 호주 국가 양자 방문단과 맞손... “공동 연구·글로벌 상용화 가속”",
+      "summary": "2일 ‘퀀텀코리아 2026 개최... 호주 양자산업 비즈니스 미션 방문단 오리엔텀 방문[보안뉴스 한세희 기자] 오리엔텀이 2일 열린 ‘퀀텀코리아 2026’을 맞아 한국을 찾은 호주 양자 분야 전문가들과 양자 기술 공동 연구 및 상용화를 위한 협력 방안을 모색했다. 오리엔텀은 호주 양자 기술 관련 국가 기관과 주요 대학, 딥테크 기업들로 구성된 ‘호주 양자산",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144470&kind=&sub_kind=",
+      "date": "2026-07-02"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "아카마이-엔비디아, ‘AI 팩토리’에 제로트러스트 심는다",
@@ -11430,179 +11620,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143771&kind=&sub_kind=",
       "date": "2026-05-22"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "한국공항보안, 공항시장역 일대서 ‘제3회 한마음 플로깅’ 실시",
-      "summary": "지역 환경정화 활동 통해 ESG 실천과 지역사회 상생 앞장[보안뉴스 강초희 기자] 한국공항보안(사장 김수봉) 본사 임직원 60여명은 5월 22일 오전 10시부터 11시까지 공항시장역 일대에서 ‘제3회 한마음 플로깅’ 사회공헌활동을 실시했다.‘한마음 플로깅’은 임직원들이 함께 걸으며 쓰레기를 수거하는 환경정화 활동으로, 한국공항보안이 지역사회와의 상생과 ES",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143767&kind=&sub_kind=",
-      "date": "2026-05-22"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "“세븐일레븐도 뚫렸다” 샤이니헌터스 공격에 가맹점 정보 유출 인정",
-      "summary": "미국 규제당국에 데이터 유출 신고... 가맹점주 SSN 포함 민감정보 탈취클라우드 저장소 노린 샤이니헌터스, 유통·교육·금융 전방위 공격 확산[보안뉴스 김형근 기자] 글로벌 편의점 기업 세븐일레븐(7-Eleven)이 국제 사이버 범죄 조직 ‘샤이니헌터스’(ShinyHunters)의 공격으로 가맹점 관련 문서 저장 시스템이 침해됐음을 공식 인정했다.세븐일레븐",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143769&kind=&sub_kind=",
-      "date": "2026-05-22"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "대규모 엔지니어링 혁신: HPE 테크 컨 회의에서의 성찰",
-      "summary": "HPE 테크 컨은 일반적인 컨퍼런스가 아니며, 엄격한 제안 및 검토 과정을 통해 선정된 팀 멤버들이 모여 어려운 문제를 검토하고 가정에 도전하며 아이디어를 육성하는 장입니다. 회사의 혁신 엔진 역할을 하며 연구, 제품 엔지니어링 및 고객 간의 피드백 루프를 단축시키고, 초기 단계 기술을 현실의 제약에 노출시키며, 부품 수준의 최적화보다 시스템 수준의 사고를 우선시하도록 합니다. 고객들은 보안, 주권, AI가 주요 기술 우선 과제 중 하나라고 말하고 있습니다.",
-      "category": "HPC·서버",
-      "source": "HPE",
-      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/05/engineering-innovation-at-scale-reflections-from-hpe-tech-con.html",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "HPE, 2026년 HPE Discover에서 투자자 관계 서밋 라이브 웹캐스트 개최",
-      "summary": "HPE는 2026년 6월 16일 HPE Discover 2026에서 투자자 관계 서밋의 라이브 오디오 웹캐스트를 진행한다. HPE는 회사 회장 겸 CEO인 안토니오 네리의 기조연설을 포함하여 행사의 추가 라이브 프로그래밍을 시청할 것을 투자자들에게 초대한다. 6월 16일 중부시간 오전 11시(동부시간 정오)부터 네리의 기조연설로 시작되는 투자자 프로그래밍은 라이브로 방송될 예정이다. 같은 날 나중에 네트워킹 부사장 겸 사장 라미 라힘과 함께하는 HPE 네트워킹 일반 세션도 라이브로 방송된다.",
-      "category": "HPC·서버",
-      "source": "HPE",
-      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/05/hpe-to-present-live-webcast-of-investor-relations-summit-at-hpe-discover-2026.html",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "알파 추구에서의 비약적 도약",
-      "summary": "과거 10년 이상 거래 회사들은 나노초 단위의 거래 속도 경쟁에 집중해왔으나, 물리적 한계에 도달하면서 거래 속도의 경쟁 우위가 사라지고 있습니다. 이제 성공적인 거래팀들은 고주파 거래 대신 방대한 데이터 분석과 통계 모델을 활용하여 시장 조건을 예측하는 전략으로 전환하고 있습니다. 풍부한 시장 데이터, 대체 데이터, 대규모 시뮬레이션을 통해 기존의 반응형 거래에서 예측형 거래로의 전환이 가능해졌으며, 클래식 몬테카를로 코드는 차세대 머신러닝 엔진으로 대체되었습니다. G-Research 같은 정량 금융 회사들은 대규모 AI 인프라와 거대한 데이터셋을 결합하여 금융시장의 이벤트를 예측할 수 있는 능력을 갖추고 있습니다. 즉, 데이터의 양과 질이 통계 모델의 정확도를 결정하며, 이것이 새로운 시대의 경쟁 우위 요소가 되고 있습니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/a-quantum-leap-in-the-pursuit-of-alpha",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "시스코, 보안 워크로드의 심각한 취약점 패치",
-      "summary": "시스코가 보안 워크로드 제품의 심각한 수준의 취약점을 패치했습니다. 해당 취약점은 공격자가 시스템에 무단으로 접근하거나 제어할 수 있는 위험성을 지닌 것으로 파악됩니다. 시스코는 영향받는 사용자들에게 즉시 패치를 적용할 것을 권고하고 있습니다. 이번 취약점 발견은 기업 네트워크 보안 강화의 중요성을 다시 한 번 부각시키고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/cisco-patches-critical-vulnerability-in-secure-workload/",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Ocean, 에이전트 기반 이메일 보안 플랫폼으로 2,800만 달러 펀딩 유치하며 공식 출범",
-      "summary": "사이버보안 스타트업 Ocean이 스텔스 모드를 벗고 2,800만 달러의 초기 펀딩을 확보했습니다. 이 회사는 AI 에이전트 기술을 활용한 혁신적인 이메일 보안 플랫폼을 개발하고 있습니다. Ocean의 솔루션은 기존의 이메일 보안 도구를 뛰어넘는 지능형 위협 탐지 및 대응 능력을 제공합니다. 이번 펀딩은 이메일 기반 사이버 위협이 계속 증가하는 상황에서 고급 보안 솔루션에 대한 시장의 니즈를 반영합니다. Ocean은 이 자금을 통해 제품 개발과 시장 진출을 가속화할 계획입니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/ocean-emerges-from-stealth-with-28m-for-agentic-email-security-platform/",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "애플, 2025년 앱스토어 제출 200만 건 거부 - 보안 및 사기 방지",
-      "summary": "애플이 2025년 한 해 동안 앱스토어에 제출된 200만 건의 앱을 보안 및 사기 방지를 이유로 거부했다. 이는 애플이 플랫폼의 무결성을 유지하고 사용자를 보호하기 위해 얼마나 엄격한 심사 기준을 적용하고 있는지를 보여준다. 거부된 앱들은 악성 행위, 사기성 활동, 보안 위협 등 다양한 이유로 탈락했다. 애플의 적극적인 심사 프로세스는 앱스토어 생태계의 신뢰성을 높이는 동시에 개발자들에게는 더 높은 기준을 요구하고 있다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/apple-rejected-2-million-app-store-submissions-in-2025-for-security-and-fraud-prevention/",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Drupal, 웹사이트 해킹 위험에 빠뜨리는 심각한 취약점 패치",
-      "summary": "Drupal이 웹사이트를 해킹 위협에 노출시키는 심각한 수준의 취약점을 패치했습니다. 이 취약점은 공격자들이 Drupal 기반의 웹사이트에 접근하여 악의적인 활동을 수행할 수 있게 하는 높은 위험도를 가지고 있습니다. SecurityWeek에서 보도한 이번 보안 이슈는 Drupal 사용자들에게 즉시 업데이트를 권고하고 있습니다. 해당 취약점이 악용될 경우 웹사이트의 무결성과 사용자 데이터 보호가 심각하게 위협받을 수 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/drupal-patches-highly-critical-vulnerability-exposing-websites-to-hacking/",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Socket, 10억 달러 기업 가치평가로 6천만 달러 자금 조달",
-      "summary": "공급망 보안 기업인 Socket이 Series C 펀딩을 통해 6천만 달러를 조달하여 10억 달러의 기업 가치평가를 달성했습니다. 이번 자금 조달은 공급망 보안 분야에 대한 투자자들의 관심을 반영합니다. Socket은 오픈소스 소프트웨어 및 의존성에 대한 보안 위협을 감지하고 차단하는 솔루션을 제공합니다. 이 라운드를 통한 자금은 제품 개발과 시장 확장에 사용될 것으로 예상됩니다. Socket의 유니콘 기업 진입은 사이버보안 펀딩 시장에서 공급망 보안의 중요성이 높아지고 있음을 보여줍니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/socket-raises-60-million-at-1-billion-valuation/",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "마이크로소프트, 악용 중인 UnDefend 및 RedSun Defender 제로데이 패치",
-      "summary": "마이크로소프트가 현재 악용 중인 UnDefend와 RedSun Defender의 제로데이 취약점을 패치했습니다. 이 취약점들은 마이크로소프트 디펜더와 관련된 보안 결함으로, 공격자들이 이미 실제 공격에 활용하고 있었습니다. 마이크로소프트의 신속한 패치를 통해 사용자들은 최신 업데이트를 적용하여 이러한 제로데이 공격으로부터 시스템을 보호할 수 있습니다. 이번 패치는 사이버보안 분야에서 주목할 만한 대응 사례로 평가됩니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/microsoft-patches-exploited-undefend-and-redsun-defender-zero-days/",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "구글의 Chrome 취약점 발견 급증, AI 기반 탐지 가능성",
-      "summary": "구글이 Chrome 브라우저에서 발견하는 보안 취약점의 수가 급증하고 있으며, 이는 AI 기술의 활용이 주요 원인으로 추정되고 있습니다. SecurityWeek의 보도에 따르면, 구글의 보안팀이 AI 기반 취약점 탐지 시스템을 도입하여 더 효율적으로 보안 결함을 식별하고 있는 것으로 보입니다. 이러한 AI 활용은 제로데이 취약점을 포함한 다양한 보안 위협을 더 신속하게 발견하는 데 기여하고 있습니다. Chrome은 전 세계적으로 가장 널리 사용되는 웹 브라우저이기 때문에 이러한 취약점 발견의 증가는 사용자 보안 강화에 중요한 역할을 하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/googles-surge-in-chrome-vulnerability-discoveries-likely-driven-by-ai/",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "공급망 보안 위기: 너무 많은 취약점, 너무 적은 가시성",
-      "summary": "공급망 보안이 심각한 위기에 처해 있으며, 수많은 취약점에도 불구하고 이를 파악할 수 있는 가시성이 부족한 상황이다. SecurityWeek의 보도에 따르면 조직들은 공급망 내 수많은 보안 위협에 노출되어 있으면서도 이를 효과적으로 모니터링하지 못하고 있다. Black Kite의 보고서를 통해 공급망 보안의 현황과 문제점이 드러났으며, 기업들은 더욱 강화된 공급망 보안 대책이 필요한 시점이다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/supply-chain-security-crisis-too-many-vulnerabilities-too-little-visibility/",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "구글, 미패치 Chromium 취약점 세부사항 실수로 노출",
-      "summary": "구글이 Chromium의 미해결 보안 결함에 대한 세부사항을 실수로 유출했습니다. 이 취약점은 브라우저 종료 후에도 JavaScript가 백그라운드에서 계속 실행되도록 하는 문제입니다. 이를 통해 공격자가 기기에 원격 코드 실행(RCE) 공격을 수행할 수 있으며, 클릭 없이 감염되는 제로-클릭 공격으로 악용될 가능성이 있습니다. 이는 봇넷 구성 및 DDoS 공격 등 대규모 악성 활동에 악용될 수 있는 심각한 보안 위협입니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "애플, 6년간 App Store 사기 110억 달러 이상 차단",
-      "summary": "애플이 지난 6년간 App Store의 사기성 거래 110억 달러 이상을 차단했다고 밝혔습니다. 2025년 한 해만 22억 달러 이상의 잠재적 사기 거래를 탐지하고 차단했습니다. 이는 애플의 강화된 사기 탐지 및 방지 시스템이 얼마나 광범위하게 작동하고 있는지를 보여줍니다. App Store의 거래 보안을 위해 애플은 지속적으로 부정거래 모니터링 및 차단 기술을 개선하고 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/apple/apple-blocked-22-billion-in-fraudulent-app-store-transactions-in-2025/",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "암호화폐 드레이너 내부 분석: 지갑이 비워지기 전에 식별하는 방법",
-      "summary": "현대의 암호화폐 드레이너는 지갑을 직접 해킹하지 않고 사용자를 속여 악의적인 거래를 승인하도록 유도합니다. Flare는 Lucifer DaaS 플랫폼이 피싱과 자동화를 통해 지갑 도용을 대규모로 확대하는 방식을 분석했습니다. 이러한 공격은 사용자의 명시적 승인을 악용하여 자산을 빼내는 방식으로 작동합니다. 사이버 범죄자들은 이러한 도구를 서비스로 제공(DaaS)하여 공격의 범위를 확대하고 있습니다. 사용자들은 의심스러운 거래 승인 요청에 주의하고 지갑 보안을 강화해야 합니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/inside-a-crypto-drainer-how-to-spot-it-before-it-empties-your-wallet/",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "중국 해커들, 새로운 리눅스·윈도우 악성코드로 통신사 공격",
-      "summary": "중국의 사이버 스파이 활동 집단이 새로 발견된 리눅스 및 윈도우 악성코드인 'Showboat'과 'JFMBackdoor'를 이용해 전 세계 통신사 대상으로 공격을 진행 중입니다. 이 캠페인은 'Red Lamassu'로 추정되며, 통신 기반시설에 대한 지속적인 위협을 나타냅니다. 두 가지 악성코드는 각각 리눅스와 윈도우 시스템에 백도어 접근권을 제공하여 정보탈취를 가능하게 합니다. 통신사들은 이러한 새로운 악성코드의 존재를 인지하고 시스템 보안을 강화할 필요가 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/chinese-hackers-target-telcos-with-new-linux-windows-malware/",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "최고 심각도 Cisco Secure Workload 취약점, 사이트 관리자 권한 부여",
-      "summary": "Cisco가 Secure Workload의 최고 심각도 취약점을 해결하기 위한 보안 업데이트를 배포했습니다. 이 취약점은 공격자들이 Site Admin 권한을 획득할 수 있도록 허용합니다. Cisco는 즉시 보안 패치를 적용하여 이러한 권한 상승 공격으로부터 시스템을 보호하도록 권고하고 있습니다. 영향을 받는 Secure Workload 사용자들은 가능한 한 빨리 업데이트를 적용해야 합니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisco-max-severity-secure-workload-flaw-gives-hackers-site-admin-privileges/",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "경찰, 랜섬웨어 및 데이터 탈취 공격에 사용된 'First VPN' 서비스 적발",
-      "summary": "국제 법 집행기관의 합동 작전으로 랜섬웨어 공격과 데이터 탈취에 악용되어온 'First VPN'이라는 가상사설망(VPN) 서비스가 오프라인 상태로 전환되었습니다. 이 서비스는 사이버 범죄자들이 자신의 신원을 은폐하고 불법적인 활동을 은폐하기 위해 광범위하게 사용되어 왔습니다. 네덜란드 국가경찰을 포함한 여러 국가의 법 집행기관이 이 작전에 참여했으며, 이는 국제 사이버보안 협력의 성공적인 사례입니다. 이번 적발은 악성 VPN 서비스를 통한 사이버 범죄 활동 억제에 중요한 역할을 할 것으로 예상됩니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/police-seize-first-vpn-service-used-in-ransomware-data-theft-attacks/",
-      "date": "2026-05-21"
     }
   ],
-  "totalItems": 2600,
+  "totalItems": 2619,
   "hasArchive": true
 }

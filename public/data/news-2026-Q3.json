@@ -3,6 +3,177 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "인천국제공항공사, 휴가철 앞두고 대국민 안전여행 캠페인 실시",
+      "summary": "국립인천공항검역소와 합동으로 대국민 캠페인 진행출국 전 해외감염병 안내 등 안전한 해외여행 위한 준수사항 안내[보안뉴스 엄호식 기자] 인천국제공항공사는 본격적인 여름 휴가철을 앞두고 해외감염병 예방 등 안전여행 수칙을 안내하기 위해 7월 2일 인천공항 제2여객터미널에서 국립인천공항검역소와 함께 ‘여름 휴가철 맞이 대국민 안전여행 캠페인’을 진행했다고 밝혔다",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144479&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 센스톤, OT 엔드포인트 인증으로 산업제어시스템 보안 강화",
+      "summary": "OT 엔드포인트 사용자 인증 기술 공개... 설비 제어 전 접근통제 구현PLC·SCADA 등 산업제어시스템 대상 OT 인증 게이트웨이 시연IEC 62443 기반 사용자 식별·인증으로 OT 보안 강화 추진[보안뉴스 강초희 기자] 센스톤은 ‘ISEC 2026’에서 국내 파트너사인 투씨에스지와 함께 OTAC Trusted Access Gateway(TAG) 시연",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144475&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 소만사, AI DLP·AI EDR 투트랙 전략 공개... 생성형 AI 보안 확대",
+      "summary": "생성형 AI를 통한 개인정보·기밀정보 유출을 차단하는 AI DLP 솔루션 공개LLM 기반 맥락 분석으로 AI 서비스 내 정보 유출을 실시간 탐지·차단AI DLP와 AI EDR을 결합해 생성형 AI 보안 플랫폼으로 사업 확대[보안뉴스 강초희 기자] 내부정보 유출방지(DLP) 전문기업 소만사가 ISEC 2026에서 개인정보·기밀정보 유출을 막는 AI DLP 솔",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144476&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "위드네트웍스, 섀도우 API 사각지대 지운다... ‘탐지부터 통제까지’ 자동화",
+      "summary": "라드웨어 코리아 AI 시큐리티 서밋 참가해 완성형 API 보안 청사진 제시‘withVTM’으로 섀도우 API 식별하고 ‘Radware AppSec’으로 즉각 차단[보안뉴스 조재호 기자] 위드네트웍스는 AI 시큐리티 서밋 2026에 기술 전문 공식 파트너로 참가해 인공지능 시대에 대응하는 최신 애플리케이션 보안 전략을 발표했다고 2일 밝혔다. 이번 행사에서",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144474&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[Global Security TOP 100] 유키 공 유니뷰코리아 지사장 “고객 환경에 최적화한 AIoT 솔루션 제공”",
+      "summary": "보안시장, ‘사후 확인’ 중심에서 ‘사전 예방과 통합 운영’ 중심으로 전환기술 교육, 데모 지원, 산업별 제안 콘텐츠 제공 등 파트너 지원 체계 지속적으로 강화 노력[보안뉴스 엄호식 기자] 2005년 중국 항저우에서 설립된 유니뷰(Uniview)는 글로벌 AIoT 솔루션 전문기업으로 네트워크 카메라와 NVR, VMS, 열화상 카메라 등 영상보안 분야를 중심",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144422&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 52] 세 살 버릇 여든까지 간다(2)-메신저 2단계 인증, 왜 꼭 해야 할까",
+      "summary": "카카오톡 등 메신저의 ‘2단계 인증’을 설정하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐, 안",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143639&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[김정덕의 인간중심보안-12] 보안의 성패를 가르는 7가지 문화 유형",
+      "summary": "우리 조직의 보안 문화는 어디에 있습니까?[연재목차 Part 3. 인간중심보안과 보안문화]1. AI 시대, 왜 인간 중심 보안인가2. AI 시대, 인간 중심 보안을 구현하려면3. 인간의 창의성과 AI 보안4. 보안 위반, 뇌 과학 해법5. 넛지 보안의 힘6. 감정과 비합리성, 보안의 숨은 힘7. 디지털 야누스, 두얼굴의 사용자8. ‘인간중심보안’과 ‘제로트",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144472&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "해양수산부, 항만 내 드론 불법 침입 막는 안티드론 시스템 가동",
+      "summary": "7월부터 부산항, 인천항, 울산항 등 주요 무역항 3곳에서 안티드론 시스템 운영여수·광양항 및 평택·당진항 등 순차적 시스템 도입 예정[보안뉴스 엄호식 기자] 해양수산부(장관 황종우)는 국가중요시설인 무역항을 불법 드론의 위협으로부터 보호하고 안정적인 항만 운영을 위해 구축한 ‘무역항 안티드론 시스템’을 7월부터 본격 가동한다고 밝혔다.무역항 안티드론 구축",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144473&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "글로벌 산학연 AI 전문가 모여 AI 안전·보안 논의... SFASS 2026 개최",
+      "summary": "‘AI 안전·보안 및 관련 표준에 관한 노력과 향후 협력방향’ 주제[보안뉴스 강현주 기자] 전 세계 전문가들이 모여 AI 안전·보안 표준과 협력 방안을 논의한다. 과학기술정보통신부(부총리 겸 장관 배경훈)가 주최하고 한국전자통신연구원 인공지능안전연구소(소장 김명주)가 주관하는 ‘서울 포럼 온 AI 세이프티 & 시큐리티 2026’(SFASS 2026)’이 7",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144471&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "도구보다 목적이 먼저: 대통령 AI 챌린지에서 본 것들",
+      "summary": "전국의 학생들이 대통령 AI 챌린지에서 AI를 실제로 활용하여 자신들의 학교와 지역사회가 직면한 실제 문제들을 해결하고자 노력했습니다. 이 행사를 통해 학생들은 기술 자체보다는 기술을 통해 해결하고자 하는 목적이 더욱 중요함을 보여주었습니다. 참가자들은 AI 도구의 사용 방법보다 어떤 문제를 풀 것인지에 초점을 맞추고 창의적인 솔루션을 개발했습니다. 이러한 경험은 학생들이 기술의 진정한 가치와 사회에 대한 긍정적인 영향을 이해하도록 했습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/purpose-before-tools-what-i-saw-at-the-presidential-ai-challenge/",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국의 다음 250년을 가속화하다",
+      "summary": "Dell Technologies는 미국의 다음 250년을 향한 여정에서 잠재력을 실제 진전으로 전환하는 것을 돕고 있습니다. 기술 혁신을 통해 기업들이 디지털 변환을 가속화할 수 있도록 지원합니다. Dell은 지속 가능성과 포용성을 바탕으로 사회적 가치를 창출하는 데 기여합니다. 고급 기술 솔루션과 인프라를 제공하여 산업의 미래를 주도합니다. 이러한 노력을 통해 Dell Technologies는 미국의 경제 성장과 발전에 핵심적인 역할을 담당하고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/accelerating-america-s-next-250/",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 CitrixBleed 취약점, 공개 직후 즉시 악용되다",
+      "summary": "Citrix NetScaler ADC 및 NetScaler Gateway의 취약점 CVE-2026-8451이 공개된 지 24시간 이내에 해커들에 의해 악용되기 시작했습니다. 이 새로운 CitrixBleed 취약점은 공개 공시 직후 매우 빠르게 공격 대상이 되었습니다. SecurityWeek의 보도에 따르면 보안 위협 행위자들이 신속하게 이 취약점을 악용하기 위한 공격을 개시했습니다. Citrix 제품 사용자들은 즉시 패치 적용이 필요한 상황입니다. 이는 주요 기업 인프라 솔루션의 취약점이 얼마나 빠르게 악용될 수 있는지 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 기반 소프트웨어 개발 감사를 성공적으로 수행하는 방법",
+      "summary": "이 글은 AI 기술이 소프트웨어 개발 과정에 통합됨에 따라 기업들이 효과적인 감시 및 감사 체계를 구축해야 함을 강조합니다. AI 기반 개발 도구의 보안 취약점과 잠재적 위험성을 파악하고 관리하기 위한 체계적인 감사 방법론의 필요성이 대두되고 있습니다. 감사 과정에서는 AI 모델의 투명성, 코드 품질, 보안 컴플라이언스 등 다양한 측면을 종합적으로 검토해야 합니다. 특히 생성형 AI의 오류나 편향성이 소프트웨어 보안에 미치는 영향을 최소화하기 위한 감사 프레임워크 구축이 중요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/how-to-conduct-a-successful-audit-of-ai-driven-software-development/",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "FortiBleed 캠페인, INC 및 Lynx 랜섬웨어 공격과 연계",
+      "summary": "FortiGate 방화벽을 대상으로 하는 FortiBleed 캠페인이 INC 및 Lynx 랜섬웨어 공격과 연결되어 있는 것으로 확인되었습니다. 이 캠페인과 관련하여 110만 개 이상의 도용된 자격 증명이 공격에 연루된 것으로 파악되었습니다. FortiBleed는 Fortinet의 주요 제품인 FortiGate 방화벽의 취약점을 악용하는 광범위한 사이버 공격 캠페인입니다. 이번 연계를 통해 조직적인 사이버 범죄 집단의 활동이 드러났으며, 기업들은 긴급히 보안 업데이트와 접근 제어 강화가 필요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/fortibleed-campaign-linked-to-inc-lynx-ransomware-attacks/",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "트럼프 행정부, 사이버보안 우려 후 Anthropic의 Claude 모델 제한 해제",
+      "summary": "트럼프 행정부가 Anthropic의 Claude AI 모델에 대한 제한을 해제했습니다. 이는 초기 사이버보안 우려가 제기된 이후의 조치입니다. 행정부는 Claude 모델의 보안 검증을 완료한 후 제한을 철회하기로 결정했습니다. 이 결정은 미국 AI 기술 산업의 발전과 경쟁력 강화를 목표로 합니다. SecurityWeek에서 보도한 이 소식은 정부의 AI 정책 방향 변화를 나타냅니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/trump-administration-lifts-restrictions-on-anthropics-claude-models-after-cybersecurity-alarm/",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "시스코, Unified CM 취약점의 실제 악용 확인",
+      "summary": "시스코가 Unified Communications Manager(Unified CM) 제품의 취약점(CVE-2026-20230)이 실제 환경에서 악용되고 있음을 확인했습니다. 이 취약점은 공격자가 시스템에 무단으로 접근하고 악의적인 활동을 수행할 수 있도록 허용할 수 있습니다. 시스코는 영향받는 사용자들에게 긴급히 보안 패치를 적용할 것을 권고하고 있습니다. Unified CM은 기업의 음성 통신 및 협업 인프라의 핵심 구성 요소로 광범위하게 사용되고 있어 이번 위협이 상당한 영향을 미칠 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisco-confirms-in-the-wild-exploitation-of-unified-cm-vulnerability/",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "'바이오쇼킹' 공격, AI 브라우저를 속여 자격증명 탈취",
+      "summary": "보안 연구원들이 'BioShocking'이라는 새로운 공격 기법을 발견했습니다. 이 공격은 AI 기능이 탑재된 브라우저를 악용하여 사용자의 자격증명과 민감한 정보를 탈취합니다. 공격자는 AI 브라우저의 자동 완성 및 정보 처리 기능을 속이는 방식으로 작동합니다. 이 공격 기법은 생체 인식 및 AI 기술의 급속한 발전에 따른 새로운 보안 위협을 나타냅니다. 사용자들은 AI 기반 브라우저 기능의 보안 위험성을 인식하고 주의가 필요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/bioshocking-attack-tricks-ai-browsers-into-stealing-credentials/",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, 적극적으로 악용되고 있는 마이크로소프트 SharePoint 취약점 경고",
+      "summary": "미국 사이버보안기반시설보안국(CISA)이 마이크로소프트 SharePoint의 취약점(CVE-2026-45659)이 현재 실제로 악용되고 있다고 경고했습니다. 이 취약점은 공격자들에 의해 능동적으로 악용되고 있으며, 많은 조직들이 즉각적인 위협에 노출되어 있습니다. CISA는 영향을 받는 사용자들에게 긴급 업데이트 및 보안 패치를 적용할 것을 강력히 권고하고 있습니다. 이 취약점의 악용으로 인해 조직의 중요한 문서와 데이터가 유출될 수 있는 위험성이 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisa-warns-of-actively-exploited-microsoft-sharepoint-vulnerability/",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "오리엔텀, 호주 국가 양자 방문단과 맞손... “공동 연구·글로벌 상용화 가속”",
+      "summary": "2일 ‘퀀텀코리아 2026 개최... 호주 양자산업 비즈니스 미션 방문단 오리엔텀 방문[보안뉴스 한세희 기자] 오리엔텀이 2일 열린 ‘퀀텀코리아 2026’을 맞아 한국을 찾은 호주 양자 분야 전문가들과 양자 기술 공동 연구 및 상용화를 위한 협력 방안을 모색했다. 오리엔텀은 호주 양자 기술 관련 국가 기관과 주요 대학, 딥테크 기업들로 구성된 ‘호주 양자산",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144470&kind=&sub_kind=",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "아카마이-엔비디아, ‘AI 팩토리’에 제로트러스트 심는다",
       "summary": "가디코어 세그멘테이션과 DOCA·블루필드-4 통합 발표하드웨어 인프라에 보안망 내재화해 컴퓨팅 성능 저하 없는 방어[보안뉴스 조재호 기자] 아카마이와 엔비디아가 협력해 에이전틱 시대의 근간이 되는 ‘AI 팩토리’에 첨단 보안 아키텍처를 도입한다.양사는 엔비디아 DOCA 소프트웨어 플랫폼 기반으로 작동하는 ‘엔비디아 베라 블루필드-4 STX’ 스토리지 아키텍",
       "category": "보안",
@@ -300,9 +471,9 @@
     }
   ],
   "sources": {
-    "보안뉴스": 20,
-    "Dell": 4,
-    "VAST Data": 1,
-    "SecurityWeek": 8
+    "보안뉴스": 30,
+    "Dell": 6,
+    "SecurityWeek": 15,
+    "VAST Data": 1
   }
 }
