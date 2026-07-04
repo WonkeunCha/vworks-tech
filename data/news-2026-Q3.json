@@ -3,6 +3,168 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 53] 세 살 버릇 여든까지 간다(3)-비밀번호 8자리 이상 필요한 이유",
+      "summary": "비밀번호는 8자리 이상, 문자/숫자/특수문자를 조합하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143640&kind=&sub_kind=",
+      "date": "2026-07-04"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[2026 개인정보보호 우수사례-1] 문체부, 개인정보 보호수준 S 등급...71개 산하기관 관리망 빛났다",
+      "summary": "정책기획관 CPO 지정 및 전문관 운영으로 850개 대규모 개인정보 파일 방어394개 누리집 상시 점검 체계 구축·정보주체 권리 보장 등 관리 역량 입증[보안뉴스 조재호 기자] 문화체육관광부가 2025년 개인정보 보호수준 평가에서 신기술 환경 대응과 교육 및 홍보, 관리 등록의 적절성 부문 등에서 우수한 성과를 인정받으며 대국민 서비스의 신뢰성을 입증했다.",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144490&kind=&sub_kind=",
+      "date": "2026-07-04"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "목적, 힘, 그리고 사람들이 성장하는 곳의 이야기",
+      "summary": "크리스티나는 다발성경화증(MS) 진단을 받았음에도 불구하고 아이언맨 완주라는 놀라운 성과를 이루어 강인함의 의미를 재정의했습니다. 델 테크놀로지스는 직원들이 목적의식을 가지고 회복력 있게 일할 수 있는 환경을 제공합니다. 포용성과 다양성을 핵심 가치로 삼는 회사문화는 직원들의 실제적인 영향력 창출을 지원합니다. 크리스티나의 이야기는 개인의 한계를 넘어 성장할 수 있는 조직의 힘을 보여줍니다. 델은 직원들의 잠재력을 믿고, 이를 발휘할 수 있는 문화를 만드는 것에 집중합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/a-story-of-purpose-strength-and-a-place-where-people-thrive/",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국의 혁신 역사를 기리고 다음 시대를 구축하다",
+      "summary": "미국이 건국 250주년을 맞이하면서 HPE는 미국의 진정한 혁신 정신을 기념하고 있습니다. 대담한 아이디어, 과학적 발견, 기업가적 야심으로 대표되는 미국 특유의 창의성이 국가의 진보를 이끌어왔습니다. 진정한 발전은 타인을 위한 기회를 창출할 때 가장 강력하다는 신념 아래, 미국은 지속적으로 혁신을 추구해왔습니다. HPE는 이러한 미국의 혁신 정신을 존중하면서 앞으로의 미래를 함께 구축하겠다는 의지를 표현하고 있습니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/07/honoring-americas-innovation-story-and-building-what-comes-next.html",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기타 뉴스: 캐나다 해커 투옥, 오픈소스 제로데이, ATM 해킹으로 2명 구속",
+      "summary": "SecurityWeek의 사이버보안 뉴스 정리 기사에서는 세 가지 주요 사건을 다룹니다. 캐나다 해커가 해킹 혐의로 감옥에 수감되었으며, 오픈소스 소프트웨어에서 발견된 제로데이 취약점이 보안 위협으로 대두되고 있습니다. 또한 ATM 기계를 해킹하여 현금을 무단으로 인출하는 'ATM 잭팟팅' 범죄로 두 명이 기소되어 유죄 판결을 받았습니다. 이러한 사건들은 전 세계적으로 사이버범죄와 취약점 악용이 계속되고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-canadian-hacker-jailed-open-source-zero-days-two-sentenced-for-atm-jackpotting/",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "에이전트형 AI를 통한 Langflow 기반 랜섬웨어 공격 발생",
+      "summary": "보안 연구진이 Langflow의 취약점을 악용한 에이전트형 AI 기반의 랜섬웨어 공격 사례를 확인했습니다. 공격자들은 자동으로 행동하는 AI 기술을 활용하여 보다 정교하고 자율적인 사이버 공격을 수행할 수 있음을 보여주었습니다. 이번 사건은 AI 기술의 악용 가능성과 오픈소스 소프트웨어의 보안 위험성을 동시에 드러냅니다. Langflow 같은 AI 플랫폼의 취약점은 대규모 피해로 이어질 수 있어 즉시 패치가 필요합니다. 보안 전문가들은 AI 기반 공격의 증가 추세에 대비한 방어 체계 강화를 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/agentic-ai-used-to-conduct-ransomware-attack-via-langflow/",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "메드트로닉 데이터 유출, 380만 명 영향",
+      "summary": "의료기기 제조사 메드트로닉이 2026년 4월 발생한 데이터 유출 사건으로 인해 380만 명의 개인 및 의료 정보가 유출되었다고 공지했습니다. 이번 사건은 사이버범죄 집단 ShinyHunters와 관련된 것으로 보고되고 있습니다. 영향받은 개인들은 자신의 개인 정보와 민감한 의료 기록이 손상되었을 가능성에 대해 통보받고 있습니다. 메드트로닉은 영향받은 모든 개인에게 공식 통지를 진행 중입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/medtronic-data-breach-impacts-3-8-million-people/",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "소속 불명의 해커 피터 스톡스, 미국으로 송환",
+      "summary": "Scattered Spider 해킹 조직의 일원으로 의심되는 피터 스톡스가 미국으로 송환되었습니다. 스톡스는 2025년 사이버 공격과 암호화폐 몸값 요구와 관련된 혐의로 기소될 예정입니다. Scattered Spider는 랜섬웨어 공격으로 알려진 사이버범죄 조직입니다. 이번 송환은 국제적 사이버 범죄 수사의 일환으로 진행되었습니다. 미국 당국은 주요 사이버 위협 집단에 대한 적극적인 단속을 계속하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/alleged-scattered-spider-hacker-extradited-to-us/",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "구글과 FBI, 수백만 개의 장치로 구동되는 NetNut 주거용 프록시 네트워크 적발",
+      "summary": "구글과 미 연방수사국(FBI)이 협력하여 NetNut이라는 주거용 프록시 네트워크를 적발했습니다. 이 네트워크는 수백만 개의 디바이스를 이용하여 운영되고 있었습니다. 주거용 프록시는 일반 사용자의 기기를 무단으로 이용하여 악의적인 활동을 은폐하는 데 악용되어 왔습니다. 이번 단속은 대규모 사이버 범죄 인프라 제거 차원에서 의미가 있습니다. 수사 기관들은 해당 네트워크의 운영자들에 대한 조치를 진행할 예정입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/google-fbi-disrupt-netnut-residential-proxy-network-powered-by-millions-of-devices/",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "심각한 Cursor AI 코드 에디터 결함으로 OS 수준의 원격 코드 실행 가능",
+      "summary": "Cursor AI 코드 에디터에서 발견된 심각한 보안 취약점이 운영체제 수준의 원격 코드 실행(RCE)을 초래할 수 있습니다. 이러한 결함을 통해 공격자가 사용자의 시스템에 대한 완전한 제어권을 획득할 수 있는 위험성이 존재합니다. SecurityWeek의 보도에 따르면 해당 취약점은 개발자들이 광범위하게 사용하는 AI 기반 코드 편집 도구에 영향을 미치고 있습니다. 이 문제는 Cursor 플랫폼의 보안 아키텍처에서 발견된 것으로, 긴급한 패치가 필요한 상황입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/critical-cursor-ai-ide-flaws-could-lead-to-os-level-remote-code-execution/",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "AI 망분리 규제 완화 앞두고... 우리은행, 연계정보 1.7만건 유출",
+      "summary": "티빙 1953만명에 이어 우리은행 1만7551건 유출, 이기종 데이터 결합 리스크 급증2014년 카드사 유출 사건 데자뷰... 지난해 종합감사 지적 사항 잊었나[보안뉴스 조재호 기자] 우리은행이 1만7551건의 연계정보(CI) 유출 사고를 공지했다. 최근 ‘AI 망분리 예외’를 두고 금융권의 AI 경쟁이 심화되는 가운데 기본적 내부망 통제에 실패하면서 체면",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144489&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "서울AI허브-공군 항공우주전투발전단, 인공지능 교류협력 MOU 체결",
+      "summary": "산업AX 지원 토대로 공군 AI 수요와 스타트업 혁신기술 연결공군 오픈이노베이션 성과 토대로 AI 실증·공동연구 확대 및 국방 AX 협력 고도화[보안뉴스 엄호식 기자] 서울시가 운영하는 서울AI허브와 공군 항공우주전투발전단이 7월 3일 서울AI허브 메인센터에서 ‘인공지능 교류협력 업무협약’을 체결했다. 이번 협약은 지난해부터 이어온 공군 AI 오픈이노베이션",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144488&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "2026 IT21 글로벌 컨퍼런스 성료... AI 시대 신뢰와 혁신의 미래 제시",
+      "summary": "AI 안전·에이전틱 AI·사이버보안·국방AI·AI 평가체계 등 미래 ICT 핵심 의제 논의이틀간 국내외 산학연 전문가 참여... AI 산업 발전과 협력의 장 마련[보안뉴스 한세희 기자] 한국정보처리학회(회장 박능수)는 2-3일 서울 피스앤파크 컨벤션에서 개최한 ‘2026 IT21 글로벌 컨퍼런스’를 성황리에 마무리했다고 3일 밝혔다. 올해 컨퍼런스는 ‘",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144487&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "성남시, 스마트 버스쉘터 107개 더 늘린다",
+      "summary": "전국 최대 195개 쉴터 운영무더위쉼터 지정 등 공공기능 확대[보안뉴스 엄호식 기자] 성남시(시장 신상진)는 시민들이 보다 안전하고 쾌적하게 대중교통을 이용할 수 있도록 올해 스마트 버스쉘터 107개소를 추가 설치한다고 밝혔다. 사업이 완료되면 시가 운영하는 스마트 버스쉘터는 총 195개소 이상으로 늘어나 전국 지방자치단체 가운데 최대 규모를 갖추게 된다.",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144486&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "정부 “피지컬 AI·에이전틱 AI 대응 개인정보 보호 기준 마련”",
+      "summary": "‘신뢰 기반 AI 혁신 촉진 제3차 개인정보 보호 기본계획’ 발표“피지컬 AI 상시적 정보 수집 대응”[보안뉴스 강현주 기자] 정부가 인공지능(AI) 시대에 맞춰 실물 AI(피지컬 AI)와 자율형 AI(에이전틱 AI) 대응 등 개인정보 보호 체계 등을 마련한다. 개인정보보호위원회는 3일 열린 경제관계장관회의에서 관계부처와 합동으로 ‘제3차 개인정보 보호",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144485&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "인천시, 반려견 ‘코 지문’으로 등록... 계양·미추홀구서 첫선",
+      "summary": "내장형 칩 거부감·외장형 분실 우려 보완...동물등록 활성화 기대[보안뉴스 강초희 기자] 인천광역시(시장 박찬대)가 반려견의 체계적인 관리와 유실·유기 방지를 목적으로 오는 8월부터 5개월간 ‘반려견 비문등록 시범사업’을 추진한다.비문등록은 사람의 지문처럼 개체별로 각기 다른 반려견 코의 고유한 무늬를 활용하는 생체인식 방식이다. 목걸이 형태인 기존 외장형",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144484&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[카드뉴스] “아군 위성망이 적의 조종기로?”… 전장 뒤흔드는 ‘불법 교차 활용’ 해킹의 공포",
+      "summary": "국경이 없는 상업용 위성 네트워크 인프라를 적대 세력이 해킹하여 자국 드론의 실시간 제어 스펙트럼으로 가로채 쓰는 ‘불법 교차 활용(Illicit Use)’ 리스크가 현대 지정학적 분쟁의 거대한 위협으로 떠올랐다. 이에 대응하기 위해 국가 및 군 안보 당국은 사전에 검증되어 화이트리스트(Whitelist)에 등록된 기기 세트 외의 모든 접근 요소를 실시간으",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144483&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "센스톤, 유럽 OT 보안 뚫었다... ‘실행 시점’ 접근통제 기술력 입증",
+      "summary": "엠엑스온과 공동 개발한 ‘OTAC Trusted Access Gateway’ KC·CE 인증 획득실제 설비 환경에서 사용자 인증·접근통제 기능 제공하는 엔드포인트 보안 구현 [보안뉴스 조재호 기자] 센스톤이 산업 현장에 최적화된 OT 보안 솔루션의 상용화 준비를 마쳤다. 단방향 통신 기술을 적용해 기존 설비 변경 없이 외부 인력의 무단 접근과 계정 공유를",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144480&kind=&sub_kind=",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "인천국제공항공사, 휴가철 앞두고 대국민 안전여행 캠페인 실시",
       "summary": "국립인천공항검역소와 합동으로 대국민 캠페인 진행출국 전 해외감염병 안내 등 안전한 해외여행 위한 준수사항 안내[보안뉴스 엄호식 기자] 인천국제공항공사는 본격적인 여름 휴가철을 앞두고 해외감염병 예방 등 안전여행 수칙을 안내하기 위해 7월 2일 인천공항 제2여객터미널에서 국립인천공항검역소와 함께 ‘여름 휴가철 맞이 대국민 안전여행 캠페인’을 진행했다고 밝혔다",
       "category": "보안",
@@ -471,9 +633,10 @@
     }
   ],
   "sources": {
-    "보안뉴스": 30,
-    "Dell": 6,
-    "SecurityWeek": 15,
+    "보안뉴스": 40,
+    "Dell": 7,
+    "HPE": 1,
+    "SecurityWeek": 21,
     "VAST Data": 1
   }
 }
