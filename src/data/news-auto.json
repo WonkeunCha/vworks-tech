@@ -2644,9 +2644,109 @@
     "http://www.boannews.com/media/view.asp?idx=144428&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=143858&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144495&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=144494&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=144494&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144509&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144508&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144507&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144505&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144504&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144503&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144500&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=143642&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144388&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144369&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "포티넷코리아, AI 시대 스타트업 사이버보안 교육·컨설팅 제공",
+      "summary": "AI 확산 속 스타트업 보안 역량 강화 필요초기 및 성장 단계 기업 대상 실무 교육[보안뉴스 강현주 기자] 네트워크 보안 융합 솔루션 기업 포티넷코리아(북아시아 총괄 대표 체리 펑)는 스타트업 성장 파트너 디캠프(dcamp)와 협력해 초기·성장 단계 스타트업을 대상으로 사이버보안 교육·컨설팅 프로그램을 공동 운영한다고 6일 밝혔다.포티넷코리아는 오는 14일",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144509&kind=&sub_kind=",
+      "date": "2026-07-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "행정안전부, 2026년 지진안전 AI 영상 공모전 개최",
+      "summary": "8월 9일까지 전 국민 대상 지진안전 AI 영상 공모지진지진해일화산 재난 발생 시 행동요령을 창의적인 AI 영상으로 표현[보안뉴스 엄호식 기자] 행정안전부(장관 윤호중)는 국민의 지진안전 의식을 높이고 지진·지진해일·화산 재난 발생 시 행동요령을 효과적으로 알리기 위해 ‘2026년 지진안전 AI 영상 공모전’을 개최한다.이번 공",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144508&kind=&sub_kind=",
+      "date": "2026-07-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "SKT, AIDC ‘해인’ 클러스터 CSAP 취득",
+      "summary": "블랙웰 GPU 기반 AI 클라우드 사업자 첫 사례공공·금융 적합… 소버린AI 인프라 자리매김 [보안뉴스 강현주 기자] SK텔레콤(대표 정재헌)은 엔비디아 블랙웰 그래픽처리장치(GPU) 기반의 인공지능(AI) 데이터센터 인프라 ‘해인’ 클러스터가 한국인터넷진흥원(KISA)이 주관하는 클라우드 서비스 보안 인증(CSAP)를 취득했다고 6일 밝혔다.여러 개의 G",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144507&kind=&sub_kind=",
+      "date": "2026-07-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "조달청, 2026년 하반기 MAS 신규수요물자 신청 접수",
+      "summary": "7월 한 달간 나라장터 통해 신청접수올해 12월말까지 처리 완료 예정[보안뉴스 엄호식 기자] 조달청(청장 백승보)은 다수공급자계약(MAS)시장 진입을 희망하는 기업들을 대상으로 ‘2026년 하반기 MAS 신규수요물자 신청’을 공고했다고 밝혔다. 다수공급자계약(MAS: Multiple Award Schedule)은 조달청이 품질·성능·효율 등이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144505&kind=&sub_kind=",
+      "date": "2026-07-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "KT “제로트러스트 보안에 3년간 4조원 투자”... AX 플랫폼 컴퍼니 선언",
+      "summary": "정보보안·IT·네트워크 초격차에 3년간 12조원 투자‘단단한 본질’과 ‘확실한 성장’ 두 축[보안뉴스 강현주 기자] KT가 AX 플랫폼 컴퍼니 도약을 위해 3년간 제로트러스트 보안 체계 마련에 3조원을 투자한다. 정보보안·IT·네트워크 초격차에 총 12조원을 투자할 계획이다. 6일 KT 국가기간통신사업자의 본질적인 역량에 인공지능(AI) 혁신을 더해 대한민",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144504&kind=&sub_kind=",
+      "date": "2026-07-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "미 지방 정부, 데이터 유출 막으려 러 배후 해킹 조직에 100만달러 지불",
+      "summary": "러시아 배후 해커 그룹 ‘카이로스’에 공격 당해랜섬웨어 암호화 없이 데이터 공개 협박에 집중[보안뉴스 김형근 기자] 미국 한 지방 정부가 데이터 탈취 후 유출을 빌미로 협박한 신생 사이버 범죄 조직 ‘카이로스’(Kairos)에 100만달러(약 14억원)의 몸값을 지불한 사실이 뒤늦게 알려졌다.보안 정보 협의체 랜섬-ISAC(Ransom-ISAC)의 라케시",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144503&kind=&sub_kind=",
+      "date": "2026-07-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "여름방학 앞둔 학교 보안 강화... 에스원 ‘학교 안전 패키지’ 교육 현장서 인기",
+      "summary": "AI 영상관제와 비상벨, 출결관리를 결합한 학교 특화 보안 솔루션 제공학교 맞춤형 통합 보안 서비스로 사전 예방 중심 안전관리 지원늘봄학교 확대와 여름방학을 앞두고 교육 현장 도입 증가[보안뉴스 강초희 기자] 여름방학을 앞두고 일선 학교들이 보안 점검 및 시스템 강화에 나서고 있는 가운데, 에스원의 학교 특화 ‘안전 패키지’가 교육 현장에서 인기를 얻고 있",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144500&kind=&sub_kind=",
+      "date": "2026-07-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 55] 세 살 버릇 여든까지 간다(5)-생일 비밀번호가 위험한 이유",
+      "summary": "아이디/비밀번호에 생일이나 전화번호를 쓰지 마세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐, 안",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143642&kind=&sub_kind=",
+      "date": "2026-07-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "OT 환경에서 액세스의 중요성 및 기존 접근 방식의 한계 극복 방안… 비욘드트러스트 웨비나 개최",
+      "summary": "7월 14일(화) 2시, ‘OT 위협 환경 분석 및 BeyondTrust의 격차 해소 방안’ 웨비나 개최[보안뉴스 한세희 기자] OT 환경이 점점 더 연결됨에 따라 액세스는 가장 지속적이면서도 간과되기 쉬운 위험 요소 중 하나로 대두되었다. 원격 공급업체, 시스템 통합업체 및 내부 팀 모두 핵심 OT 시스템에 대한 액세스가 필요하지만, 많은 조직은 여전히",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144388&kind=&sub_kind=",
+      "date": "2026-07-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[Global Security TOP 100] 정승룡 엠스톤 대표이사 “K-영상보안 기술력으로 글로벌 시장 공략하다”",
+      "summary": "AI 영상분석 고도화로 오탐 줄이고 예방 중심 영상보안 구현AI 서버·통합관제 플랫폼 앞세워 국내외 시장 공략 강화기술력과 가격 경쟁력으로 글로벌 K-영상보안 경쟁력 확대[보안뉴스 강초희 기자] AI 영상분석 기술이 빠르게 발전하면서 영상보안 시장도 새로운 전환기를 맞고 있다. 저장과 모니터링 중심이었던 영상보안은 지능형 분석과 예측, 사고 예방 중심으로",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144369&kind=&sub_kind=",
+      "date": "2026-07-05"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "[ISEC 2026 미리보기] 텍스트 넘어 지문·서명까지... 엘세븐시큐리티 비정형 데이터 마스킹",
@@ -11556,98 +11656,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143720&kind=&sub_kind=",
       "date": "2026-05-25"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Ghost CMS의 SQL 인젝션 취약점이 대규모 ClickFix 캠페인에서 악용됨",
-      "summary": "Ghost CMS의 심각한 SQL 인젝션 취약점(CVE-2026-26980)이 대규모 공격 캠페인에서 악용되고 있습니다. 공격자들은 이 취약점을 통해 악의적인 JavaScript 코드를 삽입하여 ClickFix 공격을 시작하고 있습니다. ClickFix는 사용자를 기만하여 악성 링크를 클릭하도록 유도하는 소셜 엔지니어링 공격 기법입니다. 현재 이 취약점은 적극적으로 악용되고 있으며, Ghost CMS를 사용하는 웹사이트들이 주요 공격 대상이 되고 있습니다. 보안 전문가들은 즉시 패치 적용과 보안 업데이트를 권고하고 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
-      "date": "2026-05-24"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[속담으로 배우는 100가지 보안 습관-20] 돌다리도 두드려 보고 건너라(10)-이벤트 문자, 왜 대부분 의심해야 할까",
-      "summary": "모르는 사람에게 받은 기프티콘이나 이벤트 당첨 문자를 조심하세요[보안뉴스 박미영 기자] 모르는 사람에게 받은 기프티콘이나 이벤트 당첨 문자는 스미싱(문자 피싱)일 가능성이 있어 링크 클릭·개인정보 입력·상담 연결을 요구하는 문자는 즉시 삭제하고 신고하는 것이 안전하다. 특히 ‘당첨’ 문자는 발신번호가 공식 번호와 다르거나, 문자 본문에 링크가 포함되면 사기",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143245&kind=&sub_kind=",
-      "date": "2026-05-24"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "미토스, 상용 소프트웨어에서 1만개 이상의 제로데이 취약점 발견",
-      "summary": "프로젝트 글래스윙, 전 세계에서 가장 많이 사용하는 소프트웨어에서 1만개 제로데이 발견심각도가 매우 높은 400개를 포함한 2000개의 버그 발견... 보안전문가보다 오탐률 적어[보안뉴스 원병철 기자] 앤트로픽 미토스를 위한 사이버보안 이니셔티브 ‘프로젝트 글래스윙’(Project Glasswing)이 전 세계에서 가장 ‘시스템적으로’ 중요한 소프트웨어 전",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143787&kind=&sub_kind=",
-      "date": "2026-05-24"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "미토스가 불러온 보안 위협의 시대, ‘소버린 AI 보안 전략’이 필요하다",
-      "summary": "국회입법조사처, ‘미토스’ 사태와 AI 보안 위협 대응 전략 간담회“소버린 AI 전략 넘어서는 ‘소버린 AI 보안 전략’ 조속히 추진해야”[보안뉴스 원병철 기자] 미토스의 등장 이후 챗GPT 5.5 사이버, 마이크로소프트 MDASH 등 다양한 사이버보안 강화 AI가 등장하면서 전 세계의 이목이 쏠리고 있지만, 아직 특정 기업에만 공급되는 등 불균형 문제가",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143786&kind=&sub_kind=",
-      "date": "2026-05-24"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "'Underminr' 취약점, 공격자가 악성 연결을 신뢰할 수 있는 도메인 뒤에 숨길 수 있게 해",
-      "summary": "'Underminr'라는 새로운 DNS 취약점이 발견되었으며, 이를 통해 공격자들이 악의적인 네트워크 연결을 신뢰할 수 있는 도메인 뒤에 위장할 수 있습니다. 이 취약점은 CDN(콘텐츠 전송 네트워크) 관련 DNS 설정에서 비롯된 것으로, 보안 감시 시스템을 우회하는 데 악용될 수 있습니다. 공격자들은 이를 이용하여 정상적인 트래픽으로 위장한 악성 통신을 수행하고 탐지를 회피할 수 있습니다. 이 취약점은 네트워크 보안의 중대한 위협이 되며, 기업들은 즉각적인 패치 및 보안 대책이 필요합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/underminr-vulnerability-lets-attackers-hide-malicious-connections-behind-trusted-domains/",
-      "date": "2026-05-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Laravel Lang 패키지 탈취로 자격증명 탈취 악성코드 배포",
-      "summary": "Laravel Lang 로컬라이제이션 패키지를 대상으로 한 공급망 공격이 발생했습니다. 공격자들이 GitHub 버전 태그를 악용하여 Composer 패키지를 통해 악성 코드를 배포함으로써 개발자들이 자격증명 탈취 악성코드에 노출되었습니다. 이번 사건은 소프트웨어 개발 과정에서 의존성 패키지의 보안 위험성을 여실히 보여주는 사례입니다. 공격자는 정교한 정보탈취 악성코드를 이용하여 개발자들의 민감한 자격증명 정보를 노리고 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
-      "date": "2026-05-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "이탈리아, 스트리밍 인증코드를 탈취한 CINEMAGOAL 불법복제 앱 적발",
-      "summary": "이탈리아 당국이 Netflix, Disney+, Spotify 등 다양한 스트리밍 플랫폼에 불법적으로 접근하게 해주는 CINEMAGOAL 앱을 중심으로 한 불법복제 생태계를 해체했습니다. 이 앱은 사용자들의 스트리밍 서비스 인증 코드를 탈취하여 무단으로 구독 계정에 접근할 수 있게 했습니다. 당국의 이번 적발은 광범위한 수사를 통해 불법 스트리밍 서비스의 전체 네트워크를 단속하는 것을 의미합니다. 이 사건은 스트리밍 서비스의 보안 위협과 인증 정보 탈취의 심각성을 보여주는 사례입니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/",
-      "date": "2026-05-23"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "사이버 위협에 지갑 여는 중소기업... 하지만 여전히 사후 대응에 머물러",
-      "summary": "경영 과제 순위에서 ‘데이터 보호’와 ‘사이버 보안’을 기업 성장 바로 다음 순위로 올라[보안뉴스 김형근 기자] 8개국 2200개 중소기업(SMB)의 60%가 향후 12개월 동안 사이버 보안 지출을 전격 확대할 계획이라고 글로벌 시장조사기관 IDC가 설문조사 결과를 인용해 발표했다. 다만, 이번 조사 결과에 따르면 많은 중소기업이 예산 증액 조치에도 불구",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143785&kind=&sub_kind=",
-      "date": "2026-05-23"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "다크웹 브로커들의 악질적인 개인정보 ‘재포장 사기’ 기승",
-      "summary": "낡은 유출 데이터 가져와 최신 기업 기밀로 위장[보안뉴스 김형근 기자] 최근 다크웹 포럼과 텔레그램 채널을 중심으로 과거 유출 데이터를 최신 기밀로 위장해 판매하는 사기 수법이 급증한 것으로 조사됐다. 싱가포르에 본사를 둔 글로벌 보안 기업 그룹아이비(Group-IB)는 자체 조사 결과 이번 가짜 데이터 폭로 공습을 주도하는 세력은 주로 중국어권 사이버",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143784&kind=&sub_kind=",
-      "date": "2026-05-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "드루팔(Drupal) 취약점, 공개 직후 해커들의 공격 대상이 됨",
-      "summary": "드루팔 콘텐츠 관리 시스템의 새로운 취약점이 공개된 지 얼마 되지 않아 해커들의 집중적인 공격 대상이 되고 있습니다. 보안 연구원들은 이 취약점이 악의적으로 악용되고 있다는 증거를 발견했습니다. 드루팔 사용자들은 즉시 패치를 적용하여 시스템을 보호할 것을 권고받고 있습니다. 이는 취약점 공개 후 신속한 해킹 활동이 발생한 사례로, 사이버 위협의 빠른 진화를 보여줍니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/drupal-vulnerability-in-hacker-crosshairs-shortly-after-disclosure/",
-      "date": "2026-05-22"
     }
   ],
-  "totalItems": 2645,
+  "totalItems": 2655,
   "hasArchive": true
 }
