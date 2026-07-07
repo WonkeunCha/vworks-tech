@@ -3,6 +3,150 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "[CISO KOREA 2026] CISO가 마주한 변화된 보안환경에 대한 고민, ‘CISO KOREA 2026’ 개최",
+      "summary": "7월 7일 용산 피스앤파크에서 ‘AI 시대의 CISO 실전노트’ 주제로 열려한국CISO협의회 회원, 기관 및 기업 CISO 등 1000여명 참석... 48개 기관 및 기관 함께해 [보안뉴스 원병철 기자] AI의 활용이 전 산업으로 확대되고, 기업은 물론 공공기관에까지 그 여파가 미치면서 이제 보안담당자는 ‘AI를 위한 보안’(Security for AI)과",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144538&kind=&sub_kind=",
+      "date": "2026-07-07"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "라온시큐어, ‘옴니원 디지털 ID’ GS인증 1등급 획득",
+      "summary": "탈중앙화 실현한 분산신원인증 기술로 웹3 신뢰 거버넌스 확립공공·금융·교육 등 이기종 산업 전반에 하이엔드 보안 인증 표준 제시[보안뉴스 조재호 기자] 라온시큐어는 자사 블록체인 기반 신원·자격 인증 통합 플랫폼 ‘옴니원 디지털 ID’(OmniOne Digital ID)가 한국정보통신기술협회(TTA) 소프트웨어 품질인증 GS(Good Software)인증",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144536&kind=&sub_kind=",
+      "date": "2026-07-07"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "AI 코딩 비서를 AI 취약점 연구원으로...‘T3MP3ST’ 프레임워크 공개",
+      "summary": "[보안뉴스 김형근 기자] 일반 AI 코딩 어시스턴트를 자율형 취약점 연구원으로 전환시키는 보안 프레임워크 ‘T3MP3ST’가 공식 공개됐다. 이 시스템은 35개의 전문 보안 도구를 탑재해 대형 언어 모델(LLM)과 직접 연동하며 소프트웨어 아키텍처 내부의 복잡한 결함을 추적한다.특히 기존에 문서화되지 않은 미공개 취약점(제로데이)과 정교한 로직 오류를 스스",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144535&kind=&sub_kind=",
+      "date": "2026-07-07"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "국민과 함께 만드는 항공보안, ‘2026 항공보안주간’ 7월 8~10일 개최",
+      "summary": "국산 항공보안 장비 체험, 항공보안 문화확산 캠페인, 항공보안 채용 설명회 등 진행[보안뉴스 엄호식 기자] 국토교통부(장관 김윤덕)는 국가정보원, 경찰청과 함께 오는 7월 8일부터 10일까지 3일간 국립항공박물관과 인천·김포 등 전국 주요 공항에서 ‘2026 항공보안주간’을 개최한다고 밝혔다.올해로 2회째를 맞는 항공보안주간은 “국민과 함께 만드는 항공보안",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144534&kind=&sub_kind=",
+      "date": "2026-07-07"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[항공보안 칼럼] 항공보안의 마지막 방어선은 사람이다",
+      "summary": "급변하는 항공 위협 대응 위해 보안인력 교육·훈련 강화 및 기관 간 협력 필요7월 9일 ‘항공보안 패러다임의 변화와 보안요원 역량강화’ 주제로 미래항공보안포럼 개최[보안뉴스=박재완 (사)대한민국항공보안협회 회장] 지난해 1월 김해국제공항에서 출발을 준비하던 한 여객기에서 불이 났다. 승객과 승무원 등 176명이 전원 탈출했지만, 기체는 사실상 전소됐다. 유",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144529&kind=&sub_kind=",
+      "date": "2026-07-07"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "AI 에이전트가 전체 랜섬웨어 공격 주도... ‘제이드퍼퍼’(JadePuffer) 공격 포착",
+      "summary": "AI 에이전트가 사람 해커처럼 실패 상황에 적응, 문제 해결[보안뉴스 김형근 기자] 거대언어모델(LLM) 기반 AI 에이전트가 침투부터 최종 암호화에 이르는 전 과정을 완전히 자동화해 수행한 랜섬웨어 공격 사례를 보안 기업 시스딕(Sysdig)이 발견했다. AI가 랜섬웨어 전체 과정을 스스로 수행한 것이 확인된 사례는 이번이 처음이다. ‘제이드퍼퍼’(Jad",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144531&kind=&sub_kind=",
+      "date": "2026-07-07"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "아레스사이버전략연구소-USTTI, 글로벌 사이버 회복력 강화 MOU 체결",
+      "summary": "사이버 보안 지식 교류 및 인재 네트워크 구축[보안뉴스 강현주 기자] 아레스사이버전략연구소(ARES, 대표 이화영)는 글로벌 사이버 보안 역량을 강화하기 위해 글로벌 ICT 교육 기관인 미국 전기통신훈련소(USTTI, 이사장 겸 CEO 제임스 J. 오코너)와 업무협약(MOU)을 체결했다고 26일 밝혔다.USTTI는 1982년 미국 정부와 글로벌 IT·통신",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144528&kind=&sub_kind=",
+      "date": "2026-07-07"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Veil#Drop 공격에서 Blogspot 호스팅 페이로드 전달",
+      "summary": "Securonix가 Veil#Drop이라는 악성코드 프레임워크를 발견했습니다. 이 프레임워크는 손상된 웹사이트와 Google Blogspot을 악용하여 PureLog 정보 탈취 악성코드를 배포합니다. 공격자들은 합법적인 Google Blogspot 서비스를 이용함으로써 보안 탐지를 우회하고 있습니다. 이러한 공격 방식은 널리 신뢰받는 플랫폼을 악용하여 탐지 회피 효율성을 높입니다. PureLog는 사용자의 민감한 정보를 수집하는 스틸러 악성코드로 알려져 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/blogspot-hosted-payloads-delivered-in-veildrop-attacks/",
+      "date": "2026-07-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "비즈니스 중심 위험 관리로의 전환",
+      "summary": "조직들이 고립된 기술 데이터에서 벗어나 지속적인 위험 생명주기로 이동하고 있습니다. 이러한 전환을 통해 보안 통제를 실제 비즈니스 결과와 일치시킬 수 있습니다. 기업들은 더 이상 기술적 관점만 고려하는 것이 아니라 비즈니스 영향도를 종합적으로 평가하는 방향으로 전환 중입니다. SecurityWeek의 Steve Durbin 필자가 위험 관리의 패러다임 변화에 대해 설명하고 있으며, 이는 조직의 보안 전략을 비즈니스 목표와 더욱 긴밀하게 연계하는 중요성을 강조합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/the-shift-toward-business-aligned-risk-management/",
+      "date": "2026-07-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "무장한 리코 APT, 정부 및 전력 기관 표적",
+      "summary": "무장한 리코(Armored Likho) APT 그룹이 정부기관과 전력 기업을 대상으로 공격을 전개하고 있습니다. 이 위협 행위자는 모듈식 RAT(원격접근 트로이)와 정보 탈취 도구를 활용하여 공격을 수행합니다. 특히 주요 기반시설인 전력 부문을 표적으로 삼고 있어 심각한 보안 위협으로 평가됩니다. 보안 연구팀은 이 그룹의 활동을 지속적으로 모니터링하고 있으며, 관련 기관들의 방어 강화를 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/armored-likho-apt-targeting-government-electric-power-entities/",
+      "date": "2026-07-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "북한 해커, 오픈소스 개발자를 대상으로 공급망 공격 전개",
+      "summary": "북한 해커들이 오픈소스 개발자들을 표적으로 하는 공급망 공격을 감행하고 있습니다. 이러한 공격은 오픈소스 프로젝트에 악성코드를 주입하여 수많은 사용자에게 피해를 입히려는 목적으로 진행되고 있습니다. 북한 지원 해킹 그룹들은 개발자들의 계정 탈취 및 리포지토리 침해를 통해 광범위한 공급망 침투를 시도하고 있습니다. 이는 오픈소스 소프트웨어의 광범위한 사용으로 인해 상당한 보안 위협이 될 수 있습니다. 보안 전문가들은 개발자 커뮤니티에 강화된 인증 및 코드 검증 절차 도입을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/north-korean-hackers-target-open-source-developers-in-supply-chain-attacks/",
+      "date": "2026-07-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "리눅스 '배드 에폴' 루트 접근 취약점에 대한 개념 증명 익스플로잇 공개",
+      "summary": "리눅스 시스템의 'Bad Epoll' 취약점(CVE-2026-46242)에 대한 개념 증명(PoC) 익스플로잇이 공개되었습니다. 이 취약점은 공격자에게 루트 권한을 획득할 수 있게 해주는 심각한 보안 위협입니다. 리눅스 사용자들은 이 취약점을 악용한 공격에 노출될 위험이 있으므로 긴급 패치가 필요합니다. 익스플로잇이 공개됨에 따라 보안 커뮤니티는 해당 취약점에 대한 주의를 당부하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/proof-of-concept-exploit-released-for-linux-bad-epoll-root-access-vulnerability/",
+      "date": "2026-07-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "프롬프트 인젝션 공격으로 AI 에이전트가 암호화폐 송금하도록 조작",
+      "summary": "보안 업체 Zscaler가 공격자들이 SEO 포이즈닝과 악성 웹사이트의 숨겨진 프롬프트를 이용해 AI 에이전트를 조작하는 공격을 발견했습니다. 이 프롬프트 인젝션 기법은 AI 시스템의 지시를 우회하여 사용자의 승인 없이 암호화폐 결제를 수행하도록 강제할 수 있습니다. 공격자들은 검색 엔진 최적화 기법을 악용해 악성 웹사이트를 상단에 노출시킨 후, 그 페이지에 숨겨진 명령어를 삽입합니다. 이는 AI 에이전트가 웹 콘텐츠를 크롤링하고 처리할 때 악의적인 지시를 따르도록 유도합니다. 이러한 공격 방식은 AI 기반 자동화 시스템의 새로운 보안 위협으로 떠오르고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/prompt-injection-attacks-trick-ai-agents-into-making-crypto-payments/",
+      "date": "2026-07-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[2026 개인정보보호 우수사례-3] KOTRA, 기관장 주도의 실천 캠페인... 일상 속 스며든 보안 문화",
+      "summary": "C등급에서 S등급으로 3년 만에 최고 수준 달성... 경영진 의지가 빚은 결실세계 86개국 132개 무역관 아우른 관리망 및 업적평가 연동으로 실행력 제고[보안뉴스 조재호 기자] 국내외 기업 고객과 해외 바이어를 이어주는 대한무역투자진흥공사(KOTRA)가 정보보안 및 개인정보보호 경영시스템(ISO 27001, 27701) 국제표준 동시 획득에 이어 보호수준",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144492&kind=&sub_kind=",
+      "date": "2026-07-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 체크멀, 안티랜섬웨어 넘어 데이터 유출 방지 포트폴리오 출격",
+      "summary": "상황 인식 기반 랜섬웨어 탐지 엔진 적용된 ‘AppCheck Pro’10월 출시될 차세대 내부 정보 유출 실시간 차단 아키텍처 공개[보안뉴스 조재호 기자] 랜섬웨어 방어를 넘어 데이터 유출 방지 영역으로 사업을 확장 중인 체크멀이 ‘ISEC 2026’ 현장에서 차세대 통합 보안 청사진을 제시한다. 오는 10월 출시를 목표로 개발 중인 상황 인식 기반 내부",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144520&kind=&sub_kind=",
+      "date": "2026-07-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "ISEC 2026 미리보기] 지슨, 망분리 틈새 노리는 무선백도어 탐지 솔루션 ‘Alpha-H’",
+      "summary": "USB·케이블 등 스파이칩의 비인가 RF 통신 감시해 내부망 보호금융권 넘어 제조·반도체 데이터센터 등 주요 인프라 고객군 확대[보안뉴스 조재호 기자] 지슨이 오는 8월 11일부터 12일까지 서울 삼성동 코엑스에서 개최되는 제20회 국제 시큐리티 콘퍼런스(ISEC 2026)에 참가해 자사의 핵심 무선백도어 해킹 탐지 시스템인 ‘Alpha-H’를 선보인다.2",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144519&kind=&sub_kind=",
+      "date": "2026-07-06"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "포티넷코리아, AI 시대 스타트업 사이버보안 교육·컨설팅 제공",
       "summary": "AI 확산 속 스타트업 보안 역량 강화 필요초기 및 성장 단계 기업 대상 실무 교육[보안뉴스 강현주 기자] 네트워크 보안 융합 솔루션 기업 포티넷코리아(북아시아 총괄 대표 체리 펑)는 스타트업 성장 파트너 디캠프(dcamp)와 협력해 초기·성장 단계 스타트업을 대상으로 사이버보안 교육·컨설팅 프로그램을 공동 운영한다고 6일 밝혔다.포티넷코리아는 오는 14일",
       "category": "보안",
@@ -795,10 +939,10 @@
     }
   ],
   "sources": {
-    "보안뉴스": 58,
+    "보안뉴스": 68,
+    "SecurityWeek": 27,
     "Dell": 7,
     "HPE": 1,
-    "SecurityWeek": 21,
     "VAST Data": 1
   }
 }
