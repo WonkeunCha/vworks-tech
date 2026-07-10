@@ -3,6 +3,222 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "“AI 무기화, 통합 가시성이 해법... 데이터독, 자율 보안 비전 공유",
+      "summary": "9일 미디어 라운드테이블 개최딥페이크 피싱·자동화 랜섬웨어 등 고도화된 위협과 에이전트 통제 방안 공유‘옵저버빌리티’ 넘어 스스로 문제 해결하는 자율 운영 생태계 제시[보안뉴스 조재호 기자] “국내 생성형 AI 도입 속도는 글로벌 최상위권을 기록하며 산업 전반의 혁신을 주도하고 있습니다. 그러나 기술 발전 속도에 비해 이를 안전하게 통제하고 설명할 수 있는",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144623&kind=&sub_kind=",
+      "date": "2026-07-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "DJI, 에베레스트서 드론 활용 새 역사... 물자 운송·매핑·기후 연구 성공",
+      "summary": "에베레스트에서 화물 운송·빙하 매핑·기후 연구 등 성공적으로 임무 수행등반 안전과 환경 보전, 과학 연구 위한 드론 활용 가능성 입증[보안뉴스 강초희 기자] 민간용 드론 및 창의적인 카메라 기술 분야의 글로벌 리더 DJI가 세계 최고봉인 ‘초모랑마산’(Qomolangma, 에베레스트산의 티베트명)에서 고고도 물자 운송, 매핑, 대기 연구를 위한 세 가지 임",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144598&kind=&sub_kind=",
+      "date": "2026-07-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "이억원 금융위원장 “AI 보안 갖춘 금융사, 망분리 전면해제 곧 구체화”",
+      "summary": "금융사 CEO 초청 ‘정보보호의 날 기념 행사’ 참석“AI 보안 체계 구축과 제도 개선 지속할 것”[보안뉴스 강현주 기자] 이억원 금융위원장이 AI 보안 역량을 갖춘 금융사들에 대해 망분리를 전면 해제하는 방안 마련에 속도를 내겠다고 강조했다. 10일 이억원 금융위원장은 금융회사 CEO 초청 ‘정보보호의 날 기념 행사’에 참석했다.이 위원장은 인사말을 통해",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144622&kind=&sub_kind=",
+      "date": "2026-07-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "대만, 중국 사이버 스파이 활동 도운 자국 사업가 2명 기소",
+      "summary": "현지인 명의 라인(LINE) 계정 수집, 중국 연계 해킹 그룹에 제공외신 기자 사칭해 정치인·언론인 겨냥 맞춤형 악성코드 유포[보안뉴스 김형근 기자] 대만 사법 당국이 정치인, 언론인, 학계 등을 표적으로 광범위한 스파이 공작을 벌인 중국 정부 연계 해커들을 도운 현지 기업인 2명을 기소했다. 대만 법무부 조사국(MJIB)에 따르면, 이들은 대만 모바일 번",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144621&kind=&sub_kind=",
+      "date": "2026-07-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "제2회 항공보안 논문공모전 시상식 개최",
+      "summary": "항공보안 정책·AI 연구 등 우수논문 18편 선정[보안뉴스 엄호식 기자] ‘제2회 항공보안 논문공모전’ 시상식이 7월 9일 인천국제공항 제1여객터미널 인천공항경찰단 회의실에서 열렸다. 이번 공모전은 한국항공보안학회와 관계기관이 공동으로 추진한 행사로, 항공보안·안전 분야의 학술연구 활성화와 제도 개선을 목표로 마련된 것이다. 지난해에 이어 두 번째로 개최된",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144620&kind=&sub_kind=",
+      "date": "2026-07-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "신라대, 공항 수준 실습시설 갖춘 보안검색교육센터 문 열어",
+      "summary": "부산보안검색교육센터 개소... 동남권 보안검색 전문인력 양성 본격화국토부 지정 교육기관으로 8월부터 현장 중심 교육 운영[보안뉴스 강초희 기자] 신라대학교(총장 허남식)는 8일 교내 부산보안검색교육센터 개소식을 개최하고, 항공을 비롯한 국가 중요시설 보안 분야 전문인력 양성을 위한 교육을 오는 8월부터 본격 운영한다고 밝혔다.부산보안검색교육센터는 국토교통부",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144611&kind=&sub_kind=",
+      "date": "2026-07-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "한국항공보안학회, 대테러·대드론 전문가 토론회 개최",
+      "summary": "보이지 않는 새로운 위협, 신종 드론테러 예방과 국가적 대응전략 시급드론테러 예방을 위한 무력화가 조속히 마련돼야[보안뉴스 엄호식 기자] 인천국제공항경찰단과 한국항공보안학회는 7월 9일 인천국제공항공사 항공교육원에서 ‘긴급진단 - 대테러·대드론 전문가토론회’를 열었다. 이는 지난 6월 쿠웨이트 국제공항이 드론 공격을 받아 다수의 인명 피해가 발생한 사건을",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144619&kind=&sub_kind=",
+      "date": "2026-07-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "AI 코딩 어시스턴트 `환각` 노린 신종 ‘할루스쿼팅’(`HalluSquatting) 공격 경고",
+      "summary": "AI 환각 패턴 선점해 간접 프롬프트 주입 유도기존 방화벽 무력화하는 신종 에이전트 권한 장악 기법 경고[보안뉴스 김형근 기자] AI 코딩 어시스턴트의 고질적 ‘환각’(Hallucination) 현상을 악용해 봇넷(Botnet) 악성코드를 유포하고 사용자 시스템을 장악할 수 있는 신종 공격 기법, ‘할루스쿼팅’(HalluSquatting)이 공개됐다.AI",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144617&kind=&sub_kind=",
+      "date": "2026-07-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[카드뉴스] “유출 자격증명 2,700만건 차단” 유로폴·MS 합작 ‘오퍼레이션 엔드게임’ 악성코드 공장 소탕 전말",
+      "summary": "전 세계 유관 사법 기관과 마이크로소프트가 협력한 역대급 합동 타격 작전 ‘오퍼레이션 엔드게임’을 통해 사이버 범죄의 핵심 중추인 봇넷 인프라가 대거 소탕되었다. 이번 작전은 무려 2,700만 건의 유출 자격 증명을 기반으로 정보 탈취 조립 라인을 가동하며 랜섬웨어 유포의 방아쇠 역할을 하던 ‘속골리쉬’와 ‘아마데이’ 전송망을 타겟으로 삼았다. 개별 악성코",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144616&kind=&sub_kind=",
+      "date": "2026-07-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "안랩, 산업통상부 장관 표창... “전략물자 통제시스템 수출경쟁력 기여”",
+      "summary": "1000만불 수출탑 장관상 이은 수상[보안뉴스 강현주 기자] 글로벌 통합 보안 기업 안랩(대표 강석균)은 9일 서울시 중구 대한상공회의소에서 열린 ‘2026 무역안보의 날 기념식’에서 전략물자 수출관리 단체부문 유공자 포상을 수상했다고 10일 밝혔다.산업통상부와 무역안보관리원은 매년 무역안보의 날 기념식에서 전략물자의 안정적 관리와 수출관리 제도 이행 확산",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144615&kind=&sub_kind=",
+      "date": "2026-07-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "당신의 AI를 소유하세요: GB10이 탑재된 Dell Pro Max",
+      "summary": "팀이 AI 구독 서비스에 연 5자리 수 이상을 지출하고 있다면, GB10이 탑재된 Dell Pro Max는 1년 미만의 기간 내에 투자비용을 회수할 수 있습니다. 이는 클라우드 기반 AI 서비스에 대한 지속적인 비용 지출을 줄이고 자체 AI 솔루션을 보유함으로써 비용 효율성을 극대화할 수 있음을 의미합니다. GB10의 강력한 성능은 엔터프라이즈급 AI 작업을 로컬 환경에서 처리 가능하게 하며, 이를 통해 데이터 보안과 프라이버시도 함께 확보할 수 있습니다. 결과적으로 조직은 장기적으로 상당한 비용 절감을 기대할 수 있으며, 동시에 AI 기술에 대한 완전한 제어권과 자율성을 확보하게 됩니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/own-your-ai-dell-pro-max-with-gb10/",
+      "date": "2026-07-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "자전거 경이로움: 2,000km, 32일, 4개국, 하나의 견고한 기계",
+      "summary": "잠비아에서 나미비아까지 2,000km에 달하는 사바나 지역을 횡단한 두 자전거 선수의 모험 이야기입니다. 32일간 4개국을 거치며 진행된 이 여정에서 가장 큰 발견은 최고의 모험이 인간관계에서 비롯된다는 것입니다. 험난한 환경과 거리의 도전을 극복하며 자전거라는 단순한 도구로 가능한 것들을 보여줍니다. 이 여행은 기술력과 인내심, 그리고 무엇보다 사람과의 연결이 얼마나 중요한지를 강조합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/cycling-wonder-2-000km-32-days-four-countries-one-rugged/",
+      "date": "2026-07-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "S3 TCP와 KV 캐시로 추론 ROI 극대화: 초당 6.2배 더 많은 토큰 처리",
+      "summary": "이 가이드는 LMCache와 vLLM을 사용하여 S3 저장소를 통해 KV 캐시를 효율적으로 관리하는 방법을 설명합니다. 먼저 S3 버킷을 준비하고 Python 가상 환경을 설정한 후 LMCache를 vLLM과 함께 설치합니다. NIXL 동적 모드 백엔드를 S3 원격 저장소 레이어로 구성하여 프로세스 및 노드 간 KV 캐시 데이터를 오프로드하고 공유할 수 있습니다. NIXL 동적 모드는 초기화 오버헤드를 줄이고 저장소 유연성을 개선하여 대규모 동적 워크로드에 최적화되어 있습니다. vLLM 서버를 시작하기 전에 LMCache 설정 파일, CUDA 장치, Python 해시 시드 등의 환경 변수를 설정하여 GPU 텐서 병렬 실행과 결정적 해시 생성을 활성화합니다. 이러한 구성을 통해 추론 성능을 크게 향상시키고 초당 처리 토큰 수를 대폭 증가시킬 수 있습니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/maximize-inference-roi-get-6-2x-more-tokens-sec-with-s3-tcp-and-kv",
+      "date": "2026-07-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "GPU 사이클 낭비 중단: KV 캐시 올바른 크기 조정 실무 가이드",
+      "summary": "LLM의 사용이 단순 프롬프트에서 복잡한 다중턴 에이전트 워크플로우로 진화하면서, 기반 인프라는 수백만 토큰의 컨텍스트 윈도우를 지원하면서도 엄격한 SLA를 유지해야 하는 과제에 직면했다. 주요 병목은 GPU HBM(고대역폭 메모리)로, 이는 비용이 많이 들고 용량이 제한되어 있어 장문 컨텍스트 처리에 필요한 대규모 동적 KV 캐시를 보유하기 어렵다. 매 턴마다 모델은 전체 대화 기록을 재처리하며 이미 본 데이터에 대해 불필요한 프리필(prefill) 연산을 수행해 첫 토큰까지의 시간(TTFT)을 지연시키고 사용자 경험을 악화시킨다. KV 캐시는 컨텍스트 길이에 따라 더욱 무거워지는 계산 집약적인 작업으로, 단일 대화, 에이전트의 도구 호출 루프, 또는 공통 시스템 프롬프트를 공유하는 사용자들 간에 재사용될 수 있어 매우 가치가 높다. 문제는 이 캐시가 빠르지만 작고 비싼 GPU HBM에 저장되어 여러 동시 세션의 긴 이력을 보유할 수 없다는 것이다. AI 코딩 지원이나 대용량 문서 분석 같은 장문 컨텍스트 워크로드를 지원하려면 이 메모리를 저렴하게 저장하면서도 빠르게 검색할 수 있는 방법이 필요하며, 이는 소프트웨어 프레임워크, 런타임 최적화, 데이터 저장소를 아우르는 조정된 전략으로 해결해야 한다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/stop-wasting-gpu-cycles-a-practical-guide-to-right-sizing-kv-cache",
+      "date": "2026-07-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "QIZ Security, 암호화 거버넌스 플랫폼 개발을 위해 1,700만 달러 투자 유치",
+      "summary": "QIZ Security가 암호화 거버넌스 플랫폼 개발을 위해 1,700만 달러 규모의 시리즈 펀딩을 조성했습니다. 이 투자는 양자 컴퓨팅 시대에 대비한 암호화 기술(PQC, Post-Quantum Cryptography) 분야의 중요성이 높아짐에 따른 것입니다. QIZ Security의 플랫폼은 조직의 암호화 자산과 키를 관리하고 거버넌스할 수 있는 솔루션을 제공합니다. 이는 기업들이 미래의 양자 위협에 대응하기 위한 암호화 인프라를 강화하는 데 도움이 될 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/qiz-security-raises-17-million-for-cryptographic-governance-platform/",
+      "date": "2026-07-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "영국 정부, 에이전틱 AI 방어 계획 및 산업 협약 발표",
+      "summary": "영국 정부가 에이전틱 AI(자율 인공지능) 기술에 대한 방어 계획을 공식 발표했습니다. 이 계획은 정부의 AI 보안 전략의 일환으로, 산업계와의 협력 협약을 함께 발표하고 있습니다. 에이전틱 AI의 확산에 따른 새로운 사이버 보안 위협에 대응하기 위한 종합적인 방안을 마련하고 있습니다. 정부와 산업계가 함께 AI 기반 보안 위협으로부터 국가 인프라를 보호하기 위한 협력 체계를 구축하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/uk-government-rolls-out-agentic-ai-defense-plan-alongside-industry-pledge/",
+      "date": "2026-07-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "팔로알토 네트웍스, 13개 취약점 패치 공개",
+      "summary": "팔로알토 네트웍스가 13개 이상의 취약점에 대한 보안 공지사항을 발표했습니다. 해당 취약점들은 SecurityWeek에서 보도되었으며, 사용자들은 즉시 패치를 적용할 것을 권장받고 있습니다. 팔로알토 네트웍스의 제품들을 이용하는 조직들은 이번 보안 업데이트를 통해 시스템을 보호해야 합니다. 이는 기업 보안 인프라의 안정성을 유지하기 위한 중요한 조치입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/palo-alto-networks-patches-13-vulnerabilities/",
+      "date": "2026-07-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "일본 통신사 KDDI 데이터 유출로 1,200만 명 영향",
+      "summary": "일본의 주요 통신사 KDDI에서 대규모 데이터 유출 사건이 발생했으며, 약 1,200만 명의 고객이 영향을 받은 것으로 확인되었습니다. 이번 사건은 일본의 주요 통신 인프라를 대상으로 한 심각한 보안 침해 사례로 기록되었습니다. 유출된 정보에는 개인 고객 정보와 통신 관련 데이터가 포함되어 있는 것으로 알려져 있습니다. KDDI는 사건 발생 후 영향받은 고객들에 대한 지원 및 보안 강화 대책을 추진 중입니다. 이는 최근 발생한 대규모 데이터 유출 사건 중 하나로, 통신 기업의 정보 보안 강화의 중요성을 다시 한 번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/12-million-impacted-by-data-breach-at-japanese-telco-kddi/",
+      "date": "2026-07-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "15년 된 리눅스 취약점 'GhostLock', 구글로부터 연구자들에게 9만 2천 달러 포상금 지급",
+      "summary": "보안 연구자들이 15년 전부터 존재해온 리눅스 커널의 취약점 'GhostLock'을 발견하여 구글의 버그 바운티 프로그램을 통해 9만 2천 달러의 포상금을 받았다. 이 취약점은 리눅스 시스템의 보안에 심각한 위협을 줄 수 있는 장기간 미발견 결함으로 지적된다. 구글은 이러한 중요한 보안 발견에 대해 상당한 규모의 버그 바운티를 제공함으로써 보안 연구 커뮤니티의 기여를 장려하고 있다. 이 발견은 오픈소스 소프트웨어의 보안 점검 필요성과 체계적인 취약점 발굴의 중요성을 다시 한번 강조한다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/15-year-old-linux-vulnerability-ghostlock-earns-researchers-92k-from-google/",
+      "date": "2026-07-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, Defender 'RoguePlanet' 취약점 패치",
+      "summary": "마이크로소프트가 Microsoft Defender의 'RoguePlanet'이라고 명명된 취약점을 패치했습니다. 이 취약점은 보안 전문가들에 의해 발견되었으며, 시스템의 보안을 위협할 수 있는 중요한 결함으로 평가됩니다. SecurityWeek에서 보도한 이 소식은 마이크로소프트의 정기적인 보안 패치 프로세스의 일환입니다. 사용자들은 최신 보안 업데이트를 설치하여 이 취약점으로부터 자신의 시스템을 보호할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/microsoft-patches-defender-rogueplanet-vulnerability/",
+      "date": "2026-07-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "로열마운트 대학교, 랜섬웨어 공격으로 데이터 탈취 확인",
+      "summary": "캐나다의 로열마운트 대학교가 랜섬웨어 공격으로 인해 데이터가 탈취되었음을 확인했습니다. 공격자들이 대학의 시스템에 침입하여 개인정보와 민감한 데이터를 훔친 후 이를 공개하겠다고 위협하는 전형적인 랜섬웨어 공격 방식을 사용했습니다. 이번 사건은 교육기관을 대상으로 한 사이버 범죄가 증가하고 있는 추세를 보여줍니다. 대학교 측은 피해자들에게 통보하고 필요한 보안 조치를 취하고 있는 것으로 알려졌습니다. 전문가들은 교육기관들이 더욱 강화된 사이버보안 시스템을 구축할 필요성을 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/mount-royal-university-confirms-data-stolen-in-ransomware-attack/",
+      "date": "2026-07-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 코딩 도구, 수십 년 된 기법으로 개발자 머신 해킹에 악용됨",
+      "summary": "AI 코딩 보조 도구들이 오래된 해킹 기법을 통해 개발자의 컴퓨터를 공격하도록 속아 넘어가는 취약점이 발견되었습니다. 이 공격은 수십 년 전부터 알려진 기술을 악용하여 현대의 AI 도구들을 악의적으로 조종할 수 있음을 보여줍니다. 'GhostApproval'로 명명된 이 취약점은 개발자들이 사용하는 AI 코딩 도구의 보안 위험성을 강조합니다. 연구자들은 AI 모델이 악성 명령어를 자동으로 실행하도록 조작될 수 있다는 점을 입증했습니다. 이는 AI 기반 개발 도구 사용 시 추가적인 보안 주의가 필요함을 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ai-coding-tools-tricked-into-hacking-developer-machine-via-decades-old-technique/",
+      "date": "2026-07-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Chrome 150 업데이트, 27개의 취약점 패치",
+      "summary": "Google이 Chrome 150 보안 업데이트를 배포했으며, 이번 업데이트는 총 27개의 취약점을 해결하고 있습니다. 이 중에는 심각도가 높은(critical-severity) 버그 2개가 포함되어 있습니다. 이 업데이트는 사용자의 브라우저 보안을 강화하고 잠재적인 공격으로부터 보호하기 위해 배포되었습니다. Chrome 사용자들은 최신 버전으로 업그레이드하여 이러한 보안 패치를 적용받을 것이 권장됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/chrome-150-update-patches-27-vulnerabilities/",
+      "date": "2026-07-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "8Layers, 신원 보안 플랫폼을 위해 290만 달러 자금 조달",
+      "summary": "사이버보안 스타트업 8Layers가 신원 보안 플랫폼 개발을 위해 290만 달러의 펀딩을 완료했습니다. 이번 자금 조달은 기업의 신원 및 접근 관리 보안 강화를 위한 투자로 볼 수 있습니다. 8Layers의 플랫폼은 조직의 신원 관련 보안 위협으로부터 보호하기 위해 설계되었습니다. 이러한 펀딩은 신원 기반 사이버보안 솔루션에 대한 시장의 관심과 수요가 증가하고 있음을 보여줍니다. 8Layers는 이 자금을 바탕으로 제품 개발과 시장 진출을 확대할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/8layers-raises-2-9-million-for-identity-security-platform/",
+      "date": "2026-07-09"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "[인터뷰] 바다 위의 스마트폰 된 선박... 라쿠텐 마리타임이 그리는 ‘사이버 복원력’",
       "summary": "국제선급협회 의무 규정 적용된 사례 제시하며 실질적 성과타사 모방 불가한 전 주기 아키텍처로 해양 사이버보안 주도[보안뉴스 조재호 기자] “선박은 더 이상 기계 장치의 집합체가 아닙니다. 수많은 운영기술(OT)과 IT 장비가 하나로 연결돼 실시간으로 데이터를 교환하는 바다 위 거대한 스마트폰으로 진화했습니다. 사이버 공격으로 인한 통제권 상실이 곧 해양 사",
       "category": "보안",
@@ -1335,10 +1551,10 @@
     }
   ],
   "sources": {
-    "보안뉴스": 88,
-    "Dell": 11,
-    "HPE": 2,
-    "VAST Data": 6,
-    "SecurityWeek": 41
+    "보안뉴스": 98,
+    "Dell": 13,
+    "VAST Data": 8,
+    "SecurityWeek": 51,
+    "HPE": 2
   }
 }
