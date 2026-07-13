@@ -3,6 +3,96 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "SK쉴더스, F&S 선정 APAC ‘사이버보안’ 고객 가치 리더십 선정",
+      "summary": "AI 기반 통합 보안 플랫폼 ‘시큐디움’ 앞세워 아시아태평양 서비스 우수성 입증관리형 탐지·대응 분야 95% 고객 유지율 기록하며 글로벌 수준 신뢰성 재확인[보안뉴스 조재호 기자] SK쉴더스가 글로벌 시장조사 기관 프로스트 앤드 설리번(F&S: Frost & Sullivan)의 ‘2026 아시아태평양 고객 가치 리더십’(2026 APAC Customer V",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144655&kind=&sub_kind=",
+      "date": "2026-07-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "SGA솔루션즈, KISA 국가 망 보안체계 도입 지원사업 합류",
+      "summary": "기후에너지환경부·성평등가족부 등 주요 공공기관 N2SF 전환 핵심 기술 제공통합계정관리(ICAM) 및 단일로그인(SSO) 연계해 최적화된 인증·접근통제 구현[보안뉴스 조재호 기자] SGA솔루션즈가 한국인터넷진흥원(KISA)이 추진하는 ‘2026년 국가 망 보안체계(N2SF) 도입 지원사업’에서 총 3개 컨소시엄에 참여해 공공기관의 N2SF 전환 지원에 나선",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144656&kind=&sub_kind=",
+      "date": "2026-07-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "KT, CSAP 인증 획득한 ‘공공형 AI 메일보안’ 출시",
+      "summary": "스팸 차단·AI 분석·APT 대응 3단계 필터링 거쳐 악성 메일 정밀 식별최대 3종 분석 엔진 적용 및 ‘One-View’ 대시보드로 관제 효율성 제고[보안뉴스 조재호 기자] KT가 한국인터넷진흥원(KISA) 클라우드 서비스 보안인증(CSAP)을 획득한 ‘공공형 AI 메일보안’ 서비스를 출시했다고 15일 밝혔다.공공형 AI 메일보안은 랜섬웨어와 피싱 등 이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144657&kind=&sub_kind=",
+      "date": "2026-07-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "Mac 노리는 ‘오디세이 스틸러’ 확산... 암호화폐 지갑 변조 주의보",
+      "summary": "가짜 마이크로소프트 팀즈 화면으로 터미널 명령어 실행 유도애플스크립트 기반으로 키체인 및 브라우저 정보 탈취해 C2 서버 전송[보안뉴스 김형근 기자] 최근 애플 macOS를 표적으로 삼는 신종 정보 탈취 악성코드 ‘오디세이 스틸러’(Odyssey Stealer)가 전 세계 100여 개국 이상에서 창궐해 각별한 주의가 요구된다. 이 악성코드는 과거 기승을 부",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144654&kind=&sub_kind=",
+      "date": "2026-07-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "강화군 CCTV 통합관제센터 본격 운영... 재난안전 컨트롤타워 구축",
+      "summary": "112·119 등과 CCTV 영상 실시간 연계사건·사고 발생 시 신속한 대응 지원향후 스마트도시 정보통합센터 핵심 플랫폼으로 확대 운영 계획 밝혀[보안뉴스 강초희 기자] 강화군(군수 박용철)은 군민의 생명과 재산을 보호하기 위한 핵심 인프라인 CCTV 통합관제센터 신축 건물이 지난 4월 15일 준공 이후 시스템 이전과 재난안전상황실 구축을 마치고 본격 운영",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144653&kind=&sub_kind=",
+      "date": "2026-07-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 62] 아는 길도 물어가라(2)-보안 질문 답, 왜 가짜로 설정해야 할까",
+      "summary": "보안 질문 답변에 실제 개인정보 대신 자신만 아는 단어를 넣으세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144210&kind=&sub_kind=",
+      "date": "2026-07-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 이글루코퍼레이션, 보안 특화 AI 에이전트 ‘AiR’로 자율형 SOC 구현 전략 제시",
+      "summary": "인간과 AI가 협업하는 에이전틱 SOC 운영 모델 구체화[보안뉴스 한세희 기자] 이글루코퍼레이션은 1999년 창립 이래 보안을 강화할 수 있는 핵심 기술 개발에 매진하며 국내 정보보안 시장을 개척하고 이끌어온 AI 보안 전문기업이다. 지속적인 연구개발을 통해 보안 정보 및 이벤트 관리(SIEM), 보안 운영·위협 대응 자동화(SOAR), 사이버물리시스템(C",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144563&kind=&sub_kind=",
+      "date": "2026-07-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 엔키화이트햇, AI해커 공격 오펜시브 보안 플랫폼 ‘OFFen’으로 막는다",
+      "summary": "실전 해킹 지식을 반복 가능한 자동 검증 체계로 구현AI기반 자율 침투테스트 솔루션 ‘오펜 레드’(OFFen RED), ISEC 2026에서 최초 공개[보안뉴스 한세희 기자] 오펜시브 보안 전문 기업 엔키화이트햇(대표 이성권)은 오는 8월 11일부터 12일까지 서울 코엑스에서 열리는 아시아 최대 사이버 보안 콘퍼런스 ‘ISEC 2026’에 참가해 올인원 오",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144525&kind=&sub_kind=",
+      "date": "2026-07-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[이슈칼럼] 잇따른 개인정보 유출, 해법은 예방 중심의 개인정보 보호 체계",
+      "summary": "‘사고 전 예방·관리하고 사고 피해도 최소화’하는 예방 중심 개인정보 보호체계로 대전환[보안뉴스= 고낙준 개인정보보호위원회 예방조정심의관] 통신·카드·유통 플랫폼 등에서 발생한 개인정보 유출사고는 규모 면에서 대형화될 뿐만 아니라 보이스 피싱 등 2차 피해로 이어질 위험성도 커지고 있다. 이러한 일련의 사건은 AI·디지털 전환과 플랫폼 경제 확산으로 개인정",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144645&kind=&sub_kind=",
+      "date": "2026-07-12"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "AX 이어 퀀텀 대전환 시대 코앞, “양자보안 로드맵 속도 높여야”... 양자보안연구회 워크숍 개최",
+      "summary": "‘Action to Quantum Transformation’ 주제로 실질적인 적용방안 논의 “양자보안 기술의 실질적인 전환 위한 연구 공유의 장 지속적으로 마련”[보안뉴스 한세희 기자] 한국정보보호학회 양자보안연구회(공동 운영위원장 이원혁, 최두호)가 지난 10일 세종컨벤션센터 국제회의장에서 ‘양자 전환을 위한 실행(Action to Quantum Tra",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144647&kind=&sub_kind=",
+      "date": "2026-07-12"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "KT AI 스테이션, ‘WSIS 프라이즈 2026’ 챔피언상 수상",
       "summary": "정보·지식 접근 부문에서 높은 평가... 올해 국내에서 유일하게 수상이동식 AI 체험·교육 프로그램 통해 AI 교육 격차 해소 성과 인정KT “청소년들이 AI 올바른 이해와 안전한 활용토록 AI 교육 기회 확대”[보안뉴스 원병철 기자] KT(대표이사 박윤영)가 10일(현지시간) 스위스 제네바에서 열린 ‘정보사회세계정상회의(WSIS) 프라이즈 2026’ 시상",
       "category": "보안",
@@ -1830,7 +1920,7 @@
     }
   ],
   "sources": {
-    "보안뉴스": 118,
+    "보안뉴스": 128,
     "SecurityWeek": 59,
     "Dell": 16,
     "VAST Data": 8,

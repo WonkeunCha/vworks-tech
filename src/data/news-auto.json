@@ -2769,9 +2769,109 @@
     "http://www.boannews.com/media/view.asp?idx=144586&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144637&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144545&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=144643&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=144643&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144655&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144656&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144657&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144654&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144653&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144210&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144563&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144525&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144645&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144647&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "SK쉴더스, F&S 선정 APAC ‘사이버보안’ 고객 가치 리더십 선정",
+      "summary": "AI 기반 통합 보안 플랫폼 ‘시큐디움’ 앞세워 아시아태평양 서비스 우수성 입증관리형 탐지·대응 분야 95% 고객 유지율 기록하며 글로벌 수준 신뢰성 재확인[보안뉴스 조재호 기자] SK쉴더스가 글로벌 시장조사 기관 프로스트 앤드 설리번(F&S: Frost & Sullivan)의 ‘2026 아시아태평양 고객 가치 리더십’(2026 APAC Customer V",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144655&kind=&sub_kind=",
+      "date": "2026-07-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "SGA솔루션즈, KISA 국가 망 보안체계 도입 지원사업 합류",
+      "summary": "기후에너지환경부·성평등가족부 등 주요 공공기관 N2SF 전환 핵심 기술 제공통합계정관리(ICAM) 및 단일로그인(SSO) 연계해 최적화된 인증·접근통제 구현[보안뉴스 조재호 기자] SGA솔루션즈가 한국인터넷진흥원(KISA)이 추진하는 ‘2026년 국가 망 보안체계(N2SF) 도입 지원사업’에서 총 3개 컨소시엄에 참여해 공공기관의 N2SF 전환 지원에 나선",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144656&kind=&sub_kind=",
+      "date": "2026-07-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "KT, CSAP 인증 획득한 ‘공공형 AI 메일보안’ 출시",
+      "summary": "스팸 차단·AI 분석·APT 대응 3단계 필터링 거쳐 악성 메일 정밀 식별최대 3종 분석 엔진 적용 및 ‘One-View’ 대시보드로 관제 효율성 제고[보안뉴스 조재호 기자] KT가 한국인터넷진흥원(KISA) 클라우드 서비스 보안인증(CSAP)을 획득한 ‘공공형 AI 메일보안’ 서비스를 출시했다고 15일 밝혔다.공공형 AI 메일보안은 랜섬웨어와 피싱 등 이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144657&kind=&sub_kind=",
+      "date": "2026-07-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "Mac 노리는 ‘오디세이 스틸러’ 확산... 암호화폐 지갑 변조 주의보",
+      "summary": "가짜 마이크로소프트 팀즈 화면으로 터미널 명령어 실행 유도애플스크립트 기반으로 키체인 및 브라우저 정보 탈취해 C2 서버 전송[보안뉴스 김형근 기자] 최근 애플 macOS를 표적으로 삼는 신종 정보 탈취 악성코드 ‘오디세이 스틸러’(Odyssey Stealer)가 전 세계 100여 개국 이상에서 창궐해 각별한 주의가 요구된다. 이 악성코드는 과거 기승을 부",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144654&kind=&sub_kind=",
+      "date": "2026-07-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "강화군 CCTV 통합관제센터 본격 운영... 재난안전 컨트롤타워 구축",
+      "summary": "112·119 등과 CCTV 영상 실시간 연계사건·사고 발생 시 신속한 대응 지원향후 스마트도시 정보통합센터 핵심 플랫폼으로 확대 운영 계획 밝혀[보안뉴스 강초희 기자] 강화군(군수 박용철)은 군민의 생명과 재산을 보호하기 위한 핵심 인프라인 CCTV 통합관제센터 신축 건물이 지난 4월 15일 준공 이후 시스템 이전과 재난안전상황실 구축을 마치고 본격 운영",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144653&kind=&sub_kind=",
+      "date": "2026-07-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 62] 아는 길도 물어가라(2)-보안 질문 답, 왜 가짜로 설정해야 할까",
+      "summary": "보안 질문 답변에 실제 개인정보 대신 자신만 아는 단어를 넣으세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144210&kind=&sub_kind=",
+      "date": "2026-07-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 이글루코퍼레이션, 보안 특화 AI 에이전트 ‘AiR’로 자율형 SOC 구현 전략 제시",
+      "summary": "인간과 AI가 협업하는 에이전틱 SOC 운영 모델 구체화[보안뉴스 한세희 기자] 이글루코퍼레이션은 1999년 창립 이래 보안을 강화할 수 있는 핵심 기술 개발에 매진하며 국내 정보보안 시장을 개척하고 이끌어온 AI 보안 전문기업이다. 지속적인 연구개발을 통해 보안 정보 및 이벤트 관리(SIEM), 보안 운영·위협 대응 자동화(SOAR), 사이버물리시스템(C",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144563&kind=&sub_kind=",
+      "date": "2026-07-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 엔키화이트햇, AI해커 공격 오펜시브 보안 플랫폼 ‘OFFen’으로 막는다",
+      "summary": "실전 해킹 지식을 반복 가능한 자동 검증 체계로 구현AI기반 자율 침투테스트 솔루션 ‘오펜 레드’(OFFen RED), ISEC 2026에서 최초 공개[보안뉴스 한세희 기자] 오펜시브 보안 전문 기업 엔키화이트햇(대표 이성권)은 오는 8월 11일부터 12일까지 서울 코엑스에서 열리는 아시아 최대 사이버 보안 콘퍼런스 ‘ISEC 2026’에 참가해 올인원 오",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144525&kind=&sub_kind=",
+      "date": "2026-07-13"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[이슈칼럼] 잇따른 개인정보 유출, 해법은 예방 중심의 개인정보 보호 체계",
+      "summary": "‘사고 전 예방·관리하고 사고 피해도 최소화’하는 예방 중심 개인정보 보호체계로 대전환[보안뉴스= 고낙준 개인정보보호위원회 예방조정심의관] 통신·카드·유통 플랫폼 등에서 발생한 개인정보 유출사고는 규모 면에서 대형화될 뿐만 아니라 보이스 피싱 등 2차 피해로 이어질 위험성도 커지고 있다. 이러한 일련의 사건은 AI·디지털 전환과 플랫폼 경제 확산으로 개인정",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144645&kind=&sub_kind=",
+      "date": "2026-07-12"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "AX 이어 퀀텀 대전환 시대 코앞, “양자보안 로드맵 속도 높여야”... 양자보안연구회 워크숍 개최",
+      "summary": "‘Action to Quantum Transformation’ 주제로 실질적인 적용방안 논의 “양자보안 기술의 실질적인 전환 위한 연구 공유의 장 지속적으로 마련”[보안뉴스 한세희 기자] 한국정보보호학회 양자보안연구회(공동 운영위원장 이원혁, 최두호)가 지난 10일 세종컨벤션센터 국제회의장에서 ‘양자 전환을 위한 실행(Action to Quantum Tra",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144647&kind=&sub_kind=",
+      "date": "2026-07-12"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "KT AI 스테이션, ‘WSIS 프라이즈 2026’ 챔피언상 수상",
@@ -11681,98 +11781,8 @@
       "source": "BleepingComputer",
       "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/",
       "date": "2026-05-29"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "700만 명의 고령 미국인 개인정보 판매로 10년 이상 징역형 선고",
-      "summary": "노스캐롤라이나주의 한 남성이 700만 명이 넘는 고령 미국인의 개인정보를 자메이카 사기꾼들에게 판매한 혐의로 10년 이상의 징역형을 선고받았습니다. 이 사건은 개인정보 보안 침해와 신원 도용으로 이어진 심각한 범죄입니다. 피해자들은 주로 고령층 미국인들로, 판매된 개인정보는 사기 목적으로 악용될 수 있습니다. 이는 데이터 보안과 개인정보 보호의 중요성을 강조하는 사건입니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/man-sent-to-prison-for-selling-data-of-7-millions-elderly-americans/",
-      "date": "2026-05-29"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "미국, 구글 보안 엔지니어를 폴리마켓 내부자거래 혐의로 기소",
-      "summary": "구글의 한 보안 엔지니어가 기밀 회사 정보를 이용하여 암호화폐 기반 예측 시장인 폴리마켓에서 베팅을 한 내부자거래 혐의로 미국 당국에 기소되었습니다. 해당 엔지니어는 이러한 부정행위를 통해 약 120만 달러의 수익을 올렸던 것으로 파악됩니다. 이 사건은 기술 기업 직원의 기밀 정보 유출과 금융 시장에서의 부정행위가 얼마나 심각한 문제인지를 보여주는 사례입니다. 미국 당국은 이러한 내부자거래 행위를 엄격하게 단속하고 있으며, 기술 업계 종사자들의 윤리 의식 강화가 요구됩니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/us-charges-google-security-engineer-with-polymarket-insider-trading/",
-      "date": "2026-05-29"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Charter Communications 데이터 유출 사건, 490만 개 계정 영향",
-      "summary": "미국 통신 거대 기업 Charter Communications가 4월 초 해킹당해 490만 개 계정의 개인정보가 유출되었습니다. 데이터 유출 알림 서비스 'Have I Been Pwned'에 따르면, 악의적인 해커 그룹 'ShinyHunters'가 이번 침해 사건의 주범으로 지목되었습니다. 유출된 정보에는 고객들의 개인 데이터가 포함되어 있으며, ShinyHunters는 이를 이용한 협박 시도를 하고 있습니다. 이번 사건은 Salesforce를 통한 접근으로 발생한 것으로 알려져 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
-      "date": "2026-05-29"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "‘오마다 퓨전 2.5G’ 출시... 통합 네트워크 관리로 SMB 운영 효율성 강화",
-      "summary": "빌트인 컨트롤러·라이선스 무료 클라우드 관리 지원체인점·사무실·의료시설 겨냥[보안뉴스 강초희 기자] AI 기반 업무 환경과 클라우드 서비스 활용이 확대되면서 소규모 음식점과 체인점, 의원 등 중소 사업장에서도 안정적인 네트워크 환경에 대한 수요가 꾸준히 증가하고 있다. 하지만 기존 네트워크 구성은 라우터와 컨트롤러, 스위치를 각각 도입해야 하는 경우가 많아",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143875&kind=&sub_kind=",
-      "date": "2026-05-29"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "금융 탈취 악성코드 ‘그란도레이도’ 확산... 윈도우·안드로이드 공습",
-      "summary": "[보안뉴스 강현주 기자] 글로벌 보안 생태계에 악명 높은 금융 탈취 악성코드 ‘그란도레이로’(Grandoreiro)와 신형 원격제어 툴(RAT)인 ‘BTMOB’ 변종이 동시에 출현해 세계 전산망을 공습하고 있다. 글로벌 보안기업 이셋(ESET) 연구진에 따르면, 이번 해킹 공격은 단일 플랫폼을 노리던 과거 수법에서 벗어나 MS 윈도우 PC와 구글 안드로이드",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143874&kind=&sub_kind=",
-      "date": "2026-05-29"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[카드뉴스] “해커 막으려다 공장 멈췄다”… 랜섬웨어 선제 격리가 부른 ‘물리적 마비’의 실체",
-      "summary": "엔터프라이즈 IT 망에 침투한 랜섬웨어의 확산을 차단하기 위해 공장 OT 망과의 연결을 강제 분리하는 ‘선제 격리’ 조치가 도리어 생산 라인 전체를 멈추는 물리적 마비를 초래하고 있다.현대 글로벌 제조 인프라는 부품 하나만 출하되지 않아도 전체 공급망이 연쇄 셧다운되는 초연결 ‘생존의 사슬’ 구조이기 때문에, 보안 유지를 위한 단순 차단 조치가 심각한 경제",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143873&kind=&sub_kind=",
-      "date": "2026-05-29"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Anthropic, Claude Mythos급 모델의 공개 출시 확정",
-      "summary": "Anthropic이 Mythos급 Claude 모델을 일반 대중에게 공개할 계획을 확인했습니다. 이 회사는 이전에 공공 및 민간 소프트웨어에 대한 보안 위험으로 인해 출시를 연기했었습니다. Mythos급 모델은 더욱 강화된 성능을 제공할 것으로 예상되며, Anthropic은 보안 문제를 해결한 후 공개 출시를 진행할 예정입니다. 이는 AI 안전성과 성능 향상 사이의 균형을 맞추려는 노력의 일환으로 볼 수 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-mythos-class-models-will-roll-out-to-the-public/",
-      "date": "2026-05-29"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "인텔리빅스, 중기부 ‘중견 도약’(Jump-Up) 유망기업 선정",
-      "summary": "삼정KPMG와 해외 진출 컨설팅 계약향후 3년간 7억5000만원 정부 패키지 지원[보안뉴스 강초희 기자] 인텔리빅스(대표 최은수·장정훈)가 중소벤처기업부가 주관하는 미래 글로벌 중견기업 육성 프로젝트 ‘도약(Jump-Up) 프로그램’ 지원 대상 기업으로 최종 선정됐다고 29일 밝혔다.도약(Jump-Up) 프로그램은 높은 성장 잠재력과 역량을 갖춘 유망 기업",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143869&kind=&sub_kind=",
-      "date": "2026-05-29"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[미토스 충격] “AI로 AI 맞선다”... 국가안보실 중심 민관합동 대응체계 가동",
-      "summary": "민관합동 체계 및 국제협력 도모“2027년부터 독자 AI 기술 대전환”[보안뉴스 강현주 기자] 미토스로 부각된 AI의 위협에 AI로 맞서기 위해 국가안보실 중심의 민관합동 대응체계 마련이 추진된다. 과학기술정보통신부(부총리 겸 장관 배경훈)는 29일 제9회 과학기술관계장관회의에서 ‘AI 기반 사이버위협에 대응하기 위한 민간 정보보호 추진계획(안)’을 발표했",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143872&kind=&sub_kind=",
-      "date": "2026-05-29"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "충남도, 수난사고 AI CCTV·드론으로 막는다",
-      "summary": "실종자 수색 사용하던 드론 예찰 투입 “그물망 감시 체계 가동”[보안뉴스 강초희 기자] 충남도(도지사 김태흠)가 여름철 수상 안전사고 예방을 위해 내수면 안전관리요원을 두 배 가까이 늘린다. 또 사망사고가 잦은 금산 금강변에 AI CCTV를 설치해 사각지대를 해소하고, 실종자 수색에 이용하던 드론은 사전 예찰 활동에 투입한다.도는 28일 행정안전부 주재로",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143870&kind=&sub_kind=",
-      "date": "2026-05-29"
     }
   ],
-  "totalItems": 2770,
+  "totalItems": 2780,
   "hasArchive": true
 }
