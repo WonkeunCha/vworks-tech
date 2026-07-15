@@ -2,6 +2,222 @@
   "quarter": "2026-Q3",
   "items": [
     {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell의 인턴에서 AI 엔지니어링 기술자로의 성장",
+      "summary": "Khushboo Rathi는 Dell Technologies에서의 인턴십을 통해 AI 엔지니어링 기술자로의 경력을 시작했습니다. 그의 경험은 인턴십이 단순한 경험을 넘어 전정한 커리어의 발판이 될 수 있음을 보여줍니다. Dell은 인턴들에게 실질적인 프로젝트 경험과 멘토링 기회를 제공하며, 이를 통해 신입 인재들의 성장을 지원합니다. 기술적 역량 개발뿐만 아니라 조직 문화에 대한 이해도 인턴십 프로그램의 중요한 부분입니다. 이러한 성공 사례는 기술 인재 육성에 있어 Dell의 투자 의지를 보여줍니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/from-intern-to-ai-engineering-technologist-at-dell/",
+      "date": "2026-07-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "디사일로-에임인텔리전스, ‘데이터·모델 통합 AI 보안’ 공동 개발... 유럽 금융시장 공략",
+      "summary": "데이터·모델 통합 보안 시스템 공동 개발·사업화 MOU 완전동형암호 기반 데이터 보호에 AI 레드티밍·가드레일 결합[보안뉴스 강현주 기자] 완전동형암호(FHE) 기반 프라이빗 AI 기업 디사일로(대표 이승명)는 AI 보안 전문 기업 에임인텔리전스(대표 유상윤)와 데이터와 AI 모델을 함께 보호하는 통합 보안 시스템을 공동 개발하고 사업화한다. 양사는 이 같",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144694&kind=&sub_kind=",
+      "date": "2026-07-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "아마노코리아-용인대 산학협력단, AI 스마트 주차관제 인재양성·R&D 협력",
+      "summary": "AI 스마트 주차관제 전문인력 양성과 기술혁신을 위한 산학협력 업무협약 체결AI BOX와 AI CCTV 기반 스마트 주차관제 공동 연구와 취업 연계 프로그램 추진산학 공동 프로젝트를 통해 AI 스마트 주차장 운영 기술과 전문인력 양성 확대[보안뉴스 강초희 기자] 아마노코리아(대표이사 전명진)와 용인대학교 산학협력단(단장 박준석)은 우수 인재 취업 연계 프로",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144690&kind=&sub_kind=",
+      "date": "2026-07-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "슈프리마, AI 경영시스템 국제표준 ISO/IEC 42001 인증 획득",
+      "summary": "생체인증 출입통제 솔루션 전반에 대한 ISO/IEC 42001 인증 획득AI 구축·운영·리스크 관리 체계를 제3자 인증기관의 독립 심사로 공식 검증AI 보안 거버넌스와 정보보호·개인정보보호 인증을 통합한 관리체계 기반 마련[보안뉴스 강초희 기자] 슈프리마(대표 이재원·김한철)가 AI 경영시스템(AIMS: Artificial Intelligence Manag",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144691&kind=&sub_kind=",
+      "date": "2026-07-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 64] 아는 길도 물어가라(4)-여행 중 SNS 올리면 위험한 이유",
+      "summary": "여행 시 SNS에 실시간 위치나 ‘빈집’임을 알리는 게시물을 올리지 마세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144213&kind=&sub_kind=",
+      "date": "2026-07-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 시큐레이어, ISEC 2026서 ‘Agentic AI’ 기반 차세대 자율 보안 운영 전략 공개",
+      "summary": "생성형 AI 비서 넘어 스스로 판단하고 실행하는 ‘자율형 보안(Agentic AI)’ 시대 선언‘eyeCloudAI Assistant’ 공개, 자연어 명령으로 복잡한 보안 분석 척척[보안뉴스 엄호식 기자] AI 기반 빅데이터 분석 및 자율 보안 운영기업 시큐레이어(대표 전주호)가 대한민국 대표 정보보호 콘퍼런스 ‘ISEC 2026’에 참가해 보안 업계의 미",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144590&kind=&sub_kind=",
+      "date": "2026-07-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 보안 트렌드의 회귀... 소프트웨어가 못 막는 사각지대, ‘물리보안’이 답이다",
+      "summary": "폐쇄망부터 IMO 선박 규제·개인정보 안심구역까지 물리보안 솔루션 제시[보안뉴스 강초희 기자] 최근 글로벌 보안 트렌드는 디지털 네트워크 보안을 넘어, 인프라의 최전선인 ‘단말 및 물리적 포트 통제’로 빠르게 회귀하고 있다. 스마트키퍼는 ‘ISEC 2026’에서 소프트웨어 중심의 방어 체계가 미치지 못하는 사각지대를 보완하고, 강화된 글로벌 규제에 대응하기",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144585&kind=&sub_kind=",
+      "date": "2026-07-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "쿠도커뮤니케이션, AI 웰니스 솔루션 ‘HEALLO’ NH농협은행 서울지역 지점에 공급",
+      "summary": "NH농협은행 서울지역 100여개 지점에 HEALLO 공급약 30초 만에 생활 컨디션 확인 가능한 웰니스 서비스 제공금융·유통·공공 등 고객 접점 공간 중심의 웰니스 서비스 확대 추진[보안뉴스 강초희 기자] 쿠도커뮤니케이션(대표 김용식)은 AI 기반 비접촉 건강지표 분석 솔루션 ‘HEALLO’(헬로)를 와이비케어를 통해 NH농협은행 서울지역 100여개 지점에",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144692&kind=&sub_kind=",
+      "date": "2026-07-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "‘저금리’ 유혹 주의...대출 사기 피싱 162% 증가",
+      "summary": "은행, 카드사, 증권사 등 금융기관 사칭 기승메신저 채팅방 유인·URL 클릭 유도 문자 주의[보안뉴스 강현주 기자] ‘저금리’, ‘고한도’ 등의 키워드로 유혹하는 대출 사기 피싱 문자 공격이 올해 2분기 전분기 대비 162% 증가한 것으로 나타났다. 안랩(대표 강석균)이 2026년 4월부터 6월까지 에이전틱 AI 보안 플랫폼 ‘안랩 AI 플러스’(AhnLa",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144693&kind=&sub_kind=",
+      "date": "2026-07-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[테크칼럼] 보안팀이 손댈 수 없는 영역, ‘비인간 신원’(NHI) 위협 실체",
+      "summary": "깃허브 ‘개인 액세스 토큰(PAT) 유출 사태’와 비인간 식별자(NHI) 관리 대책[보안뉴스= 김동현 OWASP 서울 챕터 리더] 경찰청 국가수사본부가 기업과 개발자들이 사용하는 깃허브 ‘개인 액세스 토큰’(PAT) 대규모 외부 유출을 인지하고 즉시 폐기와 재발급을 골자로 한 보안 권고를 배포했다.해커가 기업 IT 인프라망을 넘어 개발 환경 자체를 정조준하",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144689&kind=&sub_kind=",
+      "date": "2026-07-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Scale-Out 백업의 부메랑 효과: 노드 기반 아키텍처가 비싼 이유",
+      "summary": "노드 기반 백업 모델은 단순하고 선형적인 성장을 약속했지만, 엔터프라이즈 규모에서는 다른 패턴이 나타나고 있습니다. 초기에는 저렴한 것처럼 보이지만, 노드가 증가함에 따라 관리 복잡성과 운영 비용이 급격히 증가합니다. 기본 인프라, 라이선싱, 유지보수 비용이 선형적으로 확장되면서 전체 소유 비용(TCO)이 예상보다 훨씬 높아집니다. 많은 기업들이 초기 선택의 결과로 장기적인 비용 부담을 경험하고 있으며, 이는 백업 솔루션 선택 시 단순한 초기 가격뿐 아니라 장기적 확장성을 고려해야 함을 보여줍니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/the-scale-out-backup-boomerang-why-node-based-architectures-get-expensive/",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "두 가지 여정, 하나의 목적: Dell에서 소프트웨어 엔지니어링의 미래 성장하기",
+      "summary": "Dell Technologies는 멘토십과 STEM Aspire 프로그램을 통해 다음 세대 엔지니어들을 양성하고 있습니다. 이 두 가지 이니셔티브는 기술 분야의 재능 있는 인재들을 발굴하고 개발하는 데 중요한 역할을 합니다. 멘토십 프로그램은 경험 많은 전문가들이 신진 엔지니어들에게 실질적인 지도와 조언을 제공합니다. STEM Aspire는 과학, 기술, 공학, 수학 분야에서 미래의 리더들을 육성하는 데 집중합니다. 이러한 노력들은 소프트웨어 엔지니어링 업계의 지속적인 성장과 혁신을 위한 견고한 기반을 마련합니다. Dell은 이를 통해 기술 인재 파이프라인을 강화하고 업계의 미래를 형성하고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/two-journeys-one-purpose-growing-the-future-of-software-engineering-at-dell/",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "텔레콤 AI 준비는 클라우드 네이티브 변환부터 시작된다",
+      "summary": "텔레콤 산업 전반에 AI에 대한 야심이 넘쳐나고 있습니다. 그러나 야심만으로는 AI 기반 네트워크를 구축할 수 없습니다. AI 역량을 효과적으로 구현하기 위해서는 클라우드 네이티브 기술 기반이 필수적입니다. 텔레콤 기업들은 기존 인프라의 현대화와 함께 오픈소스 기술 및 개방형 표준 채택이 중요합니다. 클라우드 네이티브 변환을 통해 AI 기반의 새로운 서비스와 운영 효율성을 동시에 달성할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/telco-ai-readiness-starts-with-cloud-native-transformation/",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, 기록적인 622개 취약점 패치 발표, 악용된 제로데이 2건 포함",
+      "summary": "마이크로소프트가 역대 최대 규모인 622개의 취약점을 패치했으며, 이 중에는 이미 야생에서 악용되고 있는 제로데이 취약점 2건이 포함되어 있습니다. 패치 화요일(Patch Tuesday) 업데이트를 통해 공개된 이번 패치는 마이크로소프트 제품군 전반의 보안 위험을 완화하기 위한 것입니다. 제로데이 취약점은 보안 연구원들에게 미리 알려지지 않은 상태에서 공격자들이 실제로 이용하고 있어 긴급성이 높습니다. 사용자들은 최대한 빨리 이번 보안 업데이트를 적용할 것을 권고받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/microsoft-patches-record-622-vulnerabilities-including-two-exploited-zero-days/",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Synopsys, Bosch 해킹 주장 속에서 데이터 유출 증거 없음",
+      "summary": "보안 소프트웨어 회사인 Synopsys는 Bosch가 해킹되었다는 주장 속에서 자신들의 시스템에 대한 데이터 유출 증거를 찾지 못했다고 발표했습니다. 해당 사건은 랜섬웨어 관련 사이버 범죄로 분류되어 조사 중입니다. 이는 가짜 해킹 주장으로 추정되는 사안으로, 실제 데이터 침해가 발생하지 않았을 가능성이 높습니다. Synopsys는 보안 위협에 대한 철저한 조사를 통해 사용자들에게 안전성을 확보했음을 확인시켰습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/synopsys-finds-no-evidence-of-data-breach-following-bosch-hack-claims/",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Adobe, ColdFusion 중요 취약점 패치 공개",
+      "summary": "Adobe가 12개 제품의 88개 결함에 대한 패치를 공개했으며, 그 중 ColdFusion의 중요 버그들이 포함되어 있습니다. 이번 패치는 보안 취약점으로 인한 공격 위험을 줄이기 위해 긴급히 배포되었습니다. SecurityWeek에서 보도한 이 소식은 기업들이 시스템 보안을 강화하기 위해 즉시 업데이트할 것을 권장하고 있습니다. ColdFusion은 웹 애플리케이션 개발 플랫폼으로 광범위하게 사용되고 있어 이번 취약점 패치가 중요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/adobe-patches-critical-coldfusion-vulnerabilities/",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VMware Avi 로드 밸런서에서 7개의 심각한 취약점 패치",
+      "summary": "VMware가 Avi 로드 밸런서에서 발견된 7개의 심각한 취약점에 대한 보안 패치를 릴리스했습니다. 이 취약점들은 공격자가 시스템에 무단으로 접근하거나 서비스를 방해할 수 있는 심각한 보안 위험을 초래할 수 있습니다. 로드 밸런서는 네트워크 트래픽을 관리하는 핵심 인프라 장비로서 많은 기업에서 사용되고 있습니다. 해당 취약점들은 SecurityWeek에 의해 보도되었으며, 영향을 받는 사용자들은 즉시 최신 패치를 적용할 것을 권장합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/7-severe-vulnerabilities-patched-in-vmware-avi-load-balancer/",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Chrome용 Claude의 패치되지 않은 결함으로 확장 프로그램이 Gmail, 캘린더 읽을 수 있음",
+      "summary": "Chrome용 Claude 확장 프로그램에서 발견된 보안 취약점으로 인해 다른 브라우저 확장 프로그램들이 사용자의 Gmail과 캘린더 데이터에 접근할 수 있는 것으로 나타났습니다. 이 결함은 현재까지 패치되지 않은 상태로, 사용자의 개인정보가 노출될 수 있는 심각한 위험이 존재합니다. 악의적인 확장 프로그램이 이 취약점을 악용하면 민감한 이메일 정보와 일정 데이터에 무단으로 접근할 수 있습니다. 보안 전문가들은 Anthropic이 해당 결함에 대한 즉시 패치를 배포할 것을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/unpatched-claude-for-chrome-flaw-lets-extensions-read-gmail-calendar/",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "SAP, NetWeaver, Approuter, Commerce Cloud의 심각한 취약점 패치",
+      "summary": "SAP는 NetWeaver, Approuter, Commerce Cloud 등 주요 제품에서 발견된 심각한 취약점들에 대한 보안 패치를 공개했습니다. 이번 패치는 공격자가 시스템에 무단으로 접근하거나 권한을 상승시킬 수 있는 다수의 취약점을 해결합니다. SAP 고객들은 영향받는 시스템에 대해 긴급하게 보안 업데이트를 적용할 것을 권장받고 있습니다. 이러한 취약점들은 엔터프라이즈 환경에서 광범위한 보안 위험을 초래할 수 있어 신속한 대응이 필요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/sap-patches-critical-vulnerabilities-in-netweaver-approuter-commerce-cloud/",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국과 동맹국, 핵심 기반시설 라우터를 목표로 한 러시아 사이버 공격 경고",
+      "summary": "미국과 동맹국들이 핵심 기반시설을 대상으로 한 러시아의 사이버 공격 위협에 대해 공동으로 경고했습니다. 러시아 국가 지원 해킹 그룹들이 통신 및 에너지 등 중요 인프라의 라우터를 공격 대상으로 삼고 있는 것으로 파악되었습니다. 이러한 공격을 통해 공격자들은 네트워크에 침투하여 장기간 은폐된 상태로 활동할 수 있는 발판을 마련할 수 있습니다. 라우터는 네트워크 연결의 핵심 장비로서, 이에 대한 공격은 국가 기반시설의 가용성과 보안에 심각한 위협이 될 수 있습니다. 관련 기관들은 라우터 소프트웨어 업데이트 적용과 강화된 접근 제어 등의 방어 조치를 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/us-allies-warn-of-russian-cyberattacks-targeting-critical-infrastructure-routers/",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Valarian, 주권적 인프라 제어 계층을 위해 5천만 달러 자금 조달",
+      "summary": "사이버보안 기업 Valarian이 주권적 인프라 제어 계층 개발을 위해 5천만 달러 규모의 자금 조달을 완료했습니다. 이번 투자는 국가 차원의 중요 인프라 보안 강화에 초점을 맞추고 있습니다. Valarian은 조달된 자금을 통해 자국 내 인프라 시스템의 독립적인 제어 및 모니터링 기술 개발에 나설 예정입니다. 이러한 움직임은 국가 사이버 안보 전략의 중요성이 커지면서 주권적 기술 개발에 대한 투자가 증가하고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/valarian-raises-50-million-for-sovereign-infrastructure-control-layer/",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "다중 Jscrambler 패키지, 공급망 공격으로 영향받음",
+      "summary": "JavaScript 코드 보안 및 난독화 솔루션인 Jscrambler의 여러 패키지가 공급망 공격의 대상이 되었습니다. 이번 공격으로 인해 정보 탈취형 악성코드(infostealer)가 영향받은 패키지에 주입된 것으로 확인되었습니다. 공급망 보안 침해는 개발자들이 의존하는 소프트웨어 패키지를 통해 광범위한 피해를 야기할 수 있습니다. Jscrambler를 사용하는 개발자 및 조직들은 즉시 영향받은 패키지 버전을 확인하고 업데이트하는 것이 권장됩니다. 이 사건은 오픈소스 및 서드파티 패키지에 대한 보안 검증의 중요성을 다시 한 번 강조합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/multiple-jscrambler-packages-impacted-by-supply-chain-attack/",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "국방부, 계약업체 사이버보안 규정 재검토하며 CMMC 2단계 중단",
+      "summary": "미국 국방부가 방위산업기반(DIB) 계약업체들을 대상으로 한 사이버보안 성숙도 모델 인증(CMMC) 2단계를 일시 중단했습니다. 국방부는 계약업체의 사이버보안 요구사항을 재검토하고 있으며, 이는 기존 CMMC 정책에 대한 변경이 필요하다는 판단에 따른 결정입니다. 이 조치로 CMMC 인증 취득을 준비 중이던 방위산업 계약업체들의 규정 준수 일정에 영향을 미칠 것으로 예상됩니다. 국방부의 최종 방침이 결정될 때까지 2단계 심사는 보류될 것으로 보입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/pentagon-suspends-cmmc-phase-2-as-it-rethinks-contractor-cybersecurity-rules/",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[2026 OT 보안 솔루션 리포트] 세계가 주목하는 한국 첨단 제조업, OT 보안이 경쟁력 지킨다",
+      "summary": "OT 보안 뚫리면 신체적, 물리적 피해 현실화디지털 융합, AI 발달, 지정학적 갈등 속 핵심 인프라 공격 우려 고조제조 환경 속속들이 파악하는 가시성 확보에서 효율적 탐지, 대응까지 OT 보안 전문기업 집중 분석: 센스톤, 모싸, 휴네시온, 요꼬가와전기 [보안뉴스 한세희 기자] 2025년 영국 핵심 인프라 운영 기관에 대한 공격은 200여건에 이른다. 이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144688&kind=&sub_kind=",
+      "date": "2026-07-14"
+    },
+    {
       "id": "aHR0cDovL3d3dy5i",
       "title": "[ISEC 2026 미리보기] 한국기업보안, SSL/TLS 인증서 자동화 솔루션 ‘UCLM’으로 47일 유효기간 선제 대응",
       "summary": "발급부터 설치·모니터링까지 전 주기 자동화...온프레미스 환경 특화 CLM 솔루션 선보여[보안뉴스 원병철 기자] 한국기업보안(대표 전귀선)이 8월 11일(화)부터 12일(수)까지 서울 코엑스(COEX) Hall D 및 오디토리움에서 개최되는 ‘ISEC 2026’(제20회 국제 시큐리티 컨퍼런스)에 참가해 SSL/TLS 인증서 자동화 관리 솔루션 ‘UCLM’",
@@ -2100,10 +2316,10 @@
     }
   ],
   "sources": {
-    "보안뉴스": 138,
-    "Dell": 17,
+    "Dell": 21,
+    "보안뉴스": 148,
+    "SecurityWeek": 77,
     "HPE": 3,
-    "SecurityWeek": 67,
     "VAST Data": 8
   }
 }
