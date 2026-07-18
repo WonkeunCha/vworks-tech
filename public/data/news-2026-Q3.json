@@ -2,6 +2,132 @@
   "quarter": "2026-Q3",
   "items": [
     {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "GPU는 준비됐습니다. 데이터는요?",
+      "summary": "엔터프라이즈 AI의 다음 도약은 데이터 계층에서 승패가 결정될 것입니다. GPU 성능의 급속한 발전에도 불구하고, 데이터의 준비 상태가 AI 성공의 핵심 병목이 되고 있습니다. 고품질의 정제된 데이터, 효율적인 데이터 관리, 그리고 데이터 접근성이 AI 모델의 성능을 좌우합니다. 조직들은 GPU 투자만큼이나 데이터 인프라와 거버넌스에 중점을 두어야 합니다. 데이터 준비에 실패하면 최고의 GPU도 그 잠재력을 발휘할 수 없다는 점을 인식해야 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/your-gpus-are-ready-is-your-data/",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "ICYMI: 미국의 다음 250년을 위한 힘",
+      "summary": "Dell Technologies는 신뢰할 수 있는 AI 인프라를 구축하여 미국의 다음 250년 발전을 가속화하는 데 중요한 역할을 하고 있습니다. 안전하고 신뢰성 있는 기술 기반을 마련함으로써 기업과 정부가 AI의 잠재력을 안심하고 활용할 수 있도록 지원합니다. Dell은 혁신적인 인프라 솔루션을 통해 데이터 보안과 시스템 안정성을 보장하면서 미국의 경쟁력을 강화하고 있습니다. 이러한 노력은 단순한 기술 제공을 넘어 국가의 장기적 번영과 발전을 위한 견고한 토대를 마련하는 것입니다. 신뢰 기반의 AI 기술 발전을 통해 미국은 글로벌 디지털 시대에 선도적 위치를 유지할 수 있게 됩니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/icymi-powering-america-s-next-250/",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "진료실에서 지역사회까지: 의료 혁신 발전시키기",
+      "summary": "Dell과 그 파트너들은 더 빠른 진단과 더 똑똑한 연구, 그리고 가정까지 도달하는 돌봄을 통해 의료 AI 혁신의 새로운 시대를 만들어가고 있습니다. 고급 AI 기술과 데이터 분석을 활용하여 의료 전문가들은 질병을 더 신속하게 진단하고 치료 방법을 개선할 수 있습니다. 또한 원격 진료와 홈케어 솔루션을 통해 환자들은 자신의 집에서도 의료 서비스를 받을 수 있게 되었습니다. 이러한 혁신들은 의료 접근성을 높이고 환자 결과를 개선하는 데 핵심적인 역할을 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/from-the-clinic-to-the-community-advancing-healthcare-innovation/",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기타 뉴스: 이란의 미군 휴대폰 추적, CrashStealer macOS 악성코드, CVD 블루프린트",
+      "summary": "이란이 미군의 휴대폰을 추적하는 활동을 수행하고 있으며, 이는 미국 군사 통신 보안에 대한 심각한 위협으로 평가되고 있습니다. 동시에 CrashStealer라는 새로운 macOS 악성코드가 발견되어 Apple 사용자들을 위협하고 있습니다. 또한 사이버보안 업계에서는 취약점 공개(CVD) 프로세스에 대한 새로운 블루프린트를 제시하고 있으며, 이는 향후 보안 취약점 관리 방식의 개선을 목표로 하고 있습니다. 이러한 사안들은 국가 차원의 사이버 위협과 개인용 기기 보안, 그리고 업계 표준화의 중요성을 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-iran-tracks-us-military-phones-crashstealer-macos-malware-cvd-blueprint/",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "팟캐스트: broken Governance, Agentic AI, 그리고 MindStone Agent 독점 인터뷰",
+      "summary": "SecurityWeek에서 제공하는 이 팟캐스트는 Brian Schleifer가 Arcovo의 AI/ML 엔지니어링 담당 이사인 Clint Bodungen과 진행하는 인터뷰 프로그램입니다. OT(Operational Technology) 및 산업 사이버보안 분야의 선도적 전문가인 Bodungen과 함께 깨진 거버넌스 체계와 에이전틱 AI의 보안 영향에 대해 논의합니다. MindStone Agent에 대한 독점 정보를 포함하며, 산업 제어 시스템(ICS) 환경에서의 AI 기술 활용과 보안 위협에 대한 심층적인 분석을 제공합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/podcast-broken-governance-agentic-ai-and-the-mindstone-agent-exclusive/",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "비콘 시큐리티, 보안 데이터 플랫폼을 위해 1,300만 달러 자금 조달",
+      "summary": "사이버보안 스타트업 비콘 시큐리티(Beacon Security)가 보안 데이터 플랫폼 개발을 위해 1,300만 달러의 자금 조달을 완료했습니다. 이번 펀딩 라운드는 기업의 보안 인프라 강화 및 제품 개발 확대를 지원할 것으로 예상됩니다. 비콘 시큐리티는 조직의 보안 데이터를 통합 관리하는 플랫폼을 제공하며, 이를 통해 사이버 위협 탐지 및 대응 능력 향상을 목표로 하고 있습니다. 이러한 자금 조달은 글로벌 사이버보안 시장에서의 경쟁력 강화에 도움이 될 것으로 보입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/beacon-security-raises-13-million-for-security-data-platform/",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "펜타곤의 CMMC 2단계 중단에 대한 업계 반응: 피드백 프라이데이",
+      "summary": "미국 국방부가 사이버보안 성숙도 모델 인증(CMMC) 2단계 시행을 중단했습니다. 이번 결정은 국방 산업 및 관련 기업들로부터 다양한 반응을 불러일으켰습니다. CMMC는 국방부 계약업체들의 사이버보안 준수를 강화하기 위한 필수 인증 프로그램입니다. 업계는 이번 중단이 규제 불확실성을 야기하면서도 기업들에게 추가 적응 시간을 제공한다고 평가하고 있습니다. 관련 기관과 업계 전문가들의 의견이 엇갈리고 있으며, 이는 사이버보안 규정과 산업 현실 간의 균형 문제를 드러내고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/industry-reactions-to-pentagon-suspending-cmmc-phase-2-feedback-friday/",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "일본 냉동식품 대기업 니치레이, 사이버공격으로 운영 중단",
+      "summary": "일본의 주요 냉동식품 제조업체인 니치레이가 사이버공격으로 인해 운영에 차질을 겪었습니다. 이번 공격으로 인해 회사의 주요 시스템이 영향을 받아 일부 업무가 중단되었습니다. SecurityWeek에서 보도한 이 사건은 식품 산업과 같은 주요 기반시설 부문도 사이버 위협에 취약함을 보여줍니다. 니치레이는 공격으로부터 복구하기 위한 조치를 진행 중입니다. 이 사건은 기업들이 사이버보안에 더욱 강화된 방어체계를 구축할 필요성을 재차 강조합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cyberattack-disrupts-operations-of-japanese-frozen-food-giant-nichirei/",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Risk Ledger, Series B 펀딩으로 3,200만 달러 모금",
+      "summary": "영국의 공급망 보안 기업인 Risk Ledger가 Series B 펀딩 라운드에서 3,200만 달러를 모금했습니다. 이 자금은 AI 기반 솔루션 개발에 활용될 예정입니다. Risk Ledger는 기업의 공급망 보안 위험을 관리하고 모니터링하는 플랫폼을 제공하고 있습니다. 이번 펀딩은 공급망 보안에 대한 기업의 관심이 증가하고 있음을 보여줍니다. AI 기술의 도입으로 더욱 향상된 위험 분석 및 예방 능력을 갖춘 서비스 제공이 가능해질 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/risk-ledger-raises-32-million-in-series-b-funding/",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "SharePoint 신규 취약점, 공개 직후 즉시 악용되다",
+      "summary": "마이크로소프트 SharePoint의 새로운 보안 취약점이 공개된 직후 곧바로 악용되고 있는 것으로 확인되었습니다. 해당 취약점(CVE-2025-53770)은 공개되자마자 사이버 공격자들에 의해 적극 활용되고 있으며, 많은 조직들이 공격 위협에 노출되어 있습니다. 보안 전문가들은 조직들에게 즉시 패치를 적용할 것을 권고하고 있습니다. 이는 취약점 공개 후 신속한 대응의 중요성을 다시 한번 강조하는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/fresh-sharepoint-vulnerability-exploited-soon-after-disclosure/",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "코카콜라, 랜섬웨어 공격으로 인해 미국 페어라이프 생산 중단",
+      "summary": "코카콜라가 랜섬웨어 공격으로 인해 미국 내 페어라이프(Fairlife) 제품 생산을 중단했습니다. 이번 사이버 공격으로 인해 회사의 생산 시스템이 영향을 받았으며, 정상 운영 재개까지 시간이 소요될 것으로 예상됩니다. 랜섬웨어 공격은 기업의 중요 인프라를 마비시키고 운영 중단으로 인한 상당한 경제적 손실을 야기할 수 있습니다. 코카콜라는 현재 상황을 파악하고 대응 조치를 진행 중인 것으로 알려졌습니다. 이 사건은 식음료 산업의 주요 기업도 사이버 위협으로부터 안전하지 않음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/coca-cola-suspends-us-fairlife-production-due-to-ransomware-attack/",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 66] 아는 길도 물어가라(6)-보이스피싱 의심되면 꼭 해야 할 행동",
+      "summary": "보이스피싱 의심 시 112 또는 1332에 신고하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐,",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144218&kind=&sub_kind=",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 에스투더블유, AI 기반 데이터 인텔리전스 기술력으로 안보 위협 대응 지원",
+      "summary": "안보·보안 AI 제품 수출로 해외 매출 비중 20% 상회아시아, 중동, 유럽 시장 진출[보안뉴스 엄호식 기자] 빅데이터 분석 인공지능(AI) 기업 에스투더블유(S2W)는 인터폴(INTERPOL) 민관협력 프로그램 ‘게이트웨이 이니셔티브(Gateway Initiative)’의 한국 유일 파트너이자 ‘마이크로소프트 시큐리티 코파일럿(Microsoft Secur",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144634&kind=&sub_kind=",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] Hash 기반 실시간 멀웨어 탐지 및 대응 솔루션 ‘TA-STR’, 보안 사각지대 해소",
+      "summary": "다양한 멀웨어 위협 실시간으로 탐지, 추적, 분석해 즉각 대응[보안뉴스 엄호식 기자] 아이티스테이션은 2001년 설립 이래 약 25년간 정보보호솔루션 개발에 주력해 온 보안 전문 기업이다. 지속적인 연구개발을 통해 CC인증, GS인증 등 다수의 보안 인증을 획득했으며, 혁신적인 기술력으로 400여개 이상의 고객사를 확보하고 있다.최근에는 지능형 엔드포인트",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144628&kind=&sub_kind=",
+      "date": "2026-07-17"
+    },
+    {
       "id": "aHR0cDovL3d3dy5i",
       "title": "“섀도우 AI 음지에서 양지로”... 쏘카의 자율형 보안 거버넌스 사례",
       "summary": "생산성 향상 이면에 가려진 기밀 유출, ‘바이브 코딩’ 취약점 리스크단절된 통제 탈피해 현업 부서와 소통해 인센티브 기반 자율보안 뼈대 수립[보안뉴스 조재호 기자] “생산성 향상을 위한 임직원들의 미인가 AI 사용 이른바 ‘섀도우 AI’는 보안 가시성을 붕괴시키는 치명적 위협입니다. 강압적인 차단 정책은 한계에 직면했으며, 보이지 않는 위험을 자동화된 검증",
@@ -2757,10 +2883,10 @@
     }
   ],
   "sources": {
-    "보안뉴스": 168,
-    "Dell": 28,
+    "Dell": 31,
+    "SecurityWeek": 105,
+    "보안뉴스": 171,
     "VAST Data": 10,
-    "SecurityWeek": 97,
     "HPE": 3
   }
 }
