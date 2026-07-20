@@ -3,6 +3,96 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "KISA, ‘2026 APIGA’ 개막... 글로벌 인터넷 미래 청사진 그린다",
+      "summary": "아태지역 16개국 청년 40명 참가해 인터넷 주소 정책·분쟁 조정 학습국제인터넷주소기구와 10년째 공조 체계 이어가며 국제 역량 강화[보안뉴스 조재호 기자] 한국인터넷진흥원(KISA)이 국제인터넷주소기구(ICANN)와 함께 20-24일 부산에서 차세대 전문가 양성을 위한 ‘2026년 아태지역 인터넷 거버넌스 아카데미’(APIGA; Asia-Pacific I",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144751&kind=&sub_kind=",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[인터뷰] 김대옥 넷앤드 부사장 “퇴사자 관리, 기업 생존 걸린 최우선 보안 과제”",
+      "summary": "내부 통제의 핵심, 넷앤드 HIWARE가 제시하는 ‘퇴사자 관리’의 새로운 패러다임[보안뉴스 원병철 기자] 쿠팡 개인정보 유출 사고는 3755만명의 개인정보 유출이라는 역대급 유출 규모는 물론 6246억원이라는 과징금 규모까지 국내는 물론 세계적인 이슈로 부각됐지만, 시작은 퇴사자의 관리 소홀이었다. 뿐만 아니라 퇴사자가 기업의 핵심 자산을 유출해 경쟁사로",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144735&kind=&sub_kind=",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“누가 아닌 무엇이 뚫렸는가”... 위드네트웍스, 취약점 중심 상시 보안 가이드 배포",
+      "summary": "AI 활용 공격 89% 폭증, 제로트러스트 너머 차세대 방어선 제시섀도우 API 식별부터 우선순위 조치까지 방어 순환 체계 구축 노하우 수록[보안뉴스 조재호 기자] 위드네트웍스가 취약점 중심 상시 보안 전략을 다룬 전자책을 홈페이지를 통해 무료 배포한다고 20일 밝혔다. 이 가이드는 AI 공격 자동화 시대를 맞아 제로트러스트 이후 차세대 방어 체계를 수립하",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144753&kind=&sub_kind=",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "원격으로 정보탈취하는 ‘크리스탈엑스 RAT’, 서비스형 악성코드로 유통 중",
+      "summary": "정보 탈취·키 입력 기록·클리퍼·스파이웨어까지MaaS로 유튜브나 텔레그램을 통해 유포[보안뉴스 강현주 기자] 정보 탈취·키 입력 기록·클리퍼·스파이웨어까지 갖춘 악성코드 ‘크리스탈엑스 RAT’(CrystalX RAT)가 서비스형 악성코드(MaaS) 형태로 제3자에게 유통되고 있는 것으로 나타났다. 카스퍼스키(한국지사장 이효은)는 카스퍼스키 글로벌 연구분석팀",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144755&kind=&sub_kind=",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[양자와 보안] 이와이엘, 글로벌 HSM 기업에 양자 엔트로피 기반 암호모듈 공급",
+      "summary": "암호모듈 ‘EYL CryptoLib v1.2’ 국가암호모듈검증(KCMVP) 재검증 완료[보안뉴스 한세희 기자] 이와이엘(대표 장부석)이 자사 암호모듈 ‘EYL CryptoLib v1.2’의 국가암호모듈검증(KCMVP) 재검증을 완료하고, 이를 글로벌 하드웨어 보안 모듈(HSM) 기업 엔트러스트(Entrust)에 공급한다고 20일 밝혔다. 엔트러스트는 세계",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144754&kind=&sub_kind=",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“에이전틱 AI 시대, 보안 패러다임도 바뀌어야” AI보안연구회 주최 ‘2026 AI 보안 워크숍’ 성료",
+      "summary": "에이전트 보안부터 LLM 레드티밍·언러닝까지, 최신 AI 보안 기술과 실무 동향 총망라AI보안연구회 권태경 위원장 “학계-산업계-정부 협력으로 신뢰할 수 있는 AI 생태계 구축해야”[보안뉴스 원병철 기자] AI 에이전트의 확산과 함께 인공지능 보안 위협이 새로운 국면에 접어든 가운데, 최신 기술과 실무·정책 동향을 공유하고 학계·산업계·정부 간 협력 방안을",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144752&kind=&sub_kind=",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“보안 AI 신뢰성 입증”... 이글루코퍼레이션, ‘에어’ AI+ 인증 획득",
+      "summary": "한국표준협회 주관 인공지능 품질 및 신뢰성 평가 통과LLM과 보안 워크플로우 결합해 위협 탐지·분석 투명성 제공[보안뉴스 조재호 기자] 이글루코퍼레이션이 자사 보안 특화 AI 에이전트 ‘에어’(AiR)가 한국표준협회(KSA)로부터 에이어이플러스(AI+) 인증을 획득했다고 20일 밝혔다. AI+ 인증은 KSA가 AI 기능 품질과 신뢰성이 검증된 제품에 발급하",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144750&kind=&sub_kind=",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "AI가 코딩한 봇넷의 공습... IoT 노리는 ‘턱스봇(Tuxbot) V3’ 출현",
+      "summary": "팔로알토 유닛42, LLM 악용 추정되는 악성코드 흔적 포착보안 취약한 가정용 IoT 인프라 장악해 사이버 공격 네트워크 구축[보안뉴스 김형근 기자] 사물인터넷(IoT) 기기를 노리는 미라이(Mirai) 봇넷 변종 ‘턱스봇(Tuxbot) V3’가 발견됐다. 대규모언어모델(LLM)을 활용해 코드를 작성한 흔적이 포착돼 AI 기반 악성코드 진화에 대한 우려가",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144747&kind=&sub_kind=",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "티피링크, 앨리스모바일과 손잡고 단기 무선 인터넷 시장 확대",
+      "summary": "앨리스모바일 협력 통한 단기 무선 인터넷 시장 공략이동성 및 설치 편의성 갖춘 비즈니스 네트워크 환경 제공행사, 촬영, 건설 현장 대상 네트워크 서비스 확대[보안뉴스 강초희 기자] 글로벌 네트워크 솔루션 기업 티피링크(TP-Link)는 무선 인터넷 대여 서비스 ‘앨리스모바일’과 협력해 포켓 와이파이 기반 무선 인터넷 서비스의 활용성을 확대한다고 밝혔다.이번",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144749&kind=&sub_kind=",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "히타치 밴타라, ‘VSP 원’ 경쟁력 인정...기가옴 6년 연속 리더",
+      "summary": "‘VSP 원’ 기반 통합 데이터 관리 플랫폼 경쟁력 입증VSP 360 관리 기능 확대 및 오브젝트 처리 성능 최대 4배 향상[보안뉴스 강초희 기자] HS효성인포메이션시스템(대표 양정규)은 시장 분석기관 기가옴(GigaOm)이 발표한 ‘2026 기가옴 비정형 데이터 관리 레이더’ 보고서에서 히타치 밴타라(Hitachi Vantara)가 6년 연속 리더 및",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144746&kind=&sub_kind=",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "[속담으로 배우는 100가지 보안 습관 67] 아는 길도 물어가라(7)-비밀번호를 알려주면 바로 털리는 이유",
       "summary": "통장/카드 비밀번호를 타인에게 절대 알려주지 마세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐,",
       "category": "보안",
@@ -2928,7 +3018,7 @@
     }
   ],
   "sources": {
-    "보안뉴스": 176,
+    "보안뉴스": 186,
     "Dell": 31,
     "SecurityWeek": 105,
     "VAST Data": 10,
