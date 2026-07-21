@@ -3,6 +3,195 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "AI 생태계 노린 신종 봇넷 ‘내드매시’(NadMesh) 멜웨어 주의",
+      "summary": "고(Go) 언어 기반 자율형 봇넷으로 AI 인프라·MCP 생태계 노려쇼단(Shodan) API 연동해 목표 식별하고, 20여개 다중 RCE 취약점 악용[보안뉴스 김형근 기자] 이달 초 AI 인프라와 모델 컨텍스트 프로토콜(MCP) 생태계를 표적으로 삼는 고(Go) 언어 기반 자율형 봇넷 ‘내드매쉬’(NadMesh)가 발견됐다. 보안 탐지를 우회하는 다형성",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144769&kind=&sub_kind=",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "시큐리티플랫폼, 제로트러스트 영상보안 솔루션 공공조달 본격화",
+      "summary": "나라장터 등록 통한 공공조달 공급체계 확보하드웨어 신뢰기반 제로트러스트 영상보안 구현공공 영상보안 시장 사업화 및 파트너 생태계 확대[보안뉴스 강초희 기자] 시큐리티플랫폼(대표 황수익)이 제로트러스트 기반 영상보안 솔루션 ‘엑시오 엣지 시큐리티’(Axio Edge Security) 제품군의 조달청 나라장터 쇼핑몰 등록을 완료했다고 20일 밝혔다. 이번 조달",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144762&kind=&sub_kind=",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "제6회 더 시큐리티컵 골프대회, 10월 30일 센추리21CC에서 개최",
+      "summary": "보안업계 종사자 및 기업 보안담당자, 유관기관 관계자 등 보안인 네트워크의 장보안뉴스, 시큐리티월드, 더비엔, 인포마마켓비엔 공동 주최...샷건플레이 방식 진행[보안뉴스 원병철 기자] 보안인들을 위한 특별한 가을 이벤트가 개최된다. 제6회 더 시큐리티컵 골프대회(THE SECURITY CUP 2026)가 오는 10월 30일(금) 오전 11시부터 강원도 원주",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144760&kind=&sub_kind=",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "AI 기반 사이버 방어 핵심은 ‘데이터 맥락’... 이스라엘 비콘시큐리티, 1300만달러 시드 투자 유치",
+      "summary": "보안팀과 AI 에이전트 공동 활용하는 단일 데이터 플랫폼 제공[보안뉴스 김형근 기자] 기업들의 인공지능(AI) 에이전트 도입이 가속화되는 가운데 보안 의사결정의 기반이 되는 데이터 신뢰성 확보가 사이버 보안의 새로운 과제로 떠오르고 있다.이스라엘 보안 스타트업 비콘시큐리티(Beacon Security)는 기업 내 분산된 데이터와 위협 요소를 통합해 보안팀과",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144768&kind=&sub_kind=",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell PowerScale: 에이전트 검색을 위한 데이터 기반",
+      "summary": "에이전트 검색 기술은 스토리지에 새로운 요구사항을 제시하고 있습니다. Dell AI Data Platform의 스토리지 엔진인 PowerScale은 이러한 변화하는 요구사항을 효과적으로 충족하도록 설계되었습니다. PowerScale은 대규모 데이터 처리와 빠른 검색 속도를 필요로 하는 에이전트 기반 검색 환경에서 안정적인 데이터 기반을 제공합니다. 이를 통해 조직은 AI 에이전트의 성능을 극대화하고 데이터 기반의 의사결정을 더욱 효율적으로 수행할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/dell-powerscale-the-data-foundation-for-agentic-retrieval/",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 인프라만으로는 부족한 이유",
+      "summary": "AI의 성능은 데이터의 품질에 의해 결정됩니다. Dell AI Data Platform은 기업 내 분산된 데이터를 통합하여 AI 프로덕션에 필요한 고품질의 데이터로 변환합니다. 단편화된 데이터 환경에서는 AI 모델의 효과를 극대화할 수 없으므로, 데이터 통합과 준비 과정이 매우 중요합니다. Dell의 솔루션은 엔터프라이즈 데이터를 AI 활용에 최적화된 상태로 만들어줍니다. 따라서 AI 인프라 구축 시 데이터 관리 전략을 함께 고려해야 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/why-ai-infrastructure-is-not-enough/",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Neo, 엔터프라이즈 AI 소프트웨어 제어 및 보안을 위해 1억 달러 자금 조성하며 은폐 상태에서 공식 출범",
+      "summary": "신생 보안 기업 Neo가 1억 달러 규모의 자금 조성을 완료하며 공식적으로 시장에 진출했습니다. 이 회사는 엔터프라이즈 환경에서 AI 소프트웨어의 제어와 보안을 전문으로 합니다. 기업들이 AI 도입을 확대함에 따라 AI 소프트웨어의 안전한 관리와 보안이 점점 더 중요해지고 있습니다. Neo의 자금 조성은 기업 AI 보안 시장의 성장 가능성을 보여주는 사례입니다. 이 회사의 솔루션은 조직이 AI 시스템을 더욱 안전하게 통제하고 관리할 수 있도록 지원할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/neo-emerges-from-stealth-with-100m-to-control-and-secure-enterprise-ai-software/",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "소닉월 제로데이 취약점, 패치 전 몇 주간 커스텀 악성코드 전달에 악용",
+      "summary": "소닉월(SonicWall)의 제로데이 취약점들이 패치 배포 전 수 주간에 걸쳐 공격자들에 의해 악용되어 커스텀 악성코드를 전달하는 데 사용되었다. 이 공격은 사전에 감지되지 않은 상태로 진행되어 광범위한 피해를 야기할 수 있었다. 보안 전문가들은 제로데이 취약점의 위험성과 신속한 패치의 중요성을 강조하고 있다. 해당 취약점은 이후 보안 업데이트를 통해 해결되었으나, 공격 기간 동안 많은 시스템이 노출되었을 것으로 예상된다. 소닉월은 영향받은 사용자들에게 즉시 업데이트를 권고하고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/sonicwall-zero-days-exploited-to-deliver-custom-malware-for-weeks-before-patch/",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpenSSL, HollowByte DoS 취약점 조용히 수정",
+      "summary": "OpenSSL이 'HollowByte'로 명명된 서비스 거부(DoS) 취약점을 조용히 패치했습니다. 이 취약점은 OpenSSL 암호화 라이브러리에 영향을 미치는 보안 결함으로, 공격자가 서비스 중단을 유발할 수 있었습니다. SecurityWeek의 보도에 따르면 OpenSSL 개발팀은 사용자에게 충분한 공지 없이 해당 취약점을 수정했습니다. 이러한 조용한 패치는 사이버보안 커뮤니티에서 논쟁의 여지가 있으며, 신속한 업데이트가 필요한 상황입니다. 사용자들은 최신 버전의 OpenSSL을 설치하여 잠재적 위협으로부터 시스템을 보호해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/openssl-silently-fixes-hollowbyte-dos-vulnerability/",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 지수, 주요 데이터 침해 사건 추적 — 손실액 합산 거부",
+      "summary": "SecurityWeek은 주요 데이터 침해 사건을 추적하는 새로운 지수를 공개했습니다. 이 지수는 물질적 피해를 입힌 사이버 침해 사건들을 기록하지만, 손실액을 합산하지 않는 특이한 방식을 채택했습니다. 이러한 접근 방식은 침해 사건의 규모와 빈도를 파악하면서도 정확하지 않은 손실액 추정의 문제를 피하기 위한 것으로 보입니다. 이 추적 시스템은 사이버보안 커뮤니티에서 실제 위협 수준을 더 정확하게 이해하는 데 도움이 될 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/new-index-tracks-material-breaches-and-refuses-to-add-up-the-losses/",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "EY(Ernst & Young) 데이터 유출 사건 - 개인정보 및 금융정보 영향",
+      "summary": "글로벌 컨설팅 회사 EY(Ernst & Young)에서 대규모 데이터 유출 사건이 발생했습니다. 이번 사건으로 인해 고객 및 직원의 개인정보와 금융정보가 유출된 것으로 확인되었습니다. 유출된 정보에는 개인 신원 정보와 재무 관련 데이터가 포함되어 있습니다. EY는 피해 현황을 파악하고 영향받은 개인들에게 통지 절차를 진행 중입니다. 이번 사건은 대규모 기업의 데이터 보안이 얼마나 중요한지를 다시 한 번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ernst-young-data-breach-affects-personal-financial-information/",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "캐피탈원, AI 기반 'VulnHunter' 보안 도구 오픈소스로 공개",
+      "summary": "캐피탈원(Capital One)이 인공지능 기반의 취약점 탐지 도구 'VulnHunter'를 오픈소스로 공개했습니다. 이 도구는 AI 기술을 활용하여 보안 취약점을 자동으로 발견하고 분석할 수 있습니다. 오픈소스 공개를 통해 보안 커뮤니티 전체가 이 도구를 활용할 수 있게 되었습니다. VulnHunter는 코드 분석 및 취약점 탐지 프로세스를 더욱 효율적으로 만들어줄 것으로 기대됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/capital-one-open-sources-ai-powered-vulnhunter-security-tool/",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "허깅페이스, 자율형 AI 공격으로 해킹당함",
+      "summary": "AI 모델 공유 플랫폼 허깅페이스(Hugging Face)가 자율형 AI 공격으로 해킹당했습니다. 공격자들은 허깅페이스의 프로덕션 인프라에 침입하여 내부 데이터셋과 인증 자격증명을 탈취했습니다. 이번 사건은 자동화된 AI 기술을 활용한 새로운 형태의 사이버 공격 사례로 주목됩니다. 허깅페이스는 이용자들의 민감한 정보와 모델 관련 데이터가 노출되었을 가능성이 있다고 밝혔습니다. 해당 플랫폼을 이용 중인 개발자 및 연구자들은 보안 위험에 대한 주의가 필요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hugging-face-hacked-in-autonomous-ai-attack/",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Chrome 150 업데이트, 심각한 메모리 안전 버그 패치",
+      "summary": "Google이 Chrome 150 보안 업데이트를 통해 7개의 메모리 안전 취약점을 해결했습니다. 이번 패치는 메모리 관리 관련 심각한 보안 결함들을 포함하고 있으며, 공격자들이 이를 악용하여 시스템에 접근할 수 있는 위험이 있었습니다. Chrome 사용자들은 최신 버전으로 업데이트하여 이러한 보안 위협으로부터 보호받을 수 있습니다. 이러한 메모리 안전 버그들은 사이버 공격의 주요 벡터로 자주 악용되므로 신속한 패치가 중요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/chrome-150-update-patches-severe-memory-safety-bugs/",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "WP2Shell 워드프레스 취약점 실제 공격에 악용되다",
+      "summary": "WP2Shell 워드프레스 취약점이 실제 사이버 공격에 악용되고 있습니다. 이 취약점을 통해 공격자들이 워드프레스 사이트에 접근하여 악성 활동을 수행할 수 있습니다. SecurityWeek의 보도에 따르면 해당 취약점은 현재 활발하게 악용되고 있는 상황입니다. 워드프레스 관리자들은 긴급히 해당 취약점에 대한 패치를 적용하고 시스템 보안을 강화해야 합니다. 이는 워드프레스 플러그인 또는 코어 시스템의 보안 결함과 관련된 것으로 보입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/wp2shell-wordpress-vulnerabilities-exploited-in-the-wild/",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 69] 아는 길도 물어가라(9)-이체 한도 줄여야 하는 이유",
+      "summary": "이체 한도는 필요한 만큼만 최소로 설정하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐, 안 지키",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144221&kind=&sub_kind=",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 투씨에스지, 단일 에이전트 통합 보안 ‘BSone’ 출격",
+      "summary": "생성형 AI 접속 통제 및 에이전틱 AI 권한 관리 아키텍처 탑재ISMS 점검·정보보호 공시 제도 대응한 기업 보안 거버넌스 제시[보안뉴스 조재호 기자] 투씨에스지는 국내 최대 정보보안 컨퍼런스 및 전시회 ‘ISEC 2026’에 참가해 대표 솔루션 ‘비에스원’(BSOne)과 ‘비에스디’(BSD)를 선보인다고 밝혔다.BSone은 데이터 유출 방지(DLP)와",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144665&kind=&sub_kind=",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 엑스트라홉, 에이전트 자율적 작동위한 심층 컨텍스트로 에이전틱 SOC 구동",
+      "summary": "머신 속도 위협 차단 핵심 인텔리전스 격차 해소[보안뉴스 강현주 기자] 모던 네트워크 탐지 및 대응(NDR) 분야의 리더 엑스트라홉(ExtraHop)이 정교하고 회피적인 위협 행위자에 대한 자율 방어로 에이전틱 보안운영센터(SOC)를 구동하는 데 필수적인 고도로 맥락화된 인사이트를 제공하는 새로운 가시성 및 포렌식 기능을 선보인다. AI 기반 공격이 규모를",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144674&kind=&sub_kind=",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "오리엔텀, 이탈리아 링크스재단과 금융 분야 양자 컴퓨팅 맞손",
+      "summary": "링크스재단 고성능 컴퓨팅 기술에 오리엔텀 양자 소프트웨어 기술 접목[보안뉴스 한세희 기자] 양자소프트웨어 전문기업 오리엔텀이 이탈리아 링크스 재단(Fondazione LINKS)과 금융 서비스, 은행 및 보험 분야 양자 및 양자 영감 컴퓨팅 연구개발 협력을 위한 업무협약을 체결했다고 20일 밝혔다.링크스재단은 이탈리아 토리노에 본사를 둔 연구 재단이다. 첨",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144766&kind=&sub_kind=",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "외교부 국립외교원, 온라인 교육 시스템 해킹... 9개월 간 몰라",
+      "summary": "9개월간 불법 접속 지속... 외교 교육대상자 정보 등 저장5개월째 시스템 차단하고 조사 중[보안뉴스 한세희 기자] 외교부 산하 국립외교원이 장기간 해킹을 당한 사실이 드러났다.외교부는 “올해 2월 초 국립외교원 온라인교육시스템에 대한 비정상적 접근 상황을 관계 기관으로부터 통보받은 후 시스템을 긴급 차단했다”고 20일 밝혔다.국립외교원은 외교 인재 교육·",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144765&kind=&sub_kind=",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "렉스젠, 영상으로 수위·유속·유량 분석부터 범람 위험 감지까지 통합 지원",
+      "summary": "지능형 재난안전 솔루션 ‘수위 관제 시스템’ 출시[보안뉴스 엄호식 기자] AI 영상분석 전문기업 렉스젠이 영상을 활용해 수위와 물의 흐름을 실시간으로 분석하는 영상 기반 ‘수위 관제 시스템’을 선보였다. 이 시스템은 강·하천과 계곡, 교량 하부, 도심 침수 취약지역 등 다양한 수변 환경을 지속적으로 모니터링하고 위험 상황에 신속하게 대응할 수 있도록 개발됐",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144763&kind=&sub_kind=",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "KISA, ‘2026 APIGA’ 개막... 글로벌 인터넷 미래 청사진 그린다",
       "summary": "아태지역 16개국 청년 40명 참가해 인터넷 주소 정책·분쟁 조정 학습국제인터넷주소기구와 10년째 공조 체계 이어가며 국제 역량 강화[보안뉴스 조재호 기자] 한국인터넷진흥원(KISA)이 국제인터넷주소기구(ICANN)와 함께 20-24일 부산에서 차세대 전문가 양성을 위한 ‘2026년 아태지역 인터넷 거버넌스 아카데미’(APIGA; Asia-Pacific I",
       "category": "보안",
@@ -3018,9 +3207,9 @@
     }
   ],
   "sources": {
-    "보안뉴스": 186,
-    "Dell": 31,
-    "SecurityWeek": 105,
+    "보안뉴스": 196,
+    "Dell": 33,
+    "SecurityWeek": 114,
     "VAST Data": 10,
     "HPE": 3
   }
