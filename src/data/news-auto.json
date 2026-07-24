@@ -2971,9 +2971,269 @@
     "http://www.boannews.com/media/view.asp?idx=144796&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144223&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144801&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=144795&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=144795&kind=&sub_kind=",
+    "https://www.dell.com/en-us/blog/boost-your-home-wifi-signal-fixes-that-work/",
+    "https://www.dell.com/en-us/blog/turning-rejection-into-recognition-with-tpm-and-ai/",
+    "https://www.dell.com/en-us/blog/meet-vivek-luhaniwal-shaping-dell-s-data-protection-future/",
+    "https://www.dell.com/en-us/blog/six-imperatives-to-accelerate-the-ai-native-telecom/",
+    "https://www.dell.com/en-us/blog/learn-nvidia-s-ai-production-stack-in-90-minutes/",
+    "https://www.hpe.com/us/en/newsroom/blog-post/2026/07/hpe-delivers-industrys-highest-density-performance-for-ai-driven-science-with-supercomputing-powered-by-6th-gen-amd-epyc-processors.html",
+    "https://www.vastdata.com/blog/beyond-hbm-limits-accelerating-inference-with-vast-amd",
+    "https://www.securityweek.com/openai-fixes-chatgpt-agent-flaw-that-could-let-attackers-forge-an-ai-insider/",
+    "https://www.securityweek.com/is-patching-dead-vulnerability-management-in-the-post-mythos-era/",
+    "https://www.securityweek.com/chick-fil-a-accounts-get-fried-in-credential-stuffing-attack/",
+    "https://www.securityweek.com/abstract-raises-25-million-to-expand-composable-security-operations-platform/",
+    "https://www.securityweek.com/nuclear-sabotage-malware-benchmark-trips-up-most-frontier-ai-models/",
+    "https://www.securityweek.com/upbound-group-says-data-breach-led-to-13-million-in-fraudulent-contract-losses/",
+    "https://www.securityweek.com/assaf-keren-appointed-new-ciso-of-meta/",
+    "https://www.securityweek.com/new-check-point-zero-day-vulnerability-exploited-in-the-wild/",
+    "https://www.securityweek.com/us-warns-of-iranian-hackers-targeting-siemens-schneider-and-rockwell-ics-devices/",
+    "http://www.boannews.com/media/view.asp?idx=144224&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144817&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144816&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144826&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144797&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144825&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144823&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144820&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144822&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144821&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 72] 등잔 밑이 어둡다(2)-공유기 비밀번호 안 바꾸면 생기는 일",
+      "summary": "공유기(Wi-Fi) 비밀번호를 반드시 설정하고, 관리자 비번도 변경하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144224&kind=&sub_kind=",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 샌즈랩 MNX, NDR 넘어 CTI·개인정보 유출 탐지까지 통합 지원",
+      "summary": "NDR·CTI·개인정보 유출 탐지를 하나의 보안 운영 흐름으로 연계비용 효율성과 운영 편의성 강화[보안뉴스 강초희 기자] 샌즈랩은 사이버 위협 인텔리전스와 네트워크 보안 기술을 기반으로 성장해온 보안 전문 기업이다. 자체 수집·분석한 위협 데이터를 바탕으로 CTI, NDR, 개인정보 유출 탐지 등 다양한 보안 영역에서 기업과 기관의 보안 운영 효율을 높이는",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144817&kind=&sub_kind=",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 듀얼오스, 국제표준 기반 패스워드리스 상호인증 솔루션",
+      "summary": "피싱 및 파밍 공격을 차단하는 제로트러스트 기반 통합 접근관리 솔루션[보안뉴스 강초희 기자] 듀얼오스는 패스워드리스 기반 계정인증 및 접근관리 솔루션을 제공하는 기술 기업이다. 핵심 인증 기술은 UN 산하 국제표준화기구인 ITU-T에서 X.1280(상호인증 기반 패스워드리스 기술) 표준으로 제정됐다. 최근 듀얼오스는 KB국민은행 제로트러스트 실증사업을 비롯",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144816&kind=&sub_kind=",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "쿠도커뮤니케이션, 포항시 AI 기반 안전보건체계 통합관리시스템 구축",
+      "summary": "AI 증적 사진 검증·문서 업로드 검증·챗봇 기반 업무지원 기능 적용현장 안전보건 업무 디지털화로 증빙자료 관리 정확성 및 행정 효율성 강화공공 행정 프로세스 반영한 통합 포털 개발 역량 기반 사업 확대 추진[보안뉴스 강초희 기자] 쿠도커뮤니케이션(대표 김용식)은 선도적인 산업재해 예방과 안전보건관리체계 고도화를 추진하는 포항시에 AI 기반 안전보건 통합관",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144826&kind=&sub_kind=",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[배종찬의 보안 빅데이터] 만약 달리는 자율주행차가 해킹을 당한다면",
+      "summary": "자율주행 차량은 도로 위 피지컬 AI 시스템 기존 IT 기기 취약점 그대로주행 중 다수 자율주행 차량 동시 해킹 당하면? 국가 안보에도 영향[보안뉴스= 배종찬 인사이트케이 연구소장] 전 세계 자동차 산업은 단순한 기계 장치에서 벗어나 소프트웨어 중심 자동차(SDV)로의 대전환을 맞이하고 있다. 썸트렌드(SomeTrend)의 빅데이터 연관어 분석(2026년",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144797&kind=&sub_kind=",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "집 WiFi 신호 강화: 실제로 효과 있는 솔루션",
+      "summary": "뒷방의 WiFi 속도가 느리다면 항상 새로운 장비를 구매할 필요는 없습니다. 라우터의 배치 위치를 조정하는 것만으로도 신호 강도를 크게 개선할 수 있습니다. 벽, 금속 물체, 그리고 기타 전자기기와의 간섭을 최소화하여 더 나은 WiFi 커버리지를 확보할 수 있습니다. 간단한 배치 조정이 효과적이지 않다면, 신호 증강기나 메시 WiFi 시스템과 같은 업그레이드 옵션을 고려할 수 있습니다. 이러한 실질적인 솔루션들은 고가의 새로운 라우터 구매 없이도 집 전역의 WiFi 신호를 강화하는 데 도움이 됩니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/boost-your-home-wifi-signal-fixes-that-work/",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "TPM과 AI로 거절을 인정으로 바꾸기",
+      "summary": "Chisom Ezeilo는 정해진 하나의 경로를 선택하지 않고 자신만의 길을 개척했습니다. 이는 야심, 정체성, 그리고 커리어가 어떤 모습일 수 있는지를 재정의하는 이야기입니다. TPM(Technical Program Manager)으로서의 경력과 AI 활용을 통해 초기의 거절들을 성공의 발판으로 삼았습니다. 자신의 독특한 배경과 경험을 강점으로 활용하여 기술 산업에서 새로운 기회를 창출했습니다. 이 사례는 비전통적인 경로가 얼마나 혁신적이고 의미 있는 커리어를 만들 수 있는지를 보여줍니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/turning-rejection-into-recognition-with-tpm-and-ai/",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Vivek Luhaniwal 만나기: Dell의 데이터 보호 미래를 형성하다",
+      "summary": "Vivek Luhaniwal은 Dell Technologies의 인턴에서 시니어 소프트웨어 엔지니어로 성장한 경력을 통해 학습, 혁신, 그리고 고객 영향력의 중요성을 보여줍니다. 그의 여정은 첫날부터 의미 있는 기여가 가능함을 증명합니다. Dell Technologies는 직원들이 데이터 보호 기술의 미래를 형성하는 데 적극적으로 참여할 수 있는 환경을 제공합니다. 이러한 성장 기회는 조직의 혁신 문화와 인재 개발 철학을 반영합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/meet-vivek-luhaniwal-shaping-dell-s-data-protection-future/",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 네이티브 텔레콤 가속화를 위한 6가지 필수 과제",
+      "summary": "통신사는 네트워크 현대화를 AI 기반 자동화로 전환하여 운영 효율성을 대폭 향상시킬 수 있습니다. AI 네이티브 운영 체계 도입을 통해 기존의 수동 프로세스를 자동화하고 의사결정 속도를 가속화할 수 있습니다. 새로운 수익화 기회 창출을 위해 AI 기반의 개인화된 서비스와 프리미엄 솔루션 개발이 필수적입니다. 텔레콤 산업의 디지털 혁신은 단순한 기술 도입이 아니라 비즈니스 모델 전체의 재구성을 의미합니다. 통신사들이 AI 네이티브 기업으로 진화하려면 조직, 기술, 프로세스의 통합적 변화가 필요합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/six-imperatives-to-accelerate-the-ai-native-telecom/",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "90분 안에 NVIDIA의 AI 프로덕션 스택 배우기",
+      "summary": "NVIDIA의 AI 도구는 프로덕션의 모든 단계에 걸쳐 광범위하게 활용됩니다. 바쁜 전문가들을 위해 설계된 전문가 주도의 워크숍을 통해 높은 수요의 기술에 대한 숙련도를 확보할 수 있습니다. 이 프로그램은 짧은 시간 내에 필수적인 AI 프로덕션 기술을 습득하도록 구성되어 있습니다. NVIDIA의 AI 스택에 대한 포괄적인 이해를 통해 업무 효율성을 높일 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/learn-nvidia-s-ai-production-stack-in-90-minutes/",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 6세대 AMD EPYC 프로세서 기반 슈퍼컴퓨팅으로 AI 과학 분야 최고 밀도 성능 제공",
+      "summary": "HPE는 샌프란시스코에서 개최된 AMD Advancing AI 2026 행사에서 6세대 AMD EPYC 프로세서를 탑재한 HPE Cray 슈퍼컴퓨팅 GX5000을 선보였습니다. GX5000은 엑사스케일 성능 기록을 세우고 전 세계 최고 속도 슈퍼컴퓨터 상위 10개 순위를 주도해온 이전 HPE 슈퍼컴퓨팅 아키텍처의 성공을 기반으로 하며, AI 및 양자컴퓨팅과 관련된 복잡한 과학 및 엔지니어링 문제 해결을 지원합니다. GX5000은 경쟁사 제품 대비 라크당 40% 더 많은 AMD EPYC 9996 코어를 탑재하여 업계 최고 수준의 밀도 성능을 제공합니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/07/hpe-delivers-industrys-highest-density-performance-for-ai-driven-science-with-supercomputing-powered-by-6th-gen-amd-epyc-processors.html",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HBM 한계를 넘어서: VAST와 AMD를 통한 추론 가속화",
+      "summary": "현대적인 추론 파이프라인에서 'Time-to-First-Token(TTFT)'은 응답성을 나타내는 주요 지표입니다. 멀티턴 대화 중 에이전트 컨텍스트 윈도우가 128,000개 토큰 이상으로 증가하면서 KV 캐시는 사용자당 20-50GB에 달하게 되어, 수백 개의 동시 에이전트를 서빙하는 프로덕션 환경에서는 GPU 클러스터의 High Bandwidth Memory(HBM) 용량을 초과합니다. VAST와 AMD 엔지니어링 팀은 효율적인 추론을 위해 표준 재계산 방식과 VAST 최적화 KV 캐시 오프로딩을 128K 토큰 컨텍스트 길이에서 테스트했습니다. 테스트 환경은 AMD MI355X GPU, AMD Infinity Fabric 800Gb NIC, NFSv3 over RDMA 기반 VAST 스토리지, vLLM 0.22.1, GPT-oss 120B 모델을 사용했으며, 로컬 호스트 RAM과 원격 VAST 스토리지 두 가지 오프로딩 구성을 비교했습니다. nconnect을 32로 설정하고 Read-ahead를 8192로 증가시키는 최적화를 통해 1에서 300개 동시성 수준에서 성능을 평가하여 컨텍스트 재계산을 피하는 것의 이점을 입증했습니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/beyond-hbm-limits-accelerating-inference-with-vast-amd",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpenAI, ChatGPT 에이전트 결함 수정 - 공격자의 AI 내부자 위장 가능성 차단",
+      "summary": "OpenAI가 ChatGPT 에이전트의 보안 결함을 수정했습니다. 이 결함은 공격자가 피해 조직 내부에 보이지 않는 자율 AI 에이전트를 만들어 삽입하고 원격으로 제어할 수 있게 하는 'AgentForger'라는 공격 기법이었습니다. 이 취약점을 악용하면 공격자는 조직 내부의 정당한 사용자처럼 가장하여 민감한 정보에 접근하고 악의적인 작업을 수행할 수 있었습니다. OpenAI의 신속한 패치로 이러한 위협이 차단되었으며, 이는 생성형 AI 시스템의 보안이 얼마나 중요한지를 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/openai-fixes-chatgpt-agent-flaw-that-could-let-attackers-forge-an-ai-insider/",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "패칭이 죽었는가? Post-Mythos 시대의 취약점 관리",
+      "summary": "이 기사는 전통적인 패칭 방식이 현대 사이버보안 환경에서 여전히 유효한지에 대한 질문을 제기합니다. Post-Mythos 시대로 불리는 새로운 보안 패러다임에서 취약점 관리 전략의 변화를 다룹니다. AI 기술의 발전에 따라 패칭 외에도 다양한 취약점 대응 방식이 등장하고 있습니다. 기존의 정기적 패칭 중심 체계에서 더욱 동적이고 지능화된 취약점 관리로의 전환이 이루어지고 있습니다. 조직들은 AI 기반의 자동화된 보안 솔루션과 전통적 패칭 방식 사이의 균형을 찾아야 합니다. 이는 향후 사이버보안 방어 전략의 근본적인 변화를 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/is-patching-dead-vulnerability-management-in-the-post-mythos-era/",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "칙필레이 계정, 자격증명 채우기 공격으로 피해",
+      "summary": "칙필레이 사용자 계정들이 자격증명 채우기(credential stuffing) 공격의 대상이 되었습니다. 이 공격은 다른 서비스에서 유출된 사용자명과 비밀번호 조합을 이용하여 대량의 계정에 접근을 시도하는 기법입니다. 해당 공격으로 인해 고객 계정이 침해되었으며, 공격자들은 계정을 통해 개인정보에 접근할 수 있었던 것으로 보입니다. 칙필레이는 이 보안 사건에 대응하고 있으며 영향받은 사용자들에게 보안 조치를 권고하고 있습니다. 이 사건은 강력한 비밀번호 설정 및 다중 인증 사용의 중요성을 다시 한번 강조합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/chick-fil-a-accounts-get-fried-in-credential-stuffing-attack/",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Abstract, 컴포저블 보안운영 플랫폼 확장을 위해 2,500만 달러 자금 조달",
+      "summary": "사이버보안 기업 Abstract가 2,500만 달러 규모의 자금 조달을 완료했습니다. 이번 투자금은 컴포저블 보안운영 플랫폼(Composable Security Operations Platform) 확장에 사용될 예정입니다. 컴포저블 아키텍처는 조직이 다양한 보안 도구와 솔루션을 유연하게 통합할 수 있게 해줍니다. Abstract는 이 자금을 통해 플랫폼의 기능 강화와 시장 확대에 집중할 계획입니다. 이는 점점 복잡해지는 사이버 위협 환경에서 기업들의 보안운영센터(SOC) 현대화 수요를 반영한 것으로 보입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/abstract-raises-25-million-to-expand-composable-security-operations-platform/",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "핵심 AI 모델들, 핵심시설 파괴 악성코드 벤치마크 테스트에서 대부분 실패",
+      "summary": "SentinelOne이 개발한 핵심시설 파괴를 목표로 하는 악성코드 벤치마크 테스트에서 대부분의 최신 프론티어 AI 모델들이 통과하지 못했다. 이 벤치마크는 AI 시스템이 악성코드 작성이나 사이버 공격 수행 능력을 평가하기 위해 설계되었다. 테스트 결과는 현재의 AI 모델들이 고도로 정교한 악성코드 생성 및 실행에는 여전히 제한적임을 보여준다. 이는 AI 기반 사이버 위협의 위험성을 평가하고 AI 보안 방어 능력을 개선하는 데 중요한 지표가 된다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/nuclear-sabotage-malware-benchmark-trips-up-most-frontier-ai-models/",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "업바운드 그룹, 데이터 유출로 인한 1,300만 달러 규모 사기성 계약 손실 보고",
+      "summary": "업바운드 그룹이 데이터 유출 사건으로 인해 1,300만 달러 규모의 사기성 계약 손실을 입었다고 발표했습니다. 유출된 데이터가 악의적으로 악용되어 허위 계약 및 금융 거래가 발생한 것으로 파악됩니다. 이 사건은 데이터 보안의 중요성과 유출 정보가 초래할 수 있는 심각한 재정적 피해를 보여주는 사례입니다. 보안 업체들은 기업들에게 강화된 데이터 보호 대책 마련을 권고하고 있습니다. 현재 관련 수사가 진행 중인 것으로 알려져 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/upbound-group-says-data-breach-led-to-13-million-in-fraudulent-contract-losses/",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "아사프 케렌, 메타의 새로운 CISO로 임명",
+      "summary": "아사프 케렌(Assaf Keren)이 소셜 미디어 거대 기업 메타(Meta)의 새로운 최고정보보안책임자(CISO)로 임명되었다고 수요일에 발표했습니다. 이번 임명은 메타의 정보보안 전략과 관리 체계의 중요한 변화를 나타냅니다. 케렌은 기업의 정보보호 및 사이버보안 정책을 총괄할 책임을 맡게 됩니다. 이 인사는 메타가 점증하는 사이버보안 위협과 데이터 보호에 대한 규제 요구에 대응하기 위한 경영진 재편성의 일부입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/assaf-keren-appointed-new-ciso-of-meta/",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Check Point 새로운 제로데이 취약점, 실제 공격에 악용 중",
+      "summary": "Check Point 보안 솔루션에서 새로운 제로데이 취약점이 발견되어 현재 실제 공격에 악용되고 있습니다. 이 취약점은 아직 패치가 공개되지 않은 상태에서 야생에서 적극적으로 악용되고 있으며, 전 세계 기업들의 보안에 심각한 위협이 되고 있습니다. SecurityWeek의 보도에 따르면 이 공격은 상당한 규모의 영향력을 미치고 있으며, 사용자들은 즉시 대응이 필요한 상황입니다. Check Point는 이 취약점에 대한 보안 권고와 임시 해결책을 발표할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/new-check-point-zero-day-vulnerability-exploited-in-the-wild/",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국, 이란 해커들의 지멘스·슈나이더·록웰 ICS 기기 공격 경고",
+      "summary": "미국이 이란 소속 해커들이 지멘스, 슈나이더 일렉트릭, 록웰 오토메이션 등 주요 산업제어시스템(ICS) 제조사의 기기들을 표적으로 삼고 있다는 경고를 발령했다. 이란 지원 사이버 위협 행위자들은 산업 기반시설과 중요 인프라를 대상으로 한 공격 캠페인을 진행 중인 것으로 알려졌다. 해당 ICS 기기들은 전 세계 제조업, 에너지, 화학, 수도 등 다양한 핵심 산업 부문에서 광범위하게 사용되고 있어 피해 범위가 클 수 있다. 미국 정부 기관들은 관련 조직들에게 방어 태세 강화와 위협 인텔리전스 공유를 권고하고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/us-warns-of-iranian-hackers-targeting-siemens-schneider-and-rockwell-ics-devices/",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "AI 거센 물결, 안전은?... 시대가 부른 보안 스타트업들 ‘진격’",
+      "summary": "AI 레드티밍·가드레일, 동형암호, 취약점 관리 플랫폼 등 성장 각광[보안뉴스 강현주 기자] AI의 비약적인 발전은 전세계 산업과 일상의 변화를 거센 속도로 이끌고 있다. 다양한 분야에서 AI로 생산성을 크게 높이고 있으며, 고도의 전문 기술이 없어도 AI로 아이디어를 실현할 수 있는 시대가 왔다. 하지만 악의적 이용자들의 의도 역시 AI를 통해 쉽게 실현",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144825&kind=&sub_kind=",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[김정덕의 인간중심보안-15] 보안 자가면역질환을 치유하라",
+      "summary": "무균실의 환상을 벗어나 `인간중심보안`으로[연재목차 Part 3. 인간중심보안과 보안문화]1. AI 시대, 왜 인간 중심 보안인가2. AI 시대, 인간 중심 보안을 구현하려면3. 인간의 창의성과 AI 보안4. 보안 위반, 뇌 과학 해법5. 넛지 보안의 힘6. 감정과 비합리성, 보안의 숨은 힘7. 디지털 야누스, 두얼굴의 사용자8. ‘인간중심보안’과 ‘제로트",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144823&kind=&sub_kind=",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "필수 동의 뒤에 숨은 데이터 싹쓸이... 개인정보위, 틱톡·애플 제재",
+      "summary": "틱톡, 945만명 타사 행태정보 무단 수집·맞춤형 광고 활용으로 103억 과징금애플, Siri 음성 전사문 동의 없이 이용 및 계열사 국외 이전 고지 미흡 제재개인정보위 “해외 사업자도 국내 이용자 자기결정권 보장 의무 엄정 적용”[보안뉴스 조재호 기자] 해외 빅테크 기업의 불투명한 데이터 수집에 제동이 걸렸다. 개인정보보호위원회는 적법한 근거 없이 개인정",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144820&kind=&sub_kind=",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "스피어AX, GTEL ROBOT과 베트남 AI 공공안전 생태계 구축",
+      "summary": "Vision AI 기반 드론 교통안전 사업 본격 추진하노이를 시작으로 베트남 스마트 교통 및 공공안전 시장 공동 진출향후 Physical AI 기반 UAV 및 로봇 분야까지 협력 확대[보안뉴스 강초희 기자] Vision AI 전문기업 스피어AX(대표이사 박윤하)는 22일 베트남 공안부 산하 국영기업 GTEL ROBOT과 ‘Vision AI 기반",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144822&kind=&sub_kind=",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "인텔리빅스, 고속도로 CCTV 4000채널 AI 안전관제 구축... 돌발상황 실시간 탐지",
+      "summary": "한국도로공사 CCTV 4700대 ‘AI 전환 사업’ 수주터널·결빙구간·사고다발구간·정체구간 집중 관제[보안뉴스 강초희 기자] 안전 AI 딥테크 기업 인텔리빅스(대표 최은수·장정훈)가 전국 고속도로의 터널과 결빙 취약구간, 사고다발구간, 상습 정체구간을 대상으로 도로 위 돌발상황을 실시간으로 탐지하고 대응하는 AI 안전관제 체계를 구축한다.인텔리빅스는 한국지",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144821&kind=&sub_kind=",
+      "date": "2026-07-23"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "지란지교에스앤씨, 글로벌 AI 보안 솔루션 라인업 확대... 스텔스몰 단독 총판 및 X보우 파트너십 계약",
@@ -11739,242 +11999,8 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/solarwinds-patches-exploited-serv-u-vulnerability/",
       "date": "2026-06-08"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "NFCShare 안드로이드 악성코드, GitHub의 가짜 뱅킹 앱 업데이트를 통해 확산",
-      "summary": "NFCShare 안드로이드 악성코드의 새로운 변종들이 GitHub에 호스팅된 정당한 뱅킹 앱의 가짜 업데이트 형태로 배포되고 있습니다. 이 악성코드는 신용카드 정보를 탈취하는 것으로 알려져 있으며, NFC(근거리 통신) 기능을 악용하여 결제카드 데이터에 접근할 수 있습니다. 공격자들은 GitHub 플랫폼의 신뢰성을 악용하여 사용자들이 정상적인 업데이트로 착각하게 만들고 있습니다. 이는 모바일 사용자들의 금융정보가 큰 위험에 처해있음을 의미합니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/",
-      "date": "2026-06-08"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "SoFi, 홍콩 자회사의 제3자 데이터 유출 확인",
-      "summary": "SoFi 홍콩이 제3자 공급업체의 데이터베이스에 해커들이 접근하여 고객 정보가 유출된 사실을 확인했다. 해커들은 제3자 벤더를 통해 고객 정보를 포함한 데이터베이스에 무단 접근했다. SoFi는 영향을 받은 고객들에게 이 데이터 유출 사실을 알리고 있다. 이번 사건은 제3자 공급업체를 통한 간접적인 보안 침해 사례로, 금융 기관들의 공급망 보안 관리의 중요성을 부각시킨다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/",
-      "date": "2026-06-08"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Apple, 손상된 비밀번호를 자동으로 변경하는 새로운 기능 출시",
-      "summary": "Apple은 WWDC 26에서 Apple Intelligence 기반의 손상된 비밀번호와 약한 비밀번호를 자동으로 수정하는 새로운 기능을 발표했습니다. 이 기능은 Safari에서 작동하며 iOS 27부터 롤아웃될 예정입니다. 사용자의 비밀번호 보안을 강화하기 위해 인공지능 기술을 활용하여 자동으로 위험에 노출된 비밀번호를 탐지하고 변경할 수 있습니다. 이는 사용자가 수동으로 비밀번호를 관리해야 하는 번거로움을 줄이고 계정 보안을 더욱 강화할 수 있는 혁신적인 기능입니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/apple/new-apple-feature-automatically-changes-your-compromised-passwords/",
-      "date": "2026-06-08"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "새로운 샤이-훌루드 공격으로 19개의 과학 관련 PyPI 패키지 트로이목마화",
-      "summary": "해커들이 PyPI에서 19개의 패키지를 손상시키는 새로운 샤이-훌루드 공급망 공격을 실행했습니다. 해당 패키지들은 누적으로 수십만 번 다운로드되었습니다. 이 공격은 개발자의 민감한 정보를 탈취하도록 설계된 악성코드를 전달했습니다. 주요 과학 관련 라이브러리들이 감염되어 광범위한 개발 커뮤니티가 영향을 받을 수 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/",
-      "date": "2026-06-08"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "WhatsApp, NSO 스파이웨어 피싱 공격 차단",
-      "summary": "WhatsApp이 NSO 그룹으로 추정되는 소셜 엔지니어링 공격 캠페인을 탐지하고 차단했다고 발표했습니다. 사용자 신고를 바탕으로 조사한 결과, 표적형 피싱 공격으로 확인되었습니다. 해당 공격은 NSO 그룹의 페가수스 스파이웨어와 관련된 것으로 보입니다. WhatsApp은 이러한 공격을 사전에 탐지하여 사용자들의 피해를 방지했습니다. 이번 사건은 NSO 그룹의 지속적인 사이버 위협 활동을 보여주는 사례입니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/",
-      "date": "2026-06-08"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Gogs, 원격 코드 실행을 가능하게 하는 심각한 제로데이 취약점 패치",
-      "summary": "Gogs가 인터넷에 노출된 인스턴스를 손상시킬 수 있는 심각한 보안 제로데이 취약점을 패치했습니다. 이 취약점은 공격자가 개인 저장소를 포함한 모든 저장소에 접근할 수 있게 해주는 원격 코드 실행(RCE) 기능을 제공합니다. 이번 공격은 인수 주입(Argument Injection) 취약점과 관련된 것으로 알려져 있습니다. Gogs는 즉시 패치를 배포하여 사용자들이 해당 취약점으로부터 보호받을 수 있도록 했습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/gogs-patches-critical-zero-day-enabling-remote-code-execution/",
-      "date": "2026-06-08"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "UniFi OS의 심각한 취약점으로 인증 없이 루트 접근 가능",
-      "summary": "Ubiquiti UniFi OS 서버의 이미 패치된 3개 취약점을 연쇄적으로 악용하면 인증 없이 루트 권한으로 원격 코드를 실행할 수 있습니다. 공격자들이 이 익스플로잇 체인을 이용해 UniFi OS 서버에 무단으로 접근하고 제어할 수 있다는 점에서 매우 위험합니다. 이는 네트워크 인프라를 관리하는 시스템의 보안을 크게 위협합니다. 영향받는 조직들은 즉시 UniFi OS를 최신 버전으로 업데이트하여 알려진 취약점을 패치해야 합니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/critical-unifi-os-bug-lets-hackers-gain-root-without-authentication/",
-      "date": "2026-06-08"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Wazuh Cloud로 보안 운영 복잡성 감소",
-      "summary": "보안팀들이 알림 과부하, 인프라 유지보수, 복잡한 하이브리드 환경으로 인해 점점 더 많은 부담을 겪고 있습니다. Wazuh Cloud는 관리형 인프라, 자동 스케일링, AI 기반 보안 분석을 통해 SIEM/XDR 운영을 단순화하는 솔루션을 제공합니다. 이 플랫폼은 보안팀이 복잡한 운영 작업에서 벗어나 핵심 위협 탐지와 대응에 집중할 수 있도록 지원합니다. 관리형 클라우드 서비스를 통해 인프라 관리 부담을 제거하고 확장성 있는 보안 운영을 가능하게 합니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/reducing-security-operations-complexity-with-wazuh-cloud/",
-      "date": "2026-06-08"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "체크포인트, VPN 제로데이 공격을 Qilin 랜섬웨어 조직과 연결",
-      "summary": "이스라엘 사이버보안 기업 체크포인트(Check Point)가 원격 접속 VPN 및 모바일 접속 배포에 영향을 미치는 중대한 결함을 패치하기 위한 보안 업데이트를 공개했습니다. 이 취약점은 제로데이 공격에서 실제로 악용되고 있었으며, 체크포인트는 이 공격을 Qilin 랜섬웨어 조직과 연결시켰습니다. 해당 결함은 기업의 VPN 보안에 심각한 위협을 초래할 수 있는 것으로 알려져 있습니다. 사용자들은 즉시 제공된 보안 업데이트를 적용하여 시스템을 보호할 것을 권장받고 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/check-point-links-vpn-zero-day-attacks-to-qilin-ransomware-gang/",
-      "date": "2026-06-08"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "옥스포드 대학교, 채용 플랫폼 해킹으로 인한 데이터 유출 공개",
-      "summary": "옥스포드 대학교가 지난주 제3자 서비스 제공업체인 Group GTI로부터 채용 서비스 플랫폼인 CareerConnect가 해킹당했다는 알림을 받고 데이터 유출을 공식 공개했다. 이번 보안 사고로 인해 대학의 경력개발 서비스 플랫폼에 저장되어 있던 사용자 정보가 노출된 것으로 보인다. 옥스포드 대학교는 사건 발생 후 즉시 보안 조치를 취하고 영향을 받은 사용자들에게 통보했다. 현재 대학은 외부 보안 전문가와 함께 사건의 규모와 유출된 정보의 범위를 파악 중에 있다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/oxford-university-discloses-data-breach-after-careerconnect-platform-hack/",
-      "date": "2026-06-08"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Meta AI 지원 시스템 해킹으로 20,000개 이상의 Instagram 계정 탈취",
-      "summary": "Meta는 최근 발생한 사건에서 20,225명의 Instagram 사용자 계정이 탈취되었음을 공개했습니다. 공격자들은 Meta의 AI 기반 지원 시스템을 악용하여 사용자의 비밀번호를 초기화하고 계정에 불법으로 접근했습니다. 이번 사건은 AI 기반 고객 지원 시스템의 보안 취약점을 노출시켰으며, 계정 탈취 및 비밀번호 리셋 기능이 악의적으로 악용될 수 있음을 보여줍니다. Meta는 해당 사건에 대해 조사를 진행 중이며 영향을 받은 사용자들에게 알림을 전송했습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/",
-      "date": "2026-06-08"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[Global Security TOP 100] 전명진 아마노코리아 대표이사 “주차관제 넘어 공간 플랫폼으로”",
-      "summary": "AI·무인화 기반 플랫폼 기업 전환 가속전국 1만4000여개 운영 현장과 26개 서비스 거점 기반 경쟁력 강조AI 기반 전기차 화재 진압 토탈 솔루션 연내 상용화 추진[보안뉴스 강초희 기자] 1996년 설립 이후 대한민국 주차관제 산업을 이끌어온 아마노코리아가 AI와 무인화 기술을 기반으로 대대적인 체질 개선에 나서고 있다. 전국 1만4000여개 운영 현장",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143831&kind=&sub_kind=",
-      "date": "2026-06-08"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "KISA, 음성스팸 차단 정조준... 유선·인터넷전화 사업자 방어망 넓힌다",
-      "summary": "스팸문자 91% 급감 속 음성스팸 873만건으로 폭증하는 풍선효과 선제 타개정보통신망법 기반 사업자 의무사항 안내 및 신고량 대국민 공개 전격 예고[보안뉴스 조재호 기자] 한국인터넷진흥원(KISA)은 유선 및 인터넷전화(VoIP) 사업자를 대상으로 불법스팸 대응 역량 강화를 위한 사업자 설명회를 11일 서울 세텍에서 개최한다고 9일 밝혔다.이번 행사는 3월",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143997&kind=&sub_kind=",
-      "date": "2026-06-08"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "라온시큐어, FIDO 글로벌 인증 컨퍼런스서 에이전틱 AI 보안 전략 제시",
-      "summary": "파이도 얼라이언스 주최 ‘어센티케이트 APAC 2026’ 참가해 빅테크와 기술 나란히안면·지문 생체인증 및 이상 행위 탐지 기능 결합한 차세대 ‘원패스’ 현장 시연[보안뉴스 조재호 기자] 라온시큐어는 지난 2일 싱가포르에서 개최된 국제 디지털 인증 컨퍼런스 ‘어센티케이트 APAC 2026’에 참가해 AI 환경에 최적화된 다중인증(MFA) 플랫폼 ‘원패스’(",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144002&kind=&sub_kind=",
-      "date": "2026-06-08"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "MS 깃허브 저장소 73곳 감염... ‘미아스마’ 웜 공급망 공격 비상",
-      "summary": "미아스마 웜, MS가 관리하는 깃허브 저장소 73곳 연쇄 감염개발자 개인 접근 토큰(PAT)과 인증 키 탈취해 침투[보안뉴스 김형근 기자] 전염성이 강한 미아스마(Miasma) 웜 악성코드가 마이크로소프트(MS)가 관리하는 핵심 깃허브(GitHub) 소스코드 저장소 73곳을 연쇄적으로 공격했다.이번 사건은 개발자 인증 자격을 탈취해 정상 프로그램을 오염시킨",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144003&kind=&sub_kind=",
-      "date": "2026-06-08"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "서울시설공단, 170만건 데이터 기반 도로관리 핵심기술 특허 출원 “교량 노후화 예측한다”",
-      "summary": "올림픽대로 등 서울시 전체 자동차전용도로 12개 노선·164개 시설물로 시스템 전면 확장디지털 트윈 연계·AI 기술 도입 추진으로 노후 시설물 안전관리의 새로운 표준 정립[보안뉴스 강초희 기자] 서울시설공단(이사장 한국영)이 서울 도로관리의 안전 증진을 위해 구축한 ‘데이터 기반 도로관리 시스템’의 핵심기술의 특허출원을 완료했다고 5일 밝혔다.공단은 준공",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143998&kind=&sub_kind=",
-      "date": "2026-06-08"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "행안부, ‘최고의 재난안전 AI 프롬프트’ 찾는다... 창업경진대회 개최",
-      "summary": "‘제4회 재난안전데이터 활용 창업경진대회’ 공모작 7월 7일까지 접수재난안전 데이터와 AI를 활용한 프롬프트·서비스 아이디어 발굴 추진[보안뉴스 강초희 기자] AI가 재난 상황을 스스로 판단해 담당 공무원에게 위험지역, 대피 대상과 같은 맞춤형 대응 조치를 신속하고 정확하게 안내하기 위한 ‘AI 프롬프트’를 국민과 함께 찾는다.행정안전부(장관 윤호중)는 재",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143999&kind=&sub_kind=",
-      "date": "2026-06-08"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "“열차 운전실 CCTV 설치 예외 없앤다” 국토부, 철도안전법 개정 추진",
-      "summary": "철도안전법 시행령·시행규칙 개정안 입법예고운전실 CCTV 설치 면제 규정 폐지하고 모든 열차로 확대기관사 개인정보 보호와 근무환경 개선 방안도 병행 추진[보안뉴스 강초희 기자] 국토교통부(장관 김윤덕)는 7월 15일까지 ‘철도안전법 시행령·시행규칙’ 일부 개정안을 입법예고한다.이번 개정은 철도 사고 원인의 명확한 규명과 철도 안전 강화를 위해 모든 열차에",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144000&kind=&sub_kind=",
-      "date": "2026-06-08"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "美 CISA, 솔라윈즈 결함 KEV 등재... ‘Serv-U’ 취약점 악용 비상",
-      "summary": "관리자 시선 돌린 틈 타 내부망 깊숙이 우회 침투하는 고도의 기만전술 확인6월 28일까지 연방 기관 대상 보안 패치 및 망 격리 긴급 지침 하달[보안뉴스 김형근 기자] 미국 사이버보안인프라보안국(CISA)이 글로벌 네트워크 관리 솔루션 솔라윈즈(SolarWinds)의 파일 전송 프로그램 결함을 ‘악용 확인 취약점’(KEV) 목록에 등재하며 긴급 방어 태세에",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143996&kind=&sub_kind=",
-      "date": "2026-06-08"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[2026 LiDAR 기반 외곽감시 리포트] 국가 경계와 중요시설 보안을 위한 새로운 눈",
-      "summary": "라이다, 군사기지부터 항만, 발전소까지 국가 중요시설 및 민간 산업시설 보호에 빠르게 확산CCTV 및 주요 센서들과 조화로운 역할 분담으로 철통 감시 구현[보안뉴스 엄호식 기자] 밤이나 폭우 속에서도 침입자를 미리 알아챌 수 있다면 어떨까. CCTV가 보지 못하는 사각지대, 센서가 놓치는 순간을 메워줄 새로운 눈이 등장했다. 바로 라이다(LiDAR)다. 수",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143880&kind=&sub_kind=",
-      "date": "2026-06-08"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "파이오링크, AI 에이전트 기반 사이버위협 관리 플랫폼 ‘블루헌터’ 출시",
-      "summary": "“사이버 복원력 시장 정조준”자산 및 취약점 식별을 넘어 비즈니스 관점 위협 관리[보안뉴스 강현주 기자] 파이오링크(대표 조영철)가 인공지능(AI) 기반의 사이버위협 관리 플랫폼 ‘블루헌터(BlueHunter) 서비스’를 정식 출시하며 사이버 복원력 시장 공략에 나선다고 8일 밝혔다. 이번에 선보인 블루헌터는 가트너가 제시한 지속적 위협 노출관리(CTEM,",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143995&kind=&sub_kind=",
-      "date": "2026-06-08"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "엠피어, AI 기반 취약점 해결을 위해 210만 달러 자금 조성",
-      "summary": "사이버보안 업체 엠피어(Emphere)가 AI 기반 취약점 해결 솔루션 개발을 위해 210만 달러의 시리즈 펀딩을 성공적으로 완료했습니다. 이 자금은 기업의 취약점 관리 및 수정 프로세스를 자동화하고 가속화하는 데 사용될 예정입니다. 엠피어의 AI 기반 플랫폼은 조직이 발견된 보안 취약점을 더 효율적으로 식별하고 우선순위를 정해 해결할 수 있도록 지원합니다. 이번 투자는 엠피어가 사이버보안 시장에서의 입지를 강화하고 기술 혁신을 가속화할 수 있는 기반이 될 것으로 예상됩니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/emphere-raises-2-1-million-for-ai-powered-vulnerability-remediation/",
-      "date": "2026-06-07"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "AI 기반 Windows Terminal인 Intelligent Terminal 실제 사용기",
-      "summary": "마이크로소프트가 Windows Terminal의 오픈소스 포크 버전인 'Intelligent Terminal'을 출시했습니다. 이 새로운 터미널은 기존 세션을 방해하지 않으면서 터미널 내에서 직접 AI를 사용할 수 있도록 지원합니다. 사용자는 일반적인 터미널 작업 중에도 AI 기능을 활용하여 더욱 효율적인 작업 환경을 구축할 수 있습니다. Intelligent Terminal은 Windows 11 등 최신 Windows 운영체제에서 활용 가능하며, AI의 강력한 기능을 터미널 환경에 통합하여 개발자와 시스템 관리자의 생산성을 향상시킵니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/hands-on-with-intelligent-terminal-an-ai-powered-windows-terminal/",
-      "date": "2026-06-07"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "C0XMO 봇넷, DD-WRT 라우터 취약점을 통해 확산 및 경쟁 악성코드 제거",
-      "summary": "Gafgyt 봇넷의 새로운 변종인 C0XMO가 DD-WRT 라우터 펌웨어를 표적으로 하여 확산 중입니다. 이 봇넷은 다양한 CPU 아키텍처를 가진 다른 장치 유형으로도 전파될 수 있는 능력을 갖추고 있습니다. C0XMO는 감염된 기기에서 기존의 다른 악성코드를 제거하는 특징을 보이고 있어, 경쟁하는 악성코드들을 구제거하면서 자신의 영역을 확대하고 있습니다. 이러한 공격 패턴은 라우터와 같은 네트워크 장비의 취약점을 악용한 대규모 봇넷 감염의 심각성을 보여줍니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/",
-      "date": "2026-06-07"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Silent Ransom Group, 가짜 IT 지원 전화로 로펌 표적",
-      "summary": "사이버보안 회사 Mandiant의 보고서에 따르면, Silent Ransom Group 갈취 조직이 미국 로펌과 전문 서비스 기관을 대상으로 활발한 사회공학 공격을 벌이고 있습니다. 이들은 가짜 IT 지원 전화를 통해 초기 접촉 후 수 시간 내에 데이터 도용에 성공하고 있습니다. 이 조직은 피해자들로부터 금전적 보상을 요구하는 갈취 방식으로 운영되고 있으며, 로펌들의 민감한 고객 정보가 주요 표적입니다. 전문 서비스 기관들은 신원 확인되지 않은 IT 지원 요청에 특히 주의를 기울일 필요가 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/",
-      "date": "2026-06-07"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "오팔 시큐리티, AI 기반 신원 관리 솔루션으로 2,300만 달러 자금 조달",
-      "summary": "오팔 시큐리티(Opal Security)가 AI 네이티브 신원 거버넌스 솔루션 개발을 위해 2,300만 달러의 자금을 조달했다. 이번 펀딩을 통해 오팔은 기업의 신원 및 접근 권한 관리를 AI 기술로 자동화하고 최적화할 수 있는 차세대 솔루션을 강화할 계획이다. 신원 관리와 접근 제어는 현대 기업의 사이버보안 전략에서 핵심 요소로, 이 분야의 혁신은 기업의 보안 태세 개선에 중요한 역할을 한다. 오팔의 AI 기반 접근 방식은 수동 프로세스를 줄이고 보안 위험을 신속하게 식별 및 해결할 수 있도록 지원한다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/opal-security-raises-23-million-for-ai-native-identity-governance/",
-      "date": "2026-06-06"
     }
   ],
-  "totalItems": 2972,
+  "totalItems": 2998,
   "hasArchive": true
 }
