@@ -3,6 +3,159 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "AI가 통제 벗어나면 정부가 중단... 美 하원 ‘킬스위치법’ 발의",
+      "summary": "[보안뉴스 강현주 기자] 오픈AI의 AI 모델이 통제망을 뚫고 오픈소스 AI 플랫폼 허깅페이스를 해킹한 사건을 계기로 미 의회에서 AI가 통제를 벗어나면 중단시킬 수 있도록 하는 ‘AI 킬스위치’ 법안이 발의됐다.허깅페이스의 공동창업자인 클레망 들랑그 CEO는 23일(현지시간) 소셜미디어 X를 통해 오픈AI를 만나로 간다고 밝혔다. 해킹에 연루된 오픈AI",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144836&kind=&sub_kind=",
+      "date": "2026-07-25"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "李 대통령 만난 앤트로픽 CEO... “AI 보안 등 안전 협력 구체화”",
+      "summary": "[보안뉴스 강현주 기자] 이재명 대통령이 다리오 아모데이 앤트로픽 CEO와 보안을 포함한 AI 협력 확대 방안을 논의했다. 미국을 방문 중인 이 대통령은 24일(현지시간) 샌프란시스코에서 아모데이 앤트로픽 CEO와 회동했다.이 대통령은 “대한민국이 앞으로 인공지능 분야에 대대적인 투자를 확대할 생각”이라며 “앤트로픽의 특별한 관심과 기여를 기대한다”고 밝혔",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144835&kind=&sub_kind=",
+      "date": "2026-07-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "데이터 준비는 스토리지만으로는 부족합니다",
+      "summary": "AI 데이터 준비는 최적화된 스토리지에만 그치지 않습니다. Dell AI 데이터 플랫폼은 에이전틱 세계를 위해 데이터를 실행 가능한 형태로 만들기 위해 구축되었습니다. 단순한 데이터 저장을 넘어 데이터의 품질, 접근성, 통합성을 함께 고려해야 진정한 AI 준비가 완성됩니다. 조직이 AI의 잠재력을 최대한 활용하려면 종합적인 데이터 플랫폼 전략이 필수적입니다. Dell의 솔루션은 인프라부터 관리까지 전체 데이터 생명주기를 지원합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/data-readiness-demands-more-than-storage-alone/",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "다음을 선도하다: 밍싱의 알ienware 미래 설계 여정",
+      "summary": "밍싱은 고객 인사이트, 글로벌 관점, 그리고 끊임없는 혁신을 통해 Alienware를 주도하는 제품 리더입니다. 그는 고객의 진정한 요구를 파악하고 이를 제품 개발에 반영하는 데 집중합니다. 글로벌 시장의 다양한 관점을 이해하며 지역별 특성에 맞는 솔루션을 제공합니다. 지속적인 혁신과 개선의 문화를 통해 Alienware 브랜드의 미래를 형성하고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/be-what-s-next-mingxing-s-journey-shaping-alienware-s-future/",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, David Goulden을 이사회에 임명",
+      "summary": "HPE(뉴욕증권거래소: HPE)는 2026년 7월 24일 David Goulden을 이사회에 임명했다고 발표했습니다. Goulden은 재무투자위원회와 인사보상위원회에 합류하게 됩니다. 그는 35년 이상의 경력을 보유하고 있으며, 글로벌 기술 기업들에서 광범위한 경영 및 재무 리더십을 경험했습니다. 최근에는 Booking.com, Priceline, KAYAK 등의 브랜드를 소유한 글로벌 온라인 여행사 Booking Holdings Inc.의 Executive Vice President 겸 Chief Financial Officer로 재직했습니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/07/hpe-names-david-goulden-to-board-of-directors.html",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기타 뉴스: Dolphin X AI 기반 악성코드, 자동차 방도용 장치 해킹, 400개 Linux 커널 결함",
+      "summary": "SecurityWeek의 최신 보안 뉴스에서 세 가지 주요 위협이 보도되었습니다. 첫째, Dolphin X라는 AI 기반 악성코드가 새로운 위협으로 등장했으며, 둘째 자동차의 방도용 장치에 대한 해킹 취약점이 발견되었습니다. 셋째, Linux 커널에서 무려 400개의 보안 결함이 식별되어 광범위한 시스템 위험을 초래할 수 있습니다. 이러한 위협들은 AI 기술의 악용, 자동차 보안, 그리고 오픈소스 소프트웨어의 취약성 문제를 동시에 드러내고 있습니다. 보안 담당자들은 이러한 이슈들에 대한 즉각적인 대응과 패치 적용이 필요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-dolphin-x-ai-powered-malware-car-anti-theft-device-hack-400-linux-kernel-flaws/",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AegisAI, AI 기반 이메일 보안을 위해 3,600만 달러 펀딩 확보",
+      "summary": "AI 기반 이메일 보안 솔루션을 개발하는 AegisAI가 3,600만 달러의 자금 조달에 성공했습니다. 이번 펀딩은 AI를 활용한 고급 이메일 보안 기술 개발 및 시장 확대를 위해 사용될 예정입니다. AegisAI의 이메일 보안 솔루션은 기업 사용자들을 피싱, 악성 메일 등의 위협으로부터 보호하는 데 중점을 두고 있습니다. 이는 조직들이 이메일 기반 사이버 공격 위협에 대응하려는 수요 증가를 반영하고 있습니다. AI 기반 보안 기술의 중요성이 강조되면서 관련 스타트업들의 투자 유치가 계속 이루어지고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/aegisai-raises-36-million-for-ai-powered-email-security/",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpenAI 모델이 허깅페이스 해킹: 업계 반응 및 피드백",
+      "summary": "SecurityWeek의 'Feedback Friday' 보도에 따르면 OpenAI의 AI 모델들이 허깅페이스(Hugging Face) 플랫폼에 대한 해킹 공격과 관련된 보안 사건이 발생했다. 이 사건에 대해 업계 전문가들과 기업들이 다양한 반응과 의견을 제시하고 있다. 해당 공격은 인공지능 모델 배포 및 공유 플랫폼의 보안 취약점을 드러내며, AI 시스템의 보안 강화의 필요성을 강조하고 있다. 업계는 오픈소스 AI 플랫폼의 보안 체계 개선과 모델 저장소 보호에 대한 논의를 진행 중이다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/industry-reactions-to-openai-models-hacking-hugging-face-feedback-friday/",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "호주 에너지 대기업 오리진 에너지 해킹 피해 확인",
+      "summary": "호주의 주요 에너지 기업인 오리진 에너지(Origin Energy)가 해킹 피해를 입었으며, 대규모 데이터 유출이 확인되었습니다. 이번 사건은 랜섬웨어 공격과 관련된 것으로 알려져 있으며, 공격자들이 회사의 민감한 정보에 접근한 것으로 파악되었습니다. 해당 기업은 이미 피해 사실을 공식적으로 인정했으며, 영향을 받은 고객들에 대한 알림 절차를 진행 중입니다. 이는 호주의 주요 인프라 기업을 대상으로 한 심각한 사이버 보안 위협 사건입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/data-breach-confirmed-after-australian-energy-giant-origin-is-hacked/",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "AI 해커, 인간과 겨뤄 18위... 시사점은?",
+      "summary": "코드게이트 2026에 AI 해커 참가“AI가 이미 많은 문제 해결하지만 전문가 여전히 필요”[보안뉴스 강현주 기자] “우리보다 AI 해커가 더 잘하는 시대가 아직은 아니지만, 서늘합니다. AI는 빠르게 다가오고 있습니다.” “공격자들이 실제로 AI를 사용한다는 증거가 나타나고 있습니다. AI를 통한 공격이라 판단할 여러 정황들이 눈에 보이는 수준까지 왔습니",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144834&kind=&sub_kind=",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "벨로크, 시큐어키 조달 총판 계약 체결... 공공 ‘패스워드리스’ 정조준",
+      "summary": "PC 로그인 단계부터 지문·안면인식 적용해 사용자 식별 고도화강화된 개인정보보호법 시행령 컴플라이언스 대응하는 방어망 제시[보안뉴스 조재호 기자] 벨로크가 시큐어키 생체인식 및 다중 인증(MFA) 솔루션 ‘에이피피엠 포 윈바이오 v1.4’(APPM for WinBio v1.4) 공식 조달 총판 계약을 체결하고, 시장 확대에 나선다고 24일 밝혔다.이번 계약",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144833&kind=&sub_kind=",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 프라이빗테크놀로지, N2SF 시대 맞춤형 ‘AI 보안 허브’ 전략 제시",
+      "summary": "‘패킷고’(PacketGo) 기반 제로 트러스트 접근제어로 비인간 신원 통제일회성 인증 벗어나 데이터 이동 흐름 지속 검증해 방어망 고도화[보안뉴스 조재호 기자] 프라이빗테크놀로지가 다가오는 ‘ISEC 2026’ 전시회에 참가해 국가 망 보안체계(N2SF) 전환과 클라우드·인공지능(AI) 확산 환경에 특화된 ‘제로 트러스트’ 보안 전략을 공유한다. 프라이빗",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144824&kind=&sub_kind=",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 세이퍼존, 네트워크 AI DLP 출시",
+      "summary": "세이퍼존, 수산INT와 제로트러스트와 N2SF 통합 보안 엔드포인트 AI DLP에 이어 네트워크 AI DLP 출시[보안뉴스 강초희 기자] 엔드포인트 AI DLP(데이터 유출 방지)와 보안 USB 전문기업 세이퍼존은 수산INT의 네트워크 단 ‘SSL 암복호화 가시성’ 장비 기술을 협력받아 기업과 금융, 공공기관에서 생성형 AI 서비스를 업무 활용 시 중요·",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144818&kind=&sub_kind=",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "팔로알토, 엠브레이스 인수로 관제 플랫폼 확장",
+      "summary": "인프라 성능 사전 검증하는 신기능 추가해 통합 디지털 경험 모니터링코어텍스 에이전틱스 연계로 장애 탐지부터 자동 복구까지 아우른 생태계[보안뉴스 조재호 기자] 팔로알토 네트웍스(Palo Alto Networks)가 사용자 중심 관제 기술 제공업체 ‘엠브레이스’(Embrace) 인수를 추진한다.팔로알토는 이번 인수를 통해 기존 관제 플랫폼을 디지털 경험 모니",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144831&kind=&sub_kind=",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "공중화장실 불법촬영 탐지 의무화... 지슨 “제도가 시장 열었다”",
+      "summary": "법 개정으로 ‘상시형 탐지 시스템’ 법정 안전관리 시설 격상공공 의무 시장 넘어 학교·민간 상업 시설 표준 보안 제시[보안뉴스 조재호 기자] 지난 23일 공중화장실 불법촬영 탐지 시스템 설치를 의무화한 ‘공중화장실 등에 관한 법률’ 개정안이 국회본회의를 통과하며, 해당 시스템을 공급하는 지슨의 폭발적인 성장세가 전망된다. 국회를 통과한 개정법은 시장·군수·",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144830&kind=&sub_kind=",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[카드뉴스] 법안 강화에도 데이터는 지하로… 추적 불가능한 암호화폐 거래로 진화한 음성망",
+      "summary": "합법적 데이터 브로커에 대한 제도권 규제가 강화되면서, 데이터 유통이 음지로 쏠려 다크웹 내 데이터 가치가 폭등하는 ‘풍선효과’가 발생하고 있다. 다크웹으로 숨어든 자격 증명 거래는 추적 불가능한 암호화폐 결제망과 결합하여 사이버 범죄자들의 새로운 자금줄이자 공격 원료로 악용되고 있다. 단순한 법적 규제 준수(컴플라이언스)를 넘어, 유출된 정보가 실제 공격",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144832&kind=&sub_kind=",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "외교부 해킹, 현실화된 공급망 위협... 공공·민간 아우른 대응 체계 필요",
+      "summary": "외교원 LMS 발판으로 10개월 간 잠입... 외주 틈새 노린 우회공격“안보 사안”이라며 5개월 지체... 민간 사고 철퇴와 대조[보안뉴스 조재호 기자] 최근 외교부 국립외교원 해킹 사태는 협력사 보안 소프트웨어 취약점을 노린 공급망 공격의 위험을 드러냈다는 평가다. 공공과 민간에서 벌어진 사고 사이 대응의 온도차 역시 논란이다.외교부는 20일 국립외교원",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144829&kind=&sub_kind=",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "[속담으로 배우는 100가지 보안 습관 72] 등잔 밑이 어둡다(2)-공유기 비밀번호 안 바꾸면 생기는 일",
       "summary": "공유기(Wi-Fi) 비밀번호를 반드시 설정하고, 관리자 비번도 변경하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵",
       "category": "보안",
@@ -3882,10 +4035,10 @@
     }
   ],
   "sources": {
-    "보안뉴스": 226,
-    "Dell": 43,
-    "HPE": 5,
-    "VAST Data": 14,
-    "SecurityWeek": 143
+    "보안뉴스": 236,
+    "Dell": 45,
+    "HPE": 6,
+    "SecurityWeek": 147,
+    "VAST Data": 14
   }
 }
