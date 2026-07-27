@@ -3,6 +3,96 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 소프트캠프, ISEC 2026서 ‘AI 시대 차단에서 통제된 연결로’ 보안 전략 제시",
+      "summary": "망분리 한계 극복한 RBI 기반 ‘SHIELD Gate’로 생성형 AI·SaaS 안전한 통제 사용 구현[보안뉴스 강초희 기자] 정보보안 전문기업 소프트캠프(대표 배환국)가 제20회 국제 시큐리티 콘퍼런스(ISEC 2026)에 참가한다. 소프트캠프는 이번 컨퍼런스에서 RBI(Remote Browser Isolation) 기반의 보안 원격 접속 서비스 ‘SHI",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144853&kind=&sub_kind=",
+      "date": "2026-07-27"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "코발트, AI와 인간 역량 결합한 ‘자율 침투 테스트’ 공개",
+      "summary": "[보안뉴스 김형근 기자] 침투 테스트 서비스 제공업체 코발트(Cobalt)가 소프트웨어 전체의 보안 취약점을 지속적으로 점검하는 AI 기반 ‘자율 침투 테스트’를 공개했다.이 솔루션은 숙련된 인간 침투 테스트 전문가를 중심에 두고 최소 24시간 이내에 검증된 조사 결과를 제공한다. AI가 방대한 데이터를 1차로 탐색해 취약점의 우선순위를 정하면, 인간 전문",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144858&kind=&sub_kind=",
+      "date": "2026-07-27"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 이지서티, ISEC 2026서 AI 기반 개인정보 접속기록 관리 솔루션 ‘EZRO-PSM V4.",
+      "summary": "AI 기반 개인정보 접속기록 관리와 이상행위 탐지 고도화탐지부터 소명관리까지 통합한 개인정보보호 운영 체계[보안뉴스 강초희 기자] 개인정보 접속기록 관리는 더 이상 로그를 남기는 것만으로 충분하지 않다. 개인정보 처리 시스템이 늘어나고, 조회·다운로드·권한 변경 등 사용자 행위가 복잡해지면서 개인정보보호 담당자는 방대한 접속기록 속에서 실제 위험 행위를 선",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144854&kind=&sub_kind=",
+      "date": "2026-07-27"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "해킹 대신 납치... 가상자산 보유자 위협하는 오프라인 ‘렌치 범죄’ 급증",
+      "summary": "물리적 강압 동반한 암호화폐 탈취 사건, 전년 대비 33% 증가범죄 수법 더 대담해져... 가족 노린다[보안뉴스 김형근 기자] 해킹으로 암호화폐를 훔치는 대신 암호화폐를 보유한 사람을 납치하거나 폭행해 원하는 것을 얻는 이른바 ‘렌치’(Wrench) 공격이 늘고 있다. 블록체인 보안 기업 서티크(CertiK)는 최근 보고서에서 2026년 상반기 물리적 강",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144857&kind=&sub_kind=",
+      "date": "2026-07-27"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "토스, 전국 5000개 마트에 ‘페이스페이’ 도입... POS사 투게더스와 MOU",
+      "summary": "유통 포스 솔루션 기업과의 첫 업무협약공동 프로모션·마케팅 등 가맹점 지원 협력도[보안뉴스 강현주 기자] 토스(운영사 비바리퍼블리카, 대표 이승건)가 대한민국 중소마트 전문 유통 포스(POS) 솔루션 기업 투게더스와 업무협약(MOU)을 체결하고, 전국 중소형 마트에 얼굴 결제 서비스 페이스페이를 순차 도입한다고 27일 밝혔다.지난 24일 서울 강남구 역삼동",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144855&kind=&sub_kind=",
+      "date": "2026-07-27"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "‘히타치 밴타라’ 美노먼 제조시설, 세계경제포럼 ‘등대공장’ 선정",
+      "summary": "AI 기반 자율 의사결정·공급망 최적화로 세계 최고 수준 스마트 제조시설 인정 AI 레디 데이터 플랫폼 ‘VSP 원’ 생산... AI 시대 데이터 인프라 제조 경쟁력 강화글로벌 현장에서 검증된 AI·데이터 인프라 역량, 국내 고객 AI 전환 지원[보안뉴스 강초희 기자] AI·데이터 인프라 솔루션 전문기업 HS효성인포메이션시스템(대표 양정규)은 히타치 밴타라",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144850&kind=&sub_kind=",
+      "date": "2026-07-27"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "넷앤드, Gateway·Agent 하이브리드 접근제어로 보안 사각지대 해소... ‘HIWARE UAC’ 출시",
+      "summary": "국내 1위 Gateway Proxy 접근제어 기술에 Agent 기반 심층 통제 기술 결합기존 HIWARE 시스템·DB 접근제어와 하이브리드 구성으로 모든 접근 경로 통합 관리[보안뉴스 원병철 기자] 통합 접근제어 및 계정관리(IAM) 솔루션 전문기업 넷앤드(대표 신호철)가 국내 시장에서 검증된 HIWARE 접근제어의 Gateway Proxy 기술에 에이전트",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144852&kind=&sub_kind=",
+      "date": "2026-07-27"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "휴네시온, 베트남 SOAR 시장 공략 본격화... 판매대리점 확보",
+      "summary": "동남아 AI 기반 보안자동화 시장 확대 추진[보안뉴스 강현주 기자] 정보보안 전문기업 휴네시온(대표 정동섭)은 베트남 사이버보안 전문기업 SCS(Smart Cyber Security Joint Stock Company, 대표 응오 뚜안 안)와 AI 기반 보안 오케스트레이션, 자동화 및 대응(SOAR) 플랫폼의 베트남 시장 공급을 위한 판매대리점(리셀러) 계",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144851&kind=&sub_kind=",
+      "date": "2026-07-27"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "로그프레소, 정보보호 공시 확대 앞두고 클라우드 SIEM 고객 기반 확대",
+      "summary": "글로벌 자동차 부품 기업 신규 확보유통·엔터테인먼트 분야로 확장 [보안뉴스 강현주 기자] 통합보안 전문기업 로그프레소(대표 양봉열)는 정보보호 공시 확대를 앞두고 제조, 유통, 엔터테인먼트 등 다양한 산업으로 고객 기반을 넓히고 있다고 27일 밝혔다. 로그프레소는 최근 부산·울산·경남 지역의 글로벌 자동차 부품 기업을 신규 고객으로 확보했다. 이 고객은 국",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144848&kind=&sub_kind=",
+      "date": "2026-07-27"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "AI 활용한 공격의 고도화, LLM과 RAG 활용해 대응한다",
+      "summary": "미토스가 불러온 AI를 활용한 고도화된 공격 가능성... AI로 대응하는 ISEC Training Course, 8월 11~12일 ISEC 동시개최 행사로 열려 [보안뉴스 원병철 기자] 인공지능이 피싱 메일 작성이나 악성코드 제작을 보조하는 수준을 넘어, 취약점을 직접 탐색하고 공격 코드를 개발하는 단계로 발전하고 있다. 이러한 변화를 상징적으로 보여준 사",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144847&kind=&sub_kind=",
+      "date": "2026-07-27"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "9500억달러 반도체 공급·생산 협력... 샌프란시스코 AI서밋 성과는?",
       "summary": "국내 기업과 해외 빅테크 간 6건 협약[보안뉴스 강현주 기자] 샌프란시스코 AI서밋을 통해 9500억달러 규모 반도체 공급·생산 협력 등 국내 기업과 글로벌 빅테크들 간 6건의 협약을 체결하는 성과가 있었다. 과학기술정보통신부(부총리 겸 장관 배경훈)는 24일(현지시간) 미국 샌프란시스코에서 글로벌 AI 혁명의 주역인 국내외 대표기업이 참여한 가운데, ‘샌",
       "category": "보안",
@@ -4098,7 +4188,7 @@
     }
   ],
   "sources": {
-    "보안뉴스": 242,
+    "보안뉴스": 252,
     "SecurityWeek": 148,
     "Dell": 45,
     "HPE": 6,
