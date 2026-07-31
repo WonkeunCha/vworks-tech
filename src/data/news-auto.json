@@ -3108,9 +3108,239 @@
     "http://www.boannews.com/media/view.asp?idx=144903&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144879&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144928&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=144929&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=144929&kind=&sub_kind=",
+    "https://www.dell.com/en-us/blog/dell-ai-data-platform-a-technical-perspective/",
+    "https://www.dell.com/en-us/blog/how-to-clean-a-laptop-fan-safely-step-by-step-guide/",
+    "https://www.dell.com/en-us/blog/building-trust-and-future-leaders-lan-s-journey/",
+    "https://www.securityweek.com/cisa-urges-water-sector-to-protect-ot-after-coordinated-attacks-on-plcs/",
+    "https://www.securityweek.com/bank-of-america-to-acquire-cybersecurity-firm-mdsec/",
+    "https://www.securityweek.com/okta-to-acquire-identity-threat-detection-firm-permiso/",
+    "https://www.securityweek.com/timeless-compliance-why-better-questions-beat-bigger-frameworks/",
+    "https://www.securityweek.com/databahn-raises-40-million-for-agentic-data-pipeline-management/",
+    "https://www.securityweek.com/cantina-emerges-from-stealth-with-8-million-in-funding/",
+    "https://www.securityweek.com/discern-security-raises-13-million-in-series-a-funding/",
+    "https://www.securityweek.com/onyx-security-raises-113-million-to-control-ai-agents-in-the-enterprise/",
+    "https://www.securityweek.com/danglegeddon-ai-could-weaponize-forgotten-dns-records-at-global-scale/",
+    "https://www.securityweek.com/semiconductor-firm-analog-devices-discloses-data-breach/",
+    "http://www.boannews.com/media/view.asp?idx=144940&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144230&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144893&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144867&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144965&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144964&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144962&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144958&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144960&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144959&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell AI 데이터 플랫폼: 기술적 관점",
+      "summary": "프로덕션 AI의 성공은 데이터 플레인에 크게 의존합니다. Dell AI 데이터 플랫폼은 개방형 및 페더레이션 아키텍처를 활용하여 데이터 처리의 병목 현상을 제거합니다. 이는 AI 모델 학습과 배포 과정에서 데이터 흐름을 최적화하고 효율성을 극대화합니다. 기술적으로 이 플랫폼은 다양한 데이터 소스를 통합하고 분산 환경에서 안정적인 데이터 관리를 가능하게 합니다. 결과적으로 조직은 더 빠르고 확장 가능한 AI 솔루션을 구축할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/dell-ai-data-platform-a-technical-perspective/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "노트북 팬을 안전하게 청소하는 방법: 단계별 가이드",
+      "summary": "노트북 팬의 안전한 청소는 장시간 과열을 방지하고 기기의 성능을 유지하는 데 매우 중요합니다. 압축 공기를 사용하여 정기적으로 팬의 먼지를 제거함으로써 과열과 소음 문제를 효과적으로 줄일 수 있습니다. 청소 시에는 팬의 회전을 고정시키고 분해 시 정적 방전을 피하는 등 주의사항을 철저히 지켜야 합니다. 올바른 청소 방법을 따르면 노트북의 열 관리 효율을 크게 향상시킬 수 있으며, 이는 장기적으로 기기의 수명 연장에도 도움이 됩니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-to-clean-a-laptop-fan-safely-step-by-step-guide/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "신뢰 구축과 미래 리더 양성: Lan의 여정",
+      "summary": "Lan은 지원 엔지니어에서 이사로 성장한 경험을 통해 신뢰와 투명성을 바탕으로 한 리더십 철학을 개발했습니다. 그녀의 여정은 조직 내에서 다양한 역할을 수행하면서 팀원들을 경청하고 그들의 성장을 지원하는 것의 중요성을 강조합니다. Lan은 현재 직원들을 권한부여하고 그들의 잠재력을 개발하도록 격려하는 데 열정을 가지고 있습니다. 그녀는 기술과 인간적 접근의 결합을 통해 더 나은 직장 문화를 조성하려고 노력하고 있습니다. 또한 다음 세대의 리더들을 양성하는 것이 조직의 장기적 성공을 위해 필수적이라고 믿고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/building-trust-and-future-leaders-lan-s-journey/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, PLC 대상 조직적 공격 이후 수도 부문에 OT 보안 강화 촉구",
+      "summary": "미국 사이버보안기반시설보안청(CISA)이 산업제어시스템(ICS) 및 운영기술(OT) 환경을 표적으로 한 조직적인 공격에 대응하여 수도 부문에 보안 강화를 긴급히 촉구했습니다. 해당 공격은 PLC(프로그래머블 로직 컨트롤러)를 직접 겨냥한 것으로, 물 공급 인프라에 심각한 위협을 초래할 수 있습니다. CISA는 수도 시설 운영자들에게 OT 환경에 대한 접근 제어 강화, 네트워크 분할, 그리고 정기적인 보안 감시 등의 대응 조치를 권고했습니다. 이번 사건은 중요 기반시설 부문의 사이버 위협이 점점 증가하고 있음을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisa-urges-water-sector-to-protect-ot-after-coordinated-attacks-on-plcs/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국 뱅크오브아메리카, 사이버보안 기업 MDSec 인수",
+      "summary": "미국 뱅크오브아메리카(Bank of America)가 사이버보안 회사 MDSec을 인수하기로 발표했습니다. 이번 인수는 금융기관의 사이버보안 역량 강화를 위한 전략적 결정으로 평가됩니다. MDSec은 침투 테스트 및 보안 컨설팅 서비스를 제공하는 전문 사이버보안 기업입니다. 이번 거래를 통해 뱅크오브아메리카는 자신의 사이버보안 역량을 한층 강화할 수 있을 것으로 예상됩니다. 금융 부문에서 사이버위협이 증가하는 상황에서 대형 금융기관의 보안 인프라 강화 움직임이 이어지고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/bank-of-america-to-acquire-cybersecurity-firm-mdsec/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "오크타, 정체성 위협 탐지 기업 퍼미소 인수",
+      "summary": "오크타(Okta)가 정체성 위협 탐지 전문 기업인 퍼미소(Permiso)를 인수하기로 결정했습니다. 이번 인수를 통해 오크타는 클라우드 환경에서의 정체성 기반 보안 위협 탐지 및 대응 역량을 강화할 수 있을 것으로 예상됩니다. 퍼미소는 클라우드 인프라의 정체성 관련 보안 위험을 감지하고 분석하는 기술을 보유하고 있습니다. 이 인수는 오크타의 제로 트러스트 보안 전략의 일환으로, 기업의 정체성 및 접근 제어 보안을 더욱 강화하려는 움직임입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/okta-to-acquire-identity-threat-detection-firm-permiso/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "시간을 초월한 컴플라이언스: 더 큰 프레임워크보다 더 나은 질문이 중요한 이유",
+      "summary": "본 기사는 사이버보안 컴플라이언스에 있어 복잡한 대규모 프레임워크보다는 올바른 질문을 던지는 것이 더 효과적이라는 관점을 제시합니다. 지속적으로 변화하는 보안 위협 환경에서 조직들이 직면한 컴플라이언스 문제에 대한 근본적인 접근 방식의 재검토를 강조합니다. 저자는 조직이 자신의 상황에 맞는 실질적인 질문을 통해 더 효율적이고 실용적인 보안 전략을 수립할 수 있다고 주장합니다. 특히 AI 등 신기술의 도입으로 인해 기존의 정적인 컴플라이언스 체계로는 대응하기 어려워지고 있다는 점을 언급합니다. 이 기사는 기업이 장기적이고 지속 가능한 보안 문화를 구축하기 위해 얼마나 올바른 질문이 중요한지를 조명합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/timeless-compliance-why-better-questions-beat-bigger-frameworks/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "DataBahn, 에이전틱 데이터 파이프라인 관리 솔루션으로 4천만 달러 펀딩 유치",
+      "summary": "데이터 보안 솔루션 업체 DataBahn이 에이전틱 기술 기반 데이터 파이프라인 관리 플랫폼 개발을 위해 4천만 달러 규모의 시리즈 펀딩을 성공적으로 유치했습니다. 이 펀딩은 기업들의 데이터 보안 및 관리 수요 증가를 반영하는 것으로, DataBahn의 자동화된 데이터 처리 솔루션이 시장에서 주목받고 있음을 보여줍니다. DataBahn은 유치한 자금을 활용해 플랫폼 기능 확대와 시장 진출을 가속화할 계획입니다. 이는 데이터 보호 및 사이버보안 분야의 지속적인 투자 확대 추세를 반영합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/databahn-raises-40-million-for-agentic-data-pipeline-management/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Cantina, 800만 달러 펀딩으로 베일을 벗다",
+      "summary": "사이버보안 스타트업 Cantina가 스텔스 모드에서 벗어나 800만 달러의 초기 펀딩을 확보했다. 이 회사는 취약점 관리 분야에 집중하고 있으며, 기업의 사이버보안 태세를 강화하는 데 주력할 계획이다. 이번 펀딩은 글로벌 사이버보안 시장에서 취약점 관리 솔루션에 대한 수요가 증가하고 있음을 보여주는 사례다. Cantina는 이 자금을 기반으로 제품 개발과 시장 확대를 추진할 것으로 예상된다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cantina-emerges-from-stealth-with-8-million-in-funding/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "디스턴 시큐리티, 시리즈 A 펀딩으로 1,300만 달러 조달",
+      "summary": "사이버보안 회사 디스턴 시큐리티(Discern Security)가 시리즈 A 펀딩 라운드에서 1,300만 달러를 성공적으로 조달했습니다. 이번 자금 조달은 회사의 제품 개발 가속화와 시장 확대를 지원할 것으로 예상됩니다. 디스턴 시큐리티는 사이버보안 솔루션 제공 기업으로서 이번 펀딩을 통해 기술 혁신과 고객 기반 확충에 투자할 계획입니다. 이는 사이버보안 산업에서의 지속적인 투자 관심을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/discern-security-raises-13-million-in-series-a-funding/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Onyx Security, 기업용 AI 에이전트 제어를 위해 1억 1,300만 달러 자금 조달",
+      "summary": "사이버보안 회사 Onyx Security가 기업 환경에서 AI 에이전트를 제어하고 관리하기 위한 솔루션 개발에 1억 1,300만 달러의 자금을 조달했습니다. 이 투자는 엔터프라이즈 조직들이 점점 더 복잡해지는 AI 기술의 보안 위험을 관리해야 한다는 필요성을 반영합니다. Onyx Security의 플랫폼은 기업의 AI 에이전트 배포를 모니터링하고 제어하는 데 중점을 두고 있습니다. 이 펀딩은 AI 보안 분야의 성장하는 투자 관심과 엔터프라이즈 AI 거버넌스의 중요성 증대를 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/onyx-security-raises-113-million-to-control-ai-agents-in-the-enterprise/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "'DangleGeddon': AI가 전 세계 규모로 잊혀진 DNS 레코드를 무기화할 수 있음",
+      "summary": "보안 연구에 따르면 인공지능(AI)이 조직들이 방치한 DNS 레코드를 대규모로 악용할 수 있는 위협이 등장했다. 이를 'DangleGeddon'이라 명명한 이 공격 방식은 더 이상 사용되지 않지만 여전히 활성화된 DNS 레코드를 표적으로 한다. 공격자들은 AI를 활용해 자동으로 이러한 잊혀진 DNS 기록을 찾아내고 장악함으로써 대규모 피해를 입힐 수 있다. 이는 기업들이 비활성화된 서비스나 도메인에 대한 DNS 레코드 정리 및 관리의 중요성을 강조하는 새로운 보안 위협이다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/danglegeddon-ai-could-weaponize-forgotten-dns-records-at-global-scale/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "반도체 기업 아날로그 디바이시스 데이터 유출 사건 공개",
+      "summary": "반도체 업계의 주요 기업인 아날로그 디바이시스가 데이터 유출 사건을 공식 공개했습니다. 이 사건은 랜섬웨어 공격과 관련된 것으로 보여지며, 회사의 민감한 정보가 침해되었을 것으로 예상됩니다. 아날로그 디바이시스는 반도체 산업에서 중요한 위치를 차지하고 있는 기업으로, 이번 침해 사건은 업계 전체에 영향을 미칠 수 있습니다. 회사는 관련 당국과 협력하여 사건을 조사하고 있으며, 추가 정보를 공개할 예정입니다. 이는 최근 증가하고 있는 반도체 산업을 대상으로 한 사이버 공격의 또 다른 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/semiconductor-firm-analog-devices-discloses-data-breach/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "美 상원의원 “구형 VPN 퇴출해야”... 러·중 해커 VPN 악용 대응 강화 요구",
+      "summary": "구형 VPN 퇴출 및 제로트러스트 전환 촉구연방기관 원격접속 보안체계 전면 개편 제안[보안뉴스 김형근 기자] 러시아와 중국 해커들이 구형 가상사설망(VPN)의 취약점을 악용해 미국 연방기관 네트워크를 공격한 사례가 잇따르면서, 미국 정부가 노후 원격접속 시스템을 전면 퇴출해야 한다는 주장이 상원에서 제기됐다.론 와이든(Ron Wyden) 미국 상원의원은 구",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144940&kind=&sub_kind=",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 78] 등잔 밑이 어둡다(8)-블랙박스 비밀번호 꼭 필요한 이유",
+      "summary": "차량용 블랙박스 비밀번호를 설정하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐, 안 지키느냐의",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144230&kind=&sub_kind=",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 노바소프트, ISEC 2026에서 AI 기반 통합보안 플랫폼 선보인다",
+      "summary": "AI 기술을 접목한 보안 혁신과 통합 관리 체계로 기업의 효율적인 정보보안 운영 지원[보안뉴스 엄호식 기자] 정보보안 전문기업 노바소프트가 최근 S정유기업과 I은행 등 다양한 산업군에 통합 정보보안 솔루션 구축을 성공적으로 수행하며 시장 경쟁력을 확대하고 있는 가운데, 국내 대표 정보보안 컨퍼런스인 ISEC 2026에 참가해 AI 기반 통합보안 플랫폼과 차",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144893&kind=&sub_kind=",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 포티넷코리아, 포티AI·포티OS 8.0 등 AI 보안전략 공개",
+      "summary": "생성형 AI 위협 대응·AI 활용 보안 운영 새 패러다임[보안뉴스 강현주 기자] 글로벌 네트워크 보안 융합 솔루션 리더 포티넷코리아(북아시아 총괄 체리 펑)가 오는 8월 11일부터 12일까지 양일간 개최되는 ‘ISEC 2026’에 플래티넘 스폰서로 참가한다. 이번 행사에서는 포티넷코리아 김수영 상무와 조현구 이사가 AI 기반 사이버 위협에 대한 대응 전략과",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144867&kind=&sub_kind=",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "과기정통부·KISIA, 차세대 사이버보안 인재 발굴 위한 ‘2026 KISIA CTF’ 개최",
+      "summary": "최우수팀에 과기정통부 장관상 및 상금 500만원 수여 [보안뉴스 원병철 기자] 과학기술정보통신부(부총리 겸 과학기술정보통신부 장관 배경훈, 과기정통부)와 한국정보보호산업협회(회장 김진수, KISIA)는 차세대 사이버보안 인재를 발굴하기 위해 ‘2026 KISIA CTF 대회’를 개최한다고 밝혔다. ‘2026 KISIA CTF 대회’는 정보보호 분야에 관심",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144965&kind=&sub_kind=",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "핀텔, 공군 기지에 ‘AI 경계감시망’ 구축하며 국방 사업 본격화",
+      "summary": "국산 NPU에 자체 AI 영상분석 소프트웨어 적용공군 기지 시작으로 해안·함정·항공 분야 확대 추진[보안뉴스 엄호식 기자] 인공지능(AI) 기술 선도 기업 핀텔이 공군 기지의 주요 경계 지역을 실시간 감시하는 국방 AI 사업에 진출했다. 핀텔은 ‘NPU 기반 지능형 영상감시체계 시범 구축 사업’을 수주했다고 30일 밝혔다.이번 사업은 공군 기지의 활주로와",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144964&kind=&sub_kind=",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "행정안전부, 제4회 재난안전데이터 활용 창업경진대회 수상작 발표",
+      "summary": "창업경진대회 통해 ‘트윈세이퍼’ 대상 수상[보안뉴스 엄호식 기자] 행정안전부(장관 윤호중)는 재난안전데이터를 활용한 창의적 아이디어와 혁신적인 사업 서비스를 발굴하기 위해 7월 27일 ‘제4회 재난안전데이터 활용 창업경진대회’를 개최하고 그 결과를 발표했다. 대회는 아이디어 기획과 제품 및 서비스 개발 2개 부문으로 진행됐으며 전문가로 구성된 심사위원단이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144962&kind=&sub_kind=",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "소방청, ‘고중량 드론’으로 고층건축물 화재진압 가능성 확인",
+      "summary": "국립소방연구원, 소방호스 연결해 고층 외부 화점 수평 방수 성능 실증방수 압력·거리·시간 등 정량 데이터 확보... 현장 적용 기술 고도화 추진 [보안뉴스 강초희 기자] 소방청 국립소방연구원(원장 김연상)은 28일부터 29일까지 충남 당진시 대한전선 케이블 타워에서 고중량 드론을 활용한 고층건축물 고도의 수평 방수 성능 실증을 마쳤다고 밝혔다.이번 실증은",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144958&kind=&sub_kind=",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "침해사고 4건 중 1건 AI 활용... “공격 비용 수백만원인데 피해 비용은 86억원”",
+      "summary": "핵심 인프라 산업에 공격 집중AI 모델 또는 AI 애플리케이션 대상 공격 20%[보안뉴스 강현주 기자] 전세계 침해사고 4건 중 1건이 AI를 활용한 공격으로 나타났다. 전년 대비 56% 증가한 수치다.30일 IBM은 ‘2026 데이터 유출 비용 보고서’ 내용을 토대로 이같이 밝혔다. 이번 보고서는 IBM의 후원으로 포네몬연구소가 수행했으며, 2025년 3",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144960&kind=&sub_kind=",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "조달청, ‘조달자율화 시범사업’ 상반기 점검회의 개최",
+      "summary": "외부 평가위원·관계 부처 참석 전체 회의상반기 점검 및 현장 제언 청취[보안뉴스 엄호식 기자] 조달청(청장 백승보)은 30일 정부대전청사에서 2026년 상반기 조달자율화 시범사업 점검회의’를 개최했다.이번 회의에는 외부 평가위원과 관계 부처 관계자들이 참석해 상반기 시범사업 추진 결과를 점검하고, 하반기 운영 계획에 대한 의견을 나누었다.조달청은 지난 1월",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144959&kind=&sub_kind=",
+      "date": "2026-07-30"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "[김정덕의 인간중심보안-1] 신뢰, 보안의 방패이자 아킬레스건",
@@ -11903,215 +12133,8 @@
       "source": "BleepingComputer",
       "sourceUrl": "https://www.bleepingcomputer.com/news/security/french-govt-says-tchap-breach-affected-over-73-000-accounts/",
       "date": "2026-06-12"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[속담으로 배우는 100가지 보안 습관 38] 믿는 도끼에 발등 찍힌다(8)-인터폰 가림막 하나가 만드는 보안 사각지대",
-      "summary": "현관문 앞에 카메라(인터폰)를 가리는 물건이 없는지 확인하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다.",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143576&kind=&sub_kind=",
-      "date": "2026-06-12"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "유로폴, 랜섬웨어 업자 자금 세탁 조직 ‘아우디A6’ 해체",
-      "summary": "[보안뉴스 강현주 기자] 유럽사법협력기구(유로폴)이 전 세계 랜섬웨어 범죄자들의 검은돈 약 3억8000만 달러(한화 약 5000억원)를 세탁해 준 대형 가상자산 세탁 서비스 ‘아우디A6’(AudiA6)를 국제 수사 당국 공조로 해체했다.11일(현지시간) 외신 보도에 따르면, 유로폴은 이번에 적발된 ‘아우디A6’ 서비스가 최소 15건 이상의 국제 랜섬웨어 공",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144096&kind=&sub_kind=",
-      "date": "2026-06-12"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[2026 IPS 솔루션 리포트] 연결, 확장, 전문화... AI 열풍 속 진화하는 IPS 시장",
-      "summary": "IPS, IDS는 네트워크 보안 필수 제품군AI, 클라우드, 트래픽 폭증... 성숙한 시장 속 새로운 기회들보안 기능 통합화-플랫폼화 대응, 차별적 성능과 고객 지원 강화 IPS 전문기업 집중 분석: 시큐아이, 윈스테크넷[보안뉴스 한세희 기자] 로봇들이 산업 현장은 물론, 식당이나 쇼핑몰 등 일상 상업 공간으로 확산되고 있다. 하지만 로봇 보안에 대해선 여",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144097&kind=&sub_kind=",
-      "date": "2026-06-12"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[카드뉴스] “해킹 아니라 업데이트인데 수술실 마비?”… 미 FDA 패치 의무화가 부른 병원 전산망의 역설",
-      "summary": "의료기기 해킹 방지를 위한 미 FDA의 펌웨어 패치 의무화 규제 이후, 시스템 최적화가 부족한 병원 전산망 내에서 보안 업데이트가 시스템 충돌을 일으키며 의료기기가 강제 다운되는 사고가 빈발하고 있다. 위협 확산을 막기 위한 네트워크 강제 격리 및 락다운 조치가 오히려 병원 내 주요 전산 인프라와 수술실 기능을 전면 마비시키는 등, 사이버 보안을 지키려다",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144093&kind=&sub_kind=",
-      "date": "2026-06-12"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "샤이니헌터스, 오라클 제로데이 취약점 악용... 세계 교육기관 100여곳 공격",
-      "summary": "구글 맨디언트, 오라클 피플소프트 환경 관리 컴포넌트 취약점 악용 주의보애저로 위장한 원격 제어 에이전트 심어 내부망 측면 이동, 데이터 탈취[보안뉴스 조재호 기자] 구글 위협인텔리전스그룹(GTIG)이 유명 해킹 조직 샤이니헌터스(ShinyHunters)의 대규모 데이터 탈취 및 갈취 캠페인을 포착했다. 12일 구글 클라우드 공식 블로그에 따르면, 샤이니헌",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144092&kind=&sub_kind=",
-      "date": "2026-06-12"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "“인증 맹신 버려라”... ISMS-P 개편, 양자 보안 위협 속 차세대 생존법",
-      "summary": "기업보안협, ‘2026년 제3차 시큐리티 라운드 테이블’ 개최... 유출 사고 이면의 관리 체계 맹점 진단홍성권 나인시큐리티 대표 “ISMS-P는 보안의 시작점일 뿐 완벽한 예방 담보 못 해”박유신 베이스스톤 대표 “공개키 의존하는 제로 트러스트 한계, 양자 동적 키로 극복”[보안뉴스 조재호 기자] 최근 쿠팡 과징금 부과와 티빙 개인정보 유출 등 대규모 사",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144091&kind=&sub_kind=",
-      "date": "2026-06-12"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "방미통위, 주민번호·CI 분리 보관 내년 1월 시행... 당초 계획보다 4개월 앞당겨",
-      "summary": "12일 제17차 전체회의 개최... 연계정보 생성 처리 기준 고시 개정안 조기 시행 추진[보안뉴스 조재호 기자] 방송미디어통신위원회가 주민등록번호와 연계정보(CI)의 분리 보관 의무화 시기를 당초 예정보다 4개월 앞당겨 내년 1월 1일 시행한다. 최근 대규모 개인정보 유출 사고에서 주민등록번호와 이를 대체하는 식별 수단인 연계정보가 함께 노출되며 2차 피해",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144090&kind=&sub_kind=",
-      "date": "2026-06-12"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "대한민국, 인공지능 및 6G 보안 국제표준 개발 착수... 신규 표준 14건 등 승인",
-      "summary": "한국 제안 신규 표준화 항목 14건 승인국제표준 7건 사전채택, 국제표준 및 기술보고서 등 8건 승인[보안뉴스 강현주 기자] 우리나라가 제안한 인공지능 및 6G 보안 국제표준들이 승인되면서 본격 개발에 착수하게 됐다. 과학기술정보통신부(부총리 겸 장관 배경훈)는 국제전기통신연합 전기통신표준화 부문(ITU-T) 정보보호연구반(SG17, 수석대표 염흥열 순천향",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144086&kind=&sub_kind=",
-      "date": "2026-06-12"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[해킹을 결제하시겠습니까?] #7. “환불만 믿었는데...” 오픈마켓 판매자 사칭 사기 구분법",
-      "summary": "품절·배송 지연 문자로 접근해 링크 클릭 유도앱 설치나 인증번호 요구하면 즉시 의심해야 “엥. 지난주에 산 티셔츠 품절이라 환불해준대.” “환불하게?” “그래야지. 여기 링크로 들어가면 되나?” “링크라고?” “응. 환불 신청하려면 링크를 클릭하라는데?” “링크",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144028&kind=&sub_kind=",
-      "date": "2026-06-12"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "AI와 데이터가 바꾸는 도시... 수원·부산·성남 스마트도시 선정",
-      "summary": "국토부, 2026년 스마트도시 조성사업 대상지로 수원·부산·성남 선정AI·로봇·모빌리티·헬스케어 기반 스마트도시 서비스 구축 추진경남·태안은 데이터허브 시범사업 선정... AI 관광·연안 안전관리 실증[보안뉴스 강초희 기자] 국토교통부(장관 김윤덕)는 ‘2026년 스마트도시 조성사업’ 공모 결과, 거점형은 경기도 수원시, 특화단지는 부산광역시, 경기도 성남",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144083&kind=&sub_kind=",
-      "date": "2026-06-12"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "“대학 63% 생성형 AI 도입했지만 인프라·인력·예산 미비”... ‘2026 교육정보화 컨퍼런스’ 성료",
-      "summary": "한국교육정보화재단, AX 시대 교육정보화 패러다임 전환 논의“정부 지원·대학 결단·공동 기반 함께 가야” [보안뉴스 강현주 기자] 생성형 AI를 도입한 대학은 63%에 이르지만 90% 이상의 대학이 자체 GPU 서버를 갖추지 못하는 등 인프라와 인력, 예산은 미비한 실정이라는 지적이 나왔다.한국교육정보화재단(KREN)은 6월 10일부터 12일까지 제주 신화",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144084&kind=&sub_kind=",
-      "date": "2026-06-12"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "LIG D&A, 국내 최초 ‘방산 에이전틱 AI 공방 해커톤’ 개최... “방산 AI 새 전장 열린다”",
-      "summary": "제1회 DAH (Defense AI Cyber Security Hackathon) 8월 개최방산 및 사이버 보안 도메인 문제 해결하는 최고 수준 기술 경연장, 미래 방산 생태계 확장 기대 [보안뉴스 한세희 기자] 인공지능(AI) 및 디지털 방산 기술을 선도하는 LIG 디펜스&에어로스페이스(LIG D&A)가 국내 최초로 방산 분야 ‘에이전틱 AI 공방 해커톤",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144082&kind=&sub_kind=",
-      "date": "2026-06-12"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "델 테크놀로지스 첫 글로벌 인턴십 경험 구축하기",
-      "summary": "델 테크놀로지스는 인턴들에게 의미 있는 실무 경험을 제공하는 첫 글로벌 인턴십 프로그램을 출범했습니다. 이 프로그램은 단순한 교육을 넘어 인턴들이 실제 프로젝트에 참여하고 전문가들과 깊이 있는 관계를 형성할 수 있는 기회를 제공합니다. 글로벌 규모의 이 인턴십은 미래의 리더를 양성하는 발판이 되어 전 세계 젊은 인재들을 델 테크놀로지스의 미래 핵심 인력으로 성장시키고 있습니다. 프로그램을 통해 인턴들은 실무 역량을 키우면서 동시에 글로벌 네트워크를 구축할 수 있습니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/building-dell-technologies-first-ever-global-internship-experience/",
-      "date": "2026-06-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "XREAL, 혼합현실에서 하드웨어를 제거하다",
-      "summary": "XREAL은 Apple과 Meta가 계속 추가하던 하드웨어 요소들을 제거함으로써 거의 100만 대에 가까운 증강현실 안경을 출시했습니다. 이러한 접근 방식은 무게, 복잡성, 비용을 크게 줄일 수 있었습니다. 대신 XREAL은 연결된 기기와의 상호작용에 초점을 맞추어 사용자 경험을 최적화했습니다. 이는 독립형 AR 기기가 아닌 보조 디스플레이로서의 위치를 명확히 한 전략입니다. 결과적으로 더 가볍고, 저렴하며, 실용적인 제품을 시장에 내놓을 수 있었습니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/xreal-rips-the-hardware-out-of-mixed-reality/",
-      "date": "2026-06-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "오라클, PeopleSoft 취약점 대응 - 제로데이 공격 보도 중",
-      "summary": "오라클이 PeopleSoft 제품의 취약점을 해결하고 있으며, 이 취약점이 실제로 제로데이 공격에 악용되고 있다는 보도가 나왔습니다. ShinyHunters 등의 위협 행위자들이 이 미패치 취약점을 악의적으로 이용하여 조직들을 공격하고 있는 것으로 알려졌습니다. 오라클은 긴급히 보안 패치를 통해 이 취약점을 해결하기 위해 움직이고 있습니다. PeopleSoft는 전 세계 많은 기업들이 사용하는 인사, 재무 관리 시스템이므로 이번 취약점은 광범위한 영향을 미칠 수 있습니다. 기업들은 즉시 보안 업데이트를 적용하고 시스템 보안을 강화해야 합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/oracle-addresses-peoplesoft-vulnerability-amid-reports-of-zero-day-attacks/",
-      "date": "2026-06-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "경보 피로가 그 자체로 보안 위협이 되고 있다",
-      "summary": "보안 운영 센터(SOC)와 보안 담당자들이 과도한 경보와 알림으로 인한 '경보 피로(Alert Fatigue)'를 경험하고 있으며, 이것이 새로운 보안 위협이 되고 있다. 수많은 오탐 경보에 지친 보안팀은 실제 위협 신호를 놓칠 수 있어 심각한 보안 사고로 이어질 수 있다. AI 및 자동화 기술을 통해 경보를 효과적으로 필터링하고 우선순위를 매기는 것이 이 문제 해결의 핵심이다. SecurityWeek의 이 기사는 조직이 경보 피로를 극복하고 SOC 효율성을 높이는 방법에 대해 다룬다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/alert-fatigue-is-becoming-a-security-threat-of-its-own/",
-      "date": "2026-06-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "CISA, 연방정부 기관에 위험도 기반 보안 패치 우선순위 지정 지시",
-      "summary": "미국 사이버보안기반시설보안청(CISA)이 연방정부 기관들에 대해 보안 패치를 위험도 기반으로 우선순위를 정하도록 지시했습니다. 이는 CISA의 행정명령(BOD)을 통해 발표된 새로운 취약점 관리 정책으로, 기관들이 CISA KEV(알려진 악용 취약점) 목록을 참고하여 패치 적용 순서를 결정해야 함을 의미합니다. 이러한 위험도 기반 접근 방식은 제한된 보안 자원을 효율적으로 활용하면서 가장 위협적인 취약점부터 해결하는 데 초점을 맞추고 있습니다. 연방정부 기관들은 이 지시사항에 따라 패치 관리 프로세스를 개선하고 사이버보안 태세를 강화해야 합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/cisa-directs-federal-agencies-to-prioritize-security-patches-based-on-risk/",
-      "date": "2026-06-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "OnyxC2 스틸러, 월 250달러에 엔터프라이즈급 데이터 도용 기능 제공",
-      "summary": "OnyxC2 스틸러는 사이버범죄자들을 대상으로 월 250달러의 구독료로 엔터프라이즈급 데이터 탈취 기능을 제공하는 악성코드이다. 이 위협은 조직화된 사이버범죄 집단이 저렴한 비용으로 고급 정보 탈취 능력을 확보할 수 있게 해준다. SecurityWeek의 보도에 따르면 OnyxC2는 C2(명령 및 제어) 기능을 갖춘 고급 스틸러로 분류되고 있다. 이러한 악성코드-서비스(MaaS) 모델의 확산은 중소기업을 포함한 다양한 규모의 조직에 대한 데이터 탈취 위협을 증대시키고 있다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/onyxc2-stealer-offers-cybercriminals-enterprise-grade-theft-for-250-a-month/",
-      "date": "2026-06-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "해커들이 Langflow 취약점을 악용하여 원격 코드 실행 수행",
-      "summary": "보안 연구원들이 Langflow 플랫폼의 취약점을 악용하는 해킹 공격을 적발했습니다. 이 취약점을 통해 공격자들은 영향받은 시스템에서 원격으로 임의의 코드를 실행할 수 있게 됩니다. Langflow는 대규모 언어 모델(LLM) 기반 애플리케이션을 구축하는 데 사용되는 인기 있는 플랫폼으로, 이 보안 결함은 관련 시스템들의 심각한 침해 위험을 초래합니다. 보안 전문가들은 영향받은 사용자들에게 즉시 패치를 적용할 것을 권고하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/hackers-exploit-langflow-vulnerability-for-remote-code-execution/",
-      "date": "2026-06-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "지멘스, Desigo CC 파일이 보안 엔진에 의해 악성코드로 탐지된다고 발표",
-      "summary": "지멘스는 자사의 Desigo CC 제품의 파일들이 다양한 보안 엔진에 의해 악성코드로 잘못 탐지되는 문제를 보고했습니다. 이는 거짓 양성(False Positive) 경보로 판단되며, 실제 악성코드가 아니라는 것이 지멘스의 입장입니다. 해당 파일들은 정상적인 제품 구성 요소이지만 보안 소프트웨어의 휴리스틱 탐지 방식으로 인해 악성으로 인식되고 있습니다. 이러한 오탐지로 인해 사용자들은 시스템 안정성 문제를 경험할 수 있으며, 지멘스는 이 문제의 해결을 위해 노력하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/siemens-says-desigo-cc-files-flagged-as-malware-by-security-engines/",
-      "date": "2026-06-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "FBI, 중국이 미국 근로자를 대상으로 모집하는 데 사용한 13개 웹사이트 압수",
-      "summary": "FBI가 중국이 미국 근로자를 표적으로 삼고 모집하기 위해 사용했다고 판단되는 13개의 웹사이트를 압수했습니다. 이는 중국의 미국 인력 모집 및 정보 수집 활동에 대한 FBI의 적극적인 대응을 보여주는 사례입니다. 압수된 웹사이트들은 미국 근로자들, 특히 국방 및 기술 분야 종사자들을 대상으로 한 채용 사기나 스파이 모집 활동에 이용되었을 것으로 추정됩니다. 이번 조치는 중국의 사이버 및 인력 정보 수집 활동으로부터 미국을 보호하기 위한 정부의 노력을 나타냅니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/fbi-seizes-13-websites-that-officials-say-were-used-by-china-to-target-and-recruit-us-workers/",
-      "date": "2026-06-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Splunk, Palo Alto Networks 심각한 취약점 패치",
-      "summary": "Splunk와 Palo Alto Networks가 심각한 보안 취약점에 대한 패치를 공개했습니다. 이 취약점들은 공격자들에 의해 악용될 수 있는 잠재력이 높아 긴급 대응이 필요합니다. 두 회사 모두 영향을 받은 시스템에 대한 긴급 업데이트를 배포했으며, 사용자들은 즉시 패치 적용을 권장받고 있습니다. 이번 취약점 패치는 사이버 보안 커뮤니티에서 중요한 관심사가 되고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/splunk-palo-alto-networks-patch-severe-vulnerabilities/",
-      "date": "2026-06-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "GreatXML 제로데이 익스플로잇, BitLocker 우회",
-      "summary": "GreatXML이라는 새로운 Windows BitLocker 우회 익스플로잇이 발견되었습니다. 이 제로데이 취약점은 Chaotic Eclipse라는 위협 주체와 관련이 있으며, Windows 시스템의 암호화 보안을 우회할 수 있습니다. 해당 익스플로잇은 Microsoft Defender를 포함한 기존 보안 솔루션을 회피하는 것으로 알려져 있습니다. 이 제로데이 공격은 엔드포인트 보안 및 시스템 암호화에 심각한 위협을 미치고 있으며, 영향받은 Windows 사용자들은 긴급 대응이 필요합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/greatxml-zero-day-exploit-bypasses-bitlocker/",
-      "date": "2026-06-11"
     }
   ],
-  "totalItems": 3109,
+  "totalItems": 3132,
   "hasArchive": true
 }
