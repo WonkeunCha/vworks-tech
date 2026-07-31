@@ -2,6 +2,213 @@
   "quarter": "2026-Q3",
   "items": [
     {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell AI 데이터 플랫폼: 기술적 관점",
+      "summary": "프로덕션 AI의 성공은 데이터 플레인에 크게 의존합니다. Dell AI 데이터 플랫폼은 개방형 및 페더레이션 아키텍처를 활용하여 데이터 처리의 병목 현상을 제거합니다. 이는 AI 모델 학습과 배포 과정에서 데이터 흐름을 최적화하고 효율성을 극대화합니다. 기술적으로 이 플랫폼은 다양한 데이터 소스를 통합하고 분산 환경에서 안정적인 데이터 관리를 가능하게 합니다. 결과적으로 조직은 더 빠르고 확장 가능한 AI 솔루션을 구축할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/dell-ai-data-platform-a-technical-perspective/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "노트북 팬을 안전하게 청소하는 방법: 단계별 가이드",
+      "summary": "노트북 팬의 안전한 청소는 장시간 과열을 방지하고 기기의 성능을 유지하는 데 매우 중요합니다. 압축 공기를 사용하여 정기적으로 팬의 먼지를 제거함으로써 과열과 소음 문제를 효과적으로 줄일 수 있습니다. 청소 시에는 팬의 회전을 고정시키고 분해 시 정적 방전을 피하는 등 주의사항을 철저히 지켜야 합니다. 올바른 청소 방법을 따르면 노트북의 열 관리 효율을 크게 향상시킬 수 있으며, 이는 장기적으로 기기의 수명 연장에도 도움이 됩니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-to-clean-a-laptop-fan-safely-step-by-step-guide/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "신뢰 구축과 미래 리더 양성: Lan의 여정",
+      "summary": "Lan은 지원 엔지니어에서 이사로 성장한 경험을 통해 신뢰와 투명성을 바탕으로 한 리더십 철학을 개발했습니다. 그녀의 여정은 조직 내에서 다양한 역할을 수행하면서 팀원들을 경청하고 그들의 성장을 지원하는 것의 중요성을 강조합니다. Lan은 현재 직원들을 권한부여하고 그들의 잠재력을 개발하도록 격려하는 데 열정을 가지고 있습니다. 그녀는 기술과 인간적 접근의 결합을 통해 더 나은 직장 문화를 조성하려고 노력하고 있습니다. 또한 다음 세대의 리더들을 양성하는 것이 조직의 장기적 성공을 위해 필수적이라고 믿고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/building-trust-and-future-leaders-lan-s-journey/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, PLC 대상 조직적 공격 이후 수도 부문에 OT 보안 강화 촉구",
+      "summary": "미국 사이버보안기반시설보안청(CISA)이 산업제어시스템(ICS) 및 운영기술(OT) 환경을 표적으로 한 조직적인 공격에 대응하여 수도 부문에 보안 강화를 긴급히 촉구했습니다. 해당 공격은 PLC(프로그래머블 로직 컨트롤러)를 직접 겨냥한 것으로, 물 공급 인프라에 심각한 위협을 초래할 수 있습니다. CISA는 수도 시설 운영자들에게 OT 환경에 대한 접근 제어 강화, 네트워크 분할, 그리고 정기적인 보안 감시 등의 대응 조치를 권고했습니다. 이번 사건은 중요 기반시설 부문의 사이버 위협이 점점 증가하고 있음을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisa-urges-water-sector-to-protect-ot-after-coordinated-attacks-on-plcs/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국 뱅크오브아메리카, 사이버보안 기업 MDSec 인수",
+      "summary": "미국 뱅크오브아메리카(Bank of America)가 사이버보안 회사 MDSec을 인수하기로 발표했습니다. 이번 인수는 금융기관의 사이버보안 역량 강화를 위한 전략적 결정으로 평가됩니다. MDSec은 침투 테스트 및 보안 컨설팅 서비스를 제공하는 전문 사이버보안 기업입니다. 이번 거래를 통해 뱅크오브아메리카는 자신의 사이버보안 역량을 한층 강화할 수 있을 것으로 예상됩니다. 금융 부문에서 사이버위협이 증가하는 상황에서 대형 금융기관의 보안 인프라 강화 움직임이 이어지고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/bank-of-america-to-acquire-cybersecurity-firm-mdsec/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "오크타, 정체성 위협 탐지 기업 퍼미소 인수",
+      "summary": "오크타(Okta)가 정체성 위협 탐지 전문 기업인 퍼미소(Permiso)를 인수하기로 결정했습니다. 이번 인수를 통해 오크타는 클라우드 환경에서의 정체성 기반 보안 위협 탐지 및 대응 역량을 강화할 수 있을 것으로 예상됩니다. 퍼미소는 클라우드 인프라의 정체성 관련 보안 위험을 감지하고 분석하는 기술을 보유하고 있습니다. 이 인수는 오크타의 제로 트러스트 보안 전략의 일환으로, 기업의 정체성 및 접근 제어 보안을 더욱 강화하려는 움직임입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/okta-to-acquire-identity-threat-detection-firm-permiso/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "시간을 초월한 컴플라이언스: 더 큰 프레임워크보다 더 나은 질문이 중요한 이유",
+      "summary": "본 기사는 사이버보안 컴플라이언스에 있어 복잡한 대규모 프레임워크보다는 올바른 질문을 던지는 것이 더 효과적이라는 관점을 제시합니다. 지속적으로 변화하는 보안 위협 환경에서 조직들이 직면한 컴플라이언스 문제에 대한 근본적인 접근 방식의 재검토를 강조합니다. 저자는 조직이 자신의 상황에 맞는 실질적인 질문을 통해 더 효율적이고 실용적인 보안 전략을 수립할 수 있다고 주장합니다. 특히 AI 등 신기술의 도입으로 인해 기존의 정적인 컴플라이언스 체계로는 대응하기 어려워지고 있다는 점을 언급합니다. 이 기사는 기업이 장기적이고 지속 가능한 보안 문화를 구축하기 위해 얼마나 올바른 질문이 중요한지를 조명합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/timeless-compliance-why-better-questions-beat-bigger-frameworks/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "DataBahn, 에이전틱 데이터 파이프라인 관리 솔루션으로 4천만 달러 펀딩 유치",
+      "summary": "데이터 보안 솔루션 업체 DataBahn이 에이전틱 기술 기반 데이터 파이프라인 관리 플랫폼 개발을 위해 4천만 달러 규모의 시리즈 펀딩을 성공적으로 유치했습니다. 이 펀딩은 기업들의 데이터 보안 및 관리 수요 증가를 반영하는 것으로, DataBahn의 자동화된 데이터 처리 솔루션이 시장에서 주목받고 있음을 보여줍니다. DataBahn은 유치한 자금을 활용해 플랫폼 기능 확대와 시장 진출을 가속화할 계획입니다. 이는 데이터 보호 및 사이버보안 분야의 지속적인 투자 확대 추세를 반영합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/databahn-raises-40-million-for-agentic-data-pipeline-management/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Cantina, 800만 달러 펀딩으로 베일을 벗다",
+      "summary": "사이버보안 스타트업 Cantina가 스텔스 모드에서 벗어나 800만 달러의 초기 펀딩을 확보했다. 이 회사는 취약점 관리 분야에 집중하고 있으며, 기업의 사이버보안 태세를 강화하는 데 주력할 계획이다. 이번 펀딩은 글로벌 사이버보안 시장에서 취약점 관리 솔루션에 대한 수요가 증가하고 있음을 보여주는 사례다. Cantina는 이 자금을 기반으로 제품 개발과 시장 확대를 추진할 것으로 예상된다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cantina-emerges-from-stealth-with-8-million-in-funding/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "디스턴 시큐리티, 시리즈 A 펀딩으로 1,300만 달러 조달",
+      "summary": "사이버보안 회사 디스턴 시큐리티(Discern Security)가 시리즈 A 펀딩 라운드에서 1,300만 달러를 성공적으로 조달했습니다. 이번 자금 조달은 회사의 제품 개발 가속화와 시장 확대를 지원할 것으로 예상됩니다. 디스턴 시큐리티는 사이버보안 솔루션 제공 기업으로서 이번 펀딩을 통해 기술 혁신과 고객 기반 확충에 투자할 계획입니다. 이는 사이버보안 산업에서의 지속적인 투자 관심을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/discern-security-raises-13-million-in-series-a-funding/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Onyx Security, 기업용 AI 에이전트 제어를 위해 1억 1,300만 달러 자금 조달",
+      "summary": "사이버보안 회사 Onyx Security가 기업 환경에서 AI 에이전트를 제어하고 관리하기 위한 솔루션 개발에 1억 1,300만 달러의 자금을 조달했습니다. 이 투자는 엔터프라이즈 조직들이 점점 더 복잡해지는 AI 기술의 보안 위험을 관리해야 한다는 필요성을 반영합니다. Onyx Security의 플랫폼은 기업의 AI 에이전트 배포를 모니터링하고 제어하는 데 중점을 두고 있습니다. 이 펀딩은 AI 보안 분야의 성장하는 투자 관심과 엔터프라이즈 AI 거버넌스의 중요성 증대를 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/onyx-security-raises-113-million-to-control-ai-agents-in-the-enterprise/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "'DangleGeddon': AI가 전 세계 규모로 잊혀진 DNS 레코드를 무기화할 수 있음",
+      "summary": "보안 연구에 따르면 인공지능(AI)이 조직들이 방치한 DNS 레코드를 대규모로 악용할 수 있는 위협이 등장했다. 이를 'DangleGeddon'이라 명명한 이 공격 방식은 더 이상 사용되지 않지만 여전히 활성화된 DNS 레코드를 표적으로 한다. 공격자들은 AI를 활용해 자동으로 이러한 잊혀진 DNS 기록을 찾아내고 장악함으로써 대규모 피해를 입힐 수 있다. 이는 기업들이 비활성화된 서비스나 도메인에 대한 DNS 레코드 정리 및 관리의 중요성을 강조하는 새로운 보안 위협이다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/danglegeddon-ai-could-weaponize-forgotten-dns-records-at-global-scale/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "반도체 기업 아날로그 디바이시스 데이터 유출 사건 공개",
+      "summary": "반도체 업계의 주요 기업인 아날로그 디바이시스가 데이터 유출 사건을 공식 공개했습니다. 이 사건은 랜섬웨어 공격과 관련된 것으로 보여지며, 회사의 민감한 정보가 침해되었을 것으로 예상됩니다. 아날로그 디바이시스는 반도체 산업에서 중요한 위치를 차지하고 있는 기업으로, 이번 침해 사건은 업계 전체에 영향을 미칠 수 있습니다. 회사는 관련 당국과 협력하여 사건을 조사하고 있으며, 추가 정보를 공개할 예정입니다. 이는 최근 증가하고 있는 반도체 산업을 대상으로 한 사이버 공격의 또 다른 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/semiconductor-firm-analog-devices-discloses-data-breach/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "美 상원의원 “구형 VPN 퇴출해야”... 러·중 해커 VPN 악용 대응 강화 요구",
+      "summary": "구형 VPN 퇴출 및 제로트러스트 전환 촉구연방기관 원격접속 보안체계 전면 개편 제안[보안뉴스 김형근 기자] 러시아와 중국 해커들이 구형 가상사설망(VPN)의 취약점을 악용해 미국 연방기관 네트워크를 공격한 사례가 잇따르면서, 미국 정부가 노후 원격접속 시스템을 전면 퇴출해야 한다는 주장이 상원에서 제기됐다.론 와이든(Ron Wyden) 미국 상원의원은 구",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144940&kind=&sub_kind=",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 78] 등잔 밑이 어둡다(8)-블랙박스 비밀번호 꼭 필요한 이유",
+      "summary": "차량용 블랙박스 비밀번호를 설정하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐, 안 지키느냐의",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144230&kind=&sub_kind=",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 노바소프트, ISEC 2026에서 AI 기반 통합보안 플랫폼 선보인다",
+      "summary": "AI 기술을 접목한 보안 혁신과 통합 관리 체계로 기업의 효율적인 정보보안 운영 지원[보안뉴스 엄호식 기자] 정보보안 전문기업 노바소프트가 최근 S정유기업과 I은행 등 다양한 산업군에 통합 정보보안 솔루션 구축을 성공적으로 수행하며 시장 경쟁력을 확대하고 있는 가운데, 국내 대표 정보보안 컨퍼런스인 ISEC 2026에 참가해 AI 기반 통합보안 플랫폼과 차",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144893&kind=&sub_kind=",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 포티넷코리아, 포티AI·포티OS 8.0 등 AI 보안전략 공개",
+      "summary": "생성형 AI 위협 대응·AI 활용 보안 운영 새 패러다임[보안뉴스 강현주 기자] 글로벌 네트워크 보안 융합 솔루션 리더 포티넷코리아(북아시아 총괄 체리 펑)가 오는 8월 11일부터 12일까지 양일간 개최되는 ‘ISEC 2026’에 플래티넘 스폰서로 참가한다. 이번 행사에서는 포티넷코리아 김수영 상무와 조현구 이사가 AI 기반 사이버 위협에 대한 대응 전략과",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144867&kind=&sub_kind=",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "과기정통부·KISIA, 차세대 사이버보안 인재 발굴 위한 ‘2026 KISIA CTF’ 개최",
+      "summary": "최우수팀에 과기정통부 장관상 및 상금 500만원 수여 [보안뉴스 원병철 기자] 과학기술정보통신부(부총리 겸 과학기술정보통신부 장관 배경훈, 과기정통부)와 한국정보보호산업협회(회장 김진수, KISIA)는 차세대 사이버보안 인재를 발굴하기 위해 ‘2026 KISIA CTF 대회’를 개최한다고 밝혔다. ‘2026 KISIA CTF 대회’는 정보보호 분야에 관심",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144965&kind=&sub_kind=",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "핀텔, 공군 기지에 ‘AI 경계감시망’ 구축하며 국방 사업 본격화",
+      "summary": "국산 NPU에 자체 AI 영상분석 소프트웨어 적용공군 기지 시작으로 해안·함정·항공 분야 확대 추진[보안뉴스 엄호식 기자] 인공지능(AI) 기술 선도 기업 핀텔이 공군 기지의 주요 경계 지역을 실시간 감시하는 국방 AI 사업에 진출했다. 핀텔은 ‘NPU 기반 지능형 영상감시체계 시범 구축 사업’을 수주했다고 30일 밝혔다.이번 사업은 공군 기지의 활주로와",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144964&kind=&sub_kind=",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "행정안전부, 제4회 재난안전데이터 활용 창업경진대회 수상작 발표",
+      "summary": "창업경진대회 통해 ‘트윈세이퍼’ 대상 수상[보안뉴스 엄호식 기자] 행정안전부(장관 윤호중)는 재난안전데이터를 활용한 창의적 아이디어와 혁신적인 사업 서비스를 발굴하기 위해 7월 27일 ‘제4회 재난안전데이터 활용 창업경진대회’를 개최하고 그 결과를 발표했다. 대회는 아이디어 기획과 제품 및 서비스 개발 2개 부문으로 진행됐으며 전문가로 구성된 심사위원단이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144962&kind=&sub_kind=",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "소방청, ‘고중량 드론’으로 고층건축물 화재진압 가능성 확인",
+      "summary": "국립소방연구원, 소방호스 연결해 고층 외부 화점 수평 방수 성능 실증방수 압력·거리·시간 등 정량 데이터 확보... 현장 적용 기술 고도화 추진 [보안뉴스 강초희 기자] 소방청 국립소방연구원(원장 김연상)은 28일부터 29일까지 충남 당진시 대한전선 케이블 타워에서 고중량 드론을 활용한 고층건축물 고도의 수평 방수 성능 실증을 마쳤다고 밝혔다.이번 실증은",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144958&kind=&sub_kind=",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "침해사고 4건 중 1건 AI 활용... “공격 비용 수백만원인데 피해 비용은 86억원”",
+      "summary": "핵심 인프라 산업에 공격 집중AI 모델 또는 AI 애플리케이션 대상 공격 20%[보안뉴스 강현주 기자] 전세계 침해사고 4건 중 1건이 AI를 활용한 공격으로 나타났다. 전년 대비 56% 증가한 수치다.30일 IBM은 ‘2026 데이터 유출 비용 보고서’ 내용을 토대로 이같이 밝혔다. 이번 보고서는 IBM의 후원으로 포네몬연구소가 수행했으며, 2025년 3",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144960&kind=&sub_kind=",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "조달청, ‘조달자율화 시범사업’ 상반기 점검회의 개최",
+      "summary": "외부 평가위원·관계 부처 참석 전체 회의상반기 점검 및 현장 제언 청취[보안뉴스 엄호식 기자] 조달청(청장 백승보)은 30일 정부대전청사에서 2026년 상반기 조달자율화 시범사업 점검회의’를 개최했다.이번 회의에는 외부 평가위원과 관계 부처 관계자들이 참석해 상반기 시범사업 추진 결과를 점검하고, 하반기 운영 계획에 대한 의견을 나누었다.조달청은 지난 1월",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144959&kind=&sub_kind=",
+      "date": "2026-07-30"
+    },
+    {
       "id": "aHR0cDovL3d3dy5i",
       "title": "[김정덕의 인간중심보안-1] 신뢰, 보안의 방패이자 아킬레스건",
       "summary": "책임과 투명성으로 완성하는 보안 거버넌스[연재목차 Part 4. 지속가능 보안을 위한 거버넌스와 관리]1. 신뢰_보안의 방패이자 아킬레스건2. 보안의 레드 헬리콥터3. 사이버보안의 다면적 보안가치4. CISO 패러독스_큰 책임에 가려진 최소권한5. CEO 보안의 최종 책임자6. 최고경영층을 움직이는 설득의 기술7. BISO 제대로 도입하려면8. 규제와 리",
@@ -4881,10 +5088,10 @@
     }
   ],
   "sources": {
-    "보안뉴스": 282,
-    "Dell": 56,
+    "Dell": 59,
+    "SecurityWeek": 188,
+    "보안뉴스": 292,
     "VAST Data": 19,
-    "SecurityWeek": 178,
     "HPE": 7
   }
 }
