@@ -3152,9 +3152,129 @@
     "http://www.boannews.com/media/view.asp?idx=144970&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144969&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144968&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=144921&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=144921&kind=&sub_kind=",
+    "https://www.securityweek.com/balance-theory-raises-19-million-to-help-enterprises-manage-cybersecurity-investments/",
+    "https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/",
+    "http://www.boannews.com/media/view.asp?idx=144232&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144708&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144971&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144973&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144955&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144938&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144846&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144930&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144927&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144972&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 80] 등잔 밑이 어둡다(10)-인감도장 관리 잘못하면 생기는 일",
+      "summary": "인감도장과 인감증명서는 따로 보관하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐, 안 지키느냐의",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144232&kind=&sub_kind=",
+      "date": "2026-08-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "통제 부서에서 기술 전도사로... 토스증권이 짚은 AI 시대 보안 혁신",
+      "summary": "실무자가 스스로 판단하고 통제하는 사내 문화 조성다층적 운영 모델로 AI 활용 속도와 안전성 동시 확보장세인 CISO “보안 부서는 기준 전파하는 기술 전도사”[보안뉴스 조재호 기자] AI가 도입되면서 문서 초안 작성과 로그 패턴 분석 등 활용 범위가 넓어짐에 따라 보안팀이 감당해야 할 의사결정 업무가 급증하고 있다. 모든 AI 도구 사용 허가 요청이 쏠리",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144708&kind=&sub_kind=",
+      "date": "2026-08-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“AI 시대 개인정보보호 해법 찾는다”... 제3차 CPO 워크숍 11일 개최",
+      "summary": "개인정보위 후원 아래 공공·민간 CPO 및 보안 담당자 1000여명 결집AI 활용한 관리 체계 개선 및 데이터 전 생애주기 가시화 전략 심층 논의[보안뉴스 조재호 기자] CPO 워크숍 운영사무국이 주최하고 개인정보보호위원회가 후원하는 ‘2026년 제3차 CPO 워크숍’이 오는 11일 서울 코엑스 오디토리움에서 개최된다.이번 워크숍은 공공 및 민간 부문의 최",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144971&kind=&sub_kind=",
+      "date": "2026-08-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“CCTV 인프라도 IT의 영역”... 물리·융합보안 지식 한자리에",
+      "summary": "‘물리보안 분야 도메인 지식 교육’ 11·12일 양일간 코엑스서 진행융합보안 육성 정책 및 AI 시대 개인영상정보 보호 가이드라인 집중 해설[보안뉴스 조재호 기자] 한국영상정보연구조합과 시큐리티월드가 공동 주최하고 한국정보통신자격협회가 후원하는 ‘물리보안 분야 도메인 지식 교육’이 11·12일 양일간 서울 코엑스 2층 아셈볼룸 203호에서 열린다. 이번 행",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144973&kind=&sub_kind=",
+      "date": "2026-08-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] DDI·사이버리즌·넷위트니스, ISEC 2026 공동 부스 참가 “미래 보안 방향성 제시”",
+      "summary": "엔드포인트·네트워크·운영 대응 아우르는 통합 보안 전략 소개DDI, CMMC 컨설팅으로 미국 방산 시장 진출 기업 지원 확대[보안뉴스 원병철 기자] 두산 디지털이노베이션BU(이하 DDI)가 글로벌 사이버보안 기업 사이버리즌(Cybereason), 넷위트니스(NetWitness)와 함께 ISEC 2026에서 공동 부스를 마련하고, 기업 보안의 미래 방향성을",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144955&kind=&sub_kind=",
+      "date": "2026-08-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] “탐지 넘어 발생 증명한다”... 제로가 그리는 ‘ZeroCERT’ 청사진",
+      "summary": "SIEM·EDR 사각지대 노린 장기 잠복 침해 사고까지 재구성국정원 공공 AI 보안 평가지표 기조에 부합한 공격 시나리오 검증[보안뉴스 조재호 기자] 제로가 오는 11일부터 12일까지 서울 코엑스에서 열리는 ‘제20회 국제 시큐리티 콘퍼런스’(ISEC 2026)에 참가해 AI 시대 통합 방어 전략인 ‘RE:DEFINE the Defense’를 공개한다. 회",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144938&kind=&sub_kind=",
+      "date": "2026-08-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "밸런스 이론, 기업의 사이버보안 투자 관리를 위해 1,900만 달러 자금 조달",
+      "summary": "사이버보안 투자 관리 스타트업인 밸런스 이론(Balance Theory)이 시리즈 A 펀딩으로 1,900만 달러를 조달했습니다. 이 자금은 기업들이 보안 지출을 평가하고 관리할 수 있도록 지원하는 플랫폼 확대에 사용될 예정입니다. 해당 플랫폼은 엔터프라이즈 고객들이 사이버보안 투자를 최적화하고 효율적으로 관리하는 데 도움을 줍니다. 이는 기업들이 증가하는 사이버보안 위협에 대응하면서도 투자 수익률을 극대화할 수 있도록 지원합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/balance-theory-raises-19-million-to-help-enterprises-manage-cybersecurity-investments/",
+      "date": "2026-08-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Ruby on Rails 중대 취약점 패치",
+      "summary": "Ruby on Rails가 CVE-2026-66066이라는 중대 취약점을 패치했습니다. 이 취약점은 인증 없이 파일을 읽을 수 있게 하며, 잠재적으로 원격 코드 실행(RCE)으로 이어질 수 있습니다. SecurityWeek에서 보도한 이 소식은 2026년 8월 1일 공개되었습니다. Ruby on Rails 개발자들은 즉시 최신 패치를 적용하여 시스템 보안을 강화할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/",
+      "date": "2026-08-01"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[Save Life, Save Korea] 생명을 살리는 가장 빠른 안전장치 ‘AED’, 제주 한마음요양원에 전해지다",
+      "summary": "10년 넘게 이어온 AED 생명나눔과 안전 취약계층 지원요양시설 응급상황 대응 역량 강화 위한 AED 기증·실습 교육초기 대응 체계 구축으로 어르신 생명안전 강화[보안뉴스 강초희 기자] 응급상황은 예고 없이 찾아온다. 특히 고령의 어르신이 생활하는 요양시설에서는 심정지와 같은 응급상황에 얼마나 빠르게 대응하느냐가 생존율을 좌우한다. 는 제주 서귀포시, 메디",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144846&kind=&sub_kind=",
+      "date": "2026-08-01"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] KX넥스지, 통합 보안 플랫폼 ‘NeXForce ACRON’ 선뵈",
+      "summary": "고속 트래픽 엔진·지능형 분기 기술 적용해 보안과 성능 유지‘IntelliView’ 기능으로 위협 시각화 및 직관적 통제[보안뉴스 조재호 기자] 암호화 트래픽 증가와 원격 근무 확산에 따른 보안 사각지대를 해소하기 위해 KX넥스지가 고속 트래픽 엔진과 지능형 분기 기술을 결합한 모듈형 플랫폼 청사진을 제시한다.KX넥스지가 다가오는 ISEC 2026에서 차세",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144930&kind=&sub_kind=",
+      "date": "2026-08-01"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 체크포인트, 자율형 AI 공격 잡는 ‘AEV’ 솔루션 공개",
+      "summary": "AI 에이전트로 실제 악용 가능한 취약점 선제 검증비침습적 표적 검증·실시간 위협 인텔리전스 연계한 보안 루프[보안뉴스 조재호 기자] 체크포인트가 ‘제20회 국제 시큐리티 콘퍼런스’(ISEC 2026)에 참가해 자율형 인공지능(AI) 공격에 맞서 방어자의 주도권을 회복하는 ‘에이전트 기반 위협노출 검증’(AEV) 플랫폼을 선보인다.최근 프론티어 AI 모델이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144927&kind=&sub_kind=",
+      "date": "2026-08-01"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026] 공공 부문 AI·클라우드 방어막 재정비... ‘전국 공무원 사이버보안 콘퍼런스’ 개최",
+      "summary": "전국 및 지자체 산하기관 정보보호 담당자 대상 사이버 대응 실무 역량 강화클라우드 컴플라이언스부터 생성형 AI 시대 보안까지 학계 전문가 릴레이 특강[보안뉴스 조재호 기자] 아시아 최대 사이버 보안 콘퍼런스 ISEC 2026(제20회 국제 시큐리티 콘퍼런스)의 주요 동시 개최 행사인 ‘2026년 전국 공무원 사이버보안 콘퍼런스’가 오는 11일 서울 코엑스",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144972&kind=&sub_kind=",
+      "date": "2026-08-01"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "[2026 드론 제품 & 솔루션 리포트] 드론, 영상보안과 만나 세상(世上)을 이롭게(惠益)하다",
@@ -12046,116 +12166,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144105&kind=&sub_kind=",
       "date": "2026-06-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "최은수 인텔리빅스 대표 “똑똑한 AI보다 확실한 ‘비상 스위치’ 가진 AI가 패권 쥔다”",
-      "summary": "12일 대한상공회의소 ‘글로벌 인류공영 AI 포럼(GAFH) 2026’ 기조연설 진행95% 정확도 환상 버려야... 통제가능성·책임성 내재화한 ‘T.R.U.S.T’ 프레임워크 제시 “韓 세계 최고 수준 제조 인프라 활용해 글로벌 ‘AI 신뢰 표준’ 주도해야”[보안뉴스 강초희 기자] “AI 시대의 최종 승자는 ‘가장 자율적인 시스템’(Autonomous Sy",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144103&kind=&sub_kind=",
-      "date": "2026-06-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "넷앤드, 포티넷과 증권사 대상 보안 세미나 개최",
-      "summary": "업무 자동화·퇴사자 관리 전략 공유[보안뉴스 원병철 기자] 통합 접근제어 및 계정관리(IAM) 솔루션 전문 기업 넷앤드(대표 신호철)가 11일 포티넷과 함께 증권사 고객을 대상으로 보안 세미나를 개최하고, 디지털 환경 변화에 맞춘 보안 고도화 방안을 공유했다고 밝혔다. 최근 금융권에서는 전산장애 및 보안 사고에 대한 경각심이 높아지고 있다. 특히 지난해 일",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144104&kind=&sub_kind=",
-      "date": "2026-06-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "FBI, 구글, Black Lotus Labs와 협력하여 백만 개의 URL을 사용한 대규모 AI 기반 피싱 서비스 적발",
-      "summary": "FBI가 구글 및 Black Lotus Labs와의 협력으로 '아웃사이더 엔터프라이즈(Outsider Enterprise)'라는 중국 기반의 대규모 피싱 서비스 조직을 적발했습니다. 이 조직은 수천 개의 피싱 웹사이트를 운영하며 신용카드 정보와 비밀번호를 탈취하는 데 AI 기술을 활용했습니다. 해당 피싱 서비스는 백만 개 이상의 URL을 통해 대규모 범죄 활동을 전개했으며, 이번 적발로 주요 인프라가 제거되었습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/",
-      "date": "2026-06-14"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "앤트로픽 페이블5 접근 제한, 탈옥 우려 때문? 중국 때문?",
-      "summary": "앤트로픽 최신 모델 대한 백악관 수출 통제 조치 논란 확산 [보안뉴스 한세희 기자] 미국 정부가 앤트로픽의 최신 AI 모델에 대한 수출 통제 지침을 내린 것은 이 모델에 대한 아마존 보안 연구자의 탈옥 가능성 연구 때문인 것으로 알려졌다. 월스트리트저널 보도에 따르면, 아마존 보안 연구자가 앤트로픽이 최근 일반 공개한 최신 모델 ‘페이블5’에 일련의 프롬프",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144101&kind=&sub_kind=",
-      "date": "2026-06-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "NPM 12, 공급망 공격 방지를 위해 스크립트 실행 동작 변경",
-      "summary": "NPM(Node Package Manager) 12 버전이 공급망 공격을 예방하기 위해 스크립트 실행 동작을 변경할 예정이다. 이번 변경은 악의적인 패키지가 설치 중에 자동으로 실행되는 스크립트를 통해 시스템을 침해하는 공급망 공격을 막기 위한 보안 강화 조치이다. NPM은 GitHub과 협력하여 패키지 관리자의 보안성을 개선하고 있으며, 이러한 변경으로 개발자들의 개발 환경을 더욱 안전하게 보호할 수 있을 것으로 기대된다. 해당 변경사항은 기존 워크플로우에 영향을 미칠 수 있으므로 개발자들의 주의가 필요하다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/npm-12-will-change-script-execution-behavior-to-prevent-supply-chain-attacks/",
-      "date": "2026-06-13"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Anthropic, 새로운 수출 규제 준수를 위해 최신 AI 모델 오프라인 전환",
-      "summary": "AI 안전 연구 회사인 Anthropic이 새로운 수출 규제를 준수하기 위해 최신 AI 모델들을 오프라인으로 전환했다고 발표했습니다. 이는 미국 정부의 강화된 AI 모델 수출 통제 정책에 대한 대응 조치입니다. Anthropic은 국제 사용자들이 자사의 최신 모델인 Fable과 Mythos에 접근할 수 없게 조치했습니다. 이러한 결정은 AI 기술의 국제적 확산을 제한하려는 정부 정책을 기업 차원에서 준수하는 사례를 보여줍니다. 이는 AI 산업 전반에 걸쳐 규제 준수의 필요성이 높아지고 있음을 시사합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/anthropic-says-it-has-taken-its-latest-ai-models-offline-to-comply-with-new-export-controls/",
-      "date": "2026-06-13"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "전직 학군 직원, 전 직장 해킹으로 투옥",
-      "summary": "미국 아이오와 주의 한 학군에서 IT 담당자로 근무하던 전직 직원이 전 직장에 대한 지속적인 사이버 공격을 수행한 혐의로 21개월의 징역형을 선고받았습니다. 이 공격으로 인해 교실 운영이 중단되었으며, 계정이 삭제되고 수만 달러대의 손해가 발생했습니다. 이 사건은 내부자 위협의 심각성과 조직이 퇴직한 직원의 시스템 접근 권한을 얼마나 철저히 관리해야 하는지를 보여주는 사례입니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
-      "date": "2026-06-13"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "중국 해커, 인증 체계 장악해 고립된 네트워크에 10년간 스파이 활동",
-      "summary": "중국 해커들이 표적 조직의 인증 시스템을 장악해 10년 동안 지속적인 접근을 유지한 것으로 드러났습니다. 공격자들은 관리자 활동에 대한 완전한 가시성을 확보하고 고립된 네트워크 내에서 장기간의 사이버 스파이 활동을 수행했습니다. 이번 공격은 '벨벳 앤트(Velvet Ant)'로 명명되었으며, 고도로 정교한 인증 흐름 조작 기법을 사용한 것으로 보입니다. 네트워크 격리에도 불구하고 해커들이 침투에 성공한 것은 인증 체계가 주요 공격 대상이 될 수 있음을 보여줍니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/",
-      "date": "2026-06-13"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "미국 정부, Anthropic에 Fable·Mythos 외국인 접근 차단 요구",
-      "summary": "미국 정부가 Anthropic에 Fable 5와 Mythos 5에 대한 모든 외국인의 접근을 차단하도록 명령했으며, 이에 따라 Anthropic은 두 모델을 전 세계적으로 중단하기로 결정했습니다. Anthropic은 정부의 요구를 수용하고 있으나, 인용된 탈옥 기법이 제한적이며 유사한 기능이 다른 곳에서도 널리 이용 가능하다는 점을 근거로 이 조치에 이의를 제기하고 있습니다. 이 결정은 보안 우려와 기술 규제 사이의 긴장 관계를 보여주는 사례입니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/",
-      "date": "2026-06-13"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "김정은, “보건 혁명”... 이후 국내 바이오 분야 겨냥 북 사이버 공격 확대",
-      "summary": "국정원 등 국가정보보호백서 발간 [보안뉴스 한세희 기자] 북한 사이버 공격이 우리나라 보건 영역 등으로 확대된 것으로 나타났다. 북한 정책 우선 순위에 맞춰 사이버 공격 양상도 변화하고 있다는 진단이다.14일 국가정보원 등이 발간한 국가정보보호백서에 따르면, 북한은 최근 적대적 두 국가론을 전면에 내세우면서 사이버 공격도 강화하고 있다. 북한 정책 기조와",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144100&kind=&sub_kind=",
-      "date": "2026-06-13"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[속담으로 배우는 100가지 보안 습관 39] 믿는 도끼에 발등 찍힌다(9)-차량 번호 노출이 범죄로 이어지는 이유",
-      "summary": "자동차 주차 번호판을 통한 번호 노출을 주의하세요(안심번호 서비스 권장)보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143577&kind=&sub_kind=",
-      "date": "2026-06-13"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[이슈칼럼] 패스키 전쟁: 빅테크는 왜 당신의 비밀번호를 갖고 싶어 하는가",
-      "summary": "“저장하시겠습니까?”의 진짜 의미[보안뉴스= 김동현 OWASP 서울 챕터 리더/크리밋 대표] 웹사이트에 로그인할 때마다 익숙한 팝업이 뜬다. “이 비밀번호를 저장하시겠습니까?” 대부분 별 생각없이 ‘저장’을 누른다. 편하니까.그러나 이 작은 버튼은 생각보다 무거운 결정이다. 크롬에서 누르면 구글 계정에, 아이폰에서 누르면 애플 계정에 쌓인다. 인터넷 사용자",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144095&kind=&sub_kind=",
-      "date": "2026-06-13"
     }
   ],
-  "totalItems": 3153,
+  "totalItems": 3165,
   "hasArchive": true
 }
