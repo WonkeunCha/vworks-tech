@@ -3164,9 +3164,109 @@
     "http://www.boannews.com/media/view.asp?idx=144846&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144930&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=144927&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=144972&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=144972&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144989&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144984&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144985&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144986&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144978&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144980&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144981&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144982&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144949&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144943&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "티오리, 우리금융그룹에 AI 모의해킹 ‘진트 웹’ 공급",
+      "summary": "국내 금융그룹 최초로 자율형 AI 모의해킹 솔루션 도입 24시간 열려 있는 온라인 고객 접점의 대응 공백 해소[보안뉴스 강현주 기자] 오펜시브 사이버 보안 전문 기업 티오리(Theori, 대표 박세준)가 우리금융그룹에 자사의 AI 기반 블랙박스 모의해킹 솔루션 ‘진트 웹’(Xint Web) 을 공급하고 상시 보안 점검 체계 가동을 시작했다고 3일 밝혔다.이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144989&kind=&sub_kind=",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "나루씨큐리티-진인프라, ‘ZeroTiCA’ 리셀러 계약... 제로트러스트 보안 시장 정조준",
+      "summary": "MSP 역량과 AI 침해진단 기술 결합 ‘진단-조치-운영’ 통합 보안 모델 제시N2SF 컨설팅 및 구축 사업 연계해 공공·민간 제로 트러스트 시장 공략[보안뉴스 조재호 기자] 나루시큐리티와 진인프라가 AI 기반 침해진단 서비스 ‘제로티카’(ZeroTiCA) 리셀러 계약을 체결하고 공공 및 민간 통합 보안 시장 공략에 나선다.이번 계약을 통해 진인프라는 기존",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144984&kind=&sub_kind=",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "핀란드, 연말에 러시아 연결 광케이블도 끊는다... 전력망 이어 통신망도 단절",
+      "summary": "전력망 이어 광케이블 연결 종료러시아 국경 통신 인프라 단계적 단절대체 통신망 확보 및 영향 최소화[보안뉴스 김형근 기자] 핀란드 국영 송전망 운영사 핑그리드(Fingrid)가 연말 임대 계약 만료에 맞춰 러시아와 연결된 광케이블 운영을 종료한다.글로벌 사이버보안 매체 더 레코드(The Record)에 따르면, 양국 간 전력 송전은 러시아의 우크라이나 침공",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144985&kind=&sub_kind=",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "AI 시대 방어의 한계 넘는다... 이스트시큐리티, ‘EDR 차세대 진화’ 기술보고서",
+      "summary": "하루 평균 2992건 쏟아지는 보안 경보 속 인력난 겪는 현장 딜레마 조명인간은 최종 승인만 담당하는 구조로 IT 담당자 누구나 관제 수준 운영 지원[보안뉴스 조재호 기자] 이스트시큐리티는 AI 기술과 EDR 솔루션을 결합해 자율형 보안 패러다임을 제시하는 ‘AI 에이전트로 진화하는 EDR - AI 주도 자율형 보안의 시작’ 기술보고서를 발간했다고 3일 밝",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144986&kind=&sub_kind=",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "원모어시큐리티, 필리핀 Baybay City 전역에 실종자 고속검색 솔루션 구축",
+      "summary": "‘원모어아이 고속검색 v3.0’ 도시 전체 CCTV에 적용실종자·범죄 용의자 신속 추적 지원필리핀 차량 번호판 학습 추진... 현지 맞춤형 차량 추적 서비스까지 확대[보안뉴스 강초희 기자] 원모어시큐리티(대표이사 김민식)가 필리핀 Baybay City 전역에 실종자 고속검색 솔루션 ‘원모어아이 고속검색 v3.0’ 구축을 완료했다고 밝혔다. 이번 구축은 20",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144978&kind=&sub_kind=",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "쿠도커뮤니케이션, AI·보안 전문성 지역사회와 나눈다 “청소년 교육 사회공헌 진행”",
+      "summary": "중·고등학생 15명 대상으로 4일간 ‘2026 과천미리내공유학교’ 운영임직원 전문성과 DX타워 인프라 활용해 지역 청소년의 진로 탐색 지원[보안뉴스 강초희 기자] 쿠도커뮤니케이션(대표 김용식)은 7월 28일부터 31일까지 경기도 과천시 DX타워에서 중·고등학생을 대상으로 청소년 교육 사회공헌 프로그램인 ‘2026 과천미리내공유학교’를 운영했다고 밝혔다.이번",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144980&kind=&sub_kind=",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "큐냅 코리아, 컴퓨존 단독 최대 39% 할인 NAS 특가 판매",
+      "summary": "9월 30일까지 QNAP 주차별 특가 운영NAS·확장 스토리지 주요 모델 최대 39% 할인 판매[보안뉴스 강초희 기자] 컴퓨팅·스토리지·네트워크 솔루션 전문 기업 큐냅 코리아(지사장 알렉산더 서)는 컴퓨존 단독으로 QNAP NAS와 확장 스토리지 주요 모델을 할인 판매하는 ‘QNAP 주차별 특가’ 행사를 진행한다고 밝혔다. 행사는 8월 1일부터 9월 30일",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144981&kind=&sub_kind=",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "여의시스템, 공식 온라인 쇼핑몰서 ‘YES 네트워크 솔루션 특별전’ 진행",
+      "summary": "공식 온라인 쇼핑몰 중심의 고객 혜택 및 온라인 구매 접근성 강화8월 14일까지 ‘YES’ 스위치 라인업 대상 5% 즉시할인 쿠폰 제공[보안뉴스 강초희 기자] 여의시스템(대표 성명기·성제현)이 최근 리뉴얼을 마친 공식 온라인 쇼핑몰을 통해 자체 네트워크 브랜드 ‘YES’ 스위치 제품군 대상 ‘네트워크 솔루션 특별전’(Solution Plus)을 진행 중이라",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144982&kind=&sub_kind=",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] Black Duck, SBOM 기반 소프트웨어 공급망 보안으로 글로벌 규제 대응 지원",
+      "summary": "SBOM부터 SCA, SAST, DAST, AI 기반 취약점 분석까지 통합 제공DevSecOps 환경의 안전한 소프트웨어 개발 지원[보안뉴스 원병철 기자] Black Duck은 AI 기반 애플리케이션 보안 분야의 글로벌 리더로, 소프트웨어 보안과 AI 기반의 DevSecOps 구현을 위한 통합 포트폴리오를 제공하고 있다.최근 AI 기반 소프트웨어 개발이 빠",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144949&kind=&sub_kind=",
+      "date": "2026-08-02"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] GS네오텍, ‘ISEC 2026’서 차세대 클라우드 통합 보안 플랫폼 ‘시큐리티 렌즈’ 선보인다",
+      "summary": "국내 규제 환경 맞춤 설계... 코드부터 런타임까지 통합 가시성 확보AI ‘네오봇’으로 위협 분석부터 감사 증적 자동 처리... 자율 보안 제시[보안뉴스 강초희 기자] 국내 IT 산업을 선도하는 GS네오텍이 오는 8월 11일부터 12일까지 서울 코엑스에서 열리는 아시아 최대 규모 사이버보안 콘퍼런스 ‘ISEC 2026’(제20회 국제 시큐리티 콘퍼런스)에",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144943&kind=&sub_kind=",
+      "date": "2026-08-02"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "[속담으로 배우는 100가지 보안 습관 80] 등잔 밑이 어둡다(10)-인감도장 관리 잘못하면 생기는 일",
@@ -12076,98 +12176,8 @@
       "source": "BleepingComputer",
       "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-attack-turned-microsoft-365-copilot-into-1-click-data-theft-tool/",
       "date": "2026-06-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "인피니트 캠퍼스 데이터 침해 - 137,000명 학교 직원 계정 영향",
-      "summary": "ShinyHunters 사이버 범죄 조직이 지난 3월 광범위하게 사용되는 K-12 학생 정보 시스템인 인피니트 캠퍼스를 대상으로 한 세일즈포스 데이터 도용 공격을 통해 137,000명 이상의 학교 직원 계정에서 개인정보를 탈취했습니다. 이 사건은 교육 기관의 민감한 정보가 심각한 사이버 위협에 노출되어 있음을 보여줍니다. ShinyHunters 그룹은 탈취한 데이터를 이용한 협박을 시도한 것으로 알려져 있습니다. 인피니트 캠퍼스는 미국 내 많은 학교에서 학생 정보를 관리하는 핵심 시스템으로 이용되고 있어 이번 침해의 영향 범위가 매우 광범위합니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/infinite-campus-data-breach-affects-137-000-school-staff-accounts/",
-      "date": "2026-06-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "웨비나: 행동 AI가 피싱 및 계정 탈취를 어떻게 방지하는가",
-      "summary": "현대의 피싱, BEC(비즈니스 이메일 타협), 그리고 계정 탈취 공격은 전통적인 이메일 방어를 우회하고 보안팀에 운영상의 부담을 가중시키고 있습니다. 이 웨비나에서는 행동 AI가 탐지, 조사, 대응을 자동화하여 경보 피로도를 줄이고 대응 시간을 단축하는 방법을 살펴봅니다. 행동 기반의 인공지능 기술을 통해 보안팀은 더욱 효율적으로 위협에 대응할 수 있으며, 수많은 경보 중에서 실제 위협을 우선적으로 식별할 수 있게 됩니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/webinar-how-behavioral-ai-stops-phishing-and-account-takeovers/",
-      "date": "2026-06-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "금융보안원, AI 위협 대응 ‘금융AI보안연구소’ 신설... 80년대생 인재들 배치",
-      "summary": "AI보안총괄부 신설해 AI보안지원센터 운영 등[보안뉴스 강현주 기자] 금융보안원(원장 박상원)이 고성능 AI 발전으로 인해 증가하는 사이버 위협과 금융권의 AI 전환에 선제적으로 대비하기 위해 ‘금융AI보안연구소’를 신설했다. 주요 보직에는 역량이 뛰어난 1980년대생 젊은 리더들을 배치했다. 15일 금융보안원은 대대적인 조직 개편과 인사를 단행했다고 밝혔",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144112&kind=&sub_kind=",
-      "date": "2026-06-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "파이오링크, ‘스위치 기반 마이크로 세그멘테이션’ 한·미·일 특허 등록",
-      "summary": "에이전트 없이 사용자·단말 접근제어... 제로트러스트 구축 복잡성↓“현실적이고 경제적인 N2SF 구현 방안 제시”[보안뉴스 강현주 기자] 파이오링크(대표 조영철)가 ‘티프론트 보안스위치’를 활용해 마이크로 세그멘테이션을 구현하는 기술로 한국, 미국, 일본에서 특허 등록을 완료했다고 15일 밝혔다.등록된 특허명은 ‘네트워크 스위치 기반으로 제로 트러스트 역할",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144111&kind=&sub_kind=",
-      "date": "2026-06-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "개인정보위, 클라우드·개발 협업도구 사용시 자격증명 관리 강화 당부",
-      "summary": "최근 자격증명 노출로 인한 개인정보 유출 사고 증가, 안전한 계정·권한관리 중요깃허브 등 개발 협업도구에 접근키, 비밀번호, API 토큰 등 자격증명을 저장하지 않도록 관리 필요[보안뉴스 원병철 기자] 개인정보보호위원회(위원장 송경희, 이하 ‘개인정보위’)는 클라우드 기반 서비스와 소프트웨어 개발 협업 환경이 확대됨에 따라 접근키(Access Key), 인",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144110&kind=&sub_kind=",
-      "date": "2026-06-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "안랩, 일본 ‘인터롭 도쿄’서 통합 보안 역량 선보여... “현지화 가속”",
-      "summary": "[보안뉴스 강현주 기자] 안랩(대표 강석균)이 일본 시장에서 자사의 사이버물리시스템(CPS), 보안 역량 및 AI 기반 위협 인텔리전스 경쟁력, 클라우드 기반 보안관리 솔루션 등 IT와 운영 기술(OT)를 연결하는 통합 보안 역량을 선보였다.안랩은 6월 10일부터 12일까지 3일간 일본 지바현 마쿠하리 멧세에서 열린 일본 최대 규모의 IT 전시회 ‘인터롭",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144109&kind=&sub_kind=",
-      "date": "2026-06-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "에스투더블유, 대만서 AI 시대 사이버위협 대응 전략 공유",
-      "summary": "대만 CHT시큐리티와 공동 컨퍼런스 개최 CTI 기반 대응 전략 소개하며 ‘퀘이사’ 소개[보안뉴스 강현주 기자] 빅데이터 분석 인공지능(AI) 기업 에스투더블유(S2W, 대표 서상덕)가 대만 기업들을 대상으로 AI 시대 사이버위협 인텔리전스 기반 대응 전략을 공유하고 자사 플랫폼 ‘퀘이사’를 소개했다. S2W는 11일 ‘AI 시대의 보안 전략’을 주제로 대",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144108&kind=&sub_kind=",
-      "date": "2026-06-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[인사] 개인정보보호위원회",
-      "summary": "◇과장급 전보△공공실태점검단장 임종철(2026년 6월 13일자)[원병철 기자(boanone@boannews.com)]www.boannews.com) 무단전재-재배포금지>",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144107&kind=&sub_kind=",
-      "date": "2026-06-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "티피링크, Wi-Fi 7 USB 랜카드 Archer TBE400U Plus 출시",
-      "summary": "트라이 밴드 Wi-Fi 7 지원하는 하이 게인 USB 무선 랜카드기존 PC도 Wi-Fi 7으로 업그레이드[보안뉴스 엄호식 기자] 글로벌 네트워크 장비 기업 티피링크(TP-Link)는 차세대 무선 통신 규격인 Wi-Fi 7을 지원하는 ‘Archer TBE400U Plus’를 출시했다고 밝혔다.Archer TBE400U Plus는 트라이 밴드 Wi-Fi 7을",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144106&kind=&sub_kind=",
-      "date": "2026-06-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "넥스텝, 3D 라이다(LiDAR) 융합 기술로 외곽경계감시의 새 패러다임 제시",
-      "summary": "제21회 한국일보 Digital Innovation Awards 수상[보안뉴스 엄호식 기자] 3D 라이다(LiDAR)를 활용한 솔루션 개발 기업 넥스텝이 ‘제21회 한국일보 디지털 이노베이션 대상(Digital Innovation Awards)’에서 ‘라이다(LiDAR) 인지 소프트웨어’로 AI디지털혁신제조 부문 대상을 수상했다",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144105&kind=&sub_kind=",
-      "date": "2026-06-15"
     }
   ],
-  "totalItems": 3165,
+  "totalItems": 3175,
   "hasArchive": true
 }
