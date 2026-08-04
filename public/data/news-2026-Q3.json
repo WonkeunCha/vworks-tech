@@ -2,6 +2,186 @@
   "quarter": "2026-Q3",
   "items": [
     {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "뉴욕, 153개 수도 시스템의 사이버보안 강화에 900만 달러 지원",
+      "summary": "뉴욕주가 153개의 수도 시스템에 대한 사이버보안 강화를 위해 900만 달러 규모의 지원금을 배정했습니다. 이는 물 공급 인프라의 사이버 위협으로부터 보호하기 위한 주정부의 노력으로, 산업 제어 시스템(ICS) 및 운영 기술(OT) 보안 개선을 목표로 하고 있습니다. 수도 시스템은 국가 핵심 인프라로서 사이버 공격에 취약한 영역으로 인식되고 있으며, 이번 자금 지원은 지역 수도청들이 보안 인프라를 현대화하고 사이버 방어 역량을 강화하는 데 활용될 것입니다. SecurityWeek에서 2026년 8월 4일 보도한 이 소식은 미국의 주요 수도 시설에 대한 사이버보안 투자가 증가하고 있음을 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/new-york-awards-9-million-to-strengthen-cybersecurity-at-153-water-systems/",
+      "date": "2026-08-04"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "국방부, 군 내 보안 전문기관 ‘국방보안지원단’ 창설",
+      "summary": "군 및 군 관련 기관에 대한 보안감사와 보안사고조사 등 수행헌법 가치 준수를 최우선 사명으로 투명한 직무 약속[보안뉴스 엄호식 기자] 국방부는 7월 31일 국방보안지원단을 창설하고 새로운 대한민국 국방의 군사보안 역량을 전담하는 전문기관으로 새롭게 출범시켰다. 이번 창설은 ‘국군방첩사령부 해체 및 기능 개편’의 후속조치로, 기존 방첩사에 집중돼 있던 보안",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145010&kind=&sub_kind=",
+      "date": "2026-08-04"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 81] 소 잃고 외양간 고친다(1)-지갑 잃어버리면 가장 먼저 해야 할 것",
+      "summary": "지갑을 분실했을 경우 즉시 모든 카드를 정지시키세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐,",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144235&kind=&sub_kind=",
+      "date": "2026-08-04"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "조달청, 인공지능(AI) 제품 공공조달 지원 본격화",
+      "summary": "AI 제품의 공공조달시장 진입부터 판로확대·가점부여까지 전방위 지원[보안뉴스 엄호식 기자] 조달청(청장 백승보)은 최근 시행된 ‘인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 시행령’ 개정에 맞춰, AI 기업들이 공공조달시장에 신속하게 진입하고 성장할 수 있도록 적극 지원에 나선다. 앞으로 인공지능 제품·서비스(인공지능기본법 시행령에 따라 과기정통부장관",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145005&kind=&sub_kind=",
+      "date": "2026-08-04"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Black Hat USA 2026 – 벤더 발표 요약 (1부)",
+      "summary": "Black Hat USA 2026에서 다양한 보안 벤더들이 새로운 제품과 서비스를 발표했습니다. 이 기사는 행사에서 공개된 주요 벤더 발표 내용을 정리한 1부 보고서입니다. 인공지능과 보안 관리 전략 분야의 혁신적인 솔루션들이 중점적으로 소개되었습니다. Black Hat 2026은 글로벌 사이버보안 커뮤니티의 최신 보안 기술 동향을 보여주는 중요한 행사로 평가됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-1/",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "비자, 사기 방지 회사 BioCatch를 24억 달러에 인수",
+      "summary": "비자는 사이버보안 및 금융 범죄 탐지 역량을 강화하기 위해 사기 방지 회사 BioCatch를 현금 24억 달러에 인수하기로 합의했습니다. 이번 인수는 비자의 금융 범죄 탐지 및 사기 방지 기술을 크게 확대하는 전략적 움직임입니다. BioCatch는 고급 사기 방지 솔루션을 제공하는 기업으로, 이를 통해 비자는 고객 보안을 한층 강화할 수 있을 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/visa-to-acquire-fraud-intelligence-firm-biocatch-for-2-4-billion/",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "리히텐슈타인의 기업 및 재단 실소유자 등록부 사이버공격 피해",
+      "summary": "리히텐슈타인의 경제적 수익자 등록부(Register of People Behind Companies and Foundations)가 사이버공격의 대상이 되었습니다. 이번 공격으로 약 31,000명의 개인정보가 유출되었습니다. 이 등록부는 기업과 재단의 실제 소유자 정보를 관리하는 시스템으로, 금융투명성과 반(反)자금세탁 규제 준수를 위해 운영되고 있습니다. 공격자들이 민감한 개인 신원 정보에 접근한 것으로 확인되었습니다. 리히텐슈타인 당국은 사건 조사를 진행 중이며, 영향을 받은 개인들에 대한 보호 조치를 강구하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cyberattack-hits-liechtensteins-register-of-people-behind-companies-and-foundations/",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "리버 은행, 랜섬웨어 공격으로 탈취된 데이터 삭제됨을 확인",
+      "summary": "리버 은행이 랜섬웨어 공격으로 탈취된 고객 데이터가 해커에 의해 삭제되었다고 발표했습니다. 은행은 신원 도용 및 추가 데이터 유출 위험을 최소화하기 위해 영향을 받은 고객들에게 신용 모니터링 서비스 제공을 약속했습니다. 이번 사건은 은행이 공격자에게 신원을 파악할 수 없는 수단으로 신원 정보를 제공하지 않았음을 시사합니다. 은행은 현재 사건의 전체 범위를 파악하기 위한 조사를 진행 중이며, 보안 인프라 강화를 위한 조치들을 추진하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/river-bank-says-hackers-deleted-data-stolen-in-ransomware-attack/",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "호라이즌3, 지속적인 성장을 위해 2억 5천만 달러 자금 조달",
+      "summary": "사이버보안 기업 호라이즌3이 시리즈 E 펀딩 라운드에서 2억 5천만 달러를 조달했습니다. 이번 투자를 통해 호라이즌3의 기업가치는 2025년 6월의 6억 5천만 달러에서 20억 달러로 3배 증가했습니다. 이는 호라이즌3의 빠른 성장세와 시장에서의 강한 수요를 입증하는 것으로 평가됩니다. 조달된 자금은 회사의 계속된 성장과 사업 확대에 사용될 예정입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/horizon3-raises-250-million-to-fund-continuing-growth/",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "N-able, N-central 서버 해킹에 악용된 취약점 패치",
+      "summary": "N-able이 자사의 N-central 서버를 대상으로 악용되고 있는 취약점을 패치했습니다. 이 취약점은 공격자들에 의해 이미 N-central 서버 해킹에 적극적으로 악용되고 있었던 것으로 확인되었습니다. SecurityWeek이 보도한 이 사건은 원격 관리 및 모니터링 솔루션을 사용하는 기업들에게 중대한 보안 위협을 야기했습니다. N-able은 해당 취약점에 대한 즉각적인 패치 적용을 권고하고 있으며, 영향을 받은 시스템의 보안 점검을 강력히 권장하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/n-able-patches-vulnerability-exploited-to-hack-n-central-servers/",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "브링크스 홈, 데이터 유출 사고 공개... 해커들이 파일 유포",
+      "summary": "홈 보안 서비스 업체인 브링크스 홈이 데이터 유출 사고를 공식 공개했습니다. 해커들이 회사의 파일들을 인터넷에 유포한 것으로 확인되었습니다. ShinyHunters로 알려진 해킹 그룹이 이번 사건과 관련된 것으로 추정되고 있습니다. 이는 랜섬웨어 공격과 관련된 일련의 사이버 보안 사건 중 하나입니다. 브링크스 홈은 피해 고객들에 대한 대응 방안을 마련 중인 것으로 알려졌습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/brinks-home-discloses-data-breach-as-hackers-leak-files/",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "최근 SonicWall 취약점이 랜섬웨어 공격에 악용되고 있음",
+      "summary": "SonicWall의 최신 취약점들이 랜섬웨어 공격 캠페인에서 활발하게 악용되고 있습니다. 공격자들이 이러한 보안 결함을 통해 조직의 네트워크에 침투하고 있으며, 이는 기업들의 정보 보안에 심각한 위협이 되고 있습니다. SecurityWeek의 보도에 따르면 해당 취약점들은 광범위한 범위의 SonicWall 제품에 영향을 미치고 있습니다. 보안 전문가들은 관련 패치 적용 및 시스템 업데이트를 긴급히 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/recent-sonicwall-vulnerabilities-exploited-in-ransomware-attacks/",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "러시아 국가 APT, 공공 와이파이 게이트웨이 해킹 연루",
+      "summary": "러시아 국가 소속으로 추정되는 APT 그룹이 최근 공공 와이파이 게이트웨이에 대한 해킹 공격에 연루된 것으로 드러났습니다. 마이크로소프트에서 추적 중인 'Midnight Blizzard'로 알려진 이 위협 그룹은 피싱을 포함한 정교한 공격 기법을 사용하여 무선 네트워크 인프라에 침입했습니다. 공공 와이파이 게이트웨이에 대한 이러한 공격은 대규모 사용자 데이터 탈취 및 네트워크 중간자 공격의 위험성을 높입니다. 보안 전문가들은 조직과 개인에게 공공 와이파이 사용 시 VPN 등 추가 보안 조치를 취할 것을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/russian-state-apt-linked-to-recent-public-wi-fi-gateway-hacking/",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "아마노코리아, 바이온에버와 AI 충전·주차 통합 플랫폼 개발 추진",
+      "summary": "AI 기반 전기차 충전 인프라 구축 협력주차·충전 통합 모빌리티 플랫폼 개발자율주차·주차로봇 연계 미래 서비스 추진 [보안뉴스 강초희 기자] 주차관제 및 스마트 모빌리티 인프라 전문기업 아마노코리아(대표이사 전명진)가 AI 기반 전기차 충전 솔루션 전문기업 바이온에버(대표이사 임용석)와 업무협약을 체결했다.양사는 지난 7월 30일 아마노코리아 본사에서 ‘",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145003&kind=&sub_kind=",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 미리보기] 멘로시큐리티 코리아, AI 시대 겨냥한 브라우저 보안 플랫폼으로 국내 기업 보안 혁신 지원",
+      "summary": "AI 기반 업무 환경 확산에 따른 웹·브라우저 보안 위협 대응 제로트러스트 기반 Enterprise Browser Security 제공[보안뉴스 원병철 기자] 멘로시큐리티 코리아(Menlo Security Korea)는 AI 활용이 기업 전반으로 확대되는 가운데 증가하는 웹 기반 사이버 위협으로부터 기업을 보호하기 위해 자사의 Enterprise Brows",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145002&kind=&sub_kind=",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "국가 인프라 지킬 ‘암호모듈’ 평가자 육성... KISA 교육생 선착순 모집",
+      "summary": "과기정통부·국정원 공동 주관으로 8월 31일부터 5일간 오프라인 교육 가동민간 시험 체계 확대 대비해 객관적이고 일관된 암호모듈 평가 기반 구축[보안뉴스 조재호 기자] 한국인터넷진흥원(KISA)은 과학기술정보통신부, 국가정보원과 공동으로 암호모듈 시험에 필요한 전문 지식과 실무 역량을 갖춘 인력을 양성하기 위해 ‘암호모듈 시험자 양성 교육’을 신설하고 교육",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144993&kind=&sub_kind=",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "진천군, CCTV 2106대로 생활안전망 똑똑하게 고도화한다",
+      "summary": "AI 영상분석 기반 스마트 관제망 고도화생활권 CCTV 확충 및 비상벨 연계 강화24시간 통합관제 통한 범죄 예방 및 신속 대응[보안뉴스 강초희 기자] 충북 진천군(군수 김명식)이 범죄와 사고로부터 군민의 평온한 일상을 지키기 위해 생활권 CCTV를 확충하고, 지능형 영상 분석과 비상벨, 관계기관 대응체계를 결합한 스마트 관제망을 고도화하고 있다.군민들이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145000&kind=&sub_kind=",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "유럽 진출 위해 꼭 알아야 할 사이버 보안법 ‘EU CRA’ 톺아보기",
+      "summary": "유럽연합(EU), 디지털 제품 대상으로 사이버보안 강화하는 사이버복원력법(CRA) 시행[보안뉴스 엄호식 기자] 2016년 CCTV와 DVR, 라우터 등 IoT 기기를 감염시켜 대규모 DDoS 공격을 일으킨 ‘미라이 봇넷’(Mirai Botnet)의 발생으로 기본 패스워드 금지 등 보안 내재화가 본격적으로 추진됐다. 그리고 2017년 전 세계 약 40억달러의",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144902&kind=&sub_kind=",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[CSW 2026] “북한 연계 김수키, AI로 진화”... 정밀한 표적 공격, 추적 힘든 악성코드 증가",
+      "summary": "CSW 2026에서 APAC 지역 위협 동향 공유[중국 광저우=보안뉴스 한세희 기자] 한국 정부 기관을 주로 공격하는 북한 연계 위협 그룹 김수키가 AI를 이용해 진화하고 있다. 랜섬웨어 그룹들은 무차별 공격보다 정교한 표적 공격 비중을 높이고 있다. 3일 중국 광저우에서 열린 ‘사이버 시큐리티 위켄드(CSW) 2026’에서 세르게이 로즈킨 카스퍼스키 글",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145001&kind=&sub_kind=",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[2026 EDR·NDR·XDR 솔루션 리포트] 국가 사이버보안 기본지침 개정과 만나 보안 체계를 업그레이드하다",
+      "summary": "탐지와 대응의 골든타임 확보해 조직의 연속성 지켜내는 EDR·NDR·XDR [설문조사] 국가 사이버보안 기본지침 개정안, 38.3% ‘개정 소식만 들어봤고, 세부 내용은 잘 몰라’EDR·NDR·XDR 솔루션 집중분석: 쿼드마이너, Trellix(아이티언), 넷위트니스, 이글루코퍼레이션, ESET, 안랩, 쿼리시스템즈[보안뉴스 원병철 기자] 2026년 5월",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144905&kind=&sub_kind=",
+      "date": "2026-08-03"
+    },
+    {
       "id": "aHR0cDovL3d3dy5i",
       "title": "티오리, 우리금융그룹에 AI 모의해킹 ‘진트 웹’ 공급",
       "summary": "국내 금융그룹 최초로 자율형 AI 모의해킹 솔루션 도입 24시간 열려 있는 온라인 고객 접점의 대응 공백 해소[보안뉴스 강현주 기자] 오펜시브 사이버 보안 전문 기업 티오리(Theori, 대표 박세준)가 우리금융그룹에 자사의 AI 기반 블랙박스 모의해킹 솔루션 ‘진트 웹’(Xint Web) 을 공급하고 상시 보안 점검 체계 가동을 시작했다고 3일 밝혔다.이",
@@ -5475,8 +5655,8 @@
     }
   ],
   "sources": {
-    "보안뉴스": 322,
-    "SecurityWeek": 198,
+    "SecurityWeek": 208,
+    "보안뉴스": 332,
     "Dell": 62,
     "VAST Data": 19,
     "HPE": 7
