@@ -3,6 +3,78 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "스카이넷의 전조? ‘오픈AI-앤트로픽-메타’ 주요 AI 모델의 탈주극 벌어져",
+      "summary": "메타 뮤즈 스파크 1.1, 사이버보안 테스트 중 샌드박스 탈출 후 기업 해킹오픈AI 챗GPT, 문샷AI 키미 K3, 앤트로픽 클로드 등 벌써 네 번째[보안뉴스 원병철 기자] 샌드박스 환경에서 사이버보안 공격 및 방어 능력을 측정하던 메타의 ‘뮤즈 스파크 1.1’(Meta Muse Spark)가 샌드박스에서 탈출하고 인터넷망에 접속한 후 한 기업의 보안 허점",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145081&kind=&sub_kind=",
+      "date": "2026-08-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Firebird AI와 Dell, 아르메니아에서 새로운 AI 클러스터로 주권 있는 AI 추진",
+      "summary": "Dell Technologies와 Firebird AI는 아르메니아에 엔터프라이즈급 AI 인프라를 구축하여 주권 있는 AI를 개념에서 현실로 전환했습니다. 이러한 성공은 적절한 기술, 깊이 있는 전문성, 그리고 진정한 협력의 결합으로 이루어졌습니다. 이 프로젝트는 국가 주도의 AI 인프라 구축에 있어 새로운 모델을 제시하며, 기술과 지역 파트너십의 중요성을 강조합니다. Dell의 고급 기술 솔루션과 Firebird AI의 전문 역량이 함께 작용하여 아르메니아의 AI 생태계 발전을 가능하게 했습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/firebird-ai-and-dell-advance-sovereign-ai-in-armenia-with-new-ai-cluster/",
+      "date": "2026-08-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "애틀래시안의 Rovo AI에서 발견된 심각한 원클릭 취약점으로 기업 데이터 노출",
+      "summary": "애틀래시안의 AI 어시스턴트 Rovo에서 원클릭으로 악용 가능한 심각한 보안 취약점이 발견되어 기업 데이터가 노출될 위험에 처했습니다. 이 취약점은 공격자가 단순한 클릭만으로 기업의 민감한 정보에 접근할 수 있도록 허용합니다. 해당 취약점은 엔터프라이즈 고객들의 데이터 탈취 위협으로 이어질 수 있는 중대한 보안 결함입니다. SecurityWeek 기자 Eduard Kovacs가 보도한 이번 사건은 클라우드 기반 AI 도구의 보안 강화 필요성을 다시 한 번 부각시키고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/critical-one-click-vulnerability-in-atlassians-rovo-ai-exposed-enterprise-data/",
+      "date": "2026-08-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[한국정보보호학회 칼럼] 미토스가 촉발한 취약점의 홍수, 예견한 듯 준비된 공급망 보안 로드맵",
+      "summary": "과기정통부-국가정보원, ‘AI 일상화 시대를 준비하는 SW 공급망 보안 로드맵’ 공동 발표미래는 대비하는 만큼 안전해져...AI 보안, 산·학·연·관·군이 함께하며 대응해야[보안뉴스= 이만희 한국정보보호학회 상임부회장] 7월은 정보보호의 달이다. 지난 7월 8일 과기정통부와 국가정보원, 행정안전부가 공동 주최하고 한국인터넷진흥원, 한국정보보호산업협회가 주관",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145078&kind=&sub_kind=",
+      "date": "2026-08-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[사진으로 보는 DEF CON 34ⓛ] ‘해커들의 축제’ 개막... 다양한 CTF와 즐길거리",
+      "summary": "CTF 외에도 강연, 시연, 게임, 기념품, 음악 등 누릴 것 많아[라스베이거스=보안뉴스 강현주 기자] 다양한 CTF와 보안 지식, 즐길거리를 누리는 전세계 해커들의 축제, 데프콘34(DEF CON 34)가 막을 올렸다. 여느 글로벌 테크 행사 대비 규모는 뒤지지 않지만 조금은 차분한, 그래서 더 이색적인 데프콘34는 라스베이거스 컨벤션센터(LVCC)에서",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145080&kind=&sub_kind=",
+      "date": "2026-08-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[사진으로 보는 DEF CON 34②] 한국팀 데프콘 본선 활약 현장",
+      "summary": "7개 한국팀 출전 CTF 본선 시작[라스베이거스=보안뉴스 강현주 기자] 한국 해커들이 대거 활약하는 전세계 해커들의 축제, 데프콘34가 막을 올렸다. 데프콘34는 라스베이거스 컨벤션센터(LVCC)에서 6일(현지시간) 개막했다. 하지만 첫날은 등록과 머천다이즈 중심으로 진행됐으며, 한국팀이 참가하는 해킹대회(CTF) 본선은 현지시간 7일 시작됐다. 686개팀",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145079&kind=&sub_kind=",
+      "date": "2026-08-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[DEF CON 34] 데프콘 본선, AI 사용 제한 無... “AI 역량=경쟁력 불가피”",
+      "summary": "예선에 있던 AI 사용 제한 규정, 본선에선 사라져“사실상 제약 불가... 창의력 여전히 유효”[라스베이거스=보안뉴스 강현주 기자] 이번 데프콘 CTF 본선에서는 AI의 사용이 무제한 허용된다. 앞서 5월에 치러진 예선에서는 AI 사용에 대한 일부 제한 룰이 있었다. 이에 따라 본선에서도 어느 정도 제약이 있을 것으로 예상된 바 있다. 하지만 예선과 달리",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145077&kind=&sub_kind=",
+      "date": "2026-08-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "Microsoft 365 AitM 악용 피싱 공격으로 계정 탈취... 급여 관련 이메일 수집",
+      "summary": "북미 및 유럽의 의료, 교육, 정부 서비스 부문 공격...단순 정보만 수집해 공격 탐지 우회[보안뉴스 원병철 기자] 최근 마이크로소프트 365 계정을 장악해 재무 워크플로에 관련된 주요 담당자를 식별하고, 관련 이메일을 수집하기 위한 중간자 공격(AitM) 기법을 사용하는 ‘광범위한 이메일 기반 피싱 캠페인’이 활발하게 진행되는 것으로 알려져 주의가 요구된",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145076&kind=&sub_kind=",
+      "date": "2026-08-08"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "체코, 1억달러 투입 ‘C-ITS’ 본격 가동하며 AI 교통분석·사이버보안 시장 확대",
       "summary": "2031년 C-ITS 전국 서비스 구축과 1억달러 투자 추진긴급차량 우선통행·철도 연계·AI 교통서비스 확대AI 교통분석·사이버보안 분야 후속사업 및 시장 확대[보안뉴스 강초희 기자] 체코의 차세대 지능형 교통체계(C-ITS)가 시범사업을 넘어 상용 서비스와 전국 확산 단계에 들어선다. 체코 정부는 2031년까지 전국 단위 C-ITS 서비스 환경 구축을 목",
       "category": "보안",
@@ -6501,9 +6573,9 @@
     }
   ],
   "sources": {
-    "보안뉴스": 362,
-    "Dell": 76,
-    "SecurityWeek": 243,
+    "보안뉴스": 368,
+    "Dell": 77,
+    "SecurityWeek": 244,
     "VAST Data": 32,
     "HPE": 9
   }
