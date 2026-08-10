@@ -3296,9 +3296,109 @@
     "http://www.boannews.com/media/view.asp?idx=145080&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=145079&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=145077&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=145076&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=145076&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145090&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145068&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145075&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145085&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145084&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145088&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145086&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145083&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145073&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145082&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“2년 안에 통합 보안 플랫폼 전환”... 국내 조직 절반 이상 전환 필요성 느껴",
+      "summary": "포티넷, ‘APAC 지역 AI 보안 운영 현황’ 조사 발표도구 난립 해소 및 통합성 개선이 전환 주요 동력[보안뉴스=한세희 기자]보안관제(SOC) 자동화와 가시성 개선 등이 가능한 통합 보안 플랫폼 운영 기업이 2년 안에 전체의 절반 이상으로 늘어날 전망이다. 현재의 2배 수준이다. 보안 도구 난립 해소와 통합도 개선, 하이브리드 복잡성 관리 등의 문제를",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145090&kind=&sub_kind=",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[인터뷰] 아이덴티티와 데이터 보안으로 세계를 바꾼 ‘네트릭스’, N2SF에 주목하는 이유",
+      "summary": "네트릭스 Martin Cannard Field CTO, Terry Burgess VP APJ, 김기남 데이타시큐어 대표 인터뷰1Secure 등 제로트러스트 기반 솔루션으로 N2SF 지원...데이타시큐어 도입사례 발굴해 고객 지원[보안뉴스 원병철 기자] 한국의 보안은 세계와 비교했을 때 독특한 점이 많은 곳이다. 분단국가이자 휴전국가로 보안에 대한 위협이 다",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145068&kind=&sub_kind=",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "위즈코리아, ‘개인정보 접속기록 관리’ 넘어 탐지·격리까지 대응하는 ‘WEEDS BlackBox Series’",
+      "summary": "AI 기반 ‘위즈 블랙박스 시리즈’로 이상행위 관리 및 컴플라이언스 완벽 대응접속기록 생성부터 AI 탐지·안면인식·자동 소명·즉시 격리까지 원스톱 사전 예방 체계 구축[보안뉴스 원병철 기자] 개인정보 접속기록 및 내부 정보 보호 전문 기업 위즈코리아(WEEDSKOREA)가 AI 기반 위험행위 분석 및 대응 플랫폼인 ‘위즈 블랙박스 시리즈(WEEDS Blac",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145075&kind=&sub_kind=",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[한국정보공학기술사 보안을 論하다-45] 처벌이 곧 보안은 아니다: CISO 거버넌스가 나아갈 길",
+      "summary": "제재보다 중요한 건 귀책 사유... 개인정보 일반법은 개인 책임 아닌 조직 책임 물어CISO 개인의 태만? 인력·예산·실시간 탐지체계 등 조직적 한계? 인과관계 따져봐야[보안뉴스= 이아람 기술사] 지난 8월 초, 금융감독원이 롯데카드 전·현직 정보보호 최고책임자(CISO: Chief Information Security Officer) 모두에게 정직과 함께",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145085&kind=&sub_kind=",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "경제·투자 플랫폼 덮친 유출 사태... 삼프로TV 개인정보 유출 공지",
+      "summary": "외부 행위자 앱 무단 접속, 계좌 2972건·카드 정보 317건 정보 유출이름·연락처 악용한 ‘크리덴셜 스터핑’ 및 타깃형 2차 금융 피해 유의[보안뉴스 조재호 기자] 경제 유튜브 채널 삼프로TV가 운영하는 앱에서 외부 무단 접속을 통한 대규모 개인정보 유출 사고가 발생했다. 이번 사고로 유출된 개인정보는 46만건에 달하며, 이 중 일부 계좌·카드 정보가",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145084&kind=&sub_kind=",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "조달청, 나라장터 쇼핑몰 등록 물품 원산지 관리 강화",
+      "summary": "원산지 ‘대한민국’ 표시 물품 대해 2027년 1월 1일부터 원산지증명서 제출 의무화[보안뉴스 엄호식 기자] 조달청(청장 백승보)은 다수공급자계약(MAS) 물품의 원산지 허위 등록을 원천 차단하기 위한 제도 개선안을 2027년 1월 1일부터 시행한다고 밝혔다. 그동안 MAS 물품의 원산지는 업체가 자율적으로 입력하고, 허위 등록이 확인될 경우에만 조달청이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145088&kind=&sub_kind=",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "美 핵심 기반시설 위협 고조... 뉴욕주, 상수도 사이버 보안에 900만달러 지원",
+      "summary": "미국 내 상수도 시설 사이버 공격 잇달아... 중동 갈등으로 긴장 더해[보안뉴스=김형근 기자] 미국 뉴욕주가 지자체 상수도 전산망의 사이버 보안 강화를 위해 900만달러(약 120억원) 규모의 예산을 지원한다. 미국 전역에서 정수장 등 주요 물 기반 시설을 겨냥한 사이버 공격이 가중됨에 따른 대응책이다.최근 미국 12개 주에서 30개 이상의 상수도 시설이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145086&kind=&sub_kind=",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[DEF CON 34] 한국팀 ‘0x4b52’ 데프콘 CTF 준우승... K-해커, 상위권 휩쓸어",
+      "summary": "한국 해커 주축 5개팀이 10위권 등극이상중 원장 “순수 한국인 팀으로 역대 최고 성과”[라스베이거스=보안뉴스 강현주 기자] 한국팀 ‘0x4b52’가 데프콘 CTF에서 준우승을 차지했다. 이어 슈퍼다이스코드러버스(SuperDiceCodeLovers)가 3위를 차지하는 등 한국 해커가 주축인 5개팀이 10위권에 등극하며 올해도 한국 해커들이 상위권을 휩쓸었",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145083&kind=&sub_kind=",
+      "date": "2026-08-09"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026 토크 콘서트] AI 자율 공격 시대, 우리는 준비됐나?... CISO와 보안 기업 솔직 대화",
+      "summary": "ISEC 2026 2일차 12일, 토크 콘서트 개최... 보안 수요자와 공급자 속내 털어놓는다[보안뉴스 한세희 기자] AI가 스스로 취약점을 찾고 악성 코드까지 만들어 공격하는 시대가 왔다. 사람이 따라가지 못할 정도의 속도와 규모로 공격을 쏟아내는 AI의 등장은 보안 분야에 전례 없는 위협을 만들어내고 있다. AI가 사회 전반을 변화시킬 것으로 예상되는",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145073&kind=&sub_kind=",
+      "date": "2026-08-09"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[DEF CON 34 해커 인터뷰] K-해커가 잘하는 이유?... “AI에 강해서!”",
+      "summary": "‘IT DNA’와 빠른 습득, 인재양성 프로그램 등 비결 꼽아 “난이도 높아져... AI도 소용없는 문제 가장 어려웠다”“본선 전략은 각자의 강점 살리기... 즐기겠다”[라스베이거스=보안뉴스 강현주 기자] “한국 해커가 AI에 가장 강해요. 뭐든 빨리 습득하는 한국인은 ‘IT DNA’가 있는 것 같아요. 다국적팀과 한국 멤버만의 팀은 각각의 장점이 있어요.",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145082&kind=&sub_kind=",
+      "date": "2026-08-09"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "스카이넷의 전조? ‘오픈AI-앤트로픽-메타’ 주요 AI 모델의 탈주극 벌어져",
@@ -12208,98 +12308,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144192&kind=&sub_kind=",
       "date": "2026-06-19"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Dell Technologies가 엔터프라이즈 스토리지 1위인 이유",
-      "summary": "Dell Technologies는 전 세계 엔터프라이즈 스토리지 시장에서 1위를 차지하고 있습니다. 이러한 시장 점유율은 단순한 결과일 뿐이며, 실제 성장을 이끌고 있는 핵심 요인들이 있습니다. Dell의 성공은 혁신적인 기술 개발, 고객 중심의 솔루션 제공, 그리고 지속적인 시장 리더십에 기반하고 있습니다. 엔터프라이즈 스토리지 분야에서 Dell의 우위는 단순 점유율이 아닌 기업들의 신뢰와 만족도에서 비롯된 것입니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/why-dell-technologies-is-ranked-1-in-enterprise-storage/",
-      "date": "2026-06-18"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "AI를 위한 데이터 스택 재구축: 아키텍처 통합 및 멀티클라우드 전략",
-      "summary": "VAST AI OS는 AI가 요구하는 데이터 계층 성능을 제공하도록 설계되었으며, 서로 다른 데이터 시스템과 프로세스를 단일 AI 네이티브 플랫폼으로 통합하여 상당한 이점을 제공합니다. 이 플랫폼은 기존 AI 인프라 계층까지 확장되어 GPU 가속 분석 실행, KVcache 오프로딩, 장기 컨텍스트 메모리 관리 등을 추가 스토리지 계층 없이 처리할 수 있습니다. AI는 데이터 아키텍처를 크게 변화시키고 있으며, 특히 실시간 비디오 인텔리전스와 같은 사용 사례에서 데이터 저장, 처리, 분석에 필요한 시스템 수를 줄이는 방향으로 재구축되고 있습니다. 단일 데이터 플랫폼 내에서 워크플로우를 유지하면 운영 복잡성 감소, 레이턴시 최소화, 공격 범위 축소 등의 이점을 얻을 수 있으며, 이는 시스템 간 데이터 이동으로 인한 시간 낭비와 장애 지점을 줄이는 데 도움이 됩니다. 따라서 대규모 클라우드 제공업체들은 기존 제품의 기능과 연결성을 강화하는 데 집중하고 있습니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/rebuilding-the-data-stack-for-ai-collapsing-architectures-multi-cloud",
-      "date": "2026-06-18"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "AI가 데이터 중력을 만들지는 않았지만, 무시할 수 없게 만들었다",
-      "summary": "AI 시대에는 인프라 유연성이 증대될 것으로 기대했으나, 실제로는 엔터프라이즈 IT의 가장 오래된 제약인 '데이터 이동의 어려움'이 노출되었다. 컴퓨팅 자원은 클라우드 전역에서 쉽게 배포 가능하지만, 모델 학습과 운영에 필요한 데이터는 여전히 여러 데이터센터와 조직 간에 산재되어 있으며, 이를 옮기는 것은 느리고 비용이 많이 든다. 기업들이 데이터 복제 파이프라인과 동기화 작업으로 보완하려 했지만, AI의 지속적인 학습과 추론 프로세스로 인해 이러한 임시 방편들은 더 이상 실용적이지 않게 되었다. VAST는 기존의 데이터 오케스트레이션 도구보다는 데이터 이동을 애플리케이션 계층에서 완전히 추상화하는 아키텍처가 필요하다고 주장하며, VAST DataSpace를 통해 글로벌 네임스페이스로 물리적으로 분산된 환경을 통합하여 데이터 중력 문제를 해결하고 재해 복구의 경제성을 근본적으로 개선할 수 있다고 제시한다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/ai-didnt-create-data-gravity-it-made-it-impossible-to-ignore",
-      "date": "2026-06-18"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "AI를 위한 데이터 스택 재구축",
-      "summary": "현재 많은 조직의 데이터 인프라는 임시방편으로 구축되어 있어 대규모 AI 워크로드를 운영하기에 적합하지 않습니다. AI 워크로드는 BI 보고서보다는 HPC 시뮬레이션에 가까운 성능 요구사항을 가지고 있으며, 복잡한 아키텍처 유지는 운영 비용과 기회 손실을 초래합니다. AI 혁신의 빠른 속도를 감안할 때, 조직들은 데이터 위생과 컨텍스트 엔지니어링에 집중해야 하지 불안정한 데이터 시스템 유지에 리소스를 낭비해서는 안 됩니다. 현재의 데이터 아키텍처는 이벤트 브로커, 데이터 레이크, 데이터베이스 등 여러 구성요소가 복잡하게 얽혀 있어 AI 워크로드 요구사항을 충족하지 못합니다. AI 모델 운영에서는 GPU의 생산성 유지, 시스템 간 데이터 이동 최소화, 레이턴시 감소가 핵심이며, 이는 비용 낭비와 수익 손실 방지에 직결됩니다. 업계는 데이터 아키텍처 단순화와 파이프라인 축소를 통해 복잡성을 줄이고 성능과 확장성을 개선하는 방향으로 재편되고 있습니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/rebuilding-the-data-stack-for-ai",
-      "date": "2026-06-18"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "대다수의 인터넷 접근 가능한 REDCap 서버가 구버전",
-      "summary": "인터넷에 공개되어 있는 대부분의 REDCap 서버가 최신 버전으로 업데이트되지 않은 상태로 운영 중인 것으로 드러났습니다. REDCap은 연구 데이터 관리에 널리 사용되는 플랫폼으로, 구버전 서버들은 알려진 보안 취약점에 노출될 위험이 높습니다. 이러한 상태는 의료 및 연구 기관의 민감한 데이터가 사이버 공격의 위험에 처해 있음을 의미합니다. 보안 전문가들은 조직들에게 즉시 시스템을 업데이트하고 보안 패치를 적용할 것을 권고하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/majority-of-internet-accessible-redcap-servers-outdated/",
-      "date": "2026-06-18"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Accenture, 41억 달러 규모의 운영기술(OT) 사이버보안 강화를 위해 Dragos 지분 인수 및 runZero, NetRise 전량 인수",
-      "summary": "Accenture가 운영기술(OT) 사이버보안 분야 강화를 위해 41억 달러 규모의 대규모 인수 계획을 발표했습니다. 이는 Dragos의 지배적 지분 인수, runZero와 NetRise의 전량 인수로 구성됩니다. 이번 인수를 통해 Accenture는 산업용 제어 시스템(ICS) 및 운영 기술 분야에서의 보안 역량을 대폭 강화할 예정입니다. 해당 거래는 조직의 중요 인프라 보호 및 사이버 위협 대응 능력 향상을 목표로 하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/accenture-to-acquire-majority-stake-in-dragos-all-of-runzero-netrise-in-4-1-billion-ot-cybersecurity-push/",
-      "date": "2026-06-18"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "익스플로잇 없이도 가능한 보안 위협",
-      "summary": "RunZero의 Tod Beardsley는 현대 네트워크 아키텍처가 어떻게 패치와 CVE만으로는 절대 해결할 수 없는 보안 문제를 야기하는지 분석했습니다. 이 글은 단순히 알려진 취약점을 악용하지 않아도 네트워크 보안이 침해될 수 있다는 점을 강조합니다. 기존의 보안 대응 방식만으로는 현대적 네트워크 환경의 복잡한 보안 위협에 대처하기 어렵다는 것을 지적합니다. 결국 조직들은 단순 패치 관리를 넘어 더 포괄적인 보안 전략을 수립해야 함을 시사합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/no-exploits-required/",
-      "date": "2026-06-18"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Dream, 30억 달러 기업가치로 2억 6,000만 달러 투자 유치",
-      "summary": "사이버보안 분야의 Dream이 30억 달러의 기업가치로 2억 6,000만 달러 규모의 투자 자금을 조달했습니다. 이번 펀딩은 주권형 AI 인프라 개발을 위해 사용될 예정입니다. 해당 투자는 SecurityWeek에 의해 보도되었으며, 사이버보안 분야의 자금 조달 동향을 보여주는 사례입니다. Dream의 펀딩 성공은 AI 기반 보안 기술에 대한 산업의 높은 관심을 반영합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/dream-raises-260-million-at-3-billion-valuation/",
-      "date": "2026-06-18"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Atlassian과 Splunk, 심각한 취약점 패치 공개",
-      "summary": "Atlassian과 Splunk가 중요한 보안 취약점에 대한 패치를 릴리스했습니다. 이러한 취약점들은 공격자들에게 악용될 경우 시스템에 심각한 피해를 줄 수 있습니다. 두 회사는 사용자들에게 즉시 패치를 적용할 것을 권고하고 있습니다. 해당 취약점의 구체적인 세부사항은 보안 업데이트를 통해 공개되었습니다. 이는 기업의 소프트웨어 보안 유지의 중요성을 다시 한 번 강조하는 사건입니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/atlassian-splunk-patch-critical-vulnerabilities/",
-      "date": "2026-06-18"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "로카롤라 뱅킹 트로잔, 200개 애플리케이션 공격 대상",
-      "summary": "로카롤라(Rokarolla)는 안드로이드 기기를 대상으로 하는 새로운 뱅킹 트로잔 악성코드입니다. 이 악성코드는 약 200개의 뱅킹 및 금융 애플리케이션을 공격 대상으로 삼고 있습니다. 로카롤라는 사용자의 민감한 금융 정보를 탈취하고 사기 거래를 수행하기 위해 설계되었습니다. 보안 전문가들은 이 위협이 빠르게 확산되고 있으며 금융 기관과 사용자 모두에게 심각한 위험을 초래할 수 있다고 경고하고 있습니다. 안드로이드 사용자들은 출처가 불명확한 애플리케이션 설치를 피하고 보안 업데이트를 정기적으로 적용할 것이 권장됩니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/rokarolla-banking-trojan-targets-200-applications/",
-      "date": "2026-06-18"
     }
   ],
-  "totalItems": 3297,
+  "totalItems": 3307,
   "hasArchive": true
 }
