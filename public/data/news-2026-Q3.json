@@ -2,6 +2,123 @@
   "quarter": "2026-Q3",
   "items": [
     {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell Pro Precision에서 Muse Glimmer 배포하기",
+      "summary": "Muse Glimmer는 추론, 계획 수립 및 실행 능력을 갖춘 AI 모델입니다. Dell Pro Precision 워크스테이션에서 클라우드 없이 로컬로 Muse Glimmer를 실행할 수 있습니다. 이를 통해 사용자는 프라이빗 환경에서 고성능의 AI 기능을 활용할 수 있습니다. Dell Pro Precision의 강력한 컴퓨팅 능력은 복잡한 AI 작업을 효율적으로 처리합니다. 클라우드 종속성을 제거함으로써 데이터 보안과 지연 시간을 개선할 수 있습니다. 이는 엔터프라이즈 환경에서 AI 구현의 새로운 방식을 제시합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/deploying-muse-glimmer-on-dell-pro-precision/",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "TACCS와 Stanzione이 논하는 AI 전력과 슈퍼컴퓨팅의 미래",
+      "summary": "이 대화에서는 인공지능 시대에 슈퍼컴퓨팅의 역할과 미래 방향에 대해 깊이 있게 다룬다. 데이터 관리의 중요성이 강조되며, 기존의 배치 지향 워크플로우에서 실시간 데이터 동화로의 전환이 핵심 화제로 제시된다. AI 기반 애플리케이션의 확산에 따라 슈퍼컴퓨팅 인프라가 어떻게 진화해야 하는지에 대한 논의가 이루어진다. 또한 포토닉스와 양자컴퓨팅 같은 신흥 기술들이 향후 슈퍼컴퓨팅 환경에서 가져올 변화와 가능성에 대해 살펴본다. 이러한 기술 발전들이 고성능 컴퓨팅의 효율성과 처리 능력을 어떻게 개선할 수 있을지 전망한다. 결과적으로 미래의 슈퍼컴퓨팅은 AI, 데이터 관리, 그리고 혁신 기술의 통합을 통해 새로운 패러다임으로 발전할 것으로 예상된다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/taccs-dan-stanzione-on-ai-power-and-the-future-of-supercomputing",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 딜레마: 연방 IT 프로젝트가 실패하는 이유와 해결 방법",
+      "summary": "연방 정부의 IT 프로젝트들이 AI 도입 과정에서 실패하는 핵심적인 이유들을 분석하고 이를 개선하기 위한 솔루션을 제시하는 글입니다. 현재 많은 연방 기관들이 AI 기술을 도입하려고 시도하고 있으나, 기존의 구식 인프라, 부족한 기술 인력, 그리고 명확하지 않은 로드맵으로 인해 프로젝트 실패율이 높습니다. 이러한 문제들을 해결하기 위해서는 현대적인 데이터 기반 인프라 구축, 전문 인력 확보, 그리고 실질적인 AI 활용 전략 수립이 필수적입니다. VAST Data와 같은 엔터프라이즈급 솔루션은 정부 기관들이 대규모 데이터를 효과적으로 관리하고 AI 프로젝트를 성공적으로 추진할 수 있도록 지원합니다. 올바른 기술 파트너와 전략적 접근을 통해 연방 IT 프로젝트의 성공률을 크게 향상시킬 수 있습니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/the-ai-dilemma-why-federal-it-projects-fail-and-how-to-fix-them",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpenAI의 차세대 Astra 모델, 자율형 사이버공격 우려 제기",
+      "summary": "OpenAI가 개발 중인 Astra 모델이 자율형 사이버공격 수행 능력으로 인한 보안 우려를 낳고 있습니다. 이 AI 모델의 고도화된 기능이 악의적 목적으로 악용될 경우 자동화된 대규모 사이버 공격이 가능해질 수 있다는 점이 지적되고 있습니다. 보안 전문가들은 이러한 기술의 이중용도 위험성에 대해 경고하고 있으며, 적절한 안전장치와 규제 방안 마련의 필요성을 강조하고 있습니다. Astra 모델의 자율 능력이 사이버 방어 분야에도 도움이 될 수 있지만, 공격 측면에서의 잠재적 위협이 더 우려되는 상황입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/openais-upcoming-astra-model-raises-autonomous-cyberattack-concerns/",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Stealthium, AI 가속기와 신형 클라우드의 보안 맹점 겨냥",
+      "summary": "Stealthium은 AI 가속기와 신형 클라우드 인프라의 숨겨진 공급망 위협을 노출하는 것을 목표로 하고 있습니다. 이 솔루션은 인프라 텔레메트리에서 손상의 미묘한 징후를 탐지하여 기존 보안 도구들이 놓치는 맹점을 해결합니다. AI 가속기와 클라우드 환경의 복잡성으로 인해 공격자들이 악용할 수 있는 보안 갭이 존재하고 있습니다. Stealthium은 이러한 취약한 영역에서의 공급망 공격 위협을 탐지하고 방어하는 새로운 접근 방식을 제시합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/stealthium-targets-security-blind-spots-in-ai-accelerators-and-neo-clouds/",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "시스코, 공개된 PoC가 있는 높은 심각도의 ClamAV 취약점 경고",
+      "summary": "시스코가 ClamAV에서 발견된 높은 심각도의 취약점들에 대해 경고했으며, 이미 공개된 개념 증명(PoC)이 존재하고 있다. ClamAV는 악성 소프트웨어 탐지를 위한 오픈소스 백신 엔진으로 널리 사용되고 있다. 이러한 취약점들은 서비스 거부(DoS) 공격을 유발할 수 있으며, 공개 PoC의 존재로 인해 공격자들이 빠르게 악용할 수 있는 위험이 높다. 시스코는 영향을 받는 사용자들에게 즉시 보안 패치를 적용할 것을 권고하고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisco-warns-of-high-severity-clamav-vulnerabilities-with-public-poc/",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "'고스트재킹' 공격, 조작된 로그로 AI 에이전트를 악용",
+      "summary": "보안 연구원들이 '고스트재킹(Ghostjacking)'이라는 새로운 공격 기법을 발견했습니다. 이 공격은 시스템 로그에 악의적인 데이터를 주입하여 AI 에이전트의 동작을 조작합니다. 공격자는 조작된 로그를 통해 AI 에이전트가 원치 않는 명령을 실행하도록 유도할 수 있습니다. 이 기법은 AI 시스템의 로그 데이터가 신뢰할 수 있다는 가정에 기초하고 있어 기존 보안 방어 체계를 우회할 수 있습니다. 해당 공격으로 인해 기업 시스템의 무결성과 보안이 심각하게 위협받을 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ghostjacking-attack-uses-poisoned-logs-to-turn-ai-agents-bad/",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "뉴저지, 앨라배마주, 물 공급 시스템 사이버공격 대상 포함",
+      "summary": "뉴저지주와 앨라배마주가 최근 물 공급 시스템을 겨냥한 사이버공격의 새로운 피해 지역으로 추가되었습니다. 이번 공격은 산업제어시스템(ICS)과 운영기술(OT) 인프라를 대상으로 하고 있으며, 미국의 여러 주가 연쇄적으로 수자원 시설 침해를 경험하고 있는 상황입니다. 물 공급망에 대한 이러한 사이버위협은 국가 기반시설 보안에 대한 우려를 높이고 있습니다. 당국은 지방 및 지역 수도 사업자들에게 사이버 방어 체계를 강화할 것을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/new-jersey-alabama-join-states-targeted-in-water-cyberattacks/",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "메타베이스, 제로데이로 악용된 취약점 패치",
+      "summary": "메타베이스(Metabase)에서 심각도가 높은 SQL 인젝션 취약점이 발견되어 패치되었습니다. 이 취약점은 이미 제로데이로 악용되고 있었던 것으로 알려졌습니다. 메타베이스는 이 보안 결함을 해결하기 위해 긴급 패치를 배포했습니다. 사용자들은 최신 버전으로 업데이트하여 시스템을 보호할 것을 권장받고 있습니다. 이번 취약점은 공격자가 데이터베이스에 무단으로 접근할 수 있게 할 수 있는 심각한 위협으로 평가됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/metabase-patches-vulnerability-exploited-as-zero-day/",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 Private APN 공격으로 폴란드 에너지 시설 2곳 피해",
+      "summary": "해커들이 새로운 Private APN(접근 포인트 네트워크) 공격 기법을 이용하여 폴란드의 두 번째 에너지 시설을 침해했습니다. 이 공격은 기존의 알려진 침해 기법과 다른 새로운 방식의 피벗(pivot) 기술을 활용하여 SCADA 및 PLC 등 운영 기술(OT) 시스템을 타겟으로 삼았습니다. 공격자들은 이 취약점을 통해 전력망에 직접적인 영향을 미칠 수 있는 중요 기반시설에 접근할 수 있었습니다. 이번 사건은 에너지 시설에 대한 고도의 공격 위협이 증가하고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/novel-private-apn-pivot-let-hackers-sabotage-second-polish-energy-facility/",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, Progress LoadMaster 악용되는 취약점 긴급 패칭 촉구",
+      "summary": "미국 사이버보안기반시설보안청(CISA)이 Progress LoadMaster의 알려진 취약점에 대한 긴급 패칭을 촉구했습니다. 이 취약점은 현재 실제로 악용되고 있는 것으로 확인되었으며, CISA의 알려진 악용 취약점(KEV) 목록에 추가되었습니다. Progress Software의 Kemp LoadMaster 제품에 영향을 미치는 이 보안 결함은 조직들에게 심각한 위협이 될 수 있습니다. CISA는 조직들이 즉시 패치를 적용하여 자신의 시스템을 보호할 것을 강력히 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-progress-loadmaster-vulnerability/",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "리바이스 사이버공격으로 기업 데이터 탈취",
+      "summary": "의류 제조업체 리바이스(Levi Strauss)가 사이버공격으로 기업 데이터를 탈취당했습니다. 해커들은 사회공학 기법을 이용하여 리바이스 직원 3명의 컴퓨터에 접근한 후 기업 정보를 도용했습니다. 이 공격은 피싱 및 기술 지원 사칭 등의 사회공학 수법을 활용한 것으로 보입니다. 해당 사건은 데이터 유출 사고로 분류되며, 기업 보안의 중요성을 다시 한번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/corporate-data-stolen-in-levi-strauss-cyberattack/",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "벨기에 eID 소프트웨어에서 발견된 중대 결함, 200만 명 영향",
+      "summary": "벨기에의 전자신분증(eID) 소프트웨어에서 심각한 보안 결함이 발견되었습니다. 이 소프트웨어는 약 200만 명의 사용자가 이용하고 있어 광범위한 보안 위협이 우려됩니다. 해당 결함은 전자 서명 및 신원 확인 기능과 관련된 것으로 알려져 있습니다. Connective와 Nitro 등의 업체가 관련되어 있으며, 벨기에 정부는 긴급한 패치와 보안 조치를 시행하고 있습니다. 사용자들은 즉시 소프트웨어를 업데이트하고 보안 권고사항을 따르도록 권장됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/critical-flaws-discovered-in-belgian-eid-software-used-by-2-million-people/",
+      "date": "2026-08-10"
+    },
+    {
       "id": "aHR0cDovL3d3dy5i",
       "title": "“2년 안에 통합 보안 플랫폼 전환”... 국내 조직 절반 이상 전환 필요성 느껴",
       "summary": "포티넷, ‘APAC 지역 AI 보안 운영 현황’ 조사 발표도구 난립 해소 및 통합성 개선이 전환 주요 동력[보안뉴스=한세희 기자]보안관제(SOC) 자동화와 가시성 개선 등이 가능한 통합 보안 플랫폼 운영 기업이 2년 안에 전체의 절반 이상으로 늘어날 전망이다. 현재의 2배 수준이다. 보안 도구 난립 해소와 통합도 개선, 하이브리드 복잡성 관리 등의 문제를",
@@ -6663,10 +6780,10 @@
     }
   ],
   "sources": {
+    "Dell": 78,
+    "VAST Data": 34,
+    "SecurityWeek": 254,
     "보안뉴스": 378,
-    "Dell": 77,
-    "SecurityWeek": 244,
-    "VAST Data": 32,
     "HPE": 9
   }
 }
