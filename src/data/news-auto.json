@@ -3392,9 +3392,199 @@
     "http://www.boannews.com/media/view.asp?idx=145146&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=145147&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=145144&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=145143&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=145143&kind=&sub_kind=",
+    "https://www.dell.com/en-us/blog/nebs-level-3-compliance-comes-to-intel-based-poweredge-servers/",
+    "https://www.securityweek.com/in-other-news-rapid7-layoffs-hacking-a-boeing-737-refrigeration-system-vulnerabilities/",
+    "https://www.securityweek.com/trivy-not-litellm-behind-the-2500-org-compromise/",
+    "https://www.securityweek.com/google-cloud-sets-out-post-quantum-roadmap-with-2029-readiness-goal/",
+    "https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/",
+    "https://www.securityweek.com/over-1000-charities-hit-by-beacon-crm-data-breach/",
+    "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/",
+    "https://www.securityweek.com/hackers-exploiting-unpatched-geoserver-zero-day/",
+    "https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/",
+    "http://www.boannews.com/media/view.asp?idx=145168&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145167&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145161&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145166&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145165&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145163&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145162&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145160&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145155&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144238&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "英 범죄기록청(ACRO), 2년간 3차례 침해 사고 ‘인식조차 못해’... ICO 견책 처분",
+      "summary": "2년간 3차례 해킹에도 경고 무시... 가정폭력 피해자 등 민감정보 유출 위기[보안뉴스 김형근 기자] 영국 범죄기록청(ACRO)이 약 2년에 걸쳐 세 차례의 시스템 침해를 당해 가정폭력 피해자 등 수천 명의 민감 정보가 노출 위험에 처했음에도 이를 제때 인지하지 못한 것으로 드러났다. 영국 정보위원회(ICO)는 보안 체계의 총체적 부실을 이유로 ACRO에",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145168&kind=&sub_kind=",
+      "date": "2026-08-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "인텔 기반 PowerEdge 서버에 NEBS Level 3 준수 기능 추가",
+      "summary": "Dell Technologies는 통신 및 네트워크 인프라 분야에서 가장 엄격한 안정성 표준인 NEBS Level 3 인증을 획득한 세 가지의 새로운 PowerEdge 서버를 출시했습니다. 이러한 서버들은 네트워크가 중단될 수 없는 환경에서 필요한 높은 수준의 신뢰성과 견고성을 제공합니다. NEBS Level 3 준수는 환경적 스트레스, 전원 변동, 기계적 충격 등의 극악한 조건에서도 지속적인 운영을 보장합니다. Intel 기반의 이러한 PowerEdge 서버들은 통신사 및 네트워크 서비스 제공자들의 핵심 인프라 요구사항을 충족시킵니다. 이는 Dell의 엔터프라이즈 인프라 솔루션이 가장 까다로운 산업 기준을 만족할 수 있음을 입증합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/nebs-level-3-compliance-comes-to-intel-based-poweredge-servers/",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기타 뉴스: Rapid7 감원, 보잉 737 해킹, 냉동 시스템 취약점",
+      "summary": "보안 업계의 주요 뉴스를 다루는 이번 기사에서는 사이버보안 기업 Rapid7의 감원 소식, 보잉 737 항공기의 해킹 사건, 그리고 냉동 저장 시스템의 보안 취약점을 보도하고 있습니다. 이러한 사건들은 항공 우주 산업과 중요 기반시설 분야의 사이버보안 위험성을 드러내고 있습니다. 특히 냉동 시스템과 같은 운영 기술(OT) 환경의 보안 취약점은 일반적으로 간과되는 분야이지만 실질적인 위협이 될 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-rapid7-layoffs-hacking-a-boeing-737-refrigeration-system-vulnerabilities/",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Trivy, LiteLLM이 아닌 2,500개 조직 침해의 원인",
+      "summary": "최근 2,500개 조직에 대한 대규모 침해 사건이 발생했으며, 초기에 LiteLLM이 원인으로 지목되었으나 실제 원인은 Trivy 도구였던 것으로 확인되었습니다. 이는 공급망 공격(Supply Chain Attack)의 형태로, 널리 사용되는 오픈소스 도구의 취약점을 악용한 것입니다. 피해 조직의 95%가 영향을 받았으며, 이는 개발 도구의 보안이 얼마나 중요한지를 보여주는 사건입니다. 보안 연구자들은 소프트웨어 공급망에 대한 철저한 모니터링과 검증의 필요성을 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/trivy-not-litellm-behind-the-2500-org-compromise/",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "구글 클라우드, 2029년 양자내성암호 준비 완료를 목표로 로드맵 발표",
+      "summary": "구글 클라우드가 양자 컴퓨팅의 위협으로부터 보호하기 위한 양자내성암호(PQC) 로드맵을 공개했다. 이 로드맵은 2029년까지 양자내성암호 구현 준비를 완료하는 것을 목표로 하고 있다. 구글 클라우드는 양자 컴퓨팅이 현재의 암호화 기술을 위협할 수 있다는 점을 인식하고, 고객들의 데이터 보호를 위해 사전에 대응하고 있다. 이 계획은 구글 클라우드의 데이터 보안 전략의 일환으로, 미래의 사이버 보안 위협에 대비하기 위한 중요한 조치이다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/google-cloud-sets-out-post-quantum-roadmap-with-2029-readiness-goal/",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "링센트럴 데이터 유출로 160만 명 영향받을 가능성",
+      "summary": "클라우드 기반 통신 플랫폼 링센트럴이 ShinyHunters라는 위협 집단에 의해 데이터 유출 사고를 당했다. 약 160만 명의 사용자 정보가 유출된 것으로 추정되고 있다. 유출된 데이터에는 사용자의 개인정보와 민감한 통신 기록이 포함되었을 가능성이 있다. 이 사건은 엔터프라이즈급 클라우드 서비스를 대상으로 한 공격이 점점 증가하고 있음을 보여준다. 링센트럴은 현재 사건을 조사 중이며 영향받은 사용자들에게 적절한 알림을 제공할 것으로 예상된다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "1,000개 이상의 자선단체, 비콘 CRM 데이터 유출 피해",
+      "summary": "영국 기반의 CRM 제공업체 비콘(Beacon)이 대규모 데이터 유출 사고를 공개했습니다. 1,000개 이상의 자선단체가 이번 보안 침해로 인해 영향을 받은 것으로 확인되었습니다. 비콘의 CRM 시스템에서 고객 및 기부자의 개인정보가 노출되었습니다. 이번 사건은 비영리 조직들이 사이버 공격의 주요 대상이 될 수 있음을 보여주는 사례입니다. 피해 기관들은 개인정보 보호 규정 준수 및 영향받은 개인들에 대한 통지 의무에 직면하게 될 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/over-1000-charities-hit-by-beacon-crm-data-breach/",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "ShipMonk 데이터 유출로 14,000명의 트레저 고객 영향",
+      "summary": "암호화폐 하드웨어 지갑 제조사인 트레저의 14,000명 고객이 배송 관리 업체 ShipMonk에서 발생한 데이터 유출 사건의 영향을 받았습니다. ShipMonk는 트레저의 주문 처리 및 배송 담당 업체로, 고객의 개인정보가 노출되었습니다. 이번 유출은 Metabase라는 데이터 분석 도구의 보안 취약점을 통해 발생한 것으로 알려졌습니다. 트레저는 이미 영향을 받은 고객들에게 통보했으며, 추가적인 보안 조치를 취하고 있습니다. 이 사건은 주요 암호화폐 관련 회사도 서드파티 공급업체의 보안 위험에 노출될 수 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "해커들이 패치되지 않은 GeoServer 제로데이 취약점 악용",
+      "summary": "GeoServer의 패치되지 않은 제로데이 취약점이 해커들에 의해 적극적으로 악용되고 있습니다. 이 취약점은 원격 코드 실행(RCE)으로 이어질 수 있어 시스템에 심각한 위협을 초래합니다. SecurityWeek의 보도에 따르면 공격자들이 이 미패치 취약점을 통해 대규모 공격을 시도하고 있습니다. GeoServer 사용자들은 즉시 보안 패치를 적용하여 시스템을 보호해야 합니다. 이 제로데이 공격은 기업과 조직의 중요한 인프라에 대한 실질적인 위협이 되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hackers-exploiting-unpatched-geoserver-zero-day/",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AmnesiaStealer macOS 악성코드, 데이터 탈취 및 브라우저 세션 제어",
+      "summary": "AmnesiaStealer는 macOS를 대상으로 하는 새로운 정보 탈취 악성코드입니다. 이 악성코드는 사용자의 민감한 데이터를 탈취할 수 있으며, 브라우저 세션을 제어하여 추가적인 피해를 야기할 수 있습니다. 감염된 시스템의 브라우저 활동을 모니터링하고 조작하는 기능을 갖추고 있어 사용자의 온라인 활동이 위협받을 수 있습니다. macOS 사용자들은 출처가 불명확한 소프트웨어 설치를 피하고 시스템 보안 업데이트를 유지하는 것이 중요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "엘세븐시큐리티, 한국남부발전에 AI OCR 이메일 개인정보 유출 탐지 솔루션 구축",
+      "summary": "본문·첨부파일은 물론 이미지·스캔 문서 속 개인정보까지 발신 단계에서 탐지2026년 개인정보 보호수준 평가 ‘올해의 테마 지표’에 이메일 발송 통제를 유출 방지 대책으로 명시... 증빙 확보에 직접 활용기존 홈페이지 게시판 차단 솔루션과 결합해 내부자 유출 방지 체계 완성[보안뉴스 한세희 기자] AI 개인정보보호 솔루션 전문기업 엘세븐시큐리티(대표 최복희)",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145167&kind=&sub_kind=",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[Global Security TOP 100] 현원필 쿼리시스템즈 대표 “보안은 탐지 넘어 판단과 대응”",
+      "summary": "SIEM·SOAR·NDR 하나로 묶어 파편화된 보안 데이터 통합 분석 및 자동 대응 구현단순 AI 챗봇 넘어선 관제 파트너로 보안 인력 업무 피로도 낮추고 효율성 극대화[보안뉴스 조재호 기자] 생성형 AI의 등장으로 사이버 공격이 정교해지면서 보안 담당자가 처리해야 할 이벤트가 폭발적으로 증가했다. 이제 핵심은 수많은 경고 속에서 실제 위협을 선별하고 신속",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145161&kind=&sub_kind=",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "이노뎁, ‘수주 확대+체질 개선’ 동시에... 하반기 실적 회복 승부",
+      "summary": "수주잔고 400억원으로 확대...공공 AI 전환 대형 사업 확보하며 수주 기반 강화고정비 구조 효율화로 손익분기점 낮춰, 하반기 매출 확대 시 수익성 개선 기대울산·제주 공공 AI 전환 선도사업 확보, B2B·해외로 신규 성장축 확대[보안뉴스 원병철 기자] AI 기반 영상관제 플랫폼 전문기업 이노뎁(대표 이성진)이 수주 확대와 비용구조 개선을 동시에 추진하",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145166&kind=&sub_kind=",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "2026년 상반기, 시간당 5300건의 DDoS 공격 몰아쳤다",
+      "summary": "클라우드플레어, ‘2026 상반기 DDoS 위협 보고서’ 발표1Tbps+ 대형 공격 6배 급증 및 초단기 기습 공격(Ultra-Short Burst) 늘어[보안뉴스 원병철 기자] 2026년 상반기(1~6월) 동안 발생한 2320만건의 네트워크 계층 공격이 발생했으며, 이는 시간당 5300건 이상의 DDoS 공격이 몰아친 셈이라고 클라우드플레어가 ‘2026",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145165&kind=&sub_kind=",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[카드뉴스] 3D 집 구조가 침입자 정찰용으로… 로봇청소기 ‘공간 데이터 유출’ 실태",
+      "summary": "로봇청소기 라이다 센서가 생성한 3D 공간 도면이 무암호화 상태로 전송되어 외부로 노출되는 취약점이 발견되었다. 유출된 실내 구조 및 가구 배치 데이터는 침입자의 사전 정찰 정보로 오용될 수 있어 사이버 데이터 유출이 물리적 주거 범죄로 이어지는 위험을 초래한다. 스마트홈 프라이버시를 지키기 위해 가전 단말의 ‘공간 데이터 암호화’ 적용과 외부 클라우드 전",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145163&kind=&sub_kind=",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "美 CISA, “北 취업 사기 공작에 악용된 윈도우 제로데이 패치 시행하라”",
+      "summary": "방산·항공우주 타깃 권한 상승 취약점(CVE-2026-68820)... 25일까지 조치 요구[보안뉴스 김형근 기자] 미국 사이버보안및인프라보안국(CISA)이 북한 해커 조직이 실제 공격에 악용한 마이크로소프트(MS) 윈도우 취약점(CVE-2026-68820)에 대해 25일까지 보안 패치를 완료하라는 지침을 연방기관에 하달했다.이 취약점은 네트워크 통신을 중",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145162&kind=&sub_kind=",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "아톤, 2분기 영업이익 32억원... 전년동기 대비 92.3% 상승",
+      "summary": "PQC, 금융 인프라 등 사업 확대 수익 견인[보안뉴스 강현주 기자] 아톤(대표 김종서, 우길수)은 2026년 2분기 연결 기준 영업이익 32억원, 영업이익률 18.1%를 기록했다고 14일 밝혔다. 지난해 2분기 대비 영업이익은 92.3% 증가했고, 영업이익률은 9.7%p 상승하며 수익성이 개선됐다. 2분기 연결 매출액은 전년 동기 대비 11.4% 감소한",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145160&kind=&sub_kind=",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "AI 기술로 진화하는 랜섬웨어 추적... 누리랩 ‘마이노스 안티랜섬 2.0’ 출시",
+      "summary": "악성 행위 실시간 분석해 시그니처 없는 신종 랜섬웨어 선제 방어기업용 수준의 정밀 탐지 엔진을 개인 사용자가 쉽게 접하도록 문턱 낮춰[보안뉴스 조재호 기자] 누리랩이 랜섬웨어 대응 기능을 대폭 고도화한 ‘마이노스 안티랜섬 2.0’(MINOSS Anti-Ransom 2.0)을 정식 출시했다고 14일 밝혔다. 이와 함께 개인 사용자의 보안 강화를 지원하기 위한",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145155&kind=&sub_kind=",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 84] 소 잃고 외양간 고친다(4)-비대면 계좌 개설, 왜 위험할까",
+      "summary": "비대면 계좌 개설 시 신분증 관리에 극도로 주의하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐,",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144238&kind=&sub_kind=",
+      "date": "2026-08-14"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "[배종찬의 보안 빅데이터] AI가 AI를 뚫는 시대, ‘클로드 해킹’의 경고",
@@ -12223,179 +12413,8 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/dragos-unveils-ai-for-ot-security/",
       "date": "2026-06-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "100만 개 앱에 사용되는 Dify AI 플랫폼의 데이터 노출 취약점",
-      "summary": "Dify AI 플랫폼에서 데이터 노출 취약점이 발견되어 약 100만 개의 애플리케이션이 위협받고 있습니다. SecurityWeek에서 보도한 이 보안 결함은 클라우드 기반 AI 플랫폼 사용자들의 민감한 정보가 노출될 수 있는 심각한 위험을 야기합니다. 이번 취약점은 DifyTap을 포함한 플랫폼의 여러 부분에 영향을 미치며, 광범위한 사용자 기반을 고려할 때 상당한 보안 위협이 될 수 있습니다. 보안 전문가들은 해당 플랫폼 사용자들에게 즉시 대응을 권고하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/data-exposure-flaws-threaten-dify-ai-platform-powering-over-1-million-apps/",
-      "date": "2026-06-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "8년 된 삼성 KNOX 결함, 수백만 갤럭시 기기를 커널 공격에 노출",
-      "summary": "삼성의 보안 플랫폼인 KNOX에서 8년간 방치된 보안 결함(CVE-2026-20971)이 발견되었으며, 이 취약점으로 인해 수백만 대의 갤럭시 기기들이 커널 수준의 공격에 노출되어 있었다. 이 결함은 권한 상승 공격을 통해 디바이스의 핵심 시스템에 대한 접근을 허용할 수 있어 심각한 보안 위협이 될 수 있다. SecurityWeek에서 보도한 이 사건은 모바일 기기 보안의 중요성을 재조명하고 있으며, 삼성은 이 취약점을 해결하기 위한 보안 패치를 배포할 것으로 예상된다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/eight-year-old-samsung-knox-flaw-exposed-millions-of-galaxy-devices-to-kernel-attacks/",
-      "date": "2026-06-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "CISO 인터뷰: Deep Instinct의 칼 프로젯 - CISO와 CIO 역할 통합",
-      "summary": "SecurityWeek의 CISO Conversations 시리즈에서 Deep Instinct의 칼 프로젯(Carl Froggett)을 인터뷰한 기사입니다. 이 기사는 한 인물이 CISO(최고정보보안책임자)와 CIO(최고정보책임자) 역할을 동시에 수행하는 현대적 조직 구조에 대해 다룹니다. 기업 보안과 IT 운영의 통합적 관점에서 전략적 의사결정이 어떻게 이루어지는지를 살펴봅니다. 이러한 역할의 통합은 조직의 보안 거버넌스와 디지털 혁신 전략을 동시에 추진하는 데 있어 효율성을 높일 수 있는 방안으로 제시됩니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/ciso-conversations-carl-froggett-combining-ciso-and-cio-at-deep-instinct/",
-      "date": "2026-06-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "알제리 남성, 사이버범죄 마켓플레이스 운영 혐의로 미국에 송환",
-      "summary": "알제리 국적의 한 남성이 불법 사이버범죄 마켓플레이스를 운영한 혐의로 미국으로 송환되었습니다. 이 사건은 국제 사이버범죄 단속 및 법 집행 부서의 협력을 통해 이루어졌으며, 온라인 범죄 시장의 확산에 대한 글로벌 대응의 일환입니다. 해당 마켓플레이스는 해킹 도구, 개인정보, 불법 서비스 등 다양한 사이버범죄 관련 물품과 서비스를 거래하는 플랫폼으로 운영되었던 것으로 파악됩니다. 이번 사건은 국제 법 집행기관들이 국경을 넘어 사이버범죄 조직을 적극적으로 추적하고 있음을 보여줍니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/algerian-man-extradited-to-us-for-running-cybercrime-marketplaces/",
-      "date": "2026-06-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "FFmpeg PixelSmash 결함, 비디오 플레이어·미디어 서버·NAS 기기에서 원격 코드 실행 허용",
-      "summary": "FFmpeg에서 발견된 'PixelSmash'라는 보안 결함이 비디오 플레이어, 미디어 서버, NAS 어플라이언스 등 다양한 기기에서 원격 코드 실행(RCE)을 가능하게 한다. 이 취약점은 FFmpeg 라이브러리를 사용하는 광범위한 멀티미디어 애플리케이션과 네트워크 장치에 영향을 미칠 수 있다. 공격자는 악의적으로 조작된 비디오 파일을 통해 영향받은 시스템에서 임의의 코드를 실행할 수 있다. 이 결함은 스트리밍 서비스, 미디어 플레이어, 그리고 NAS 장치의 보안에 심각한 위협이 될 수 있다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/ffmpeg-pixelsmash-flaw-allows-rce-on-video-players-media-servers-nas-appliances/",
-      "date": "2026-06-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "OpenAI, 취약점 발견보다 패치에 사이버보안 역량 집중",
-      "summary": "OpenAI가 사이버보안 전략을 재편성하여 새로운 취약점 발견보다는 발견된 취약점의 패치에 더 많은 자원을 할당하고 있습니다. 이는 이미 알려진 보안 위협에 대한 신속한 대응과 시스템 강화에 우선순위를 두겠다는 의지를 보여줍니다. OpenAI의 GPT 기반 사이버보안 도구들을 통해 이러한 패치 작업을 가속화할 계획입니다. 이러한 정책 변화는 조직의 현실적인 보안 태세 개선에 초점을 맞추려는 노력으로 해석됩니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/openai-refocuses-cybersecurity-efforts-on-patching-over-discovery/",
-      "date": "2026-06-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "FortiBleed 캠페인의 배후는 러시아 초기 접근 브로커",
-      "summary": "러시아의 초기 접근 브로커(IAB)가 Fortinet 장비를 대상으로 한 'FortiBleed' 캠페인의 배후로 지목되었습니다. 이 캠페인은 FortiGate 방화벽의 취약점을 악용하여 네트워크에 불법적으로 접근하는 방식으로 작동합니다. 초기 접근 브로커들은 침입한 시스템에 대한 접근 권한을 판매하여 다른 사이버범죄 조직이 추가 공격을 수행하도록 합니다. 이번 사건은 러시아 기반 사이버범죄 인프라의 지속적인 위협을 보여주는 사례입니다. 조직들은 Fortinet 장비의 보안 패치를 긴급으로 적용하고 네트워크 침입 흔적을 점검할 필요가 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/russian-initial-access-broker-behind-fortibleed-campaign/",
-      "date": "2026-06-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "캐나다 전력 공급업체 London Hydro 데이터 유출 공개",
-      "summary": "캐나다의 전력 공급업체 London Hydro가 데이터 유출 사건을 공개했습니다. 이번 사건은 주요 기반시설인 전력망에 대한 사이버 보안 위협을 드러냅니다. 회사는 고객 정보가 포함된 데이터가 유출되었음을 확인했습니다. 이는 중요 인프라 부문의 사이버 공격 증가 추세를 반영합니다. 해당 사건은 에너지 부문의 보안 강화 필요성을 강조합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/canadian-electricity-provider-london-hydro-discloses-data-breach/",
-      "date": "2026-06-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "시스코 Unified CM 취약점 CVE-2026-20230, 현재 공격에 악용 중",
-      "summary": "시스코 Unified Communications Manager Server의 심각한 SSRF(Server-Side Request Forgery) 취약점인 CVE-2026-20230이 실제 공격에서 악용되고 있습니다. 이 취약점은 Cisco Unified CM WebDialer와 관련된 것으로, 공격자들이 이미 이를 이용한 활동을 전개하고 있는 상황입니다. 해당 취약점으로 인해 네트워크 침투 및 내부 시스템 접근이 가능할 수 있어 위협 수준이 높습니다. 시스코 사용자들은 긴급히 보안 패치를 적용하여 시스템을 보호해야 합니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/",
-      "date": "2026-06-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "타타 일렉트로닉스, 사이버공격 확인 및 해커의 데이터 유출",
-      "summary": "타타 일렉트로닉스가 자사 IT 인프라 일부에 영향을 미친 사이버공격의 피해자임을 공식 확인했습니다. 해커들이 공격을 통해 획득한 데이터를 유출시킨 것으로 알려졌습니다. 이번 사건은 애플과 관련된 주요 공급업체인 타타 일렉트로닉스가 대규모 데이터 유출 위협에 노출되었음을 시사합니다. 공격자들은 유출된 데이터를 활용해 랜섬웨어 또는 강탈 목적의 협박을 시도할 가능성이 있습니다. 현재 보안 커뮤니티에서는 이번 공격의 전체 규모와 영향 범위를 파악하기 위한 조사가 진행 중입니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/tata-electronics-confirms-cyberattack-as-hackers-leak-data/",
-      "date": "2026-06-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Windows 11 KB5095093 업데이트, 새로운 '특정 시점 복원' 기능 출시",
-      "summary": "마이크로소프트가 Windows 11 24H2 및 25H2 버전을 위한 KB5095093 프리뷰 누적 업데이트를 출시했습니다. 이번 업데이트는 수많은 버그를 수정하면서 동시에 새로운 '특정 시점 복원(Point-in-Time restore)' 기능을 포함한 새로운 기능들을 단계적으로 배포하고 있습니다. 특정 시점 복silon 기능은 사용자들이 시스템을 이전의 특정 시점으로 복원할 수 있도록 하는 향상된 복구 옵션입니다. 이는 시스템 오류나 문제 발생 시 사용자의 데이터 보호와 시스템 안정성을 높이는 데 목적이 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5095093-update-rolls-out-new-point-in-time-restore-feature/",
-      "date": "2026-06-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "의료기술 회사 Xolis, 140만 명 개인정보 유출",
-      "summary": "의료기술 회사 Xsolis가 피싱 공격으로 인해 약 140만 명의 민감한 개인정보가 유출되었다고 발표했습니다. 해커들은 피싱 공격을 통해 회사 네트워크에 접근 권한을 확보했습니다. 이번 사건으로 인해 고객들의 개인정보와 의료 관련 데이터가 침해되었습니다. 회사는 영향을 받은 개인들에게 이를 통지하고 있으며, 보안 사건에 대한 조사를 진행 중입니다. 이 사건은 의료 산업의 사이버보안 위험성을 다시 한번 부각시키고 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/healthtech-firm-xolis-suffers-data-breach-impacting-14-million-people/",
-      "date": "2026-06-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "새로운 macOS ClickFix 공격, DMG 파일을 통해 정보 탈취 악성코드 배포",
-      "summary": "새로운 macOS ClickFix 캠페인이 터미널 명령어를 악용하여 악성 디스크 이미지(DMG) 파일로부터 정보 탈취 악성코드를 몰래 다운로드, 마운트 및 실행하고 있습니다. 이 공격 기법은 사용자의 눈에 띄지 않게 악성 소프트웨어를 설치하는 것을 목표로 하고 있습니다. 공격자들은 정상적인 시스템 명령어를 이용하여 보안 탐지를 우회하려고 시도하고 있습니다. 이러한 공격은 macOS 사용자들을 대상으로 개인 정보와 민감한 데이터 탈취를 목적으로 하고 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-macos-clickfix-attack-silently-mounts-dmgs-to-push-infostealer/",
-      "date": "2026-06-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "스캐터드 스파이더 멤버들, 런던 교통청 해킹으로 유죄 인정",
-      "summary": "사이버범죄 집단 스캐터드 스파이더(Scattered Spider)의 2명의 멤버가 2024년 런던 교통청(Transport for London, TfL) 시스템 해킹에 대해 유죄를 인정했습니다. 이 사건은 주요 공공 인프라를 대상으로 한 조직적인 사이버 공격으로, 런던의 대중교통 운영에 영향을 미쳤습니다. 유죄 인정으로 인해 해당 멤버들은 법적 처벌을 받게 될 것으로 예상됩니다. 이 사건은 중요 기반시설에 대한 사이버 위협의 심각성을 다시 한 번 입증하는 사례입니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london/",
-      "date": "2026-06-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "공개 익스플로잇이 없어도 취약점 악용 가능성을 증명할 수 있다",
-      "summary": "최근 공개된 취약점에 대해 공격자들이 대부분의 조직이 패치를 적용하기 전에 이를 무기화할 수 있게 되었습니다. Picus Security는 공개 익스플로잇이 존재하기 전에도 보안팀이 취약점의 악용 가능성을 검증할 수 있는 방법을 제시하고 있습니다. 이는 자동화된 침투 테스트와 TTP(Tactics, Techniques, Procedures) 체인을 활용하여 실제 공격 시나리오를 사전에 테스트하는 것을 의미합니다. 이러한 접근 방식은 조직이 공식 익스플로잇 공개 전에 자신의 시스템 취약성을 파악하고 대응할 수 있게 해줍니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/the-exploit-doesnt-exist-you-can-still-prove-it-works-against-you/",
-      "date": "2026-06-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "LastPass, Klue 공급망 공격으로 인한 데이터 유출 확인",
-      "summary": "LastPass가 이달 초 발생한 Klue 공급망 공격으로 인해 고객 데이터가 유출되었음을 확인했습니다. 해커들은 Klue 공급망 공격을 통해 LastPass의 OAuth 토큰을 탈취한 후, 이를 악용하여 Salesforce 환경에서 고객 데이터에 접근했습니다. 이번 사건은 공급망 공격이 얼마나 광범위한 피해를 줄 수 있는지 보여주는 사례입니다. LastPass는 고객들에게 이 사실을 알리고 보안 강화 조치를 취하고 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/",
-      "date": "2026-06-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "웨비나: 이메일 보안팀이 알림 폭주로 어려움을 겪는 이유",
-      "summary": "피싱, BEC(비즈니스 이메일 타협), 계정 탈취 공격이 지속적으로 보안팀을 알림과 조사로 압도하고 있습니다. 본 웨비나는 행동 기반 AI가 탐지 및 대응 워크플로우를 자동화하여 알림 피로도를 줄이고 운영 효율성을 개선하는 방법을 탐색합니다. 이를 통해 보안팀은 증가하는 위협에 더욱 효과적으로 대응할 수 있게 됩니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/webinar-why-email-security-teams-are-drowning-in-alerts/",
-      "date": "2026-06-23"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[속담으로 배우는 100가지 보안 습관 47] 낮말은 새가 듣고 밤말은 쥐가 듣는다(7)-우편물 쌓아두면 생기는 위험",
-      "summary": "우편함에 고지서가 쌓이지 않게 관리하세요(이메일 고지서 추천)보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다.",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143634&kind=&sub_kind=",
-      "date": "2026-06-23"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "2026 IT21 글로벌 컨퍼런스, 7월 2~3일 피스앤파크 컨벤션에서 개최",
-      "summary": "“Life with AI, 일상에 스며드는 AI” 주제... AI 산업·보안·윤리·데이터 혁신 논의[보안뉴스 한세희 기자] 한국정보처리학회(학회장 박능수)는 내달 2-3일 양일간 서울 피스앤파크 컨벤션에서 ‘2026년도 IT21 글로벌 컨퍼런스’를 개최한다.이번 컨퍼런스는 “Life with AI: 일상에 스며드는 AI”를 주제로, 인공지능이 산업과 사회",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144293&kind=&sub_kind=",
-      "date": "2026-06-23"
     }
   ],
-  "totalItems": 3393,
+  "totalItems": 3412,
   "hasArchive": true
 }
