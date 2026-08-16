@@ -3411,9 +3411,59 @@
     "http://www.boannews.com/media/view.asp?idx=145162&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=145160&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=145155&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=144238&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=144238&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145173&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145164&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145172&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145171&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145169&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "서울시, AI 업무 활용 안전하게... 사이버 보안 체계 정비",
+      "summary": "사이버보안 조례 시행규칙 입법예고… 내달 2일까지 의견 접수[보안뉴스 한세희 기자] 서울시가 인공지능(AI)과 클라우드 등 신기술 활용에 따른 사이버 위협을 막을 수 있도록 보안 체계를 강화한다. 서울시는 최근 ‘서울특별시 사이버보안에 관한 조례 시행규칙안’을 입법예고하고 다음달 2일까지 시민 등 의견을 받는다고 밝혔다. 이 안은 작년 9월 시행된 서울시",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145173&kind=&sub_kind=",
+      "date": "2026-08-16"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[ISEC 2026] “AI의 ‘규모’와 사람의 ‘깊이’를 한 플랫폼에 통합”... 존 아데오 해커원 부사장",
+      "summary": "“AI가 규모와 속도 높이면 사람이 정확성 검증”“CTEM-AI 레드티밍 결합, 업계가 나아갈 방향”[보안뉴스 강현주 기자] “사이버 보안의 미래는 AI와 사람 중 하나를 선택하는 것이 아닙니다. 속도를 위해 AI를 쓰고, 정확도를 위해 사람의 깊이를 결합하는 것입니다.”‘제20회 국제 시큐리티 콘퍼런스’(ISEC 2026) 현장에서 만난 지속적 위협 노출",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145164&kind=&sub_kind=",
+      "date": "2026-08-16"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "서강대 개인정보 18만건 유출... 박근혜 전 대통령 등 재학생·졸업생 정보 포함",
+      "summary": "외부공격 정황... 이름, 소속, 휴대폰 번호, 비밀번호 등 유출[보안뉴스 한세희 기자] 서강대 재학생과 졸업생, 교직원 등 개인정보 약 18만건이 유출됐다.서강대는 “통합 로그인 계정 정보에 대해 신원 미상의 외부 공격으로 일부 정보의 유출 정황을 확인했다”고 15일 밝혔다. 유출된 개인정보엔 학번·사번, 성명, 아이디, 소속, 이메일 주소, 휴대전화 번",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145172&kind=&sub_kind=",
+      "date": "2026-08-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "오리엔텀, 캐나다 소프트웨어큐(SoftwareQ)와 금융 분야 양자 기술 공동 연구",
+      "summary": "양자 컴퓨팅 공동 연구개발 업무협약(MoU) 체결[보안뉴스 한세희 기자] 오리엔텀(대표 방승현)이 캐나다 양자 소프트웨어 기업 소프트웨어큐(softwareQ)와 금융·은행·보험 분야 양자 컴퓨팅 공동 연구개발을 위한 업무협약(MOU)을 체결했다고 밝혔다.양사는 한국 서울과 캐나다 온타리오주 워털루를 거점으로, 실제 금융 현장에 즉시 적용 가능한 양자 알고리",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145171&kind=&sub_kind=",
+      "date": "2026-08-15"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "프랑스, ‘15세 미만 소셜미디어 금지법’ 제동... “표현의 자유 침해”",
+      "summary": "나이 인증 기술 실효성, 기본권 논란 가[보안뉴스 한세희 기자] 프랑스 헌법위원회가 정부가 추진하던 15세 미만 소셜미디어 접근 금지법을 위헌으로 판단했다. 표현의 자유와 프라이버시를 침해한다는 이유다. 9월 1일 시행 예정이던 강력한 연령 제한 정책은 전면 재검토에 들어간다.이 법안은 15세 미만 이용자의 소셜미디어 신규 계정 개설을 금지하고, 기존 계정",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145169&kind=&sub_kind=",
+      "date": "2026-08-15"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "英 범죄기록청(ACRO), 2년간 3차례 침해 사고 ‘인식조차 못해’... ICO 견책 처분",
@@ -12368,53 +12418,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144297&kind=&sub_kind=",
       "date": "2026-06-24"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "글로벌 해커 조직 ‘스캐터드 스파이더’ 재판 첫날부터 유죄 인정",
-      "summary": "디지털 포렌식 증거에 덜미 ‘심 스와핑` 등 인적 맹점 파고든 수법 시인다중인증 무력화하는 사회공학적 기법에 기업 내부 검증 프로세스 보완 필요해[보안뉴스 조재호 기자] 글로벌 해킹 조직 ‘스캐터드 스파이더’(Scattered Spider) 조직원들이 재판 첫날부터 유죄를 인정했다.영국에서 열린 재판에서 스캐터드 스파이더 소속 두 남성이 지난 2024년 대",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144296&kind=&sub_kind=",
-      "date": "2026-06-24"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "넷유, 와이파이 6 공유기 ‘네티스 AX3000’ 출시",
-      "summary": "6월 30일까지 공식 스토어에서 3만9900원 특가 판매 진행WPA3·메시 기능 지원 및 3년 무상 보증 제공[보안뉴스 강초희 기자] 네트워크 전문 기업 넷유(대표 한승구)가 최신 802.11ax 표준 규격인 와이파이 6(Wi-Fi 6)를 지원하는 AX3000급 기가 와이파이 공유기 ‘네티스 AX3000’을 공식 출시하고, 이를 기념해 할인 프로모션을 진행",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144295&kind=&sub_kind=",
-      "date": "2026-06-24"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "현대차·기아, 한미일 사이버보안 협력 주도... 경제대화 내 워킹그룹 출범",
-      "summary": "“국가와 업종 넘어선 글로벌 협력 체계 구축”[보안뉴스 강현주 기자] 현대자동차·기아가 한국과 미국, 일본의 정제계 리더들과 사이버보안 글로벌 협력 체계를 이끈다. 현대자동차·기아는 ‘한미일 경제대화’(TED, Trilateral Executive Dialogue) 내 사이버보안 워킹그룹을 창설하고, 현대자동차그룹 본사(서초구 양재동)에서 첫 세미나를 개최",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144294&kind=&sub_kind=",
-      "date": "2026-06-24"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "HPE, 세계에서 가장 강력한 슈퍼컴퓨터 10대 중 6대 공급",
-      "summary": "HPE는 2026년 6월 TOP500 순위에서 세계에서 가장 빠른 슈퍼컴퓨터 상위 10대 중 6대를 차지했습니다. HPE가 구축한 시스템 중 3대는 검증된 엑사스케일 슈퍼컴퓨터 5대 중에 포함되어 있으며, 이는 로렌스 리버모어 국립연구소의 El Capitan, 오크리지 국립연구소의 Frontier, 아르곤 국립연구소의 Aurora입니다. HPE는 TOP500에서 가장 큰 성능 점유율을 보유하고 있으며, 고성능 컴퓨팅 분야에서 고객들이 가능성의 한계를 넘어설 수 있도록 지원하는 슈퍼컴퓨터를 구축하고 있습니다.",
-      "category": "HPC·서버",
-      "source": "HPE",
-      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/06/hpe-delivers-six-out-of-ten-of-worlds-most-powerful-supercomputers.html",
-      "date": "2026-06-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "드래고스, OT 보안을 위한 AI 공개",
-      "summary": "사이버보안 회사 드래고스(Dragos)가 운영 기술(OT) 사이버보안을 위해 특별히 설계된 새로운 AI인 '엠버AI(EmberAI)'를 공개했습니다. 이 AI 솔루션은 산업 제어 시스템(ICS)과 운영 기술 환경의 보안을 강화하기 위해 개발되었습니다. 엠버AI는 OT 인프라에 대한 위협 탐지 및 대응 능력을 향상시키는 데 중점을 두고 있습니다. 이번 공개는 산업 시설과 중요 인프라를 보호하기 위한 AI 기술의 적용이 확대되고 있음을 보여줍니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/dragos-unveils-ai-for-ot-security/",
-      "date": "2026-06-23"
     }
   ],
-  "totalItems": 3412,
+  "totalItems": 3417,
   "hasArchive": true
 }
