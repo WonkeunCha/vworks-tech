@@ -3416,9 +3416,49 @@
     "http://www.boannews.com/media/view.asp?idx=145164&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=145172&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=145171&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=145169&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=145169&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145175&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144239&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145170&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145174&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[배종찬의 보안 빅데이터] 중국의 대만 침공, 군대 아닌 AI 해킹",
+      "summary": "국경을 넘는 위협은 이제 군대 이동 아닌 코드 몇 줄과 AI 에이전트 몇 개로 시작[보안뉴스= 배종찬 인사이트케이 연구소장] 중국과 연계된 것으로 의심되는 해커들이 AI 에이전트 여러 개를 동시에 움직여 대만 정부 시스템을 공격, 계정 85개를 침해하고 인사정보 2,500건 이상을 탈취한 사실이 확인됐다. 비슷한 시기 미국에서도 중국 해킹 조직 솔트 타이푼",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145175&kind=&sub_kind=",
+      "date": "2026-08-17"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 85] 소 잃고 외양간 고친다(5)-모르는 계좌 정리하기",
+      "summary": "‘내 계좌 한눈에’ 서비스를 통해 모르는 계좌가 있는지 확인하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144239&kind=&sub_kind=",
+      "date": "2026-08-17"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "보안 생태계 쌍두마차… 정장 입은 블랙햇, 청바지 입은 데프콘",
+      "summary": "기술·인재·자본 순환하는 글로벌 보안 생태계 플랫폼전설적 해커 제프 모스가 창설한 해킹 학술 컨퍼런스AI 시대 신종 위협에 맞설 지구촌 방어망 재정립[보안뉴스 김형근 기자] 과학학술계에 ‘네이처’(Nature)와 ‘사이언스’(Science)라는 두 거두가 존재하듯이 사이버 보안 세계에는 블랙햇(Black Hat)과 데프콘(DEF CON)이라는 양대 산맥이",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145170&kind=&sub_kind=",
+      "date": "2026-08-16"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "英 국가 핵심 전력망 운영사 해킹 당했나... 내부 기술 데이터 40GB 유출 주장 제기",
+      "summary": "소스 코드·클라우드 설정 등 5500여 개 파일 다크웹 포럼에 공개... 인프라 설계 정보 노출 따른 2차 피해 우려[보안뉴스 한세희 기자] 영국 잉글랜드 및 웨일스 지역 등의 송배전 인프라를 총괄하는 에너지 기업 ‘내셔널그리드’(National Grid)의 내부 소프트웨어 및 인프라 구성 데이터가 사이버 범죄 포럼에 대규모로 유출됐다는 주장이 나왔다. 핵",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145174&kind=&sub_kind=",
+      "date": "2026-08-16"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "서울시, AI 업무 활용 안전하게... 사이버 보안 체계 정비",
@@ -12382,44 +12422,8 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/anthropics-mythos-model-found-vulnerabilities-in-classified-us-government-systems-official-says/",
       "date": "2026-06-24"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "금융보안원·인터넷은행 3사, 연합학습 기반 ‘보이스피싱 탐지 AI 공동모델’ 가동",
-      "summary": "원본 데이터 공유 없이 가중치만 병합하는 ‘연합학습’ 기술로 프라이버시 보호 맹점 극복개별 모델 대비 탐지 정밀도 최대 205퍼센트 향상... 신종 자금세탁 및 소액 피싱 적발[보안뉴스 조재호 기자] 금융보안원은 카카오뱅크, 토스뱅크, 케이뱅크 등 인터넷전문은행 3사와 협력해 연합학습 기법을 적용한 ‘보이스피싱 탐지 AI 공동모델’을 개발했다고 24일 밝혔",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144298&kind=&sub_kind=",
-      "date": "2026-06-24"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "KISA 주도 민관 연합, 필리핀 국가사이버안전센터 구축한다",
-      "summary": "에어키·파이오링크·한국통신인터넷기술 참여 4년간 현지 인프라 지원전문 인력 양성 및 보안 모델 수립... 사이버 위기 대응 체계 구축 지원[보안뉴스 조재호 기자] 민관 보안 컨소시엄이 필리핀 국가사이버안전센터 구축을 위한 사업관리 컨설팅(PMC) 용역 본계약을 체결하며 국내 보안 역량의 수출 사례를 추가했다.한국인터넷진흥원(KISA)은 한국국제협력단(KOI",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144300&kind=&sub_kind=",
-      "date": "2026-06-24"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "인도 타타일렉트로닉스, 해킹 공격으로 내부 데이터 유출... 위탁 생산 애플 제품 정보 유출 가능성",
-      "summary": "해커 그룹 월드리크스 소행 추정[보안뉴스 한세희 기자] 인도 전자제품 위탁생산 기업 타타일렉트로닉스가 해킹 공격으로 기업 정보가 유출됐다. 이 회사는 애플과 테슬라 제품 을 생산한다. 타타일렉트로닉스는 몇주 전 IT 인프라 일부에 사이버 공격을 받았다고 언론에 확인했다. 다만, 회사 운영은 정상적으로 이뤄지고 있다고 밝혔다. 타타일렉트로닉스는 공격 주체",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144299&kind=&sub_kind=",
-      "date": "2026-06-24"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "에스투더블유, 일본 도쿄 거점 확보… “데이터 기반 현지 보안 수요 대응”",
-      "summary": "도쿄 기자간담회 통해 밀착형 현지 사업 전략 및 파트너 확장 계획 발표디지털 전환(DX) 가속화되는 일본 산업계 대상 맞춤형 솔루션 공급 예고[보안뉴스 조재호 기자] 에스투더블유(S2W)가 일본 도쿄에 현지법인을 공식 출범하며 보안 시장 점유율 확대에 나섰다. 회사는 23일 도쿄에서 기자간담회 및 개소식을 열고 현지 사업 전략과 사이버보안 기술 로드맵을 발",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144297&kind=&sub_kind=",
-      "date": "2026-06-24"
     }
   ],
-  "totalItems": 3417,
+  "totalItems": 3421,
   "hasArchive": true
 }
