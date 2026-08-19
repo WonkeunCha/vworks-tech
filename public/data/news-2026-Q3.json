@@ -3,6 +3,222 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "“비인간 대상 보안 중요”… SK쉴더스, 제로트러스트 기반 NHI 보안 컨설팅 제공",
+      "summary": "“AI 에이전트 확산으로 보안 관리 대상이 AI까지 확대”[보안뉴스 강현주 기자] SK쉴더스(대표 민기식)가 AI 에이전트 확산으로 기업의 보안 관리 대상이 사람을 넘어 AI까지 확대되는 수요에 대응하기 위해 제로트러스트 기반 AI 보안 사업을 강화한다고 19일 밝혔다.최근 기업들은 AI를 업무에 활용하는 수준을 넘어 AI가 실제 업무를 수행하는 단계로 빠",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145194&kind=&sub_kind=",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 87] 소 잃고 외양간 고친다(7)-대출 문자 링크, 왜 100% 사기일까",
+      "summary": "대출 권유 문자에 포함된 앱 설치 링크는 100% 사기입니다보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144241&kind=&sub_kind=",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "어드밴텍, GPU 기반 DAQ 시스템으로 고속 데이터 수집·실시간 AI 처리 통합 지원",
+      "summary": "DAQ 디지타이저·NVIDIA GPU·산업용 컴퓨팅 플랫폼 통합한 GPU 기반 DAQ 시스템 출시GPUDirect RDMA로 DAQ 데이터를 GPU 메모리에 직접 전달반도체 검사·의료 영상·전력 모니터링·자동차 시험 등 다양한 산업 분야에 적용 가능[보안뉴스 강초희 기자] 반도체 검사와 의료 진단, 전력 모니터링, 자동차 시험 등 고정밀 산업 분야에서는 대",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145192&kind=&sub_kind=",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "티오리, SaaS 제품군 데이터 보호 수준 입증... ‘SOC 2 타입 2’ 취득",
+      "summary": "글로벌 B2B 시장 공략 가속화[보안뉴스 강현주 기자] 오펜시브 사이버보안 전문 기업 티오리(Theori, 대표 박세준)가 글로벌 보안 표준인 ‘SOC 2 타입 2’(System and Organization Controls Type II) 보고서를 취득했다고 19일 밝혔다.SOC 2는 미국공인회계사협회(AICPA)가 제정한 글로벌 보안 감사 표준이다.",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145193&kind=&sub_kind=",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "지속 가능한 변혁 전략을 구축하는 방법",
+      "summary": "단편화된 AI 및 IT 전략은 조직의 진행 속도를 저하시키고 있습니다. 통합된 접근 방식을 통해 AI와 IT 전략을 연결하면 이러한 문제를 해결할 수 있습니다. 일관된 데이터 아키텍처와 통합 기술 플랫폼은 디지털 변혁의 성공을 위한 핵심 요소입니다. 조직은 단기적 성과뿐만 아니라 장기적 지속 가능성을 고려한 전략 수립이 필요합니다. 연결된 인프라 접근 방식은 조직의 민첩성을 높이고 혁신 속도를 가속화합니다. 이러한 통합 전략은 기업이 급변하는 시장 환경에서 경쟁력을 유지하도록 돕습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-to-build-a-transformation-strategy-that-holds/",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "NextGen Sales Academy 내부 탐방: 미래의 영업 인재 육성",
+      "summary": "Dell Technologies의 NextGen Sales Academy는 초기 경력 인재들에게 실무 경험과 AI 기술을 습득할 수 있는 기회를 제공합니다. 이 프로그램은 단순한 교육을 넘어 영업 리더십으로의 명확한 경력 경로를 제시합니다. 참가자들은 실제 비즈니스 환경에서 즉시 적용 가능한 실전 경험을 쌓을 수 있습니다. AI 기술 교육을 통해 현대적 영업 역량을 갖추게 됩니다. 이 아카데미는 차세대 영업 리더를 양성하는 Dell의 전략적 투자입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/inside-the-nextgen-sales-academy-building-future-sales-talent/",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "노트북 팬 소음을 줄이는 방법: 실질적인 해결책",
+      "summary": "노트북 팬 소음은 환기구 청소, 전원 설정 조정, 그리고 진단 도구를 통해 효과적으로 줄일 수 있습니다. 먼저 노트북의 통풍구와 필터를 정기적으로 청소하여 공기 흐름을 개선하는 것이 중요합니다. 전원 설정에서 성능 모드를 균형 모드로 변경하면 CPU 온도를 낮출 수 있습니다. 백그라운드에서 실행 중인 불필요한 프로그램을 종료하여 시스템 열을 감소시킬 수 있습니다. 정기적인 소프트웨어 진단과 하드웨어 점검을 통해 팬 소음의 근본 원인을 파악하고 해결할 수 있습니다. 이러한 방법들을 통해 노트북의 조용한 성능을 복구할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-to-stop-laptop-fan-noise-practical-fixes-that-work/",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 인도 176개 대학에 학술 제휴 프로그램 확대하여 AI 기반 네트워킹 기술 양성",
+      "summary": "HPE는 8월 18일 대학 역량 강화 이니셔티브인 'HPE 학술 제휴 프로그램'이 인도 전역 176개 대학으로 확대되었다고 발표했다. 이 프로그램은 2026년에 18,000명 이상의 학생 수혜자에게 혜택을 제공할 예정이며, 계속해서 인도 전역으로 확장되고 있다. 프로그램은 학생과 교직원에게 AI 기반 네트워킹, 클라우드, 보안 및 자동화된 운영 분야의 업계 맞춤형 기술을 제공하고 있다. 이를 통해 인도의 미래 디지털 인프라 강화에 기여하고 있으며, 교육과 연구를 동시에 발전시키고 있다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/08/hpe-expands-academic-alliance-program-across-176-indian-universities-to-build-ai-native-networking-skills.html",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Let's Build. VAST 빌더 챌린지 소개",
+      "summary": "VAST는 AI 애플리케이션 개발자들을 위한 'VAST 빌더 챌린지'를 출범합니다. 현재 개발자들은 최첨단 AI 모델과 클라우드 인프라에 접근할 수 있지만, 프로토타입에서 실제 작동하는 애플리케이션으로 전환하는 것은 여전히 큰 도전입니다. 문제는 단순히 모델 구축이 아니라 데이터 관리, 흐름, API 통합, 에이전트, 이벤트 처리 등 전체 AI 시스템을 구축하는 것입니다. VAST는 개발자들이 복잡한 인프라 통합에 시간을 낭비하지 말고 실제 개발에 집중해야 한다고 믿으며, 이를 위해 통합 AI 플랫폼 'VAST AI OS'를 개발했습니다. VAST 빌더 챌린지는 3개 도시에서 개최되는 실무 중심의 행사로, AI 엔지니어, 소프트웨어 개발자, 데이터 과학자, 플랫폼 아키텍트들이 현대적 AI 스택을 사용하여 실제 애플리케이션을 구축할 수 있는 기회를 제공합니다. 이 행사는 강의와 데모를 보는 일반 컨퍼런스가 아닌, 건설적인 협업과 실험에 집중하는 개발자 중심의 프로그램입니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/lets-build-introducing-the-vast-builders-challenge",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "웨비나 오늘 개최: AI 속도의 공격에 대응하는 사이버 방어 재검토",
+      "summary": "SecurityWeek에서는 인공지능 기술을 활용한 초고속 사이버 공격에 대응하기 위한 새로운 방어 전략을 다루는 웨비나를 개최합니다. 이 세션에서는 기존의 사이버 보안 방어 체계가 AI 속도의 위협에 얼마나 효과적인지 검토하고, 조직이 취해야 할 개선 방안을 제시합니다. 특히 인공지능 기반 공격의 빠른 속도와 정교함에 맞춰 방어 메커니즘을 재설계해야 할 필요성을 강조합니다. 취약점 관리와 인공지능 기술의 교점에서 효과적인 보안 전략을 모색하는 것이 주요 내용입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/webinar-today-rethinking-cyber-defense-for-ai-speed-attacks/",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISO 인터뷰: 니코 와이스만 - 자학으로 배운 해커에서 XBOW의 AI 기반 공격형 보안으로",
+      "summary": "SecurityWeek의 CISO 인터뷰 시리즈에서 XBOW의 니코 와이스만이 자신의 경력 여정을 소개한다. 그는 자학으로 시작한 해킹 경험에서부터 전문적인 사이버보안 분야로 전환한 과정을 다룬다. 현재 그는 인공지능 기반의 공격형 보안(offensive security) 전략을 주도하고 있다. 이 인터뷰는 CISO 및 보안 리더들이 현대적인 보안 위협에 대응하기 위한 AI 활용 전략을 이해하는 데 도움이 될 것으로 예상된다. 기사는 2026년 8월 18일에 발행되었으며, Kevin Townsend 기자가 작성했다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ciso-conversations-nico-waisman-from-self-taught-hacker-to-ai-driven-offensive-security-at-xbow/",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 기반 취약점 급증이 전통적 패칭 모델을 붕괴시키다",
+      "summary": "AI 기술의 발전으로 인해 보안 취약점이 급속도로 증가하면서 기존의 전통적인 패칭 모델이 더 이상 효과적이지 않게 되었다. 보안 패치를 개발하고 배포하는 기존의 순차적 프로세스로는 AI가 생성하는 대량의 새로운 취약점에 대응하기 어려워지고 있다. 이는 기업과 보안 전문가들이 더욱 신속하고 자동화된 방식의 취약점 관리 전략을 수립해야 함을 의미한다. 조직들은 우선순위 기반의 리스크 평가와 지속적인 보안 모니터링 체계로의 전환이 필수적이 되고 있으며, 이러한 변화는 기존의 보안 운영 방식의 근본적인 재구조화를 요구하고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ai-driven-vulnerability-surge-breaks-the-traditional-patching-model/",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Xpander, AI 관리 및 거버넌스를 위해 750만 달러 자금 조달",
+      "summary": "AI 보안 및 관리 솔루션 기업인 Xpander가 750만 달러 규모의 자금 조달에 성공했습니다. 이번 투자는 AI 시스템의 안전한 운영과 거버넌스 강화에 집중하는 기업의 성장을 지원할 것으로 예상됩니다. Xpander는 조달된 자금을 통해 AI 관리 플랫폼 개발 및 사이버보안 기능 확대에 투자할 계획입니다. 이는 기업들의 증가하는 AI 보안 관리 수요를 충족시키기 위한 움직임으로 평가됩니다. 현재 AI 기술의 확산으로 인한 보안 위험이 높아지면서 관련 기업들의 투자가 활발해지고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/xpander-raises-7-5-million-for-ai-management-and-governance/",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "포티넷, AI 보안 기업 버추 AI 인수",
+      "summary": "포티넷이 AI 보안 회사인 버추 AI를 인수했다고 발표했습니다. 이번 인수는 포티넷의 보안 솔루션 포트폴리오를 강화하고 AI 기반 위협 탐지 및 대응 능력을 확대하기 위한 전략적 결정입니다. 버추 AI의 기술은 포티넷의 기존 제품과 통합되어 고객들에게 향상된 사이버보안 솔루션을 제공할 것으로 예상됩니다. 이 인수는 글로벌 사이버보안 업계에서 AI 기술 도입을 가속화하는 추세를 반영하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/fortinet-acquires-ai-security-company-virtue-ai/",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "폼 플러그인 결함으로 30만 개의 워드프레스 사이트가 해킹 위협에 노출",
+      "summary": "워드프레스 폼 플러그인의 보안 결함으로 인해 약 30만 개의 워드프레스 사이트가 해킹 공격에 취약해진 것으로 밝혀졌습니다. 이 취약점은 공격자들이 영향을 받은 웹사이트에 불법적으로 접근하고 악의적인 활동을 수행할 수 있게 해줍니다. SecurityWeek이 보도한 이번 사안은 워드프레스 플러그인의 보안 관리의 중요성을 다시 한번 강조합니다. 사이트 관리자들은 긴급하게 해당 플러그인을 업데이트하거나 제거할 것을 권장받고 있습니다. 이는 광범위한 워드프레스 생태계의 보안 위협을 나타내는 중대한 사건입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/300000-wordpress-sites-potentially-exposed-to-hacking-due-to-form-plugin-flaw/",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Heights Finance 데이터 유출, 최소 120만 명 영향",
+      "summary": "Heights Finance에서 최소 120만 명 이상의 개인 정보가 포함된 대규모 데이터 유출 사건이 발생했습니다. 이 사건은 금융 서비스 부문의 심각한 보안 위협을 드러내며, 고객들의 민감한 개인 정보가 노출될 위험성을 보여줍니다. 유출된 정보에는 고객의 개인식별정보와 금융 관련 데이터가 포함되어 있는 것으로 알려져 있습니다. 피해자들은 신원 도용, 금융 사기 등의 이차 피해에 직면할 수 있습니다. Heights Finance는 사건 대응 및 영향받은 고객들에 대한 공지와 지원 조치를 진행하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/heights-finance-data-breach-impacts-at-least-1-2-million-individuals/",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "GitLab, 심각한 코드 인젝션 취약점 패치",
+      "summary": "GitLab이 CVE-2026-19478로 분류된 심각한 코드 인젝션 취약점을 패치했습니다. 이 취약점은 공격자가 악의적인 코드를 주입하여 시스템을 손상시킬 수 있는 보안 위협입니다. SecurityWeek에서 보도한 이 사건은 2026년 8월 18일 공개되었으며, GitLab 사용자들에게 즉시 업데이트를 권장하고 있습니다. 해당 패치는 이 취약점을 통한 공격으로부터 GitLab 인스턴스를 보호하기 위해 필수적입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/gitlab-patches-critical-code-injection-vulnerability/",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "macOS, iOS 보안 업데이트로 수십 개의 WebKit 취약점 패치",
+      "summary": "Apple이 최신 macOS 및 iOS 보안 업데이트를 통해 WebKit 엔진의 수십 개 취약점을 패치했습니다. 이번 업데이트는 Safari 및 iOS 기기의 웹 브라우징 보안을 강화하기 위한 조치입니다. WebKit 취약점들은 공격자가 임의의 코드 실행, 메모리 손상, 크로스사이트 스크립팅(XSS) 등의 공격을 수행할 수 있게 할 수 있습니다. Apple 사용자들은 이러한 보안 위협으로부터 보호받기 위해 최신 보안 업데이트 설치를 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/dozens-of-webkit-vulnerabilities-patched-with-fresh-macos-ios-security-updates/",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "유니뷰, AI 스포츠 Lite형 라이브 스트리밍 솔루션 ‘UniSport’ 축구 경기 자동 생중계",
+      "summary": "AI 카메라가 선수와 공의 움직임 자동으로 인식·추적해 경기 중계UniSport 고정형, 5~8인제(4렌즈)와 11인제 축구(듀얼 렌즈) 및 농구 환경 적용 가능[보안뉴스 엄호식 기자] 글로벌 AIoT 통합 솔루션 기업 유니뷰는 8월 12일 광명 롯데아울렛 LOCO 풋살장에서 AI 스포츠 중계 솔루션 ‘UniSport’를 활용해 축구 경기 생중계를 진행했다",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145191&kind=&sub_kind=",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "美 정부, 민간 기업에 해외 사이버 범죄조직 ‘역해킹’ 허용 추진",
+      "summary": "민간 기업에 안보 및 법적 리스크 위협 우려도 [보안뉴스 김형근 기자] 도널드 트럼프 미국 대통령이 검증된 민간 기업에 해외 사이버 범죄 조직을 대상으로 정보 수집 및 무력화(사보타주) 작전을 허용하는 대통령 각서에 서명했다. 연간 피해가 수백억달러 규모에 달하는 초국가적 사이버 범죄망을 막기 위해 민간의 공격적 사이버 역량을 동원하겠다는 취지다.이번 조치",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145190&kind=&sub_kind=",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "에스에스티랩, 1m급 대형 위탁수하물용 3D CT 보안검색장비 국산화 개발 착수",
+      "summary": "산업부 CVC 투자연계 R&D 선정, 외산 100% 시장에 첫 국산화 도전장세계 7번째 최고 등급 인증(ECAC C3) 받은 기술, 1000㎜×1000㎜ 대형 터널 사이즈로 확장부품 국산화율 90% 달성 목표, 기술 독립 및 국가 보안 ‘데이터 주권’ 확보[보안뉴스 엄호식 기자] 보안검색장비 전문기업 에스에스티랩(SST Labs, 대표 신동식·최광윤)이 국",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145189&kind=&sub_kind=",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "행안부·과기정통부, 재난안전통신망 연동 스마트워치 개발 착수",
+      "summary": "재난현장 인력의 다중 장비 휴대 부담 해소AI 교신 요약과 심박·위치 모니터링 기능 탑재9월 7일까지 연구기관 공모, 선정 시 2년간 9억원 내외 연구개발비 지원 [보안뉴스 강초희 기자] 행정안전부(장관 윤호중)와 과학기술정보통신부(부총리 겸 장관 배경훈)는 ‘국민생활안전 긴급대응연구’ 사업으로 재난안전통신망 전용 스마트워치 개발을 위한 연구개발 과제를 추",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145187&kind=&sub_kind=",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "한국인 넷플릭스 아이디 5달러, 오피스365 계정 26달러... 식사 한 끼값에 신분 도용",
+      "summary": "노드VPN, “넷플릭스 5달러 이메일 27달러, 헐값에 털리는 한국인 일상”한국인 42% “하루라도 인터넷 없이 지내기 어려워”...37%는 개인정보 유출 우려다크웹에서 한국 Office 365 계정 26.75달러, 넷플릭스 계정은 5달러 미만에 거래[보안뉴스 원병철 기자] 다크웹에서 한국인의 넷플릭스 아이디 1계정에 5달러(한화 약 6700원), 마이크로",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145188&kind=&sub_kind=",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "조달청, 2026년 제3차 혁신제품 시범 구매 대상 선정",
+      "summary": "74개 혁신제품 및 120개 시범사용 기관 선정AI·위성통신 등 혁신기술 실증으로 미래산업 경쟁력 높여디지털 첨단산업 미래 이끌 혁신제품의 공공실증 지원 가속화[보안뉴스 엄호식 기자] 조달청(청장 백승보)은 2026년 제3차 혁신제품 시범구매 대상을 선정하고 8월 18일 혁신장터에 그 결과를 공개했다. 혁신제품 시범구매는 조달청이 혁신제품을 선도적으로 구매",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145186&kind=&sub_kind=",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "티피링크 타포, 홈캠 주요 서버 국내 이전 완료 “보안 신뢰도 강화”",
       "summary": "릴레이 서버·클라우드 영상 스토리지 국내 이전 완료한국 사용자 데이터의 국내 처리 환경 강화... 개인정보·영상 데이터 보호 신뢰도 제고 국내 인프라 기반 영상 스트리밍 및 기기 제어 응답 성능 개선[보안뉴스 강초희 기자] 글로벌 네트워크 및 스마트 홈 기업 티피링크(TP-Link)는 스마트 홈 브랜드 타포(Tapo)의 홈카메라 관련 주요 서버를 국내로 이",
       "category": "보안",
@@ -7824,10 +8040,10 @@
     }
   ],
   "sources": {
-    "보안뉴스": 432,
-    "Dell": 95,
-    "SecurityWeek": 297,
-    "HPE": 11,
-    "VAST Data": 34
+    "보안뉴스": 442,
+    "Dell": 98,
+    "HPE": 12,
+    "VAST Data": 35,
+    "SecurityWeek": 306
   }
 }

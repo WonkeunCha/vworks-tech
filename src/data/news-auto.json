@@ -3435,9 +3435,249 @@
     "http://www.boannews.com/media/view.asp?idx=145179&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=145180&kind=&sub_kind=",
     "http://www.boannews.com/media/view.asp?idx=145178&kind=&sub_kind=",
-    "http://www.boannews.com/media/view.asp?idx=145176&kind=&sub_kind="
+    "http://www.boannews.com/media/view.asp?idx=145176&kind=&sub_kind=",
+    "https://www.dell.com/en-us/blog/how-to-build-a-transformation-strategy-that-holds/",
+    "https://www.dell.com/en-us/blog/inside-the-nextgen-sales-academy-building-future-sales-talent/",
+    "https://www.dell.com/en-us/blog/how-to-stop-laptop-fan-noise-practical-fixes-that-work/",
+    "https://www.hpe.com/us/en/newsroom/press-release/2026/08/hpe-expands-academic-alliance-program-across-176-indian-universities-to-build-ai-native-networking-skills.html",
+    "https://www.vastdata.com/blog/lets-build-introducing-the-vast-builders-challenge",
+    "https://www.securityweek.com/webinar-today-rethinking-cyber-defense-for-ai-speed-attacks/",
+    "https://www.securityweek.com/ciso-conversations-nico-waisman-from-self-taught-hacker-to-ai-driven-offensive-security-at-xbow/",
+    "https://www.securityweek.com/ai-driven-vulnerability-surge-breaks-the-traditional-patching-model/",
+    "https://www.securityweek.com/xpander-raises-7-5-million-for-ai-management-and-governance/",
+    "https://www.securityweek.com/fortinet-acquires-ai-security-company-virtue-ai/",
+    "https://www.securityweek.com/300000-wordpress-sites-potentially-exposed-to-hacking-due-to-form-plugin-flaw/",
+    "https://www.securityweek.com/heights-finance-data-breach-impacts-at-least-1-2-million-individuals/",
+    "https://www.securityweek.com/gitlab-patches-critical-code-injection-vulnerability/",
+    "https://www.securityweek.com/dozens-of-webkit-vulnerabilities-patched-with-fresh-macos-ios-security-updates/",
+    "http://www.boannews.com/media/view.asp?idx=145194&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=144241&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145192&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145193&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145191&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145190&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145189&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145187&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145188&kind=&sub_kind=",
+    "http://www.boannews.com/media/view.asp?idx=145186&kind=&sub_kind="
   ],
   "items": [
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“비인간 대상 보안 중요”… SK쉴더스, 제로트러스트 기반 NHI 보안 컨설팅 제공",
+      "summary": "“AI 에이전트 확산으로 보안 관리 대상이 AI까지 확대”[보안뉴스 강현주 기자] SK쉴더스(대표 민기식)가 AI 에이전트 확산으로 기업의 보안 관리 대상이 사람을 넘어 AI까지 확대되는 수요에 대응하기 위해 제로트러스트 기반 AI 보안 사업을 강화한다고 19일 밝혔다.최근 기업들은 AI를 업무에 활용하는 수준을 넘어 AI가 실제 업무를 수행하는 단계로 빠",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145194&kind=&sub_kind=",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "[속담으로 배우는 100가지 보안 습관 87] 소 잃고 외양간 고친다(7)-대출 문자 링크, 왜 100% 사기일까",
+      "summary": "대출 권유 문자에 포함된 앱 설치 링크는 100% 사기입니다보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144241&kind=&sub_kind=",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "어드밴텍, GPU 기반 DAQ 시스템으로 고속 데이터 수집·실시간 AI 처리 통합 지원",
+      "summary": "DAQ 디지타이저·NVIDIA GPU·산업용 컴퓨팅 플랫폼 통합한 GPU 기반 DAQ 시스템 출시GPUDirect RDMA로 DAQ 데이터를 GPU 메모리에 직접 전달반도체 검사·의료 영상·전력 모니터링·자동차 시험 등 다양한 산업 분야에 적용 가능[보안뉴스 강초희 기자] 반도체 검사와 의료 진단, 전력 모니터링, 자동차 시험 등 고정밀 산업 분야에서는 대",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145192&kind=&sub_kind=",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "티오리, SaaS 제품군 데이터 보호 수준 입증... ‘SOC 2 타입 2’ 취득",
+      "summary": "글로벌 B2B 시장 공략 가속화[보안뉴스 강현주 기자] 오펜시브 사이버보안 전문 기업 티오리(Theori, 대표 박세준)가 글로벌 보안 표준인 ‘SOC 2 타입 2’(System and Organization Controls Type II) 보고서를 취득했다고 19일 밝혔다.SOC 2는 미국공인회계사협회(AICPA)가 제정한 글로벌 보안 감사 표준이다.",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145193&kind=&sub_kind=",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "지속 가능한 변혁 전략을 구축하는 방법",
+      "summary": "단편화된 AI 및 IT 전략은 조직의 진행 속도를 저하시키고 있습니다. 통합된 접근 방식을 통해 AI와 IT 전략을 연결하면 이러한 문제를 해결할 수 있습니다. 일관된 데이터 아키텍처와 통합 기술 플랫폼은 디지털 변혁의 성공을 위한 핵심 요소입니다. 조직은 단기적 성과뿐만 아니라 장기적 지속 가능성을 고려한 전략 수립이 필요합니다. 연결된 인프라 접근 방식은 조직의 민첩성을 높이고 혁신 속도를 가속화합니다. 이러한 통합 전략은 기업이 급변하는 시장 환경에서 경쟁력을 유지하도록 돕습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-to-build-a-transformation-strategy-that-holds/",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "NextGen Sales Academy 내부 탐방: 미래의 영업 인재 육성",
+      "summary": "Dell Technologies의 NextGen Sales Academy는 초기 경력 인재들에게 실무 경험과 AI 기술을 습득할 수 있는 기회를 제공합니다. 이 프로그램은 단순한 교육을 넘어 영업 리더십으로의 명확한 경력 경로를 제시합니다. 참가자들은 실제 비즈니스 환경에서 즉시 적용 가능한 실전 경험을 쌓을 수 있습니다. AI 기술 교육을 통해 현대적 영업 역량을 갖추게 됩니다. 이 아카데미는 차세대 영업 리더를 양성하는 Dell의 전략적 투자입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/inside-the-nextgen-sales-academy-building-future-sales-talent/",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "노트북 팬 소음을 줄이는 방법: 실질적인 해결책",
+      "summary": "노트북 팬 소음은 환기구 청소, 전원 설정 조정, 그리고 진단 도구를 통해 효과적으로 줄일 수 있습니다. 먼저 노트북의 통풍구와 필터를 정기적으로 청소하여 공기 흐름을 개선하는 것이 중요합니다. 전원 설정에서 성능 모드를 균형 모드로 변경하면 CPU 온도를 낮출 수 있습니다. 백그라운드에서 실행 중인 불필요한 프로그램을 종료하여 시스템 열을 감소시킬 수 있습니다. 정기적인 소프트웨어 진단과 하드웨어 점검을 통해 팬 소음의 근본 원인을 파악하고 해결할 수 있습니다. 이러한 방법들을 통해 노트북의 조용한 성능을 복구할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-to-stop-laptop-fan-noise-practical-fixes-that-work/",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 인도 176개 대학에 학술 제휴 프로그램 확대하여 AI 기반 네트워킹 기술 양성",
+      "summary": "HPE는 8월 18일 대학 역량 강화 이니셔티브인 'HPE 학술 제휴 프로그램'이 인도 전역 176개 대학으로 확대되었다고 발표했다. 이 프로그램은 2026년에 18,000명 이상의 학생 수혜자에게 혜택을 제공할 예정이며, 계속해서 인도 전역으로 확장되고 있다. 프로그램은 학생과 교직원에게 AI 기반 네트워킹, 클라우드, 보안 및 자동화된 운영 분야의 업계 맞춤형 기술을 제공하고 있다. 이를 통해 인도의 미래 디지털 인프라 강화에 기여하고 있으며, 교육과 연구를 동시에 발전시키고 있다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/08/hpe-expands-academic-alliance-program-across-176-indian-universities-to-build-ai-native-networking-skills.html",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Let's Build. VAST 빌더 챌린지 소개",
+      "summary": "VAST는 AI 애플리케이션 개발자들을 위한 'VAST 빌더 챌린지'를 출범합니다. 현재 개발자들은 최첨단 AI 모델과 클라우드 인프라에 접근할 수 있지만, 프로토타입에서 실제 작동하는 애플리케이션으로 전환하는 것은 여전히 큰 도전입니다. 문제는 단순히 모델 구축이 아니라 데이터 관리, 흐름, API 통합, 에이전트, 이벤트 처리 등 전체 AI 시스템을 구축하는 것입니다. VAST는 개발자들이 복잡한 인프라 통합에 시간을 낭비하지 말고 실제 개발에 집중해야 한다고 믿으며, 이를 위해 통합 AI 플랫폼 'VAST AI OS'를 개발했습니다. VAST 빌더 챌린지는 3개 도시에서 개최되는 실무 중심의 행사로, AI 엔지니어, 소프트웨어 개발자, 데이터 과학자, 플랫폼 아키텍트들이 현대적 AI 스택을 사용하여 실제 애플리케이션을 구축할 수 있는 기회를 제공합니다. 이 행사는 강의와 데모를 보는 일반 컨퍼런스가 아닌, 건설적인 협업과 실험에 집중하는 개발자 중심의 프로그램입니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/lets-build-introducing-the-vast-builders-challenge",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "웨비나 오늘 개최: AI 속도의 공격에 대응하는 사이버 방어 재검토",
+      "summary": "SecurityWeek에서는 인공지능 기술을 활용한 초고속 사이버 공격에 대응하기 위한 새로운 방어 전략을 다루는 웨비나를 개최합니다. 이 세션에서는 기존의 사이버 보안 방어 체계가 AI 속도의 위협에 얼마나 효과적인지 검토하고, 조직이 취해야 할 개선 방안을 제시합니다. 특히 인공지능 기반 공격의 빠른 속도와 정교함에 맞춰 방어 메커니즘을 재설계해야 할 필요성을 강조합니다. 취약점 관리와 인공지능 기술의 교점에서 효과적인 보안 전략을 모색하는 것이 주요 내용입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/webinar-today-rethinking-cyber-defense-for-ai-speed-attacks/",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISO 인터뷰: 니코 와이스만 - 자학으로 배운 해커에서 XBOW의 AI 기반 공격형 보안으로",
+      "summary": "SecurityWeek의 CISO 인터뷰 시리즈에서 XBOW의 니코 와이스만이 자신의 경력 여정을 소개한다. 그는 자학으로 시작한 해킹 경험에서부터 전문적인 사이버보안 분야로 전환한 과정을 다룬다. 현재 그는 인공지능 기반의 공격형 보안(offensive security) 전략을 주도하고 있다. 이 인터뷰는 CISO 및 보안 리더들이 현대적인 보안 위협에 대응하기 위한 AI 활용 전략을 이해하는 데 도움이 될 것으로 예상된다. 기사는 2026년 8월 18일에 발행되었으며, Kevin Townsend 기자가 작성했다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ciso-conversations-nico-waisman-from-self-taught-hacker-to-ai-driven-offensive-security-at-xbow/",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 기반 취약점 급증이 전통적 패칭 모델을 붕괴시키다",
+      "summary": "AI 기술의 발전으로 인해 보안 취약점이 급속도로 증가하면서 기존의 전통적인 패칭 모델이 더 이상 효과적이지 않게 되었다. 보안 패치를 개발하고 배포하는 기존의 순차적 프로세스로는 AI가 생성하는 대량의 새로운 취약점에 대응하기 어려워지고 있다. 이는 기업과 보안 전문가들이 더욱 신속하고 자동화된 방식의 취약점 관리 전략을 수립해야 함을 의미한다. 조직들은 우선순위 기반의 리스크 평가와 지속적인 보안 모니터링 체계로의 전환이 필수적이 되고 있으며, 이러한 변화는 기존의 보안 운영 방식의 근본적인 재구조화를 요구하고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ai-driven-vulnerability-surge-breaks-the-traditional-patching-model/",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Xpander, AI 관리 및 거버넌스를 위해 750만 달러 자금 조달",
+      "summary": "AI 보안 및 관리 솔루션 기업인 Xpander가 750만 달러 규모의 자금 조달에 성공했습니다. 이번 투자는 AI 시스템의 안전한 운영과 거버넌스 강화에 집중하는 기업의 성장을 지원할 것으로 예상됩니다. Xpander는 조달된 자금을 통해 AI 관리 플랫폼 개발 및 사이버보안 기능 확대에 투자할 계획입니다. 이는 기업들의 증가하는 AI 보안 관리 수요를 충족시키기 위한 움직임으로 평가됩니다. 현재 AI 기술의 확산으로 인한 보안 위험이 높아지면서 관련 기업들의 투자가 활발해지고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/xpander-raises-7-5-million-for-ai-management-and-governance/",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "포티넷, AI 보안 기업 버추 AI 인수",
+      "summary": "포티넷이 AI 보안 회사인 버추 AI를 인수했다고 발표했습니다. 이번 인수는 포티넷의 보안 솔루션 포트폴리오를 강화하고 AI 기반 위협 탐지 및 대응 능력을 확대하기 위한 전략적 결정입니다. 버추 AI의 기술은 포티넷의 기존 제품과 통합되어 고객들에게 향상된 사이버보안 솔루션을 제공할 것으로 예상됩니다. 이 인수는 글로벌 사이버보안 업계에서 AI 기술 도입을 가속화하는 추세를 반영하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/fortinet-acquires-ai-security-company-virtue-ai/",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "폼 플러그인 결함으로 30만 개의 워드프레스 사이트가 해킹 위협에 노출",
+      "summary": "워드프레스 폼 플러그인의 보안 결함으로 인해 약 30만 개의 워드프레스 사이트가 해킹 공격에 취약해진 것으로 밝혀졌습니다. 이 취약점은 공격자들이 영향을 받은 웹사이트에 불법적으로 접근하고 악의적인 활동을 수행할 수 있게 해줍니다. SecurityWeek이 보도한 이번 사안은 워드프레스 플러그인의 보안 관리의 중요성을 다시 한번 강조합니다. 사이트 관리자들은 긴급하게 해당 플러그인을 업데이트하거나 제거할 것을 권장받고 있습니다. 이는 광범위한 워드프레스 생태계의 보안 위협을 나타내는 중대한 사건입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/300000-wordpress-sites-potentially-exposed-to-hacking-due-to-form-plugin-flaw/",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Heights Finance 데이터 유출, 최소 120만 명 영향",
+      "summary": "Heights Finance에서 최소 120만 명 이상의 개인 정보가 포함된 대규모 데이터 유출 사건이 발생했습니다. 이 사건은 금융 서비스 부문의 심각한 보안 위협을 드러내며, 고객들의 민감한 개인 정보가 노출될 위험성을 보여줍니다. 유출된 정보에는 고객의 개인식별정보와 금융 관련 데이터가 포함되어 있는 것으로 알려져 있습니다. 피해자들은 신원 도용, 금융 사기 등의 이차 피해에 직면할 수 있습니다. Heights Finance는 사건 대응 및 영향받은 고객들에 대한 공지와 지원 조치를 진행하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/heights-finance-data-breach-impacts-at-least-1-2-million-individuals/",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "GitLab, 심각한 코드 인젝션 취약점 패치",
+      "summary": "GitLab이 CVE-2026-19478로 분류된 심각한 코드 인젝션 취약점을 패치했습니다. 이 취약점은 공격자가 악의적인 코드를 주입하여 시스템을 손상시킬 수 있는 보안 위협입니다. SecurityWeek에서 보도한 이 사건은 2026년 8월 18일 공개되었으며, GitLab 사용자들에게 즉시 업데이트를 권장하고 있습니다. 해당 패치는 이 취약점을 통한 공격으로부터 GitLab 인스턴스를 보호하기 위해 필수적입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/gitlab-patches-critical-code-injection-vulnerability/",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "macOS, iOS 보안 업데이트로 수십 개의 WebKit 취약점 패치",
+      "summary": "Apple이 최신 macOS 및 iOS 보안 업데이트를 통해 WebKit 엔진의 수십 개 취약점을 패치했습니다. 이번 업데이트는 Safari 및 iOS 기기의 웹 브라우징 보안을 강화하기 위한 조치입니다. WebKit 취약점들은 공격자가 임의의 코드 실행, 메모리 손상, 크로스사이트 스크립팅(XSS) 등의 공격을 수행할 수 있게 할 수 있습니다. Apple 사용자들은 이러한 보안 위협으로부터 보호받기 위해 최신 보안 업데이트 설치를 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/dozens-of-webkit-vulnerabilities-patched-with-fresh-macos-ios-security-updates/",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "유니뷰, AI 스포츠 Lite형 라이브 스트리밍 솔루션 ‘UniSport’ 축구 경기 자동 생중계",
+      "summary": "AI 카메라가 선수와 공의 움직임 자동으로 인식·추적해 경기 중계UniSport 고정형, 5~8인제(4렌즈)와 11인제 축구(듀얼 렌즈) 및 농구 환경 적용 가능[보안뉴스 엄호식 기자] 글로벌 AIoT 통합 솔루션 기업 유니뷰는 8월 12일 광명 롯데아울렛 LOCO 풋살장에서 AI 스포츠 중계 솔루션 ‘UniSport’를 활용해 축구 경기 생중계를 진행했다",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145191&kind=&sub_kind=",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "美 정부, 민간 기업에 해외 사이버 범죄조직 ‘역해킹’ 허용 추진",
+      "summary": "민간 기업에 안보 및 법적 리스크 위협 우려도 [보안뉴스 김형근 기자] 도널드 트럼프 미국 대통령이 검증된 민간 기업에 해외 사이버 범죄 조직을 대상으로 정보 수집 및 무력화(사보타주) 작전을 허용하는 대통령 각서에 서명했다. 연간 피해가 수백억달러 규모에 달하는 초국가적 사이버 범죄망을 막기 위해 민간의 공격적 사이버 역량을 동원하겠다는 취지다.이번 조치",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145190&kind=&sub_kind=",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "에스에스티랩, 1m급 대형 위탁수하물용 3D CT 보안검색장비 국산화 개발 착수",
+      "summary": "산업부 CVC 투자연계 R&D 선정, 외산 100% 시장에 첫 국산화 도전장세계 7번째 최고 등급 인증(ECAC C3) 받은 기술, 1000㎜×1000㎜ 대형 터널 사이즈로 확장부품 국산화율 90% 달성 목표, 기술 독립 및 국가 보안 ‘데이터 주권’ 확보[보안뉴스 엄호식 기자] 보안검색장비 전문기업 에스에스티랩(SST Labs, 대표 신동식·최광윤)이 국",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145189&kind=&sub_kind=",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "행안부·과기정통부, 재난안전통신망 연동 스마트워치 개발 착수",
+      "summary": "재난현장 인력의 다중 장비 휴대 부담 해소AI 교신 요약과 심박·위치 모니터링 기능 탑재9월 7일까지 연구기관 공모, 선정 시 2년간 9억원 내외 연구개발비 지원 [보안뉴스 강초희 기자] 행정안전부(장관 윤호중)와 과학기술정보통신부(부총리 겸 장관 배경훈)는 ‘국민생활안전 긴급대응연구’ 사업으로 재난안전통신망 전용 스마트워치 개발을 위한 연구개발 과제를 추",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145187&kind=&sub_kind=",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "한국인 넷플릭스 아이디 5달러, 오피스365 계정 26달러... 식사 한 끼값에 신분 도용",
+      "summary": "노드VPN, “넷플릭스 5달러 이메일 27달러, 헐값에 털리는 한국인 일상”한국인 42% “하루라도 인터넷 없이 지내기 어려워”...37%는 개인정보 유출 우려다크웹에서 한국 Office 365 계정 26.75달러, 넷플릭스 계정은 5달러 미만에 거래[보안뉴스 원병철 기자] 다크웹에서 한국인의 넷플릭스 아이디 1계정에 5달러(한화 약 6700원), 마이크로",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145188&kind=&sub_kind=",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "조달청, 2026년 제3차 혁신제품 시범 구매 대상 선정",
+      "summary": "74개 혁신제품 및 120개 시범사용 기관 선정AI·위성통신 등 혁신기술 실증으로 미래산업 경쟁력 높여디지털 첨단산업 미래 이끌 혁신제품의 공공실증 지원 가속화[보안뉴스 엄호식 기자] 조달청(청장 백승보)은 2026년 제3차 혁신제품 시범구매 대상을 선정하고 8월 18일 혁신장터에 그 결과를 공개했다. 혁신제품 시범구매는 조달청이 혁신제품을 선도적으로 구매",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145186&kind=&sub_kind=",
+      "date": "2026-08-18"
+    },
     {
       "id": "aHR0cDovL3d3dy5i",
       "title": "티피링크 타포, 홈캠 주요 서버 국내 이전 완료 “보안 신뢰도 강화”",
@@ -12221,224 +12461,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144325&kind=&sub_kind=",
       "date": "2026-06-25"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "빗썸, 개인정보 국외이전 규정 위반에 과징금 2.1억원",
-      "summary": "[보안뉴스 강현주 기자] 개인정보보호위원회는 빗썸의 개인정보 국외이전 규정 위반에 대해 과징금 2억1천만원을 부과하고, 적법한 국외이전 요건을 갖추도록 하는 시정명령을 의결했다고 25일 밝혔다.빗썸은 지난해 9월부터 11월까지 테더(USDT) 마켓에서 해외 거래소와 오더북(호가창)을 공유하는 과정에서 개인정보를 국외로 이전했다.빗썸은 이 과정에서 이용자들에",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144321&kind=&sub_kind=",
-      "date": "2026-06-25"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "서초구, 어린이보호구역 CCTV·스마트폴 확충 본격 추진",
-      "summary": "어린이보호구역과 초등학교 주변 7곳에 CCTV와 통합안전 스마트폴 설치AI CCTV와 스마트 보안등, 공공 와이파이 등을 결합한 스마트폴로 보행 안전과 주민 편의 향상 기대[보안뉴스 강초희 기자] 서울 서초구(구청장 전성수)는 어린이들의 안전한 통학환경 조성을 위해 지역 내 어린이보호구역과 초등학교 주변 7개소에 안심 CCTV를 새롭게 설치하며 지역 안전망",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144312&kind=&sub_kind=",
-      "date": "2026-06-25"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "“AI가 도로 지키고 철거 작업 맡는다” 국토부, AI 응용제품 26개 선정",
-      "summary": "건설 현장 철거, 도로 안전관리 등 위험한 작업에 로봇 시범 운용국토교통 AI 응용제품 26개 제품·서비스 선정, 2년간 총 750억원 지원[보안뉴스 강초희 기자] 국토교통부(장관 김윤덕)는 11개 부처 합동으로 추진하는 ‘AI 응용제품 신속 상용화 지원사업’(AX-Sprint) 일환으로 국토교통 전 분야에 대해 공모를 추진해 AI 기술이 접목된 총 26개",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144314&kind=&sub_kind=",
-      "date": "2026-06-25"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "한국수력원자력, ‘2026 안심가로등 플러스 사업’ 공모 실시",
-      "summary": "13년째 전국 지자체 대상 3605본 가로등 설치안전한 지역사회 조성에 기여[보안뉴스 강초희 기자] 한국수력원자력(사장 김회천)이 지역사회 안전 인프라 확충을 위해 ‘2026 안심가로등 플러스 사업’ 공모를 7월 24일까지 진행한다.‘안심가로등 플러스 사업’은 범죄 및 안전사고 취약지역에 친환경 태양광 가로등과 스마트 안전시설을 설치해 주민들이 안심하고 생",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144315&kind=&sub_kind=",
-      "date": "2026-06-25"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "세이지-국토안전관리원, 정밀안전진단 현장 AI CCTV 도입 협력",
-      "summary": "상수도 진단현장 특화 AI 플랫폼 공동 개발실시간 위험행동 감지로 현장 안전 강화[보안뉴스 강초희 기자] 세이지(SAIGE, 공동대표 박종우·홍영석)는 국토안전관리원(원장 박창근) 충청지역본부와 ‘정밀안전진단업무에 이동식 AI CCTV 도입을 위한 업무협약(MOU)’을 체결했다고 밝혔다. 이번 협약은 정밀안전진단 현장의 기술자 안전 강화를 위해 세이지의 A",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144316&kind=&sub_kind=",
-      "date": "2026-06-25"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "CISA “란트로닉스 EDS5000, 9.8점 취약점 실제 악용 중”",
-      "summary": "[보안뉴스 강현주 기자] 미국 사이버보안 및 인프라보안국(CISA)이 란트로닉스(Lantronix)의 디바이스 서버 ‘EDS5000’ 시리즈의 치명적 취약점이 현재 실제 공격에 악용되고 있다고 경고했다. CISA는 연방 민간 행정부(FCEB) 기관들에게 26일까지 관련 패치를 적용할 것을 촉구했다.문제가 된 취약점은 ‘CVE-2025-67038’이다. 보안",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144319&kind=&sub_kind=",
-      "date": "2026-06-25"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "유로폴, 사이버 범죄자 위한 ‘멀웨어 서비스’ 인프라 분쇄... 보안 기업 합동 ‘엔드게임 작전’",
-      "summary": "아마데이(Amadey), 스틸C(StealC) 등 사이버 범죄자 위한 서비스 인프라 단속주요 민간 보안 기업과 협업[보안뉴스 한세희 기자] 글로벌 사이버 범죄 조직을 위한 멀웨어 서비스 인프라가 국제 공조 수사로 무너졌다. 유로폴은 여러 국가 사법 당국과 보안 기업이 참여한 ‘엔드게임 작전’(Operation Endgame)을 펼쳐 ‘서비스형 멀웨어’(Ma",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144320&kind=&sub_kind=",
-      "date": "2026-06-25"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "펜타시큐리티, 국가서비스대상 3년 연속 수상... 올해는 디아모 선정",
-      "summary": "[보안뉴스 강현주 기자] 사이버보안 전문기업 ‘펜타시큐리티’가 자사 암호 플랫폼 ‘디아모’(D.AMO) 가 ‘2026 국가서비스대상 사이버보안 솔루션’에 선정됐다고 25일 밝혔다. 펜타시큐리티는 2024년과 2025년 지능형 웹방화벽 와플(WAPPLES)의 수상에 이어 해당 부문에서 3년 연속 선정됐다. 산업통상자원부 산하 국책연구기관 산업정책연구원이 주관",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144318&kind=&sub_kind=",
-      "date": "2026-06-25"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "안랩 V3, ‘VB100’서 국내 유일 A+ 등급 획득",
-      "summary": "100% 탐지율 기록... 실제 유포 중인 악성코드 차단[보안뉴스 강현주 기자] 안랩(대표 강석균)은 자사 엔드포인트 보안 솔루션 ‘안랩 V3’가 글로벌 보안 평가 기관 바이러스블러틴(Virus Bulletin)의 ‘VB100’의 올 6월 인증 평가에서 악성코드 탐지율 100%를 기록하며 최고 등급인 A+로 인증을 획득했다고 25일 밝혔다.VB100은 윈도",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144317&kind=&sub_kind=",
-      "date": "2026-06-25"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[김정덕의 인간중심보안-11] 보안 문화, Nature(본성) vs. Nurture(양육)",
-      "summary": "규칙의 나열을 넘어 조직의 체질을 바꾸는 정원사의 리더십[연재목차 Part 3. 인간중심보안과 보안문화]1. AI 시대, 왜 인간 중심 보안인가2. AI 시대, 인간 중심 보안을 구현하려면3. 인간의 창의성과 AI 보안4. 보안 위반, 뇌 과학 해법5. 넛지 보안의 힘6. 감정과 비합리성, 보안의 숨은 힘7. 디지털 야누스, 두얼굴의 사용자8. ‘인간중심보",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144313&kind=&sub_kind=",
-      "date": "2026-06-25"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "AI 팩토리가 처음 마주치는 한계",
-      "summary": "대부분의 기업이 AI 인프라 구축 과정에서 먼저 직면하는 한계는 컴퓨팅이나 네트워크, 자본이 아니라 건물 자체입니다. 물리적 공간의 제약이 AI 팩토리 확장의 첫 번째 병목이 되고 있습니다. 이러한 한계는 스토리지 아키텍처에서 가장 먼저 나타나게 됩니다. 기업들은 대규모 AI 워크로드를 처리하기 위한 스토리지 인프라의 물리적 배치와 확장성에 대해 재고해야 합니다. 건물 공간과 스토리지 아키텍처의 최적화가 AI 팩토리 성공의 핵심 요소로 떠오르고 있습니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/where-ai-factories-hit-their-first-ceiling/",
-      "date": "2026-06-24"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "제한 없는 연결: 애리조나 사막에서 견고한 기술 테스트",
-      "summary": "두 명의 사이클리스트가 극한의 환경에서 Dell Pro Rugged 디바이스와 5G의 성능을 검증했습니다. 애리조나 사막의 혹독한 조건에서도 안정적인 연결성이 유지되었음을 증명했습니다. 견고한 기술과 5G 네트워크의 조합은 오지와 극한 환경에서도 신뢰할 수 있는 통신을 제공합니다. 이 테스트는 산업 현장과 야외 작업 환경에서 Dell의 견고한 디바이스의 실용성을 입증합니다. 5G 기술과 함께 이러한 견고한 기기들은 어디서나 제한 없는 연결성을 가능하게 합니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/connected-without-limits-road-testing-rugged-tech-in-the-arizona-desert/",
-      "date": "2026-06-24"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "미션 수익성: 정부 기술 투자를 위한 올바른 지표",
-      "summary": "예산 제약과 증가하는 수요 속에서 미션 수익성은 모든 기술 투자 달러가 실제로 전달하는 가치를 보여줍니다. 정부 기관들은 전통적인 ROI 지표를 넘어 조직의 실제 목표 달성에 얼마나 기여하는지를 측정해야 합니다. 미션 수익성 접근법은 기술 투자가 공공 서비스 개선, 시민 만족도 향상, 운영 효율성 증대 등 핵심 목표에 미치는 영향을 정량화합니다. 제한된 재정 상황에서 정부는 단순한 비용 절감을 넘어 사명 달성을 위한 투자 우선순위를 재평가해야 합니다. 이러한 지표는 정부 기술 투자의 실질적인 가치를 명확하게 입증하고 더 나은 의사결정을 가능하게 합니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/return-on-mission-the-right-metric-for-state-technology-investment/",
-      "date": "2026-06-24"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "공공 부문 혁신 추진: 놓친 부분 다시 보기",
-      "summary": "공공 부문의 인공지능이 급속도로 확산되고 있습니다. 보안이 강화된 인프라는 공공 기관이 AI 기술을 안전하게 도입하고 확장할 수 있는 기반을 제공합니다. 조직 간 협력과 데이터 공유는 AI 구현의 효율성을 높이고 실질적인 성과를 만들어냅니다. 이러한 기술적 기반과 협업 체계가 결합되면 공공 부문의 미션 달성이 가속화됩니다. 보안과 협력의 균형을 맞춘 인프라 투자는 공공 부문 AI 도입의 성공 열쇠입니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/icymi-powering-public-sector-innovation/",
-      "date": "2026-06-24"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "AI가 사이버 복원력 비용을 증가시키는 방식",
-      "summary": "AI는 데이터 예산을 양쪽에서 압박하고 있습니다. 적절한 아키텍처는 사이버 복원력의 총소유비용(TCO)을 최대 61%까지 절감할 수 있습니다. 조직들은 AI 기반 보안 위협의 증가로 인한 방어 비용 증가와 데이터 스토리지 비용 상승이라는 이중 압박에 직면해 있습니다. 최적화된 인프라 구조와 효율적인 데이터 관리 전략은 운영 비용을 크게 절감할 수 있습니다. 따라서 기업들은 장기적인 사이버 복원력을 위해 올바른 기술 아키텍처 선택이 중요합니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/how-ai-drives-up-cyber-resilience-costs/",
-      "date": "2026-06-24"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "그리드 인식형 IT: 더욱 스마트한 Dell 프라이빗 클라우드 클러스터 최적화",
-      "summary": "Dell은 조직의 프라이빗 클라우드 운영을 더욱 지능적이고 효율적이며 지속 가능성을 고려한 방식으로 개선하도록 지원하고 있습니다. 그리드 인식형 기술을 통해 IT 인프라는 실시간으로 에너지 그리드의 변화를 감지하고 대응할 수 있게 됩니다. 이러한 접근 방식은 운영 비용 절감과 탄소 배출 감소를 동시에 달성하는 데 도움이 됩니다. 프라이빗 클라우드 클러스터의 최적화를 통해 기업은 리소스 활용도를 극대화할 수 있습니다. Dell의 솔루션은 조직이 환경 목표를 달성하면서도 비즈니스 성능을 유지하도록 지원합니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/grid-aware-it-smarter-dell-private-cloud-cluster-optimization/",
-      "date": "2026-06-24"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Dell과 Microsoft가 협력하여 주권 기반 프라이빗 클라우드를 재정의하다. 이제 당신의 차례다.",
-      "summary": "프라이빗 클라우드는 HCI를 넘어 진화하고 있습니다. Dell과 Microsoft는 더 간단한 확장성, 낮은 비용, 그리고 더 많은 유연성을 제공하는 솔루션을 함께 제공합니다. 이러한 협력을 통해 조직은 자신의 데이터를 완전히 통제하면서도 클라우드의 이점을 누릴 수 있습니다. 주권 기반 프라이빗 클라우드는 규제 요구사항을 충족하면서 혁신적인 기술 스택을 구현할 수 있게 합니다. Dell과 Microsoft의 통합 솔루션은 기업이 보다 효율적이고 비용 효과적인 클라우드 인프라를 구축하도록 지원합니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/dell-and-microsoft-are-reimagining-sovereign-private-cloud-you-should-too/",
-      "date": "2026-06-24"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "지구 너머의 AI 경제학 - Shared Everything 팟캐스트",
-      "summary": "이 기사는 VAST Data의 팟캐스트 시리즈에서 다루는 주제로, 우주 및 지구 밖의 환경에서 인공지능 기술이 어떻게 경제적 가치를 창출하고 산업을 변화시키는지를 탐구합니다. 데이터 저장 및 처리 기술이 우주 탐사, 위성 통신, 그리고 우주 기반 산업에서 얼마나 중요한 역할을 하는지 분석합니다. AI와 고급 데이터 기술이 우주 경제의 성장을 가능하게 하는 핵심 동력으로 작용하고 있음을 설명합니다. 이러한 기술들이 어떻게 비용을 절감하고 효율성을 극대화하는지, 그리고 새로운 비즈니스 기회를 창출하는지를 다룹니다. VAST Data는 이러한 미래 지향적 분야에서 필요한 대규모 데이터 처리 솔루션을 제공하는 기업으로 포지셔닝되고 있습니다. 팟캐스트를 통해 우주 시대의 데이터 경제와 AI의 역할에 대한 심층적인 통찰을 제공합니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/shared-everything-podcast-the-economics-of-ai-beyond-earth",
-      "date": "2026-06-24"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "VAST Data와 Lablup의 KV캐시 오프로드 벤치마크",
-      "summary": "대규모 언어 모델에서 컨텍스트가 수십만 개의 토큰으로 증가하면 동일한 접두사를 반복적으로 사용하더라도 각 턴마다 거의 전체 프리필 비용을 지불해야 하는 문제가 발생한다. GPU의 KV캐시가 가득 차면 이전 턴의 블록들이 계속 제거되고 제거된 블록은 처음부터 다시 계산되어야 하므로 첫 토큰까지의 시간(TTFT)이 개선되지 않는다. 이 문제를 해결하는 방법은 GPU 메모리를 증설하거나 KV캐시 오프로딩을 사용하는 것인데, GPU 메모리 증설은 비용이 매우 높아 현실적이지 않다. KV캐시 오프로딩은 블록을 외부 스토리지로 이동시켜 재계산 대신 저장된 데이터를 재사용하는 방식으로, RDMA, GPUDirect Storage, 고성능 데이터 플랫폼을 적절히 조합할 때 효과적이다. 에이전트 코딩 워크로드는 사용자마다 다른 길이의 접두사를 사용하고 장시간 세션에서 여러 번의 턴을 수행하므로 GPU 전용 KV캐시만으로는 효율성이 떨어지며, 이 경우 KV캐시 오프로딩이 필수적이다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/vastdata-lablup-kvcache-offload-benchmark",
-      "date": "2026-06-24"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "파일이 더 이상 관리 단위가 아닐 때: ServiceNow의 AI 연구로부터의 교훈",
-      "summary": "AI 인프라 논의는 보통 GPU 성능에 초점을 맞추지만, ServiceNow의 대규모 엔터프라이즈 AI 연구 환경 운영 실태에서는 근본적으로 다른 과제가 부각된다. 핵심 문제는 지능 생성이 아니라 모델, 데이터셋, 체크포인트, 평가 및 거버넌스 프로세스 같은 AI 자산의 생태계를 관리하는 것이다. ServiceNow는 약 500개의 NVIDIA H100 GPU와 약 15페타바이트의 데이터를 운영하면서 개별 파일이 아닌 모델과 데이터셋 같은 상위 단위의 자산 관리로 패러다임을 전환했다. 대규모 훈련 작업에서 체크포인팅은 중요하지만, 수천 개의 실험과 모델 버전이 쌓이면서 저장소 소비를 파악하기 어려워진다. 실제 사례에서 인턴이 5분마다 대용량 체크포인트를 저장하도록 설정해 필요 없는 실험으로 수 페타바이트의 저장소를 낭비했다. 이는 조직이 개별 파일 단위에서 벗어나 데이터와 모델 자산을 더 높은 수준에서 관리해야 함을 시사한다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/when-files-stop-being-the-unit-of-management-lessons-from-servicenows-ai-research",
-      "date": "2026-06-24"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "정보가 공격 표면이 될 때 - AI 에이전트 함정 이해하기",
-      "summary": "이 기사는 AI 에이전트 시스템에서 정보 자체가 새로운 공격 표면으로 작용할 수 있다는 위협을 다룹니다. 전통적인 네트워크 기반 공격과 달리, AI 에이전트는 처리하는 데이터와 정보를 통해 조작되고 악용될 수 있습니다. 공격자들은 AI 에이전트가 수집하고 활용하는 정보에 독을 섞어 시스템을 함정에 빠뜨릴 수 있으며, 이는 기존의 사이버보안 방어 체계로는 탐지하기 어려울 수 있습니다. SecurityWeek은 이러한 AI 에이전트 함정의 메커니즘과 위험성을 분석하며, 조직들이 직면하게 될 새로운 보안 과제를 제시합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/when-information-becomes-the-attack-surface-understanding-ai-agent-traps/",
-      "date": "2026-06-24"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "마이크로소프트와 연합국, Amadey 및 StealC 악성코드의 공유 인프라 제거",
-      "summary": "마이크로소프트와 국제 법 집행 기관들이 Amadey와 StealC 악성코드가 사용하던 공유 인프라를 성공적으로 제거했습니다. 이번 작전은 유럽경찰청(Europol)을 포함한 여러 국가의 법 집행 기관이 참여한 대규모 국제 협력 사이버범죄 단속입니다. Amadey와 StealC는 개인정보 탈취 및 악성코드 배포에 사용되는 위험한 악성코드로 알려져 있습니다. 이번 인프라 제거를 통해 사이버범죄자들의 활동을 상당히 방해할 것으로 예상됩니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/microsoft-and-allies-smash-shared-infrastructure-of-amadey-and-stealc-malware/",
-      "date": "2026-06-24"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "공급망 위협 감소를 위한 새로운 분류 모델 AIVEX 공개",
-      "summary": "SecurityWeek이 공급망 보안 위험을 줄이기 위해 개발된 새로운 분류 모델 'AIVEX'를 공개했습니다. 이 모델은 소프트웨어 공급망에서 발생하는 위협과 위험을 효과적으로 분류하고 우선순위를 정하기 위해 설계되었습니다. AIVEX는 SBOM(Software Bill of Materials) 데이터를 활용하여 취약점 분석을 개선합니다. 이 기술은 기업들이 제한된 보안 리소스로 가장 중요한 위협에 집중할 수 있도록 도와줍니다. Kevin Townsend 기자가 작성한 이 기사는 인공지능과 취약점 관리 분야에서 중요한 발전을 다루고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/exclusive-meet-aivex-a-new-triage-model-built-to-reduce-supply-chain-threat-and-risk/",
-      "date": "2026-06-24"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "macOS 취약점 연쇄 악용으로 엔드포인트 보안 에이전트 무음 비활성화",
-      "summary": "macOS의 여러 취약점이 연쇄적으로 악용되어 엔드포인트 보안 에이전트를 사용자에게 알리지 않고 조용히 비활성화할 수 있는 것으로 드러났습니다. 이는 보안 소프트웨어가 무력화될 수 있음을 의미하며, 공격자들이 감지되지 않고 시스템에 침투할 수 있는 심각한 보안 위협입니다. 해당 취약점들은 macOS 사용자들의 엔드포인트 보안 솔루션을 우회하는 데 효과적으로 악용될 수 있습니다. SecurityWeek의 보도에 따르면 이는 엔드포인트 보안 제품의 근본적인 취약점으로 평가되고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/macos-weaknesses-chained-to-silently-disable-endpoint-security-agents/",
-      "date": "2026-06-24"
     }
   ],
-  "totalItems": 3436,
+  "totalItems": 3460,
   "hasArchive": true
 }
