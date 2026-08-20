@@ -3,6 +3,240 @@
   "items": [
     {
       "id": "aHR0cDovL3d3dy5i",
+      "title": "다크웹 AI 기반 해킹 도구 거래 활발... 초보도 APT급 공격 가능",
+      "summary": "AIaaS 등 고도화된 공격 툴 유통 중[보안뉴스 김형근 기자] 사이버 보안 기업 트렐릭스(Trellix)는 최근 보고서에서 다크웹 지하 포럼에서 다양한 AI 기반 해킹 도구와 서비스가 활발히 거래되고 있다고 밝혔다.이 보고서에 따르면 지하 암시장에서는 정찰 도구, 자격 증명 유통, 서비스형 AI(AIaaS) 플랫폼 등 고도화된 공격 툴이 유통 중이다.이들",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145219&kind=&sub_kind=",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "유락, 엔비디아 ‘엔업’ 선정... “온디바이스 AI 포렌식 기술 선도”",
+      "summary": "포렌식 전용 AI 엣지 디바이스 개발폐쇄망까지 현장형 AI 분석 강화[보안뉴스 강현주 기자] AI 디지털 포렌식 전문기업 유락(대표 유봉석)이 중소벤처기업부가 추진하고 엔비디아(NVIDIA)가 지원하는 ‘글로벌 기업 협업 프로그램 엔업’(N-UP)에 선정됐다고 19일 밝혔다. 유락은 이번 선정을 계기로 온디바이스 AI 기반 현장형 디지털 포렌식 기술을 고",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145216&kind=&sub_kind=",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell AI 데이터 플랫폼이 MAM을 확장하는 방법",
+      "summary": "Dell AI 데이터 플랫폼은 지속적인 탐색, 관리되는 강화, 그리고 모든 미디어 자산에 걸친 AI 준비 워크플로우를 통해 MAM을 확장합니다. 이 플랫폼은 미디어 자산 관리의 기능을 향상시켜 보다 효율적인 콘텐츠 발견을 가능하게 합니다. 지속적인 탐색 기능으로 새로운 미디어 자산을 자동으로 감지하고 분류할 수 있습니다. 관리되는 강화 기능은 메타데이터를 체계적으로 개선하여 데이터의 품질을 높입니다. AI 준비 워크플로우는 인공지능 기술을 쉽게 적용할 수 있도록 미디어 자산을 준비시킵니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-the-dell-ai-data-platform-extends-your-mam/",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "KV 캐시를 객체 저장소로 오프로드: GPU-Direct 및 업스트림",
+      "summary": "Dell의 S3 호환 저장소용 RDMA 경로가 이제 업스트림 오픈소스 추론 스택에 통합되었습니다. 이를 통해 vLLM과 LMCache가 Dell ObjectScale을 직접 대상으로 삼을 수 있게 되었습니다. GPU-Direct 기술을 활용하여 더욱 효율적인 데이터 전송이 가능해졌으며, 이는 대규모 언어 모델의 추론 성능을 크게 향상시킵니다. 객체 저장소로의 KV 캐시 오프로드는 GPU 메모리 사용을 최적화하고 비용 효율성을 높입니다. 이 통합은 오픈소스 커뮤니티와 Dell의 협력 결과로, 더 많은 개발자들이 고성능 추론 인프라에 접근할 수 있게 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/kv-cache-offload-to-object-storage-gpu-direct-and-upstream/",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "네트워크 전문가를 위한 LLM GPU 클러스터 패브릭 트래픽 이해하기",
+      "summary": "생성형 AI 학습 클러스터는 매우 높은 네트워크 대역폭과 낮은 지연시간을 필요로 하며, 이는 전통적인 데이터센터 네트워크 설계와는 다른 요구사항을 제시합니다. GPU 간의 효율적인 통신을 위해서는 고성능의 인터커넥트 기술과 최적화된 네트워크 토폴로지가 필수적입니다. 클러스터 네트워크 트래픽은 학습 단계에서 대량의 데이터 이동과 그래디언트 동기화로 인해 집중되는 특성을 보입니다. 네트워크 병목 현상을 최소화하기 위해 멀티패스 아키텍처와 적절한 대역폭 프로비저닝이 중요합니다. 네트워크 엔지니어는 AI 클러스터의 성능을 극대화하기 위해 이러한 특수한 트래픽 패턴과 요구사항을 이해해야 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/understanding-llm-gpus-clusters-fabrics-traffic-for-networkers-2/",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "공급업체 종속을 피하면서 엔터프라이즈 AI를 구축하는 방법",
+      "summary": "Dell의 AI Data Platform(AIDP)은 NVIDIA, Elastic, Starburst 등 광범위한 파트너 에코시스템을 통해 기업들이 공급업체 종속을 피하면서 AI를 구축할 수 있도록 지원합니다. 개방형 파트너십 접근 방식은 기업에게 기술 선택의 자유도와 유연성을 제공합니다. 이를 통해 조직은 자신의 필요에 최적화된 솔루션을 구성할 수 있으며, 장기적으로 비용 효율성을 확보할 수 있습니다. Dell의 플랫폼은 다양한 벤더의 솔루션을 통합하여 진정한 멀티벤더 AI 전략을 가능하게 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-to-build-enterprise-ai-without-vendor-lock-in/",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "연방정부 보안 환경을 위한 Dell GB300 소개",
+      "summary": "Dell GB300는 민감한 데이터에 대한 통제력을 유지하면서 보안 연방정부 환경에 프로덕션 규모의 AI를 제공합니다. 이 솔루션은 정부 기관들이 엄격한 보안 요구사항을 충족하면서도 AI 기술의 이점을 활용할 수 있도록 설계되었습니다. GB300은 데이터 주권과 보안을 최우선으로 하는 안전한 AI 인프라를 구축합니다. 연방정부 환경의 높은 규정 준수 기준을 만족하면서 실제 운영 환경에서의 AI 배포가 가능합니다. 이러한 기능들은 정부 기관의 디지털 혁신을 촉진하는 동시에 국가 보안을 보장합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/introducing-dell-pro-max-gb300-for-secure-federal-ai/",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE와 리즈 대학교, HPE 자율주행 네트워크로 고등교육의 미래를 구축",
+      "summary": "HPE는 영국 리즈 대학교가 캠퍼스 전역의 유선 및 무선 네트워킹 기반을 제공하기 위해 HPE 자율주행 네트워크를 선택했다고 발표했습니다. 영국의 주요 대형 연구중심 대학인 리즈 대학교는 학생, 직원 및 연구원을 위해 뛰어난 디지털 경험을 제공하면서 AI 기반 연구의 증가하는 수요를 지원하도록 설계된 자율주행 네트워크에 투자하고 있습니다. 이는 대학의 장기적인 디지털 변혁 전략의 일환이며, 지능형이고 안전하며 확장 가능한 네트워크 기반을 구축하기 위한 것입니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/08/hpe-and-university-of-leeds-build-the-future-of-higher-education-with-hpe-self-driving-networks.html",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "카프카 인프라스트럭처의 재창조 준비가 완료되었다",
+      "summary": "VAST Data의 블로그 기사는 카프카(Kafka) 기반의 데이터 인프라스트럭처가 근본적인 변혁을 맞이할 준비가 되어 있다는 주제를 다루고 있습니다. 현재의 카프카 생태계는 기술 발전에 따라 새로운 방식으로 재구성될 필요성이 대두되고 있으며, 이러한 변화는 데이터 처리의 효율성과 성능을 획기적으로 향상시킬 수 있습니다. 기존의 카프카 기반 아키텍처는 여러 제약사항과 복잡성을 가지고 있어, 현대적인 요구사항을 충족시키기 위해서는 혁신적인 접근이 필요합니다. VAST Data는 이러한 변혁의 시점에서 새로운 솔루션과 기술 방향을 제시하고 있으며, 향후 데이터 인프라스트럭처의 발전 방향에 대한 중요한 인사이트를 제공하고 있습니다. 카프카의 재발명은 단순한 기술 업그레이드를 넘어 전체 데이터 생태계의 구조적 개선을 의미하며, 이는 기업들의 데이터 전략에 중대한 영향을 미칠 것으로 예상됩니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/the-infrastructure-around-kafka-is-ready-for-reinvention",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "자율 과학이 직면한 워크플로우 인프라 문제",
+      "summary": "전통적인 배치 스케줄러는 수십 년 동안 사용자 작업을 클러스터 자원에 매핑하는 동일한 방식을 따르고 있습니다: 작업이 큐에 들어가고, 스케줄러가 모든 클러스터 노드에 최적으로 작업을 배치한 후 실행하는 방식입니다. 이러한 모델은 인간이 작업을 제출한다는 가정 하에 설계되었는데, 인간은 충분히 느려서 스케줄러가 작업 배치의 복잡한 문제를 해결할 시간을 제공합니다. 실제로 대부분의 HPC 센터는 자동화된 루프로 많은 수의 작업을 제출하지 말 것을 권고하고 있습니다. Slurm도 초당 1,000개의 작업 제출과 500개의 단순 작업 실행만 가능하다고 명시하고 있습니다. 하지만 빔라인과 망원경이 초당 수십 개의 이미지를 생성하고, 에이전트 기반 워크로드가 빠르게 작업을 분배하는 미래에는 이러한 한계가 심각한 문제가 될 것입니다. 배치 스케줄러가 자율 데이터 생성 시설과 에이전트 기반 워크플로우의 확장에 대응하지 못하는 것은 생산성의 근본적인 제약입니다. 이는 클러스터 활용도 최대화와 인간의 휴식 시간을 고려하는 역사적인 가정에서 비롯된 문제입니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/autonomous-science-is-inheriting-a-workflow-infrastructure-problem",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "오늘의 가상 이벤트: CodeSecCon - 코드와 애플리케이션 보안",
+      "summary": "SecurityWeek에서 주최하는 CodeSecCon 가상 이벤트가 오늘 개최됩니다. 이 행사는 코드와 애플리케이션의 보안을 강화하기 위한 전문가 세션과 논의의 장을 제공합니다. 애플리케이션 보안 분야의 다양한 후원사들이 참여하여 산업 최신 동향과 모범 사례를 공유합니다. 개발자와 보안 전문가들은 안전한 코딩 관행과 애플리케이션 보안 강화 전략에 대해 배울 수 있습니다. 이 이벤트는 디지털 시대의 소프트웨어 보안 중요성을 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/virtual-event-today-codeseccon-secure-your-code-and-applications/",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Prevalent AI, 데이터 패브릭 플랫폼 확대를 위해 2,200만 달러 투자 유치",
+      "summary": "AI 보안 기업 Prevalent AI가 성장 자금으로 2,200만 달러를 투자유치했습니다. 이 자금은 AI 기반 데이터 패브릭 플랫폼의 확대와 미국 시장 진출 가속화에 사용될 예정입니다. 데이터 패브릭 플랫폼은 조직의 데이터 보안 및 거버넌스를 강화하는 데 중점을 두고 있습니다. 이번 투자는 기업의 데이터 보호 능력을 한 단계 업그레이드할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/prevalent-ai-raises-22-million-to-expand-data-fabric-platform/",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국, 이란 해커 17명 기소 및 5명에 대해 1천만 달러 현상금 제시",
+      "summary": "미국 정부가 이란 출신 해커 17명을 기소했으며, 이 중 5명에 대해 총 1천만 달러의 현상금을 제시했다. 이는 이란의 사이버 공격 활동에 대한 미국의 강경한 대응 조치이다. 기소된 해커들은 미국 정부 기관, 기업, 개인을 대상으로 한 사이버 공격에 관여한 혐의를 받고 있다. 미국 정부는 이러한 현상금 제도를 통해 이란의 사이버 위협에 대한 정보 제공을 유도하고 있다. 이번 조치는 국제 사이버 안보 분야에서 미국의 적극적인 대응 의지를 보여주는 사건이다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/us-charges-17-iranian-hackers-offers-10-million-rewards-for-5-of-them/",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Cl0p 랜섬웨어 그룹, PTC Windchill 캠페인의 40개 이상 피해사례 공개",
+      "summary": "Cl0p 랜섬웨어 그룹이 PTC Windchill 소프트웨어를 대상으로 한 공격 캠페인에서 40개 이상의 피해 기업을 공개했습니다. 이 캠페인은 제품 생명주기 관리(PLM) 소프트웨어인 Windchill의 취약점을 악용하여 기업들로부터 민감한 데이터를 탈취한 것으로 보입니다. Cl0p 그룹은 탈취한 데이터를 공개하겠다는 협박을 통해 피해 기업들로부터 몸값을 갈취하는 이중 갈취(double extortion) 방식을 사용했습니다. 이번 공격은 산업용 소프트웨어를 노린 조직화된 대규모 사이버 공격으로, 여러 산업 부문의 주요 기업들이 피해를 입었습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cl0p-ransomware-group-names-over-40-victims-of-ptc-windchill-campaign/",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, Microsoft·VMware·Apple의 악용 중인 취약점 긴급 패치 촉구",
+      "summary": "미국 사이버보안·인프라보안청(CISA)이 현재 활발하게 악용되고 있는 Microsoft, VMware, Apple의 여러 취약점에 대한 즉각적인 패치를 권고했습니다. CISA는 이러한 취약점들이 실제 공격에 활용되고 있어 긴급 조치가 필요하다고 강조했습니다. 해당 취약점들은 CISA의 주요 악용 취약점 목록(CISA KEV)에 추가되었으며, 모든 조직과 사용자에게 즉시 보안 업데이트 적용을 권장하고 있습니다. 이는 사이버 공격자들이 이미 이 취약점들을 공격 수단으로 활용하고 있다는 의미로, 조직의 적극적인 대응이 매우 중요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-microsoft-vmware-apple-vulnerabilities/",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "오라클, 8월 2026년 보안 업데이트로 943개 패치 배포",
+      "summary": "오라클이 2026년 8월 보안 업데이트를 통해 총 943개의 패치를 배포했습니다. 이번 업데이트는 오라클의 정기적인 중요 보안 패치 업데이트(CSPU)의 일환으로 진행되었습니다. 패치는 오라클의 다양한 제품과 서비스에 영향을 미치는 취약점들을 해결합니다. 조직들은 이러한 보안 업데이트를 신속하게 적용하여 알려진 취약점으로부터 시스템을 보호해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/943-patches-rolled-out-with-oracles-august-2026-security-update/",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Chrome, Firefox 업데이트, 수십 개의 취약점 패치",
+      "summary": "Chrome 151 버전과 Firefox의 최신 업데이트가 릴리스되어 여러 보안 취약점을 패치했습니다. 이번 업데이트는 웹 브라우저의 중요한 보안 결함을 해결하여 사용자 시스템을 보호하는 데 중점을 두고 있습니다. 양 브라우저 모두 정기적인 보안 업데이트를 통해 사이버 위협으로부터 사용자를 방어하고 있습니다. 사용자들은 최신 버전으로 즉시 업데이트하여 보안 취약점으로부터 보호받을 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/chrome-firefox-updates-patch-dozens-of-vulnerabilities/",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CareCloud 데이터 침해 영향, 370만 명으로 확대",
+      "summary": "의료 IT 솔루션 제공업체인 CareCloud에서 발생한 데이터 침해 사건의 영향 범위가 370만 명으로 증가했습니다. 이번 침해로 개인의 민감한 의료 정보와 개인식별정보(PII)가 유출된 것으로 파악되고 있습니다. CareCloud는 영향을 받은 개인들에게 통보하고 신용 모니터링 서비스를 제공하는 등 대응 조치를 취하고 있습니다. 이 사건은 의료 업계의 사이버보안 위협이 얼마나 심각한지를 다시 한 번 드러내고 있습니다. 보건당국과 관련 기관들은 의료기관의 데이터 보호 강화를 촉구하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/carecloud-data-breach-impact-grows-to-3-7-million-individuals/",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "삼오씨엔에스, 개인정보 접속기록관리 솔루션 ‘파르고스’ 공공·금융권 잇단 수주",
+      "summary": "함평군청 구축 완료우리투자증권·기획예산처, 창업진흥원 신규 수주[보안뉴스 강현주 기자] 삼오씨엔에스(대표 김현철)는 자사의 개인정보 접속기록관리 솔루션 ‘파르고스’(PARGOS)가 전남 함평군청에 구축을 완료하고 우리투자증권, 기획예산처, 창업진흥원를 신규 고객사로 확보하며 공공·금융권에서 레퍼런스를 넓히고 있다고 19일 밝혔다.파르고스는 개인정보처리시스템",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145214&kind=&sub_kind=",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "KT, 국산 반도체와 AI 모델 일체형 ‘소버린 AI 어플라이언스’ 출시",
+      "summary": "“데이터 주권과 AX 도입을 한 번에 해결”[보안뉴스 강현주 기자] KT(대표 박윤영)가 국산 AI 반도체와 국산 언어모델(LLM)을 하나의 서버에 통합한 기업용 소버린 AI 어플라이언스(하드웨어와 소프트웨어가 결합된 완제품형 장치)를 출시했다고 19일 밝혔다. KT가 선보인 ‘KT NPU LLM 스테이션’은 국내 AI 반도체 기업 리벨리온의 NPU ‘아톰",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145213&kind=&sub_kind=",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "한국요꼬가와전기-VNTG, 제조기업 AI 도입 지원 위한 MOU 체결",
+      "summary": "IT-OT 데이터 통합 기반 공동 솔루션 및 사업모델 개발, 진단부터 운영까지 전 과정 지원요꼬가와 OT 역량과 VNTG AI·데이터 역량 결합[보안뉴스 강초희 기자] 한국요꼬가와전기(대표이사 마츠카와 마사루, 한국요꼬가와)와 브이엔티지(대표이사 김태근, VNTG)가 국내 제조기업의 AI 도입과 활용을 함께 지원하기 위한 업무협약(MOU)을 체결했다고 30",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145205&kind=&sub_kind=",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "에스에스알, ‘바다’ 사업부 인수... CCE 시장 점유율 70% 굳힌다",
+      "summary": "지란지교에스앤씨 취약점 진단 솔루션 사업부 품고 시장 지배력 대폭 강화계열사 유상증자 참여로 70억원 자금 확보해 AI·클라우드 추가 M&A 예고[보안뉴스 조재호 기자] 에스에스알(SSR)이 지란지교에스앤씨 IT 인프라 취약점 진단 솔루션 ‘바다’(VADA) 사업부를 인수하며 정보시스템 보안 설정 취약점(CCE) 사업 경쟁력 강화에 나선다.이번 인수는 지란",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145206&kind=&sub_kind=",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "“국방 시장 본격 확대” 모빌린트, 해군 차세대 AI 경계체계에 AI 반도체 공급",
+      "summary": "해군 함정 약 50척 AI 영상감시체계에 국산 NPU 기반 추론 플랫폼 공급공공 이어 국방까지 AI 반도체 적용 확대... 실제 현장 중심 사업 레퍼런스 강화[보안뉴스 강초희 기자] AI 반도체 전문기업 모빌린트(대표 신동주)가 해군의 ‘NPU 기반 지능형 영상감시체계 시범 구축 사업’에 자체 AI 반도체 기반 추론 플랫폼을 공급하며 국방 AI 시장으로 사",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145207&kind=&sub_kind=",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "K-보안 역량과 토종 LLM 만났다... 라온시큐어, 업스테이지 ‘독파모’ 합류",
+      "summary": "과기정통부 2차 통과한 ‘솔라’ 기반 자율형 보안 체계 고도화국가 핵심 인프라 보호·보안 전문가 업무 자동화 공동 실증[보안뉴스 조재호 기자] 라온시큐어가 업스테이지 주도 ‘독자 AI 파운데이션 모델 프로젝트(독파모)’ 개발 컨소시엄에 보안 분야 파트너로 합류했다고 19일 밝혔다.업스테이지는 18일 과학기술정보통신부 주관 심사에서 독파모 2차 단계평가를 통",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145204&kind=&sub_kind=",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "LG유플러스-연세대 맞손, AI-RAN 통신망 끊김 없는 전환 실증",
+      "summary": "5G망과 엔비디아 GPU 기반 AI-RAN 시험망 연동, 서비스 연속성 확인로봇·드론 등 공간 이동하는 피지컬 AI 기기 최적 네트워크 자동 선택[보안뉴스 조재호 기자] LG유플러스는 연세대학교와 함께 AI 라디오 액세스 네트워크(AI-RAN) 환경에서 네트워크가 전환되는 상황에서도 연결을 유지할 수 있는 기술을 검증했다고 19일 밝혔다.최근 AI가 주변",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145203&kind=&sub_kind=",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
+      "title": "쿠도커뮤니케이션, 구성원의 ‘경험을 잇(IT)다’... 사람 중심 성장문화 내재화",
+      "summary": "구성원 성공·실패 경험과 프로젝트 노하우 공유 통해 조직 지식자산 확산사업부·직급 경계 넘어 현장 경험 공유로 구성원 주도 학습문화 확산[보안뉴스 강초희 기자] AI·ICT 전문기업 쿠도커뮤니케이션(대표 김용식)은 구성원의 업무 경험과 성장 노하우를 조직의 지식 자산으로 확산하기 위한 사내 강연 프로그램 ‘경험을 잇(IT)다’를 새롭게 운영한다고 밝혔다.‘",
+      "category": "보안",
+      "source": "보안뉴스",
+      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145196&kind=&sub_kind=",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "aHR0cDovL3d3dy5i",
       "title": "“비인간 대상 보안 중요”… SK쉴더스, 제로트러스트 기반 NHI 보안 컨설팅 제공",
       "summary": "“AI 에이전트 확산으로 보안 관리 대상이 AI까지 확대”[보안뉴스 강현주 기자] SK쉴더스(대표 민기식)가 AI 에이전트 확산으로 기업의 보안 관리 대상이 사람을 넘어 AI까지 확대되는 수요에 대응하기 위해 제로트러스트 기반 AI 보안 사업을 강화한다고 19일 밝혔다.최근 기업들은 AI를 업무에 활용하는 수준을 넘어 AI가 실제 업무를 수행하는 단계로 빠",
       "category": "보안",
@@ -8040,10 +8274,10 @@
     }
   ],
   "sources": {
-    "보안뉴스": 442,
-    "Dell": 98,
-    "HPE": 12,
-    "VAST Data": 35,
-    "SecurityWeek": 306
+    "보안뉴스": 452,
+    "Dell": 103,
+    "HPE": 13,
+    "VAST Data": 37,
+    "SecurityWeek": 314
   }
 }
