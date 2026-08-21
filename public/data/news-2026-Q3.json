@@ -2,6 +2,123 @@
   "quarter": "2026-Q3",
   "items": [
     {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "사이버 복원력 테스팅: 왜 여전히 실행되지 않는가",
+      "summary": "복구 테스팅이 계속해서 건너뛰어지고 있습니다. 새로운 독립적 연구에 따르면 그 이유는 예산 부족이나 도구 부족이 아닙니다. 많은 조직들이 복구 테스팅의 중요성을 인식하고 있음에도 불구하고 실제 실행에는 여러 조직적, 절차적 장애물이 존재합니다. 이러한 테스팅 격차는 사이버 공격 발생 시 조직의 실제 복구 능력에 대한 심각한 위험을 초래합니다. 효과적인 사이버 복원력을 갖추기 위해서는 테스팅 문화 개선과 조직 전체의 협력이 필수적입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/cyber-resilience-testing-why-it-still-isn-t-happening/",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "인터넷의 작동 원리: 서버에서 화면까지",
+      "summary": "인터넷은 서버, 클라이언트, 라우터 등의 하드웨어와 TCP/IP 프로토콜을 통해 작동합니다. DNS는 웹 주소를 IP 주소로 변환하여 올바른 서버를 찾을 수 있도록 도와줍니다. CDN(콘텐츠 전송 네트워크)은 전 세계에 분산된 서버를 통해 콘텐츠를 빠르게 전달합니다. 데이터 패킷은 여러 경로를 통해 목적지로 전송되며, 손상되거나 손실된 패킷은 재전송됩니다. 이러한 기술들의 조화로운 작동이 우리가 매일 경험하는 빠르고 안정적인 인터넷 연결을 가능하게 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-the-internet-works-from-servers-to-your-screen/",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "통신 산업 혁신 플레이북: 이동통신사가 필요로 하는 청사진",
+      "summary": "현대적인 네트워크는 클라우드 기반이며 개방형이고 엔드투엔드 자동화 시스템으로 구축되어 있습니다. 이러한 네트워크는 오늘날의 5G 기술에 맞춰 설계되었으며, 내일의 AI 기반 운영을 위해 준비되어 있습니다. 이동통신사들은 이러한 현대적 네트워크 인프라로의 전환을 위한 명확한 청사진과 전략이 필요합니다. 클라우드 기반 아키텍처는 유연성과 확장성을 제공하여 빠르게 변화하는 시장 요구에 대응할 수 있습니다. 개방형 표준과 자동화 기술의 도입은 운영 효율성을 극대화하고 비용을 절감할 수 있는 기회를 제공합니다. AI 기반 운영 체계는 네트워크 관리, 고객 경험 개선, 그리고 새로운 수익 창출의 기반이 될 것입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/telecom-transformation-playbook-mobile-operators-need-a-blueprint/",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "해커들이 지브라 서버를 대상으로 적극적인 악용 캠페인 전개",
+      "summary": "보안 연구팀들이 지브라(Zimbra) 이메일 및 협업 서버를 대상으로 한 적극적인 취약점 악용 캠페인을 적발했습니다. 해커들이 지브라 서버의 알려진 보안 취약점을 악용하여 조직의 시스템에 침투하고 있는 것으로 확인되었습니다. 이번 캠페인은 전 세계 다양한 기업과 기관을 표적으로 하고 있으며, 공격자들은 지속적으로 이 취약점을 이용한 공격을 시도하고 있습니다. 지브라 서버를 운영 중인 조직들은 즉시 보안 업데이트를 적용하고 시스템을 점검할 것이 권고되고 있습니다. 보안 전문가들은 이러한 악용 캠페인에 대비하기 위해 네트워크 모니터링과 접근 제어 강화를 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hackers-target-zimbra-servers-in-active-exploitation-campaign/",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "감시 - 알고 싶었지만 묻기 두려웠던 모든 것",
+      "summary": "SecurityWeek에서 발행한 이 기사는 현대의 감시 체계와 그 기술적 메커니즘에 대해 다룬다. 인공지능(AI)과 감시 기술의 발전으로 인해 사이버 범죄, 위협 인텔리전스, 그리고 법 집행 추적 기술이 어떻게 진화하고 있는지 설명한다. Kevin Townsend가 작성한 4,374단어 규모의 이 기사는 일반인들이 궁금해 하지만 쉽게 질문하지 못했던 감시 기술의 다양한 측면을 포괄적으로 다룬다. 특히 AI 기술이 감시 체계에 미치는 영향과 그로 인한 보안 함의를 중점적으로 살펴본다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/surveillance-everything-you-wanted-to-know-but-were-afraid-to-ask/",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "위협 행위자, 우크라이나와 러시아의 14,000개 IP 카메라 해킹",
+      "summary": "위협 행위자가 우크라이나와 러시아 지역의 14,000개 IP 카메라를 해킹했습니다. 이번 공격은 IoT 보안 취약점을 악용한 대규모 침해 사건으로, Dahua 등 주요 카메라 제조사의 장비들이 영향을 받은 것으로 파악됩니다. 해킹된 카메라들은 감시 시스템 마비, 개인정보 유출, 추가 공격의 진입점으로 악용될 수 있습니다. 보안 전문가들은 기본 자격증명 변경 및 펌웨어 업데이트를 긴급히 권장하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/threat-actor-hacks-14000-ip-cameras-in-ukraine-and-russia/",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Atlassian과 Splunk, 수십 개의 심각 및 높은 심각도 취약점 패치",
+      "summary": "Atlassian과 Splunk가 각각의 제품에서 발견된 수십 개의 심각(Critical) 및 높은(High) 심각도 취약점에 대한 보안 패치를 공개했습니다. 이번 취약점 수정은 두 기업의 광범위한 사용자 기반에 영향을 미칠 수 있는 중요한 보안 업데이트입니다. SecurityWeek에 따르면 해당 취약점들은 원격 코드 실행, 인증 우회 등 심각한 보안 위험을 야기할 수 있습니다. 영향을 받은 사용자들은 가능한 빨리 최신 패치 버전으로 업그레이드할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/atlassian-splunk-patch-dozens-of-critical-high-severity-vulnerabilities/",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "MLflow 취약점이 클라우드 자격증명 탈취에 악용되고 있음",
+      "summary": "MLflow의 보안 취약점이 실제로 악용되어 클라우드 자격증명을 탈취하는 공격이 발생하고 있습니다. 이 취약점을 이용한 공격자들은 조직의 클라우드 인프라에 접근할 수 있는 중요한 인증 정보를 노출시키고 있습니다. MLflow는 머신러닝 모델 관리 플랫폼으로, 많은 기업들이 AI/ML 운영에 사용하고 있어 광범위한 피해 가능성이 있습니다. 보안 전문가들은 영향받는 조직에 신속한 패치 적용과 자격증명 점검을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "시스코, 크로스워크 및 보안 워크로드의 중대 취약점 패치",
+      "summary": "시스코가 자사의 크로스워크(Crosswork)와 보안 워크로드(Secure Workload) 제품에서 발견된 중대 수준의 취약점에 대한 패치를 공개했습니다. 이번 보안 업데이트는 해당 제품들에 영향을 미치는 여러 취약점을 해결하기 위한 것입니다. 관련 취약점이 악용될 경우 시스템 보안에 심각한 위협을 줄 수 있어 사용자들의 긴급한 패치 적용이 권고됩니다. 시스코는 고객들에게 가능한 한 빨리 최신 버전으로 업그레이드할 것을 권장하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 지원 도구가 2022년 러시아 해킹 후 위성 통신 시스템 보안 강화",
+      "summary": "2022년 러시아의 위성 통신 시스템 해킹 사건 이후, AI 보조 도구가 해당 시스템의 보안을 강화하는 데 활용되었습니다. 이 사건은 주요 인프라에 대한 사이버 위협의 심각성을 드러냈으며, 특히 운영 기술(OT) 환경에서의 취약점 노출을 강조합니다. AI 기술의 도입으로 위성 통신 시스템의 방어 체계가 개선되었으며, 이는 향후 유사한 공격으로부터의 보호를 위한 중요한 사례입니다. 이러한 사건은 국가 기반 해킹 행위자들의 위협이 지속되고 있음을 보여주며, 고도화된 보안 솔루션의 필요성을 증대시켰습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ai-assisted-tool-helped-secure-satellite-communication-system-after-2022-russian-hacking/",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpenAI, 샌드박싱과 30분 알림 시스템으로 모델 보안 대폭 강화",
+      "summary": "OpenAI가 AI 모델 보안을 강화하기 위해 샌드박싱 기술, 30분 내 알림 시스템, 그리고 학습 일시 중지 기능을 도입했습니다. 이러한 조치들은 모델 운영 중 발생할 수 있는 보안 위협을 조기에 탐지하고 신속하게 대응하기 위해 설계되었습니다. 샌드박싱을 통해 모델 실행 환경을 격리하여 잠재적 공격으로부터 보호하며, 30분 이내의 신속한 알림 체계로 이상 상황을 빠르게 감지할 수 있습니다. 학습 일시 중지 기능은 보안 위협 발생 시 모델 업데이트를 중단하여 피해 확산을 방지합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/openai-overhauls-model-security-with-sandboxing-30-minute-alerts-and-training-pauses/",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Citrix NetScaler의 치명적인 인증 우회 취약점, 악용 공격 예상",
+      "summary": "Citrix NetScaler에서 발견된 치명적 수준의 인증 우회 취약점이 패치되었으나, 보안 전문가들은 향후 악용 공격이 발생할 것으로 예상하고 있습니다. 이 취약점은 공격자가 적절한 자격 증명 없이 시스템에 접근할 수 있게 하는 심각한 보안 결함입니다. Citrix는 해당 취약점에 대한 보안 업데이트를 배포했으며, 관련 기업들은 즉시 패치를 적용할 것을 권장받고 있습니다. NetScaler는 많은 기업의 네트워크 인프라에서 중요한 역할을 하고 있어, 이 취약점의 악용 시 광범위한 피해가 발생할 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/exploitation-expected-for-critical-authentication-bypass-patched-in-citrix-netscaler/",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "긴급: GitLab 취약점 공개 직후 즉시 악용되다",
+      "summary": "GitLab의 심각한 보안 취약점이 공개된 직후 해커들에 의해 즉시 악용되기 시작했습니다. 이 중대 결함은 공개 이후 매우 짧은 시간 내에 실제 공격에 이용되었으며, 많은 사용자들이 영향을 받을 위험에 처해 있습니다. 보안 연구원들은 조직들이 긴급하게 GitLab 시스템을 업데이트할 것을 강력히 권고하고 있습니다. 이러한 신속한 악용은 취약점이 얼마나 심각한지를 보여주는 사례입니다. GitLab 사용자들은 즉시 보안 패치를 적용하여 자신의 시스템을 보호해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/critical-gitlab-flaw-exploited-shortly-after-disclosure/",
+      "date": "2026-08-20"
+    },
+    {
       "id": "aHR0cDovL3d3dy5i",
       "title": "다크웹 AI 기반 해킹 도구 거래 활발... 초보도 APT급 공격 가능",
       "summary": "AIaaS 등 고도화된 공격 툴 유통 중[보안뉴스 김형근 기자] 사이버 보안 기업 트렐릭스(Trellix)는 최근 보고서에서 다크웹 지하 포럼에서 다양한 AI 기반 해킹 도구와 서비스가 활발히 거래되고 있다고 밝혔다.이 보고서에 따르면 지하 암시장에서는 정찰 도구, 자격 증명 유통, 서비스형 AI(AIaaS) 플랫폼 등 고도화된 공격 툴이 유통 중이다.이들",
@@ -8274,10 +8391,10 @@
     }
   ],
   "sources": {
+    "Dell": 106,
+    "SecurityWeek": 324,
     "보안뉴스": 452,
-    "Dell": 103,
     "HPE": 13,
-    "VAST Data": 37,
-    "SecurityWeek": 314
+    "VAST Data": 37
   }
 }
