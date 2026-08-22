@@ -3498,9 +3498,119 @@
     "https://www.securityweek.com/ai-assisted-tool-helped-secure-satellite-communication-system-after-2022-russian-hacking/",
     "https://www.securityweek.com/openai-overhauls-model-security-with-sandboxing-30-minute-alerts-and-training-pauses/",
     "https://www.securityweek.com/exploitation-expected-for-critical-authentication-bypass-patched-in-citrix-netscaler/",
-    "https://www.securityweek.com/critical-gitlab-flaw-exploited-shortly-after-disclosure/"
+    "https://www.securityweek.com/critical-gitlab-flaw-exploited-shortly-after-disclosure/",
+    "https://www.dell.com/en-us/blog/operationalizing-genai-beyond-pilots/",
+    "https://www.hpe.com/us/en/newsroom/press-release/2026/08/hpe-named-a-leader-in-2026-gartner-magic-quadrant-for-enterprise-storage-platforms.html",
+    "https://www.securityweek.com/former-nsa-director-paul-nakasone-launches-national-security-advisory-firm/",
+    "https://www.securityweek.com/in-other-news-zombie-card-attack-t-mobile-cut-cable-to-stop-hackers-github-denies-ai-caused-bug/",
+    "https://www.securityweek.com/encrypted-prompts-bypass-ai-safety-guardrails-in-grok-and-gemini/",
+    "https://www.securityweek.com/new-phishing-toolkit-uses-passkeys-to-maintain-access-after-password-resets/",
+    "https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/",
+    "https://www.securityweek.com/rust-supply-chain-attack-linked-to-north-korean-hackers/",
+    "https://www.securityweek.com/contractors-cmmc-confidence-rises-as-ability-to-prove-it-falls-behind/",
+    "https://www.securityweek.com/microsoft-rolls-out-22-fresh-security-patches/",
+    "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-trueconf-vulnerabilities/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "파일럿을 넘어 GenAI 운영화하기",
+      "summary": "Dell AI Data Platform은 엔터프라이즈 데이터 팩토리로서의 역할을 수행하며, AI Factory 에이전트들이 정확하고 최신의 정보를 유지할 수 있도록 신뢰할 수 있는 컨텍스트를 구축합니다. 이 플랫폼은 생성형 AI를 단순한 파일럿 프로젝트에서 벗어나 실질적인 운영 환경으로 전환하는 데 필수적인 역할을 합니다. 신뢰성 있는 데이터 기반 위에서 AI 모델들이 일관되게 높은 성능을 발휘할 수 있도록 지원합니다. 이를 통해 조직은 생성형 AI의 잠재력을 완벽하게 활용하고 비즈니스 가치를 극대화할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/operationalizing-genai-beyond-pilots/",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 2026년 가트너 매직 쿼드런트 엔터프라이즈 스토리지 플랫폼 부문 리더로 선정",
+      "summary": "HPE가 2026년 가트너 매직 쿼드런트에서 엔터프라이즈 스토리지 플랫폼 부문 리더로 선정되었다. HPE의 스토리지 부문 부사장 겸 GM인 짐 오도리시오는 이번 인정이 회사의 일관된 실행력과 엔터프라이즈 데이터에 대한 비전의 강점을 반영한다고 설명했다. AI가 엔터프라이즈를 재편하는 가운데 고객들은 단순한 데이터 저장 공간 이상의 솔루션을 필요로 하고 있다. HPE는 지능형 데이터 패브릭, 분산형 HPE Alletra Storage MP 아키텍처, 그리고 AI 기반 클라우드 운영을 통해 고객들의 요구에 대응하고 있다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/08/hpe-named-a-leader-in-2026-gartner-magic-quadrant-for-enterprise-storage-platforms.html",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "전 NSA 국장 폴 나카소네, 국가보안 자문회사 설립",
+      "summary": "전 미국 국방부 사이버사령부 국장이자 NSA 국장을 역임한 폴 나카소네가 국가보안 자문 전문 회사를 새롭게 설립했다. 나카소네는 미국 정보기관에서 수십 년간의 경력을 바탕으로 민간 부문에서 국가 안보 및 사이버보안 컨설팅 서비스를 제공할 계획이다. 이 회사는 정부기관과 민간 기업을 대상으로 전략적 보안 자문과 위협 평가 서비스를 중심으로 운영될 것으로 예상된다. 나카소네의 정부 고위직 경험과 사이버보안 전문 지식은 신생 자문회사의 신뢰도를 높일 것으로 보인다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/former-nsa-director-paul-nakasone-launches-national-security-advisory-firm/",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기타 뉴스: 좀비 카드 공격, T-Mobile 해커 차단 위해 케이블 단절, GitHub AI 버그 원인 부인",
+      "summary": "SecurityWeek에서 보도한 최신 사이버보안 뉴스는 세 가지 주요 사건을 다루고 있습니다. 첫째, '좀비 카드 공격'이라는 새로운 형태의 공격이 발견되었으며, 이는 신용카드 관련 보안 위협으로 추정됩니다. 둘째, T-Mobile이 해커 침입을 차단하기 위해 네트워크 케이블을 의도적으로 단절하는 극단적인 조치를 취했습니다. 셋째, GitHub는 최근 발견된 버그가 인공지능(AI) 시스템에 의해 야기되었다는 주장을 부인했습니다. 이들 사건은 기업들이 직면한 다양한 사이버 위협과 방어 방식의 변화를 보여주고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-zombie-card-attack-t-mobile-cut-cable-to-stop-hackers-github-denies-ai-caused-bug/",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "암호화된 프롬프트로 Grok과 Gemini의 AI 안전 장치 우회",
+      "summary": "Grok과 Gemini 등 주요 AI 모델들이 암호화된 프롬프트를 통해 안전 가드레일을 우회당할 수 있는 취약점이 발견되었습니다. 공격자들이 입력값을 암호화하여 전송하면 AI 시스템의 콘텐츠 필터링 메커니즘을 피할 수 있게 됩니다. 이는 유해한 콘텐츠 생성, 악성코드 작성, 개인정보 악용 등 다양한 악의적 목적으로 악용될 가능성이 있습니다. 보안 전문가들은 AI 제공업체들이 암호화된 입력에 대한 검증 메커니즘을 강화해야 한다고 경고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/encrypted-prompts-bypass-ai-safety-guardrails-in-grok-and-gemini/",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 피싱 툴킷, 패스키를 악용해 비밀번호 재설정 후에도 접근 유지",
+      "summary": "보안 연구원들이 패스키(Passkey) 기술을 악용하는 새로운 피싱 툴킷을 발견했습니다. 이 툴킷은 사용자들을 기만하여 패스키 인증 정보를 탈취한 후, 피해자가 비밀번호를 재설정하더라도 계속 계정에 접근할 수 있도록 설계되었습니다. 패스키는 비밀번호 없는 보안 인증 방식으로 도입되었지만, 공격자들이 이를 악용하는 새로운 공격 벡터가 등장했습니다. 이는 차세대 인증 기술도 피싱 공격으로부터 완전히 안전하지 않음을 시사합니다. 사용자들은 의심스러운 인증 요청에 주의하고 패스키 정보 보호에 더욱 주의를 기울일 필요가 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/new-phishing-toolkit-uses-passkeys-to-maintain-access-after-password-resets/",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "심각한 Isolated-vm 취약점으로 호스트 원격 코드 실행 가능",
+      "summary": "Isolated-vm에서 발견된 심각한 취약점이 공격자로 하여금 호스트 시스템에서 원격 코드를 실행할 수 있게 한다. 이 취약점은 가상 머신 격리 메커니즘을 우회하여 호스트 시스템까지 접근 가능하게 한다. SecurityWeek에 따르면 이 문제는 상당한 보안 위험을 초래할 수 있으며, 영향받는 사용자들은 즉시 패치를 적용해야 한다. 이 취약점은 개발 환경 및 프로덕션 환경 모두에서 악용될 수 있어 광범위한 영향을 미칠 수 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "러스트 공급망 공격, 북한 해커와 연관",
+      "summary": "보안 연구원들이 러스트(Rust) 프로그래밍 언어의 공급망을 대상으로 한 공격이 북한 해킹 조직과 연관되어 있음을 밝혀냈습니다. 이번 공격은 Arrayref라는 인기 있는 러스트 라이브러리를 통해 진행되었으며, 악의적인 코드가 삽입되어 광범위한 소프트웨어에 영향을 미칠 수 있었습니다. 북한으로 추정되는 위협 행위자들은 정교한 기법을 사용하여 패키지 저장소에 접근한 것으로 파악됩니다. 이는 개발자 커뮤니티를 대상으로 한 심각한 공급망 보안 위협을 드러내며, 오픈소스 소프트웨어의 취약점 악용이 국가 차원의 사이버 공격에 활용되고 있음을 시사합니다. 보안 전문가들은 의존성 관리 및 패키지 검증의 강화를 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/rust-supply-chain-attack-linked-to-north-korean-hackers/",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "국방 계약업체들의 CMMC 신뢰도는 상승하지만 이를 증명할 능력은 뒤처지고 있음",
+      "summary": "국방부 사이버보안 성숙도 모델(CMMC) 준수에 대한 국방 계약업체들의 자신감이 증가하고 있는 것으로 나타났습니다. 그러나 동시에 이러한 준수 상태를 실제로 입증하고 검증할 수 있는 능력은 뒤처지고 있는 것으로 보입니다. 이는 계약업체들이 CMMC 요구사항을 충족한다고 생각하지만, 독립적인 감사와 평가를 통해 이를 증명하는 데 어려움을 겪고 있음을 의미합니다. CMMC 인증 평가자의 부족과 평가 절차의 복잡성이 이러한 간극을 야기하고 있는 것으로 분석됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/contractors-cmmc-confidence-rises-as-ability-to-prove-it-falls-behind/",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, 악용된 Entra ID 취약점 패치",
+      "summary": "마이크로소프트가 Azure 및 관련 제품의 중요 취약점을 해결하기 위해 새로운 보안 패치를 출시했습니다. 이번 패치는 실제로 악용 중인 Entra ID 취약점을 포함하고 있으며, 클라우드 보안에 관련된 여러 취약점을 다루고 있습니다. 마이크로소프트는 총 22개의 신규 보안 패치를 롤아웃하여 사용자들의 시스템 보안을 강화하고 있습니다. 조직들은 이러한 보안 업데이트를 신속하게 적용하여 악의적인 행위자의 공격으로부터 보호해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/microsoft-rolls-out-22-fresh-security-patches/",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, 악용 중인 TrueConf 취약점의 긴급 패칭 촉구",
+      "summary": "미국 사이버보안기반시설보안청(CISA)이 현재 악용 중인 TrueConf의 취약점에 대해 즉시 패칭할 것을 긴급 촉구했습니다. TrueConf는 화상회의 및 협업 솔루션으로 널리 사용되는 플랫폼입니다. CISA는 이 취약점들이 실제 공격에 이용되고 있다는 점을 강조하며 조직들에게 우선순위를 두고 보안 업데이트를 적용할 것을 권고했습니다. 해당 취약점은 CISA의 알려진 악용 취약점(KEV) 카탈로그에 추가되었습니다. 이는 기업 및 기관들이 즉각적인 보안 조치를 취해야 할 정도의 심각한 위협으로 평가됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-trueconf-vulnerabilities/",
+      "date": "2026-08-21"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "사이버 복원력 테스팅: 왜 여전히 실행되지 않는가",
@@ -12401,107 +12511,8 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/nebulock-raises-25-million-for-ai-native-contextual-security/",
       "date": "2026-06-26"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "리눅스 재단, 새로운 오픈소스 보안 프로젝트 '아크리테스' 공개",
-      "summary": "리눅스 재단이 새로운 오픈소스 보안 프로젝트인 '아크리테스(Akrites)'를 공개했습니다. 이 프로젝트는 오픈소스 소프트웨어의 취약점 관리 및 보안 강화를 목표로 하고 있습니다. 아크리테스는 애플리케이션 보안 분야에 초점을 맞추고 있으며, 오픈소스 커뮤니티의 협력을 통해 더욱 안전한 소프트웨어 개발 환경을 구축하려고 합니다. 이 프로젝트는 전 세계 개발자들이 보안 취약점을 보다 효과적으로 식별하고 해결할 수 있도록 지원할 것으로 예상됩니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/linux-foundation-unveils-new-open-source-security-project-akrites/",
-      "date": "2026-06-26"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "폴리마켓 해킹으로 300만 달러 도난",
-      "summary": "암호화폐 예측 시장인 폴리마켓(Polymarket)이 해킹 공격을 받아 약 300만 달러 규모의 자산이 도난당한 것으로 보도되었습니다. 이번 사건은 암호화폐 업계에서 발생한 주요 보안 사고 중 하나로, 피싱과 사이버범죄 수법이 사용된 것으로 추정됩니다. 공격자들이 사용자의 계정에 불법 접근하여 자산을 탈취한 것으로 알려져 있습니다. 폴리마켓은 이 사건에 대해 조사를 진행 중이며, 영향을 받은 사용자들에 대한 보상 방안을 모색하고 있습니다. 이 사건은 암호화폐 거래소 및 디지털 자산 플랫폼의 보안 강화의 필요성을 다시 한번 강조하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/3-million-reportedly-stolen-in-polymarket-hack/",
-      "date": "2026-06-26"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "러시아 APT, 우크라이나 대상으로 StockStay 백도어 배포",
-      "summary": "러시아 소속 APT(Advanced Persistent Threat) 그룹이 우크라이나를 겨냥한 사이버 공격에서 StockStay라는 새로운 백도어 악성코드를 배포하고 있습니다. 이 백도어는 피해 시스템에 원격 접근 권한을 제공하여 공격자가 민감한 정보에 접근하고 추가 악성코드를 설치할 수 있게 합니다. SecurityWeek의 보도에 따르면 이 공격은 우크라이나의 주요 기관과 기업들을 대상으로 하고 있습니다. StockStay 백도어는 탐지를 회피하기 위한 정교한 기능들을 포함하고 있어 사이버보안 위협이 심화되고 있음을 보여줍니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/russian-apt-deploys-stockstay-backdoor-against-ukrainian-targets/",
-      "date": "2026-06-26"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "PTC Windchill 취약점, 실제 악용 사례 처음 발견",
-      "summary": "PTC의 제품 라이프사이클 관리(PLM) 소프트웨어인 Windchill의 취약점이 야생에서 처음으로 악용되는 사례가 발견되었습니다. 이는 산업용 제어 시스템(ICS) 및 운영 기술(OT) 환경에 심각한 위협이 될 수 있습니다. SecurityWeek의 보도에 따르면 해당 취약점은 공격자들이 실제로 이를 악용하고 있음을 보여줍니다. Windchill은 제조업체와 엔지니어링 회사들 사이에서 광범위하게 사용되는 핵심 시스템으로, 이번 악용 사례는 조직들의 즉각적인 대응과 패치 적용을 촉구하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/first-ever-exploitation-of-ptc-windchill-vulnerability-discovered-in-the-wild/",
-      "date": "2026-06-26"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "새로운 엔터프라이즈급 MCP 규격이 새로운 보안 위협을 초래",
-      "summary": "엔터프라이즈 환경을 지원하는 새로운 MCP(Model Context Protocol) 규격이 도입되면서 새로운 보안 위협이 발생하고 있습니다. MCP 규격의 확장으로 인해 시스템의 공격 면이 증가하고, 기존에 없던 보안 취약점들이 드러나고 있습니다. 보안 연구자들은 이 새로운 규격이 AI 시스템의 통합 과정에서 악의적인 접근을 가능하게 할 수 있다고 경고하고 있습니다. 기업들은 MCP 규격을 도입하기 전에 충분한 보안 검증을 수행해야 합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/new-enterprise-ready-mcp-specification-brings-new-security-challenges/",
-      "date": "2026-06-26"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "필립 마틴, 우버의 최고정보보안책임자(CISO)로 입사",
-      "summary": "필립 마틴이 우버의 새로운 최고정보보안책임자(Chief Information Security Officer)로 합류했습니다. 이는 우버의 보안 리더십 변화를 나타내는 중요한 인사 결정입니다. 마틴은 정보보안 전략 및 위험 관리 분야에서의 경험을 바탕으로 우버의 사이버보안 체계를 강화할 것으로 예상됩니다. 우버는 글로벌 규모의 기술 기업으로서 지속적인 보안 위협에 대응하기 위해 강력한 보안 리더십이 필요합니다. 이번 인선은 회사의 정보보안 역량 강화 의지를 보여주는 신호입니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/philip-martin-joins-uber-as-chief-information-security-officer/",
-      "date": "2026-06-26"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "FBI: 러시아 해커들이 Signal 백업 복구 키를 표적으로 삼고 있음",
-      "summary": "FBI와 CISA는 러시아 정보기관과 연계된 피싱 캠페인이 Signal 사용자들을 대상으로 진행 중이라고 경고했습니다. 해당 캠페인은 Signal 백업 복구 키를 탈취하도록 진화했으며, 이를 통해 공격자들이 피해자의 과거 메시지 기록에 접근할 수 있습니다. 이는 Signal의 안전한 백업 기능을 악용한 공격으로, 사용자들의 통신 이력이 노출될 수 있다는 점에서 심각한 보안 위협입니다. Signal 사용자들은 의심스러운 피싱 시도에 각별히 주의하고 복구 키를 안전하게 관리할 필요가 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
-      "date": "2026-06-26"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "CISA, 공격에 악용되는 Cisco 결함 수정을 위한 긴급 기한 설정",
-      "summary": "미국 사이버보안 및 인프라 보안청(CISA)이 연방 기관들에게 일요일까지 Cisco Unified Communications Manager Server의 취약점을 패치하도록 촉구했습니다. 해당 취약점은 현재 실제 공격에서 적극적으로 악용되고 있으며, 원격 코드 실행(RCE)을 가능하게 합니다. CISA의 긴급 기한 설정은 이 결함의 심각한 위험성을 반영하고 있습니다. 영향을 받는 조직들은 즉시 보안 업데이트를 적용하여 잠재적인 침해 위험을 최소화해야 합니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
-      "date": "2026-06-26"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Polymarket 고객들이 공급망 공격으로 300만 달러 손실",
-      "summary": "암호화폐 예측 시장 플랫폼인 Polymarket의 고객들이 공급망 공격으로 약 300만 달러의 손실을 입었습니다. 해커들이 제3업체 벤더의 보안 침해를 이용하여 플랫폼의 프론트엔드에 악성 스크립트를 주입했습니다. 이 공격을 통해 사용자들의 자산이 도용되었으며, Polymarket은 피해를 입은 고객들에게 전액 환불할 것이라고 발표했습니다. 이번 사건은 암호화폐 플랫폼의 보안 취약점과 제3업체 보안 관리의 중요성을 다시 한번 드러냈습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
-      "date": "2026-06-26"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "사이버보안 업체들, 위조된 OpenAI 조직 초대장으로 표적 공격 받음",
-      "summary": "위협 행위자들이 합법적인 기업을 사칭하는 OpenAI 테넌트를 만들어 직원들을 초대하는 사기 공격을 펼치고 있습니다. 이는 대상자들을 속여 채팅과 프로젝트에서 민감한 회사 정보를 제출하도록 유도하려는 의도로 보입니다. 공격자들은 OpenAI의 조직 초대 기능을 악용하여 피싱 공격을 수행하고 있으며, 특히 사이버보안 업체들이 주요 표적이 되고 있습니다. 이러한 사회공학 기법은 사용자들이 신뢰할 수 있는 플랫폼을 통해 기업 기밀 정보를 탈취하기 위해 설계되었습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/",
-      "date": "2026-06-26"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "당신의 첫 GRC 에이전트: 레드팀 관점의 완벽 가이드",
-      "summary": "AI 기술이 GRC 분석가를 완전히 대체하지는 못하지만, 반복적인 업무 대부분을 자동화할 수 있습니다. Anecdotes는 보안 제어 현황을 지속적으로 모니터링하고 증거 격차를 파악한 후 자동으로 개선 작업을 생성하는 에이전트 구축 방법을 설명합니다. 이러한 자동화된 GRC 에이전트는 조직의 규정 준수 및 위험 관리 프로세스를 효율화합니다. Agent Studio와 같은 도구를 통해 기업들은 보안 운영의 생산성을 크게 향상시킬 수 있습니다.",
-      "category": "보안",
-      "source": "BleepingComputer",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/",
-      "date": "2026-06-26"
     }
   ],
-  "totalItems": 3499,
+  "totalItems": 3510,
   "hasArchive": true
 }
