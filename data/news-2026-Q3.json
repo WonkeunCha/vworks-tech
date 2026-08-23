@@ -3,6 +3,15 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "뱅킹 트로잔 Manic, Grandoreiro, ToxicPanda 2.0이 주목받다",
+      "summary": "보안 전문 매체 SecurityWeek에서 금융기관을 타겟으로 하는 뱅킹 트로잔 세 가지 악성코드를 집중 보도했습니다. Manic, Grandoreiro, ToxicPanda 2.0은 모두 안드로이드 플랫폼을 기반으로 하는 악성 트로잔으로, 사용자의 금융 정보와 자산을 탈취하는 데 특화되어 있습니다. 이들 악성코드는 사이버 범죄자들에 의해 활발히 배포되고 있으며, 특히 모바일 뱅킹 애플리케이션 사용자들이 주요 피해 대상입니다. 보안 전문가들은 사용자들의 주의 깊은 모바일 보안 관리와 금융 앱 사용 시 각별한 주의를 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/banking-trojans-manic-grandoreiro-toxicpanda-2-0-in-the-spotlight/",
+      "date": "2026-08-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "파일럿을 넘어 GenAI 운영화하기",
       "summary": "Dell AI Data Platform은 엔터프라이즈 데이터 팩토리로서의 역할을 수행하며, AI Factory 에이전트들이 정확하고 최신의 정보를 유지할 수 있도록 신뢰할 수 있는 컨텍스트를 구축합니다. 이 플랫폼은 생성형 AI를 단순한 파일럿 프로젝트에서 벗어나 실질적인 운영 환경으로 전환하는 데 필수적인 역할을 합니다. 신뢰성 있는 데이터 기반 위에서 AI 모델들이 일관되게 높은 성능을 발휘할 수 있도록 지원합니다. 이를 통해 조직은 생성형 AI의 잠재력을 완벽하게 활용하고 비즈니스 가치를 극대화할 수 있습니다.",
       "category": "서버",
@@ -8490,9 +8499,9 @@
     }
   ],
   "sources": {
+    "SecurityWeek": 334,
     "Dell": 107,
     "HPE": 14,
-    "SecurityWeek": 333,
     "보안뉴스": 452,
     "VAST Data": 37
   }
