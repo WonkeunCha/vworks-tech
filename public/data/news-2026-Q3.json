@@ -3,6 +3,114 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 시대에 복원력은 펌웨어에서 시작된다",
+      "summary": "확대되는 공격 표면에 대응하기 위해서는 펌웨어부터 시작되는 새로운 엔드포인트 복원력 접근 방식이 필요합니다. 현대의 사이버 위협은 단순한 소프트웨어 수준을 넘어 하드웨어 레벨까지 확장되고 있습니다. 펌웨어 보안은 지속적으로 작동하면서 엔드포인트를 보호하는 기본 방어선 역할을 합니다. AI 시대에는 초기 부팅 단계부터 보안을 강화하는 것이 중요합니다. 펌웨어 수준의 복원력 있는 시스템 구축이 조직의 전반적인 보안 태세를 크게 향상시킬 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/in-the-age-of-ai-resilience-starts-in-firmware/",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Cloudera와 VAST Data로 통합 데이터 기반 위에 AI 팩토리 구축하기",
+      "summary": "Cloudera와 VAST Data의 파트너십은 엔터프라이즈 데이터 플랫폼의 두 가지 핵심 계층을 현대화함으로써 문제를 해결합니다. Cloudera는 엔터프라이즈 데이터 서비스, 분석, 스트리밍 및 AI를 통해 인텔리전스 계층을 제공하고, VAST는 AI 네이티브 데이터 계층을 제공하여 엔터프라이즈 규모의 AI 팩토리 구축에 필요한 고성능의 확장 가능한 데이터 기반을 제공합니다. 기존 엔터프라이즈 데이터 환경은 수십 년에 걸쳐 발전하면서 데이터 레이크, 웨어하우스, 트랜잭션 시스템 등이 독립적인 사일로로 운영되고 있어 AI 파이프라인의 복잡성을 증가시킵니다. 두 회사의 통합 아키텍처는 분석, 스트리밍, AI 및 추론이 모두 동일한 엔터프라이즈 데이터를 기반으로 작동하는 통합 데이터 기반을 생성합니다. VAST의 AI 네이티브 데이터 플랫폼은 단일 고성능 스토리지 플랫폼에서 파일, 객체, 테이블, 벡터 및 이벤트 스트림을 위한 통합 기반을 제공합니다. VAST의 Disaggregated Shared-Everything(DASE) 아키텍처는 컴퓨팅과 스토리지를 독립적으로 확장할 수 있게 하여, 기존 분산 스토리지의 병목 현상과 오버프로비저닝을 해결하고 분석 워크로드에서 대규모 AI 배포까지 예측 가능하게 확장할 수 있습니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/build-ai-factories-on-a-unified-data-foundation-with-cloudera-and-vast-data",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "ReliaQuest, ShinyHunters 해킹 확인... 피해 범위는 제한적",
+      "summary": "사이버보안 기업 ReliaQuest가 ShinyHunters 해킹 그룹에 의한 침해 사건을 공식 확인했습니다. 회사는 이번 해킹이 피싱과 소셜 엔지니어링 기법을 통해 이루어졌으며, 실제 피해 규모는 제한적이었다고 밝혔습니다. 이번 사건은 사이버범죄 및 데이터 유출 카테고리에 해당하는 보안 위협입니다. ReliaQuest는 침해 사항에 대한 조사를 진행 중이며 영향을 받은 고객들에게 안내하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/reliaquest-confirms-shinyhunters-hack-but-says-impact-was-limited/",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "한 가지 일로 채용되고 다른 것으로 평가받는 CISO의 실제 문제",
+      "summary": "CISO(최고정보보안책임자)가 채용될 때의 기술과 나중에 평가받는 기술이 다르다는 것이 핵심 문제이다. 많은 CISO들은 기술적 전문성으로 채용되지만, 실제로는 경영진 수준의 리더십, 비즈니스 이해, 조직 관리 능력으로 평가받는 불일치 상황에 처해 있다. 이러한 역할의 기대치 차이는 CISO들의 직무 만족도 저하와 높은 이직률로 이어지고 있다. CISO는 보안 문제 해결뿐만 아니라 경영진과의 효과적인 커뮤니케이션, 비즈니스 목표와 보안의 균형 조화 등 광범위한 능력을 요구받고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hired-for-one-job-judged-on-another-the-cisos-real-problem/",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "우버, 자동화된 운전자 계정 정지로 네덜란드 규제당국으로부터 약 10억 달러 벌금 부과",
+      "summary": "네덜란드 규제당국이 우버의 자동화된 운전자 계정 정지 관행을 이유로 약 10억 달러의 벌금을 부과했습니다. 이번 조치는 개인정보보호 및 GDPR 규정 위반과 관련된 것으로 보입니다. 우버가 적절한 인간의 검토 절차 없이 자동으로 운전자 계정을 정지시킨 것이 문제가 된 것으로 알려졌습니다. 이는 데이터 보호 규정 준수와 관련된 글로벌 기술 기업에 대한 규제 강화의 일환입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/uber-fined-nearly-1-billion-by-dutch-regulators-over-automated-suspensions-of-driver-accounts/",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Spring 애플리케이션 프레임워크에서 91개 취약점 패치",
+      "summary": "Spring 애플리케이션 프레임워크에서 총 91개의 보안 취약점이 발견되어 패치되었습니다. 이번 패치는 Spring 프레임워크의 다양한 구성 요소에 영향을 미치는 여러 취약점을 해결하기 위해 진행되었습니다. SecurityWeek에서 보도한 이 소식은 2026년 8월 24일에 발표되었으며, Eduard Kovacs 기자가 작성했습니다. Spring은 Java 기반의 널리 사용되는 애플리케이션 프레임워크로, 이번 대규모 패치는 사용자들이 시스템을 보호하기 위해 즉시 업데이트할 것을 권고합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/91-vulnerabilities-patched-in-spring-application-framework/",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "베네수엘라인, ATM 해킹으로 연방 감옥 최장형 선고받아",
+      "summary": "베네수엘라 출신의 한 용의자가 ATM 해킹(잭팟팅) 범죄로 연방법원에서 기록적인 징역형을 선고받았습니다. ATM 잭팟팅은 ATM 기계에 접근하여 강제로 현금을 배출하도록 하는 사이버범죄 기법입니다. 이 사건은 금융 인프라를 대상으로 한 조직적인 사이버 범죄 활동의 심각성을 보여줍니다. 미국 당국은 금융기관을 노리는 고급 해킹 기법에 대한 단속을 강화하고 있습니다. 이번 판결은 ATM 해킹 범죄에 대한 강경한 처벌 방침을 드러냅니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/venezuelan-gets-record-federal-prison-term-for-atm-jackpotting/",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "아폴로 글로벌 데이터 유출 사건으로 개인정보 노출",
+      "summary": "아폴로 글로벌에서 대규모 데이터 유출 사건이 발생하여 많은 개인정보가 노출되었다. SecurityWeek의 보도에 따르면 이 사건은 사이버 범죄자들에 의한 것으로 알려져 있다. 유출된 정보에는 고객 및 사용자의 개인정보가 포함되어 있으며, 이는 정보 보안 침해의 심각성을 나타낸다. 회사는 영향을 받은 개인들에게 공지하고 적절한 대응 조치를 취하고 있는 것으로 보인다. 이 사건은 기업의 데이터 보호 및 사이버보안 대책의 중요성을 다시 한번 강조하고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/personal-information-exposed-in-apollo-global-data-breach/",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 시대를 위한 애플리케이션 보안의 재구성",
+      "summary": "AI 기술의 발전으로 취약점 공개부터 악용까지의 시간이 단축되고 있습니다. 기업들은 더 이상 단순한 패치 적용만으로는 애플리케이션 위험을 줄일 수 없게 되었습니다. AI 시대에는 전통적인 보안 접근 방식을 벗어나 더욱 포괄적인 애플리케이션 보안 전략이 필요합니다. 보안 팀은 취약점 관리를 넘어 근본적인 애플리케이션 위험 감소에 집중해야 합니다. 이는 AI 위협에 대응하기 위한 필수적인 패러다임 전환입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/rethinking-application-security-for-the-ai-era/",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "이란 연계 해커들이 영국 발전소를 4일간 셧다운",
+      "summary": "이란과 연계된 해커 집단이 영국의 한 발전소를 4일간 운영 중단시키는 사이버 공격을 감행했습니다. 이번 공격은 주요 기반시설을 대상으로 한 심각한 사이버 위협으로 평가되고 있습니다. 공격자들은 산업 제어 시스템(ICS/OT)을 대상으로 침투하여 발전소의 정상 운영을 방해했습니다. 이는 국가 기반시설에 대한 사이버 공격이 실제로 상당한 기간 동안 피해를 줄 수 있음을 보여주는 사례입니다. 영국과 관련 기관들은 이러한 이란 연계 해킹 집단의 활동에 대한 대응을 강화할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/iran-linked-hackers-shut-down-uk-power-plant-for-four-days/",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "TikTok, 미국 사법부와 아동 개인정보 보호 관련 4억 달러 합의",
+      "summary": "TikTok이 미국 사법부와 아동의 개인정보 보호 관련 침해로 4억 달러(약 5,200억 원)의 합의금을 지불하기로 합의했습니다. 이 합의는 TikTok이 아동 사용자의 개인정보를 부적절하게 수집, 사용 및 공유한 혐의와 관련된 것입니다. 이번 결정은 소셜 미디어 플랫폼의 아동 개인정보 보호 의무를 강화하려는 미국 정부의 강경한 입장을 반영합니다. TikTok은 이 합의를 통해 개인정보 보호 정책을 개선하고 아동 사용자 보호를 위한 추가 조치를 취하기로 약속했습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/tiktok-reaches-400-million-settlement-with-us-justice-department-over-childrens-privacy/",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Anthropic, Mythos 5 접근성 확대 및 3,500만 달러 오픈소스 펀드 공개",
+      "summary": "Anthropic이 자사의 Mythos 5 AI 모델에 대한 접근성을 더 많은 사이버보안 전문가들에게 확대하고 있습니다. 동시에 회사는 오픈소스 보안 프로젝트를 지원하기 위해 3,500만 달러 규모의 펀드를 출범시켰습니다. 이러한 조치는 AI 기술을 사이버보안 방어 커뮤니티에 보다 광범위하게 제공하려는 Anthropic의 전략적 움직임입니다. Mythos 5의 확대된 접근은 보안 연구자들과 방어자들이 AI를 활용한 위협 탐지 및 대응 능력을 강화할 수 있도록 합니다. 오픈소스 펀드는 보안 커뮤니티의 협업적 발전을 촉진하고 사이버보안 생태계를 더욱 견고하게 만드는 데 기여할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/anthropic-expands-mythos-5-access-to-more-defenders-unveils-35m-open-source-fund/",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "뱅킹 트로잔 Manic, Grandoreiro, ToxicPanda 2.0이 주목받다",
       "summary": "보안 전문 매체 SecurityWeek에서 금융기관을 타겟으로 하는 뱅킹 트로잔 세 가지 악성코드를 집중 보도했습니다. Manic, Grandoreiro, ToxicPanda 2.0은 모두 안드로이드 플랫폼을 기반으로 하는 악성 트로잔으로, 사용자의 금융 정보와 자산을 탈취하는 데 특화되어 있습니다. 이들 악성코드는 사이버 범죄자들에 의해 활발히 배포되고 있으며, 특히 모바일 뱅킹 애플리케이션 사용자들이 주요 피해 대상입니다. 보안 전문가들은 사용자들의 주의 깊은 모바일 보안 관리와 금융 앱 사용 시 각별한 주의를 권고하고 있습니다.",
       "category": "보안",
@@ -8499,10 +8607,10 @@
     }
   ],
   "sources": {
-    "SecurityWeek": 334,
-    "Dell": 107,
+    "Dell": 108,
+    "VAST Data": 38,
+    "SecurityWeek": 344,
     "HPE": 14,
-    "보안뉴스": 452,
-    "VAST Data": 37
+    "보안뉴스": 452
   }
 }
