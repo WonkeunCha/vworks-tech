@@ -3,6 +3,114 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "더 적은 파트너, 더 큰 성과: AI 규모 확대의 필수 요소",
+      "summary": "기업들은 단편화된 벤더로부터 벗어나고 있습니다. AI 규모에 맞는 전략적 파트너십의 핵심은 통합된 솔루션 제공자와의 장기적 협력입니다. 기존의 여러 벤더를 통한 복잡한 구조에서 벗어나 소수의 신뢰할 수 있는 파트너와 깊이 있는 관계를 구축하는 것이 중요합니다. 이러한 접근 방식은 기술 통합, 비용 효율성, 그리고 운영 효율성을 동시에 달성할 수 있게 합니다. AI 시대에는 파트너의 기술 역량, 신뢰성, 그리고 장기적 지원 능력이 기업의 성공을 좌우하는 결정 요소가 됩니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/fewer-partners-bigger-results-the-ai-scale-imperative/",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "두 명의 인턴, 하나의 미션: 기술의 미래를 만들다",
+      "summary": "Sophia와 Lynn은 Dell Technologies에서의 인턴십을 통해 호기심을 실제 경력 경험으로 전환했습니다. 두 인턴은 기술 산업의 최전선에서 실무 경험을 쌓으며 전문성을 개발할 수 있었습니다. 이들의 경험은 단순한 일자리를 넘어 기술 분야에서의 장기적인 커리어 기반을 구축하는 기회가 되었습니다. Dell Technologies의 인턴십 프로그램은 다음 세대 기술 인재들을 양성하고 미래 산업을 함께 만들어가는 플랫폼 역할을 하고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/two-interns-one-mission-shaping-tech-s-future/",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE의 최고 인사 책임자 스테이시 딜로우를 만나다",
+      "summary": "HPE의 최고경영진 겸 최고 인사 책임자인 스테이시 딜로우는 비즈니스 혁신, 주요 자본 프로젝트, 그리고 다양한 산업 분야의 운영에 걸쳐 30년의 리더십 경험을 보유하고 있습니다. 이 인터뷰에서는 그동안 얻은 교훈, 직업 생활에서 불편함을 감수하는 것이 왜 중요한지, 그리고 리더들이 구성원들의 성장을 돕기 위해 할 수 있는 일들에 대해 논의합니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/08/get-to-know-stacy-dillow-hpes-executive-vice-president-and-chief-people-officer.html",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "리눅스 재단, AI 런타임 증명을 위한 개방형 표준 'TRACE' 관리",
+      "summary": "리눅스 재단이 AI 런타임 증명(Runtime Attestation)을 위한 개방형 표준인 TRACE를 관리하게 되었습니다. TRACE는 AI 시스템의 실행 환경을 검증하고 무결성을 확보하기 위한 표준으로, AI 애플리케이션의 보안과 신뢰성을 강화하는 데 중점을 두고 있습니다. 리눅스 재단의 지배 아래 진행되는 이 이니셔티브는 AI 보안 분야의 업계 표준화를 추진하며 다양한 기업의 참여를 통해 개발되고 있습니다. 이를 통해 AI 런타임 환경에서의 공격 위험을 감소시키고 시스템 투명성을 높일 수 있을 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/linux-foundation-to-govern-trace-an-open-standard-for-ai-runtime-attestation/",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Alice, AI 모델 방어 및 기업 보안 강화 확대를 위해 1억4천만 달러 자금 조성",
+      "summary": "AI 보안 솔루션 기업 Alice가 1억4천만 달러 규모의 자금 조성에 성공했습니다. 이 자금은 AI 모델 방어 기술과 기업용 보안 제어 기능(guardrails) 확대에 투입될 예정입니다. 이번 투자는 AI 시스템의 보안 위협으로부터 기업을 보호하는 기술 개발에 중점을 두고 있습니다. 빠르게 성장하는 AI 보안 시장에서 기업들의 보안 요구가 증가함에 따라 이러한 투자가 이루어졌습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/alice-raises-140m-to-expand-ai-model-defenses-and-enterprise-guardrails/",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "WordPress 웹사이트, MiniOrange 플러그인 취약점을 통해 표적 공격 받음",
+      "summary": "WordPress 웹사이트들이 MiniOrange 플러그인의 보안 취약점을 악용한 공격의 표적이 되고 있습니다. 이 플러그인의 결함을 통해 공격자들이 WordPress 사이트에 무단으로 접근할 수 있는 것으로 파악되었습니다. 보안 전문가들은 해당 플러그인을 사용 중인 관리자들에게 즉시 업데이트를 권고하고 있습니다. 이번 취약점 악용은 대규모 WordPress 사이트들에 광범위한 영향을 미칠 수 있는 심각한 위협으로 평가되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/wordpress-websites-targeted-via-miniorange-plugin-vulnerabilities/",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "WhatsApp, 다중 패스키 및 강화된 2단계 인증 추가",
+      "summary": "WhatsApp이 계정 보안을 강화하기 위해 다중 패스키와 더욱 강화된 2단계 인증(2SV) 기능을 추가했습니다. 이번 업데이트는 사용자들이 여러 개의 패스키를 등록할 수 있도록 허용하여 계정 접근 보안을 높입니다. 강화된 2단계 인증 옵션은 추가적인 보호 계층을 제공하여 무단 접근을 방지합니다. 이러한 보안 개선 사항은 사용자의 개인 정보와 계정을 더욱 효과적으로 보호하는 데 목적이 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/whatsapp-adds-multiple-passkeys-and-stronger-2sv-in-account-security-update/",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "실습형 사이버-물리 시스템 교육이 ICS 사이버보안 컨퍼런스로 돌아온다",
+      "summary": "ICS 사이버보안 컨퍼런스에서 사이버-물리 시스템(CPS)에 대한 실습형 교육 프로그램이 재개된다. 이 교육은 산업제어시스템(ICS)과 운영기술(OT) 보안 전문가들을 대상으로 실제 환경에서의 보안 위협과 방어 방법을 학습하는 기회를 제공한다. SecurityWeek에서 보도한 이번 뉴스는 ICS/OT 분야의 보안 인력 양성과 역량 강화의 중요성을 강조하고 있다. 실습 기반의 교육을 통해 참가자들은 사이버 공격에 대한 실제 대응 능력을 배양할 수 있을 것으로 기대된다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hands-on-cyber-physical-systems-training-returns-to-ics-cybersecurity-conference/",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "자동차 헤드 유닛을 겨냥한 최초 악성코드, 봇네트 구성",
+      "summary": "자동차 헤드 유닛(인포테인먼트 시스템)을 구체적으로 목표로 하는 첫 번째 악성코드가 발견되었습니다. 이 악성코드는 안드로이드 기반의 카 시스템을 감염시켜 대규모 봇네트를 형성하는 데 악용되고 있습니다. 이번 발견은 자동차 사이버보안 분야에서 새로운 위협이 등장했음을 의미하며, 차량의 인포테인먼트 시스템이 해킹 대상이 될 수 있음을 보여줍니다. 이러한 악성코드 활동은 자동차의 연결성이 증가함에 따라 이루어지는 것으로, IoT 보안 위협의 범위가 확대되고 있음을 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/first-malware-built-specifically-for-car-head-units-fuels-botnet/",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "침묵의 패치는 공격자를 막지 못하고 방어자를 맹목하게 만든다",
+      "summary": "소프트웨어 개발사가 보안 취약점을 공개하지 않고 조용히 패치하는 관행은 공격자를 효과적으로 차단하지 못한다는 연구 결과가 제시되고 있습니다. 오히려 이러한 침묵의 패치는 보안 전문가와 방어자들이 위협을 감지하고 대응하기 어렵게 만들어 조직의 보안 태세를 약화시킵니다. 공격자들은 패치 공개 여부와 관계없이 취약점을 발견하고 악용할 수 있는 능력을 갖고 있습니다. 투명한 취약점 공개와 패치 정보 공유는 전체 보안 커뮤니티의 방어 능력을 향상시키는 데 필수적입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/silent-patches-dont-stop-attackers-they-blind-defenders/",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "대만, 중국으로의 불법 AI 서버 수출 혐의로 엔비디아·슈퍼마이크로 직원 포함 9명 기소",
+      "summary": "대만 검찰이 고급 AI 서버를 중국 본토로 불법 수출한 혐의로 엔비디아 직원 1명과 슈퍼마이크로 직원 2명을 포함한 총 9명을 기소했습니다. 이는 첨단 기술의 중국 유출을 막기 위한 수출 규제를 위반한 사건으로, 양국 간의 기술 분쟁이 심화되고 있음을 보여줍니다. 대만 당국은 이러한 불법 수출이 국가 안보에 영향을 미칠 수 있다고 판단하여 적극적으로 수사를 진행 중입니다. 해당 사건은 글로벌 반도체 및 AI 산업에서의 규제 준수의 중요성을 다시 한번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/taiwan-charges-9-over-illegal-ai-server-exports-to-china-including-nvidia-and-super-micro-staff/",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, 악용 중인 오라클 WebLogic 취약점 경고",
+      "summary": "미국 사이버보안및기반시설보안청(CISA)이 현재 악용되고 있는 오라클 WebLogic의 보안 취약점에 대해 경고했습니다. 이 취약점은 CISA의 알려진 악용 취약점(KEV) 목록에 추가되었으며, 공격자들이 이미 이를 활용한 공격을 수행 중입니다. 오라클 WebLogic은 널리 사용되는 엔터프라이즈 애플리케이션 서버로, 이 취약점을 통해 시스템에 대한 무단 접근이나 악의적인 활동이 가능할 수 있습니다. 영향을 받은 조직들은 즉시 보안 패치를 적용하여 이 취약점을 해결할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "AI 시대에 복원력은 펌웨어에서 시작된다",
       "summary": "확대되는 공격 표면에 대응하기 위해서는 펌웨어부터 시작되는 새로운 엔드포인트 복원력 접근 방식이 필요합니다. 현대의 사이버 위협은 단순한 소프트웨어 수준을 넘어 하드웨어 레벨까지 확장되고 있습니다. 펌웨어 보안은 지속적으로 작동하면서 엔드포인트를 보호하는 기본 방어선 역할을 합니다. AI 시대에는 초기 부팅 단계부터 보안을 강화하는 것이 중요합니다. 펌웨어 수준의 복원력 있는 시스템 구축이 조직의 전반적인 보안 태세를 크게 향상시킬 수 있습니다.",
       "category": "서버",
@@ -8607,10 +8715,10 @@
     }
   ],
   "sources": {
-    "Dell": 108,
+    "Dell": 110,
+    "HPE": 15,
+    "SecurityWeek": 353,
     "VAST Data": 38,
-    "SecurityWeek": 344,
-    "HPE": 14,
     "보안뉴스": 452
   }
 }
