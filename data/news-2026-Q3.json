@@ -3,6 +3,168 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "최근 Citrix NetScaler 취약점이 실제 공격에 악용되고 있음",
+      "summary": "Citrix NetScaler의 최근 취약점이 실제 환경에서 악용되고 있는 것으로 확인되었습니다. 미국 사이버보안인프라보안청(CISA)의 알려진 악용 취약점(KEV) 목록에 해당 취약점이 추가되었습니다. 이 취약점은 광범위한 영향을 미칠 수 있어 조직들의 즉시적인 주의가 요구됩니다. Citrix NetScaler는 기업 환경에서 광범위하게 사용되는 중요한 네트워크 애플리케이션 전달 컨트롤러(ADC)이므로, 이 취약점의 악용은 상당한 보안 위협을 야기할 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/recent-citrix-netscaler-vulnerability-exploited-in-the-wild/",
+      "date": "2026-08-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OTel 2.0: Dell Technologies, ATT, AMD가 Open Telco AI를 대규모로 구현",
+      "summary": "Dell Technologies, ATT, AMD는 OTel 2.0을 오픈 모델 출시에서 프로덕션 환경에 준비된 배포로 발전시키는 데 핵심적인 역할을 수행하고 있습니다. 이들은 개방형 텔레콤 AI 표준을 산업 규모로 확산시키기 위해 협력하고 있으며, 이는 텔레콤 기업들이 AI 기술을 실제 운영 환경에서 적용할 수 있도록 합니다. OTel 2.0의 프로덕션화는 통신 산업의 디지털 혁신을 가속화하고, 기업들의 운영 효율성 증대를 가능하게 합니다. 세 기업의 협력은 오픈소스 기반의 안정적이고 확장 가능한 솔루션 구축을 입증합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/otel-2-0-dell-technologies-at-t-and-amd-bring-open-telco-ai-to-scale/",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "엔드포인트 전략이 이제 AI 전략인 이유",
+      "summary": "연방 정부의 AI 성공은 엔드포인트 준비 상태에 달려 있습니다. 현대적인 AI PC는 보안을 유지하면서 AI를 안전하게 도입하기 위한 핵심 요소입니다. 조직은 엔드포인트 인프라를 현대화하여 AI 워크로드를 효과적으로 지원해야 합니다. 적절한 하드웨어와 보안 조치가 갖춰진 엔드포인트는 AI 기술의 성공적인 구현을 위한 필수 기초입니다. 엔드포인트 전략의 재정의는 조직의 전체 AI 전략 수립에 있어 중요한 역할을 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/why-endpoint-strategy-is-now-ai-strategy/",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "스토리지 효율성 문제: 목적 기반 설계가 여전히 중요한 이유",
+      "summary": "효율성은 단순한 수치가 아니라 아키텍처의 문제입니다. 목적 기반 스토리지 시스템은 특정 워크로드에 최적화되어 있어 일반적인 하이퍼컨버지드 인프라(HCI)보다 더 우수한 성능을 제공합니다. 전문화된 설계를 통해 비용 효율성, 성능, 확장성 면에서 실질적인 이점을 얻을 수 있습니다. 조직의 특정 요구사항과 워크로드 특성을 고려할 때 목적 기반 솔루션이 더 나은 선택이 될 수 있습니다. 이는 단순히 기술적 효율성뿐만 아니라 장기적인 비즈니스 가치 창출에도 영향을 미칩니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/the-storage-efficiency-question-why-purpose-built-still-matters/",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "더 많은 데이터를 활성화하세요. 비용은 적게 쓰세요.",
+      "summary": "Dell AI Data Platform의 새로운 초고밀도 스토리지 엔진인 Dell ObjectScale X7700 release 4.4가 출시되었습니다. 이 솔루션은 AI 워크로드를 위해 대규모 데이터를 효율적으로 관리하고 활성화하는 데 최적화되어 있습니다. 초고밀도 설계로 동일한 공간에 더 많은 데이터를 저장할 수 있어 인프라 비용을 크게 절감할 수 있습니다. 향상된 성능과 확장성으로 엔터프라이즈 규모의 데이터 운영을 지원합니다. 기업들은 이를 통해 데이터 활용을 극대화하면서 총소유비용(TCO)을 감소시킬 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/activate-more-data-spend-less/",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 구동: 모듈형 데이터센터가 유휴 전력을 활용하는 방법",
+      "summary": "모듈형 데이터센터는 AI 인프라 구축을 위해 현재 활용되지 않는 그리드 전력을 효과적으로 활용할 수 있습니다. 이러한 솔루션은 데이터센터의 배포 속도를 크게 단축시켜 시간과 비용을 절감합니다. 모듈형 데이터센터는 기존 데이터센터 대비 물 사용량을 현저히 줄여 환경 지속가능성을 향상시킵니다. 또한 지역사회에 미치는 부정적 영향을 최소화하면서도 AI 기술 발전에 필요한 컴퓨팅 성능을 제공합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/powering-ai-modular-data-centers-can-unlock-stranded-power/",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpenClaw를 위한 최고의 Dell 시스템",
+      "summary": "Dell AI PC는 클라우드 기반 AI 탐색부터 엔터프라이즈 규모의 에이전틱 AI 배포까지 다양한 OpenClaw 사용 사례를 지원합니다. Dell의 최신 시스템은 고성능 프로세싱 능력과 AI 워크로드 최적화를 통해 개발자와 기업의 생산성을 극대화합니다. 클라우드 기반 AI 탐색부터 시작하여 점진적으로 엔터프라이즈 규모의 배포로 확장할 수 있는 유연한 솔루션을 제공합니다. Dell 시스템은 OpenClaw의 강력한 기능을 최대한 활용할 수 있도록 설계되었습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/the-best-dell-systems-for-openclaw/",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "다음 스토리지 전쟁터는 데이터 신뢰성",
+      "summary": "AI가 스토리지를 기업의 전략적 통제 지점으로 변화시키고 있습니다. 향후 경쟁은 성능만으로는 승리할 수 없으며, 조직이 사람과 AI 에이전트에게 데이터가 있는 어디서든 신뢰할 수 있는 데이터에 대한 보안된 거버넌스 접근을 제공할 수 있는지 여부로 결정될 것입니다. 이는 스토리지의 역할을 변화시킵니다. 전통적으로 시스템은 데이터를 보유하고 애플리케이션에 제공하도록 설계되었으나, 에이전틱 AI는 지속적으로 엔터프라이즈 정보를 발견, 검색, 분석 및 활용합니다. 이는 모든 상호작용이 컴퓨팅과 토큰을 소비한다는 의미이며, 데이터가 단편화되거나 중복되거나 제대로 관리되지 않으면 문제가 발생합니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/08/the-next-storage-battleground-is-data-trust.html",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 차세대 '사우디 메이드' 서버 공개, 현지 혁신 가속화 및 디지털 주권 강화",
+      "summary": "HPE는 2026년 8월 26일 사우디아라비아 리야드에서 최신 세대의 '사우디 메이드' 서버 출시를 발표했습니다. 이번에 공개된 HPE ProLiant Compute DL360 및 DL380 Gen12 모델은 리야드의 알파나르 시설에서 제조되며, Intel Xeon 6 프로세서를 탑재하고 있습니다. 이러한 신규 시스템은 사우디아라비아의 현지 기술 생산 강화 및 경제 다각화 추진 목표를 지원하기 위해 개발되었습니다. HPE는 현지에서 생산되는 서버 포트폴리오를 확대함으로써 사우디아라비아의 디지털 주권 강화와 지역 혁신을 가속화하고 있습니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/08/hpe-unveil-next-generation-saudi-made-servers-accelerating-local-innovation-and-strengthening-digital-sovereignty.html",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "차세대 가상화 결정은 사실 운영 모델 결정이다",
+      "summary": "조직들이 10년 이상 만에 가장 큰 가상화 전환을 경험하고 있지만, IT 팀들이 직면한 문제는 단순히 어떤 하이퍼바이저를 선택할지의 문제가 아닙니다. 기업들은 증가하는 하이브리드 클라우드의 복잡성을 관리하고, AI 기반 애플리케이션에 대비하며, 엣지에서 데이터센터, 다중 퍼블릭 클라우드까지 확장된 분산 환경을 운영해야 합니다. 이 시점을 단순한 플랫폼 교체로 접근한다면 전체 시스템을 단순화할 수 있는 더 큰 기회를 놓치게 됩니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/08/why-your-next-virtualization-decision-is-really-an-operating-model-decision.html",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "데이터센터의 미래에 대해 생각해야 할 5가지",
+      "summary": "이 기사는 전력망부터 애플리케이션 계층까지 AI 인프라 전체 스택에 걸친 포괄적인 논의를 다룬다. 업계가 전례 없는 전력 밀도에 어떻게 대응하고 있으며, 급속한 확장에도 불구하고 효율성이 여전히 가장 중요한 엔지니어링 과제인 이유를 탐색한다. 냉각 아키텍처, 전력 공급, 시설 계획, 하드웨어 수명주기 등 데이터센터 운영자들이 모든 것을 어떻게 재검토하고 있는지 살펴본다. 규제 변화, 주권 AI 이니셔티브, 지역 인프라 요구사항이 AI 용량 배포 위치와 시설 설계에 어떤 영향을 미치는지 분석한다. 궁극적으로 핵심은 핵전력, 액체냉각, 고속 네트워킹, 지구 밖의 인프라 등 모든 논의가 같은 결론을 가리킨다는 것이다: AI의 미래는 모델의 발전만큼 인프라 엔지니어링의 발전에 의해 형성될 것이며, 이는 AI를 넘어 세대적 규모의 인프라 엔지니어링 전환을 나타낸다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/five-ways-to-think-about-the-future-of-the-datacenter",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI가 악성코드 개발 속도는 높이지만 성공률은 올리지 못한다는 분석",
+      "summary": "최근 분석에 따르면 인공지능(AI)이 악성코드 개발 속도를 가속화하고 있으나, 실제 공격 성공률에는 큰 영향을 미치지 못하고 있습니다. 이는 AI가 악성코드 작성 프로세스를 빠르게 만들 수 있지만, 사이버 방어 시스템을 우회하는 데는 제한적이라는 것을 의미합니다. 보안 전문가들은 AI 기반 악성코드의 확산 속도 증가에도 불구하고, 현재의 방어 체계가 상당히 효과적이라고 평가하고 있습니다. 다만 계속되는 AI 기술 발전에 따라 향후 위협 수준이 높아질 가능성에 주의해야 한다고 경고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ai-speeds-up-malware-development-not-its-success-rate-analysis/",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Adobe와 Nvidia, 수십 개의 취약점 패치",
+      "summary": "Adobe와 Nvidia가 각각 여러 보안 공지를 발표하여 수십 개의 취약점에 대한 패치를 공개했습니다. 이번 패치는 두 회사의 주요 소프트웨어 제품들에 영향을 미치는 다양한 보안 결함을 해결하기 위한 것입니다. 사용자들은 보안 위협으로부터 시스템을 보호하기 위해 이러한 패치를 적시에 설치할 것을 권장받고 있습니다. 이는 정기적인 소프트웨어 업데이트와 취약점 관리의 중요성을 강조하는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/adobe-and-nvidia-patch-dozens-of-vulnerabilities/",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA: 7월 사이버공격으로 100개 이상의 인터넷 노출 수도 시스템 표적",
+      "summary": "미국 사이버보안 및 기반시설 보안국(CISA)이 7월에 100개 이상의 인터넷에 노출된 수도 시스템이 사이버공격의 표적이 되었음을 경고했습니다. 이 공격들은 주로 인터넷에 직접 연결된 산업제어시스템(ICS) 및 운영기술(OT) 환경을 대상으로 했습니다. 수도 및 폐수 처리 시설의 증가하는 디지털화로 인해 이러한 중요 기반시설이 사이버 위협에 더욱 취약해지고 있습니다. CISA는 수도 회사들에게 네트워크 세분화 및 접근 제어 강화 등의 보안 조치를 강화할 것을 권장했습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisa-over-100-internet-exposed-water-systems-targeted-in-july-cyberattacks/",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "MFA 신원 함정: 인증이 거짓된 안전감을 만들 때",
+      "summary": "다중 인증(MFA)은 널리 권장되는 보안 조치이지만, MFA 자체만으로는 완벽한 보안을 보장하지 못할 수 있다는 점을 다룬 기사입니다. 조직들이 MFA 도입만으로 충분하다고 생각하여 다른 중요한 보안 조치들을 소홀히 할 수 있다는 'MFA 신원 함정'을 경고하고 있습니다. 고급 공격자들은 MFA를 우회하거나 피할 수 있는 다양한 방법을 개발했으며, MFA가 사용자 신원 자체의 보안 문제를 완전히 해결하지 못한다는 점을 강조합니다. 따라서 조직은 MFA와 함께 종합적인 신원 보안 전략을 구현해야 하며, MFA에만 의존하는 거짓된 안전감에서 벗어나야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/the-mfa-identity-trap-when-authentication-creates-a-false-sense-of-security/",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Chrome 152, 300개 이상의 취약점 패치",
+      "summary": "Google이 Chrome 152를 출시하여 300개 이상의 취약점을 패치했습니다. 패치된 취약점의 대다수는 AI를 활용한 내부 보안 검사를 통해 발견되었습니다. 이번 업데이트는 브라우저의 보안성을 대폭 강화하는 것으로 평가됩니다. 사용자들은 최신 버전으로 업데이트하여 다양한 보안 위협으로부터 보호받을 수 있습니다. Google의 AI 기반 취약점 탐지 기술이 점점 더 중요한 역할을 하고 있음을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/chrome-152-patches-over-300-vulnerabilities/",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "뉴텍스 헬스 데이터 유출 사건에서 민감한 정보 노출",
+      "summary": "미국 의료 회사인 뉴텍스 헬스(Nutex Health)에서 대규모 데이터 유출 사건이 발생했습니다. 이번 사건으로 인해 환자들의 개인정보와 민감한 의료 정보가 노출되었습니다. SecurityWeek에 따르면 유출된 정보에는 환자의 이름, 연락처, 의료 기록 등 다양한 민감 데이터가 포함되어 있습니다. 이는 의료 산업에 대한 지속적인 사이버 위협을 시사하며, 의료 기관들의 강화된 데이터 보안 대책의 필요성을 강조합니다. 해당 회사는 영향을 받은 개인들에게 통지할 예정이며, 관련 당국에 보고하게 됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach/",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, 악용 중인 Gitea 취약점 경고",
+      "summary": "미국 사이버보안 및 기반시설 보안청(CISA)이 적극적으로 악용되고 있는 Gitea의 중요 취약점에 대해 경고했습니다. CVE-2026-60004로 식별된 이 취약점은 원격 코드 실행(RCE)을 가능하게 하는 심각한 보안 결함입니다. 해커들이 이미 이 취약점을 악용하여 시스템에 침입하고 있으며, 관련 시스템 관리자들의 즉각적인 패치 적용이 권고되고 있습니다. CISA는 해당 취약점을 KEV(Known Exploited Vulnerabilities) 카탈로그에 추가하여 광범위한 주의를 환기시키고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisa-warns-of-exploited-gitea-vulnerability/",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "더 적은 파트너, 더 큰 성과: AI 규모 확대의 필수 요소",
       "summary": "기업들은 단편화된 벤더로부터 벗어나고 있습니다. AI 규모에 맞는 전략적 파트너십의 핵심은 통합된 솔루션 제공자와의 장기적 협력입니다. 기존의 여러 벤더를 통한 복잡한 구조에서 벗어나 소수의 신뢰할 수 있는 파트너와 깊이 있는 관계를 구축하는 것이 중요합니다. 이러한 접근 방식은 기술 통합, 비용 효율성, 그리고 운영 효율성을 동시에 달성할 수 있게 합니다. AI 시대에는 파트너의 기술 역량, 신뢰성, 그리고 장기적 지원 능력이 기업의 성공을 좌우하는 결정 요소가 됩니다.",
       "category": "서버",
@@ -8715,10 +8877,10 @@
     }
   ],
   "sources": {
-    "Dell": 110,
-    "HPE": 15,
-    "SecurityWeek": 353,
-    "VAST Data": 38,
+    "SecurityWeek": 361,
+    "Dell": 116,
+    "HPE": 18,
+    "VAST Data": 39,
     "보안뉴스": 452
   }
 }
