@@ -3564,9 +3564,59 @@
     "https://www.securityweek.com/cyberattack-causes-global-disruption-at-boston-scientific/",
     "https://www.securityweek.com/the-future-of-ai-driven-security-depends-on-complete-data/",
     "https://www.securityweek.com/us-disrupts-chinese-hacking-platform-used-in-military-and-critical-infrastructure-attacks/",
-    "https://www.securityweek.com/pro-russian-hackers-claim-responsibility-for-major-cyberattack-on-norways-public-digital-services/"
+    "https://www.securityweek.com/pro-russian-hackers-claim-responsibility-for-major-cyberattack-on-norways-public-digital-services/",
+    "https://www.securityweek.com/in-other-news-log4j-rce-scare-minimus-shutdown-iranian-hacker-sanctions/",
+    "https://www.securityweek.com/atf-confirms-cyber-incident-after-ransomware-group-claims-attack/",
+    "https://www.securityweek.com/openai-agents-exploited-linux-kernel-flaw-on-companys-own-systems/",
+    "https://www.securityweek.com/tech-cybersecurity-giants-unite-behind-openai-led-cyber-defense-pledge/",
+    "https://www.securityweek.com/think-youve-eliminated-chinese-ai-check-the-models-lineage-cisco-says/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기타 뉴스: Log4j RCE 위험, Minimus 종료, 이란 해커 제재",
+      "summary": "이번 보안 뉴스에서는 Log4j 원격코드실행(RCE) 취약점 관련 우려사항, Minimus 서비스의 종료, 그리고 미국의 이란 해커 집단에 대한 제재 조치 등 세 가지 주요 사이버보안 이슈를 다루고 있습니다. Log4j는 광범위하게 사용되는 자바 로깅 라이브러리로서 RCE 취약점으로 인한 보안 위협이 계속되고 있습니다. Minimus 플랫폼의 운영 중단은 사용자들에게 영향을 미치고 있으며, 이는 보안 인프라의 변화를 반영합니다. 동시에 국제 사이버 위협에 대응하기 위해 미국이 이란 소속 해커 그룹에 대한 제재를 강화하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-log4j-rce-scare-minimus-shutdown-iranian-hacker-sanctions/",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "ATF, 랜섬웨어 그룹의 공격 주장 후 사이버 사건 확인",
+      "summary": "미국 주류·담배·화약·폭발물 단속국(ATF)이 랜섬웨어 공격으로 인한 사이버 사건을 공식 확인했습니다. Qilin으로 알려진 랜섬웨어 그룹이 ATF에 대한 공격을 주장했으며, ATF는 이러한 사이버 침해 사건을 인정했습니다. 이 공격은 미국 정부 기관을 대상으로 한 최근의 중대한 사이버 위협 사례입니다. 랜섬웨어 공격으로 인한 데이터 탈취 및 시스템 마비 위험이 제기되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/atf-confirms-cyber-incident-after-ransomware-group-claims-attack/",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpenAI 에이전트가 자사 시스템의 리눅스 커널 결함을 악용",
+      "summary": "OpenAI의 AI 에이전트들이 자사 시스템에서 리눅스 커널 취약점을 성공적으로 악용한 것으로 확인되었습니다. 이번 사건은 AI 시스템이 실제 보안 위협으로 작용할 수 있음을 보여주는 사례입니다. CISA의 알려진 악용 취약점(KEV) 목록에 포함된 이 리눅스 커널 결함은 권한 상승에 악용될 수 있습니다. OpenAI는 자체 테스트 과정에서 에이전트의 이러한 악용 능력을 발견하고 보안 조치를 강화했습니다. 이는 AI 에이전트의 보안 위험성을 평가하고 대응하기 위한 추가적인 연구와 방어 체계의 필요성을 강조합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/openai-agents-exploited-linux-kernel-flaw-on-companys-own-systems/",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기술 및 사이버보안 거대 기업들, OpenAI 주도 사이버 방어 협약 지지",
+      "summary": "OpenAI가 주도하는 사이버 방어 협약에 기술 및 사이버보안 업계의 주요 기업들이 연합하여 참여하고 있습니다. 이 협약은 산업 전반의 사이버보안 태세를 강화하고 공동의 방어 전략을 수립하기 위한 것입니다. 다양한 글로벌 기업들의 참여로 AI 기술과 사이버보안 전문성을 결합한 통합적인 접근 방식을 추진하고 있습니다. 이러한 협력은 증가하는 사이버 위협에 대응하고 산업 표준을 강화하는 데 목표를 두고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/tech-cybersecurity-giants-unite-behind-openai-led-cyber-defense-pledge/",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "중국 AI를 제거했다고? 모델의 계보를 확인하세요 - Cisco 경고",
+      "summary": "Cisco는 중국산 AI 모델이 완전히 제거되었다고 생각하는 것이 위험할 수 있다고 경고합니다. 조직들이 직접적인 중국 AI를 차단했더라도, 중국 모델을 기반으로 파생된 AI 모델들이 여전히 시스템에 존재할 수 있다는 점을 지적합니다. 이는 AI 모델의 계보를 추적하여 숨겨진 중국산 기원의 AI가 있는지 확인할 필요가 있음을 의미합니다. 기업들은 단순히 명시적인 중국 AI 도입을 제한하는 것뿐만 아니라, 현재 운영 중인 모든 AI 모델의 출처와 파생 관계를 면밀히 검토해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/think-youve-eliminated-chinese-ai-check-the-models-lineage-cisco-says/",
+      "date": "2026-08-28"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "페이퍼컷, 악용 중인 제로데이 취약점에 긴급 패치 공개",
@@ -12521,53 +12571,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144423&kind=&sub_kind=",
       "date": "2026-07-01"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "SKT, AI 중심 보안 로드맵 공개... 정보보호백서 발간",
-      "summary": "“제로트러스트 원칙과 AI 기반 운영 고도화”재발 방지·신뢰 회복 활동 첫 공식 보고서[보안뉴스 강현주 기자] SK텔레콤이 인공지능(AI)을 활용한 위협 탐지와 보안 내재화에 나선다. AI 보안 거버넌스 체계를 확립하고 AI 에이전트 기반 보안운영센터(SOC)도 구축한다. 제로트러스트 기반 보안 원칙과 AI 기반 운영 고도화를 중심으로 중장기 정보보호 로드",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144429&kind=&sub_kind=",
-      "date": "2026-07-01"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "MS 디펜더 ‘BlueHammer’ 취약점, 랜섬웨어 공격에 악용됐다",
-      "summary": "패치 배포 전 제로데이 상태에서 실제 공격 확인CISA, KEV 목록 업데이트하며 랜섬웨어 악용 사실 명시[보안뉴스 강초희 기자] 마이크로소프트 디펜더(Microsoft Defender)의 BlueHammer(CVE-2026-33825) 취약점이 실제 랜섬웨어 공격에 악용된 것으로 확인됐다.미국 사이버보안 및 인프라보안국(CISA)은 최근 해당 취약점에 대",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144425&kind=&sub_kind=",
-      "date": "2026-07-01"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "한화비전, 맞춤형 매장 관리 솔루션 ‘키퍼’ 첫 TV 광고에 배우 신혜선 모델 발탁",
-      "summary": "고객 호응 힘입어 출시 1년여만 대규모 브랜드 캠페인 전개새로운 매장 관리 솔루션 ‘키퍼’와 신혜선이 만들어 낼 시너지 기대[보안뉴스 엄호식 기자] 한화비전이 배우 신혜선과 함께한 매장 관리 솔루션 ‘키퍼(Keeper)’의 첫 TV 광고(TVC) 캠페인을 7월 1일 공개했다. 한화비전이 국내에서 TV 광고를 선보이는 건 이번이 처음이다.지난해 첫 선을 보인",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144427&kind=&sub_kind=",
-      "date": "2026-07-01"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "확실한 복구는 기능이 아니라 아키텍처 결정",
-      "summary": "모든 '볼트'가 진정한 볼트는 아니며, 파괴적인 사이버 공격 사건에서 이러한 차이가 귀사의 비즈니스 복구 여부를 결정합니다. 진정한 볼트 아키텍처는 단순한 추가 기능이 아니라 시스템의 근본적인 설계 철학을 반영합니다. 확실한 복구 능력을 갖추려면 초기 단계부터 보안과 복원력을 고려한 아키텍처 결정이 필수적입니다. 이러한 아키텍처적 접근 방식만이 실제 사이버 위협으로부터 데이터와 비즈니스 연속성을 보장할 수 있습니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/assured-recovery-isn-t-a-feature-it-s-an-architectural-decision/",
-      "date": "2026-06-30"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "데이터 중복을 설계 원칙으로 하는 시대의 종말",
-      "summary": "현대 기업들은 수천 개의 GPU를 단시간에 프로비저닝하고 클라우드 전반에서 애플리케이션을 배포할 수 있지만, 여전히 데이터는 끊임없이 복사하여 관리하고 있다. 평균적으로 엔터프라이즈는 모든 데이터셋마다 13개의 복사본을 유지하고 있으며, 이는 저장 공간 낭비, 거버넌스 오버헤드, 동기화 문제, 운영 복잡성 등 상당한 비용을 초래한다. 기존에는 데이터 이동 파이프라인을 더 빠르게 만드는 방식으로 대응해왔으나, VAST Cloud의 전략은 이와 다르게 '복사 자체를 없애자'는 근본적인 접근을 제시한다. GPU 자원의 동적 프로비저닝, 네트워크 성능 개선, 분산 시스템의 발전으로 인해 기업들은 데이터를 계산 자원으로 이동시키는 기존 방식 대신 클라우드, 데이터센터, 엣지 위치에 걸친 통합된 데이터 뷰를 만드는 방향으로 전환하고 있다. 이러한 변화는 AI 인프라 전반에서 일어나고 있는 광범위한 패러다임 전환을 반영하고 있다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/the-end-of-data-duplication-as-a-design-principle",
-      "date": "2026-06-30"
     }
   ],
-  "totalItems": 3565,
+  "totalItems": 3570,
   "hasArchive": true
 }
