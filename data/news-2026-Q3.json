@@ -3,6 +3,15 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "하스브로 데이터 유출, 직원 개인정보 노출",
+      "summary": "장난감 및 게임 제조 대기업인 하스브로(Hasbro)가 데이터 유출 사고를 겪었습니다. 이번 보안 침해 사건으로 다수의 직원 개인정보가 노출되었습니다. 유출된 정보에는 직원들의 개인식별정보(PII)가 포함되어 있는 것으로 확인되었습니다. 하스브로는 사건 발생 후 영향을 받은 직원들에게 통지하고 필요한 조치를 취하고 있습니다. 이 사건은 글로벌 기업들도 사이버 보안 위협으로부터 안전하지 않다는 것을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/",
+      "date": "2026-08-29"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "기타 뉴스: Log4j RCE 위험, Minimus 종료, 이란 해커 제재",
       "summary": "이번 보안 뉴스에서는 Log4j 원격코드실행(RCE) 취약점 관련 우려사항, Minimus 서비스의 종료, 그리고 미국의 이란 해커 집단에 대한 제재 조치 등 세 가지 주요 사이버보안 이슈를 다루고 있습니다. Log4j는 광범위하게 사용되는 자바 로깅 라이브러리로서 RCE 취약점으로 인한 보안 위협이 계속되고 있습니다. Minimus 플랫폼의 운영 중단은 사용자들에게 영향을 미치고 있으며, 이는 보안 인프라의 변화를 반영합니다. 동시에 국제 사이버 위협에 대응하기 위해 미국이 이란 소속 해커 그룹에 대한 제재를 강화하고 있습니다.",
       "category": "보안",
@@ -9030,7 +9039,7 @@
     }
   ],
   "sources": {
-    "SecurityWeek": 376,
+    "SecurityWeek": 377,
     "Dell": 118,
     "HPE": 18,
     "VAST Data": 39,
