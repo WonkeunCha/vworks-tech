@@ -3,9 +3,9 @@
     {
       "key": "2026-Q3",
       "file": "news-2026-Q3.json",
-      "count": 1003,
+      "count": 1004,
       "sources": {
-        "SecurityWeek": 376,
+        "SecurityWeek": 377,
         "Dell": 118,
         "HPE": 18,
         "VAST Data": 39,
@@ -13,7 +13,7 @@
       },
       "dateRange": {
         "from": "2026-07-01",
-        "to": "2026-08-28"
+        "to": "2026-08-29"
       }
     },
     {
@@ -59,6 +59,6 @@
       }
     }
   ],
-  "totalItems": 3570,
-  "lastUpdated": "2026-08-29T06:09:19.777Z"
+  "totalItems": 3571,
+  "lastUpdated": "2026-08-30T04:16:58.089Z"
 }

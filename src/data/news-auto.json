@@ -3569,9 +3569,19 @@
     "https://www.securityweek.com/atf-confirms-cyber-incident-after-ransomware-group-claims-attack/",
     "https://www.securityweek.com/openai-agents-exploited-linux-kernel-flaw-on-companys-own-systems/",
     "https://www.securityweek.com/tech-cybersecurity-giants-unite-behind-openai-led-cyber-defense-pledge/",
-    "https://www.securityweek.com/think-youve-eliminated-chinese-ai-check-the-models-lineage-cisco-says/"
+    "https://www.securityweek.com/think-youve-eliminated-chinese-ai-check-the-models-lineage-cisco-says/",
+    "https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "하스브로 데이터 유출, 직원 개인정보 노출",
+      "summary": "장난감 및 게임 제조 대기업인 하스브로(Hasbro)가 데이터 유출 사고를 겪었습니다. 이번 보안 침해 사건으로 다수의 직원 개인정보가 노출되었습니다. 유출된 정보에는 직원들의 개인식별정보(PII)가 포함되어 있는 것으로 확인되었습니다. 하스브로는 사건 발생 후 영향을 받은 직원들에게 통지하고 필요한 조치를 취하고 있습니다. 이 사건은 글로벌 기업들도 사이버 보안 위협으로부터 안전하지 않다는 것을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/",
+      "date": "2026-08-29"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "기타 뉴스: Log4j RCE 위험, Minimus 종료, 이란 해커 제재",
@@ -12562,17 +12572,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144431&kind=&sub_kind=",
       "date": "2026-07-01"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[Global Security TOP 100] 양승훈 에이앤티글로벌 대표 “AI IoT 기반 안전 인프라 구축에 힘쓰겠습니다”",
-      "summary": "보안시장, ‘사후 확인’ 중심에서 ‘사전 예방과 통합 운영’ 중심으로 전환기술 교육, 데모 지원, 산업별 제안 콘텐츠 제공 등 파트너 지원 체계 지속적으로 강화 노력[보안뉴스 엄호식 기자] 에이앤티글로벌은 CCTV 안내표지판과 비상벨 안내판, 경관조명 안내판 등 공공안전 안내시설을 개발·제조·공급하는 스마트 안내판 솔루션 전문기업이다. 에이앤티글로벌의 제품",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144423&kind=&sub_kind=",
-      "date": "2026-07-01"
     }
   ],
-  "totalItems": 3570,
+  "totalItems": 3571,
   "hasArchive": true
 }
