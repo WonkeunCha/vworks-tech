@@ -3,6 +3,105 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "LEAP 2026: HPE, '사우디 메이드' 전략 확대로 사우디 혁신 가속화",
+      "summary": "HPE(뉴욕증권거래소: HPE)가 2026년 LEAP에서 사우디아라비아의 기술 생태계 발전에 기여하는 일련의 새로운 투자 및 이니셔티브를 발표했다. 주요 발표 사항으로는 '사우디 메이드, 개발, 배포' 프로그램의 출범, HPE의 현지 생산 기술 포트폴리오 확대, 리야드의 새로운 HPE 사무실에 사우디 혁신 센터 설립 계획이 포함된다. 이러한 이니셔티브들은 현지 기술 생산을 강화하고, 기술 인력을 육성하며, 사우디 기술 기업들을 위한 새로운 기회를 창출하고 있다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/09/leap-2026-hpe-advances-saudi-made-strategy-with-expanded-portfolio-and-new-initiatives-to-accelerate-saudi-innovation.html",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "팔로알토 네트웍스, AI 에이전트 플랫폼 '콘솔' 인수",
+      "summary": "팔로알토 네트웍스가 AI 에이전트 플랫폼인 콘솔(Console)을 인수했습니다. 이번 인수는 팔로알토 네트웍스의 인공지능 기반 보안 솔루션 포트폴리오를 확대하려는 전략적 움직임입니다. 콘솔 플랫폼은 AI 에이전트 기술을 활용하여 보안 운영 자동화를 지원합니다. 이를 통해 팔로알토 네트웍스는 차세대 사이버보안 위협 대응 능력을 강화할 수 있을 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/palo-alto-networks-acquires-ai-agent-platform-console/",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Sevii, AI 속도의 공격에 대응하는 선제적 자동 방어 기술 제시",
+      "summary": "Sevii가 AI 기반 공격에 대응하기 위한 새로운 AI 보안 모듈을 출시했습니다. 이 기술은 머신 속도로 AI 기반 공격을 자동으로 조사, 격리 및 해결할 수 있으며, 대부분의 경우 수 분 내에 대응합니다. 기존의 인간 중심의 사이버보안 대응 속도로는 AI가 수행하는 빠른 공격에 효과적으로 대응하기 어려운 문제를 해결하기 위한 솔루션입니다. 이는 조직이 AI 기반의 사이버 위협으로부터 선제적으로 방어할 수 있도록 지원합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/sevii-targets-ai-speed-attacks-with-preemptive-autonomous-defense/",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "해안경비대, 해양 사이버보안 정책 담당 부서 신설",
+      "summary": "미국 해안경비대(Coast Guard)가 해양 사이버보안 정책을 전담할 새로운 부서를 설립했습니다. 이는 해양 운송 및 항만 인프라에 대한 사이버 위협이 증가하면서 이를 체계적으로 대응하기 위한 조직 개편입니다. 신설된 부서는 해양 산업의 사이버보안 정책 수립, 위협 분석, 그리고 관련 기관과의 협력을 담당할 것으로 보입니다. 이러한 움직임은 전략적 기반시설 보호를 위한 정부의 노력을 강화하는 한편, 해양 부문의 사이버 방어 역량을 높이는 데 초점을 맞추고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/coast-guard-establishes-office-of-maritime-cybersecurity-policy/",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "실험: AI를 이용한 PLC 익스플로잇 포팅에 수십 시간과 수백 달러 소요",
+      "summary": "보안 연구진이 인공지능을 활용하여 산업용 제어 시스템(ICS)의 프로그래머블 로직 컨트롤러(PLC) 익스플로잇을 다른 플랫폼으로 이식하는 실험을 진행했습니다. 실험 결과 AI를 사용하여 WAGO PLC 익스플로잇을 포팅하는 데 수십 시간의 작업 시간과 수백 달러의 비용이 소요되었습니다. 이는 AI 기술이 사이버 공격 도구 개발을 가속화할 수 있는 위험성을 보여주는 사례입니다. 연구는 생성형 AI의 보안 위협 증대 가능성과 산업용 제어 시스템의 취약성을 강조합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/experiment-porting-a-plc-exploit-with-ai-takes-hours-and-hundreds-of-dollars/",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "해커들이 Langflow의 심각한 취약점 악용하기 시작",
+      "summary": "AI 기반 플랫폼인 Langflow의 중대한 보안 취약점이 해커들에 의해 실제로 악용되고 있습니다. 공격자들은 이 취약점을 통해 시스템에 무단으로 접근하거나 악의적인 행동을 수행할 수 있습니다. SecurityWeek의 보도에 따르면 이 취약점은 Langflow 사용자들에게 상당한 보안 위협이 되고 있습니다. AI 서비스를 제공하는 기업들과 개발자들은 즉시 패치를 적용하고 시스템을 업데이트할 것을 권장받고 있습니다. 이는 AI 기술의 급속한 확산에 따른 새로운 보안 위협이 증가하고 있음을 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hackers-start-exploiting-critical-langflow-vulnerability/",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "베네수엘라인 5명, 미국 법원에서 ATM 잭팟팅 혐의로 유죄 인정",
+      "summary": "베네수엘라 출신 5명이 미국 법원에서 ATM 잭팟팅(ATM jackpotting) 범죄에 대해 유죄를 인정했습니다. ATM 잭팟팅은 악성코드를 이용하여 현금지급기에서 대량의 현금을 불법으로 인출하는 사이버범죄입니다. 이 사건은 국제적 사이버범죄 조직의 조직적인 ATM 해킹 시도를 드러냅니다. 해당 용의자들은 금융기관의 보안을 우회하고 ATM 시스템에 접근하는 방식으로 범행을 저질렀습니다. 이번 기소는 금융 인프라를 대상으로 한 사이버범죄에 대한 미국의 적극적인 단속 의지를 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/five-venezuelans-plead-guilty-in-us-court-to-atm-jackpotting/",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "랜섬웨어 조직, Nutex Health 데이터 침해 주장",
+      "summary": "랜섬웨어 조직이 미국의 의료 기업 Nutex Health에 대한 데이터 침해를 주장했습니다. 공격자들은 개인정보와 업무 관련 정보를 탈취했다고 주장하고 있습니다. 이번 사건은 healthcare 부문을 대상으로 한 사이버 공격이 계속되고 있음을 보여줍니다. Nutex Health는 침해 사실을 확인하고 피해자들에게 알리는 절차를 진행 중입니다. 이 사건은 의료기관의 데이터 보안 강화의 필요성을 다시 한 번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ransomware-gang-claims-nutex-health-data-breach/",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "중대한 JFrog Artifactory 취약점이 실제 공격에 악용되고 있는 것으로 보도",
+      "summary": "JFrog Artifactory에서 발견된 중대 수준의 취약점이 실제 공격에 악용되고 있다는 보도가 나왔습니다. SecurityWeek의 보도에 따르면 이 취약점은 공격자들에게 악용될 가능성이 높으며, 이미 야생에서 공격이 진행 중인 것으로 알려졌습니다. JFrog Artifactory는 소프트웨어 개발 및 배포 환경에서 광범위하게 사용되는 중요한 소프트웨어이기 때문에 이번 취약점은 광범위한 영향을 미칠 수 있습니다. 해당 취약점의 심각성을 고려할 때 사용자들은 긴급히 패치를 적용해야 합니다. 조직들은 자신의 시스템이 공격을 받고 있는지 확인하고 즉시 대응 조치를 취할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/critical-jfrog-artifactory-vulnerability-reportedly-exploited-in-the-wild/",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Aesto Health 데이터 유출로 950만 명 영향",
+      "summary": "Aesto Health에서 950만 명 이상의 개인정보와 건강 정보가 해커에 의해 탈취되는 대규모 데이터 유출 사건이 발생했습니다. 이번 사고는 의료 기관의 보안 취약점을 노출시킨 중대한 사이버보안 침해 사건입니다. 영향을 받은 사용자들의 개인정보가 광범위하게 유출되어 신원 도용 및 기타 악의적 사용의 위험에 노출되었습니다. 이 사건은 의료 부문의 증가하는 사이버 위협 추세를 반영하고 있으며, 향후 의료 기관들의 보안 강화 필요성을 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/9-5-million-impacted-by-aesto-health-data-breach/",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "WatchGuard, 중대 취약점 패치 공개",
+      "summary": "WatchGuard가 Fireware OS의 iked 프로세스에서 발견된 중대 원격 코드 실행(RCE) 취약점을 포함하여 24개 이상의 취약점에 대한 패치를 공개했다. 이번 보안 업데이트는 WatchGuard의 보안 인프라에 존재하던 여러 심각한 결함을 해결하기 위한 것이다. 원격 코드 실행 취약점은 공격자가 영향을 받는 시스템에 대한 완전한 제어 권한을 획득할 수 있어 매우 위험하다. WatchGuard는 고객들에게 즉시 패치를 적용할 것을 권고하고 있다. 이번 패치는 네트워크 보안 인프라의 안정성을 높이기 위한 중요한 업데이트이다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/watchguard-patches-critical-vulnerabilities/",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "Dell이 2026 Gartner Magic Quadrant® 엔터프라이즈 스토리지 플랫폼 부문 리더로 선정됨",
       "summary": "Dell Technologies는 2026년 Gartner Magic Quadrant 엔터프라이즈 스토리지 플랫폼 평가에서 리더 지위를 획득했습니다. 이 인정은 Dell의 혁신적인 스토리지 솔루션과 시장에서의 강력한 입지를 입증합니다. Dell은 고객들의 복잡한 데이터 관리 요구사항을 충족시키기 위한 포괄적인 스토리지 플랫폼을 제공합니다. 이러한 평가 결과는 Dell의 기술 우수성과 고객 만족도에 대한 Gartner의 신뢰를 나타냅니다. 엔터프라이즈 조직들은 Dell의 리더십 위치를 통해 신뢰할 수 있는 스토리지 솔루션 파트너임을 확인할 수 있습니다.",
       "category": "서버",
@@ -9147,9 +9246,9 @@
     }
   ],
   "sources": {
+    "HPE": 19,
+    "SecurityWeek": 397,
     "Dell": 120,
-    "SecurityWeek": 387,
-    "HPE": 18,
     "VAST Data": 39,
     "보안뉴스": 452
   }
