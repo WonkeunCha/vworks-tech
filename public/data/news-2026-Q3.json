@@ -3,6 +3,195 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "복합적 이점을 반영한 기록적 성과",
+      "summary": "Dell Technologies는 단순한 성장을 넘어 수익성 있는 성장을 달성했습니다. 매출 증가보다 이익이 더욱 빠르게 증가하는 성과를 보였습니다. 이는 효율적인 비용 관리와 운영 최적화를 통해 달성된 결과입니다. 회사의 전략적 투자와 시장 선도 기술력이 수익성 개선에 기여했습니다. 이러한 기록적 성과는 지속적인 경쟁력 강화와 주주 가치 창출을 의미합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/record-results-reflect-compounding-advantages/",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "전체 PC 플릿에 걸친 BIOS 구성의 확장",
+      "summary": "Dell Command Secure BIOS Configuration과 Microsoft Intune을 활용하여 클라우드에서 전체 Dell PC 플릿의 BIOS 설정을 보안할 수 있습니다. 이 솔루션은 조직 전체의 BIOS 구성을 중앙에서 관리하고 통제할 수 있는 효율적인 방법을 제공합니다. 클라우드 기반 접근 방식으로 원격지에 있는 장치들도 쉽게 관리할 수 있습니다. 이를 통해 보안 표준 준수를 유지하면서 IT 운영 비용을 절감할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/bios-configuration-scaled-across-your-entire-fleet/",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "스타일, 배터리 수명, 가성비: 최고의 저가형 대학생 노트북의 조건",
+      "summary": "새로운 Dell 14S는 프리미엄 디자인과 종일 배터리 수명을 제공하여 대학생들의 요구를 충족시킵니다. 이 노트북은 네 가지 표현력 있는 색상 옵션으로 개인의 스타일을 반영할 수 있습니다. 합리적인 가격대에도 불구하고 고급스러운 디자인 품질을 갖추고 있어 가성비가 우수합니다. 종일 사용 가능한 배터리 수명으로 캠퍼스에서도 충전 걱정 없이 사용할 수 있습니다. 스타일, 실용성, 가격의 완벽한 균형을 원하는 학생들에게 이상적인 선택입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/style-battery-life-and-value-what-makes-the-best-affordable-college-laptop/",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "SMB를 위한 백업은 단지 시작점일 뿐",
+      "summary": "SMB의 사이버 복원력은 백업을 넘어서 중요 업무를 더 빠르게 복구하고 비즈니스 연속성을 유지하는 데 초점을 맞춰야 합니다. 단순한 백업만으로는 사이버 공격이나 장애 상황에서 완벽한 보호를 보장할 수 없습니다. 포괄적인 사이버 복원력 전략은 데이터 보호뿐만 아니라 빠른 복구 시간과 비즈니스 운영의 연속성을 확보하는 것이 중요합니다. SMB들은 백업, 재해복구, 그리고 사이버 보안을 통합한 종합적인 솔루션을 고려해야 합니다. 이를 통해 예상치 못한 상황에서도 비즈니스 영향을 최소화하고 신속하게 정상 운영으로 복귀할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/why-backup-is-just-the-starting-point-for-smbs/",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 2026 회계연도 3분기 실적 발표",
+      "summary": "HPE는 2026년 7월 31일 마감 3분기 재무실적을 발표했다. CEO 안토니오 네리는 기업의 전략이 입증되고 있으며, 포트폴리오 전반에 걸친 고객 수요 급증으로 인해 사상 최고의 매출, 수주, 수익성을 달성했다고 밝혔다. HPE는 인공지능(AI)이 다년간의 성장 동력이 될 것으로 예상하고 있으며, 차별화된 포트폴리오가 이 기회를 대규모로 포착할 수 있게 위치시켜 준다고 설명했다. 회사의 뛰어난 매출 성과와 이익 확대는 지속적인 성장 모멘텀을 보여주고 있다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/09/hpe-reports-fiscal-2026-third-quarter-results.html",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE와 오라클, 기가와트급 AI 인프라 가속화를 위한 네트워킹 협력 심화",
+      "summary": "HPE는 오라클의 글로벌 AI 인프라 확장을 지원하기 위해 오라클의 AI 데이터센터에 HPE 주니퍼 네트워킹을 배포하는 협력을 확대했다. 이번 확대된 협력은 오라클과 주니퍼 네트웍스 간 10년 이상의 엔지니어링 작업을 기반으로 하며, 네트워킹 지원 서비스와 금융 지원 기능을 포함한다. HPE 주니퍼 네트워킹의 라우팅 및 스위칭 플랫폼은 오라클 클라우드 인프라(OCI)의 데이터센터 및 에지 네트워크의 핵심 요소를 지원하며, 대규모 확장성과 성능, 가용성을 제공한다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/09/hpe-and-oracle-deepen-networking-collaboration-to-accelerate-gigawatt-scale-ai-infrastructure.html",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "토트넘 핫스퍼와 HPE, 디지털 팬 경험 및 스타디움 운영 혁신",
+      "summary": "HPE와 토트넘 핫스퍼 풋볼 클럽은 오랜 파트너십을 확대하기로 발표했습니다. HPE는 공식 하이브리드 클라우드 및 IT 엔터프라이즈 네트워킹 파트너로서 스퍼스 스타디움의 기술 환경을 현대화할 예정입니다. 이번 변화는 티켓 없이 입장하기, 비접촉 결제, 모바일 애플리케이션, 디지털 길 안내, 고밀도 연결성 등을 포함하여 팬의 전체 여정에 걸친 모든 디지털 상호작용을 지원할 것입니다. 이를 통해 클럽은 신규 서비스와 팬 경험을 빠르게 도입할 수 있게 됩니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/09/tottenham-hotspur-and-hpe-transform-digital-fan-experience-and-stadium-operations.html",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "실패는 하나의 발견 - 컴퓨팅 산업의 가장 큰 도박 뒤의 어려운 교훈들",
+      "summary": "본 기사는 기술 산업에서 큰 기대를 모았던 프로젝트들이 실패한 사례들을 분석하고, 그로부터 얻을 수 있는 교훈을 제시합니다. 컴퓨팅 분야의 역사 속에서 많은 기업과 개발자들이 혁신적인 기술이나 솔루션에 막대한 투자와 노력을 기울였지만, 시장의 현실과 기술적 한계로 인해 실패한 경험들이 있습니다. 이러한 실패들은 단순한 좌절이 아니라 업계 전체가 배워야 할 중요한 발견이자 지표입니다. VAST Data는 이러한 사례들을 통해 기술 도입 시 현실적인 평가, 시장 수요의 정확한 파악, 그리고 장기적인 관점에서의 계획 수립의 중요성을 강조합니다. 성공적인 혁신을 위해서는 과거의 실패로부터 교훈을 얻고, 더욱 신중하고 데이터 기반의 의사결정 과정이 필요하다는 점을 제시합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/failure-is-a-finding-the-hard-lessons-behind-computings-biggest-bets",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpenLeash, 위험한 AI 에이전트 작업에 인간 검증 기능 추가",
+      "summary": "OpenLeash는 AI 에이전트의 잠재적으로 위험한 작업을 차단하는 보안 솔루션입니다. 이 기술은 명확한 위협은 자동으로 차단하고, 의도가 불확실한 경우에는 인간의 승인을 요청하는 방식으로 작동합니다. 생성형 AI 시스템이 자율적으로 행동하면서 발생할 수 있는 보안 위험을 줄이기 위해 인간의 개입 단계를 추가했습니다. 이러한 접근 방식은 AI 에이전트의 자동화 이점을 유지하면서도 사람의 통제를 보장합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/openleash-adds-a-human-check-to-risky-ai-agent-actions/",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "영국, 주요 기반시설에서 고위험 기술 공급업체 차단 추진",
+      "summary": "영국이 국가 주요 기반시설에 대한 사이버 보안 위협을 완화하기 위해 고위험으로 분류된 기술 공급업체들을 차단하는 조치를 추진하고 있습니다. 이러한 정책은 공급망 보안 강화와 외국의 악의적 행위자로부터의 보호를 목표로 하고 있습니다. 영국 정부는 기반시설 운영자들이 신뢰할 수 있는 공급업체만 선택하도록 규제를 강화하려고 합니다. 이는 에너지, 통신, 교통 등 국가 필수 기반시설을 보호하기 위한 중요한 조치로 평가됩니다. 해당 정책은 미국 등 다른 선진국들의 공급망 보안 전략과 유사한 방향으로 진행되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/uk-moves-to-block-high-risk-tech-suppliers-from-critical-infrastructure/",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "록웰 오토메이션, 제품 전반에 걸쳐 12개 이상의 취약점 패치",
+      "summary": "산업용 자동화 솔루션 업체인 록웰 오토메이션(Rockwell Automation)이 자사 제품들에서 발견된 12개 이상의 취약점에 대한 보안 패치를 공개했습니다. 해당 취약점들은 ICS/OT(산업 제어 시스템/운영 기술) 환경에 영향을 미칠 수 있는 것으로 알려져 있습니다. 이번 패치는 제조, 에너지, 인프라 등 중요 산업 시설의 운영 안정성을 확보하기 위해 긴급 배포되었습니다. 보안 전문가들은 영향을 받는 조직들에게 가능한 한 빠르게 패치를 적용할 것을 권장하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/rockwell-automation-patches-over-a-dozen-vulnerabilities-across-products/",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 Cleo Harmony 취약점에 대한 익스플로잇 공개",
+      "summary": "Cleo Harmony 소프트웨어의 최신 취약점에 대한 개념 증명(PoC) 익스플로잇이 공개되었습니다. 이 취약점은 파일 전송 솔루션인 Cleo Harmony에 영향을 미치며, 공격자들이 이를 악용할 수 있는 기술적 방법이 이제 일반에 공개된 상태입니다. 보안 연구원들은 해당 취약점을 통해 시스템이 침해될 수 있음을 우려하고 있습니다. Cleo 제품을 사용하는 조직들은 즉시 보안 패치를 적용하고 시스템을 업데이트할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/exploit-published-for-fresh-cleo-harmony-vulnerability/",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Anthropic, 보안 사건 대응 내역 공개 및 엔터프라이즈 보안 대책 발표",
+      "summary": "인공지능 기업 Anthropic이 최근 발생한 보안 사건에 대한 대응 조치를 상세히 공개했습니다. 회사는 보안 위협에 대응하기 위해 새로운 엔터프라이즈 보안장치(safeguards)를 도입했으며, 이는 Claude AI 모델의 안정성과 보안성을 강화하기 위한 것입니다. Anthropic은 기업 고객들을 위해 추가적인 보안 기능과 보호 메커니즘을 제공할 예정입니다. 이번 조치는 AI 보안의 중요성이 증가하는 가운데 업계 표준을 높이려는 노력으로 평가됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/anthropic-details-response-to-security-incidents-unveils-enterprise-safeguards/",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "BGP 하이재킹을 통해 배포된 악성 Virtualizor 업데이트",
+      "summary": "보안 위협 행위자들이 BGP(Border Gateway Protocol) 하이재킹 공격을 이용하여 악성 Virtualizor 업데이트를 배포했습니다. 이 공격은 인터넷 라우팅 프로토콜을 악용하여 정상적인 업데이트 서버로 트래픽을 리디렉션함으로써 사용자들이 악성 코드를 다운로드하도록 유도했습니다. Virtualizor는 서버 가상화 관리 솔루션으로 많은 호스팅 제공자들이 사용하고 있어 광범위한 피해가 발생할 수 있습니다. 이번 사건은 네트워크 레벨의 기반 시설 공격이 얼마나 위험한지를 보여주는 사례입니다. 보안 전문가들은 BGP 경로 검증 및 모니터링 강화를 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/malicious-virtualizor-update-served-via-bgp-hijacking/",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpenAI의 Astra, 제로데이 발견 후 '심각' 사이버보안 기준 통과",
+      "summary": "OpenAI의 Astra 모델이 제로데이 취약점을 발견하여 사이버보안 분야에서 '심각' 수준의 중요한 임계값을 넘어선 첫 번째 AI 모델이 되었습니다. 이는 AI 시스템이 실제 보안 위협을 식별하고 대응하는 능력에 있어 중요한 진전을 의미합니다. Astra는 이전에 알려지지 않은 소프트웨어 취약점(제로데이)을 성공적으로 탐지하여 사이버보안 분야에서의 실용적 가치를 입증했습니다. 이 결과는 AI 기반의 위협 탐지 및 대응 시스템이 더욱 정교해지고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/openais-astra-becomes-first-model-to-cross-critical-cybersecurity-threshold/",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Chrome과 Firefox 업데이트로 수십 개의 취약점 패치",
+      "summary": "Chrome과 Firefox 브라우저가 최신 업데이트를 통해 수십 개의 보안 취약점을 패치했습니다. 이번 업데이트는 두 브라우저 모두에서 발견된 다양한 보안 결함을 수정하여 사용자들의 시스템 보호를 강화합니다. SecurityWeek의 보도에 따르면 이러한 취약점들은 악의적인 공격자에 의해 악용될 수 있는 심각한 위험을 내포하고 있었습니다. 사용자들은 보안 위험으로부터 보호받기 위해 가능한 한 빨리 최신 버전으로 업데이트할 것이 권장됩니다. 두 주요 브라우저 개발사인 Google과 Mozilla는 지속적으로 보안 취약점을 모니터링하고 빠른 패치를 제공하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/chrome-and-firefox-updates-patch-dozens-of-vulnerabilities/",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "23년간 활동한 Sality P2P 봇넷 적발",
+      "summary": "국제 법 집행 기관의 공동 작전으로 23년간 운영되어온 Sality 피어투피어(P2P) 봇넷이 적발되었습니다. Sality는 오랜 기간 동안 다양한 악성 활동에 사용되어온 주요 위협으로, 분산 네트워크 구조를 통해 탐지를 회피해왔습니다. 이번 적발은 악성 인프라를 추적하고 제거하기 위한 국제 법 집행 기관들의 지속적인 노력의 결과입니다. 봇넷의 정지로 인해 이에 감염된 많은 시스템들이 추가 악성 활동으로부터 보호될 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/23-year-old-sality-p2p-botnet-disrupted/",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "소닉월, SMA1000의 두 가지 제로데이 취약점 공격 경고",
+      "summary": "보안 업체 소닉월(SonicWall)이 자사의 SMA1000 원격 접속 솔루션에서 발견된 두 가지 제로데이 취약점이 실제 공격에 악용되고 있다고 경고했습니다. 해당 취약점들은 패치가 공개되기 전에 이미 공격자들에 의해 적극적으로 이용되고 있는 상황입니다. SMA1000은 기업의 원격 근무 및 VPN 접속을 관리하는 핵심 보안 솔루션으로, 광범위한 사이버 공격의 대상이 될 수 있습니다. 소닉월은 영향을 받은 사용자들에게 긴급 패치 적용을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/sonicwall-warns-of-two-sma1000-zero-days-exploited-in-attacks/",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "PC 화면 테어링 해결 방법: 설정, 동기화 및 하드웨어 팁",
+      "summary": "PC에서 화면 테어링을 해결하기 위해서는 올바른 주사율을 설정하고 VRR(가변 주사율)을 활성화하며 프레임을 제한하는 것이 중요합니다. 모니터의 주사율과 그래픽 카드의 출력 프레임을 일치시키면 화면 찢김 현상을 효과적으로 방지할 수 있습니다. 고속 Dell 모니터와 같은 고성능 디스플레이를 사용하면 이러한 설정들과 함께 부드럽고 끊김 없는 게임플레이 환경을 구현할 수 있습니다. 화면 테어링 문제는 하드웨어와 소프트웨어 설정의 적절한 조합으로 해결되므로, 자신의 시스템에 맞는 최적화된 구성을 찾는 것이 필요합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-to-fix-screen-tearing-on-pc-settings-sync-and-hardware-tips/",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 야심은 흔하지만, 안전한 규모 확대는 드물다",
+      "summary": "많은 조직이 AI 도입에 대한 야심은 높지만, 실제 프로덕션 환경에서 안전하게 규모를 확대하는 것은 어려운 과제입니다. 조직들은 보안과 규정 준수를 유지하면서 AI를 책임감 있게 확장하기 위한 명확한 로드맵과 전략이 필요합니다. 이러한 격차를 해소하려면 강력한 거버넌스, 데이터 관리, 그리고 신뢰할 수 있는 인프라 구축이 필수적입니다. 기업들은 AI 구현 시 보안을 최우선으로 고려하고 단계적인 접근 방식을 채택해야 합니다. 올바른 기술 파트너와 전략적 계획을 통해 조직은 AI의 잠재력을 안전하게 활용할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/ai-ambition-is-common-secure-scale-is-rare/",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "IBC 2026에서 선보이는 미디어 프로덕션의 모든 것",
+      "summary": "Dell은 IBC 2026에서 AI 비디오 검증, 8K 완성, 가상 프로덕션, 로봇공학 등을 다루는 13개의 데모를 선보일 예정입니다. Dell 부스를 방문하면 최신 미디어 프로덕션 기술들과 상호작용할 수 있는 기회를 갖게 됩니다. 이번 전시회는 미디어 산업의 혁신적인 솔루션들을 직접 체험할 수 있는 중요한 자리가 될 것입니다. AI와 고급 영상 기술의 통합으로 미디어 제작 워크플로우가 어떻게 변화하고 있는지 확인할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/media-production-in-full-display-at-ibc-2026/",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "LEAP 2026: HPE, '사우디 메이드' 전략 확대로 사우디 혁신 가속화",
       "summary": "HPE(뉴욕증권거래소: HPE)가 2026년 LEAP에서 사우디아라비아의 기술 생태계 발전에 기여하는 일련의 새로운 투자 및 이니셔티브를 발표했다. 주요 발표 사항으로는 '사우디 메이드, 개발, 배포' 프로그램의 출범, HPE의 현지 생산 기술 포트폴리오 확대, 리야드의 새로운 HPE 사무실에 사우디 혁신 센터 설립 계획이 포함된다. 이러한 이니셔티브들은 현지 기술 생산을 강화하고, 기술 인력을 육성하며, 사우디 기술 기업들을 위한 새로운 기회를 창출하고 있다.",
       "category": "HPC·서버",
@@ -9246,10 +9435,10 @@
     }
   ],
   "sources": {
-    "HPE": 19,
-    "SecurityWeek": 397,
-    "Dell": 120,
-    "VAST Data": 39,
+    "Dell": 127,
+    "HPE": 22,
+    "VAST Data": 40,
+    "SecurityWeek": 407,
     "보안뉴스": 452
   }
 }
