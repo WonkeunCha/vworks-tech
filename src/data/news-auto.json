@@ -3614,9 +3614,119 @@
     "https://www.securityweek.com/openais-astra-becomes-first-model-to-cross-critical-cybersecurity-threshold/",
     "https://www.securityweek.com/chrome-and-firefox-updates-patch-dozens-of-vulnerabilities/",
     "https://www.securityweek.com/23-year-old-sality-p2p-botnet-disrupted/",
-    "https://www.securityweek.com/sonicwall-warns-of-two-sma1000-zero-days-exploited-in-attacks/"
+    "https://www.securityweek.com/sonicwall-warns-of-two-sma1000-zero-days-exploited-in-attacks/",
+    "https://www.dell.com/en-us/blog/your-video-archive-is-not-dark-it-is-just-unattended/",
+    "https://www.dell.com/en-us/blog/how-to-edit-and-type-on-a-pdf-a-practical-guide/",
+    "https://www.hpe.com/us/en/newsroom/press-release/2026/09/hpe-to-webcast-networking-investor-day-event.html",
+    "https://www.vastdata.com/blog/the-case-for-ai-on-kubernetes-remote-storage",
+    "https://www.securityweek.com/manchester-airports-group-data-on-8-8-million-people-leaked-after-ransom-refusal/",
+    "https://www.securityweek.com/capsule-security-launches-ai-circuit-breaker-to-stop-rogue-agents/",
+    "https://www.securityweek.com/hiddenlayer-raises-100-million-for-ai-runtime-security/",
+    "https://www.securityweek.com/ai-agent-firewall-startup-air-security-emerges-from-stealth-with-50-million/",
+    "https://www.securityweek.com/153-million-driver-license-images-offered-on-dark-web/",
+    "https://www.securityweek.com/over-3-million-wordpress-sites-affected-by-migration-plugin-vulnerability/",
+    "https://www.securityweek.com/cisco-warns-of-unpatched-secure-email-flaws-patches-critical-switch-vulnerabilities/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "당신의 비디오 아카이브가 어두운 것이 아닙니다. 단지 관리되지 않을 뿐입니다.",
+      "summary": "엔터프라이즈 비디오의 가치는 저장된 영상을 찾는 것이 아니라 지속적인 피드백을 통해 신뢰할 수 있는 다중 모달 통찰력을 의사결정으로 조율하는 데 있습니다. 비디오 데이터가 제대로 활용되지 않는 것은 기술의 부족이 아니라 관리와 오케스트레이션의 부족 때문입니다. 조직은 비디오 아카이브에서 실질적인 인사이트를 추출하기 위해 체계적인 접근 방식이 필요합니다. 다양한 데이터 소스를 통합하여 의사결정 과정을 지원하는 것이 핵심입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/your-video-archive-is-not-dark-it-is-just-unattended/",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "PDF를 편집하고 입력하는 방법: 실용적인 가이드",
+      "summary": "PDF 파일에 텍스트를 입력하고, 편집하며, 주석을 추가하고, 변환하고, 안전하게 서명하는 방법을 명확한 단계와 함께 배울 수 있습니다. 이 가이드는 PDF 문서 작업 시 필요한 기본적인 기술들을 포괄적으로 다루고 있습니다. PDF 편집 도구의 올바른 사용법을 이해하면 업무 효율성을 크게 향상시킬 수 있습니다. 또한 PDF의 보안성을 유지하면서 필요한 수정사항을 안전하게 처리하는 방법을 제시합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-to-edit-and-type-on-a-pdf-a-practical-guide/",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 네트워킹 투자자 설명회 온라인 중계",
+      "summary": "HPE는 2026년 9월 30일 캘리포니아 선니베일에서 네트워킹 투자자 설명회를 개최한다. 네트워킹 사업 담당 전무이사인 라미 라힘이 HPE 네트워킹 사업에 대한 심층 발표를 진행하고, 추가 네트워킹 임원진들도 참석하여 라이브 패널 토론에 참여한다. 이번 행사에서는 HPE 네트워킹의 전략, 포트폴리오 차별성, 성장 기회를 중심으로 진행되며 실시간 질의응답 세션이 포함된다. 온라인 중계를 통해 참석할 수 있다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/09/hpe-to-webcast-networking-investor-day-event.html",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Kubernetes 원격 저장소에서 AI를 사용하는 경우",
+      "summary": "죄송하지만, 제공하신 콘텐츠에서 실제 기사의 본문을 찾을 수 없습니다. 제공된 텍스트는 Google Analytics 추적 코드와 쿠키 동의 관리 스크립트로만 구성되어 있으며, VAST Data 블로그 기사의 실제 내용이 포함되어 있지 않습니다. Kubernetes 원격 저장소에서 AI를 활용하는 것에 대한 구체적인 핵심 내용을 번역해드리려면, 기사의 본문 텍스트를 제공해주시기 바랍니다. 제목만으로는 'Kubernetes 환경에서 원격 저장소를 활용한 AI 구축'이라는 주제로 예상되지만, 정확한 번역을 위해서는 실제 기사 내용이 필요합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/the-case-for-ai-on-kubernetes-remote-storage",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "맨체스터 공항 그룹, 몸값 거부 후 880만 명의 개인정보 유출",
+      "summary": "맨체스터 공항 그룹(Manchester Airports Group)이 사이버 공격으로 인해 880만 명의 개인정보가 유출되었습니다. 이 사건은 공격자들이 요구한 몸값을 거부한 후에 발생했으며, 공격자들이 보복으로 탈취한 데이터를 공개한 것으로 알려졌습니다. 유출된 정보에는 공항 이용객과 직원 등 광범위한 개인정보가 포함되어 있습니다. 이번 사건은 주요 기반시설 시설을 대상으로 한 랜섬웨어 공격의 심각성을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/manchester-airports-group-data-on-8-8-million-people-leaked-after-ransom-refusal/",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "캡슐 시큐리티, 악의적 AI 에이전트 차단을 위한 'AI 서킷 브레이커' 출시",
+      "summary": "캡슐 시큐리티(Capsule Security)가 악의적 또는 오작동하는 AI 에이전트를 차단하기 위한 'AI 서킷 브레이커' 기술을 출시했습니다. 이 솔루션은 대규모 언어 모델(LLM) 기반의 AI 에이전트가 비정상적으로 작동하거나 악의적인 행동을 할 때 이를 감지하고 즉시 차단하는 보안 메커니즘입니다. AI 기술의 확산에 따라 자동화된 AI 에이전트의 보안 위협이 증가하고 있는 상황에서, 이 기술은 기업의 시스템을 보호하는 중요한 방어 수단으로 평가받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/capsule-security-launches-ai-circuit-breaker-to-stop-rogue-agents/",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HiddenLayer, AI 런타임 보안을 위해 1억 달러 투자 유치",
+      "summary": "AI 보안 기업 HiddenLayer가 시리즈 B 펀딩으로 1억 달러를 투자받았습니다. 이 자금은 기업 플랫폼의 런타임 보안 기능을 확대하는 데 사용될 예정입니다. HiddenLayer는 AI 모델과 시스템의 실행 단계에서의 보안 위협으로부터 보호하는 솔루션을 제공합니다. 이번 투자는 AI 보안의 중요성이 증대되는 가운데 이루어진 것으로, 기업들의 AI 시스템 보안에 대한 관심이 높아지고 있음을 보여줍니다. 이 자금 조달은 HiddenLayer의 기술 개발과 시장 확대를 가속화할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hiddenlayer-raises-100-million-for-ai-runtime-security/",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 에이전트 방화벽 스타트업 AIR Security, 5천만 달러 펀딩으로 베일을 벗다",
+      "summary": "AI 에이전트 보안에 특화된 방화벽 솔루션을 개발하는 스타트업 AIR Security가 5천만 달러의 초기 펀딩을 확보하며 공식 출시를 알렸다. 이 회사는 AI 에이전트 기반 시스템의 고유한 보안 위협에 대응하기 위해 설계된 새로운 클래스의 방화벽 기술을 제공한다. AIR Security의 등장은 AI 기술이 확산되면서 기존 보안 솔루션의 한계를 보완하려는 산업의 노력을 보여준다. 이번 펀딩은 AI 보안 분야의 높은 투자 관심과 성장성을 반영하고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ai-agent-firewall-startup-air-security-emerges-from-stealth-with-50-million/",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "1억 5,300만 건의 운전면허증 이미지가 다크웹에서 판매 중",
+      "summary": "FBI가 1억 5,300만 건에 달하는 운전면허증 이미지가 다크웹에서 판매되고 있다는 사건을 조사 중입니다. 이는 대규모 데이터 유출 사건으로, 개인의 신원 정보와 사진이 포함된 민감한 신원 증명 서류들이 범죄자들에게 판매되고 있음을 의미합니다. 이러한 운전면허증 이미지는 신원 도용, 사기 범죄, 불법 활동에 악용될 수 있어 심각한 보안 위협입니다. 현재 FBI는 데이터의 출처와 유출 경로를 파악하기 위해 적극적인 수사를 진행 중입니다. 광범위한 개인정보 노출로 인해 영향을 받은 사람들의 신원 도용 위험이 매우 높은 상태입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/153-million-driver-license-images-offered-on-dark-web/",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "300만 개 이상의 워드프레스 사이트가 마이그레이션 플러그인 취약점의 영향을 받음",
+      "summary": "300만 개 이상의 워드프레스 사이트가 마이그레이션 플러그인의 보안 취약점(CVE-2026-19949)으로 인해 영향을 받고 있습니다. 이 취약점은 워드프레스 사이트를 다른 호스팅으로 옮기는 데 사용되는 플러그인에서 발견되었습니다. 공격자들이 이 취약점을 악용하여 광범위한 사이트에 접근할 수 있는 위험성이 있습니다. SecurityWeek의 보도에 따르면 이는 상당히 심각한 규모의 보안 위협입니다. 워드프레스 관리자들은 즉시 해당 플러그인을 업데이트하거나 제거하는 것이 권장됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/over-3-million-wordpress-sites-affected-by-migration-plugin-vulnerability/",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "시스코, 패치되지 않은 보안 이메일 결함 경고, 중요 스위치 취약점 패치",
+      "summary": "시스코가 자사의 보안 이메일 제품에서 현재 패치되지 않은 보안 결함들에 대해 경고했습니다. 동시에 시스코는 네트워크 스위치의 중요 취약점들(CVE-2026-20354, CVE-2026-20355 포함)에 대한 보안 패치를 배포했습니다. 이번 취약점들은 네트워크 보안에 심각한 위협이 될 수 있어 사용자들의 즉각적인 주의가 필요합니다. 시스코는 이메일 보안 결함에 대해서는 추가 업데이트를 예정 중이며, 사용자들에게 조속한 패치 적용을 권장하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisco-warns-of-unpatched-secure-email-flaws-patches-critical-switch-vulnerabilities/",
+      "date": "2026-09-03"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "복합적 이점을 반영한 기록적 성과",
@@ -12517,107 +12627,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144489&kind=&sub_kind=",
       "date": "2026-07-03"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "서울AI허브-공군 항공우주전투발전단, 인공지능 교류협력 MOU 체결",
-      "summary": "산업AX 지원 토대로 공군 AI 수요와 스타트업 혁신기술 연결공군 오픈이노베이션 성과 토대로 AI 실증·공동연구 확대 및 국방 AX 협력 고도화[보안뉴스 엄호식 기자] 서울시가 운영하는 서울AI허브와 공군 항공우주전투발전단이 7월 3일 서울AI허브 메인센터에서 ‘인공지능 교류협력 업무협약’을 체결했다. 이번 협약은 지난해부터 이어온 공군 AI 오픈이노베이션",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144488&kind=&sub_kind=",
-      "date": "2026-07-03"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "2026 IT21 글로벌 컨퍼런스 성료... AI 시대 신뢰와 혁신의 미래 제시",
-      "summary": "AI 안전·에이전틱 AI·사이버보안·국방AI·AI 평가체계 등 미래 ICT 핵심 의제 논의이틀간 국내외 산학연 전문가 참여... AI 산업 발전과 협력의 장 마련[보안뉴스 한세희 기자] 한국정보처리학회(회장 박능수)는 2-3일 서울 피스앤파크 컨벤션에서 개최한 ‘2026 IT21 글로벌 컨퍼런스’를 성황리에 마무리했다고 3일 밝혔다. 올해 컨퍼런스는 ‘",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144487&kind=&sub_kind=",
-      "date": "2026-07-03"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "성남시, 스마트 버스쉘터 107개 더 늘린다",
-      "summary": "전국 최대 195개 쉴터 운영무더위쉼터 지정 등 공공기능 확대[보안뉴스 엄호식 기자] 성남시(시장 신상진)는 시민들이 보다 안전하고 쾌적하게 대중교통을 이용할 수 있도록 올해 스마트 버스쉘터 107개소를 추가 설치한다고 밝혔다. 사업이 완료되면 시가 운영하는 스마트 버스쉘터는 총 195개소 이상으로 늘어나 전국 지방자치단체 가운데 최대 규모를 갖추게 된다.",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144486&kind=&sub_kind=",
-      "date": "2026-07-03"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "정부 “피지컬 AI·에이전틱 AI 대응 개인정보 보호 기준 마련”",
-      "summary": "‘신뢰 기반 AI 혁신 촉진 제3차 개인정보 보호 기본계획’ 발표“피지컬 AI 상시적 정보 수집 대응”[보안뉴스 강현주 기자] 정부가 인공지능(AI) 시대에 맞춰 실물 AI(피지컬 AI)와 자율형 AI(에이전틱 AI) 대응 등 개인정보 보호 체계 등을 마련한다. 개인정보보호위원회는 3일 열린 경제관계장관회의에서 관계부처와 합동으로 ‘제3차 개인정보 보호",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144485&kind=&sub_kind=",
-      "date": "2026-07-03"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "인천시, 반려견 ‘코 지문’으로 등록... 계양·미추홀구서 첫선",
-      "summary": "내장형 칩 거부감·외장형 분실 우려 보완...동물등록 활성화 기대[보안뉴스 강초희 기자] 인천광역시(시장 박찬대)가 반려견의 체계적인 관리와 유실·유기 방지를 목적으로 오는 8월부터 5개월간 ‘반려견 비문등록 시범사업’을 추진한다.비문등록은 사람의 지문처럼 개체별로 각기 다른 반려견 코의 고유한 무늬를 활용하는 생체인식 방식이다. 목걸이 형태인 기존 외장형",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144484&kind=&sub_kind=",
-      "date": "2026-07-03"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[카드뉴스] “아군 위성망이 적의 조종기로?”… 전장 뒤흔드는 ‘불법 교차 활용’ 해킹의 공포",
-      "summary": "국경이 없는 상업용 위성 네트워크 인프라를 적대 세력이 해킹하여 자국 드론의 실시간 제어 스펙트럼으로 가로채 쓰는 ‘불법 교차 활용(Illicit Use)’ 리스크가 현대 지정학적 분쟁의 거대한 위협으로 떠올랐다. 이에 대응하기 위해 국가 및 군 안보 당국은 사전에 검증되어 화이트리스트(Whitelist)에 등록된 기기 세트 외의 모든 접근 요소를 실시간으",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144483&kind=&sub_kind=",
-      "date": "2026-07-03"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "센스톤, 유럽 OT 보안 뚫었다... ‘실행 시점’ 접근통제 기술력 입증",
-      "summary": "엠엑스온과 공동 개발한 ‘OTAC Trusted Access Gateway’ KC·CE 인증 획득실제 설비 환경에서 사용자 인증·접근통제 기능 제공하는 엔드포인트 보안 구현 [보안뉴스 조재호 기자] 센스톤이 산업 현장에 최적화된 OT 보안 솔루션의 상용화 준비를 마쳤다. 단방향 통신 기술을 적용해 기존 설비 변경 없이 외부 인력의 무단 접근과 계정 공유를",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144480&kind=&sub_kind=",
-      "date": "2026-07-03"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "인천국제공항공사, 휴가철 앞두고 대국민 안전여행 캠페인 실시",
-      "summary": "국립인천공항검역소와 합동으로 대국민 캠페인 진행출국 전 해외감염병 안내 등 안전한 해외여행 위한 준수사항 안내[보안뉴스 엄호식 기자] 인천국제공항공사는 본격적인 여름 휴가철을 앞두고 해외감염병 예방 등 안전여행 수칙을 안내하기 위해 7월 2일 인천공항 제2여객터미널에서 국립인천공항검역소와 함께 ‘여름 휴가철 맞이 대국민 안전여행 캠페인’을 진행했다고 밝혔다",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144479&kind=&sub_kind=",
-      "date": "2026-07-03"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] 센스톤, OT 엔드포인트 인증으로 산업제어시스템 보안 강화",
-      "summary": "OT 엔드포인트 사용자 인증 기술 공개... 설비 제어 전 접근통제 구현PLC·SCADA 등 산업제어시스템 대상 OT 인증 게이트웨이 시연IEC 62443 기반 사용자 식별·인증으로 OT 보안 강화 추진[보안뉴스 강초희 기자] 센스톤은 ‘ISEC 2026’에서 국내 파트너사인 투씨에스지와 함께 OTAC Trusted Access Gateway(TAG) 시연",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144475&kind=&sub_kind=",
-      "date": "2026-07-03"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] 소만사, AI DLP·AI EDR 투트랙 전략 공개... 생성형 AI 보안 확대",
-      "summary": "생성형 AI를 통한 개인정보·기밀정보 유출을 차단하는 AI DLP 솔루션 공개LLM 기반 맥락 분석으로 AI 서비스 내 정보 유출을 실시간 탐지·차단AI DLP와 AI EDR을 결합해 생성형 AI 보안 플랫폼으로 사업 확대[보안뉴스 강초희 기자] 내부정보 유출방지(DLP) 전문기업 소만사가 ISEC 2026에서 개인정보·기밀정보 유출을 막는 AI DLP 솔",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144476&kind=&sub_kind=",
-      "date": "2026-07-03"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "위드네트웍스, 섀도우 API 사각지대 지운다... ‘탐지부터 통제까지’ 자동화",
-      "summary": "라드웨어 코리아 AI 시큐리티 서밋 참가해 완성형 API 보안 청사진 제시‘withVTM’으로 섀도우 API 식별하고 ‘Radware AppSec’으로 즉각 차단[보안뉴스 조재호 기자] 위드네트웍스는 AI 시큐리티 서밋 2026에 기술 전문 공식 파트너로 참가해 인공지능 시대에 대응하는 최신 애플리케이션 보안 전략을 발표했다고 2일 밝혔다. 이번 행사에서",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144474&kind=&sub_kind=",
-      "date": "2026-07-03"
     }
   ],
-  "totalItems": 3615,
+  "totalItems": 3626,
   "hasArchive": true
 }
