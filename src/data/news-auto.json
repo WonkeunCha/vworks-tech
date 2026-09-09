@@ -3641,9 +3641,169 @@
     "https://www.securityweek.com/north-korean-hackers-deploy-new-linux-espionage-toolkit/",
     "https://www.securityweek.com/openai-agents-hijack-another-victim-website/",
     "https://www.securityweek.com/adobe-commerce-zero-day-exploited-to-backdoor-online-stores/",
-    "https://www.securityweek.com/modified-screenconnect-clients-used-in-worm-like-campaign/"
+    "https://www.securityweek.com/modified-screenconnect-clients-used-in-worm-like-campaign/",
+    "https://www.dell.com/en-us/blog/building-an-ai-ready-foundation-the-arizona-cardinals-story/",
+    "https://www.dell.com/en-us/blog/how-much-ram-do-you-need/",
+    "https://www.dell.com/en-us/blog/fragmented-infrastructure-is-holding-your-ai-back/",
+    "https://www.dell.com/en-us/blog/from-sales-floor-to-ai-driven-change/",
+    "https://www.hpe.com/us/en/newsroom/blog-post/2026/09/listening-and-acting-to-help-our-partners-win-with-hpe.html",
+    "https://www.hpe.com/us/en/newsroom/blog-post/2026/09/dneg-scales-creative-visual-effects-and-animation-workflows-with-hpe-servers-and-financial-services.html",
+    "https://www.securityweek.com/microsoft-patches-record-974-vulnerabilities-including-two-exploited-zero-days/",
+    "https://www.securityweek.com/adobe-patches-over-170-vulnerabilities-including-commerce-zero-day/",
+    "https://www.securityweek.com/the-hidden-instructions-that-can-hijack-ai-agents/",
+    "https://www.securityweek.com/hackers-return-263-million-stolen-from-liquid-network/",
+    "https://www.securityweek.com/cylake-raises-245-million-ahead-of-cybersecurity-platform-beta/",
+    "https://www.securityweek.com/sap-patches-critical-extended-passport-processing-vulnerability/",
+    "https://www.securityweek.com/partys-over-for-crypto-scammers-who-went-on-a-spending-spree-after-a-240-million-bitcoin-theft/",
+    "https://www.securityweek.com/mikrotik-patches-critical-flaws-chained-to-hack-routers/",
+    "https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people/",
+    "https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 준비 기반 구축: Arizona Cardinals의 사례",
+      "summary": "Arizona Cardinals는 Dell Technologies와 파트너사인 Integrated Media Technologies와 함께 인프라를 현대화했습니다. 이는 AI 기술을 활용하기 위한 견고한 기반을 구축하는 과정을 보여줍니다. Dell의 솔루션을 통해 조직의 디지털 변환을 가속화할 수 있습니다. 이러한 현대화된 인프라는 데이터 분석 및 운영 효율성 향상을 가능하게 합니다. Arizona Cardinals의 성공 사례는 스포츠 산업에서 기술 도입의 중요성을 강조합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/building-an-ai-ready-foundation-the-arizona-cardinals-story/",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "당신에게 필요한 RAM은 얼마나 될까요?",
+      "summary": "RAM은 컴퓨터의 성능에 직접적인 영향을 미치는 중요한 요소입니다. 일상적인 사용, 게이밍, 전문 작업 등 용도에 따라 필요한 메모리 용량이 다르게 결정됩니다. 일반적인 웹 브라우징과 문서 작업에는 8GB에서 16GB 정도의 RAM이면 충분하며, 고사양 게이밍이나 영상 편집 작업에는 32GB 이상이 권장됩니다. RAM 업그레이드는 컴퓨터의 반응 속도를 개선하고 멀티태스킹 성능을 향상시킬 수 있습니다. 자신의 사용 패턴과 예산을 고려하여 최적의 메모리 용량을 선택하는 것이 중요합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-much-ram-do-you-need/",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "분산된 인프라가 당신의 AI 발전을 막고 있습니다",
+      "summary": "분산된 인프라는 AI 성능의 한계를 정합니다. 통합 플랫폼은 이러한 한계를 극복하는 방법을 제시합니다. 여러 개의 독립적인 시스템과 도구들로 인한 비효율성이 AI 프로젝트의 속도와 성능을 저하시킵니다. 통합된 인프라 솔루션을 도입하면 데이터 흐름이 원활해지고 운영 비용이 절감됩니다. 조직은 통합 플랫폼을 통해 AI 혁신에 더욱 집중할 수 있게 됩니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/fragmented-infrastructure-is-holding-your-ai-back/",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "판매 현장에서 AI 기반 변화로",
+      "summary": "Med Eddarif는 AI와 인간의 판단력을 결합하여 판매의 미래를 재구성하는 데 앞장서고 있습니다. 그는 기술적 혁신이 현장에서 일하는 사람들을 위해 실질적인 가치를 만들어야 한다고 믿습니다. AI 기반의 변화는 단순히 자동화가 아니라, 판매 전문가들의 능력을 강화하고 의사결정을 개선하는 도구여야 합니다. 성공적인 디지털 변환은 기술과 인간 중심의 접근 방식의 균형을 맞출 때 비로소 가능합니다. 이러한 철학은 조직 내 저항을 줄이고 직원들의 자발적인 참여를 이끌어냅니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/from-sales-floor-to-ai-driven-change/",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE와 함께 성공하기 위해 경청하고 행동하다",
+      "summary": "HPE의 성장 전략의 중심에는 파트너가 있습니다. 파트너들은 혁신을 고객에게 더 가깝게 전달하고, 조직의 자신감 있는 현대화를 지원하며, 기술 투자를 실제 성과로 전환하는 데 필요한 도달력, 전문성 및 신뢰 관계를 창출합니다. 따라서 3분기는 실행의 시간이었습니다. 역동적인 공급 환경 속에서 파트너들은 더 큰 속도, 단순성 및 예측 가능성이 필요하다고 HPE에 전했습니다. HPE는 이를 경청하고 파트너 주도의 비즈니스 경쟁력을 강화하기 위해 신속하게 움직였습니다. HPE의 3분기 실적 발표에서 파트너 비즈니스의 지속적인 성장이 인상적임을 확인할 수 있습니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/09/listening-and-acting-to-help-our-partners-win-with-hpe.html",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE 서버와 금융 서비스로 DNEG의 창의적인 시각 효과 및 애니메이션 워크플로우 확장",
+      "summary": "시각 효과와 애니메이션 업계에서 아티스트, 애니메이터, 기술자들은 전 세계 대륙과 시간대를 넘나들며 협업하여 세계적으로 유명한 영화와 TV 시리즈를 제작하고 있습니다. 오디세이, 듄, 라스트 오브 어스, 앙그리버드 무비 3 등의 수상 경력이 있는 스튜디오인 DNEG는 이러한 글로벌 창의 생태계를 지원하기 위해 성능, 보안, 확장성 및 유연성을 제공할 수 있는 기술 기반이 필요합니다. HPE 서버와 금융 서비스를 통해 DNEG는 창의적인 시각 효과 및 애니메이션 워크플로우를 효과적으로 확장할 수 있게 되었습니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/09/dneg-scales-creative-visual-effects-and-animation-workflows-with-hpe-servers-and-financial-services.html",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, 사상 최대 규모 974개 취약점 패치 공개, 악용 중인 제로데이 2개 포함",
+      "summary": "마이크로소프트가 한 달에 974개의 취약점을 패치하면서 역대 최다 규모의 보안 업데이트를 실시했습니다. 이번 패치에는 현재 실제 악용되고 있는 제로데이 취약점 2개가 포함되어 있어 보안 위협이 심각한 상황입니다. 패치 화요일(Patch Tuesday)을 통해 공개된 이번 업데이트는 윈도우, 오피스 등 마이크로소프트의 주요 제품들을 보호하기 위한 것입니다. 사용자들은 시스템 보안을 위해 가능한 한 빠르게 업데이트를 적용할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/microsoft-patches-record-974-vulnerabilities-including-two-exploited-zero-days/",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Adobe, 상거래 제로데이를 포함한 170개 이상의 취약점 패치",
+      "summary": "Adobe가 170개 이상의 취약점을 패치했으며, 이 중 Commerce 제품의 중대 심각도 취약점(CVE-2026-75650)이 제로데이 공격으로 악용되고 있는 것으로 확인되었습니다. 이번 패치는 정기적인 패치 화요일을 통해 배포되었습니다. Commerce 제품의 취약점은 특히 공격자들에 의해 적극적으로 악용되고 있어 긴급 패치가 필요한 상황입니다. Adobe 사용자들은 가능한 한 빨리 해당 보안 업데이트를 설치하여 시스템을 보호할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/adobe-patches-over-170-vulnerabilities-including-commerce-zero-day/",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 에이전트를 탈취할 수 있는 숨겨진 지시문",
+      "summary": "문서, 이메일, 이미지, 메타데이터 및 코드에 숨겨진 프롬프트 인젝션이 AI 에이전트를 탈취하여 위험한 자동 작업을 유발할 수 있습니다. 이러한 숨겨진 지시문들은 사용자의 눈에 띄지 않으면서도 AI 시스템을 조종할 수 있는 심각한 보안 위협입니다. 공격자들은 정상적인 콘텐츠 속에 악의적인 명령어를 삽입하여 AI 에이전트가 의도하지 않은 행동을 수행하도록 유도할 수 있습니다. 이는 특히 자동화된 의사결정을 수행하는 AI 에이전트에게 중대한 위험으로 작용합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/the-hidden-instructions-that-can-hijack-ai-agents/",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "해커들이 Liquid Network에서 탈취한 2억 6300만 달러 반환",
+      "summary": "Liquid Network에서 탈취한 2억 6300만 달러 규모의 암호화폐를 해커들이 반환했습니다. 이번 사건은 소위 '화이트햇' 해커로 추정되는 자들이 거래소에서 자금을 인출한 후 돌려준 것으로 알려져 있습니다. 비트코인 블록체인을 통한 거래 추적으로 인해 해킹 범인이 자금을 반환하기로 결정한 것으로 보입니다. 이러한 사건은 암호화폐 거래소의 보안 취약점과 디지털 자산 도용의 심각성을 다시 한번 부각시켜 줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hackers-return-263-million-stolen-from-liquid-network/",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Cylake, 사이버보안 플랫폼 베타 출시 앞두고 2억 4,500만 달러 투자 유치",
+      "summary": "사이버보안 스타트업 Cylake가 새로운 사이버보안 플랫폼의 베타 출시를 앞두고 2억 4,500만 달러 규모의 투자 자금을 확보했습니다. 이번 투자는 회사의 혁신적인 보안 아키텍처 솔루션에 대한 시장의 높은 관심을 보여주는 사례입니다. Cylake는 곧 자사의 사이버보안 플랫폼 베타 버전을 공개할 예정이며, 이를 통해 조직의 보안 체계 강화를 지원할 계획입니다. 이번 자금 조달은 사이버보안 산업에서의 지속적인 투자 증가 추세를 반영하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cylake-raises-245-million-ahead-of-cybersecurity-platform-beta/",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "SAP, 심각한 확장 패스포트 처리 취약점 패치",
+      "summary": "SAP가 CVE-2026-44756로 등재된 확장 패스포트 처리와 관련된 심각한 취약점에 대한 보안 패치를 공개했습니다. 이 취약점은 SAP 시스템의 인증 메커니즘에 영향을 미칠 수 있는 것으로 알려져 있습니다. SecurityWeek에 따르면 해당 취약점은 공격자에게 악용될 수 있는 중대한 위협으로 평가되고 있습니다. SAP는 영향을 받는 사용자들에게 즉시 패치 적용을 권고하고 있습니다. 기업들은 자신의 SAP 시스템이 최신 보안 업데이트를 적용했는지 확인할 필요가 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/sap-patches-critical-extended-passport-processing-vulnerability/",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "2억4천만 달러 비트코인 도둑질 후 과소비한 암호화폐 사기범들의 몰락",
+      "summary": "보안 당국이 2억4천만 달러 규모의 비트코인 도둑질에 연루된 암호화폐 사기범들을 추적하여 적발했다. 피의자들은 도난 자금으로 사치스러운 생활을 영위하며 적극적으로 자금을 사용한 것으로 알려졌다. 이들의 과도한 지출 패턴과 암호화폐 거래 기록이 적발의 주요 단서가 되었다. 수사팀은 블록체인 분석 기술을 활용하여 자금의 흐름을 추적하고 용의자들을 특정했다. 이 사건은 암호화폐 관련 범죄의 증가와 함께 법 집행 기관의 디지털 자산 추적 능력 향상을 보여주는 사례이다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/partys-over-for-crypto-scammers-who-went-on-a-spending-spree-after-a-240-million-bitcoin-theft/",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로틱, 라우터 해킹에 연쇄 악용되는 중대 보안 취약점 패치",
+      "summary": "마이크로틱이 라우터OS의 6개 보안 취약점을 패치했으며, 그 중에는 '마이크로트릭'이라고 불리는 결함들이 포함되어 있습니다. 이 취약점들은 실제로 연쇄적으로 악용되어 라우터 기기를 탈취하는 공격에 이용되고 있었습니다. 해당 공격은 이미 야생에서 적극적으로 활용 중이었으므로 사용자들의 신속한 업데이트가 권장됩니다. 이번 패치는 네트워크 보안에 중요한 역할을 하는 라우터 기기들을 보호하기 위한 필수적인 조치입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/mikrotik-patches-critical-flaws-chained-to-hack-routers/",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Mathspace 데이터 유출 사고, 100만 명 이상의 개인정보 노출",
+      "summary": "온라인 수학 학습 플랫폼 Mathspace에서 보안 사고가 발생하여 100만 명 이상의 개인정보가 해커에게 탈취되었습니다. 해커들은 자체 호스팅되는 Metabase 인스턴스에 불정상적으로 접근하여 사용자들의 개인정보를 대량으로 유출시켰습니다. 이 사건은 클라우드 기반 데이터 분석 도구의 보안 취약점이 얼마나 심각한 결과를 초래할 수 있는지를 보여줍니다. Mathspace는 피해 사실을 공개하고 영향을 받은 사용자들에 대한 보안 안내를 제공하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people/",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "N-able, N-central의 심각한 제로데이 취약점 패치",
+      "summary": "N-able이 N-central에서 발견된 심각한 제로데이 취약점(CVE-2026-86218)을 패치했습니다. 이 취약점은 인증되지 않은 원격 코드 실행(RCE)을 허용하는 것으로 확인되었습니다. N-central은 IT 관리 및 모니터링 솔루션으로 많은 조직에서 사용 중인 플랫폼입니다. 해당 취약점이 공개되기 전에 보안 패치가 배포되었으며, 사용자들은 즉시 업데이트를 적용할 것을 권장받고 있습니다. 이는 관리형 서비스 제공자(MSP) 및 기업 환경에서 중요한 보안 업데이트입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/",
+      "date": "2026-09-08"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "Dell AI Factory vs. HPE: Day 2를 위해 설계되었나?",
@@ -12499,152 +12659,8 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/prompt-injection-attacks-trick-ai-agents-into-making-crypto-payments/",
       "date": "2026-07-06"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[2026 개인정보보호 우수사례-3] KOTRA, 기관장 주도의 실천 캠페인... 일상 속 스며든 보안 문화",
-      "summary": "C등급에서 S등급으로 3년 만에 최고 수준 달성... 경영진 의지가 빚은 결실세계 86개국 132개 무역관 아우른 관리망 및 업적평가 연동으로 실행력 제고[보안뉴스 조재호 기자] 국내외 기업 고객과 해외 바이어를 이어주는 대한무역투자진흥공사(KOTRA)가 정보보안 및 개인정보보호 경영시스템(ISO 27001, 27701) 국제표준 동시 획득에 이어 보호수준",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144492&kind=&sub_kind=",
-      "date": "2026-07-06"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] 체크멀, 안티랜섬웨어 넘어 데이터 유출 방지 포트폴리오 출격",
-      "summary": "상황 인식 기반 랜섬웨어 탐지 엔진 적용된 ‘AppCheck Pro’10월 출시될 차세대 내부 정보 유출 실시간 차단 아키텍처 공개[보안뉴스 조재호 기자] 랜섬웨어 방어를 넘어 데이터 유출 방지 영역으로 사업을 확장 중인 체크멀이 ‘ISEC 2026’ 현장에서 차세대 통합 보안 청사진을 제시한다. 오는 10월 출시를 목표로 개발 중인 상황 인식 기반 내부",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144520&kind=&sub_kind=",
-      "date": "2026-07-06"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "ISEC 2026 미리보기] 지슨, 망분리 틈새 노리는 무선백도어 탐지 솔루션 ‘Alpha-H’",
-      "summary": "USB·케이블 등 스파이칩의 비인가 RF 통신 감시해 내부망 보호금융권 넘어 제조·반도체 데이터센터 등 주요 인프라 고객군 확대[보안뉴스 조재호 기자] 지슨이 오는 8월 11일부터 12일까지 서울 삼성동 코엑스에서 개최되는 제20회 국제 시큐리티 콘퍼런스(ISEC 2026)에 참가해 자사의 핵심 무선백도어 해킹 탐지 시스템인 ‘Alpha-H’를 선보인다.2",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144519&kind=&sub_kind=",
-      "date": "2026-07-06"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "포티넷코리아, AI 시대 스타트업 사이버보안 교육·컨설팅 제공",
-      "summary": "AI 확산 속 스타트업 보안 역량 강화 필요초기 및 성장 단계 기업 대상 실무 교육[보안뉴스 강현주 기자] 네트워크 보안 융합 솔루션 기업 포티넷코리아(북아시아 총괄 대표 체리 펑)는 스타트업 성장 파트너 디캠프(dcamp)와 협력해 초기·성장 단계 스타트업을 대상으로 사이버보안 교육·컨설팅 프로그램을 공동 운영한다고 6일 밝혔다.포티넷코리아는 오는 14일",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144509&kind=&sub_kind=",
-      "date": "2026-07-06"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "행정안전부, 2026년 지진안전 AI 영상 공모전 개최",
-      "summary": "8월 9일까지 전 국민 대상 지진안전 AI 영상 공모지진지진해일화산 재난 발생 시 행동요령을 창의적인 AI 영상으로 표현[보안뉴스 엄호식 기자] 행정안전부(장관 윤호중)는 국민의 지진안전 의식을 높이고 지진·지진해일·화산 재난 발생 시 행동요령을 효과적으로 알리기 위해 ‘2026년 지진안전 AI 영상 공모전’을 개최한다.이번 공",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144508&kind=&sub_kind=",
-      "date": "2026-07-06"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "SKT, AIDC ‘해인’ 클러스터 CSAP 취득",
-      "summary": "블랙웰 GPU 기반 AI 클라우드 사업자 첫 사례공공·금융 적합… 소버린AI 인프라 자리매김 [보안뉴스 강현주 기자] SK텔레콤(대표 정재헌)은 엔비디아 블랙웰 그래픽처리장치(GPU) 기반의 인공지능(AI) 데이터센터 인프라 ‘해인’ 클러스터가 한국인터넷진흥원(KISA)이 주관하는 클라우드 서비스 보안 인증(CSAP)를 취득했다고 6일 밝혔다.여러 개의 G",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144507&kind=&sub_kind=",
-      "date": "2026-07-06"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "조달청, 2026년 하반기 MAS 신규수요물자 신청 접수",
-      "summary": "7월 한 달간 나라장터 통해 신청접수올해 12월말까지 처리 완료 예정[보안뉴스 엄호식 기자] 조달청(청장 백승보)은 다수공급자계약(MAS)시장 진입을 희망하는 기업들을 대상으로 ‘2026년 하반기 MAS 신규수요물자 신청’을 공고했다고 밝혔다. 다수공급자계약(MAS: Multiple Award Schedule)은 조달청이 품질·성능·효율 등이",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144505&kind=&sub_kind=",
-      "date": "2026-07-06"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "KT “제로트러스트 보안에 3년간 4조원 투자”... AX 플랫폼 컴퍼니 선언",
-      "summary": "정보보안·IT·네트워크 초격차에 3년간 12조원 투자‘단단한 본질’과 ‘확실한 성장’ 두 축[보안뉴스 강현주 기자] KT가 AX 플랫폼 컴퍼니 도약을 위해 3년간 제로트러스트 보안 체계 마련에 3조원을 투자한다. 정보보안·IT·네트워크 초격차에 총 12조원을 투자할 계획이다. 6일 KT 국가기간통신사업자의 본질적인 역량에 인공지능(AI) 혁신을 더해 대한민",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144504&kind=&sub_kind=",
-      "date": "2026-07-06"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "미 지방 정부, 데이터 유출 막으려 러 배후 해킹 조직에 100만달러 지불",
-      "summary": "러시아 배후 해커 그룹 ‘카이로스’에 공격 당해랜섬웨어 암호화 없이 데이터 공개 협박에 집중[보안뉴스 김형근 기자] 미국 한 지방 정부가 데이터 탈취 후 유출을 빌미로 협박한 신생 사이버 범죄 조직 ‘카이로스’(Kairos)에 100만달러(약 14억원)의 몸값을 지불한 사실이 뒤늦게 알려졌다.보안 정보 협의체 랜섬-ISAC(Ransom-ISAC)의 라케시",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144503&kind=&sub_kind=",
-      "date": "2026-07-06"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "여름방학 앞둔 학교 보안 강화... 에스원 ‘학교 안전 패키지’ 교육 현장서 인기",
-      "summary": "AI 영상관제와 비상벨, 출결관리를 결합한 학교 특화 보안 솔루션 제공학교 맞춤형 통합 보안 서비스로 사전 예방 중심 안전관리 지원늘봄학교 확대와 여름방학을 앞두고 교육 현장 도입 증가[보안뉴스 강초희 기자] 여름방학을 앞두고 일선 학교들이 보안 점검 및 시스템 강화에 나서고 있는 가운데, 에스원의 학교 특화 ‘안전 패키지’가 교육 현장에서 인기를 얻고 있",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144500&kind=&sub_kind=",
-      "date": "2026-07-06"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[속담으로 배우는 100가지 보안 습관 55] 세 살 버릇 여든까지 간다(5)-생일 비밀번호가 위험한 이유",
-      "summary": "아이디/비밀번호에 생일이나 전화번호를 쓰지 마세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐, 안",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143642&kind=&sub_kind=",
-      "date": "2026-07-06"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "OT 환경에서 액세스의 중요성 및 기존 접근 방식의 한계 극복 방안… 비욘드트러스트 웨비나 개최",
-      "summary": "7월 14일(화) 2시, ‘OT 위협 환경 분석 및 BeyondTrust의 격차 해소 방안’ 웨비나 개최[보안뉴스 한세희 기자] OT 환경이 점점 더 연결됨에 따라 액세스는 가장 지속적이면서도 간과되기 쉬운 위험 요소 중 하나로 대두되었다. 원격 공급업체, 시스템 통합업체 및 내부 팀 모두 핵심 OT 시스템에 대한 액세스가 필요하지만, 많은 조직은 여전히",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144388&kind=&sub_kind=",
-      "date": "2026-07-06"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[Global Security TOP 100] 정승룡 엠스톤 대표이사 “K-영상보안 기술력으로 글로벌 시장 공략하다”",
-      "summary": "AI 영상분석 고도화로 오탐 줄이고 예방 중심 영상보안 구현AI 서버·통합관제 플랫폼 앞세워 국내외 시장 공략 강화기술력과 가격 경쟁력으로 글로벌 K-영상보안 경쟁력 확대[보안뉴스 강초희 기자] AI 영상분석 기술이 빠르게 발전하면서 영상보안 시장도 새로운 전환기를 맞고 있다. 저장과 모니터링 중심이었던 영상보안은 지능형 분석과 예측, 사고 예방 중심으로",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144369&kind=&sub_kind=",
-      "date": "2026-07-05"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] 텍스트 넘어 지문·서명까지... 엘세븐시큐리티 비정형 데이터 마스킹",
-      "summary": "딥러닝 기반 OCR로 신분증·계좌번호 등 실시간 식별이미지 내 인장 및 수기 서명 자동 마스킹 지원[보안뉴스 조재호 기자] 엘세븐시큐리티가 오는 8월 개최되는 ISEC 2026에서 AI 기반 지능형 개인정보 탐지 및 마스킹 솔루션인 ‘Image Scan & Masking’을 선보인다. 비정형 데이터 보안의 중요성이 커지는 가운데 엘세븐시큐리티는 단순 텍스트",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144496&kind=&sub_kind=",
-      "date": "2026-07-05"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[Global Security TOP 100] 김상석 웹게이트 대표이사 “영상보안의 다음 역할을 끊임없이 고민해야”",
-      "summary": "영상보안, 기록에서 예방 중심 안전 인프라로 진화국산 AI SoC 기반 엣지 영상분석으로 현장 대응력 강화불꽃감지 카메라 확대하며 산업안전·국가중요시설 시장 공략[보안뉴스 강초희 기자] AI 기술 확산과 산업안전 수요 증가로 영상보안의 역할이 빠르게 변화하고 있다. 범죄 예방과 영상 기록에 집중했던 CCTV는 이제 화재와 재난, 산업재해를 사전에 감지하고",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144371&kind=&sub_kind=",
-      "date": "2026-07-05"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] 개인정보 통제권 잃은 기업들... ‘캐치시큐’가 해답 제시한다",
-      "summary": "올 9월 개정법 시행과 ISMS-P 의무화 대비하는 SaaS 솔루션수집·이용·파기 전 과정 AI로 자동화해 관리업무 14일→30분 압축[보안뉴스 조재호 기자] 오내피플이 ISEC 2026에서 AI 기반 개인정보보호 자동화 솔루션 ‘캐치시큐’를 선보이며 기업의 컴플라이언스 대응에 새로운 기준을 제시한다. 올 9월 강화되는 개정법과 2027년 ISMS-P 의무",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144497&kind=&sub_kind=",
-      "date": "2026-07-05"
     }
   ],
-  "totalItems": 3642,
+  "totalItems": 3658,
   "hasArchive": true
 }
