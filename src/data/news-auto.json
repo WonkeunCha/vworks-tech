@@ -3657,9 +3657,129 @@
     "https://www.securityweek.com/partys-over-for-crypto-scammers-who-went-on-a-spending-spree-after-a-240-million-bitcoin-theft/",
     "https://www.securityweek.com/mikrotik-patches-critical-flaws-chained-to-hack-routers/",
     "https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people/",
-    "https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/"
+    "https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/",
+    "https://www.dell.com/en-us/blog/dell-ai-data-platform-your-enterprise-data-azure-ready/",
+    "https://www.vastdata.com/blog/architecting-next-generation-data-centers-with-nvidia-era-and-vast-data",
+    "https://www.securityweek.com/helmguard-raises-7-3-million-for-agentic-grc-and-security/",
+    "https://www.securityweek.com/ai-is-giving-lesser-resourced-attackers-nation-state-level-reach-google-warns/",
+    "https://www.securityweek.com/androids-september-2026-updates-patch-180-vulnerabilities/",
+    "https://www.securityweek.com/chipmaker-patch-tuesday-nvidia-amd-arm-issue-security-advisories/",
+    "https://www.securityweek.com/fortinet-patches-critical-vulnerabilities-in-fortimonitoronsight-chrome-extension/",
+    "https://www.securityweek.com/us-agencies-warn-china-is-systematically-extracting-frontier-ai-capabilities/",
+    "https://www.securityweek.com/meta-launches-personal-ai-agent-muse-emphasizes-safety-and-privacy/",
+    "https://www.securityweek.com/ics-patch-tuesday-schneider-electric-siemens-fix-critical-flaws/",
+    "https://www.securityweek.com/ivanti-patches-critical-flaws-across-enterprise-security-products/",
+    "https://www.securityweek.com/this-key-will-self-destruct-an-open-standard-for-revocable-api-keys/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell AI 데이터 플랫폼: 엔터프라이즈 데이터, Azure 준비 완료",
+      "summary": "Dell PowerScale for Azure는 IT 부서에 AI 준비가 완료된 데이터와 하이브리드 클라우드 전반에 걸친 일관된 운영 환경을 제공합니다. 이를 통해 엔터프라이즈는 AI 도입을 가속화할 수 있습니다. Dell의 솔루션은 온프레미스와 클라우드 환경에서 데이터를 효율적으로 관리하면서 AI 워크로드 실행에 필요한 확장성과 성능을 제공합니다. Azure와의 긴밀한 통합으로 기업들은 복잡한 데이터 인프라 구축 없이도 빠르게 AI 프로젝트를 시작할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/dell-ai-data-platform-your-enterprise-data-azure-ready/",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "NVIDIA ERA와 VAST Data로 차세대 데이터센터 구축하기",
+      "summary": "기업들이 전통적인 데이터센터에서 고성능 'AI 팩토리'로 전환하면서 파일 스토리지, 객체 스토리지, 블록 스토리지 등으로 분산된 데이터 사일로는 비효율적이고 관리가 어려워지고 있습니다. 현대적인 AI 파이프라인은 수집, 전처리, 학습, 미세조정, 검색, 추론, 거버넌스, 장기 보관 등 여러 단계를 거치며, 파일과 객체 스토리지 간의 분리가 주요 병목입니다. 같은 데이터셋이 NFS 프로토콜이나 S3 객체 API 등 다양한 접근 방식을 필요로 하기 때문에, 통합된 멀티프로토콜 플랫폼이 필수적입니다. VAST AI 운영 체제의 DataStore는 동일한 데이터셋에 대해 파일(NFS over RDMA, SMB)과 객체(S3) 인터페이스를 동시에 제공하여 제로 데이터 무브먼트를 실현합니다. 이러한 통합 접근 방식은 데이터 복사 및 변환의 필요성을 제거하고, 운영 복잡성을 줄이며, AI 파이프라인을 가속화하여 다양한 워크로드가 효율적으로 동일한 데이터에 접근할 수 있게 합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/architecting-next-generation-data-centers-with-nvidia-era-and-vast-data",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HelmGuard, 에이전틱 GRC 및 보안을 위해 730만 달러 자금 조성",
+      "summary": "사이버보안 회사 HelmGuard가 에이전틱 거버넌스, 리스크, 컴플라이언스(GRC) 솔루션 개발을 위해 730만 달러의 자금을 조성했습니다. 이번 펀딩은 AI 기반의 자동화된 보안 및 규정 준수 관리 기술 개발에 사용될 예정입니다. HelmGuard는 인공지능을 활용한 차세대 GRC 플랫폼으로 기업의 보안 위험 관리와 규제 준수를 자동화하는 데 중점을 두고 있습니다. 이러한 투자는 조직이 복잡한 규정 준수 요구사항을 보다 효율적으로 처리할 수 있도록 지원할 것으로 기대됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/helmguard-raises-7-3-million-for-agentic-grc-and-security/",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI가 자원 부족한 공격자들에게 국가 수준의 능력을 제공하고 있다고 구글 경고",
+      "summary": "구글이 인공지능 기술이 자원이 제한적인 공격자들도 국가 차원의 사이버 공격 능력을 갖추도록 돕고 있다고 경고했습니다. AI 도구의 발전으로 인해 개별 해커나 소규모 공격 집단들이 과거에는 국가 지원 공격자들만 수행할 수 있던 정교한 사이버 공격을 실행할 수 있게 되었습니다. 이는 사이버보안 위협의 민주화를 의미하며, 전 세계적으로 더 많은 조직들이 고도로 정교한 공격에 노출될 위험이 증가하고 있습니다. 구글의 보안 분석가들은 이러한 추세가 기업과 정부 기관들의 방어 태세를 더욱 강화해야 함을 시사하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ai-is-giving-lesser-resourced-attackers-nation-state-level-reach-google-warns/",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "안드로이드 2026년 9월 업데이트, 180개 취약점 패치",
+      "summary": "구글의 안드로이드 플랫폼이 2026년 9월 보안 업데이트를 통해 총 180개의 취약점을 해결했습니다. 이번 업데이트는 모바일 기기 사용자들의 보안 위험을 줄이기 위한 정기적인 패치입니다. SecurityWeek에서 보도한 이 업데이트에는 다양한 심각도의 보안 결함들이 포함되어 있습니다. 사용자들은 기기의 안정성과 보안 강화를 위해 이 업데이트를 설치할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/androids-september-2026-updates-patch-180-vulnerabilities/",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "칩 제조사 패치 화요일: 엔비디아, AMD, Arm 보안 권고 발표",
+      "summary": "엔비디아, AMD, Arm 등 주요 칩 제조사들이 최근 발견된 제품의 취약점을 다루는 새로운 보안 권고를 발표했습니다. 이번 업데이트는 이들 회사의 제품들에서 발견된 여러 보안 결함을 해결하기 위한 것입니다. 사용자들은 자신의 시스템과 장비의 보안을 유지하기 위해 이러한 패치를 적용할 것을 권장받고 있습니다. 각 제조사별로 상이한 취약점들이 보고되었으며, 이는 전반적인 칩 제조 산업의 보안 개선이 필요함을 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/chipmaker-patch-tuesday-nvidia-amd-arm-issue-security-advisories/",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "포티넷, FortiMonitorOnSight 크롬 확장프로그램의 심각한 취약점 패치",
+      "summary": "포티넷(Fortinet)이 FortiMonitorOnSight 크롬 확장프로그램에서 발견된 심각한 취약점들을 패치했습니다. 해당 취약점은 네트워크 보안과 관련된 중요한 문제로 분류되었습니다. 이번 패치는 사용자들의 시스템 보안을 강화하기 위해 긴급히 배포되었습니다. 포티넷은 해당 제품을 사용 중인 고객들에게 최신 버전으로 업데이트할 것을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/fortinet-patches-critical-vulnerabilities-in-fortimonitoronsight-chrome-extension/",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국 정부기관, 중국의 첨단 AI 기술 체계적 탈취 경고",
+      "summary": "미국 정부 기관들이 중국이 미국의 첨단 인공지능(AI) 기술을 체계적으로 추출하고 있다고 경고했습니다. 이는 국가 안보와 기술 우위에 대한 심각한 위협으로 평가되고 있습니다. 중국은 다양한 방법을 통해 최첨단 AI 역량에 대한 정보를 수집하려는 조직적인 노력을 기울이고 있는 것으로 파악되었습니다. 미국 정부는 이러한 사이버 위협에 대응하기 위해 기술 수출 통제와 AI 보안 강화 등의 조치를 취하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/us-agencies-warn-china-is-systematically-extracting-frontier-ai-capabilities/",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "메타, 개인용 AI 에이전트 '뮤즈' 출시, 안전성과 개인정보보호 강조",
+      "summary": "메타가 새로운 개인용 AI 에이전트 '뮤즈(Muse)'를 출시했습니다. 이 서비스는 사용자의 안전성과 개인정보보호를 주요 가치로 강조하고 있습니다. 메타는 AI 기술 발전과 함께 보안 및 프라이버시 측면에서 책임감 있는 접근을 취하고 있습니다. 뮤즈는 사용자의 개인 정보를 보호하면서 AI 기반의 에이전트 서비스를 제공하도록 설계되었습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/meta-launches-personal-ai-agent-muse-emphasizes-safety-and-privacy/",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "ICS 패치 화요일: 슈나이더 일렉트릭, 지멘스 중대 결함 수정",
+      "summary": "슈나이더 일렉트릭과 지멘스를 포함한 산업용 제어 시스템(ICS) 제조업체들이 중대한 보안 취약점을 해결하기 위한 패치를 공개했습니다. 이번 패치는 산업 자동화 및 제어 시스템에 영향을 미치는 여러 치명적 결함들을 다루고 있으며, 공격자들에 의해 악용될 경우 심각한 피해를 초래할 수 있습니다. 해당 업체들은 사용자들에게 즉시 업데이트를 적용할 것을 권장하고 있습니다. 산업 기반시설 보안에 미치는 영향을 고려할 때, 신속한 패치 적용이 매우 중요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ics-patch-tuesday-schneider-electric-siemens-fix-critical-flaws/",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Ivanti, 엔터프라이즈 보안 제품의 심각한 결함 패치",
+      "summary": "Ivanti가 자사의 엔터프라이즈 보안 제품군에서 발견된 여러 개의 심각한(Critical) 보안 취약점을 패치했습니다. 이번 취약점들은 네트워크 보안 분야에서 광범위한 위협을 야기할 수 있는 것으로 평가되고 있습니다. Ivanti는 즉시 보안 업데이트를 제공하여 고객들이 신속하게 대응할 수 있도록 조치했습니다. 해당 결함은 엔터프라이즈 환경에서 광범위하게 사용되는 제품들에 영향을 미치는 것으로 확인되었습니다. 보안 전문가들은 조직들에게 가능한 한 빨리 패치를 적용할 것을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ivanti-patches-critical-flaws-across-enterprise-security-products/",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "자동 폐기 기능이 있는 API 키의 개방형 표준 개발",
+      "summary": "SecurityWeek에서 보도한 이 기사는 보안 위협에 대응하기 위해 자동으로 폐기될 수 있는 API 키에 대한 개방형 표준의 필요성을 다루고 있습니다. 현재 API 키 관리 방식에서는 유출된 자격증명이 오랫동안 악용될 수 있는 위험이 존재합니다. 이 새로운 표준은 API 키를 시간 제한을 두고 자동으로 무효화하거나 특정 조건에서 스스로 폐기되도록 함으로써 보안을 강화하는 것을 목표로 합니다. 이는 애플리케이션 보안 및 신원 접근 관리 분야에서 중요한 발전으로 평가됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/this-key-will-self-destruct-an-open-standard-for-revocable-api-keys/",
+      "date": "2026-09-09"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "AI 준비 기반 구축: Arizona Cardinals의 사례",
@@ -12551,116 +12671,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144538&kind=&sub_kind=",
       "date": "2026-07-07"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "라온시큐어, ‘옴니원 디지털 ID’ GS인증 1등급 획득",
-      "summary": "탈중앙화 실현한 분산신원인증 기술로 웹3 신뢰 거버넌스 확립공공·금융·교육 등 이기종 산업 전반에 하이엔드 보안 인증 표준 제시[보안뉴스 조재호 기자] 라온시큐어는 자사 블록체인 기반 신원·자격 인증 통합 플랫폼 ‘옴니원 디지털 ID’(OmniOne Digital ID)가 한국정보통신기술협회(TTA) 소프트웨어 품질인증 GS(Good Software)인증",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144536&kind=&sub_kind=",
-      "date": "2026-07-07"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "AI 코딩 비서를 AI 취약점 연구원으로...‘T3MP3ST’ 프레임워크 공개",
-      "summary": "[보안뉴스 김형근 기자] 일반 AI 코딩 어시스턴트를 자율형 취약점 연구원으로 전환시키는 보안 프레임워크 ‘T3MP3ST’가 공식 공개됐다. 이 시스템은 35개의 전문 보안 도구를 탑재해 대형 언어 모델(LLM)과 직접 연동하며 소프트웨어 아키텍처 내부의 복잡한 결함을 추적한다.특히 기존에 문서화되지 않은 미공개 취약점(제로데이)과 정교한 로직 오류를 스스",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144535&kind=&sub_kind=",
-      "date": "2026-07-07"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "국민과 함께 만드는 항공보안, ‘2026 항공보안주간’ 7월 8~10일 개최",
-      "summary": "국산 항공보안 장비 체험, 항공보안 문화확산 캠페인, 항공보안 채용 설명회 등 진행[보안뉴스 엄호식 기자] 국토교통부(장관 김윤덕)는 국가정보원, 경찰청과 함께 오는 7월 8일부터 10일까지 3일간 국립항공박물관과 인천·김포 등 전국 주요 공항에서 ‘2026 항공보안주간’을 개최한다고 밝혔다.올해로 2회째를 맞는 항공보안주간은 “국민과 함께 만드는 항공보안",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144534&kind=&sub_kind=",
-      "date": "2026-07-07"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[항공보안 칼럼] 항공보안의 마지막 방어선은 사람이다",
-      "summary": "급변하는 항공 위협 대응 위해 보안인력 교육·훈련 강화 및 기관 간 협력 필요7월 9일 ‘항공보안 패러다임의 변화와 보안요원 역량강화’ 주제로 미래항공보안포럼 개최[보안뉴스=박재완 (사)대한민국항공보안협회 회장] 지난해 1월 김해국제공항에서 출발을 준비하던 한 여객기에서 불이 났다. 승객과 승무원 등 176명이 전원 탈출했지만, 기체는 사실상 전소됐다. 유",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144529&kind=&sub_kind=",
-      "date": "2026-07-07"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "AI 에이전트가 전체 랜섬웨어 공격 주도... ‘제이드퍼퍼’(JadePuffer) 공격 포착",
-      "summary": "AI 에이전트가 사람 해커처럼 실패 상황에 적응, 문제 해결[보안뉴스 김형근 기자] 거대언어모델(LLM) 기반 AI 에이전트가 침투부터 최종 암호화에 이르는 전 과정을 완전히 자동화해 수행한 랜섬웨어 공격 사례를 보안 기업 시스딕(Sysdig)이 발견했다. AI가 랜섬웨어 전체 과정을 스스로 수행한 것이 확인된 사례는 이번이 처음이다. ‘제이드퍼퍼’(Jad",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144531&kind=&sub_kind=",
-      "date": "2026-07-07"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "아레스사이버전략연구소-USTTI, 글로벌 사이버 회복력 강화 MOU 체결",
-      "summary": "사이버 보안 지식 교류 및 인재 네트워크 구축[보안뉴스 강현주 기자] 아레스사이버전략연구소(ARES, 대표 이화영)는 글로벌 사이버 보안 역량을 강화하기 위해 글로벌 ICT 교육 기관인 미국 전기통신훈련소(USTTI, 이사장 겸 CEO 제임스 J. 오코너)와 업무협약(MOU)을 체결했다고 26일 밝혔다.USTTI는 1982년 미국 정부와 글로벌 IT·통신",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144528&kind=&sub_kind=",
-      "date": "2026-07-07"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Veil#Drop 공격에서 Blogspot 호스팅 페이로드 전달",
-      "summary": "Securonix가 Veil#Drop이라는 악성코드 프레임워크를 발견했습니다. 이 프레임워크는 손상된 웹사이트와 Google Blogspot을 악용하여 PureLog 정보 탈취 악성코드를 배포합니다. 공격자들은 합법적인 Google Blogspot 서비스를 이용함으로써 보안 탐지를 우회하고 있습니다. 이러한 공격 방식은 널리 신뢰받는 플랫폼을 악용하여 탐지 회피 효율성을 높입니다. PureLog는 사용자의 민감한 정보를 수집하는 스틸러 악성코드로 알려져 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/blogspot-hosted-payloads-delivered-in-veildrop-attacks/",
-      "date": "2026-07-06"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "비즈니스 중심 위험 관리로의 전환",
-      "summary": "조직들이 고립된 기술 데이터에서 벗어나 지속적인 위험 생명주기로 이동하고 있습니다. 이러한 전환을 통해 보안 통제를 실제 비즈니스 결과와 일치시킬 수 있습니다. 기업들은 더 이상 기술적 관점만 고려하는 것이 아니라 비즈니스 영향도를 종합적으로 평가하는 방향으로 전환 중입니다. SecurityWeek의 Steve Durbin 필자가 위험 관리의 패러다임 변화에 대해 설명하고 있으며, 이는 조직의 보안 전략을 비즈니스 목표와 더욱 긴밀하게 연계하는 중요성을 강조합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/the-shift-toward-business-aligned-risk-management/",
-      "date": "2026-07-06"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "무장한 리코 APT, 정부 및 전력 기관 표적",
-      "summary": "무장한 리코(Armored Likho) APT 그룹이 정부기관과 전력 기업을 대상으로 공격을 전개하고 있습니다. 이 위협 행위자는 모듈식 RAT(원격접근 트로이)와 정보 탈취 도구를 활용하여 공격을 수행합니다. 특히 주요 기반시설인 전력 부문을 표적으로 삼고 있어 심각한 보안 위협으로 평가됩니다. 보안 연구팀은 이 그룹의 활동을 지속적으로 모니터링하고 있으며, 관련 기관들의 방어 강화를 권고하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/armored-likho-apt-targeting-government-electric-power-entities/",
-      "date": "2026-07-06"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "북한 해커, 오픈소스 개발자를 대상으로 공급망 공격 전개",
-      "summary": "북한 해커들이 오픈소스 개발자들을 표적으로 하는 공급망 공격을 감행하고 있습니다. 이러한 공격은 오픈소스 프로젝트에 악성코드를 주입하여 수많은 사용자에게 피해를 입히려는 목적으로 진행되고 있습니다. 북한 지원 해킹 그룹들은 개발자들의 계정 탈취 및 리포지토리 침해를 통해 광범위한 공급망 침투를 시도하고 있습니다. 이는 오픈소스 소프트웨어의 광범위한 사용으로 인해 상당한 보안 위협이 될 수 있습니다. 보안 전문가들은 개발자 커뮤니티에 강화된 인증 및 코드 검증 절차 도입을 권고하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/north-korean-hackers-target-open-source-developers-in-supply-chain-attacks/",
-      "date": "2026-07-06"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "리눅스 '배드 에폴' 루트 접근 취약점에 대한 개념 증명 익스플로잇 공개",
-      "summary": "리눅스 시스템의 'Bad Epoll' 취약점(CVE-2026-46242)에 대한 개념 증명(PoC) 익스플로잇이 공개되었습니다. 이 취약점은 공격자에게 루트 권한을 획득할 수 있게 해주는 심각한 보안 위협입니다. 리눅스 사용자들은 이 취약점을 악용한 공격에 노출될 위험이 있으므로 긴급 패치가 필요합니다. 익스플로잇이 공개됨에 따라 보안 커뮤니티는 해당 취약점에 대한 주의를 당부하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/proof-of-concept-exploit-released-for-linux-bad-epoll-root-access-vulnerability/",
-      "date": "2026-07-06"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "프롬프트 인젝션 공격으로 AI 에이전트가 암호화폐 송금하도록 조작",
-      "summary": "보안 업체 Zscaler가 공격자들이 SEO 포이즈닝과 악성 웹사이트의 숨겨진 프롬프트를 이용해 AI 에이전트를 조작하는 공격을 발견했습니다. 이 프롬프트 인젝션 기법은 AI 시스템의 지시를 우회하여 사용자의 승인 없이 암호화폐 결제를 수행하도록 강제할 수 있습니다. 공격자들은 검색 엔진 최적화 기법을 악용해 악성 웹사이트를 상단에 노출시킨 후, 그 페이지에 숨겨진 명령어를 삽입합니다. 이는 AI 에이전트가 웹 콘텐츠를 크롤링하고 처리할 때 악의적인 지시를 따르도록 유도합니다. 이러한 공격 방식은 AI 기반 자동화 시스템의 새로운 보안 위협으로 떠오르고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/prompt-injection-attacks-trick-ai-agents-into-making-crypto-payments/",
-      "date": "2026-07-06"
     }
   ],
-  "totalItems": 3658,
+  "totalItems": 3670,
   "hasArchive": true
 }
