@@ -3,6 +3,150 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "공급망을 위한 주권형 AI, 사용자가 제어하는 인프라 기반 구축",
+      "summary": "Dell AI Factory에서 NVIDIA와 함께 Palantir Foundry 및 Ontology를 실행하면 온프레미스 기반의 주권형 AI 기초를 구축할 수 있습니다. 이 솔루션은 데이터, 소프트웨어, 인프라를 통합하여 조직이 AI 파일럿 단계에서 관리되는 프로덕션 의사결정으로 나아갈 수 있도록 지원합니다. 사용자가 인프라를 완전히 제어할 수 있으므로 데이터 주권과 보안을 보장합니다. 공급망 운영에서 실시간 의사결정과 최적화를 가능하게 합니다. 온프레미스 배포로 규제 요구사항을 충족하고 엔터프라이즈급 AI 거버넌스를 실현할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/sovereign-ai-for-the-supply-chain-built-on-infrastructure-you-control/",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell AI Factory 기반 Aible이 대규모 예측 가능한 AI를 실현하는 방법",
+      "summary": "Aible on Dell AI Factory는 최소 실행 가능 에이전시(Minimum Viable Agency) 접근 방식을 통해 AI 비용을 절감하고 위험을 최소화하며 비즈니스 가치 창출을 가속화합니다. 이 솔루션은 기업들이 AI 프로젝트의 복잡성을 줄이면서도 규모에 따른 성과를 달성할 수 있도록 지원합니다. Dell AI Factory의 인프라 위에서 구동되는 Aible은 예측 가능한 AI 구현을 통해 조직의 디지털 혁신을 촉진합니다. 이러한 접근법은 초기 투자의 리스크를 감소시키면서도 빠른 결과 도출을 가능하게 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-aible-on-dell-ai-factory-enables-predictable-ai-at-scale/",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell의 Inside Sales: Fabio Schwab가 추진력을 결과로 바꾼 방법",
+      "summary": "Fabio Schwab는 회복력, 팀워크, 고객 중심의 접근 방식을 통해 Dell에서 성공적인 영업 경력을 구축했습니다. 그의 성공 사례는 개인의 열정과 결단력이 어떻게 실제 성과로 이어지는지 보여줍니다. Dell 브랜드 앰배서더로서의 역할을 통해 그는 회사의 가치와 비전을 대내외에 전파하고 있습니다. 고객과의 관계를 최우선으로 하는 그의 접근법은 안정적인 판매 성과와 신뢰 관계 구축의 핵심이었습니다. 이러한 경험들은 영업 전문가들에게 지속적인 성장과 발전의 중요성을 강조합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/inside-sales-at-dell-how-fabio-schwab-turned-drive-into-results/",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "귀사의 AI가 신뢰할 수 있음을 증명할 수 있습니까?",
+      "summary": "AI 시스템의 신뢰성은 단순한 약속만으로는 불충분하며, 실제 증거와 투명성으로 입증되어야 합니다. Dell Technologies는 10월 4-7일 달라스에서 개최되는 TM Forum Hackathon에 참여하여 AI 신뢰성 검증 방법을 시연합니다. 이 행사는 AI의 책임감 있는 배포와 운영을 위한 증거 기반의 접근 방식을 강조합니다. 기업들은 AI 모델의 공정성, 설명 가능성, 보안성을 입증할 수 있는 구체적인 방법을 탐색할 수 있습니다. 신뢰할 수 있는 AI 구축은 기술적 검증뿐만 아니라 지속적인 모니터링과 투명한 커뮤니케이션을 필요로 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/can-you-prove-your-ai-can-be-trusted/",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "컴퓨터 조립하는 방법: 초보자 가이드",
+      "summary": "컴퓨터 조립은 단계별로 진행하면 초보자도 충분히 할 수 있습니다. 먼저 자신의 용도와 예산에 맞는 부품을 선택하는 것이 중요하며, 조립을 시작하기 전에 작업 공간을 깔끔하게 준비해야 합니다. 정전기 방지 조치를 취하고 각 부품의 호환성을 미리 확인한 후 단계별 지침을 따라 조립하면 안정적인 PC를 완성할 수 있습니다. 명확하고 초보자 친화적인 가이드를 따르면 누구나 자신의 컴퓨터를 직접 만들 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-to-build-a-computer-a-beginner-s-guide/",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "에이전트 샌드박스: 모든 스토리지 트렌드가 한 번에 나타나는 곳",
+      "summary": "에이전트 샌드박스는 안전하고 격리된 코드 테스트 및 실행 환경으로, 공유 또는 격리, 저비용 스냅샷, 테넌트 격리, 다운타임 없는 복제 등 현대적 스토리지 트렌드들이 모두 압축되어 나타난다. 샌드박스는 수 분 단위로 생성되었다가 소멸하는 워크로드로, 기존 데이터베이스처럼 오랫동안 유지되는 볼륨과는 완전히 다른 패턴을 보인다. 전통적인 스토리지 시스템은 볼륨이 수개월간 존재한다고 가정하고 설계되었지만, 샌드박스 플릿은 매시간 수천 개의 볼륨을 생성하고 파괴하므로 기존 프로비저닝 모델이 완전히 역전된다. 이러한 고주기 프로비저닝-실행-파괴 패턴에서는 호스트 등록, 네트워크 경로 설정, 메타데이터 추적 같은 관리 오버헤드가 병목이 되어 raw 처리량보다 더 큰 문제가 된다. VAST는 이를 해결하기 위해 blockHostsAutoPrune 옵션을 제공하여 미사용 VAST Host 항목을 자동으로 정리하고, 프로비저닝 지연을 최소화하여 샌드박스 워크로드의 특수한 요구사항에 대응한다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/agent-sandboxes-where-every-storage-trend-shows-up-at-once",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Mandiant 창립자 Kevin Mandia, Amazon 이사회 합류",
+      "summary": "Amazon이 사이버보안 업계의 베테랑인 Kevin Mandia를 이사회에 임명했습니다. Mandiant의 창립자인 Mandia는 뛰어난 보안 전문성으로 기술 업계에서 널리 인정받고 있습니다. 이번 인사는 Amazon이 이사회 수준에서 사이버보안 전문성을 강화하려는 움직임을 보여줍니다. Mandia의 합류로 Amazon은 보안 분야의 깊은 경험과 통찰력을 확보하게 되었습니다. 이는 기업의 보안 거버넌스 강화를 위한 전략적 결정으로 평가됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/mandiant-founder-kevin-mandia-joins-amazon-board/",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "사이버보안 M&A 동향: 2026년 8월 33건 거래 발표",
+      "summary": "2026년 8월에 글로벌 사이버보안 업계에서 33건의 인수합병(M&A) 거래가 발표되었습니다. SecurityWeek이 발표한 이 M&A 라운드업은 사이버보안 분야의 지속적인 산업 통합 추세를 보여줍니다. 이 기사는 8월 한 달간 발생한 주요 인수합병 거래들을 정리하여 업계의 투자 동향과 기업 인수 현황을 전달합니다. 사이버보안 시장의 활발한 M&A 활동은 기업들의 보안 역량 강화 및 사업 확장에 대한 관심이 높음을 의미합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cybersecurity-ma-roundup-33-deals-announced-in-august-2026/",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Anthropic 연구원, AI 개발의 위험성에 대한 경고와 함께 사직",
+      "summary": "Anthropic의 연구원 Jacob Coxon이 AI 개발에 대한 책임감 있는 태도 부족을 이유로 회사에서 사직했다. Coxon은 Anthropic과 그 경쟁사들이 AI 개발 과정에서 충분히 책임감 있게 행동하지 않고 있다는 우려를 제기했다. 이는 AI 산업 내에서 안전성과 윤리적 개발에 대한 내부적 갈등이 존재함을 시사한다. 해당 사건은 빠르게 성장하는 AI 기술 분야에서 안전 및 규제 문제가 얼마나 중요한지를 드러낸다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/anthropic-researcher-resigns-with-warning-about-the-dangers-of-ai-development/",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "해커 대화: 공연자에서 링마스터로 변신한 빈니 류",
+      "summary": "SecurityWeek의 '해커 대화' 시리즈에서 빈니 류(Vinnie Liu)를 주제로 다루고 있습니다. 이 기사는 공연자 출신으로 보안 업계의 리더십 역할을 맡게 된 빈니 류의 경력 변화를 조명하고 있습니다. 해킹과 사이버보안 분야에서의 그의 영향력과 기여도를 탐구하며, 개인의 배경이 어떻게 보안 커뮤니티를 이끄는 역할로 발전했는지를 보여줍니다. 이 인터뷰는 사이버보안 전문가들의 다양한 경력 경로와 업계 내 리더십에 대한 통찰력을 제공합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hacker-conversations-vinnie-liu-performer-turned-ringmaster/",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기만적인 안드로이드 앱, 구글 플레이 초기 접근 프로그램 악용하여 리뷰 회피",
+      "summary": "기만적인 안드로이드 앱들이 구글 플레이의 초기 접근 프로그램을 악용하여 앱 리뷰를 우회하고 있습니다. 이러한 앱들은 가짜 보상, 딥페이크 광고, 그리고 기만적인 앱 설명을 통해 광고 수익을 창출하고 있습니다. 초기 접근 프로그램은 개발자들이 제한된 사용자 그룹에게 앱을 먼저 공개할 수 있도록 허용하는 기능으로, 악의적인 개발자들이 이를 악용하여 공식 검수 과정을 피하고 있습니다. 이는 안드로이드 사용자들이 사기성 앱에 노출될 위험이 증가하고 있음을 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/deceptive-android-apps-exploit-google-play-early-access-to-evade-reviews/",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "웨비나 오늘 개최: AI를 따라잡기 - 엔드포인트 복구를 위한 새로운 운영 모델",
+      "summary": "SecurityWeek에서는 AI 기술을 활용한 엔드포인트 보안 관리의 새로운 접근 방식에 대한 웨비나를 개최합니다. 이 세션에서는 조직이 빠르게 진화하는 사이버 위협에 대응하기 위해 엔드포인트 복구 프로세스를 현대화하는 방법을 다룹니다. AI 기반의 자동화된 운영 모델을 통해 보안팀의 효율성을 높이고 취약점 대응 시간을 단축할 수 있는 방안이 제시됩니다. 엔드포인트 보안 및 취약점 관리에 관심 있는 기업의 의사결정자들을 위한 실질적인 인사이트를 제공할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/webinar-today-keep-pace-with-ai-a-new-operating-model-for-endpoint-remediation/",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "심각한 NetScaler 취약점이 공격에 악용되고 있음",
+      "summary": "Citrix의 NetScaler 제품에서 발견된 심각한 취약점이 실제 공격에 악용되고 있는 것으로 보도되었습니다. SecurityWeek이 보도한 이 사건은 클라우드 로드 밸런서로 널리 사용되는 NetScaler 애플리케이션 딜리버리 솔루션을 대상으로 한 것입니다. 이 취약점은 기업 네트워크 인프라에 대한 심각한 보안 위협을 야기하고 있습니다. 공격자들이 이미 이 취약점을 활용해 침입을 시도하고 있어 긴급한 패치 및 대응이 필요한 상황입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/critical-netscaler-vulnerability-exploited-in-attacks/",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "확대된 스캔으로 네 번째 불량 Claude 사이버 사건 적발",
+      "summary": "SecurityWeek에 따르면 광범위한 보안 스캔을 통해 Anthropic의 Claude AI와 관련된 네 번째 악의적인 사이버 사건이 발견되었습니다. 이번 발견은 AI 시스템의 보안 취약점에 대한 우려를 더욱 심화시키고 있습니다. 불량 Claude 관련 사건들은 AI 모델이 악의적인 목적으로 악용될 수 있다는 점을 보여줍니다. Anthropic과 보안 커뮤니티는 이러한 위협에 대응하기 위해 더욱 강화된 보안 조치를 취하고 있습니다. 이는 엔터프라이즈 환경에서 AI 보안의 중요성을 재강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/widened-scan-turns-up-fourth-rogue-claude-cyber-incident/",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "어댑트헬스 데이터 유출로 410만 명 영향받음",
+      "summary": "의료 기기 및 서비스 공급업체인 어댑트헬스(AdaptHealth)가 대규모 데이터 유출 사고를 당해 410만 명의 개인정보가 노출되었습니다. 유출된 정보에는 개인정보, 건강정보, 보험정보 등이 포함되어 있습니다. 이번 사건은 의료 산업에 대한 사이버 공격이 계속되고 있음을 보여주는 사례입니다. 어댑트헬스는 피해자들에게 신원 도용 방지 서비스 제공 등의 조치를 취하고 있습니다. 해당 회사는 관련 당국에 유출 사건을 통보하고 사건에 대한 조사를 진행 중입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/4-1-million-impacted-by-adapthealth-data-breach/",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Cisco Secure FMC 악용 경고 - 조직들에 주의 당부",
+      "summary": "Cisco Secure FMC(Firewall Management Center)에 대한 악용 시도가 증가하고 있어 보안 전문가들이 조직들에 주의를 당부하고 있습니다. 이번 사건은 방화벽 관리 시스템의 취약점을 노린 공격으로, 영향받는 조직들은 즉시 보안 업데이트를 적용하고 시스템을 점검할 것을 권고받고 있습니다. Cisco Secure FMC는 엔터프라이즈 네트워크 보안의 핵심 인프라로 사용되기 때문에 이러한 악용 시도는 광범위한 보안 위협이 될 수 있습니다. 현재 Cisco는 해당 취약점에 대한 패치를 제공하고 있으며, 모든 사용자에게 긴급 업데이트를 권장하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/organizations-warned-of-cisco-secure-fmc-exploitation/",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "Dell AI 데이터 플랫폼: 엔터프라이즈 데이터, Azure 준비 완료",
       "summary": "Dell PowerScale for Azure는 IT 부서에 AI 준비가 완료된 데이터와 하이브리드 클라우드 전반에 걸친 일관된 운영 환경을 제공합니다. 이를 통해 엔터프라이즈는 AI 도입을 가속화할 수 있습니다. Dell의 솔루션은 온프레미스와 클라우드 환경에서 데이터를 효율적으로 관리하면서 AI 워크로드 실행에 필요한 확장성과 성능을 제공합니다. Azure와의 긴밀한 통합으로 기업들은 복잡한 데이터 인프라 구축 없이도 빠르게 AI 프로젝트를 시작할 수 있습니다.",
       "category": "서버",
@@ -9930,9 +10074,9 @@
     }
   ],
   "sources": {
-    "Dell": 135,
-    "VAST Data": 42,
-    "SecurityWeek": 449,
+    "Dell": 140,
+    "VAST Data": 43,
+    "SecurityWeek": 459,
     "HPE": 25,
     "보안뉴스": 452
   }
