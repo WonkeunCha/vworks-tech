@@ -3685,9 +3685,129 @@
     "https://www.securityweek.com/critical-netscaler-vulnerability-exploited-in-attacks/",
     "https://www.securityweek.com/widened-scan-turns-up-fourth-rogue-claude-cyber-incident/",
     "https://www.securityweek.com/4-1-million-impacted-by-adapthealth-data-breach/",
-    "https://www.securityweek.com/organizations-warned-of-cisco-secure-fmc-exploitation/"
+    "https://www.securityweek.com/organizations-warned-of-cisco-secure-fmc-exploitation/",
+    "https://www.dell.com/en-us/blog/the-hardest-part-of-private-cloud-isn-t-the-hypervisor/",
+    "https://www.dell.com/en-us/blog/more-than-a-demo-audioshake-live-beats-the-cloud/",
+    "https://www.securityweek.com/users-in-houthi-held-yemen-tried-to-develop-advanced-weapons-with-ai-anthropic-says/",
+    "https://www.securityweek.com/phishing-research-challenges-conventional-security-awareness-testing/",
+    "https://www.securityweek.com/gitlab-vulnerability-exploited-one-day-after-disclosure/",
+    "https://www.securityweek.com/in-other-news-injecteave-attack-sim-swapper-sentenced-glasswing-findings-review/",
+    "https://www.securityweek.com/trezor-says-347000-users-received-phishing-emails-after-brevo-hack/",
+    "https://www.securityweek.com/ukrainian-conti-ransomware-developer-sentenced-to-4-years-in-us-prison/",
+    "https://www.securityweek.com/check-point-patches-critical-vpn-vulnerabilities/",
+    "https://www.securityweek.com/kiteworks-acquires-bonfy-ai-to-fill-the-ai-gap-in-data-governance/",
+    "https://www.securityweek.com/surfshark-systems-targeted-by-hackers/",
+    "https://www.securityweek.com/anthropic-says-russian-hackers-used-claude-ai-to-automate-malware-evasion/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "예멘 후티 통제 지역 사용자들이 AI를 이용한 첨단 무기 개발 시도 - Anthropic 보고",
+      "summary": "AI 보안 회사인 Anthropic이 예멘의 후티 지배 지역 사용자들이 자사의 AI 시스템을 통해 첨단 무기 개발을 시도했다고 발표했습니다. 이는 AI 기술이 악의적인 목적으로 악용될 수 있는 새로운 위협 사례를 보여줍니다. Anthropic은 이러한 시도를 감지하고 해당 사용자 계정을 차단하는 조치를 취했습니다. 이 사건은 AI 시스템 개발사들이 국가 제재 대상 지역의 사용자들로부터의 불법적인 접근을 방지해야 한다는 점을 강조합니다. 향후 AI 플랫폼들은 보안 및 규제 준수에 더욱 강화된 대책을 마련해야 할 것으로 보입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/users-in-houthi-held-yemen-tried-to-develop-advanced-weapons-with-ai-anthropic-says/",
+      "date": "2026-09-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "프라이빗 클라우드에서 가장 어려운 부분은 하이퍼바이저가 아니다",
+      "summary": "프라이빗 클라우드의 진정한 도전은 하이퍼바이저 아래 계층에서 발생합니다. Dell은 지난 10년간 이러한 복잡한 인프라 문제를 해결해온 경험을 보유하고 있습니다. 가상화 기술만으로는 클라우드 환경을 완전히 구축할 수 없으며, 스토리지, 네트워킹, 관리 등 기반 인프라 계층의 최적화가 필수적입니다. Dell의 통합 솔루션은 이러한 모든 요소를 함께 고려하여 효율적인 프라이빗 클라우드 환경을 제공합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/the-hardest-part-of-private-cloud-isn-t-the-hypervisor/",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "단순한 데모 이상의 것: AudioShake Live, 클라우드를 능가하다",
+      "summary": "Dell Pro Max with GB10은 원래 전시회 데모용으로 구입되었지만, 현재는 방송 업계의 주요 기업들을 위해 16개의 라이브 피드에서 대화 분리 기능을 실행하고 있습니다. 이는 클라우드 기반 솔루션보다 우수한 성능을 입증하며, 실제 프로덕션 환경에서의 효율성을 보여줍니다. AudioShake Live는 실시간 오디오 처리 요구사항을 충족하면서도 안정적인 솔루션으로 입증되었습니다. Dell의 하드웨어와 AudioShake의 기술이 결합되어 방송 업계의 복잡한 오디오 처리 과제를 해결합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/more-than-a-demo-audioshake-live-beats-the-cloud/",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "피싱 연구, 기존 보안 인식 테스트의 한계 지적",
+      "summary": "보안 업계의 일반적인 피싱 인식 교육 방식의 효과성에 의문을 제기하는 연구 결과가 발표되었습니다. 247만 건의 모의 공격 분석 자료에 따르면, 조직들이 직원들의 클릭 여부만 측정하는 것으로는 실제 보안 위협을 제대로 평가할 수 없다고 지적합니다. 연구진은 조직이 자격증 정보 유출 및 피싱 신고율 등을 함께 측정해야 실질적인 보안 인식 수준을 파악할 수 있다고 주장합니다. 이는 기존의 클릭율 기반 평가 방식만으로는 직원들의 실제 행동 변화와 보안 태도 개선을 제대로 반영하지 못한다는 의미입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/phishing-research-challenges-conventional-security-awareness-testing/",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "GitLab 취약점, 공개 후 하루 만에 악용되기 시작",
+      "summary": "GitLab의 보안 취약점이 공개된 지 단 하루 만에 위협 행위자들에 의해 악용되기 시작했습니다. 이는 보안 패치 적용 전에 공격이 이루어졌음을 의미하며, 조직들이 신속한 대응의 중요성을 다시 한 번 깨닫게 해줍니다. SecurityWeek의 보도에 따르면 공격자들은 빠르게 이 취약점을 공격 도구로 활용하기 시작했습니다. GitLab 사용자들은 즉시 시스템을 업데이트하고 추가 보안 조치를 취할 것을 권장받고 있습니다. 이번 사건은 취약점 공개 후 악용까지의 시간 간격이 점점 단축되고 있는 현재의 위협 환경을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/gitlab-vulnerability-exploited-one-day-after-disclosure/",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기타 뉴스: InjectEave 공격, SIM 교환 사기범 징역형, Glasswing 연구 결과 검토",
+      "summary": "SecurityWeek에서 보도한 사이버보안 관련 주요 뉴스를 정리했습니다. InjectEave 공격이라는 새로운 보안 위협이 발견되었으며, SIM 카드 교환을 이용한 사기를 저지른 범인이 징역형을 선고받았습니다. 또한 보안 연구 기관 Glasswing의 최신 보안 연구 결과가 검토되었습니다. 이 기사는 사이버범죄 분야의 다양한 보안 사건과 위협들을 다루고 있으며, 2026년 9월 11일에 발행되었습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-injecteave-attack-sim-swapper-sentenced-glasswing-findings-review/",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "트레조, 브레보 해킹 이후 34만 7천 명의 사용자가 피싱 이메일 수신",
+      "summary": "암호화폐 지갑 서비스인 트레조(Trezor)는 이메일 마케팅 플랫폼 브레보(Brevo)의 보안 침해로 인해 34만 7천 명의 사용자가 피싱 이메일을 받았다고 발표했습니다. 브레보 해킹 사건에서 유출된 트레조 사용자 정보가 악의적인 목적으로 악용되었습니다. 이는 공급망 공격의 또 다른 사례로, 제3자 서비스의 보안 침해가 많은 사용자에게 직접적인 피해를 줄 수 있음을 보여줍니다. 트레조는 사용자들에게 주의를 당부하고 피싱 시도에 대한 경각심을 높이고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/trezor-says-347000-users-received-phishing-emails-after-brevo-hack/",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "우크라이나 콘티 랜섬웨어 개발자, 미국에서 4년 징역형 선고",
+      "summary": "우크라이나 국적의 콘티 랜섬웨어 개발자가 미국 연방법원에서 4년의 징역형을 선고받았습니다. 콘티는 전 세계적으로 악명 높은 랜섬웨어 집단으로, 수많은 기업과 기관을 대상으로 공격을 감행해 왔습니다. 이번 판결은 국제 사이버 범죄 수사의 성과를 보여주는 사례입니다. 미국을 포함한 여러 국가들이 랜섬웨어 집단에 대한 단속을 강화하고 있는 상황을 반영합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ukrainian-conti-ransomware-developer-sentenced-to-4-years-in-us-prison/",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "체크포인트, 치명적 VPN 취약점 패치 출시",
+      "summary": "보안 업체 체크포인트(Check Point)가 CVE-2026-85102와 CVE-2026-85103으로 지정된 치명적 수준의 VPN 취약점을 패치했습니다. 이번 패치는 회사의 VPN 솔루션에 존재하던 보안 결함을 해결하기 위한 것입니다. 해당 취약점들은 공격자들에게 시스템 침투 및 데이터 유출의 기회를 제공할 수 있어 긴급 대응이 필요한 상황입니다. 체크포인트는 모든 사용자들에게 즉시 패치 적용을 권고하고 있습니다. 이는 기업의 원격 접근 인프라 보안을 강화하기 위한 중요한 조치입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/check-point-patches-critical-vpn-vulnerabilities/",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Kiteworks, 데이터 거버넌스의 AI 격차 해소를 위해 Bonfy.AI 인수",
+      "summary": "Kiteworks가 데이터 거버넌스 분야의 AI 기술 격차를 메우기 위해 Bonfy.AI를 인수했습니다. 이번 인수를 통해 Kiteworks는 데이터 보안 및 거버넌스 솔루션에 AI 기능을 통합할 수 있게 됩니다. Bonfy.AI의 기술은 조직이 민감한 데이터를 더욱 효과적으로 관리하고 보호하는 데 도움을 줄 것으로 예상됩니다. 이는 기업들이 증가하는 데이터 보안 위협에 대응하기 위한 전략적 움직임입니다. 인수를 통해 두 회사는 데이터 보호 시장에서 더욱 강화된 경쟁력을 갖추게 될 것으로 보입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/kiteworks-acquires-bonfy-ai-to-fill-the-ai-gap-in-data-governance/",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Surfshark 시스템, 해커의 공격 대상",
+      "summary": "VPN 및 사이버보안 기업인 Surfshark가 데이터 유출 사고를 공개했습니다. 테스트 서버에 저장된 제한적인 내부 엔지니어링 자료가 영향을 받았습니다. 이번 사건은 VPN 서비스 제공업체의 시스템이 해킹 대상이 되었음을 보여줍니다. 해당 데이터 유출은 Surfshark의 내부 개발 자료에 국한되었으며, 사용자 데이터 손상 여부는 명확하지 않습니다. 보안 기업들도 지속적인 사이버 위협에 노출되어 있음을 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/surfshark-systems-targeted-by-hackers/",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Anthropic, 러시아 해커들이 Claude AI를 악성코드 회피 자동화에 사용했다고 밝혀",
+      "summary": "보안 회사 Anthropic이 러시아의 국가 지원 해킹 그룹이 자사의 Claude AI 모델을 악성코드 탐지 회피를 자동화하는 데 악용했다고 발표했습니다. 이 사건은 Midnight Blizzard로 알려진 러시아 해킹 집단의 사이버 첩보 활동과 관련이 있습니다. 해커들은 Claude AI를 통해 악성코드를 변형하고 보안 도구의 탐지를 우회하는 방법을 자동화했습니다. 이는 생성형 AI 기술이 악의적인 목적으로 악용될 수 있다는 우려를 다시 한번 증명하는 사례입니다. Anthropic은 이러한 악용 행위를 감지하고 해당 계정을 중단 조치했습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/anthropic-says-russian-hackers-used-claude-ai-to-automate-malware-evasion/",
+      "date": "2026-09-11"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "공급망을 위한 주권형 AI, 사용자가 제어하는 인프라 기반 구축",
@@ -12579,116 +12699,8 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-coldfusion-langflow-joomla-flaws/",
       "date": "2026-07-08"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "GitHub 에이전틱 워크플로우의 프롬프트 인젝션 취약점 노출",
-      "summary": "GitHub의 에이전틱 워크플로우에서 발견된 심각한 프롬프트 인젝션 취약점으로 인해 인증되지 않은 공격자들이 프라이빗 저장소 데이터를 유출할 수 있는 위협이 제기되었습니다. 이 취약점은 AI 기반 워크플로우 기능에 악의적인 입력값을 주입하여 시스템을 악용하는 방식으로 작동합니다. SecurityWeek이 보도한 이 심각한 보안 결함은 많은 개발 조직들에게 즉각적인 패치와 보안 조치를 요구합니다. GitHub는 해당 취약점에 대한 대응 조치를 진행 중인 것으로 알려졌습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/critical-vulnerability-exposes-github-agentic-workflows-to-prompt-injection/",
-      "date": "2026-07-08"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[배종찬의 보안 빅데이터] 사람을 때릴 수도 있는 해킹 로봇 위협",
-      "summary": "피지컬 AI 기기 해킹은 곧바로 인명 피해로 이어져‘안전 정지’(Safe-Stop) 메커니즘, 하드웨어에서 강제해야[보안뉴스= 배종찬 인사이트케이 연구소장] 인공지능(AI)이 온라인 스크린과 가상 세계의 경계를 넘어 물리적 세계로 빠르게 내려오고 있다. 이른바 ‘피지컬 AI’(Physical AI) 시대의 개막이다. 썸트렌드(SomeTrend) 빅데이터 연",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144576&kind=&sub_kind=",
-      "date": "2026-07-08"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] 웨어밸리, ‘샤크라맥스·로그캐치’로 차세대 데이터 보안 해법 제시",
-      "summary": "통합 접근제어와 개인정보 접속기록 관리 결합, ‘보안 사각지대 제로’ 선언엄격해진 규제 환경-내부자 위협 대응하는 최적 컴플라이언스 솔루션 전시[보안뉴스 한세희 기자] 정보보안전문기업 웨어밸리(대표 손삼수)가 아시아 최대 규모 사이버 보안 콘퍼런스 ‘국제 시큐리티 콘퍼런스’(‘ISEC 2026)에 참가해 자사 핵심 보안 솔루션인 통합 접근제어 솔루션 ‘샤크",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144556&kind=&sub_kind=",
-      "date": "2026-07-08"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] 오픈소프트랩, “보안 운영은 LUNA SEC-OPS, AI 통제는 LUNA AI-GRC”",
-      "summary": "보안 업무는 더 단순하게, AI 사용은 더 안전하게[보안뉴스 한세희 기자] 오픈소프트랩은 보안 운영 포털 ‘루나섹옵스’(LUNA SEC-OPS)와 AI 거버넌스 솔루션 ‘LUNA AI-GRC`를 앞세워 정보보안 시장의 변화를 이끄는 기업이다. 정보보안을 포함한 다양한 솔루션 분야에서 신한은행·국민은행·한국전력공사·국방부 등 다수의 공공·금융 고객을 확보하고",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144554&kind=&sub_kind=",
-      "date": "2026-07-08"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[속담으로 배우는 100가지 보안 습관 58] 세 살 버릇 여든까지 간다(8)-브라우저 업데이트 안 하면 생기는 위험",
-      "summary": "웹 브라우저(Chrome, Edge 등)도 항상 최신 버전으로 유지하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=143645&kind=&sub_kind=",
-      "date": "2026-07-08"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "GS네오텍, 클라우드 보안 플랫폼 ‘시큐리티 렌즈’ 출시... K-거버넌스 최적화",
-      "summary": "한국어 특화 보안 용어 적용, 감사 리포트 자동 작성 지원글로벌 CSP 위협 분석으로 국내 규제 대응 강화[보안뉴스 조재호 기자] GS네오텍은 클라우드 운영 노하우와 AI 기술을 결합한 차세대 보안 통합 플랫폼 ‘시큐리티 렌즈’를 공식 출시했다고 8일 밝혔다. 국내 보안 법제에 최적화된 컴플라이언스 기능과 한국어 특화 AI 에이전트가 특징이다.기존 국내 클",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144560&kind=&sub_kind=",
-      "date": "2026-07-08"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "이동범 지니언스 대표 국민훈장 등 정보보호 유공자 35명 수상... 제15회 정보보호의 날 기념식",
-      "summary": "제15회 정보보호의 날 기념식 개최김용대 카이스트 교수 등 포장... 단체는 롯데건설 유일[보안뉴스 강현주 기자] 이동범 지니언스 대표 등 35명이 제15회 정보보호의 날 기념식에서 대한민국 정보보호에 기여한 공로로 수상했다. 8일 과학기술정보통신부(부총리 겸 장관 배경훈)와 국가정보원(원장 이종석), 행정안전부(장관 윤호중)는 한국인터넷진흥원(원장 이상중",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144558&kind=&sub_kind=",
-      "date": "2026-07-08"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "인텔리빅스, ‘2026 도약(Jump-up) 프로그램’ 선정 현판 수여받아",
-      "summary": "중기부·중진공, 인텔리빅스 방문... 안전 AI 기술력·사업화 역량 점검인텔리빅스 “안전 AI 기술 고도화로 국내외 시장 경쟁력 강화”[보안뉴스 강초희 기자] 인텔리빅스(대표 최은수·장정훈)가 인텔리빅스 본사에서 7월 7일 ‘2026 도약(Jump-up) 프로그램’ 최종 선정기업으로서 중소벤처기업부와 중소벤처기업진흥공단 관계자들로부터 선정 현판을 수여받았다",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144549&kind=&sub_kind=",
-      "date": "2026-07-08"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "쿠도커뮤니케이션, ‘22억원 규모’ 강남구 지능형 스마트도시 안전시스템 구축 사업 수주",
-      "summary": "노후 시설 고도화 및 치안 사각지대 최소화로 ‘안전한 강남’ 구현스마트 관제 기반 마련으로 주민 안전 최우선 스마트도시 도약 기여[보안뉴스 강초희 기자] 쿠도커뮤니케이션(대표 김용식)은 강남구청이 추진하는 ‘2026년 지능형 스마트도시 안전시스템 구축’사업을 수주했다고 밝혔다.이번 사업은 총 22억원 규모로, 쿠도커뮤니케이션은 강남구 관내에 지능형(AI)",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144550&kind=&sub_kind=",
-      "date": "2026-07-08"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "시놀로지, 중소기업 겨냥 1U 데이터 보호 어플라이언스 ‘DP5200’ 출시",
-      "summary": "가상화·SaaS·데이터베이스까지 지원... AI 기반 보안 기능과 중앙 통합관리 제공최대 12만개 워크로드와 1000대 서버 관리 가능APM 2.0 통해 AI 기반 이상 탐지 기능도 지원 예정[보안뉴스 강초희 기자] 시놀로지는 1U 액티브프로텍트(ActiveProtect) 어플라이언스 DP5200을 출시하며, 보다 폭넓은 데이터 보호 환경과 중소기업 규모의",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144553&kind=&sub_kind=",
-      "date": "2026-07-08"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "이란 연계 해커, 신종 ‘카번 C2’ 프레임워크로 이스라엘 공격",
-      "summary": "원격 모니터링 소프트웨어 권한 탈취, 핵심 안보 인프라 침투네이티브 AOT 컴파일 및 앱도메인 격리 등 첨단 은폐 기술 적용[보안뉴스 김형근 기자] 이스라엘 핵심 안보 인프라를 겨냥한 이란 연계 해커 조직의 사이버 공격이 포착됐다. 이번 공격에 쓰인 카번(Cavern) C2 프레임워크는 파일리스 공격과 데이터 격리 기술을 결합해 생존성을 극대화한 신형 도구",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144555&kind=&sub_kind=",
-      "date": "2026-07-08"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[CISO 코리아 2026] “AI 시대 보안, 당장 시작할 것은 ‘가시화’”",
-      "summary": "현정훈 코스콤 CISO, 생성형 AI 시대 복원력 제언[보안뉴스 기자 강현주] AI 시대 기업이 당장 시작해야 할 보안 지침 첫번째는 ‘가시성 확보’라는 제언이 나왔다.현정훈 코스콤 정보보호최고책임자(CISO)는 7일 서울 용산 피스앤파크컨벤션에서 열린 ‘CISO 코리아 2026’에서 ‘생성형AI 시대의 침해 대응 체계 연구 개발망 보안적용 사례’를 주제로",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144546&kind=&sub_kind=",
-      "date": "2026-07-08"
     }
   ],
-  "totalItems": 3686,
+  "totalItems": 3698,
   "hasArchive": true
 }
