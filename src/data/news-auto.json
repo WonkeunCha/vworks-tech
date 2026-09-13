@@ -3697,9 +3697,19 @@
     "https://www.securityweek.com/check-point-patches-critical-vpn-vulnerabilities/",
     "https://www.securityweek.com/kiteworks-acquires-bonfy-ai-to-fill-the-ai-gap-in-data-governance/",
     "https://www.securityweek.com/surfshark-systems-targeted-by-hackers/",
-    "https://www.securityweek.com/anthropic-says-russian-hackers-used-claude-ai-to-automate-malware-evasion/"
+    "https://www.securityweek.com/anthropic-says-russian-hackers-used-claude-ai-to-automate-malware-evasion/",
+    "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "블루문 익스플로잇 키트, 최근 크롬과 윈도우 제로데이 취약점 연쇄 활용",
+      "summary": "블루문 익스플로잇 키트가 최근 발견된 구글 크롬과 마이크로소프트 윈도우의 제로데이 취약점을 연쇄적으로 악용하고 있습니다. 이 익스플로잇 키트는 정보 수집을 목표로 하는 첩보 조직들에 의해 사용되고 있는 것으로 확인되었습니다. 해당 제로데이 취약점들은 공개된 지 얼마 되지 않아 많은 사용자들이 여전히 취약한 상태입니다. 공격자들은 이러한 취약점을 이용해 시스템에 무단으로 접근하고 민감한 정보를 탈취할 수 있습니다. 보안 전문가들은 즉시 보안 업데이트를 적용할 것을 권장하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/",
+      "date": "2026-09-12"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "예멘 후티 통제 지역 사용자들이 AI를 이용한 첨단 무기 개발 시도 - Anthropic 보고",
@@ -12690,17 +12700,8 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/google-dialogflow-cx-bug-allowed-attackers-to-hijack-ai-conversations/",
       "date": "2026-07-08"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "CISA, 악용되는 ColdFusion, Langflow, Joomla 취약점의 즉시 패치 권고",
-      "summary": "미국 사이버보안및기반시설보안청(CISA)이 ColdFusion, Langflow, Joomla의 취약점들에 대한 긴급 패치를 권고했습니다. 이 취약점들은 현재 실제 공격에 악용되고 있는 상황입니다. CISA는 조직들에게 해당 소프트웨어의 최신 보안 업데이트를 즉시 적용할 것을 촉구하고 있습니다. 이는 사이버 위협의 심각성이 높아졌음을 의미하며, 신속한 대응이 필수적입니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-coldfusion-langflow-joomla-flaws/",
-      "date": "2026-07-08"
     }
   ],
-  "totalItems": 3698,
+  "totalItems": 3699,
   "hasArchive": true
 }
