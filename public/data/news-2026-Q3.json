@@ -3,6 +3,15 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "Anthropic CEO 다리오 아모데이, AI 산업이 안전 조치 발전에 시간을 줄 필요가 있다고 주장",
+      "summary": "Anthropic의 CEO 다리오 아모데이는 AI 산업이 안전 조치가 기술 발전을 따라잡을 수 있도록 충분한 시간을 제공해야 한다고 강조했습니다. 그는 AI 기술의 급속한 발전 속도와 이에 따른 보안 및 안전 문제 사이의 불균형을 지적하고 있습니다. 업계는 새로운 AI 모델 배포 시 보안 평가와 안전 검증 절차를 더 신중하게 진행해야 한다는 의견입니다. 이러한 접근 방식은 AI 기술의 잠재적 위험을 최소화하고 신뢰성을 높이는 데 중요하다고 언급되었습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-safety-measures-time-to-catch-up/",
+      "date": "2026-09-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "블루문 익스플로잇 키트, 최근 크롬과 윈도우 제로데이 취약점 연쇄 활용",
       "summary": "블루문 익스플로잇 키트가 최근 발견된 구글 크롬과 마이크로소프트 윈도우의 제로데이 취약점을 연쇄적으로 악용하고 있습니다. 이 익스플로잇 키트는 정보 수집을 목표로 하는 첩보 조직들에 의해 사용되고 있는 것으로 확인되었습니다. 해당 제로데이 취약점들은 공개된 지 얼마 되지 않아 많은 사용자들이 여전히 취약한 상태입니다. 공격자들은 이러한 취약점을 이용해 시스템에 무단으로 접근하고 민감한 정보를 탈취할 수 있습니다. 보안 전문가들은 즉시 보안 업데이트를 적용할 것을 권장하고 있습니다.",
       "category": "보안",
@@ -10191,7 +10200,7 @@
     }
   ],
   "sources": {
-    "SecurityWeek": 470,
+    "SecurityWeek": 471,
     "Dell": 142,
     "VAST Data": 43,
     "HPE": 25,

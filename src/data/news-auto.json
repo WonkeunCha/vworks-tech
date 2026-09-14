@@ -3698,9 +3698,19 @@
     "https://www.securityweek.com/kiteworks-acquires-bonfy-ai-to-fill-the-ai-gap-in-data-governance/",
     "https://www.securityweek.com/surfshark-systems-targeted-by-hackers/",
     "https://www.securityweek.com/anthropic-says-russian-hackers-used-claude-ai-to-automate-malware-evasion/",
-    "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/"
+    "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/",
+    "https://www.securityweek.com/anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-safety-measures-time-to-catch-up/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Anthropic CEO 다리오 아모데이, AI 산업이 안전 조치 발전에 시간을 줄 필요가 있다고 주장",
+      "summary": "Anthropic의 CEO 다리오 아모데이는 AI 산업이 안전 조치가 기술 발전을 따라잡을 수 있도록 충분한 시간을 제공해야 한다고 강조했습니다. 그는 AI 기술의 급속한 발전 속도와 이에 따른 보안 및 안전 문제 사이의 불균형을 지적하고 있습니다. 업계는 새로운 AI 모델 배포 시 보안 평가와 안전 검증 절차를 더 신중하게 진행해야 한다는 의견입니다. 이러한 접근 방식은 AI 기술의 잠재적 위험을 최소화하고 신뢰성을 높이는 데 중요하다고 언급되었습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-safety-measures-time-to-catch-up/",
+      "date": "2026-09-13"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "블루문 익스플로잇 키트, 최근 크롬과 윈도우 제로데이 취약점 연쇄 활용",
@@ -12691,17 +12701,8 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/webinar-today-why-email-security-keeps-failing/",
       "date": "2026-07-08"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "구글 Dialogflow CX 버그로 공격자들이 AI 대화 탈취 가능",
-      "summary": "구글 클라우드의 Dialogflow CX에서 발견된 '로그 에이전트(Rogue Agent)'라는 취약점으로 인해 공격자들이 AI 에이전트를 제어하고 민감한 데이터를 탈취할 수 있었습니다. 이 보안 결함은 AI 기반 대화형 시스템의 무결성을 심각하게 위협하는 것으로 지적되고 있습니다. 해당 취약점을 통해 공격자는 정상적인 대화 흐름을 가로채어 악의적인 목적으로 변조할 수 있었습니다. 구글은 이 버그에 대한 패치를 배포하여 문제를 해결했으며, 영향을 받은 사용자들에게 즉시 업데이트를 권고하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/google-dialogflow-cx-bug-allowed-attackers-to-hijack-ai-conversations/",
-      "date": "2026-07-08"
     }
   ],
-  "totalItems": 3699,
+  "totalItems": 3700,
   "hasArchive": true
 }
