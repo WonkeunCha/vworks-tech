@@ -3699,9 +3699,129 @@
     "https://www.securityweek.com/surfshark-systems-targeted-by-hackers/",
     "https://www.securityweek.com/anthropic-says-russian-hackers-used-claude-ai-to-automate-malware-evasion/",
     "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/",
-    "https://www.securityweek.com/anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-safety-measures-time-to-catch-up/"
+    "https://www.securityweek.com/anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-safety-measures-time-to-catch-up/",
+    "https://www.dell.com/en-us/blog/dell-recognized-as-a-leader-by-idc-marketscape-worldwide-hardware-support-services/",
+    "https://www.dell.com/en-us/blog/portable-intelligence-why-ai-belongs-where-work-happens/",
+    "https://www.vastdata.com/blog/vast-data-named-siliconangle-techforward-winner-for-ai-optimized-data-platforms",
+    "https://www.securityweek.com/beijing-hits-back-at-anthropic-ceos-call-to-curb-chinas-ai-development/",
+    "https://www.securityweek.com/new-warnings-about-the-risks-of-ai-to-humanity-revive-a-long-running-debate/",
+    "https://www.securityweek.com/personal-financial-info-exposed-in-revolut-data-breach/",
+    "https://www.securityweek.com/the-race-to-control-ai-and-protect-what-makes-us-human/",
+    "https://www.securityweek.com/chinese-hackers-exploit-critical-tencent-software-flaw-for-one-click-code-execution/",
+    "https://www.securityweek.com/cisos-race-to-control-ai-agents-without-destroying-their-value/",
+    "https://www.securityweek.com/telus-warns-customers-of-account-breaches/",
+    "https://www.securityweek.com/three-jfrog-artifactory-flaws-exploited-for-backdoor-deployment/",
+    "https://www.securityweek.com/connectwise-patches-screenconnect-vulnerability-exploited-in-worm-like-attacks/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "IDC MarketScape: 델, 전 세계 하드웨어 지원 서비스 분야 리더로 인정받다",
+      "summary": "델 테크놀로지스는 AI 기반 옵저버빌리티와 글로벌 전문가 네트워크를 통해 IDC MarketScape 하드웨어 지원 서비스 부문에서 리더로 인정받았습니다. 이번 인정은 델이 고객의 IT 인프라 문제를 선제적으로 감지하고 해결할 수 있는 고도화된 기술 역량을 보유하고 있음을 의미합니다. 전 세계 수천 명의 기술 전문가로 구성된 글로벌 지원 조직은 24시간 365일 고객 지원을 제공합니다. 델의 AI 기반 분석 및 모니터링 솔루션은 다운타임을 최소화하고 시스템 성능을 최적화하는 데 기여합니다. 이러한 종합적인 지원 서비스는 기업의 디지털 혁신과 비즈니스 연속성을 보장하는 핵심 요소입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/dell-recognized-as-a-leader-by-idc-marketscape-worldwide-hardware-support-services/",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "휴대형 인텔리전스: AI가 업무가 일어나는 곳에 있어야 하는 이유",
+      "summary": "휴대형 인텔리전스는 엔터프라이즈 AI를 재편하고 있습니다. 오픈 가중치 모델은 조직이 책상에서 데이터센터까지 AI가 실행되는 위치를 선택할 수 있게 해줍니다. 이러한 접근 방식은 기업의 유연성을 높이고 AI 배포의 자유도를 증가시킵니다. 조직은 더 이상 특정 위치나 클라우드 제공자에 종속될 필요가 없습니다. 휴대형 인텔리전스를 통해 기업은 자신의 필요와 상황에 맞는 최적의 AI 솔루션을 구현할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/portable-intelligence-why-ai-belongs-where-work-happens/",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST Data, SiliconANGLE의 AI 최적화 데이터 플랫폼 부문 TechForward 상 수상",
+      "summary": "VAST Data가 SiliconANGLE의 TechForward Awards에서 AI 최적화 데이터 플랫폼 부문 수상자로 선정되었습니다. 이 상은 데이터, 컴퓨팅, 데이터베이스, AI 서비스를 통합 플랫폼에서 제공하는 VAST의 역량을 인정한 것입니다. 올해 여름 VAST는 Cloudera와의 전략적 파트너십 발표, CrowdStrike와의 사이버보안 통합 확대, NVIDIA와의 고성능 인프라 검증 청사진 제공 등 주요 성과를 달성했습니다. AI의 진정한 성공은 강력한 GPU보다 빠르고 신뢰할 수 있는 데이터 접근이 더 중요하며, 학습, 추론, 에이전트 애플리케이션 등 진화하는 AI 워크로드에 대응하려면 단편적인 시스템들을 연결하는 방식으로는 부족합니다. VAST AI OS는 이러한 모든 기능을 통합하여 더 낮은 지연 시간, 높은 처리량, 단순한 아키텍처를 제공함으로써 AI 워크로드의 성능과 경제성을 확보합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vast-data-named-siliconangle-techforward-winner-for-ai-optimized-data-platforms",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "베이징, 앤스로픽 CEO의 중국 AI 개발 억제 촉구에 맞대응",
+      "summary": "앤스로픽의 CEO가 미국이 중국의 인공지능 역량을 억제해야 한다고 촉구한 데 대해 중국 외교부가 반발했다. 이번 논쟁은 미국과 중국 간의 AI 기술 패권 경쟁이 심화되고 있음을 보여준다. 베이징은 한 미국 기업의 CEO 발언이 미국 정부의 공식 입장을 반영하지 않는다고 주장하면서 동시에 AI 개발에서의 자국의 정당한 권리를 강조했다. 양국 간의 AI 개발 제한을 둘러싼 갈등이 계속 고조되고 있는 상황이다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/beijing-hits-back-at-anthropic-ceos-call-to-curb-chinas-ai-development/",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "인류에 대한 AI 위험성에 관한 새로운 경고, 오랫동안 진행된 논쟁 재개",
+      "summary": "SecurityWeek에서 보도된 이 기사는 인공지능(AI)이 인류에 미칠 수 있는 위험성에 대한 새로운 경고들을 다루고 있습니다. 이러한 경고들은 AI 기술의 급속한 발전에 따른 잠재적 위협에 관해 오랫동안 지속되어온 학술적·기술적 논쟁을 다시 점화시키고 있습니다. 기사는 AI의 안전성과 통제 가능성에 관한 전문가들의 상이한 견해들을 조명하고 있으며, 이는 사이버보안 및 기술 규제 분야에서 중요한 화두가 되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/new-warnings-about-the-risks-of-ai-to-humanity-revive-a-long-running-debate/",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Revolut 데이터 유출로 개인정보 및 금융정보 노출",
+      "summary": "핀테크 기업 Revolut에서 데이터 유출 사건이 발생하여 사용자의 개인정보와 금융정보가 노출되었습니다. 이번 유출 사건은 의도하지 않은 공개로 인해 발생한 것으로 알려져 있습니다. 영향을 받은 사용자들의 민감한 정보가 보안 침해로 인해 외부에 노출될 수 있습니다. Revolut은 이 사건에 대해 조사 중이며 영향받은 사용자들에게 알림을 제공하고 있습니다. 이번 사건은 금융 서비스 기업들의 데이터 보안 강화의 필요성을 다시 한 번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/personal-financial-info-exposed-in-revolut-data-breach/",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 통제 경쟁과 인류의 본질 보호",
+      "summary": "이 기사는 인공지능(AI) 기술의 빠른 발전에 따른 글로벌 통제 경쟁과 인류의 미래를 보호하기 위한 노력에 대해 다루고 있습니다. AI 기술이 사회에 미치는 영향과 잠재적 위험성에 대한 우려가 증가하면서, 국제 사회에서는 AI의 안전한 개발과 운영을 위한 규제 방안을 모색하고 있습니다. 이는 단순한 기술적 문제를 넘어 인간의 존엄성과 기본권을 보호하는 윤리적 문제로 인식되고 있습니다. SecurityWeek의 Kevin Townsend 기자는 AI 시대에 인류가 직면한 도전과 기회에 대해 논의하고 있으며, 이는 사이버보안 및 기술 정책 영역에서 중요한 화두가 되었습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/the-race-to-control-ai-and-protect-what-makes-us-human/",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "중국 해커, 텐센트 소프트웨어 심각한 결함 악용해 원클릭 코드 실행",
+      "summary": "중국의 해킹 집단이 텐센트의 소프트웨어에서 발견된 심각한 보안 취약점을 악용하고 있습니다. 이 결함을 통해 공격자는 단 한 번의 클릭으로 악의적인 코드를 실행할 수 있게 되어 사용자 시스템에 직접적인 위협을 가하고 있습니다. 영향받는 소프트웨어는 중국 내에서 광범위하게 사용되고 있어 피해 규모가 상당할 것으로 예상됩니다. 텐센트는 즉시 패치를 배포하고 사용자들에게 긴급 업데이트를 권고하고 있습니다. 이번 사건은 국가 차원의 APT 그룹에 의한 적극적인 취약점 악용 사례로 분류되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/chinese-hackers-exploit-critical-tencent-software-flaw-for-one-click-code-execution/",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISO들, AI 에이전트의 가치를 훼손하지 않으면서 통제하기 위해 경쟁 중",
+      "summary": "Chief Information Security Officers(CISO)들이 AI 에이전트 기술의 이점을 유지하면서 동시에 보안 위협을 관리하는 균형을 맞추기 위해 노력하고 있습니다. AI 에이전트의 자동화 능력과 효율성은 업무 생산성을 크게 향상시킬 수 있지만, 통제되지 않은 운영은 보안 취약점을 야기할 수 있습니다. 이에 따라 조직들은 AI 에이전트를 안전하게 배포하고 관리할 수 있는 거버넌스 및 정책 프레임워크를 개발하고 있습니다. CISO들은 AI 기술의 혁신적 이점을 활용하면서도 사이버보안 리스크를 최소화하는 전략을 수립하는 데 주력하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisos-race-to-control-ai-agents-without-destroying-their-value/",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Telus, 고객 계정 해킹 피해 경고",
+      "summary": "캐나다 통신사 Telus가 일부 고객의 계정이 해킹되어 정보가 유출되었음을 알렸습니다. 이번 사건은 계정 탈취(account takeover) 공격으로 인한 데이터 유출 사건으로 분류됩니다. 영향받은 고객들의 개인정보가 침해된 것으로 확인되었습니다. Telus는 피해 고객들에게 이 사실을 공식 통보하고 있으며, 추가적인 보안 조치를 권고하고 있습니다. 이번 사건은 통신업계의 보안 위협이 증가하고 있음을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/telus-warns-customers-of-account-breaches/",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "JFrog Artifactory의 세 가지 취약점, 백도어 배포에 악용",
+      "summary": "JFrog Artifactory에서 발견된 세 가지 보안 취약점들이 악의적인 목적으로 악용되고 있습니다. 공격자들은 이 취약점들을 통해 시스템에 백도어를 설치하여 무단 접근을 획득할 수 있습니다. Artifactory는 소프트웨어 개발 및 배포 과정에서 광범위하게 사용되는 저장소 관리 플랫폼으로, 이번 취약점 악용은 공급망 공격의 위험성을 높입니다. 해당 취약점에 영향을 받는 조직들은 즉시 패치 적용 및 보안 점검을 실시해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/three-jfrog-artifactory-flaws-exploited-for-backdoor-deployment/",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "ConnectWise, ScreenConnect 취약점 패치 - 웜처럼 확산되는 공격에 악용 중",
+      "summary": "ConnectWise가 ScreenConnect의 보안 취약점에 대한 패치를 릴리스했습니다. 해당 취약점은 현재 웜과 유사한 특성을 가진 공격에 활발히 악용되고 있는 상황입니다. 이러한 웜 형태의 공격은 시스템에서 시스템으로 자동으로 확산되어 광범위한 피해를 야기할 수 있습니다. 사용자들은 즉시 최신 패치를 적용하여 시스템을 보호할 것을 권장받고 있습니다. 이 취약점의 악용은 원격 접속 소프트웨어인 ScreenConnect의 보안에 심각한 위험을 초래하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/connectwise-patches-screenconnect-vulnerability-exploited-in-worm-like-attacks/",
+      "date": "2026-09-14"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "Anthropic CEO 다리오 아모데이, AI 산업이 안전 조치 발전에 시간을 줄 필요가 있다고 주장",
@@ -12593,116 +12713,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144591&kind=&sub_kind=",
       "date": "2026-07-09"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "대교CNS, 한드림넷 인수... “AI 보안 미래 성장동력 확보”",
-      "summary": "[보안뉴스 강현주 기자] 대교그룹의 종합 IT 서비스 기업 대교CNS가 네트워크 보안 전문기업 한드림넷의 지분 100%를 인수하는 주식매매계약을 체결하고 인수를 완료했다고 9일 밝혔다. 이번 인수에는 한드림넷의 일본 자회사 서브게이트도 포함된다.대교CNS는 이번 인수를 통해 빠르게 성장하는 정보보안 시장에 본격 진출하고, 기존 IT 서비스에 보안 역량을 더",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144592&kind=&sub_kind=",
-      "date": "2026-07-09"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "파이오링크, ICT 중소기업 정보보호 지원사업 호남권 선정",
-      "summary": "“컨설팅·웹방화벽·원격보안관제로 역량 강화” [보안뉴스 강현주 기자] 정보보안 및 네트워크 전문기업 파이오링크(대표 조영철)가 과학기술정보통신부와 한국인터넷진흥원(KISA)이 주관하는 ‘2026년 ICT 중소기업 정보보호 지원사업’의 호남권 공급기업으로 최종 선정됐다고 9일 밝혔다. 파이오링크는 엔피코어, SGA솔루션즈, 오내피플과 컨소시엄을 구성해 호남",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144589&kind=&sub_kind=",
-      "date": "2026-07-09"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "티피링크 타포, 태양광 패널 내장형 4K 배터리 보안 카메라 ‘Tapo C465’ 출시",
-      "summary": "4K 8MP 초고화질 지원으로 기존 1080p 대비 4배 더 정밀한 영상 제공태양광 패널 일체형 설계, 각도 조절과 회전 가능해 최적의 일조량 확보[보안뉴스 엄호식 기자] 티피링크의 스마트홈 브랜드 Tapo가 4K UHD 해상도와 태양광 패널 일체형 설계를 적용한 스마트 배터리 보안 카메라 ‘Tapo C465’를 공식 출시했다.Tapo C465는 4K 8M",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144588&kind=&sub_kind=",
-      "date": "2026-07-09"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Windows와 macOS에서 하드드라이브 상태를 확인하는 방법",
-      "summary": "하드드라이브와 SSD의 상태를 정기적으로 점검하면 고장 징후를 조기에 발견하고 데이터를 보호하며 저장 장치의 수명을 연장할 수 있습니다. Windows와 macOS 모두 무료 내장 도구를 제공하므로 5분 안에 완료할 수 있습니다. Windows의 명령 프롬프트나 Mac의 디스크 유틸리티를 사용하여 S.M.A.R.T. 상태를 빠르게 확인하고, 비정상적인 소음, 느린 부팅, 파일 손상, 온도 급상승 등의 경고 신호를 주시해야 합니다. CrystalDiskInfo와 같은 써드파티 도구는 마모 수준과 남은 수명에 대한 더 깊은 통찰력을 제공합니다. 드라이브에서 고장 상태가 보고되면 즉시 파일을 백업하고, 필요시 고장이 발생하기 전에 Dell 솔리드 스테이트 드라이브로 업그레이드하는 것이 좋습니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/how-to-check-hard-drive-health-on-windows-and-macos/",
-      "date": "2026-07-08"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "연방 기관 전역에서 양자 내성 준비의 긴급성 증대",
-      "summary": "양자 내성 암호화(PQC)는 더 이상 미래의 과제가 아니며, 오늘날 즉각적인 조치가 필요한 연방 사이버보안 우선순위입니다. 양자 컴퓨팅 기술의 발전으로 인해 현재의 암호화 체계가 위협받고 있으며, 이에 대비하기 위한 준비가 시급한 상황입니다. 연방 기관들은 양자 내성 암호화 표준 도입을 위한 로드맵을 수립하고 조직 내 인프라 현황을 파악해야 합니다. 또한 공급업체와의 협력을 통해 양자 내성 솔루션 개발 및 도입을 가속화해야 합니다. 이러한 사전 대비는 국가의 사이버보안 태세를 강화하고 민감한 정보 보호를 위한 필수적인 단계입니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/post-quantum-readiness-gains-new-urgency-across-federal-agencies/",
-      "date": "2026-07-08"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "다음 평가를 위한 청사진",
-      "summary": "2026년에 평가할 모든 데이터 플랫폼이 충족해야 할 엔터프라이즈 AI의 법칙과 그에 따른 5가지 핵심 실행 방안을 제시합니다. 데이터 플랫폼은 엔터프라이즈 AI의 요구사항을 충족하기 위해 견고한 기초와 확장 가능한 아키텍처를 갖춰야 합니다. 조직이 AI를 효과적으로 도입하기 위해서는 데이터 통합, 거버넌스, 보안 등 여러 측면을 고려한 전략적 평가가 필요합니다. 플랫폼 선택 시 단기적 이점뿐만 아니라 장기적 성장과 적응 능력을 함께 평가해야 합니다. 이 청사진은 조직이 올바른 데이터 플랫폼을 선택하고 AI 혁신을 성공적으로 추진할 수 있도록 돕습니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/the-blueprint-for-the-next-evaluation/",
-      "date": "2026-07-08"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "AI를 활용한 더욱 강화된 네트워크 구축 — 내부부터 시작",
-      "summary": "모든 기술 기기와 코드베이스에는 취약점이 존재하며, 이는 오랫동안 지속되어 온 현실입니다. AI의 등장으로 취약점이 발견되고 악용되는 속도와 규모가 기하급수적으로 증가했습니다. 보안 분야에서 AI는 양날의 검으로 작용하는데, 방어자가 취약점을 빠르게 찾을 수 있는 능력과 공격자가 이를 악용할 수 있는 능력이 동일하기 때문입니다. Anthropic의 Claude Mythos가 중요한 이유는 소프트웨어 엔지니어링에 뛰어난 능력을 갖도록 훈련된 모델이 동시에 취약점을 찾는 데도 매우 효과적이기 때문입니다.",
-      "category": "HPC·서버",
-      "source": "HPE",
-      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/07/using-ai-to-build-a-more-resilient-network-from-the-inside-out.html",
-      "date": "2026-07-08"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "성능을 대체하는 생산성이 진정한 평가 지표가 되다",
-      "summary": "BeeGFS 병렬 파일 시스템의 개발자이자 현재 VAST Data의 필드 CTO인 Sven Breuner는 데이터 인프라 진화의 최전선에서 저장소가 고성능 컴퓨팅의 전문 컴포넌트에서 AI의 기반 플랫폼으로 변모한 과정을 목격했다. 과거 저장소 시스템은 처리량, 확장성, 메타데이터 성능 등 순수 성능으로만 평가되었으나, 현재의 산업은 기업들이 이미 보유한 데이터에서 더 많은 가치를 얻도록 도와주는 것이 진정한 과제임을 인식하고 있다. 뛰어난 성능만으로는 더 나은 과학적 성과나 생산성 있는 연구를 보장하지 못한다는 깨달음은 업계 전반의 변화를 반영한다. 현대적 데이터 인프라는 단순히 파일을 안정적으로 저장하는 것을 넘어 다양한 접근 방식을 지원하고, 데이터베이스 및 인덱싱 기술을 통합하며, AI 기반 발견을 위한 기초를 제공해야 한다. VAST Data의 장기 비전은 조직이 자연어로 데이터에 질문을 하고 필요한 정보를 자동으로 찾거나 생성할 수 있는 '생각하는 기계' 구축에 있으며, 이는 인프라가 단순히 저장하는 것이 아니라 정보를 이해하고 활용하도록 적극적으로 돕는다는 기대가 커지고 있음을 보여준다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/productivity-is-replacing-performance-as-the-real-metric",
-      "date": "2026-07-08"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "AI의 새로운 경계 확대: VAST가 싱가포르를 지역 우수 센터로 선택한 이유",
-      "summary": "VAST Data는 동남아시아의 전략적 중심지인 싱가포르를 아시아 태평양 지역의 거점으로 삼기로 결정했습니다. 싱가포르는 혁신적이고 실용적인 환경으로 글로벌 기업들이 지역 및 글로벌 시장으로 진출하기 위한 최적의 플랫폼을 제공합니다. VAST는 싱가포르에 지역 시장 진출 센터와 핵심 엔지니어링 센터을 설립하여 고객 가까이에서 기술 혁신을 추진할 계획입니다. EDBI(싱가포르 경제개발위원회 산하 투자 기구)와의 파트너십은 단순한 자금 지원을 넘어 현지 시장 소개, 기업 인증 지원, 정부 기관과의 연결 등 장기적 가치를 창출했습니다. 이러한 협력으로 VAST는 싱가포르 정부의 주요 고객 중 하나인 HTX(국토안보기술혁신청)와의 관계를 구축할 수 있었습니다. 싱가포르의 국가 AI 전략 2.0 추진에 따라 제조, 금융, 의료 등 핵심 산업에서 AI 통합이 활발히 진행되고 있으며, VAST의 데이터 인프라는 대규모 AI 모델 학습과 실시간 추론 실행을 위한 데이터 병목 현상을 해결하는 데 핵심 역할을 할 것으로 기대됩니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/scaling-the-next-frontier-of-ai-why-vast-chose-singapore-as-a-regional-center-of-excellence",
-      "date": "2026-07-08"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "액센추어, 해커의 소스코드 탈취 주장 후 데이터 유출 확인",
-      "summary": "글로벌 IT 컨설팅 기업 액센추어가 데이터 유출 사건을 공식 확인했습니다. 해커가 회사의 소스코드를 탈취했다고 주장한 이후의 확인입니다. 이번 사건은 대규모 기업의 보안 침해 사례로, 중요한 기술 자산이 노출되었을 가능성을 시사합니다. SecurityWeek에서 보도한 이 사건은 사이버보안 위협의 심각성을 다시 한번 드러냈습니다. 현재 유출된 데이터의 범위와 영향에 대한 추가 조사가 진행 중일 것으로 예상됩니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/accenture-confirms-data-breach-after-hacker-claims-source-code-theft/",
-      "date": "2026-07-08"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "중국 연계 APT, 새로운 'Leash' 백도어로 공격 도구 확장",
-      "summary": "중국과 연계된 고급 지속 위협(APT) 그룹이 새로운 'Leash' 백도어를 개발하여 사이버 공격 능력을 강화하고 있습니다. 이 새로운 백도어는 피해 시스템에 대한 원격 접근 및 제어 기능을 제공하는 악성 도구입니다. 해당 APT는 기존의 공격 도구들을 보완하기 위해 지속적으로 악성코드를 개발하고 있으며, 이는 금융, 정부, 주요 기반시설 등을 노린 사이버 위협이 심화되고 있음을 시사합니다. 보안 전문가들은 조직들이 이러한 신종 위협에 대비하여 네트워크 보안을 강화해야 한다고 권고하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/china-linked-apt-expands-arsenal-with-new-leash-backdoors/",
-      "date": "2026-07-08"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "웨비나 오늘 개최: 이메일 보안이 계속 실패하는 이유",
-      "summary": "SecurityWeek에서 개최하는 이번 웨비나는 현대의 피싱 생태계에 대응하기 위해 이메일 계층 방어만으로는 충분하지 않은 이유를 분석합니다. 기업들이 구현하고 있는 이메일 보안 솔루션들이 지속적으로 위협에 노출되고 있는 근본적인 원인을 파악하고자 합니다. 이 세션을 통해 전통적인 이메일 보안 방식의 한계와 발전된 피싱 기법들 사이의 격차를 이해할 수 있습니다. 조직들이 더욱 포괄적인 보안 전략을 수립할 필요성을 강조하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/webinar-today-why-email-security-keeps-failing/",
-      "date": "2026-07-08"
     }
   ],
-  "totalItems": 3700,
+  "totalItems": 3712,
   "hasArchive": true
 }
