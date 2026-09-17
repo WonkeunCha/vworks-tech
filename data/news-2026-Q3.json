@@ -3,6 +3,159 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI에 메모리, 역할, 그리고 결국 신체를 부여하다",
+      "summary": "챗봇을 넘어서 지속적인 로컬 AI 에이전트가 메모리와 도구를 갖추고 Dell Pro Max GB10에서 실행되는 방식에 대해 알아봅니다. 현지에서 실행되는 AI 에이전트는 사용자 맥락을 기억하고 여러 작업을 수행할 수 있어 단순한 대화형 AI의 한계를 극복합니다. Dell의 고성능 하드웨어는 이러한 지능형 에이전트가 클라우드에 의존하지 않고도 복잡한 작업을 처리할 수 있도록 지원합니다. 이러한 기술의 발전은 결국 실제 물리적 신체를 갖춘 체현된 AI(embodied AI)로 진화할 수 있는 경로를 제시합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/giving-ai-a-memory-a-job-and-eventually-a-body/",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "JFrog와 Dell을 통한 엔터프라이즈 AI 거버넌스의 검증된 경로",
+      "summary": "JFrog, Dell AI Factory with NVIDIA, Dell Automation Platform을 활용하여 AI 소프트웨어 공급망에 대한 거버넌스를 구축할 수 있습니다. 이 통합 솔루션은 엔터프라이즈 조직이 AI 모델과 코드의 안전성, 규정 준수, 신뢰성을 보장하도록 지원합니다. 검증된 아키텍처를 통해 조직은 개발에서 프로덕션 배포까지 전체 AI 수명 주기를 효과적으로 관리할 수 있습니다. 자동화된 거버넌스 정책과 보안 검증 프로세스는 AI 솔루션의 품질 관리를 강화합니다. 이러한 경로는 기업이 규제 요구사항을 충족하면서도 AI 혁신을 가속화할 수 있게 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/a-validated-path-to-enterprise-ai-governance-with-jfrog-and-dell/",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "텍사스의 두 아이콘: Dell이 샌 안토니오 축산박람회 로디오의 미션을 어떻게 확장하고 있는가",
+      "summary": "샌 안토니오 축산박람회 로디오는 매년 20,000명의 텍사스 학생들을 대상으로 교육 프로그램을 제공하고 있습니다. Dell Technologies는 첨단 기술 솔루션을 통해 이 행사가 원활하게 운영될 수 있도록 지원하고 있습니다. Dell의 기술 파트너십은 행사의 디지털 인프라를 강화하고 참가자들의 경험을 향상시키는 데 중요한 역할을 합니다. 이러한 협력은 텍사스 지역사회의 교육과 축산업 발전에 기여하고 있습니다. Dell과 샌 안토니오 축산박람회 로디오는 함께 지역 학생들의 미래를 위한 의미 있는 프로그램을 지속적으로 확대하고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/two-texas-icons-how-dell-helps-the-san-antonio-stock-show-rodeo-grow-its-mission/",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell PowerStore AI 스킬: 더 똑똑한 스토리지 운영",
+      "summary": "Dell PowerStore의 AI 스킬과 pstcli를 활용하면 관리자가 자연어로 스토리지를 관리할 수 있습니다. 이를 통해 헬스 체크, 성능 분석, 보안 운영이 더욱 빨라집니다. AI 기반 자동화 기능은 운영 효율성을 크게 향상시키고 관리 복잡성을 줄여줍니다. 관리자는 복잡한 명령어를 외울 필요 없이 일상 언어로 스토리지 시스템과 상호작용할 수 있습니다. 이러한 혁신적인 접근 방식은 IT 운영 팀의 생산성 증대와 다운타임 감소를 가능하게 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/dell-powerstore-ai-skills-smarter-storage-operations/",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "더 빠른 GPU와 더 작은 캐시, 스토리지의 기준을 높이다",
+      "summary": "Dell AI Data Platform 내의 스토리지 엔진인 Dell PowerScale은 NVIDIA GB300에서 첫 번째 토큰까지의 시간을 최대 13.6배 단축시켜 성능 기준을 새롭게 설정했습니다. GPU의 성능이 향상되고 캐시 크기가 감소함에 따라 스토리지 시스템의 역할이 더욱 중요해지고 있습니다. Dell PowerScale은 이러한 요구 사항을 충족하기 위해 최적화되어 있으며, AI 워크로드의 처리 속도를 혁신적으로 개선합니다. 이는 대규모 언어 모델(LLM) 및 생성형 AI 애플리케이션의 성능을 극대화하는 데 핵심적인 역할을 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/faster-gpus-and-smaller-caches-raise-the-bar-for-storage/",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 2026 가트너 서버 가상화 플랫폼 매직 쿼드런트에서 '챌린저'로 선정",
+      "summary": "HPE가 2026년 가트너 서버 가상화 플랫폼 매직 쿼드런트에서 실행 능력과 비전의 완성도 부문 챌린저로 선정되었습니다. 이는 HPE가 가상화 대안 출시 의사를 표명한 지 2년 미만 만에 얻은 성과입니다. HPE는 이러한 인정이 제품 혁신뿐만 아니라 고객과 파트너들이 업무 핵심 애플리케이션 운영 및 가상화 환경 현대화를 위해 HPE Morpheus 소프트웨어에 두고 있는 신뢰를 반영한다고 평가합니다. 기업들은 증가하는 비용과 복잡성 속에서 가상화 전략을 재검토할 필요성이 커지고 있습니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/09/hpe-named-a-challenger-in-2026-gartner-magic-quadrant-for-server-virtualization-platforms.html",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 팩토리가 HPC 전체 스택을 재검토하도록 강요하고 있다",
+      "summary": "GPU 가격 상승, 전력 부족, 인프라 밀도 증대와 액체 냉각 필요, 데이터센터 건설 비용 증가 등 여러 방향에서의 압력으로 인해 HPC 환경이 변화하고 있다. 동시에 AI로 인해 고성능 컴퓨팅에 접근하려는 연구자의 수와 유형이 확대되면서, 대학, 연구기관, 지역 단체들은 더 넓은 사용자층과 공유 가능한 인프라 구축을 추진하고 있다. 기존의 전문화된 사용자와 애플리케이션 중심의 HPC와 달리, AI 팩토리는 대량의 비정형 데이터 수집, 자동화된 파이프라인, 모델 학습 및 추론을 지원해야 한다. GPU 개수 중심의 아키텍처 설계는 위험할 수 있으며, 실제 성능 병목은 스토리지, 네트워킹, 데이터 처리 파이프라인 등 시스템 전체에서 발생할 수 있다. 따라서 완전한 시스템 성능 균형을 고려한 전체 스택 관점의 아키텍처 논의가 필수적이다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/ai-factories-are-forcing-hpc-to-rethink-the-entire-stack",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "인공지능 에이전트 데이터 유출 사건, 스페인 규제당국에 첫 보고",
+      "summary": "에이전트형 인공지능(Agentic AI) 기술과 관련된 첫 번째 데이터 유출 사건이 스페인 규제당국에 보고되었습니다. 이는 자율적으로 작동하는 AI 시스템의 보안 위협이 실제화되고 있음을 보여주는 사례입니다. 에이전트형 AI는 독립적으로 의사결정과 행동을 수행하는 기술로, 기존 AI 시스템보다 더 복잡한 보안 문제를 야기할 수 있습니다. 이번 사건은 AI 기술의 빠른 발전에 따른 규제와 보안 대책의 필요성을 강조합니다. 스페인 규제당국과 글로벌 사이버보안 커뮤니티는 이 사건을 주목하고 있으며, 향후 유사 사건에 대한 대응 방안을 모색하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/first-agentic-ai-data-breach-reported-to-spanish-regulator/",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "오늘 개최되는 가상 이벤트: 공격 표면 관리 서밋",
+      "summary": "SecurityWeek에서 공격 표면 관리(Attack Surface Management, ASM)에 관한 가상 서밋을 개최하고 있습니다. 이 행사는 애플리케이션 보안 분야의 전문가와 업계 관계자들이 참여하여 조직의 공격 표면을 효과적으로 관리하고 모니터링하는 방법에 대해 논의하는 자리입니다. 공격 표면 관리는 기업의 모든 디지털 자산과 잠재적 취약점을 파악하고 관리하는 중요한 사이버보안 전략입니다. 본 서밋을 통해 참석자들은 ASM의 최신 트렌드, 기술 및 모범 사례에 대해 학습할 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/virtual-event-today-attack-surface-management-summit-2/",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "EU 지도자, AI 기반 해킹 경고 및 소셜 미디어 규제 추진",
+      "summary": "EU 최고 지도자가 인공지능 기술을 활용한 해킹 위협에 대해 경고했습니다. 이와 함께 EU는 소셜 미디어 플랫폼에 대한 규제를 강화하는 조치를 취하고 있습니다. AI 기반 사이버 공격의 증가로 인한 보안 위협이 심각해지고 있으며, 이는 개인정보 보호와 국가 안보에 직결되는 문제입니다. EU는 이러한 위협에 대응하기 위해 기술 기업들에 대한 감시와 규제를 강화할 방침입니다. 소셜 미디어 플랫폼도 AI 기반 공격의 매개체로 악용될 수 있다는 점에서 함께 관리되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/eu-chief-warns-of-ai-powered-hacking-moves-to-rein-in-social-media/",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AIUC, 엔터프라이즈 AI 에이전트 인증을 위해 4천만 달러 투자 유치",
+      "summary": "AIUC가 엔터프라이즈 AI 에이전트 인증 사업을 확대하기 위해 4천만 달러의 자금 조달에 성공했습니다. 이 투자는 기업용 AI 시스템의 신뢰성과 보안성을 검증하는 인증 프로세스 개발에 사용될 예정입니다. AIUC는 AI 기술이 엔터프라이즈 환경에서 안전하고 효과적으로 운영될 수 있도록 하는 표준화된 인증 체계를 구축하고 있습니다. 이러한 인증 프로그램은 조직들이 AI 에이전트의 성능, 보안, 신뢰성을 평가하는 데 도움을 줄 것으로 기대됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/aiuc-raises-40-million-to-certify-enterprise-ai-agents/",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "픽셀 모뎀 제로데이 취약점, 표적 공격에 악용되고 있음",
+      "summary": "구글의 픽셀 기기에서 제로데이 취약점(CVE-2026-58704)이 발견되어 표적 공격에 악용되고 있습니다. 이 취약점은 픽셀 모뎀에 존재하는 보안 결함으로, 공격자가 악의적인 목적으로 이를 악용할 수 있습니다. 구글은 이 문제를 패치하여 해결했습니다. 해당 취약점은 안드로이드 플랫폼의 모바일 기기 사용자들에게 잠재적 위협이 될 수 있습니다. 사용자들은 최신 보안 패치를 적용하여 기기를 보호할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/pixel-modem-zero-day-exploited-in-targeted-attacks/",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국, 영국, 네덜란드 기관이 이란의 '초센 브릭' 감시 악성코드 노출",
+      "summary": "미국, 영국, 네덜란드의 사이버보안 기관들이 이란이 개발한 '초센 브릭(Chosen Brick)'이라는 감시 악성코드를 공개했다. 이 악성코드는 스파이웨어로 분류되며 정보 수집 및 스파이 활동 목적으로 사용되는 것으로 파악되었다. 해당 악성코드의 기술적 특성과 작동 메커니즘이 분석되어 국제 사이버보안 커뮤니티에 공유되었다. 이번 노출은 이란의 사이버 위협 활동을 추적하고 대응하기 위한 국제 협력의 일환이다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/us-uk-dutch-agencies-expose-iranian-chosen-brick-surveillance-malware/",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "인증 없는 RCE 취약점, 20만 개 이상의 워드프레스 사이트 탈취 위험",
+      "summary": "워드프레스 플러그인의 인증 없는 원격 코드 실행(RCE) 취약점이 발견되어 20만 개 이상의 워드프레스 사이트가 공격 위험에 노출되었습니다. 이 취약점은 공격자가 인증 과정을 거치지 않고도 악의적인 코드를 실행하여 웹사이트를 완전히 장악할 수 있게 합니다. 특히 캘린더 플러그인과 관련된 취약점으로, 광범위하게 사용되는 플러그인이 영향을 받고 있습니다. 보안 전문가들은 워드프레스 사이트 운영자들에게 긴급한 보안 업데이트를 권장하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/unauthenticated-rce-flaws-could-expose-200000-wordpress-sites-to-takeover/",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Hackuity, AI 기반 취약점 관리 솔루션으로 1900만 달러 투자 유치",
+      "summary": "취약점 관리 전문 기업 Hackuity가 새로운 투자 라운드에서 1900만 달러를 유치했습니다. 이번 투자로 누적 투자금은 3800만 달러에 도달했습니다. Hackuity는 AI 기술을 활용한 취약점 관리 솔루션을 제공하며, 기업의 보안 위협을 효과적으로 식별하고 대응하는 데 중점을 두고 있습니다. 이러한 투자는 기업 사이버보안 영역에서 AI 기반 솔루션의 수요가 증가하고 있음을 반영합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hackuity-raises-19-million-for-ai-powered-vulnerability-management/",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "프리미어 의료 그룹 데이터 유출 사건으로 28만 명 피해",
+      "summary": "프리미어 의료 그룹(Premier Medical Group)에서 28만 명의 개인정보가 유출되는 데이터 유출 사건이 발생했습니다. 이 사건은 SecurityWeek에 의해 보도된 의료 산업의 주요 보안 침해 사건입니다. 해커들이 의료 기관의 환자 정보에 접근하여 민감한 개인정보를 탈취했을 것으로 추정됩니다. 이번 유출로 인해 영향을 받은 개인들은 신원 도용 및 관련 범죄의 위험에 노출될 가능성이 있습니다. 의료 기관들은 환자 데이터 보호를 위한 강화된 사이버보안 대책의 필요성이 더욱 강조되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/280000-impacted-by-premier-medical-group-data-breach/",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Chrome과 Firefox, 115개의 취약점을 패치하는 업데이트 출시",
+      "summary": "Chrome과 Firefox 브라우저가 각각의 최신 보안 업데이트를 통해 총 115개의 취약점을 패치했습니다. 이번 업데이트는 사용자들의 브라우징 보안을 강화하고 악의적인 공격으로부터 보호하기 위해 출시되었습니다. 양쪽 브라우저 모두 중요한 보안 결함들을 수정하여 사용자 데이터 유출 및 악성 코드 실행 등의 위험을 완화했습니다. 보안 전문가들은 사용자들에게 최대한 빨리 최신 버전으로 업데이트할 것을 권장하고 있습니다. 이러한 정기적인 보안 업데이트는 사이버 위협에 대응하기 위한 브라우저 개발사들의 필수적인 노력입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/chrome-firefox-updates-patch-115-vulnerabilities/",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "혁신을 위해 설계된 솔루션: Dell AI 리더십을 뒷받침하는 완전한 스택",
       "summary": "Dell Technologies는 AI 인프라 분야에서 다른 어떤 기업보다 많은 Market Leader 상을 수상하며 업계 리더십을 입증했습니다. IT 전문가들의 투표를 통해 Dell의 AI 솔루션이 기업의 혁신 요구에 가장 적합한 것으로 평가받았습니다. Dell은 하드웨어, 소프트웨어, 서비스에 이르는 완전한 스택을 제공함으로써 고객들의 AI 도입을 가속화하고 있습니다. 이러한 성과는 Dell이 AI 시대의 기술 혁신에 얼마나 적극적으로 대응하고 있는지를 보여줍니다.",
       "category": "서버",
@@ -10443,10 +10596,10 @@
     }
   ],
   "sources": {
-    "Dell": 149,
-    "SecurityWeek": 490,
-    "VAST Data": 44,
-    "HPE": 25,
+    "Dell": 154,
+    "HPE": 26,
+    "VAST Data": 45,
+    "SecurityWeek": 500,
     "보안뉴스": 452
   }
 }
