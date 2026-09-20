@@ -3765,9 +3765,29 @@
     "https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-100000-websites/",
     "https://www.securityweek.com/critical-orkes-conductor-vulnerability-exploited-in-attacks/",
     "https://www.securityweek.com/mind-secures-72-million-for-ai-powered-dlp/",
-    "https://www.securityweek.com/check-point-kaspersky-tanium-patch-product-vulnerabilities/"
+    "https://www.securityweek.com/check-point-kaspersky-tanium-patch-product-vulnerabilities/",
+    "https://www.dell.com/en-us/blog/enterprise-ai-storage-starts-with-metadata/",
+    "https://www.securityweek.com/tigerbyte-cyber-emerges-from-stealth-with-3-million-in-funding/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "TigerByte Cyber, 300만 달러 펀딩으로 베일을 벗다",
+      "summary": "사이버보안 신생 기업 TigerByte Cyber가 300만 달러의 초기 펀딩을 확보하며 공식 출범했습니다. 이 회사는 기업 사이버보안 솔루션 분야에서 혁신적인 접근 방식을 제시할 계획입니다. SecurityWeek의 보도에 따르면 이번 펀딩은 사이버보안 업계의 지속적인 투자 확대 추세를 반영합니다. TigerByte Cyber는 향후 제품 개발과 시장 확대에 이번 자금을 활용할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/tigerbyte-cyber-emerges-from-stealth-with-3-million-in-funding/",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "엔터프라이즈 AI 스토리지는 메타데이터에서 시작된다",
+      "summary": "메타데이터는 분산된 데이터를 찾고, 관리하며, RAG, 지식 그래프 및 AI 활용을 위해 활성화하는 데 핵심적인 역할을 합니다. 조직의 데이터 자산을 효과적으로 탐색하고 거버넌스하기 위해서는 강력한 메타데이터 관리 체계가 필수적입니다. 메타데이터를 통해 기업은 분산된 데이터 소스 전체에서 관련성 높은 정보를 신속하게 식별할 수 있습니다. 이는 AI 모델의 학습과 추론 과정을 크게 향상시켜 더욱 정확하고 신뢰할 수 있는 결과를 도출합니다. 결과적으로 메타데이터 기반의 스토리지 전략은 엔터프라이즈 AI 프로젝트의 성공을 위한 필수 토대가 됩니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/enterprise-ai-storage-starts-with-metadata/",
+      "date": "2026-09-18"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "기타 뉴스: 랜섬웨어 개발자 선고, Plugin4Shell AI 공격, SAP 중요 취약점",
@@ -12749,26 +12769,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144209&kind=&sub_kind=",
       "date": "2026-07-12"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "AI에게 보안관제 맡겨봤더니... kt클라우드, 사례 공유",
-      "summary": "강영익 kt클라우드 CISO “바이브 코딩 안전 확보하고 인력 상향 평준화” [보안뉴스 강현주 기자] AI 시대 고조되는 보안 위협은 AI로 극복해야 한다는 인식이 확산되는 가운데, AI 기반 보안관제 사례가 공유됐다. kt클라우드(kt cloud)는 최근 서울 용산 피스앤파크컨벤션에서 열린 ‘CISO코리아 2026’에서 ‘AI 기반 보안관제의 자동화된 탐",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144640&kind=&sub_kind=",
-      "date": "2026-07-12"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] 프루프포인트, AI를 위한 데이터 보안 솔루션 선보여",
-      "summary": "의도 기반(Intent-based) 사이버보안 플랫폼 안전한 AI 도입과 민감 데이터 보호[보안뉴스 강현주 기자] 글로벌 사이버보안 및 컴플라이언스 기업인 프루프포인트(Proofpoint, Inc.)는 ISEC 2026에서 최신 데이터 보호 및 AI 거버넌스 플랫폼을 선보인다. 이를 통해 조직이 AI를 안전하게 도입하는 동시에, 사람과 AI 에이전트가 커뮤",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144608&kind=&sub_kind=",
-      "date": "2026-07-12"
     }
   ],
-  "totalItems": 3766,
+  "totalItems": 3768,
   "hasArchive": true
 }
