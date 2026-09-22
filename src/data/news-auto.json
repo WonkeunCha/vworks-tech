@@ -3767,9 +3767,119 @@
     "https://www.securityweek.com/mind-secures-72-million-for-ai-powered-dlp/",
     "https://www.securityweek.com/check-point-kaspersky-tanium-patch-product-vulnerabilities/",
     "https://www.dell.com/en-us/blog/enterprise-ai-storage-starts-with-metadata/",
-    "https://www.securityweek.com/tigerbyte-cyber-emerges-from-stealth-with-3-million-in-funding/"
+    "https://www.securityweek.com/tigerbyte-cyber-emerges-from-stealth-with-3-million-in-funding/",
+    "https://www.dell.com/en-us/blog/everything-you-need-to-know-about-dell-s-xps-googlebook/",
+    "https://www.securityweek.com/us-proposes-ai-incident-alert-system-in-talks-with-china-bessent-says/",
+    "https://www.securityweek.com/google-hit-with-463-million-fine-for-eu-location-data-rule-breach/",
+    "https://www.securityweek.com/fake-lastpass-installers-push-kernel-level-edr-killer-rapuncel-stealer/",
+    "https://www.securityweek.com/ciso-conversations-noopur-davis-the-accidental-global-ciso-at-comcast/",
+    "https://www.securityweek.com/dragos-completes-netrise-and-runzero-acquisitions-following-accenture-deal/",
+    "https://www.securityweek.com/rathat-android-trojan-uses-ai-for-automation/",
+    "https://www.securityweek.com/rust-team-members-and-popular-crate-owners-targeted-via-video-calls/",
+    "https://www.securityweek.com/crowdsec-confirms-source-code-stolen-in-supply-chain-attack/",
+    "https://www.securityweek.com/colorado-water-utilities-hit-by-cyberattacks-targeting-ot-systems/",
+    "https://www.securityweek.com/organizations-warned-of-3-exploited-linux-kernel-vulnerabilities/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국, 중국과의 협상에서 AI 사건 경보 시스템 제안",
+      "summary": "미국 재무장관 스콧 베센트는 미국이 국가안보에 영향을 미칠 수 있는 인공지능 사건에 대한 새로운 '통지 메커니즘'을 제안했다고 밝혔습니다. 이 제안은 미국과 중국 간의 협상 과정에서 나왔으며, AI 관련 보안 사건 발생 시 양국 간 신속한 정보 교환을 목표로 합니다. 이는 AI 기술 발전으로 인한 새로운 국가안보 위협에 대응하기 위한 국제 협력 방안으로 볼 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/us-proposes-ai-incident-alert-system-in-talks-with-china-bessent-says/",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell의 XPS Googlebook에 대해 알아야 할 모든 것",
+      "summary": "XPS Googlebook은 Gemini Intelligence를 위해 설계된 Dell의 첫 번째 노트북입니다. 이 제품은 Android 휴대폰과 완벽하게 동기화되도록 설계되었습니다. Google의 최신 AI 기술인 Gemini Intelligence를 탑재하여 사용자에게 향상된 생산성과 지능형 기능을 제공합니다. XPS Googlebook은 안드로이드 사용자를 위한 최적화된 환경을 제공하며, 기기 간 원활한 연동을 통해 작업 효율을 극대화합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/everything-you-need-to-know-about-dell-s-xps-googlebook/",
+      "date": "2026-09-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "구글, EU 위치 데이터 규칙 위반으로 4억 6300만 달러 벌금 부과",
+      "summary": "구글이 유럽연합의 위치 데이터 규칙을 위반한 혐의로 4억 6300만 달러(약 6000억 원대)의 벌금을 부과받았습니다. 이는 GDPR(개인정보보호규정) 및 EU의 개인정보 보호 관련 규정 위반과 관련된 것입니다. 구글이 사용자의 명시적 동의 없이 위치 정보를 수집하고 처리한 것으로 지적되었습니다. 이번 사건은 빅테크 기업들의 개인정보 취급 방식에 대한 EU의 강화된 규제 기조를 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/google-hit-with-463-million-fine-for-eu-location-data-rule-breach/",
+      "date": "2026-09-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "가짜 LastPass 설치 프로그램, 커널 레벨 EDR 킬러와 'Rapuncel' 정보 탈취 악성코드 배포",
+      "summary": "공격자들이 LastPass 비밀번호 관리자로 위장한 가짜 설치 프로그램을 통해 'Rapuncel'이라는 정보 탈취 악성코드와 커널 레벨에서 작동하는 EDR(Endpoint Detection and Response) 킬러를 배포하고 있습니다. 이 공격은 사용자들의 신뢰를 악용하여 보안 소프트웨어를 무력화한 후 개인정보를 탈취하는 정교한 다단계 공격입니다. 커널 레벨 EDR 킬러는 엔드포인트 보안 솔루션을 근본적으로 제거하여 추가 악성코드 감염에 취약하게 만듭니다. 보안 전문가들은 공식 채널에서만 소프트웨어를 다운로드하고 설치 파일의 진정성을 확인할 것을 강력히 권장하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/fake-lastpass-installers-push-kernel-level-edr-killer-rapuncel-stealer/",
+      "date": "2026-09-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISO 대담: 컴캐스트의 우연한 글로벌 CISO 누푸르 데이비스",
+      "summary": "SecurityWeek의 CISO 대담 시리즈에서 컴캐스트의 글로벌 최고정보보안책임자(CISO) 누푸르 데이비스를 인터뷰한 기사입니다. 데이비스는 계획되지 않은 경로를 통해 글로벌 CISO 직책에 오르게 된 자신의 경력을 설명합니다. 이 기사는 대규모 통신 기업에서의 사이버보안 전략, 조직 관리, 그리고 산업 동향에 대한 그의 통찰을 담고 있습니다. CISO 커뮤니티와 사이버보안 리더십에 관심 있는 전문가들을 대상으로 하는 심층 인터뷰 콘텐츠입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ciso-conversations-noopur-davis-the-accidental-global-ciso-at-comcast/",
+      "date": "2026-09-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "드래고스, 액센추어 딜 이후 넷라이즈와 런제로 인수 완료",
+      "summary": "사이버보안 회사 드래고스(Dragos)가 넷라이즈(NetRise)와 런제로(runZero)의 인수를 완료했습니다. 이는 액센추어와의 거래 이후 진행된 전략적 인수합병으로, 드래고스의 보안 솔루션 포트폴리오 확장을 의미합니다. 넷라이즈와 런제로의 기술과 전문성을 통합함으로써 드래고스는 글로벌 사이버보안 시장에서의 경쟁력을 강화하고 있습니다. 이번 인수는 드래고스의 산업제어시스템(ICS) 및 운영기술(OT) 보안 분야 강화 전략의 일환으로 평가됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/dragos-completes-netrise-and-runzero-acquisitions-following-accenture-deal/",
+      "date": "2026-09-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "RatHat 안드로이드 트로잔, AI를 통한 자동화 활용",
+      "summary": "RatHat 안드로이드 트로잔은 은행 정보와 사용자 자격증명을 탈취하는 악성 소프트웨어입니다. 이 트로잔은 AI 기술을 활용하여 실시간으로 기기 네비게이션과 제어를 수행합니다. AI 자동화 기능을 통해 공격자는 피해자의 장치를 더욱 효율적으로 조종할 수 있습니다. 이는 기존의 안드로이드 뱅킹 악성코드보다 더 정교한 공격 방식을 나타냅니다. RatHat의 등장은 모바일 기기 보안에 대한 심각한 위협을 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/rathat-android-trojan-uses-ai-for-automation/",
+      "date": "2026-09-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Rust 팀 멤버 및 인기 크레이트 소유자들이 영상통화를 통해 표적 공격을 받음",
+      "summary": "Rust 프로그래밍 언어 팀 멤버들과 인기 있는 오픈소스 라이브러리(크레이트) 소유자들이 영상통화를 매개로 한 표적 공격을 받고 있습니다. 이는 공급망 보안 침해를 목표로 하는 소프웨어웨어 공격으로 추정되고 있습니다. 북한과 관련된 위협 행위자들이 이러한 공격 캠페인에 관여하고 있다는 정보가 보도되고 있습니다. 공격자들은 신뢰할 수 있는 개발자들을 대상으로 하여 시스템에 접근하거나 악성 코드를 삽입하려는 것으로 보입니다. 이러한 표적 공격은 전체 Rust 생태계와 이에 의존하는 소프트웨어에 광범위한 영향을 미칠 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/rust-team-members-and-popular-crate-owners-targeted-via-video-calls/",
+      "date": "2026-09-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CrowdSec, 공급망 공격에서 소스 코드 탈취 확인",
+      "summary": "사이버보안 회사 CrowdSec이 공급망 공격을 통해 소스 코드가 탈취되었음을 확인했습니다. 이번 사건은 CrowdSec의 개발 환경이 침해되어 중요한 소스 코드가 유출된 것으로 파악됩니다. CrowdSec은 위협 인텔리전스 및 보안 솔루션을 제공하는 업체로, 이번 공급망 공격은 해당 플랫폼을 사용하는 다수의 고객사에 잠재적 위험을 초래할 수 있습니다. 회사는 현재 침해 범위를 파악하고 영향받은 고객들에게 대응 방안을 안내하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/crowdsec-confirms-source-code-stolen-in-supply-chain-attack/",
+      "date": "2026-09-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "콜로라도 수도 회사, OT 시스템을 겨냥한 사이버 공격 피해",
+      "summary": "미국 콜로라도주의 수도 회사들이 운영 기술(OT) 시스템을 표적으로 한 사이버 공격에 피해를 입었다. 본 공격은 산업 제어 시스템(ICS)과 OT 인프라를 직접 겨냥한 것으로, 수도 공급 및 처리 시설의 정상 운영에 영향을 미칠 수 있는 위협이다. 이는 국가 지원 행위자의 개입 가능성이 제기되는 중요한 인프라 공격 사례이다. 수도 공급과 같은 핵심 기반 시설에 대한 사이버 위협이 증가하고 있으며, 조직들은 OT 시스템 보안 강화의 필요성이 대두되고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/colorado-water-utilities-hit-by-cyberattacks-targeting-ot-systems/",
+      "date": "2026-09-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "3가지 악용된 리눅스 커널 취약점에 대한 조직 경고",
+      "summary": "미국 사이버보안 및 기반시설보안청(CISA)이 현재 실제로 악용되고 있는 3가지 리눅스 커널 취약점에 대해 조직들에 경고했습니다. 이 취약점들은 리눅스 커널의 보안 결함으로, 공격자가 시스템에 대한 무단 접근 또는 권한 상승을 시도하는 데 악용될 수 있습니다. CISA는 기관의 알려진 악용 취약점(KEV) 카탈로그에 이들 취약점을 추가하고 조직들에 즉시 패치 적용을 권고하고 있습니다. 이러한 활동 중인 악용을 감안할 때 조직들은 자신의 리눅스 시스템에 대한 보안 상태를 긴급히 검토하고 필요한 업데이트를 적용해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/organizations-warned-of-3-exploited-linux-kernel-vulnerabilities/",
+      "date": "2026-09-21"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "TigerByte Cyber, 300만 달러 펀딩으로 베일을 벗다",
@@ -12670,107 +12780,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144655&kind=&sub_kind=",
       "date": "2026-07-13"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "SGA솔루션즈, KISA 국가 망 보안체계 도입 지원사업 합류",
-      "summary": "기후에너지환경부·성평등가족부 등 주요 공공기관 N2SF 전환 핵심 기술 제공통합계정관리(ICAM) 및 단일로그인(SSO) 연계해 최적화된 인증·접근통제 구현[보안뉴스 조재호 기자] SGA솔루션즈가 한국인터넷진흥원(KISA)이 추진하는 ‘2026년 국가 망 보안체계(N2SF) 도입 지원사업’에서 총 3개 컨소시엄에 참여해 공공기관의 N2SF 전환 지원에 나선",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144656&kind=&sub_kind=",
-      "date": "2026-07-13"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "KT, CSAP 인증 획득한 ‘공공형 AI 메일보안’ 출시",
-      "summary": "스팸 차단·AI 분석·APT 대응 3단계 필터링 거쳐 악성 메일 정밀 식별최대 3종 분석 엔진 적용 및 ‘One-View’ 대시보드로 관제 효율성 제고[보안뉴스 조재호 기자] KT가 한국인터넷진흥원(KISA) 클라우드 서비스 보안인증(CSAP)을 획득한 ‘공공형 AI 메일보안’ 서비스를 출시했다고 15일 밝혔다.공공형 AI 메일보안은 랜섬웨어와 피싱 등 이",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144657&kind=&sub_kind=",
-      "date": "2026-07-13"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "Mac 노리는 ‘오디세이 스틸러’ 확산... 암호화폐 지갑 변조 주의보",
-      "summary": "가짜 마이크로소프트 팀즈 화면으로 터미널 명령어 실행 유도애플스크립트 기반으로 키체인 및 브라우저 정보 탈취해 C2 서버 전송[보안뉴스 김형근 기자] 최근 애플 macOS를 표적으로 삼는 신종 정보 탈취 악성코드 ‘오디세이 스틸러’(Odyssey Stealer)가 전 세계 100여 개국 이상에서 창궐해 각별한 주의가 요구된다. 이 악성코드는 과거 기승을 부",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144654&kind=&sub_kind=",
-      "date": "2026-07-13"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "강화군 CCTV 통합관제센터 본격 운영... 재난안전 컨트롤타워 구축",
-      "summary": "112·119 등과 CCTV 영상 실시간 연계사건·사고 발생 시 신속한 대응 지원향후 스마트도시 정보통합센터 핵심 플랫폼으로 확대 운영 계획 밝혀[보안뉴스 강초희 기자] 강화군(군수 박용철)은 군민의 생명과 재산을 보호하기 위한 핵심 인프라인 CCTV 통합관제센터 신축 건물이 지난 4월 15일 준공 이후 시스템 이전과 재난안전상황실 구축을 마치고 본격 운영",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144653&kind=&sub_kind=",
-      "date": "2026-07-13"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[속담으로 배우는 100가지 보안 습관 62] 아는 길도 물어가라(2)-보안 질문 답, 왜 가짜로 설정해야 할까",
-      "summary": "보안 질문 답변에 실제 개인정보 대신 자신만 아는 단어를 넣으세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144210&kind=&sub_kind=",
-      "date": "2026-07-13"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] 이글루코퍼레이션, 보안 특화 AI 에이전트 ‘AiR’로 자율형 SOC 구현 전략 제시",
-      "summary": "인간과 AI가 협업하는 에이전틱 SOC 운영 모델 구체화[보안뉴스 한세희 기자] 이글루코퍼레이션은 1999년 창립 이래 보안을 강화할 수 있는 핵심 기술 개발에 매진하며 국내 정보보안 시장을 개척하고 이끌어온 AI 보안 전문기업이다. 지속적인 연구개발을 통해 보안 정보 및 이벤트 관리(SIEM), 보안 운영·위협 대응 자동화(SOAR), 사이버물리시스템(C",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144563&kind=&sub_kind=",
-      "date": "2026-07-13"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] 엔키화이트햇, AI해커 공격 오펜시브 보안 플랫폼 ‘OFFen’으로 막는다",
-      "summary": "실전 해킹 지식을 반복 가능한 자동 검증 체계로 구현AI기반 자율 침투테스트 솔루션 ‘오펜 레드’(OFFen RED), ISEC 2026에서 최초 공개[보안뉴스 한세희 기자] 오펜시브 보안 전문 기업 엔키화이트햇(대표 이성권)은 오는 8월 11일부터 12일까지 서울 코엑스에서 열리는 아시아 최대 사이버 보안 콘퍼런스 ‘ISEC 2026’에 참가해 올인원 오",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144525&kind=&sub_kind=",
-      "date": "2026-07-13"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[이슈칼럼] 잇따른 개인정보 유출, 해법은 예방 중심의 개인정보 보호 체계",
-      "summary": "‘사고 전 예방·관리하고 사고 피해도 최소화’하는 예방 중심 개인정보 보호체계로 대전환[보안뉴스= 고낙준 개인정보보호위원회 예방조정심의관] 통신·카드·유통 플랫폼 등에서 발생한 개인정보 유출사고는 규모 면에서 대형화될 뿐만 아니라 보이스 피싱 등 2차 피해로 이어질 위험성도 커지고 있다. 이러한 일련의 사건은 AI·디지털 전환과 플랫폼 경제 확산으로 개인정",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144645&kind=&sub_kind=",
-      "date": "2026-07-12"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "AX 이어 퀀텀 대전환 시대 코앞, “양자보안 로드맵 속도 높여야”... 양자보안연구회 워크숍 개최",
-      "summary": "‘Action to Quantum Transformation’ 주제로 실질적인 적용방안 논의 “양자보안 기술의 실질적인 전환 위한 연구 공유의 장 지속적으로 마련”[보안뉴스 한세희 기자] 한국정보보호학회 양자보안연구회(공동 운영위원장 이원혁, 최두호)가 지난 10일 세종컨벤션센터 국제회의장에서 ‘양자 전환을 위한 실행(Action to Quantum Tra",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144647&kind=&sub_kind=",
-      "date": "2026-07-12"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "KT AI 스테이션, ‘WSIS 프라이즈 2026’ 챔피언상 수상",
-      "summary": "정보·지식 접근 부문에서 높은 평가... 올해 국내에서 유일하게 수상이동식 AI 체험·교육 프로그램 통해 AI 교육 격차 해소 성과 인정KT “청소년들이 AI 올바른 이해와 안전한 활용토록 AI 교육 기회 확대”[보안뉴스 원병철 기자] KT(대표이사 박윤영)가 10일(현지시간) 스위스 제네바에서 열린 ‘정보사회세계정상회의(WSIS) 프라이즈 2026’ 시상",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144646&kind=&sub_kind=",
-      "date": "2026-07-12"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[속담으로 배우는 100가지 보안 습관 61] 아는 길도 물어가라(1)-비밀번호 관리 앱, 왜 써야 할까",
-      "summary": "비밀번호 관리 프로그램(LastPass, Bitwarden 등) 사용을 고려하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144209&kind=&sub_kind=",
-      "date": "2026-07-12"
     }
   ],
-  "totalItems": 3768,
+  "totalItems": 3779,
   "hasArchive": true
 }
