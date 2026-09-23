@@ -3,12 +3,12 @@
     {
       "key": "2026-Q3",
       "file": "news-2026-Q3.json",
-      "count": 1212,
+      "count": 1225,
       "sources": {
-        "SecurityWeek": 530,
-        "Dell": 159,
-        "HPE": 26,
-        "VAST Data": 45,
+        "Dell": 162,
+        "HPE": 27,
+        "VAST Data": 46,
+        "SecurityWeek": 538,
         "보안뉴스": 452
       },
       "dateRange": {
@@ -59,6 +59,6 @@
       }
     }
   ],
-  "totalItems": 3779,
-  "lastUpdated": "2026-09-22T03:52:43.287Z"
+  "totalItems": 3792,
+  "lastUpdated": "2026-09-23T03:51:26.579Z"
 }
