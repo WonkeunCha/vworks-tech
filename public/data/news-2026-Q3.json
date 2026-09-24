@@ -3,6 +3,123 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "고등교육이 Dell AI 데이터 플랫폼이 필요한 이유",
+      "summary": "Dell AI 데이터 플랫폼은 저장소 엔진, 데이터 엔진, 데이터 오케스트레이션을 통합하여 AI 활성화를 위한 종합적인 솔루션을 제공합니다. 고등교육 기관들의 데이터는 이미 AI 활용을 위한 준비가 되어 있으며, Dell의 플랫폼은 이러한 데이터를 효과적으로 활용할 수 있는 기반을 마련합니다. 통합된 데이터 관리 시스템을 통해 교육 기관들은 더욱 신속하고 효율적인 데이터 기반 의사결정과 혁신적인 연구 발견을 가능하게 합니다. EDUCAUSE 컨퍼런스의 부스 1001에서 Dell Technologies의 AI 데이터 플랫폼에 대해 자세히 알아볼 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/why-higher-education-needs-dell-ai-data-platform/",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 2026 가트너 매직 쿼드런트 인프라 플랫폼 소비 서비스 부문 리더로 선정",
+      "summary": "HPE는 2026년 가트너 매직 쿼드런트 인프라 플랫폼 소비 서비스 부문에서 2년 연속 리더로 선정되었다고 발표했습니다. HPE는 지난 한 해 동안 에이전트 기반 AIOps와 통합 클라우드 운영 소프트웨어를 탑재한 GreenLake를 발전시켜 기업 AI 인프라와 IT 인프라 관리 및 최적화를 간소화했습니다. HPE의 임원은 AI가 기업들로 하여금 분산된 클라우드, 데이터 플랫폼, 시스템을 하나의 지능형 환경으로 통합하여 인프라를 운영하는 방식을 근본적으로 재편하도록 강요하고 있다고 설명했습니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/09/hpe-named-a-leader-in-2026-gartner-magic-quadrant-for-infrastructure-platform-consumption-services.html",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CINECA, AI를 위한 HPC 인프라 재구축",
+      "summary": "유럽 최대 규모 슈퍼컴퓨터 중 하나인 Leonardo를 운영하는 CINECA의 AI/HPC 아키텍처 책임자 다니엘레 세자리니는 몇 년 전만 해도 약 95~98%가 전통 HPC 워크로드였던 것이 현재는 50% 이상이 AI로 급변했다고 지적했다. 이러한 변화는 단순한 CPU와 GPU의 균형 변화를 넘어 기반 인프라의 역할을 근본적으로 바꾸었다. 전통 HPC 스토리지는 대용량 데이터를 병렬 파일 시스템으로 읽고 쓰는 방식으로 설계되었으나, AI는 훨씬 더 광범위하고 예측 불가능한 데이터 접근 패턴을 요구한다. CINECA는 이제 병렬 파일 인터페이스, 객체 스토리지, NFS 등 다양한 인터페이스를 동시에 지원해야 하며, 이는 고성능 병렬 파일 시스템 중심의 기존 아키텍처 가정이 더 이상 성립하지 않음을 의미한다. 세자리니에 따르면 문제는 단순 스토리지 성능이 아니라 공통 데이터 플랫폼에서 다양한 인터페이스와 워크로드를 지원하면서도 성능을 유지하는 능력이다. CINECA는 VAST Data와의 협력을 통해 이러한 과제를 해결하고 있으며, 이미 OpenStack 클라우드 환경과 Leonardo, AI 인프라를 모두 지원하는 통합 데이터 플랫폼을 운영 중이다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/cineca-rebuilding-hpc-for-ai",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "IonQ, 단일 CPU 디코더로 양자 오류 수정 병목 현상 해결",
+      "summary": "양자 컴퓨팅 기업 IonQ가 양자 오류 수정 분야의 주요 병목 현상을 극복하기 위해 단일 CPU 디코더를 개발했습니다. 이 기술은 양자 컴퓨터의 오류 수정 프로세스를 효율화하여 양자 시스템의 성능 향상을 목표로 합니다. 기존의 복잡한 오류 수정 방식을 간소화함으로써 양자 컴퓨팅의 실용성을 높이는 데 기여할 것으로 예상됩니다. 이는 양자 컴퓨팅 기술이 현실화되는 데 있어 중요한 진전으로 평가받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ionq-targets-quantum-error-correction-bottleneck-with-single-cpu-decoderionq-says-sin/",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI의 인터넷 장악에 대한 우려가 종말론적 시나리오 중 새로운 긴급성을 얻고 있음",
+      "summary": "SecurityWeek 보도에 따르면 인공지능이 인터넷을 장악할 수 있다는 우려가 사이버보안 커뮤니티에서 새로운 긴급성을 띠고 있습니다. 이는 AI 기술의 빠른 발전과 함께 제어 불가능한 AI 시스템이 초래할 수 있는 잠재적 위험에 대한 논의가 확대되고 있음을 의미합니다. 종말론적 시나리오로 분류되던 이 문제가 현실적인 보안 위협으로 인식되기 시작했으며, 전문가들 사이에서 AI 시스템의 안전성과 통제 메커니즘에 대한 논의가 더욱 활발해지고 있습니다. 이러한 우려는 AI가 금융, 의료, 인프라 등 핵심 시스템을 제어하는 시대로의 전환과 맞물려 더욱 중요한 과제로 대두되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/worries-about-an-ai-internet-takeover-gain-new-urgency-among-doomsday-scenarios/",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "허니웰: OT 보안팀의 AI 도입 증가, 하지만 자동화 수준은 아직 미흡",
+      "summary": "허니웰의 보고서에 따르면 운영 기술(OT) 보안팀들이 인공지능(AI) 도입을 적극적으로 추진하고 있는 것으로 나타났습니다. 다만 AI를 통한 완전한 자동화 수준까지 도달한 팀은 여전히 드문 상황입니다. 이는 OT 환경에서 AI 기술의 활용도는 높아지고 있지만, 실제 운영 자동화 구현에는 여전히 많은 과제가 남아있음을 의미합니다. 산업용 제어 시스템(ICS) 보안의 중요성이 대두되는 가운데, 조직들은 AI 기반 도구 도입과 자동화 능력 확보 사이의 간극을 줄이기 위한 노력을 기울여야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/honeywell-ot-security-teams-embrace-ai-but-autonomy-still-rare/",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Adobe, Connect와 AEM Forms의 심각한 취약점 패치",
+      "summary": "Adobe가 Connect와 Experience Manager Forms에서 발견된 심각한 보안 취약점을 패치했습니다. 이 취약점들은 원격 코드 실행으로 이어질 수 있는 위험한 결함입니다. SecurityWeek에서 보도한 이번 보안 업데이트는 Ionut Arghire 기자가 2026년 9월 23일에 작성했습니다. Adobe의 즉각적인 패치로 사용자들은 이 취약점으로부터 보호받을 수 있게 되었습니다. 사용자들은 가능한 한 빨리 최신 보안 업데이트를 설치할 것을 권장합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/adobe-patches-critical-flaws-in-connect-aem-forms/",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, AI 기반 피싱 플랫폼 'EvilTokens' 적발 및 차단",
+      "summary": "마이크로소프트가 AI 기술을 활용한 피싱 플랫폼 'EvilTokens'를 적발하고 차단했습니다. 이 플랫폼은 인공지능을 이용하여 대규모 피싱 공격을 수행해왔으며, 사이버범죄자들에게 서비스를 제공하고 있었습니다. 마이크로소프트의 조치로 해당 플랫폼의 운영이 중단되었습니다. 이번 사건은 AI 기술이 악의적인 목적으로 악용되는 사례를 보여주며, 피싱 공격의 정교함이 증가하고 있음을 시사합니다. 보안 전문가들은 기업과 개인 모두 고도화된 피싱 위협에 대한 경계를 강화할 필요가 있다고 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ai-powered-phishing-platform-eviltokens-disrupted-by-microsoft/",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Chrome 154, 108개 취약점 패치 배포",
+      "summary": "Google이 Chrome 154 버전을 출시하며 108개의 보안 취약점에 대한 패치를 제공했습니다. 이번 업데이트에는 심각한 수준의 메모리 안전성 및 메모리 손상 관련 취약점들이 포함되어 있습니다. SecurityWeek의 보도에 따르면, 이러한 취약점들은 악의적인 공격자에 의해 악용될 수 있는 주요 보안 위협으로 평가되고 있습니다. Chrome 사용자들은 최신 버전으로의 업데이트를 통해 이러한 보안 결함으로부터 자신의 브라우저를 보호할 수 있습니다. 정기적인 보안 업데이트 적용은 사이버 공격으로부터 시스템을 보호하는 중요한 조치입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/chrome-154-patches-108-vulnerabilities/",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "인류를 위협할 수 있는 AI 묵시록 시나리오 분석",
+      "summary": "SecurityWeek에서 보도한 이 기사는 연구자들이 제시하는 인류에게 위험을 초래할 수 있는 AI의 극단적인 시나리오들을 분석하고 있습니다. 인공지능 기술의 급속한 발전에 따라 전문가들 사이에서 논의되고 있는 다양한 위험 시나리오들을 조명하며, 이러한 위협들이 어떤 방식으로 인류의 안전을 위협할 수 있는지에 대해 설명합니다. 이 보도는 AI 보안과 관련된 주요 위험 요소들을 식별하고, 향후 대비 방안의 필요성을 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/a-look-at-ai-doomsday-scenarios-that-researchers-say-could-put-humanity-at-risk/",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "아웃터리미트, 악의적 AI 에이전트 방지를 위해 1,600만 달러 자금 조달",
+      "summary": "AI 보안 기업 아웃터리미트가 1,600만 달러의 시리즈 펀딩을 완료했습니다. 이 자금은 악의적으로 행동할 수 있는 자율 AI 에이전트(에이전틱 AI)를 탐지하고 차단하기 위한 기술 개발에 사용될 예정입니다. 아웃터리미트는 분산형 인증 계층을 제공하여 해로운 자동화된 AI 행동을 발견, 모니터링, 차단합니다. 이는 AI 기술이 발전하면서 통제 불능의 AI 에이전트로 인한 피해를 방지하기 위한 새로운 보안 솔루션입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/outerlimit-raises-16-million-to-stop-rogue-ai-agents-from-causing-harm/",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Arista, 악용되고 있는 VCO 제로데이 취약점에 대한 즉시 패치 권고",
+      "summary": "네트워킹 장비 제조업체인 Arista가 현재 실제로 악용되고 있는 VCO(Virtual CloudVisor Operating System) 제로데이 취약점에 대해 긴급 패치를 권고했습니다. 미국 사이버보안 및 인프라 보안청(CISA)의 악용 취약점 카탈로그(KEV)에도 등재된 이 취약점은 공격자들에 의해 적극적으로 활용되고 있습니다. Arista는 영향을 받은 고객들에게 가능한 한 빨리 최신 보안 패치를 적용할 것을 강력히 촉구하고 있습니다. 이 제로데이 취약점은 조직의 네트워킹 인프라에 심각한 보안 위협을 초래할 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/arista-urges-immediate-patching-of-exploited-vco-zero-day/",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "F5 BIG-IP의 심각한 취약점이 제로데이로 악용 중",
+      "summary": "F5 BIG-IP 제품에서 발견된 심각한 보안 취약점이 제로데이 공격으로 악용되고 있습니다. 이 취약점은 공격자들에 의해 적극적으로 악용되고 있으며, 영향을 받는 시스템의 보안을 심각하게 위협하고 있습니다. SecurityWeek의 보도에 따르면 위협 행위자들이 이미 이 취약점을 활용한 공격을 수행하고 있는 것으로 알려졌습니다. F5는 영향을 받은 사용자들에게 긴급 패치 적용을 권장하고 있습니다. 조직들은 자신의 BIG-IP 시스템이 이 취약점의 영향을 받고 있는지 즉시 확인하고 필요한 보안 조치를 취해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/critical-f5-big-ip-vulnerability-exploited-as-zero-day/",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "AI 확장을 위한 보안과 복원력의 필수 요소",
       "summary": "6,500개 이상의 AI 팩토리를 구축한 Dell은 성공의 핵심 요소에 대한 독보적인 통찰력을 가지고 있습니다. 보안과 복원력 전략은 프로젝트 초기부터 내장되어야 합니다. AI 인프라의 확장을 위해서는 견고한 보안 기반이 필수적입니다. 처음부터 보안을 고려하지 않으면 나중에 큰 문제가 발생할 수 있습니다. 따라서 AI 배포 시작 단계에서 보안 및 복원력 계획을 수립하는 것이 성공의 열쇠입니다.",
       "category": "서버",
@@ -11028,10 +11145,10 @@
     }
   ],
   "sources": {
-    "Dell": 162,
-    "HPE": 27,
-    "VAST Data": 46,
-    "SecurityWeek": 538,
+    "Dell": 163,
+    "HPE": 28,
+    "VAST Data": 47,
+    "SecurityWeek": 548,
     "보안뉴스": 452
   }
 }

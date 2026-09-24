@@ -3791,9 +3791,139 @@
     "https://www.securityweek.com/recent-zyxel-switch-vulnerability-exploited-by-chinese-hackers/",
     "https://www.securityweek.com/malicious-b-tree-npm-package-accumulates-millions-of-downloads/",
     "https://www.securityweek.com/wordpress-patches-click2shell-vulnerability/",
-    "https://www.securityweek.com/japan-dismantles-first-north-korean-laptop-farm-as-us-and-allies-detail-wider-scheme/"
+    "https://www.securityweek.com/japan-dismantles-first-north-korean-laptop-farm-as-us-and-allies-detail-wider-scheme/",
+    "https://www.dell.com/en-us/blog/why-higher-education-needs-dell-ai-data-platform/",
+    "https://www.hpe.com/us/en/newsroom/press-release/2026/09/hpe-named-a-leader-in-2026-gartner-magic-quadrant-for-infrastructure-platform-consumption-services.html",
+    "https://www.vastdata.com/blog/cineca-rebuilding-hpc-for-ai",
+    "https://www.securityweek.com/ionq-targets-quantum-error-correction-bottleneck-with-single-cpu-decoderionq-says-sin/",
+    "https://www.securityweek.com/worries-about-an-ai-internet-takeover-gain-new-urgency-among-doomsday-scenarios/",
+    "https://www.securityweek.com/honeywell-ot-security-teams-embrace-ai-but-autonomy-still-rare/",
+    "https://www.securityweek.com/adobe-patches-critical-flaws-in-connect-aem-forms/",
+    "https://www.securityweek.com/ai-powered-phishing-platform-eviltokens-disrupted-by-microsoft/",
+    "https://www.securityweek.com/chrome-154-patches-108-vulnerabilities/",
+    "https://www.securityweek.com/a-look-at-ai-doomsday-scenarios-that-researchers-say-could-put-humanity-at-risk/",
+    "https://www.securityweek.com/outerlimit-raises-16-million-to-stop-rogue-ai-agents-from-causing-harm/",
+    "https://www.securityweek.com/arista-urges-immediate-patching-of-exploited-vco-zero-day/",
+    "https://www.securityweek.com/critical-f5-big-ip-vulnerability-exploited-as-zero-day/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "고등교육이 Dell AI 데이터 플랫폼이 필요한 이유",
+      "summary": "Dell AI 데이터 플랫폼은 저장소 엔진, 데이터 엔진, 데이터 오케스트레이션을 통합하여 AI 활성화를 위한 종합적인 솔루션을 제공합니다. 고등교육 기관들의 데이터는 이미 AI 활용을 위한 준비가 되어 있으며, Dell의 플랫폼은 이러한 데이터를 효과적으로 활용할 수 있는 기반을 마련합니다. 통합된 데이터 관리 시스템을 통해 교육 기관들은 더욱 신속하고 효율적인 데이터 기반 의사결정과 혁신적인 연구 발견을 가능하게 합니다. EDUCAUSE 컨퍼런스의 부스 1001에서 Dell Technologies의 AI 데이터 플랫폼에 대해 자세히 알아볼 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/why-higher-education-needs-dell-ai-data-platform/",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 2026 가트너 매직 쿼드런트 인프라 플랫폼 소비 서비스 부문 리더로 선정",
+      "summary": "HPE는 2026년 가트너 매직 쿼드런트 인프라 플랫폼 소비 서비스 부문에서 2년 연속 리더로 선정되었다고 발표했습니다. HPE는 지난 한 해 동안 에이전트 기반 AIOps와 통합 클라우드 운영 소프트웨어를 탑재한 GreenLake를 발전시켜 기업 AI 인프라와 IT 인프라 관리 및 최적화를 간소화했습니다. HPE의 임원은 AI가 기업들로 하여금 분산된 클라우드, 데이터 플랫폼, 시스템을 하나의 지능형 환경으로 통합하여 인프라를 운영하는 방식을 근본적으로 재편하도록 강요하고 있다고 설명했습니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/09/hpe-named-a-leader-in-2026-gartner-magic-quadrant-for-infrastructure-platform-consumption-services.html",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CINECA, AI를 위한 HPC 인프라 재구축",
+      "summary": "유럽 최대 규모 슈퍼컴퓨터 중 하나인 Leonardo를 운영하는 CINECA의 AI/HPC 아키텍처 책임자 다니엘레 세자리니는 몇 년 전만 해도 약 95~98%가 전통 HPC 워크로드였던 것이 현재는 50% 이상이 AI로 급변했다고 지적했다. 이러한 변화는 단순한 CPU와 GPU의 균형 변화를 넘어 기반 인프라의 역할을 근본적으로 바꾸었다. 전통 HPC 스토리지는 대용량 데이터를 병렬 파일 시스템으로 읽고 쓰는 방식으로 설계되었으나, AI는 훨씬 더 광범위하고 예측 불가능한 데이터 접근 패턴을 요구한다. CINECA는 이제 병렬 파일 인터페이스, 객체 스토리지, NFS 등 다양한 인터페이스를 동시에 지원해야 하며, 이는 고성능 병렬 파일 시스템 중심의 기존 아키텍처 가정이 더 이상 성립하지 않음을 의미한다. 세자리니에 따르면 문제는 단순 스토리지 성능이 아니라 공통 데이터 플랫폼에서 다양한 인터페이스와 워크로드를 지원하면서도 성능을 유지하는 능력이다. CINECA는 VAST Data와의 협력을 통해 이러한 과제를 해결하고 있으며, 이미 OpenStack 클라우드 환경과 Leonardo, AI 인프라를 모두 지원하는 통합 데이터 플랫폼을 운영 중이다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/cineca-rebuilding-hpc-for-ai",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "IonQ, 단일 CPU 디코더로 양자 오류 수정 병목 현상 해결",
+      "summary": "양자 컴퓨팅 기업 IonQ가 양자 오류 수정 분야의 주요 병목 현상을 극복하기 위해 단일 CPU 디코더를 개발했습니다. 이 기술은 양자 컴퓨터의 오류 수정 프로세스를 효율화하여 양자 시스템의 성능 향상을 목표로 합니다. 기존의 복잡한 오류 수정 방식을 간소화함으로써 양자 컴퓨팅의 실용성을 높이는 데 기여할 것으로 예상됩니다. 이는 양자 컴퓨팅 기술이 현실화되는 데 있어 중요한 진전으로 평가받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ionq-targets-quantum-error-correction-bottleneck-with-single-cpu-decoderionq-says-sin/",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI의 인터넷 장악에 대한 우려가 종말론적 시나리오 중 새로운 긴급성을 얻고 있음",
+      "summary": "SecurityWeek 보도에 따르면 인공지능이 인터넷을 장악할 수 있다는 우려가 사이버보안 커뮤니티에서 새로운 긴급성을 띠고 있습니다. 이는 AI 기술의 빠른 발전과 함께 제어 불가능한 AI 시스템이 초래할 수 있는 잠재적 위험에 대한 논의가 확대되고 있음을 의미합니다. 종말론적 시나리오로 분류되던 이 문제가 현실적인 보안 위협으로 인식되기 시작했으며, 전문가들 사이에서 AI 시스템의 안전성과 통제 메커니즘에 대한 논의가 더욱 활발해지고 있습니다. 이러한 우려는 AI가 금융, 의료, 인프라 등 핵심 시스템을 제어하는 시대로의 전환과 맞물려 더욱 중요한 과제로 대두되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/worries-about-an-ai-internet-takeover-gain-new-urgency-among-doomsday-scenarios/",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "허니웰: OT 보안팀의 AI 도입 증가, 하지만 자동화 수준은 아직 미흡",
+      "summary": "허니웰의 보고서에 따르면 운영 기술(OT) 보안팀들이 인공지능(AI) 도입을 적극적으로 추진하고 있는 것으로 나타났습니다. 다만 AI를 통한 완전한 자동화 수준까지 도달한 팀은 여전히 드문 상황입니다. 이는 OT 환경에서 AI 기술의 활용도는 높아지고 있지만, 실제 운영 자동화 구현에는 여전히 많은 과제가 남아있음을 의미합니다. 산업용 제어 시스템(ICS) 보안의 중요성이 대두되는 가운데, 조직들은 AI 기반 도구 도입과 자동화 능력 확보 사이의 간극을 줄이기 위한 노력을 기울여야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/honeywell-ot-security-teams-embrace-ai-but-autonomy-still-rare/",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Adobe, Connect와 AEM Forms의 심각한 취약점 패치",
+      "summary": "Adobe가 Connect와 Experience Manager Forms에서 발견된 심각한 보안 취약점을 패치했습니다. 이 취약점들은 원격 코드 실행으로 이어질 수 있는 위험한 결함입니다. SecurityWeek에서 보도한 이번 보안 업데이트는 Ionut Arghire 기자가 2026년 9월 23일에 작성했습니다. Adobe의 즉각적인 패치로 사용자들은 이 취약점으로부터 보호받을 수 있게 되었습니다. 사용자들은 가능한 한 빨리 최신 보안 업데이트를 설치할 것을 권장합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/adobe-patches-critical-flaws-in-connect-aem-forms/",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, AI 기반 피싱 플랫폼 'EvilTokens' 적발 및 차단",
+      "summary": "마이크로소프트가 AI 기술을 활용한 피싱 플랫폼 'EvilTokens'를 적발하고 차단했습니다. 이 플랫폼은 인공지능을 이용하여 대규모 피싱 공격을 수행해왔으며, 사이버범죄자들에게 서비스를 제공하고 있었습니다. 마이크로소프트의 조치로 해당 플랫폼의 운영이 중단되었습니다. 이번 사건은 AI 기술이 악의적인 목적으로 악용되는 사례를 보여주며, 피싱 공격의 정교함이 증가하고 있음을 시사합니다. 보안 전문가들은 기업과 개인 모두 고도화된 피싱 위협에 대한 경계를 강화할 필요가 있다고 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ai-powered-phishing-platform-eviltokens-disrupted-by-microsoft/",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Chrome 154, 108개 취약점 패치 배포",
+      "summary": "Google이 Chrome 154 버전을 출시하며 108개의 보안 취약점에 대한 패치를 제공했습니다. 이번 업데이트에는 심각한 수준의 메모리 안전성 및 메모리 손상 관련 취약점들이 포함되어 있습니다. SecurityWeek의 보도에 따르면, 이러한 취약점들은 악의적인 공격자에 의해 악용될 수 있는 주요 보안 위협으로 평가되고 있습니다. Chrome 사용자들은 최신 버전으로의 업데이트를 통해 이러한 보안 결함으로부터 자신의 브라우저를 보호할 수 있습니다. 정기적인 보안 업데이트 적용은 사이버 공격으로부터 시스템을 보호하는 중요한 조치입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/chrome-154-patches-108-vulnerabilities/",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "인류를 위협할 수 있는 AI 묵시록 시나리오 분석",
+      "summary": "SecurityWeek에서 보도한 이 기사는 연구자들이 제시하는 인류에게 위험을 초래할 수 있는 AI의 극단적인 시나리오들을 분석하고 있습니다. 인공지능 기술의 급속한 발전에 따라 전문가들 사이에서 논의되고 있는 다양한 위험 시나리오들을 조명하며, 이러한 위협들이 어떤 방식으로 인류의 안전을 위협할 수 있는지에 대해 설명합니다. 이 보도는 AI 보안과 관련된 주요 위험 요소들을 식별하고, 향후 대비 방안의 필요성을 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/a-look-at-ai-doomsday-scenarios-that-researchers-say-could-put-humanity-at-risk/",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "아웃터리미트, 악의적 AI 에이전트 방지를 위해 1,600만 달러 자금 조달",
+      "summary": "AI 보안 기업 아웃터리미트가 1,600만 달러의 시리즈 펀딩을 완료했습니다. 이 자금은 악의적으로 행동할 수 있는 자율 AI 에이전트(에이전틱 AI)를 탐지하고 차단하기 위한 기술 개발에 사용될 예정입니다. 아웃터리미트는 분산형 인증 계층을 제공하여 해로운 자동화된 AI 행동을 발견, 모니터링, 차단합니다. 이는 AI 기술이 발전하면서 통제 불능의 AI 에이전트로 인한 피해를 방지하기 위한 새로운 보안 솔루션입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/outerlimit-raises-16-million-to-stop-rogue-ai-agents-from-causing-harm/",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Arista, 악용되고 있는 VCO 제로데이 취약점에 대한 즉시 패치 권고",
+      "summary": "네트워킹 장비 제조업체인 Arista가 현재 실제로 악용되고 있는 VCO(Virtual CloudVisor Operating System) 제로데이 취약점에 대해 긴급 패치를 권고했습니다. 미국 사이버보안 및 인프라 보안청(CISA)의 악용 취약점 카탈로그(KEV)에도 등재된 이 취약점은 공격자들에 의해 적극적으로 활용되고 있습니다. Arista는 영향을 받은 고객들에게 가능한 한 빨리 최신 보안 패치를 적용할 것을 강력히 촉구하고 있습니다. 이 제로데이 취약점은 조직의 네트워킹 인프라에 심각한 보안 위협을 초래할 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/arista-urges-immediate-patching-of-exploited-vco-zero-day/",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "F5 BIG-IP의 심각한 취약점이 제로데이로 악용 중",
+      "summary": "F5 BIG-IP 제품에서 발견된 심각한 보안 취약점이 제로데이 공격으로 악용되고 있습니다. 이 취약점은 공격자들에 의해 적극적으로 악용되고 있으며, 영향을 받는 시스템의 보안을 심각하게 위협하고 있습니다. SecurityWeek의 보도에 따르면 위협 행위자들이 이미 이 취약점을 활용한 공격을 수행하고 있는 것으로 알려졌습니다. F5는 영향을 받은 사용자들에게 긴급 패치 적용을 권장하고 있습니다. 조직들은 자신의 BIG-IP 시스템이 이 취약점의 영향을 받고 있는지 즉시 확인하고 필요한 보안 조치를 취해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/critical-f5-big-ip-vulnerability-exploited-as-zero-day/",
+      "date": "2026-09-23"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "AI 확장을 위한 보안과 복원력의 필수 요소",
@@ -12676,125 +12806,8 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/sap-patches-critical-vulnerabilities-in-netweaver-approuter-commerce-cloud/",
       "date": "2026-07-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "미국과 동맹국, 핵심 기반시설 라우터를 목표로 한 러시아 사이버 공격 경고",
-      "summary": "미국과 동맹국들이 핵심 기반시설을 대상으로 한 러시아의 사이버 공격 위협에 대해 공동으로 경고했습니다. 러시아 국가 지원 해킹 그룹들이 통신 및 에너지 등 중요 인프라의 라우터를 공격 대상으로 삼고 있는 것으로 파악되었습니다. 이러한 공격을 통해 공격자들은 네트워크에 침투하여 장기간 은폐된 상태로 활동할 수 있는 발판을 마련할 수 있습니다. 라우터는 네트워크 연결의 핵심 장비로서, 이에 대한 공격은 국가 기반시설의 가용성과 보안에 심각한 위협이 될 수 있습니다. 관련 기관들은 라우터 소프트웨어 업데이트 적용과 강화된 접근 제어 등의 방어 조치를 권고하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/us-allies-warn-of-russian-cyberattacks-targeting-critical-infrastructure-routers/",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Valarian, 주권적 인프라 제어 계층을 위해 5천만 달러 자금 조달",
-      "summary": "사이버보안 기업 Valarian이 주권적 인프라 제어 계층 개발을 위해 5천만 달러 규모의 자금 조달을 완료했습니다. 이번 투자는 국가 차원의 중요 인프라 보안 강화에 초점을 맞추고 있습니다. Valarian은 조달된 자금을 통해 자국 내 인프라 시스템의 독립적인 제어 및 모니터링 기술 개발에 나설 예정입니다. 이러한 움직임은 국가 사이버 안보 전략의 중요성이 커지면서 주권적 기술 개발에 대한 투자가 증가하고 있음을 보여줍니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/valarian-raises-50-million-for-sovereign-infrastructure-control-layer/",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "다중 Jscrambler 패키지, 공급망 공격으로 영향받음",
-      "summary": "JavaScript 코드 보안 및 난독화 솔루션인 Jscrambler의 여러 패키지가 공급망 공격의 대상이 되었습니다. 이번 공격으로 인해 정보 탈취형 악성코드(infostealer)가 영향받은 패키지에 주입된 것으로 확인되었습니다. 공급망 보안 침해는 개발자들이 의존하는 소프트웨어 패키지를 통해 광범위한 피해를 야기할 수 있습니다. Jscrambler를 사용하는 개발자 및 조직들은 즉시 영향받은 패키지 버전을 확인하고 업데이트하는 것이 권장됩니다. 이 사건은 오픈소스 및 서드파티 패키지에 대한 보안 검증의 중요성을 다시 한 번 강조합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/multiple-jscrambler-packages-impacted-by-supply-chain-attack/",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "국방부, 계약업체 사이버보안 규정 재검토하며 CMMC 2단계 중단",
-      "summary": "미국 국방부가 방위산업기반(DIB) 계약업체들을 대상으로 한 사이버보안 성숙도 모델 인증(CMMC) 2단계를 일시 중단했습니다. 국방부는 계약업체의 사이버보안 요구사항을 재검토하고 있으며, 이는 기존 CMMC 정책에 대한 변경이 필요하다는 판단에 따른 결정입니다. 이 조치로 CMMC 인증 취득을 준비 중이던 방위산업 계약업체들의 규정 준수 일정에 영향을 미칠 것으로 예상됩니다. 국방부의 최종 방침이 결정될 때까지 2단계 심사는 보류될 것으로 보입니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/pentagon-suspends-cmmc-phase-2-as-it-rethinks-contractor-cybersecurity-rules/",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[2026 OT 보안 솔루션 리포트] 세계가 주목하는 한국 첨단 제조업, OT 보안이 경쟁력 지킨다",
-      "summary": "OT 보안 뚫리면 신체적, 물리적 피해 현실화디지털 융합, AI 발달, 지정학적 갈등 속 핵심 인프라 공격 우려 고조제조 환경 속속들이 파악하는 가시성 확보에서 효율적 탐지, 대응까지 OT 보안 전문기업 집중 분석: 센스톤, 모싸, 휴네시온, 요꼬가와전기 [보안뉴스 한세희 기자] 2025년 영국 핵심 인프라 운영 기관에 대한 공격은 200여건에 이른다. 이",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144688&kind=&sub_kind=",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] 한국기업보안, SSL/TLS 인증서 자동화 솔루션 ‘UCLM’으로 47일 유효기간 선제 대응",
-      "summary": "발급부터 설치·모니터링까지 전 주기 자동화...온프레미스 환경 특화 CLM 솔루션 선보여[보안뉴스 원병철 기자] 한국기업보안(대표 전귀선)이 8월 11일(화)부터 12일(수)까지 서울 코엑스(COEX) Hall D 및 오디토리움에서 개최되는 ‘ISEC 2026’(제20회 국제 시큐리티 컨퍼런스)에 참가해 SSL/TLS 인증서 자동화 관리 솔루션 ‘UCLM’",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144578&kind=&sub_kind=",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] ‘시만텍 CBX’, 클라우드 기반 통합 보안 플랫폼으로 보안 운영 복잡성 낮춰",
-      "summary": "엔드포인트·네트워크·데이터 보안을 AI 기반 단일 에이전트로 제공[보안뉴스 한세희 기자] 시만텍은 엔드포인트, 네트워크, 데이터 보안을 통합한 클라우드 기반 보안 플랫폼 ‘시만텍 CBX’를 통해, 리소스가 제한된 조직도 고도화된 사이버 위협에 대응할 수 있도록 지원한다. 시만텍 CBX는 시만텍의 예방(Prevention) 중심 보안, 데이터 보안, 네트워크",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144565&kind=&sub_kind=",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "한화비전-GIST 공동 연구팀, 음향 AI 업계 난제 풀어내는 기술로 국제 경진대회 ‘세계 1위’",
-      "summary": "기존 학습 음향 잊는 AI 난제 ‘연속 학습 기술’로 해법국제 AI 경진대회 ‘DCASE 2026 챌린지’ 부문서 1등시각 사각지대 음향으로 보완하는 차세대 보안 솔루션으로 진화 전망[보안뉴스 강초희 기자] 한화비전(대표이사 김기철)이 음향 AI 업계의 고질적 난제를 풀 새 해법을 제시하며 세계적 권위의 국제 경진대회 정상에 올랐다. 이번에 개발한 첨단 음",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144668&kind=&sub_kind=",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "신라대, 대한상공회의소 ‘직업계고 채용연계형 첨단보안검색요원 양성 과정’ 입교식 개최",
-      "summary": "교육과 직무훈련은 물론 취업 연계까지 지원9월 30일까지 총 400시간 교육 진행[보안뉴스 엄호식 기자] 신라대학교(총장 허남식) 평생교육원은 7월 13일 교내 예술관 411호에서 대한상공회의소가 주관하는 ‘직업계고 채용연계형 첨단보안검색요원 양성 과정’ 입교식을 개최하고 본격적인 교육 운영에 들어갔다고 밝혔다.이번 교육과정은 대한상공회의소가 추진하는 채용",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144673&kind=&sub_kind=",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "쿠도커뮤니케이션, 턱스케어 무중단 패치로 리눅스 서버 보안 운영 효율화",
-      "summary": "재부팅 없는 라이브 패칭 기반으로 리눅스 서버 보안 운영 효율화취약점 대응 지연과 서비스 중단 부담 줄이는 보안 패치 관리 방안 제시[보안뉴스 강초희 기자] 쿠도커뮤니케이션(대표이사 김용식)은 리눅스 보안 솔루션 턱스케어(TuxCare)를 통해 기업의 리눅스 서버 보안 패치 운영 체계 강화를 지원한다고 밝혔다.최근 기업의 IT 인프라가 클라우드, 온프레미스",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144669&kind=&sub_kind=",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "독파모 SKT 정예팀에 SK AX·테크노매트릭스 합류",
-      "summary": "SK AX, 산업 AI 전환 역량 발휘테크노매트릭스, 제조 AI 운영 최적화 역량 발휘[보안뉴스 강현주 기자] SK텔레콤(대표 CEO 정재헌)은 정부의 독자 AI 파운데이션 모델 프로젝트 컨소시엄에 SK AX와 테크노매트릭스를 새로운 참여사로 맞이해 경쟁력을 강화했다고 14일 밝혔다.SKT 정예팀은 산업 AI 전환(AX)과 제조분야 AI 운영에 전문성을 갖",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144670&kind=&sub_kind=",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "조달청, 산불감시 등 다목적 융복합드론스테이션 임대서비스 도입",
-      "summary": "드론·이착륙 스테이션·관제시스템 융합상품 나라장터 종합쇼핑몰에서 임대수요기관 낮은 도입 부담으로 첨단제품 현장 투입[보안뉴스 엄호식 기자] 조달청(총장 백승보)은 14일 나라장터 종합쇼핑몰에 산불 예방·감시와 시설물 안전점검 등 다목적으로 활용할 수 있는 ‘융복합 드론스테이션 임대서비스’ 구매입찰 공고를 게시했다. 융복합드론스테이션은 △드론과 드론의 자동",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144671&kind=&sub_kind=",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "KT, ‘국정자원 혁신 ISP’ 사업 우선협상대상자 선정... “공공 AI 인프라 설계”",
-      "summary": "대전 본원 693개 정보시스템 분석재배치 로드맵과 클라우드 활용 전략 수립국가정보통신망·공공 DR 사업 역량 결집[보안뉴스 강현주 기자] KT(대표 박윤영)가 행정안전부와 한국지능정보사회진흥원(NIA)이 발주한 ‘국가정보자원관리원 혁신 정보화전략계획(ISP) 수립 사업’의 우선협상대상자로 선정돼 국가 공공 AI 인프라 혁신을 위한 설계 작업에 착수한다고 1",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144667&kind=&sub_kind=",
-      "date": "2026-07-14"
     }
   ],
-  "totalItems": 3792,
+  "totalItems": 3805,
   "hasArchive": true
 }
