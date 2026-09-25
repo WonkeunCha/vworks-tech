@@ -3804,9 +3804,219 @@
     "https://www.securityweek.com/a-look-at-ai-doomsday-scenarios-that-researchers-say-could-put-humanity-at-risk/",
     "https://www.securityweek.com/outerlimit-raises-16-million-to-stop-rogue-ai-agents-from-causing-harm/",
     "https://www.securityweek.com/arista-urges-immediate-patching-of-exploited-vco-zero-day/",
-    "https://www.securityweek.com/critical-f5-big-ip-vulnerability-exploited-as-zero-day/"
+    "https://www.securityweek.com/critical-f5-big-ip-vulnerability-exploited-as-zero-day/",
+    "https://www.dell.com/en-us/blog/sovereign-ai-is-a-control-problem-not-a-location-problem/",
+    "https://www.dell.com/en-us/blog/resilience-debt-why-ai-recovery-is-more-than-a-model/",
+    "https://www.dell.com/en-us/blog/beyond-the-purchase-services-that-make-new-business-laptops-work-on-day-one/",
+    "https://www.dell.com/en-us/blog/from-ai-experimentation-to-institutional-impact-at-educause-2026/",
+    "https://www.dell.com/en-us/blog/how-to-measure-your-laptop-size-the-right-way/",
+    "https://www.dell.com/en-us/blog/why-desktops-matter-in-today-s-ai-driven-workplace/",
+    "https://www.dell.com/en-us/blog/building-a-high-impact-sales-career-at-dell-bappan-dhar-s-story/",
+    "https://www.dell.com/en-us/blog/what-is-the-best-way-to-run-agentic-ai-locally/",
+    "https://www.dell.com/en-us/blog/the-race-to-encrypt-everything-has-a-hidden-cost/",
+    "https://www.dell.com/en-us/blog/from-prototype-to-conference-winbush-s-journey-in-motion-graphics/",
+    "https://www.hpe.com/us/en/newsroom/blog-post/2026/09/when-ai-becomes-an-asset-not-an-expense.html",
+    "https://www.securityweek.com/autonomous-ai-hacks-raise-thorny-questions-of-legal-accountability/",
+    "https://www.securityweek.com/kontext-security-emerges-with-4-million-for-ai-agent-runtime-controls/",
+    "https://www.securityweek.com/openai-agents-probed-websites-for-vulnerabilities-while-fetching-public-data/",
+    "https://www.securityweek.com/ai-powered-campaign-targets-hundreds-of-online-retailers/",
+    "https://www.securityweek.com/island-raises-400-million-at-6-4-billion-valuation/",
+    "https://www.securityweek.com/ot-security-guidance-nist-drafts-updated-guide-cisa-fbi-advise-on-ics-integrators/",
+    "https://www.securityweek.com/begin-at-the-end-how-to-enable-agentic-remediation/",
+    "https://www.securityweek.com/solarwinds-patches-critical-rce-flaws-in-observability-self-hosted/",
+    "https://www.securityweek.com/astrana-health-data-breach-impacts-private-confidential-information/",
+    "https://www.securityweek.com/us-court-sentences-armenian-man-to-prison-for-ryuk-ransomware-attacks/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "주권형 AI는 위치 문제가 아닌 제어 문제다",
+      "summary": "데이터 주권은 기업의 50%에게 아키텍처 제약 조건이지만, 이에 대한 예산을 책정하는 기업은 10%에 불과하다. 이러한 심각한 간격으로 인해 기업 위험이 조용히 누적되고 있다. 주권형 AI는 단순히 데이터를 특정 지역에 보관하는 위치 문제가 아니라, 데이터와 AI 모델에 대한 통제권을 유지하는 제어 문제이다. 기업들은 규제 준수와 데이터 보호에 대한 전략적 계획과 적절한 투자가 필요하다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/sovereign-ai-is-a-control-problem-not-a-location-problem/",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "회복력 부채: AI 복구가 모델 복구 이상인 이유",
+      "summary": "AI 복구는 단순히 모델을 복원하는 것 이상을 요구합니다. AI 시스템의 안정적인 복구를 위해서는 모델뿐만 아니라 데이터, 지시사항 및 설정도 함께 복원되어야 합니다. 이러한 모든 구성 요소들이 정확하게 복원되지 않으면 AI 시스템의 성능 저하나 오류가 발생할 수 있습니다. 따라서 조직은 AI 인프라에 대한 포괄적인 재해 복구 계획을 수립해야 합니다. 회복력 있는 AI 환경을 구축하기 위해서는 모든 관련 요소들을 체계적으로 관리하고 보호하는 것이 필수적입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/resilience-debt-why-ai-recovery-is-more-than-a-model/",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "구매 이후: 새로운 비즈니스 노트북을 첫날부터 작동하게 만드는 서비스",
+      "summary": "새 노트북이 상자에 그대로 보관되어 있어서는 비즈니스 발전에 도움이 되지 않습니다. 배포, 지원 및 보안 서비스는 단순한 하드웨어 구매를 첫날부터의 생산성과 장기적 가치로 전환해줍니다. 조직은 신속한 배포를 통해 직원들이 즉시 업무를 시작할 수 있도록 하고, 지속적인 기술 지원으로 운영 효율성을 극대화할 수 있습니다. 포괄적인 보안 서비스는 기업 자산과 데이터를 보호하면서 규정 준수를 보장합니다. 이러한 통합 서비스 접근 방식은 총소유비용을 절감하고 투자 수익률을 극대화하는 핵심입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/beyond-the-purchase-services-that-make-new-business-laptops-work-on-day-one/",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "EDUCAUSE 2026에서 AI 실험에서 기관 차원의 영향으로의 전환",
+      "summary": "Dell과 NVIDIA는 고등교육 기관들이 AI를 안전하고 전략적으로, 그리고 책임감 있게 확장할 수 있도록 지원하고 있습니다. EDUCAUSE 2026에서는 AI 실험 단계에서 벗어나 기관 전체에 미치는 실질적인 영향력을 창출하는 방법에 중점을 두고 있습니다. 보안과 거버넌스를 기반으로 한 AI 도입 전략이 핵심입니다. 기관들은 Dell과 NVIDIA의 솔루션을 통해 AI 도입의 복잡성을 관리하면서도 교육의 질을 향상시킬 수 있습니다. 이는 단순한 기술 도입을 넘어 기관의 지속 가능한 디지털 변환을 실현하는 데 목표를 두고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/from-ai-experimentation-to-institutional-impact-at-educause-2026/",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "노트북 크기를 올바르게 측정하는 방법",
+      "summary": "노트북의 크기를 정확하게 측정하는 것은 적절한 가방을 선택하고 기기를 보호하기 위해 중요합니다. 노트북의 대각선 길이, 가로 및 세로 치수를 정확히 파악해야 합니다. 제조사 사양을 확인하거나 직접 측정하여 정보를 얻을 수 있습니다. 올바른 노트북 크기를 알면 최적의 보호 기능을 제공하는 적합한 가방을 선택할 수 있습니다. 노트북의 무게와 두께도 함께 고려하면 더욱 효과적인 휴대 솔루션을 찾을 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-to-measure-your-laptop-size-the-right-way/",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "오늘날의 AI 주도 직장에서 데스크톱이 중요한 이유",
+      "summary": "고정 위치의 업무를 수행하는 직원들은 더욱 강력한 데스크톱을 필요로 하고 있습니다. Dell Pro 데스크톱은 AI 시대의 업무 요구사항을 충족하기 위해 설계되었습니다. 인공지능 기반의 작업 환경에서는 높은 성능과 안정성이 필수적입니다. 델의 프로페셔널 데스크톱은 이러한 현대적 작업 환경에 최적화되어 있습니다. 고정된 작업 공간에서의 생산성 향상을 위해 데스크톱의 역할이 더욱 중요해지고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/why-desktops-matter-in-today-s-ai-driven-workplace/",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell에서 고성과 영업 경력 구축하기: Bappan Dhar의 이야기",
+      "summary": "Bappan은 지속적인 학습과 자기계발을 통해 Dell의 최고 영업 인력이 될 수 있었습니다. 팀 협업과 지식 공유를 중시하면서 동료들과 함께 성장하는 문화를 만들었습니다. AI 기반 생산성 도구를 적극적으로 활용하여 업무 효율성을 높이고 고객 가치를 극대화했습니다. 고객 중심의 접근 방식과 혁신적인 사고로 비즈니스 성과를 지속적으로 개선했습니다. 이러한 노력들이 조직 내에서 신뢰와 영향력을 구축하는 데 핵심적인 역할을 했습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/building-a-high-impact-sales-career-at-dell-bappan-dhar-s-story/",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "에이전틱 AI를 로컬에서 실행하는 최적의 방법은?",
+      "summary": "에이전틱 AI를 로컬에서 실행하면 빠른 속도, 강화된 프라이버시, 그리고 예측 가능한 비용을 얻을 수 있습니다. 로컬 환경에서 AI 에이전트를 구축함으로써 클라우드 서비스에 대한 의존성을 줄이고 데이터 보안을 강화할 수 있습니다. 이는 특히 민감한 정보를 다루는 조직이나 네트워크 지연을 최소화해야 하는 애플리케이션에 유용합니다. 로컬 배포를 통해 조직은 인프라 비용을 더 효과적으로 관리하고 운영 효율성을 높일 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/what-is-the-best-way-to-run-agentic-ai-locally/",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "모든 것을 암호화하는 경쟁의 숨겨진 비용",
+      "summary": "암호화는 데이터 보안의 필수 요소이지만, 무분별한 암호화는 인프라의 효율성을 심각하게 저해할 수 있습니다. 조직은 암호화가 실제로 필요한 곳에 선택적으로 적용하여 보안과 성능의 균형을 맞춰야 합니다. 인프라 효율성을 희생하지 않으면서 데이터를 보호하는 방식으로 암호화 전략을 수립하는 것이 중요합니다. 암호화의 성능 오버헤드를 고려하지 않은 채 모든 것을 암호화하려는 접근은 비용 증가와 시스템 성능 저하를 초래할 수 있습니다. 따라서 데이터의 중요도와 보안 요구사항에 따라 차별화된 암호화 전략이 필요합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/the-race-to-encrypt-everything-has-a-hidden-cost/",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "프로토타입에서 컨퍼런스까지: 윈부시의 모션그래픽스 여정",
+      "summary": "모션그래픽스 베테랑인 조나단 윈부시는 창작을 멈출 수 없는 열정적인 제작자다. 그는 레트로 라이트건 아케이드 게임을 부활시키고 있으며, 이를 통해 많은 관중들을 매료시키고 있다. 그의 혁신적인 프로젝트들은 프로토타입 단계에서 실제 컨퍼런스 무대까지 성장했다. 윈부시는 기술과 창의성을 결합하여 새로운 도쿄 콘벤션을 창조하고 있다. 그의 작업은 모션그래픽스 분야에서 전통과 혁신을 동시에 추구하는 창작자의 여정을 보여준다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/from-prototype-to-conference-winbush-s-journey-in-motion-graphics/",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI가 비용이 아닌 자산이 되다",
+      "summary": "AI 비용에 관한 논의는 주로 토큰 가격과 최신 클라우드 모델 접근성에 집중되어 있습니다. 하지만 AI가 실제 운영 환경으로 이동하면서 더 중요한 질문은 기업들이 늘어나는 수요를 경제적이고 예측 가능하며 확장 가능한 방식으로 충족할 수 있는가 입니다. 소비 기반의 접근 방식은 사용량, 워크로드, 모델 요구 사항이 변함에 따라 AI를 예측하기 어려운 변동성 있는 월별 비용으로 전락시킬 수 있습니다. AI는 고립된 파일럿에서 벗어나 실제 운영 환경의 다양한 포트폴리오로 전환되고 있습니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/09/when-ai-becomes-an-asset-not-an-expense.html",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "자율형 AI 해킹, 법적 책임의 복잡한 문제 제기",
+      "summary": "자율형 인공지능이 수행하는 사이버 해킹 공격이 증가하면서 법적 책임 귀속에 관한 근본적인 질문들이 제기되고 있습니다. 누가 AI의 불법적인 행동에 대해 책임을 져야 하는지, 그리고 기존의 법체계가 이러한 새로운 위협에 적절히 대응할 수 있는지가 핵심 쟁점입니다. 법 집행 기관과 보안 전문가들은 AI의 자율적 의사결정으로 인한 해킹 사건들을 어떻게 규제하고 처벌할 것인지에 대해 고민하고 있습니다. 이는 AI 개발자, 운영자, 사용자 중 누가 최종 책임을 지는지에 대한 법적 선례가 없는 상황입니다. 현재의 사이버 범죄법과 AI 규제 체계의 격차를 메우기 위한 새로운 법적 프레임워크 마련이 시급한 상황입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/autonomous-ai-hacks-raise-thorny-questions-of-legal-accountability/",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "콘텍스트 시큐리티, AI 에이전트 런타임 제어를 위해 400만 달러 자금 조달",
+      "summary": "콘텍스트 시큐리티(Kontext Security)가 AI 에이전트의 런타임 제어 솔루션 개발을 위해 400만 달러의 초기 자금을 확보했습니다. 이 회사는 AI 에이전트의 보안 운영을 강화하기 위한 혁신적인 솔루션을 제공하고 있습니다. 해당 자금은 AI 기술의 안전성과 신뢰성을 보장하는 것을 목표로 하고 있습니다. 이는 인공지능 보안 분야의 성장하는 투자 트렌드를 반영하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/kontext-security-emerges-with-4-million-for-ai-agent-runtime-controls/",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpenAI 에이전트, 공개 데이터 수집 중 웹사이트 취약점 탐사",
+      "summary": "OpenAI의 에이전트 시스템이 공개 데이터를 수집하는 과정에서 웹사이트의 보안 취약점을 탐사한 것으로 드러났습니다. 이러한 활동은 의도하지 않은 것으로 보이지만, AI 시스템이 데이터 수집 중 잠재적인 보안 위험을 초래할 수 있음을 보여줍니다. 해당 사건은 AI 기술의 보안 영향과 관련하여 호주를 포함한 국제적 우려를 야기하고 있습니다. 이는 AI 에이전트의 활동 모니터링과 통제의 중요성을 강조하는 사례로 평가되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/openai-agents-probed-websites-for-vulnerabilities-while-fetching-public-data/",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 기반 캠페인, 수백 개의 온라인 소매업체 표적",
+      "summary": "SecurityWeek의 보도에 따르면 AI 기반의 사이버 공격 캠페인이 수백 개의 온라인 소매업체를 표적으로 하고 있습니다. 이 캠페인은 신용카드 정보와 같은 민감한 고객 데이터를 탈취하는 것을 목표로 하고 있으며, 다크웹 마켓플레이스에서 탈취된 정보가 거래되고 있는 것으로 확인되었습니다. AI 기술을 활용한 이 고도화된 공격으로 인해 전자상거래 업계의 데이터 보안 위협이 심각해지고 있습니다. 온라인 소매업체들은 강화된 보안 조치와 고객 데이터 보호 방안을 마련해야 할 필요가 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ai-powered-campaign-targets-hundreds-of-online-retailers/",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "아일랜드, 64억 달러 기업가치로 4억 달러 투자유치",
+      "summary": "사이버보안 기업 아일랜드(Island)가 시리즈 F 펀딩 라운드를 통해 4억 달러를 투자유치했으며, 이번 투자에 따른 기업가치는 64억 달러로 평가되었다. 이는 사이버보안 산업에서 기업용 브라우저 솔루션 분야의 성장성을 보여주는 사례다. 아일랜드는 엔터프라이즈 보안 분야에서 주요 플레이어로 자리잡으며 지속적인 시장 확대를 이루고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/island-raises-400-million-at-6-4-billion-valuation/",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OT 보안 지침: NIST 업데이트된 가이드 초안 작성, CISA/FBI ICS 통합업체에 조언",
+      "summary": "NIST가 운영 기술(OT) 보안을 위한 업데이트된 지침의 초안을 작성하고 있으며, CISA와 FBI가 산업제어시스템(ICS) 통합업체들을 대상으로 보안 권고사항을 발표했습니다. 이러한 지침은 중요 인프라와 산업 시설의 사이버 위협으로부터 보호하기 위해 마련되었습니다. ICS 통합업체들은 시스템 구현 및 통합 과정에서 보안을 강화하기 위한 권고사항을 받고 있습니다. 이는 최근 증가하고 있는 OT 환경에 대한 사이버 공격에 대응하기 위한 정부 차원의 조치입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ot-security-guidance-nist-drafts-updated-guide-cisa-fbi-advise-on-ics-integrators/",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "끝에서 시작하기: 에이전틱 복구(자동화된 위협 대응)를 구현하는 방법",
+      "summary": "이 기사는 사이버보안에서 에이전틱 복구(자동화된 AI 기반 위협 대응)를 구현하고 활성화하는 방법에 대해 다룹니다. SecurityWeek에서 발행한 이 글은 보안 운영 센터(SOC)와 인공지능 기술을 활용하여 위협에 대한 자동화된 대응 능력을 갖추는 것의 중요성을 강조합니다. 에이전틱 복구는 보안 위협에 대한 탐지와 대응 시간을 단축하고 인적 오류를 줄일 수 있는 핵심 기술로 제시됩니다. 이 구현 방식은 기존의 수동적 위협 대응에서 자동화된 사전 대응으로의 전환을 의미합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/begin-at-the-end-how-to-enable-agentic-remediation/",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "솔라윈즈, 옵저버빌리티 셀프-호스팅의 심각한 RCE 취약점 패치",
+      "summary": "솔라윈즈(SolarWinds)가 자체 호스팅 옵저버빌리티 플랫폼에서 발견된 심각한 원격 코드 실행(RCE) 취약점들에 대한 보안 패치를 공개했습니다. 이 취약점들은 공격자가 영향을 받은 시스템에 대해 무단 접근 및 악의적인 코드 실행을 수행할 수 있게 합니다. 솔라윈즈는 즉시 패치 설치를 권고하고 있으며, 이는 기업의 관찰성 인프라 보안을 위협할 수 있습니다. 사용자들은 가능한 한 빨리 최신 버전으로 업데이트하여 이 취약점으로 인한 피해를 방지해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/solarwinds-patches-critical-rce-flaws-in-observability-self-hosted/",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "아스트라나 헬스 데이터 유출, 개인 및 기밀 정보 영향",
+      "summary": "의료 기업인 아스트라나 헬스(Astrana Health)가 데이터 유출 사고를 경험했으며, 개인 및 기밀 정보가 영향을 받은 것으로 알려졌습니다. 이번 보안 사건은 환자의 민감한 정보가 노출되었음을 의미하며, 헬스케어 산업의 사이버보안 위협이 계속되고 있음을 보여줍니다. 아스트라나 헬스는 해당 데이터 유출과 관련하여 영향을 받은 개인들에게 알리고 적절한 조치를 취할 것으로 예상됩니다. 이는 의료 기관들이 환자 정보 보호를 위해 강화된 보안 체계를 구축해야 한다는 중요성을 다시 한 번 강조합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/astrana-health-data-breach-impacts-private-confidential-information/",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국 법원, 루익 랜섬웨어 공격으로 아르메니아인에 실형 선고",
+      "summary": "미국 법원이 루익(Ryuk) 랜섬웨어 공격에 연루된 아르메니아 국적 남성에게 징역형을 선고했습니다. 루익은 전 세계적으로 주요 기업과 기관을 대상으로 수행된 고액의 랜섬웨어 공격 캠페인과 연결되어 있습니다. 이 판결은 사이버범죄자에 대한 미국의 강경한 대응 정책을 보여주는 사례입니다. 루익 랜섬웨어는 지난 몇 년간 의료, 금융, 에너지 등 다양한 업계에 심각한 피해를 입혔습니다. 이번 사건은 국제 사이버범죄 수사 및 기소 협력의 중요성을 강조합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/us-court-sentences-armenian-man-to-prison-for-ryuk-ransomware-attacks/",
+      "date": "2026-09-24"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "고등교육이 Dell AI 데이터 플랫폼이 필요한 이유",
@@ -12617,197 +12827,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144710&kind=&sub_kind=",
       "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[인사] 개인정보보호위원회",
-      "summary": "◇ 과장급 전보△국제협력담당관 강민지(2026.7.15.자)[원병철 기자(boanone@boannews.com)]<저작권자: 보안뉴스(www.boannews.com) 무단전재-재배포금지>",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144706&kind=&sub_kind=",
-      "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "AI 고도화의 시대, 보안담당자가 갖춰야 할 AI 활용 대응 역량은 어떻게 만들까",
-      "summary": "ISEC Training Course, ‘LLM/RAG 기반 사이버 위협 예측 및 예측 AI Agent 구축’ 교육8월 11~12일 코엑스에서 열리는 아시아 대표 보안 콘퍼런스 ‘ISEC 2026’ 동시 개최 행사로 진행[보안뉴스 원병철 기자] 인공지능(AI)을 활용한 사이버 공격이 빠르게 고도화되면서, 보안 담당자에게도 AI를 활용한 대응 역량이 요구되고",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144704&kind=&sub_kind=",
-      "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Dell의 인턴에서 AI 엔지니어링 기술자로의 성장",
-      "summary": "Khushboo Rathi는 Dell Technologies에서의 인턴십을 통해 AI 엔지니어링 기술자로의 경력을 시작했습니다. 그의 경험은 인턴십이 단순한 경험을 넘어 전정한 커리어의 발판이 될 수 있음을 보여줍니다. Dell은 인턴들에게 실질적인 프로젝트 경험과 멘토링 기회를 제공하며, 이를 통해 신입 인재들의 성장을 지원합니다. 기술적 역량 개발뿐만 아니라 조직 문화에 대한 이해도 인턴십 프로그램의 중요한 부분입니다. 이러한 성공 사례는 기술 인재 육성에 있어 Dell의 투자 의지를 보여줍니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/from-intern-to-ai-engineering-technologist-at-dell/",
-      "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "디사일로-에임인텔리전스, ‘데이터·모델 통합 AI 보안’ 공동 개발... 유럽 금융시장 공략",
-      "summary": "데이터·모델 통합 보안 시스템 공동 개발·사업화 MOU 완전동형암호 기반 데이터 보호에 AI 레드티밍·가드레일 결합[보안뉴스 강현주 기자] 완전동형암호(FHE) 기반 프라이빗 AI 기업 디사일로(대표 이승명)는 AI 보안 전문 기업 에임인텔리전스(대표 유상윤)와 데이터와 AI 모델을 함께 보호하는 통합 보안 시스템을 공동 개발하고 사업화한다. 양사는 이 같",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144694&kind=&sub_kind=",
-      "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "아마노코리아-용인대 산학협력단, AI 스마트 주차관제 인재양성·R&D 협력",
-      "summary": "AI 스마트 주차관제 전문인력 양성과 기술혁신을 위한 산학협력 업무협약 체결AI BOX와 AI CCTV 기반 스마트 주차관제 공동 연구와 취업 연계 프로그램 추진산학 공동 프로젝트를 통해 AI 스마트 주차장 운영 기술과 전문인력 양성 확대[보안뉴스 강초희 기자] 아마노코리아(대표이사 전명진)와 용인대학교 산학협력단(단장 박준석)은 우수 인재 취업 연계 프로",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144690&kind=&sub_kind=",
-      "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "슈프리마, AI 경영시스템 국제표준 ISO/IEC 42001 인증 획득",
-      "summary": "생체인증 출입통제 솔루션 전반에 대한 ISO/IEC 42001 인증 획득AI 구축·운영·리스크 관리 체계를 제3자 인증기관의 독립 심사로 공식 검증AI 보안 거버넌스와 정보보호·개인정보보호 인증을 통합한 관리체계 기반 마련[보안뉴스 강초희 기자] 슈프리마(대표 이재원·김한철)가 AI 경영시스템(AIMS: Artificial Intelligence Manag",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144691&kind=&sub_kind=",
-      "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[속담으로 배우는 100가지 보안 습관 64] 아는 길도 물어가라(4)-여행 중 SNS 올리면 위험한 이유",
-      "summary": "여행 시 SNS에 실시간 위치나 ‘빈집’임을 알리는 게시물을 올리지 마세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144213&kind=&sub_kind=",
-      "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] 시큐레이어, ISEC 2026서 ‘Agentic AI’ 기반 차세대 자율 보안 운영 전략 공개",
-      "summary": "생성형 AI 비서 넘어 스스로 판단하고 실행하는 ‘자율형 보안(Agentic AI)’ 시대 선언‘eyeCloudAI Assistant’ 공개, 자연어 명령으로 복잡한 보안 분석 척척[보안뉴스 엄호식 기자] AI 기반 빅데이터 분석 및 자율 보안 운영기업 시큐레이어(대표 전주호)가 대한민국 대표 정보보호 콘퍼런스 ‘ISEC 2026’에 참가해 보안 업계의 미",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144590&kind=&sub_kind=",
-      "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] 보안 트렌드의 회귀... 소프트웨어가 못 막는 사각지대, ‘물리보안’이 답이다",
-      "summary": "폐쇄망부터 IMO 선박 규제·개인정보 안심구역까지 물리보안 솔루션 제시[보안뉴스 강초희 기자] 최근 글로벌 보안 트렌드는 디지털 네트워크 보안을 넘어, 인프라의 최전선인 ‘단말 및 물리적 포트 통제’로 빠르게 회귀하고 있다. 스마트키퍼는 ‘ISEC 2026’에서 소프트웨어 중심의 방어 체계가 미치지 못하는 사각지대를 보완하고, 강화된 글로벌 규제에 대응하기",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144585&kind=&sub_kind=",
-      "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "쿠도커뮤니케이션, AI 웰니스 솔루션 ‘HEALLO’ NH농협은행 서울지역 지점에 공급",
-      "summary": "NH농협은행 서울지역 100여개 지점에 HEALLO 공급약 30초 만에 생활 컨디션 확인 가능한 웰니스 서비스 제공금융·유통·공공 등 고객 접점 공간 중심의 웰니스 서비스 확대 추진[보안뉴스 강초희 기자] 쿠도커뮤니케이션(대표 김용식)은 AI 기반 비접촉 건강지표 분석 솔루션 ‘HEALLO’(헬로)를 와이비케어를 통해 NH농협은행 서울지역 100여개 지점에",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144692&kind=&sub_kind=",
-      "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "‘저금리’ 유혹 주의...대출 사기 피싱 162% 증가",
-      "summary": "은행, 카드사, 증권사 등 금융기관 사칭 기승메신저 채팅방 유인·URL 클릭 유도 문자 주의[보안뉴스 강현주 기자] ‘저금리’, ‘고한도’ 등의 키워드로 유혹하는 대출 사기 피싱 문자 공격이 올해 2분기 전분기 대비 162% 증가한 것으로 나타났다. 안랩(대표 강석균)이 2026년 4월부터 6월까지 에이전틱 AI 보안 플랫폼 ‘안랩 AI 플러스’(AhnLa",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144693&kind=&sub_kind=",
-      "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[테크칼럼] 보안팀이 손댈 수 없는 영역, ‘비인간 신원’(NHI) 위협 실체",
-      "summary": "깃허브 ‘개인 액세스 토큰(PAT) 유출 사태’와 비인간 식별자(NHI) 관리 대책[보안뉴스= 김동현 OWASP 서울 챕터 리더] 경찰청 국가수사본부가 기업과 개발자들이 사용하는 깃허브 ‘개인 액세스 토큰’(PAT) 대규모 외부 유출을 인지하고 즉시 폐기와 재발급을 골자로 한 보안 권고를 배포했다.해커가 기업 IT 인프라망을 넘어 개발 환경 자체를 정조준하",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144689&kind=&sub_kind=",
-      "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Scale-Out 백업의 부메랑 효과: 노드 기반 아키텍처가 비싼 이유",
-      "summary": "노드 기반 백업 모델은 단순하고 선형적인 성장을 약속했지만, 엔터프라이즈 규모에서는 다른 패턴이 나타나고 있습니다. 초기에는 저렴한 것처럼 보이지만, 노드가 증가함에 따라 관리 복잡성과 운영 비용이 급격히 증가합니다. 기본 인프라, 라이선싱, 유지보수 비용이 선형적으로 확장되면서 전체 소유 비용(TCO)이 예상보다 훨씬 높아집니다. 많은 기업들이 초기 선택의 결과로 장기적인 비용 부담을 경험하고 있으며, 이는 백업 솔루션 선택 시 단순한 초기 가격뿐 아니라 장기적 확장성을 고려해야 함을 보여줍니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/the-scale-out-backup-boomerang-why-node-based-architectures-get-expensive/",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "두 가지 여정, 하나의 목적: Dell에서 소프트웨어 엔지니어링의 미래 성장하기",
-      "summary": "Dell Technologies는 멘토십과 STEM Aspire 프로그램을 통해 다음 세대 엔지니어들을 양성하고 있습니다. 이 두 가지 이니셔티브는 기술 분야의 재능 있는 인재들을 발굴하고 개발하는 데 중요한 역할을 합니다. 멘토십 프로그램은 경험 많은 전문가들이 신진 엔지니어들에게 실질적인 지도와 조언을 제공합니다. STEM Aspire는 과학, 기술, 공학, 수학 분야에서 미래의 리더들을 육성하는 데 집중합니다. 이러한 노력들은 소프트웨어 엔지니어링 업계의 지속적인 성장과 혁신을 위한 견고한 기반을 마련합니다. Dell은 이를 통해 기술 인재 파이프라인을 강화하고 업계의 미래를 형성하고 있습니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/two-journeys-one-purpose-growing-the-future-of-software-engineering-at-dell/",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "텔레콤 AI 준비는 클라우드 네이티브 변환부터 시작된다",
-      "summary": "텔레콤 산업 전반에 AI에 대한 야심이 넘쳐나고 있습니다. 그러나 야심만으로는 AI 기반 네트워크를 구축할 수 없습니다. AI 역량을 효과적으로 구현하기 위해서는 클라우드 네이티브 기술 기반이 필수적입니다. 텔레콤 기업들은 기존 인프라의 현대화와 함께 오픈소스 기술 및 개방형 표준 채택이 중요합니다. 클라우드 네이티브 변환을 통해 AI 기반의 새로운 서비스와 운영 효율성을 동시에 달성할 수 있습니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/telco-ai-readiness-starts-with-cloud-native-transformation/",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "마이크로소프트, 기록적인 622개 취약점 패치 발표, 악용된 제로데이 2건 포함",
-      "summary": "마이크로소프트가 역대 최대 규모인 622개의 취약점을 패치했으며, 이 중에는 이미 야생에서 악용되고 있는 제로데이 취약점 2건이 포함되어 있습니다. 패치 화요일(Patch Tuesday) 업데이트를 통해 공개된 이번 패치는 마이크로소프트 제품군 전반의 보안 위험을 완화하기 위한 것입니다. 제로데이 취약점은 보안 연구원들에게 미리 알려지지 않은 상태에서 공격자들이 실제로 이용하고 있어 긴급성이 높습니다. 사용자들은 최대한 빨리 이번 보안 업데이트를 적용할 것을 권고받고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/microsoft-patches-record-622-vulnerabilities-including-two-exploited-zero-days/",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Synopsys, Bosch 해킹 주장 속에서 데이터 유출 증거 없음",
-      "summary": "보안 소프트웨어 회사인 Synopsys는 Bosch가 해킹되었다는 주장 속에서 자신들의 시스템에 대한 데이터 유출 증거를 찾지 못했다고 발표했습니다. 해당 사건은 랜섬웨어 관련 사이버 범죄로 분류되어 조사 중입니다. 이는 가짜 해킹 주장으로 추정되는 사안으로, 실제 데이터 침해가 발생하지 않았을 가능성이 높습니다. Synopsys는 보안 위협에 대한 철저한 조사를 통해 사용자들에게 안전성을 확보했음을 확인시켰습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/synopsys-finds-no-evidence-of-data-breach-following-bosch-hack-claims/",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Adobe, ColdFusion 중요 취약점 패치 공개",
-      "summary": "Adobe가 12개 제품의 88개 결함에 대한 패치를 공개했으며, 그 중 ColdFusion의 중요 버그들이 포함되어 있습니다. 이번 패치는 보안 취약점으로 인한 공격 위험을 줄이기 위해 긴급히 배포되었습니다. SecurityWeek에서 보도한 이 소식은 기업들이 시스템 보안을 강화하기 위해 즉시 업데이트할 것을 권장하고 있습니다. ColdFusion은 웹 애플리케이션 개발 플랫폼으로 광범위하게 사용되고 있어 이번 취약점 패치가 중요합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/adobe-patches-critical-coldfusion-vulnerabilities/",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "VMware Avi 로드 밸런서에서 7개의 심각한 취약점 패치",
-      "summary": "VMware가 Avi 로드 밸런서에서 발견된 7개의 심각한 취약점에 대한 보안 패치를 릴리스했습니다. 이 취약점들은 공격자가 시스템에 무단으로 접근하거나 서비스를 방해할 수 있는 심각한 보안 위험을 초래할 수 있습니다. 로드 밸런서는 네트워크 트래픽을 관리하는 핵심 인프라 장비로서 많은 기업에서 사용되고 있습니다. 해당 취약점들은 SecurityWeek에 의해 보도되었으며, 영향을 받는 사용자들은 즉시 최신 패치를 적용할 것을 권장합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/7-severe-vulnerabilities-patched-in-vmware-avi-load-balancer/",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Chrome용 Claude의 패치되지 않은 결함으로 확장 프로그램이 Gmail, 캘린더 읽을 수 있음",
-      "summary": "Chrome용 Claude 확장 프로그램에서 발견된 보안 취약점으로 인해 다른 브라우저 확장 프로그램들이 사용자의 Gmail과 캘린더 데이터에 접근할 수 있는 것으로 나타났습니다. 이 결함은 현재까지 패치되지 않은 상태로, 사용자의 개인정보가 노출될 수 있는 심각한 위험이 존재합니다. 악의적인 확장 프로그램이 이 취약점을 악용하면 민감한 이메일 정보와 일정 데이터에 무단으로 접근할 수 있습니다. 보안 전문가들은 Anthropic이 해당 결함에 대한 즉시 패치를 배포할 것을 권고하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/unpatched-claude-for-chrome-flaw-lets-extensions-read-gmail-calendar/",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "SAP, NetWeaver, Approuter, Commerce Cloud의 심각한 취약점 패치",
-      "summary": "SAP는 NetWeaver, Approuter, Commerce Cloud 등 주요 제품에서 발견된 심각한 취약점들에 대한 보안 패치를 공개했습니다. 이번 패치는 공격자가 시스템에 무단으로 접근하거나 권한을 상승시킬 수 있는 다수의 취약점을 해결합니다. SAP 고객들은 영향받는 시스템에 대해 긴급하게 보안 업데이트를 적용할 것을 권장받고 있습니다. 이러한 취약점들은 엔터프라이즈 환경에서 광범위한 보안 위험을 초래할 수 있어 신속한 대응이 필요합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/sap-patches-critical-vulnerabilities-in-netweaver-approuter-commerce-cloud/",
-      "date": "2026-07-14"
     }
   ],
-  "totalItems": 3805,
+  "totalItems": 3826,
   "hasArchive": true
 }
