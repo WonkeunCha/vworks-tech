@@ -3,6 +3,69 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "기타 뉴스: Clop 유출 사이트 탈취, Docker 봇넷의 AI 키 탐색, 수도 공급 업체 노출",
+      "summary": "사이버보안 위협이 계속 확대되고 있습니다. Clop 랜섬웨어 그룹의 유출 사이트가 탈취되는 사건이 발생했으며, Docker 환경을 대상으로 하는 봇넷이 AI 서비스의 API 키와 민감한 자격증명을 탈취하려는 활동을 보이고 있습니다. 또한 수도 공급 시설 운영 업체의 시스템이 인터넷에 노출되어 중대한 기반시설 보안 위협이 대두되었습니다. 이러한 사건들은 기업의 클라우드 인프라, AI 리소스, 그리고 필수 공공 서비스에 대한 사이버 공격의 증가 추세를 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-clop-leak-site-takeover-docker-botnet-hunts-ai-keys-water-utility-exposure/",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "북한이 비트겟 암호화폐 3억 5,100만 달러 해킹 사건에 연루된 것으로 의심됨",
+      "summary": "암호화폐 거래소 비트겟이 3억 5,100만 달러 규모의 대규모 해킹 피해를 입었으며, 북한이 이 사건의 주요 용의자로 지목되고 있습니다. 이는 북한이 자금 조달을 위해 암호화폐 거래소를 표적으로 삼는 최근의 사이버 범죄 추세를 반영합니다. 보안 전문가들은 북한의 고도화된 해킹 능력과 과거 유사 사건들의 패턴을 토대로 이번 사건을 추적하고 있습니다. 이 해킹 사건은 암호화폐 업계의 보안 취약점과 국가 주도 사이버 공격의 심각성을 다시 한 번 드러냈습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/north-korea-suspected-in-351-million-bitget-crypto-heist/",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, 선거 보안 계획에서 보안 패치 장벽과 유권자 데이터베이스 공격 문제 지적",
+      "summary": "미국 사이버보안및기반시설보안청(CISA)이 선거 보안 강화를 위한 계획을 발표하면서 보안 패치 적용의 구조적 장벽과 유권자 데이터베이스에 대한 공격 위협을 주요 문제로 지목했습니다. 보고서는 선거 시스템 보호에 있어 적시의 보안 패치 적용이 어려운 현실을 강조하고 있습니다. 또한 유권자 정보를 관리하는 데이터베이스가 사이버 공격의 주요 표적이 될 수 있음을 경고하고 있습니다. CISA는 이러한 취약점을 해결하기 위한 구체적인 지침과 권고사항을 제시하여 선거 인프라의 보안 강화를 도모하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisa-election-security-plan-flags-patching-barriers-voter-database-attacks/",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "코소보 국적 라이독스 마켓플레이스 운영자, 미국 법원에서 유죄 인정",
+      "summary": "코소보 출신의 라이독스(Rydox) 마켓플레이스 운영자가 미국 법원에서 유죄를 인정했습니다. 라이독스는 온라인 불법 상품 거래를 중개하는 다크웹 마켓플레이스로 알려져 있습니다. 이번 사건은 국제적 사이버범죄 수사와 법 집행의 결과입니다. 피고인은 불법 마켓플레이스 운영 및 범죄 수익금 세탁 등의 혐의에 대해 유죄를 인정했습니다. 이는 다크웹 기반 불법 거래 플랫폼에 대한 미국의 강화된 단속 노력을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/kosovar-owner-of-rydox-marketplace-pleads-guilty-in-us-court/",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Windows, Linux, Android 파일 알림 시스템이 사용자 활동 정보 유출",
+      "summary": "Windows, Linux, Android 운영체제의 파일 알림 시스템에서 사용자의 활동 정보가 유출되는 보안 취약점이 발견되었습니다. 이 취약점은 파일 시스템 모니터링 기능을 통해 사용자의 파일 접근 및 활동 패턴이 노출될 수 있음을 의미합니다. 해당 연구는 엔드포인트 보안과 데이터 보호 측면에서 중요한 위협으로 지적되고 있습니다. 이는 여러 주요 운영체제에 걸쳐 광범위하게 영향을 미치는 구조적 문제로 보여집니다. 보안 전문가들은 이 취약점으로 인한 개인정보 유출 위험을 경고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/windows-linux-android-file-notification-systems-leak-user-activity/",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "'SalesBleed' - Salesforce Agentforce의 결함으로 인한 클릭 없는 데이터 유출",
+      "summary": "Salesforce Agentforce에서 'SalesBleed'라는 보안 결함이 발견되어 사용자의 클릭 없이도 데이터 유출이 가능한 것으로 드러났습니다. 이 취약점은 AI 기반의 Agentforce 플랫폼에서 발견된 것으로, 공격자가 사용자의 개입 없이 민감한 데이터에 접근할 수 있게 합니다. 이는 Salesforce 고객들의 데이터 보안에 심각한 위협이 되고 있습니다. SecurityWeek에 따르면 이 결함은 인공지능 및 취약점 관련 카테고리에 속하며, 광범위한 영향을 미칠 수 있는 중대한 보안 이슈입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/salesbleed-flaws-in-salesforce-agentforce-enabled-zero-click-data-exfiltration/",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Roundcube 웹메일 취약점이 공격자들의 타겟",
+      "summary": "Roundcube 웹메일 플랫폼에서 발견된 취약점이 공격자들의 집중적인 공격 대상이 되고 있습니다. 이 취약점은 이메일 보안에 심각한 위협을 초래하며, 현재 실제 악용 사례가 확인되고 있습니다. 보안 연구자들은 사용자들에게 즉시 패치 적용을 권장하고 있습니다. Roundcube를 사용하는 조직들은 이 취약점으로부터 자신들의 이메일 시스템을 보호하기 위해 긴급 조치를 취해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/roundcube-webmail-vulnerability-in-attackers-crosshairs/",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "주권형 AI는 위치 문제가 아닌 제어 문제다",
       "summary": "데이터 주권은 기업의 50%에게 아키텍처 제약 조건이지만, 이에 대한 예산을 책정하는 기업은 10%에 불과하다. 이러한 심각한 간격으로 인해 기업 위험이 조용히 누적되고 있다. 주권형 AI는 단순히 데이터를 특정 지역에 보관하는 위치 문제가 아니라, 데이터와 AI 모델에 대한 통제권을 유지하는 제어 문제이다. 기업들은 규제 준수와 데이터 보호에 대한 전략적 계획과 적절한 투자가 필요하다.",
       "category": "서버",
@@ -11334,9 +11397,9 @@
     }
   ],
   "sources": {
+    "SecurityWeek": 565,
     "Dell": 173,
     "HPE": 29,
-    "SecurityWeek": 558,
     "VAST Data": 47,
     "보안뉴스": 452
   }
