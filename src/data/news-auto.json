@@ -3825,9 +3825,79 @@
     "https://www.securityweek.com/begin-at-the-end-how-to-enable-agentic-remediation/",
     "https://www.securityweek.com/solarwinds-patches-critical-rce-flaws-in-observability-self-hosted/",
     "https://www.securityweek.com/astrana-health-data-breach-impacts-private-confidential-information/",
-    "https://www.securityweek.com/us-court-sentences-armenian-man-to-prison-for-ryuk-ransomware-attacks/"
+    "https://www.securityweek.com/us-court-sentences-armenian-man-to-prison-for-ryuk-ransomware-attacks/",
+    "https://www.securityweek.com/in-other-news-clop-leak-site-takeover-docker-botnet-hunts-ai-keys-water-utility-exposure/",
+    "https://www.securityweek.com/north-korea-suspected-in-351-million-bitget-crypto-heist/",
+    "https://www.securityweek.com/cisa-election-security-plan-flags-patching-barriers-voter-database-attacks/",
+    "https://www.securityweek.com/kosovar-owner-of-rydox-marketplace-pleads-guilty-in-us-court/",
+    "https://www.securityweek.com/windows-linux-android-file-notification-systems-leak-user-activity/",
+    "https://www.securityweek.com/salesbleed-flaws-in-salesforce-agentforce-enabled-zero-click-data-exfiltration/",
+    "https://www.securityweek.com/roundcube-webmail-vulnerability-in-attackers-crosshairs/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기타 뉴스: Clop 유출 사이트 탈취, Docker 봇넷의 AI 키 탐색, 수도 공급 업체 노출",
+      "summary": "사이버보안 위협이 계속 확대되고 있습니다. Clop 랜섬웨어 그룹의 유출 사이트가 탈취되는 사건이 발생했으며, Docker 환경을 대상으로 하는 봇넷이 AI 서비스의 API 키와 민감한 자격증명을 탈취하려는 활동을 보이고 있습니다. 또한 수도 공급 시설 운영 업체의 시스템이 인터넷에 노출되어 중대한 기반시설 보안 위협이 대두되었습니다. 이러한 사건들은 기업의 클라우드 인프라, AI 리소스, 그리고 필수 공공 서비스에 대한 사이버 공격의 증가 추세를 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-clop-leak-site-takeover-docker-botnet-hunts-ai-keys-water-utility-exposure/",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "북한이 비트겟 암호화폐 3억 5,100만 달러 해킹 사건에 연루된 것으로 의심됨",
+      "summary": "암호화폐 거래소 비트겟이 3억 5,100만 달러 규모의 대규모 해킹 피해를 입었으며, 북한이 이 사건의 주요 용의자로 지목되고 있습니다. 이는 북한이 자금 조달을 위해 암호화폐 거래소를 표적으로 삼는 최근의 사이버 범죄 추세를 반영합니다. 보안 전문가들은 북한의 고도화된 해킹 능력과 과거 유사 사건들의 패턴을 토대로 이번 사건을 추적하고 있습니다. 이 해킹 사건은 암호화폐 업계의 보안 취약점과 국가 주도 사이버 공격의 심각성을 다시 한 번 드러냈습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/north-korea-suspected-in-351-million-bitget-crypto-heist/",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, 선거 보안 계획에서 보안 패치 장벽과 유권자 데이터베이스 공격 문제 지적",
+      "summary": "미국 사이버보안및기반시설보안청(CISA)이 선거 보안 강화를 위한 계획을 발표하면서 보안 패치 적용의 구조적 장벽과 유권자 데이터베이스에 대한 공격 위협을 주요 문제로 지목했습니다. 보고서는 선거 시스템 보호에 있어 적시의 보안 패치 적용이 어려운 현실을 강조하고 있습니다. 또한 유권자 정보를 관리하는 데이터베이스가 사이버 공격의 주요 표적이 될 수 있음을 경고하고 있습니다. CISA는 이러한 취약점을 해결하기 위한 구체적인 지침과 권고사항을 제시하여 선거 인프라의 보안 강화를 도모하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisa-election-security-plan-flags-patching-barriers-voter-database-attacks/",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "코소보 국적 라이독스 마켓플레이스 운영자, 미국 법원에서 유죄 인정",
+      "summary": "코소보 출신의 라이독스(Rydox) 마켓플레이스 운영자가 미국 법원에서 유죄를 인정했습니다. 라이독스는 온라인 불법 상품 거래를 중개하는 다크웹 마켓플레이스로 알려져 있습니다. 이번 사건은 국제적 사이버범죄 수사와 법 집행의 결과입니다. 피고인은 불법 마켓플레이스 운영 및 범죄 수익금 세탁 등의 혐의에 대해 유죄를 인정했습니다. 이는 다크웹 기반 불법 거래 플랫폼에 대한 미국의 강화된 단속 노력을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/kosovar-owner-of-rydox-marketplace-pleads-guilty-in-us-court/",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Windows, Linux, Android 파일 알림 시스템이 사용자 활동 정보 유출",
+      "summary": "Windows, Linux, Android 운영체제의 파일 알림 시스템에서 사용자의 활동 정보가 유출되는 보안 취약점이 발견되었습니다. 이 취약점은 파일 시스템 모니터링 기능을 통해 사용자의 파일 접근 및 활동 패턴이 노출될 수 있음을 의미합니다. 해당 연구는 엔드포인트 보안과 데이터 보호 측면에서 중요한 위협으로 지적되고 있습니다. 이는 여러 주요 운영체제에 걸쳐 광범위하게 영향을 미치는 구조적 문제로 보여집니다. 보안 전문가들은 이 취약점으로 인한 개인정보 유출 위험을 경고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/windows-linux-android-file-notification-systems-leak-user-activity/",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "'SalesBleed' - Salesforce Agentforce의 결함으로 인한 클릭 없는 데이터 유출",
+      "summary": "Salesforce Agentforce에서 'SalesBleed'라는 보안 결함이 발견되어 사용자의 클릭 없이도 데이터 유출이 가능한 것으로 드러났습니다. 이 취약점은 AI 기반의 Agentforce 플랫폼에서 발견된 것으로, 공격자가 사용자의 개입 없이 민감한 데이터에 접근할 수 있게 합니다. 이는 Salesforce 고객들의 데이터 보안에 심각한 위협이 되고 있습니다. SecurityWeek에 따르면 이 결함은 인공지능 및 취약점 관련 카테고리에 속하며, 광범위한 영향을 미칠 수 있는 중대한 보안 이슈입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/salesbleed-flaws-in-salesforce-agentforce-enabled-zero-click-data-exfiltration/",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Roundcube 웹메일 취약점이 공격자들의 타겟",
+      "summary": "Roundcube 웹메일 플랫폼에서 발견된 취약점이 공격자들의 집중적인 공격 대상이 되고 있습니다. 이 취약점은 이메일 보안에 심각한 위협을 초래하며, 현재 실제 악용 사례가 확인되고 있습니다. 보안 연구자들은 사용자들에게 즉시 패치 적용을 권장하고 있습니다. Roundcube를 사용하는 조직들은 이 취약점으로부터 자신들의 이메일 시스템을 보호하기 위해 긴급 조치를 취해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/roundcube-webmail-vulnerability-in-attackers-crosshairs/",
+      "date": "2026-09-25"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "주권형 AI는 위치 문제가 아닌 제어 문제다",
@@ -12764,71 +12834,8 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/us-charges-russian-individuals-and-firms-for-running-cybercrime-services/",
       "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "포티넷, 이반티, 서비스나우의 취약점 패치",
-      "summary": "포티넷, 이반티, 서비스나우 등 주요 소프트웨어 기업들이 보안 취약점에 대한 패치를 발표했습니다. 이번 패치는 여러 보안 위협으로부터 사용자 시스템을 보호하기 위한 조치입니다. 해당 기업들은 사용자들에게 즉시 보안 업데이트를 적용할 것을 권고하고 있습니다. SecurityWeek에서 보도한 이번 소식은 기업 및 개인 사용자들의 사이버보안 강화의 중요성을 다시 한번 강조하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/vulnerabilities-patched-by-fortinet-ivanti-servicenow/",
-      "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "백악관, AI 기반 '골드 이글' 취약점 조율 이니셔티브 출범",
-      "summary": "백악관이 인공지능을 활용한 '골드 이글(Gold Eagle)' 취약점 조율 이니셔티브를 새로이 시작했습니다. 이 프로그램은 중요 인프라의 사이버보안 취약점을 더 효과적으로 관리하고 조율하기 위해 설계되었습니다. AI 기술을 통해 취약점 탐지 및 대응 프로세스를 자동화하고 최적화하는 것을 목표로 합니다. 이는 정부와 민간 부문 간의 취약점 정보 공유와 협력을 강화하는 데 중점을 두고 있습니다. 해당 이니셔티브는 미국의 사이버보안 태세를 전반적으로 개선하기 위한 정부 정책의 일환입니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/white-house-launches-ai-driven-gold-eagle-vulnerability-coordination-initiative/",
-      "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Progress, ShareFile 장애의 원인이 제로데이 취약점임을 확인",
-      "summary": "Progress Software는 자사의 파일 공유 서비스인 ShareFile의 장애가 제로데이 취약점으로 인한 것임을 공식 확인했습니다. 이 취약점은 사전에 알려지지 않은 보안 결함으로, 공격자들에게 악용될 수 있는 심각한 위협입니다. Progress는 영향을 받은 사용자들에게 즉시 보안 패치를 배포하고 있으며, 고객들에게 시스템 업데이트를 권장했습니다. 이번 사건은 클라우드 기반 엔터프라이즈 솔루션의 보안 위험성을 다시 한번 부각시켰습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/progress-confirms-zero-day-vulnerability-behind-sharefile-disruption/",
-      "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "ICS 패치 화요일: 지멘스, 슈나이더, 록웰의 취약점 패치",
-      "summary": "산업제어시스템(ICS) 분야의 주요 제조업체들인 지멘스, 슈나이더 일렉트릭, 록웰 오토메이션이 각각의 제품에서 발견된 보안 취약점을 패치했다. 이번 ICS 패치 화요일을 통해 다양한 심각도의 취약점들이 수정되었으며, 산업 시설의 운영 기술(OT) 환경에 대한 보안 위협을 완화하기 위한 조치가 이루어졌다. 해당 기업들은 사용자들에게 시스템 업데이트를 권장하고 있으며, 이는 중요한 산업 인프라를 보호하기 위한 필수적인 조치로 평가된다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-fixed-by-siemens-schneider-rockwell/",
-      "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "크롬 150, 파이어폭스 152 업데이트로 중요 취약점 패치",
-      "summary": "구글 크롬 150 버전과 모질라 파이어폭스 152 버전이 중요 보안 취약점을 해결하는 업데이트를 릴리스했습니다. 이번 업데이트는 공개 공격 코드(PoC)가 존재하는 취약점들을 포함하고 있어 사용자들의 시급한 설치가 권장됩니다. 두 브라우저 모두 여러 개의 심각한 보안 결함을 수정했으며, 이는 사용자들의 시스템 보안을 크게 위협할 수 있는 것으로 평가됩니다. 보안 전문가들은 사용자들에게 즉시 최신 버전으로 업그레이드할 것을 강력히 권고하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/critical-vulnerabilities-patched-with-fresh-chrome-150-firefox-152-updates/",
-      "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "네티스, 기가비트 스위치 허브 2종 출시",
-      "summary": "플러그 앤 플레이 방식으로 손쉽게 설치가정, 소규모 사무실, 기숙사, CCTV 감시 시스템 등에 활용[보안뉴스 한세희 기자] 네트워크 전문 기업 넷유가 5포트 및 8포트 기가비트 언매니지드(비관리형) 이더넷 스위치 신제품 ‘네티스 ST3105GC’와 ‘네티스 ST3108GC’를 출시했다고 밝혔다. 별도 설정 없이 케이블만 연결하면 즉시 네트워크를 확장할 수",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144711&kind=&sub_kind=",
-      "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "유락, ‘현장형 AI 포렌식’으로 인도 4개 주 실증 확보",
-      "summary": "경찰·정부 전자장터 등록 이어 수사·법과학 기관 실증현지화·온디바이스 AI로 40% 성장 인도 시장 정조준[보안뉴스 강현주 기자] AI 디지털 포렌식 전문기업 유락(대표 유봉석)이 현장형 AI 포렌식 기술을 앞세워 인도 주요 수사·법과학 기관으로부터 실증 사업을 확보하며 현지 시장 공략에 속도를 낸다고 15일 밝혔다. 유락은 AI 기반 현장형 디지털 포렌식",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144710&kind=&sub_kind=",
-      "date": "2026-07-15"
     }
   ],
-  "totalItems": 3826,
+  "totalItems": 3833,
   "hasArchive": true
 }
