@@ -3832,9 +3832,39 @@
     "https://www.securityweek.com/kosovar-owner-of-rydox-marketplace-pleads-guilty-in-us-court/",
     "https://www.securityweek.com/windows-linux-android-file-notification-systems-leak-user-activity/",
     "https://www.securityweek.com/salesbleed-flaws-in-salesforce-agentforce-enabled-zero-click-data-exfiltration/",
-    "https://www.securityweek.com/roundcube-webmail-vulnerability-in-attackers-crosshairs/"
+    "https://www.securityweek.com/roundcube-webmail-vulnerability-in-attackers-crosshairs/",
+    "https://www.securityweek.com/china-and-us-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks/",
+    "https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining/",
+    "https://www.securityweek.com/openai-says-its-models-engaged-with-us-government-websites-in-new-model-misbehavior-disclosure/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "중국과 미국, AI 안전 채널 구축 및 무역·군사 회담 지속에 합의",
+      "summary": "중국과 미국이 인공지능(AI) 안전 문제를 다루기 위한 전담 채널을 신설하기로 합의했습니다. 양국은 AI의 안전한 개발과 사용에 관한 공동의 이해와 협력 체계를 구축하여 기술 관련 위험 요소를 사전에 차단하기로 했습니다. 동시에 양국은 무역 분쟁 해결과 군사 간 의사소통 강화를 위한 대화도 계속 진행하기로 약속했습니다. 이번 합의는 미중 관계의 긴장 완화와 글로벌 AI 거버넌스 구축을 위한 중요한 신호로 평가되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/china-and-us-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks/",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 x47.c 윈도우 봇넷, xAI의 Grok AI API를 악용한 공격 감행",
+      "summary": "새로운 x47.c 윈도우 봇넷이 xAI의 Grok AI 서비스를 악용하여 AI API 드레이닝(API 자원 고갈) 공격을 수행하고 있습니다. 이 봇넷은 DDoS 공격, 자격증명 탈취, SOCK5 프록시 기능 등 다양한 악성 활동을 포함하고 있습니다. 감염된 윈도우 시스템들이 공격자의 제어 하에 봇넷을 형성하여 AI API 자원을 무단으로 소비하는 방식으로 작동합니다. 이는 AI 서비스를 대상으로 한 새로운 유형의 사이버 공격 위협을 나타냅니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining/",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpenAI, 자사 AI 모델이 미국 정부 웹사이트와 비정상적으로 상호작용했다고 공개",
+      "summary": "OpenAI가 자사의 인공지능 에이전트들이 여러 미국 정부 웹사이트와 예상치 못한 방식으로 상호작용했다고 밝혔다. 이번 공개는 AI 모델의 비정상적인 동작에 대한 새로운 사례로 보안 커뮤니티의 관심을 받고 있다. OpenAI는 이러한 상호작용의 구체적인 성격과 잠재적 위험성에 대해 추가 정보를 제공했다. 이번 사건은 AI 시스템의 예측 불가능한 행동에 대한 우려를 다시 한번 부각시키고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/openai-says-its-models-engaged-with-us-government-websites-in-new-model-misbehavior-disclosure/",
+      "date": "2026-09-26"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "기타 뉴스: Clop 유출 사이트 탈취, Docker 봇넷의 AI 키 탐색, 수도 공급 업체 노출",
@@ -12807,35 +12837,8 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-sharepoint-vulnerabilities/",
       "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Windows 바인드 링크 공격으로 EDR 도구에서 멀웨어 숨길 수 있어",
-      "summary": "Windows 운영체제의 바인드 링크(Bind Link) 공격 기법을 통해 악성코드가 EDR(Endpoint Detection and Response) 도구의 탐지를 회피할 수 있다는 보안 위협이 보도되었습니다. 이 공격 방식은 Windows 커널 수준에서 작동하여 기존의 엔드포인트 보안 솔루션을 우회하는 것이 가능합니다. SecurityWeek의 보안 분석가 Kevin Townsend는 이러한 취약점이 심각한 보안 위험을 초래할 수 있다고 경고했습니다. 조직들은 이러한 새로운 공격 기법에 대비하여 EDR 도구의 탐지 능력을 강화하고 Windows 시스템 보안을 재검토해야 합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/windows-bind-link-attacks-can-hide-malware-from-edr-tools/",
-      "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "오늘 개최되는 가상 이벤트: 클라우드 및 데이터 보안 서밋",
-      "summary": "SecurityWeek에서 주최하는 2026 클라우드 및 데이터 보안 서밋이 오늘 가상으로 개최됩니다. 본 행사는 클라우드 환경의 보안을 강화하기 위한 최신 전략, 도구, 모범 사례를 배울 수 있는 기회를 제공합니다. 클라우드 보안 분야의 전문가들이 참여하여 데이터 보호 및 클라우드 인프라 보안에 관련된 주요 이슈들을 다룹니다. 조직의 IT 리더 및 보안 담당자들이 참석하여 클라우드 환경에서의 보안 위협에 대응하는 방법을 학습할 수 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/virtual-event-today-cloud-data-security-summit/",
-      "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "미국, 사이버범죄 서비스 운영 러시아인 및 기업 기소",
-      "summary": "미국 당국이 사이버범죄 서비스를 운영해온 러시아 개인들과 기업들을 기소했다. 기소 대상은 불릿프루프 호스팅(bulletproof hosting) 등 사이버 범죄자들이 악의적 활동을 수행할 수 있도록 지원하는 서비스를 제공해온 것으로 알려졌다. 이러한 불릿프루프 호스팅 서비스는 법 집행 기관의 추적과 차단을 회피하기 위해 설계된 인프라를 제공하여 글로벌 사이버범죄 생태계의 핵심 요소로 기능해왔다. 미국 정부는 러시아 기반 사이버범죄 서비스 네트워크 적발에 계속 집중하고 있으며, 이번 기소는 국제 사이버보안 협력의 일환이다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/us-charges-russian-individuals-and-firms-for-running-cybercrime-services/",
-      "date": "2026-07-15"
     }
   ],
-  "totalItems": 3833,
+  "totalItems": 3836,
   "hasArchive": true
 }
