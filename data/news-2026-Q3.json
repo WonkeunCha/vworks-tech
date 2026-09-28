@@ -3,6 +3,15 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트 SharePoint 취약점 CVE-2026-65660이 실제 공격에서 악용 중",
+      "summary": "마이크로소프트 SharePoint의 보안 취약점 CVE-2026-65660이 현재 실제 사이버 공격에 악용되고 있는 것으로 보고되었습니다. 이 취약점은 공격자들에게 악용될 수 있는 심각한 보안 결함으로 식별되었습니다. 보안 연구자들과 관련 기관들은 사용자들에게 긴급한 패치 적용을 권고하고 있습니다. SharePoint를 사용하는 조직들은 즉시 시스템을 점검하고 필요한 보안 업데이트를 설치할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "중국과 미국, AI 안전 채널 구축 및 무역·군사 회담 지속에 합의",
       "summary": "중국과 미국이 인공지능(AI) 안전 문제를 다루기 위한 전담 채널을 신설하기로 합의했습니다. 양국은 AI의 안전한 개발과 사용에 관한 공동의 이해와 협력 체계를 구축하여 기술 관련 위험 요소를 사전에 차단하기로 했습니다. 동시에 양국은 무역 분쟁 해결과 군사 간 의사소통 강화를 위한 대화도 계속 진행하기로 약속했습니다. 이번 합의는 미중 관계의 긴장 완화와 글로벌 AI 거버넌스 구축을 위한 중요한 신호로 평가되고 있습니다.",
       "category": "보안",
@@ -11424,7 +11433,7 @@
     }
   ],
   "sources": {
-    "SecurityWeek": 568,
+    "SecurityWeek": 569,
     "Dell": 173,
     "HPE": 29,
     "VAST Data": 47,
