@@ -3836,9 +3836,139 @@
     "https://www.securityweek.com/china-and-us-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks/",
     "https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining/",
     "https://www.securityweek.com/openai-says-its-models-engaged-with-us-government-websites-in-new-model-misbehavior-disclosure/",
-    "https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/"
+    "https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/",
+    "https://www.dell.com/en-us/blog/the-best-ai-data-architecture-fits-the-estate-you-already-have/",
+    "https://www.dell.com/en-us/blog/a-new-era-of-ai-agents-demands-a-new-security-model/",
+    "https://www.hpe.com/us/en/newsroom/blog-post/2026/09/hpe-and-nvidia-bring-secure-governed-agentic-ai-into-enterprise-production.html",
+    "https://www.hpe.com/us/en/newsroom/blog-post/2026/09/no-window-no-warning-why-security-has-to-live-in-every-layer.html",
+    "https://www.securityweek.com/modulate-raises-25-million-to-advance-deepfake-detection/",
+    "https://www.securityweek.com/call-for-presentations-open-for-2026-ciso-forum-virtual-summit/",
+    "https://www.securityweek.com/prison-sentence-for-former-us-soldier-who-hacked-att-and-verizon/",
+    "https://www.securityweek.com/dc-health-agency-exposes-400000-beneficiary-records/",
+    "https://www.securityweek.com/google-warns-of-shinyhunters-fresh-oracle-peoplesoft-campaign/",
+    "https://www.securityweek.com/new-mexico-jury-finds-facebook-liable-for-deceiving-users-about-privacy-protections/",
+    "https://www.securityweek.com/nvidia-unveils-ai-agent-safety-platform-with-hardware-based-watchdog/",
+    "https://www.securityweek.com/kiteworks-urges-server-shutdown-finds-advanced-forms-vulnerability/",
+    "https://www.securityweek.com/citrix-confirms-2-netscaler-zero-days-after-admins-pulled-the-plug/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "최적의 AI 데이터 아키텍처는 이미 갖춘 환경에 맞춰야 한다",
+      "summary": "시장의 모든 데이터 플랫폼은 최신 기술이라고 주장하지만, 실제 중요한 질문은 AI가 작동하기 위해 기존 환경을 얼마나 변경해야 하는가입니다. 이 질문에 잘못 답하면 자신의 전략이 아닌 플랫폼이 환경 개편의 범위를 결정하게 됩니다. 따라서 이미 보유한 기존 인프라와의 호환성과 통합 용이성을 우선적으로 고려해야 합니다. 올바른 선택은 전체 시스템 재구축의 부담을 최소화하고 투자 효율성을 극대화할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/the-best-ai-data-architecture-fits-the-estate-you-already-have/",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 에이전트의 새로운 시대, 새로운 보안 모델 필요",
+      "summary": "자율 AI 에이전트의 보안은 단순한 프롬프트만으로는 부족합니다. 런타임, 네트워크, 실리콘 계층에서의 강제적인 보안 조치가 필수적입니다. AI 에이전트의 급증으로 인한 새로운 보안 위협에 대응하기 위해 다층적 방어 체계가 요구됩니다. 조직은 기존의 보안 모델을 재검토하고 AI 시대에 맞는 포괄적인 보안 전략을 수립해야 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/a-new-era-of-ai-agents-demands-a-new-security-model/",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, NVIDIA와 협력하여 안전하고 관리되는 에이전트 AI를 기업 환경에 도입",
+      "summary": "자율 AI 에이전트는 단순히 답변을 생성하는 것을 넘어 도구를 사용하고, 데이터에 접근하며, 파일을 작성하고, API를 호출하고, 엔터프라이즈 시스템 전반에 걸쳐 조치를 취한다. 에이전트의 자율성이 증가함에 따라 기업들은 에이전트가 어디에서 실행되는지, 무엇에 접근할 수 있는지, 무엇을 했는지에 대한 명확한 답변이 필요하다. 이러한 제어 사항은 정책 문서에 명시되는 것이 아니라 운영 환경에서 실제로 시행되어야 한다. NVIDIA Open Agent Safety Platform은 에이전트를 실행하는 소프트웨어 전반에 걸쳐 엔터프라이즈 규모에서 에이전트 보안을 강화한다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/09/hpe-and-nvidia-bring-secure-governed-agentic-ai-into-enterprise-production.html",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "보안 창이 없다: 왜 보안이 모든 계층에 살아있어야 하는가",
+      "summary": "HPE의 임원진으로서 필자는 공공 및 민간 부문의 연구 파트너들 및 고객들과 자주 만나는데, 대화의 주제는 거의 항상 양자 컴퓨팅, 인공지능, 그리고 최근에는 주권 문제로 수렴된다. 이 세 가지 주제의 기반은 모두 보안이다. 보안 대화는 지난 수십 년간 변해왔는데, 과거에는 취약점 발견 후 패치 개발, 그리고 한 달까지 소요될 수 있는 배포 창 기간이라는 예측 가능한 리듬으로 보안이 운영되었다. 그러나 현대의 위협 환경은 더 이상 이러한 전통적인 보안 패러다임이 효과적이지 않음을 보여준다. 따라서 보안은 모든 계층에 통합되어야 하며, 사전 예방적이고 지속적인 접근 방식이 필요하다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/09/no-window-no-warning-why-security-has-to-live-in-every-layer.html",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Modulate, 딥페이크 탐지 기술 고도화를 위해 2,500만 달러 자금 조달",
+      "summary": "인공지능 전문 기업 Modulate가 추가로 2,500만 달러의 투자 유치에 성공했습니다. 이번 펀딩으로 Modulate의 누적 자금 조달액은 6,000만 달러에 달하게 됩니다. 해당 자금은 딥페이크 탐지 기술의 개선 및 고도화에 활용될 예정입니다. Modulate는 인공지능 기반의 딥페이크 검출 솔루션 개발을 통해 사이버보안 분야에서 주요 역할을 담당하고 있습니다. 이러한 투자는 AI 기술을 활용한 위조 콘텐츠 탐지의 중요성이 높아지고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/modulate-raises-25-million-to-advance-deepfake-detection/",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "2026 CISO 포럼 가상 서밋 발표자 모집 공고",
+      "summary": "SecurityWeek에서 2026년 CISO 포럼 가상 서밋의 발표자 모집을 시작했습니다. 이 행사는 최고정보보안책임자(CISO)와 보안 전문가들이 참여하는 주요 업계 이벤트입니다. 관심 있는 발표자들은 사이버보안 전략, 리더십, 위험 관리 등 다양한 주제로 프레젠테이션을 제안할 수 있습니다. 이번 공모를 통해 업계 전문가들의 최신 인사이트와 모범 사례를 공유할 수 있는 기회가 제공됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/call-for-presentations-open-for-2026-ciso-forum-virtual-summit/",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AT&T와 베ライ즌을 해킹한 전직 미군 군인에게 징역형 선고",
+      "summary": "전직 미국 군인 카메론 존 와게니우스가 AT&T와 베ライ즌 등 주요 통신사를 해킹한 혐의로 징역형을 선고받았다. 이 사건은 미국의 주요 통신 인프라를 대상으로 한 심각한 사이버 범죄로 분류된다. 군사 배경을 가진 해커가 대형 통신사에 접근한 것으로 보아 기술적 역량과 국가 보안에 대한 위협이 상당했던 것으로 판단된다. 이 사건은 중요 기반시설 보호의 중요성을 다시 한번 부각시키고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/prison-sentence-for-former-us-soldier-who-hacked-att-and-verizon/",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "DC 보건국 40만 건의 수혜자 기록 노출",
+      "summary": "미국 워싱턴 DC의 보건국(DHCF)이 약 40만 건의 수혜자 개인정보를 노출시키는 데이터 유출 사건이 발생했습니다. 이번 사고로 인해 의료 수혜자들의 민감한 정보가 무단으로 접근될 수 있는 상황에 처했습니다. 해당 기관은 피해자들에게 데이터 유출 사실을 통보하고 신원 도용 방지 서비스 제공을 검토 중입니다. 이 사건은 공공 보건 기관의 데이터 보안 취약점을 다시 한 번 드러낸 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/dc-health-agency-exposes-400000-beneficiary-records/",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "구글, ShinyHunters의 신규 Oracle PeopleSoft 캠페인 경고",
+      "summary": "구글이 ShinyHunters 사이버 범죄 조직의 새로운 Oracle PeopleSoft 공격 캠페인을 경고했습니다. 이 캠페인은 Oracle PeopleSoft의 취약점을 악용하여 조직들을 대상으로 하는 것으로 알려졌습니다. ShinyHunters는 알려진 사이버 범죄 집단으로 기업 시스템 침해 및 데이터 탈취 활동을 수행해왔습니다. 이번 캠페인은 기업의 인사 관리 및 재무 시스템에 접근할 수 있는 Oracle PeopleSoft의 특성으로 인해 특히 위협적인 상황입니다. 보안 전문가들은 영향받을 수 있는 조직들에 긴급 패치 적용 및 보안 강화를 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/google-warns-of-shinyhunters-fresh-oracle-peoplesoft-campaign/",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "뉴멕시코 배심원단, 페이스북의 개인정보 보호 관련 사용자 기만 행위에 대해 책임 인정",
+      "summary": "뉴멕시코 주의 배심원단이 페이스북(메타)이 사용자들에게 개인정보 보호에 관해 거짓 정보를 제공한 것에 대해 책임이 있다고 판결했습니다. 이 판결은 캠브리지 애널리티카 스캔들과 관련된 법적 조치의 일환으로, 페이스북이 사용자 데이터 보호에 대해 충분히 투명하지 않았음을 보여줍니다. 해당 판결은 빅테크 기업들의 개인정보 보호 관행과 사용자 신뢰에 대한 중요한 선례를 남겼습니다. 이 사건은 소셜 미디어 플랫폼의 데이터 보안 및 컴플라이언스에 대한 규제 강화 필요성을 강조합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/new-mexico-jury-finds-facebook-liable-for-deceiving-users-about-privacy-protections/",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "엔비디아, 하드웨어 기반 감시 장치를 탑재한 AI 에이전트 안전 플랫폼 공개",
+      "summary": "엔비디아가 AI 에이전트의 안전성을 강화하기 위한 새로운 플랫폼을 발표했습니다. 이 플랫폼은 하드웨어 기반의 감시 장치(워치독)를 통합하여 AI 에이전트의 동작을 실시간으로 모니터링하고 제어합니다. 이러한 접근 방식은 AI 시스템이 예상치 못한 행동을 하거나 보안 위협이 발생할 경우 즉시 개입할 수 있도록 설계되었습니다. 하드웨어 수준의 보호 메커니즘은 소프트웨어 기반 방어를 우회하는 공격에 대한 추가적인 방어층을 제공합니다. 이 플랫폼은 기업들이 AI 에이전트를 더욱 안전하고 신뢰할 수 있게 배포할 수 있도록 지원합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/nvidia-unveils-ai-agent-safety-platform-with-hardware-based-watchdog/",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Kiteworks, 서버 종료 촉구 및 Advanced Forms 취약점 발견",
+      "summary": "Kiteworks가 자사 플랫폼의 Advanced Forms 기능에서 심각한 보안 취약점을 발견하고 영향을 받은 서버의 즉시 종료를 권장했습니다. 이 취약점은 공격자가 악용할 수 있는 보안 결함으로, 파일 전송 및 콘텐츠 협업 플랫폼 사용자들에게 큰 위협이 될 수 있습니다. Kiteworks는 사용자들에게 긴급 보안 조치를 취할 것을 강력히 촉구하고 있습니다. 이는 최근 발견된 MoveIt 취약점과 유사하게 파일 전송 시스템의 보안이 얼마나 중요한지를 보여주는 사례입니다. 해당 취약점에 대한 패치 및 상세한 지침이 제공될 예정입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/kiteworks-urges-server-shutdown-finds-advanced-forms-vulnerability/",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Citrix, 관리자들의 차단 이후 NetScaler 제로데이 2건 확인",
+      "summary": "Citrix는 NetScaler 제품에서 2개의 제로데이 취약점을 확인했다고 발표했습니다. 이러한 취약점들은 관리자들이 영향을 받은 시스템을 네트워크에서 차단한 이후에 공식 확인되었습니다. 제로데이 취약점은 공급업체가 이를 알기 전에 공격자들에 의해 악용되는 심각한 보안 위협입니다. 이번 사건은 NetScaler 사용자들이 즉시 보안 업데이트를 확인하고 적용할 필요성을 강조합니다. Citrix는 영향받은 고객들을 대상으로 상세한 보안 공지와 패치를 제공할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/citrix-confirms-2-netscaler-zero-days-after-admins-pulled-the-plug/",
+      "date": "2026-09-28"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "마이크로소프트 SharePoint 취약점 CVE-2026-65660이 실제 공격에서 악용 중",
@@ -12721,125 +12851,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144728&kind=&sub_kind=",
       "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "빗장 풀린 공공 AI 틈새 막는다... 윈스테크넷, 차등 보안 통제 거버넌스",
-      "summary": "KISA 망분리 맞춰 정보 중요도 기반 아키텍처 제시획일적 차단 넘어선데이터 분류 체계로 디지털 혁신 지원[보안뉴스 조재호 기자] 윈스테크넷이 생성형 AI 데이터 보안 솔루션 ‘SNIPER AIVAX’를 앞세워 국가망보안체계(N2SF) 대응 시장 공략을 본격화한다고 15일 밝혔다.최근 한국인터넷진흥원(KISA)은 과학기술정보통신부와 함께 국가 및 공공기관의",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144740&kind=&sub_kind=",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "이스온, 국토교통부 ‘디지털도로 AI 신기술 지원사업’ 협약 체결",
-      "summary": "레일로봇으로 고속도로 터널 화재 관리천장 레일 위 달리며 감시와 안내, 소화까지 수행산업통상자원부 R&D로 키운 원천기술 상용화[보안뉴스 엄호식 기자] 포항의 강소기업 이스온(대표이사 김웅욱)이 국토교통부 ‘디지털도로 AI 신기술 지원사업에 최종 선정돼 지난 7월 8일 전담기관인 한국지능형교통체계협회(ITS Korea)와 협약을 체결했다. 과제명은 ‘AI",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144741&kind=&sub_kind=",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "데이터독, 가트너 ‘옵저버빌리티’ 부문 6년 연속 리더 선정",
-      "summary": "LLM·AI 에이전트 성능 가시화하는 단일 아키텍처 제공[보안뉴스 조재호 기자] 데이터독이 2026년 가트너 매직 쿼드런트 옵저버빌리티 플랫폼 부문 리더로 선정됐다고 16일 발표했다. 이로써 데이터독은 6년 연속 리더로 선정됐다. 데이터독은 이번 가트너 평가 대상 전체 벤더를 통틀어 실행 능력(Ability to Execute) 측면에서 가장 좋은 평가를",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144738&kind=&sub_kind=",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "시큐아이, 복날 맞아 임직원과 지역사회에 건강한 여름나기 지원",
-      "summary": "치킨·컵빙수·삼계탕 등 복날 이벤트로 임직원 사기 진작삼계탕 나눔 봉사로 지역사회와 상생 가치 실천[보안뉴스 원병철 기자] 시큐아이(대표 정삼용)가 임직원과 지역사회가 건강한 여름을 보낼 수 있도록 다양한 삼복맞이 이벤트를 진행했다고 16일 밝혔다. 삼복 이벤트는 시큐아이가 매년 여름 진행하는 대표적인 사내 행사로, 무더위에 지친 임직원을 격려하고 활기찬",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144718&kind=&sub_kind=",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "아톤, AI 보안 연합 ‘프로젝트 캐노피’ 합류... “보안 주권 확보 동참”",
-      "summary": "AI 취약점 대응 정보 자사 보안 체계에 반영“금융·기업 보안 네트워크 활용 공익 보안 생태계 확산”[보안뉴스 강현주 기자] 아톤(대표 우길수)은 AI 기반 취약점 방어 기술을 사회 전반으로 확산하기 위한 공익 이니셔티브 ‘프로젝트 캐노피’(Project Canopy)에 디펜딩 파트너(Defending Partners)로 합류했다고 16일 밝혔다. 프로젝트",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144716&kind=&sub_kind=",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] 크라우드스트라이크, 클라우드네이티브로 침해 막아",
-      "summary": "시큐리티 클라우드 및 팔콘 선보여...엔드포인트, 클라우드 워크로드, 신원, 데이터 보호[보안뉴스 강현주 기자] 글로벌 사이버 보안 리더 기업 크라우드스트라이크는 클라우드 네이티브 플랫폼으로 기업의 엔드포인트, 클라우드 워크로드, 신원, 데이터를 보호하기 위해 현대 보안을 재정의했다. 크라우드스트라이크 시큐리티 클라우드(CrowdStrike Security",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144594&kind=&sub_kind=",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "CISO·CPO 분절된 권한 잇다... 카카오엔터테인먼트가 제시한 ‘통합 거버넌스’",
-      "summary": "정보보안과 개인정보 보호 넘나드는 클라우드·AI 위협 선제 대응 리더십이정민 정보보안 리더 “조직 통합 아닌 관점의 연결이 진정한 시너지 창출의 핵심”[보안뉴스 조재호 기자] 기업 내 정보보호최고책임자(CISO)와 개인정보책임자(CPO)로 양분된 보안 조직 의사결정 구조를 하나로 묶어 경영 리스크를 선제적으로 통제하는 새로운 거버넌스 모델이 제시됐다. 정보",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144705&kind=&sub_kind=",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] 기가몬, Deep Observability Pipeline으로 여는 차세대 네트워크 가시성",
-      "summary": "보안사각지대 완벽 제거 통한 네트워크 트래픽 효율 극대화[보안뉴스 강초희 기자] 최근 기업들의 IT 환경이 하이브리드 및 멀티 클라우드로 빠르게 전환되면서 네트워크 트래픽이 복잡해지고 보안 사각지대가 늘어나고 있다. 시원네트웍스는 차세대 네트워크 가시성 솔루션 ‘기가몬’을 통해 이러한 인프라 문제를 해결하고, 안전한 디지털 전환을 위한 통합 보안 최적화 서",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144593&kind=&sub_kind=",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[속담으로 배우는 100가지 보안 습관 65] 아는 길도 물어가라(5)-낯선 방문자 확인 안 하면 생기는 일",
-      "summary": "낯선 사람이 집 방문 시 반드시 신원을 확인하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐, 안",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144216&kind=&sub_kind=",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Dell AI 데이터 플랫폼, 유일한 4-in-1 스토리지 솔루션 출시",
-      "summary": "단일 라이선스로 모든 스토리지 기능을 활용할 수 있습니다. Dell Exascale은 파일, 객체, 블록 및 병렬 파일 스토리지 소프트웨어를 공통의 PowerEdge 기반 위에서 제공합니다. AI의 빠른 수요 변화에 빠르게 대응할 수 있습니다. 이 솔루션은 다양한 스토리지 요구사항을 하나의 플랫폼에서 통합 관리할 수 있도록 설계되었습니다. 기업은 인프라 복잡성을 줄이면서도 AI 워크로드에 필요한 모든 스토리지 기능을 확보할 수 있습니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/dell-ai-data-platform-introduces-only-4-in-1-storage-for-ai/",
-      "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "AI 팩토리가 프랑켄슈타인 스택일 때",
-      "summary": "AI 솔루션을 도입할 때 가장 중요한 질문은 그것이 진정한 통합 플랫폼인지, 아니면 하나로 포장된 단편화된 스택에 불과한지를 판단하는 것입니다. 많은 기업들이 여러 벤더의 도구를 조합하여 마치 하나의 플랫폼인 것처럼 제시하고 있어 운영 복잡성과 관리 부담을 가중시키고 있습니다. 진정한 AI 팩토리는 통합된 인프라, 일관된 인터페이스, 그리고 원활한 워크플로우를 제공해야 합니다. 프랑켄슈타인 스택은 단기적으로는 비용 절감처럼 보일 수 있지만, 장기적으로는 유지보수 비용과 운영 효율성 측면에서 더 큰 부담이 될 수 있습니다. 조직은 AI 솔루션 선택 시 진정한 통합성과 장기적인 지속가능성을 우선적으로 고려해야 합니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/when-the-ai-factory-is-a-franken-stack/",
-      "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "우리가 약속한 AI 인프라를 정말 구축할 수 있을까?",
-      "summary": "AI 붐으로 인해 역사상 최대 규모의 데이터센터 건설이 시작되었지만, 베테랑 데이터센터 분석가 리치 밀러는 업계의 가장 큰 도전이 단순한 컴퓨팅 성능 증가를 넘어 전력, 냉각, 건설 등의 실무적 현실로 옮겨갔다고 지적합니다. 26년 이상 데이터센터 산업을 관찰해온 밀러는 현재 업계가 전례 없는 규모의 인프라 구축 능력 부족으로 어려움을 겪고 있다고 봅니다. 데이터센터 부지, 메모리, 컴퓨팅 파워의 제약뿐만 아니라 지역사회 저항으로 인한 개발 제약 등 여러 제약 조건이 존재하는 가운데, 실제 구축 경험과 자본, 건설 인력이 부족한 현실과 업계의 야심찬 계획 사이의 큰 괴리가 발생하고 있습니다. 투자자들도 이러한 현실을 인식하고 있으며, 수백 기가와트의 신규 용량이 제안되었지만 자본은 검증된 실행 능력을 갖춘 기존 사업자에게 흘러가는 추세입니다. 제한된 전력, 건설 자원, 적절한 부지를 놓고 프로젝트들이 경쟁함에 따라 설립 기업들이 완공 경험이 부족한 유망 프로젝트를 인수하는 통합이 더욱 중요해질 것으로 예상됩니다. 데이터센터 내부의 엔지니어링 과제도 급속도로 진화하고 있으며, 네트워킹, 전력 공급, 냉각이 AI 시스템의 랙 밀도 증가에 따라 핵심 설계 고려사항이 되고 있습니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/can-we-build-the-ai-infrastructure-we-keep-promising",
-      "date": "2026-07-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "패치되지 않은 Cursor 취약점, 사용자를 코드 실행 위험에 노출",
-      "summary": "AI 코딩 어시스턴트인 Cursor에서 발견된 패치되지 않은 취약점이 사용자들을 악의적인 코드 실행 공격에 노출시키고 있습니다. 이 취약점은 공격자가 Cursor 플랫폼을 통해 임의의 코드를 실행할 수 있게 허용하여 사용자 시스템에 심각한 보안 위협을 초래할 수 있습니다. SecurityWeek의 보도에 따르면 Cursor 개발팀이 아직 이 취약점에 대한 패치를 배포하지 않았으며, 현재 사용자들은 보호되지 않은 상태에 있습니다. 보안 전문가들은 사용자들에게 이 취약점이 해결될 때까지 주의를 기울일 것을 권고하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/unpatched-cursor-vulnerability-exposes-users-to-code-execution/",
-      "date": "2026-07-15"
     }
   ],
-  "totalItems": 3837,
+  "totalItems": 3850,
   "hasArchive": true
 }
