@@ -3849,9 +3849,129 @@
     "https://www.securityweek.com/new-mexico-jury-finds-facebook-liable-for-deceiving-users-about-privacy-protections/",
     "https://www.securityweek.com/nvidia-unveils-ai-agent-safety-platform-with-hardware-based-watchdog/",
     "https://www.securityweek.com/kiteworks-urges-server-shutdown-finds-advanced-forms-vulnerability/",
-    "https://www.securityweek.com/citrix-confirms-2-netscaler-zero-days-after-admins-pulled-the-plug/"
+    "https://www.securityweek.com/citrix-confirms-2-netscaler-zero-days-after-admins-pulled-the-plug/",
+    "https://www.hpe.com/us/en/newsroom/press-release/2026/09/saudi-german-health-uae-transforms-digital-healthcare-in-the-uae-with-the-hpe-self-driving-network.html",
+    "https://www.vastdata.com/blog/ai-factory-vs-data-center",
+    "https://www.securityweek.com/trump-says-top-tech-firms-have-signed-accord-to-self-police-ai-development/",
+    "https://www.securityweek.com/openai-ceo-announces-new-ai-agent-and-avoids-mention-of-security-concerns-at-developer-conference/",
+    "https://www.securityweek.com/darpa-selects-xint-to-use-ai-in-securing-military-messaging-apps/",
+    "https://www.securityweek.com/new-spectre-v2-variant-exposes-intel-amd-arm-cpus-to-data-leaks/",
+    "https://www.securityweek.com/remotethreat-launches-with-7-million-for-offensive-operations-platform/",
+    "https://www.securityweek.com/reco-raises-55-million-for-agentic-security/",
+    "https://www.securityweek.com/hackers-use-chatgpt-custom-gpts-in-clickfix-attacks/",
+    "https://www.securityweek.com/pentagon-personnel-agency-data-breach-impacts-3-million-people/",
+    "https://www.securityweek.com/rig-security-emerges-from-stealth-with-12m-to-tackle-agentic-ai-identity-risks/",
+    "https://www.securityweek.com/four-cyber-threats-harboring-big-plans-for-the-future/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "트럼프, 주요 기술 기업들이 AI 개발 '자율 규제' 협약에 서명했다고 발표",
+      "summary": "트럼프 대통령은 주요 기술 기업들이 인공지능 개발에 대한 자율 규제 협약에 서명했다고 발표했습니다. 이 협약은 정부의 강제적 규제 대신 업계 차원의 자체 감시 체계를 도입하는 것을 의미합니다. 해당 협약의 구체적인 내용과 참여 기업들의 범위, 그리고 실제 이행 방안에 대한 세부사항은 아직 공개되지 않았습니다. 이는 AI 개발의 안전성과 투명성을 둘러싼 정부와 기술 업계 간의 정책 방향을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/trump-says-top-tech-firms-have-signed-accord-to-self-police-ai-development/",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "사우디 저먼 헬스 UAE, HPE 자율주행 네트워크로 UAE 디지털 헬스케어 혁신",
+      "summary": "HPE는 중동 및 북아프리카 지역의 주요 민간 의료 제공자인 사우디 저먼 헬스 UAE가 HPE의 유선 및 무선 NAC 솔루션을 선택했다고 발표했습니다. 이 솔루션은 HPE Aruba Central을 통해 관리되며 UAE에서 네트워크 인프라를 현대화하고 디지털 의료 변환을 가속화하는 데 활용될 예정입니다. HPE와 사우디 저먼 헬스 UAE는 14년간 파트너십을 유지하며 조직의 지속적인 성장과 변혁을 지원해왔습니다. 사우디 저먼 헬스 UAE는 HPE 자율주행 네트워크 포트폴리오를 선택하여 의료 서비스 제공 역량을 강화하고자 합니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/09/saudi-german-health-uae-transforms-digital-healthcare-in-the-uae-with-the-hpe-self-driving-network.html",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 팩토리 vs 데이터 센터",
+      "summary": "기존 데이터 센터에 GPU 클러스터와 벡터 데이터베이스를 추가하는 방식은 초기 프로젝트에는 작동하지만, 하부 데이터 계층의 근본적인 문제를 해결하지 못합니다. AI 팩토리는 모델 학습과 추론을 위한 토큰 생성 엔진과 기업 지식을 모델에 공급하고 결과를 수집하는 컨텍스트 공급망이라는 두 개의 연결된 시스템으로 구성됩니다. 기존 데이터 센터에서는 애플리케이션이 데이터 읽기/쓰기 시점과 접근 권한을 결정하지만, AI 팩토리에서는 데이터 계층이 이러한 결정을 주도하며 데이터 변경이 작업을 시작합니다. 기존 스토리지 시스템은 수동적으로 데이터를 대기하고 제공하는 방식으로 설계되었는데, AI 팩토리에서는 문서 임베딩이나 레코드 업데이트 시 자동으로 반응해야 하므로 데이터 플랫폼이 이러한 변화에 주도적으로 반응하지 못하면 팀들은 폴링 작업을 추가로 구축해야 하는 문제가 발생합니다. 결과적으로 기존 데이터 센터 아키텍처를 AI 팩토리로 개조하는 과정에서 데이터 계층의 역할 변화로 인한 여러 장애 지점들이 나타나게 됩니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/ai-factory-vs-data-center",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpenAI CEO, 개발자 컨퍼런스에서 새로운 AI 에이전트 발표하며 보안 우려사항 언급 회피",
+      "summary": "OpenAI의 샘 알트만 CEO가 회사의 개발자 컨퍼런스에서 '매우 강력하고 항상 활성화된' 새로운 인공지능 에이전트를 소개했습니다. 이번 발표는 최근 증가하고 있는 AI 보안 우려사항들이 거의 언급되지 않은 채 진행되었습니다. 개발자 컨퍼런스에서는 새로운 AI 기술의 능력에 초점이 맞춰졌으며, 보안 관련 논의는 주요 안건으로 다루어지지 않았습니다. 이러한 접근은 AI 기술의 급속한 발전 속에서 보안 및 안전성에 대한 업계의 관심 차이를 보여주고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/openai-ceo-announces-new-ai-agent-and-avoids-mention-of-security-concerns-at-developer-conference/",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "DARPA, 군용 메시징 앱 보안 강화를 위해 Xint의 AI 기술 선정",
+      "summary": "미국 국방고등연구계획청(DARPA)이 인공지능(AI)을 활용하여 군용 메시징 애플리케이션의 보안을 강화하기 위해 Xint를 선정했습니다. 이 프로젝트는 군부대의 통신 메시징 앱의 보안 취약점을 AI 기술로 식별하고 보강하는 것을 목표로 합니다. Xint의 AI 솔루션은 실시간으로 잠재적 보안 위협을 탐지하고 대응하는 데 활용될 예정입니다. 이는 국방부가 주요 통신 인프라의 사이버보안을 강화하려는 전략적 노력의 일환입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/darpa-selects-xint-to-use-ai-in-securing-military-messaging-apps/",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 Spectre v2 변종, 인텔·AMD·Arm CPU의 데이터 유출 위험 노출",
+      "summary": "새로운 Spectre v2 변종 공격이 발견되어 인텔, AMD, Arm 프로세서가 데이터 유출 위험에 노출되었습니다. 이 취약점은 추측 실행(Spectre) 기반의 사이드채널 공격을 통해 CPU 캐시에서 민감한 데이터를 탈취할 수 있습니다. 해당 변종은 기존의 Spectre v2 완화 기술을 우회할 수 있어 광범위한 프로세서 제조사에 영향을 미칩니다. 보안 전문가들은 영향받는 모든 CPU 아키텍처에 대한 패치 및 마이크로코드 업데이트를 권장하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/new-spectre-v2-variant-exposes-intel-amd-arm-cpus-to-data-leaks/",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "RemoteThreat, 공격 작전 플랫폼으로 700만 달러 투자 유치하며 출범",
+      "summary": "RemoteThreat는 공격적 보안 작전(Offensive Operations)을 수행하기 위한 플랫폼으로 700만 달러의 초기 펀딩을 확보하며 정식 출범했습니다. 이 플랫폼은 기업의 보안팀이 침투 테스트 및 공격 시뮬레이션 등의 공격적 보안 작전을 효율적으로 수행할 수 있도록 설계되었습니다. RemoteThreat의 출범은 기업이 보안 태세를 사전에 평가하고 개선하려는 수요가 증가하고 있음을 반영합니다. 해당 플랫폼은 원격으로 보안 작전을 조율하고 관리할 수 있는 기능을 제공하여 조직의 사이버보안 대비능력을 강화하는 데 기여할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/remotethreat-launches-with-7-million-for-offensive-operations-platform/",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "레코, 에이전틱 보안을 위해 5,500만 달러 자금 조달",
+      "summary": "에이전틱 보안 솔루션 제공업체인 레코(Reco)가 5,500만 달러의 자금을 조달했습니다. 이번 투자는 회사의 영업, 파트너십, 채널 확대 및 고객 지원 강화에 사용될 예정입니다. 레코는 인공지능 기반의 자동화된 보안 솔루션을 제공하는 기업으로, 데이터 보안 및 사이버 위협 대응 분야에서 에이전틱 AI 기술을 활용하고 있습니다. 이러한 대규모 자금 조달은 에이전틱 AI 보안 분야의 성장성과 시장 수요를 반영하는 것으로 보입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/reco-raises-55-million-for-agentic-security/",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "해커들이 ClickFix 공격에서 ChatGPT 커스텀 GPT 악용",
+      "summary": "해커들이 ClickFix 공격 캠페인에서 ChatGPT의 커스텀 GPT 기능을 악용하고 있습니다. 이러한 새로운 공격 기법은 인공지능 기술을 악의적인 목적으로 사용하는 해커들의 진화된 전략을 보여줍니다. ClickFix 공격은 사용자들을 속여 악성 소프트웨어를 설치하도록 유도하는 기법으로 알려져 있습니다. ChatGPT 커스텀 GPT를 활용함으로써 공격의 신뢰도와 효율성이 높아질 수 있습니다. 이 사건은 생성형 AI 기술이 사이버보안 위협으로 악용될 수 있는 새로운 위험을 제시합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hackers-use-chatgpt-custom-gpts-in-clickfix-attacks/",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "펜타곤 인사관리국 데이터 유출, 300만 명 영향",
+      "summary": "미국 국방부 산하 인사관리국(DMDC)에서 대규모 데이터 유출 사건이 발생했으며, 약 300만 명의 개인정보가 영향을 받은 것으로 파악되었습니다. 이번 사건은 정부 기관의 주요 인사 데이터베이스에 대한 심각한 보안 위협을 드러냅니다. 유출된 정보에는 군 관계자 및 국방부 직원들의 민감한 개인정보가 포함되어 있는 것으로 알려졌습니다. 당국은 해당 사건에 대한 조사를 진행 중이며, 영향을 받은 개인들에 대한 보호 조치를 마련하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/pentagon-personnel-agency-data-breach-impacts-3-million-people/",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "릭 시큐리티, 에이전틱 AI 신원 위험 대응을 위해 1,200만 달러 펀딩 받으며 스텔스 모드 탈출",
+      "summary": "릭 시큐리티(Rig Security)가 시드 펀딩으로 1,200만 달러를 확보하며 공식 출범했습니다. 이 회사는 에이전틱 AI 시대를 위해 설계된 신원 보호 플랫폼을 개발하고 있습니다. 자율적으로 동작하는 AI 에이전트의 확산에 따라 이들의 신원과 접근 권한 관리가 새로운 사이버보안 과제로 대두되고 있습니다. 릭 시큐리티의 솔루션은 AI 에이전트들의 신원 위험을 식별하고 관리하는 데 중점을 두고 있으며, 이는 미래의 AI 기반 사이버보안 시장에서 중요한 역할을 할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/rig-security-emerges-from-stealth-with-12m-to-tackle-agentic-ai-identity-risks/",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "향후 큰 계획을 세우고 있는 4가지 사이버 위협",
+      "summary": "AI 기반 공격, 공급망 위험, 양자 컴퓨팅, 지정학적 위협 등 4가지 주요 사이버 보안 위협이 급부상하고 있습니다. 이러한 새로운 위협들은 조직의 보안 환경을 근본적으로 재편하고 있습니다. 특히 AI 기술의 발전으로 더욱 정교한 공격이 가능해지고 있으며, 양자 컴퓨팅의 등장은 기존 암호화 체계에 심각한 위협을 초래할 수 있습니다. 조직들은 이러한 위협에 대응하기 위해 장기적인 회복력 있는 보안 전략을 수립해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/four-cyber-threats-harboring-big-plans-for-the-future/",
+      "date": "2026-09-29"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "최적의 AI 데이터 아키텍처는 이미 갖춘 환경에 맞춰야 한다",
@@ -12743,116 +12863,8 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/clicklock-stealer-bypasses-macos-security-with-social-engineering-process-killing/",
       "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Oak, 6천만 달러 펀딩으로 스텔스 모드 탈출",
-      "summary": "사이버보안 스타트업 Oak가 6천만 달러의 시드 펀딩을 유치하며 공식 출범했습니다. 이번 펀딩은 아이덴티티 및 접근 관리 분야에서 Oak의 혁신적인 솔루션에 대한 투자자들의 높은 평가를 반영합니다. Oak는 기업의 아이덴티티 보안 강화를 목표로 기술을 개발하고 있습니다. 이 투자 규모는 사이버보안 분야의 활발한 펀딩 활동을 보여주는 사례로, 특히 아이덴티티 및 접근 제어 분야에 대한 시장의 높은 수요를 증명합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/oak-emerges-from-stealth-mode-with-60-million-in-funding/",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Splunk와 Zoom, 심각한 취약점 패치",
-      "summary": "Splunk와 Zoom이 자사 제품에서 발견된 여러 취약점에 대한 패치를 배포했습니다. 이번 패치에는 심각도가 높은 취약점들을 포함한 다양한 보안 결함이 포함되어 있습니다. 두 회사 모두 사용자들에게 즉시 업데이트를 권장하고 있습니다. 이러한 취약점들이 악의적으로 악용될 경우 시스템 침해 및 데이터 유출의 위험이 있습니다. 보안 전문가들은 조직과 개인 사용자들이 신속하게 패치를 적용할 것을 강조하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/splunk-zoom-patch-critical-vulnerabilities/",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "F5, NGINX 및 BIG-IP 취약점 패치",
-      "summary": "F5는 NGINX와 BIG-IP의 여러 취약점에 대한 보안 패치를 공개했습니다. 이 취약점들은 공격자가 프로세스를 수정하고 재시작하며 코드를 실행할 수 있게 하는 심각한 보안 위협입니다. F5는 영향을 받은 사용자들에게 즉시 패치를 적용할 것을 권고하고 있습니다. 해당 취약점은 SecurityWeek에 의해 2026년 7월 16일 보도되었으며, 전체 348단어 분량의 상세한 내용이 제공되었습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/f5-patches-multiple-nginx-big-ip-vulnerabilities/",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "중국의 주요 사이버보안 기업들, 증가하는 군 조달 금지에 직면",
-      "summary": "중국의 상위 사이버보안 기업들이 군부대의 조달 금지 조치가 확대되면서 어려움을 겪고 있습니다. 이러한 금지 조치는 중국 정부의 보안 정책 변화를 반영하며, 해당 기업들의 사업 영역에 상당한 영향을 미치고 있습니다. 군 조달 시장이 중국 사이버보안 산업의 주요 수익원이었던 만큼, 이러한 제재는 업계 전반에 파급 효과를 줄 것으로 예상됩니다. SecurityWeek이 보도한 이 소식은 중국 정부의 국방 및 보안 정책이 민간 사이버보안 기업들에게 미치는 광범위한 영향을 시사합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/chinas-top-cybersecurity-firms-hit-by-mounting-military-procurement-bans/",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "구식 UEFI 시임으로 인한 시스템 Secure Boot 우회 노출",
-      "summary": "구식 UEFI 시임 부트로더가 Secure Boot를 우회하는 데 악용될 수 있는 것으로 드러났습니다. 이 취약점은 공격자들이 시스템의 보안 부팅 메커니즘을 무력화하고 무단으로 코드를 실행할 수 있게 해줍니다. Secure Boot는 시스템 시작 시 승인된 소프트웨어만 실행되도록 보장하는 중요한 보안 기능입니다. 구식 버전의 UEFI 시임을 사용하는 시스템들이 특히 이 공격에 취약한 상태입니다. 사용자들은 시스템의 펌웨어와 부트로더를 최신 버전으로 업데이트할 것이 권장됩니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/old-uefi-shims-expose-systems-to-secure-boot-bypass/",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Nightmare Eclipse, LegacyHive 윈도우 제로데이 공개",
-      "summary": "악의적 해킹 그룹인 Nightmare Eclipse가 LegacyHive라는 윈도우 운영체제의 제로데이 취약점을 공개했습니다. 이 취약점은 아직 패치되지 않은 결함으로, 공격자들이 악용할 수 있는 개념 증명(PoC) 코드가 함께 배포되었습니다. 해당 제로데이는 윈도우 시스템에 심각한 보안 위협을 초래할 수 있으며, 공격 대상이 광범위할 것으로 예상됩니다. 사용자들은 마이크로소프트의 긴급 패치가 나올 때까지 주의 깊은 모니터링과 보안 조치가 필요합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/nightmare-eclipse-drops-legacyhive-windows-zero-day/",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[Global Security TOP 100] 김병훈 이스트시큐리티 CTO “AI 시대, 도메인 지식으로 방어”",
-      "summary": "1600만 사용자 보안 데이터 자산 삼아 AI 기반 통합 보안 플랫폼 도약 AI 모델 자체 보호하는 ‘Security for AI’ 철학 이식한 EDR 2.0 출격 [보안뉴스 조재호 기자] AI 고도화는 사이버 공격의 기획부터 실행까지 전 과정을 자동화하며 방어 패러다임의 근본적 전환을 강제하고 있다. 단순히 인공지능(AI)을 방어 도구로 쓰는 것을 넘",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144404&kind=&sub_kind=",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "카스퍼스키, ‘인포스틸러’ 감염 35%는 임시 폴더서 시작해",
-      "summary": "2025년 다크웹 정보 탈취 로그 500만개 분석 결과 담은 보고서 공개프로세스 인젝션·LOL 기법 악용한 고도화 감염 사례도 전체 32% 달해[보안뉴스 조재호 기자] 카스퍼스키가 지난해 다크웹에서 발견된 악성코드 로그를 분석한 결과, 전체 감염의 35%가 사용자의 브라우저 임시 폴더 파일 실행에서 비롯되었다고 발표했다. 공격자는 고도화된 해킹 기술보다 불",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144572&kind=&sub_kind=",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] 시큐리온, 전송자격인증제 대비 악성 문자 탐지 솔루션 ‘OnScan for Message’ 출시",
-      "summary": "악성 앱 및 악성 문자 탐지 솔루션 확대보이스피싱·스미싱 피해 예방에 기여[보안뉴스 엄호식 기자] 시큐리온은 AI 기반의 모바일·IoT 보안 솔루션을 제공하는 정보보안 기업이다. 독자 개발한 AI 악성 앱·문자 탐지 기술, OS 해킹 탐지 기술로 스마트 환경을 보호할 수 있는 솔루션을 제공한다.핵심 제품은 모바일 해킹 탐지 솔루션 ‘OnTrust’, 악성",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144610&kind=&sub_kind=",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] 한국퀀텀컴퓨팅, 암호자산 발견부터 키 관리·사용자 인증까지 단계별 전환",
-      "summary": "PQC 기반 암호 자산 보호 및 인증 솔루션 포트폴리오“HSM 중심으로 통합 지원”[보안뉴스 강현주 기자] 양자컴퓨팅 기술의 발전으로 기존 공개키 암호체계가 위협받는 가운데, 기업과 기관들은 양자내성암호(PQC)로의 전환을 서둘러야 하는 상황에 직면해 있다. 하지만 암호화 자산의 현황 파악부터 키 관리, 사용자 인증에 이르기까지 복잡한 전환 과정은 많은 조",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144607&kind=&sub_kind=",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[카드뉴스] “로봇청소기가 해커의 무기로?”… 패치 없는 저가형 IoT 기기가 부른 ‘봇넷’의 경고",
-      "summary": "무선 펌웨어 업데이트(OTA) 및 패치 기능이 부재한 저가형 IoT 가전제품들이 봇넷(Botnet)의 포섭 대상이 되며 사후 조치가 불가능한 ‘영원한 취약점’으로 작용하고 있다. 공격자들은 방화벽을 직접 뚫는 대신 사용자가 직접 도입한 미검증 스마트 기기를 ‘가장 약한 고리’로 삼아 내부망으로 침투하거나 거대 디도스 공격 거점으로 악용한다. 단말기 출시 후",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144723&kind=&sub_kind=",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "“임직원부터 지역사회까지 챙긴다” 시큐아이, 삼복맞이 나눔 행사 진행",
-      "summary": "복날 맞이 음식 제공해 임직원 사기 진작 도모임직원 봉사단 꾸려 복지관 대상 배식 봉사 진행[보안뉴스 조재호 기자] 시큐아이가 임직원과 지역사회가 건강한 여름을 보낼 수 있도록 다양한 삼복맞이 이벤트를 진행했다고 16일 밝혔다. 삼복 이벤트는 무더위에 지친 임직원을 격려하고 활기찬 조직 문화를 조성하기 위해 기획된 시큐아이의 대표적인 연례 사내 행사다.올해",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144728&kind=&sub_kind=",
-      "date": "2026-07-16"
     }
   ],
-  "totalItems": 3850,
+  "totalItems": 3862,
   "hasArchive": true
 }
