@@ -3,12 +3,129 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, AMD Helios 첫 주문 확보... Vultr와 12억 달러 규모 거래",
+      "summary": "HPE가 세계 최대 민간 클라우드 인프라 기업인 Vultr로부터 AMD Helios AI Rack 시스템 배포 관련 12억 달러 규모의 주문을 확보했다. 이는 HPE의 AMD Helios 신규 시스템에 대한 첫 주문으로, HPE의 목적 최적화 네트워킹 스케일업 스위칭 및 소프트웨어를 탑재하고 있다. Vultr는 미국 내 클라우드 데이터센터 위치에 이 시스템들을 배포할 계획이다. HPE와 AMD는 AI 데이터센터에서 모델 훈련 및 추론 작업에 대한 서비스 제공자 및 엔터프라이즈 수요 충족을 위해 Vultr를 지원할 예정이다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/09/hpe-secures-its-first-amd-helios-order-in-12-billion-deal-with-vultr.html",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 장기 가치 창출을 위한 네트워킹 전략 공개",
+      "summary": "HPE는 9월 30일 HPE 네트워킹 투자자의 날을 개최하여 AI 시대에 수익성 있는 성장과 장기 주주가치 창출을 가속화하기 위한 전략을 발표했다. 회사는 데이터센터 네트워킹, 라우팅, 캠퍼스 및 브랜치, 보안 분야의 광범위한 수요를 포착할 계획을 공유하며, HPE 네트워킹을 성장의 핵심 동력으로 포지셔닝하고 있다. AI가 기술 스택을 재편하면서 네트워크의 전략적 중요성이 높아지고 있으며, 엔터프라이즈와 서비스 제공업체로부터 새로운 수요가 급증하고 있다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/09/hpe-to-outline-networking-priorities-for-long-term-value-creation.html",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST Data CEO Renen Hallak가 말하는 AI 모델, 에이전트와 새로운 인프라 스택",
+      "summary": "VAST Data의 CEO Renen Hallak는 AI 인프라가 단순히 컴퓨팅을 스케줄링하는 것을 넘어 그 컴퓨팅이 무엇을 하는지 이해해야 한다고 강조합니다. AI 거래에서 기업은 자신의 환경을 벗어나지 않는 기밀 정보에 대한 추론을 실행하려 하고, 모델 제공자는 자신의 지적재산을 나타내는 모델 가중치에 대한 제한 없는 접근을 허용하고 싶지 않아 보안이 복잡해집니다. 이 문제를 해결하기 위해 Hallak은 암호화된 메모리와 암호학적 제어 실행을 통해 기업 정보는 보호하고 모델 가중치는 안전하게 하는 기밀 컴퓨팅을 제시합니다. 향후에는 기업들이 자신의 에이전트가 기밀 정보로부터 학습하면서 전문화된 지능을 축적함에 따라 모델 소유자가 될 것으로 예상됩니다. 에이전트들은 막대한 규모의 소규모 거래를 통해 상호작용, 거래 및 잠재적 결제를 수행해야 하며, 이는 현재의 인프라가 인간 중심의 가정을 기반으로 설계되었을 때 근본적인 도전과제가 됩니다. Hallak은 미래에 에이전트 활동이 인간 활동보다 6~7자리 수준으로 더 빈번하고 대규모로 발생할 것으로 예상합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/models-agents-and-the-new-infrastructure-stack-with-vast-data-ceo-renen-hallak",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "FTC, OpenAI와 Anthropic에 대한 소비자 피해 위험 조사 개시",
+      "summary": "미국 연방거래위원회(FTC)가 OpenAI와 Anthropic을 포함한 AI 기업들에 대한 조사를 시작했습니다. 이 조사는 이들 기업의 AI 기술이 소비자에게 초래할 수 있는 잠재적 위험성을 중점적으로 검토하고 있습니다. FTC는 AI 기술의 안전성, 개인정보보호, 그리고 소비자 보호 측면에서의 문제점을 파악하려고 하고 있습니다. 이번 조사는 급속도로 성장하는 AI 산업에 대한 규제 당국의 감시 강화를 의미합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ftc-is-investigating-openai-and-anthropic-over-possible-risks-to-consumers/",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "구글: AI가 취약점 발견의 속도와 양상을 변화시키고 있다",
+      "summary": "구글은 인공지능 기술이 소프트웨어 취약점 발견의 속도와 특성을 근본적으로 변화시키고 있다고 발표했습니다. AI 기반 분석 도구들이 기존의 수동 감사 방식보다 훨씬 빠르게 취약점을 탐지할 수 있게 되면서, 보안 연구원들의 업무 방식이 크게 달라지고 있습니다. 이러한 변화는 취약점 발견 시간을 단축할 뿐 아니라 이전에 놓쳤던 새로운 유형의 보안 결함들도 식별할 수 있게 해줍니다. 다만 AI 기술의 확산에 따라 악의적인 행위자들도 더욱 빠르게 취약점을 악용할 수 있게 되므로, 보안 커뮤니티의 더욱 신속한 대응이 필요해지고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/google-ai-is-changing-the-pace-and-profile-of-vulnerability-discovery/",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "WatchGuard, 파이어웨어 OS 코드 인젝션 취약점 패치 배포",
+      "summary": "WatchGuard가 자사의 파이어웨어 OS에서 발견된 심각한 코드 인젝션 취약점에 대한 보안 패치를 공개했습니다. 이 취약점은 공격자가 악의적인 코드를 시스템에 주입할 수 있게 하는 위험한 결함으로, 방화벽의 보안 기능을 우회할 가능성이 있습니다. WatchGuard는 영향을 받는 사용자들에게 즉시 보안 업데이트를 적용할 것을 권고하고 있습니다. 이번 취약점은 기업 네트워크 보안에 직결되는 중요한 문제로 평가되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/watchguard-patches-critical-fireware-os-code-injection-vulnerability/",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "정부·금융기관, 수주간 지속된 NetScaler 제로데이 공격 대상",
+      "summary": "정부 및 금융 기관들이 Citrix NetScaler의 제로데이 취약점을 악용한 공격의 목표가 되었습니다. 이 공격은 수주간에 걸쳐 지속되었으며, 공격자들이 오랜 기간 시스템에 접근할 수 있었던 것으로 파악되었습니다. NetScaler는 네트워크 보안 및 애플리케이션 전달에 광범위하게 사용되는 중요한 인프라 장비입니다. 이번 제로데이 취약점은 Citrix에 의해 발견되지 않은 미공개 보안 결함으로, 공격자들이 이를 조기에 악용한 것으로 나타났습니다. 보안 전문가들은 영향받은 조직들에게 즉시 시스템 점검 및 보안 업데이트 적용을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/government-finance-orgs-targeted-in-weeks-long-netscaler-zero-day-attacks/",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Chrome과 Firefox 업데이트, 100개 이상의 취약점 패치",
+      "summary": "Chrome과 Firefox 브라우저가 100개 이상의 보안 취약점을 해결하는 업데이트를 릴리스했습니다. 이번 업데이트는 사용자들의 시스템 보안을 강화하고 악의적인 공격으로부터 보호하기 위해 긴급 배포되었습니다. 두 주요 웹 브라우저 모두 심각한 수준의 취약점들을 포함하고 있었으며, 즉시 업데이트가 권장됩니다. 사용자들은 최대한 빨리 최신 버전으로 업그레이드하여 보안 위험으로부터 자신의 기기를 보호해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/chrome-firefox-updates-patch-over-100-vulnerabilities/",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Anthropic, AI 에이전트 책임 위험성 지적... OpenAI는 해킹 소송 직면",
+      "summary": "Anthropic이 AI 에이전트의 법적 책임 위험성을 지적했으며, 동시에 OpenAI는 해킹 관련 소송에 직면하고 있습니다. AI 에이전트의 자동화된 의사결정 능력이 확대되면서 발생할 수 있는 법적 책임 문제가 주요 쟁점으로 떠오르고 있습니다. 이는 AI 기업들이 제품 배포 시 고려해야 할 중요한 리스크 요소로 작용하고 있습니다. SecurityWeek에서 보도한 이 사건은 AI 산업의 규제 및 책임 체계 마련의 필요성을 드러냅니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/anthropic-flags-ai-agent-liability-risks-as-openai-faces-hacking-lawsuit/",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "러시아 APT 그룹 Star Blizzard, 최근 공격에서 RedFlick 감염 체인 사용",
+      "summary": "러시아의 고급 지속 위협(APT) 그룹인 Star Blizzard가 최근 사이버 공격 캠페인에서 RedFlick이라는 새로운 감염 체인을 활용하고 있는 것으로 확인되었습니다. RedFlick 감염 체인은 멀웨어 전파와 시스템 침투에 사용되는 다단계 공격 기법으로, 초기 접근부터 페이로드 전달까지의 전체 과정을 자동화합니다. 이러한 공격 기법의 사용은 Star Blizzard 그룹의 기술 수준 향상과 공격 정교화를 시사합니다. 보안 전문가들은 조직들에게 이 위협에 대한 주의와 방어 체계 강화를 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/russian-apt-star-blizzard-uses-redflick-infection-chain-in-recent-attacks/",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "ShinyHunters, FBI의 투항 권고에 강경 대응",
+      "summary": "FBI가 사이버범죄 집단 ShinyHunters의 구성원들에게 자수를 권고했으나, 해당 집단은 이에 강경하게 대응하고 있다. ShinyHunters는 대규모 데이터 유출 사건과 관련된 악명 높은 사이버범죄 조직으로, FBI의 압박에도 불구하고 계속해서 불법 활동을 진행 중인 것으로 보인다. 이번 사건은 국제 사이버 범죄 단속 노력과 조직화된 해킹 집단의 대담한 활동 사이의 갈등을 보여준다. 미국 정부는 이 집단의 구성원 색출과 기소를 위해 적극적인 수사를 진행하고 있는 상황이다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/shinyhunters-defiant-after-fbi-calls-on-members-to-come-forward/",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpenSSL, WolfSSL의 고위험 취약점 패치",
+      "summary": "OpenSSL과 WolfSSL에서 고위험 수준의 취약점들이 발견되어 패치되었습니다. 이들 암호화 라이브러리의 보안 결함은 광범위하게 사용되는 소프트웨어와 시스템에 영향을 미칠 수 있어 심각한 위협으로 평가됩니다. SecurityWeek에서 보도한 이 사건은 조직들이 즉시 업데이트를 적용할 필요성을 강조하고 있습니다. 해당 취약점들은 인증서 검증 우회, 통신 암호화 약화 등 다양한 보안 위협을 야기할 수 있습니다. 보안 전문가들은 조직의 IT 인프라에서 해당 라이브러리 사용 현황을 파악하고 긴급하게 패치를 배포할 것을 권장하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/high-severity-vulnerabilities-patched-in-openssl-wolfssl/",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "트럼프, 주요 기술 기업들이 AI 개발 '자율 규제' 협약에 서명했다고 발표",
       "summary": "트럼프 대통령은 주요 기술 기업들이 인공지능 개발에 대한 자율 규제 협약에 서명했다고 발표했습니다. 이 협약은 정부의 강제적 규제 대신 업계 차원의 자체 감시 체계를 도입하는 것을 의미합니다. 해당 협약의 구체적인 내용과 참여 기업들의 범위, 그리고 실제 이행 방안에 대한 세부사항은 아직 공개되지 않았습니다. 이는 AI 개발의 안전성과 투명성을 둘러싼 정부와 기술 업계 간의 정책 방향을 보여주는 사례입니다.",
       "category": "보안",
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/trump-says-top-tech-firms-have-signed-accord-to-self-police-ai-development/",
       "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CPU를 안전하게 오버클록하는 방법: 실용 가이드",
+      "summary": "오버클록은 지원되는 하드웨어에서 프로세서를 기본 속도 이상으로 작동시켜 추가 성능을 얻는 기술입니다. 신중하게 진행하면 전체 하드웨어 업그레이드 없이도 측정 가능한 성능 향상을 달성할 수 있습니다. 안전한 오버클록의 핵심은 작은 변화를 단계적으로 적용하고, 시스템 냉각을 유지하며, 각 단계마다 안정성을 테스트하는 것입니다. 제조사 승인 BIOS 또는 튜닝 유틸리티를 사용하고, 온도를 모니터링하며, 변경 전에 기준값을 기록해야 합니다. 불안정성이 발생하면 마지막 안정적인 설정으로 롤백하거나 BIOS/UEFI를 초기화한 후 다시 시도하면 됩니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-to-overclock-your-cpu-safely-a-practical-guide/",
+      "date": "2026-09-29"
     },
     {
       "id": "aHR0cHM6Ly93d3cu",
@@ -11658,10 +11775,10 @@
     }
   ],
   "sources": {
-    "SecurityWeek": 588,
-    "HPE": 32,
-    "VAST Data": 48,
-    "Dell": 175,
+    "HPE": 34,
+    "VAST Data": 49,
+    "SecurityWeek": 597,
+    "Dell": 176,
     "보안뉴스": 452
   }
 }

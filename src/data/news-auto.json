@@ -3861,9 +3861,130 @@
     "https://www.securityweek.com/hackers-use-chatgpt-custom-gpts-in-clickfix-attacks/",
     "https://www.securityweek.com/pentagon-personnel-agency-data-breach-impacts-3-million-people/",
     "https://www.securityweek.com/rig-security-emerges-from-stealth-with-12m-to-tackle-agentic-ai-identity-risks/",
-    "https://www.securityweek.com/four-cyber-threats-harboring-big-plans-for-the-future/"
+    "https://www.securityweek.com/four-cyber-threats-harboring-big-plans-for-the-future/",
+    "https://www.dell.com/en-us/blog/how-to-overclock-your-cpu-safely-a-practical-guide/",
+    "https://www.hpe.com/us/en/newsroom/press-release/2026/09/hpe-secures-its-first-amd-helios-order-in-12-billion-deal-with-vultr.html",
+    "https://www.hpe.com/us/en/newsroom/press-release/2026/09/hpe-to-outline-networking-priorities-for-long-term-value-creation.html",
+    "https://www.vastdata.com/blog/models-agents-and-the-new-infrastructure-stack-with-vast-data-ceo-renen-hallak",
+    "https://www.securityweek.com/ftc-is-investigating-openai-and-anthropic-over-possible-risks-to-consumers/",
+    "https://www.securityweek.com/google-ai-is-changing-the-pace-and-profile-of-vulnerability-discovery/",
+    "https://www.securityweek.com/watchguard-patches-critical-fireware-os-code-injection-vulnerability/",
+    "https://www.securityweek.com/government-finance-orgs-targeted-in-weeks-long-netscaler-zero-day-attacks/",
+    "https://www.securityweek.com/chrome-firefox-updates-patch-over-100-vulnerabilities/",
+    "https://www.securityweek.com/anthropic-flags-ai-agent-liability-risks-as-openai-faces-hacking-lawsuit/",
+    "https://www.securityweek.com/russian-apt-star-blizzard-uses-redflick-infection-chain-in-recent-attacks/",
+    "https://www.securityweek.com/shinyhunters-defiant-after-fbi-calls-on-members-to-come-forward/",
+    "https://www.securityweek.com/high-severity-vulnerabilities-patched-in-openssl-wolfssl/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, AMD Helios 첫 주문 확보... Vultr와 12억 달러 규모 거래",
+      "summary": "HPE가 세계 최대 민간 클라우드 인프라 기업인 Vultr로부터 AMD Helios AI Rack 시스템 배포 관련 12억 달러 규모의 주문을 확보했다. 이는 HPE의 AMD Helios 신규 시스템에 대한 첫 주문으로, HPE의 목적 최적화 네트워킹 스케일업 스위칭 및 소프트웨어를 탑재하고 있다. Vultr는 미국 내 클라우드 데이터센터 위치에 이 시스템들을 배포할 계획이다. HPE와 AMD는 AI 데이터센터에서 모델 훈련 및 추론 작업에 대한 서비스 제공자 및 엔터프라이즈 수요 충족을 위해 Vultr를 지원할 예정이다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/09/hpe-secures-its-first-amd-helios-order-in-12-billion-deal-with-vultr.html",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 장기 가치 창출을 위한 네트워킹 전략 공개",
+      "summary": "HPE는 9월 30일 HPE 네트워킹 투자자의 날을 개최하여 AI 시대에 수익성 있는 성장과 장기 주주가치 창출을 가속화하기 위한 전략을 발표했다. 회사는 데이터센터 네트워킹, 라우팅, 캠퍼스 및 브랜치, 보안 분야의 광범위한 수요를 포착할 계획을 공유하며, HPE 네트워킹을 성장의 핵심 동력으로 포지셔닝하고 있다. AI가 기술 스택을 재편하면서 네트워크의 전략적 중요성이 높아지고 있으며, 엔터프라이즈와 서비스 제공업체로부터 새로운 수요가 급증하고 있다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/09/hpe-to-outline-networking-priorities-for-long-term-value-creation.html",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST Data CEO Renen Hallak가 말하는 AI 모델, 에이전트와 새로운 인프라 스택",
+      "summary": "VAST Data의 CEO Renen Hallak는 AI 인프라가 단순히 컴퓨팅을 스케줄링하는 것을 넘어 그 컴퓨팅이 무엇을 하는지 이해해야 한다고 강조합니다. AI 거래에서 기업은 자신의 환경을 벗어나지 않는 기밀 정보에 대한 추론을 실행하려 하고, 모델 제공자는 자신의 지적재산을 나타내는 모델 가중치에 대한 제한 없는 접근을 허용하고 싶지 않아 보안이 복잡해집니다. 이 문제를 해결하기 위해 Hallak은 암호화된 메모리와 암호학적 제어 실행을 통해 기업 정보는 보호하고 모델 가중치는 안전하게 하는 기밀 컴퓨팅을 제시합니다. 향후에는 기업들이 자신의 에이전트가 기밀 정보로부터 학습하면서 전문화된 지능을 축적함에 따라 모델 소유자가 될 것으로 예상됩니다. 에이전트들은 막대한 규모의 소규모 거래를 통해 상호작용, 거래 및 잠재적 결제를 수행해야 하며, 이는 현재의 인프라가 인간 중심의 가정을 기반으로 설계되었을 때 근본적인 도전과제가 됩니다. Hallak은 미래에 에이전트 활동이 인간 활동보다 6~7자리 수준으로 더 빈번하고 대규모로 발생할 것으로 예상합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/models-agents-and-the-new-infrastructure-stack-with-vast-data-ceo-renen-hallak",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "FTC, OpenAI와 Anthropic에 대한 소비자 피해 위험 조사 개시",
+      "summary": "미국 연방거래위원회(FTC)가 OpenAI와 Anthropic을 포함한 AI 기업들에 대한 조사를 시작했습니다. 이 조사는 이들 기업의 AI 기술이 소비자에게 초래할 수 있는 잠재적 위험성을 중점적으로 검토하고 있습니다. FTC는 AI 기술의 안전성, 개인정보보호, 그리고 소비자 보호 측면에서의 문제점을 파악하려고 하고 있습니다. 이번 조사는 급속도로 성장하는 AI 산업에 대한 규제 당국의 감시 강화를 의미합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ftc-is-investigating-openai-and-anthropic-over-possible-risks-to-consumers/",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "구글: AI가 취약점 발견의 속도와 양상을 변화시키고 있다",
+      "summary": "구글은 인공지능 기술이 소프트웨어 취약점 발견의 속도와 특성을 근본적으로 변화시키고 있다고 발표했습니다. AI 기반 분석 도구들이 기존의 수동 감사 방식보다 훨씬 빠르게 취약점을 탐지할 수 있게 되면서, 보안 연구원들의 업무 방식이 크게 달라지고 있습니다. 이러한 변화는 취약점 발견 시간을 단축할 뿐 아니라 이전에 놓쳤던 새로운 유형의 보안 결함들도 식별할 수 있게 해줍니다. 다만 AI 기술의 확산에 따라 악의적인 행위자들도 더욱 빠르게 취약점을 악용할 수 있게 되므로, 보안 커뮤니티의 더욱 신속한 대응이 필요해지고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/google-ai-is-changing-the-pace-and-profile-of-vulnerability-discovery/",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "WatchGuard, 파이어웨어 OS 코드 인젝션 취약점 패치 배포",
+      "summary": "WatchGuard가 자사의 파이어웨어 OS에서 발견된 심각한 코드 인젝션 취약점에 대한 보안 패치를 공개했습니다. 이 취약점은 공격자가 악의적인 코드를 시스템에 주입할 수 있게 하는 위험한 결함으로, 방화벽의 보안 기능을 우회할 가능성이 있습니다. WatchGuard는 영향을 받는 사용자들에게 즉시 보안 업데이트를 적용할 것을 권고하고 있습니다. 이번 취약점은 기업 네트워크 보안에 직결되는 중요한 문제로 평가되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/watchguard-patches-critical-fireware-os-code-injection-vulnerability/",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "정부·금융기관, 수주간 지속된 NetScaler 제로데이 공격 대상",
+      "summary": "정부 및 금융 기관들이 Citrix NetScaler의 제로데이 취약점을 악용한 공격의 목표가 되었습니다. 이 공격은 수주간에 걸쳐 지속되었으며, 공격자들이 오랜 기간 시스템에 접근할 수 있었던 것으로 파악되었습니다. NetScaler는 네트워크 보안 및 애플리케이션 전달에 광범위하게 사용되는 중요한 인프라 장비입니다. 이번 제로데이 취약점은 Citrix에 의해 발견되지 않은 미공개 보안 결함으로, 공격자들이 이를 조기에 악용한 것으로 나타났습니다. 보안 전문가들은 영향받은 조직들에게 즉시 시스템 점검 및 보안 업데이트 적용을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/government-finance-orgs-targeted-in-weeks-long-netscaler-zero-day-attacks/",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Chrome과 Firefox 업데이트, 100개 이상의 취약점 패치",
+      "summary": "Chrome과 Firefox 브라우저가 100개 이상의 보안 취약점을 해결하는 업데이트를 릴리스했습니다. 이번 업데이트는 사용자들의 시스템 보안을 강화하고 악의적인 공격으로부터 보호하기 위해 긴급 배포되었습니다. 두 주요 웹 브라우저 모두 심각한 수준의 취약점들을 포함하고 있었으며, 즉시 업데이트가 권장됩니다. 사용자들은 최대한 빨리 최신 버전으로 업그레이드하여 보안 위험으로부터 자신의 기기를 보호해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/chrome-firefox-updates-patch-over-100-vulnerabilities/",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Anthropic, AI 에이전트 책임 위험성 지적... OpenAI는 해킹 소송 직면",
+      "summary": "Anthropic이 AI 에이전트의 법적 책임 위험성을 지적했으며, 동시에 OpenAI는 해킹 관련 소송에 직면하고 있습니다. AI 에이전트의 자동화된 의사결정 능력이 확대되면서 발생할 수 있는 법적 책임 문제가 주요 쟁점으로 떠오르고 있습니다. 이는 AI 기업들이 제품 배포 시 고려해야 할 중요한 리스크 요소로 작용하고 있습니다. SecurityWeek에서 보도한 이 사건은 AI 산업의 규제 및 책임 체계 마련의 필요성을 드러냅니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/anthropic-flags-ai-agent-liability-risks-as-openai-faces-hacking-lawsuit/",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "러시아 APT 그룹 Star Blizzard, 최근 공격에서 RedFlick 감염 체인 사용",
+      "summary": "러시아의 고급 지속 위협(APT) 그룹인 Star Blizzard가 최근 사이버 공격 캠페인에서 RedFlick이라는 새로운 감염 체인을 활용하고 있는 것으로 확인되었습니다. RedFlick 감염 체인은 멀웨어 전파와 시스템 침투에 사용되는 다단계 공격 기법으로, 초기 접근부터 페이로드 전달까지의 전체 과정을 자동화합니다. 이러한 공격 기법의 사용은 Star Blizzard 그룹의 기술 수준 향상과 공격 정교화를 시사합니다. 보안 전문가들은 조직들에게 이 위협에 대한 주의와 방어 체계 강화를 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/russian-apt-star-blizzard-uses-redflick-infection-chain-in-recent-attacks/",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "ShinyHunters, FBI의 투항 권고에 강경 대응",
+      "summary": "FBI가 사이버범죄 집단 ShinyHunters의 구성원들에게 자수를 권고했으나, 해당 집단은 이에 강경하게 대응하고 있다. ShinyHunters는 대규모 데이터 유출 사건과 관련된 악명 높은 사이버범죄 조직으로, FBI의 압박에도 불구하고 계속해서 불법 활동을 진행 중인 것으로 보인다. 이번 사건은 국제 사이버 범죄 단속 노력과 조직화된 해킹 집단의 대담한 활동 사이의 갈등을 보여준다. 미국 정부는 이 집단의 구성원 색출과 기소를 위해 적극적인 수사를 진행하고 있는 상황이다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/shinyhunters-defiant-after-fbi-calls-on-members-to-come-forward/",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpenSSL, WolfSSL의 고위험 취약점 패치",
+      "summary": "OpenSSL과 WolfSSL에서 고위험 수준의 취약점들이 발견되어 패치되었습니다. 이들 암호화 라이브러리의 보안 결함은 광범위하게 사용되는 소프트웨어와 시스템에 영향을 미칠 수 있어 심각한 위협으로 평가됩니다. SecurityWeek에서 보도한 이 사건은 조직들이 즉시 업데이트를 적용할 필요성을 강조하고 있습니다. 해당 취약점들은 인증서 검증 우회, 통신 암호화 약화 등 다양한 보안 위협을 야기할 수 있습니다. 보안 전문가들은 조직의 IT 인프라에서 해당 라이브러리 사용 현황을 파악하고 긴급하게 패치를 배포할 것을 권장하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/high-severity-vulnerabilities-patched-in-openssl-wolfssl/",
+      "date": "2026-09-30"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "트럼프, 주요 기술 기업들이 AI 개발 '자율 규제' 협약에 서명했다고 발표",
@@ -3872,6 +3993,15 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/trump-says-top-tech-firms-have-signed-accord-to-self-police-ai-development/",
       "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CPU를 안전하게 오버클록하는 방법: 실용 가이드",
+      "summary": "오버클록은 지원되는 하드웨어에서 프로세서를 기본 속도 이상으로 작동시켜 추가 성능을 얻는 기술입니다. 신중하게 진행하면 전체 하드웨어 업그레이드 없이도 측정 가능한 성능 향상을 달성할 수 있습니다. 안전한 오버클록의 핵심은 작은 변화를 단계적으로 적용하고, 시스템 냉각을 유지하며, 각 단계마다 안정성을 테스트하는 것입니다. 제조사 승인 BIOS 또는 튜닝 유틸리티를 사용하고, 온도를 모니터링하며, 변경 전에 기준값을 기록해야 합니다. 불안정성이 발생하면 마지막 안정적인 설정으로 롤백하거나 BIOS/UEFI를 초기화한 후 다시 시도하면 됩니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-to-overclock-your-cpu-safely-a-practical-guide/",
+      "date": "2026-09-29"
     },
     {
       "id": "aHR0cHM6Ly93d3cu",
@@ -12746,125 +12876,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144218&kind=&sub_kind=",
       "date": "2026-07-17"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] 에스투더블유, AI 기반 데이터 인텔리전스 기술력으로 안보 위협 대응 지원",
-      "summary": "안보·보안 AI 제품 수출로 해외 매출 비중 20% 상회아시아, 중동, 유럽 시장 진출[보안뉴스 엄호식 기자] 빅데이터 분석 인공지능(AI) 기업 에스투더블유(S2W)는 인터폴(INTERPOL) 민관협력 프로그램 ‘게이트웨이 이니셔티브(Gateway Initiative)’의 한국 유일 파트너이자 ‘마이크로소프트 시큐리티 코파일럿(Microsoft Secur",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144634&kind=&sub_kind=",
-      "date": "2026-07-17"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] Hash 기반 실시간 멀웨어 탐지 및 대응 솔루션 ‘TA-STR’, 보안 사각지대 해소",
-      "summary": "다양한 멀웨어 위협 실시간으로 탐지, 추적, 분석해 즉각 대응[보안뉴스 엄호식 기자] 아이티스테이션은 2001년 설립 이래 약 25년간 정보보호솔루션 개발에 주력해 온 보안 전문 기업이다. 지속적인 연구개발을 통해 CC인증, GS인증 등 다수의 보안 인증을 획득했으며, 혁신적인 기술력으로 400여개 이상의 고객사를 확보하고 있다.최근에는 지능형 엔드포인트",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144628&kind=&sub_kind=",
-      "date": "2026-07-17"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "“섀도우 AI 음지에서 양지로”... 쏘카의 자율형 보안 거버넌스 사례",
-      "summary": "생산성 향상 이면에 가려진 기밀 유출, ‘바이브 코딩’ 취약점 리스크단절된 통제 탈피해 현업 부서와 소통해 인센티브 기반 자율보안 뼈대 수립[보안뉴스 조재호 기자] “생산성 향상을 위한 임직원들의 미인가 AI 사용 이른바 ‘섀도우 AI’는 보안 가시성을 붕괴시키는 치명적 위협입니다. 강압적인 차단 정책은 한계에 직면했으며, 보이지 않는 위험을 자동화된 검증",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144707&kind=&sub_kind=",
-      "date": "2026-07-17"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "노트북에 RAM을 설치하는 방법: 단계별 가이드",
-      "summary": "느린 노트북 성능을 개선하기 위해 RAM 업그레이드는 효과적인 해결책입니다. 새로운 컴퓨터를 구매하지 않고도 올바른 RAM 모듈을 선택하여 설치함으로써 멀티태스킹 성능을 크게 향상시킬 수 있습니다. 이 가이드는 RAM 설치 과정을 단계별로 설명하여 사용자가 쉽게 따라할 수 있도록 합니다. 자신의 노트북 사양에 맞는 RAM을 선택하는 것이 중요하며, 올바른 설치 방법을 따르면 누구나 이 작업을 완료할 수 있습니다. RAM 업그레이드를 통해 컴퓨터의 응답 속도와 전반적인 작동 효율성이 개선됩니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/how-to-install-ram-in-a-laptop-step-by-step-guide/",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "인프라 투자가 한 바구니에 담겨 있지는 않으신가요?",
-      "summary": "대부분의 IT 전략은 단일 벤더에 의존하려고 의도하지 않지만, 점진적으로 그렇게 됩니다. 그 후 가격 책정이 변경됩니다. 다양한 벤더 선택지를 다시 확보하고 경쟁력 있는 IT 환경을 구축해야 합니다. 단일 벤더 의존성에서 벗어나 멀티 벤더 전략을 수립하면 가격 경쟁력과 기술 선택의 자유도를 높일 수 있습니다. 인프라 투자 결정에서 장기적 유연성과 비용 효율성을 동시에 확보하는 것이 중요합니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/are-your-infrastructure-eggs-in-one-basket/",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "2년차: Dell과 Starburst가 엔터프라이즈 AI를 위한 데이터 병목 현상을 제거하는 방법",
-      "summary": "Dell과 Starburst는 2024년에 협력하여 엔터프라이즈 데이터 분산 문제를 해결하기 위한 목표를 세웠습니다. 에이전틱 시대의 도래로 기업의 데이터 관리 전략이 근본적으로 변화하고 있습니다. 통합된 데이터 플랫폼을 통해 조직은 여러 데이터 소스에 걸친 AI 애플리케이션의 성능을 향상시킬 수 있습니다. 데이터 병목 현상을 제거함으로써 기업들은 더 빠르고 효율적인 의사결정이 가능해집니다. 이러한 협력은 엔터프라이즈 AI 구현의 실질적 장애물을 극복하는 새로운 접근 방식을 제시합니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/two-years-in-how-dell-and-starburst-are-removing-the-data-bottleneck-for-enterprise-ai/",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "더 빠르고 확실한 복구는 주 저장소에서 시작됩니다",
-      "summary": "신뢰할 수 있는 복구가 비즈니스를 운영하는 데이터에 더 가까워지고 있습니다. 주 저장소에서의 복구 기능 강화는 조직이 데이터 손실 시 더 빠르게 대응할 수 있도록 지원합니다. 이는 비즈니스 연속성을 보장하고 다운타임을 최소화하는 데 핵심적인 역할을 합니다. 최신 저장소 기술은 복구 프로세스를 간소화하고 신뢰성을 높입니다. 이러한 접근 방식은 기업의 재해 복구 전략을 근본적으로 개선합니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/faster-more-confident-recovery-starts-on-primary-storage/",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Dell 복사 데이터 관리: 엔터프라이즈 복사 데이터를 전략적 이점으로 전환",
-      "summary": "PowerMax, PowerFlex 및 PowerStore 전반에 걸친 통합 복사 데이터 전략은 운영 비용을 절감하고 소프트웨어 릴리스 속도를 높이며 재해 복구 준비 태세를 개선합니다. 효율적인 복사 데이터 관리를 통해 조직은 스토리지 인프라 최적화를 달성할 수 있습니다. 단일 관리 플랫폼을 통한 통합된 접근 방식은 IT 운영의 복잡성을 감소시킵니다. 이러한 전략적 우위는 비즈니스 연속성을 강화하고 데이터 보호 목표 달성을 가속화합니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/dell-copy-data-management-turning-enterprise-copy-data-into-a-strategic-advantage/",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "주권 AI 시대: 규제 대상 기업들이 AI 업무를 온프레미스로 이전하는 이유",
-      "summary": "최근 몇 년간 기업 IT의 우선순위는 회복력 구축, 규정 준수, 신속한 복구 능력 확보였으나, 이제 새로운 전략적 질문이 대두되고 있다: 조직이 하이브리드 환경에 분산된 데이터를 책임감 있게 AI 지원할 수 있는가? 기업들은 본질적으로 하이브리드이며, 일부 워크로드는 클라우드에 적합하지만 데이터 주권, 거버넌스, 지연시간, 운영상 요구사항으로 인해 온프레미스에 남아야 한다. 규제 대상 기업들과 조직들은 자체 데이터센터 내에서 AI 팩토리를 구축하기 시작하고 있으며, 이는 데이터의 완전한 주권 확보가 주요 동인이다. 이러한 추세는 모든 프롬프트와 AI에 업로드된 정보가 자체 시스템 내에 유지되도록 보장하려는 의도에서 비롯되었다. VAST Data는 AI, 분석 및 기타 데이터 집약적 워크로드에 필요한 규모와 성능으로 온프레미스에서 데이터를 호스팅할 수 있는 플랫폼을 제공함으로써 이러한 유연성을 실현한다. Commvault와 VAST Data는 클라우드, SaaS, 데이터베이스, 파일시스템, 백업 환경 및 온프레미스 인프라에 걸쳐 분산된 데이터를 보호하고 관리하면서 AI를 위한 강력한 데이터 기반을 구축하도록 고객을 지원한다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/sovereign-ai-on-premises-regulated-enterprises",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "레거시 시스템, 현실의 영향: OT 보안의 실상",
-      "summary": "본 기사는 산업용 제어 시스템(ICS)과 운영 기술(OT) 보안의 현실적 과제를 다룹니다. 레거시 시스템의 보안 취약점이 실제 산업 환경에 미치는 영향을 분석하고 있으며, IT와 OT의 융합이 진행되면서 보안 연구자와 방어자들이 새로운 관점으로 전략을 재검토해야 함을 강조합니다. 기사는 ICS/OT 환경의 보안 위협에 대한 실무적 대응 방안과 산업 기반시설 보호의 중요성을 다룹니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/legacy-systems-real-world-impacts-the-reality-of-ot-security/",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "영국, 산산이 흩어진 거미(Scattered Spider) 해커 2명에 징역형 선고",
-      "summary": "영국에서 유명한 해킹 그룹 '산산이 흩어진 거미(Scattered Spider)'의 멤버 2명이 징역형을 선고받았다. 이들은 소셜 엔지니어링 기법을 통해 기업 네트워크에 침투하고 민감한 데이터를 탈취한 혐의로 기소되었다. 산산이 흩어진 거미는 대규모 사이버 범죄 활동으로 알려진 국제 해킹 그룹으로, 여러 조직을 대상으로 금전적 손해를 입혀왔다. 이번 판결은 조직된 사이버범죄에 대한 법 집행의 강화된 노력을 보여주는 사례이다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/two-scattered-spider-hackers-sentenced-to-jail-in-uk/",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "AI 데이터센터가 보안 적용보다 빠르게 구축되고 있다",
-      "summary": "AI 데이터센터의 구축 속도가 보안 조치를 적용하는 속도를 앞지르고 있어 심각한 보안 위험이 발생하고 있습니다. 기업들이 AI 인프라 확대에 집중하면서 필수적인 보안 대책 마련이 뒤처지고 있는 상황입니다. 이러한 보안 공백은 데이터 유출, 시스템 침해 등 다양한 사이버 위협에 노출될 위험성을 높이고 있습니다. 업계 전문가들은 데이터센터 운영 초기 단계부터 보안을 우선시해야 한다고 경고하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/ai-data-centers-are-being-built-faster-than-they-can-be-secured/",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "ClickLock 스틸러, 사회공학과 프로세스 킬링으로 macOS 보안 우회",
-      "summary": "ClickLock 스틸러라는 새로운 macOS 악성코드가 사회공학 기법과 프로세스 강제 종료를 통해 애플의 보안 메커니즘을 우회하고 있습니다. 이 악성코드는 사용자를 속여 권한을 획득한 후 시스템 프로세스를 강제로 종료하여 보안 기능을 무력화합니다. ClickFix 캠페인과 연관된 것으로 보이는 이 위협은 macOS 사용자들을 대상으로 개인정보를 탈취하는 정보수집 악성코드입니다. 보안 전문가들은 사용자가 의심스러운 팝업이나 요청에 대해 주의할 것을 권고하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/clicklock-stealer-bypasses-macos-security-with-social-engineering-process-killing/",
-      "date": "2026-07-16"
     }
   ],
-  "totalItems": 3862,
+  "totalItems": 3875,
   "hasArchive": true
 }
