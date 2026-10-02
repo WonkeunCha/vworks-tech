@@ -3874,9 +3874,109 @@
     "https://www.securityweek.com/anthropic-flags-ai-agent-liability-risks-as-openai-faces-hacking-lawsuit/",
     "https://www.securityweek.com/russian-apt-star-blizzard-uses-redflick-infection-chain-in-recent-attacks/",
     "https://www.securityweek.com/shinyhunters-defiant-after-fbi-calls-on-members-to-come-forward/",
-    "https://www.securityweek.com/high-severity-vulnerabilities-patched-in-openssl-wolfssl/"
+    "https://www.securityweek.com/high-severity-vulnerabilities-patched-in-openssl-wolfssl/",
+    "https://www.securityweek.com/zero-trust-creator-says-model-holds-firm-against-ai-assisted-attacks/",
+    "https://www.securityweek.com/osavul-lands-10-million-to-spot-hostile-intent-across-cyber-physical-domains/",
+    "https://www.securityweek.com/hacker-conversations-rob-juncker-a-knock-at-the-door-and-a-moral-compass/",
+    "https://www.securityweek.com/enterprises-struggle-to-prepare-for-ai-and-quantum-threats-pwc-says/",
+    "https://www.securityweek.com/police-shut-down-killsec-ransomware-identify-alleged-teen-leader/",
+    "https://www.securityweek.com/ai-has-changed-attack-speed-not-security-fundamentals/",
+    "https://www.securityweek.com/zimbra-vulnerability-exploited-in-the-wild-prior-to-public-disclosure/",
+    "https://www.securityweek.com/kevin-mandias-armadin-raises-255-million-at-2-5-billion-valuation/",
+    "https://www.securityweek.com/treasury-blacklists-most-wanted-atm-malware-developer-and-his-network/",
+    "https://www.securityweek.com/zammad-zero-days-exploited-in-ai-powered-divd-hack/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "제로 트러스트 창시자, AI 지원 공격에 대한 모델의 견고성 강조",
+      "summary": "제로 트러스트 보안 모델의 창시자는 최근 인공지능(AI)을 활용한 공격에 대해서도 해당 모델이 효과적으로 방어할 수 있다고 주장했습니다. 이 논문은 AI 기술의 발전으로 인한 사이버 위협이 증가하는 상황에서 제로 트러스트 아키텍처의 강점을 강조합니다. 제로 트러스트는 모든 접근을 기본적으로 신뢰하지 않고 지속적으로 검증하는 보안 방식으로, AI 공격에 대한 방어력을 갖추고 있다고 평가됩니다. 이는 네트워크 보안과 보안 아키텍처 분야에서 중요한 논의를 제시합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/zero-trust-creator-says-model-holds-firm-against-ai-assisted-attacks/",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "오사불, 사이버 및 물리적 영역의 악의적 의도 탐지를 위해 1000만 달러 자금 조달",
+      "summary": "사이버보안 기업 오사불(Osavul)이 1000만 달러 규모의 자금 조달을 완료했습니다. 이 회사는 사이버와 물리적 영역에 걸쳐 악의적 의도를 탐지하는 솔루션을 제공합니다. 조달된 자금은 위협 인텔리전스 기술 개발 및 시장 확대에 활용될 것으로 예상됩니다. 오사불은 통합된 위협 탐지 플랫폼으로 조직의 보안 태세를 강화하는 것을 목표로 하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/osavul-lands-10-million-to-spot-hostile-intent-across-cyber-physical-domains/",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "해커 인터뷰: 롭 정커, 문 앞의 방문, 그리고 도덕적 나침반",
+      "summary": "SecurityWeek의 '해커 대화' 시리즈에서 롭 정커(Rob Juncker)를 인터뷰한 기사입니다. 이 인터뷰에서는 도덕적 윤리를 바탕으로 사이버보안 활동을 해온 해커의 관점을 조명합니다. '문 앞의 방문'이라는 표현은 현실과 디지털 세계의 경계를 넘나드는 보안 침해 사건들을 의미합니다. 해커들의 동기와 도덕적 판단 기준이 어떻게 형성되는지에 대한 심층 대화를 담고 있으며, 사이버보안 커뮤니티에서 윤리의 중요성을 강조합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hacker-conversations-rob-juncker-a-knock-at-the-door-and-a-moral-compass/",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기업들, AI 및 양자 위협 대비에 어려움을 겪고 있다 - PwC 발표",
+      "summary": "PwC의 조사에 따르면 기업들이 AI 및 양자 컴퓨팅 관련 보안 위협에 대한 준비 부족으로 어려움을 겪고 있는 것으로 나타났습니다. 자율형 방어 기술 도입과 양자 내성 보안(양자 공격에 저항할 수 있는 암호화) 적용이 예상보다 느리게 진행되고 있습니다. 기업들은 빠르게 진화하는 AI 기반 사이버 공격 위협에 효과적으로 대응할 수 있는 기술과 인력이 부족한 상황입니다. 이러한 보안 인프라 미흡은 향후 양자 컴퓨팅 시대가 도래할 경우 기업들의 데이터 보호에 심각한 위험을 초래할 가능성이 있습니다. 전문가들은 기업들이 지금부터 적극적인 준비와 투자를 통해 미래의 사이버 보안 위협에 선제적으로 대응해야 한다고 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/enterprises-struggle-to-prepare-for-ai-and-quantum-threats-pwc-says/",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "경찰, KillSec 랜섬웨어 조직 적발 및 의심 청소년 지도자 신원 파악",
+      "summary": "경찰은 KillSec 랜섬웨어 조직을 적발하고 이를 주도한 것으로 의심되는 청소년의 신원을 파악했다. Europol 등 국제 법 집행 기관들이 이 랜섬웨어 조직의 온라인 인프라를 차단하는 작업을 진행했다. KillSec은 사이버 범죄자들 사이에서 주목받던 랜섬웨어 조직으로, 여러 고객사를 상대로 공격을 감행해왔다. 이번 수사를 통해 미성년자가 주요 사이버 범죄 조직을 주도하고 있었다는 사실이 드러났다. 해당 사건은 랜섬웨어 조직에 대한 국제적 단속 노력의 일환으로 평가되고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/police-shut-down-killsec-ransomware-identify-alleged-teen-leader/",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI가 공격 속도를 변화시켰지만 보안 기본원칙은 아니다",
+      "summary": "AI 기술의 발전으로 사이버 공격의 속도가 현저히 빨라졌지만, 보안의 근본적인 원칙과 방어 메커니즘은 변하지 않았다는 것이 핵심이다. 기업들은 여전히 취약점 패칭, 시스템 업데이트, 접근 제어 등 기본적인 보안 관행을 철저히 수행해야 한다. AI의 위협이 증가하면서 공격자들이 더 빠르게 취약점을 탐지하고 악용할 수 있게 되었으나, 이에 대한 대응도 기본 보안 원칙의 적절한 이행을 통해 가능하다. 조직은 AI 시대에도 변하지 않은 보안 기초를 견고히 하면서 동시에 새로운 위협에 대응하는 전략이 필요하다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ai-has-changed-attack-speed-not-security-fundamentals/",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Zimbra 취약점, 공개 전 실제 공격에 악용됨",
+      "summary": "Zimbra의 보안 취약점이 공식 공개되기 전에 이미 실제 공격에 악용되고 있었던 것으로 드러났습니다. 이는 악의적 행위자들이 취약점 정보를 사전에 확보하고 있었음을 시사합니다. 해당 취약점은 이메일 및 협업 플랫폼인 Zimbra 사용자들에게 심각한 보안 위협이 될 수 있습니다. SecurityWeek의 보도에 따르면 공격이 적극적으로 진행되고 있으며, 사용자들의 즉각적인 대응이 필요한 상황입니다. 이번 사건은 취약점 공개 전 제로데이 공격의 위험성을 재차 확인시켜줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/zimbra-vulnerability-exploited-in-the-wild-prior-to-public-disclosure/",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "케빈 만디아의 아르마딘, 25억 달러 기업가치로 2억 5,500만 달러 자금 조달",
+      "summary": "사이버보안 전문가 케빈 만디아가 창립한 아르마딘(Armadin)이 25억 달러의 기업가치로 2억 5,500만 달러의 자금을 조달했습니다. 이번 펀딩라운드는 회사의 사이버보안 솔루션에 대한 시장의 높은 관심을 반영하고 있습니다. 아르마딘은 엔터프라이즈 보안 위협 대응 및 사이버 방어 기술을 제공하는 업체로 알려져 있습니다. 이 투자는 글로벌 사이버보안 시장의 성장과 함께 우수한 보안 기술에 대한 수요 증가를 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/kevin-mandias-armadin-raises-255-million-at-2-5-billion-valuation/",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "재무부, 가장 악명 높은 ATM 멀웨어 개발자 및 관련 네트워크 제재",
+      "summary": "미국 재무부가 ATM 멀웨어 개발의 주요 인물과 그의 네트워크를 제재 대상으로 지정했습니다. 이 조치는 금융기관을 대상으로 한 광범위한 ATM 해킹 활동을 차단하기 위한 것입니다. 제재 대상은 Ploutus 등 주요 ATM 멀웨어의 개발 및 배포에 관여한 것으로 알려져 있습니다. 이러한 제재는 국제적 사이버범죄 수사의 일환으로 추진되었습니다. 해당 개발자와 연관된 네트워크 구성원들도 함께 제재 대상에 포함되었습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/treasury-blacklists-most-wanted-atm-malware-developer-and-his-network/",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Zammad 제로데이 취약점이 AI 기반 DIVD 해킹에 악용됨",
+      "summary": "고객 지원 플랫폼인 Zammad의 제로데이 취약점들이 AI 기반의 DIVD(Dutch Institute for Vulnerability Disclosure) 해킹 사건에서 악용되었습니다. 이 사건은 고급 AI 기술을 활용한 조직적인 공격의 사례로 주목받고 있으며, 보안 커뮤니티에 경각심을 불러일으키고 있습니다. 해당 취약점은 아직 공개되지 않은 제로데이이어서 기존의 패치로는 방어가 불가능했던 것으로 보입니다. 이 사건은 인공지능 기술이 사이버 공격에 어떻게 악용될 수 있는지를 보여주는 중요한 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/zammad-zero-days-exploited-in-ai-powered-divd-hack/",
+      "date": "2026-10-01"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "HPE, AMD Helios 첫 주문 확보... Vultr와 12억 달러 규모 거래",
@@ -12786,98 +12886,8 @@
       "source": "Dell",
       "sourceUrl": "https://www.dell.com/en-us/blog/icymi-powering-america-s-next-250/",
       "date": "2026-07-17"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "진료실에서 지역사회까지: 의료 혁신 발전시키기",
-      "summary": "Dell과 그 파트너들은 더 빠른 진단과 더 똑똑한 연구, 그리고 가정까지 도달하는 돌봄을 통해 의료 AI 혁신의 새로운 시대를 만들어가고 있습니다. 고급 AI 기술과 데이터 분석을 활용하여 의료 전문가들은 질병을 더 신속하게 진단하고 치료 방법을 개선할 수 있습니다. 또한 원격 진료와 홈케어 솔루션을 통해 환자들은 자신의 집에서도 의료 서비스를 받을 수 있게 되었습니다. 이러한 혁신들은 의료 접근성을 높이고 환자 결과를 개선하는 데 핵심적인 역할을 합니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/from-the-clinic-to-the-community-advancing-healthcare-innovation/",
-      "date": "2026-07-17"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "기타 뉴스: 이란의 미군 휴대폰 추적, CrashStealer macOS 악성코드, CVD 블루프린트",
-      "summary": "이란이 미군의 휴대폰을 추적하는 활동을 수행하고 있으며, 이는 미국 군사 통신 보안에 대한 심각한 위협으로 평가되고 있습니다. 동시에 CrashStealer라는 새로운 macOS 악성코드가 발견되어 Apple 사용자들을 위협하고 있습니다. 또한 사이버보안 업계에서는 취약점 공개(CVD) 프로세스에 대한 새로운 블루프린트를 제시하고 있으며, 이는 향후 보안 취약점 관리 방식의 개선을 목표로 하고 있습니다. 이러한 사안들은 국가 차원의 사이버 위협과 개인용 기기 보안, 그리고 업계 표준화의 중요성을 강조하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/in-other-news-iran-tracks-us-military-phones-crashstealer-macos-malware-cvd-blueprint/",
-      "date": "2026-07-17"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "팟캐스트: broken Governance, Agentic AI, 그리고 MindStone Agent 독점 인터뷰",
-      "summary": "SecurityWeek에서 제공하는 이 팟캐스트는 Brian Schleifer가 Arcovo의 AI/ML 엔지니어링 담당 이사인 Clint Bodungen과 진행하는 인터뷰 프로그램입니다. OT(Operational Technology) 및 산업 사이버보안 분야의 선도적 전문가인 Bodungen과 함께 깨진 거버넌스 체계와 에이전틱 AI의 보안 영향에 대해 논의합니다. MindStone Agent에 대한 독점 정보를 포함하며, 산업 제어 시스템(ICS) 환경에서의 AI 기술 활용과 보안 위협에 대한 심층적인 분석을 제공합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/podcast-broken-governance-agentic-ai-and-the-mindstone-agent-exclusive/",
-      "date": "2026-07-17"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "비콘 시큐리티, 보안 데이터 플랫폼을 위해 1,300만 달러 자금 조달",
-      "summary": "사이버보안 스타트업 비콘 시큐리티(Beacon Security)가 보안 데이터 플랫폼 개발을 위해 1,300만 달러의 자금 조달을 완료했습니다. 이번 펀딩 라운드는 기업의 보안 인프라 강화 및 제품 개발 확대를 지원할 것으로 예상됩니다. 비콘 시큐리티는 조직의 보안 데이터를 통합 관리하는 플랫폼을 제공하며, 이를 통해 사이버 위협 탐지 및 대응 능력 향상을 목표로 하고 있습니다. 이러한 자금 조달은 글로벌 사이버보안 시장에서의 경쟁력 강화에 도움이 될 것으로 보입니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/beacon-security-raises-13-million-for-security-data-platform/",
-      "date": "2026-07-17"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "펜타곤의 CMMC 2단계 중단에 대한 업계 반응: 피드백 프라이데이",
-      "summary": "미국 국방부가 사이버보안 성숙도 모델 인증(CMMC) 2단계 시행을 중단했습니다. 이번 결정은 국방 산업 및 관련 기업들로부터 다양한 반응을 불러일으켰습니다. CMMC는 국방부 계약업체들의 사이버보안 준수를 강화하기 위한 필수 인증 프로그램입니다. 업계는 이번 중단이 규제 불확실성을 야기하면서도 기업들에게 추가 적응 시간을 제공한다고 평가하고 있습니다. 관련 기관과 업계 전문가들의 의견이 엇갈리고 있으며, 이는 사이버보안 규정과 산업 현실 간의 균형 문제를 드러내고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/industry-reactions-to-pentagon-suspending-cmmc-phase-2-feedback-friday/",
-      "date": "2026-07-17"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "일본 냉동식품 대기업 니치레이, 사이버공격으로 운영 중단",
-      "summary": "일본의 주요 냉동식품 제조업체인 니치레이가 사이버공격으로 인해 운영에 차질을 겪었습니다. 이번 공격으로 인해 회사의 주요 시스템이 영향을 받아 일부 업무가 중단되었습니다. SecurityWeek에서 보도한 이 사건은 식품 산업과 같은 주요 기반시설 부문도 사이버 위협에 취약함을 보여줍니다. 니치레이는 공격으로부터 복구하기 위한 조치를 진행 중입니다. 이 사건은 기업들이 사이버보안에 더욱 강화된 방어체계를 구축할 필요성을 재차 강조합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/cyberattack-disrupts-operations-of-japanese-frozen-food-giant-nichirei/",
-      "date": "2026-07-17"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Risk Ledger, Series B 펀딩으로 3,200만 달러 모금",
-      "summary": "영국의 공급망 보안 기업인 Risk Ledger가 Series B 펀딩 라운드에서 3,200만 달러를 모금했습니다. 이 자금은 AI 기반 솔루션 개발에 활용될 예정입니다. Risk Ledger는 기업의 공급망 보안 위험을 관리하고 모니터링하는 플랫폼을 제공하고 있습니다. 이번 펀딩은 공급망 보안에 대한 기업의 관심이 증가하고 있음을 보여줍니다. AI 기술의 도입으로 더욱 향상된 위험 분석 및 예방 능력을 갖춘 서비스 제공이 가능해질 것으로 예상됩니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/risk-ledger-raises-32-million-in-series-b-funding/",
-      "date": "2026-07-17"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "SharePoint 신규 취약점, 공개 직후 즉시 악용되다",
-      "summary": "마이크로소프트 SharePoint의 새로운 보안 취약점이 공개된 직후 곧바로 악용되고 있는 것으로 확인되었습니다. 해당 취약점(CVE-2025-53770)은 공개되자마자 사이버 공격자들에 의해 적극 활용되고 있으며, 많은 조직들이 공격 위협에 노출되어 있습니다. 보안 전문가들은 조직들에게 즉시 패치를 적용할 것을 권고하고 있습니다. 이는 취약점 공개 후 신속한 대응의 중요성을 다시 한번 강조하는 사례입니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/fresh-sharepoint-vulnerability-exploited-soon-after-disclosure/",
-      "date": "2026-07-17"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "코카콜라, 랜섬웨어 공격으로 인해 미국 페어라이프 생산 중단",
-      "summary": "코카콜라가 랜섬웨어 공격으로 인해 미국 내 페어라이프(Fairlife) 제품 생산을 중단했습니다. 이번 사이버 공격으로 인해 회사의 생산 시스템이 영향을 받았으며, 정상 운영 재개까지 시간이 소요될 것으로 예상됩니다. 랜섬웨어 공격은 기업의 중요 인프라를 마비시키고 운영 중단으로 인한 상당한 경제적 손실을 야기할 수 있습니다. 코카콜라는 현재 상황을 파악하고 대응 조치를 진행 중인 것으로 알려졌습니다. 이 사건은 식음료 산업의 주요 기업도 사이버 위협으로부터 안전하지 않음을 보여줍니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/coca-cola-suspends-us-fairlife-production-due-to-ransomware-attack/",
-      "date": "2026-07-17"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[속담으로 배우는 100가지 보안 습관 66] 아는 길도 물어가라(6)-보이스피싱 의심되면 꼭 해야 할 행동",
-      "summary": "보이스피싱 의심 시 112 또는 1332에 신고하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐,",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144218&kind=&sub_kind=",
-      "date": "2026-07-17"
     }
   ],
-  "totalItems": 3875,
+  "totalItems": 3885,
   "hasArchive": true
 }
