@@ -3,6 +3,78 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "CAMP 스택: AI를 위한 새로운 개발자 스택",
+      "summary": "AI의 발전은 개발자 스택의 재정의를 강요하고 있습니다. 1990년대 후반의 LAMP 스택(Linux, Apache, MySQL, Perl/PHP/Python)처럼, 개발자가 일상적으로 접하는 기술 인터페이스의 집합을 의미합니다. 클라우드 시대에 개별 제품들은 변했지만 운영 환경, 애플리케이션 전달 계층, 데이터베이스, 코드라는 기본 개발 표면은 안정적으로 유지되었습니다. 그러나 AI는 이러한 표면 자체를 변화시키고 있습니다. 개발자는 더 이상 코드 작성부터 시작하지 않으며, Cursor, Claude Code, Codex 같은 코딩 에이전트를 통해 작업합니다. 개발자가 원하는 결과를 설명하면, 시스템이 코드베이스에 접근하여 제약 조건을 설정하고 작업을 검토하고 필요시 방향을 조정합니다. 이는 초기 프로그래머가 프로세서에 직접 접근했던 것에서 고급 언어로 진화한 것처럼, 코딩 에이전트는 프로그래밍의 인터페이스를 또 다른 수준으로 끌어올렸습니다. 개발자는 의도, 제약, 아키텍처, 사양에 집중하고, 소프트웨어가 이를 실제 코드로 변환하는 작업을 수행하게 됩니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/the-camp-stack-a-new-developer-stack-for-ai",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기타 뉴스: $15K iCloud 스푸핑 버그, AI 정책 전문가 피싱 공격, 광고 차단 프로그램의 AI 채팅 감시",
+      "summary": "Apple의 iCloud 서비스에서 발견된 스푸핑 취약점으로 최대 $15,000의 보안상금이 제시되고 있습니다. AI 정책 분야의 전문가들이 정교한 피싱 공격의 목표가 되어 민감한 정보 탈취 위험이 증가하고 있습니다. 일부 광고 차단 프로그램이 사용자의 AI 채팅 내용을 무단으로 모니터링하는 문제가 적발되었으며, 이는 사용자 개인정보 보호의 심각한 위협이 됩니다. 이러한 사건들은 클라우드 보안, 소셜 엔지니어링, 브라우저 보안 등 다양한 보안 영역의 위협이 지속되고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-15k-icloud-spoofing-bugs-ai-policy-experts-phished-adblocker-spies-on-ai-chats/",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "macOS 사용자들이 CloudSyncD 백도어를 포함한 가짜 Zoom 설치 프로그램의 표적이 됨",
+      "summary": "보안 연구팀이 위장된 Zoom 클라이언트 내부에서 macOS 드로퍼를 발견했습니다. CloudSyncD로 추적되는 이 악성코드는 은폐된 백도어를 전달하도록 설계되었습니다. 공격자들은 합법적인 Zoom 설치 프로그램으로 위장한 가짜 설치 파일을 배포하여 사용자들을 기만하고 있습니다. 이 백도어는 감염된 macOS 시스템에 원격 접근 권한을 부여하여 데이터 탈취와 추가 악성코드 설치가 가능하게 합니다. macOS 사용자들은 공식 채널에서만 Zoom을 다운로드하고 설치 파일의 출처를 확인할 것을 권고받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/macos-users-targeted-by-fake-zoom-installer-carrying-cloudsyncd-backdoor/",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "암호화폐 사기꾼들이 마이크로소프트 공식 X 계정 탈취",
+      "summary": "마이크로소프트의 공식 X(구 트위터) 계정이 암호화폐 사기꾼들에 의해 해킹되었습니다. 해커들은 탈취한 계정을 이용하여 암호화폐 관련 사기 콘텐츠를 배포하려 시도했습니다. 이는 대규모 팔로워를 보유한 공식 기업 계정의 보안 위협을 보여주는 사건입니다. 마이크로소프트는 해킹 사실을 확인하고 계정 복구를 위한 조치를 취했습니다. 이 사건은 고수준의 표적 공격과 암호화폐 사기의 증가 추세를 반영합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/crypto-scammers-hijack-microsofts-official-x-account/",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "드문 사례: 이란 국가 해커가 미국으로 인도",
+      "summary": "이란 혁명수비대(IRGC)를 위해 활동했다고 지목되는 이란 해커가 미국으로 인도되었습니다. 이는 이란과 미국 간의 국제 사이버 범죄 수사에서 매우 드문 사건입니다. 해당 해커는 국가 차원의 사이버 공격에 관여한 혐의로 기소되었으며, 이 사건은 양국 간의 사이버 보안 협력 및 법 집행 체계의 중요성을 보여줍니다. 미국은 이란의 국가 지원 해킹 활동에 대한 강경한 입장을 지속적으로 유지하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-rare-move-iranian-hacker-accused-of-working-for-irgc-extradited-to-us/",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Warlock, 핵심 인프라 공격에서 SharePoint 악용 확대",
+      "summary": "중국 배경의 사이버 위협 집단 Warlock이 Microsoft SharePoint의 취약점을 악용하여 핵심 인프라 부문을 대상으로 한 공격을 확대하고 있습니다. 이 그룹은 SharePoint 서버에 대한 원격 접근을 획득하여 랜섬웨어 배포 및 시스템 침해에 활용하고 있습니다. 해당 공격은 2026년 10월 초 발견되었으며, 여러 국가의 중요 기반시설이 피해를 입은 것으로 파악되었습니다. 보안 전문가들은 조직들에게 SharePoint 시스템에 대한 긴급 패치 적용과 접근 제어 강화를 권장하고 있습니다. 이번 사건은 클라우드 협업 도구에 대한 보안 위협이 점점 심화되고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/warlock-expands-sharepoint-exploitation-in-critical-infrastructure-attacks/",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 에이전트, 미국 및 캐나다 정부 사이트를 대상으로 SQL 인젝션 공격 시도",
+      "summary": "AI 에이전트가 미국과 캐나다의 정부 웹사이트를 대상으로 SQL 인젝션 공격을 수행한 것으로 적발되었습니다. 이 공격은 자동화된 AI 시스템이 악의적인 목적으로 사용될 수 있음을 보여주는 사례입니다. SQL 인젝션은 데이터베이스에 악성 쿼리를 삽입하여 민감한 정보를 탈취하거나 시스템을 손상시킬 수 있는 심각한 보안 위협입니다. 이 사건은 정부 기관의 웹 애플리케이션 보안이 얼마나 중요한지를 강조합니다. 전문가들은 AI 기술의 악용으로부터 정부 시스템을 보호하기 위한 강화된 방어 체계의 필요성을 지적하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ai-agents-aimed-sql-injection-at-us-and-canadian-government-sites/",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "악용된 포티넷 포티메일 제로데이 긴급 조치 필요",
+      "summary": "포티넷의 포티메일 제품에서 발견된 제로데이 취약점이 현재 악용되고 있어 긴급한 대응이 필요한 상황입니다. 이 취약점은 아직 공식 패치가 출시되기 전에 공격자들에 의해 적극적으로 악용되고 있습니다. 포티메일은 기업의 이메일 보안을 담당하는 중요한 솔루션으로, 이 제로데이 공격은 많은 조직에 심각한 보안 위협이 될 수 있습니다. 보안 전문가들은 영향을 받은 사용자들에게 즉시 보안 조치를 취할 것을 강력히 권고하고 있습니다. 포티넷은 해당 취약점의 상세 정보와 패치 일정에 대한 공식 공지를 발표할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/exploited-fortinet-fortimail-zero-day-calls-for-urgent-action/",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "제로 트러스트 창시자, AI 지원 공격에 대한 모델의 견고성 강조",
       "summary": "제로 트러스트 보안 모델의 창시자는 최근 인공지능(AI)을 활용한 공격에 대해서도 해당 모델이 효과적으로 방어할 수 있다고 주장했습니다. 이 논문은 AI 기술의 발전으로 인한 사이버 위협이 증가하는 상황에서 제로 트러스트 아키텍처의 강점을 강조합니다. 제로 트러스트는 모든 접근을 기본적으로 신뢰하지 않고 지속적으로 검증하는 보안 방식으로, AI 공격에 대한 방어력을 갖추고 있다고 평가됩니다. 이는 네트워크 보안과 보안 아키텍처 분야에서 중요한 논의를 제시합니다.",
       "category": "보안",
@@ -93,6 +165,7 @@
     }
   ],
   "sources": {
-    "SecurityWeek": 10
+    "VAST Data": 1,
+    "SecurityWeek": 17
   }
 }
