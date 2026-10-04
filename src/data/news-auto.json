@@ -3892,9 +3892,29 @@
     "https://www.securityweek.com/in-rare-move-iranian-hacker-accused-of-working-for-irgc-extradited-to-us/",
     "https://www.securityweek.com/warlock-expands-sharepoint-exploitation-in-critical-infrastructure-attacks/",
     "https://www.securityweek.com/ai-agents-aimed-sql-injection-at-us-and-canadian-government-sites/",
-    "https://www.securityweek.com/exploited-fortinet-fortimail-zero-day-calls-for-urgent-action/"
+    "https://www.securityweek.com/exploited-fortinet-fortimail-zero-day-calls-for-urgent-action/",
+    "https://www.securityweek.com/doxx-net-raises-38-million-to-prevent-ai-agent-on-the-internet-misadventures/",
+    "https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "doxx.net, AI 에이전트의 인터넷 오용 방지를 위해 3,800만 달러 투자 유치",
+      "summary": "사이버보안 스타트업 doxx.net이 시리즈 A 펀딩을 통해 3,800만 달러를 투자받았습니다. 이 자금은 에이전틱 정의 네트워킹(ADN) 플랫폼을 확대하기 위해 사용될 예정입니다. doxx.net은 AI 에이전트가 인터넷에서 오용되거나 문제를 일으키는 상황을 방지하기 위한 솔루션을 제공합니다. 이번 투자는 AI 기술의 안전한 배포와 관리의 중요성이 높아지고 있음을 반영합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/doxx-net-raises-38-million-to-prevent-ai-agent-on-the-internet-misadventures/",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Fortra, BoKS의 심각한 취약점 패치",
+      "summary": "Fortra가 BoKS의 심각한 보안 취약점을 패치했습니다. 이 취약점들은 인증 우회, 셸 명령 실행, 메모리 손상을 초래할 수 있었습니다. SecurityWeek에서 보도한 이 사건은 기업용 접근 제어 시스템의 보안 위협을 드러냅니다. Fortra는 보안 연구원들의 지적을 받은 후 신속하게 패치를 배포했습니다. 조직들은 BoKS 시스템을 사용 중이라면 최신 패치 적용을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/",
+      "date": "2026-10-03"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "CAMP 스택: AI를 위한 새로운 개발자 스택",
@@ -12876,26 +12896,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144750&kind=&sub_kind=",
       "date": "2026-07-20"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "AI가 코딩한 봇넷의 공습... IoT 노리는 ‘턱스봇(Tuxbot) V3’ 출현",
-      "summary": "팔로알토 유닛42, LLM 악용 추정되는 악성코드 흔적 포착보안 취약한 가정용 IoT 인프라 장악해 사이버 공격 네트워크 구축[보안뉴스 김형근 기자] 사물인터넷(IoT) 기기를 노리는 미라이(Mirai) 봇넷 변종 ‘턱스봇(Tuxbot) V3’가 발견됐다. 대규모언어모델(LLM)을 활용해 코드를 작성한 흔적이 포착돼 AI 기반 악성코드 진화에 대한 우려가",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144747&kind=&sub_kind=",
-      "date": "2026-07-20"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "티피링크, 앨리스모바일과 손잡고 단기 무선 인터넷 시장 확대",
-      "summary": "앨리스모바일 협력 통한 단기 무선 인터넷 시장 공략이동성 및 설치 편의성 갖춘 비즈니스 네트워크 환경 제공행사, 촬영, 건설 현장 대상 네트워크 서비스 확대[보안뉴스 강초희 기자] 글로벌 네트워크 솔루션 기업 티피링크(TP-Link)는 무선 인터넷 대여 서비스 ‘앨리스모바일’과 협력해 포켓 와이파이 기반 무선 인터넷 서비스의 활용성을 확대한다고 밝혔다.이번",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144749&kind=&sub_kind=",
-      "date": "2026-07-20"
     }
   ],
-  "totalItems": 3893,
+  "totalItems": 3895,
   "hasArchive": true
 }
