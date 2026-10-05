@@ -3894,9 +3894,19 @@
     "https://www.securityweek.com/ai-agents-aimed-sql-injection-at-us-and-canadian-government-sites/",
     "https://www.securityweek.com/exploited-fortinet-fortimail-zero-day-calls-for-urgent-action/",
     "https://www.securityweek.com/doxx-net-raises-38-million-to-prevent-ai-agent-on-the-internet-misadventures/",
-    "https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/"
+    "https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/",
+    "https://www.securityweek.com/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "트럼프, 국가정보국장 제이 클레이턴을 새로운 연방 AI 태스크포스 지도자로 임명",
+      "summary": "트럼프 대통령은 국가정보국장 제이 클레이턴을 새로운 정부 인공지능 태스크포스의 지도자로 임명했습니다. 이번 임명은 연방 차원에서 AI 정책과 규제를 총괄하는 새로운 조직 구성을 의미합니다. 클레이턴은 국가 AI 전략 수립 및 정부 기관 간 AI 활용 조율을 담당하게 될 것으로 예상됩니다. 이는 트럼프 행정부가 AI 기술의 안보 및 경제적 중요성을 인식하고 강화된 정부 차원의 통제 체계를 구축하려는 의도로 해석됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force/",
+      "date": "2026-10-04"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "doxx.net, AI 에이전트의 인터넷 오용 방지를 위해 3,800만 달러 투자 유치",
@@ -12887,17 +12897,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144752&kind=&sub_kind=",
       "date": "2026-07-20"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "“보안 AI 신뢰성 입증”... 이글루코퍼레이션, ‘에어’ AI+ 인증 획득",
-      "summary": "한국표준협회 주관 인공지능 품질 및 신뢰성 평가 통과LLM과 보안 워크플로우 결합해 위협 탐지·분석 투명성 제공[보안뉴스 조재호 기자] 이글루코퍼레이션이 자사 보안 특화 AI 에이전트 ‘에어’(AiR)가 한국표준협회(KSA)로부터 에이어이플러스(AI+) 인증을 획득했다고 20일 밝혔다. AI+ 인증은 KSA가 AI 기능 품질과 신뢰성이 검증된 제품에 발급하",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144750&kind=&sub_kind=",
-      "date": "2026-07-20"
     }
   ],
-  "totalItems": 3895,
+  "totalItems": 3896,
   "hasArchive": true
 }
