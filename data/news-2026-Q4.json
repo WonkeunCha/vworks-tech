@@ -3,6 +3,87 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "Kafka 메시지가 즉시 쿼리 가능한 형태로 도착",
+      "summary": "일반적으로 Kafka 토픽의 메시지를 쿼리 가능한 테이블로 변환하려면 Flink나 Spark 같은 별도의 스트리밍 파이프라인이 필요했습니다. 하지만 VAST DataBase의 'Topics to Tables' 기능은 이러한 복잡성을 제거합니다. VAST Event Broker가 토픽을 데이터베이스 내에서 즉시 테이블로 저장하므로, 메시지 수집 시점에 파싱이 일어나고 파싱된 컬럼이 같은 데이터베이스 트랜잭션으로 작성됩니다. 사용자가 원하는 컬럼만 정의하면 VAST가 메시지 도착 시 자동으로 채워넣으므로, 별도의 스트리밍 엔진 없이도 몇 분 내에 쿼리 가능한 테이블을 얻을 수 있습니다. 이 기능은 VAST Cluster 5.5.0에 포함되었으며, 현재는 JSON 형식을 지원하고 추가 형식은 로드맵에 포함되어 있습니다. 기존의 Flink, Spark, Kafka Connect 등은 여전히 정상 작동하며, 이는 단순히 메시지 본문을 컬럼으로 변환하는 가장 일반적인 경우에 대한 별도 작업을 제거하는 추가 기능입니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/kafka-messages-that-arrive-already-queryable",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 2027 라이더컵의 지능형 연결성 및 자율형 IT 운영 제공",
+      "summary": "HPE가 2027 라이더컵의 공식 공급업체로 선정되어 디지털 팬 경험, 자율형 IT 운영 및 AI 기반 지능을 지원하는 기반을 제공하게 되었다. HPE의 자율주행 네트워크는 팬, 직원, 시스템 간의 원활하고 안전한 연결을 보장할 것이다. 또한 첨단 Connected Intelligence Center는 토너먼트 운영의 모든 사항을 실시간으로 통합 관리하여 미리 예측하고, 변화에 적응하며, 신속하게 대응할 수 있는 에이전트형 엔터프라이즈를 구현한다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/10/hpe-chosen-to-deliver-intelligent-connectivity-and-autonomous-it-operations-at-the-2027-ryder-cup.html",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "구글, 자동화된 무효 보고서 급증으로 오픈소스 버그 바운티 축소",
+      "summary": "구글이 오픈소스 소프트웨어(OSS) 버그 바운티 프로그램의 범위를 축소했습니다. 이는 자동화 도구를 사용한 무효하거나 중복된 취약점 보고서가 대량으로 제출되면서 발생한 조치입니다. 구글은 AI 기반 자동 스캔 도구들로부터 비롯된 낮은 품질의 제출물로 인해 프로그램 운영에 어려움을 겪고 있습니다. 이 변화는 보안 연구자들의 정당한 보고를 계속 장려하면서도, 자동화된 스팸성 보고서를 필터링하기 위한 시도로 보입니다. 구글은 더욱 엄격한 검증 기준을 도입하여 고품질 버그 리포트에 집중할 계획입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/google-narrows-open-source-bug-bounty-amid-wave-of-invalid-automated-reports/",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Linux 백도어, STUN 프로토콜 악용하여 수십 개 결함 공격",
+      "summary": "ClingSTUN이라는 Linux 백도어가 STUN 프로토콜을 악용하여 여러 시스템을 공격하고 있습니다. 이 악성코드는 수십 개의 보안 결함을 활용하여 감염된 Linux 시스템에 대한 원격 접근 권한을 확보합니다. STUN 프로토콜의 정상적인 기능을 악의적으로 활용함으로써 탐지를 회피하고 통신을 은폐하는 것으로 알려져 있습니다. 보안 전문가들은 이러한 공격 기법이 기존 방어 메커니즘을 우회할 수 있어 심각한 위협으로 평가하고 있습니다. Linux 시스템 관리자들은 즉시 보안 패치 적용 및 시스템 감시를 강화할 필요가 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "뉴저지, 텍사스 의료기관 데이터 유출로 25만 명 피해",
+      "summary": "뉴저지주와 텍사스주의 의료기관에서 발생한 데이터 유출 사건으로 총 25만 명이 영향을 받았습니다. 이번 사건은 랜섬웨어 공격과 관련된 것으로 보도되고 있습니다. 피해자들의 개인정보가 노출되었으며, 해당 의료기관들은 사건에 대한 대응과 피해자 지원 조치를 진행 중입니다. 이는 의료 부문에 대한 사이버 위협이 계속되고 있음을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/250000-impacted-by-data-breaches-at-new-jersey-texas-healthcare-firms/",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI가 발견한 Rejetto HFS 취약점이 악용되기 시작",
+      "summary": "Rejetto HFS(HTTP File Server)의 취약점이 AI에 의해 발견된 후 실제 악용이 시작되었습니다. 이 취약점은 공격자들에게 악용될 수 있는 보안 결함으로, 해당 소프트웨어 사용자들의 시스템이 위협받을 수 있습니다. 보안 전문가들은 이번 사건이 AI 기술이 취약점 발견에 활용되는 동시에 악의적인 목적으로도 이용될 수 있음을 보여주는 사례라고 지적하고 있습니다. 영향받는 사용자들은 즉시 패치 적용이나 업데이트를 통해 보안을 강화할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/exploitation-hits-rejetto-hfs-vulnerability-discovered-by-ai/",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "상원, 의료 사이버보안 강화를 위한 초당파적 법안 통과",
+      "summary": "미국 상원이 의료 부문의 사이버보안을 강화하기 위한 초당파적 법안을 통과시켰습니다. 이 법안은 의료 기관들의 사이버 위협에 대한 대응 능력을 높이고 보안 기준을 강화하는 것을 목표로 하고 있습니다. 의료 시스템은 환자 정보와 중요한 건강 데이터를 보유하고 있어 사이버 공격의 주요 대상이 되어 왔습니다. 이번 입법은 의료 기관들이 더 강력한 보안 체계를 구축하도록 지원할 것으로 예상됩니다. SecurityWeek이 보도한 이 소식은 정부 차원의 의료 사이버보안 강화 의지를 보여주는 중요한 정책 결정입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/senate-passes-bipartisan-bill-to-strengthen-healthcare-cybersecurity/",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "alleged ShinyHunters 리더, 요르단에서 체포",
+      "summary": "악명높은 해킹 집단 ShinyHunters의 지도자로 알려진 Saif al-Din Khader가 요르단에서 체포되었습니다. 이번 체포는 FBI를 포함한 국제 법 집행 기관의 협력 수사의 결과입니다. ShinyHunters는 여러 해년에 걸쳐 대규모 데이터 유출 사건을 주도해온 사이버 범죄 집단으로 알려져 있습니다. 이 체포는 글로벌 사이버 범죄 조직에 대한 국제적 단속 노력이 계속되고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/alleged-shinyhunters-leader-arrested-in-jordan/",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Citrix NetScaler 제로데이 취약점, 패치 적용 수일 후에도 공격 받아",
+      "summary": "Citrix NetScaler 장비가 제로데이 취약점으로 인한 악의적 활용의 대상이 되고 있습니다. 문제는 패치가 배포된 지 불과 며칠 후에도 공격이 계속되고 있다는 점입니다. 이는 일부 조직들이 보안 업데이트를 즉시 적용하지 못하고 있음을 시사합니다. Citrix NetScaler는 엔터프라이즈 네트워크 환경에서 광범위하게 사용되고 있어, 이 취약점의 악용은 상당한 보안 위협이 될 수 있습니다. 보안 전문가들은 조직들에게 가능한 한 빨리 최신 보안 패치를 적용할 것을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "트럼프, 국가정보국장 제이 클레이턴을 새로운 연방 AI 태스크포스 지도자로 임명",
       "summary": "트럼프 대통령은 국가정보국장 제이 클레이턴을 새로운 정부 인공지능 태스크포스의 지도자로 임명했습니다. 이번 임명은 연방 차원에서 AI 정책과 규제를 총괄하는 새로운 조직 구성을 의미합니다. 클레이턴은 국가 AI 전략 수립 및 정부 기관 간 AI 활용 조율을 담당하게 될 것으로 예상됩니다. 이는 트럼프 행정부가 AI 기술의 안보 및 경제적 중요성을 인식하고 강화된 정부 차원의 통제 체계를 구축하려는 의도로 해석됩니다.",
       "category": "보안",
@@ -192,7 +273,8 @@
     }
   ],
   "sources": {
-    "SecurityWeek": 20,
-    "VAST Data": 1
+    "VAST Data": 2,
+    "HPE": 1,
+    "SecurityWeek": 27
   }
 }
