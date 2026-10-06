@@ -3895,9 +3895,99 @@
     "https://www.securityweek.com/exploited-fortinet-fortimail-zero-day-calls-for-urgent-action/",
     "https://www.securityweek.com/doxx-net-raises-38-million-to-prevent-ai-agent-on-the-internet-misadventures/",
     "https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/",
-    "https://www.securityweek.com/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force/"
+    "https://www.securityweek.com/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force/",
+    "https://www.hpe.com/us/en/newsroom/press-release/2026/10/hpe-chosen-to-deliver-intelligent-connectivity-and-autonomous-it-operations-at-the-2027-ryder-cup.html",
+    "https://www.vastdata.com/blog/kafka-messages-that-arrive-already-queryable",
+    "https://www.securityweek.com/google-narrows-open-source-bug-bounty-amid-wave-of-invalid-automated-reports/",
+    "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/",
+    "https://www.securityweek.com/250000-impacted-by-data-breaches-at-new-jersey-texas-healthcare-firms/",
+    "https://www.securityweek.com/exploitation-hits-rejetto-hfs-vulnerability-discovered-by-ai/",
+    "https://www.securityweek.com/senate-passes-bipartisan-bill-to-strengthen-healthcare-cybersecurity/",
+    "https://www.securityweek.com/alleged-shinyhunters-leader-arrested-in-jordan/",
+    "https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Kafka 메시지가 즉시 쿼리 가능한 형태로 도착",
+      "summary": "일반적으로 Kafka 토픽의 메시지를 쿼리 가능한 테이블로 변환하려면 Flink나 Spark 같은 별도의 스트리밍 파이프라인이 필요했습니다. 하지만 VAST DataBase의 'Topics to Tables' 기능은 이러한 복잡성을 제거합니다. VAST Event Broker가 토픽을 데이터베이스 내에서 즉시 테이블로 저장하므로, 메시지 수집 시점에 파싱이 일어나고 파싱된 컬럼이 같은 데이터베이스 트랜잭션으로 작성됩니다. 사용자가 원하는 컬럼만 정의하면 VAST가 메시지 도착 시 자동으로 채워넣으므로, 별도의 스트리밍 엔진 없이도 몇 분 내에 쿼리 가능한 테이블을 얻을 수 있습니다. 이 기능은 VAST Cluster 5.5.0에 포함되었으며, 현재는 JSON 형식을 지원하고 추가 형식은 로드맵에 포함되어 있습니다. 기존의 Flink, Spark, Kafka Connect 등은 여전히 정상 작동하며, 이는 단순히 메시지 본문을 컬럼으로 변환하는 가장 일반적인 경우에 대한 별도 작업을 제거하는 추가 기능입니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/kafka-messages-that-arrive-already-queryable",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 2027 라이더컵의 지능형 연결성 및 자율형 IT 운영 제공",
+      "summary": "HPE가 2027 라이더컵의 공식 공급업체로 선정되어 디지털 팬 경험, 자율형 IT 운영 및 AI 기반 지능을 지원하는 기반을 제공하게 되었다. HPE의 자율주행 네트워크는 팬, 직원, 시스템 간의 원활하고 안전한 연결을 보장할 것이다. 또한 첨단 Connected Intelligence Center는 토너먼트 운영의 모든 사항을 실시간으로 통합 관리하여 미리 예측하고, 변화에 적응하며, 신속하게 대응할 수 있는 에이전트형 엔터프라이즈를 구현한다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/10/hpe-chosen-to-deliver-intelligent-connectivity-and-autonomous-it-operations-at-the-2027-ryder-cup.html",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "구글, 자동화된 무효 보고서 급증으로 오픈소스 버그 바운티 축소",
+      "summary": "구글이 오픈소스 소프트웨어(OSS) 버그 바운티 프로그램의 범위를 축소했습니다. 이는 자동화 도구를 사용한 무효하거나 중복된 취약점 보고서가 대량으로 제출되면서 발생한 조치입니다. 구글은 AI 기반 자동 스캔 도구들로부터 비롯된 낮은 품질의 제출물로 인해 프로그램 운영에 어려움을 겪고 있습니다. 이 변화는 보안 연구자들의 정당한 보고를 계속 장려하면서도, 자동화된 스팸성 보고서를 필터링하기 위한 시도로 보입니다. 구글은 더욱 엄격한 검증 기준을 도입하여 고품질 버그 리포트에 집중할 계획입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/google-narrows-open-source-bug-bounty-amid-wave-of-invalid-automated-reports/",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Linux 백도어, STUN 프로토콜 악용하여 수십 개 결함 공격",
+      "summary": "ClingSTUN이라는 Linux 백도어가 STUN 프로토콜을 악용하여 여러 시스템을 공격하고 있습니다. 이 악성코드는 수십 개의 보안 결함을 활용하여 감염된 Linux 시스템에 대한 원격 접근 권한을 확보합니다. STUN 프로토콜의 정상적인 기능을 악의적으로 활용함으로써 탐지를 회피하고 통신을 은폐하는 것으로 알려져 있습니다. 보안 전문가들은 이러한 공격 기법이 기존 방어 메커니즘을 우회할 수 있어 심각한 위협으로 평가하고 있습니다. Linux 시스템 관리자들은 즉시 보안 패치 적용 및 시스템 감시를 강화할 필요가 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "뉴저지, 텍사스 의료기관 데이터 유출로 25만 명 피해",
+      "summary": "뉴저지주와 텍사스주의 의료기관에서 발생한 데이터 유출 사건으로 총 25만 명이 영향을 받았습니다. 이번 사건은 랜섬웨어 공격과 관련된 것으로 보도되고 있습니다. 피해자들의 개인정보가 노출되었으며, 해당 의료기관들은 사건에 대한 대응과 피해자 지원 조치를 진행 중입니다. 이는 의료 부문에 대한 사이버 위협이 계속되고 있음을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/250000-impacted-by-data-breaches-at-new-jersey-texas-healthcare-firms/",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI가 발견한 Rejetto HFS 취약점이 악용되기 시작",
+      "summary": "Rejetto HFS(HTTP File Server)의 취약점이 AI에 의해 발견된 후 실제 악용이 시작되었습니다. 이 취약점은 공격자들에게 악용될 수 있는 보안 결함으로, 해당 소프트웨어 사용자들의 시스템이 위협받을 수 있습니다. 보안 전문가들은 이번 사건이 AI 기술이 취약점 발견에 활용되는 동시에 악의적인 목적으로도 이용될 수 있음을 보여주는 사례라고 지적하고 있습니다. 영향받는 사용자들은 즉시 패치 적용이나 업데이트를 통해 보안을 강화할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/exploitation-hits-rejetto-hfs-vulnerability-discovered-by-ai/",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "상원, 의료 사이버보안 강화를 위한 초당파적 법안 통과",
+      "summary": "미국 상원이 의료 부문의 사이버보안을 강화하기 위한 초당파적 법안을 통과시켰습니다. 이 법안은 의료 기관들의 사이버 위협에 대한 대응 능력을 높이고 보안 기준을 강화하는 것을 목표로 하고 있습니다. 의료 시스템은 환자 정보와 중요한 건강 데이터를 보유하고 있어 사이버 공격의 주요 대상이 되어 왔습니다. 이번 입법은 의료 기관들이 더 강력한 보안 체계를 구축하도록 지원할 것으로 예상됩니다. SecurityWeek이 보도한 이 소식은 정부 차원의 의료 사이버보안 강화 의지를 보여주는 중요한 정책 결정입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/senate-passes-bipartisan-bill-to-strengthen-healthcare-cybersecurity/",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "alleged ShinyHunters 리더, 요르단에서 체포",
+      "summary": "악명높은 해킹 집단 ShinyHunters의 지도자로 알려진 Saif al-Din Khader가 요르단에서 체포되었습니다. 이번 체포는 FBI를 포함한 국제 법 집행 기관의 협력 수사의 결과입니다. ShinyHunters는 여러 해년에 걸쳐 대규모 데이터 유출 사건을 주도해온 사이버 범죄 집단으로 알려져 있습니다. 이 체포는 글로벌 사이버 범죄 조직에 대한 국제적 단속 노력이 계속되고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/alleged-shinyhunters-leader-arrested-in-jordan/",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Citrix NetScaler 제로데이 취약점, 패치 적용 수일 후에도 공격 받아",
+      "summary": "Citrix NetScaler 장비가 제로데이 취약점으로 인한 악의적 활용의 대상이 되고 있습니다. 문제는 패치가 배포된 지 불과 며칠 후에도 공격이 계속되고 있다는 점입니다. 이는 일부 조직들이 보안 업데이트를 즉시 적용하지 못하고 있음을 시사합니다. Citrix NetScaler는 엔터프라이즈 네트워크 환경에서 광범위하게 사용되고 있어, 이 취약점의 악용은 상당한 보안 위협이 될 수 있습니다. 보안 전문가들은 조직들에게 가능한 한 빨리 최신 보안 패치를 적용할 것을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/",
+      "date": "2026-10-05"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "트럼프, 국가정보국장 제이 클레이턴을 새로운 연방 AI 태스크포스 지도자로 임명",
@@ -12816,89 +12906,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144674&kind=&sub_kind=",
       "date": "2026-07-20"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "오리엔텀, 이탈리아 링크스재단과 금융 분야 양자 컴퓨팅 맞손",
-      "summary": "링크스재단 고성능 컴퓨팅 기술에 오리엔텀 양자 소프트웨어 기술 접목[보안뉴스 한세희 기자] 양자소프트웨어 전문기업 오리엔텀이 이탈리아 링크스 재단(Fondazione LINKS)과 금융 서비스, 은행 및 보험 분야 양자 및 양자 영감 컴퓨팅 연구개발 협력을 위한 업무협약을 체결했다고 20일 밝혔다.링크스재단은 이탈리아 토리노에 본사를 둔 연구 재단이다. 첨",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144766&kind=&sub_kind=",
-      "date": "2026-07-20"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "외교부 국립외교원, 온라인 교육 시스템 해킹... 9개월 간 몰라",
-      "summary": "9개월간 불법 접속 지속... 외교 교육대상자 정보 등 저장5개월째 시스템 차단하고 조사 중[보안뉴스 한세희 기자] 외교부 산하 국립외교원이 장기간 해킹을 당한 사실이 드러났다.외교부는 “올해 2월 초 국립외교원 온라인교육시스템에 대한 비정상적 접근 상황을 관계 기관으로부터 통보받은 후 시스템을 긴급 차단했다”고 20일 밝혔다.국립외교원은 외교 인재 교육·",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144765&kind=&sub_kind=",
-      "date": "2026-07-20"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "렉스젠, 영상으로 수위·유속·유량 분석부터 범람 위험 감지까지 통합 지원",
-      "summary": "지능형 재난안전 솔루션 ‘수위 관제 시스템’ 출시[보안뉴스 엄호식 기자] AI 영상분석 전문기업 렉스젠이 영상을 활용해 수위와 물의 흐름을 실시간으로 분석하는 영상 기반 ‘수위 관제 시스템’을 선보였다. 이 시스템은 강·하천과 계곡, 교량 하부, 도심 침수 취약지역 등 다양한 수변 환경을 지속적으로 모니터링하고 위험 상황에 신속하게 대응할 수 있도록 개발됐",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144763&kind=&sub_kind=",
-      "date": "2026-07-20"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "KISA, ‘2026 APIGA’ 개막... 글로벌 인터넷 미래 청사진 그린다",
-      "summary": "아태지역 16개국 청년 40명 참가해 인터넷 주소 정책·분쟁 조정 학습국제인터넷주소기구와 10년째 공조 체계 이어가며 국제 역량 강화[보안뉴스 조재호 기자] 한국인터넷진흥원(KISA)이 국제인터넷주소기구(ICANN)와 함께 20-24일 부산에서 차세대 전문가 양성을 위한 ‘2026년 아태지역 인터넷 거버넌스 아카데미’(APIGA; Asia-Pacific I",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144751&kind=&sub_kind=",
-      "date": "2026-07-20"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[인터뷰] 김대옥 넷앤드 부사장 “퇴사자 관리, 기업 생존 걸린 최우선 보안 과제”",
-      "summary": "내부 통제의 핵심, 넷앤드 HIWARE가 제시하는 ‘퇴사자 관리’의 새로운 패러다임[보안뉴스 원병철 기자] 쿠팡 개인정보 유출 사고는 3755만명의 개인정보 유출이라는 역대급 유출 규모는 물론 6246억원이라는 과징금 규모까지 국내는 물론 세계적인 이슈로 부각됐지만, 시작은 퇴사자의 관리 소홀이었다. 뿐만 아니라 퇴사자가 기업의 핵심 자산을 유출해 경쟁사로",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144735&kind=&sub_kind=",
-      "date": "2026-07-20"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "“누가 아닌 무엇이 뚫렸는가”... 위드네트웍스, 취약점 중심 상시 보안 가이드 배포",
-      "summary": "AI 활용 공격 89% 폭증, 제로트러스트 너머 차세대 방어선 제시섀도우 API 식별부터 우선순위 조치까지 방어 순환 체계 구축 노하우 수록[보안뉴스 조재호 기자] 위드네트웍스가 취약점 중심 상시 보안 전략을 다룬 전자책을 홈페이지를 통해 무료 배포한다고 20일 밝혔다. 이 가이드는 AI 공격 자동화 시대를 맞아 제로트러스트 이후 차세대 방어 체계를 수립하",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144753&kind=&sub_kind=",
-      "date": "2026-07-20"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "원격으로 정보탈취하는 ‘크리스탈엑스 RAT’, 서비스형 악성코드로 유통 중",
-      "summary": "정보 탈취·키 입력 기록·클리퍼·스파이웨어까지MaaS로 유튜브나 텔레그램을 통해 유포[보안뉴스 강현주 기자] 정보 탈취·키 입력 기록·클리퍼·스파이웨어까지 갖춘 악성코드 ‘크리스탈엑스 RAT’(CrystalX RAT)가 서비스형 악성코드(MaaS) 형태로 제3자에게 유통되고 있는 것으로 나타났다. 카스퍼스키(한국지사장 이효은)는 카스퍼스키 글로벌 연구분석팀",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144755&kind=&sub_kind=",
-      "date": "2026-07-20"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[양자와 보안] 이와이엘, 글로벌 HSM 기업에 양자 엔트로피 기반 암호모듈 공급",
-      "summary": "암호모듈 ‘EYL CryptoLib v1.2’ 국가암호모듈검증(KCMVP) 재검증 완료[보안뉴스 한세희 기자] 이와이엘(대표 장부석)이 자사 암호모듈 ‘EYL CryptoLib v1.2’의 국가암호모듈검증(KCMVP) 재검증을 완료하고, 이를 글로벌 하드웨어 보안 모듈(HSM) 기업 엔트러스트(Entrust)에 공급한다고 20일 밝혔다. 엔트러스트는 세계",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144754&kind=&sub_kind=",
-      "date": "2026-07-20"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "“에이전틱 AI 시대, 보안 패러다임도 바뀌어야” AI보안연구회 주최 ‘2026 AI 보안 워크숍’ 성료",
-      "summary": "에이전트 보안부터 LLM 레드티밍·언러닝까지, 최신 AI 보안 기술과 실무 동향 총망라AI보안연구회 권태경 위원장 “학계-산업계-정부 협력으로 신뢰할 수 있는 AI 생태계 구축해야”[보안뉴스 원병철 기자] AI 에이전트의 확산과 함께 인공지능 보안 위협이 새로운 국면에 접어든 가운데, 최신 기술과 실무·정책 동향을 공유하고 학계·산업계·정부 간 협력 방안을",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144752&kind=&sub_kind=",
-      "date": "2026-07-20"
     }
   ],
-  "totalItems": 3896,
+  "totalItems": 3905,
   "hasArchive": true
 }
