@@ -3904,9 +3904,99 @@
     "https://www.securityweek.com/exploitation-hits-rejetto-hfs-vulnerability-discovered-by-ai/",
     "https://www.securityweek.com/senate-passes-bipartisan-bill-to-strengthen-healthcare-cybersecurity/",
     "https://www.securityweek.com/alleged-shinyhunters-leader-arrested-in-jordan/",
-    "https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/"
+    "https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/",
+    "https://www.hpe.com/us/en/newsroom/press-release/2026/10/mizuho-securities-selects-hpe-to-accelerate-advanced-financial-simulations-and-strengthen-ai-readiness.html",
+    "https://www.securityweek.com/personal-information-for-over-1-million-people-stolen-in-a-cyberattack-on-arizonas-court-system/",
+    "https://www.securityweek.com/fbi-blames-contractors-missed-patch-for-shinyhunters-breach/",
+    "https://www.securityweek.com/fbi-arrests-most-wanted-developer-of-ploutus-atm-malware/",
+    "https://www.securityweek.com/apple-to-tighten-full-disk-access-controls-in-macos-amid-ai-risks/",
+    "https://www.securityweek.com/cybersecurity-ma-roundup-39-deals-announced-in-september-2026/",
+    "https://www.securityweek.com/long-running-npm-malware-campaign-accumulates-40000-downloads/",
+    "https://www.securityweek.com/8-8-million-impacted-by-data-breach-at-denmarks-central-person-register/",
+    "https://www.securityweek.com/social-engineering-detection-moves-into-the-live-conversation/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "애리조나 법원 시스템 사이버공격으로 100만 명 이상의 개인정보 탈취",
+      "summary": "애리조나 주의 법원 시스템이 사이버공격으로 인해 100만 명 이상의 개인정보가 유출되었습니다. 이번 공격은 피싱(phishing) 공격의 결과로 추정되고 있습니다. 법원 시스템에 저장된 민감한 개인정보들이 위협받고 있으며, 피해자들의 신원 도용 및 사기 위험이 증가할 수 있습니다. 해당 사건은 공공기관의 사이버보안 체계의 취약성을 드러내는 심각한 데이터 유출 사고입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/personal-information-for-over-1-million-people-stolen-in-a-cyberattack-on-arizonas-court-system/",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미즈호증권, HPE와 함께 고급 금융 시뮬레이션 가속화 및 AI 준비 강화",
+      "summary": "HPE와 미즈호증권이 직접 액체냉각 방식을 적용한 새로운 데이터센터를 구축하고 HPE Cray XD2000을 배포하기로 발표했습니다. 이 새로운 인프라는 미즈호증권의 글로벌 비즈니스 전략 추진과 고객들에게 더 높은 가치의 금융상품 및 서비스 제공을 지원할 것입니다. 액체냉각 장비 설치, 시스템 구축 및 운영 검증은 올해 가을부터 시작되며, 시스템은 2027년 중반에 본격 운영될 예정입니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/10/mizuho-securities-selects-hpe-to-accelerate-advanced-financial-simulations-and-strengthen-ai-readiness.html",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "FBI, ShinyHunters 해킹 사건의 원인을 계약업체의 패치 미적용으로 지목",
+      "summary": "FBI는 ShinyHunters 해킹 사건의 원인을 계약업체인 Accenture의 Oracle PeopleSoft 패치 미적용으로 지목했습니다. 해커들은 적용되지 않은 보안 패치를 악용하여 시스템에 침입했으며, FBI는 이에 따라 해당 계약업체 담당자를 제거했습니다. 이 사건은 정보보안에서 정기적인 패치 관리의 중요성을 강조하는 사례입니다. 기관 및 기업들은 계약업체를 포함한 모든 시스템에 대해 엄격한 패치 관리 정책을 수립해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/fbi-blames-contractors-missed-patch-for-shinyhunters-breach/",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "FBI, Ploutus ATM 악성코드 개발자 체포",
+      "summary": "FBI가 ATM 해킹 악성코드인 Ploutus의 개발자로 지목된 용의자를 체포했습니다. Ploutus는 ATM 잭팟팅(ATM jackpotting) 공격에 사용되는 악성코드로, 범죄자들이 현금자동입출금기에서 대량의 현금을 탈취하는 데 이용되어 왔습니다. 이번 체포는 국제 사이버범죄 수사에서 중요한 성과로 평가됩니다. FBI는 오랜 기간 이 용의자를 추적해 왔으며, 이번 체포로 금융기관의 ATM 보안 위협을 줄일 것으로 기대하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/fbi-arrests-most-wanted-developer-of-ploutus-atm-malware/",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "애플, AI 위험에 대비해 macOS의 전체 디스크 접근 제어 강화",
+      "summary": "애플이 macOS 운영체제의 보안을 강화하기 위해 전체 디스크 접근(Full Disk Access) 제어 기능을 더욱 엄격하게 관리할 계획입니다. 이는 AI 기술의 확산에 따른 보안 위협이 증가하는 상황에서 사용자 데이터 보호를 강화하려는 조치입니다. 전체 디스크 접근 권한은 애플리케이션이 사용자의 민감한 파일과 정보에 광범위하게 접근할 수 있는 권한으로, 이를 제한함으로써 악성 소프트웨어나 무단 데이터 접근을 방지하고자 합니다. 이번 정책 강화는 사이버보안 위험이 높아지는 현 시점에서 개인정보 보호의 중요성을 반영한 것으로 평가됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/apple-to-tighten-full-disk-access-controls-in-macos-amid-ai-risks/",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "사이버보안 M&A 동향: 2026년 9월 39건 거래 발표",
+      "summary": "2026년 9월 사이버보안 분야에서 총 39건의 인수합병(M&A) 거래가 발표되었습니다. SecurityWeek에서 발행한 이 보고서는 사이버보안 산업의 지속적인 인수합병 활동을 추적하고 있습니다. 이러한 거래들은 사이버보안 기업들이 시장에서 경쟁력을 강화하고 기술 역량을 확대하기 위한 전략적 움직임을 반영합니다. 사이버보안 분야의 M&A 활동은 증가하는 보안 위협에 대응하고 통합 솔루션을 제공하기 위한 업계의 노력을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cybersecurity-ma-roundup-39-deals-announced-in-september-2026/",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "장기간 지속된 NPM 악성코드 캠페인, 4만 건 다운로드 누적",
+      "summary": "보안 연구원들이 NPM 패키지 저장소를 대상으로 한 장기간의 악성코드 캠페인을 적발했으며, 이 캠페인은 총 4만 건 이상의 다운로드를 기록했습니다. MALFEX로 명명된 이 공급망 공격 캠페인은 개발자들이 사용하는 오픈소스 패키지에 악성코드를 삽입하여 광범위한 피해를 입히려 시도했습니다. 감염된 패키지를 다운로드한 개발자들의 프로젝트를 통해 악성코드가 최종 사용자 시스템까지 전파될 수 있는 위험한 상황입니다. 이번 사건은 NPM 생태계의 보안 취약점과 공급망 보안의 중요성을 다시 한 번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/long-running-npm-malware-campaign-accumulates-40000-downloads/",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "덴마크 중앙 주민등록부 데이터 유출로 880만 명 영향",
+      "summary": "덴마크의 중앙 주민등록부에서 대규모 데이터 유출 사건이 발생하여 880만 명이 영향을 받았습니다. 이 사건은 개인정보 보호와 정부 기관의 데이터 보안에 대한 심각한 우려를 야기합니다. 유출된 정보에는 주민들의 개인식별 정보가 포함된 것으로 알려져 있습니다. 덴마크 당국은 이 사건에 대한 조사를 진행하고 있으며, 영향을 받은 주민들에게 필요한 통보와 지원을 제공할 예정입니다. 이 사건은 대규모 공공 데이터베이스에 대한 사이버 보안 위협의 심각성을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/8-8-million-impacted-by-data-breach-at-denmarks-central-person-register/",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "소셜 엔지니어링 탐지가 실시간 대화로 진화",
+      "summary": "사이버보안 분야에서 소셜 엔지니어링 공격 탐지 기술이 실시간 대화 단계로 한 단계 진화하고 있습니다. 기존의 사후 대응 방식에서 벗어나 딥페이크 음성 탐지와 같은 고급 기술을 활용하여 공격이 진행되는 중에 즉시 탐지하는 방식으로 전환되고 있습니다. 이는 인공지능 기반 보안 인식 교육과 함께 조직의 보안 태세를 강화하는 새로운 접근 방식입니다. 보안 전문가들은 실시간 탐지 기술이 소셜 엔지니어링 공격으로 인한 피해를 사전에 차단할 수 있는 효과적인 수단이 될 것으로 평가하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/social-engineering-detection-moves-into-the-live-conversation/",
+      "date": "2026-10-06"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "Kafka 메시지가 즉시 쿼리 가능한 형태로 도착",
@@ -12825,89 +12915,8 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/openssl-silently-fixes-hollowbyte-dos-vulnerability/",
       "date": "2026-07-20"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "새로운 지수, 주요 데이터 침해 사건 추적 — 손실액 합산 거부",
-      "summary": "SecurityWeek은 주요 데이터 침해 사건을 추적하는 새로운 지수를 공개했습니다. 이 지수는 물질적 피해를 입힌 사이버 침해 사건들을 기록하지만, 손실액을 합산하지 않는 특이한 방식을 채택했습니다. 이러한 접근 방식은 침해 사건의 규모와 빈도를 파악하면서도 정확하지 않은 손실액 추정의 문제를 피하기 위한 것으로 보입니다. 이 추적 시스템은 사이버보안 커뮤니티에서 실제 위협 수준을 더 정확하게 이해하는 데 도움이 될 것으로 예상됩니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/new-index-tracks-material-breaches-and-refuses-to-add-up-the-losses/",
-      "date": "2026-07-20"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "EY(Ernst & Young) 데이터 유출 사건 - 개인정보 및 금융정보 영향",
-      "summary": "글로벌 컨설팅 회사 EY(Ernst & Young)에서 대규모 데이터 유출 사건이 발생했습니다. 이번 사건으로 인해 고객 및 직원의 개인정보와 금융정보가 유출된 것으로 확인되었습니다. 유출된 정보에는 개인 신원 정보와 재무 관련 데이터가 포함되어 있습니다. EY는 피해 현황을 파악하고 영향받은 개인들에게 통지 절차를 진행 중입니다. 이번 사건은 대규모 기업의 데이터 보안이 얼마나 중요한지를 다시 한 번 강조하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/ernst-young-data-breach-affects-personal-financial-information/",
-      "date": "2026-07-20"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "캐피탈원, AI 기반 'VulnHunter' 보안 도구 오픈소스로 공개",
-      "summary": "캐피탈원(Capital One)이 인공지능 기반의 취약점 탐지 도구 'VulnHunter'를 오픈소스로 공개했습니다. 이 도구는 AI 기술을 활용하여 보안 취약점을 자동으로 발견하고 분석할 수 있습니다. 오픈소스 공개를 통해 보안 커뮤니티 전체가 이 도구를 활용할 수 있게 되었습니다. VulnHunter는 코드 분석 및 취약점 탐지 프로세스를 더욱 효율적으로 만들어줄 것으로 기대됩니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/capital-one-open-sources-ai-powered-vulnhunter-security-tool/",
-      "date": "2026-07-20"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "허깅페이스, 자율형 AI 공격으로 해킹당함",
-      "summary": "AI 모델 공유 플랫폼 허깅페이스(Hugging Face)가 자율형 AI 공격으로 해킹당했습니다. 공격자들은 허깅페이스의 프로덕션 인프라에 침입하여 내부 데이터셋과 인증 자격증명을 탈취했습니다. 이번 사건은 자동화된 AI 기술을 활용한 새로운 형태의 사이버 공격 사례로 주목됩니다. 허깅페이스는 이용자들의 민감한 정보와 모델 관련 데이터가 노출되었을 가능성이 있다고 밝혔습니다. 해당 플랫폼을 이용 중인 개발자 및 연구자들은 보안 위험에 대한 주의가 필요합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/hugging-face-hacked-in-autonomous-ai-attack/",
-      "date": "2026-07-20"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Chrome 150 업데이트, 심각한 메모리 안전 버그 패치",
-      "summary": "Google이 Chrome 150 보안 업데이트를 통해 7개의 메모리 안전 취약점을 해결했습니다. 이번 패치는 메모리 관리 관련 심각한 보안 결함들을 포함하고 있으며, 공격자들이 이를 악용하여 시스템에 접근할 수 있는 위험이 있었습니다. Chrome 사용자들은 최신 버전으로 업데이트하여 이러한 보안 위협으로부터 보호받을 수 있습니다. 이러한 메모리 안전 버그들은 사이버 공격의 주요 벡터로 자주 악용되므로 신속한 패치가 중요합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/chrome-150-update-patches-severe-memory-safety-bugs/",
-      "date": "2026-07-20"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "WP2Shell 워드프레스 취약점 실제 공격에 악용되다",
-      "summary": "WP2Shell 워드프레스 취약점이 실제 사이버 공격에 악용되고 있습니다. 이 취약점을 통해 공격자들이 워드프레스 사이트에 접근하여 악성 활동을 수행할 수 있습니다. SecurityWeek의 보도에 따르면 해당 취약점은 현재 활발하게 악용되고 있는 상황입니다. 워드프레스 관리자들은 긴급히 해당 취약점에 대한 패치를 적용하고 시스템 보안을 강화해야 합니다. 이는 워드프레스 플러그인 또는 코어 시스템의 보안 결함과 관련된 것으로 보입니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/wp2shell-wordpress-vulnerabilities-exploited-in-the-wild/",
-      "date": "2026-07-20"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[속담으로 배우는 100가지 보안 습관 69] 아는 길도 물어가라(9)-이체 한도 줄여야 하는 이유",
-      "summary": "이체 한도는 필요한 만큼만 최소로 설정하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐, 안 지키",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144221&kind=&sub_kind=",
-      "date": "2026-07-20"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] 투씨에스지, 단일 에이전트 통합 보안 ‘BSone’ 출격",
-      "summary": "생성형 AI 접속 통제 및 에이전틱 AI 권한 관리 아키텍처 탑재ISMS 점검·정보보호 공시 제도 대응한 기업 보안 거버넌스 제시[보안뉴스 조재호 기자] 투씨에스지는 국내 최대 정보보안 컨퍼런스 및 전시회 ‘ISEC 2026’에 참가해 대표 솔루션 ‘비에스원’(BSOne)과 ‘비에스디’(BSD)를 선보인다고 밝혔다.BSone은 데이터 유출 방지(DLP)와",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144665&kind=&sub_kind=",
-      "date": "2026-07-20"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] 엑스트라홉, 에이전트 자율적 작동위한 심층 컨텍스트로 에이전틱 SOC 구동",
-      "summary": "머신 속도 위협 차단 핵심 인텔리전스 격차 해소[보안뉴스 강현주 기자] 모던 네트워크 탐지 및 대응(NDR) 분야의 리더 엑스트라홉(ExtraHop)이 정교하고 회피적인 위협 행위자에 대한 자율 방어로 에이전틱 보안운영센터(SOC)를 구동하는 데 필수적인 고도로 맥락화된 인사이트를 제공하는 새로운 가시성 및 포렌식 기능을 선보인다. AI 기반 공격이 규모를",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144674&kind=&sub_kind=",
-      "date": "2026-07-20"
     }
   ],
-  "totalItems": 3905,
+  "totalItems": 3914,
   "hasArchive": true
 }
