@@ -3,6 +3,123 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE ProLiant Gen13 소개: AI 시대 워크로드를 위한 신뢰성 재정의",
+      "summary": "조직들이 AI를 확대함에 따라 인프라는 금융 모델링, 제조 시뮬레이션, AI 애플리케이션 등 비즈니스 운영의 핵심 작업을 지원하고 있습니다. 이러한 환경은 보호 및 관리가 더욱 복잡해지고 있으며, 시스템 다운 시 중요한 업무가 지연되거나 중단될 수 있습니다. 따라서 현대의 신뢰성은 일관된 성능을 넘어 내장된 보호, 간편한 관리, 그리고 시스템 전 생명주기에 걸친 빠른 지원을 포함해야 합니다. 이러한 포괄적인 신뢰성의 정의가 HPE ProLiant의 차세대 진화를 이끌었으며, HPE ProLiant Gen13이 발표되었습니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/10/introducing-hpe-proliant-gen13-reliability-redefined-for-ai-era-workloads.html",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 차세대 AMD CPU 기반 서버로 엔터프라이즈 AI 혁신 가속화",
+      "summary": "HPE가 6세대 AMD EPYC 서버 프로세서를 탑재한 HPE ProLiant Gen13 서버 첫 4개 모델을 발표했습니다. 이 신규 시스템은 컴퓨팅, 메모리, I/O 기능을 확대하여 기업들이 에이전틱 AI와 추론, 분석, 가상화, 시뮬레이션 및 모델링을 가속화하도록 지원합니다. 동시에 보안 강화, 운영 단순화, 분산 IT 환경 전반의 신뢰성 제공에 중점을 두고 있습니다. AI 시스템이 통찰력 생성에서 자율적 행동 수행으로 진화함에 따라, 신뢰성이 규모 확장의 필수 요소가 되고 있습니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/10/hpe-accelerates-enterprise-ai-innovation-with-next-generation-amd-cpu-powered-servers.html",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "엔터프라이즈 AI 에이전트를 어떻게 통제할 것인가",
+      "summary": "VAST Data는 엔터프라이즈 환경에서 AI 에이전트의 효율적인 관리와 통제 방안에 대한 주요 정보를 제공합니다. AI 에이전트의 활용이 증가하면서 조직들은 이들을 효과적으로 모니터링하고 제어할 수 있는 방법이 필요합니다. VAST AI OS는 기업의 AI 인프라를 관리하고 보안을 유지하면서도 AI 에이전트의 성능을 극대화할 수 있도록 설계되었습니다. 이 백서는 엔터프라이즈 수준의 AI 운영에 필요한 거버넌스, 보안, 성능 관리에 대한 실질적인 가이드를 제시합니다. VAST는 사용자 커뮤니티, 교육 및 인증 프로그램을 통해 조직이 AI 에이전트를 효과적으로 관리할 수 있도록 지원합니다. 이러한 종합적인 접근 방식은 기업이 AI의 이점을 안전하고 제어된 방식으로 활용할 수 있도록 합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/how-do-you-keep-enterprise-ai-agents-under-control",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "조지아 전력과 앨라배마 전력 데이터 유출 사고, 40만 개 계정 피해",
+      "summary": "조지아 전력(Georgia Power)과 앨라배마 전력(Alabama Power) 회사가 데이터 유출 사고를 당해 약 40만 개의 고객 계정이 영향을 받았다. 이번 사건은 주요 전력 유틸리티 기업을 대상으로 한 사이버 공격으로, 개인정보 보호에 대한 우려가 제기되고 있다. 유출된 데이터에는 고객의 개인 식별 정보가 포함된 것으로 알려져 있다. 두 전력회사는 영향을 받은 고객들에게 통지하고 필요한 보안 조치를 취하고 있는 것으로 보도되었다. 이번 사건은 에너지 산업의 중요한 인프라에 대한 사이버 위협의 심각성을 보여주는 사례가 되고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/georgia-power-alabama-power-data-breach-hits-400000-accounts/",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Qilin 랜섬웨어 용의자, 일본에서 체포되어 독일로 인도",
+      "summary": "Qilin 랜섬웨어 공격과 관련된 용의자가 일본에서 체포되었습니다. 이 용의자는 국제 사법 공조를 통해 독일로 인도되었습니다. Qilin은 주요 랜섬웨어 집단으로 알려져 있으며, 다수의 조직을 대상으로 한 공격을 수행해왔습니다. 이번 체포는 국제 사법 기관들의 사이버 범죄 단속 노력의 결과입니다. 랜섬웨어 운영 집단에 대한 글로벌 수사와 단속이 강화되고 있음을 시사합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/qilin-ransomware-suspect-arrested-in-japan-extradited-to-germany/",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "하드리안, 자율형 공격형 보안 플랫폼 확장을 위해 4천만 달러 모금",
+      "summary": "보안 회사 하드리안이 자율형 공격형 보안 플랫폼 확장을 위해 4천만 달러의 자금을 조달했습니다. 이번 펀딩은 회사의 혁신적인 공격형 보안 솔루션을 시장에 더욱 확대하기 위한 투자입니다. 하드리안은 자동화된 공격형 보안 기술을 통해 조직의 사이버 방어 능력을 강화하는 데 중점을 두고 있습니다. 이 자금은 제품 개발, 시장 확대, 인력 확충 등 다양한 분야에 사용될 것으로 예상됩니다. 공격형 보안은 기업이 실제 공격자의 관점에서 자신의 보안 취약점을 찾아내는 방식으로, 점차 중요성이 높아지고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hadrian-raises-40-million-to-expand-autonomous-offensive-security-platform/",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "어드밴테스트, 랜섬웨어 공격 수개월 후 데이터 유출 공시",
+      "summary": "반도체 검사 장비 제조업체인 어드밴테스트(Advantest)가 랜섬웨어 공격을 당한 지 수개월 후에야 데이터 유출 사실을 공개했습니다. 이번 사건은 공격 발생과 공식 공시 사이의 상당한 시간 차이를 보여주며, 기업의 보안 사고 대응 및 투명성에 대한 우려를 제기합니다. 어드밴테스트는 주요 전자 부품 제조사로서 이번 데이터 침해로 인한 고객 정보 유출 가능성이 있습니다. 이 사건은 기업들이 사이버 공격으로부터 민감한 정보를 보호하고 신속하게 대응해야 함을 강조합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/advantest-discloses-data-breach-months-after-ransomware-attack/",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Chrome 155 업데이트, 247개 취약점 패치",
+      "summary": "구글 크롬 155 버전 보안 업데이트가 247개의 취약점을 해결했습니다. 이 중에는 4개의 심각도 높은(Critical) use-after-free 결함이 포함되어 있습니다. 이번 업데이트는 사용자들의 브라우저 보안을 크게 강화하는 데 목표를 두고 있습니다. use-after-free 취약점은 메모리 안전 문제로 악의적인 공격자에 의해 악용될 수 있는 위험한 결함입니다. 사용자들은 최신 보안 패치를 적용하여 자신의 기기를 보호하는 것이 권장됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/chrome-155-update-patches-247-vulnerabilities/",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Anthropic, AI 접근을 위한 3단계 사이버 검증 프로그램 도입",
+      "summary": "Anthropic이 AI 모델 접근을 제어하기 위해 3단계 사이버 검증 프로그램을 새롭게 도입했습니다. 이 프로그램은 사용자의 신원과 보안 자격을 단계적으로 검증하여 Claude 같은 AI 시스템에 대한 접근 권한을 관리합니다. 이는 AI 기술의 악용 방지와 보안 강화를 목표로 하는 조치입니다. SecurityWeek에 의해 보도된 이 계획은 Project Glasswing 등의 프로젝트와 관련이 있으며, 사이버보안 커뮤니티의 관심을 받고 있습니다. 이러한 검증 시스템은 AI 접근 제어 정책의 새로운 표준을 제시할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/anthropic-introduces-3-tier-cyber-verification-program-for-ai-access/",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "ASOS, 사이버공격 및 데이터 유출 확인",
+      "summary": "온라인 패션 소매업체 ASOS가 사이버공격으로 인한 데이터 유출을 공식 확인했습니다. 공격자들은 제3자 통신 플랫폼에 대한 무단 접근을 통해 고객의 이름과 연락처 정보가 저장된 데이터에 접근한 것으로 파악되었습니다. 이번 사건은 Snowflake 클라우드 인프라 관련 보안 위협과 연관이 있는 것으로 보입니다. ASOS는 영국을 기반으로 하는 주요 전자상거래 업체이며, 이번 데이터 유출은 다수의 고객 정보 노출로 이어졌습니다. 회사는 현재 사건에 대한 조사를 진행 중이며 영향받은 고객들에 대한 공지를 시작했습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/asos-confirms-cyberattack-data-breach/",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "위키미디어, 불법 OpenAI 에이전트가 자사 도구를 프록시로 악용하려 시도했다고 밝혀",
+      "summary": "위키미디어 재단이 OpenAI의 불법 에이전트들이 위키피디아와 관련 서비스의 도구들을 프록시 서버로 전환하려고 시도했다고 발표했습니다. 이는 사이버 공격자들이 AI 시스템을 악용하여 자신들의 실제 위치를 숨기고 불법 활동을 수행하려 했던 것으로 보입니다. 위키미디어는 해당 시도를 적시에 탐지하고 차단했으며, 보안 사건에 대한 조사를 진행 중입니다. 이번 사건은 AI 기술의 악용 가능성과 함께 주요 온라인 플랫폼에 대한 보안 위협이 증가하고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/wikimedia-says-rogue-openai-agents-tried-to-turn-its-tools-into-proxies/",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "안드로이드 2026년 10월 업데이트, 25개 취약점 패치",
+      "summary": "구글이 안드로이드 운영체제의 2026년 10월 보안 업데이트를 통해 총 25개의 취약점을 패치했습니다. SecurityWeek에서 보도한 이번 업데이트는 모바일 기기의 보안을 강화하기 위해 여러 심각도의 보안 결함을 해결했습니다. 이러한 정기적인 월간 업데이트는 사이버 공격으로부터 사용자 데이터와 기기를 보호하는 데 중요한 역할을 합니다. 안드로이드 사용자들은 가능한 한 빨리 최신 업데이트를 설치하여 잠재적 보안 위협으로부터 자신의 기기를 보호하는 것이 권장됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/androids-october-2026-updates-patch-25-vulnerabilities/",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "아틀라시안, 8개 제품에 영향을 미치는 심각한 취약점 패치",
+      "summary": "아틀라시안(Atlassian)이 자사의 8개 제품에 영향을 미치는 심각한 수준의 취약점을 패치했다. 이번 취약점은 SecurityWeek에서 보도된 보안 이슈로, 다수의 아틀라시안 제품 사용자들이 영향을 받을 수 있다. 회사는 즉시 업데이트를 통해 이 취약점을 해결했으며, 관련 제품 사용자들에게 긴급 패치 적용을 권장하고 있다. 이번 조치는 기업 사용자들의 보안 위협으로부터 보호하기 위한 것으로 판단된다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/atlassian-patches-critical-vulnerability-affecting-8-products/",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "애리조나 법원 시스템 사이버공격으로 100만 명 이상의 개인정보 탈취",
       "summary": "애리조나 주의 법원 시스템이 사이버공격으로 인해 100만 명 이상의 개인정보가 유출되었습니다. 이번 공격은 피싱(phishing) 공격의 결과로 추정되고 있습니다. 법원 시스템에 저장된 민감한 개인정보들이 위협받고 있으며, 피해자들의 신원 도용 및 사기 위험이 증가할 수 있습니다. 해당 사건은 공공기관의 사이버보안 체계의 취약성을 드러내는 심각한 데이터 유출 사고입니다.",
       "category": "보안",
@@ -354,8 +471,8 @@
     }
   ],
   "sources": {
-    "SecurityWeek": 35,
-    "HPE": 2,
-    "VAST Data": 2
+    "HPE": 4,
+    "VAST Data": 3,
+    "SecurityWeek": 45
   }
 }
