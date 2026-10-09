@@ -3,15 +3,15 @@
     {
       "key": "2026-Q4",
       "file": "news-2026-Q4.json",
-      "count": 52,
+      "count": 62,
       "sources": {
+        "SecurityWeek": 55,
         "HPE": 4,
-        "VAST Data": 3,
-        "SecurityWeek": 45
+        "VAST Data": 3
       },
       "dateRange": {
         "from": "2026-10-01",
-        "to": "2026-10-07"
+        "to": "2026-10-09"
       }
     },
     {
@@ -73,6 +73,6 @@
       }
     }
   ],
-  "totalItems": 3927,
-  "lastUpdated": "2026-10-08T05:05:22.171Z"
+  "totalItems": 3937,
+  "lastUpdated": "2026-10-09T05:08:13.681Z"
 }
