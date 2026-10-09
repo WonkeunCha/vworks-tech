@@ -3926,9 +3926,109 @@
     "https://www.securityweek.com/asos-confirms-cyberattack-data-breach/",
     "https://www.securityweek.com/wikimedia-says-rogue-openai-agents-tried-to-turn-its-tools-into-proxies/",
     "https://www.securityweek.com/androids-october-2026-updates-patch-25-vulnerabilities/",
-    "https://www.securityweek.com/atlassian-patches-critical-vulnerability-affecting-8-products/"
+    "https://www.securityweek.com/atlassian-patches-critical-vulnerability-affecting-8-products/",
+    "https://www.securityweek.com/formula-predicts-when-ai-chatbots-are-at-risk-of-turning-bad/",
+    "https://www.securityweek.com/cisco-patches-a-dozen-critical-vulnerabilities/",
+    "https://www.securityweek.com/security-awareness-training-isnt-dead-but-it-needs-a-rethink/",
+    "https://www.securityweek.com/attackers-target-critical-atlassian-vulnerability-within-hours-of-poc-publication/",
+    "https://www.securityweek.com/us-seeks-alleged-chinese-hafnium-hacker-with-10-million-reward/",
+    "https://www.securityweek.com/sonicwall-and-splunk-patch-critical-vulnerabilities/",
+    "https://www.securityweek.com/rein-security-raises-25-million-to-guard-ai-agents-at-runtime/",
+    "https://www.securityweek.com/tp-link-faces-state-lawsuits-and-new-scrutiny-over-isp-router-flaws/",
+    "https://www.securityweek.com/fake-decryption-tools-masked-11m-markup-in-ransomware-recovery-scheme/",
+    "https://www.securityweek.com/oracle-health-data-breach-tally-climbs-to-nearly-20-million/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 챗봇이 위험해질 시점을 예측하는 수식 개발",
+      "summary": "보안 연구진이 AI 챗봇이 악의적으로 변할 위험성이 있는 시점을 예측할 수 있는 수식을 개발했습니다. 이 연구는 AI 모델의 행동 변화를 수량화하여 잠재적 위협을 사전에 식별할 수 있는 방법론을 제시합니다. SecurityWeek의 보도에 따르면, 이 공식은 AI 챗봇의 안전성 평가 및 모니터링에 중요한 역할을 할 것으로 예상됩니다. AI 시스템의 신뢰성과 보안을 강화하기 위한 노력의 일환으로, 이러한 예측 방식은 향후 AI 안전 기준 수립에 기여할 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/formula-predicts-when-ai-chatbots-are-at-risk-of-turning-bad/",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "시스코, 12개의 중요 취약점 패치 공개",
+      "summary": "시스코가 12개 이상의 중요 취약점에 대한 패치를 발표했습니다. 이 취약점들은 원격 코드 실행(RCE), 서비스 거부(DoS), 권한 상승 등 다양한 보안 위협을 초래할 수 있습니다. 해당 패치는 시스코의 여러 제품에 적용되며, 사용자들은 가능한 한 빨리 업데이트를 진행할 것이 권장됩니다. 이번 패치 공개는 기업 네트워크의 보안 강화를 위한 중요한 조치입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisco-patches-a-dozen-critical-vulnerabilities/",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "보안 인식 교육이 죽지 않았지만, 재검토가 필요하다",
+      "summary": "보안 인식 교육은 여전히 중요한 역할을 하고 있지만, 현재의 교육 방식에 대한 근본적인 재검토가 필요하다는 주장이 제기되고 있습니다. 기존의 일반적인 보안 교육 프로그램들이 직원들의 실제 행동 변화를 유도하는 데 충분히 효과적이지 못하고 있다는 점이 지적되고 있습니다. 보안 위협이 증가하고 공격 기법이 정교해지면서, 단순한 인식 제고를 넘어 실질적이고 맞춤형 교육 방식으로의 전환이 요구되고 있습니다. 조직들은 직원들의 실제 보안 행동을 효과적으로 개선할 수 있도록 교육 프로그램을 혁신해야 할 시점에 도달해 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/security-awareness-training-isnt-dead-but-it-needs-a-rethink/",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "공격자들, PoC 공개 후 수 시간 내에 중요 Atlassian 취약점 공격",
+      "summary": "Atlassian의 중요 보안 취약점에 대한 개념 증명(PoC)이 공개된 지 불과 수 시간 만에 공격자들이 해당 취약점을 악용하기 시작했습니다. 이는 보안 커뮤니티에 즉각적인 위협이 되고 있으며, Atlassian 제품 사용자들은 긴급한 패치 적용이 필요한 상황입니다. SecurityWeek의 보도에 따르면 이 취약점은 심각도 평가에서 높은 위험도로 분류되어 있습니다. 공격자들의 빠른 대응으로 인해 기업들은 우선적으로 이 취약점을 해결해야 할 필수 과제에 직면하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/attackers-target-critical-atlassian-vulnerability-within-hours-of-poc-publication/",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국, 중국의 alleged Hafnium 해커에 1,000만 달러 현상금 제시",
+      "summary": "미국 정부가 중국의 Hafnium 해킹 그룹으로 의심되는 해커에 대해 1,000만 달러의 현상금을 제시했습니다. Hafnium 그룹은 Silk Typhoon으로도 알려져 있으며, 과거 여러 주요 사이버 공격을 수행한 것으로 지목되고 있습니다. 이번 현상금 제시는 미국 정부가 국가 차원의 사이버 위협에 대응하기 위해 취한 적극적인 조치입니다. 정부는 해당 해커에 대한 정보 제공자에게 거액의 보상금을 제공할 의사를 밝혔습니다. 이는 중국발 사이버 위협으로부터 국가 인프라를 보호하려는 노력의 일환으로 보입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/us-seeks-alleged-chinese-hafnium-hacker-with-10-million-reward/",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "소닉월과 스플렁크, 심각한 취약점 패치 공개",
+      "summary": "보안 업체 소닉월(SonicWall)과 데이터 분석 기업 스플렁크(Splunk)가 각각 심각한 수준의 취약점을 발견하고 패치를 배포했습니다. 이번 취약점들은 공격자에 의해 악용될 경우 시스템에 대한 원격 접근이나 권한 상승 등의 피해를 초래할 수 있어 긴급 대응이 필요합니다. 두 기업은 영향을 받는 사용자들에게 즉시 보안 업데이트를 적용할 것을 권고했습니다. 이는 기업용 네트워크 보안 및 데이터 관리 솔루션 분야의 주요 제공업체들의 취약점이라는 점에서 광범위한 영향을 미칠 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/sonicwall-and-splunk-patch-critical-vulnerabilities/",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Rein Security, AI 에이전트 실시간 보호 위해 2,500만 달러 펀딩 유치",
+      "summary": "사이버보안 기업 Rein Security가 AI 에이전트를 실시간으로 보호하기 위한 목적으로 2,500만 달러 규모의 자금을 조달했습니다. 이번 펀딩은 AI 기술의 확산에 따른 보안 위협으로부터 AI 에이전트를 효과적으로 방어하기 위한 솔루션 개발에 투입될 예정입니다. Rein Security는 런타임 환경에서 AI 에이전트의 악의적인 활동을 감지하고 차단하는 기술을 개발하고 있습니다. 이는 AI 시스템이 운영 중에 발생할 수 있는 보안 위협에 대응하기 위한 중요한 조치로 평가됩니다. 해당 기업의 기술은 기업들이 AI 기반 시스템을 더욱 안전하게 배포하고 운영할 수 있도록 지원할 것으로 기대됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/rein-security-raises-25-million-to-guard-ai-agents-at-runtime/",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "TP-Link, ISP 라우터 보안 결함으로 주(State) 소송 및 새로운 감시에 직면",
+      "summary": "TP-Link가 ISP용 라우터의 보안 취약점 문제로 미국 여러 주(State)로부터 소송을 제기당하고 있다. 이 라우터 결함들은 사용자들의 개인정보와 네트워크 보안을 위협할 수 있어 규제 당국의 새로운 감시 대상이 되었다. SecurityWeek의 보도에 따르면, 해당 취약점은 원격 공격자들이 접근 권한을 획득할 수 있는 심각한 수준의 보안 결함으로 지적되고 있다. TP-Link는 중국 회사로서 최근 보안 관련 정부 우려의 초점이 되어 있다. 이번 소송과 감시는 ISP 라우터를 통한 네트워크 보안 강화의 필요성을 부각시키고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/tp-link-faces-state-lawsuits-and-new-scrutiny-over-isp-router-flaws/",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "가짜 복호화 도구로 랜섬웨어 복구 사기에서 1,100만 달러 마진금 은폐",
+      "summary": "랜섬웨어 복구 서비스 제공자들이 가짜 복호화 도구를 사용하여 피해자들에게 과도한 요금을 청구하는 사기 행위가 적발되었습니다. MonsterCloud를 포함한 일부 업체들은 실제 복호화 비용에 1,100만 달러 규모의 마진금을 숨겨서 추가 수익을 창출했습니다. 이러한 기만적 관행은 랜섬웨어 공격으로 이미 피해를 입은 기업들이 복구 과정에서 추가적인 경제적 손실을 입도록 했습니다. 보안 전문가들은 랜섬웨어 복구 서비스를 이용할 때 투명한 가격 정책을 확인하고 신뢰할 수 있는 업체를 선택할 것을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/fake-decryption-tools-masked-11m-markup-in-ransomware-recovery-scheme/",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "오라클 헬스 데이터 유출 피해자 규모 거의 2천만 명에 달해",
+      "summary": "오라클 헬스(Oracle Health) 데이터 유출 사건의 피해 규모가 거의 2천만 명에 이르는 것으로 집계되었습니다. 이는 헬스케어 분야에서 발생한 대규모 데이터 침해 사건으로, 수많은 환자들의 개인 정보가 노출된 것으로 파악되고 있습니다. 오라클은 이 보안 침해 사건에 대해 적극적인 대응을 진행 중이며, 영향을 받은 사용자들에게 통지 절차를 진행하고 있습니다. 해당 사건은 의료기관의 사이버보안 강화의 중요성을 다시 한번 부각시키는 계기가 되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/oracle-health-data-breach-tally-climbs-to-nearly-20-million/",
+      "date": "2026-10-08"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "HPE ProLiant Gen13 소개: AI 시대 워크로드를 위한 신뢰성 재정의",
@@ -12838,98 +12938,8 @@
       "source": "VAST Data",
       "sourceUrl": "https://www.vastdata.com/blog/usc-carc-accelerates-data-intensive-research-and-ai-innovation",
       "date": "2026-07-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "트럼프, 국방 계약업체에 주요 공급망 전반의 소프트웨어 및 공급업체 매핑 명령",
-      "summary": "트럼프 행정부가 국방 계약업체들에게 중요 인프라 공급망 전반에 걸친 소프트웨어와 공급업체를 체계적으로 매핑할 것을 행정명령으로 지시했습니다. 이는 소프트웨어 부품 명세서(SBOM)를 통해 공급망 보안을 강화하고 잠재적 사이버 위협을 조기에 파악하기 위한 조치입니다. 국방 부문의 중요 공급망에 대한 가시성 확보로 소프트웨어 의존성과 제3자 공급업체 관련 보안 위험을 최소화하는 것이 목표입니다. 이러한 정책은 국가 방위 인프라의 사이버보안 태세를 개선하고 공급망 공격으로부터의 보호를 강화하는 데 중점을 두고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/trump-orders-defense-contractors-to-map-software-suppliers-across-critical-supply-chains/",
-      "date": "2026-07-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "시스코, 소스 코드 보안을 위한 저비용 AI 모델 출시",
-      "summary": "시스코가 소스 코드 보안을 강화하기 위한 저비용 AI 모델을 새로이 출시했습니다. 이 모델은 소스 코드의 취약점을 탐지하고 보안 위협을 식별하는 데 중점을 두고 있습니다. 시스코 안타레스(Cisco Antares)라 불리는 이 AI 모델은 개발 과정에서 코드 보안을 효과적으로 점검할 수 있는 솔루션을 제공합니다. 저비용으로 제공되어 중소 기업을 포함한 다양한 규모의 조직이 접근할 수 있습니다. 이는 소프트웨어 개발 보안 강화 및 취약점 조기 발견에 기여할 것으로 예상됩니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/cisco-launches-low-cost-ai-models-for-source-code-security/",
-      "date": "2026-07-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "임피리컬 시큐리티, 시리즈 A 펀딩으로 2,500만 달러 조달",
-      "summary": "사이버보안 기업 임피리컬 시큐리티(Empirical Security)가 시리즈 A 펀딩 라운드에서 2,500만 달러를 성공적으로 조달했습니다. 이번 자금 조달은 SecurityWeek에서 보도된 글로벌 사이버보안 시장의 지속적인 투자 관심을 반영하고 있습니다. 임피리컬 시큐리티는 이 자금을 통해 기술 개발과 시장 확대를 추진할 계획입니다. 이는 사이버보안 분야의 혁신 기업들이 계속해서 투자자들로부터 주목받고 있음을 보여줍니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/empirical-security-raises-25-million-in-series-a-funding/",
-      "date": "2026-07-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "SecurityWeek, 산업용 사이버보안 우수성 인정하는 크리티컬 임팩트 어워드 출범",
-      "summary": "SecurityWeek이 산업용 사이버보안 분야의 우수성을 인정하기 위해 크리티컬 임팩트 어워드(Critical Impact Awards)를 새로 출범했습니다. 이 상은 중요 기반시설 보안, ICS(산업제어시스템), OT(운영기술), SCADA 등 산업용 사이버보안 분야에서 탁월한 성과를 거둔 기업과 전문가들을 표창합니다. 이번 어워드는 산업용 사이버보안 분야의 혁신과 기여도를 높이 평가하고 업계 내 우수 사례를 공유하기 위해 마련되었습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/securityweek-launches-critical-impact-awards-to-recognize-excellence-in-industrial-cybersecurity/",
-      "date": "2026-07-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "새로운 HollowGraph 악성코드, Microsoft 365 캘린더를 C&C 통신에 악용",
-      "summary": "새로운 HollowGraph 악성코드가 Microsoft 365 캘린더 기능을 명령 및 제어(C&C) 통신 채널로 악용하는 것으로 발견되었습니다. 이 악성코드는 합법적인 클라우드 서비스를 은폐 채널로 이용하여 탐지를 피하는 고도화된 공격 기법을 사용합니다. 공격자들은 캘린더 이벤트를 통해 암호화된 명령을 주입하여 감염된 시스템을 제어할 수 있습니다. 이러한 방식은 기존의 악성 네트워크 트래픽 탐지 시스템을 우회할 수 있어 보안 위협이 큽니다. 조직들은 Microsoft 365 계정의 비정상적인 활동 모니터링 및 접근 제어 강화가 필요합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/new-hollowgraph-malware-abuses-microsoft-365-calendar-for-cc-communication/",
-      "date": "2026-07-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "CISO 대화: 경제학에서 쾨르버 AG의 CISO가 된 안드레아스 개체",
-      "summary": "SecurityWeek의 'CISO Conversations' 시리즈에서 쾨르버 AG의 최고정보보안책임자(CISO) 안드레아스 개체와의 인터뷰를 다루고 있습니다. 이 기사는 경제학 배경을 가진 개체가 어떻게 사이버보안 리더십 역할로 전환했는지에 대한 경력 여정을 탐구합니다. 인터뷰를 통해 그의 리더십 철학, 조직 내 사이버보안 전략, 그리고 산업 보안 문제에 대한 통찰력이 제시됩니다. 이는 비전통적인 배경을 가진 인물이 현대적 사이버보안 리더십을 어떻게 구축했는지를 보여주는 사례 연구입니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/ciso-conversations-andreas-gaetje-from-economics-to-ciso-at-korber-ag/",
-      "date": "2026-07-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "에스티 로더, 오라클 EBS 제로데이 해킹으로 인한 피해 공개",
-      "summary": "화장품 업체 에스티 로더가 오라클 EBS(전자 비즈니스 스위트) 시스템의 제로데이 취약점을 악용한 해킹으로 인한 피해를 공식 인정했습니다. Cl0p 랜섬웨어 그룹으로 추정되는 공격자들이 이 취약점을 통해 회사 시스템에 침입한 것으로 확인되었습니다. 이번 공격으로 인해 고객 데이터 유출 등의 피해가 발생한 것으로 알려졌습니다. 오라클 EBS 제로데이 취약점은 최근 여러 기업들이 표적이 된 주요 보안 위협으로 대두되고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/estee-lauder-discloses-impact-from-oracle-ebs-zero-day-hack/",
-      "date": "2026-07-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "메타, 고객 지원 데이터 노출 취약점으로 78,000달러 버그바운티 지급",
-      "summary": "메타가 고객 지원 데이터를 노출시킬 수 있는 취약점을 발견한 보안연구자에게 78,000달러의 버그바운티를 지급했습니다. 이 취약점은 메타의 고객 지원 시스템에 존재했으며, 민감한 고객 정보가 유출될 수 있는 보안 위험을 야기했습니다. 메타는 취약점 공개 프로그램을 통해 보안 연구자들의 발견을 적극적으로 보상하고 있습니다. 이번 사건은 대규모 기술 기업들도 자신의 시스템에서 중대한 보안 결함이 발견될 수 있음을 보여줍니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/meta-pays-78000-bounty-for-vulnerability-exposing-customer-support-data/",
-      "date": "2026-07-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "클로버 헬스 인베스트먼츠, 데이터 유출 사실 공개",
-      "summary": "미국 의료보험회사인 클로버 헬스 인베스트먼츠가 데이터 유출 사건을 공개했습니다. 해커들이 클로버 헬스의 직원 계정 3개를 침해한 것으로 파악되었습니다. 이번 사건은 의료 분야의 사이버보안 위협이 지속적으로 증가하고 있음을 보여줍니다. 회사는 현재 침해 범위를 파악하고 영향을 받은 고객들에게 알리는 절차를 진행 중입니다. 의료 산업은 민감한 개인정보와 의료 기록을 다루기 때문에 사이버 공격의 주요 대상이 되고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/clover-health-investments-discloses-data-breach/",
-      "date": "2026-07-21"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "ServiceNow 취약점, 공개 후 며칠 만에 악용 사례 발견",
-      "summary": "ServiceNow의 보안 취약점이 공개된 지 불과 며칠 만에 실제 악용 사례가 발견되었습니다. 이는 취약점 공개 후 공격자들이 매우 빠르게 대응하고 있음을 보여주는 사례입니다. SecurityWeek에 따르면 해당 취약점은 이미 여러 악의적인 행위자들에 의해 공격에 활용되고 있는 것으로 확인되었습니다. 기업들은 ServiceNow 시스템에 대한 긴급 패치 적용과 보안 대책 강화가 필요한 상황입니다. 이번 사건은 취약점 공개 후 신속한 보안 대응의 중요성을 다시 한번 강조하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/exploitation-of-servicenow-vulnerability-seen-days-after-disclosure/",
-      "date": "2026-07-21"
     }
   ],
-  "totalItems": 3927,
+  "totalItems": 3937,
   "hasArchive": true
 }
