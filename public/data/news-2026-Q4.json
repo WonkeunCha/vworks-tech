@@ -3,12 +3,120 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpenAI, AI 위험성 논쟁으로 안전 연구원 3명 해고",
+      "summary": "OpenAI가 인공지능의 위험성을 둘러싼 의견 충돌로 안전 연구팀 소속 연구원 3명을 해고했습니다. 이번 조치는 AI 안전성과 위험 관리에 대한 회사 내 의견 불일치를 드러낸 사건으로, 업계에서 AI 안전 문화에 대한 논쟁을 촉발하고 있습니다. OpenAI의 안전 연구팀은 AI 모델의 잠재적 위험을 식별하고 완화하는 데 핵심적인 역할을 담당하고 있습니다. 이 사건은 빠르게 발전하는 AI 기술과 이에 따른 안전 우려 사이의 긴장 관계를 보여주고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/openai-fires-3-safety-researchers-in-dispute-over-ai-risks/",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기타 뉴스: 한국 은행 침해에 AI 사용, 시 기반 봇넷, 엠파이어 관리자 40년 형",
+      "summary": "최근 사이버보안 뉴스에서 한국의 금융기관들이 AI 기술을 활용한 정교한 해킹 공격에 노출되었습니다. 동시에 보안 연구팀들은 시 형태의 명령어로 작동하는 새로운 유형의 봇넷을 발견했습니다. 악명 높은 다크넷 마켓플레이스인 엠파이어의 운영자가 검거되어 40년의 징역형을 선고받았습니다. 이러한 사건들은 점점 더 지능화되는 사이버 위협과 법 집행 기관의 단속이 동시에 진행되고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-ai-used-in-korean-bank-breaches-poem-guided-botnet-empire-admin-gets-40-years/",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "구글 도메인, 최근 ccTLD 하이재킹 피해",
+      "summary": "구글 도메인이 최근 국가 최상위 도메인(ccTLD) 하이재킹 공격의 영향을 받았습니다. 이번 사건은 도메인 탈취 공격으로 인해 여러 구글 도메인 사용자들이 피해를 입었음을 의미합니다. ccTLD 하이재킹은 국가별 최상위 도메인의 소유권을 불법적으로 탈취하는 사이버 범죄 행위입니다. 보안 전문가들은 도메인 소유자들에게 계정 보안 강화와 DNS 설정 모니터링을 권고하고 있습니다. 이번 사건은 도메인 관리의 중요성과 네트워크 보안 위험성을 다시 한 번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/google-domains-impacted-by-recent-cctld-domain-hijacks/",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AhsayCBS의 패치되지 않은 취약점이 실제 공격에 악용되고 있음",
+      "summary": "AhsayCBS에서 발견된 여러 보안 취약점들이 현재 실제 공격에 악용되고 있는 상황입니다. 이러한 취약점들은 아직까지 패치되지 않은 상태로 남아있어 사용자들에게 직접적인 위협이 되고 있습니다. SecurityWeek의 보도에 따르면, 공격자들이 이미 이 취약점을 이용한 공격을 시작했습니다. AhsayCBS 사용자들은 긴급히 보안 업데이트를 기다리거나 임시 완화 조치를 취해야 합니다. 이는 클라우드 백업 및 관리 솔루션 사용자들에게 즉각적인 주의가 필요한 상황입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "150개 이상 국가의 저가형 안드로이드 기기에 펌웨어 악성코드 감염",
+      "summary": "보안 연구팀이 150개 이상의 국가에서 저가형 안드로이드 기기에 사전에 내장된 펌웨어 악성코드를 발견했습니다. 이 악성코드는 제조 단계에서부터 기기에 통합되어 있어 일반 사용자들이 감지하기 매우 어렵습니다. 해당 악성코드는 '미드나잇 미모사(Midnight Mimosa)'라고 명명되었으며, 사용자의 개인정보 탈취 및 금융 정보 도용을 목표로 합니다. 이 위협은 특히 보안 업데이트가 제한적인 저가형 기기 사용자들에게 심각한 위험을 초래하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/pre-baked-firmware-malware-hits-budget-android-devices-in-150-countries/",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국, 중국 국가 후원 해킹 도구 적발 및 차단",
+      "summary": "미국이 중국 국가 후원 해킹 그룹인 플랙스 태풍(Flax Typhoon)이 사용하던 악성 해킹 도구를 적발하고 차단했습니다. 이번 조치에서는 '인테그리티 테크(Integrity Tech)'와 '마이크로스캔(MicroScan)' 등의 악성 도구들이 적발되었습니다. 이러한 도구들은 주로 미국의 주요 인프라 시설을 대상으로 사이버 공격을 감행하는 데 사용되었던 것으로 알려졌습니다. 미국 정부의 이번 차단 조치는 중국의 사이버 위협에 대응하기 위한 적극적인 단계입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/us-disrupts-chinese-state-sponsored-hacking-tools/",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Anthropic, AI 버그 보고를 오픈소스 개발자에게 신속 전달 및 11개 기업과 OT 보안 협력",
+      "summary": "Anthropic이 자사의 AI 시스템을 활용하여 오픈소스 소프트웨어(OSS)의 보안 취약점을 발견하고 이를 오픈소스 유지보수자들에게 신속하게 보고하는 프로세스를 구축했습니다. 이는 오픈소스 생태계의 전반적인 보안성 향상을 목표로 하고 있습니다. 동시에 Anthropic은 운영 기술(OT) 및 산업제어시스템(ICS) 보안 강화를 위해 11개 주요 기업들과 협력하고 있습니다. 이 협력을 통해 AI 기반의 취약점 스캔 기술을 중요 기반시설 보안에 적용하고자 합니다. 이러한 이니셔티브는 오픈소스부터 중요 인프라까지 전 영역의 사이버보안을 강화하려는 움직임으로 평가됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/anthropic-fast-tracks-ai-bug-reports-to-oss-maintainers-taps-11-firms-for-ot-security/",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Citrix, 중대한 NetScaler 취약점의 즉시 패치를 촉구",
+      "summary": "Citrix는 NetScaler 제품의 중대한 보안 취약점에 대해 사용자들에게 즉각적인 패치 적용을 권고하고 있습니다. 이 취약점은 공격자에게 시스템에 대한 광범위한 접근을 허용할 수 있는 심각한 보안 위협을 초래합니다. SecurityWeek의 보도에 따르면, 영향을 받는 NetScaler 사용자들은 가능한 한 빨리 보안 업데이트를 설치해야 합니다. 이 취약점은 기업 네트워크 보안에 직접적인 영향을 미칠 수 있으므로, 신속한 대응이 매우 중요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "구글 픽셀 10 익스플로잇으로 해커들이 Pwn2Own에서 56만 달러 획득",
+      "summary": "Pwn2Own 아일랜드 2026에서 보안 연구자들이 구글 픽셀 10의 취약점을 이용한 익스플로잇을 선보여 56만 달러의 상금을 획득했습니다. 이 해킹 경진대회는 기업들이 제품의 보안 결함을 발견하고 개선하도록 장려하는 플랫폼으로 기능합니다. 구글 픽셀 10에 대한 성공적인 익스플로잇 시연은 최신 안드로이드 기기도 심각한 보안 위협에 노출될 수 있음을 보여줍니다. 이러한 결과는 모바일 기기 제조업체들이 지속적으로 보안 취약점을 해결해야 함을 강조합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/google-pixel-10-exploits-earned-hackers-560000-at-pwn2own/",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "AI 챗봇이 위험해질 시점을 예측하는 수식 개발",
       "summary": "보안 연구진이 AI 챗봇이 악의적으로 변할 위험성이 있는 시점을 예측할 수 있는 수식을 개발했습니다. 이 연구는 AI 모델의 행동 변화를 수량화하여 잠재적 위협을 사전에 식별할 수 있는 방법론을 제시합니다. SecurityWeek의 보도에 따르면, 이 공식은 AI 챗봇의 안전성 평가 및 모니터링에 중요한 역할을 할 것으로 예상됩니다. AI 시스템의 신뢰성과 보안을 강화하기 위한 노력의 일환으로, 이러한 예측 방식은 향후 AI 안전 기준 수립에 기여할 수 있습니다.",
       "category": "보안",
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/formula-predicts-when-ai-chatbots-are-at-risk-of-turning-bad/",
       "date": "2026-10-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI를 위한 공간 만들기: 기존 데이터센터 현대화 전략",
+      "summary": "기존 데이터센터에서 AI 워크로드를 지원하기 위해서는 전략적 계획과 단계적 접근이 필수적입니다. 전력, 냉각, 공간 등 인프라 제약 사항을 파악하고 우선순위를 정하는 것이 중요합니다. 점진적인 현대화를 통해 기존 시스템과의 호환성을 유지하면서 AI 기능을 추가할 수 있습니다. 에너지 효율적인 솔루션과 최적화된 리소스 할당이 비용 절감과 성능 향상을 동시에 달성하는 핵심입니다. 적절한 기술 파트너와의 협력은 복잡한 전환 과정을 성공적으로 관리하는 데 도움이 됩니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/making-room-for-ai-a-playbook-for-brownfield-data-centers",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "양자컴퓨터 대비 준비 완료... 아니면 아직? 다음 PC 교체가 암호화 결정이 되는 이유",
+      "summary": "양자컴퓨터의 출현으로 현재의 암호화 방식이 위협받을 수 있으며, 조직들은 미래의 사이버 보안을 위해 지금부터 양자 내성 암호화(Post-Quantum Cryptography) 준비를 시작해야 합니다. PC 하드웨어 교체 시점은 단순한 업그레이드 결정이 아니라 장기적인 데이터 보안 전략의 일부로 고려되어야 합니다. Dell Technologies와 같은 기술 파트너들은 양자 시대에 대비한 보안 솔루션을 제공하여 기업의 암호화 전환을 지원하고 있습니다. 조직의 규모와 산업 분야를 불문하고 모든 기업이 이러한 암호화 업그레이드 계획을 수립하는 것이 중요합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/post-quantum-ready-or-not-why-your-next-pc-refresh-is-a-cryptography-decision",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "XPS에서 런웨이까지: 패션을 통해 재구성되는 맥라렌",
+      "summary": "Dell Technologies의 XPS 기술은 맥라렌과의 협력을 통해 패션 산업에 새로운 차원을 더하고 있습니다. 고성능 컴퓨팅과 디자인 혁신이 결합되어 자동차 브랜드가 패션 런웨이에서 새로운 경험을 창출하고 있습니다. 이러한 협력은 기술과 창의성의 경계를 허물며 전혀 새로운 가능성을 제시합니다. 맥라렌의 디자인 철학과 Dell의 기술력이 만나 패션 세계에서 독특한 가치를 만들어내고 있습니다. 이는 단순한 제품 협력을 넘어 산업 간 융합의 새로운 사례로 주목받고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/from-xps-to-runway-reimagining-mclaren-through-fashion",
+      "date": "2026-10-08"
     },
     {
       "id": "aHR0cHM6Ly93d3cu",
@@ -90,6 +198,42 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/oracle-health-data-breach-tally-climbs-to-nearly-20-million/",
       "date": "2026-10-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "모든 AI 여정을 위해 구축됨: Dell이 크리에이터, 게이머, 개발자 및 기업을 지원합니다",
+      "summary": "Dell Technologies는 AI 기술이 다양한 사용자 그룹에게 실질적인 가치를 제공할 수 있도록 포괄적인 솔루션을 제공하고 있습니다. 크리에이터, 게이머, 개발자 및 기업 각각의 고유한 AI 요구사항에 맞춘 맞춤형 제품과 서비스를 통해 AI의 민주화를 실현하고 있습니다. Dell의 접근 방식은 각 사용자 그룹이 자신의 특정 목표를 달성하기 위해 필요한 도구와 기술을 제공하는 데 중점을 두고 있습니다. 이를 통해 조직과 개인 모두가 AI 기술의 잠재력을 최대한 활용할 수 있도록 지원합니다. Dell은 AI 여정의 모든 단계에서 신뢰할 수 있는 파트너로서의 역할을 하고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/built-for-every-ai-journey-dell-empowers-creators-gamers-developers-and-enterprises",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell XPS 16 Creator Edition: NVIDIA RTX Spark™와 프리미엄 디자인의 만남",
+      "summary": "Dell XPS 16 Creator Edition은 NVIDIA RTX Spark 기술을 탑재하여 전문가 크리에이터를 위한 최고의 성능을 제공합니다. 프리미엄한 디자인과 강력한 그래픽 성능을 결합하여 영상 편집, 3D 렌더링, AI 작업 등 고사양 작업을 효율적으로 처리할 수 있습니다. NVIDIA RTX 기술의 통합으로 실시간 레이 트레이싱과 AI 가속화 기능을 활용한 전문 워크플로우 최적화가 가능합니다. 세련된 프리미엄 빌드 품질과 휴대성을 겸비하여 크리에이터들이 언제 어디서나 최상의 생산성을 유지할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/dell-xps-16-creator-edition-where-nvidia-rtx-spark-meets-premium-design",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "키보드 조명을 켜는 방법",
+      "summary": "많은 현대 키보드에는 사용자 경험을 향상시키기 위한 백라이트 기능이 탑재되어 있습니다. 키보드 조명을 켜는 방법은 키보드 모델과 운영 체제에 따라 다르지만, 일반적으로 특정 함수 키 조합이나 제조사의 소프트웨어를 통해 제어할 수 있습니다. 대부분의 경우 Fn 키와 함께 특정 숫자 키나 기능 키를 누르면 백라이트를 활성화하거나 밝기를 조절할 수 있습니다. 키보드 조명은 어두운 환경에서 타이핑 정확도를 높이고 눈의 피로를 줄이는 데 도움이 됩니다. 정확한 방법은 키보드 매뉴얼을 참고하거나 제조사 웹사이트에서 확인하는 것이 좋습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/how-to-turn-on-your-keyboard-light",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "여섯 가지 임상 AI 에이전트, 하나의 안전한 데스크사이드 시스템",
+      "summary": "Dell Technologies는 의료 현장에서 사용할 수 있는 여섯 가지 임상 AI 에이전트를 단일 데스크사이드 시스템에 통합했습니다. 이 통합 솔루션은 의료진의 업무 효율성을 향상시키면서도 환자 데이터의 보안을 최우선으로 보장합니다. 각 AI 에이전트는 특정 임상 작업을 지원하도록 설계되어 의료 서비스의 품질을 개선합니다. 이러한 시스템의 배포는 의료기관의 디지털 전환을 가속화하고 운영 효율성을 극대화할 수 있습니다. Dell의 이러한 접근 방식은 기술과 의료의 결합으로 환자 중심의 혁신적인 솔루션을 제시합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/six-clinical-ai-agents-one-secure-deskside-system",
+      "date": "2026-10-07"
     },
     {
       "id": "aHR0cHM6Ly93d3cu",
@@ -219,6 +363,33 @@
     },
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "현장 작업을 위해 설계된 새로운 Dell Pro 견고한 노트북",
+      "summary": "Dell Technologies는 혹독한 작업 환경에서 안정적으로 작동하는 새로운 Pro 견고한 노트북 라인을 출시했습니다. 이 노트북들은 극단적인 온도, 습도, 충격 및 진동에 견딜 수 있도록 설계되어 건설, 에너지, 공공안전 및 군사 작전 분야의 전문가들을 위한 이상적인 솔루션입니다. 향상된 성능과 보안 기능을 갖춘 최신 프로세서가 탑재되어 있으며, 장시간의 야외 작업에도 충분한 배터리 수명을 제공합니다. 또한 MIL-SPEC 인증을 통해 군사 표준을 충족하는 내구성을 입증했습니다. 현장 작업자들의 생산성 향상과 안정적인 업무 수행을 위한 완벽한 도구로 설계되었습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/new-dell-pro-rugged-laptops-built-for-the-field",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "테스트를 믿으세요: AI를 위한 오브젝트 스토리지 벤치마킹",
+      "summary": "AI 워크로드에 최적화된 오브젝트 스토리지 솔루션을 선택하기 위해서는 실제 성능 테스트를 통한 검증이 필수적입니다. 벤치마킹을 통해 처리량, 지연시간, 확장성 등 핵심 성능 지표를 정확하게 측정할 수 있습니다. 다양한 AI 애플리케이션의 요구사항을 고려하여 스토리지 솔루션을 평가해야 합니다. 실제 워크로드 환경과 유사한 조건에서의 테스트가 가장 신뢰할 수 있는 결과를 제공합니다. 벤치마킹을 통해 투자 수익률을 최대화하고 비즈니스 목표를 달성할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/trust-the-test-benchmarking-object-storage-for-ai",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "엔터프라이즈 AI를 프로덕션으로 구현하는 것은 컨텍스트에서 시작됩니다",
+      "summary": "엔터프라이즈 AI를 성공적으로 프로덕션 환경에 배포하기 위해서는 명확한 비즈니스 컨텍스트와 목표 설정이 가장 중요합니다. 데이터의 품질과 관련성이 AI 모델의 성능을 결정하는 핵심 요소이므로, 조직은 적절한 데이터 거버넌스 체계를 구축해야 합니다. AI 프로젝트의 성공률을 높이려면 기술적 인프라뿐만 아니라 조직 문화와 프로세스의 변화가 함께 이루어져야 합니다. 엔터프라이즈는 AI 구현 시 비즈니스 임팩트를 측정할 수 있는 명확한 지표를 설정하고 지속적으로 모니터링해야 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/getting-enterprise-ai-into-production-starts-with-context",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "미즈호증권, HPE와 함께 고급 금융 시뮬레이션 가속화 및 AI 준비 강화",
       "summary": "HPE와 미즈호증권이 직접 액체냉각 방식을 적용한 새로운 데이터센터를 구축하고 HPE Cray XD2000을 배포하기로 발표했습니다. 이 새로운 인프라는 미즈호증권의 글로벌 비즈니스 전략 추진과 고객들에게 더 높은 가치의 금융상품 및 서비스 제공을 지원할 것입니다. 액체냉각 장비 설치, 시스템 구축 및 운영 검증은 올해 가을부터 시작되며, 시스템은 2027년 중반에 본격 운영될 예정입니다.",
       "category": "HPC·서버",
@@ -297,6 +468,15 @@
       "source": "VAST Data",
       "sourceUrl": "https://www.vastdata.com/blog/kafka-messages-that-arrive-already-queryable",
       "date": "2026-10-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "아무도 보지 않는 시간을 활용하기 – 오토파일럿 프로비저닝 최적화",
+      "summary": "오토파일럿 프로비저닝 과정에서 기존에는 낭비되던 시간을 효율적으로 활용할 수 있습니다. 장치 설정 및 구성 단계에서 백그라운드 작업을 병렬로 처리하여 전체 프로비저닝 시간을 단축할 수 있습니다. 적절한 리소스 할당과 작업 스케줄링을 통해 시스템 성능을 저하시키지 않으면서도 생산성을 향상시킬 수 있습니다. 이러한 최적화 방식은 대규모 기업 환경에서 IT 배포 효율성을 크게 개선하고 운영 비용을 절감합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/use-the-time-nobody-sees-optimizing-autopilot-provisioning",
+      "date": "2026-10-05"
     },
     {
       "id": "aHR0cHM6Ly93d3cu",
@@ -399,6 +579,24 @@
     },
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "토큰 이코노미는 데이터 문제다",
+      "summary": "토큰 이코노미의 성공은 데이터의 효율적인 관리와 활용에 달려 있습니다. 블록체인 기술의 확산과 함께 방대한 양의 데이터가 생성되고 있으며, 이를 적절히 처리하지 못하면 시스템의 신뢰성이 훼손될 수 있습니다. 기업들은 데이터 거버넌스, 보안, 그리고 투명성을 동시에 확보해야 토큰 기반 생태계를 구축할 수 있습니다. 데이터 인프라의 현대화는 토큰 이코노미 발전의 필수 요소입니다. 조직은 실시간 데이터 처리와 분석 능력을 갖춰야 경쟁력을 유지할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/the-token-economy-is-a-data-problem",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "해결 전문가 센터 내부 탐방: AI, 판단력, 그리고 Keenon Davis와의 '브릿지' 마인드셋",
+      "summary": "AI 기술은 문제 해결의 효율성을 높이지만, 인간의 판단력과 경험이 여전히 핵심적인 역할을 한다. 해결 전문가는 기술과 인간의 역량 사이에서 '브릿지' 역할을 하며 고객 만족도를 극대화해야 한다. 데이터 기반의 접근과 함께 개인의 창의성과 유연한 사고방식이 복잡한 문제 해결에 필수적이다. 조직 내에서 AI와 인간이 협력할 수 있는 환경 조성이 미래 성공의 핵심이다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/inside-the-resolution-expert-center-ai-judgment-and-the-bridge-mindset-with-keenon-davis",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "CAMP 스택: AI를 위한 새로운 개발자 스택",
       "summary": "AI의 발전은 개발자 스택의 재정의를 강요하고 있습니다. 1990년대 후반의 LAMP 스택(Linux, Apache, MySQL, Perl/PHP/Python)처럼, 개발자가 일상적으로 접하는 기술 인터페이스의 집합을 의미합니다. 클라우드 시대에 개별 제품들은 변했지만 운영 환경, 애플리케이션 전달 계층, 데이터베이스, 코드라는 기본 개발 표면은 안정적으로 유지되었습니다. 그러나 AI는 이러한 표면 자체를 변화시키고 있습니다. 개발자는 더 이상 코드 작성부터 시작하지 않으며, Cursor, Claude Code, Codex 같은 코딩 에이전트를 통해 작업합니다. 개발자가 원하는 결과를 설명하면, 시스템이 코드베이스에 접근하여 제약 조건을 설정하고 작업을 검토하고 필요시 방향을 조정합니다. 이는 초기 프로그래머가 프로세서에 직접 접근했던 것에서 고급 언어로 진화한 것처럼, 코딩 에이전트는 프로그래밍의 인터페이스를 또 다른 수준으로 끌어올렸습니다. 개발자는 의도, 제약, 아키텍처, 사양에 집중하고, 소프트웨어가 이를 실제 코드로 변환하는 작업을 수행하게 됩니다.",
       "category": "스토리지",
@@ -468,6 +666,60 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/exploited-fortinet-fortimail-zero-day-calls-for-urgent-action/",
       "date": "2026-10-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 복원력 지도: 당신의 조직은 지금 어디에 있는가?",
+      "summary": "조직의 AI 복원력을 평가하기 위해서는 현재의 디지털 인프라 상태를 정확히 파악하는 것이 중요합니다. AI 기술 도입 시 발생할 수 있는 장애 상황에 대비하기 위해 체계적인 계획과 준비가 필수적입니다. 데이터 보안, 시스템 안정성, 운영 연속성 등 여러 측면에서 종합적으로 복원력을 강화해야 합니다. 조직의 AI 도입 수준에 따라 단계별 전략을 수립하고 지속적으로 모니터링하는 것이 효과적입니다. 외부 전문가의 지원과 함께 내부 역량을 강화하면 AI 환경에서의 회복력을 크게 향상시킬 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/the-ai-resilience-map-where-is-your-organization-now-",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AIDP를 통한 하이브리드 AI 워크플로우 구축",
+      "summary": "Dell Technologies의 AI Data Platform(AIDP)은 온프레미스와 클라우드 환경을 통합하여 효율적인 AI 워크플로우를 구현할 수 있게 합니다. 하이브리드 인프라 환경에서 데이터 이동을 최소화하면서 AI 모델 개발과 배포를 가속화할 수 있습니다. AIDP는 기업의 데이터 거버넌스와 보안 요구사항을 충족하면서도 유연한 리소스 활용을 가능하게 합니다. 다양한 AI 프레임워크와 도구를 지원하여 기업의 특정 요구에 맞는 맞춤형 솔루션을 제공합니다. 결과적으로 조직은 더 빠르게 AI 혁신을 추진하고 비즈니스 가치를 창출할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/building-hybrid-ai-workflows-with-aidp",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "키보드 밝기 및 설정을 조정하는 방법",
+      "summary": "Dell 키보드의 밝기를 조정하려면 제조사별 단축키나 설정 메뉴를 활용할 수 있습니다. 대부분의 Dell 키보드는 Fn 키와 밝기 제어 키를 조합하여 백라이트 밝기를 쉽게 변경할 수 있습니다. 운영체제 설정이나 Dell 전용 소프트웨어를 통해 더 세부적인 키보드 설정을 관리할 수 있으며, 장치의 배터리 수명을 보호하기 위해 필요에 따라 백라이트를 조절할 수 있습니다. 특정 모델에 따라 설정 방법이 다를 수 있으므로 사용자 설명서를 참고하거나 Dell 고객 지원팀에 문의하는 것이 좋습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/how-do-you-adjust-keyboard-brightness-and-settings",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Sightful이 노트북이 해결하지 못한 문제를 해결하다: 디스플레이",
+      "summary": "Sightful은 노트북 디스플레이의 오랜 한계를 극복하기 위한 혁신적인 솔루션을 제시합니다. 전통적인 노트북 화면은 생산성과 사용자 경험 측면에서 여러 제약사항을 가지고 있었습니다. Sightful의 기술은 화면 품질, 크기, 그리고 사용 편의성을 근본적으로 개선하는 데 초점을 맞추고 있습니다. 이는 모바일 워크스테이션 시장에서 새로운 표준을 제시하며 전문가 사용자들의 업무 효율성을 크게 향상시킬 수 있습니다. Dell Technologies와의 협력을 통해 Sightful의 혁신은 더욱 광범위한 사용자층에게 전달될 것으로 예상됩니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/sightful-fixes-what-laptops-never-solved-the-screen",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "의료 AI: 파일럿에서 본격 운영으로",
+      "summary": "의료 기관들이 AI 기술을 파일럿 단계에서 실제 운영 환경으로 확대하고 있습니다. 이러한 전환 과정에서 데이터 품질, 보안, 규정 준수가 핵심 과제입니다. Dell Technologies의 인프라 솔루션은 의료 조직이 AI 프로젝트를 효과적으로 확장하는 데 필요한 성능과 안정성을 제공합니다. 의료 AI의 성공적인 본격 운영을 위해서는 적절한 기술 기반과 거버넌스 체계 구축이 필수적입니다. 클라우드와 엣지 컴퓨팅을 활용한 하이브리드 인프라 접근 방식이 의료 기관의 AI 전환을 가속화할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/healthcare-ai-from-pilot-to-production",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "원격 근무를 위한 가장 안전한 노트북 찾기",
+      "summary": "원격 근무 환경에서 노트북의 보안은 매우 중요한 고려사항입니다. 기업 데이터 보호와 개인정보 유출 방지를 위해 강화된 보안 기능이 필수적입니다. 신뢰할 수 있는 제조업체의 제품을 선택하고 정기적인 보안 업데이트를 유지해야 합니다. 다층 보안 기능, 생체 인식 기술, 암호화 기능 등을 갖춘 노트북을 우선적으로 고려해야 합니다. 원격 근무자들은 기업의 보안 정책을 준수하고 안전한 네트워크 환경을 구축하는 것이 중요합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/finding-the-most-secure-laptop-for-remote-work",
+      "date": "2026-10-01"
     },
     {
       "id": "aHR0cHM6Ly93d3cu",
@@ -561,7 +813,8 @@
     }
   ],
   "sources": {
-    "SecurityWeek": 55,
+    "SecurityWeek": 64,
+    "Dell": 19,
     "HPE": 4,
     "VAST Data": 3
   }
