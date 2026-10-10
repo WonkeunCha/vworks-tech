@@ -3,6 +3,15 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "임상 보고서를 구조화된 데이터로 변환하는 파이프라인 내부",
+      "summary": "임상 보고서를 체계적으로 분석하고 구조화된 데이터로 변환하는 과정은 의료 데이터 관리의 핵심입니다. 이러한 파이프라인을 통해 비정형 텍스트 기반의 임상 정보를 표준화된 형식으로 전환하면 의료 기관의 데이터 활용성을 크게 향상시킬 수 있습니다. 자동화된 데이터 처리 기술을 활용하면 수동 작업을 줄이고 정확성을 높일 수 있으며, 이는 결국 환자 치료 품질 개선으로 이어집니다. 구조화된 임상 데이터는 의료 분석, 연구, 그리고 의사결정에 더욱 효과적으로 활용될 수 있습니다. Dell Technologies의 솔루션은 이러한 복잡한 데이터 변환 과정을 효율적으로 지원하며, 의료 기관의 디지털 혁신을 가속화합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/inside-the-pipeline-turning-clinical-reports-into-structured-data",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "HPE, AMD Helios 첫 주문 확보... Vultr와 12억 달러 규모 거래",
       "summary": "HPE가 세계 최대 민간 클라우드 인프라 기업인 Vultr로부터 AMD Helios AI Rack 시스템 배포 관련 12억 달러 규모의 주문을 확보했다. 이는 HPE의 AMD Helios 신규 시스템에 대한 첫 주문으로, HPE의 목적 최적화 네트워킹 스케일업 스위칭 및 소프트웨어를 탑재하고 있다. Vultr는 미국 내 클라우드 데이터센터 위치에 이 시스템들을 배포할 계획이다. HPE와 AMD는 AI 데이터센터에서 모델 훈련 및 추론 작업에 대한 서비스 제공자 및 엔터프라이즈 수요 충족을 위해 Vultr를 지원할 예정이다.",
       "category": "HPC·서버",
@@ -11775,10 +11784,10 @@
     }
   ],
   "sources": {
+    "Dell": 177,
     "HPE": 34,
     "VAST Data": 49,
     "SecurityWeek": 597,
-    "Dell": 176,
     "보안뉴스": 452
   }
 }
