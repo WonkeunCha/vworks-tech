@@ -3965,9 +3965,19 @@
     "https://www.securityweek.com/us-disrupts-chinese-state-sponsored-hacking-tools/",
     "https://www.securityweek.com/anthropic-fast-tracks-ai-bug-reports-to-oss-maintainers-taps-11-firms-for-ot-security/",
     "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
-    "https://www.securityweek.com/google-pixel-10-exploits-earned-hackers-560000-at-pwn2own/"
+    "https://www.securityweek.com/google-pixel-10-exploits-earned-hackers-560000-at-pwn2own/",
+    "https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "산업 기업을 대상으로 한 내부자 사이버 갈취 사건, 엔지니어 구속",
+      "summary": "한 엔지니어가 근무하던 산업 기업을 상대로 사이버 갈취를 시도한 내부자 범죄로 투옥되었다. 이 사건은 회사 내부 직원이 자신의 접근 권한을 악용하여 기업 시스템에 침입하고 민감한 정보를 탈취한 후 금전을 요구한 전형적인 내부자 위협(Insider Threat) 사례이다. 사이버 갈취는 기업에 심각한 재정적, 평판적 손실을 초래할 수 있는 조직 범죄이다. 이 사건은 기업이 직원 접근 권한 관리와 내부 보안 감시의 중요성을 강조한다. 전문가들은 직원 신원 조회, 행동 모니터링, 접근 권한 최소화 등의 예방 조치를 강화할 것을 권고하고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/",
+      "date": "2026-10-10"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "OpenAI, AI 위험성 논쟁으로 안전 연구원 3명 해고",
@@ -12958,17 +12968,8 @@
       "source": "Dell",
       "sourceUrl": "https://www.dell.com/en-us/blog/teaching-a-robot-to-dance/",
       "date": "2026-07-22"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "올플래시 스토리지의 새로운 시대가 시작되다",
-      "summary": "IT 환경의 가장 까다로운 요구사항에 대응할 수 있는 가장 강력한 스토리지 플랫폼이 출시되었습니다. 이 새로운 올플래시 스토리지 솔루션은 업계에서 가장 높은 성능과 안정성을 제공하도록 설계되었습니다. 데이터 센터의 현대적 과제들을 해결하기 위해 최첨단 기술이 적용되었습니다. 기업들은 이제 더욱 빠른 데이터 처리와 향상된 워크로드 성능을 기대할 수 있습니다. 이는 차세대 스토리지 기술의 새로운 기준을 제시하는 중요한 이정표가 될 것입니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/the-next-era-of-all-flash-storage-starts-today/",
-      "date": "2026-07-22"
     }
   ],
-  "totalItems": 3966,
+  "totalItems": 3967,
   "hasArchive": true
 }
