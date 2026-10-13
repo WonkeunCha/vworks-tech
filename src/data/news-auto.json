@@ -3966,9 +3966,139 @@
     "https://www.securityweek.com/anthropic-fast-tracks-ai-bug-reports-to-oss-maintainers-taps-11-firms-for-ot-security/",
     "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
     "https://www.securityweek.com/google-pixel-10-exploits-earned-hackers-560000-at-pwn2own/",
-    "https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/"
+    "https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/",
+    "https://www.dell.com/blog/halliburton-s-vda-bringing-sovereign-ai-to-drilling-operations",
+    "https://www.hpe.com/us/en/newsroom/blog-post/2026/10/why-future-ai-data-centers-need-to-be-open-and-heterogeneous.html",
+    "https://www.hpe.com/us/en/newsroom/blog-post/2026/10/ai-resilience-what-customers-should-demand-beyond-uptime.html",
+    "https://www.vastdata.com/blog/data-infra-is-not-storage-ja",
+    "https://www.vastdata.com/blog/from-json-to-queryable-columns",
+    "https://www.securityweek.com/ionq-to-acquire-zero-trust-firm-elisity-for-up-to-1-3-billion/",
+    "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/",
+    "https://www.securityweek.com/canonical-websites-disrupted-in-second-ddos-attack-this-year/",
+    "https://www.securityweek.com/mastermind-of-15000-mule-cybercrime-laundering-network-pleads-guilty-in-us/",
+    "https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people/",
+    "https://www.securityweek.com/ransomware-response-expert-arrested-in-shinyhunters-fbi-hack-probe/",
+    "https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/",
+    "https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Data Infra Is Not Storage Ja",
+      "summary": "VAST Data 블로그: Data Infra Is Not Storage Ja",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/data-infra-is-not-storage-ja",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "할리버튼의 VDA: 드릴링 작업에 주권형 AI 도입",
+      "summary": "할리버튼은 Dell Technologies와 협력하여 드릴링 작업에 특화된 주권형 AI 솔루션인 VDA(Vertical Drilling Assistant)를 개발했습니다. 이 솔루션은 엣지 컴퓨팅과 온프레미스 인프라를 활용하여 민감한 운영 데이터의 보안과 독립성을 보장합니다. VDA는 머신러닝 모델을 통해 드릴링 효율을 최적화하고 운영 비용을 절감하며 안전성을 향상시킵니다. 주권형 AI 접근 방식은 규제 요구사항을 충족하면서도 조직의 데이터 주권을 유지합니다. 이러한 혁신적 사례는 에너지 업계에서 신뢰할 수 있는 AI 기술의 실제 적용 가능성을 보여줍니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/halliburton-s-vda-bringing-sovereign-ai-to-drilling-operations",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미래 AI 데이터센터는 개방적이고 이질적이어야 한다",
+      "summary": "AI는 단순한 워크로드를 넘어 진화하고 있으며, 학습에서 추론으로, 생성형 AI에서 에이전트형 AI로 전환되면서 엣지, 클라우드, 소버린 시스템 등 분산 환경에서 서비스로 실행될 것이다. 미래의 AI 시스템은 이질적 구조를 가질 것으로 예상되며, 하나의 아키텍처나 플랫폼에 의존하기보다는 다양한 요구사항을 가진 워크로드들이 여러 종류의 가속기, 프로세서, 인프라의 혼합이 필요할 것이다. 이러한 새로운 AI 시대에는 새로운 과제들이 함께 나타날 것으로 예상된다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/10/why-future-ai-data-centers-need-to-be-open-and-heterogeneous.html",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 복원력: 가동 시간 이상으로 고객이 요구해야 할 것",
+      "summary": "지난 수십 년간 복원력은 주로 서비스 가용성과 복구 속도 두 가지 질문으로 측정되어 왔습니다. 이러한 지표들은 여전히 중요하지만, AI의 등장으로 표준이 높아지고 있습니다. AI가 비즈니스 운영에 내재됨에 따라, 복원력은 워크로드, 에이전트, 데이터, 애플리케이션 및 인프라의 상호 연결된 환경을 고려해야 합니다. AI 시대에는 AI 모델이 온라인 상태를 유지하고 계속 출력을 생성하며 건강해 보이지만, 실제로는 의존하는 컨텍스트가 중단된 상태일 수 있습니다. 따라서 AI 환경에서의 복원력 실패는 감지하고 포함시키기가 어려울 수 있습니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/10/ai-resilience-what-customers-should-demand-beyond-uptime.html",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "JSON에서 쿼리 가능한 칼럼으로의 변환",
+      "summary": "VAST Data의 블로그 기사는 Kafka 토픽으로 생산된 JSON 주문 기록을 타입이 지정된 칼럼으로 쿼리하는 방법을 설명합니다. 별도의 컨슈머 그룹이나 처리 파이프라인 없이 Blob Expansion을 통해 메시지 수집 시점에 JSON을 대상 테이블의 칼럼으로 변환합니다. 이 예제에서는 release-5.5.0-sp1 클러스터를 사용하며, VAST Event Broker가 VAST AI OS의 일부로 포함되어 있어 별도의 Kafka 설치가 필요하지 않습니다. 설정은 KAFKA 프로토콜과 가상 IP 풀을 사용하는 뷰를 구성하고, 두 개의 CLI 명령으로 브로커 설정을 완료합니다. Blob Expansion은 GUI, CLI, REST API 또는 Python SDK를 통해 토픽 및 대상 테이블과 마찬가지로 관리되는 일급 데이터베이스 객체입니다. 추가로 형식이 잘못된 메시지와 스키마 변경에 대한 처리도 Expansion을 재생성하지 않고도 지원합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/from-json-to-queryable-columns",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "IonQ, 영지식증명 기반 제로트러스트 보안기업 Elisity를 최대 13억 달러에 인수",
+      "summary": "양자컴퓨팅 기업 IonQ가 제로트러스트 네트워크 보안 솔루션 제공업체 Elisity를 최대 13억 달러에 인수하기로 합의했습니다. 이번 인수는 IonQ의 양자기술과 Elisity의 영지식증명 기반 제로트러스트 보안 솔루션을 통합하여 다음 세대 사이버보안 플랫폼을 구축하려는 전략입니다. Elisity의 기술은 기존의 신뢰 기반 네트워크 보안에서 벗어나 모든 접근을 검증하는 제로트러스트 아키텍처를 제공합니다. 이를 통해 양자 내성이 있는 고급 암호화 및 인증 솔루션을 개발할 수 있을 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ionq-to-acquire-zero-trust-firm-elisity-for-up-to-1-3-billion/",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Bricksforge 워드프레스 플러그인 취약점이 실제 공격에 악용 중",
+      "summary": "Bricksforge 워드프레스 플러그인의 보안 취약점이 현재 실제 사이버 공격에 악용되고 있습니다. 이 취약점을 통해 공격자들은 영향을 받는 워드프레스 사이트에 대해 악의적인 행동을 수행할 수 있습니다. 해당 플러그인을 사용 중인 웹사이트 관리자들은 즉시 보안 패치를 적용하여 시스템을 보호해야 합니다. SecurityWeek에서 보도한 이 사건은 워드프레스 생태계의 플러그인 보안이 지속적인 위협 대상임을 시사합니다. 사용자들은 플러그인의 업데이트 상황을 주시하고 신속히 대응할 필요가 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "캐노니컬 웹사이트, 올해 두 번째 DDoS 공격으로 중단",
+      "summary": "캐노니컬(Canonical)의 웹사이트가 올해 두 번째 DDoS(분산 서비스 거부) 공격으로 인해 중단되었습니다. 이 공격은 우분투(Ubuntu)를 비롯한 캐노니컬의 주요 온라인 서비스를 영향을 미쳤습니다. 공격자들은 대량의 트래픽을 통해 서비스 가용성을 방해하려는 시도를 했습니다. 이는 캐노니컬이 올해 안에 반복적인 사이버 공격의 표적이 되고 있음을 시사합니다. 회사는 현재 상황 복구와 향후 공격 방어 방안을 강구하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/canonical-websites-disrupted-in-second-ddos-attack-this-year/",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "15,000명의 뮬을 이용한 사이버범죄 자금세탁 조직 수괴, 미국에서 유죄 인정",
+      "summary": "대규모 사이버범죄 자금세탁 조직의 수괴가 미국에서 유죄를 인정했습니다. 이 조직은 약 15,000명의 돈세탁 뮬(money mule)을 활용하여 불법 자금을 이동시키는 네트워크를 운영했습니다. 이는 조직적으로 구성된 국제 사이버범죄 자금 흐름 시스템의 적발을 보여주는 사례입니다. 해당 뮬들은 주로 모르는 사이에 불법 자금 이체에 이용되었던 것으로 보입니다. 이번 사건은 전 세계적인 사이버범죄 자금세탁 네트워크의 규모와 심각성을 드러내고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/mastermind-of-15000-mule-cybercrime-laundering-network-pleads-guilty-in-us/",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "iRhythm 데이터 유출 사건, 최소 36만 명 영향",
+      "summary": "심장질환 진단 기기 제조사인 iRhythm이 2026년 6월 대규모 데이터 유출 사건을 경험했으며, 최소 36만 명 이상의 심장 환자의 개인정보가 해킹되었습니다. 이번 사건으로 인해 환자들의 민감한 의료 정보가 유출될 위험에 처하게 되었습니다. SecurityWeek에서 보도한 이 사건은 의료 부문의 사이버보안 취약성을 다시 한 번 부각시켰습니다. iRhythm은 피해를 입은 환자들에게 적절한 통지와 신용 모니터링 서비스 제공 등의 대응을 진행 중인 것으로 알려졌습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people/",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "랜섬웨어 대응 전문가, ShinyHunters FBI 해킹 수사에서 체포",
+      "summary": "FBI 해킹 사건과 관련된 수사에서 랜섬웨어 대응 전문가가 체포되었습니다. ShinyHunters로 알려진 해킹 그룹과의 연관성이 조사 대상이 되고 있습니다. 이 사건은 사이버보안 업계 내부자가 범죄에 연루된 것으로 보여 업계에 큰 충격을 주고 있습니다. FBI는 해킹 사건의 전모를 파악하기 위해 수사를 진행 중입니다. 이번 체포는 사이버범죄 수사에서 법 집행기관의 활동이 강화되고 있음을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ransomware-response-expert-arrested-in-shinyhunters-fbi-hack-probe/",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "공개 후 며칠 만에 악용되는 심각한 SonicWall 취약점",
+      "summary": "SonicWall의 심각한 보안 취약점이 공개된 지 불과 며칠 만에 실제 공격에 악용되고 있습니다. 이번 취약점은 CVSS 점수가 높은 수준으로 평가되어 긴급한 위협으로 인식되고 있습니다. 보안 연구원들은 공격자들이 빠르게 익스플로잇을 개발하여 활용하고 있음을 확인했습니다. SonicWall은 즉시 보안 패치를 배포하도록 사용자들에게 권고하고 있습니다. 이 사건은 보안 취약점 공개 후 대응 시간의 중요성을 다시 한 번 보여주고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Let's Encrypt, 인증서 유효 기간을 64일로 단축 - 45일 전환 앞서",
+      "summary": "Let's Encrypt가 SSL/TLS 인증서의 기본 유효 기간을 현재의 64일로 단축했으며, 향후 45일로 더욱 줄일 계획입니다. 이는 인증서의 자동 갱신 주기를 더 빈번하게 함으로써 보안을 강화하려는 조치입니다. 짧은 유효 기간은 손상된 인증서가 악용될 수 있는 기간을 제한하고, 보안 위협에 더 빠르게 대응할 수 있게 합니다. 이 변화에 따라 웹사이트 운영자들은 인증서 갱신 프로세스를 더 자주 진행해야 합니다. Let's Encrypt는 점진적인 전환을 통해 사용자들이 새로운 정책에 적응할 수 있도록 지원하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch/",
+      "date": "2026-10-12"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "산업 기업을 대상으로 한 내부자 사이버 갈취 사건, 엔지니어 구속",
@@ -12851,125 +12981,8 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/upbound-group-says-data-breach-led-to-13-million-in-fraudulent-contract-losses/",
       "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "아사프 케렌, 메타의 새로운 CISO로 임명",
-      "summary": "아사프 케렌(Assaf Keren)이 소셜 미디어 거대 기업 메타(Meta)의 새로운 최고정보보안책임자(CISO)로 임명되었다고 수요일에 발표했습니다. 이번 임명은 메타의 정보보안 전략과 관리 체계의 중요한 변화를 나타냅니다. 케렌은 기업의 정보보호 및 사이버보안 정책을 총괄할 책임을 맡게 됩니다. 이 인사는 메타가 점증하는 사이버보안 위협과 데이터 보호에 대한 규제 요구에 대응하기 위한 경영진 재편성의 일부입니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/assaf-keren-appointed-new-ciso-of-meta/",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Check Point 새로운 제로데이 취약점, 실제 공격에 악용 중",
-      "summary": "Check Point 보안 솔루션에서 새로운 제로데이 취약점이 발견되어 현재 실제 공격에 악용되고 있습니다. 이 취약점은 아직 패치가 공개되지 않은 상태에서 야생에서 적극적으로 악용되고 있으며, 전 세계 기업들의 보안에 심각한 위협이 되고 있습니다. SecurityWeek의 보도에 따르면 이 공격은 상당한 규모의 영향력을 미치고 있으며, 사용자들은 즉시 대응이 필요한 상황입니다. Check Point는 이 취약점에 대한 보안 권고와 임시 해결책을 발표할 것으로 예상됩니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/new-check-point-zero-day-vulnerability-exploited-in-the-wild/",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "미국, 이란 해커들의 지멘스·슈나이더·록웰 ICS 기기 공격 경고",
-      "summary": "미국이 이란 소속 해커들이 지멘스, 슈나이더 일렉트릭, 록웰 오토메이션 등 주요 산업제어시스템(ICS) 제조사의 기기들을 표적으로 삼고 있다는 경고를 발령했다. 이란 지원 사이버 위협 행위자들은 산업 기반시설과 중요 인프라를 대상으로 한 공격 캠페인을 진행 중인 것으로 알려졌다. 해당 ICS 기기들은 전 세계 제조업, 에너지, 화학, 수도 등 다양한 핵심 산업 부문에서 광범위하게 사용되고 있어 피해 범위가 클 수 있다. 미국 정부 기관들은 관련 조직들에게 방어 태세 강화와 위협 인텔리전스 공유를 권고하고 있다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/us-warns-of-iranian-hackers-targeting-siemens-schneider-and-rockwell-ics-devices/",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "AI 거센 물결, 안전은?... 시대가 부른 보안 스타트업들 ‘진격’",
-      "summary": "AI 레드티밍·가드레일, 동형암호, 취약점 관리 플랫폼 등 성장 각광[보안뉴스 강현주 기자] AI의 비약적인 발전은 전세계 산업과 일상의 변화를 거센 속도로 이끌고 있다. 다양한 분야에서 AI로 생산성을 크게 높이고 있으며, 고도의 전문 기술이 없어도 AI로 아이디어를 실현할 수 있는 시대가 왔다. 하지만 악의적 이용자들의 의도 역시 AI를 통해 쉽게 실현",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144825&kind=&sub_kind=",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[김정덕의 인간중심보안-15] 보안 자가면역질환을 치유하라",
-      "summary": "무균실의 환상을 벗어나 `인간중심보안`으로[연재목차 Part 3. 인간중심보안과 보안문화]1. AI 시대, 왜 인간 중심 보안인가2. AI 시대, 인간 중심 보안을 구현하려면3. 인간의 창의성과 AI 보안4. 보안 위반, 뇌 과학 해법5. 넛지 보안의 힘6. 감정과 비합리성, 보안의 숨은 힘7. 디지털 야누스, 두얼굴의 사용자8. ‘인간중심보안’과 ‘제로트",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144823&kind=&sub_kind=",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "필수 동의 뒤에 숨은 데이터 싹쓸이... 개인정보위, 틱톡·애플 제재",
-      "summary": "틱톡, 945만명 타사 행태정보 무단 수집·맞춤형 광고 활용으로 103억 과징금애플, Siri 음성 전사문 동의 없이 이용 및 계열사 국외 이전 고지 미흡 제재개인정보위 “해외 사업자도 국내 이용자 자기결정권 보장 의무 엄정 적용”[보안뉴스 조재호 기자] 해외 빅테크 기업의 불투명한 데이터 수집에 제동이 걸렸다. 개인정보보호위원회는 적법한 근거 없이 개인정",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144820&kind=&sub_kind=",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "스피어AX, GTEL ROBOT과 베트남 AI 공공안전 생태계 구축",
-      "summary": "Vision AI 기반 드론 교통안전 사업 본격 추진하노이를 시작으로 베트남 스마트 교통 및 공공안전 시장 공동 진출향후 Physical AI 기반 UAV 및 로봇 분야까지 협력 확대[보안뉴스 강초희 기자] Vision AI 전문기업 스피어AX(대표이사 박윤하)는 22일 베트남 공안부 산하 국영기업 GTEL ROBOT과 ‘Vision AI 기반",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144822&kind=&sub_kind=",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "인텔리빅스, 고속도로 CCTV 4000채널 AI 안전관제 구축... 돌발상황 실시간 탐지",
-      "summary": "한국도로공사 CCTV 4700대 ‘AI 전환 사업’ 수주터널·결빙구간·사고다발구간·정체구간 집중 관제[보안뉴스 강초희 기자] 안전 AI 딥테크 기업 인텔리빅스(대표 최은수·장정훈)가 전국 고속도로의 터널과 결빙 취약구간, 사고다발구간, 상습 정체구간을 대상으로 도로 위 돌발상황을 실시간으로 탐지하고 대응하는 AI 안전관제 체계를 구축한다.인텔리빅스는 한국지",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144821&kind=&sub_kind=",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "지란지교에스앤씨, 글로벌 AI 보안 솔루션 라인업 확대... 스텔스몰 단독 총판 및 X보우 파트너십 계약",
-      "summary": "다크웹 위협 인텔리전스(StealthMole)부터 AI 자율 침투테스트(XBOW)까지… AI 기반 보안 포트폴리오 강화[보안뉴스 한세희 기자] 지란지교에스앤씨(대표 남권우)는 글로벌 AI 기반 보안 기업들과 협력을 확대하며 AI 보안 포트폴리오를 강화했다고 23일 밝혔다. 지란지교에스앤씨는 AI 기반 다크웹·딥웹 위협 인텔리전스 솔루션 스텔스몰(Stealt",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144809&kind=&sub_kind=",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "사상 최악 랜섬웨어 대란... ‘킬린’(Qilin) 올 한 해 1358곳 공격",
-      "summary": "전 세계 피해 기업 7551곳으로 전년 대비 24.9%↑ 사상 최악 기록킬린, 전년 대비 443% 증가한 활동으로 가장 위협적인 카르텔 등극[보안뉴스 김형근 기자] 글로벌 보안 기업 블랙카이트 보고서에 따르면, 랜섬웨어 조직 ‘킬린’이 단일 조직 기준 최대 위협으로 부상했다. 피해 기업은 전년 대비 443% 폭증한 1358곳에 이른다. 글로벌 보안 기업",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144806&kind=&sub_kind=",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "안랩, ‘안랩 TIP’ API 전용 상품 출시",
-      "summary": "다양한 위협 정보를 API 형태로 제공이기종 연동, TI 조회 자동화, SOC 환경 고도화[보안뉴스 강현주 기자] 통합보안 기업 안랩(대표 강석균)은 차세대 위협 인텔리전스 플랫폼 ‘안랩 TIP’의 다양한 위협 정보를 애플리케이션 프로그래밍 인터페이스(API) 형태로 제공하는 ‘안랩 TIP API’(AhnLab TIP API)를 출시했다고 23일 밝혔다.",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144804&kind=&sub_kind=",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "케냐 대통령 공식 웹사이트 해킹 당해... 비트코인 몸값 요구",
-      "summary": "[보안뉴스 김형근 기자] 해킹 조직이 윌리엄 루토 케냐 대통령의 공식 웹사이트를 기습 침범해 메인 화면을 해커들의 메시지로 덮어씌우는 변조(Defacement) 공격을 감행했다.이들은 사이트 첫 화면에 5비트코인(약 33만달러) 수령용 암호화폐 지갑 주소를 내걸며 거액의 몸값을 요구했다.이들은 요구에 응하지 않을 경우 루토 대통령의 미공개 내부 자료를 외부",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144805&kind=&sub_kind=",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "로봇에게 춤을 가르치기",
-      "summary": "Mitch Chaiet는 로봇을 만져본 경험이 없었지만, 8개월 후 자신의 Unitree G1이 유명한 래퍼를 위해 춤을 추게 되었습니다. 그는 이를 가능하게 한 오픈소스 파이프라인을 공개하고 있습니다. 이 프로젝트는 로봇 공학에 대한 높은 진입장벽을 낮추고 누구나 로봇을 프로그래밍할 수 있음을 보여줍니다. 오픈소스 도구와 커뮤니티의 협력을 통해 복잡한 로봇 제어가 가능해졌습니다. 이러한 접근 방식은 로봇 기술의 민주화를 가속화하고 있습니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/teaching-a-robot-to-dance/",
-      "date": "2026-07-22"
     }
   ],
-  "totalItems": 3967,
+  "totalItems": 3980,
   "hasArchive": true
 }
