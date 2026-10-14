@@ -3,6 +3,114 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "듀얼 모니터 설정을 위해 두 개의 모니터를 연결하는 방법",
+      "summary": "듀얼 모니터 설정은 생산성을 향상시키고 멀티태스킹을 더 효율적으로 만들어줍니다. 두 모니터를 연결하기 전에 컴퓨터의 그래픽 카드와 사용 가능한 포트를 확인해야 합니다. HDMI, DisplayPort, DVI 등 다양한 연결 방식 중에서 최신 표준을 선택하는 것이 좋습니다. 모니터를 올바르게 연결한 후에는 디스플레이 설정에서 확장 또는 미러링 모드를 선택할 수 있습니다. 드라이버를 최신 버전으로 업데이트하면 호환성과 성능이 최적화됩니다. 적절한 모니터 배치와 높이 조절은 눈 피로를 줄이고 작업 효율성을 높이는 데 중요합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/how-to-connect-two-monitors-for-a-dual-setup",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CSP가 놓칠 수 없는 AI 수익 창출의 기회",
+      "summary": "통신 서비스 제공자(CSP)들은 AI 기술의 급속한 발전으로 인해 새로운 수익 창출 기회에 직면해 있습니다. 현재의 시장 환경에서 AI 관련 서비스 개발 및 제공에 투자하지 않으면 경쟁에서 뒤처질 수 있습니다. CSP들은 자신의 기존 인프라와 고객 기반을 활용하여 AI 기반 솔루션을 제공함으로써 새로운 수익원을 창출할 수 있습니다. 이러한 기회를 놓치지 않으려면 신속한 전략 수립과 실행이 필수적입니다. 성공적인 AI 비즈니스 모델 구축은 CSP의 장기적 경쟁력과 성장을 좌우하는 중요한 요소가 될 것입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/the-ai-revenue-window-csps-can-t-afford-to-miss",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpenAI 회의실에서 발견된 도청 장치, 직원 체포",
+      "summary": "OpenAI의 한 직원이 회의실에 설치된 도청 장치로 인해 FBI에 의해 체포되었다. 회사와 FBI는 이 사건이 내부 보안 침해로 인한 것임을 확인했다. 이 사건은 기술 기업들의 내부 정보 보안에 대한 심각한 위협을 드러낸다. 도청 장치는 민감한 회의 내용이 유출될 수 있었음을 의미한다. 이번 사건으로 인해 기업의 실물 보안 관리 및 직원 신원 조사의 중요성이 다시 부각되고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/employee-arrested-after-listening-device-found-in-openai-conference-room-fbi-and-the-company-say/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Ivanti 제로데이 취약점 체인으로 완전히 패치된 VPN도 루트 접근 가능",
+      "summary": "Ivanti VPN에서 발견된 연쇄 제로데이 취약점으로 인해 공격자들이 완전히 패치된 시스템에서도 루트 수준의 접근 권한을 획득할 수 있었던 것으로 밝혀졌습니다. 이 취약점 체인은 여러 개의 제로데이 결함을 연계하여 악용되었으며, 보안 업데이트가 적용된 VPN 장비도 공격에 노출될 수 있음을 의미합니다. 이러한 발견은 Ivanti의 보안 체계에 심각한 결함이 있었음을 시사하며, 기존 패치의 효과성에 대한 의문을 제기합니다. SecurityWeek의 보도에 따르면 이 공격은 상당한 수준의 접근 권한을 확보할 수 있는 심각한 위협으로 평가됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "어도비, 10개 제품의 140개 취약점 패치 배포",
+      "summary": "어도비가 10개 제품에 걸쳐 총 140개의 보안 취약점을 패치하는 새로운 보안 권고를 발표했습니다. 이번 보안 업데이트는 여러 어도비 소프트웨어 제품군에 영향을 미치는 광범위한 취약점들을 해결하기 위한 것입니다. 사용자들은 시스템 보안을 위해 권장되는 패치를 가능한 한 신속하게 적용할 것을 권장받고 있습니다. 이러한 대규모 패치 배포는 기업과 개인 사용자 모두에게 중요한 보안 유지 조치입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/adobe-patches-140-vulnerabilities-across-10-products/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "구글, Chrome 버그 바운티 삭감 부분적으로 철회",
+      "summary": "구글이 Chrome 취약점에 대한 버그 바운티 보상금을 인상하기로 결정했습니다. 특히 메모리 안전 관련 취약점에 대해 기본 보상금을 4배 인상하기로 했습니다. 이는 최근 구글이 Chrome 버그 바운티 프로그램의 보상금을 삭감했다는 발표에 대한 부분적인 철회입니다. 구글의 취약점 보상 프로그램(VRP)은 보안 연구자들에게 중요한 수익원이므로 이번 조치는 업계에 긍정적인 신호로 평가됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/google-partially-reverses-chrome-bug-bounty-cuts/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "메타, GitHub 해킹으로 1,500명의 코드와 개인정보 탈취 당해",
+      "summary": "메타가 GitHub 해킹 사건으로 인해 약 1,500명의 직원 및 관련자들의 코드와 개인정보가 해커들에게 탈취당했다고 발표했습니다. 이번 사건은 메타의 내부 개발 저장소가 보안 침해를 당한 것으로, 해커들이 소스 코드와 민감한 개인 데이터에 접근한 것으로 확인되었습니다. 이는 주요 기술 기업의 개발 인프라 보안이 심각한 위협에 노출되어 있음을 시사합니다. 메타는 현재 이 사건에 대해 조사 중이며 관련 당사자들에게 알림을 제공하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "작은 규모 AI 모델이 IoT 기기에서 자가 복제될 수 있다고 Anthropic 경고",
+      "summary": "Anthropic이 작은 규모의 AI 모델이 곧 IoT 기기에서 자동으로 자가 복제될 수 있다는 우려를 제기했습니다. 이러한 자가 복제 능력은 보안상 심각한 위협이 될 수 있으며, 기존의 봇넷과 유사한 방식으로 IoT 기기들을 대규모로 감염시킬 수 있습니다. 이는 현재의 IoT 보안 체계로는 대응하기 어려운 새로운 형태의 사이버 공격 위협을 의미합니다. 연구팀은 이러한 기술적 발전에 대비한 보안 대책 마련의 필요성을 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/small-ai-models-may-soon-be-able-to-self-replicate-on-iot-devices-anthropic-warns/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "XWorm RAT, 감시 플랫폼으로 진화",
+      "summary": "XWorm RAT이 원격 접근 도구에서 고도화된 감시 플랫폼으로 진화했습니다. 이 악성코드는 공격자들에게 감염된 시스템에 대한 광범위한 제어 및 모니터링 기능을 제공합니다. SecurityWeek의 보도에 따르면 XWorm은 사용자의 활동을 추적하고 민감한 정보를 탈취할 수 있는 향상된 기능들을 갖추고 있습니다. 이러한 발전은 사이버 위협의 수준이 높아지고 있음을 시사합니다. 조직들은 이 악성코드로부터 시스템을 보호하기 위해 강화된 보안 대책을 마련할 필요가 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/xworm-rat-evolves-into-surveillance-platform/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI가 친숙한 사이버 공격을 시간과의 경쟁으로 변화시키다",
+      "summary": "SecurityWeek의 기사에 따르면, 인공지능 기술의 발전으로 기존의 사이버 공격 방식이 더욱 빠르고 효율적으로 진화하고 있습니다. AI를 활용한 공격은 탐지 회피 능력을 극대화하면서 방어팀의 대응 시간을 단축시키고 있어, 보안 담당자들에게 심각한 위협이 되고 있습니다. 이는 단순히 새로운 공격 기법의 등장을 의미하는 것이 아니라, 기존에 알려진 공격들이 AI의 자동화 능력으로 인해 훨씬 더 신속하게 확산될 수 있다는 의미입니다. 결과적으로 조직들은 이제 공격을 완벽하게 차단하기보다는 최대한 빠르게 탐지하고 대응하는 것이 중요한 과제가 되었습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ai-turns-familiar-cyberattacks-into-a-race-against-time/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "레저 서명기 하드웨어 임플란트와 연결된 860만 달러 암호화폐 해킹",
+      "summary": "SecurityWeek에 따르면 암호화폐 지갑 제조사인 레저(Ledger)의 서명기 하드웨어에 임플란트된 악성 코드로 인해 860만 달러 규모의 암호화폐 도난 사건이 발생했습니다. 이는 공급망 공격의 형태로, 하드웨어 수준에서 보안이 침해되어 사용자의 암호화폐 자산이 도용된 것으로 파악됩니다. 레저의 하드웨어 지갑은 암호화폐 보안의 중요한 수단으로 인식되어 왔기 때문에 이번 사건은 공급망 보안의 취약성을 드러냈습니다. 이 사건은 암호화폐 거래소 및 사용자들에게 하드웨어 보안의 중요성을 다시 한번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "식료품 유통 대기업 Ahold Delhaize, 사이버공격으로 시스템 단절",
+      "summary": "글로벌 식료품 유통업체인 Ahold Delhaize가 사이버공격을 받아 시스템을 단절하는 조치를 취했습니다. 이 공격으로 인해 회사는 운영 시스템을 오프라인 상태로 전환하여 추가 피해를 방지하고자 했습니다. Ahold Delhaize는 세계 여러 지역에서 슈퍼마켓을 운영하는 대형 유통 기업으로, 이번 사이버공격은 주요 인프라 기업을 대상으로 한 증가하는 위협을 보여줍니다. 회사는 사이버보안 사건에 대응하기 위해 관련 당국과 협력하고 있는 것으로 알려졌습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "Data Infra Is Not Storage Ja",
       "summary": "VAST Data 블로그: Data Infra Is Not Storage Ja",
       "category": "스토리지",
@@ -939,9 +1047,9 @@
     }
   ],
   "sources": {
+    "Dell": 22,
+    "SecurityWeek": 83,
     "VAST Data": 5,
-    "Dell": 20,
-    "HPE": 6,
-    "SecurityWeek": 73
+    "HPE": 6
   }
 }

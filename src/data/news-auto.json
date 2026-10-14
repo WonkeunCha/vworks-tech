@@ -3979,9 +3979,129 @@
     "https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people/",
     "https://www.securityweek.com/ransomware-response-expert-arrested-in-shinyhunters-fbi-hack-probe/",
     "https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/",
-    "https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch/"
+    "https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch/",
+    "https://www.dell.com/blog/how-to-connect-two-monitors-for-a-dual-setup",
+    "https://www.dell.com/blog/the-ai-revenue-window-csps-can-t-afford-to-miss",
+    "https://www.securityweek.com/employee-arrested-after-listening-device-found-in-openai-conference-room-fbi-and-the-company-say/",
+    "https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn/",
+    "https://www.securityweek.com/adobe-patches-140-vulnerabilities-across-10-products/",
+    "https://www.securityweek.com/google-partially-reverses-chrome-bug-bounty-cuts/",
+    "https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/",
+    "https://www.securityweek.com/small-ai-models-may-soon-be-able-to-self-replicate-on-iot-devices-anthropic-warns/",
+    "https://www.securityweek.com/xworm-rat-evolves-into-surveillance-platform/",
+    "https://www.securityweek.com/ai-turns-familiar-cyberattacks-into-a-race-against-time/",
+    "https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/",
+    "https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "듀얼 모니터 설정을 위해 두 개의 모니터를 연결하는 방법",
+      "summary": "듀얼 모니터 설정은 생산성을 향상시키고 멀티태스킹을 더 효율적으로 만들어줍니다. 두 모니터를 연결하기 전에 컴퓨터의 그래픽 카드와 사용 가능한 포트를 확인해야 합니다. HDMI, DisplayPort, DVI 등 다양한 연결 방식 중에서 최신 표준을 선택하는 것이 좋습니다. 모니터를 올바르게 연결한 후에는 디스플레이 설정에서 확장 또는 미러링 모드를 선택할 수 있습니다. 드라이버를 최신 버전으로 업데이트하면 호환성과 성능이 최적화됩니다. 적절한 모니터 배치와 높이 조절은 눈 피로를 줄이고 작업 효율성을 높이는 데 중요합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/how-to-connect-two-monitors-for-a-dual-setup",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CSP가 놓칠 수 없는 AI 수익 창출의 기회",
+      "summary": "통신 서비스 제공자(CSP)들은 AI 기술의 급속한 발전으로 인해 새로운 수익 창출 기회에 직면해 있습니다. 현재의 시장 환경에서 AI 관련 서비스 개발 및 제공에 투자하지 않으면 경쟁에서 뒤처질 수 있습니다. CSP들은 자신의 기존 인프라와 고객 기반을 활용하여 AI 기반 솔루션을 제공함으로써 새로운 수익원을 창출할 수 있습니다. 이러한 기회를 놓치지 않으려면 신속한 전략 수립과 실행이 필수적입니다. 성공적인 AI 비즈니스 모델 구축은 CSP의 장기적 경쟁력과 성장을 좌우하는 중요한 요소가 될 것입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/the-ai-revenue-window-csps-can-t-afford-to-miss",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpenAI 회의실에서 발견된 도청 장치, 직원 체포",
+      "summary": "OpenAI의 한 직원이 회의실에 설치된 도청 장치로 인해 FBI에 의해 체포되었다. 회사와 FBI는 이 사건이 내부 보안 침해로 인한 것임을 확인했다. 이 사건은 기술 기업들의 내부 정보 보안에 대한 심각한 위협을 드러낸다. 도청 장치는 민감한 회의 내용이 유출될 수 있었음을 의미한다. 이번 사건으로 인해 기업의 실물 보안 관리 및 직원 신원 조사의 중요성이 다시 부각되고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/employee-arrested-after-listening-device-found-in-openai-conference-room-fbi-and-the-company-say/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Ivanti 제로데이 취약점 체인으로 완전히 패치된 VPN도 루트 접근 가능",
+      "summary": "Ivanti VPN에서 발견된 연쇄 제로데이 취약점으로 인해 공격자들이 완전히 패치된 시스템에서도 루트 수준의 접근 권한을 획득할 수 있었던 것으로 밝혀졌습니다. 이 취약점 체인은 여러 개의 제로데이 결함을 연계하여 악용되었으며, 보안 업데이트가 적용된 VPN 장비도 공격에 노출될 수 있음을 의미합니다. 이러한 발견은 Ivanti의 보안 체계에 심각한 결함이 있었음을 시사하며, 기존 패치의 효과성에 대한 의문을 제기합니다. SecurityWeek의 보도에 따르면 이 공격은 상당한 수준의 접근 권한을 확보할 수 있는 심각한 위협으로 평가됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "어도비, 10개 제품의 140개 취약점 패치 배포",
+      "summary": "어도비가 10개 제품에 걸쳐 총 140개의 보안 취약점을 패치하는 새로운 보안 권고를 발표했습니다. 이번 보안 업데이트는 여러 어도비 소프트웨어 제품군에 영향을 미치는 광범위한 취약점들을 해결하기 위한 것입니다. 사용자들은 시스템 보안을 위해 권장되는 패치를 가능한 한 신속하게 적용할 것을 권장받고 있습니다. 이러한 대규모 패치 배포는 기업과 개인 사용자 모두에게 중요한 보안 유지 조치입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/adobe-patches-140-vulnerabilities-across-10-products/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "구글, Chrome 버그 바운티 삭감 부분적으로 철회",
+      "summary": "구글이 Chrome 취약점에 대한 버그 바운티 보상금을 인상하기로 결정했습니다. 특히 메모리 안전 관련 취약점에 대해 기본 보상금을 4배 인상하기로 했습니다. 이는 최근 구글이 Chrome 버그 바운티 프로그램의 보상금을 삭감했다는 발표에 대한 부분적인 철회입니다. 구글의 취약점 보상 프로그램(VRP)은 보안 연구자들에게 중요한 수익원이므로 이번 조치는 업계에 긍정적인 신호로 평가됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/google-partially-reverses-chrome-bug-bounty-cuts/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "메타, GitHub 해킹으로 1,500명의 코드와 개인정보 탈취 당해",
+      "summary": "메타가 GitHub 해킹 사건으로 인해 약 1,500명의 직원 및 관련자들의 코드와 개인정보가 해커들에게 탈취당했다고 발표했습니다. 이번 사건은 메타의 내부 개발 저장소가 보안 침해를 당한 것으로, 해커들이 소스 코드와 민감한 개인 데이터에 접근한 것으로 확인되었습니다. 이는 주요 기술 기업의 개발 인프라 보안이 심각한 위협에 노출되어 있음을 시사합니다. 메타는 현재 이 사건에 대해 조사 중이며 관련 당사자들에게 알림을 제공하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "작은 규모 AI 모델이 IoT 기기에서 자가 복제될 수 있다고 Anthropic 경고",
+      "summary": "Anthropic이 작은 규모의 AI 모델이 곧 IoT 기기에서 자동으로 자가 복제될 수 있다는 우려를 제기했습니다. 이러한 자가 복제 능력은 보안상 심각한 위협이 될 수 있으며, 기존의 봇넷과 유사한 방식으로 IoT 기기들을 대규모로 감염시킬 수 있습니다. 이는 현재의 IoT 보안 체계로는 대응하기 어려운 새로운 형태의 사이버 공격 위협을 의미합니다. 연구팀은 이러한 기술적 발전에 대비한 보안 대책 마련의 필요성을 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/small-ai-models-may-soon-be-able-to-self-replicate-on-iot-devices-anthropic-warns/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "XWorm RAT, 감시 플랫폼으로 진화",
+      "summary": "XWorm RAT이 원격 접근 도구에서 고도화된 감시 플랫폼으로 진화했습니다. 이 악성코드는 공격자들에게 감염된 시스템에 대한 광범위한 제어 및 모니터링 기능을 제공합니다. SecurityWeek의 보도에 따르면 XWorm은 사용자의 활동을 추적하고 민감한 정보를 탈취할 수 있는 향상된 기능들을 갖추고 있습니다. 이러한 발전은 사이버 위협의 수준이 높아지고 있음을 시사합니다. 조직들은 이 악성코드로부터 시스템을 보호하기 위해 강화된 보안 대책을 마련할 필요가 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/xworm-rat-evolves-into-surveillance-platform/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI가 친숙한 사이버 공격을 시간과의 경쟁으로 변화시키다",
+      "summary": "SecurityWeek의 기사에 따르면, 인공지능 기술의 발전으로 기존의 사이버 공격 방식이 더욱 빠르고 효율적으로 진화하고 있습니다. AI를 활용한 공격은 탐지 회피 능력을 극대화하면서 방어팀의 대응 시간을 단축시키고 있어, 보안 담당자들에게 심각한 위협이 되고 있습니다. 이는 단순히 새로운 공격 기법의 등장을 의미하는 것이 아니라, 기존에 알려진 공격들이 AI의 자동화 능력으로 인해 훨씬 더 신속하게 확산될 수 있다는 의미입니다. 결과적으로 조직들은 이제 공격을 완벽하게 차단하기보다는 최대한 빠르게 탐지하고 대응하는 것이 중요한 과제가 되었습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ai-turns-familiar-cyberattacks-into-a-race-against-time/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "레저 서명기 하드웨어 임플란트와 연결된 860만 달러 암호화폐 해킹",
+      "summary": "SecurityWeek에 따르면 암호화폐 지갑 제조사인 레저(Ledger)의 서명기 하드웨어에 임플란트된 악성 코드로 인해 860만 달러 규모의 암호화폐 도난 사건이 발생했습니다. 이는 공급망 공격의 형태로, 하드웨어 수준에서 보안이 침해되어 사용자의 암호화폐 자산이 도용된 것으로 파악됩니다. 레저의 하드웨어 지갑은 암호화폐 보안의 중요한 수단으로 인식되어 왔기 때문에 이번 사건은 공급망 보안의 취약성을 드러냈습니다. 이 사건은 암호화폐 거래소 및 사용자들에게 하드웨어 보안의 중요성을 다시 한번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "식료품 유통 대기업 Ahold Delhaize, 사이버공격으로 시스템 단절",
+      "summary": "글로벌 식료품 유통업체인 Ahold Delhaize가 사이버공격을 받아 시스템을 단절하는 조치를 취했습니다. 이 공격으로 인해 회사는 운영 시스템을 오프라인 상태로 전환하여 추가 피해를 방지하고자 했습니다. Ahold Delhaize는 세계 여러 지역에서 슈퍼마켓을 운영하는 대형 유통 기업으로, 이번 사이버공격은 주요 인프라 기업을 대상으로 한 증가하는 위협을 보여줍니다. 회사는 사이버보안 사건에 대응하기 위해 관련 당국과 협력하고 있는 것으로 알려졌습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/",
+      "date": "2026-10-13"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "Data Infra Is Not Storage Ja",
@@ -12873,116 +12993,8 @@
       "source": "Dell",
       "sourceUrl": "https://www.dell.com/en-us/blog/boost-your-home-wifi-signal-fixes-that-work/",
       "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "TPM과 AI로 거절을 인정으로 바꾸기",
-      "summary": "Chisom Ezeilo는 정해진 하나의 경로를 선택하지 않고 자신만의 길을 개척했습니다. 이는 야심, 정체성, 그리고 커리어가 어떤 모습일 수 있는지를 재정의하는 이야기입니다. TPM(Technical Program Manager)으로서의 경력과 AI 활용을 통해 초기의 거절들을 성공의 발판으로 삼았습니다. 자신의 독특한 배경과 경험을 강점으로 활용하여 기술 산업에서 새로운 기회를 창출했습니다. 이 사례는 비전통적인 경로가 얼마나 혁신적이고 의미 있는 커리어를 만들 수 있는지를 보여줍니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/turning-rejection-into-recognition-with-tpm-and-ai/",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Vivek Luhaniwal 만나기: Dell의 데이터 보호 미래를 형성하다",
-      "summary": "Vivek Luhaniwal은 Dell Technologies의 인턴에서 시니어 소프트웨어 엔지니어로 성장한 경력을 통해 학습, 혁신, 그리고 고객 영향력의 중요성을 보여줍니다. 그의 여정은 첫날부터 의미 있는 기여가 가능함을 증명합니다. Dell Technologies는 직원들이 데이터 보호 기술의 미래를 형성하는 데 적극적으로 참여할 수 있는 환경을 제공합니다. 이러한 성장 기회는 조직의 혁신 문화와 인재 개발 철학을 반영합니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/meet-vivek-luhaniwal-shaping-dell-s-data-protection-future/",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "AI 네이티브 텔레콤 가속화를 위한 6가지 필수 과제",
-      "summary": "통신사는 네트워크 현대화를 AI 기반 자동화로 전환하여 운영 효율성을 대폭 향상시킬 수 있습니다. AI 네이티브 운영 체계 도입을 통해 기존의 수동 프로세스를 자동화하고 의사결정 속도를 가속화할 수 있습니다. 새로운 수익화 기회 창출을 위해 AI 기반의 개인화된 서비스와 프리미엄 솔루션 개발이 필수적입니다. 텔레콤 산업의 디지털 혁신은 단순한 기술 도입이 아니라 비즈니스 모델 전체의 재구성을 의미합니다. 통신사들이 AI 네이티브 기업으로 진화하려면 조직, 기술, 프로세스의 통합적 변화가 필요합니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/six-imperatives-to-accelerate-the-ai-native-telecom/",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "90분 안에 NVIDIA의 AI 프로덕션 스택 배우기",
-      "summary": "NVIDIA의 AI 도구는 프로덕션의 모든 단계에 걸쳐 광범위하게 활용됩니다. 바쁜 전문가들을 위해 설계된 전문가 주도의 워크숍을 통해 높은 수요의 기술에 대한 숙련도를 확보할 수 있습니다. 이 프로그램은 짧은 시간 내에 필수적인 AI 프로덕션 기술을 습득하도록 구성되어 있습니다. NVIDIA의 AI 스택에 대한 포괄적인 이해를 통해 업무 효율성을 높일 수 있습니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/learn-nvidia-s-ai-production-stack-in-90-minutes/",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "HPE, 6세대 AMD EPYC 프로세서 기반 슈퍼컴퓨팅으로 AI 과학 분야 최고 밀도 성능 제공",
-      "summary": "HPE는 샌프란시스코에서 개최된 AMD Advancing AI 2026 행사에서 6세대 AMD EPYC 프로세서를 탑재한 HPE Cray 슈퍼컴퓨팅 GX5000을 선보였습니다. GX5000은 엑사스케일 성능 기록을 세우고 전 세계 최고 속도 슈퍼컴퓨터 상위 10개 순위를 주도해온 이전 HPE 슈퍼컴퓨팅 아키텍처의 성공을 기반으로 하며, AI 및 양자컴퓨팅과 관련된 복잡한 과학 및 엔지니어링 문제 해결을 지원합니다. GX5000은 경쟁사 제품 대비 라크당 40% 더 많은 AMD EPYC 9996 코어를 탑재하여 업계 최고 수준의 밀도 성능을 제공합니다.",
-      "category": "HPC·서버",
-      "source": "HPE",
-      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/07/hpe-delivers-industrys-highest-density-performance-for-ai-driven-science-with-supercomputing-powered-by-6th-gen-amd-epyc-processors.html",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "HBM 한계를 넘어서: VAST와 AMD를 통한 추론 가속화",
-      "summary": "현대적인 추론 파이프라인에서 'Time-to-First-Token(TTFT)'은 응답성을 나타내는 주요 지표입니다. 멀티턴 대화 중 에이전트 컨텍스트 윈도우가 128,000개 토큰 이상으로 증가하면서 KV 캐시는 사용자당 20-50GB에 달하게 되어, 수백 개의 동시 에이전트를 서빙하는 프로덕션 환경에서는 GPU 클러스터의 High Bandwidth Memory(HBM) 용량을 초과합니다. VAST와 AMD 엔지니어링 팀은 효율적인 추론을 위해 표준 재계산 방식과 VAST 최적화 KV 캐시 오프로딩을 128K 토큰 컨텍스트 길이에서 테스트했습니다. 테스트 환경은 AMD MI355X GPU, AMD Infinity Fabric 800Gb NIC, NFSv3 over RDMA 기반 VAST 스토리지, vLLM 0.22.1, GPT-oss 120B 모델을 사용했으며, 로컬 호스트 RAM과 원격 VAST 스토리지 두 가지 오프로딩 구성을 비교했습니다. nconnect을 32로 설정하고 Read-ahead를 8192로 증가시키는 최적화를 통해 1에서 300개 동시성 수준에서 성능을 평가하여 컨텍스트 재계산을 피하는 것의 이점을 입증했습니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/beyond-hbm-limits-accelerating-inference-with-vast-amd",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "OpenAI, ChatGPT 에이전트 결함 수정 - 공격자의 AI 내부자 위장 가능성 차단",
-      "summary": "OpenAI가 ChatGPT 에이전트의 보안 결함을 수정했습니다. 이 결함은 공격자가 피해 조직 내부에 보이지 않는 자율 AI 에이전트를 만들어 삽입하고 원격으로 제어할 수 있게 하는 'AgentForger'라는 공격 기법이었습니다. 이 취약점을 악용하면 공격자는 조직 내부의 정당한 사용자처럼 가장하여 민감한 정보에 접근하고 악의적인 작업을 수행할 수 있었습니다. OpenAI의 신속한 패치로 이러한 위협이 차단되었으며, 이는 생성형 AI 시스템의 보안이 얼마나 중요한지를 보여주는 사례입니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/openai-fixes-chatgpt-agent-flaw-that-could-let-attackers-forge-an-ai-insider/",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "패칭이 죽었는가? Post-Mythos 시대의 취약점 관리",
-      "summary": "이 기사는 전통적인 패칭 방식이 현대 사이버보안 환경에서 여전히 유효한지에 대한 질문을 제기합니다. Post-Mythos 시대로 불리는 새로운 보안 패러다임에서 취약점 관리 전략의 변화를 다룹니다. AI 기술의 발전에 따라 패칭 외에도 다양한 취약점 대응 방식이 등장하고 있습니다. 기존의 정기적 패칭 중심 체계에서 더욱 동적이고 지능화된 취약점 관리로의 전환이 이루어지고 있습니다. 조직들은 AI 기반의 자동화된 보안 솔루션과 전통적 패칭 방식 사이의 균형을 찾아야 합니다. 이는 향후 사이버보안 방어 전략의 근본적인 변화를 시사합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/is-patching-dead-vulnerability-management-in-the-post-mythos-era/",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "칙필레이 계정, 자격증명 채우기 공격으로 피해",
-      "summary": "칙필레이 사용자 계정들이 자격증명 채우기(credential stuffing) 공격의 대상이 되었습니다. 이 공격은 다른 서비스에서 유출된 사용자명과 비밀번호 조합을 이용하여 대량의 계정에 접근을 시도하는 기법입니다. 해당 공격으로 인해 고객 계정이 침해되었으며, 공격자들은 계정을 통해 개인정보에 접근할 수 있었던 것으로 보입니다. 칙필레이는 이 보안 사건에 대응하고 있으며 영향받은 사용자들에게 보안 조치를 권고하고 있습니다. 이 사건은 강력한 비밀번호 설정 및 다중 인증 사용의 중요성을 다시 한번 강조합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/chick-fil-a-accounts-get-fried-in-credential-stuffing-attack/",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Abstract, 컴포저블 보안운영 플랫폼 확장을 위해 2,500만 달러 자금 조달",
-      "summary": "사이버보안 기업 Abstract가 2,500만 달러 규모의 자금 조달을 완료했습니다. 이번 투자금은 컴포저블 보안운영 플랫폼(Composable Security Operations Platform) 확장에 사용될 예정입니다. 컴포저블 아키텍처는 조직이 다양한 보안 도구와 솔루션을 유연하게 통합할 수 있게 해줍니다. Abstract는 이 자금을 통해 플랫폼의 기능 강화와 시장 확대에 집중할 계획입니다. 이는 점점 복잡해지는 사이버 위협 환경에서 기업들의 보안운영센터(SOC) 현대화 수요를 반영한 것으로 보입니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/abstract-raises-25-million-to-expand-composable-security-operations-platform/",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "핵심 AI 모델들, 핵심시설 파괴 악성코드 벤치마크 테스트에서 대부분 실패",
-      "summary": "SentinelOne이 개발한 핵심시설 파괴를 목표로 하는 악성코드 벤치마크 테스트에서 대부분의 최신 프론티어 AI 모델들이 통과하지 못했다. 이 벤치마크는 AI 시스템이 악성코드 작성이나 사이버 공격 수행 능력을 평가하기 위해 설계되었다. 테스트 결과는 현재의 AI 모델들이 고도로 정교한 악성코드 생성 및 실행에는 여전히 제한적임을 보여준다. 이는 AI 기반 사이버 위협의 위험성을 평가하고 AI 보안 방어 능력을 개선하는 데 중요한 지표가 된다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/nuclear-sabotage-malware-benchmark-trips-up-most-frontier-ai-models/",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "업바운드 그룹, 데이터 유출로 인한 1,300만 달러 규모 사기성 계약 손실 보고",
-      "summary": "업바운드 그룹이 데이터 유출 사건으로 인해 1,300만 달러 규모의 사기성 계약 손실을 입었다고 발표했습니다. 유출된 데이터가 악의적으로 악용되어 허위 계약 및 금융 거래가 발생한 것으로 파악됩니다. 이 사건은 데이터 보안의 중요성과 유출 정보가 초래할 수 있는 심각한 재정적 피해를 보여주는 사례입니다. 보안 업체들은 기업들에게 강화된 데이터 보호 대책 마련을 권고하고 있습니다. 현재 관련 수사가 진행 중인 것으로 알려져 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/upbound-group-says-data-breach-led-to-13-million-in-fraudulent-contract-losses/",
-      "date": "2026-07-23"
     }
   ],
-  "totalItems": 3980,
+  "totalItems": 3992,
   "hasArchive": true
 }
