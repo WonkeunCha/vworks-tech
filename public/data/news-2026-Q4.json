@@ -3,6 +3,123 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "2026년 로컬에서 에이전트형 AI 워크플로우를 실행하기 위한 최고의 워크스테이션",
+      "summary": "로컬 환경에서 에이전트형 AI 워크플로우를 효율적으로 실행하기 위해서는 고성능 GPU, 충분한 메모리, 강력한 프로세서가 갖춰진 워크스테이션이 필수적입니다. 2026년 현재 NVIDIA의 최신 GPU와 인텔, AMD의 고급 프로세서를 탑재한 워크스테이션이 AI 모델 실행에 최적화되어 있습니다. 클라우드 서비스에 의존하지 않고 로컬에서 AI 작업을 수행할 수 있어 데이터 보안성과 처리 속도가 크게 향상됩니다. 기업과 개발자들은 자신의 워크로드 특성에 맞는 워크스테이션을 선택함으로써 생산성을 극대화할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/the-best-workstations-for-running-agentic-ai-workflows-locally-in-2026",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell, NVIDIA GTC Berlin 2026에서 완전한 AI 스택 선보인다",
+      "summary": "Dell Technologies는 NVIDIA GTC Berlin 2026에서 엔드-투-엔드 AI 솔루션을 제시하며, 인프라부터 소프트웨어까지 기업의 AI 도입을 위한 통합 스택을 제공합니다. Dell의 포트폴리오는 고성능 컴퓨팅, 데이터 관리, 그리고 AI 최적화 시스템을 포함하여 조직들이 AI의 잠재력을 최대한 활용할 수 있도록 지원합니다. 이번 행사를 통해 Dell은 NVIDIA와의 파트너십을 강화하며 기업 고객들에게 신뢰할 수 있는 AI 솔루션을 제공하겠다는 약속을 재확인합니다. Dell의 전략은 기술과 비즈니스 가치를 결합하여 고객들의 디지털 변환을 가속화하는 데 초점을 맞추고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/dell-is-bringing-the-full-ai-stack-to-nvidia-gtc-berlin-2026",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "콘텐츠 이동에서 지능 이동으로",
+      "summary": "인터넷 초기에 모든 요청을 중앙 서버로 보낼 수 없다는 문제를 해결하기 위해 콘텐츠를 사용자 근처로 옮기는 CDN이 등장했다. 이제 AI 추론이 유사한 문제를 제시하고 있으며, 이번에는 분산되어야 할 대상이 '지능'이다. AI 훈련은 대규모 GPU 클러스터 중심의 중앙 집중식 구조를 만들었지만, 추론은 다른 요구사항을 낳는다. 로봇의 물리적 의사결정, 거래 사기 탐지, 사용자 응답 등은 먼 GPU 클러스터까지의 왕복 시간을 감당할 수 없기 때문이다. Akamai는 이러한 새로운 아키텍처를 'AI 그리드'라고 부르며, 단순히 GPU를 여러 위치에 배치하는 것이 아니라 컴퓨팅 가용성, 데이터 지역성, 모델 가용성, 지연시간, 비용 등을 고려한 다차원 최적화를 의미한다. 분산 추론이 데이터 엔지니어링 문제가 되면서, VAST의 글로벌 네임스페이스는 지역적 복잡성을 추상화하여 애플리케이션이 데이터 위치를 정확히 알 필요 없이 데이터에 접근할 수 있게 한다. 결국 분산 AI에서는 워크로드의 특성에 따라 컴퓨팅을 데이터로 옮길지, 데이터를 컴퓨팅으로 옮길지 결정해야 하며, Akamai와 VAST는 이를 연속체로 접근하여 컴퓨팅, 모델, 데이터 파이프라인을 분산시키면서 이 복잡성을 숨기려고 노력 중이다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/from-moving-content-to-moving-intelligence",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 에이전트가 낯선 OT 시스템을 탐색하고 수 분 내에 장비를 움직일 수 있다고 부즈 앨런 발견",
+      "summary": "보즈 앨런 해밀턴의 연구에 따르면 AI 에이전트가 이전에 접해본 적 없는 산업 운영(OT) 시스템을 빠르게 탐색하고 제어할 수 있는 것으로 밝혀졌습니다. 이러한 AI 에이전트들은 시스템에 대한 사전 지식 없이도 단 몇 분 안에 물리적 장비를 조작하고 이동시킬 수 있습니다. 이 발견은 산업용 제어 시스템(ICS)과 운영 기술(OT) 환경에 대한 새로운 보안 위협을 시사합니다. 이는 기존의 보안 방어 체계가 AI 기반 공격에 충분히 대비되어 있지 않을 수 있음을 의미합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ai-agents-navigate-unfamiliar-ot-systems-and-move-equipment-in-minutes-booz-allen-finds/",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "ICS 패치 화요일: 지멘스 17개 보안권고 발표, 록웰 아머블록 장악 취약점 수정",
+      "summary": "지멘스가 17개의 보안 권고를 발표하며 ICS(산업제어시스템) 보안 업데이트를 단행했습니다. 록웰 오토메이션은 아머블록 관련 시스템 장악 취약점을 수정했으며, 슈나이더 일렉트릭도 함께 보안 패치를 제공했습니다. 이번 ICS 패치 화요일은 산업 기반시설을 노리는 사이버 위협에 대응하기 위한 중요한 업데이트 주기입니다. 제조업체들의 동시다발적 보안 권고는 ICS/OT 환경의 취약점이 광범위하게 존재함을 시사합니다. 조직들은 제시된 패치를 신속하게 적용하여 산업 시스템 보안을 강화해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ics-patch-tuesday-siemens-issues-17-advisories-rockwell-fixes-armorblock-takeover-flaw/",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "하모닉 시큐리티, 직원 AI 보안 보호를 위해 5천만 달러 자금 조달",
+      "summary": "사이버보안 회사 하모닉 시큐리티(Harmonic Security)가 직원 및 워크포스 대상의 AI 보안 위협으로부터 보호하는 솔루션 개발을 위해 5천만 달러 규모의 자금을 성공적으로 조달했습니다. 이번 펀딩은 조직 내에서 생성형 AI 도입이 가속화되면서 증가하는 보안 위험에 대응하기 위한 것입니다. 하모닉 시큐리티의 솔루션은 직원들의 AI 활용으로 인한 데이터 유출, 악용, 오용 등의 위협으로부터 기업을 보호하는 데 초점을 맞추고 있습니다. 이번 투자는 엔터프라이즈 보안 분야에서 AI 보안의 중요성이 높아지고 있음을 반영합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/harmonic-security-raises-50-million-for-workforce-ai-protection/",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "오늘의 가상 이벤트: 제로 트러스트 전략 서밋",
+      "summary": "SecurityWeek에서 개최하는 제로 트러스트 전략 서밋이 오늘 개최됩니다. 이 가상 이벤트는 네트워크 보안 분야의 주요 토픽인 제로 트러스트 아키텍처에 대해 다룹니다. 2026년 10월 14일에 개최되는 이 행사는 사이버보안 전문가들이 제로 트러스트 구현 전략과 아이덴티티 보안에 대해 논의하는 플랫폼을 제공합니다. 제로 트러스트는 '아무도 믿지 말라'는 원칙 하에 모든 사용자와 장치를 검증하는 현대적 보안 접근 방식입니다. 이 서밋을 통해 조직들은 제로 트러스트 전략 도입의 모범 사례와 실제 사례를 학습할 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/virtual-event-today-zero-trust-strategies-summit-2/",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, 10억 개 이상의 메시지를 배포한 중국어 피싱 시장 적발 및 차단",
+      "summary": "마이크로소프트가 10억 개 이상의 피싱 메시지를 전송한 중국어 기반 피싱 마켓플레이스를 적발하고 차단하는 데 성공했습니다. 이 작전은 'YAM Store'로 알려진 피싱 인프라 네트워크를 대상으로 진행되었습니다. 마이크로소프트의 이번 대규모 취하 조치는 사이버 범죄 조직의 피싱 활동을 차단하기 위한 법 집행 기관과의 협력의 일환입니다. 이는 중국어권을 대상으로 한 대규모 피싱 캠페인의 규모와 심각성을 드러내는 사건입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/microsoft-disrupts-chinese-language-phishing-market-behind-1b-messages/",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국, 북한 IT 근로자 노트북 팜(Laptop Farm) 적발로 2명 체포",
+      "summary": "미국 당국이 북한의 가짜 IT 근로자 노트북 팜 운영과 관련된 2명을 체포했습니다. 이는 'Famous Chollima'로 알려진 북한의 사이버 활동에 대한 단속 강화의 일환입니다. 노트북 팜은 원격 작업 플랫폼을 악용하여 북한 근로자들이 미국 내 합법적인 IT 일자리를 사칭하고 급여를 탈취하는 운영 방식으로 알려져 있습니다. 이번 적발을 통해 북한이 경제 제재를 우회하고 불법 자금을 조달하는 사이버 사기 네트워크의 규모와 정교함이 드러났습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/us-arrests-two-in-crackdown-on-north-korean-it-worker-laptop-farms/",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Chrome과 Firefox가 114개 결함을 패치, Mozilla는 Firefox Enterprise 공개",
+      "summary": "Google Chrome과 Mozilla Firefox가 각각 보안 취약점을 해결하는 업데이트를 배포했습니다. 이번 업데이트를 통해 총 114개의 결함이 패치되어 사용자들의 브라우저 보안이 강화됩니다. 동시에 Mozilla는 기업용 시장을 겨냥한 새로운 Firefox Enterprise 버전을 공개했습니다. 이 기업용 버전은 조직의 보안 요구사항과 관리 필요성을 충족하도록 설계되었습니다. 사용자들은 최신 보안 패치를 적용하기 위해 두 브라우저 모두 빠른 시일 내에 업데이트할 것을 권장합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/chrome-firefox-updates-patch-114-flaws-as-mozilla-unveils-firefox-enterprise/",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Citrix, Fortinet, Ivanti가 제품 전반에 걸쳐 29개 취약점 패치",
+      "summary": "Citrix, Fortinet, Ivanti 등 주요 보안 솔루션 업체들이 자사 제품에서 발견된 29개의 취약점에 대한 보안 패치를 릴리스했습니다. 이번 패치는 엔터프라이즈 환경에서 광범위하게 사용되는 네트워크 및 보안 제품들의 심각한 보안 결함을 해결합니다. SecurityWeek에서 보도한 이 뉴스는 기업 사용자들에게 적시에 보안 업데이트를 적용할 것을 강력히 권장하고 있습니다. 이러한 취약점들이 악용될 경우 시스템 침입 및 데이터 유출 등 심각한 보안 사고로 이어질 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, 기록적인 1,413개 취약점 패치 공개, 악용 중인 Windows 제로데이 포함",
+      "summary": "마이크로소프트가 역사상 가장 많은 수의 취약점인 1,413개를 패치했습니다. 이번 패치에는 현재 악용되고 있는 Windows 제로데이 취약점이 포함되어 있습니다. 제로데이는 공개되기 전에 이미 공격자들에 의해 악용되고 있는 심각한 보안 위협입니다. 이러한 대규모 패치는 마이크로소프트의 정기적인 패치 화요일(Patch Tuesday) 업데이트의 일환입니다. 보안 전문가들은 이번 업데이트를 즉시 적용할 것을 권장하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "SAP, NetWeaver 및 S/4HANA의 심각한 취약점 패치",
+      "summary": "SAP가 NetWeaver 및 S/4HANA 제품의 심각한 취약점에 대한 보안 패치를 출시했습니다. 이번 취약점들은 공격자가 악의적인 목적으로 악용할 수 있는 보안 결함입니다. SecurityWeek에 따르면 해당 취약점들이 기업 시스템에 미칠 수 있는 잠재적 영향은 상당한 것으로 평가됩니다. SAP는 사용자들에게 가능한 한 신속하게 패치를 적용할 것을 권고했습니다. 이번 패치는 기업의 중요한 시스템을 보호하기 위한 필수 보안 업데이트입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/sap-patches-critical-netweaver-s-4hana-vulnerabilities/",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "듀얼 모니터 설정을 위해 두 개의 모니터를 연결하는 방법",
       "summary": "듀얼 모니터 설정은 생산성을 향상시키고 멀티태스킹을 더 효율적으로 만들어줍니다. 두 모니터를 연결하기 전에 컴퓨터의 그래픽 카드와 사용 가능한 포트를 확인해야 합니다. HDMI, DisplayPort, DVI 등 다양한 연결 방식 중에서 최신 표준을 선택하는 것이 좋습니다. 모니터를 올바르게 연결한 후에는 디스플레이 설정에서 확장 또는 미러링 모드를 선택할 수 있습니다. 드라이버를 최신 버전으로 업데이트하면 호환성과 성능이 최적화됩니다. 적절한 모니터 배치와 높이 조절은 눈 피로를 줄이고 작업 효율성을 높이는 데 중요합니다.",
       "category": "서버",
@@ -1047,9 +1164,9 @@
     }
   ],
   "sources": {
-    "Dell": 22,
-    "SecurityWeek": 83,
-    "VAST Data": 5,
+    "Dell": 24,
+    "VAST Data": 6,
+    "SecurityWeek": 93,
     "HPE": 6
   }
 }
