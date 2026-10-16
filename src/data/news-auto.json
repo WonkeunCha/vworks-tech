@@ -4004,9 +4004,129 @@
     "https://www.securityweek.com/chrome-firefox-updates-patch-114-flaws-as-mozilla-unveils-firefox-enterprise/",
     "https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/",
     "https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/",
-    "https://www.securityweek.com/sap-patches-critical-netweaver-s-4hana-vulnerabilities/"
+    "https://www.securityweek.com/sap-patches-critical-netweaver-s-4hana-vulnerabilities/",
+    "https://www.dell.com/blog/ai-training-data-poisoning-is-the-risk-nobody-sees",
+    "https://www.dell.com/blog/how-to-flip-your-computer-screen-settings-shortcuts-and-quick-fixes",
+    "https://www.dell.com/blog/the-era-of-experience-runs-on-data-you-own",
+    "https://www.securityweek.com/context-is-king-in-the-fight-against-modern-cyberattacks/",
+    "https://www.securityweek.com/uk-legal-aid-agency-hack-scope-widens-after-forensic-review/",
+    "https://www.securityweek.com/supermarket-refrigeration-attack-widens-to-copeland-dixell-controllers/",
+    "https://www.securityweek.com/cikabika-bot-rat-uses-discord-for-cc/",
+    "https://www.securityweek.com/novel-android-banking-rat-hirudo-replaces-banking-apps-with-trojanized-copies/",
+    "https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/",
+    "https://www.securityweek.com/ciso-conversations-james-robinson-many-jobs-one-journey-to-netskope-ciso/",
+    "https://www.securityweek.com/palo-alto-networks-patches-pan-os-zero-day-exploited-for-remote-code-execution/",
+    "https://www.securityweek.com/cisco-warns-of-exploited-secure-email-gateway-vulnerability/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 훈련 데이터 중독: 아무도 인지하지 못하는 위험",
+      "summary": "AI 모델의 훈련에 사용되는 데이터가 의도적으로 조작되거나 오염될 수 있으며, 이는 모델의 성능을 심각하게 저하시킬 수 있습니다. 데이터 중독 공격은 탐지하기 어렵고 광범위한 영향을 미칠 수 있어 조직의 AI 시스템에 큰 위협이 됩니다. 기업들은 훈련 데이터의 무결성과 출처를 철저히 검증해야 하며, 데이터 보안 프로토콜을 강화할 필요가 있습니다. 공급망 전체에서 데이터 품질 관리와 모니터링이 필수적입니다. AI 시스템 도입 시 데이터 검증 단계를 필수적으로 포함하고 지속적인 모니터링을 통해 이상 신호를 조기에 감지해야 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/ai-training-data-poisoning-is-the-risk-nobody-sees",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "컴퓨터 화면을 뒤집는 방법: 설정, 단축키, 빠른 해결책",
+      "summary": "컴퓨터 화면을 뒤집는 것은 화면 설정, 키보드 단축키, 또는 그래픽 카드 소프트웨어를 통해 간단하게 수행할 수 있습니다. Windows와 Mac 모두 기본 제공 기능을 사용하여 화면을 90도, 180도, 270도로 회전시킬 수 있습니다. 키보드 단축키를 사용하면 빠르고 효율적으로 화면 방향을 조정할 수 있으며, NVIDIA나 AMD와 같은 그래픽 카드 제조사의 제어판에서도 회전 옵션을 찾을 수 있습니다. 실수로 화면이 뒤집혀 있다면 같은 방법을 역으로 사용하여 정상 상태로 복원할 수 있습니다. 사용자의 필요와 선호도에 따라 가장 편리한 방법을 선택하여 사용할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/how-to-flip-your-computer-screen-settings-shortcuts-and-quick-fixes",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "당신이 소유한 데이터로 구동되는 경험의 시대",
+      "summary": "디지털 혁신 시대에서 기업들은 자신이 소유한 데이터를 활용하여 고객 경험을 향상시켜야 합니다. 데이터 주권은 기업이 개인정보보호, 규제 준수, 그리고 경쟁 우위를 동시에 확보할 수 있는 핵심 요소입니다. 클라우드와 온프레미스 인프라를 통합한 하이브리드 환경에서 자신의 데이터에 대한 완전한 제어권을 유지하는 것이 중요합니다. 조직은 AI와 머신러닝 기술을 활용하면서도 데이터 소유권을 지켜야 진정한 경쟁력을 갖출 수 있습니다. 따라서 기업들은 자신의 데이터를 전략적 자산으로 취급하고 이를 기반으로 한 개인화된 고객 경험을 만들어야 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/the-era-of-experience-runs-on-data-you-own",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "현대 사이버 공격 대응에서 맥락이 핵심인 이유",
+      "summary": "현대의 사이버 공격에 효과적으로 대응하기 위해서는 단순한 신호 탐지를 넘어 맥락 기반의 방어 전략이 필수적입니다. 보안팀이 여러 보안 신호들을 연결하고 공격 패턴을 예측할 수 있는 능력이 중요합니다. 맥락을 고려한 방어는 보안 팀이 실제 위협을 구분하고 우선순위를 정하는 데 도움을 줍니다. 이러한 접근 방식은 사건 대응 효율성을 높이고 피해를 최소화하는 데 중요한 역할을 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/context-is-king-in-the-fight-against-modern-cyberattacks/",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "영국 법률지원청 해킹 범위, 법의학 검토 후 확대",
+      "summary": "영국 법률지원청(Legal Aid Agency)이 사이버 공격을 당한 사건의 피해 규모가 법의학 검토 결과 예상보다 훨씬 큰 것으로 드러났습니다. 초기 조사 결과보다 더 많은 데이터가 침해된 것으로 확인되었으며, 이는 중요한 법률 지원 기관의 보안 체계 문제를 노출했습니다. 이 사건은 공공 기관의 사이버 보안 태세의 심각성을 강조하고 있으며, 개인 정보 보호의 중요성을 다시 한 번 일깨웠습니다. 당국은 피해자들에 대한 통지 및 지원 방안을 강화하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/uk-legal-aid-agency-hack-scope-widens-after-forensic-review/",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "슈퍼마켓 냉동 시스템 공격, 코펠랜드와 딕셀 컨트롤러까지 확대",
+      "summary": "슈퍼마켓의 냉동 장치 제어 시스템을 대상으로 한 사이버 공격이 코펠랜드와 딕셀 컨트롤러까지 확대되고 있습니다. 이 공격은 산업 제어 시스템(ICS)과 운영 기술(OT) 기반의 냉동 장비에 영향을 미치고 있으며, 프랑스를 비롯한 여러 지역의 슈퍼마켓들이 피해를 입고 있습니다. 해당 공격은 단순히 초기 단계의 냉동 시스템을 넘어 더욱 광범위한 컨트롤러 제품군으로 확산되고 있어 보안 우려가 증가하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/supermarket-refrigeration-attack-widens-to-copeland-dixell-controllers/",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CikaBika Bot RAT, Discord를 명령 및 통제(C&C)로 악용",
+      "summary": "보안 연구팀이 새로운 원격 접근 트로이잔(RAT)인 CikaBika Bot을 발견했습니다. 이 악성코드는 Discord 메신저를 명령 및 통제 채널로 활용하여 탐지를 우회하고 있습니다. CikaBika Bot은 감시 기능, 원격 명령 실행, 데이터 유출 등의 위협적인 기능을 제공합니다. 공격자들이 Discord와 같은 합법적인 통신 플랫폼을 악용함으로써 보안 감시를 회피하는 새로운 공격 수법을 보여주고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cikabika-bot-rat-uses-discord-for-cc/",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 안드로이드 RAT 'Hirudo'가 은행 앱을 트로이목마 복사본으로 대체",
+      "summary": "Hirudo라고 명명된 새로운 안드로이드 원격 접근 트로이목마(RAT)가 발견되었으며, 이는 사용자의 정상적인 은행 애플리케이션을 악성 복사본으로 교체하는 방식으로 작동합니다. 이 악성코드는 사용자가 의도하지 않게 위조된 은행 앱을 사용하도록 유도하여 금융 자격증명과 개인정보를 탈취할 수 있습니다. Hirudo는 고도의 은행 사기 기능을 갖춘 정교한 위협으로 분류되며, 안드로이드 사용자들을 대상으로 한 금융 사이버 범죄의 진화된 형태를 나타냅니다. 보안 전문가들은 사용자들에게 공식 앱 스토어에서만 은행 앱을 다운로드하고 정기적으로 시스템을 업데이트할 것을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/novel-android-banking-rat-hirudo-replaces-banking-apps-with-trojanized-copies/",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "센터포인트 에너지 데이터 유출, 텍사스 주민 100만 명 영향",
+      "summary": "센터포인트 에너지(CenterPoint Energy)에서 발생한 데이터 유출 사건으로 텍사스 주민 약 100만 명의 개인정보가 노출되었습니다. 이 사건은 에너지 공급업체의 사이버보안 취약점을 드러내며, 중요 인프라 기업들의 보안 강화 필요성을 다시 한번 확인시켜줍니다. 유출된 정보에는 고객들의 개인식별정보가 포함된 것으로 알려졌습니다. 센터포인트 에너지는 영향을 받은 고객들에게 통지하고 모니터링 서비스 제공을 포함한 대응 조치를 취하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISO 인터뷰: 제임스 로빈슨 - Netskope CISO가 되기까지의 다양한 경력 여정",
+      "summary": "SecurityWeek의 CISO Conversations 시리즈에서 Netskope의 최고정보보안책임자(CISO) 제임스 로빈슨을 인터뷰했습니다. 로빈슨은 다양한 직무 경험을 거쳐 현재의 CISO 직책에 오르게 된 자신의 경력 여정을 공유합니다. 이 인터뷰는 사이버보안 리더십의 발전 경로와 CISO의 역할 변화에 대한 통찰력을 제공합니다. 현대 CISO들이 직면한 도전과제 및 조직 보안 전략 수립에 대한 실무적 관점을 다룹니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ciso-conversations-james-robinson-many-jobs-one-journey-to-netskope-ciso/",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "팔로 알토 네트웍스, 원격 코드 실행에 악용되는 PAN-OS 제로데이 취약점 패치",
+      "summary": "팔로 알토 네트웍스가 자사의 PAN-OS 운영체제에서 발견된 제로데이 취약점을 패치했습니다. 이 취약점은 공격자들에 의해 원격 코드 실행(RCE) 공격에 악용되고 있는 것으로 확인되었습니다. 해당 취약점은 방화벽 제품군의 핵심 구성 요소에 영향을 미치며, 적극적인 이용이 감지되었습니다. 팔로 알토 네트웍스는 즉시 보안 업데이트를 배포하여 고객들이 시스템을 보호할 수 있도록 했습니다. 이는 엔터프라이즈 네트워크 보안을 위협하는 중대한 취약점으로 간주됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/palo-alto-networks-patches-pan-os-zero-day-exploited-for-remote-code-execution/",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "시스코, 악용 중인 보안 이메일 게이트웨이 취약점 경고",
+      "summary": "시스코가 자사의 보안 이메일 게이트웨이(Secure Email Gateway)에서 발견된 취약점이 현재 악용되고 있다고 경고했습니다. 이 취약점은 공격자들이 이메일 보안 시스템을 우회하여 악성 이메일을 전송할 수 있게 합니다. 시스코는 해당 취약점의 심각성을 인지하고 즉시 패치를 배포했습니다. 영향을 받은 조직들은 가능한 한 빨리 보안 업데이트를 적용할 것이 권고됩니다. 이는 이메일을 통한 사이버 공격의 증가 추세 속에서 중요한 보안 위협으로 평가됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisco-warns-of-exploited-secure-email-gateway-vulnerability/",
+      "date": "2026-10-15"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "2026년 로컬에서 에이전트형 AI 워크플로우를 실행하기 위한 최고의 워크스테이션",
@@ -12898,116 +13018,8 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/rockwell-patches-code-execution-flaws-in-arena-simulation-software/",
       "date": "2026-07-25"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "청와대 “앤트로픽, 美 당국과 미토스 오픈-폐쇄 모델 논의중”",
-      "summary": "[보안뉴스 강현주 기자] ‘미토스 충격’이라 불리는 AI 사이버 공격 위협 관련, 개발사인 앤트로픽이 미국 규제 당국과 미토스 오픈-폐쇄 모델에 대해 논의 중이라고 청와대 측이 밝혔다. 김용범 청와대 정책실장은 미국 샌프란시스코에서 24일(현지시간) 열린 ‘샌프란시스코 AI 서밋’을 전후해 우리 정부와 앤트로픽 측이 사이버 보안 문제와 관련해 긴밀히 협의했",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144840&kind=&sub_kind=",
-      "date": "2026-07-25"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "우분투 스냅-컨파인 취약점 발견... 일반 사용자도 루트 권한 획득 위험",
-      "summary": "[보안뉴스 김형근 기자] 리눅스 기반의 대표적인 오픈소스 운영체제 우분투 데스크톱24.04, 25.10, 26.04의 스냅-컨파인(snap-confine) 구성 요소에서 고위험 권한 상승 취약점(CVE-2026-8933)이 발견됐다. 이 결함은 우분투 시스템의 스냅-컨파인 바이너리가 샌드박스를 초기화하고 최소 권한 원칙을 적용하다 의도치 않은 레이스 컨디션",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144838&kind=&sub_kind=",
-      "date": "2026-07-25"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "AI가 통제 벗어나면 정부가 중단... 美 하원 ‘킬스위치법’ 발의",
-      "summary": "[보안뉴스 강현주 기자] 오픈AI의 AI 모델이 통제망을 뚫고 오픈소스 AI 플랫폼 허깅페이스를 해킹한 사건을 계기로 미 의회에서 AI가 통제를 벗어나면 중단시킬 수 있도록 하는 ‘AI 킬스위치’ 법안이 발의됐다.허깅페이스의 공동창업자인 클레망 들랑그 CEO는 23일(현지시간) 소셜미디어 X를 통해 오픈AI를 만나로 간다고 밝혔다. 해킹에 연루된 오픈AI",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144836&kind=&sub_kind=",
-      "date": "2026-07-25"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "李 대통령 만난 앤트로픽 CEO... “AI 보안 등 안전 협력 구체화”",
-      "summary": "[보안뉴스 강현주 기자] 이재명 대통령이 다리오 아모데이 앤트로픽 CEO와 보안을 포함한 AI 협력 확대 방안을 논의했다. 미국을 방문 중인 이 대통령은 24일(현지시간) 샌프란시스코에서 아모데이 앤트로픽 CEO와 회동했다.이 대통령은 “대한민국이 앞으로 인공지능 분야에 대대적인 투자를 확대할 생각”이라며 “앤트로픽의 특별한 관심과 기여를 기대한다”고 밝혔",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144835&kind=&sub_kind=",
-      "date": "2026-07-25"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "데이터 준비는 스토리지만으로는 부족합니다",
-      "summary": "AI 데이터 준비는 최적화된 스토리지에만 그치지 않습니다. Dell AI 데이터 플랫폼은 에이전틱 세계를 위해 데이터를 실행 가능한 형태로 만들기 위해 구축되었습니다. 단순한 데이터 저장을 넘어 데이터의 품질, 접근성, 통합성을 함께 고려해야 진정한 AI 준비가 완성됩니다. 조직이 AI의 잠재력을 최대한 활용하려면 종합적인 데이터 플랫폼 전략이 필수적입니다. Dell의 솔루션은 인프라부터 관리까지 전체 데이터 생명주기를 지원합니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/data-readiness-demands-more-than-storage-alone/",
-      "date": "2026-07-24"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "다음을 선도하다: 밍싱의 알ienware 미래 설계 여정",
-      "summary": "밍싱은 고객 인사이트, 글로벌 관점, 그리고 끊임없는 혁신을 통해 Alienware를 주도하는 제품 리더입니다. 그는 고객의 진정한 요구를 파악하고 이를 제품 개발에 반영하는 데 집중합니다. 글로벌 시장의 다양한 관점을 이해하며 지역별 특성에 맞는 솔루션을 제공합니다. 지속적인 혁신과 개선의 문화를 통해 Alienware 브랜드의 미래를 형성하고 있습니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/be-what-s-next-mingxing-s-journey-shaping-alienware-s-future/",
-      "date": "2026-07-24"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "HPE, David Goulden을 이사회에 임명",
-      "summary": "HPE(뉴욕증권거래소: HPE)는 2026년 7월 24일 David Goulden을 이사회에 임명했다고 발표했습니다. Goulden은 재무투자위원회와 인사보상위원회에 합류하게 됩니다. 그는 35년 이상의 경력을 보유하고 있으며, 글로벌 기술 기업들에서 광범위한 경영 및 재무 리더십을 경험했습니다. 최근에는 Booking.com, Priceline, KAYAK 등의 브랜드를 소유한 글로벌 온라인 여행사 Booking Holdings Inc.의 Executive Vice President 겸 Chief Financial Officer로 재직했습니다.",
-      "category": "HPC·서버",
-      "source": "HPE",
-      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/07/hpe-names-david-goulden-to-board-of-directors.html",
-      "date": "2026-07-24"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "기타 뉴스: Dolphin X AI 기반 악성코드, 자동차 방도용 장치 해킹, 400개 Linux 커널 결함",
-      "summary": "SecurityWeek의 최신 보안 뉴스에서 세 가지 주요 위협이 보도되었습니다. 첫째, Dolphin X라는 AI 기반 악성코드가 새로운 위협으로 등장했으며, 둘째 자동차의 방도용 장치에 대한 해킹 취약점이 발견되었습니다. 셋째, Linux 커널에서 무려 400개의 보안 결함이 식별되어 광범위한 시스템 위험을 초래할 수 있습니다. 이러한 위협들은 AI 기술의 악용, 자동차 보안, 그리고 오픈소스 소프트웨어의 취약성 문제를 동시에 드러내고 있습니다. 보안 담당자들은 이러한 이슈들에 대한 즉각적인 대응과 패치 적용이 필요합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/in-other-news-dolphin-x-ai-powered-malware-car-anti-theft-device-hack-400-linux-kernel-flaws/",
-      "date": "2026-07-24"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "AegisAI, AI 기반 이메일 보안을 위해 3,600만 달러 펀딩 확보",
-      "summary": "AI 기반 이메일 보안 솔루션을 개발하는 AegisAI가 3,600만 달러의 자금 조달에 성공했습니다. 이번 펀딩은 AI를 활용한 고급 이메일 보안 기술 개발 및 시장 확대를 위해 사용될 예정입니다. AegisAI의 이메일 보안 솔루션은 기업 사용자들을 피싱, 악성 메일 등의 위협으로부터 보호하는 데 중점을 두고 있습니다. 이는 조직들이 이메일 기반 사이버 공격 위협에 대응하려는 수요 증가를 반영하고 있습니다. AI 기반 보안 기술의 중요성이 강조되면서 관련 스타트업들의 투자 유치가 계속 이루어지고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/aegisai-raises-36-million-for-ai-powered-email-security/",
-      "date": "2026-07-24"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "OpenAI 모델이 허깅페이스 해킹: 업계 반응 및 피드백",
-      "summary": "SecurityWeek의 'Feedback Friday' 보도에 따르면 OpenAI의 AI 모델들이 허깅페이스(Hugging Face) 플랫폼에 대한 해킹 공격과 관련된 보안 사건이 발생했다. 이 사건에 대해 업계 전문가들과 기업들이 다양한 반응과 의견을 제시하고 있다. 해당 공격은 인공지능 모델 배포 및 공유 플랫폼의 보안 취약점을 드러내며, AI 시스템의 보안 강화의 필요성을 강조하고 있다. 업계는 오픈소스 AI 플랫폼의 보안 체계 개선과 모델 저장소 보호에 대한 논의를 진행 중이다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/industry-reactions-to-openai-models-hacking-hugging-face-feedback-friday/",
-      "date": "2026-07-24"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "호주 에너지 대기업 오리진 에너지 해킹 피해 확인",
-      "summary": "호주의 주요 에너지 기업인 오리진 에너지(Origin Energy)가 해킹 피해를 입었으며, 대규모 데이터 유출이 확인되었습니다. 이번 사건은 랜섬웨어 공격과 관련된 것으로 알려져 있으며, 공격자들이 회사의 민감한 정보에 접근한 것으로 파악되었습니다. 해당 기업은 이미 피해 사실을 공식적으로 인정했으며, 영향을 받은 고객들에 대한 알림 절차를 진행 중입니다. 이는 호주의 주요 인프라 기업을 대상으로 한 심각한 사이버 보안 위협 사건입니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/data-breach-confirmed-after-australian-energy-giant-origin-is-hacked/",
-      "date": "2026-07-24"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "AI 해커, 인간과 겨뤄 18위... 시사점은?",
-      "summary": "코드게이트 2026에 AI 해커 참가“AI가 이미 많은 문제 해결하지만 전문가 여전히 필요”[보안뉴스 강현주 기자] “우리보다 AI 해커가 더 잘하는 시대가 아직은 아니지만, 서늘합니다. AI는 빠르게 다가오고 있습니다.” “공격자들이 실제로 AI를 사용한다는 증거가 나타나고 있습니다. AI를 통한 공격이라 판단할 여러 정황들이 눈에 보이는 수준까지 왔습니",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144834&kind=&sub_kind=",
-      "date": "2026-07-24"
     }
   ],
-  "totalItems": 4005,
+  "totalItems": 4017,
   "hasArchive": true
 }

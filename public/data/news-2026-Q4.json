@@ -3,6 +3,114 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 훈련 데이터 중독: 아무도 인지하지 못하는 위험",
+      "summary": "AI 모델의 훈련에 사용되는 데이터가 의도적으로 조작되거나 오염될 수 있으며, 이는 모델의 성능을 심각하게 저하시킬 수 있습니다. 데이터 중독 공격은 탐지하기 어렵고 광범위한 영향을 미칠 수 있어 조직의 AI 시스템에 큰 위협이 됩니다. 기업들은 훈련 데이터의 무결성과 출처를 철저히 검증해야 하며, 데이터 보안 프로토콜을 강화할 필요가 있습니다. 공급망 전체에서 데이터 품질 관리와 모니터링이 필수적입니다. AI 시스템 도입 시 데이터 검증 단계를 필수적으로 포함하고 지속적인 모니터링을 통해 이상 신호를 조기에 감지해야 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/ai-training-data-poisoning-is-the-risk-nobody-sees",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "컴퓨터 화면을 뒤집는 방법: 설정, 단축키, 빠른 해결책",
+      "summary": "컴퓨터 화면을 뒤집는 것은 화면 설정, 키보드 단축키, 또는 그래픽 카드 소프트웨어를 통해 간단하게 수행할 수 있습니다. Windows와 Mac 모두 기본 제공 기능을 사용하여 화면을 90도, 180도, 270도로 회전시킬 수 있습니다. 키보드 단축키를 사용하면 빠르고 효율적으로 화면 방향을 조정할 수 있으며, NVIDIA나 AMD와 같은 그래픽 카드 제조사의 제어판에서도 회전 옵션을 찾을 수 있습니다. 실수로 화면이 뒤집혀 있다면 같은 방법을 역으로 사용하여 정상 상태로 복원할 수 있습니다. 사용자의 필요와 선호도에 따라 가장 편리한 방법을 선택하여 사용할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/how-to-flip-your-computer-screen-settings-shortcuts-and-quick-fixes",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "당신이 소유한 데이터로 구동되는 경험의 시대",
+      "summary": "디지털 혁신 시대에서 기업들은 자신이 소유한 데이터를 활용하여 고객 경험을 향상시켜야 합니다. 데이터 주권은 기업이 개인정보보호, 규제 준수, 그리고 경쟁 우위를 동시에 확보할 수 있는 핵심 요소입니다. 클라우드와 온프레미스 인프라를 통합한 하이브리드 환경에서 자신의 데이터에 대한 완전한 제어권을 유지하는 것이 중요합니다. 조직은 AI와 머신러닝 기술을 활용하면서도 데이터 소유권을 지켜야 진정한 경쟁력을 갖출 수 있습니다. 따라서 기업들은 자신의 데이터를 전략적 자산으로 취급하고 이를 기반으로 한 개인화된 고객 경험을 만들어야 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/the-era-of-experience-runs-on-data-you-own",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "현대 사이버 공격 대응에서 맥락이 핵심인 이유",
+      "summary": "현대의 사이버 공격에 효과적으로 대응하기 위해서는 단순한 신호 탐지를 넘어 맥락 기반의 방어 전략이 필수적입니다. 보안팀이 여러 보안 신호들을 연결하고 공격 패턴을 예측할 수 있는 능력이 중요합니다. 맥락을 고려한 방어는 보안 팀이 실제 위협을 구분하고 우선순위를 정하는 데 도움을 줍니다. 이러한 접근 방식은 사건 대응 효율성을 높이고 피해를 최소화하는 데 중요한 역할을 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/context-is-king-in-the-fight-against-modern-cyberattacks/",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "영국 법률지원청 해킹 범위, 법의학 검토 후 확대",
+      "summary": "영국 법률지원청(Legal Aid Agency)이 사이버 공격을 당한 사건의 피해 규모가 법의학 검토 결과 예상보다 훨씬 큰 것으로 드러났습니다. 초기 조사 결과보다 더 많은 데이터가 침해된 것으로 확인되었으며, 이는 중요한 법률 지원 기관의 보안 체계 문제를 노출했습니다. 이 사건은 공공 기관의 사이버 보안 태세의 심각성을 강조하고 있으며, 개인 정보 보호의 중요성을 다시 한 번 일깨웠습니다. 당국은 피해자들에 대한 통지 및 지원 방안을 강화하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/uk-legal-aid-agency-hack-scope-widens-after-forensic-review/",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "슈퍼마켓 냉동 시스템 공격, 코펠랜드와 딕셀 컨트롤러까지 확대",
+      "summary": "슈퍼마켓의 냉동 장치 제어 시스템을 대상으로 한 사이버 공격이 코펠랜드와 딕셀 컨트롤러까지 확대되고 있습니다. 이 공격은 산업 제어 시스템(ICS)과 운영 기술(OT) 기반의 냉동 장비에 영향을 미치고 있으며, 프랑스를 비롯한 여러 지역의 슈퍼마켓들이 피해를 입고 있습니다. 해당 공격은 단순히 초기 단계의 냉동 시스템을 넘어 더욱 광범위한 컨트롤러 제품군으로 확산되고 있어 보안 우려가 증가하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/supermarket-refrigeration-attack-widens-to-copeland-dixell-controllers/",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CikaBika Bot RAT, Discord를 명령 및 통제(C&C)로 악용",
+      "summary": "보안 연구팀이 새로운 원격 접근 트로이잔(RAT)인 CikaBika Bot을 발견했습니다. 이 악성코드는 Discord 메신저를 명령 및 통제 채널로 활용하여 탐지를 우회하고 있습니다. CikaBika Bot은 감시 기능, 원격 명령 실행, 데이터 유출 등의 위협적인 기능을 제공합니다. 공격자들이 Discord와 같은 합법적인 통신 플랫폼을 악용함으로써 보안 감시를 회피하는 새로운 공격 수법을 보여주고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cikabika-bot-rat-uses-discord-for-cc/",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로운 안드로이드 RAT 'Hirudo'가 은행 앱을 트로이목마 복사본으로 대체",
+      "summary": "Hirudo라고 명명된 새로운 안드로이드 원격 접근 트로이목마(RAT)가 발견되었으며, 이는 사용자의 정상적인 은행 애플리케이션을 악성 복사본으로 교체하는 방식으로 작동합니다. 이 악성코드는 사용자가 의도하지 않게 위조된 은행 앱을 사용하도록 유도하여 금융 자격증명과 개인정보를 탈취할 수 있습니다. Hirudo는 고도의 은행 사기 기능을 갖춘 정교한 위협으로 분류되며, 안드로이드 사용자들을 대상으로 한 금융 사이버 범죄의 진화된 형태를 나타냅니다. 보안 전문가들은 사용자들에게 공식 앱 스토어에서만 은행 앱을 다운로드하고 정기적으로 시스템을 업데이트할 것을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/novel-android-banking-rat-hirudo-replaces-banking-apps-with-trojanized-copies/",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "센터포인트 에너지 데이터 유출, 텍사스 주민 100만 명 영향",
+      "summary": "센터포인트 에너지(CenterPoint Energy)에서 발생한 데이터 유출 사건으로 텍사스 주민 약 100만 명의 개인정보가 노출되었습니다. 이 사건은 에너지 공급업체의 사이버보안 취약점을 드러내며, 중요 인프라 기업들의 보안 강화 필요성을 다시 한번 확인시켜줍니다. 유출된 정보에는 고객들의 개인식별정보가 포함된 것으로 알려졌습니다. 센터포인트 에너지는 영향을 받은 고객들에게 통지하고 모니터링 서비스 제공을 포함한 대응 조치를 취하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISO 인터뷰: 제임스 로빈슨 - Netskope CISO가 되기까지의 다양한 경력 여정",
+      "summary": "SecurityWeek의 CISO Conversations 시리즈에서 Netskope의 최고정보보안책임자(CISO) 제임스 로빈슨을 인터뷰했습니다. 로빈슨은 다양한 직무 경험을 거쳐 현재의 CISO 직책에 오르게 된 자신의 경력 여정을 공유합니다. 이 인터뷰는 사이버보안 리더십의 발전 경로와 CISO의 역할 변화에 대한 통찰력을 제공합니다. 현대 CISO들이 직면한 도전과제 및 조직 보안 전략 수립에 대한 실무적 관점을 다룹니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ciso-conversations-james-robinson-many-jobs-one-journey-to-netskope-ciso/",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "팔로 알토 네트웍스, 원격 코드 실행에 악용되는 PAN-OS 제로데이 취약점 패치",
+      "summary": "팔로 알토 네트웍스가 자사의 PAN-OS 운영체제에서 발견된 제로데이 취약점을 패치했습니다. 이 취약점은 공격자들에 의해 원격 코드 실행(RCE) 공격에 악용되고 있는 것으로 확인되었습니다. 해당 취약점은 방화벽 제품군의 핵심 구성 요소에 영향을 미치며, 적극적인 이용이 감지되었습니다. 팔로 알토 네트웍스는 즉시 보안 업데이트를 배포하여 고객들이 시스템을 보호할 수 있도록 했습니다. 이는 엔터프라이즈 네트워크 보안을 위협하는 중대한 취약점으로 간주됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/palo-alto-networks-patches-pan-os-zero-day-exploited-for-remote-code-execution/",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "시스코, 악용 중인 보안 이메일 게이트웨이 취약점 경고",
+      "summary": "시스코가 자사의 보안 이메일 게이트웨이(Secure Email Gateway)에서 발견된 취약점이 현재 악용되고 있다고 경고했습니다. 이 취약점은 공격자들이 이메일 보안 시스템을 우회하여 악성 이메일을 전송할 수 있게 합니다. 시스코는 해당 취약점의 심각성을 인지하고 즉시 패치를 배포했습니다. 영향을 받은 조직들은 가능한 한 빨리 보안 업데이트를 적용할 것이 권고됩니다. 이는 이메일을 통한 사이버 공격의 증가 추세 속에서 중요한 보안 위협으로 평가됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisco-warns-of-exploited-secure-email-gateway-vulnerability/",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "2026년 로컬에서 에이전트형 AI 워크플로우를 실행하기 위한 최고의 워크스테이션",
       "summary": "로컬 환경에서 에이전트형 AI 워크플로우를 효율적으로 실행하기 위해서는 고성능 GPU, 충분한 메모리, 강력한 프로세서가 갖춰진 워크스테이션이 필수적입니다. 2026년 현재 NVIDIA의 최신 GPU와 인텔, AMD의 고급 프로세서를 탑재한 워크스테이션이 AI 모델 실행에 최적화되어 있습니다. 클라우드 서비스에 의존하지 않고 로컬에서 AI 작업을 수행할 수 있어 데이터 보안성과 처리 속도가 크게 향상됩니다. 기업과 개발자들은 자신의 워크로드 특성에 맞는 워크스테이션을 선택함으로써 생산성을 극대화할 수 있습니다.",
       "category": "서버",
@@ -1164,9 +1272,9 @@
     }
   ],
   "sources": {
-    "Dell": 24,
+    "Dell": 27,
+    "SecurityWeek": 102,
     "VAST Data": 6,
-    "SecurityWeek": 93,
     "HPE": 6
   }
 }
