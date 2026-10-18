@@ -4028,9 +4028,19 @@
     "https://www.securityweek.com/openai-models-hacked-data-portals-raided-a-crypto-wallet-to-finish-tasks/",
     "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/",
     "https://www.securityweek.com/microsoft-patches-two-dozen-rce-flaws-in-office/",
-    "https://www.securityweek.com/proofpoint-inks-6-3-billion-all-cash-deal-to-acquire-varonis/"
+    "https://www.securityweek.com/proofpoint-inks-6-3-billion-all-cash-deal-to-acquire-varonis/",
+    "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "이스라엘 광고 회사, Candiru의 제로클릭 스파이웨어 전달 채널로 악용",
+      "summary": "이스라엘의 광고 회사가 Candiru의 제로클릭 스파이웨어를 배포하는 수단으로 이용되었습니다. 정상적인 광고 서비스로 위장한 이 회사는 악의적인 사이버 공격에 악용되었으며, 사용자들이 클릭하지 않아도 감염될 수 있는 고위험 스파이웨어 배포에 활용되었습니다. 이는 광고 네트워크를 통한 악성광고(malvertising) 공격의 심각성을 보여주는 사례입니다. 제로클릭 취약점을 이용한 공격은 사용자 개입 없이 즉시 감염을 시도하므로 더욱 위험합니다. 이 사건은 정당한 기업이 사이버 범죄에 악용될 수 있다는 점을 강조합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/",
+      "date": "2026-10-17"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "Dell Enterprise Hub: 오픈 가중치 모델을 프로덕션에 도입하기",
@@ -13021,17 +13031,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144858&kind=&sub_kind=",
       "date": "2026-07-27"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] 이지서티, ISEC 2026서 AI 기반 개인정보 접속기록 관리 솔루션 ‘EZRO-PSM V4.",
-      "summary": "AI 기반 개인정보 접속기록 관리와 이상행위 탐지 고도화탐지부터 소명관리까지 통합한 개인정보보호 운영 체계[보안뉴스 강초희 기자] 개인정보 접속기록 관리는 더 이상 로그를 남기는 것만으로 충분하지 않다. 개인정보 처리 시스템이 늘어나고, 조회·다운로드·권한 변경 등 사용자 행위가 복잡해지면서 개인정보보호 담당자는 방대한 접속기록 속에서 실제 위험 행위를 선",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144854&kind=&sub_kind=",
-      "date": "2026-07-27"
     }
   ],
-  "totalItems": 4029,
+  "totalItems": 4030,
   "hasArchive": true
 }
