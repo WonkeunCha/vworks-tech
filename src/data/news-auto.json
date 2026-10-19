@@ -4029,9 +4029,19 @@
     "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/",
     "https://www.securityweek.com/microsoft-patches-two-dozen-rce-flaws-in-office/",
     "https://www.securityweek.com/proofpoint-inks-6-3-billion-all-cash-deal-to-acquire-varonis/",
-    "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/"
+    "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/",
+    "https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국 사이버보안 채용공고 26% 감소, AI 보안 엔지니어 수요는 급증",
+      "summary": "미국의 사이버보안 분야 채용공고가 전년도 대비 26% 감소했으나, AI 보안 엔지니어에 대한 수요는 급증하는 추세를 보이고 있습니다. 이는 사이버보안 산업이 전반적인 수축을 겪으면서도 AI 보안 분야로의 인력 집중화가 이루어지고 있음을 시사합니다. 기업들이 인공지능 기술을 활용한 보안 솔루션에 더욱 많은 투자를 하고 있으며, 관련 전문 인력의 필요성이 높아지고 있습니다. 이러한 변화는 사이버보안 전문가들이 AI 기술에 대한 역량을 갖추도록 요구하는 산업의 패러다임 변화를 반영합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/",
+      "date": "2026-10-18"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "이스라엘 광고 회사, Candiru의 제로클릭 스파이웨어 전달 채널로 악용",
@@ -13022,17 +13032,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144853&kind=&sub_kind=",
       "date": "2026-07-27"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "코발트, AI와 인간 역량 결합한 ‘자율 침투 테스트’ 공개",
-      "summary": "[보안뉴스 김형근 기자] 침투 테스트 서비스 제공업체 코발트(Cobalt)가 소프트웨어 전체의 보안 취약점을 지속적으로 점검하는 AI 기반 ‘자율 침투 테스트’를 공개했다.이 솔루션은 숙련된 인간 침투 테스트 전문가를 중심에 두고 최소 24시간 이내에 검증된 조사 결과를 제공한다. AI가 방대한 데이터를 1차로 탐색해 취약점의 우선순위를 정하면, 인간 전문",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144858&kind=&sub_kind=",
-      "date": "2026-07-27"
     }
   ],
-  "totalItems": 4030,
+  "totalItems": 4031,
   "hasArchive": true
 }
