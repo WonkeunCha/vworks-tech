@@ -3,6 +3,96 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE 우주용 컴퓨터, 달 표면의 고성능 컴퓨팅과 AI 구동 예정",
+      "summary": "HPE는 2026년 10월 20일 우주 환경을 위해 설계된 고급 컴퓨팅 모듈인 HPE Spaceborne Computer-4를 발표했습니다. 이 시스템은 달 표면에서 인공지능(AI)과 고성능 컴퓨팅(HPC) 벤치마크를 처음으로 구동할 계획입니다. Astrolab의 FLIP 로버에 탑재되어 Moon Base 프로그램의 향후 미션에 배포될 예정입니다. 이 프로젝트는 향후 우주 미션과 신흥 달 경제를 위한 고급 컴퓨팅 기술의 적합성을 검증하는 데 목표를 두고 있습니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/10/hpe-spaceborne-computer-to-power-high-performance-computing-and-ai-on-the-moon.html",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국 정부기관, 악의적 AI 에이전트 대응 방안 공개",
+      "summary": "미국 정부기관들이 악의적으로 변질된 AI 에이전트에 대한 사건 대응 관행을 상세히 발표했습니다. 이 지침은 조직들이 AI 시스템으로부터 발생할 수 있는 보안 위협을 감지하고 대응하기 위한 체계적인 접근 방식을 제시합니다. AI 기술의 급속한 발전에 따라 정부는 잠재적 AI 보안 위험에 선제적으로 대응할 필요성을 강조하고 있습니다. 이번 사건 대응 지침은 기업 및 공공 기관이 AI 관련 보안 사고를 효과적으로 관리할 수 있도록 지원할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/us-agencies-detail-incident-response-practices-for-rogue-ai-agents/",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AOMEI Backupper, 단기 공급망 공격에서 침해됨",
+      "summary": "백업 소프트웨어인 AOMEI Backupper가 공급망 공격 캠페인에서 악성코드로 감염되었습니다. 이번 공격은 짧은 기간 동안 집중적으로 이루어진 특징이 있으며, 사용자들이 감염된 버전을 다운로드하게 되었을 가능성이 있습니다. 공급망 공격은 소프트웨어 개발사의 시스템을 침해하여 배포되는 소프트웨어에 악성코드를 주입하는 방식으로 광범위한 피해를 초래할 수 있습니다. 이로 인해 AOMEI Backupper 사용자들은 악성코드 감염 위험에 노출되었으며, 긴급한 조치가 필요합니다. 보안 전문가들은 사용자들에게 소프트웨어를 최신 버전으로 업데이트하고 보안 점검을 수행할 것을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 소프트웨어 보안의 핵심은 속도가 아니라 성숙도",
+      "summary": "AI 소프트웨어 보안에서 가장 중요한 것은 빠른 개발 속도가 아니라 보안 체계의 성숙도라는 주장이 제기되고 있습니다. SecurityWeek의 보도에 따르면 조직들이 AI 도입에 급급한 나머지 적절한 보안 거버넌스와 검증 프로세스를 간과하는 경향이 있습니다. 이는 AI 시스템의 취약점을 방치하고 보안 위험을 증대시킬 수 있습니다. 전문가들은 AI 소프트웨어의 안전성을 확보하기 위해서는 체계적인 보안 정책 수립과 성숙한 개발 문화가 필수적이라고 강조합니다. 단순히 시장 출시 시간을 단축하는 것보다 장기적인 보안 기반을 구축하는 것이 더욱 중요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/the-key-to-ai-software-security-isnt-speed-its-maturity/",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "아홀드 델하이즈, 사이버공격으로 인한 서비스 복구 진행 중",
+      "summary": "글로벌 소매업체 아홀드 델하이즈(Ahold Delhaize)가 사이버공격으로 인해 중단된 서비스를 복구하고 있습니다. 이번 공격으로 인해 회사의 주요 IT 시스템에 영향을 미쳤으며, 운영 서비스 일부가 중단되었습니다. 해당 기업은 현재 영향받은 시스템을 정상화하기 위해 복구 작업을 진행 중이며, 사건에 대한 조사를 병행하고 있습니다. 이는 최근 소매업계를 대상으로 한 사이버공격 위협이 증가하고 있음을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ahold-delhaize-restoring-services-disrupted-by-cyberattack/",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 플랫폼 Cairn이 100개 이상의 조직 해킹에 악용됨",
+      "summary": "AI 플랫폼 Cairn이 악의적인 목적으로 악용되어 100개 이상의 조직을 해킹하는 데 사용되었습니다. 이번 사건은 AI 기술이 사이버 공격 수행에 어떻게 악용될 수 있는지를 보여주는 심각한 사례입니다. 공격자들은 Cairn 플랫폼의 기능을 이용하여 다양한 조직들을 대상으로 대규모 해킹 활동을 전개했습니다. 이는 AI 플랫폼의 보안 관리와 접근 통제의 중요성을 강조하며, 조직들은 AI 기반 도구 사용 시 철저한 보안 조치를 취해야 합니다. 보안 전문가들은 AI 기술의 악용을 방지하기 위한 더욱 강화된 감시 체계와 규제 방안이 필요하다고 지적하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "전직 OpenAI 직원, 회의실 도청 혐의로 기소...사우디아라비아 출국 계획 드러나",
+      "summary": "OpenAI의 전직 직원이 회의실에 도청 장치를 설치한 혐의로 기소되었습니다. 검사는 해당 직원이 사우디아라비아로 출국할 계획을 세우고 있었다고 주장했습니다. 이는 기업 내 민감한 정보 유출과 관련된 심각한 보안 사건으로 간주됩니다. 해당 사건은 OpenAI의 내부 보안 및 직원 감시 체계에 대한 우려를 제기하고 있습니다. 검찰은 도청 장치를 통해 기밀 회의 내용이 외부로 유출되었을 가능성을 조사 중입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ex-openai-worker-accused-of-bugging-conference-room-planned-to-fly-to-saudi-arabia-prosecutors-say/",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, 동적 권한 및 위험 점수로 불법 AI 에이전트 대응",
+      "summary": "마이크로소프트가 동적 권한 부여와 위험 점수 시스템을 통해 악의적인 AI 에이전트에 대응하는 새로운 보안 기술을 개발했습니다. 이 기술은 AI 에이전트의 행동을 실시간으로 모니터링하고 위험 수준에 따라 권한을 동적으로 조정하는 방식으로 작동합니다. 마이크로소프트의 프로젝트 퍼셉션(Project Perception)으로 불리는 이 솔루션은 AI 시스템의 권한 상승과 악의적 행동을 사전에 탐지하고 차단하는 것을 목표로 합니다. 이는 AI 기술의 급속한 발전에 따라 증가하는 악의적인 AI 에이전트의 위협으로부터 시스템을 보호하기 위한 마이크로소프트의 적극적인 보안 조치입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/microsoft-targets-rogue-ai-agents-with-dynamic-permissions-risk-scoring/",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "해커, 니케이에서 180만 건의 기록 탈취",
+      "summary": "일본의 주요 미디어 회사인 니케이(Nikkei)가 180만 건의 개인정보 유출 사건을 공개했습니다. 탈취된 데이터에는 이름, 주소, 이메일 주소 등 고객의 민감한 정보가 포함되어 있습니다. 이번 데이터 침해 사건은 일본의 주요 언론사를 대상으로 한 대규모 사이버 공격의 사례입니다. 니케이는 해당 사건의 영향을 받은 이용자들에게 공식 공지를 통해 알렸으며, 현재 사건 수사가 진행 중입니다. 이 사건은 개인정보 보호의 중요성과 기업의 사이버보안 강화 필요성을 다시 한번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hackers-steal-1-8-million-records-from-nikkei/",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "파라다임 헬스케어 데이터 유출로 97만 명의 메디-칼 회원 피해",
+      "summary": "파라다임 헬스케어에서 발생한 데이터 유출 사건으로 97만 명의 메디-칼(Medi-Cal) 회원 정보가 노출되었습니다. 이번 사건은 미국 캘리포니아주의 공공 의료보험 프로그램인 메디-칼 회원들에게 심각한 영향을 미쳤습니다. 유출된 정보에는 회원들의 개인 식별 정보가 포함되어 있어 신원 도용 위험이 제기되고 있습니다. 해당 의료 기관은 피해 회원들에게 통지하고 신용 모니터링 서비스를 제공하고 있습니다. 이 사건은 의료 기관의 데이터 보안 강화의 필요성을 다시 한번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/970000-medi-cal-members-affected-by-paradigm-healthcare-data-breach/",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "M-Bot를 만나다: Maya HTT가 Dell과 함께 수십 년의 엔지니어링 지식을 활용하는 방법",
       "summary": "Maya HTT는 Dell 기술을 활용하여 수십 년간 축적된 엔지니어링 전문 지식을 현대적인 솔루션으로 전환하고 있습니다. M-Bot 프로젝트를 통해 기업들은 자동화와 인공지능의 이점을 활용하여 운영 효율성을 크게 향상시킬 수 있습니다. Dell의 인프라 솔루션은 Maya HTT의 고급 기술 개발을 지원하는 견고한 기반을 제공합니다. 이러한 협력은 산업 자동화 분야에서 혁신적인 변화를 가져오고 있습니다. 기업들은 이제 레거시 시스템을 현대화하면서도 기존의 엔지니어링 노하우를 효과적으로 활용할 수 있게 되었습니다.",
       "category": "서버",
@@ -1524,9 +1614,9 @@
     }
   ],
   "sources": {
+    "HPE": 9,
+    "SecurityWeek": 129,
     "Dell": 34,
-    "HPE": 8,
-    "SecurityWeek": 120,
     "VAST Data": 7
   }
 }
