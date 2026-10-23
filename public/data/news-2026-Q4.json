@@ -3,6 +3,123 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "에이전틱 AI 또는 로컬 AI 워크로드를 위한 최고의 Windows PC",
+      "summary": "에이전틱 AI와 로컬 AI 워크로드는 높은 성능의 프로세서와 충분한 메모리가 필요하며, Windows PC는 이러한 요구사항을 효과적으로 충족할 수 있습니다. Dell Technologies의 최신 PC 솔루션은 AI 애플리케이션 실행을 위한 최적화된 하드웨어 구성을 제공합니다. 로컬에서 AI 모델을 실행하면 데이터 보안과 처리 속도 면에서 클라우드 기반 솔루션보다 우수한 장점을 가집니다. 전문가용 워크스테이션부터 엔터프라이즈급 솔루션까지 다양한 선택지가 있어 조직의 요구사항에 맞는 최적의 PC를 선택할 수 있습니다. Windows 생태계의 광범위한 AI 소프트웨어 지원과 호환성은 AI 프로젝트 구현을 용이하게 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/the-best-windows-pc-for-agentic-ai-or-local-ai-workloads",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "차세대 PC 업그레이드에 양자 암호화가 필수인 이유",
+      "summary": "양자 컴퓨팅의 발전에 따라 현재의 암호화 방식이 위협받을 수 있으므로 포스트-양자 암호화 기술의 도입이 시급합니다. 다음 PC 구매 시 양자 내성 암호화를 지원하는 제품을 선택하면 미래의 사이버 보안 위험으로부터 더 안전하게 보호받을 수 있습니다. 기업과 개인 모두 지금부터 포스트-양자 암호화 준비를 시작해야 오늘날의 데이터를 내일의 위협으로부터 보호할 수 있습니다. Dell Technologies를 포함한 주요 기술 업체들이 이미 포스트-양자 암호화 표준을 채택하고 있습니다. 새로운 PC 구매 시 이러한 보안 기능을 확인하고 선택하는 것이 현명한 투자 결정입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/why-post-quantum-cryptography-belongs-in-your-next-pc-refresh",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Mzansi Mind, HPE 인프라로 남아프리카의 주권 AI 야망 추진",
+      "summary": "HPE가 Solcon Capital의 주권 기업 AI 플랫폼인 Mzansi Mind가 자사의 AI 최적화 서버와 스위치를 선택했다고 발표했습니다. Mzansi Mind는 Siya 언어 모델과 에이전트 AI 프레임워크를 기반으로 구축되었으며, 조직들이 직원과 고객이 사용하는 언어로 AI를 활용하면서 동시에 현지의 비즈니스, 규제 및 데이터 보관 요구사항을 충족할 수 있도록 설계되었습니다. 이 플랫폼은 남아프리카의 모든 공식 언어를 지원하며, Siya 모델과 에이전트 AI 프레임워크를 결합하여 AI 에이전트가 복잡한 작업을 자율적으로 수행할 수 있게 합니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/10/mzansi-mind-advances-south-africas-sovereign-ai-ambitions-with-hpe-infrastructure.html",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "프라이빗 AI의 숨겨진 보안 허점: 라이프사이클 관리",
+      "summary": "대부분의 조직들은 AI 플랫폼의 보안을 새 자동차를 평가하는 방식으로 검토합니다. 필요한 보안 기능 확인, 성능 비교, 사용자 검증을 통해 보안을 확인한 후 배포하면 안전하다고 선언합니다. 하지만 공격자들은 배포 일정에 따르지 않으며, 배포 후 수개월과 수년에 걸쳐 취약점을 찾습니다. 초기 배포 시점의 보안만으로는 충분하지 않으며, 지속적인 라이프사이클 관리와 보안 유지가 필수적입니다. 프라이빗 AI 환경에서는 배포 후에도 지속적인 모니터링과 업데이트를 통해 장기적인 보안을 확보해야 합니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/10/the-hidden-security-gap-in-private-ai-lifecycle-management.html",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "해커 대화: Corey Thuen과 'Evil Bit'",
+      "summary": "SecurityWeek의 '해커 대화' 시리즈에서 Gravwell의 CEO인 Corey Thuen과의 인터뷰를 다루고 있습니다. 이 기사는 사이버보안 분야에서 'Evil Bit'라는 개념에 대해 논의하며, 보안 위협 탐지 및 분석 기술에 관한 전문가의 통찰을 제공합니다. Thuen은 네트워크 보안과 악의적인 트래픽 식별에 대한 고급 기법들을 설명합니다. 이 인터뷰는 사이버보안 전문가들이 악성 행위자들을 식별하고 대응하는 방식에 대한 심도 있는 관점을 제시합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hacker-conversations-corey-thuen-and-the-evil-bit/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "인두렉스, 산업용 사이버보안 플랫폼 확장을 위해 800만 달러 자금 조달",
+      "summary": "암스테르담에 본사를 둔 산업용 사이버보안 기업 인두렉스(Indurex)가 700만 유로 규모의 자금 조달에 성공했습니다. 이번 투자는 회사의 사업 확장과 제품 개발을 추진하기 위해 사용될 예정입니다. 인두렉스는 ICS(Industrial Control Systems)와 OT(Operational Technology) 환경의 사이버 위협으로부터 산업 기반시설을 보호하는 솔루션을 제공합니다. 이번 자금 조달은 산업용 사이버보안 분야의 성장 가능성과 수요 증가를 반영하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/indurex-raises-8-million-to-expand-industrial-cybersecurity-platform/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Signal 취약점, 악의적 발신자가 통화 종료 차단 가능",
+      "summary": "Signal 메시징 애플리케이션에서 발견된 취약점으로 인해 악의적인 발신자가 사용자의 통화 종료를 차단할 수 있는 것으로 밝혀졌습니다. 이 보안 결함은 통화 중인 사용자가 의도대로 통화를 끝내지 못하게 만들어 불편함과 보안 위험을 초래할 수 있습니다. SecurityWeek의 보도에 따르면 공격자는 특정 기술을 악용하여 통화 종료 기능을 무력화할 수 있습니다. Signal은 널리 알려진 암호화 메시징 플랫폼으로서 사용자의 개인정보 보호를 중시하는 것으로 알려져 있으나, 이번 취약점 발견으로 긴급 패치가 필요한 상황입니다. 사용자들은 빠른 시일 내에 애플리케이션을 업데이트할 것을 권고받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/signal-vulnerability-lets-malicious-callers-block-hang-ups/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기술 및 보안 회사들, PHP2Shell 취약점에 대응",
+      "summary": "PHP2Shell 취약점이 공개되면서 기술 및 보안 업체들이 대응에 나섰습니다. 이 취약점은 PHP 기반 시스템에 영향을 미치며 공격자가 셸 접근권을 획득할 수 있게 합니다. 보안 제품 업체들은 해당 취약점에 대한 탐지 및 방어 기능을 적용하고 있으며, 긴급 패치 및 보안 업데이트를 배포하고 있습니다. 사용자들은 영향을 받는 시스템에 대해 즉시 업데이트를 적용하고 모니터링을 강화할 것이 권장됩니다. 이번 사건은 보안 제품의 취약점이 얼마나 광범위한 영향을 미칠 수 있는지를 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/tech-and-security-companies-respond-to-php2shell-vulnerabilities/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Splunk와 SolarWinds, 새로운 보안 업데이트 출시",
+      "summary": "Splunk와 SolarWinds가 최신 보안 패치를 릴리스했습니다. 두 회사는 자사 제품에서 발견된 취약점을 해결하기 위해 새로운 보안 업데이트를 제공하고 있습니다. 이번 업데이트는 사용자들의 시스템을 보호하고 잠재적인 보안 위협으로부터 방어하기 위한 것입니다. 기업 사용자들은 가능한 한 빨리 이러한 패치를 적용할 것을 권장받고 있습니다. 정기적인 보안 업데이트는 사이버 공격으로부터 조직을 보호하는 중요한 역할을 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/splunk-solarwinds-release-fresh-security-updates/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "시스코, 여러 제품의 34개 취약점 패치 배포",
+      "summary": "시스코가 자사의 다양한 제품에 걸쳐 34개의 보안 취약점에 대한 패치를 배포했습니다. 이번 패치는 시스코의 네트워킹, 보안 및 협업 플랫폼 등 여러 제품 라인을 대상으로 하고 있습니다. 시스코는 고객들에게 영향받은 제품의 보안 업데이트를 신속하게 적용할 것을 권장하고 있습니다. 이번 취약점 공개는 사이버보안 커뮤니티에 적시에 알려져 기업들이 신속한 대응을 할 수 있도록 하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisco-patches-34-vulnerabilities-across-multiple-products/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "PHP2Shell 악용, 패치 공개 며칠 전부터 시작",
+      "summary": "PHP2Shell 취약점에 대한 악용이 보안 패치가 공개되기 며칠 전부터 이미 시작된 것으로 확인되었습니다. 이는 공격자들이 취약점 정보를 패치 공개 전에 미리 알고 있었거나, 영점(zero-day) 익스플로잇을 활용했을 가능성을 시사합니다. PHP2Shell은 웹 애플리케이션에 심각한 위협을 주는 취약점으로, 조기 악용은 많은 시스템이 보호받지 못한 상태에서 공격받았음을 의미합니다. 보안 전문가들은 이번 사건을 통해 취약점 공개와 패치 배포 사이의 시간 격차를 줄일 필요성을 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/php2shell-exploitation-started-days-before-patches/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "오라클, 10월 2026 CPU를 통해 1,200개 이상의 취약점 패치",
+      "summary": "오라클이 2026년 10월 정기 보안 업데이트(CPU)를 통해 1,200개 이상의 취약점을 패치했습니다. 이번 업데이트는 오라클의 다양한 제품과 서비스에 존재하는 보안 결함을 해결하기 위한 대규모 보안 조치입니다. SecurityWeek에서 보도한 이 뉴스는 기업 사용자들이 시스템을 최신 상태로 유지해야 함을 강조하고 있습니다. 정기적인 CPU 업데이트는 오라클 고객의 시스템 보안을 유지하는 중요한 역할을 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/oracle-patches-over-1200-vulnerabilities-with-october-2026-cpu/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "메타, 페이스북 개인정보보호 기만에 대해 뉴멕시코에 250억 달러 배상 명령",
+      "summary": "메타가 페이스북에서 사용자들을 개인정보보호 문제로 기만한 혐의로 뉴멕시코 주로부터 250억 달러의 거액 배상금 지불 명령을 받았습니다. 이는 소셜 미디어 플랫폼의 개인정보 취급 관행을 둘러싼 규제 당국의 강경한 태도를 보여주는 사건입니다. 메타는 사용자의 개인정보 보호에 대해 부정확한 정보를 제공했다는 혐의를 받고 있습니다. 이번 벌금은 빅테크 기업에 대한 개인정보보호 관련 규제의 강화 추세를 반영합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/meta-ordered-to-pay-new-mexico-25-billion-for-deceiving-users-about-privacy-on-facebook/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "커뮤니티 AI 컴퓨팅을 위한 유휴 전력 활용",
       "summary": "Dell Technologies는 지역사회의 유휴 전력 자원을 활용하여 AI 컴퓨팅 인프라를 구축하는 방안을 제시합니다. 이러한 접근 방식은 기존에 충분히 활용되지 못한 에너지 자원을 효율적으로 재활용하여 비용을 절감할 수 있습니다. 커뮤니티 중심의 AI 인프라는 지역의 디지털 혁신과 기술 접근성을 높이는 데 기여합니다. 분산형 컴퓨팅 환경을 통해 에너지 효율성과 경제성을 동시에 달성할 수 있습니다. 이는 지속가능한 기술 발전과 커뮤니티 역량 강화를 위한 혁신적인 솔루션입니다.",
       "category": "서버",
@@ -1821,9 +1938,9 @@
     }
   ],
   "sources": {
-    "Dell": 43,
-    "HPE": 10,
-    "VAST Data": 10,
-    "SecurityWeek": 139
+    "Dell": 45,
+    "HPE": 12,
+    "SecurityWeek": 148,
+    "VAST Data": 10
   }
 }
