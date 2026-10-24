@@ -3,6 +3,105 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell을 통한 사이버 공격 방어 및 복구",
+      "summary": "Dell의 종합적인 보안 솔루션은 사이버 공격으로부터 조직을 효과적으로 보호하고 빠른 복구를 가능하게 합니다. 사전 예방적 접근 방식과 고급 위협 탐지 기술을 통해 침해 사고를 조기에 발견하고 대응할 수 있습니다. Dell은 강화된 백업 및 복구 시스템을 제공하여 공격으로 인한 데이터 손실을 최소화하고 비즈니스 연속성을 보장합니다. 통합된 보안 인프라와 전문가 지원팀은 조직이 증가하는 사이버 위협에 효율적으로 대처하도록 지원합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/defending-and-recovering-from-cyber-attacks-with-dell",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell Technologies, Bevo Lab와 함께 스포츠의 미래를 주도하다",
+      "summary": "Dell Technologies는 Bevo Lab과의 협력을 통해 스포츠 산업의 디지털 혁신을 이끌고 있습니다. 첨단 기술과 데이터 분석을 활용하여 선수 성능 향상, 팬 경험 개선, 경기 운영 효율화를 실현하고 있습니다. 클라우드 컴퓨팅, 인공지능, 엣지 컴퓨팅 등의 솔루션이 스포츠 산업의 새로운 가능성을 열어주고 있습니다. 이러한 기술 혁신은 스포츠 조직들이 경쟁력을 강화하고 팬들과의 상호작용을 심화시키는 데 중요한 역할을 하고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/dell-technologies-powers-the-future-of-sports-with-bevo-lab",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기타 뉴스: Tor 출구 릴레이 해킹, 은행들이 불법 AI 에이전트 적발, 자가 복구 macOS 랜섬웨어",
+      "summary": "보안 커뮤니티에서 여러 중요한 위협이 동시에 발생하고 있습니다. Tor 네트워크의 출구 릴레이들이 해킹당하여 사용자의 익명성이 위협받고 있으며, 금융기관들이 비정상적인 행동을 하는 AI 에이전트들을 탐지했습니다. 특히 주목할 점은 macOS를 표적으로 하는 새로운 랜섬웨어가 감지되었는데, 이 악성코드는 자가 복구 기능을 갖추고 있어 제거가 더욱 어려워질 수 있습니다. 이러한 다양한 공격 벡터들은 사이버 위협이 지속적으로 진화하고 정교해지고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Mirai 봇넷 운영자들이 PHP2Shell 공격에 참여, ASLR 우회 익스플로잇 등장",
+      "summary": "Mirai 봇넷의 운영자들이 PHP2Shell 공격 캠페인에 참여하고 있으며, 동시에 ASLR(Address Space Layout Randomization) 보안 메커니즘을 우회하는 새로운 익스플로잇들이 나타나고 있습니다. PHP2Shell은 PHP 기반 웹셸 공격으로, 서버에 원격 접근을 제공하는 악의적인 도구입니다. 악명 높은 Mirai 봇넷이 이러한 공격에 가담함으로써 대규모 감염 위협이 증가하고 있습니다. ASLR 우회 기술의 등장은 기존의 보안 방어 체계가 더 이상 충분하지 않음을 의미하며, 시스템 관리자들의 즉각적인 대응이 필요한 상황입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "중국 APT, ConnectWise 공격에서 AI 기반 침투테스트 도구 'Artex' 사용",
+      "summary": "중국의 APT 그룹이 ConnectWise를 대상으로 한 공격에서 AI 기반의 침투테스트 도구인 'Artex'를 활용하고 있는 것으로 보고되었습니다. 이는 국가 지원 사이버 위협 집단이 고도화된 AI 기술을 공격 활동에 통합하고 있음을 시사합니다. ConnectWise는 광범위하게 사용되는 관리 도구로, 이에 대한 공격은 다수의 조직에 영향을 미칠 수 있습니다. 보안 업계에서는 이러한 AI 기반 도구의 악용이 향후 사이버 위협의 복잡성을 높일 것으로 우려하고 있습니다. Microsoft를 포함한 주요 기술 기업들이 이 위협에 대한 모니터링을 강화하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "공격자들이 4개월 내 아리스타 VCO 제로데이 세 번째 악용",
+      "summary": "아리스타(Arista)의 VCO(VeloCloud Orchestrator) 제품에서 네 달 사이에 세 번째 제로데이 취약점이 공격자들에게 악용되었다. 이는 아리스타의 네트워크 가상화 및 오케스트레이션 플랫폼에 대한 반복적인 보안 위협을 나타낸다. 제로데이 취약점의 연속적인 악용은 해당 제품의 보안 체계에 대한 심각한 우려를 낳고 있다. 공격자들이 지속적으로 새로운 취약점을 찾아 악용하고 있으며, 기업들은 빠른 보안 업데이트와 패치 적용이 필요한 상황이다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "카프콤 데이터 유출 사건, 1,100만 명 영향",
+      "summary": "게임 개발사 카프콤이 대규모 데이터 유출 사건을 경험했으며, 약 1,100만 개의 이메일 주소가 해킹당한 것으로 확인되었습니다. 해커들은 카프콤 ID 계정에서 이메일 주소를 탈취했으며, 추가로 196개 계정의 비밀번호를 변경한 것으로 알려졌습니다. 이번 보안 침해는 카프콤이 운영하는 온라인 서비스에 접근한 사용자들에게 직접적인 영향을 미쳤습니다. 카프콤은 피해 고객들에게 비밀번호 변경 및 보안 강화를 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "퀘스트 다이애그노스틱스 데이터 유출, 환자 기록 노출",
+      "summary": "글로벌 진단 검사 기업인 퀘스트 다이애그노스틱스(Quest Diagnostics)가 사이버 공격으로 인한 데이터 유출 사건을 보고했습니다. 이번 침해로 인해 일부 환자의 개인 기록이 노출되었으며, 해당 정보에는 환자의 민감한 의료 데이터가 포함되어 있습니다. 보안 전문가들은 헬스케어 산업이 계속해서 사이버 위협의 주요 대상이 되고 있음을 지적하고 있습니다. 퀘스트 다이애그노스틱스는 현재 사건 조사를 진행 중이며 영향받은 환자들에게 통보하고 있습니다. 이번 사건은 의료 기관의 강화된 데이터 보안 대책의 필요성을 다시 한 번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "LiteLLM, 최신 공급망 공격으로 침해당함",
+      "summary": "AI 개발에 널리 사용되는 LiteLLM 라이브러리가 공급망 공격의 대상이 되어 악성 패키지가 배포되었습니다. 해당 악성 패키지는 주요 패키지 저장소를 통해 사용자들에게 제공되었으며, LiteLLM에 의존하는 개발자 및 조직들이 영향을 받을 수 있습니다. 이는 오픈소스 소프트웨어 생태계에 대한 지속적인 보안 위협을 보여주는 사례입니다. 사용자들은 LiteLLM의 패키지 버전을 확인하고 필요시 업데이트를 진행해야 하며, 의심스러운 활동이 있는지 시스템을 모니터링할 것이 권장됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Atlassian, 데이터 센터 및 서버 제품의 75개 결함 패치",
+      "summary": "Atlassian이 데이터 센터 및 서버 제품에서 발견된 75개의 취약점에 대한 보안 패치를 공개했습니다. 이번 패치는 제3자 라이브러리 및 구성 요소의 결함을 해결하기 위한 것으로, Atlassian의 주요 제품들의 보안성을 강화하는 데 중점을 두고 있습니다. SecurityWeek이 보도한 이 사항은 기업의 인프라 보안을 위해 즉시 업데이트를 권고하고 있습니다. 해당 취약점들은 공격자에게 악용될 수 있는 가능성이 있어 신속한 대응이 필요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/atlassian-patches-75-third-party-flaws-in-data-center-and-server-products/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "이란의 페르시아의 왕자 APT, 2016년 이후 처음으로 미국에서 C&C 서버 운영",
+      "summary": "이란의 페르시아의 왕자(Prince of Persia) APT 그룹이 2016년 이후 처음으로 미국 내에서 명령 및 제어(C&C) 서버를 호스팅하고 있는 것으로 드러났습니다. 이는 해당 위협 그룹의 운영 전술 변화를 시사하는 중요한 발견입니다. 이 APT 그룹은 전통적으로 다른 지역에서 인프라를 운영해 왔으나, 이번에는 미국 서버를 활용하여 공격 활동을 조율하고 있습니다. 보안 전문가들은 이러한 변화가 더 정교한 회피 전술과 감지 회피 능력을 나타낼 수 있다고 경고하고 있습니다. 미국 내 C&C 서버 운영은 피해자들에 대한 더 직접적인 통제와 더 빠른 공격 실행을 가능하게 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/irans-prince-of-persia-apt-hosts-cc-in-us-for-first-time-since-2016/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "에이전틱 AI 또는 로컬 AI 워크로드를 위한 최고의 Windows PC",
       "summary": "에이전틱 AI와 로컬 AI 워크로드는 높은 성능의 프로세서와 충분한 메모리가 필요하며, Windows PC는 이러한 요구사항을 효과적으로 충족할 수 있습니다. Dell Technologies의 최신 PC 솔루션은 AI 애플리케이션 실행을 위한 최적화된 하드웨어 구성을 제공합니다. 로컬에서 AI 모델을 실행하면 데이터 보안과 처리 속도 면에서 클라우드 기반 솔루션보다 우수한 장점을 가집니다. 전문가용 워크스테이션부터 엔터프라이즈급 솔루션까지 다양한 선택지가 있어 조직의 요구사항에 맞는 최적의 PC를 선택할 수 있습니다. Windows 생태계의 광범위한 AI 소프트웨어 지원과 호환성은 AI 프로젝트 구현을 용이하게 합니다.",
       "category": "서버",
@@ -1938,9 +2037,9 @@
     }
   ],
   "sources": {
-    "Dell": 45,
+    "Dell": 47,
+    "SecurityWeek": 157,
     "HPE": 12,
-    "SecurityWeek": 148,
     "VAST Data": 10
   }
 }
