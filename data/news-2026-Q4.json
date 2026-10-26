@@ -3,6 +3,15 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "이스라엘 전직 Unit 8200 장교들, 에이전틱 SecOps 스타트업 Mave에 3,400만 달러 투자 유치",
+      "summary": "이스라엘의 정보기관 Unit 8200의 전직 장교들이 설립한 사이버보안 스타트업 Mave가 3,400만 달러의 펀딩을 확보했습니다. Mave는 에이전틱 SecOps(보안 운영) 솔루션을 제공하는 회사로, 이번 투자 라운드를 통해 시장에 공식 출범합니다. 이 투자는 AI 기반의 자동화된 보안 운영 솔루션에 대한 산업의 높은 수요를 반영합니다. 경험 많은 사이버보안 전문가들의 참여는 Mave의 기술력과 신뢰성을 강화합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
+      "date": "2026-10-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "Dell을 통한 사이버 공격 방어 및 복구",
       "summary": "Dell의 종합적인 보안 솔루션은 사이버 공격으로부터 조직을 효과적으로 보호하고 빠른 복구를 가능하게 합니다. 사전 예방적 접근 방식과 고급 위협 탐지 기술을 통해 침해 사고를 조기에 발견하고 대응할 수 있습니다. Dell은 강화된 백업 및 복구 시스템을 제공하여 공격으로 인한 데이터 손실을 최소화하고 비즈니스 연속성을 보장합니다. 통합된 보안 인프라와 전문가 지원팀은 조직이 증가하는 사이버 위협에 효율적으로 대처하도록 지원합니다.",
       "category": "서버",
@@ -2037,8 +2046,8 @@
     }
   ],
   "sources": {
+    "SecurityWeek": 158,
     "Dell": 47,
-    "SecurityWeek": 157,
     "HPE": 12,
     "VAST Data": 10
   }
