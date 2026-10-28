@@ -3,6 +3,132 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "신원 탄력성: 접근 권한 보호 및 복구",
+      "summary": "신원 탄력성은 사이버 공격으로부터 조직의 접근 권한을 보호하고 침해 발생 시 빠르게 복구하는 능력을 의미합니다. 강화된 인증, 권한 관리, 감시 체계를 통해 무단 접근을 사전에 방지할 수 있습니다. 사고 대응 계획과 백업 시스템을 미리 구축하면 침해 발생 후에도 신속한 복구가 가능합니다. 정기적인 보안 감사와 직원 교육을 통해 인적 오류로 인한 위협을 최소화해야 합니다. 조직은 예방, 탐지, 복구의 3단계 접근 방식으로 신원 보안 태세를 강화할 필요가 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/identity-resilience-protect-and-recover-access",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "더 똑똑한 책상: 함께 작동하는 워크스페이스 구축",
+      "summary": "현대 업무 환경에서 효율적인 워크스페이스는 기술, 인테리어, 직원의 웰빙을 통합적으로 고려해야 합니다. 스마트 데스크 솔루션은 직원들의 생산성 향상과 협업 효율성을 동시에 증진시킬 수 있습니다. 데이터 기반의 워크스페이스 설계는 기업이 공간 활용을 최적화하고 운영 비용을 절감하는 데 도움이 됩니다. 직원 경험을 최우선으로 하는 워크스페이스 구축은 인재 유치 및 유지에 중요한 경쟁 우위가 될 수 있습니다. 클라우드 기반의 통합 시스템은 원격 업무와 사무실 근무의 경계를 허물고 유연한 업무 환경을 조성합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/the-smarter-desk-building-workspaces-that-work-together",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "규모에 맞춘 품질: 한 명의 엔지니어가 제조를 계속 추진하는 방법",
+      "summary": "대규모 제조 환경에서 품질 관리는 단순한 검사를 넘어 전체 생산 프로세스에 걸친 지속적인 모니터링을 필요로 합니다. 한 명의 엔지니어가 효율적인 도구와 자동화 시스템을 활용하면 생산 라인 전체의 품질을 효과적으로 유지할 수 있습니다. 데이터 기반의 의사결정과 예방적 유지보수는 결함을 사전에 발견하고 생산 중단을 최소화하는 데 핵심적인 역할을 합니다. 기술 투자와 적절한 시스템 구축을 통해 적은 인원으로도 높은 수준의 품질 표준을 달성할 수 있습니다. 결국 스마트한 자동화와 효율적인 워크플로우는 현대 제조업에서 경쟁력을 유지하는 필수 요소입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/quality-at-scale-how-one-engineer-keeps-manufacturing-moving",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "PowerStore, 엔드투엔드 암호화로 PQC 준비 강화",
+      "summary": "Dell PowerStore는 포스트 양자 암호화(Post-Quantum Cryptography, PQC) 시대에 대비하기 위해 엔드투엔드 암호화 기능을 강화하고 있습니다. 이러한 고급 암호화 기술은 데이터 보안을 한층 더 강화하여 미래의 양자 컴퓨팅 위협으로부터 조직의 정보를 보호합니다. PowerStore는 데이터 전송 및 저장 과정에서 일관된 암호화를 제공함으로써 보안 태세를 향상시킵니다. 이는 금융, 의료, 정부 등 규제가 엄격한 산업 분야에서 특히 중요한 의미를 갖습니다. Dell의 이러한 선제적 접근 방식은 조직이 미래의 사이버 위협에 효과적으로 대응할 수 있도록 지원합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/powerstore-advances-pqc-readiness-with-end-to-end-encryption",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 유선·무선·SASE 솔루션의 통합 가시성으로 엣지에서 클라우드까지 사용자 및 애플리케이션 경험 최적화",
+      "summary": "HPE가 HPE Networking EdgeConnect를 HPE Mist 및 HPE Aruba Central과 통합하여 SASE, 유선 액세스, 무선 LAN 솔루션을 단일 에이전틱 프레임워크 아래 통합했다. 이번 통합을 통해 HPE의 자동 운영 네트워킹 전략을 확장하고 엣지에서 클라우드까지 향상된 가시성 및 간소화된 에이전틱 NetOps 및 SecOps 기능을 제공한다. 기업 환경이 분산화됨에 따라 사용자 경험과 IoT 사용 사례가 캠퍼스, 지점, WAN, 클라우드 및 보안 환경 전반에 걸쳐 확장되고 있다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/10/hpe-unifies-visibility-of-premier-wired-wireless-and-sase-solutions-to-optimize-user-and-application-experiences-from-edge-to-cloud.html",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Tailscale, 'Tailworm' 취약점의 조율되지 않은 공개 이후 긴급 패치 배포",
+      "summary": "Tailscale이 'Tailworm'이라는 보안 취약점들의 조율되지 않은 공개에 대응하여 긴급 패치를 배포했습니다. 이 취약점들은 Tailscale의 SSH 기능과 관련된 것으로 알려져 있습니다. 보안 연구원이 Tailscale과의 조정 없이 취약점을 공개함으로써 논란이 야기되었습니다. Tailscale은 신속하게 대응하여 영향을 받은 버전에 대한 패치를 긴급 배포했습니다. 이 사건은 보안 업체와 연구원 간의 책임 있는 공개 절차의 중요성을 다시 한 번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "벤더 키 유출로 덴버 의료보험 가입자 238,000명의 데이터 위험",
+      "summary": "덴버 의료보험 계획(DHMP)의 벤더로부터 암호화 키가 유출되어 238,000명의 회원 데이터가 위험에 노출되었습니다. 이번 사건은 보안 취약점으로 인한 주요 데이터 유출 사건으로 분류되고 있습니다. 유출된 키를 통해 민감한 개인정보와 건강보험 정보에 접근할 수 있을 것으로 예상됩니다. 덴버 의료보험은 해당 사건에 대해 영향받은 회원들에게 통보 절차를 진행 중입니다. 이번 사건은 의료 기관과 보험사의 벤더 관리 및 보안 대책의 강화 필요성을 다시 한번 부각시켰습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 네트워킹 제품의 심각한 보안 결함 수십 개 패치",
+      "summary": "HPE가 자사의 네트워킹 제품에서 발견된 수십 개의 심각한 보안 취약점에 대한 패치를 배포했습니다. 이번 보안 업데이트는 Aruba 네트워킹 장비를 포함한 여러 HPE 제품을 대상으로 하고 있습니다. 해당 취약점들은 원격 공격자에 의해 악용될 수 있는 치명적인 결함으로 분류되었습니다. 보안 연구자들은 영향을 받는 시스템의 사용자들에게 즉시 패치 적용을 권고하고 있습니다. 이번 사건은 네트워크 인프라 보안의 중요성을 다시 한번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "설명 불가능한 드림호스트 사건으로 이메일, FTP 비밀번호 재설정 진행",
+      "summary": "웹 호스팅 서비스 제공업체인 드림호스트(DreamHost)에서 원인이 명확하지 않은 보안 사건이 발생했습니다. 이 사건으로 인해 사용자들의 이메일 및 FTP 비밀번호 재설정이 강제로 진행되고 있습니다. 드림호스트는 고객 계정의 보안을 위해 조치를 취하고 있으나, 사건의 구체적인 원인과 영향 범위에 대한 상세한 설명은 아직 제공하지 않았습니다. 사용자들은 계정 보안 강화를 위해 강력한 새로운 비밀번호 설정이 권장됩니다. 이번 사건은 웹 호스팅 서비스의 보안 관리 중요성을 다시 한번 부각시키고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "iOS, macOS 27.2 버전이 286개 버그 패치; 악용된 취약점 수정사항 iOS 18에 백포트",
+      "summary": "애플이 iOS와 macOS 27.2 버전에서 286개의 버그를 패치했습니다. 이번 업데이트에는 이미 악용되고 있는 취약점에 대한 수정사항이 포함되어 있습니다. 특히 해당 보안 수정사항은 이전 버전인 iOS 18까지 역으로 이식(백포트)되었습니다. 이는 애플이 보안 취약점에 대해 적극적으로 대응하고 있으며, 사용자들에게 빠른 패치를 제공하려는 노력을 보여줍니다. 모든 iOS 및 macOS 사용자들은 이번 업데이트를 설치하여 보안을 강화할 것이 권장됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "앤스로픽 투자자들을 위해 공개된 위험 사항, 통제 불능 AI의 잠재적 피해 포함",
+      "summary": "AI 안전 연구 회사인 앤스로픽이 투자자들에게 통제 불능 AI로 인한 잠재적 피해를 포함한 주요 위험 사항들을 공개했습니다. 이 보도는 AI 기술의 급속한 발전에 따른 안전성 우려와 예측 불가능한 피해 가능성에 대한 투자자들의 관심을 반영합니다. 앤스로픽은 투자 공시 자료에서 초거대 AI 모델의 운영과 관련된 여러 위험 요소를 명시적으로 언급했습니다. 이러한 공개는 AI 산업에서 투명성과 위험 관리의 중요성을 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/risks-spelled-out-for-anthropic-investors-include-possible-harms-from-runaway-ai/",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "괜찮다고 생각하나요: NetScaler 제로데이가 말해주는 새로운 표준",
+      "summary": "이 기사는 Citrix NetScaler에서 발견된 제로데이 취약점들이 현재 사이버보안 환경에서 무엇을 의미하는지 분석합니다. NetScaler 제로데이 공격들은 기업 인프라의 핵심 구성 요소에 대한 취약점 악용이 얼마나 심각한지 보여줍니다. 이러한 사건들은 조직들이 직면한 새로운 위협 환경의 현실을 반영하고 있습니다. 보안 전문가들은 이를 통해 기업들이 더욱 적극적인 취약점 관리와 사건 대응 체계를 갖춰야 함을 강조하고 있습니다. Tod Beardsley가 작성한 이 분석 기사는 제로데이 취약점의 영향과 대응 방안에 대한 인사이트를 제공합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/this-is-fine-what-netscaler-zero-days-tell-us-about-the-new-normal/",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "중단된 팝콘 타임 업데이터, 수백만 대의 컴퓨터를 장악 위험에 빠뜨려",
+      "summary": "팝콘 타임(Popcorn Time)의 더 이상 유지보수되지 않는 업데이터가 수백만 대의 컴퓨터를 보안 위협에 노출시키고 있습니다. 개발이 중단된 이 업데이트 메커니즘은 악의적인 행위자에 의해 악용되어 사용자의 시스템을 완전히 장악할 수 있는 취약점으로 작용하고 있습니다. 이는 더 이상 보안 패치나 관리가 이루어지지 않는 소프트웨어의 위험성을 명확히 보여주는 사례입니다. 보안 전문가들은 팝콘 타임 사용자들이 즉시 해당 애플리케이션을 제거할 것을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/dead-popcorn-time-updater-put-millions-of-computers-at-risk-of-takeover/",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "해양 연합, 선박 및 항만 시스템용 무료 취약점 데이터베이스 출범",
+      "summary": "해양 사이버보안 분야의 국제 연합이 선박과 항만 시스템의 보안 취약점을 추적하기 위한 무료 데이터베이스를 공식 출범했습니다. 이 데이터베이스는 산업 제어 시스템(ICS)과 운영 기술(OT) 환경에서 발견되는 취약점들을 중앙에서 관리하고 공유하는 플랫폼으로 기능합니다. 해양 산업의 디지털화가 진행되면서 사이버 위협이 증가하고 있는 상황에서, 이러한 무료 자료는 선박 운영사와 항만 운영 기관들이 보안 태세를 강화하는 데 도움이 될 것으로 예상됩니다. 이 이니셔티브는 국제 해양 보안 표준 준수와 취약점 관리의 투명성을 높이는 데 기여할 것으로 평가됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/maritime-coalition-launches-free-vulnerability-database-for-ship-and-port-systems/",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "귀사의 복구 계획이 랜섬웨어 공격을 견딜 수 있을까요?",
       "summary": "현대의 랜섬웨어 공격은 단순한 데이터 암호화를 넘어 조직의 전체 운영을 마비시킬 수 있으며, 이에 대비하기 위해서는 포괄적인 복구 계획이 필수적입니다. 효과적인 복구 전략은 정기적인 백업, 다중 계층의 보안 대책, 그리고 신속한 대응 프로토콜을 포함해야 합니다. 조직은 랜섬웨어 공격 시나리오에 대해 주기적으로 복구 계획을 테스트하고 검증하여 실제 상황에서의 효과성을 확인해야 합니다. 백업 데이터는 반드시 네트워크와 분리되어 보관되어야 하며, 공격자의 접근으로부터 완벽하게 보호되어야 합니다. 마지막으로, 직원 교육과 보안 인식 제고는 랜섬웨어 감염을 사전에 방지하기 위한 가장 효과적인 방법 중 하나입니다.",
       "category": "서버",
@@ -2181,9 +2307,9 @@
     }
   ],
   "sources": {
-    "Dell": 50,
-    "SecurityWeek": 168,
-    "HPE": 13,
+    "Dell": 54,
+    "HPE": 14,
+    "SecurityWeek": 177,
     "VAST Data": 11
   }
 }
