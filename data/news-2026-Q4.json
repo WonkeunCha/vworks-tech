@@ -3,6 +3,141 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "PC 라이프사이클에 숨겨진 ROI",
+      "summary": "PC의 전체 라이프사이클 비용을 이해하는 것이 숨겨진 ROI를 발견하는 핵심입니다. 초기 구매 비용뿐만 아니라 유지보수, 지원, 다운타임으로 인한 생산성 손실 등 간접 비용을 고려해야 합니다. 효율적인 PC 라이프사이클 관리는 총소유비용을 크게 줄이고 직원 생산성을 향상시킵니다. 정기적인 업데이트와 예방적 유지보수는 장기적으로 더 높은 가치를 제공합니다. 올바른 PC 전략은 단순한 하드웨어 투자가 아닌 비즈니스 성과 최적화의 기회입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/the-hidden-roi-in-your-pc-lifecycle",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "에이전트는 모델이 아니라 컨텍스트에서 실패한다",
+      "summary": "AI 에이전트의 실패는 기본 모델의 성능 부족이 아니라 불완전한 컨텍스트 이해에서 비롯됩니다. 에이전트가 작업을 효과적으로 수행하려면 정확하고 관련성 높은 컨텍스트 정보에 접근해야 합니다. 기업은 에이전트에게 필요한 적절한 데이터, 도구, 프로세스 정보를 제공하는 데 집중해야 합니다. 고급 모델을 선택하는 것보다 견고한 컨텍스트 관리 시스템을 구축하는 것이 더 중요합니다. 효과적인 컨텍스트 제공을 통해 기존 모델도 뛰어난 성능을 발휘할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/agents-don-t-fail-on-models-they-fail-on-context",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "에이전틱 AI를 실행하기 위해 PC에 필요한 것은?",
+      "summary": "에이전틱 AI 애플리케이션을 실행하기 위해서는 충분한 처리 능력과 메모리가 필수적입니다. 현대적인 프로세서와 전용 AI 가속 기능을 갖춘 PC가 최적의 성능을 제공합니다. GPU 지원은 복잡한 AI 모델의 추론 속도를 크게 향상시킵니다. 대규모 언어 모델을 실행하려면 충분한 RAM과 저장 공간이 필요합니다. 로컬에서 AI를 실행하는 것은 데이터 보안과 개인정보 보호를 강화합니다. 올바른 하드웨어 사양을 갖춘 PC는 에이전틱 AI의 성능과 효율성을 극대화합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/what-does-your-pc-need-to-run-agentic-ai-",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "비율을 넘어서: 객체 데이터를 위한 더 스마트한 압축",
+      "summary": "기존의 단순한 압축률 중심의 접근 방식을 벗어나 객체 데이터에 최적화된 지능형 압축 기술이 필요합니다. 스마트 압축은 데이터의 특성과 사용 패턴을 분석하여 압축 방식을 동적으로 조정함으로써 저장 공간을 효율적으로 절감합니다. 이러한 접근 방식은 성능 저하를 최소화하면서도 스토리지 비용을 대폭 감소시킬 수 있습니다. 객체 기반 데이터 환경에서는 일반적인 압축 알고리즘보다 워크로드에 맞춘 맞춤형 솔루션이 더욱 효과적입니다. 결과적으로 기업은 더 나은 성능과 경제성을 동시에 확보할 수 있게 됩니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/beyond-the-ratio-smarter-compression-for-object-data",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "대규모 복원력 있는 AI 인프라 구축: CoreWeave의 사례",
+      "summary": "CoreWeave는 추론 서비스 확장 시에도 GPU 런타임의 경제성을 최우선으로 고려하며, 이에 따라 관찰성(Observability)을 배포 후가 아닌 아키텍처의 필수 요소로 통합했다. 새로운 인프라 도입 시 텔레메트리, 로깅, 메트릭 수집을 우선 고려하며, 고객들도 베어메탈 클라우드를 통해 동일한 수준의 가시성을 확보할 수 있다. 펌웨어와 소프트웨어의 경계가 흐려지면서 쿠버네티스, 스케줄러, 텔레메트리 플랫폼과 통합되어 냉각 조건, 전력 공급, 하드웨어 상태 등이 소프트웨어 스택의 주요 정보가 되었다. VAST와의 협력은 전체 시스템 차원의 복원력 설계의 좋은 사례이며, 대규모 인프라에서는 어느 지점의 장애가 발생할 수 있으므로 하드웨어 장애가 워크로드 장애로 전파되지 않는 것이 목표다. 향후 5년 내 AI 인프라의 전력 공급, 냉각, 케이블링 방식이 근본적으로 변할 가능성이 있으며, 업계는 더 이상 기존 데이터센터 설계의 진화만으로는 대응할 수 없을 것이다. CoreWeave는 이미 단일 GPU나 서버를 넘어 데이터센터 전체를 하나의 통합 엔지니어링 단위로 설계, 모니터링, 관리하는 방식으로의 전환을 추진 중이다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/coreweave-on-building-resilient-ai-infrastructure-at-massive-scale",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "우크라이나 해커, 하이브·네필림 랜섬웨어 공격으로 미국에서 70개월 징역형",
+      "summary": "우크라이나 국적의 랜섬웨어 공격자가 악명 높은 '하이브(Hive)'와 '네필림(Nefilim)' 랜섬웨어 관련 활동으로 미국 법원에서 70개월(약 5년 10개월)의 징역형을 받았습니다. 이 용의자는 여러 조직을 대상으로 한 사이버 범죄 활동에 연루되어 있었으며, 미국 당국의 국제 사이버범죄 단속 노력의 일환으로 기소되었습니다. 이번 판결은 조직화된 랜섬웨어 공격에 대한 국제 사법 체계의 강경한 대응 의지를 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "업윈드 시큐리티, 38억 달러 기업가치로 4억 달러 자금 조성",
+      "summary": "클라우드 보안 플랫폼 기업인 업윈드 시큐리티(Upwind Security)가 시리즈 C 펀딩 라운드에서 4억 달러를 조성했으며, 기업가치는 38억 달러로 평가받았다. 이번 자금 조성으로 업윈드 시큐리티는 지금까지 총 8억 달러 이상의 자금을 모금하게 되었다. 업윈드 시큐리티는 클라우드 환경에서의 공격 표면 관리 및 보안 위험 감소를 위한 솔루션을 제공하는 사이버보안 스타트업이다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/upwind-security-raises-400-million-at-3-8-billion-valuation/",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Chrome과 Firefox 업데이트로 200개 이상의 취약점 패치",
+      "summary": "Chrome과 Firefox 브라우저가 각각 200개 이상의 보안 취약점을 해결하는 업데이트를 릴리스했습니다. 이번 대규모 패치는 사용자들의 기기를 다양한 사이버 공격으로부터 보호하기 위해 긴급 배포되었습니다. 보안 전문가들은 사용자들에게 즉시 최신 버전으로 업데이트할 것을 권고하고 있습니다. 이러한 취약점들은 악의적인 공격자에게 악용될 수 있는 심각한 보안 결함들입니다. Chrome과 Firefox는 정기적인 보안 업데이트를 통해 사용자 보호에 최우선을 두고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/chrome-and-firefox-updates-patch-over-200-vulnerabilities/",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "수억 개 기기에 사용되는 GoAhead 웹 서버에서 TLS 결함 발견",
+      "summary": "수억 개의 기기에 탑재된 GoAhead 웹 서버에서 TLS(전송 계층 보안) 프로토콜의 결함이 발견되었습니다. 이 취약점은 광범위한 IoT 장비, 임베디드 시스템, 네트워크 장비 등에 영향을 미칠 수 있습니다. 공격자는 이 결함을 이용하여 암호화된 통신을 해석하거나 중간자 공격(Man-in-the-Middle Attack)을 수행할 가능성이 있습니다. 보안 전문가들은 영향받는 장비의 제조업체와 사용자들이 즉시 패치를 적용할 것을 권고하고 있습니다. 이번 발견은 임베디드 시스템 보안의 중요성을 다시 한 번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/tls-flaws-found-in-goahead-web-server-used-in-hundreds-of-millions-of-devices/",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "중국 연계 해커, PHP2Shell 악용하여 방화벽 장악",
+      "summary": "중국과 연계된 해커 집단이 PHP2Shell이라는 도구를 악용하여 방화벽 시스템에 대한 루트 권한 접근을 시도하고 있습니다. 이 공격은 조직의 네트워크 보안 인프라를 직접 타겟으로 하여 심각한 위협을 초래합니다. PHP2Shell은 웹 셸 생성 도구로, 공격자가 시스템에 대한 원격 접근 및 제어 권한을 획득하는 데 활용됩니다. 해당 취약점을 통해 공격자들은 방화벽 장치를 완전히 장악할 수 있어 조직 전체의 네트워크가 위험에 노출될 수 있습니다. 보안 전문가들은 방화벽 소프트웨어의 즉각적인 패치 적용과 시스템 감시 강화를 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/china-linked-hackers-exploit-php2shell-to-root-firewalls/",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "EPICS 연구시설 제어 소프트웨어의 오래된 보안 결함 패치",
+      "summary": "EPICS(Experimental Physics and Industrial Control System) 연구시설 제어 소프트웨어에서 오랫동안 숨겨져 있던 여러 보안 결함이 발견되어 패치되었습니다. 이 소프트웨어는 전 세계 연구소와 과학시설에서 광범위하게 사용되고 있는 중요한 산업제어시스템(ICS/OT)입니다. 해당 취약점들은 장시간 미해결 상태로 방치되어 있었으며, 연구기관의 주요 시설 운영에 심각한 보안 위험을 초래할 수 있었습니다. SecurityWeek은 이번 보안 패치가 EPICS 사용자들에게 긴급히 필요한 조치임을 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/long-hidden-flaws-patched-in-epics-research-facility-control-software/",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "보안 설문지, 아무도 신뢰하지 않지만 계속 사용한다",
+      "summary": "보안 업계에서 광범위하게 사용되고 있는 보안 설문지(Security Questionnaire)에 대한 신뢰도가 매우 낮다는 문제가 지적되고 있습니다. 많은 조직과 보안 담당자들이 이 설문지의 신뢰성과 정확성에 의문을 가지고 있음에도 불구하고, 공급망 보안 평가와 컴플라이언스 검증을 위해 계속 의존하고 있는 상황입니다. 이는 GRC(거버넌스, 리스크, 컴플라이언스) 영역에서 중요한 문제로, 설문 응답의 신뢰성 부족이 실제 보안 위험 평가에 영향을 미칠 수 있습니다. 업계는 보안 설문지의 한계를 인식하면서도 더 나은 대안이 없어 현재의 방식에 계속 의존하는 딜레마 상황에 처해 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/nobody-trusts-the-security-questionnaire-we-rely-on-it-anyway/",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "시크릿 관리 회사 Infisical, 4천만 달러 투자 유치로 6억 달러 기업가치 달성",
+      "summary": "시크릿 관리 솔루션을 제공하는 Infisical이 4천만 달러 규모의 자금 조달을 완료하며 기업가치 6억 달러에 도달했습니다. 이번 투자 라운드는 조직의 민감한 정보 유출 문제인 '시크릿 스프롤(secrets sprawl)' 해결에 대한 시장의 수요가 증가하고 있음을 보여줍니다. Infisical은 API 키, 데이터베이스 자격증명 등 민감한 정보를 안전하게 관리하고 통제하는 플랫폼을 제공합니다. 이러한 시크릿 관리 기술은 인공지능 시대에 데이터 보안의 중요성이 높아지면서 점점 더 필수적인 보안 솔루션으로 인식되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/secrets-management-firm-infisical-valued-at-600-million-after-40-million-raise/",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "해커들이 새로운 Oracle EBS 취약점 탐사 시작",
+      "summary": "보안 연구자들이 Oracle E-Business Suite(EBS)의 새로운 취약점을 발견했으며, 해커들이 이미 이 취약점을 탐사하기 시작한 것으로 보고되었습니다. Oracle EBS는 기업의 주요 비즈니스 운영 시스템으로 널리 사용되고 있어 광범위한 영향을 미칠 수 있습니다. 악의적 행위자들이 이 취약점을 악용하여 기업 시스템에 접근하려는 시도를 하고 있는 상황입니다. 보안 전문가들은 영향을 받는 조직들에게 즉시 패치를 적용하고 시스템 모니터링을 강화할 것을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CISA, Node2Shell 악용 경고... 허니팟에서 공격 시도 기록",
+      "summary": "미국 사이버보안 및 인프라 보안청(CISA)이 Node2Shell 취약점의 악용 사례에 대해 경고했습니다. 보안 연구팀이 운영하는 허니팟에서 해당 취약점을 이용한 공격 시도가 기록되었습니다. Node2Shell은 널리 악용되고 있는 취약점으로, 공격자들이 표적 시스템에 침투하기 위해 적극적으로 이를 악용하고 있습니다. CISA는 조직들에게 이 취약점에 대한 패치 적용을 긴급히 권고하고 있습니다. 공격자들이 Brotli 압축 기법 등을 활용하여 공격을 수행하고 있는 것으로 확인되었습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/cisa-warns-of-node2shell-exploitation-as-honeypots-log-attack-attempts/",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "신원 탄력성: 접근 권한 보호 및 복구",
       "summary": "신원 탄력성은 사이버 공격으로부터 조직의 접근 권한을 보호하고 침해 발생 시 빠르게 복구하는 능력을 의미합니다. 강화된 인증, 권한 관리, 감시 체계를 통해 무단 접근을 사전에 방지할 수 있습니다. 사고 대응 계획과 백업 시스템을 미리 구축하면 침해 발생 후에도 신속한 복구가 가능합니다. 정기적인 보안 감사와 직원 교육을 통해 인적 오류로 인한 위협을 최소화해야 합니다. 조직은 예방, 탐지, 복구의 3단계 접근 방식으로 신원 보안 태세를 강화할 필요가 있습니다.",
       "category": "서버",
@@ -2307,9 +2442,9 @@
     }
   ],
   "sources": {
-    "Dell": 54,
-    "HPE": 14,
-    "SecurityWeek": 177,
-    "VAST Data": 11
+    "Dell": 58,
+    "VAST Data": 12,
+    "SecurityWeek": 187,
+    "HPE": 14
   }
 }
