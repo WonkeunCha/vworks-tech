@@ -4162,9 +4162,139 @@
     "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/",
     "https://www.securityweek.com/hackers-steal-2-6-million-records-from-sonys-japanese-isp-so-net/",
     "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/",
-    "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/"
+    "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
+    "https://www.dell.com/blog/quantum-threats-are-coming-harden-your-defenses-now",
+    "https://www.dell.com/blog/the-complete-tech-gift-guide-best-dell-and-alienware-picks-for-every-setup",
+    "https://www.vastdata.com/blog/rethinking-event-streaming-tco-with-vast-on-cloud",
+    "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
+    "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
+    "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/",
+    "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/",
+    "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
+    "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
+    "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
+    "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
+    "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
+    "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST를 활용한 클라우드 이벤트 스트리밍 TCO 재검토",
+      "summary": "VAST Event Broker는 기존의 Kafka 브로커와 달리 파티션 로그 복제본을 개별 브로커 노드에 저장하지 않고, 대신 이벤트 메시지를 VAST 데이터베이스 테이블의 행으로 저장합니다. CNode 컨테이너는 클러스터 메타데이터를 관리하고 DNode 컨테이너는 로컬 SSD를 NVMe 패브릭을 통해 제공하며, VAST의 공유 아키텍처로 인해 모든 CNode 컨테이너가 공유 백엔드 데이터에 직접 접근할 수 있습니다. 용량 증가 시에는 단순히 EBox VM을 추가하면 되므로 Kafka 방식의 파티션 로그 마이그레이션이나 데이터 재분배가 필요하지 않습니다. 데이터 보호 측면에서 VAST on Cloud는 3배 복제(200% 오버헤드)로 인한 복잡한 복제 메커니즘과 높은 네트워크 트래픽 대신, 이레이저 코딩 기술을 사용하여 2.7%~20%의 패리티 오버헤드만으로 데이터 가용성을 보장합니다. AWS와 Microsoft Azure 배포의 경우 Cloud-HA가 로컬 NVMe 인프라를 초과하는 영구 클라우드 스토리지 계층을 추가로 제공하여 메타데이터와 쓰기 버퍼를 동기식으로 보존합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/rethinking-event-streaming-tco-with-vast-on-cloud",
+      "date": "2026-10-31"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "양자 위협이 다가오고 있습니다: 지금 바로 방어를 강화하세요",
+      "summary": "양자 컴퓨팅의 발전으로 인한 사이버 보안 위협이 현실화되고 있습니다. 현재의 암호화 방식으로는 양자 컴퓨터의 계산 능력을 견딜 수 없으므로, 조직들은 지금부터 양자 안전 암호화(Post-Quantum Cryptography) 기술로 전환해야 합니다. 데이터의 민감도와 규모에 따라 우선순위를 정하고 단계적으로 방어 체계를 업그레이드하는 것이 중요합니다. 정부와 업계의 표준화 작업이 진행 중이며, 조직은 이러한 움직임에 발맞춰 양자 내성 보안 전략을 수립해야 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/quantum-threats-are-coming-harden-your-defenses-now",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "완벽한 기술 선물 가이드: 모든 셋업을 위한 최고의 Dell과 Alienware 선택",
+      "summary": "Dell과 Alienware는 게이머, 전문가, 일반 사용자 등 다양한 사용자 맞춤형 제품을 제공합니다. 고성능 노트북부터 초고속 데스크톱, 몰입감 있는 게이밍 모니터까지 모든 예산과 필요에 맞는 선택지가 있습니다. 최신 프로세서와 그래픽 기술이 탑재된 제품들은 작업과 오락 모두에 최적의 성능을 제공합니다. 이 가이드를 통해 당신의 필요에 정확히 맞는 완벽한 기술 선물을 찾을 수 있습니다. Dell의 다양한 혁신 기술과 Alienware의 게이밍 전문성이 결합되어 어떤 설정에도 이상적인 솔루션을 제시합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/the-complete-tech-gift-guide-best-dell-and-alienware-picks-for-every-setup",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "PHP2Shell, Palo Alto 방화벽에는 성공하나 WordPress에는 실패",
+      "summary": "PHP2Shell이라는 공격이 Palo Alto Networks 방화벽의 root 권한을 획득하는 데 성공했습니다. 이 공격은 PHP 기반의 악성 셸을 이용하여 시스템에 접근하려고 시도합니다. 반면 WordPress 시스템에 대해서는 같은 기법이 효과적이지 못했으며, 각 플랫폼의 보안 구조 차이에 따른 공격 성공도의 편차가 드러났습니다. 보안 전문가들은 조직이 Palo Alto 방화벽의 보안 패치를 긴급히 적용할 것을 권장하고 있습니다. 이번 사건은 여러 벤더의 제품에 대한 공격 성공 여부가 각 시스템의 보안 설정과 아키텍처에 크게 좌우됨을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기타 뉴스: Anthropic 침해 논쟁, UEFI 결함이 대부분의 서버에 영향, Cloudflare AI 데이터 유출",
+      "summary": "이번 보안 뉴스에서는 세 가지 주요 사이버보안 사건을 다루고 있습니다. 첫째, AI 기업 Anthropic이 데이터 침해와 관련된 논쟁에 휘말렸습니다. 둘째, 광범위한 UEFI 취약점이 발견되어 대부분의 서버에 영향을 미치고 있으며, 이는 심각한 보안 위험을 초래할 수 있습니다. 셋째, Cloudflare에서 AI 관련 데이터 유출 사고가 발생했습니다. 이 세 사건들은 모두 조직 수준의 보안 관리와 시스템 패치의 중요성을 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "패스키는 비밀번호보다 낫지만 충분하지 않다",
+      "summary": "패스키 기술이 기존의 비밀번호 인증 방식보다 보안 측면에서 우월하다는 것이 입증되고 있습니다. 그러나 전문가들은 패스키만으로는 완벽한 사이버보안 솔루션이 될 수 없다고 경고합니다. 사용자 신원 확인(IAM) 및 접근 제어 전략에 있어서 패스키는 중요한 진전이지만, 추가적인 보안 계층과 함께 결합되어야 합니다. 조직들은 패스키 도입 시에도 다층 인증, 거동 분석, 기타 현대적 보안 기술을 병행할 필요가 있습니다. 이는 점점 더 정교해지는 사이버 위협에 대응하기 위한 포괄적인 접근 방식의 필요성을 강조합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "불릿프루프 호스팅 업체 Virtualine, FBI에 의해 도메인 압수",
+      "summary": "FBI가 불릿프루프 호스팅 서비스를 제공하던 Virtualine의 도메인을 압수했습니다. 불릿프루프 호스팅은 범죄자들이 법 집행 기관의 추적을 피하기 위해 사용하는 서버 인프라로 악용되어 왔습니다. 이번 조치는 FBI의 사이버범죄 단속 활동의 일환으로 진행되었으며, Virtualine은 불법적인 활동을 지원하는 호스팅 서비스 제공으로 적발되었습니다. 이 사건은 법 집행 기관의 온라인 범죄 인프라에 대한 지속적인 단속 노력을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "공격자들의 집중 표적이 된 새로운 워드프레스 취약점",
+      "summary": "새로운 워드프레스 취약점이 공격자들의 주요 표적이 되고 있습니다. 최근 패치된 고위험도 취약점이 악의적인 행위자들에 의해 적극적으로 악용되고 있는 상황입니다. 워드프레스 사용자들은 이 취약점으로부터 자신의 웹사이트를 보호하기 위해 즉시 보안 패치를 적용해야 합니다. 공격자들이 이 취약점을 이용하여 대규모 공격을 감행할 수 있으므로 신속한 대응이 필수적입니다. 보안 전문가들은 모든 워드프레스 관리자에게 시스템을 최신 버전으로 업데이트할 것을 강력히 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "드루팔 커머스 코어 취약점, 온라인 스토어 대상으로 악용되고 있음",
+      "summary": "드루팔(Drupal) 커머스 플랫폼의 핵심 컴포넌트에서 발견된 보안 취약점이 실제 온라인 쇼핑몰을 대상으로 적극적으로 악용되고 있습니다. 이 취약점은 제로데이(Zero-Day) 공격으로 분류되며, 공격자들이 온라인 상점의 시스템에 침입하는 데 활용되고 있습니다. 드루팔은 전 세계 수많은 전자상거래 웹사이트에서 사용되는 오픈소스 플랫폼으로, 이번 취약점 악용은 많은 온라인 판매자들에게 직접적인 보안 위협이 될 수 있습니다. SecurityWeek의 보도에 따르면 이 문제는 즉각적인 주의와 대응이 필요한 상황입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "폴리마켓 트레이더들로부터 200만 달러 이상 탈취된 공급망 공격",
+      "summary": "암호화폐 예측 플랫폼인 폴리마켓의 사용자들이 새로운 공급망 공격을 통해 200만 달러 이상의 자금을 잃었습니다. 이번 공격은 소프트웨어 공급망을 타겟으로 하는 사이버범죄로 분류되고 있습니다. 공격자들은 사용자의 자산에 접근하기 위해 공급망의 취약점을 악용했습니다. 이는 암호화폐 거래소와 플랫폼에 대한 보안 위협이 계속 증가하고 있음을 보여줍니다. 해당 사건은 SecurityWeek에서 2026년 10월 30일에 보도되었습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "GitLab 최고 심각도 취약점이 Alpine Linux를 대상으로 악용되고 있음",
+      "summary": "GitLab의 최고 심각도(Max-Severity) 취약점이 실제로 악용되고 있는 것으로 확인되었습니다. Alpine Linux 시스템이 이번 공격의 주요 대상이 되고 있으며, 해당 취약점은 CISA의 알려진 악용 취약점(KEV) 목록에 등재되었습니다. 이는 공격자들이 이미 이 취약점을 적극적으로 활용하여 시스템에 침투하고 있다는 의미입니다. 관련 시스템 관리자들은 긴급히 보안 패치를 적용하고 시스템 상태를 점검할 필요가 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "TeamViewer 취약점, 악의적 호스트가 지원 기술자 PC 탈취 가능",
+      "summary": "TeamViewer의 보안 취약점으로 인해 악의적인 호스트가 원격 지원에 나온 기술자의 컴퓨터를 탈취할 수 있는 위험이 발견되었습니다. 이 취약점은 TeamViewer의 원격 접속 기능을 역이용하여 공격자가 피해자의 시스템에 대한 제어권을 획득할 수 있음을 의미합니다. 지원 기술자들이 고객사의 문제 해결을 위해 원격 접속할 때 악의적 의도를 가진 호스트에 의해 공격받을 수 있습니다. SecurityWeek의 보도에 따르면 이는 심각한 보안 위협으로 평가되고 있습니다. 영향받는 사용자들은 즉시 패치 적용이나 업데이트를 통해 이 취약점으로부터 보호받을 것이 권장됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "60억 달러 규모 바이낸스 해킹, 북한의 '트레이더트레이터' 특징 보여",
+      "summary": "바이낸스 거래소에서 약 60억 달러 규모의 대규모 암호화폐 해킹 사건이 발생했으며, 보안 전문가들은 이 공격이 북한의 악명 높은 해킹 그룹인 라자루스(Lazarus)와 관련된 '트레이더트레이터' 작전의 특징을 보이고 있다고 분석하고 있습니다. 이번 사건은 암호화폐 거래소를 대상으로 한 대규모 사이버 범죄로 분류되며, 북한이 지속적으로 글로벌 금융 인프라를 표적으로 하고 있음을 시사합니다. 해킹의 수법과 기술적 특성이 과거 알려진 북한 사이버 공격들과 유사한 패턴을 나타내고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/",
+      "date": "2026-10-30"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "AI 회복력의 소유권은 누구에게 있는가? AI 복구, 신원 확인 및 책임성",
@@ -13047,125 +13177,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145001&kind=&sub_kind=",
       "date": "2026-08-03"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[2026 EDR·NDR·XDR 솔루션 리포트] 국가 사이버보안 기본지침 개정과 만나 보안 체계를 업그레이드하다",
-      "summary": "탐지와 대응의 골든타임 확보해 조직의 연속성 지켜내는 EDR·NDR·XDR [설문조사] 국가 사이버보안 기본지침 개정안, 38.3% ‘개정 소식만 들어봤고, 세부 내용은 잘 몰라’EDR·NDR·XDR 솔루션 집중분석: 쿼드마이너, Trellix(아이티언), 넷위트니스, 이글루코퍼레이션, ESET, 안랩, 쿼리시스템즈[보안뉴스 원병철 기자] 2026년 5월",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144905&kind=&sub_kind=",
-      "date": "2026-08-03"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "티오리, 우리금융그룹에 AI 모의해킹 ‘진트 웹’ 공급",
-      "summary": "국내 금융그룹 최초로 자율형 AI 모의해킹 솔루션 도입 24시간 열려 있는 온라인 고객 접점의 대응 공백 해소[보안뉴스 강현주 기자] 오펜시브 사이버 보안 전문 기업 티오리(Theori, 대표 박세준)가 우리금융그룹에 자사의 AI 기반 블랙박스 모의해킹 솔루션 ‘진트 웹’(Xint Web) 을 공급하고 상시 보안 점검 체계 가동을 시작했다고 3일 밝혔다.이",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144989&kind=&sub_kind=",
-      "date": "2026-08-03"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "나루씨큐리티-진인프라, ‘ZeroTiCA’ 리셀러 계약... 제로트러스트 보안 시장 정조준",
-      "summary": "MSP 역량과 AI 침해진단 기술 결합 ‘진단-조치-운영’ 통합 보안 모델 제시N2SF 컨설팅 및 구축 사업 연계해 공공·민간 제로 트러스트 시장 공략[보안뉴스 조재호 기자] 나루시큐리티와 진인프라가 AI 기반 침해진단 서비스 ‘제로티카’(ZeroTiCA) 리셀러 계약을 체결하고 공공 및 민간 통합 보안 시장 공략에 나선다.이번 계약을 통해 진인프라는 기존",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144984&kind=&sub_kind=",
-      "date": "2026-08-03"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "핀란드, 연말에 러시아 연결 광케이블도 끊는다... 전력망 이어 통신망도 단절",
-      "summary": "전력망 이어 광케이블 연결 종료러시아 국경 통신 인프라 단계적 단절대체 통신망 확보 및 영향 최소화[보안뉴스 김형근 기자] 핀란드 국영 송전망 운영사 핑그리드(Fingrid)가 연말 임대 계약 만료에 맞춰 러시아와 연결된 광케이블 운영을 종료한다.글로벌 사이버보안 매체 더 레코드(The Record)에 따르면, 양국 간 전력 송전은 러시아의 우크라이나 침공",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144985&kind=&sub_kind=",
-      "date": "2026-08-03"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "AI 시대 방어의 한계 넘는다... 이스트시큐리티, ‘EDR 차세대 진화’ 기술보고서",
-      "summary": "하루 평균 2992건 쏟아지는 보안 경보 속 인력난 겪는 현장 딜레마 조명인간은 최종 승인만 담당하는 구조로 IT 담당자 누구나 관제 수준 운영 지원[보안뉴스 조재호 기자] 이스트시큐리티는 AI 기술과 EDR 솔루션을 결합해 자율형 보안 패러다임을 제시하는 ‘AI 에이전트로 진화하는 EDR - AI 주도 자율형 보안의 시작’ 기술보고서를 발간했다고 3일 밝",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144986&kind=&sub_kind=",
-      "date": "2026-08-03"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "원모어시큐리티, 필리핀 Baybay City 전역에 실종자 고속검색 솔루션 구축",
-      "summary": "‘원모어아이 고속검색 v3.0’ 도시 전체 CCTV에 적용실종자·범죄 용의자 신속 추적 지원필리핀 차량 번호판 학습 추진... 현지 맞춤형 차량 추적 서비스까지 확대[보안뉴스 강초희 기자] 원모어시큐리티(대표이사 김민식)가 필리핀 Baybay City 전역에 실종자 고속검색 솔루션 ‘원모어아이 고속검색 v3.0’ 구축을 완료했다고 밝혔다. 이번 구축은 20",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144978&kind=&sub_kind=",
-      "date": "2026-08-03"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "쿠도커뮤니케이션, AI·보안 전문성 지역사회와 나눈다 “청소년 교육 사회공헌 진행”",
-      "summary": "중·고등학생 15명 대상으로 4일간 ‘2026 과천미리내공유학교’ 운영임직원 전문성과 DX타워 인프라 활용해 지역 청소년의 진로 탐색 지원[보안뉴스 강초희 기자] 쿠도커뮤니케이션(대표 김용식)은 7월 28일부터 31일까지 경기도 과천시 DX타워에서 중·고등학생을 대상으로 청소년 교육 사회공헌 프로그램인 ‘2026 과천미리내공유학교’를 운영했다고 밝혔다.이번",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144980&kind=&sub_kind=",
-      "date": "2026-08-03"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "큐냅 코리아, 컴퓨존 단독 최대 39% 할인 NAS 특가 판매",
-      "summary": "9월 30일까지 QNAP 주차별 특가 운영NAS·확장 스토리지 주요 모델 최대 39% 할인 판매[보안뉴스 강초희 기자] 컴퓨팅·스토리지·네트워크 솔루션 전문 기업 큐냅 코리아(지사장 알렉산더 서)는 컴퓨존 단독으로 QNAP NAS와 확장 스토리지 주요 모델을 할인 판매하는 ‘QNAP 주차별 특가’ 행사를 진행한다고 밝혔다. 행사는 8월 1일부터 9월 30일",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144981&kind=&sub_kind=",
-      "date": "2026-08-03"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "여의시스템, 공식 온라인 쇼핑몰서 ‘YES 네트워크 솔루션 특별전’ 진행",
-      "summary": "공식 온라인 쇼핑몰 중심의 고객 혜택 및 온라인 구매 접근성 강화8월 14일까지 ‘YES’ 스위치 라인업 대상 5% 즉시할인 쿠폰 제공[보안뉴스 강초희 기자] 여의시스템(대표 성명기·성제현)이 최근 리뉴얼을 마친 공식 온라인 쇼핑몰을 통해 자체 네트워크 브랜드 ‘YES’ 스위치 제품군 대상 ‘네트워크 솔루션 특별전’(Solution Plus)을 진행 중이라",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144982&kind=&sub_kind=",
-      "date": "2026-08-03"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] Black Duck, SBOM 기반 소프트웨어 공급망 보안으로 글로벌 규제 대응 지원",
-      "summary": "SBOM부터 SCA, SAST, DAST, AI 기반 취약점 분석까지 통합 제공DevSecOps 환경의 안전한 소프트웨어 개발 지원[보안뉴스 원병철 기자] Black Duck은 AI 기반 애플리케이션 보안 분야의 글로벌 리더로, 소프트웨어 보안과 AI 기반의 DevSecOps 구현을 위한 통합 포트폴리오를 제공하고 있다.최근 AI 기반 소프트웨어 개발이 빠",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144949&kind=&sub_kind=",
-      "date": "2026-08-02"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026 미리보기] GS네오텍, ‘ISEC 2026’서 차세대 클라우드 통합 보안 플랫폼 ‘시큐리티 렌즈’ 선보인다",
-      "summary": "국내 규제 환경 맞춤 설계... 코드부터 런타임까지 통합 가시성 확보AI ‘네오봇’으로 위협 분석부터 감사 증적 자동 처리... 자율 보안 제시[보안뉴스 강초희 기자] 국내 IT 산업을 선도하는 GS네오텍이 오는 8월 11일부터 12일까지 서울 코엑스에서 열리는 아시아 최대 규모 사이버보안 콘퍼런스 ‘ISEC 2026’(제20회 국제 시큐리티 콘퍼런스)에",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144943&kind=&sub_kind=",
-      "date": "2026-08-02"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[속담으로 배우는 100가지 보안 습관 80] 등잔 밑이 어둡다(10)-인감도장 관리 잘못하면 생기는 일",
-      "summary": "인감도장과 인감증명서는 따로 보관하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐, 안 지키느냐의",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144232&kind=&sub_kind=",
-      "date": "2026-08-02"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "통제 부서에서 기술 전도사로... 토스증권이 짚은 AI 시대 보안 혁신",
-      "summary": "실무자가 스스로 판단하고 통제하는 사내 문화 조성다층적 운영 모델로 AI 활용 속도와 안전성 동시 확보장세인 CISO “보안 부서는 기준 전파하는 기술 전도사”[보안뉴스 조재호 기자] AI가 도입되면서 문서 초안 작성과 로그 패턴 분석 등 활용 범위가 넓어짐에 따라 보안팀이 감당해야 할 의사결정 업무가 급증하고 있다. 모든 AI 도구 사용 허가 요청이 쏠리",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144708&kind=&sub_kind=",
-      "date": "2026-08-02"
     }
   ],
-  "totalItems": 4163,
+  "totalItems": 4176,
   "hasArchive": true
 }
