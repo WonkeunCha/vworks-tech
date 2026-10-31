@@ -3,6 +3,123 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST를 활용한 클라우드 이벤트 스트리밍 TCO 재검토",
+      "summary": "VAST Event Broker는 기존의 Kafka 브로커와 달리 파티션 로그 복제본을 개별 브로커 노드에 저장하지 않고, 대신 이벤트 메시지를 VAST 데이터베이스 테이블의 행으로 저장합니다. CNode 컨테이너는 클러스터 메타데이터를 관리하고 DNode 컨테이너는 로컬 SSD를 NVMe 패브릭을 통해 제공하며, VAST의 공유 아키텍처로 인해 모든 CNode 컨테이너가 공유 백엔드 데이터에 직접 접근할 수 있습니다. 용량 증가 시에는 단순히 EBox VM을 추가하면 되므로 Kafka 방식의 파티션 로그 마이그레이션이나 데이터 재분배가 필요하지 않습니다. 데이터 보호 측면에서 VAST on Cloud는 3배 복제(200% 오버헤드)로 인한 복잡한 복제 메커니즘과 높은 네트워크 트래픽 대신, 이레이저 코딩 기술을 사용하여 2.7%~20%의 패리티 오버헤드만으로 데이터 가용성을 보장합니다. AWS와 Microsoft Azure 배포의 경우 Cloud-HA가 로컬 NVMe 인프라를 초과하는 영구 클라우드 스토리지 계층을 추가로 제공하여 메타데이터와 쓰기 버퍼를 동기식으로 보존합니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/rethinking-event-streaming-tco-with-vast-on-cloud",
+      "date": "2026-10-31"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "양자 위협이 다가오고 있습니다: 지금 바로 방어를 강화하세요",
+      "summary": "양자 컴퓨팅의 발전으로 인한 사이버 보안 위협이 현실화되고 있습니다. 현재의 암호화 방식으로는 양자 컴퓨터의 계산 능력을 견딜 수 없으므로, 조직들은 지금부터 양자 안전 암호화(Post-Quantum Cryptography) 기술로 전환해야 합니다. 데이터의 민감도와 규모에 따라 우선순위를 정하고 단계적으로 방어 체계를 업그레이드하는 것이 중요합니다. 정부와 업계의 표준화 작업이 진행 중이며, 조직은 이러한 움직임에 발맞춰 양자 내성 보안 전략을 수립해야 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/quantum-threats-are-coming-harden-your-defenses-now",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "완벽한 기술 선물 가이드: 모든 셋업을 위한 최고의 Dell과 Alienware 선택",
+      "summary": "Dell과 Alienware는 게이머, 전문가, 일반 사용자 등 다양한 사용자 맞춤형 제품을 제공합니다. 고성능 노트북부터 초고속 데스크톱, 몰입감 있는 게이밍 모니터까지 모든 예산과 필요에 맞는 선택지가 있습니다. 최신 프로세서와 그래픽 기술이 탑재된 제품들은 작업과 오락 모두에 최적의 성능을 제공합니다. 이 가이드를 통해 당신의 필요에 정확히 맞는 완벽한 기술 선물을 찾을 수 있습니다. Dell의 다양한 혁신 기술과 Alienware의 게이밍 전문성이 결합되어 어떤 설정에도 이상적인 솔루션을 제시합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/the-complete-tech-gift-guide-best-dell-and-alienware-picks-for-every-setup",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "PHP2Shell, Palo Alto 방화벽에는 성공하나 WordPress에는 실패",
+      "summary": "PHP2Shell이라는 공격이 Palo Alto Networks 방화벽의 root 권한을 획득하는 데 성공했습니다. 이 공격은 PHP 기반의 악성 셸을 이용하여 시스템에 접근하려고 시도합니다. 반면 WordPress 시스템에 대해서는 같은 기법이 효과적이지 못했으며, 각 플랫폼의 보안 구조 차이에 따른 공격 성공도의 편차가 드러났습니다. 보안 전문가들은 조직이 Palo Alto 방화벽의 보안 패치를 긴급히 적용할 것을 권장하고 있습니다. 이번 사건은 여러 벤더의 제품에 대한 공격 성공 여부가 각 시스템의 보안 설정과 아키텍처에 크게 좌우됨을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기타 뉴스: Anthropic 침해 논쟁, UEFI 결함이 대부분의 서버에 영향, Cloudflare AI 데이터 유출",
+      "summary": "이번 보안 뉴스에서는 세 가지 주요 사이버보안 사건을 다루고 있습니다. 첫째, AI 기업 Anthropic이 데이터 침해와 관련된 논쟁에 휘말렸습니다. 둘째, 광범위한 UEFI 취약점이 발견되어 대부분의 서버에 영향을 미치고 있으며, 이는 심각한 보안 위험을 초래할 수 있습니다. 셋째, Cloudflare에서 AI 관련 데이터 유출 사고가 발생했습니다. 이 세 사건들은 모두 조직 수준의 보안 관리와 시스템 패치의 중요성을 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "패스키는 비밀번호보다 낫지만 충분하지 않다",
+      "summary": "패스키 기술이 기존의 비밀번호 인증 방식보다 보안 측면에서 우월하다는 것이 입증되고 있습니다. 그러나 전문가들은 패스키만으로는 완벽한 사이버보안 솔루션이 될 수 없다고 경고합니다. 사용자 신원 확인(IAM) 및 접근 제어 전략에 있어서 패스키는 중요한 진전이지만, 추가적인 보안 계층과 함께 결합되어야 합니다. 조직들은 패스키 도입 시에도 다층 인증, 거동 분석, 기타 현대적 보안 기술을 병행할 필요가 있습니다. 이는 점점 더 정교해지는 사이버 위협에 대응하기 위한 포괄적인 접근 방식의 필요성을 강조합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "불릿프루프 호스팅 업체 Virtualine, FBI에 의해 도메인 압수",
+      "summary": "FBI가 불릿프루프 호스팅 서비스를 제공하던 Virtualine의 도메인을 압수했습니다. 불릿프루프 호스팅은 범죄자들이 법 집행 기관의 추적을 피하기 위해 사용하는 서버 인프라로 악용되어 왔습니다. 이번 조치는 FBI의 사이버범죄 단속 활동의 일환으로 진행되었으며, Virtualine은 불법적인 활동을 지원하는 호스팅 서비스 제공으로 적발되었습니다. 이 사건은 법 집행 기관의 온라인 범죄 인프라에 대한 지속적인 단속 노력을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "공격자들의 집중 표적이 된 새로운 워드프레스 취약점",
+      "summary": "새로운 워드프레스 취약점이 공격자들의 주요 표적이 되고 있습니다. 최근 패치된 고위험도 취약점이 악의적인 행위자들에 의해 적극적으로 악용되고 있는 상황입니다. 워드프레스 사용자들은 이 취약점으로부터 자신의 웹사이트를 보호하기 위해 즉시 보안 패치를 적용해야 합니다. 공격자들이 이 취약점을 이용하여 대규모 공격을 감행할 수 있으므로 신속한 대응이 필수적입니다. 보안 전문가들은 모든 워드프레스 관리자에게 시스템을 최신 버전으로 업데이트할 것을 강력히 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "드루팔 커머스 코어 취약점, 온라인 스토어 대상으로 악용되고 있음",
+      "summary": "드루팔(Drupal) 커머스 플랫폼의 핵심 컴포넌트에서 발견된 보안 취약점이 실제 온라인 쇼핑몰을 대상으로 적극적으로 악용되고 있습니다. 이 취약점은 제로데이(Zero-Day) 공격으로 분류되며, 공격자들이 온라인 상점의 시스템에 침입하는 데 활용되고 있습니다. 드루팔은 전 세계 수많은 전자상거래 웹사이트에서 사용되는 오픈소스 플랫폼으로, 이번 취약점 악용은 많은 온라인 판매자들에게 직접적인 보안 위협이 될 수 있습니다. SecurityWeek의 보도에 따르면 이 문제는 즉각적인 주의와 대응이 필요한 상황입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "폴리마켓 트레이더들로부터 200만 달러 이상 탈취된 공급망 공격",
+      "summary": "암호화폐 예측 플랫폼인 폴리마켓의 사용자들이 새로운 공급망 공격을 통해 200만 달러 이상의 자금을 잃었습니다. 이번 공격은 소프트웨어 공급망을 타겟으로 하는 사이버범죄로 분류되고 있습니다. 공격자들은 사용자의 자산에 접근하기 위해 공급망의 취약점을 악용했습니다. 이는 암호화폐 거래소와 플랫폼에 대한 보안 위협이 계속 증가하고 있음을 보여줍니다. 해당 사건은 SecurityWeek에서 2026년 10월 30일에 보도되었습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "GitLab 최고 심각도 취약점이 Alpine Linux를 대상으로 악용되고 있음",
+      "summary": "GitLab의 최고 심각도(Max-Severity) 취약점이 실제로 악용되고 있는 것으로 확인되었습니다. Alpine Linux 시스템이 이번 공격의 주요 대상이 되고 있으며, 해당 취약점은 CISA의 알려진 악용 취약점(KEV) 목록에 등재되었습니다. 이는 공격자들이 이미 이 취약점을 적극적으로 활용하여 시스템에 침투하고 있다는 의미입니다. 관련 시스템 관리자들은 긴급히 보안 패치를 적용하고 시스템 상태를 점검할 필요가 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "TeamViewer 취약점, 악의적 호스트가 지원 기술자 PC 탈취 가능",
+      "summary": "TeamViewer의 보안 취약점으로 인해 악의적인 호스트가 원격 지원에 나온 기술자의 컴퓨터를 탈취할 수 있는 위험이 발견되었습니다. 이 취약점은 TeamViewer의 원격 접속 기능을 역이용하여 공격자가 피해자의 시스템에 대한 제어권을 획득할 수 있음을 의미합니다. 지원 기술자들이 고객사의 문제 해결을 위해 원격 접속할 때 악의적 의도를 가진 호스트에 의해 공격받을 수 있습니다. SecurityWeek의 보도에 따르면 이는 심각한 보안 위협으로 평가되고 있습니다. 영향받는 사용자들은 즉시 패치 적용이나 업데이트를 통해 이 취약점으로부터 보호받을 것이 권장됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "60억 달러 규모 바이낸스 해킹, 북한의 '트레이더트레이터' 특징 보여",
+      "summary": "바이낸스 거래소에서 약 60억 달러 규모의 대규모 암호화폐 해킹 사건이 발생했으며, 보안 전문가들은 이 공격이 북한의 악명 높은 해킹 그룹인 라자루스(Lazarus)와 관련된 '트레이더트레이터' 작전의 특징을 보이고 있다고 분석하고 있습니다. 이번 사건은 암호화폐 거래소를 대상으로 한 대규모 사이버 범죄로 분류되며, 북한이 지속적으로 글로벌 금융 인프라를 표적으로 하고 있음을 시사합니다. 해킹의 수법과 기술적 특성이 과거 알려진 북한 사이버 공격들과 유사한 패턴을 나타내고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "AI 회복력의 소유권은 누구에게 있는가? AI 복구, 신원 확인 및 책임성",
       "summary": "AI 시스템의 회복력은 단순한 기술적 문제가 아니라 조직 전체의 책임 문제입니다. AI 인프라의 장애 발생 시 빠른 복구와 데이터 보호를 위해서는 명확한 소유권과 책임 구조가 필요합니다. 기업은 AI 시스템의 신원 확인 및 추적 가능성을 확보하여 장애 상황에서 신속하게 대응할 수 있어야 합니다. 효과적인 AI 회복력 전략은 IT, 보안, 비즈니스 부서 간의 협력과 투명한 책임성 체계를 기반으로 해야 합니다. 조직은 AI 시스템의 잠재적 위험을 사전에 파악하고 계획된 재해복구 방안을 마련해야 합니다.",
       "category": "서버",
@@ -2586,9 +2703,9 @@
     }
   ],
   "sources": {
-    "Dell": 62,
-    "VAST Data": 13,
-    "HPE": 15,
-    "SecurityWeek": 197
+    "VAST Data": 14,
+    "Dell": 64,
+    "SecurityWeek": 207,
+    "HPE": 15
   }
 }
