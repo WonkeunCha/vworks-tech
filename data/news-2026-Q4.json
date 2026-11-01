@@ -3,6 +3,15 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "시리아 해커, 10년 도주 후 미국에서 수감",
+      "summary": "시리아 출신의 해커가 10년 이상 국제 도주 끝에 미국에서 체포되어 징역형을 선고받았습니다. 이 해커는 시리아 전자군(Syrian Electronic Army)과 관련된 사이버 범죄 혐의로 기소되었습니다. 해당 사건은 국제 사이버 범죄에 대한 미국의 적극적인 추적과 단속 의지를 보여주는 사례입니다. SecurityWeek의 보도에 따르면 이는 장기간의 국제 수사를 통해 이루어진 성과입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
+      "date": "2026-10-31"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "VAST를 활용한 클라우드 이벤트 스트리밍 TCO 재검토",
       "summary": "VAST Event Broker는 기존의 Kafka 브로커와 달리 파티션 로그 복제본을 개별 브로커 노드에 저장하지 않고, 대신 이벤트 메시지를 VAST 데이터베이스 테이블의 행으로 저장합니다. CNode 컨테이너는 클러스터 메타데이터를 관리하고 DNode 컨테이너는 로컬 SSD를 NVMe 패브릭을 통해 제공하며, VAST의 공유 아키텍처로 인해 모든 CNode 컨테이너가 공유 백엔드 데이터에 직접 접근할 수 있습니다. 용량 증가 시에는 단순히 EBox VM을 추가하면 되므로 Kafka 방식의 파티션 로그 마이그레이션이나 데이터 재분배가 필요하지 않습니다. 데이터 보호 측면에서 VAST on Cloud는 3배 복제(200% 오버헤드)로 인한 복잡한 복제 메커니즘과 높은 네트워크 트래픽 대신, 이레이저 코딩 기술을 사용하여 2.7%~20%의 패리티 오버헤드만으로 데이터 가용성을 보장합니다. AWS와 Microsoft Azure 배포의 경우 Cloud-HA가 로컬 NVMe 인프라를 초과하는 영구 클라우드 스토리지 계층을 추가로 제공하여 메타데이터와 쓰기 버퍼를 동기식으로 보존합니다.",
       "category": "스토리지",
@@ -2703,9 +2712,9 @@
     }
   ],
   "sources": {
+    "SecurityWeek": 208,
     "VAST Data": 14,
     "Dell": 64,
-    "SecurityWeek": 207,
     "HPE": 15
   }
 }
