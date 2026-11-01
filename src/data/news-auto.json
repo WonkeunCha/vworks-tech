@@ -4175,9 +4175,19 @@
     "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
     "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
     "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
-    "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/"
+    "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/",
+    "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "시리아 해커, 10년 도주 후 미국에서 수감",
+      "summary": "시리아 출신의 해커가 10년 이상 국제 도주 끝에 미국에서 체포되어 징역형을 선고받았습니다. 이 해커는 시리아 전자군(Syrian Electronic Army)과 관련된 사이버 범죄 혐의로 기소되었습니다. 해당 사건은 국제 사이버 범죄에 대한 미국의 적극적인 추적과 단속 의지를 보여주는 사례입니다. SecurityWeek의 보도에 따르면 이는 장기간의 국제 수사를 통해 이루어진 성과입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
+      "date": "2026-10-31"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "VAST를 활용한 클라우드 이벤트 스트리밍 TCO 재검토",
@@ -13168,17 +13178,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144902&kind=&sub_kind=",
       "date": "2026-08-03"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[CSW 2026] “북한 연계 김수키, AI로 진화”... 정밀한 표적 공격, 추적 힘든 악성코드 증가",
-      "summary": "CSW 2026에서 APAC 지역 위협 동향 공유[중국 광저우=보안뉴스 한세희 기자] 한국 정부 기관을 주로 공격하는 북한 연계 위협 그룹 김수키가 AI를 이용해 진화하고 있다. 랜섬웨어 그룹들은 무차별 공격보다 정교한 표적 공격 비중을 높이고 있다. 3일 중국 광저우에서 열린 ‘사이버 시큐리티 위켄드(CSW) 2026’에서 세르게이 로즈킨 카스퍼스키 글",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145001&kind=&sub_kind=",
-      "date": "2026-08-03"
     }
   ],
-  "totalItems": 4176,
+  "totalItems": 4177,
   "hasArchive": true
 }
