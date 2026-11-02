@@ -4176,9 +4176,19 @@
     "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
     "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
     "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/",
-    "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/"
+    "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
+    "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "노스스타 시큐리티, 700만 달러 자금 조달로 베일 벗다 - 위험한 취약점 조합 노출",
+      "summary": "사이버보안 스타트업 노스스타 시큐리티(Northstar Security)가 700만 달러의 초기 자금 조달을 완료하고 공식 출범했습니다. 이 회사는 AI 기술을 활용하여 서로 다른 보안 위협들이 조합될 때 발생하는 '독성(Toxic)' 위험 조합을 식별하고 노출하는 솔루션에 중점을 두고 있습니다. 기존의 보안 도구들이 개별 취약점에만 초점을 맞춘 것과 달리, 노스스타는 여러 위험 요소가 동시에 발생했을 때의 시너지 효과를 감지하는 기술을 개발했습니다. 이는 조직의 전체적인 사이버보안 위협 평가 및 대응 능력을 향상시키는 데 주력합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
+      "date": "2026-11-01"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "시리아 해커, 10년 도주 후 미국에서 수감",
@@ -13169,17 +13179,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145000&kind=&sub_kind=",
       "date": "2026-08-03"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "유럽 진출 위해 꼭 알아야 할 사이버 보안법 ‘EU CRA’ 톺아보기",
-      "summary": "유럽연합(EU), 디지털 제품 대상으로 사이버보안 강화하는 사이버복원력법(CRA) 시행[보안뉴스 엄호식 기자] 2016년 CCTV와 DVR, 라우터 등 IoT 기기를 감염시켜 대규모 DDoS 공격을 일으킨 ‘미라이 봇넷’(Mirai Botnet)의 발생으로 기본 패스워드 금지 등 보안 내재화가 본격적으로 추진됐다. 그리고 2017년 전 세계 약 40억달러의",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144902&kind=&sub_kind=",
-      "date": "2026-08-03"
     }
   ],
-  "totalItems": 4177,
+  "totalItems": 4178,
   "hasArchive": true
 }

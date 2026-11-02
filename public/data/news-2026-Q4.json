@@ -3,6 +3,15 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "노스스타 시큐리티, 700만 달러 자금 조달로 베일 벗다 - 위험한 취약점 조합 노출",
+      "summary": "사이버보안 스타트업 노스스타 시큐리티(Northstar Security)가 700만 달러의 초기 자금 조달을 완료하고 공식 출범했습니다. 이 회사는 AI 기술을 활용하여 서로 다른 보안 위협들이 조합될 때 발생하는 '독성(Toxic)' 위험 조합을 식별하고 노출하는 솔루션에 중점을 두고 있습니다. 기존의 보안 도구들이 개별 취약점에만 초점을 맞춘 것과 달리, 노스스타는 여러 위험 요소가 동시에 발생했을 때의 시너지 효과를 감지하는 기술을 개발했습니다. 이는 조직의 전체적인 사이버보안 위협 평가 및 대응 능력을 향상시키는 데 주력합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
+      "date": "2026-11-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "시리아 해커, 10년 도주 후 미국에서 수감",
       "summary": "시리아 출신의 해커가 10년 이상 국제 도주 끝에 미국에서 체포되어 징역형을 선고받았습니다. 이 해커는 시리아 전자군(Syrian Electronic Army)과 관련된 사이버 범죄 혐의로 기소되었습니다. 해당 사건은 국제 사이버 범죄에 대한 미국의 적극적인 추적과 단속 의지를 보여주는 사례입니다. SecurityWeek의 보도에 따르면 이는 장기간의 국제 수사를 통해 이루어진 성과입니다.",
       "category": "보안",
@@ -2712,7 +2721,7 @@
     }
   ],
   "sources": {
-    "SecurityWeek": 208,
+    "SecurityWeek": 209,
     "VAST Data": 14,
     "Dell": 64,
     "HPE": 15
