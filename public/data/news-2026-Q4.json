@@ -3,6 +3,123 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "로데오에서 배우는 성장의 교훈",
+      "summary": "로데오는 불확실한 상황에서의 민첩성과 빠른 적응력의 중요성을 보여줍니다. 성공적인 비즈니스 성장은 예측 불가능한 도전에 대처할 수 있는 능력이 필요합니다. 계획과 준비만큼이나 현장에서의 즉시 대응 능력이 중요한 역할을 합니다. 기술 변화의 속도가 빨라지는 오늘날, 조직은 변화에 유연하게 대응할 수 있는 문화를 구축해야 합니다. 로데오처럼 기업도 끊임없는 학습과 개선을 통해 더 큰 성장을 이룰 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/what-can-a-rodeo-teach-us-about-growth",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "비즈니스와 기술의 만남: Stewart Hunwick이 기업들이 AI를 측정 가능한 결과로 전환하는 방법",
+      "summary": "AI의 성공적인 도입을 위해서는 기술적 역량뿐만 아니라 명확한 비즈니스 전략이 필수적입니다. 기업들은 AI 투자의 실제 가치를 측정할 수 있는 구체적인 메트릭과 KPI를 설정해야 합니다. 데이터 품질과 조직의 준비도는 AI 구현의 성공을 좌우하는 중요한 요소입니다. 지속적인 학습과 변화 관리를 통해 조직 문화 내에서 AI를 효과적으로 통합해야 합니다. 기업은 단기 성과뿐 아니라 장기적인 가치 창출에 초점을 맞추어야 하며, 이를 위해 전략적 파트너십과 전문 지식을 활용하는 것이 중요합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/where-business-meets-technology-how-stewart-hunwick-helps-enterprises-turn-ai-into-measurable-results",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "PowerScale OneFS 9.16이 AI 클라우드 인프라를 확장하는 방법",
+      "summary": "PowerScale OneFS 9.16은 AI 워크로드를 위한 클라우드 인프라 확장성을 대폭 향상시킵니다. 이 버전은 대규모 데이터 처리와 고성능 컴퓨팅 환경에서 효율적인 성능을 제공합니다. 엔터프라이즈 조직들은 AI 및 머신러닝 애플리케이션의 증가하는 수요에 대응하기 위해 더욱 확장 가능한 스토리지 솔루션이 필요합니다. PowerScale OneFS 9.16은 데이터 관리와 접근성을 최적화하여 AI 인프라의 복잡성을 감소시킵니다. 이러한 개선사항들은 조직이 빠르게 성장하는 AI 클라우드 환경에서 경쟁력을 유지하도록 지원합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/how-powerscale-onefs-9-16-scales-ai-cloud-infrastructure",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "현대화 추진 전에 측정하세요: HPE CloudPhysics가 인프라 평가 및 최적화를 돕는 방법",
+      "summary": "가상화 라이선싱 및 경제 환경의 변화로 인해 10년치의 인프라 결정이 짧은 기간에 압축되고 있습니다. 기업들은 어떤 워크로드를 최적화할지, 미사용 용량을 어느 정도 회수할지, 어떤 통합 아키텍처를 표준화할지, 그리고 비용이나 위험을 추가하지 않으면서 현대화하는 방법을 결정해야 합니다. 데이터가 존재하지 않아서가 아니라 분산되어 있거나 수집하기 어려워서, 기업들은 대부분 전체 상황을 파악하지 못한 채 의사결정을 내리고 있습니다. 인벤토리는 한 도구에, 사용률은 다른 도구에 있기 때문입니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/11/before-you-modernize-measure-how-hpe-cloudphysics-helps-assess-and-optimize-your-infrastructure.html",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "프론트라인 에듀케이션 데이터 유출, 130만 명 이상 영향",
+      "summary": "교육 기관을 대상으로 하는 프론트라인 에듀케이션(Frontline Education) 서비스에서 대규모 데이터 유출 사건이 발생했습니다. 이번 위반으로 인해 130만 명 이상의 개인정보가 노출되었으며, 학생 및 교직원의 민감한 정보가 포함된 것으로 파악됩니다. 해당 회사는 보안 사고에 대해 인지하고 있으며 영향을 받은 이용자들에게 통보하는 절차를 진행 중입니다. 이 사건은 교육 부문의 사이버보안 위협이 얼마나 심각한지를 보여주는 사례로, 교육기관들의 강화된 데이터 보호 조치의 필요성을 강조합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "크라우드스트라이크, AI 보안 기업 피들러와 드레드노드 인수에 4억 9,500만 달러 투자",
+      "summary": "사이버보안 기업 크라우드스트라이크가 AI 보안 전문 기업인 피들러(Fiddler)와 드레드노드(Dreadnode)를 총 4억 9,500만 달러에 인수하는 것으로 보도되었습니다. 이번 인수는 크라우드스트라이크의 AI 보안 역량을 강화하기 위한 전략적 투자입니다. 피들러와 드레드노드는 인공지능 시스템의 보안 및 신뢰성을 강화하는 기술을 보유하고 있습니다. 이번 인수를 통해 크라우드스트라이크는 AI 보안 분야에서의 포지션을 더욱 강화할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "안드로이드 2026년 11월 업데이트, 200개 이상의 취약점 패치",
+      "summary": "구글이 안드로이드의 2026년 11월 보안 업데이트를 통해 200개 이상의 보안 취약점을 패치했습니다. 이번 업데이트는 모바일 기기의 보안 위협으로부터 사용자를 보호하기 위한 정기적인 보안 패치 작업의 일환입니다. 안드로이드 기기 사용자들은 즉시 최신 보안 업데이트를 설치하여 알려진 취약점으로부터 자신의 기기를 보호할 것을 권장받고 있습니다. 이러한 정기적인 보안 업데이트는 사이버 공격 및 악성 소프트웨어로부터 안드로이드 생태계를 지속적으로 강화하는 데 중요한 역할을 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "심각한 Node-RED 취약점이 공격에서 악용 중",
+      "summary": "해커들이 중대 심각도 등급의 Node-RED 취약점 CVE-2026-58115를 악용하여 다양한 공격을 진행 중인 것으로 보고되었습니다. 이 취약점은 산업용 제어 시스템(ICS) 및 운영 기술(OT) 환경에서 사용되는 Node-RED 플랫폼에 영향을 미치고 있습니다. Siemens와 관련된 시스템들이 이 공격의 주요 대상으로 지목되고 있습니다. 이 결함을 통해 공격자들은 시스템에 무단으로 접근하고 악성 코드를 배포할 수 있습니다. 보안 전문가들은 영향받는 조직들에게 긴급히 패치를 적용할 것을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "영국 사이버 수장, 2028년까지 영국이 AI 기반 핵심 인프라 사이버공격에 직면할 것이라고 경고",
+      "summary": "영국 국가사이버보안센터(NCSC)의 최고 책임자가 2028년까지 영국의 핵심 인프라가 인공지능(AI)을 활용한 사이버공격의 위협에 노출될 것으로 예측했습니다. 이는 AI 기술의 발전으로 인해 사이버 위협의 규모와 정교함이 급속도로 증가할 수 있음을 시사합니다. 영국 정부는 이러한 미래 위협에 대비하기 위해 사이버보안 방어체계를 강화할 필요가 있다고 강조하고 있습니다. 전력, 통신, 금융 등 주요 인프라 시설들이 특히 취약할 것으로 우려되고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/uk-cyber-chief-says-the-uk-will-face-ai-cyberattacks-on-critical-infrastructure-by-2028/",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "구글, 130만 개의 안드로이드 기기를 감염시킨 XCPE 봇네트 적발 및 해제",
+      "summary": "구글이 130만 개의 안드로이드 기기를 감염시킨 대규모 XCPE 봇네트를 적발하고 해제했습니다. 이 봇네트는 악의적인 목적으로 감염된 기기들을 원격으로 제어하는 악성 소프트웨어로 알려져 있습니다. 구글의 보안팀은 이 위협을 탐지하고 단계적으로 봇네트의 인프라를 무력화시켰습니다. 이번 조치는 안드로이드 사용자들의 개인정보와 기기 보안을 보호하기 위한 중요한 사이버보안 활동입니다. 구글은 지속적으로 악성 소프트웨어를 모니터링하고 대규모 봇네트 위협에 대응하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/google-dismantles-xcpe-botnet-of-1-3-million-android-devices/",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "NATO의 '교차된 검' 훈련, AI 에이전트를 사이버 작전 교육에 도입",
+      "summary": "NATO가 주최하는 '교차된 검(Crossed Swords)' 훈련 프로그램에 인공지능(AI) 에이전트가 새롭게 도입되어 사이버 작전 교육의 혁신을 가져오고 있습니다. 이번 훈련은 NATO 사이버방위센터(CCDCOE)에 의해 운영되며, AI 기술을 활용하여 보다 현실적이고 복잡한 사이버 위협 시나리오를 제공하고 있습니다. AI 에이전트의 도입으로 참가 요원들은 실제 사이버 공격 상황에 더 가까운 교육 환경에서 대응 능력을 강화할 수 있게 되었습니다. 이러한 혁신적인 접근은 NATO 회원국들의 사이버 방어 역량을 한 단계 높이는 데 기여하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/natos-crossed-swords-exercise-brings-ai-agents-into-cyber-operations-training/",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "유럽 100곳 이상의 매장이 슈퍼마켓 냉장고 사이버공격의 재발로 피해를 입음",
+      "summary": "유럽의 100곳 이상의 슈퍼마켓 매장들이 냉장고 제어 시스템을 겨냥한 사이버공격으로 다시 피해를 입고 있습니다. 이 공격은 산업제어 시스템(ICS)과 운영 기술(OT) 인프라를 대상으로 하고 있으며, Danfoss 냉동 제어 장비가 주요 공격 대상으로 지목되었습니다. 슈퍼마켓의 냉장 및 냉동 시스템에 대한 이러한 공격은 식품 손상, 운영 중단, 경제적 손실을 초래할 수 있습니다. 보안 전문가들은 이러한 유형의 사이버공격의 재발에 대한 우려를 표하고 있으며, 소매업체들에게 중요한 인프라 보호 강화를 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/over-100-european-stores-hit-as-supermarket-fridge-attacks-resume/",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Windows 11에서 에이전틱 AI를 실행하기 위한 최고의 비즈니스 노트북은 무엇인가?",
+      "summary": "Windows 11 기반 비즈니스 노트북에서 에이전틱 AI를 효과적으로 실행하려면 강력한 프로세서, 충분한 RAM, 그리고 최적화된 GPU가 필수적입니다. Dell의 최신 비즈니스 노트북은 인텔과 AMD의 최신 프로세서를 탑재하여 AI 워크로드 처리에 뛰어난 성능을 제공합니다. Windows 11의 AI 기능과 호환되는 노트북을 선택하면 생산성과 효율성을 크게 향상시킬 수 있습니다. 엔터프라이즈급 보안 기능과 안정적인 성능은 비즈니스 환경에서 신뢰할 수 있는 AI 애플리케이션 실행을 가능하게 합니다. 예산과 사용 사례에 맞는 적절한 사양의 노트북을 선택하는 것이 중요합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/what-are-the-best-business-laptops-for-running-agentic-ai-on-windows-11-",
+      "date": "2026-11-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "AI에서 승리하기 위해 CSP가 GPU 이상의 것이 필요한 이유",
       "summary": "통신 서비스 제공자(CSP)들이 AI 시장에서 경쟁력을 갖추려면 GPU 하드웨어만으로는 부족하며, 포괄적인 AI 인프라 솔루션이 필요합니다. CSP는 네트워킹, 스토리지, 컴퓨팅 등 다양한 기술 영역을 통합하여 엔드-투-엔드 AI 서비스를 제공해야 합니다. 또한 고객 맞춤형 지원, 운영 자동화, 보안 및 규정 준수 기능이 차별화 요소로 작용합니다. Dell Technologies와의 협력을 통해 CSP는 완전한 AI 에코시스템을 구축하고 시장에서의 경쟁 우위를 확보할 수 있습니다.",
       "category": "서버",
@@ -2847,9 +2964,9 @@
     }
   ],
   "sources": {
-    "Dell": 66,
-    "HPE": 17,
-    "VAST Data": 15,
-    "SecurityWeek": 218
+    "Dell": 70,
+    "HPE": 18,
+    "SecurityWeek": 226,
+    "VAST Data": 15
   }
 }
