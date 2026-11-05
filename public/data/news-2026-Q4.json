@@ -3,6 +3,114 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell과 NPS, 캠퍼스 해커톤을 통해 신흥 기술 탐색",
+      "summary": "Dell과 NPS가 캠퍼스 해커톤을 개최하여 학생들이 최신 기술을 실제로 경험하고 혁신할 수 있는 기회를 제공했습니다. 이 행사를 통해 참가자들은 인공지능, 머신러닝, 클라우드 컴퓨팅 등 미래 기술의 실무 응용 방법을 배울 수 있었습니다. 해커톤은 학계와 기업 간의 협력을 강화하고 신진 인재를 발굴하는 중요한 플랫폼 역할을 했습니다. Dell의 기술 지원과 NPS의 교육 전문성이 결합되어 학생들에게 실질적인 학습 경험을 제공했습니다. 이러한 이니셔티브는 산업 인재 양성과 기술 혁신 생태계 구축에 크게 기여하고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/dell-and-nps-explore-emerging-technologies-during-campus-hackathon",
+      "date": "2026-11-04"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 추론 최적화 및 미래 대비의 새로운 규칙",
+      "summary": "이 기사는 AI 추론 최적화와 향후 확장성을 고려한 인프라 구축의 중요성을 다룹니다. 기업들이 AI 모델을 배포할 때 단순한 성능 개선을 넘어 장기적인 비용 효율성과 운영 안정성을 고려해야 함을 강조합니다. VAST Data는 AI 워크로드에 대한 데이터 인프라 솔루션을 제공하여 기업이 빠르게 변화하는 AI 환경에 효과적으로 대응할 수 있도록 지원합니다. 특히 데이터 스토리지와 처리 최적화를 통해 AI 추론 속도를 향상시키고 전체 시스템 비용을 절감할 수 있습니다. 미래 대비 관점에서는 모델 업그레이드와 새로운 기술 도입에 유연하게 대응할 수 있는 인프라 구축이 필수적입니다. VAST의 솔루션은 이러한 요구사항들을 종합적으로 해결하여 기업의 AI 투자 수익률을 극대화할 수 있게 돕습니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/the-new-rules-of-ai-inference-optimization-and-future-proofing",
+      "date": "2026-11-04"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Sysdig, AI 에이전트를 위한 런타임 보안 및 거버넌스 기능 추가",
+      "summary": "Sysdig가 AI 에이전트를 위한 자동화된 런타임 보안과 거버넌스를 제공하는 'Sysdig AI Defense' 솔루션을 출시했습니다. 이 솔루션은 AI 에이전트의 실행 환경에서 보안 위협을 자동으로 감지하고 대응할 수 있도록 설계되었습니다. 에이전틱 AI(Agentic AI) 기술의 확산에 따라 새로운 보안 위험이 증가하고 있는 상황에서, 이번 기능은 기업들이 AI 에이전트를 안전하게 운영하기 위한 거버넌스 체계를 구축할 수 있도록 지원합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/sysdig-adds-runtime-security-and-governance-for-ai-agents/",
+      "date": "2026-11-04"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Barracuda ESG 인증 우회 취약점으로 루트 접근 경로 노출",
+      "summary": "Barracuda Email Security Gateway(ESG)에서 인증 우회 취약점이 발견되어 공격자가 루트 권한으로 시스템에 접근할 수 있는 경로가 열렸습니다. 이 보안 결함은 이메일 보안 게이트웨이의 핵심 방어 메커니즘을 우회할 수 있어 심각한 위협으로 평가됩니다. SecurityWeek이 보도한 이 취약점은 Barracuda의 주요 보안 제품에 영향을 미치고 있습니다. 해당 제품을 사용하는 조직들은 긴급하게 업데이트를 적용하고 시스템 보안을 점검해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/",
+      "date": "2026-11-04"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "에이전트 기반 데이터보안 업체 센트라, 1억 5천만 달러 투자 유치",
+      "summary": "데이터보안 솔루션을 제공하는 센트라(Sentra)가 1억 5천만 달러의 시리즈 펀딩을 확보했습니다. 이 투자는 에이전트 기반 사이버보안 기술의 성장세를 반영하고 있습니다. 센트라는 AI 기술을 활용한 데이터 보호 및 관리 솔루션으로 주목받고 있습니다. 이번 투자 유치는 데이터보안 분야의 기술 고도화와 시장 확대를 의미합니다. 센트라의 자금 확보는 사이버보안 업계의 투자 활성화를 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/agentic-data-security-firm-sentra-raises-150-million/",
+      "date": "2026-11-04"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI 관련 침해 증가, WorkOS·Northflank·Trigger.dev 해킹 피해 공개",
+      "summary": "AI 관련 기업들에 대한 사이버 침해 사건이 증가하고 있는 가운데 WorkOS, Northflank, Trigger.dev 등 주요 AI 기술 기업들이 해킹 피해를 공개했습니다. 이들 회사는 보안 침해 사실을 확인하고 영향받은 사용자들에게 알림을 제공했으며, 사이버 범죄자들의 공격 대상이 되고 있습니다. AI 산업의 빠른 성장에 따라 보안 위협도 함께 증가하는 추세를 보이고 있습니다. 이번 일련의 침해 사건들은 개발자 도구 및 AI 플랫폼 분야에서 보안 강화의 필요성을 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/",
+      "date": "2026-11-04"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "캐나다인, 대학 슈퍼컴퓨터 암호화폐 채굴 해킹 혐의로 미국에 송환",
+      "summary": "캐나다 국적의 한 해커가 대학교의 슈퍼컴퓨터를 대상으로 한 암호화폐 채굴 해킹 혐의로 미국으로 송환되었습니다. 이 사건은 학술 기관의 고가 컴퓨팅 자원을 무단으로 이용한 사이버범죄 사례입니다. 해킹을 통해 대학의 슈퍼컴퓨터 인프라에 불법적으로 접근하여 암호화폐를 채굴했던 것으로 알려져 있습니다. 이는 교육 기관을 대상으로 한 사이버 공격의 심각성을 보여주는 사례로, 컴퓨팅 자원 보호의 중요성을 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/canadian-extradited-to-us-over-cryptomining-hacks-on-university-supercomputers/",
+      "date": "2026-11-04"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "OpsShield 공급망 공격을 통한 악의적 cPGuard 업데이트 배포",
+      "summary": "보안 업체 OpsShield의 공급망이 침해되어 악의적인 cPGuard 업데이트가 사용자들에게 배포된 사건이 발생했습니다. 이번 공급망 공격은 정상적인 소프트웨어 업데이트 경로를 악용하여 광범위한 피해를 입힐 수 있는 위협입니다. 공격자는 cPGuard의 정상적인 업데이트 메커니즘을 통해 악성 코드를 주입하여 다수의 사용자 시스템을 감염시킬 수 있었습니다. 이는 신뢰할 수 있는 보안 소프트웨어 벤더도 공급망 공격의 대상이 될 수 있음을 보여줍니다. 사용자들은 즉시 cPGuard의 최신 상태를 확인하고 필요한 보안 조치를 취해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/",
+      "date": "2026-11-04"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Chrome 157, 213개 보안 패치 배포... 7개는 긴급 등급",
+      "summary": "Google이 Chrome 157 버전을 출시하며 총 213개의 보안 취약점을 수정했습니다. 이 중 7개의 취약점은 긴급(Critical) 등급으로 분류되어 즉시 패치가 필요합니다. 해당 업데이트는 사용자의 브라우저 보안을 강화하기 위한 중요한 조치입니다. Chrome 사용자들은 최신 버전으로 업데이트하여 알려진 보안 위협으로부터 시스템을 보호해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/chrome-157-rolls-out-with-213-security-fixes-seven-rated-critical/",
+      "date": "2026-11-04"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "조작된 코딩 과제와 악용된 AI 도구가 바이낸스 60억 달러 해킹의 길을 열어",
+      "summary": "북한 해킹 그룹으로 추정되는 공격자들이 조작된 코딩 과제와 AI 도구를 악용하여 암호화폐 거래소 바이낸스를 대상으로 60억 달러 규모의 대규모 해킹을 성공시켰다. 공격자들은 정교한 소셜 엔지니어링 기법을 통해 바이낸스 직원들을 속여 악성 코드를 포함한 과제를 수행하도록 유도했다. AI 도구의 기능을 악용함으로써 공격자들은 탐지를 회피하면서 시스템에 접근할 수 있었다. 이 사건은 인적 요소와 개발 프로세스의 취약점을 이용한 공격이 얼마나 효과적일 수 있는지를 보여준다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
+      "date": "2026-11-04"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "북한, 바이낸스 해킹 관련 미국 주장에 항의하며 미사일 발사",
+      "summary": "북한이 미국의 바이낸스 거래소 해킹 연루 주장에 항의하며 해상으로 미사일을 발사했습니다. 이는 북한의 사이버 공격 혐의에 대한 미국의 지적에 대한 반발 움직임으로 보입니다. 북한은 과거 여러 차례 암호화폐 거래소를 대상으로 한 대규모 해킹 공격을 자행한 혐의를 받고 있습니다. 미국은 북한의 사이버 범죄로 인한 손실액이 상당하며, 이를 통해 무기 개발 자금을 조달하고 있다고 지적했습니다. 이번 미사일 발사는 사이버 공격 혐의에 대한 북한의 강경한 입장을 드러낸 것으로 해석됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/north-korea-launches-missiles-toward-the-sea-as-pyongyang-protests-against-us-claims-on-binance-hack/",
+      "date": "2026-11-04"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "메타, 뮤즈 버그 바운티 상위 발견 사항 공개, 지급액 120만 달러 달성",
+      "summary": "메타가 자사의 AI 모델 뮤즈(Muse)에 대한 버그 바운티 프로그램의 상위 보안 취약점 발견 사항을 공개했습니다. 이 프로그램을 통해 지금까지 총 120만 달러의 보상금이 지급되었습니다. 보안 연구자들이 발견한 주요 취약점들은 AI 시스템의 보안성을 강화하는 데 중요한 역할을 했습니다. 메타는 지속적으로 외부 보안 전문가들과의 협력을 통해 뮤즈 모델의 안전성을 개선하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/meta-shares-top-muse-bug-bounty-findings-as-payouts-reach-1-2-million/",
+      "date": "2026-11-04"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "로데오에서 배우는 성장의 교훈",
       "summary": "로데오는 불확실한 상황에서의 민첩성과 빠른 적응력의 중요성을 보여줍니다. 성공적인 비즈니스 성장은 예측 불가능한 도전에 대처할 수 있는 능력이 필요합니다. 계획과 준비만큼이나 현장에서의 즉시 대응 능력이 중요한 역할을 합니다. 기술 변화의 속도가 빨라지는 오늘날, 조직은 변화에 유연하게 대응할 수 있는 문화를 구축해야 합니다. 로데오처럼 기업도 끊임없는 학습과 개선을 통해 더 큰 성장을 이룰 수 있습니다.",
       "category": "서버",
@@ -2964,9 +3072,9 @@
     }
   ],
   "sources": {
-    "Dell": 70,
-    "HPE": 18,
-    "SecurityWeek": 226,
-    "VAST Data": 15
+    "Dell": 71,
+    "VAST Data": 16,
+    "SecurityWeek": 236,
+    "HPE": 18
   }
 }
