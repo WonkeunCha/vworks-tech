@@ -3,6 +3,24 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "공식 확정: Mercedes-AMG PETRONAS 포뮬러원 팀과 드라이버 키미 아토넬리가 HPE 지원으로 생성자 및 드라이버 챔피언십 동시 우승",
+      "summary": "포뮬러원 시즌이 여러 경주를 남겨두고 있는 가운데, Mercedes-AMG PETRONAS 포뮬러원 팀이 드라이버 챔피언십과 생성자 챔피언십이라는 스포츠의 두 가지 주요 타이틀을 이미 확보했습니다. 모든 비즈니스와 마찬가지로 이러한 성공은 수개월간의 설계, 개발, 지속적인 개선과 HPE 같은 신뢰할 수 있는 파트너의 기술을 통한 더욱 빠르고 똑똑한 의사결정을 필요로 했습니다. 20세의 나이로 포뮬러원 역사상 최연소 월드 챔피언이라는 기록을 세운 안드레아 키미 아토넬리가 2026년 챔피언십에서 우승을 차지했습니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/11/its-official-mercedes-amg-petronas-formula-one-team-and-driver-kimi-antonelli-win-both-the-constructors-and-drivers-championships-with-support-from-hpe.html",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "브라바 시큐리티, 1,500만 달러 펀딩으로 베일을 벗다",
+      "summary": "사이버보안 스타트업 브라바 시큐리티가 1,500만 달러의 시리즈 펀딩을 유치하며 공식 출범했다. 동사는 AI 기반 공격 텔레메트리를 활용하여 보안 운영 센터(SOC)의 방어 공백을 메우는 솔루션을 제공한다. 이 기술을 통해 조직들은 실제 공격 시뮬레이션 데이터를 생성하여 보안 대응 능력을 강화할 수 있다. 브라바 시큐리티는 기존 보안 인프라의 한계를 보완하기 위해 설립된 회사로, 엔터프라이즈 환경에서의 사이버 위협 대응 효율성을 높이는 데 초점을 맞추고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "소닉월, VPN 로그인을 약화시키는 악용된 SonicOS 취약점 패치",
       "summary": "소닉월(SonicWall)이 자사의 SonicOS에서 발견된 보안 취약점에 대한 패치를 공개했습니다. 이 취약점은 VPN 로그인 보안을 약화시키는 것으로 알려져 있으며, 이미 악용되고 있는 것으로 확인되었습니다. 이번 패치는 원격 공격자들이 VPN 접속 인증 체계를 우회하거나 손상시킬 수 있는 위험을 해결하기 위해 긴급으로 배포되었습니다. 사용자들은 보안 침해의 위험을 줄이기 위해 가능한 한 빨리 패치를 적용할 것을 권고받고 있습니다.",
       "category": "보안",
@@ -3288,9 +3306,9 @@
     }
   ],
   "sources": {
-    "SecurityWeek": 256,
+    "HPE": 19,
+    "SecurityWeek": 257,
     "Dell": 74,
-    "VAST Data": 17,
-    "HPE": 18
+    "VAST Data": 17
   }
 }

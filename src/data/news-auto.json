@@ -4240,9 +4240,29 @@
     "https://www.securityweek.com/researchers-find-residential-proxies-on-white-house-network/",
     "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/",
     "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/",
-    "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/"
+    "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+    "https://www.hpe.com/us/en/newsroom/blog-post/2026/11/its-official-mercedes-amg-petronas-formula-one-team-and-driver-kimi-antonelli-win-both-the-constructors-and-drivers-championships-with-support-from-hpe.html",
+    "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "공식 확정: Mercedes-AMG PETRONAS 포뮬러원 팀과 드라이버 키미 아토넬리가 HPE 지원으로 생성자 및 드라이버 챔피언십 동시 우승",
+      "summary": "포뮬러원 시즌이 여러 경주를 남겨두고 있는 가운데, Mercedes-AMG PETRONAS 포뮬러원 팀이 드라이버 챔피언십과 생성자 챔피언십이라는 스포츠의 두 가지 주요 타이틀을 이미 확보했습니다. 모든 비즈니스와 마찬가지로 이러한 성공은 수개월간의 설계, 개발, 지속적인 개선과 HPE 같은 신뢰할 수 있는 파트너의 기술을 통한 더욱 빠르고 똑똑한 의사결정을 필요로 했습니다. 20세의 나이로 포뮬러원 역사상 최연소 월드 챔피언이라는 기록을 세운 안드레아 키미 아토넬리가 2026년 챔피언십에서 우승을 차지했습니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/11/its-official-mercedes-amg-petronas-formula-one-team-and-driver-kimi-antonelli-win-both-the-constructors-and-drivers-championships-with-support-from-hpe.html",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "브라바 시큐리티, 1,500만 달러 펀딩으로 베일을 벗다",
+      "summary": "사이버보안 스타트업 브라바 시큐리티가 1,500만 달러의 시리즈 펀딩을 유치하며 공식 출범했다. 동사는 AI 기반 공격 텔레메트리를 활용하여 보안 운영 센터(SOC)의 방어 공백을 메우는 솔루션을 제공한다. 이 기술을 통해 조직들은 실제 공격 시뮬레이션 데이터를 생성하여 보안 대응 능력을 강화할 수 있다. 브라바 시큐리티는 기존 보안 인프라의 한계를 보완하기 위해 설립된 회사로, 엔터프라이즈 환경에서의 사이버 위협 대응 효율성을 높이는 데 초점을 맞추고 있다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
+      "date": "2026-11-08"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "소닉월, VPN 로그인을 약화시키는 악용된 SonicOS 취약점 패치",
@@ -13224,26 +13244,8 @@
       "source": "VAST Data",
       "sourceUrl": "https://www.vastdata.com/blog/pipelines-power-and-parallel-worlds-inside-the-digital-twin-stack",
       "date": "2026-08-06"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "유럽, GTC Paris에서 AI 주권과 네오클라우드에 대해 현실적 논의",
-      "summary": "VAST Data 블로그의 이 기사는 파리에서 개최된 GTC(GPU Technology Conference)에서 유럽의 AI 주권과 네오클라우드에 관한 논의 내용을 다룹니다. 유럽은 기술 독립성과 데이터 보호를 강조하며 AI 인프라 개발에 대한 전략적 접근을 모색하고 있습니다. 네오클라우드 기술은 전통적인 클라우드 인프라의 한계를 극복하고 더욱 유연하고 독립적인 데이터 관리 솔루션으로 제시됩니다. VAST Data는 이러한 변화하는 환경 속에서 AI OS 및 관련 기술을 통해 기업들의 데이터 주권 확보를 지원하는 솔루션을 제공합니다. 이 논의는 글로벌 AI 시장에서 지역별 독립성과 보안이 얼마나 중요한지를 보여주는 사례입니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/europe-gets-real-about-ai-sovereignty-and-neoclouds-at-gtc-paris",
-      "date": "2026-08-06"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "생명과학 시스템의 새로운 형태",
-      "summary": "현대 생명과학 산업은 급속도로 증가하는 데이터량과 복잡한 분석 요구에 직면하고 있습니다. VAST Data는 생명과학 연구 기관들이 방대한 유전체, 단백질체, 영상 데이터를 효율적으로 관리하고 처리할 수 있는 혁신적인 데이터 인프라 솔루션을 제시합니다. 기존의 스토리지 시스템은 높은 성능 요구사항과 비용 효율성 사이의 균형을 맞추기 어려웠으나, VAST의 기술은 초고속 데이터 접근성과 확장성을 동시에 제공합니다. 이러한 새로운 형태의 시스템은 연구자들이 AI와 머신러닝 기반의 분석에 더 집중할 수 있도록 인프라 부담을 경감시킵니다. 결과적으로 생명과학 연구의 혁신 속도를 높이고 질병 진단 및 치료법 개발에 기여할 수 있게 됩니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/the-new-shape-of-life-sciences-systems",
-      "date": "2026-08-06"
     }
   ],
-  "totalItems": 4241,
+  "totalItems": 4243,
   "hasArchive": true
 }
