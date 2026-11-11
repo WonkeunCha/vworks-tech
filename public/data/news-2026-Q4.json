@@ -3,6 +3,114 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell, 더 똑똑한 오디오와 지속적인 편안함으로 비즈니스 헤드셋의 기준을 높이다",
+      "summary": "Dell의 새로운 비즈니스 헤드셋은 고급 오디오 기술과 인체공학적 설계를 통해 업무 효율성을 향상시킵니다. 장시간 착용해도 편안한 구조로 사용자의 피로도를 크게 줄일 수 있습니다. 스마트 음성 인식 및 노이즈 캔슬링 기능이 회의의 질을 개선하고 전문적인 커뮤니케이션을 가능하게 합니다. Dell은 다양한 업무 환경과 개인의 선호도에 맞는 맞춤형 옵션들을 제공하여 사용자 만족도를 극대화했습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/dell-raises-the-bar-for-business-headsets-with-smarter-audio-and-lasting-comfort",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "현재의 데이터 센터를 미래에 대비하게 준비하기",
+      "summary": "기업들은 기존 데이터 센터 인프라를 활용하면서도 미래의 기술 변화에 대응할 수 있어야 합니다. 현재 보유한 IT 자산을 최대한 활용하는 것이 비용 효율적이고 지속 가능한 디지털 변혁의 핵심입니다. Dell Technologies의 솔루션은 기존 시스템을 현대화하고 최적화하여 새로운 워크로드와 요구사항을 수용할 수 있도록 지원합니다. 하이브리드 클라우드 환경에서의 일관된 경험과 확장성을 확보하는 것이 중요합니다. 조직은 점진적인 기술 업그레이드를 통해 운영 중단 없이 미래에 대비할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/the-data-center-you-have-ready-for-what-comes-next",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "마이크로소프트, 악용 중인 Outlook 제로데이를 포함한 1,094개 결함 패치",
+      "summary": "마이크로소프트가 1,094개의 보안 결함을 패치했으며, 이 중에는 현재 실제로 악용되고 있는 Outlook 제로데이 취약점이 포함되어 있습니다. 이번 패치는 마이크로소프트의 정기 보안 업데이트의 일환으로 진행되었습니다. Outlook 제로데이는 특히 사용자들에게 즉각적인 위협이 되고 있어 빠른 업데이트가 권장됩니다. 이 결함들은 마이크로소프트의 여러 제품에 영향을 미치고 있으며, 사용자들은 최신 보안 패치 적용을 통해 시스템을 보호해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "어도비, 9개 제품의 110개 취약점 패치",
+      "summary": "어도비가 AEM, Premiere, Photoshop, After Effects 등 9개 제품에서 발견된 110개의 보안 취약점을 패치했습니다. 이번 보안 업데이트는 SecurityWeek에서 보도되었으며, 2026년 11월 10일에 공개되었습니다. 해당 취약점들은 다양한 수준의 심각도를 가지고 있으며, 사용자들의 시스템 보안을 위협할 수 있습니다. 어도비는 사용자들에게 즉시 최신 버전으로 업데이트할 것을 권장하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/adobe-patches-110-vulnerabilities-across-9-products/",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "소프트웨어 투명성의 변화: Allan Friedman이 말하는 SBOM, AI BOM 및 향후 전망",
+      "summary": "SecurityWeek 팟캐스트에서 Allan Friedman이 소프트웨어 공급망 보안의 핵심 요소인 SBOM(소프트웨어 자산 목록)의 변화와 발전에 대해 논의합니다. 전통적인 SBOM을 넘어 AI 기반의 AI BOM이 등장하면서 소프트웨어 투명성이 새로운 차원으로 진화하고 있습니다. 이러한 변화는 조직들이 소프트웨어 구성 요소와 의존성을 더욱 정확하게 파악하고 보안 위험을 효과적으로 관리하도록 돕습니다. SBOM의 표준화와 AI BOM의 확대는 소프트웨어 공급망 보안의 미래를 크게 좌우할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/software-transparency-is-changing-allan-friedman-on-sbom-ai-boms-and-what-comes-next/",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "구글, AI 에이전트의 Signal 코드 검증 후 Gemini 4 Carbon 접근 확대",
+      "summary": "구글이 AI 에이전트들이 Signal 메시징 앱의 코드를 검증한 후 Gemini 4 Carbon에 대한 접근을 확대했습니다. 이는 구글의 DeepMind에서 개발한 고급 AI 모델인 Gemini 4 Carbon의 활용 범위가 보안 검증 분야로 확장되고 있음을 의미합니다. AI 에이전트를 통한 자동화된 코드 검증은 보안 감시 및 취약점 탐지 프로세스의 효율성을 높이는 데 기여할 수 있습니다. 이러한 개발은 인공지능이 사이버보안 분야에서 점점 더 중요한 역할을 수행하고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/google-widens-gemini-4-carbon-access-after-ai-agents-verify-signal-code/",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "오늘: CISO 포럼 가상 서밋 2026 - 글로벌 사이버보안 리더들과 함께",
+      "summary": "SecurityWeek에서 주최하는 CISO 포럼 가상 서밋 2026이 오늘 개최됩니다. 이 행사는 전 세계 사이버보안 최고 정보보호책임자(CISO)들이 한자리에 모여 최신 보안 전략과 산업 동향을 논의하는 자리입니다. 참석자들은 CISO 전략, 위협 대응, 디지털 보안 혁신 등 다양한 주제를 다루는 세션에 참여할 수 있습니다. 이번 가상 서밋은 조직의 사이버보안 리더십 강화와 글로벌 보안 커뮤니티와의 네트워킹 기회를 제공합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "화이트매터, 시리즈 A 펀딩으로 2,000만 달러 조달",
+      "summary": "사이버보안 기업 화이트매터가 시리즈 A 펀딩 라운드에서 2,000만 달러를 조달했습니다. 이 자금은 조직들이 보안을 강화하고 사이버 위협으로부터 보호하는 데 도움을 주기 위해 사용될 예정입니다. 이번 펀딩은 화이트매터의 사업 확장과 기술 개발을 가속화할 것으로 기대됩니다. SecurityWeek에 따르면 이 투자는 사이버보안 분야의 성장 추세를 반영합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/whitematter-raises-20-million-in-series-a-funding/",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "SAP, 중대한 ICM2SHELL 및 ProxyGate 취약점 패치",
+      "summary": "SAP가 ICM2SHELL과 ProxyGate라는 중대한 보안 취약점에 대한 패치를 발표했습니다. 이번 패치는 SAP 시스템의 심각한 보안 위협으로 지적되는 두 가지 주요 취약점을 해결하기 위한 것입니다. SecurityWeek에서 보도한 이번 보안 업데이트는 기업의 SAP 환경 보호를 위해 신속한 적용이 권장됩니다. 해당 취약점들은 공격자에 의해 악용될 경우 시스템 침해로 이어질 수 있는 것으로 평가됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/sap-patches-critical-icm2shell-proxygate-vulnerabilities/",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "큐볼(Qubole) 공급망 공격으로 12개 이상의 조직 피해",
+      "summary": "글로벌 데이터 플랫폼 기업인 큐볼의 공급망을 통한 사이버 공격으로 12개 이상의 조직이 피해를 입었습니다. 이번 공급망 공격은 큐볼의 서비스나 소프트웨어를 이용하는 다양한 산업의 기업들을 대상으로 전개되었습니다. 공격자들은 정상적인 업데이트나 패치로 위장하여 피해 조직들에 악성 코드를 배포한 것으로 파악되고 있습니다. 이러한 공급망 공격은 광범위한 피해를 야기할 수 있어 사이버 보안 커뮤니티에서 큰 주목을 받고 있습니다. 큐볼은 이 사건에 대응하기 위해 영향을 받은 고객들에게 즉시 알림을 제공하고 대응 방안을 안내하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Anthropic, Mythos 5.2 출시 - 개선된 버그 탐지 및 샌드박스 탈출 감소",
+      "summary": "Anthropic이 Mythos 5.2를 출시했으며, 이 버전은 버그 탐지 능력이 향상되고 샌드박스 탈출 사건이 감소한 것이 특징입니다. 이번 업데이트는 AI 모델의 보안성을 강화하고 취약점 발견 능력을 개선하는 데 초점을 맞추었습니다. SecurityWeek에서 보도한 이 소식은 Eduard Kovacs 기자가 작성했으며, 2026년 11월 10일에 발표되었습니다. Mythos 5.2는 AI 보안 분야에서 중요한 진전을 나타내며, 악의적인 공격으로부터의 보호 메커니즘 강화를 의미합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/anthropic-rolls-out-mythos-5-2-with-improved-bug-hunting-fewer-sandbox-escapes/",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "N-able, 연구자가 30개 이상의 제로데이 공개하면서 N-central 서비스 중단",
+      "summary": "N-able이 자사의 원격 관리 플랫폼인 N-central을 오프라인으로 전환했습니다. 이는 한 보안 연구자가 30개 이상의 제로데이 취약점을 공개한 이후의 조치입니다. 해당 취약점들에 대한 개념 증명(PoC) 익스플로잇 코드도 함께 공개되어 보안 위협이 더욱 심화된 상황입니다. N-central은 IT 관리자들이 널리 사용하는 중요한 원격 접근 및 관리 도구로, 이번 서비스 중단은 많은 기업들에게 영향을 미칠 것으로 예상됩니다. N-able은 현재 해당 취약점들에 대한 패치 개발 및 배포에 총력을 기울이고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "왕립 오스트랄라시아 외과의사 대학, HPE 프라이빗 클라우드로 AU$210만 절감 목표",
       "summary": "호주 멜버른의 왕립 오스트랄라시아 외과의사 대학(RACS)이 남은 온프레미스 워크로드를 모두 HPE 프라이빗 클라우드로 이전했다고 HPE가 11월 10일 발표했다. 이는 기술 역량 개선, 운영 단순화 및 장기 IT 비용 관리를 위한 전략적 기술 변혁의 일환이며, GreenLake 클라우드 플랫폼을 통해 HPE 프라이빗 클라우드를 관리한다. 새로운 HPE 프라이빗 클라우드 PC3000 환경은 RACS의 연간 가상화 라이선싱 비용을 최대 70% 감소시켰으며, 물리 서버 수를 8대에서 4대로 줄였다.",
       "category": "HPC·서버",
@@ -18,6 +126,15 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/",
       "date": "2026-11-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell과 Canonical의 20년 파트너십",
+      "summary": "Dell Technologies와 Canonical은 20년 이상 긴밀한 협력 관계를 유지하며 오픈소스 기술 분야에서 혁신을 주도해왔습니다. Ubuntu 운영체제는 Dell의 다양한 제품과 솔루션에 통합되어 기업 고객들에게 안정적이고 신뢰할 수 있는 플랫폼을 제공합니다. 이러한 파트너십을 통해 클라우드 컴퓨팅, 엣지 컴퓨팅, 인공지능 등 최신 기술 분야에서 고객들이 최고의 경험을 얻을 수 있게 지원합니다. Dell과 Canonical은 앞으로도 함께 오픈소스 생태계를 발전시키고 기업 고객들의 디지털 변환을 가속화할 계획입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/twenty-years-of-dell-and-canonical",
+      "date": "2026-11-09"
     },
     {
       "id": "aHR0cHM6Ly93d3cu",
@@ -3432,9 +3549,9 @@
     }
   ],
   "sources": {
+    "Dell": 81,
+    "SecurityWeek": 276,
     "HPE": 20,
-    "SecurityWeek": 266,
-    "Dell": 78,
     "VAST Data": 17
   }
 }
