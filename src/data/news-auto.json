@@ -4269,9 +4269,129 @@
     "https://www.securityweek.com/sap-patches-critical-icm2shell-proxygate-vulnerabilities/",
     "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/",
     "https://www.securityweek.com/anthropic-rolls-out-mythos-5-2-with-improved-bug-hunting-fewer-sandbox-escapes/",
-    "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/"
+    "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/",
+    "https://www.dell.com/blog/ej-hassenfratz-teaches-artists-their-skills-still-matter",
+    "https://www.vastdata.com/blog/how-inference-is-forcing-a-rethink-of-ai-infrastructure",
+    "https://www.vastdata.com/blog/rethinking-kv-cache-offloading",
+    "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
+    "https://www.securityweek.com/asus-zoom-release-security-patches/",
+    "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
+    "https://www.securityweek.com/finite-state-raises-27-million-to-secure-software-and-firmware-in-connected-devices/",
+    "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/",
+    "https://www.securityweek.com/bay-raises-50-million-to-control-what-enterprise-ai-agents-can-do/",
+    "https://www.securityweek.com/dreeze-emerges-from-stealth-with-33m-to-rebuild-cloud-apps-after-cyberattacks/",
+    "https://www.securityweek.com/ics-patch-tuesday-siemens-flags-high-severity-flaws-node2shell-exposure/",
+    "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "EJ Hassenfratz는 예술가들에게 자신의 기술이 여전히 중요하다는 것을 가르칩니다",
+      "summary": "AI 시대에도 예술가들의 기술과 창의력은 여전히 중요한 가치를 지니고 있습니다. EJ Hassenfratz는 전통적인 예술 기술과 현대 기술을 결합하여 새로운 가능성을 창출할 수 있음을 보여줍니다. 예술가들은 기술 변화에 적응하면서도 자신의 핵심 역량을 유지해야 합니다. 지속적인 학습과 기술 향상은 AI 시대의 예술 시장에서 경쟁력을 유지하는 핵심입니다. 전문가적 기술과 인간적 창의성의 조합이 더욱 가치있는 작품을 만들어냅니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/blog/ej-hassenfratz-teaches-artists-their-skills-still-matter",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "추론이 AI 인프라의 재검토를 강요하고 있다",
+      "summary": "제공하신 내용은 VAST Data 블로그 기사의 HTML/CSS 코드와 JavaScript 함수들로 이루어져 있으며, 실제 기사 본문이 포함되어 있지 않습니다. 제시된 코드는 웹페이지의 반응형 레이아웃 설정, 폰트 크기 접근성 감지, 푸터 연도 업데이트, 색상 프로필 정의 등의 기술적 구현 부분만 포함하고 있습니다. 따라서 'AI 인프라와 추론(inference)'에 관한 실제 블로그 기사 내용을 파악하기 위해서는 마크업 코드를 제외한 본문 텍스트가 필요합니다. 죄송하지만 현재 제공된 자료만으로는 기사의 핵심 내용을 정확히 번역 및 요약해드릴 수 없습니다. 기사의 실제 본문 내용을 다시 확인하여 제공해주시면 성실하게 번역하겠습니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/how-inference-is-forcing-a-rethink-of-ai-infrastructure",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "KV 캐시 오프로딩 재검토: 공유 vs 로컬 NVMe 스토리지의 아키텍처적 필요성",
+      "summary": "본 블로그는 대규모 AI 모델 서빙 환경에서 KV(Key-Value) 캐시 오프로딩 전략의 근본적인 재검토를 다룬다. 로컬 플래시 기반 KV 캐시 오프로딩은 GPU 서버의 SSD를 빠르게 소모하고 불필요한 쓰기를 중복으로 야기하는 문제가 있다. 이러한 문제를 해결하기 위해 공유 NVMe-oF(NVMe over Fabric) 스토리지 기반의 아키텍처를 제안하며, 이는 대규모 배포 환경에서 더 우수한 내구성과 확장성을 제공한다. 공유 스토리지 모델은 여러 GPU 서버가 단일 스토리지 풀을 활용하므로 리소스 효율성이 높고, 서버별 SSD 소모 문제를 근본적으로 해결한다. VAST Data의 기술적 분석은 고성능 AI 인프라에서 스토리지 아키텍처의 선택이 전체 시스템의 성능과 비용 효율성에 미치는 영향을 강조한다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/rethinking-kv-cache-offloading",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "심각한 Xen Orchestra 결함이 공격에 악용되고 있음",
+      "summary": "Xen Orchestra의 중요한 보안 결함들이 실제 공격에서 악용되고 있습니다. 위협 행위자들이 이러한 취약점을 통해 시스템에 접근하여 피해를 입히고 있는 상황입니다. SecurityWeek의 보도에 따르면 Xen Orchestra 사용자들은 즉시 주의가 필요합니다. 이 공격은 가상화 인프라를 표적으로 하는 것으로 보이며, 조직들은 긴급히 업데이트를 적용해야 합니다. 해당 취약점은 인증 관련 결함과 관련이 있는 것으로 추정됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "에이수스, 줌 보안 패치 공개",
+      "summary": "에이수스와 줌이 자사 제품의 심각도가 높은 취약점들을 해결하기 위한 보안 패치를 공개했습니다. 이번 패치는 중대(Critical)에서 높음(High) 수준의 보안 취약점들을 대상으로 하고 있습니다. 두 회사는 사용자들의 시스템 보안을 강화하기 위해 신속하게 대응하고 있습니다. 사용자들은 가능한 한 빠른 시일 내에 이 보안 패치를 적용할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/asus-zoom-release-security-patches/",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Citrix와 Ivanti, 심각한 보안 취약점 패치 배포",
+      "summary": "Citrix와 Ivanti가 각각 심각도 높은 취약점을 해결하기 위한 보안 패치를 릴리스했습니다. 이번 패치는 중요 수준 및 높은 수준의 여러 취약점을 대상으로 하며, 사용자들에게 즉시 업데이트를 권고하고 있습니다. 두 회사 모두 자신의 플랫폼을 사용하는 조직들이 최신 보안 업데이트를 신속하게 적용할 것을 강력히 권장하고 있습니다. 이러한 취약점들은 악의적인 행위자들에 의해 악용될 경우 심각한 보안 위협을 야기할 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "파이나이트 스테이트, 연결된 기기의 소프트웨어 및 펌웨어 보안을 위해 2,700만 달러 투자 유치",
+      "summary": "사이버보안 기업 파이나이트 스테이트(Finite State)가 연결된 기기의 소프트웨어 및 펌웨어 보안 강화를 위해 2,700만 달러 규모의 투자 자금을 조성했습니다. 이번 펀딩은 IoT 기기와 산업 제어 시스템(ICS) 환경에서의 공급망 보안 위험을 해결하기 위한 회사의 노력을 강화합니다. 파이나이트 스테이트는 펀딩을 통해 제품 개발과 시장 확대에 집중할 계획입니다. 이는 기업과 산업 분야에서 기기 보안에 대한 관심이 증가하고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/finite-state-raises-27-million-to-secure-software-and-firmware-in-connected-devices/",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Fortinet, 거의 100개의 취약점 패치 출시",
+      "summary": "Fortinet이 약 100개의 보안 취약점에 대한 패치를 공개했습니다. 이번 패치에는 최첨단 AI 모델을 활용하여 발견된 많은 취약점들이 포함되어 있습니다. 보안 업데이트를 통해 Fortinet의 여러 제품에서 발견된 결함들을 해결하고 있습니다. 사용자들은 시스템 보안을 유지하기 위해 신속한 패치 적용을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Bay, 엔터프라이즈 AI 에이전트 제어 기술로 5천만 달러 투자 유치",
+      "summary": "Bay는 엔터프라이즈 AI 에이전트의 동작을 제어하는 기술 개발을 위해 5천만 달러 규모의 투자 자금을 확보했습니다. 이 솔루션은 조직이 AI 에이전트의 행동과 권한을 효과적으로 관리하고 통제할 수 있도록 설계되었습니다. 엔터프라이즈 환경에서 AI 에이전트 사용이 확대되면서 보안과 통제의 필요성이 대두되고 있습니다. Bay의 기술은 AI 에이전트가 조직의 보안 정책과 규정을 준수하도록 보장하는 것을 목표로 합니다. 이번 투자는 기업 AI 시스템의 안전성과 신뢰성을 확보하려는 시장의 수요를 반영하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/bay-raises-50-million-to-control-what-enterprise-ai-agents-can-do/",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dreeze, 사이버공격 후 클라우드 앱 복구를 위해 3,300만 달러 펀딩 유치하며 본격 사업 시작",
+      "summary": "클라우드 보안 업체 Dreeze가 스텔스 모드를 벗고 3,300만 달러의 시리즈 펀딩을 유치했습니다. 이 회사는 사이버공격으로 인한 클라우드 애플리케이션의 피해 복구에 특화된 솔루션을 제공합니다. 클라우드 환경에서 증가하는 보안 위협으로부터 기업들의 데이터와 시스템을 빠르게 복구할 수 있도록 지원하는 것이 Dreeze의 핵심 사업입니다. 이번 펀딩은 클라우드 보안 및 재해 복구 분야에 대한 투자자들의 관심이 높아지고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/dreeze-emerges-from-stealth-with-33m-to-rebuild-cloud-apps-after-cyberattacks/",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "ICS 패치 화요일: 지멘스 고위험 결함 공개, Node2Shell 노출",
+      "summary": "지멘스가 산업제어시스템(ICS)에서 발견된 고위험도 취약점들을 공개했습니다. 이번 ICS 패치 화요일을 통해 여러 보안 결함이 플래그되었으며, Node2Shell 관련 노출 사항도 함께 보도되었습니다. 해당 취약점들은 산업 기반시설과 제조업체 시스템에 심각한 위협을 초래할 수 있습니다. SecurityWeek에서 보도한 이 기사는 ICS/OT 보안 분야의 최신 위협 정보를 제공하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ics-patch-tuesday-siemens-flags-high-severity-flaws-node2shell-exposure/",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "위협 행위자들이 Openwave, Cisco BroadWorks 취약점 악용",
+      "summary": "위협 행위자들이 Openwave와 Cisco BroadWorks의 보안 취약점을 악용하고 있는 것으로 보고되었습니다. SecurityWeek에 따르면 이러한 취약점들은 CISA의 Known Exploited Vulnerabilities(KEV) 목록에 추가되었습니다. 공격자들은 이 취약점들을 통해 기업의 통신 및 네트워크 시스템에 접근하려고 시도하고 있습니다. 보안 전문가들은 영향받는 조직들에게 즉시 패치를 적용할 것을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
+      "date": "2026-11-11"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "Dell, 더 똑똑한 오디오와 지속적인 편안함으로 비즈니스 헤드셋의 기준을 높이다",
@@ -13163,116 +13283,8 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-4/",
       "date": "2026-08-07"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "마이크로소프트, 애플, 새로운 보안 업데이트 공개",
-      "summary": "마이크로소프트와 애플이 다중 취약점에 대한 패치를 공개했습니다. 이번 보안 업데이트는 엔드포인트 보안과 관련된 여러 취약점을 해결하기 위해 배포되었습니다. 두 기업 모두 사용자에게 신속한 패치 적용을 권장하고 있습니다. 이는 사이버보안 위협으로부터 시스템을 보호하기 위한 정기적인 보안 조치의 일환입니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/microsoft-apple-release-fresh-security-updates/",
-      "date": "2026-08-07"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "언리미티드 테크놀로지 시스템 데이터 유출로 380만 명 피해",
-      "summary": "언리미티드 테크놀로지 시스템(Unlimited Technology Systems)에서 발생한 데이터 유출 사건으로 약 380만 명이 영향을 받았습니다. 이번 사건은 헬스케어 산업을 대상으로 한 것으로 알려져 있으며, 개인정보 보호에 심각한 위협이 되고 있습니다. SecurityWeek에서 보도한 이 사건은 2026년 8월 7일에 공식 공개되었습니다. 해당 기업은 대규모 데이터 유출 사건 이후 피해자들에 대한 통지 및 대응 조치를 진행 중인 것으로 파악됩니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/3-8-million-impacted-by-unlimited-technology-systems-data-breach/",
-      "date": "2026-08-07"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Chrome 151 업데이트로 중대 취약점 패치",
-      "summary": "Google Chrome 151 버전 업데이트에서 여러 중대 취약점이 패치되었습니다. SecurityWeek에서 보도한 이 소식에 따르면 Chrome 브라우저의 보안이 강화되었습니다. 이번 패치는 사용자들이 웹 브라우징 중 발생할 수 있는 보안 위협으로부터 보호하기 위한 것입니다. Chrome 사용자들은 최신 버전으로 업데이트하여 이러한 취약점으로부터 자신의 시스템을 보호할 것을 권장받고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/critical-vulnerabilities-patched-with-chrome-151-update/",
-      "date": "2026-08-07"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "비에스아이시스템·남양주시, 방범·환경 통합형 CCTV 운영 확대",
-      "summary": "시민 안전과 도시환경 개선 동시 강화[보안뉴스 엄호식 기자] 남양주시는 시민 안전 확보와 생활환경 개선을 위해 방범 기능과 불법 무단투기 감시 기능을 결합한 통합형 CCTV 운영 확대 사업을 추진하고 있다.이번 사업으로 별내면 내 무단투기 감시 전용 CCTV 25개소가 방범 기능까지 수행하는 통합형 장비로 전환됐다. 이에 따라 하나의 영상정보 인프라를 활용",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145074&kind=&sub_kind=",
-      "date": "2026-08-07"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "명지대 ‘드론봇·대드론 센터’ 출범... 산학군 협력 안보 네트워크 강화",
-      "summary": "4개 방산 기술 기업과 MOU... 무인체계 기술 고도화 결집전자전 OTA EW 시험부터 LLM 기반 위협 분석까지 기술 공유[보안뉴스 조재호 기자] 명지대학교 방산안보연구소가 ‘드론봇 및 대드론 센터’를 개소하며 산학군 협력을 통한 국가 무인 무기체계 방어 인프라 구축에 본격적으로 나섰다.명지대는 최근 드론봇 및 대드론 센터 개소식과 기념 세미나를 개최했",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145072&kind=&sub_kind=",
-      "date": "2026-08-07"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[카드뉴스] 무료 선물 링크의 덫… 방화벽 뚫고 들어오는 사이버 공격 실체",
-      "summary": "무료 리소스 링크 등을 가장한 트로이 목마형 악성코드 유입과 사회공학적 공격이 기업 디지털 자산을 심각하게 위협하고 있다. 단순 경계망 방화벽을 넘어 엔드포인트 백신 모듈, 익명성 제어 기술, 무결성 점검이 결합된 다층 방어 체계 구축이 요구된다. 기업은 사이버 위협의 유입을 원천 차단하고 사내 네트워크를 보호하기 위해 상시 단말 무결성 점검과 통합 보안",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145071&kind=&sub_kind=",
-      "date": "2026-08-07"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[DEF CON 34] 이상중 KISA 원장 “K-해커들 든든하게 뒷받침할 것”",
-      "summary": "데프콘 CTF 본선 출전 해커들 만나 격려“이미 최고 수준 증명... 즐기고 오길”[라스베이거스=보안뉴스 강현주 기자] “데프콘 CTF 본선에 진출한 우리 해커들은 이미 세계 최고 수준임을 다시 한번 증명한 것입니다. 긴장하지 말고 마음껏 즐기고 오십시오. 앞으로도 든든하게 뒷받침하겠습니다.”6일(현지시간) 이상중 한국인터넷진흥원(KISA) 원장은 데프콘",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145069&kind=&sub_kind=",
-      "date": "2026-08-07"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026] 대미를 장식할 컨퍼런스 주제는 무엇?",
-      "summary": "AI로 구현하는 자율 보안의 미래, ISEC 2026의 마지막 여정 삼성SDS, 엑스보우, 패스틀리, 에어코드 강연자로 나서[보안뉴스 엄호식 기자] 대한민국 대표 사이버보안 콘퍼런스이자 아시아 최대 규모로 자리잡은 ‘ISEC 2026’(제20회 국제 시큐리티 콘퍼런스)가 8월 11일과 12일 양일간 서울 코엑스에서 진행된다. 올해에는 AI의 급속한 발전으",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144988&kind=&sub_kind=",
-      "date": "2026-08-07"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "앤트로픽·오픈AI, 사이버보안 테스트서 가짜 신원 만들어 공격 시도",
-      "summary": "미토스, 깃허브 관리자 사칭한 가짜 프로필로 악성 코드 승인 유도앤트로픽·오픈AI “실제 서비스 환경 아니다” 해명하며 자체 조사 착수[보안뉴스 김형근 기자] 영국 AI안전연구소(AISI)가 앤트로픽의 미토스(Mythos) AI와 오픈AI의 솔(Sol) AI가 사이버보안 테스트 중 예상을 벗어난 행동을 보였다고 발표했다. 인간의 별도 지시 없이 AI가 스스",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145066&kind=&sub_kind=",
-      "date": "2026-08-07"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "오마다, AI 네트워크 설계 플랫폼 ‘Omada 디자인 허브’ 무료 웨비나 개최",
-      "summary": "AP 자동 배치, Wi-Fi Heatmap, Auto Cabling 등 핵심 기능 라이브 데모로 소개8월 26일까지 사전 등록, 참여자 대상 기프티콘 추첨 이벤트 진행[보안뉴스 강초희 기자] 오마다(Omada)는 오는 8월 27일 AI 기반 네트워크 설계 플랫폼 ‘Omada 디자인 허브’를 주제로 무료 온라인 웨비나를 개최한다고 밝혔다.이번 웨비나는 반복되",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145065&kind=&sub_kind=",
-      "date": "2026-08-07"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "이스트시큐리티-퓨리오사AI ‘맞손’... NPU 품은 K-보안 솔루션 뜬다",
-      "summary": "6일 업무협약 맺고 AI 에이전트 기반 EDR·sLLM에 2세대 칩 ‘레니게이드’ 탑재공공·금융 겨냥한 고효율 국산 인프라 구축... 소버린 AI 보안 생태계 선제적 대응[보안뉴스 조재호 기자] 이스트시큐리티가 퓨리오사AI와 ‘차세대 K-AI 보안 솔루션 개발 및 기술 협력을 위한 업무협약’(MOU)을 체결했다고 7일 밝혔다. AI 보안 소프트웨어와 신경망",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145064&kind=&sub_kind=",
-      "date": "2026-08-07"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "“조사도 안 끝났는데 보고부터?” 불투명한 팩트에 발목 잡힌 보안 거버넌스",
-      "summary": "규제 당국의 상이한 기준에 기업들 혼란 가중... 섣불리 제출한 서류가 부메랑 되기도의사결정의 투명한 기록 및 증적 남기는 데이터 기반 사후 방어권 확보 주력단편적 사고 수습 넘어 전사적 리스크 관리 관점의 거버넌스 재설계 본격화[보안뉴스 김형근 기자] 사이버 침해 사고 발생 시 기업이 처리해야 할 규제 보고 의무가 수백여개로 증가하면서 기존의 수동적인 대",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145062&kind=&sub_kind=",
-      "date": "2026-08-07"
     }
   ],
-  "totalItems": 4270,
+  "totalItems": 4282,
   "hasArchive": true
 }
