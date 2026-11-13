@@ -3,6 +3,159 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "FBI, 바이낸스에서 도난당한 12억 달러 규모의 암호화폐 압수",
+      "summary": "미국 FBI가 바이낸스 거래소에서 도난당한 12억 달러 규모의 암호화폐를 압수했다고 발표했습니다. 이번 압수는 대규모 사이버범죄 수사의 일환으로 진행되었으며, 북한과 관련된 해킹 조직의 개입이 의심되고 있습니다. 압수된 암호화폐는 도난 사건 이후 불법적으로 이동되고 있던 것으로 파악되었습니다. 이는 글로벌 암호화폐 거래소의 보안 위협과 법 집행 기관의 대응 역량을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "비영리기관이 AI를 책임감 있게 사용하기 위한 준비",
+      "summary": "대부분의 비영리기관은 AI를 책임감 있게 사용하고 싶어 하지만, 일부는 이를 위한 기반시설, 거버넌스 체계, 신뢰할 수 있는 파트너가 부족합니다. Dell의 Future Ready Nonprofits 프로그램은 TechSoup과의 파트너십을 통해 캐나다에서 이러한 격차를 해소하고 있으며, 5개의 사명 중심 기관에 디지털 도구, 사이버보안 지원, AI 기술 교육을 제공하고 있습니다. Dell과 TechSoup이 함께 진행한 44개 미국 주의 180개 비영리기관 설문조사에 따르면, 용량 부족이 AI 도입의 주요 장애물입니다. 비영리기관이 필요한 기술에 접근하지 못하면 프로그램이 확대되지 않고, 언어가 보존되지 않으며, 학생들이 마땅한 이점을 얻지 못합니다. Dell Future Ready Nonprofits 프로그램은 TechSoup과의 협력으로 개발되었으며, 비영리기관이 디지털 역량을 구축하고 사이버보안을 강화하며 커뮤니티 영향력을 확대하는 데 필요한 기술을 개발하도록 지원합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-nonprofits-get-ready-to-use-ai-responsibly",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell Pro Essential: 소규모 비즈니스를 위해 설계된 새로운 디자인",
+      "summary": "Dell Pro Essential 14와 15는 더욱 얇고 가벼워진 디자인으로 회의, 사무실, 고객 방문지 간의 이동을 더욱 편하게 해줍니다. 단축키, 더 큰 터치패드, 더 밝은 디스플레이 등 생산성 중심의 새로운 기능들이 사용자의 업무 효율성을 높입니다. 업무 준비가 완료된 연결성, 보안, 구성 옵션들은 소규모 비즈니스가 자신의 업무 방식에 맞는 올바른 PC를 선택할 수 있는 유연성을 제공합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/dell-pro-essential-a-new-design-built-for-small-business",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "에이전틱 AI와 당신: 당신의 에이전트에 뇌를 주세요",
+      "summary": "에이전트의 뇌 역할을 하는 모델을 선택하는 것이 매우 중요하며, 잘못된 모델을 선택하면 필요한 모든 것이 있어도 실패할 수 있습니다. 모델 라우팅을 활용하면 일상적인 작업은 작고 빠른 모델로 처리하고, 비용이 많이 드는 최고 성능 모델은 필요한 작업에만 사용할 수 있습니다. 벤치마크를 기반으로 후보를 선정한 후 2~3개 모델로 동일한 작업을 실행하여 올바른 결과를 내는 가장 저렴한 모델을 선택하는 것이 좋습니다. 프론티어 모델은 클라우드에서 실행되는 최고 성능의 모델이지만, 오픈 모델도 빠르게 발전하고 있으며 특히 코딩 분야에서 그 격차가 줄어들고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/agentic-ai-and-you-give-your-agent-a-brain",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "실천하는 목적: HPE 글로벌 봉사의 날",
+      "summary": "자전거는 아이에게 독립성, 자유, 그리고 자신의 것이라는 자부심을 가져다 줄 수 있습니다. HPE의 안토니오 네리 CEO는 최근 마이애미에서 개최된 연간 시니어 리더 포럼에 500명의 HPE 고위 지도자들과 함께 참석했습니다. 행사에서는 향후 전략과 리더십에 대해 논의했으며, 가장 의미있는 순간은 마이애미-데이드 카운티 소년소녀클럽을 위해 50대의 자전거를 조립하는 자원봉사 활동이었습니다. 이 봉사 활동은 HPE의 '선한 힘(Force for Good)' 문화를 실천으로 옮기는 기회가 되었고, 리더십의 진정한 의미를 되새기게 했습니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/11/our-purpose-in-action-hpe-global-day-of-service.html",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "HPE, 확장 가능한 HPC 솔루션에 대한 업계 수요 대응 - 세계 최고 속도의 하이브리드 슈퍼컴퓨팅 스토리지 및 지능형 랙 관리 시스템 출시",
+      "summary": "HPE는 2026년 11월 12일 고객의 스토리지 경제성 개선과 냉각 효율성 증대를 돕기 위한 두 가지 슈퍼컴퓨팅 및 랙 규모의 혁신 기술을 발표했다. HPE Cray 슈퍼컴퓨팅 스토리지 시스템 E2000의 새로운 하이브리드 구성은 세계에서 가장 빠른 하이브리드 슈퍼컴퓨팅 스토리지를 제공한다. HPE 랙 관리 컨트롤러는 고밀도 랙의 냉각 및 전력 효율을 개선하는 지능형 솔루션이다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/11/hpe-addresses-industry-demand-for-scalable-hpc-solutions-with-worlds-fastest-hybrid-supercomputing-storage-and-intelligent-rack-management.html",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기업은 어떻게 규모에 맞춰 AI 토큰 비용을 관리할 수 있을까?",
+      "summary": "기업들은 지난 몇 년간 대규모 언어모델(LLM)의 한계를 테스트하고 생성형 AI 파일럿 프로젝트를 통해 가능성을 검증하는 실험 단계에 있었습니다. 하지만 이제 샌드박스 시대를 벗어나 AI를 실제 비즈니스 프로세스에 확대 적용하려는 움직임이 가속화되고 있습니다. 에이전틱 AI 시대로 진입하면서 자율 시스템들은 단순 텍스트 요약을 넘어 워크플로우를 실행하고 상호작용할 것으로 예상됩니다. 이러한 확대 과정에서 기업들은 AI 토큰 비용을 효과적으로 관리하고 통제해야 하는 과제에 직면하고 있습니다.",
+      "category": "HPC·서버",
+      "source": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/blog-post/2026/11/how-can-enterprises-control-ai-token-costs-at-scale.html",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Microsoft 365 장애로 Outlook, Exchange Online, Teams 서비스 중단",
+      "summary": "Microsoft 365 서비스에서 대규모 장애가 발생하여 Outlook, Exchange Online, Teams 등 주요 서비스가 중단되었습니다. 이 장애로 인해 전 세계 사용자들이 이메일 접근, 온라인 협업 도구 이용 등에 심각한 영향을 받았습니다. SecurityWeek에서 보도한 이번 사건은 클라우드 기반 서비스의 안정성과 가용성의 중요성을 다시 한 번 부각시켰습니다. Microsoft는 장애 해결을 위한 조치를 취하고 있는 것으로 알려졌습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Apache, Anthropic과 Google이 발견한 HTTP 서버 원격코드실행(RCE) 취약점 패치",
+      "summary": "Apache는 Anthropic과 Google이 발견한 Apache HTTP 서버의 심각한 원격코드실행(RCE) 취약점에 대한 패치를 공개했습니다. 이 취약점은 공격자가 영향을 받은 서버에서 악의적인 코드를 원격으로 실행할 수 있게 해줍니다. Anthropic과 Google의 보안 연구팀이 협력하여 이 중대한 보안 결함을 식별했으며, Apache 재단은 즉시 업데이트를 통해 문제를 해결했습니다. 영향을 받은 Apache HTTP 서버 사용자들은 보안 위협으로부터 시스템을 보호하기 위해 즉시 패치를 적용할 것을 권장받고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Chrome과 Firefox 업데이트, 180개 이상의 취약점 패치",
+      "summary": "Google Chrome과 Mozilla Firefox 브라우저의 최신 보안 업데이트가 180개 이상의 취약점을 해결했습니다. 이번 업데이트는 사용자 시스템에 대한 다양한 보안 위협으로부터 보호하기 위해 긴급하게 배포되었습니다. 보안 전문가들은 사용자에게 가능한 한 빨리 두 브라우저를 최신 버전으로 업데이트할 것을 권고하고 있습니다. 미패치된 취약점들은 악의적인 공격자에 의해 악용될 수 있는 심각한 보안 위험을 초래할 수 있습니다. 정기적인 브라우저 업데이트는 사이버 보안을 유지하는 데 필수적인 조치입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities/",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "공격자, 6만 개 GitHub 저장소를 대상으로 자격증명 탈취 캠페인 진행",
+      "summary": "공격자가 대규모 자격증명 탈취 캠페인을 통해 약 60,000개의 GitHub 저장소를 목표로 공격하고 있습니다. 이 캠페인은 'Wfx-Loot'라는 악성 활동으로 추적되고 있으며, 개발자들의 인증 정보와 민감한 데이터 탈취를 목적으로 하고 있습니다. 이는 소프트웨어 공급망 보안에 심각한 위협이 될 수 있으며, 광범위한 저장소 대상으로 인해 많은 개발 프로젝트가 위험에 노출되어 있습니다. 보안 전문가들은 개발자들에게 강력한 인증 방법 사용과 저장소 보안 설정 강화를 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Daylight, AI 기반 보안 운영 솔루션으로 8천만 달러 펀딩 조달",
+      "summary": "사이버보안 스타트업 Daylight가 AI 기반 보안 운영 플랫폼 개발을 위해 8천만 달러 규모의 투자 자금을 확보했다. 이번 펀딩은 AI 기술을 활용한 보안 운영 자동화 및 효율성 개선에 대한 시장의 높은 관심을 반영하고 있다. Daylight는 이 자금을 통해 제품 개발과 시장 확대에 집중할 계획이다. 인공지능 기반 보안 솔루션은 조직의 보안팀이 위협 탐지 및 대응 능력을 강화하는 데 핵심 역할을 하고 있다. 이번 투자는 사이버보안 분야에서 AI 활용 확대 추세를 보여주는 사례로 평가된다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/daylight-lands-80-million-for-ai-powered-security-operations/",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "노션 고객 데이터, 파이어웍스 AI 해킹으로 유출",
+      "summary": "노션(Notion)의 고객 데이터가 파이어웍스 AI(Fireworks AI) 서비스에 대한 해킹으로 인해 침해당했습니다. 이번 사건은 LLM 재킹(LLMjacking) 공격 기법을 통해 발생한 것으로 보여집니다. AI 서비스 제공업체의 보안 취약점이 연쇄적으로 사용자 데이터까지 위협하게 된 사례입니다. 해당 사건은 2025년 11월 12일에 SecurityWeek에서 보도되었습니다. 이번 데이터 유출은 기업들이 외부 AI 서비스 연동 시 보안 관리의 중요성을 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "해커들이 ScreenConnect를 이용한 새로운 악성코드 배포 공격 전개",
+      "summary": "해커들이 ConnectWise의 원격 접속 소프트웨어인 ScreenConnect의 취약점을 악용하여 악성코드를 배포하는 새로운 공격 캠페인을 전개하고 있습니다. 이번 공격은 기업의 IT 인프라에 직접적인 위협이 되고 있으며, 공격자들이 원격 접속 도구를 악용하여 시스템에 무단으로 침입하고 있습니다. ScreenConnect는 많은 기업에서 원격 지원 및 관리 목적으로 널리 사용되고 있어 피해 범위가 상당할 것으로 예상됩니다. 보안 전문가들은 관련 시스템의 즉각적인 업데이트와 강화된 접근 통제를 권장하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "해커들이 N-central 제로데이를 공격하며 N-able이 긴급 패치 배포",
+      "summary": "N-able의 원격 관리 도구인 N-central에서 제로데이 취약점이 발견되어 해커들의 공격 대상이 되고 있습니다. N-able은 이 보안 위협에 대응하기 위해 긴급 패치를 개발 및 배포하고 있습니다. 해당 취약점은 공격자들에게 이미 적극적으로 악용되고 있는 상황입니다. 이 사건은 IT 관리 솔루션의 중요성과 제로데이 취약점의 심각성을 다시 한번 부각시키고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "레드햇 Quay의 심각한 취약점, 프라이빗 컨테이너 이미지 노출 위험",
+      "summary": "레드햇의 컨테이너 이미지 저장소인 Quay에서 발견된 심각한 수준의 보안 취약점이 프라이빗 컨테이너 이미지를 외부에 노출시킬 수 있는 것으로 드러났습니다. 이 취약점은 권한이 없는 사용자가 비공개로 설정된 컨테이너 이미지에 접근할 수 있게 하는 심각한 문제입니다. SecurityWeek이 보도한 이 사안은 기업의 민감한 소프트웨어 자산이 위험에 처할 수 있음을 의미합니다. 레드햇은 해당 취약점에 대한 패치를 긴급히 배포할 것으로 예상되며, 사용자들은 즉시 보안 업데이트를 적용해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "EJ Hassenfratz가 아티스트들에게 전하는 메시지: 당신의 기술은 여전히 중요합니다",
+      "summary": "AI는 아티스트가 주도하는 도구입니다. EJ Hassenfratz는 자신의 첫 단편영화를 제작할 때 AI가 도움이 되는 부분에는 AI를 활용하고, 가장 중요한 부분에는 자신의 기술을 사용했습니다. AI 시대에도 창의적 정체성은 살아남으며, 아티스트가 자신을 위해 만드는 것은 전적으로 그들 자신의 것입니다. Dell Pro Precision Tower T2와 NVIDIA RTX PRO 6000 Blackwell을 통해 렌더링은 더 이상 병목이 아닌 즉각적인 창작 워크플로우의 일부가 되었습니다. EJ Hassenfratz는 Dell 앰버서더이자 에미상 수상 3D 아티스트이며 School of Motion의 크리에이티브 디렉터로서, 20년 가까이 다른 아티스트들에게 3D 제작을 가르쳐왔고 자신의 기술이 AI 시대에도 절대적으로 중요하다는 메시지를 명확히 전달하고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/ej-hassenfratz-teaches-artists-their-skills-still-matter",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "EJ Hassenfratz는 예술가들에게 자신의 기술이 여전히 중요하다는 것을 가르칩니다",
       "summary": "AI 시대에도 예술가들의 기술과 창의력은 여전히 중요한 가치를 지니고 있습니다. EJ Hassenfratz는 전통적인 예술 기술과 현대 기술을 결합하여 새로운 가능성을 창출할 수 있음을 보여줍니다. 예술가들은 기술 변화에 적응하면서도 자신의 핵심 역량을 유지해야 합니다. 지속적인 학습과 기술 향상은 AI 시대의 예술 시장에서 경쟁력을 유지하는 핵심입니다. 전문가적 기술과 인간적 창의성의 조합이 더욱 가치있는 작품을 만들어냅니다.",
       "category": "서버",
@@ -108,6 +261,24 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
       "date": "2026-11-11"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell, 스마트한 오디오와 편안함으로 비즈니스 헤드셋의 기준을 높이다",
+      "summary": "Dell은 프리미�m, 메인스트림, 필수 등급에 걸쳐 무선 3종, 유선 2종의 5가지 Dell Pro 헤드셋을 출시했습니다. 모든 모델은 5억 개 이상의 음성 샘플로 학습된 AI 기반 노이즈 캔슬링 마이크를 탑재하며, Dell Pro 7 & 5 무선 시리즈는 1초에 1,000회 이상 재조정되는 적응형 액티브 노이즈 캔슬링으로 어떤 환경에서도 화자의 음성을 명확하게 유지합니다. Dell Device Management Console은 IT 팀이 헤드셋을 배포, 설정, 업데이트 및 문제 해결할 수 있는 통합 관리 플랫폼을 제공합니다. 이번 포트폴리오는 고급 오디오, 향상된 배터리 수명, 교체 가능한 부품, 중앙 집중식 관리를 더 많은 가격대에 제공하며, 무선 제품군 전체에 액티브 노이즈 캔슬링이 확대됩니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/dell-raises-the-bar-for-business-headsets-with-smarter-audio-and-lasting-comfort",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "현재의 데이터 센터를 미래에 준비시키다",
+      "summary": "Dell PowerEdge R9825와 R9815 서버는 6세대 AMD EPYC 성능을 기존의 공냉식 데이터 센터에 제공하며, 필요시 직접 액체냉각을 선택할 수 있습니다. 듀얼소켓 3U R9825는 서버당 최대 512개 코어로 확장 성능을 지원하고, 단일소켓 2U R9815는 소켓당 성능을 극대화합니다. 더 적은 수의 서버에서 워크로드를 실행하면 전력, 랙 공간, 냉각 및 소프트웨어 라이선스 비용을 절감할 수 있습니다. 향후 엔터프라이즈 컴퓨팅의 변화에 가장 잘 대응할 조직은 가장 큰 대규모 개편을 선택하는 것이 아니라, 의도적인 결정을 내리는 조직일 것입니다: 가장 중요한 부분에 컴퓨팅 리소스를 추가하고, 비용과 복잡성을 제어하며, 현대화를 자신의 우선순위에 맞추는 것입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/the-data-center-you-have-ready-for-what-comes-next",
+      "date": "2026-11-10"
     },
     {
       "id": "aHR0cHM6Ly93d3cu",
@@ -234,6 +405,51 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/",
       "date": "2026-11-10"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "벡터를 넘어서: 엔터프라이즈 AI를 위한 하이브리드 검색",
+      "summary": "하이브리드 검색은 오류 코드, 부품 번호, 펌웨어 버전 같은 정확한 세부 정보에서 정밀한 키워드 검색과 사용자의 의도를 이해하는 벡터 검색을 결합합니다. 신뢰할 수 있는 엔터프라이즈 AI 검색은 일반적으로 둘 다 필요합니다. Dell AI Data Platform의 Data Search Engine은 키워드 정밀성, 벡터 유사성, 메타데이터 필터링 및 하이브리드 랭킹을 하나의 인덱스 위에서 통합하며, 고객 환경 내에서 PowerScale 및 ObjectScale에 이미 저장된 데이터에 보안 및 감사 제어를 적용하여 실행됩니다. NVIDIA cuVS는 GPU에서 벡터 인덱스를 구축하여 최대 12배 빠른 인덱싱을 가능하게 하므로, 팀들이 데이터 변경에 따라 검색 인덱스를 최신 상태로 유지할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/beyond-vectors-hybrid-search-for-enterprise-ai",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "아이디어에서 임팩트까지: SC26에서 보고 만들어보세요",
+      "summary": "델 테크놀로지스는 11월 16-19일 시카고 맥코믹 플레이스의 SC26에서 부스 #2223에 참가하여 라이브 AI 및 HPC 데모, 실습 경험, 델과 파트너 및 고객 전문가가 진행하는 부스 내 세션을 선보입니다. 델 부스는 18세대 델 파워엣지 포트폴리오, 델 AI 데이터 플랫폼, 델 에이전트 AI 플랫폼, 하이브리드 양자-고전 컴퓨팅의 대화형 데모를 특징으로 합니다. AI와 HPC의 수렴이 가속화된 컴퓨팅을 재정의하고 있으며, 델은 연구 기관, 국립 연구소, 기업들이 아이디어에서 임팩트로 나아갈 수 있도록 더 빠르고 확장 가능한 팩토리 제작 솔루션으로 지원합니다. SC26에서 델과 함께 데이터를 지능으로, 지능을 측정 가능한 결과로 변환하는 획기적인 진전을 경험하세요.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/from-idea-to-impact-see-and-build-at-sc26",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell과 Canonical의 20년 여정",
+      "summary": "2006년 Dell IdeaStorm 플랫폼에서 10만 명 이상이 Ubuntu 사전 설치를 투표했으며, Dell은 Canonical과 파트너십을 체결하여 이를 실현했습니다. Dell과 Canonical의 지속적인 엔지니어링 작업으로 드라이버, BIOS 통합, 펌웨어 및 전원 관리 측면에서 Dell 시스템의 Ubuntu 안정성을 확보했습니다. Project Sputnik을 통해 Dell XPS 13 Developer Edition이 개발되었으며, Ubuntu 인증 Dell 포트폴리오는 160개 이상의 노트북, 데스크톱 및 Precision 워크스테이션 모델로 확대되었습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/twenty-years-of-dell-and-canonical",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "조나단 드 알메이다의 여정: Dell 노트북 꿈에서 책임감 있는 AI의 미래를 형성하기까지",
+      "summary": "조나단 드 알메이다는 Dell 노트북을 꿈꾸던 소년에서 책임감 있는 AI 분야의 선도자로 성장했습니다. 그의 경력 여정은 기술에 대한 열정과 사회적 책임감의 결합을 보여줍니다. Dell은 AI 혁신과 윤리적 기술 발전을 동시에 추구하는 기업 문화를 강조합니다. 개인의 꿈과 기술 발전이 어떻게 조직의 가치와 연결될 수 있는지를 보여주는 사례입니다. 책임감 있는 AI 개발은 기술 업계의 미래에 있어 핵심적인 역할을 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/jonathan-de-almeida-s-journey-from-dreaming-of-a-dell-laptop-to-shaping-the-future-of-responsible-ai",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "GPU를 넘어서: 전체 스택 AI 벤더 경쟁",
+      "summary": "초기 단계의 간편함이 장기적 운영 준비를 보장하지 않으며, 새로운 데이터 소스와 정책이 추가될 때를 대비해야 합니다. AI의 숨겨진 비용인 통합세는 배포 후 커넥터 재작업, 중복된 관리 도구, 데이터 이동, 정책 표류 등으로 나타납니다. 진정한 AI 플랫폼의 시험은 배포 후 시작되며, 데이터, 거버넌스, 워크로드 및 운영이 함께 확장되어야 합니다. HPE, Lenovo, Dell 같은 전체 스택 AI 벤더들은 가속화된 컴퓨팅, 네트워킹, 스토리지, 소프트웨어 및 서비스를 통합할 수 있지만, 중요한 것은 배포 후 데이터, 인프라, 거버넌스, 운영을 조정된 상태로 유지할 수 있는지입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/beyond-the-gpu-the-full-stack-ai-vendor-showdown",
+      "date": "2026-11-09"
     },
     {
       "id": "aHR0cHM6Ly93d3cu",
@@ -381,6 +597,24 @@
     },
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "사이버 회복력 설명: 첫 해에 배운 것들",
+      "summary": "사이버 회복력은 사이버 위험을 예측하고 공격 발생 시 중단을 견디며 신뢰할 수 있는 운영을 복구하는 능력입니다. 사이버보안과 데이터 보호가 사이버 회복력에 기여하지만, 준비 태세는 대비, 테스트, 인력, 프로세스 및 비즈니스 우선순위에도 달려 있습니다. 조직이 중요한 업무를 계속 진행하고 압박 상황에서 복구하는 방법을 입증할 수 있을 때 전략은 의미를 갖게 됩니다. 사이버 회복력은 사이버보안과 데이터 보호를 넘어서 대비, 대응, 복구, 비즈니스 연속성 및 테스트를 연결하여 중단 발생 시 조직이 중요한 운영을 계속하고 신뢰할 수 있는 운영을 복구할 수 있도록 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/cyber-resilience-explained-what-my-first-year-taught-me",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "이번 베테랑 데이, 기술이 힘의 배수가 되다",
+      "summary": "재향군인을 지원하는 비영리 단체들이 자신들이 섬기는 커뮤니티를 더 잘 지원하기 위해 기술을 현대화하고 있습니다. Dell의 재향군인 기술 코호트는 이미 사이버보안, AI 준비 태세, 운영 효율성에 중점을 둔 프로젝트를 시작했습니다. 재향군인 지원은 그들을 돕는 조직들과 군 복무 이후 이용 가능한 기회에 대한 투자가 필요합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/This-veterans-day-technology-becomes-a-force-multiplier",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "사이버 복원력 설명: 첫 해가 나에게 가르쳐준 것",
       "summary": "사이버 복원력은 단순한 방어 개념을 넘어 조직의 전체적인 대응 능력을 의미합니다. 첫 해의 경험을 통해 예방뿐만 아니라 침해 발생 후 빠른 복구가 얼마나 중요한지 깨달았습니다. 효과적인 사이버 복원력 구축을 위해서는 기술, 인력, 프로세스의 조화로운 통합이 필수적입니다. 조직의 리더십과 모든 직원의 참여 없이는 진정한 복원력을 달성할 수 없습니다. 지속적인 모니터링, 테스트, 개선을 통해 사이버 위협에 대한 대응 역량을 강화해야 합니다.",
       "category": "서버",
@@ -489,6 +723,15 @@
     },
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "상승하는 하드웨어 비용 극복: 중소기업을 위한 PC 가치 가이드",
+      "summary": "신뢰할 수 있고 내구성이 우수하며 수리 가능한 기기를 선택하고 생명주기 서비스로 유지보수하여 PC의 총소유비용을 제어해야 합니다. 첫날부터 보안과 관리 기능을 계획에 포함시켜 데이터를 보호하고 다운타임을 줄이며 시간을 절약할 수 있습니다. Dell APEX PC as a Service와 같은 구독 모델을 통해 지출을 예측 가능하게 만들어 팀이 필요할 때마다 시스템을 갱신할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/navigating-rising-hardware-costs-a-small-business-guide-to-pc-value",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "상승하는 하드웨어 비용 극복하기: 소규모 기업을 위한 PC 가치 가이드",
       "summary": "소규모 기업은 상승하는 하드웨어 비용 속에서도 현명한 PC 투자를 통해 장기적인 가치를 창출할 수 있습니다. 초기 구매 비용뿐만 아니라 유지보수, 보안, 성능 등 전체적인 총소유비용을 고려하여 의사결정을 해야 합니다. 품질 좋은 PC는 생산성 향상과 다운타임 감소로 인한 경제적 이득이 크므로 신중한 투자가 중요합니다. 기업의 특정 요구사항과 예산을 균형있게 고려하여 최적의 PC 솔루션을 선택하는 것이 비용 효율성을 높이는 핵심입니다.",
       "category": "서버",
@@ -585,6 +828,15 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/",
       "date": "2026-11-05"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Dell과 NPS, 캠퍼스 해커톤에서 신흥 기술 탐색",
+      "summary": "미국 해군대학원(Naval Postgraduate School)은 혁신, 연구, 협력이 복잡한 문제 해결을 위해 만나는 독특한 환경을 제공합니다. 신흥 기술에 대한 실제 접근은 학생들에게 새로운 아이디어를 학습하고 실험하며 적용할 수 있는 귀중한 기회를 제공합니다. 본 행사는 학계와 산업 간의 협력이 차세대 혁신가와 문제 해결사 양성에 어떻게 도움이 될 수 있는지를 효과적으로 보여줍니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/dell-and-nps-explore-emerging-technologies-during-campus-hackathon",
+      "date": "2026-11-04"
     },
     {
       "id": "aHR0cHM6Ly93d3cu",
@@ -697,6 +949,33 @@
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "로데오에서 배우는 성장의 교훈",
+      "summary": "성장하는 조직들은 예산이나 인력 증가 없이 더 많은 사람과 기기를 지원해야 하는 과제에 직면합니다. 샌 안토니오 스톡 쇼 & 로데오는 필요할 때만 기술을 교체하는 방식에서 예측 가능한 월간 비용 구조의 장기 계획으로 전환했습니다. 현금 흐름 기반 자금 조달과 Windows 11 Pro 도입을 통해 2명의 IT 팀이 수동적 대응보다는 전략적 계획에 더 많은 시간을 할애할 수 있게 되었습니다. 지난 4년간 기기 수가 500개에서 15,000개로 증가했음에도 불구하고 인력은 늘어나지 않았으며, 이러한 성장은 어떤 조직이든 마주할 수 있는 과제입니다. 모든 투자의 효율성을 극대화하는 것이 성장하는 조직의 핵심입니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/what-can-a-rodeo-teach-us-about-growth",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "비즈니스와 기술의 만남: Stewart Hunwick이 기업의 AI를 측정 가능한 성과로 전환하는 방법",
+      "summary": "기업의 AI 투자 성공을 위해서는 먼저 비즈니스 문제 해결에 집중해야 하며, 고객들은 단순한 제품이 아닌 솔루션을 원합니다. AI의 성공은 올바른 정보를 준비하고 확장 가능한 스마트 데이터 저장 전략에 달려 있습니다. 사이버보안은 AI와 데이터 계획의 처음부터 구축되어야 하며, AI는 이미 데이터센터에서 교실까지 직장을 변혁하고 있습니다. Dell Technologies의 수석 기술자인 Stewart Hunwick의 경력은 호기심, 적응력, 그리고 의미 있는 성과에 집중하는 것의 중요성을 보여줍니다. 거의 20년의 IT 경험을 바탕으로 Stewart는 복잡한 기술을 실제 비즈니스 요구사항과 연결하는 기술을 습득했습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/where-business-meets-technology-how-stewart-hunwick-helps-enterprises-turn-ai-into-measurable-results",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "PowerScale OneFS 9.16이 AI 클라우드 인프라를 확장하는 방법",
+      "summary": "PowerScale OneFS 9.16은 단일 클러스터에서 최대 500개의 테넌트를 지원합니다. Access Zone 인식 스냅샷 및 할당량, 공유 네트워크 풀, 객체 소유권 정책 및 소스 IP 라우팅을 통해 공유 인프라 전반에서 테넌트 수준의 제어를 유지할 수 있습니다. 오프라인 라이선싱 등록, pAPI 요청 속도 제한 및 NFS 트래픽을 위한 RPC-over-TLS은 Kerberos 배포 없이도 운영 효율성과 전송 중인 데이터 보호를 해결합니다. 테넌트 밀도를 높이면서도 운영 제어를 유지할 수 있어 공급자는 기존 인프라에 클러스터, 랙 또는 관리자를 추가하기 전에 더 많은 확장 여지를 확보할 수 있으며, 이는 랙당, 와트당, 관리자당 더 많은 수익을 의미합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-powerscale-onefs-9-16-scales-ai-cloud-infrastructure",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "로데오에서 배우는 성장의 교훈",
       "summary": "로데오는 불확실한 상황에서의 민첩성과 빠른 적응력의 중요성을 보여줍니다. 성공적인 비즈니스 성장은 예측 불가능한 도전에 대처할 수 있는 능력이 필요합니다. 계획과 준비만큼이나 현장에서의 즉시 대응 능력이 중요한 역할을 합니다. 기술 변화의 속도가 빨라지는 오늘날, 조직은 변화에 유연하게 대응할 수 있는 문화를 구축해야 합니다. 로데오처럼 기업도 끊임없는 학습과 개선을 통해 더 큰 성장을 이룰 수 있습니다.",
       "category": "서버",
       "source": "Dell",
@@ -801,6 +1080,24 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/over-100-european-stores-hit-as-supermarket-fridge-attacks-resume/",
       "date": "2026-11-03"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "CSP가 AI에서 승리하려면 GPU 이상이 필요한 이유",
+      "summary": "AI 서비스에서 승리하려면 CSP가 전체 스택에 걸쳐 컴퓨팅, 네트워킹, 스토리지, 소프트웨어 및 보안을 연결하는 엔드투엔드 오퍼를 구축해야 합니다. 주권성(Sovereignty)은 CSP가 이미 로컬 인프라, 규제 경험 및 규제 대상 산업의 신뢰할 수 있는 고객 관계를 보유하고 있기 때문에 CSP를 위한 진정한 서비스 차별화 요소입니다. 검증되고 반복 가능한 아키텍처는 통합 위험을 줄이고 단일의 검증된 사용 사례에서 확장 가능한 다중 시장 AI 서비스로 확대할 수 있게 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/why-csps-need-more-than-gpus-to-win-ai",
+      "date": "2026-11-02"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "사람 중심의 AI 기반 도시 구축: 215개 지방자치단체가 공개한 AI와 공공 가치",
+      "summary": "대부분의 도시는 AI 성숙도에서 100점 만점에 50점에 불과하며, 이 격차를 줄이기 위해서는 더 큰 예산이 아닌 기초적 준비 상태와 체계적인 단계적 추진이 필요하다. AI 선도 도시들은 모든 이니셔티브를 측정 가능한 공공 성과와 직접 연결함으로써 38개월 내에 99%의 ROI를 달성하고 있다. 투명한 알고리즘, 인적 감시, 지역사회 설계를 포함한 사람 중심의 거버넌스가 공공의 회의론을 공공의 신뢰로 전환하는 핵심이다. 이는 지역정부가 원시적인 알고리즘에서 기초적 준비 상태, 규율 있는 단계적 추진, 인간 중심의 공공 거버넌스로 초점을 전환해야 함을 보여준다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/building-a-people-first-ai-powered-city-what-215-municipalities-reveal-about-ai-and-public-value",
+      "date": "2026-11-02"
     },
     {
       "id": "aHR0cHM6Ly93d3cu",
@@ -3657,9 +3954,9 @@
     }
   ],
   "sources": {
-    "Dell": 82,
-    "VAST Data": 19,
-    "SecurityWeek": 285,
-    "HPE": 20
+    "SecurityWeek": 295,
+    "Dell": 102,
+    "HPE": 23,
+    "VAST Data": 19
   }
 }
