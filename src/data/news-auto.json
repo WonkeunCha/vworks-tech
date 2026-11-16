@@ -4328,9 +4328,29 @@
     "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
     "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
     "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/",
-    "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/"
+    "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/",
+    "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+    "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "펜타곤, CDAO를 '슈퍼 인텔리전스 오피스'로 명칭 변경",
+      "summary": "미국 국방부(펜타곤)가 기존의 Chief Digital and Artificial Intelligence Office(CDAO)를 'Super Intelligence Office'로 새롭게 명칭 변경했다. 이는 국방부의 인공지능 및 디지털 전략에 대한 중요성을 강조하는 조직 개편의 일환이다. 새로운 명칭은 군사 작전에서 초고급 인공지능 기술의 역할을 강화하려는 의도를 반영하고 있다. 이 조직은 국방부의 사이버보안 및 AI 기술 개발을 주도적으로 담당하는 핵심 부서로 기능할 예정이다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "메타, 안드로이드 갤러리 사진·동영상 접근으로 이탈리아에서 8억 8,700만 달러 벌금 부과",
+      "summary": "메타가 이탈리아에서 안드로이드 기기의 갤러리에서 사진과 동영상에 무단으로 접근한 혐의로 8억 8,700만 달러의 벌금을 부과받았습니다. 이는 페이스북 앱이 사용자의 명시적인 동의 없이 기기 내 미디어 파일에 접근했다는 점에서 개인정보보호 규정 위반으로 판단되었습니다. 이탈리아 규제당국은 메타의 행위가 사용자 프라이버시를 침해했다고 결정했으며, 이는 유럽 내 과도한 데이터 수집 관행에 대한 강화된 감시의 일환입니다. 해당 사건은 소셜 미디어 플랫폼의 권한 관리와 투명성 문제에 대한 논의를 촉발하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
+      "date": "2026-11-14"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "AI가 사이버보안을 더 악화시키고 있는가?",
@@ -13312,26 +13332,8 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/corma-raises-60-million-for-defensive-cybersecurity-ai-model/",
       "date": "2026-08-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "AI 채팅 탈취로 차단된 확장 프로그램, 크롬 스토어에 복귀 후 악의적 활동 재개",
-      "summary": "AI 채팅 내용을 탈취한 혐의로 크롬 스토어에서 차단되었던 악성 확장 프로그램이 다시 복귀하여 악의적 활동을 재개했습니다. 이 확장 프로그램은 사용자의 AI 대화 내용을 무단으로 수집하고 개인정보를 탈취하는 기능을 가지고 있습니다. 구글의 보안 점검을 우회하여 다시 승인된 것으로 보이며, 사용자들의 민감한 정보가 위험에 노출되어 있습니다. 보안 전문가들은 사용자들에게 출처가 불명확한 확장 프로그램 설치를 피하고 주기적으로 설치된 프로그램을 검토할 것을 권장하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/extension-banned-for-stealing-ai-chats-returns-to-chrome-store-resumes-malicious-activities/",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "해커 대화: 마커스 허친스의 회색 지대에서 구원으로의 여정",
-      "summary": "이 기사는 SecurityWeek에서 진행한 마커스 허친스(MalwareTech)와의 인터뷰를 다루고 있습니다. 허친스는 검은 모자 해커에서 사이버보안 전문가로의 극적인 변신을 이룬 인물입니다. 기사는 그가 법적 문제와 도덕적 회색지대에서 어떻게 벗어나 현재의 위치에 도달했는지를 조명합니다. 이 인터뷰는 사이버보안 커뮤니티에서 회개와 구원의 가능성을 보여주는 사례로 평가됩니다. 허친스의 이야기는 악의적 해킹으로부터 방어적 역할로의 전환을 강조하며 보안 업계의 복잡한 윤리적 문제를 다룹니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/hacker-conversations-marcus-hutchins/",
-      "date": "2026-08-11"
     }
   ],
-  "totalItems": 4329,
+  "totalItems": 4331,
   "hasArchive": true
 }
