@@ -3,6 +3,24 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "펜타곤, CDAO를 '슈퍼 인텔리전스 오피스'로 명칭 변경",
+      "summary": "미국 국방부(펜타곤)가 기존의 Chief Digital and Artificial Intelligence Office(CDAO)를 'Super Intelligence Office'로 새롭게 명칭 변경했다. 이는 국방부의 인공지능 및 디지털 전략에 대한 중요성을 강조하는 조직 개편의 일환이다. 새로운 명칭은 군사 작전에서 초고급 인공지능 기술의 역할을 강화하려는 의도를 반영하고 있다. 이 조직은 국방부의 사이버보안 및 AI 기술 개발을 주도적으로 담당하는 핵심 부서로 기능할 예정이다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "메타, 안드로이드 갤러리 사진·동영상 접근으로 이탈리아에서 8억 8,700만 달러 벌금 부과",
+      "summary": "메타가 이탈리아에서 안드로이드 기기의 갤러리에서 사진과 동영상에 무단으로 접근한 혐의로 8억 8,700만 달러의 벌금을 부과받았습니다. 이는 페이스북 앱이 사용자의 명시적인 동의 없이 기기 내 미디어 파일에 접근했다는 점에서 개인정보보호 규정 위반으로 판단되었습니다. 이탈리아 규제당국은 메타의 행위가 사용자 프라이버시를 침해했다고 결정했으며, 이는 유럽 내 과도한 데이터 수집 관행에 대한 강화된 감시의 일환입니다. 해당 사건은 소셜 미디어 플랫폼의 권한 관리와 투명성 문제에 대한 논의를 촉발하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "AI가 사이버보안을 더 악화시키고 있는가?",
       "summary": "이 기사는 AI가 사이버보안 전문가들의 사고방식과 소통 방식을 어떻게 변화시키고 있는지 탐구합니다. AI에 대한 의존도가 증가하면서 업계가 잃을 수 있는 위험성을 제기합니다. 저자 조슈아 골드파브는 AI 도구의 활용이 사이버보안 전문성과 비판적 사고력에 미치는 영향을 분석합니다. AI가 효율성을 높일 수 있지만, 과도한 의존은 전문가들의 기본 역량 저하로 이어질 수 있다는 우려를 제시합니다.",
       "category": "보안",
@@ -4080,7 +4098,7 @@
     }
   ],
   "sources": {
-    "SecurityWeek": 308,
+    "SecurityWeek": 310,
     "Dell": 103,
     "HPE": 23,
     "VAST Data": 19
