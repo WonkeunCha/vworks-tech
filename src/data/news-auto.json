@@ -4391,9 +4391,139 @@
     "https://www.securityweek.com/chrome-158-patches-204-vulnerabilities/",
     "https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/",
     "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/",
-    "https://www.securityweek.com/oracle-patches-640-vulnerabilities-with-november-2026-cspu/"
+    "https://www.securityweek.com/oracle-patches-640-vulnerabilities-with-november-2026-cspu/",
+    "https://www.dell.com/en-us/blog/the-public-university-mission-amplified-what-ai-makes-possible-for-students-and-communities",
+    "https://www.dell.com/en-us/blog/the-data-foundation-powering-physical-ai-and-digital-twins",
+    "https://www.vastdata.com/blog/vast-data-everest-group-vector-data-platforms",
+    "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
+    "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
+    "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
+    "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
+    "https://www.securityweek.com/stepsecurity-secures-20-million-to-expand-supply-chain-protection/",
+    "https://www.securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks/",
+    "https://www.securityweek.com/the-governance-gap-in-open-weight-ai-and-what-to-do-about-it/",
+    "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/",
+    "https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/",
+    "https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "공공 대학의 사명, 강화되다: AI가 학생과 지역사회를 위해 가능하게 하는 것",
+      "summary": "AI 기술은 공공 대학이 더 많은 학생에게 고품질의 교육을 제공할 수 있도록 지원합니다. AI를 통해 개인맞춤형 학습 경험을 제공하고 학생들의 성공을 위한 지원을 강화할 수 있습니다. 공공 대학은 AI를 활용하여 지역사회 문제 해결에 더욱 효과적으로 기여할 수 있습니다. 데이터 분석과 AI 기반 도구들은 대학의 운영 효율성을 높이고 비용을 절감하는 데 도움이 됩니다. AI 기술의 책임감 있는 도입은 공공 대학의 접근성과 포용성을 강화하는 데 핵심적인 역할을 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/the-public-university-mission-amplified-what-ai-makes-possible-for-students-and-communities",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "물리적 AI와 디지털 트윈을 구동하는 데이터 기반",
+      "summary": "물리적 AI는 배포된 시스템의 운영 데이터가 훈련과 시뮬레이션을 지원하고, 개선된 모델이 다시 배포되는 데이터 플라이휠을 필요로 합니다. 물리적 AI는 비전 AI(인식), 디지털 트윈(모델링), 운영 디지털 트윈(추론 및 동작)의 세 단계로 성숙도가 나뉘며, 각 단계는 그 이전 단계를 기반으로 합니다. 모든 물리적 AI 프로그램은 하나의 데이터 루프로 연결된 세 대의 컴퓨터(훈련, 시뮬레이션, 배포)에서 실행되며, 시스템을 만드는 것은 개별 컴퓨터가 아닌 루프 자체입니다. EU 기계류 규제, ISO 10218/TS 15066, IEC 61508 등의 규제 및 안전 표준은 데이터 계보, 보존, 연쇄 보관을 선택적 거버넌스가 아닌 인증 요구사항으로 전환하고 있습니다. Dell AI 데이터 플랫폼은 플라이휠의 모든 단계에서 물리적 AI를 위한 통합 거버넌스 데이터 플레인을 제공하며, 고성능 확장형 스토리지에서 실행되는 분석, 검색, 처리 엔진 위에 데이터 오케스트레이션 엔진을 갖추고 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/the-data-foundation-powering-physical-ai-and-digital-twins",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "VAST Data, Everest Group 벡터 데이터 플랫폼 보고서에서 '빠른 추종자'로 선정",
+      "summary": "Everest Group이 발표한 최신 벡터 데이터 플랫폼 보고서에서 VAST Data가 '빠른 추종자(Fast Follower)' 카테고리로 선정되었습니다. VAST Data의 AI OS는 프로덕션 환경에서 수조 개 규모의 벡터 데이터를 효율적으로 확장 처리할 수 있는 능력을 갖추고 있습니다. 이번 평가는 생성형 AI와 머신러닝 모델의 급속한 성장에 따라 대규모 벡터 데이터 관리의 중요성이 증대되는 시점에서 의미가 있습니다. VAST Data는 엔터프라이즈급 AI 워크로드를 위해 확장성, 성능, 안정성 측면에서 경쟁력 있는 솔루션을 제공하고 있습니다. Everest Group의 이 평가는 VAST Data가 벡터 데이터 플랫폼 시장에서 주요 플레이어로 인정받고 있음을 보여줍니다.",
+      "category": "스토리지",
+      "source": "VAST Data",
+      "sourceUrl": "https://www.vastdata.com/blog/vast-data-everest-group-vector-data-platforms",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로 패치된 VMware vCenter 취약점이 중국 APT에 의해 제로데이로 악용됨",
+      "summary": "VMware vCenter의 CVE-2026-123890 취약점이 중국 APT 그룹에 의해 제로데이 공격으로 악용되고 있습니다. 이 취약점은 최근 패치되었음에도 불구하고 공격자들이 이미 활발하게 이용 중인 것으로 확인되었습니다. 'Warp Panda'로 불리는 중국 위협 행위자가 이 취약점을 통해 vCenter Server를 대상으로 공격을 수행하고 있습니다. VMware는 사용자들에게 즉시 패치 적용을 권고하고 있으며, 조직들은 긴급히 보안 업데이트를 배포해야 합니다. 이 사건은 주요 인프라 가상화 플랫폼의 심각한 보안 위험을 드러냅니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "PHP, 7개의 치명적 원격코드실행(RCE) 취약점 패치 배포",
+      "summary": "PHP가 7개의 치명적 수준의 원격코드실행(RCE) 취약점에 대한 패치를 배포했습니다. 이 취약점들은 공격자가 영향을 받는 PHP 시스템에서 임의의 코드를 실행할 수 있게 하는 심각한 보안 위협입니다. 해당 패치는 불완전한 고정 사항을 포함하고 있으며, SecurityWeek에서 보도한 이 소식은 개발자와 시스템 관리자들에게 즉시 업데이트를 권장하고 있습니다. PHP 사용자들은 가능한 한 빨리 최신 버전으로 업그레이드하여 보안 위험으로부터 시스템을 보호해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "엔비디아, 젠틀맨 랜섬웨어 피해 주장에 대응",
+      "summary": "엔비디아는 젠틀맨 랜섬웨어 그룹이 자신들의 데이터 유출 웹사이트에 회사명을 올린 주장에 대해 공식 입장을 밝혔습니다. 엔비디아는 자사 시스템에 대한 침해 흔적을 발견하지 못했다고 밝혔으며, 이는 랜섬웨어 그룹의 주장이 사실이 아님을 시사합니다. 본 사건은 주요 기술 기업들이 랜섬웨어 공격 위협에 직면해 있음을 보여주는 사례입니다. 엔비디아는 계속해서 보안 상황을 모니터링하고 있으며, 필요한 조사를 진행 중인 것으로 알려졌습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "해커들이 PoC 공개 직후 시스코 익스프레스웨이 취약점 악용",
+      "summary": "시스코 익스프레스웨이의 CVE-2026-76466 취약점이 개념 증명(PoC) 공개 직후 해커들에 의해 적극적으로 악용되고 있는 것으로 확인되었습니다. 이 취약점은 시스코의 주요 네트워크 통신 장비에 영향을 미치며, 공개된 익스플로잇 코드를 통해 악의적 행위자들이 빠르게 공격을 시작했습니다. 보안 커뮤니티는 영향을 받은 조직들에게 즉시 패치 적용을 권고하고 있으며, 이는 PoC 공개 후 신속한 대응의 중요성을 다시 한번 강조하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "StepSecurity, 공급망 보안 확대를 위해 2천만 달러 조달",
+      "summary": "사이버보안 기업 StepSecurity가 시리즈 A 펀딩을 통해 2천만 달러를 조달했습니다. 이 자금은 보안 플랫폼의 개발과 배포 가속화에 사용될 예정입니다. StepSecurity는 소프트웨어 공급망 보안 분야에서 기업들을 대상으로 솔루션을 제공하고 있습니다. 이번 투자는 공급망 보안에 대한 산업의 관심 증가를 반영하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/stepsecurity-secures-20-million-to-expand-supply-chain-protection/",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Apache Roller 및 Axis의 치명적 취약점이 실제 공격에 악용되고 있음",
+      "summary": "Apache Roller와 Apache Axis에 존재하는 치명적 수준의 취약점들이 실제 공격에 악용되고 있는 것으로 확인되었습니다. 이러한 취약점들은 공격자들이 영향을 받는 시스템에 접근하고 제어할 수 있도록 허용할 수 있습니다. SecurityWeek이 보도한 이 사건은 조직들이 이러한 오픈소스 소프트웨어 컴포넌트의 보안 패치를 긴급히 적용해야 함을 시사합니다. 특히 외부 네트워크에 노출된 서버들이 우선적인 대상이 될 수 있으므로 신속한 대응이 필요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks/",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "오픈 가중치 AI의 거버넌스 공백과 해결 방안",
+      "summary": "본 기사는 오픈 가중치 AI 모델의 거버넌스 체계에 존재하는 중대한 공백을 지적하고 있습니다. 현재 오픈소스 AI 모델의 확산으로 인해 보안 감시 및 규제 메커니즘이 제대로 작동하지 못하고 있는 실정입니다. 이러한 거버넌스 공백은 악의적인 행위자들에 의한 AI 오용 위험을 증가시키고 있습니다. 기사에서는 이러한 문제를 해결하기 위한 구체적인 해결 방안들을 제시하고 있으며, 산업계와 규제당국의 협력이 필수적임을 강조합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/the-governance-gap-in-open-weight-ai-and-what-to-do-about-it/",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Splunk, 3개 핵심 제품에서 약 140개의 취약점 패치",
+      "summary": "Splunk가 자사의 3개 핵심 제품을 대상으로 약 140개의 보안 취약점에 대한 패치를 릴리스했습니다. 이번 패치는 Splunk의 주요 제품들에 광범위하게 분포된 여러 취약점들을 해결하기 위한 것입니다. 보안 연구원들과 조직들은 이러한 취약점들이 악용될 가능성이 있으므로 긴급히 패치를 적용할 것을 권장받고 있습니다. Splunk 사용자들은 가능한 한 빨리 최신 버전으로 업그레이드하여 시스템 보안을 강화해야 합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "F5, NGINX2Root 중대 취약점 패치 - PoC 익스플로잇 공개",
+      "summary": "F5가 NGINX 웹 서버의 중대 보안 취약점인 NGINX2Root 플로우에 대한 패치를 릴리스했습니다. 해당 취약점에 대한 개념 증명(PoC) 익스플로잇이 공개적으로 유포되고 있어 보안 위험이 증대되고 있습니다. 이 취약점을 통해 공격자는 시스템에 대한 루트 권한을 획득할 수 있으며, 광범위한 피해를 초래할 수 있습니다. F5는 사용자들에게 즉시 패치 적용을 권고하고 있으며, SecurityWeek이 11월 19일 이를 보도했습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Java4Shell 취약점 악용 시도 증가, 벤더들 긴급 보안 권고 발표",
+      "summary": "Java4Shell CVE-2026-114938 취약점이 실제 공격에 악용되고 있는 것으로 확인되었습니다. 이에 따라 각 벤더들이 긴급 보안 공지를 잇달아 발표하고 있습니다. 해당 취약점은 Java 기반 애플리케이션에 심각한 위협을 미칠 수 있으며, 조직들은 즉시 보안 패치 적용을 권장받고 있습니다. 보안 전문가들은 이 취약점의 광범위한 악용 가능성에 경고하고 있으며, 사용자들은 긴급히 조치를 취할 것을 촉구하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories/",
+      "date": "2026-11-19"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "팔로 알토 네트웍스, AI 스타트업 애플라이드 컴퓨트를 45억 달러에 인수",
@@ -13276,125 +13406,8 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/over-1000-charities-hit-by-beacon-crm-data-breach/",
       "date": "2026-08-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "ShipMonk 데이터 유출로 14,000명의 트레저 고객 영향",
-      "summary": "암호화폐 하드웨어 지갑 제조사인 트레저의 14,000명 고객이 배송 관리 업체 ShipMonk에서 발생한 데이터 유출 사건의 영향을 받았습니다. ShipMonk는 트레저의 주문 처리 및 배송 담당 업체로, 고객의 개인정보가 노출되었습니다. 이번 유출은 Metabase라는 데이터 분석 도구의 보안 취약점을 통해 발생한 것으로 알려졌습니다. 트레저는 이미 영향을 받은 고객들에게 통보했으며, 추가적인 보안 조치를 취하고 있습니다. 이 사건은 주요 암호화폐 관련 회사도 서드파티 공급업체의 보안 위험에 노출될 수 있음을 보여줍니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/",
-      "date": "2026-08-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "해커들이 패치되지 않은 GeoServer 제로데이 취약점 악용",
-      "summary": "GeoServer의 패치되지 않은 제로데이 취약점이 해커들에 의해 적극적으로 악용되고 있습니다. 이 취약점은 원격 코드 실행(RCE)으로 이어질 수 있어 시스템에 심각한 위협을 초래합니다. SecurityWeek의 보도에 따르면 공격자들이 이 미패치 취약점을 통해 대규모 공격을 시도하고 있습니다. GeoServer 사용자들은 즉시 보안 패치를 적용하여 시스템을 보호해야 합니다. 이 제로데이 공격은 기업과 조직의 중요한 인프라에 대한 실질적인 위협이 되고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/hackers-exploiting-unpatched-geoserver-zero-day/",
-      "date": "2026-08-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "AmnesiaStealer macOS 악성코드, 데이터 탈취 및 브라우저 세션 제어",
-      "summary": "AmnesiaStealer는 macOS를 대상으로 하는 새로운 정보 탈취 악성코드입니다. 이 악성코드는 사용자의 민감한 데이터를 탈취할 수 있으며, 브라우저 세션을 제어하여 추가적인 피해를 야기할 수 있습니다. 감염된 시스템의 브라우저 활동을 모니터링하고 조작하는 기능을 갖추고 있어 사용자의 온라인 활동이 위협받을 수 있습니다. macOS 사용자들은 출처가 불명확한 소프트웨어 설치를 피하고 시스템 보안 업데이트를 유지하는 것이 중요합니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/",
-      "date": "2026-08-14"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "엘세븐시큐리티, 한국남부발전에 AI OCR 이메일 개인정보 유출 탐지 솔루션 구축",
-      "summary": "본문·첨부파일은 물론 이미지·스캔 문서 속 개인정보까지 발신 단계에서 탐지2026년 개인정보 보호수준 평가 ‘올해의 테마 지표’에 이메일 발송 통제를 유출 방지 대책으로 명시... 증빙 확보에 직접 활용기존 홈페이지 게시판 차단 솔루션과 결합해 내부자 유출 방지 체계 완성[보안뉴스 한세희 기자] AI 개인정보보호 솔루션 전문기업 엘세븐시큐리티(대표 최복희)",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145167&kind=&sub_kind=",
-      "date": "2026-08-14"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[Global Security TOP 100] 현원필 쿼리시스템즈 대표 “보안은 탐지 넘어 판단과 대응”",
-      "summary": "SIEM·SOAR·NDR 하나로 묶어 파편화된 보안 데이터 통합 분석 및 자동 대응 구현단순 AI 챗봇 넘어선 관제 파트너로 보안 인력 업무 피로도 낮추고 효율성 극대화[보안뉴스 조재호 기자] 생성형 AI의 등장으로 사이버 공격이 정교해지면서 보안 담당자가 처리해야 할 이벤트가 폭발적으로 증가했다. 이제 핵심은 수많은 경고 속에서 실제 위협을 선별하고 신속",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145161&kind=&sub_kind=",
-      "date": "2026-08-14"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "이노뎁, ‘수주 확대+체질 개선’ 동시에... 하반기 실적 회복 승부",
-      "summary": "수주잔고 400억원으로 확대...공공 AI 전환 대형 사업 확보하며 수주 기반 강화고정비 구조 효율화로 손익분기점 낮춰, 하반기 매출 확대 시 수익성 개선 기대울산·제주 공공 AI 전환 선도사업 확보, B2B·해외로 신규 성장축 확대[보안뉴스 원병철 기자] AI 기반 영상관제 플랫폼 전문기업 이노뎁(대표 이성진)이 수주 확대와 비용구조 개선을 동시에 추진하",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145166&kind=&sub_kind=",
-      "date": "2026-08-14"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "2026년 상반기, 시간당 5300건의 DDoS 공격 몰아쳤다",
-      "summary": "클라우드플레어, ‘2026 상반기 DDoS 위협 보고서’ 발표1Tbps+ 대형 공격 6배 급증 및 초단기 기습 공격(Ultra-Short Burst) 늘어[보안뉴스 원병철 기자] 2026년 상반기(1~6월) 동안 발생한 2320만건의 네트워크 계층 공격이 발생했으며, 이는 시간당 5300건 이상의 DDoS 공격이 몰아친 셈이라고 클라우드플레어가 ‘2026",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145165&kind=&sub_kind=",
-      "date": "2026-08-14"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[카드뉴스] 3D 집 구조가 침입자 정찰용으로… 로봇청소기 ‘공간 데이터 유출’ 실태",
-      "summary": "로봇청소기 라이다 센서가 생성한 3D 공간 도면이 무암호화 상태로 전송되어 외부로 노출되는 취약점이 발견되었다. 유출된 실내 구조 및 가구 배치 데이터는 침입자의 사전 정찰 정보로 오용될 수 있어 사이버 데이터 유출이 물리적 주거 범죄로 이어지는 위험을 초래한다. 스마트홈 프라이버시를 지키기 위해 가전 단말의 ‘공간 데이터 암호화’ 적용과 외부 클라우드 전",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145163&kind=&sub_kind=",
-      "date": "2026-08-14"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "美 CISA, “北 취업 사기 공작에 악용된 윈도우 제로데이 패치 시행하라”",
-      "summary": "방산·항공우주 타깃 권한 상승 취약점(CVE-2026-68820)... 25일까지 조치 요구[보안뉴스 김형근 기자] 미국 사이버보안및인프라보안국(CISA)이 북한 해커 조직이 실제 공격에 악용한 마이크로소프트(MS) 윈도우 취약점(CVE-2026-68820)에 대해 25일까지 보안 패치를 완료하라는 지침을 연방기관에 하달했다.이 취약점은 네트워크 통신을 중",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145162&kind=&sub_kind=",
-      "date": "2026-08-14"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "아톤, 2분기 영업이익 32억원... 전년동기 대비 92.3% 상승",
-      "summary": "PQC, 금융 인프라 등 사업 확대 수익 견인[보안뉴스 강현주 기자] 아톤(대표 김종서, 우길수)은 2026년 2분기 연결 기준 영업이익 32억원, 영업이익률 18.1%를 기록했다고 14일 밝혔다. 지난해 2분기 대비 영업이익은 92.3% 증가했고, 영업이익률은 9.7%p 상승하며 수익성이 개선됐다. 2분기 연결 매출액은 전년 동기 대비 11.4% 감소한",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145160&kind=&sub_kind=",
-      "date": "2026-08-14"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "AI 기술로 진화하는 랜섬웨어 추적... 누리랩 ‘마이노스 안티랜섬 2.0’ 출시",
-      "summary": "악성 행위 실시간 분석해 시그니처 없는 신종 랜섬웨어 선제 방어기업용 수준의 정밀 탐지 엔진을 개인 사용자가 쉽게 접하도록 문턱 낮춰[보안뉴스 조재호 기자] 누리랩이 랜섬웨어 대응 기능을 대폭 고도화한 ‘마이노스 안티랜섬 2.0’(MINOSS Anti-Ransom 2.0)을 정식 출시했다고 14일 밝혔다. 이와 함께 개인 사용자의 보안 강화를 지원하기 위한",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145155&kind=&sub_kind=",
-      "date": "2026-08-14"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[속담으로 배우는 100가지 보안 습관 84] 소 잃고 외양간 고친다(4)-비대면 계좌 개설, 왜 위험할까",
-      "summary": "비대면 계좌 개설 시 신분증 관리에 극도로 주의하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐,",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144238&kind=&sub_kind=",
-      "date": "2026-08-14"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[배종찬의 보안 빅데이터] AI가 AI를 뚫는 시대, ‘클로드 해킹’의 경고",
-      "summary": "AI, 쓰임에 따라 가장 강력한 업무 도구가 될 수도, 가장 위협적인 무기가 될 수도 있어[보안뉴스= 배종찬 인사이트케이 연구소장] ‘클로드’(Claude)는 지금까지 우리에게 낯설지 않은 이름이었다. 썸트렌드(SomeTrend)의 빅데이터 연관어 분석(2026년 7월 10일~8월 9일)에서 클로드를 둘러싸고 버전, 생산성, 유튜브, 구독, 유료, 특징,",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145152&kind=&sub_kind=",
-      "date": "2026-08-14"
     }
   ],
-  "totalItems": 4392,
+  "totalItems": 4405,
   "hasArchive": true
 }
