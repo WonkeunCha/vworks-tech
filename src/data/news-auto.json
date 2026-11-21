@@ -4404,9 +4404,149 @@
     "https://www.securityweek.com/the-governance-gap-in-open-weight-ai-and-what-to-do-about-it/",
     "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/",
     "https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/",
-    "https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories/"
+    "https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories/",
+    "https://www.dell.com/en-us/blog/neural-networks-to-ai-factories-roland-kunz-on-ai-that-delivers",
+    "https://www.dell.com/en-us/blog/php2shell-what-the-critical-php-flaws-teach-us-about-ai-and-cyber-resilience",
+    "https://www.dell.com/en-us/blog/sports-media-ai-starts-with-a-data-foundation",
+    "https://www.dell.com/en-us/blog/know-which-powermax-snapshots-you-can-trust",
+    "https://www.dell.com/en-us/blog/protecting-your-small-business-during-the-holiday-season",
+    "https://www.dell.com/en-us/blog/how-to-check-computer-specs-on-windows",
+    "https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/",
+    "https://www.securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit/",
+    "https://www.securityweek.com/industry-reactions-to-major-outages-and-ai-patching-questions-feedback-friday/",
+    "https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/",
+    "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
+    "https://www.securityweek.com/ruby-patches-ruby2shell-vulnerability-that-could-lead-to-rce/",
+    "https://www.securityweek.com/n-able-blames-service-disruption-on-cyberattack/",
+    "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "신경망에서 AI 팩토리로: 실제 성과를 전하는 AI에 대한 롤란드 쿤츠의 통찰",
+      "summary": "호기심과 열정이 진전을 이끈다. 롤란드의 30년 가까운 AI 여정은 비교할 수 없는 깊이와 관점을 제공한다. AI는 실제 비즈니스 목표를 달성할 때만 의미가 있으며, 시간 절약, 사기 방지, 의료 개선 등 현실의 문제를 해결하는 용례들이 이미 존재한다. 고객과의 협력을 통해 AI 아이디어를 임팩 있는 결과로 전환할 수 있으며, 차세대 산업 혁명의 성공을 위해서는 신속성, 과감한 사고, 그리고 지속적인 학습이 필수적이다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/neural-networks-to-ai-factories-roland-kunz-on-ai-that-delivers",
+      "date": "2026-11-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "PHP2Shell: AI와 사이버 복원력이 우리에게 가르쳐주는 중요한 PHP 결함에 관하여",
+      "summary": "PHP2Shell은 심각한 위협으로, 두 개의 중요한 PHP 결함이 로그인 없이 코드 실행을 가능하게 하며 패치 배포 전부터 악용 시도가 시작되었습니다. AI는 방어자들을 돕고 있으며, 최신 AI를 사용한 연구자들이 이 오래 숨겨진 결함을 먼저 발견했고 업계의 대응은 빠르고 조직적이었습니다. 패칭은 첫 번째 단계일 뿐이므로 노출된 자격증명을 갱신하고, 백업을 검증하며, 최소 운영 가능한 비즈니스로 복구할 수 있는지 확인해야 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/php2shell-what-the-critical-php-flaws-teach-us-about-ai-and-cyber-resilience",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "스포츠 미디어 AI는 데이터 기반에서 시작된다",
+      "summary": "스포츠 AI 파일럿 프로젝트는 데이터가 단편화되어 있을 때 정체된다. 체계적으로 관리되는 기반은 구조화된 데이터와 비정형 데이터를 통합하여 유망한 사용 사례들이 실제 운영 환경까지 도달할 수 있도록 한다. 자동 하이라이트 추출, 아카이브 검색, 더 빠른 콘텐츠 전송 같은 미디어 워크플로우는 적절한 스토리지 기반으로부터 즉각적인 가치를 얻을 수 있는 처리량이 많은 작업들이다. Dell AI Data Platform은 스포츠 조직이 분석, 미디어, 팬 경험 전반에 걸쳐 AI를 확장하는 데 필요한 통합되고 체계적으로 관리되는 데이터 인프라를 제공한다. AI 결과는 그 뒤에 있는 데이터만큼만 좋으며, 적절한 인프라와 데이터 기반이 없으면 유망한 파일럿도 실제 운영 단계 전에 정체될 수 있다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/sports-media-ai-starts-with-a-data-foundation",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "신뢰할 수 있는 PowerMax 스냅샷 식별하기",
+      "summary": "Dell Cyber Detect for Storage는 Dell PowerMax 고객이 주요 스토리지 스냅샷의 콘텐츠를 스캔하여 랜섬웨어 관련 손상을 찾아냄으로써 신뢰할 수 있는 복구 지점을 식별하도록 돕습니다. Cyber Detect는 팀에게 데이터 손상 여부, 영향받은 범위, 손상 발생 시점, 신뢰할 수 있는 스냅샷 또는 복구 지점이 무엇인지를 보여줍니다. Cyber Detect for Storage와 Cyber Detect for Dell PowerProtect Cyber Recovery는 조직에 주요 스토리지 사고와 프로덕션 데이터를 손상시키는 심각한 공격 모두에 대한 복구 옵션을 제공합니다. PowerMax는 미션 크리티컬 스토리지를 위해 목적에 맞게 설계되었으며, 최신 PowerMax 릴리스를 통해 고객은 사이버 복원력 전략에 Dell Cyber Detect를 추가할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/know-which-powermax-snapshots-you-can-trust",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "휴일 시즌 중 소규모 기업 보안 보호하기",
+      "summary": "사이버범죄자들은 직원들이 휴가를 떠나 의심스러운 활동을 감지하고 대응할 사람이 줄어드는 휴일 기간 동안 소규모 기업을 집중적으로 노린다. 소규모 기업의 보안은 소수의 신뢰할 수 있는 직원에 의존하므로, 먼저 한 사람이 없을 때 지연되는 결제 승인이나 업데이트 설치 같은 업무를 파악해야 한다. 휴일 계획이 시작되기 전에 소규모 기업은 기기와 소프트웨어를 업데이트하고, 다중 인증을 활성화하며, 중요 데이터를 백업하고, 임시 직원에게 종료 날짜가 정해진 개별 자격증명을 부여해야 한다. Intel vPro®와 Windows 11 Pro가 탑재된 Dell Pro PC는 하드웨어, 펌웨어 및 운영체제에 보안을 내장하고 있으며, PC용 Dell ProSupport Suite는 평소 IT 담당자가 없을 때 소규모 팀을 위한 전문가 지원을 제공한다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/protecting-your-small-business-during-the-holiday-season",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Windows에서 컴퓨터 사양을 확인하는 방법",
+      "summary": "Windows 사용자는 설정, 시스템 정보, 작업 관리자, DirectX 진단 도구 등 4가지 기본 제공 도구를 사용하여 컴퓨터 사양을 확인할 수 있으며, 별도의 다운로드가 필요하지 않습니다. 설정에서는 핵심 사양에 대한 빠른 개요를 얻을 수 있고, 시스템 정보는 BIOS 버전 및 마더보드 정보와 같은 더 깊이 있는 세부 정보를 제공합니다. PC 사양을 파악하면 성능 저하 문제를 해결하고, 소프트웨어 및 게임 호환성을 확인하며, RAM 또는 저장소 업그레이드가 필요한지 판단하는 데 도움이 됩니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-to-check-computer-specs-on-windows",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "WhatsApp, 사기 캠페인 적발 과정에서 발견된 결함 수정",
+      "summary": "WhatsApp이 사기 캠페인 차단 중에 발견된 보안 결함을 수정했습니다. 이 취약점은 제로데이 공격으로 악용되었던 것으로 알려져 있습니다. 보안 연구원들이 사기 활동을 방해하던 과정에서 해당 결함을 발견하게 되었습니다. WhatsApp은 사용자 보안을 위해 즉시 패치를 배포하였으며, 이를 통해 모바일 메시징 플랫폼의 보안이 한층 강화되었습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기타 뉴스: 노르웨이 에너지 기업 사이버공격, 슈퍼컴퓨터 해킹, 새로운 Eclipse 악용 취약점",
+      "summary": "이번 주 사이버보안 뉴스에서는 노르웨이의 에너지 기업을 대상으로 한 사이버공격 사건이 보도되었습니다. 또한 고성능 슈퍼컴퓨터 시스템이 해킹되는 사건도 발생했습니다. 추가적으로 Eclipse 프레임워크의 새로운 보안 취약점이 발견되어 악용될 수 있는 위험이 제기되었습니다. 이러한 사건들은 에너지 산업과 IT 인프라에 대한 증가하는 사이버 위협을 반영합니다. 보안 전문가들은 조직들이 즉시 패치를 적용하고 방어 체계를 강화할 것을 권장하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit/",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "주요 장애 사건과 AI 패칭 논쟁에 대한 업계 반응: 피드백 프라이데이",
+      "summary": "SecurityWeek이 보도한 이 기사는 최근 발생한 주요 시스템 장애 사건들과 관련하여 사이버보안 업계의 다양한 반응과 의견을 다루고 있습니다. AI 기술의 보안 패칭 방식에 대한 논쟁이 핵심 쟁점으로 대두되고 있으며, 대규모 장애가 발생했을 때 적절한 대응 방안에 대한 산업계의 의견이 제시되고 있습니다. 본 기사는 AI 보안 취약점의 효과적인 패칭 전략과 시스템 장애로 인한 비즈니스 영향 최소화 방안에 대한 전문가 피드백을 담고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/industry-reactions-to-major-outages-and-ai-patching-questions-feedback-friday/",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "SBC Medical Group 데이터 유출, 200만 명 이상 피해",
+      "summary": "의료기관인 SBC Medical Group이 사이버 공격으로 인해 200만 명 이상의 개인정보가 유출되는 대규모 데이터 침해 사건이 발생했습니다. 해커들이 SBC Medical Group의 시스템을 침해하여 환자들의 민감한 의료 정보와 개인 데이터에 접근한 것으로 확인되었습니다. 이번 사건은 의료 산업에 대한 사이버 위협이 계속 증가하고 있음을 보여주는 사례입니다. SecurityWeek에 따르면 이는 최근 보도된 주요 의료 데이터 유출 사건 중 하나입니다. 피해자들은 신원 도용 및 의료 사기의 위험에 노출될 수 있습니다. 현재 당국 및 해당 기관은 사건 조사 및 피해 최소화를 위한 조치를 취하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "유럽위원회, AI 보조 사이버공격으로 서비스 중단 확인",
+      "summary": "유럽위원회가 AI 기술을 활용한 사이버공격으로 인해 서비스가 중단되었음을 공식 확인했습니다. 이 공격은 고급화된 AI 도구를 사용하여 실행되었으며, 유럽 연합의 주요 기관 서비스에 영향을 미쳤습니다. 보안 전문가들은 AI 기술이 사이버 위협의 정교성을 높이는 방식으로 악용될 수 있음을 경고하고 있습니다. 유럽위원회는 현재 사건에 대한 조사를 진행 중이며 보안 강화 방안을 모색하고 있습니다. 이번 사건은 정부 기관을 대상으로 한 AI 기반 공격의 위험성을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Ruby, 원격 코드 실행으로 이어질 수 있는 Ruby2Shell 취약점 패치",
+      "summary": "Ruby 프로젝트가 원격 코드 실행(RCE)을 야기할 수 있는 Ruby2Shell 취약점에 대한 패치를 발표했습니다. 이 취약점은 Ruby 언어의 보안 문제로 악의적인 사용자가 영향을 받는 시스템에서 임의의 코드를 실행할 수 있는 위험성을 내포하고 있습니다. SecurityWeek이 보도한 이 소식에 따르면, Ruby 개발팀은 사용자들에게 최신 패치를 적용할 것을 권장하고 있습니다. 이러한 원격 코드 실행 취약점은 웹 애플리케이션 및 서버 환경에서 중대한 보안 위협이 될 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ruby-patches-ruby2shell-vulnerability-that-could-lead-to-rce/",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "N-able, 사이버공격으로 인한 서비스 중단 발표",
+      "summary": "관리형 서비스 제공업체인 N-able이 Mail Assure 및 SpamExperts Hosted Cloud 서비스의 중단이 사이버공격으로 인한 것이라고 밝혔습니다. 회사는 공격자들이 고객의 자격 증명 정보를 탈취했을 가능성이 있다고 경고하고 있습니다. 이번 사건은 클라우드 기반 이메일 보안 서비스에 대한 공격으로, 다수의 고객에게 영향을 미쳤습니다. N-able은 현재 사건에 대한 조사와 복구 작업을 진행 중입니다. 이는 공급망을 통한 사이버공격의 위험성을 다시 한번 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/n-able-blames-service-disruption-on-cyberattack/",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "JPMorgan, Visa, Mastercard가 데이터 유출 와중 제3자 사고 인용",
+      "summary": "JPMorgan, Visa, Mastercard가 N0n 해커 그룹에 의한 데이터 유출 사건과 관련하여 제3자 보안 사고를 언급했습니다. 이 사건은 주요 금융 기관과 결제 카드사를 대상으로 한 사이버 공격으로, 민감한 고객 데이터가 노출된 것으로 알려져 있습니다. 해당 기관들은 현재 상황을 파악하고 고객 보호를 위한 대응 조치를 취하고 있습니다. 이번 사건은 금융 서비스 산업의 사이버보안 위험성을 다시 한 번 강조하며, 제3자 서비스 공급자를 통한 간접 공격의 가능성을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
+      "date": "2026-11-20"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "공공 대학의 사명, 강화되다: AI가 학생과 지역사회를 위해 가능하게 하는 것",
@@ -13280,134 +13420,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144239&kind=&sub_kind=",
       "date": "2026-08-17"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "보안 생태계 쌍두마차… 정장 입은 블랙햇, 청바지 입은 데프콘",
-      "summary": "기술·인재·자본 순환하는 글로벌 보안 생태계 플랫폼전설적 해커 제프 모스가 창설한 해킹 학술 컨퍼런스AI 시대 신종 위협에 맞설 지구촌 방어망 재정립[보안뉴스 김형근 기자] 과학학술계에 ‘네이처’(Nature)와 ‘사이언스’(Science)라는 두 거두가 존재하듯이 사이버 보안 세계에는 블랙햇(Black Hat)과 데프콘(DEF CON)이라는 양대 산맥이",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145170&kind=&sub_kind=",
-      "date": "2026-08-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "英 국가 핵심 전력망 운영사 해킹 당했나... 내부 기술 데이터 40GB 유출 주장 제기",
-      "summary": "소스 코드·클라우드 설정 등 5500여 개 파일 다크웹 포럼에 공개... 인프라 설계 정보 노출 따른 2차 피해 우려[보안뉴스 한세희 기자] 영국 잉글랜드 및 웨일스 지역 등의 송배전 인프라를 총괄하는 에너지 기업 ‘내셔널그리드’(National Grid)의 내부 소프트웨어 및 인프라 구성 데이터가 사이버 범죄 포럼에 대규모로 유출됐다는 주장이 나왔다. 핵",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145174&kind=&sub_kind=",
-      "date": "2026-08-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "서울시, AI 업무 활용 안전하게... 사이버 보안 체계 정비",
-      "summary": "사이버보안 조례 시행규칙 입법예고… 내달 2일까지 의견 접수[보안뉴스 한세희 기자] 서울시가 인공지능(AI)과 클라우드 등 신기술 활용에 따른 사이버 위협을 막을 수 있도록 보안 체계를 강화한다. 서울시는 최근 ‘서울특별시 사이버보안에 관한 조례 시행규칙안’을 입법예고하고 다음달 2일까지 시민 등 의견을 받는다고 밝혔다. 이 안은 작년 9월 시행된 서울시",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145173&kind=&sub_kind=",
-      "date": "2026-08-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[ISEC 2026] “AI의 ‘규모’와 사람의 ‘깊이’를 한 플랫폼에 통합”... 존 아데오 해커원 부사장",
-      "summary": "“AI가 규모와 속도 높이면 사람이 정확성 검증”“CTEM-AI 레드티밍 결합, 업계가 나아갈 방향”[보안뉴스 강현주 기자] “사이버 보안의 미래는 AI와 사람 중 하나를 선택하는 것이 아닙니다. 속도를 위해 AI를 쓰고, 정확도를 위해 사람의 깊이를 결합하는 것입니다.”‘제20회 국제 시큐리티 콘퍼런스’(ISEC 2026) 현장에서 만난 지속적 위협 노출",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145164&kind=&sub_kind=",
-      "date": "2026-08-16"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "서강대 개인정보 18만건 유출... 박근혜 전 대통령 등 재학생·졸업생 정보 포함",
-      "summary": "외부공격 정황... 이름, 소속, 휴대폰 번호, 비밀번호 등 유출[보안뉴스 한세희 기자] 서강대 재학생과 졸업생, 교직원 등 개인정보 약 18만건이 유출됐다.서강대는 “통합 로그인 계정 정보에 대해 신원 미상의 외부 공격으로 일부 정보의 유출 정황을 확인했다”고 15일 밝혔다. 유출된 개인정보엔 학번·사번, 성명, 아이디, 소속, 이메일 주소, 휴대전화 번",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145172&kind=&sub_kind=",
-      "date": "2026-08-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "오리엔텀, 캐나다 소프트웨어큐(SoftwareQ)와 금융 분야 양자 기술 공동 연구",
-      "summary": "양자 컴퓨팅 공동 연구개발 업무협약(MoU) 체결[보안뉴스 한세희 기자] 오리엔텀(대표 방승현)이 캐나다 양자 소프트웨어 기업 소프트웨어큐(softwareQ)와 금융·은행·보험 분야 양자 컴퓨팅 공동 연구개발을 위한 업무협약(MOU)을 체결했다고 밝혔다.양사는 한국 서울과 캐나다 온타리오주 워털루를 거점으로, 실제 금융 현장에 즉시 적용 가능한 양자 알고리",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145171&kind=&sub_kind=",
-      "date": "2026-08-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "프랑스, ‘15세 미만 소셜미디어 금지법’ 제동... “표현의 자유 침해”",
-      "summary": "나이 인증 기술 실효성, 기본권 논란 가[보안뉴스 한세희 기자] 프랑스 헌법위원회가 정부가 추진하던 15세 미만 소셜미디어 접근 금지법을 위헌으로 판단했다. 표현의 자유와 프라이버시를 침해한다는 이유다. 9월 1일 시행 예정이던 강력한 연령 제한 정책은 전면 재검토에 들어간다.이 법안은 15세 미만 이용자의 소셜미디어 신규 계정 개설을 금지하고, 기존 계정",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145169&kind=&sub_kind=",
-      "date": "2026-08-15"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "英 범죄기록청(ACRO), 2년간 3차례 침해 사고 ‘인식조차 못해’... ICO 견책 처분",
-      "summary": "2년간 3차례 해킹에도 경고 무시... 가정폭력 피해자 등 민감정보 유출 위기[보안뉴스 김형근 기자] 영국 범죄기록청(ACRO)이 약 2년에 걸쳐 세 차례의 시스템 침해를 당해 가정폭력 피해자 등 수천 명의 민감 정보가 노출 위험에 처했음에도 이를 제때 인지하지 못한 것으로 드러났다. 영국 정보위원회(ICO)는 보안 체계의 총체적 부실을 이유로 ACRO에",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145168&kind=&sub_kind=",
-      "date": "2026-08-15"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "인텔 기반 PowerEdge 서버에 NEBS Level 3 준수 기능 추가",
-      "summary": "Dell Technologies는 통신 및 네트워크 인프라 분야에서 가장 엄격한 안정성 표준인 NEBS Level 3 인증을 획득한 세 가지의 새로운 PowerEdge 서버를 출시했습니다. 이러한 서버들은 네트워크가 중단될 수 없는 환경에서 필요한 높은 수준의 신뢰성과 견고성을 제공합니다. NEBS Level 3 준수는 환경적 스트레스, 전원 변동, 기계적 충격 등의 극악한 조건에서도 지속적인 운영을 보장합니다. Intel 기반의 이러한 PowerEdge 서버들은 통신사 및 네트워크 서비스 제공자들의 핵심 인프라 요구사항을 충족시킵니다. 이는 Dell의 엔터프라이즈 인프라 솔루션이 가장 까다로운 산업 기준을 만족할 수 있음을 입증합니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/nebs-level-3-compliance-comes-to-intel-based-poweredge-servers/",
-      "date": "2026-08-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "기타 뉴스: Rapid7 감원, 보잉 737 해킹, 냉동 시스템 취약점",
-      "summary": "보안 업계의 주요 뉴스를 다루는 이번 기사에서는 사이버보안 기업 Rapid7의 감원 소식, 보잉 737 항공기의 해킹 사건, 그리고 냉동 저장 시스템의 보안 취약점을 보도하고 있습니다. 이러한 사건들은 항공 우주 산업과 중요 기반시설 분야의 사이버보안 위험성을 드러내고 있습니다. 특히 냉동 시스템과 같은 운영 기술(OT) 환경의 보안 취약점은 일반적으로 간과되는 분야이지만 실질적인 위협이 될 수 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/in-other-news-rapid7-layoffs-hacking-a-boeing-737-refrigeration-system-vulnerabilities/",
-      "date": "2026-08-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Trivy, LiteLLM이 아닌 2,500개 조직 침해의 원인",
-      "summary": "최근 2,500개 조직에 대한 대규모 침해 사건이 발생했으며, 초기에 LiteLLM이 원인으로 지목되었으나 실제 원인은 Trivy 도구였던 것으로 확인되었습니다. 이는 공급망 공격(Supply Chain Attack)의 형태로, 널리 사용되는 오픈소스 도구의 취약점을 악용한 것입니다. 피해 조직의 95%가 영향을 받았으며, 이는 개발 도구의 보안이 얼마나 중요한지를 보여주는 사건입니다. 보안 연구자들은 소프트웨어 공급망에 대한 철저한 모니터링과 검증의 필요성을 강조하고 있습니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/trivy-not-litellm-behind-the-2500-org-compromise/",
-      "date": "2026-08-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "구글 클라우드, 2029년 양자내성암호 준비 완료를 목표로 로드맵 발표",
-      "summary": "구글 클라우드가 양자 컴퓨팅의 위협으로부터 보호하기 위한 양자내성암호(PQC) 로드맵을 공개했다. 이 로드맵은 2029년까지 양자내성암호 구현 준비를 완료하는 것을 목표로 하고 있다. 구글 클라우드는 양자 컴퓨팅이 현재의 암호화 기술을 위협할 수 있다는 점을 인식하고, 고객들의 데이터 보호를 위해 사전에 대응하고 있다. 이 계획은 구글 클라우드의 데이터 보안 전략의 일환으로, 미래의 사이버 보안 위협에 대비하기 위한 중요한 조치이다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/google-cloud-sets-out-post-quantum-roadmap-with-2029-readiness-goal/",
-      "date": "2026-08-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "링센트럴 데이터 유출로 160만 명 영향받을 가능성",
-      "summary": "클라우드 기반 통신 플랫폼 링센트럴이 ShinyHunters라는 위협 집단에 의해 데이터 유출 사고를 당했다. 약 160만 명의 사용자 정보가 유출된 것으로 추정되고 있다. 유출된 데이터에는 사용자의 개인정보와 민감한 통신 기록이 포함되었을 가능성이 있다. 이 사건은 엔터프라이즈급 클라우드 서비스를 대상으로 한 공격이 점점 증가하고 있음을 보여준다. 링센트럴은 현재 사건을 조사 중이며 영향받은 사용자들에게 적절한 알림을 제공할 것으로 예상된다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/",
-      "date": "2026-08-14"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "1,000개 이상의 자선단체, 비콘 CRM 데이터 유출 피해",
-      "summary": "영국 기반의 CRM 제공업체 비콘(Beacon)이 대규모 데이터 유출 사고를 공개했습니다. 1,000개 이상의 자선단체가 이번 보안 침해로 인해 영향을 받은 것으로 확인되었습니다. 비콘의 CRM 시스템에서 고객 및 기부자의 개인정보가 노출되었습니다. 이번 사건은 비영리 조직들이 사이버 공격의 주요 대상이 될 수 있음을 보여주는 사례입니다. 피해 기관들은 개인정보 보호 규정 준수 및 영향받은 개인들에 대한 통지 의무에 직면하게 될 것으로 예상됩니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/over-1000-charities-hit-by-beacon-crm-data-breach/",
-      "date": "2026-08-14"
     }
   ],
-  "totalItems": 4405,
+  "totalItems": 4419,
   "hasArchive": true
 }

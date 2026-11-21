@@ -3,6 +3,132 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "신경망에서 AI 팩토리로: 실제 성과를 전하는 AI에 대한 롤란드 쿤츠의 통찰",
+      "summary": "호기심과 열정이 진전을 이끈다. 롤란드의 30년 가까운 AI 여정은 비교할 수 없는 깊이와 관점을 제공한다. AI는 실제 비즈니스 목표를 달성할 때만 의미가 있으며, 시간 절약, 사기 방지, 의료 개선 등 현실의 문제를 해결하는 용례들이 이미 존재한다. 고객과의 협력을 통해 AI 아이디어를 임팩 있는 결과로 전환할 수 있으며, 차세대 산업 혁명의 성공을 위해서는 신속성, 과감한 사고, 그리고 지속적인 학습이 필수적이다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/neural-networks-to-ai-factories-roland-kunz-on-ai-that-delivers",
+      "date": "2026-11-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "PHP2Shell: AI와 사이버 복원력이 우리에게 가르쳐주는 중요한 PHP 결함에 관하여",
+      "summary": "PHP2Shell은 심각한 위협으로, 두 개의 중요한 PHP 결함이 로그인 없이 코드 실행을 가능하게 하며 패치 배포 전부터 악용 시도가 시작되었습니다. AI는 방어자들을 돕고 있으며, 최신 AI를 사용한 연구자들이 이 오래 숨겨진 결함을 먼저 발견했고 업계의 대응은 빠르고 조직적이었습니다. 패칭은 첫 번째 단계일 뿐이므로 노출된 자격증명을 갱신하고, 백업을 검증하며, 최소 운영 가능한 비즈니스로 복구할 수 있는지 확인해야 합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/php2shell-what-the-critical-php-flaws-teach-us-about-ai-and-cyber-resilience",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "스포츠 미디어 AI는 데이터 기반에서 시작된다",
+      "summary": "스포츠 AI 파일럿 프로젝트는 데이터가 단편화되어 있을 때 정체된다. 체계적으로 관리되는 기반은 구조화된 데이터와 비정형 데이터를 통합하여 유망한 사용 사례들이 실제 운영 환경까지 도달할 수 있도록 한다. 자동 하이라이트 추출, 아카이브 검색, 더 빠른 콘텐츠 전송 같은 미디어 워크플로우는 적절한 스토리지 기반으로부터 즉각적인 가치를 얻을 수 있는 처리량이 많은 작업들이다. Dell AI Data Platform은 스포츠 조직이 분석, 미디어, 팬 경험 전반에 걸쳐 AI를 확장하는 데 필요한 통합되고 체계적으로 관리되는 데이터 인프라를 제공한다. AI 결과는 그 뒤에 있는 데이터만큼만 좋으며, 적절한 인프라와 데이터 기반이 없으면 유망한 파일럿도 실제 운영 단계 전에 정체될 수 있다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/sports-media-ai-starts-with-a-data-foundation",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "신뢰할 수 있는 PowerMax 스냅샷 식별하기",
+      "summary": "Dell Cyber Detect for Storage는 Dell PowerMax 고객이 주요 스토리지 스냅샷의 콘텐츠를 스캔하여 랜섬웨어 관련 손상을 찾아냄으로써 신뢰할 수 있는 복구 지점을 식별하도록 돕습니다. Cyber Detect는 팀에게 데이터 손상 여부, 영향받은 범위, 손상 발생 시점, 신뢰할 수 있는 스냅샷 또는 복구 지점이 무엇인지를 보여줍니다. Cyber Detect for Storage와 Cyber Detect for Dell PowerProtect Cyber Recovery는 조직에 주요 스토리지 사고와 프로덕션 데이터를 손상시키는 심각한 공격 모두에 대한 복구 옵션을 제공합니다. PowerMax는 미션 크리티컬 스토리지를 위해 목적에 맞게 설계되었으며, 최신 PowerMax 릴리스를 통해 고객은 사이버 복원력 전략에 Dell Cyber Detect를 추가할 수 있습니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/know-which-powermax-snapshots-you-can-trust",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "휴일 시즌 중 소규모 기업 보안 보호하기",
+      "summary": "사이버범죄자들은 직원들이 휴가를 떠나 의심스러운 활동을 감지하고 대응할 사람이 줄어드는 휴일 기간 동안 소규모 기업을 집중적으로 노린다. 소규모 기업의 보안은 소수의 신뢰할 수 있는 직원에 의존하므로, 먼저 한 사람이 없을 때 지연되는 결제 승인이나 업데이트 설치 같은 업무를 파악해야 한다. 휴일 계획이 시작되기 전에 소규모 기업은 기기와 소프트웨어를 업데이트하고, 다중 인증을 활성화하며, 중요 데이터를 백업하고, 임시 직원에게 종료 날짜가 정해진 개별 자격증명을 부여해야 한다. Intel vPro®와 Windows 11 Pro가 탑재된 Dell Pro PC는 하드웨어, 펌웨어 및 운영체제에 보안을 내장하고 있으며, PC용 Dell ProSupport Suite는 평소 IT 담당자가 없을 때 소규모 팀을 위한 전문가 지원을 제공한다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/protecting-your-small-business-during-the-holiday-season",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Windows에서 컴퓨터 사양을 확인하는 방법",
+      "summary": "Windows 사용자는 설정, 시스템 정보, 작업 관리자, DirectX 진단 도구 등 4가지 기본 제공 도구를 사용하여 컴퓨터 사양을 확인할 수 있으며, 별도의 다운로드가 필요하지 않습니다. 설정에서는 핵심 사양에 대한 빠른 개요를 얻을 수 있고, 시스템 정보는 BIOS 버전 및 마더보드 정보와 같은 더 깊이 있는 세부 정보를 제공합니다. PC 사양을 파악하면 성능 저하 문제를 해결하고, 소프트웨어 및 게임 호환성을 확인하며, RAM 또는 저장소 업그레이드가 필요한지 판단하는 데 도움이 됩니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/how-to-check-computer-specs-on-windows",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "WhatsApp, 사기 캠페인 적발 과정에서 발견된 결함 수정",
+      "summary": "WhatsApp이 사기 캠페인 차단 중에 발견된 보안 결함을 수정했습니다. 이 취약점은 제로데이 공격으로 악용되었던 것으로 알려져 있습니다. 보안 연구원들이 사기 활동을 방해하던 과정에서 해당 결함을 발견하게 되었습니다. WhatsApp은 사용자 보안을 위해 즉시 패치를 배포하였으며, 이를 통해 모바일 메시징 플랫폼의 보안이 한층 강화되었습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "기타 뉴스: 노르웨이 에너지 기업 사이버공격, 슈퍼컴퓨터 해킹, 새로운 Eclipse 악용 취약점",
+      "summary": "이번 주 사이버보안 뉴스에서는 노르웨이의 에너지 기업을 대상으로 한 사이버공격 사건이 보도되었습니다. 또한 고성능 슈퍼컴퓨터 시스템이 해킹되는 사건도 발생했습니다. 추가적으로 Eclipse 프레임워크의 새로운 보안 취약점이 발견되어 악용될 수 있는 위험이 제기되었습니다. 이러한 사건들은 에너지 산업과 IT 인프라에 대한 증가하는 사이버 위협을 반영합니다. 보안 전문가들은 조직들이 즉시 패치를 적용하고 방어 체계를 강화할 것을 권장하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit/",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "주요 장애 사건과 AI 패칭 논쟁에 대한 업계 반응: 피드백 프라이데이",
+      "summary": "SecurityWeek이 보도한 이 기사는 최근 발생한 주요 시스템 장애 사건들과 관련하여 사이버보안 업계의 다양한 반응과 의견을 다루고 있습니다. AI 기술의 보안 패칭 방식에 대한 논쟁이 핵심 쟁점으로 대두되고 있으며, 대규모 장애가 발생했을 때 적절한 대응 방안에 대한 산업계의 의견이 제시되고 있습니다. 본 기사는 AI 보안 취약점의 효과적인 패칭 전략과 시스템 장애로 인한 비즈니스 영향 최소화 방안에 대한 전문가 피드백을 담고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/industry-reactions-to-major-outages-and-ai-patching-questions-feedback-friday/",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "SBC Medical Group 데이터 유출, 200만 명 이상 피해",
+      "summary": "의료기관인 SBC Medical Group이 사이버 공격으로 인해 200만 명 이상의 개인정보가 유출되는 대규모 데이터 침해 사건이 발생했습니다. 해커들이 SBC Medical Group의 시스템을 침해하여 환자들의 민감한 의료 정보와 개인 데이터에 접근한 것으로 확인되었습니다. 이번 사건은 의료 산업에 대한 사이버 위협이 계속 증가하고 있음을 보여주는 사례입니다. SecurityWeek에 따르면 이는 최근 보도된 주요 의료 데이터 유출 사건 중 하나입니다. 피해자들은 신원 도용 및 의료 사기의 위험에 노출될 수 있습니다. 현재 당국 및 해당 기관은 사건 조사 및 피해 최소화를 위한 조치를 취하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "유럽위원회, AI 보조 사이버공격으로 서비스 중단 확인",
+      "summary": "유럽위원회가 AI 기술을 활용한 사이버공격으로 인해 서비스가 중단되었음을 공식 확인했습니다. 이 공격은 고급화된 AI 도구를 사용하여 실행되었으며, 유럽 연합의 주요 기관 서비스에 영향을 미쳤습니다. 보안 전문가들은 AI 기술이 사이버 위협의 정교성을 높이는 방식으로 악용될 수 있음을 경고하고 있습니다. 유럽위원회는 현재 사건에 대한 조사를 진행 중이며 보안 강화 방안을 모색하고 있습니다. 이번 사건은 정부 기관을 대상으로 한 AI 기반 공격의 위험성을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Ruby, 원격 코드 실행으로 이어질 수 있는 Ruby2Shell 취약점 패치",
+      "summary": "Ruby 프로젝트가 원격 코드 실행(RCE)을 야기할 수 있는 Ruby2Shell 취약점에 대한 패치를 발표했습니다. 이 취약점은 Ruby 언어의 보안 문제로 악의적인 사용자가 영향을 받는 시스템에서 임의의 코드를 실행할 수 있는 위험성을 내포하고 있습니다. SecurityWeek이 보도한 이 소식에 따르면, Ruby 개발팀은 사용자들에게 최신 패치를 적용할 것을 권장하고 있습니다. 이러한 원격 코드 실행 취약점은 웹 애플리케이션 및 서버 환경에서 중대한 보안 위협이 될 수 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ruby-patches-ruby2shell-vulnerability-that-could-lead-to-rce/",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "N-able, 사이버공격으로 인한 서비스 중단 발표",
+      "summary": "관리형 서비스 제공업체인 N-able이 Mail Assure 및 SpamExperts Hosted Cloud 서비스의 중단이 사이버공격으로 인한 것이라고 밝혔습니다. 회사는 공격자들이 고객의 자격 증명 정보를 탈취했을 가능성이 있다고 경고하고 있습니다. 이번 사건은 클라우드 기반 이메일 보안 서비스에 대한 공격으로, 다수의 고객에게 영향을 미쳤습니다. N-able은 현재 사건에 대한 조사와 복구 작업을 진행 중입니다. 이는 공급망을 통한 사이버공격의 위험성을 다시 한번 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/n-able-blames-service-disruption-on-cyberattack/",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "JPMorgan, Visa, Mastercard가 데이터 유출 와중 제3자 사고 인용",
+      "summary": "JPMorgan, Visa, Mastercard가 N0n 해커 그룹에 의한 데이터 유출 사건과 관련하여 제3자 보안 사고를 언급했습니다. 이 사건은 주요 금융 기관과 결제 카드사를 대상으로 한 사이버 공격으로, 민감한 고객 데이터가 노출된 것으로 알려져 있습니다. 해당 기관들은 현재 상황을 파악하고 고객 보호를 위한 대응 조치를 취하고 있습니다. 이번 사건은 금융 서비스 산업의 사이버보안 위험성을 다시 한 번 강조하며, 제3자 서비스 공급자를 통한 간접 공격의 가능성을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "공공 대학의 사명, 강화되다: AI가 학생과 지역사회를 위해 가능하게 하는 것",
       "summary": "AI 기술은 공공 대학이 더 많은 학생에게 고품질의 교육을 제공할 수 있도록 지원합니다. AI를 통해 개인맞춤형 학습 경험을 제공하고 학생들의 성공을 위한 지원을 강화할 수 있습니다. 공공 대학은 AI를 활용하여 지역사회 문제 해결에 더욱 효과적으로 기여할 수 있습니다. 데이터 분석과 AI 기반 도구들은 대학의 운영 효율성을 높이고 비용을 절감하는 데 도움이 됩니다. AI 기술의 책임감 있는 도입은 공공 대학의 접근성과 포용성을 강화하는 데 핵심적인 역할을 합니다.",
       "category": "서버",
@@ -4764,9 +4890,9 @@
     }
   ],
   "sources": {
-    "Dell": 128,
+    "Dell": 134,
+    "SecurityWeek": 358,
     "VAST Data": 25,
-    "SecurityWeek": 350,
     "HPE": 26
   }
 }
