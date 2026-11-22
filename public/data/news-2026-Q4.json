@@ -12,6 +12,33 @@
     },
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "FBI, 국가 범죄 사법 데이터베이스 해킹 조사 중",
+      "summary": "FBI가 국가 범죄 사법 정보 시스템(NCIC)의 주요 데이터베이스가 해킹된 것으로 보여 조사를 진행 중입니다. 이 데이터베이스는 미국의 범죄 수사 및 사법 체계에서 핵심적인 역할을 하는 시스템입니다. AP 통신의 소식통에 따르면 FBI는 현재 사건의 규모와 영향 범위를 파악하기 위해 조사를 계속하고 있습니다. 이번 해킹 사건은 미국 정부의 중요 인프라에 대한 사이버 보안 위협을 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
+      "date": "2026-11-22"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "트럼프 대통령, 커스틴 데이비스를 국가 사이버 담당자로 임명",
+      "summary": "트럼프 대통령이 국방부 최고정보관(CIO)을 맡고 있던 커스틴 데이비스를 새로운 국가 사이버 담당자(National Cyber Director)로 임명했습니다. 이 직책은 미국의 국가 사이버 보안 정책 및 전략을 주도하는 중요한 보직입니다. 데이비스는 국방부에서의 경험을 바탕으로 연방 차원의 사이버 보안 개선를 추진할 것으로 예상됩니다. 이번 인사는 2026년 11월 21일에 공식 발표되었습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
+      "date": "2026-11-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "아마존 보안팀, 중국 연계 해커들이 AI 에이전트를 이용해 의료 소프트웨어 제로데이 취약점 악용 적발",
+      "summary": "아마존 보안팀이 중국과 연계된 해커 집단이 AI 에이전트를 활용하여 의료 소프트웨어의 제로데이 취약점을 악용했다는 사실을 적발했습니다. 이번 사건은 의료 분야의 중요 소프트웨어를 대상으로 한 고도의 사이버 공격으로, 아직 패치되지 않은 보안 허점이 악용되었습니다. AI 기술을 활용한 자동화된 공격 도구의 사용은 사이버 위협의 진화를 보여주는 사례입니다. 이러한 공격 방식은 의료 기관과 환자 데이터 보안에 심각한 위험을 초래할 수 있습니다. 보안 전문가들은 의료 소프트웨어 개발사와 사용 기관들에게 긴급한 보안 조치를 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+      "date": "2026-11-21"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "PHP2Shell: AI와 사이버 복원력이 우리에게 가르쳐주는 중요한 PHP 결함에 관하여",
       "summary": "PHP2Shell은 심각한 위협으로, 두 개의 중요한 PHP 결함이 로그인 없이 코드 실행을 가능하게 하며 패치 배포 전부터 악용 시도가 시작되었습니다. AI는 방어자들을 돕고 있으며, 최신 AI를 사용한 연구자들이 이 오래 숨겨진 결함을 먼저 발견했고 업계의 대응은 빠르고 조직적이었습니다. 패칭은 첫 번째 단계일 뿐이므로 노출된 자격증명을 갱신하고, 백업을 검증하며, 최소 운영 가능한 비즈니스로 복구할 수 있는지 확인해야 합니다.",
       "category": "서버",
@@ -4891,7 +4918,7 @@
   ],
   "sources": {
     "Dell": 134,
-    "SecurityWeek": 358,
+    "SecurityWeek": 361,
     "VAST Data": 25,
     "HPE": 26
   }
