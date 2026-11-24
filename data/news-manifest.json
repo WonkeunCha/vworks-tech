@@ -3,12 +3,12 @@
     {
       "key": "2026-Q4",
       "file": "news-2026-Q4.json",
-      "count": 546,
+      "count": 561,
       "sources": {
-        "Dell": 134,
-        "SecurityWeek": 361,
-        "VAST Data": 25,
-        "HPE": 26
+        "Dell": 137,
+        "HPE": 28,
+        "VAST Data": 27,
+        "SecurityWeek": 369
       },
       "dateRange": {
         "from": "2026-10-01",
@@ -74,6 +74,6 @@
       }
     }
   ],
-  "totalItems": 4422,
-  "lastUpdated": "2026-11-23T06:22:56.632Z"
+  "totalItems": 4437,
+  "lastUpdated": "2026-11-24T08:57:09.830Z"
 }
