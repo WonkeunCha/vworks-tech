@@ -3,12 +3,93 @@
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI가 소아암 분석을 며칠에서 몇 시간으로 단축",
+      "summary": "독일 하이델베르그의 호프 소아암센터(KiTZ)는 AI를 활용하여 종양 분석 시간을 60% 단축하여 과거 며칠 소요되던 프로세스를 단 몇 시간으로 줄였습니다. 동일한 인프라가 아시아, 아프리카, 남미의 병원들을 연결하여 자원이 부족한 의료기관도 실시간으로 세계 수준의 소아 종양학 인사이트에 접근할 수 있게 합니다. 이는 의학의 가장 시급한 임무 중 하나인 소아암 퇴치에 직접 기여하는 AI의 활용 사례입니다. Dell은 이를 가능하게 하는 인프라를 제공합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/ai-turns-childhood-cancer-analysis-from-days-to-hours",
+      "date": "2026-12-01"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "신경망에서 AI 팩토리로: 실제 성과를 전하는 AI에 대한 롤란드 쿤츠의 통찰",
       "summary": "호기심과 열정이 진전을 이끈다. 롤란드의 30년 가까운 AI 여정은 비교할 수 없는 깊이와 관점을 제공한다. AI는 실제 비즈니스 목표를 달성할 때만 의미가 있으며, 시간 절약, 사기 방지, 의료 개선 등 현실의 문제를 해결하는 용례들이 이미 존재한다. 고객과의 협력을 통해 AI 아이디어를 임팩 있는 결과로 전환할 수 있으며, 차세대 산업 혁명의 성공을 위해서는 신속성, 과감한 사고, 그리고 지속적인 학습이 필수적이다.",
       "category": "서버",
       "source": "Dell",
       "sourceUrl": "https://www.dell.com/en-us/blog/neural-networks-to-ai-factories-roland-kunz-on-ai-that-delivers",
       "date": "2026-11-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로 공개된 두 가지 GeoServer 취약점이 현재 공격 대상",
+      "summary": "GeoServer에서 새로 공개된 두 가지 취약점이 적극적으로 악용되고 있습니다. 이러한 취약점들은 원격 코드 실행(RCE)을 가능하게 하며, 공격자들이 영향을 받는 시스템에 대한 완전한 제어권을 획득할 수 있게 합니다. SecurityWeek의 보도에 따르면 이 취약점들은 이미 실제 공격에 활용되고 있는 상황입니다. GeoServer 사용자들은 긴급히 패치를 적용하여 자신의 시스템을 보호할 필요가 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "ShinyHunters, 복귀 주장... Inception 그룹은 연관성 거부",
+      "summary": "악명 높은 사이버범죄 집단 ShinyHunters가 활동 재개를 주장했습니다. 그룹은 새로 등장한 Inception 그룹과의 연관성이 있다는 의혹을 받고 있습니다. Inception 그룹은 ShinyHunters와의 연관성 주장을 명확히 거부했습니다. 이는 사이버범죄 커뮤니티 내에서 조직 간 정체성과 연계성에 대한 논쟁을 야기하고 있습니다. 보안 전문가들은 두 그룹의 실제 관계를 파악하기 위한 추가 조사를 진행 중입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국 재무부 FinCEN, 사이버 사건으로 시스템 연결 차단",
+      "summary": "미국 재무부의 금융범죄수사네트워크(FinCEN)가 사이버 사건으로 인해 시스템을 연결 해제했습니다. 이로 인해 FinCEN의 서비스에 일시적인 중단이 발생했습니다. 현재 당국은 사이버 공격의 영향을 조사하고 있으며, 필요한 조치를 취하고 있습니다. 이번 사건은 금융 감시 시스템의 중요성과 국가 기반시설 보호의 필요성을 강조합니다. 복구 일정과 추가 세부 정보는 계속해서 업데이트될 예정입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "실제 보안 프로그램 구축하기: 대기업 예산 없이도 가능한가 - CISO 매트 마틴의 조언",
+      "summary": "SecurityWeek이 보도한 이 기사는 제한된 예산으로도 실질적인 보안 프로그램을 구축할 수 있는 방법을 다룹니다. CISO 매트 마틴은 중소 규모 조직이 대기업 수준의 사이버보안 체계를 갖추기 위한 실질적인 전략을 제시합니다. 이 아티클은 예산 제약 속에서도 효과적인 보안 운영 프로그램을 개발하는 방법과 우선순위 설정의 중요성을 강조합니다. CISO 전략 측면에서 중소기업도 창의적이고 효율적인 접근으로 보안 리스크를 효과적으로 관리할 수 있다는 점을 조명합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ground-truth-ciso-matt-martin-on-building-a-real-security-program-without-an-enterprise-budget/",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "표절 검사 서비스 Turnitin, 사이버공격 조사 중",
+      "summary": "글로벌 표절 검사 플랫폼인 Turnitin이 사이버공격을 조사하고 있습니다. 해당 회사는 비인가 접근 활동을 감지하고 보안 사건에 대한 조사를 진행 중에 있습니다. 교육 기관과 학생들이 광범위하게 이용하는 서비스인 만큼 이번 보안 사건은 많은 사용자에게 영향을 미칠 수 있습니다. Turnitin은 현재 상황을 파악하고 필요한 조치를 취하고 있으며, 사용자들에게 추가 정보를 제공할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "폐기된 Idunno AntiCsrf 라이브러리의 미패치 취약점을 악용하는 해커들",
+      "summary": "보안 업데이트가 중단된 Idunno AntiCsrf 라이브러리의 미패치 취약점이 해커들에 의해 적극적으로 악용되고 있습니다. 이 취약점은 CISA KEV(Known Exploited Vulnerabilities) 목록에 등재되었으며, 해당 라이브러리가 더 이상 유지보수되지 않고 있어 보안 패치를 받을 수 없는 상황입니다. CSRF(Cross-Site Request Forgery) 보호 기능을 담당하는 이 라이브러리를 사용 중인 애플리케이션들은 심각한 보안 위협에 노출되어 있습니다. 보안 전문가들은 해당 라이브러리를 사용 중인 조직들에 즉시 대체 솔루션으로 마이그레이션할 것을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "팔로 알토 네트웍스, 방화벽 루트 접근을 가능하게 하는 프래그네시아 취약점 패치",
+      "summary": "팔로 알토 네트웍스가 PAN-OS 방화벽에 영향을 미치는 '프래그네시아'라는 Linux 취약점에 대한 패치를 릴리스했습니다. 이 취약점은 공격자가 영향받은 방화벽에 대한 루트 레벨의 접근 권한을 획득할 수 있도록 하는 심각한 보안 결함입니다. 현재 이 취약점이 실제 공격에 악용되고 있는 것으로 알려져 있으며, 조직들에게는 긴급한 패치 적용이 권고되고 있습니다. 이번 패치는 사이버 위협으로부터 엔터프라이즈 네트워크 인프라를 보호하기 위한 중요한 보안 조치입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Anthropic 스캐너가 발견한 Drupal 취약점, 실제 공격에 악용되고 있음",
+      "summary": "Anthropic의 보안 스캐너가 발견한 Drupal의 보안 취약점이 실제 공격에 악용되고 있는 것으로 확인되었습니다. 이 취약점은 Drupal CMS 사용자들에게 심각한 보안 위협이 될 수 있습니다. 공격자들이 이미 이 취약점을 이용해 활발히 공격을 시도하고 있는 상황입니다. Drupal을 운영 중인 조직들은 즉시 보안 업데이트를 적용할 것을 권장합니다. 인공지능 기반 보안 도구가 발견한 취약점이 신속하게 악용되고 있어 신속한 대응이 중요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
+      "date": "2026-11-25"
     },
     {
       "id": "aHR0cHM6Ly93d3cu",
@@ -5169,8 +5250,8 @@
     }
   ],
   "sources": {
-    "Dell": 141,
-    "SecurityWeek": 378,
+    "Dell": 142,
+    "SecurityWeek": 386,
     "HPE": 28,
     "VAST Data": 27
   }

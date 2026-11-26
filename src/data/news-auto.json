@@ -4449,9 +4449,27 @@
     "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/",
     "https://www.securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco/",
     "https://www.securityweek.com/elecbrakes-bluetooth-vulnerabilities-expose-trailers-to-forced-braking/",
-    "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/"
+    "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/",
+    "https://www.dell.com/en-us/blog/ai-turns-childhood-cancer-analysis-from-days-to-hours",
+    "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
+    "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
+    "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+    "https://www.securityweek.com/ground-truth-ciso-matt-martin-on-building-a-real-security-program-without-an-enterprise-budget/",
+    "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/",
+    "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
+    "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
+    "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/"
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "AI가 소아암 분석을 며칠에서 몇 시간으로 단축",
+      "summary": "독일 하이델베르그의 호프 소아암센터(KiTZ)는 AI를 활용하여 종양 분석 시간을 60% 단축하여 과거 며칠 소요되던 프로세스를 단 몇 시간으로 줄였습니다. 동일한 인프라가 아시아, 아프리카, 남미의 병원들을 연결하여 자원이 부족한 의료기관도 실시간으로 세계 수준의 소아 종양학 인사이트에 접근할 수 있게 합니다. 이는 의학의 가장 시급한 임무 중 하나인 소아암 퇴치에 직접 기여하는 AI의 활용 사례입니다. Dell은 이를 가능하게 하는 인프라를 제공합니다.",
+      "category": "서버",
+      "source": "Dell",
+      "sourceUrl": "https://www.dell.com/en-us/blog/ai-turns-childhood-cancer-analysis-from-days-to-hours",
+      "date": "2026-12-01"
+    },
     {
       "id": "aHR0cHM6Ly93d3cu",
       "title": "신경망에서 AI 팩토리로: 실제 성과를 전하는 AI에 대한 롤란드 쿤츠의 통찰",
@@ -4460,6 +4478,78 @@
       "source": "Dell",
       "sourceUrl": "https://www.dell.com/en-us/blog/neural-networks-to-ai-factories-roland-kunz-on-ai-that-delivers",
       "date": "2026-11-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "새로 공개된 두 가지 GeoServer 취약점이 현재 공격 대상",
+      "summary": "GeoServer에서 새로 공개된 두 가지 취약점이 적극적으로 악용되고 있습니다. 이러한 취약점들은 원격 코드 실행(RCE)을 가능하게 하며, 공격자들이 영향을 받는 시스템에 대한 완전한 제어권을 획득할 수 있게 합니다. SecurityWeek의 보도에 따르면 이 취약점들은 이미 실제 공격에 활용되고 있는 상황입니다. GeoServer 사용자들은 긴급히 패치를 적용하여 자신의 시스템을 보호할 필요가 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "ShinyHunters, 복귀 주장... Inception 그룹은 연관성 거부",
+      "summary": "악명 높은 사이버범죄 집단 ShinyHunters가 활동 재개를 주장했습니다. 그룹은 새로 등장한 Inception 그룹과의 연관성이 있다는 의혹을 받고 있습니다. Inception 그룹은 ShinyHunters와의 연관성 주장을 명확히 거부했습니다. 이는 사이버범죄 커뮤니티 내에서 조직 간 정체성과 연계성에 대한 논쟁을 야기하고 있습니다. 보안 전문가들은 두 그룹의 실제 관계를 파악하기 위한 추가 조사를 진행 중입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "미국 재무부 FinCEN, 사이버 사건으로 시스템 연결 차단",
+      "summary": "미국 재무부의 금융범죄수사네트워크(FinCEN)가 사이버 사건으로 인해 시스템을 연결 해제했습니다. 이로 인해 FinCEN의 서비스에 일시적인 중단이 발생했습니다. 현재 당국은 사이버 공격의 영향을 조사하고 있으며, 필요한 조치를 취하고 있습니다. 이번 사건은 금융 감시 시스템의 중요성과 국가 기반시설 보호의 필요성을 강조합니다. 복구 일정과 추가 세부 정보는 계속해서 업데이트될 예정입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "실제 보안 프로그램 구축하기: 대기업 예산 없이도 가능한가 - CISO 매트 마틴의 조언",
+      "summary": "SecurityWeek이 보도한 이 기사는 제한된 예산으로도 실질적인 보안 프로그램을 구축할 수 있는 방법을 다룹니다. CISO 매트 마틴은 중소 규모 조직이 대기업 수준의 사이버보안 체계를 갖추기 위한 실질적인 전략을 제시합니다. 이 아티클은 예산 제약 속에서도 효과적인 보안 운영 프로그램을 개발하는 방법과 우선순위 설정의 중요성을 강조합니다. CISO 전략 측면에서 중소기업도 창의적이고 효율적인 접근으로 보안 리스크를 효과적으로 관리할 수 있다는 점을 조명합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/ground-truth-ciso-matt-martin-on-building-a-real-security-program-without-an-enterprise-budget/",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "표절 검사 서비스 Turnitin, 사이버공격 조사 중",
+      "summary": "글로벌 표절 검사 플랫폼인 Turnitin이 사이버공격을 조사하고 있습니다. 해당 회사는 비인가 접근 활동을 감지하고 보안 사건에 대한 조사를 진행 중에 있습니다. 교육 기관과 학생들이 광범위하게 이용하는 서비스인 만큼 이번 보안 사건은 많은 사용자에게 영향을 미칠 수 있습니다. Turnitin은 현재 상황을 파악하고 필요한 조치를 취하고 있으며, 사용자들에게 추가 정보를 제공할 것으로 예상됩니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "폐기된 Idunno AntiCsrf 라이브러리의 미패치 취약점을 악용하는 해커들",
+      "summary": "보안 업데이트가 중단된 Idunno AntiCsrf 라이브러리의 미패치 취약점이 해커들에 의해 적극적으로 악용되고 있습니다. 이 취약점은 CISA KEV(Known Exploited Vulnerabilities) 목록에 등재되었으며, 해당 라이브러리가 더 이상 유지보수되지 않고 있어 보안 패치를 받을 수 없는 상황입니다. CSRF(Cross-Site Request Forgery) 보호 기능을 담당하는 이 라이브러리를 사용 중인 애플리케이션들은 심각한 보안 위협에 노출되어 있습니다. 보안 전문가들은 해당 라이브러리를 사용 중인 조직들에 즉시 대체 솔루션으로 마이그레이션할 것을 권고하고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "팔로 알토 네트웍스, 방화벽 루트 접근을 가능하게 하는 프래그네시아 취약점 패치",
+      "summary": "팔로 알토 네트웍스가 PAN-OS 방화벽에 영향을 미치는 '프래그네시아'라는 Linux 취약점에 대한 패치를 릴리스했습니다. 이 취약점은 공격자가 영향받은 방화벽에 대한 루트 레벨의 접근 권한을 획득할 수 있도록 하는 심각한 보안 결함입니다. 현재 이 취약점이 실제 공격에 악용되고 있는 것으로 알려져 있으며, 조직들에게는 긴급한 패치 적용이 권고되고 있습니다. 이번 패치는 사이버 위협으로부터 엔터프라이즈 네트워크 인프라를 보호하기 위한 중요한 보안 조치입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Anthropic 스캐너가 발견한 Drupal 취약점, 실제 공격에 악용되고 있음",
+      "summary": "Anthropic의 보안 스캐너가 발견한 Drupal의 보안 취약점이 실제 공격에 악용되고 있는 것으로 확인되었습니다. 이 취약점은 Drupal CMS 사용자들에게 심각한 보안 위협이 될 수 있습니다. 공격자들이 이미 이 취약점을 이용해 활발히 공격을 시도하고 있는 상황입니다. Drupal을 운영 중인 조직들은 즉시 보안 업데이트를 적용할 것을 권장합니다. 인공지능 기반 보안 도구가 발견한 취약점이 신속하게 악용되고 있어 신속한 대응이 중요합니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
+      "date": "2026-11-25"
     },
     {
       "id": "aHR0cHM6Ly93d3cu",
@@ -13370,89 +13460,8 @@
       "source": "보안뉴스",
       "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145194&kind=&sub_kind=",
       "date": "2026-08-19"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "[속담으로 배우는 100가지 보안 습관 87] 소 잃고 외양간 고친다(7)-대출 문자 링크, 왜 100% 사기일까",
-      "summary": "대출 권유 문자에 포함된 앱 설치 링크는 100% 사기입니다보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=144241&kind=&sub_kind=",
-      "date": "2026-08-19"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "어드밴텍, GPU 기반 DAQ 시스템으로 고속 데이터 수집·실시간 AI 처리 통합 지원",
-      "summary": "DAQ 디지타이저·NVIDIA GPU·산업용 컴퓨팅 플랫폼 통합한 GPU 기반 DAQ 시스템 출시GPUDirect RDMA로 DAQ 데이터를 GPU 메모리에 직접 전달반도체 검사·의료 영상·전력 모니터링·자동차 시험 등 다양한 산업 분야에 적용 가능[보안뉴스 강초희 기자] 반도체 검사와 의료 진단, 전력 모니터링, 자동차 시험 등 고정밀 산업 분야에서는 대",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145192&kind=&sub_kind=",
-      "date": "2026-08-19"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "티오리, SaaS 제품군 데이터 보호 수준 입증... ‘SOC 2 타입 2’ 취득",
-      "summary": "글로벌 B2B 시장 공략 가속화[보안뉴스 강현주 기자] 오펜시브 사이버보안 전문 기업 티오리(Theori, 대표 박세준)가 글로벌 보안 표준인 ‘SOC 2 타입 2’(System and Organization Controls Type II) 보고서를 취득했다고 19일 밝혔다.SOC 2는 미국공인회계사협회(AICPA)가 제정한 글로벌 보안 감사 표준이다.",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145193&kind=&sub_kind=",
-      "date": "2026-08-19"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "지속 가능한 변혁 전략을 구축하는 방법",
-      "summary": "단편화된 AI 및 IT 전략은 조직의 진행 속도를 저하시키고 있습니다. 통합된 접근 방식을 통해 AI와 IT 전략을 연결하면 이러한 문제를 해결할 수 있습니다. 일관된 데이터 아키텍처와 통합 기술 플랫폼은 디지털 변혁의 성공을 위한 핵심 요소입니다. 조직은 단기적 성과뿐만 아니라 장기적 지속 가능성을 고려한 전략 수립이 필요합니다. 연결된 인프라 접근 방식은 조직의 민첩성을 높이고 혁신 속도를 가속화합니다. 이러한 통합 전략은 기업이 급변하는 시장 환경에서 경쟁력을 유지하도록 돕습니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/how-to-build-a-transformation-strategy-that-holds/",
-      "date": "2026-08-18"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "NextGen Sales Academy 내부 탐방: 미래의 영업 인재 육성",
-      "summary": "Dell Technologies의 NextGen Sales Academy는 초기 경력 인재들에게 실무 경험과 AI 기술을 습득할 수 있는 기회를 제공합니다. 이 프로그램은 단순한 교육을 넘어 영업 리더십으로의 명확한 경력 경로를 제시합니다. 참가자들은 실제 비즈니스 환경에서 즉시 적용 가능한 실전 경험을 쌓을 수 있습니다. AI 기술 교육을 통해 현대적 영업 역량을 갖추게 됩니다. 이 아카데미는 차세대 영업 리더를 양성하는 Dell의 전략적 투자입니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/inside-the-nextgen-sales-academy-building-future-sales-talent/",
-      "date": "2026-08-18"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "노트북 팬 소음을 줄이는 방법: 실질적인 해결책",
-      "summary": "노트북 팬 소음은 환기구 청소, 전원 설정 조정, 그리고 진단 도구를 통해 효과적으로 줄일 수 있습니다. 먼저 노트북의 통풍구와 필터를 정기적으로 청소하여 공기 흐름을 개선하는 것이 중요합니다. 전원 설정에서 성능 모드를 균형 모드로 변경하면 CPU 온도를 낮출 수 있습니다. 백그라운드에서 실행 중인 불필요한 프로그램을 종료하여 시스템 열을 감소시킬 수 있습니다. 정기적인 소프트웨어 진단과 하드웨어 점검을 통해 팬 소음의 근본 원인을 파악하고 해결할 수 있습니다. 이러한 방법들을 통해 노트북의 조용한 성능을 복구할 수 있습니다.",
-      "category": "서버",
-      "source": "Dell",
-      "sourceUrl": "https://www.dell.com/en-us/blog/how-to-stop-laptop-fan-noise-practical-fixes-that-work/",
-      "date": "2026-08-18"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "HPE, 인도 176개 대학에 학술 제휴 프로그램 확대하여 AI 기반 네트워킹 기술 양성",
-      "summary": "HPE는 8월 18일 대학 역량 강화 이니셔티브인 'HPE 학술 제휴 프로그램'이 인도 전역 176개 대학으로 확대되었다고 발표했다. 이 프로그램은 2026년에 18,000명 이상의 학생 수혜자에게 혜택을 제공할 예정이며, 계속해서 인도 전역으로 확장되고 있다. 프로그램은 학생과 교직원에게 AI 기반 네트워킹, 클라우드, 보안 및 자동화된 운영 분야의 업계 맞춤형 기술을 제공하고 있다. 이를 통해 인도의 미래 디지털 인프라 강화에 기여하고 있으며, 교육과 연구를 동시에 발전시키고 있다.",
-      "category": "HPC·서버",
-      "source": "HPE",
-      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/08/hpe-expands-academic-alliance-program-across-176-indian-universities-to-build-ai-native-networking-skills.html",
-      "date": "2026-08-18"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "Let's Build. VAST 빌더 챌린지 소개",
-      "summary": "VAST는 AI 애플리케이션 개발자들을 위한 'VAST 빌더 챌린지'를 출범합니다. 현재 개발자들은 최첨단 AI 모델과 클라우드 인프라에 접근할 수 있지만, 프로토타입에서 실제 작동하는 애플리케이션으로 전환하는 것은 여전히 큰 도전입니다. 문제는 단순히 모델 구축이 아니라 데이터 관리, 흐름, API 통합, 에이전트, 이벤트 처리 등 전체 AI 시스템을 구축하는 것입니다. VAST는 개발자들이 복잡한 인프라 통합에 시간을 낭비하지 말고 실제 개발에 집중해야 한다고 믿으며, 이를 위해 통합 AI 플랫폼 'VAST AI OS'를 개발했습니다. VAST 빌더 챌린지는 3개 도시에서 개최되는 실무 중심의 행사로, AI 엔지니어, 소프트웨어 개발자, 데이터 과학자, 플랫폼 아키텍트들이 현대적 AI 스택을 사용하여 실제 애플리케이션을 구축할 수 있는 기회를 제공합니다. 이 행사는 강의와 데모를 보는 일반 컨퍼런스가 아닌, 건설적인 협업과 실험에 집중하는 개발자 중심의 프로그램입니다.",
-      "category": "스토리지",
-      "source": "VAST Data",
-      "sourceUrl": "https://www.vastdata.com/blog/lets-build-introducing-the-vast-builders-challenge",
-      "date": "2026-08-18"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cu",
-      "title": "웨비나 오늘 개최: AI 속도의 공격에 대응하는 사이버 방어 재검토",
-      "summary": "SecurityWeek에서는 인공지능 기술을 활용한 초고속 사이버 공격에 대응하기 위한 새로운 방어 전략을 다루는 웨비나를 개최합니다. 이 세션에서는 기존의 사이버 보안 방어 체계가 AI 속도의 위협에 얼마나 효과적인지 검토하고, 조직이 취해야 할 개선 방안을 제시합니다. 특히 인공지능 기반 공격의 빠른 속도와 정교함에 맞춰 방어 메커니즘을 재설계해야 할 필요성을 강조합니다. 취약점 관리와 인공지능 기술의 교점에서 효과적인 보안 전략을 모색하는 것이 주요 내용입니다.",
-      "category": "보안",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/webinar-today-rethinking-cyber-defense-for-ai-speed-attacks/",
-      "date": "2026-08-18"
     }
   ],
-  "totalItems": 4450,
+  "totalItems": 4459,
   "hasArchive": true
 }
