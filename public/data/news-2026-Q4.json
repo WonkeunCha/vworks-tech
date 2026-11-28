@@ -21,6 +21,42 @@
     },
     {
       "id": "aHR0cHM6Ly93d3cu",
+      "title": "유조선 사이버공격, EU 양자 법안, 새로운 VirusTotal 기능",
+      "summary": "SecurityWeek에서 보도한 최신 사이버보안 뉴스로, 유조선을 대상으로 한 사이버공격 사건이 발생했습니다. 유럽연합은 양자 컴퓨팅 시대에 대비한 새로운 양자 보안 법안을 추진하고 있습니다. 또한 악성코드 분석 플랫폼인 VirusTotal이 새로운 기능들을 추가하여 보안 전문가들의 위협 탐지 능력을 강화하고 있습니다. 이러한 뉴스들은 해상 운송 보안, 미래 암호화 보안, 그리고 위협 분석 도구의 발전을 보여주고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "콜로라도 데이터 유출 사건으로 약 100,000명 피해 가능",
+      "summary": "콜로라도주의 공식 애플리케이션인 myColorado가 해킹되어 약 100,000명의 사용자가 잠재적 피해를 입을 수 있는 상황이 발생했습니다. 이번 데이터 유출 사건은 SecurityWeek에서 보도했으며, 사용자의 개인정보가 노출되었을 가능성이 있습니다. 콜로라도주 당국은 해킹 사건에 대한 조사를 진행 중이며, 영향을 받은 사용자들에게 주의를 당부했습니다. 이 사건은 주요 공공 서비스 애플리케이션에 대한 사이버 보안 위협이 계속되고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Hex 패키지 매니저, 잠재적 데이터 유출 경고",
+      "summary": "Elixir 및 Erlang 프로그래밍 언어용 패키지 매니저인 Hex가 잠재적 데이터 유출 사건에 대해 경고했습니다. 해당 플랫폼의 취약점이 악용되어 사용자 데이터가 유출될 수 있는 상황이 발생했습니다. 영향을 받은 개발자들은 자신의 계정 보안을 강화하고 필요한 조치를 취하도록 권장됩니다. 이번 사건은 오픈소스 패키지 매니저의 보안 위협이 얼마나 광범위할 수 있는지를 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "SAP, 사이버공격 확인... 소스코드 유출된 것으로 보도",
+      "summary": "글로벌 소프트웨어 기업 SAP가 사이버공격을 당한 것으로 확인되었으며, 소스코드가 유출된 것으로 보도되고 있습니다. SecurityWeek이 보도한 이번 사건은 SAP의 핵심 개발 자산이 침해되었을 가능성을 시사하고 있습니다. 소스코드 유출은 향후 SAP 제품의 보안 취약점 발견으로 이어질 수 있어 고객사들의 우려가 커지고 있습니다. SAP는 현재 사이버공격의 규모와 영향 범위를 파악하기 위한 조사를 진행 중인 것으로 알려졌습니다. 이번 사건은 엔터프라이즈 소프트웨어 업체에 대한 사이버위협이 얼마나 심각한지를 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
       "title": "FIFA, 개인정보 및 업무정보 접근 사이버공격 피해 보고",
       "summary": "국제축구연맹(FIFA)이 사이버공격으로 인한 데이터 유출 피해를 공식 발표했습니다. 이번 공격으로 인해 개인정보와 업무관련 정보가 불법으로 접근되었으며, FIFA는 보안 사고를 SecurityWeek을 통해 공개했습니다. 현재 FIFA는 데이터 침해 사건에 대해 조사를 진행 중이며, 영향받은 개인들에게 알리는 절차를 거치고 있습니다. 이 사건은 주요 국제 스포츠 기구가 겪은 대규모 사이버 위협으로, 국제 조직의 사이버보안 취약점을 다시 한번 부각시켰습니다.",
       "category": "보안",
@@ -5296,7 +5332,7 @@
   ],
   "sources": {
     "Dell": 142,
-    "SecurityWeek": 391,
+    "SecurityWeek": 395,
     "HPE": 28,
     "VAST Data": 27
   }

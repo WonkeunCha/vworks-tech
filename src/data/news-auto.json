@@ -4463,7 +4463,11 @@
     "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
     "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
     "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
-    "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/"
+    "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
+    "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
+    "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
+    "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
+    "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/"
   ],
   "items": [
     {
@@ -4483,6 +4487,42 @@
       "source": "Dell",
       "sourceUrl": "https://www.dell.com/en-us/blog/neural-networks-to-ai-factories-roland-kunz-on-ai-that-delivers",
       "date": "2026-11-30"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "유조선 사이버공격, EU 양자 법안, 새로운 VirusTotal 기능",
+      "summary": "SecurityWeek에서 보도한 최신 사이버보안 뉴스로, 유조선을 대상으로 한 사이버공격 사건이 발생했습니다. 유럽연합은 양자 컴퓨팅 시대에 대비한 새로운 양자 보안 법안을 추진하고 있습니다. 또한 악성코드 분석 플랫폼인 VirusTotal이 새로운 기능들을 추가하여 보안 전문가들의 위협 탐지 능력을 강화하고 있습니다. 이러한 뉴스들은 해상 운송 보안, 미래 암호화 보안, 그리고 위협 분석 도구의 발전을 보여주고 있습니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "콜로라도 데이터 유출 사건으로 약 100,000명 피해 가능",
+      "summary": "콜로라도주의 공식 애플리케이션인 myColorado가 해킹되어 약 100,000명의 사용자가 잠재적 피해를 입을 수 있는 상황이 발생했습니다. 이번 데이터 유출 사건은 SecurityWeek에서 보도했으며, 사용자의 개인정보가 노출되었을 가능성이 있습니다. 콜로라도주 당국은 해킹 사건에 대한 조사를 진행 중이며, 영향을 받은 사용자들에게 주의를 당부했습니다. 이 사건은 주요 공공 서비스 애플리케이션에 대한 사이버 보안 위협이 계속되고 있음을 보여줍니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "Hex 패키지 매니저, 잠재적 데이터 유출 경고",
+      "summary": "Elixir 및 Erlang 프로그래밍 언어용 패키지 매니저인 Hex가 잠재적 데이터 유출 사건에 대해 경고했습니다. 해당 플랫폼의 취약점이 악용되어 사용자 데이터가 유출될 수 있는 상황이 발생했습니다. 영향을 받은 개발자들은 자신의 계정 보안을 강화하고 필요한 조치를 취하도록 권장됩니다. 이번 사건은 오픈소스 패키지 매니저의 보안 위협이 얼마나 광범위할 수 있는지를 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cu",
+      "title": "SAP, 사이버공격 확인... 소스코드 유출된 것으로 보도",
+      "summary": "글로벌 소프트웨어 기업 SAP가 사이버공격을 당한 것으로 확인되었으며, 소스코드가 유출된 것으로 보도되고 있습니다. SecurityWeek이 보도한 이번 사건은 SAP의 핵심 개발 자산이 침해되었을 가능성을 시사하고 있습니다. 소스코드 유출은 향후 SAP 제품의 보안 취약점 발견으로 이어질 수 있어 고객사들의 우려가 커지고 있습니다. SAP는 현재 사이버공격의 규모와 영향 범위를 파악하기 위한 조사를 진행 중인 것으로 알려졌습니다. 이번 사건은 엔터프라이즈 소프트웨어 업체에 대한 사이버위협이 얼마나 심각한지를 보여주는 사례입니다.",
+      "category": "보안",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+      "date": "2026-11-27"
     },
     {
       "id": "aHR0cHM6Ly93d3cu",
@@ -13429,44 +13469,8 @@
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/carecloud-data-breach-impact-grows-to-3-7-million-individuals/",
       "date": "2026-08-19"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "삼오씨엔에스, 개인정보 접속기록관리 솔루션 ‘파르고스’ 공공·금융권 잇단 수주",
-      "summary": "함평군청 구축 완료우리투자증권·기획예산처, 창업진흥원 신규 수주[보안뉴스 강현주 기자] 삼오씨엔에스(대표 김현철)는 자사의 개인정보 접속기록관리 솔루션 ‘파르고스’(PARGOS)가 전남 함평군청에 구축을 완료하고 우리투자증권, 기획예산처, 창업진흥원를 신규 고객사로 확보하며 공공·금융권에서 레퍼런스를 넓히고 있다고 19일 밝혔다.파르고스는 개인정보처리시스템",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145214&kind=&sub_kind=",
-      "date": "2026-08-19"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "KT, 국산 반도체와 AI 모델 일체형 ‘소버린 AI 어플라이언스’ 출시",
-      "summary": "“데이터 주권과 AX 도입을 한 번에 해결”[보안뉴스 강현주 기자] KT(대표 박윤영)가 국산 AI 반도체와 국산 언어모델(LLM)을 하나의 서버에 통합한 기업용 소버린 AI 어플라이언스(하드웨어와 소프트웨어가 결합된 완제품형 장치)를 출시했다고 19일 밝혔다. KT가 선보인 ‘KT NPU LLM 스테이션’은 국내 AI 반도체 기업 리벨리온의 NPU ‘아톰",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145213&kind=&sub_kind=",
-      "date": "2026-08-19"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "한국요꼬가와전기-VNTG, 제조기업 AI 도입 지원 위한 MOU 체결",
-      "summary": "IT-OT 데이터 통합 기반 공동 솔루션 및 사업모델 개발, 진단부터 운영까지 전 과정 지원요꼬가와 OT 역량과 VNTG AI·데이터 역량 결합[보안뉴스 강초희 기자] 한국요꼬가와전기(대표이사 마츠카와 마사루, 한국요꼬가와)와 브이엔티지(대표이사 김태근, VNTG)가 국내 제조기업의 AI 도입과 활용을 함께 지원하기 위한 업무협약(MOU)을 체결했다고 30",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145205&kind=&sub_kind=",
-      "date": "2026-08-19"
-    },
-    {
-      "id": "aHR0cDovL3d3dy5i",
-      "title": "에스에스알, ‘바다’ 사업부 인수... CCE 시장 점유율 70% 굳힌다",
-      "summary": "지란지교에스앤씨 취약점 진단 솔루션 사업부 품고 시장 지배력 대폭 강화계열사 유상증자 참여로 70억원 자금 확보해 AI·클라우드 추가 M&A 예고[보안뉴스 조재호 기자] 에스에스알(SSR)이 지란지교에스앤씨 IT 인프라 취약점 진단 솔루션 ‘바다’(VADA) 사업부를 인수하며 정보시스템 보안 설정 취약점(CCE) 사업 경쟁력 강화에 나선다.이번 인수는 지란",
-      "category": "보안",
-      "source": "보안뉴스",
-      "sourceUrl": "http://www.boannews.com/media/view.asp?idx=145206&kind=&sub_kind=",
-      "date": "2026-08-19"
     }
   ],
-  "totalItems": 4464,
+  "totalItems": 4468,
   "hasArchive": true
 }
